@@ -1,0 +1,623 @@
+# Sources for the fluoride-iq dig, with authenticity entries (rules A1-A10, build/SCHEMA.md).
+# No article text is stored in this repository; copies were read in the session workspace and
+# are identified by sha256 so a reader can fetch the same file and compare.
+# read: full = downloaded and read directly; abstract = PubMed/Europe PMC record only;
+# tool = read through a summarizing fetch tool; quoted = known only as quoted by other sources;
+# metadata = citation record only (title, date, authors).
+# Standard test for journal records: "PubMed/Europe PMC record matches DOI, journal, authors and
+# date; retraction and correction links checked in Europe PMC [read]".
+# Standard test for government records: "Official host (.gov or court record service) [read];
+# header date and document number internally consistent [read]".
+retrieved: 2026-10-03
+sources:
+
+  # ---------------- Core reviews ----------------
+  - id: src-ntp-2024
+    title: "National Toxicology Program. NTP Monograph on the State of the Science Concerning Fluoride Exposure and Neurodevelopment and Cognition: A Systematic Review. NTP Monograph 08, August 2024 (erratum 4 Sep 2024)"
+    url: https://ntp.niehs.nih.gov/sites/default/files/2024-08/fluoride_final_508.pdf
+    document_class: primary_text (agency systematic review)
+    read: "full (324-page PDF, downloaded 2026-10-03; abstract, About This Monograph p. ii, results pp. 27-47, Addendum pp. 86-102 and Table B-1 read; most appendices searched by term only)"
+    sha256: 4d156ef6c849e06b8b47e7bf7bfc4b8ceeab9d4cba71983dd6ad372461583af0
+    publication: {status: corrected, date: 2024-09-04, notice: "Erratum of 4 Sep 2024 (Addendum pp. 87-88): 'Two children from each grade' corrected to 'Two classes'. It does not change the conclusion."}
+    stored_as: sources/ntp-monograph-08-2024.txt   # plain text for the quote check; US government work, public domain
+    authenticity: {status: authenticated, strength: strong, provenance: "Hosted by NIEHS/NTP (ntp.niehs.nih.gov); DOI 10.22427/NTP-MGRAPH-8; PMID 39172715.", tests: ["Official host [read]", "DOI and PMID resolve to the same title and date [read]"], tested_by: "Stratah session, 2026-10-03", gaps: [], checked: 2026-10-03}
+  - id: src-nasem-2020
+    title: "National Academies of Sciences, Engineering, and Medicine. Review of the Draft NTP Monograph: Systematic Review of Fluoride Exposure and Neurodevelopmental and Cognitive Health Effects. 2020. doi:10.17226/25715"
+    url: https://nap.nationalacademies.org/read/25715/chapter/1
+    document_class: secondary (peer review of a draft)
+    read: "full (OpenBook HTML, chapters 1-7, 2026-10-03; the PDF link returned HTML)"
+    sha256: 1ad5f4afbd4f2fc6c27e975d47af79d58b5c20b679d596a9654da0c46162804c   # chapter 1 HTML; chapters 2-7 hashed in the session record
+    authenticity: {status: authenticated, strength: strong, provenance: "National Academies Press, the publisher of record; DOI resolves.", tests: ["Official host [read]", "DOI resolves to the same title [read]"], tested_by: "Stratah session, 2026-10-03", gaps: [], checked: 2026-10-03}
+  - id: src-nasem-2021
+    title: "NASEM. Review of the Revised NTP Monograph on the Systematic Review of Fluoride Exposure and Neurodevelopmental and Cognitive Health Effects: A Letter Report. 2021. doi:10.17226/26030"
+    url: https://nap.nationalacademies.org/read/26030/chapter/1
+    document_class: secondary (peer review of a draft)
+    read: full (OpenBook HTML, chapters 1-7, 2026-10-03)
+    sha256: 312b87e649115949d4616ef1fc0e2ef21aaddb6f846a62d5ed5649c3382de9dd   # chapter 1 HTML
+    authenticity: {status: authenticated, strength: strong, provenance: "National Academies Press; DOI resolves.", tests: ["Official host [read]", "DOI resolves to the same title [read]"], tested_by: "Stratah session, 2026-10-03", gaps: [], checked: 2026-10-03}
+  - id: src-taylor-2025
+    title: "Taylor KW, Eftim SE, Sibrizzi CA, et al. Fluoride Exposure and Children's IQ Scores: A Systematic Review and Meta-Analysis. JAMA Pediatr. 2025;179(3):282-292 (online 6 Jan 2025). doi:10.1001/jamapediatrics.2024.5542"
+    url: https://www.ebi.ac.uk/europepmc/webservices/rest/PMC11877182/fullTextXML
+    document_class: primary_text (meta-analysis; its pooled results are synthetic)
+    read: "full (Europe PMC JATS XML of the published article, PMC11877182; jamanetwork.com refused this environment)"
+    sha256: 7f0309b1406d9bae7369feae58ae711ae9b9ad3b7b80bb6edd5c155cdd2de166
+    publication: {status: published}
+    authenticity: {status: authenticated, strength: moderate, provenance: "Europe PMC full text of record PMID 39761023; NIEHS intramural authors.", tests: ["Standard journal-record test [read]"], tested_by: "Stratah session, 2026-10-03", gaps: ["Not compared with the publisher's PDF."], checked: 2026-10-03}
+  - id: src-levy-2025
+    title: "Levy SM. Caution Needed in Interpreting the Evidence Base on Fluoride and IQ. JAMA Pediatr. 2025;179(3):231-234. doi:10.1001/jamapediatrics.2024.5539 (editorial)"
+    url: https://europepmc.org/article/MED/39761058
+    document_class: secondary (editorial)
+    read: "metadata only (no abstract; jamanetwork.com refused)"
+    authenticity: {status: unchecked, basis: "Only the citation record was seen; its content is not used."}
+  - id: src-lanphear-2025
+    title: "Lanphear BP, Den Besten P, Till C. Time to Reassess Systemic Fluoride Exposure, Again. JAMA Pediatr. 2025;179(3):234-236. doi:10.1001/jamapediatrics.2024.5549 (editorial)"
+    url: https://europepmc.org/article/MED/39761028
+    document_class: secondary (editorial)
+    read: "metadata only (jamanetwork.com refused)"
+    authenticity: {status: unchecked, basis: "Only the citation record was seen; its content is not used."}
+  - id: src-antoon-kumar-2025
+    title: "Antoon JW, Kumar JV. Concerns About Data and Analyses Used in Assessing Fluoride Exposure and Children's IQ Scores. JAMA Pediatr. Published online 12 May 2025. doi:10.1001/jamapediatrics.2025.0932 (letter)"
+    url: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC12353652/
+    document_class: secondary (letter criticizing src-taylor-2025)
+    read: full (NCBI efetch XML of the NIH author manuscript)
+    sha256: 56cdfabf84170aa2c815804561f3ba5334bef85ebae455a76db273a4cb297fd6
+    publication: {status: published}
+    authenticity: {status: authenticated, strength: moderate, provenance: "NIH author manuscript, PMC12353652.", tests: ["Standard journal-record test [read]"], tested_by: "Stratah session, 2026-10-03", gaps: ["Author manuscript, not the published letter."], checked: 2026-10-03}
+  - id: src-taylor-2025-aogh
+    title: "Taylor KW et al. Addressing Critiques of the Evidence Linking Fluoride and Children's IQ. Ann Glob Health. 2025 (12 Dec). doi:10.5334/aogh.4853"
+    url: https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12700148/fullTextXML
+    document_class: secondary (the NTP authors' reply to critics)
+    read: full (Europe PMC XML)
+    sha256: 0c4613185b22b54974c40b8dcb5ed9c968cc02d718ae3f33dad9e57e48691c79
+    publication: {status: published}
+    authenticity: {status: authenticated, strength: moderate, provenance: "Europe PMC full text, PMC12700148.", tests: ["Standard journal-record test [read]"], tested_by: "Stratah session, 2026-10-03", gaps: [], checked: 2026-10-03}
+  - id: src-kumar-2023
+    title: "Kumar JV, Moss ME, Liu H, Fisher-Owens S. Association between low fluoride exposure and children's intelligence: a meta-analysis relevant to community water fluoridation. Public Health. 2023 (online 28 Apr 2023). doi:10.1016/j.puhe.2023.03.011"
+    url: https://europepmc.org/article/MED/37120936
+    document_class: secondary (meta-analysis)
+    read: "abstract (sciencedirect.com and the Elsevier API refused the full text)"
+    publication: {status: published}
+    authenticity: {status: authenticated, strength: moderate, provenance: "PubMed record PMID 37120936.", tests: ["Standard journal-record test [read]"], tested_by: "Stratah session, 2026-10-03", gaps: ["Full text not read."], next_step: "Read the open-access full text at the publisher.", checked: 2026-10-03}
+  - id: src-kumar-2025
+    title: "Kumar JV, Moss ME, Liu H, et al. Fluoride and Neurodevelopmental Hazard Modelling: An Assessment of Concentration-Response Analysis. Community Dent Oral Epidemiol. 2025 (online 31 Oct 2025)"
+    url: https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12808860/fullTextXML
+    document_class: secondary (reanalysis)
+    read: "abstract and introduction (full XML downloaded)"
+    sha256: a4a8ea541dbb7c13cadec3fc0b68fee963dac98ab2728ccb1a6fea7d79e73315
+    publication: {status: published}
+    authenticity: {status: authenticated, strength: moderate, provenance: "Europe PMC full text, PMC12808860.", tests: ["Standard journal-record test [read]"], tested_by: "Stratah session, 2026-10-03", gaps: ["Methods and results sections not read."], checked: 2026-10-03}
+  - id: src-choi-2012
+    title: "Choi AL, Sun G, Zhang Y, Grandjean P. Developmental fluoride neurotoxicity: a systematic review and meta-analysis. Environ Health Perspect. 2012;120(10):1362-1368 (online 20 Jul 2012). doi:10.1289/ehp.1104912"
+    url: https://www.ebi.ac.uk/europepmc/webservices/rest/PMC3491930/fullTextXML
+    document_class: primary_text (meta-analysis)
+    read: full (Europe PMC XML)
+    sha256: e558d9ab61d7e256f0c3d358df2df71c74400b148251fcc7bf17e42c5ac92770
+    publication: {status: published}
+    authenticity: {status: authenticated, strength: moderate, provenance: "Europe PMC full text, PMC3491930.", tests: ["Standard journal-record test [read]"], tested_by: "Stratah session, 2026-10-03", gaps: [], checked: 2026-10-03}
+  - id: src-choi-2013-reply
+    title: "Choi AL, Grandjean P, et al. Response (to letters). Environ Health Perspect. 2013;121(3):a70"
+    url: https://www.ebi.ac.uk/europepmc/webservices/rest/PMC3621205/fullTextXML
+    document_class: secondary (authors' reply)
+    read: full (Europe PMC XML)
+    sha256: 9a9236ca021289d8fef67a13bab0092d08d4ea5f2ac4650b673eaaed718875d5
+    publication: {status: published}
+    authenticity: {status: authenticated, strength: moderate, provenance: "Europe PMC, PMC3621205.", tests: ["Standard journal-record test [read]"], tested_by: "Stratah session, 2026-10-03", gaps: [], checked: 2026-10-03}
+  - id: src-hsph-2012
+    title: "Harvard School of Public Health press release on Choi et al., 25 Jul 2012 (one sentence updated 5 Sep 2012)"
+    url: https://hsph.harvard.edu/news/fluoride-childrens-health-grandjean-choi/
+    document_class: secondary (institutional press release)
+    read: full (HTML, 2026-10-03)
+    sha256: 86b828cda1ae8e57eb0987fbdc063a273eb4bc35e7b2eac6c9e93c8b17670ad4
+    authenticity: {status: authenticated, strength: moderate, provenance: "Hosted on the school's own site; dates shown on the page.", tests: ["Official host [read]"], tested_by: "Stratah session, 2026-10-03", gaps: [], checked: 2026-10-03}
+  - id: src-choi-grandjean-statement-2012
+    title: "Choi AL, Grandjean P. Statement dated 11 Sep 2012 on the meta-analysis (as reposted by the Fluoride Action Network)"
+    url: https://fluoridealert.org/news/choi-grandjean-statement-on-fluoride-paper-september-11-2012/
+    document_class: primary_text (authors' statement) known through a repost
+    read: "full, but only as reposted by an anti-fluoridation group; the Harvard-hosted PDF link now returns HTML"
+    sha256: 9682b1b0aa9fc416d30f2fba196f937f3501deb1984620043852183dc7f05c0d
+    copy_of: "Harvard School of Public Health statement PDF (link no longer resolves)"
+    compared_with_holder_copy: no
+    authenticity: {status: authenticated, strength: weak, provenance: "Reposted by the Fluoride Action Network, which opposes fluoridation; the text cuts against that group's use of the study, which makes alteration in its favour unlikely, but the original was not seen.", tests: ["Internal consistency with src-choi-2012 Discussion [read]"], tested_by: "Stratah session, 2026-10-03", gaps: ["Original Harvard copy not found."], next_step: "Find the original PDF in a web archive.", checked: 2026-10-03}
+  - id: src-efsa-2025
+    title: "EFSA Scientific Committee. Updated consumer risk assessment of fluoride in food and drinking water including the contribution from other sources of oral exposure. EFSA J. 2025;23(7):e9478 (adopted 14 May 2025, published 22 Jul 2025)"
+    url: https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12280829/fullTextXML
+    document_class: primary_text (agency risk assessment)
+    read: "abstract and summary (full XML downloaded; body not read)"
+    sha256: e9ee89135d702162315a77d4fb9803a850ec0739077606b36ec9115b8f817fbe
+    publication: {status: published}
+    authenticity: {status: authenticated, strength: moderate, provenance: "Europe PMC full text of the EFSA Journal opinion, PMC12280829.", tests: ["Standard journal-record test [read]"], tested_by: "Stratah session, 2026-10-03", gaps: ["Only the abstract and summary were read."], checked: 2026-10-03}
+  - id: src-zohoori-2025
+    title: "Zohoori FV et al. Public Health Impacts of Water Fluorides: Current Evidence from a Rapid Systematic Review. Adv Nutr. 2025 (22 Oct)"
+    url: https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12662105/fullTextXML
+    document_class: secondary (rapid review)
+    read: abstract (full XML downloaded)
+    sha256: 9bc152728e1882279bb397e9cab191c263d3545aef38a7bba70c08ba06ad01ca
+    publication: {status: published}
+    authenticity: {status: authenticated, strength: moderate, provenance: "Europe PMC, PMC12662105.", tests: ["Standard journal-record test [read]"], tested_by: "Stratah session, 2026-10-03", gaps: ["Body not read."], checked: 2026-10-03}
+
+  # ---------------- Cohort studies ----------------
+  - id: src-green-2019
+    title: "Green R, Lanphear B, Hornung R, et al. Association Between Maternal Fluoride Exposure During Pregnancy and IQ Scores in Offspring in Canada. JAMA Pediatr. 2019;173(10):940-948 (online 19 Aug 2019). doi:10.1001/jamapediatrics.2019.1729"
+    url: https://www.ebi.ac.uk/europepmc/webservices/rest/PMC6704756/fullTextXML
+    document_class: primary_text (cohort study)
+    read: full (Europe PMC XML, open access)
+    sha256: b3267b1f0938d1b9f73ebb53b896faa16e44924036868e6ff42d227e6e58cb26
+    publication: {status: published}
+    authenticity: {status: authenticated, strength: moderate, provenance: "Europe PMC full text, PMC6704756.", tests: ["Standard journal-record test [read]"], tested_by: "Stratah session, 2026-10-03", gaps: ["Not compared with the publisher's PDF."], checked: 2026-10-03}
+  - id: src-christakis-2019
+    title: "Christakis DA. Decision to Publish Study on Maternal Fluoride Exposure During Pregnancy. JAMA Pediatr. 2019;173(10):948 (editor's note)"
+    url: https://europepmc.org/article/MED/31424484
+    document_class: secondary (editor's note)
+    read: "metadata only (jamanetwork.com refused)"
+    authenticity: {status: unchecked, basis: "Only the citation record was seen; its wording is not quoted."}
+  - id: src-till-2020-reply
+    title: "Till C, Green R, Lanphear B. Maternal Fluoride Exposure During Pregnancy and Children's IQ: reply. JAMA Pediatr. 2020;174(2):216-217"
+    url: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8101555/
+    document_class: secondary (authors' reply to letters)
+    read: full (author manuscript HTML)
+    sha256: ed7776f7dc22d1b721e151f17786540770e8b6a76f65d7598e75e2ebdee57b91
+    publication: {status: published}
+    authenticity: {status: authenticated, strength: moderate, provenance: "NIH author manuscript PMC8101555.", tests: ["Standard journal-record test [read]"], tested_by: "Stratah session, 2026-10-03", gaps: [], checked: 2026-10-03}
+  - id: src-till-2020-formula
+    title: "Till C, Green R, Flora D, et al. Fluoride exposure from infant formula and child IQ in a Canadian birth cohort. Environ Int. 2020;134:105315 (online 16 Nov 2019)"
+    url: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6913880/
+    document_class: primary_text (cohort study)
+    read: full (author manuscript)
+    sha256: 40f45c770156c518826840866f3400dff745ff48315ef7e827c7095c203ed79f
+    publication: {status: published}
+    authenticity: {status: authenticated, strength: moderate, provenance: "NIH author manuscript PMC6913880.", tests: ["Standard journal-record test [read]"], tested_by: "Stratah session, 2026-10-03", gaps: [], checked: 2026-10-03}
+  - id: src-bashash-2017
+    title: "Bashash M, Thomas D, Hu H, et al. Prenatal Fluoride Exposure and Cognitive Outcomes in Children at 4 and 6-12 Years of Age in Mexico. Environ Health Perspect. 2017;125(9):097017 (19 Sep 2017)"
+    url: https://www.ebi.ac.uk/europepmc/webservices/rest/PMC5915186/fullTextXML
+    document_class: primary_text (cohort study)
+    read: full (Europe PMC XML)
+    sha256: 5a59c2a3b4b285c4a88c8e21cfb287e33159e9e7125b4dee9f8a02d339eb54cf
+    publication: {status: published}
+    authenticity: {status: authenticated, strength: moderate, provenance: "Europe PMC full text, PMC5915186.", tests: ["Standard journal-record test [read]"], tested_by: "Stratah session, 2026-10-03", gaps: [], checked: 2026-10-03}
+  - id: src-ibarluzea-2022
+    title: "Ibarluzea J, Gallastegi M, Santa-Marina L, et al. Prenatal exposure to fluoride and neuropsychological development in early childhood: 1-to 4 years old children. Environ Res. 2022;207:112181 (online 8 Oct 2021)"
+    url: https://europepmc.org/article/MED/34627799
+    document_class: primary_text (cohort study)
+    read: abstract
+    publication: {status: published}
+    authenticity: {status: authenticated, strength: moderate, provenance: "PubMed record.", tests: ["Standard journal-record test [read]"], tested_by: "Stratah session, 2026-10-03", gaps: ["Full text not read; exposure levels not seen."], checked: 2026-10-03}
+  - id: src-grandjean-2024-odense
+    title: "Grandjean P, Meddis A, Nielsen F, et al. Dose dependence of prenatal fluoride exposure associations with cognitive performance at school age in three prospective studies. Eur J Public Health. 2024;34(1):143-149 (online 5 Oct 2023)"
+    url: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10843960/
+    document_class: primary_text (cohort study and pooled benchmark-dose analysis)
+    read: full (PMC HTML)
+    sha256: 69d16d7e6a9b739f860a207f5ce407ccd16beafc9a0921e02538a539524d7e8f
+    publication: {status: published}
+    authenticity: {status: authenticated, strength: moderate, provenance: "PMC10843960.", tests: ["Standard journal-record test [read]"], tested_by: "Stratah session, 2026-10-03", gaps: [], checked: 2026-10-03}
+  - id: src-broadbent-2015
+    title: "Broadbent JM, Thomson WM, Ramrakha S, et al. Community Water Fluoridation and Intelligence: Prospective Study in New Zealand. Am J Public Health. 2015;105(1):72-76"
+    url: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4265943/
+    document_class: primary_text (cohort study)
+    read: full (PMC HTML)
+    sha256: 11d16a6a56fb9442b68b5cff990caf144ac3ba21ff19b34c592fe3837eb7fb00
+    publication: {status: published}
+    authenticity: {status: authenticated, strength: moderate, provenance: "PMC4265943.", tests: ["Standard journal-record test [read]"], tested_by: "Stratah session, 2026-10-03", gaps: [], checked: 2026-10-03}
+  - id: src-grandjean-2019-review
+    title: "Grandjean P. Developmental fluoride neurotoxicity: an updated review. Environ Health. 2019;18:110"
+    url: https://www.ebi.ac.uk/europepmc/webservices/rest/PMC6923889/fullTextXML
+    document_class: secondary (review; used for its critique of src-broadbent-2015)
+    read: full (Europe PMC XML)
+    sha256: ea08a9f80042ff29407d7732b16fe1424f2e939c5199dd41f12661adfec7818f
+    publication: {status: published}
+    authenticity: {status: authenticated, strength: moderate, provenance: "Europe PMC, PMC6923889.", tests: ["Standard journal-record test [read]"], tested_by: "Stratah session, 2026-10-03", gaps: [], checked: 2026-10-03}
+  - id: src-aggeborn-ohman-2021
+    title: "Aggeborn L, Öhman M. The Effects of Fluoride in Drinking Water. J Polit Econ. 2021;129(2):465-491 (online 13 Jan 2021). doi:10.1086/711915"
+    url: https://www.journals.uchicago.edu/doi/10.1086/711915
+    document_class: primary_text (register study)
+    read: "full, in a third-party PDF copy (gwern.net mirror); the publisher refused"
+    sha256: 7f51eec2b3d6c6928063b6bc862c82cafffaaf7a85ee6801e8927b4ff477b58c
+    full_text_copy: {url: "https://gwern.net/doc/iq/2021-aggeborn.pdf", sha256: 7f51eec2b3d6c6928063b6bc862c82cafffaaf7a85ee6801e8927b4ff477b58c, compared_with_holder_copy: no}
+    copy_of: "J Polit Econ article, doi:10.1086/711915"
+    compared_with_holder_copy: no
+    publication: {status: published}
+    authenticity: {status: authenticated, strength: moderate, provenance: "Journal DOI resolves to the same title, authors and issue; the copy carries the journal's typesetting.", tests: ["DOI landing page matches title, authors, volume and pages [read]", "Copy's running heads and pagination match the citation [read]"], tested_by: "Stratah session, 2026-10-03", gaps: ["Third-party copy not compared with the publisher's file."], next_step: "Compare with the publisher's PDF.", checked: 2026-10-03}
+  - id: src-do-2024
+    title: "Do LG, Sawyer A, Spencer AJ, et al. Early Childhood Exposures to Fluorides and Cognitive Neurodevelopment: A Population-Based Longitudinal Study. J Dent Res. 2025;104(3):243-250 (online 18 Dec 2024)"
+    url: https://www.ebi.ac.uk/europepmc/webservices/rest/PMC11843800/fullTextXML
+    document_class: primary_text (cohort study)
+    read: full (Europe PMC XML)
+    sha256: 2176cbd2c64dc5076a631ec1879dba8e27196f053adf342fc745dabe2dd1841a
+    publication: {status: published}
+    authenticity: {status: authenticated, strength: moderate, provenance: "Europe PMC, PMC11843800.", tests: ["Standard journal-record test [read]"], tested_by: "Stratah session, 2026-10-03", gaps: [], checked: 2026-10-03}
+  - id: src-dewey-2023
+    title: "Dewey D, England-Mason G, Ntanda H, et al. Fluoride exposure during pregnancy from a community water supply is associated with executive function in preschool children: A prospective ecological cohort study. Sci Total Environ. 2023;891:164322"
+    url: https://europepmc.org/article/MED/37236475
+    document_class: primary_text (cohort study, Calgary)
+    read: abstract
+    publication: {status: published}
+    authenticity: {status: authenticated, strength: moderate, provenance: "PubMed record.", tests: ["Standard journal-record test [read]"], tested_by: "Stratah session, 2026-10-03", gaps: ["Full text not read."], checked: 2026-10-03}
+  - id: src-warren-2025
+    title: "Warren JR et al. Childhood fluoride exposure and cognition across the life course. Sci Adv. 2025 (19 Nov 2025). doi:10.1126/sciadv.adz0757"
+    url: https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12629170/fullTextXML
+    document_class: primary_text (cohort study)
+    read: full (Europe PMC XML)
+    sha256: 8e747345b75c55d604672c1bd9d94e4474f4d1d9ddad58a5c5536c222dcb120e
+    publication: {status: published}
+    authenticity: {status: authenticated, strength: moderate, provenance: "Europe PMC, PMC12629170.", tests: ["Standard journal-record test [read]"], tested_by: "Stratah session, 2026-10-03", gaps: [], checked: 2026-10-03}
+  - id: src-warren-2026
+    title: "Warren JR, Rumore G, Sicinski K, Herd P, Engelman M. Municipal water fluoridation, adolescent IQ, and cognition across the life course: Evidence from the Wisconsin Longitudinal Study. PNAS. 2026;123(16):e2536005123 (online 13 Apr 2026)"
+    url: https://www.ebi.ac.uk/europepmc/webservices/rest/PMC13099618/fullTextXML
+    document_class: primary_text (cohort study, brief report)
+    read: full (Europe PMC XML)
+    sha256: fdf4a03ece470fbb98a14aa67f941b6880c8036025755c08c18bca7b68c10667
+    publication: {status: published}
+    authenticity: {status: authenticated, strength: moderate, provenance: "Europe PMC, PMC13099618.", tests: ["Standard journal-record test [read]"], tested_by: "Stratah session, 2026-10-03", gaps: [], checked: 2026-10-03}
+  - id: src-savitz-2025
+    title: "Savitz DA. Evidence-based water fluoridation policy. Sci Adv. 2025 (19 Nov 2025) (commentary)"
+    url: https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12629195/fullTextXML
+    document_class: secondary (commentary)
+    read: partial (Europe PMC XML)
+    sha256: 0698b18ae3c4e5fb1257acdec344cc22446236872d8c2b58142b85bd5b2555c1
+    publication: {status: published}
+    authenticity: {status: authenticated, strength: moderate, provenance: "Europe PMC, PMC12629195.", tests: ["Standard journal-record test [read]"], tested_by: "Stratah session, 2026-10-03", gaps: [], checked: 2026-10-03}
+  - id: src-simon-2026
+    title: "Simon KR et al. Prenatal exposure to fluoride in public water and child cognition in the US ECHO cohort, 2006-2019. Am J Epidemiol. 2026 (online 14 Aug 2026). doi:10.1093/aje/kwag186. PMID 42596505"
+    url: https://doi.org/10.1093/aje/kwag186
+    document_class: primary_text (cohort study)
+    read: abstract
+    publication: {status: published}
+    authenticity: {status: authenticated, strength: moderate, provenance: "Europe PMC record PMID 42596505.", tests: ["Standard journal-record test [read]"], tested_by: "Stratah session, 2026-10-03", gaps: ["Full text not read."], next_step: "Read the full article.", checked: 2026-10-03}
+  - id: src-malin-2024
+    title: "Malin AJ et al. Maternal Urinary Fluoride and Child Neurobehavior at Age 36 Months (MADRES cohort, Los Angeles). JAMA Netw Open. 2024 (20 May 2024)"
+    url: https://www.ebi.ac.uk/europepmc/webservices/rest/PMC11107298/fullTextXML
+    document_class: primary_text (cohort study; neurobehavior, not IQ)
+    read: full (Europe PMC XML)
+    sha256: af0d31e7fead55b0be4dc21e2025dc2d5dd88dfcdf3791f93894b3c56e41ff7b
+    publication: {status: published}
+    authenticity: {status: authenticated, strength: moderate, provenance: "Europe PMC, PMC11107298.", tests: ["Standard journal-record test [read]"], tested_by: "Stratah session, 2026-10-03", gaps: [], checked: 2026-10-03}
+  - id: src-guichon-2024
+    title: "Guichon JR et al. Flawed MIREC fluoride and intelligence quotient publications: A failed attempt to undermine community water fluoridation. Community Dent Oral Epidemiol. 2024;52:365-374. doi:10.1111/cdoe.12954"
+    url: https://europepmc.org/article/MED/38525812
+    document_class: secondary (critique)
+    read: abstract
+    authenticity: {status: authenticated, strength: moderate, provenance: "PubMed record PMID 38525812.", tests: ["Standard journal-record test [read]"], tested_by: "Stratah session, 2026-10-03", gaps: ["Full text not read."], checked: 2026-10-03}
+
+  # ---------------- Courts, law and agencies ----------------
+  - id: src-fww-v-epa-2024
+    title: "Food & Water Watch, Inc. v. U.S. EPA, N.D. Cal. No. 3:17-cv-02162-EMC, Doc. 445, Findings of Fact and Conclusions of Law (Chen J.), filed 24 Sep 2024, 80 pp."
+    url: https://www.govinfo.gov/content/pkg/USCOURTS-cand-3_17-cv-02162/pdf/USCOURTS-cand-3_17-cv-02162-15.pdf
+    document_class: primary_text (court opinion)
+    read: full (PDF from govinfo, 2026-10-03)
+    sha256: c6330290fa1aa6a910f470b825e776c7e3dea05d12cd87b2454d0abcd3e2e705
+    stored_as: sources/fww-v-epa-2024-doc445.txt   # plain text for the quote check; US government work, public domain
+    authenticity: {status: authenticated, strength: strong, provenance: "GovInfo (US Government Publishing Office), the official record of US court opinions.", tests: ["Official host [read]", "Case number, document number and filing date in every page header [read]"], tested_by: "Stratah session, 2026-10-03", gaps: [], checked: 2026-10-03}
+  - id: src-fww-fee-order-2026
+    title: "Food & Water Watch v. EPA, N.D. Cal., Doc. 503, Order Awarding Fees and Costs, 5 Jan 2026"
+    url: https://www.govinfo.gov/content/pkg/USCOURTS-cand-3_17-cv-02162/pdf/USCOURTS-cand-3_17-cv-02162-16.pdf
+    document_class: primary_text (court order)
+    read: full (PDF)
+    sha256: b1011ed51b0f1eabbbd10111e8cb5636dd601ee37c260f7482bc5d00d26fa804
+    authenticity: {status: authenticated, strength: strong, provenance: "GovInfo.", tests: ["Official host [read]", "Page headers consistent [read]"], tested_by: "Stratah session, 2026-10-03", gaps: [], checked: 2026-10-03}
+  - id: src-ca9-2026
+    title: "Food & Water Watch, Inc. v. EPA, 9th Cir. No. 25-384, memorandum (not for publication), filed 21 May 2026"
+    url: https://cdn.ca9.uscourts.gov/datastore/memoranda/2026/05/21/25-384.pdf
+    document_class: primary_text (appellate memorandum; not precedent)
+    read: full (PDF from the court's own site)
+    sha256: 559ecd6d6faf8abb9ae360ec8ac7f54341256c6ea013f76824076fcd2122ebda
+    stored_as: sources/ca9-25-384-2026.txt   # plain text for the quote check; US government work, public domain
+    authenticity: {status: authenticated, strength: strong, provenance: "Ninth Circuit's own document store; FILED stamp 'MAY 21 2026'.", tests: ["Official host [read]", "Filing stamp and case number consistent [read]"], tested_by: "Stratah session, 2026-10-03", gaps: [], checked: 2026-10-03}
+  - id: src-epa-2025-04-07
+    title: "EPA news release, 7 Apr 2025: EPA will expeditiously review new science on fluoride in drinking water"
+    url: https://www.epa.gov/newsreleases/epa-will-expeditiously-review-new-science-fluoride-drinking-water
+    document_class: primary_text (agency statement)
+    read: full (HTML)
+    sha256: 17a02b36608a1f5580258bce2859bca75c5b278511275043f92afacd642eb92f
+    stored_as: sources/epa-2025-04-07.txt   # plain text for the quote check; US government work, public domain
+    authenticity: {status: authenticated, strength: strong, provenance: "epa.gov.", tests: ["Official host [read]"], tested_by: "Stratah session, 2026-10-03", gaps: [], checked: 2026-10-03}
+  - id: src-epa-2026-01-22
+    title: "EPA news release, 22 Jan 2026: next step in review of fluoride (Preliminary Assessment Plan and Literature Survey)"
+    url: https://www.epa.gov/newsreleases/epa-announces-next-step-gold-standard-review-fluoride-inform-protective
+    document_class: primary_text (agency statement)
+    read: full (HTML)
+    sha256: f080c1ca1da13e3a0eb3887809148b8d8e8c16e968f7e85e0427cdbe75597d6e
+    authenticity: {status: authenticated, strength: strong, provenance: "epa.gov.", tests: ["Official host [read]"], tested_by: "Stratah session, 2026-10-03", gaps: [], checked: 2026-10-03}
+  - id: src-fr-2026-01657
+    title: "EPA. Review of Science on Fluoride in Drinking Water: Preliminary Assessment Plan and Literature Survey. 91 FR 3722, 28 Jan 2026, FR Doc 2026-01657, docket EPA-HQ-OW-2025-3823"
+    url: https://www.federalregister.gov/d/2026-01657
+    document_class: primary_text (Federal Register notice)
+    read: full (PDF and HTML)
+    sha256: 00497e929833ec48377a455e4f2842098ea4ae91419cb65ca4f6e9c10d4f7a71
+    stored_as: sources/fr-2026-01657.txt   # plain text for the quote check; US government work, public domain
+    authenticity: {status: authenticated, strength: strong, provenance: "Federal Register, the official journal of the US government.", tests: ["Official host [read]", "FR document number and citation consistent [read]"], tested_by: "Stratah session, 2026-10-03", gaps: [], checked: 2026-10-03}
+  - id: src-epa-2026-08-protocol
+    title: "EPA news release of 3 Aug 2026 and Protocol EPA-822-D-26-001 for the fluoride toxicity assessment under the Safe Drinking Water Act"
+    url: https://www.epa.gov/newsreleases/epa-hits-key-milestone-expedited-review-fluoride-under-safe-drinking-water-act
+    document_class: primary_text (agency statement and protocol)
+    read: full (HTML and protocol PDF)
+    sha256: 72015defe84028a8b0d05a7f36f87c3652dd50fb017ec73a454e69c4ca8b8f6d   # protocol PDF; release HTML 7d8d996dd39b...
+    authenticity: {status: authenticated, strength: strong, provenance: "epa.gov.", tests: ["Official host [read]"], tested_by: "Stratah session, 2026-10-03", gaps: [], checked: 2026-10-03}
+  - id: src-ecfr-fluoride-mcl
+    title: "40 CFR 141.62 and 141.51 (fluoride MCL and MCLG, 4.0 mg/L) and 40 CFR 143.3 (secondary standard, 2.0 mg/L), eCFR as of 1 Sep 2026"
+    url: https://www.ecfr.gov/current/title-40/chapter-I/subchapter-D/part-141/subpart-G/section-141.62
+    document_class: primary_text (regulation)
+    read: full (eCFR XML)
+    sha256: 44ae04fb1e9f8c98b70a4b299b5475621bc87b5723cfce6a1e12e8cfc4d7c117
+    authenticity: {status: authenticated, strength: strong, provenance: "eCFR (Office of the Federal Register).", tests: ["Official host [read]"], tested_by: "Stratah session, 2026-10-03", gaps: [], checked: 2026-10-03}
+  - id: src-fda-2025-05-13
+    title: "FDA press release, 13 May 2025: FDA begins action to remove ingestible fluoride prescription drug products for children from the market"
+    url: https://www.fda.gov/news-events/press-announcements/fda-begins-action-remove-ingestible-fluoride-prescription-drug-products-children-market
+    document_class: primary_text (agency statement)
+    read: full (HTML)
+    sha256: 3fdd65ce6f5989c650d6ed7218345311ad73e0ec55ec128a7dc8f73d598b1c6f
+    authenticity: {status: authenticated, strength: strong, provenance: "fda.gov.", tests: ["Official host [read]"], tested_by: "Stratah session, 2026-10-03", gaps: [], checked: 2026-10-03}
+  - id: src-fr-2025-10943
+    title: "FDA. Ingestible fluoride prescription drug products for children; request for information and public meeting. 90 FR 25329, 16 Jun 2025, docket FDA-2025-N-1557"
+    url: https://www.federalregister.gov/d/2025-10943
+    document_class: primary_text (Federal Register notice)
+    read: full (HTML)
+    sha256: 868c8af7833fdcb5ae136ec74a4e3e0f10d0e7aa37e860fb47be0e2d1c2dcf3d
+    authenticity: {status: authenticated, strength: strong, provenance: "Federal Register.", tests: ["Official host [read]"], tested_by: "Stratah session, 2026-10-03", gaps: [], checked: 2026-10-03}
+  - id: src-fda-2025-10-31
+    title: "FDA press release, 31 Oct 2025, and CDER scientific evaluation of ingestible fluoride products for children (fda.gov/media/189421)"
+    url: https://www.fda.gov/media/189421/download
+    document_class: primary_text (agency evaluation)
+    read: full (press release HTML and evaluation PDF)
+    sha256: d70b9dcc9b5f8bdbdc9107b8ee540d1584bab9dff50b0c674817cfa9e22c9a8f   # evaluation PDF; release HTML e3a828507c76...
+    authenticity: {status: authenticated, strength: strong, provenance: "fda.gov.", tests: ["Official host [read]"], tested_by: "Stratah session, 2026-10-03", gaps: [], checked: 2026-10-03}
+  - id: src-cdc-cwf-recs
+    title: "CDC, Community Water Fluoridation Recommendations (page last reviewed 15 May 2024), fetched 3 Oct 2026"
+    url: https://www.cdc.gov/fluoridation/about/community-water-fluoridation-recommendations.html
+    document_class: primary_text (agency web page)
+    read: full (HTML, fetched 2026-10-03)
+    sha256: 183911e76d120000f15c1f231e43565c4925e7da66f8327e2753c01681ab2216
+    authenticity: {status: authenticated, strength: moderate, provenance: "cdc.gov live page; a web page can change without notice, so this records the page as fetched.", tests: ["Official host [read]"], tested_by: "Stratah session, 2026-10-03", gaps: ["No archived capture by an independent party."], checked: 2026-10-03}
+  - id: src-pbs-2025-04-07
+    title: "Associated Press via PBS NewsHour, published 8 Apr 2025 (remarks of 7 Apr): Kennedy plans to tell CDC to stop recommending fluoridation"
+    url: https://www.pbs.org/newshour/health/rfk-jr-will-tell-cdc-to-stop-recommending-fluoride-in-drinking-water
+    document_class: secondary (news report)
+    read: full (HTML)
+    sha256: 52dd286d42baf80af8430749762aff2e38f17d9125ee8b5de237d8bd4bb74aa4
+    authenticity: {status: not_applicable, basis: "A news report of a stated intention; the HHS record itself was not reachable (hhs.gov refused)."}
+  - id: src-phs-2015
+    title: "US Public Health Service Recommendation for Fluoride Concentration in Drinking Water for the Prevention of Dental Caries. Federal Register 80(84):24936-24947, 1 May 2015 (same text: Public Health Rep 2015;130(4):318-331)"
+    url: https://www.federalregister.gov/d/2015-10201
+    document_class: primary_text (federal recommendation)
+    read: full (Federal Register PDF)
+    sha256: d90da002ce0641673e0b6602ec0f45a2e930c5f254b836dbd8b65a5b6054d34b
+    authenticity: {status: authenticated, strength: strong, provenance: "Federal Register.", tests: ["Official host [read]", "FR document number consistent [read]"], tested_by: "Stratah session, 2026-10-03", gaps: [], checked: 2026-10-03}
+  - id: src-utah-hb81
+    title: "Utah H.B. 81 (2025 General Session), Fluoride Amendments, enrolled text and bill status"
+    url: https://le.utah.gov/~2025/bills/static/HB0081.html
+    document_class: primary_text (statute)
+    read: full (enrolled XML and status JSON from le.utah.gov)
+    sha256: aa8c62d9336c0d01a8e2e08e5631838aa08cb448bf228d44585b7b8d6d10b636
+    stored_as: sources/utah-hb81-2025-enrolled.txt   # plain text for the quote check; US government work, public domain
+    authenticity: {status: authenticated, strength: strong, provenance: "Utah Legislature's own site.", tests: ["Official host [read]", "Signing date in status record matches the effective-date clause sequence [read]"], tested_by: "Stratah session, 2026-10-03", gaps: [], checked: 2026-10-03}
+  - id: src-florida-sb700
+    title: "Florida SB 700 (2025), Chapter 2025-22, enrolled text and bill history"
+    url: https://www.flsenate.gov/Session/Bill/2025/700
+    document_class: primary_text (statute)
+    read: full (enrolled PDF and history page)
+    sha256: ff5be8e55e4b12afdf108caaeb9a98d6470b1ca426854f2e9260574eb52821e0
+    authenticity: {status: authenticated, strength: strong, provenance: "Florida Senate's own site.", tests: ["Official host [read]", "Chapter number and history dates consistent [read]"], tested_by: "Stratah session, 2026-10-03", gaps: [], checked: 2026-10-03}
+  - id: src-who-gdwq-2022
+    title: "WHO. Guidelines for Drinking-water Quality, 4th edition incorporating the 1st and 2nd addenda (2022), fluoride entry pp. 402-404"
+    url: https://iris.who.int/server/api/core/bitstreams/69c17edd-ee26-425b-9d34-33799377e886/content
+    document_class: primary_text (international guideline)
+    read: full (fluoride entry)
+    sha256: a0ac96fa5eac13e4a14f9fd77ea86440eda9349e04fb58e5a86bee9c06db93d0
+    authenticity: {status: authenticated, strength: strong, provenance: "who.int.", tests: ["Official host [read]"], tested_by: "Stratah session, 2026-10-03", gaps: [], checked: 2026-10-03}
+  - id: src-scher-2011
+    title: "European Commission SCHER. Critical review of any new evidence on the hazard profile, health effects, and human exposure to fluoride and the fluoridating agents of drinking water. Adopted 16 May 2011"
+    url: https://ec.europa.eu/health/scientific_committees/environmental_risks/docs/scher_o_139.pdf
+    document_class: primary_text (scientific committee opinion)
+    read: full (PDF)
+    sha256: dd5010f606606bbeb0101f039775b22c76482dc9b627d7b8c146e0bbed4e7c80
+    authenticity: {status: authenticated, strength: moderate, provenance: "European Commission scientific committee document.", tests: ["Adoption date and committee name consistent [read]"], tested_by: "Stratah session, 2026-10-03", gaps: ["Fetched copy not confirmed against the live EC host."], checked: 2026-10-03}
+  - id: src-ada-2024-09-25
+    title: "American Dental Association press release, 25 Sep 2024, on the federal court ruling"
+    url: https://www.ada.org/about/press-releases/community-water-fluoridation-at-optimal-levels-is-safe-and-effective
+    document_class: primary_text (professional body statement)
+    read: full (HTML)
+    sha256: cba85c779aa36613ae78a3b862f8e05e5c770fd350e523d24f6acfe89a78d586
+    authenticity: {status: authenticated, strength: moderate, provenance: "ada.org.", tests: ["Official host [read]"], tested_by: "Stratah session, 2026-10-03", gaps: [], checked: 2026-10-03}
+  - id: src-aap-factcheck
+    title: "American Academy of Pediatrics, 'Fact Checked' page on fluoride, updated 3 Nov 2025"
+    url: https://www.aap.org/en/news-room/fact-checked/fact-checked-fluoride-is-a-powerful-tool-for-preventing-tooth-decay/
+    document_class: primary_text (professional body statement)
+    read: full (HTML)
+    sha256: 9f949d4f830e255f5c8e96b940c9be60110a9627c5369bb6aa352f7f55db2bb9
+    authenticity: {status: authenticated, strength: moderate, provenance: "aap.org.", tests: ["Official host [read]"], tested_by: "Stratah session, 2026-10-03", gaps: [], checked: 2026-10-03}
+  - id: src-calgary
+    title: "City of Calgary, fluoride web page (history of cessation and reintroduction), fetched 2026-10-03"
+    url: https://www.calgary.ca/water/drinking-water/fluoride.html
+    document_class: primary_text (municipal web page)
+    read: full (HTML)
+    sha256: 56633b6a0bd4f364fb4a820d17e73998a00cd9f034bb424d042ef22744a4f247
+    authenticity: {status: authenticated, strength: moderate, provenance: "calgary.ca.", tests: ["Official host [read]"], tested_by: "Stratah session, 2026-10-03", gaps: [], checked: 2026-10-03}
+
+  # ---------------- Dose, exposure and dental benefit ----------------
+  - id: src-cochrane-2024
+    title: "Iheozor-Ejiofor Z, Walsh T, Lewis SR, et al. Water fluoridation for the prevention of dental caries. Cochrane Database Syst Rev. 2024;10:CD010856.pub3 (4 Oct 2024)"
+    url: https://www.ebi.ac.uk/europepmc/webservices/rest/PMC11449566/fullTextXML
+    document_class: secondary (systematic review)
+    read: "abstract and plain-language summary (cochranelibrary.com and the PMC body refused)"
+    sha256: 3eaec40d6849b351084d0d9de7aa78c93d7db75a30801543f90869453dc6cded
+    publication: {status: published}
+    authenticity: {status: authenticated, strength: moderate, provenance: "PubMed record PMID 39362658; PMC11449566.", tests: ["Standard journal-record test [read]"], tested_by: "Stratah session, 2026-10-03", gaps: ["Body and GRADE tables not read."], next_step: "Read the full review.", checked: 2026-10-03}
+  - id: src-cochrane-2015
+    title: "Iheozor-Ejiofor Z, Worthington HV, Walsh T, et al. Water fluoridation for the prevention of dental caries. Cochrane Database Syst Rev. 2015;6:CD010856.pub2 (18 Jun 2015)"
+    url: https://www.ebi.ac.uk/europepmc/webservices/rest/PMC6953324/fullTextXML
+    document_class: secondary (systematic review; superseded by src-cochrane-2024)
+    read: abstract
+    sha256: 2af985a2fa11684fdb89a9151d11c24d1c4ede3b33a20e27b645681a3b74b365
+    publication: {status: published}
+    authenticity: {status: authenticated, strength: moderate, provenance: "PMC6953324.", tests: ["Standard journal-record test [read]"], tested_by: "Stratah session, 2026-10-03", gaps: ["Body not read."], checked: 2026-10-03}
+  - id: src-catfish-2024
+    title: "Goodwin M, Walsh T, Whittaker W, et al. The CATFISH study: An evaluation of a water fluoridation program in Cumbria, UK. Community Dent Oral Epidemiol. 2024;52(4) (online 17 May 2024)"
+    url: https://europepmc.org/article/MED/38757663
+    document_class: primary_text (cohort study)
+    read: abstract
+    sha256: b1cda5fd98f580b20484c9ef1c307cd07f48c7ca076f4206b44776b5e97acfaa
+    publication: {status: published}
+    authenticity: {status: authenticated, strength: moderate, provenance: "PubMed record PMID 38757663.", tests: ["Standard journal-record test [read]"], tested_by: "Stratah session, 2026-10-03", gaps: ["Full text not read."], checked: 2026-10-03}
+  - id: src-mclaren-2022
+    title: "McLaren L, Patterson SK, Faris P, et al. Fluoridation cessation and children's dental caries: A 7-year follow-up evaluation of Grade 2 schoolchildren in Calgary and Edmonton, Canada. Community Dent Oral Epidemiol. 2022;50:391-403 (online 26 Jul 2021)"
+    url: https://www.ebi.ac.uk/europepmc/webservices/rest/PMC9542152/fullTextXML
+    document_class: primary_text (repeated cross-sectional study)
+    read: full (Europe PMC XML)
+    sha256: d07be3e5f5619958b67f324f8d22db06a1a843e9e3cacb2b3fea3b516b6727d3
+    publication: {status: published}
+    authenticity: {status: authenticated, strength: moderate, provenance: "Europe PMC, PMC9542152.", tests: ["Standard journal-record test [read]"], tested_by: "Stratah session, 2026-10-03", gaps: [], checked: 2026-10-03}
+  - id: src-meyer-2018
+    title: "Meyer J, Margaritis V, Mendelsohn A. Consequences of community water fluoridation cessation for Medicaid-eligible children and adolescents in Juneau, Alaska. BMC Oral Health. 2018;18:215 (13 Dec 2018)"
+    url: https://www.ebi.ac.uk/europepmc/webservices/rest/PMC6293551/fullTextXML
+    document_class: primary_text (claims-data study)
+    read: full (Europe PMC XML)
+    sha256: 12a0c5a7b262f4eb6ad50eb9aefcf723e47ed3d93f8d09a5d20de43e299ffd29
+    publication: {status: published}
+    authenticity: {status: authenticated, strength: moderate, provenance: "Europe PMC, PMC6293551.", tests: ["Standard journal-record test [read]"], tested_by: "Stratah session, 2026-10-03", gaps: [], checked: 2026-10-03}
+  - id: src-hung-2026
+    title: "Hung M, Ward C, Marx J, et al. The impact of community water fluoridation cessation on health equity and service utilization: a global scoping review. BMC Oral Health. 2026 (online 24 Jun 2026)"
+    url: https://www.ebi.ac.uk/europepmc/webservices/rest/PMC13573383/fullTextXML
+    document_class: secondary (scoping review)
+    read: full (Europe PMC XML)
+    sha256: c50104a992acebfa469645c775b01a6c6ded614b9c542796bebf438e825a4e90
+    publication: {status: published}
+    authenticity: {status: authenticated, strength: moderate, provenance: "Europe PMC, PMC13573383.", tests: ["Standard journal-record test [read]"], tested_by: "Stratah session, 2026-10-03", gaps: [], checked: 2026-10-03}
+  - id: src-cdc-mmwr-2023
+    title: "Boehmer TJ, Lesaja S, Espinoza L, Ladva CN. Community Water Fluoridation Levels To Promote Effectiveness and Safety in Oral Health - United States, 2016-2021. MMWR 2023;72(22):593-596 (2 Jun 2023)"
+    url: https://www.ebi.ac.uk/europepmc/webservices/rest/PMC10243485/fullTextXML
+    document_class: primary_text (surveillance data)
+    read: full (Europe PMC XML)
+    sha256: 8c057e16aa93443b680b1d2a87799c97c7992d6926b04345d83869adf85fcbb8
+    publication: {status: published}
+    authenticity: {status: authenticated, strength: moderate, provenance: "Europe PMC, PMC10243485.", tests: ["Standard journal-record test [read]"], tested_by: "Stratah session, 2026-10-03", gaps: [], checked: 2026-10-03}
+  - id: src-cdc-wfrs-2022
+    title: "CDC, 2022 Water Fluoridation Statistics (page updated 6 Jun 2024)"
+    url: https://www.cdc.gov/fluoridation/php/statistics/2022-water-fluoridation-statistics.html
+    document_class: primary_text (agency statistics)
+    read: "tool (curl refused; read through a summarizing fetch tool; no local copy)"
+    authenticity: {status: unchecked, basis: "Read only through a fetch tool; no stored copy to hash."}
+  - id: src-phac-2022
+    title: "Public Health Agency of Canada. The State of Community Water Fluoridation across Canada, 2022 Report"
+    url: https://www.canada.ca/en/public-health/services/publications/healthy-living/community-water-fluoridation-across-canada.html
+    document_class: primary_text (agency report)
+    read: "tool (canada.ca dropped every direct connection; read through a summarizing fetch tool)"
+    authenticity: {status: unchecked, basis: "Read only through a fetch tool; no stored copy to hash."}
+  - id: src-nrc-2006
+    title: "National Research Council. Fluoride in Drinking Water: A Scientific Review of EPA's Standards. National Academies Press, 2006. doi:10.17226/11571"
+    url: https://nap.nationalacademies.org/read/11571/chapter/2
+    document_class: secondary (expert committee review)
+    read: full (Summary chapter only)
+    sha256: c0778a8a7c9d8a3947c0ac08da3602ecd73b01f25c9140ced6c50b0e3b9936d6
+    authenticity: {status: authenticated, strength: strong, provenance: "National Academies Press.", tests: ["Official host [read]"], tested_by: "Stratah session, 2026-10-03", gaps: ["Chapters beyond the Summary not read."], checked: 2026-10-03}
+  - id: src-neurath-2019
+    title: "Neurath C, Limeback H, Osmunson B, et al. Dental Fluorosis Trends in US Oral Health Surveys: 1986 to 2012. JDR Clin Trans Res. 2019;4(4) (online 6 Mar 2019)"
+    url: https://europepmc.org/article/MED/30931722
+    document_class: primary_text (secondary analysis of survey data)
+    read: abstract
+    sha256: 14dfc0c1623ad785771fdf7c9b99913e2c140b2e92a91e4da0a4db0853124626
+    publication: {status: published}
+    authenticity: {status: authenticated, strength: moderate, provenance: "PubMed record PMID 30931722.", tests: ["Standard journal-record test [read]"], tested_by: "Stratah session, 2026-10-03", gaps: ["Full text not read."], checked: 2026-10-03}
+  - id: src-wiener-2018
+    title: "Wiener RC, Shen C, Findley P, Tan X, Sambamoorthi U. Dental Fluorosis over Time: A comparison of NHANES data from 2001-2002 and 2011-2012. J Dent Hyg. 2018;92(1):23-29"
+    url: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5929463/
+    document_class: primary_text (survey analysis)
+    read: full (author manuscript)
+    sha256: 6955a3477e23355be36e31e4e4f9fd744e72c1fccabb7c648425a3da175dd937
+    publication: {status: published}
+    authenticity: {status: authenticated, strength: moderate, provenance: "NIH author manuscript PMC5929463.", tests: ["Standard journal-record test [read]"], tested_by: "Stratah session, 2026-10-03", gaps: [], checked: 2026-10-03}
+
+  # ---------------- History, popular claims, opinion ----------------
+  - id: src-cdc-mmwr-1999
+    title: "CDC. Achievements in Public Health, 1900-1999: Fluoridation of Drinking Water to Prevent Dental Caries. MMWR 1999;48(41):933-940 (22 Oct 1999)"
+    url: https://www.cdc.gov/mmwr/preview/mmwrhtml/mm4841a1.htm
+    document_class: primary_text (agency report)
+    read: full (HTML)
+    sha256: a8aa51ceba92a6c9681ef10931449f657c861ad41468d91875c2b4d7f9493c41
+    authenticity: {status: authenticated, strength: strong, provenance: "cdc.gov MMWR archive.", tests: ["Official host [read]"], tested_by: "Stratah session, 2026-10-03", gaps: [], checked: 2026-10-03}
+  - id: src-hicks-2011
+    title: "Hicks J. Pipe Dreams: America's Fluoride Controversy. Science History Institute, Distillations, 25 Jun 2011"
+    url: https://www.sciencehistory.org/stories/magazine/pipe-dreams-americas-fluoride-controversy/
+    document_class: secondary (institutional history)
+    read: full (HTML)
+    sha256: 50b4a2ff06543bc4f68ac59e805288f35c70f63e3c6abaad7559300e0aa0ca3f
+    authenticity: {status: not_applicable, basis: "A history article, used for dates of the 1945 start and the 1950s-60s opposition; the primary items it describes were not read."}
+  - id: src-politifact-2014
+    title: "Jacobson L. Jesse Ventura says the Nazis pioneered the use of fluoridated water. PolitiFact, 8 Dec 2014"
+    url: https://politifact.com/factchecks/2014/dec/08/jesse-ventura/jesse-ventura-says-nazis-pioneered-use-fluoridated/
+    document_class: secondary (fact-check citing named historians)
+    read: full (HTML)
+    sha256: 83fab4db6cf6b359d505e7c3e832665f157c5007d8a1459e232632edee8bb98f
+    authenticity: {status: not_applicable, basis: "A secondary report of historians' statements; the historians' own archive searches were not seen."}
+  - id: src-perkins-repro
+    title: "'Perkins and Mind Control', a reproduction dated 13 Aug 2000 of a letter attributed to Charles E. Perkins (1954)"
+    url: http://www.sonic.net/kryptox/history/perkins2.htmx
+    document_class: transmission artifact (later reproduction)
+    read: full (HTML)
+    sha256: dbc0403a48f8a6e3538274ae0703beaedaefcfb6311a619e92775e07ab8355b5
+    authenticity: {status: unchecked, basis: "A later reproduction with no original; versions found elsewhere disagree on whether the letter mentions Nazis. Used only as a record of how the claim circulates."}
+  - id: src-cdc-additives-2011
+    title: "CDC Division of Oral Health. Water Fluoridation Additives - Engineering Fact Sheet (last reviewed 7 Jan 2011; copy printed 14 Jan 2012)"
+    url: https://americanfluoridationsociety.org/wp-content/uploads/2017/05/f-Water-Fluoridation-Additives-Engineering-Fact-Sheet-CDC-2011.pdf
+    document_class: primary_text (agency fact sheet) known through a mirror copy
+    read: "full, in a mirror copy hosted by the American Fluoridation Society (the live CDC page refused)"
+    sha256: cb9df90af87899e72318eb7dcaeb97c51106a813064ac82e774cead38b9739d8
+    copy_of: "CDC engineering fact sheet, cdc.gov"
+    compared_with_holder_copy: no
+    authenticity: {status: authenticated, strength: weak, provenance: "Printed copy carrying the CDC page header and review date; hosted by a pro-fluoridation group.", tests: ["Page header, URL footer and review date consistent [read]"], tested_by: "Stratah session, 2026-10-03", gaps: ["Not compared with a CDC-held copy."], next_step: "Compare with an archived capture of the CDC page.", checked: 2026-10-03}
+  - id: src-nsf-2019
+    title: "NSF International. Fact Sheet on Fluoridation Products and Fluoride, 14 Jan 2019"
+    url: https://d2evkimvhatqav.cloudfront.net/documents/Fluoride_Fact_Sheet_2019.pdf
+    document_class: primary_text (certifier's test data)
+    read: full (PDF)
+    sha256: 090f3dfe36c139813efd192b7a18a06cc3a19ac5ae4e46e620eba09c92863cf2
+    authenticity: {status: authenticated, strength: moderate, provenance: "NSF's document store (CloudFront host used by nsf.org).", tests: ["Document dated and attributed to NSF; figures internally consistent across tables [read]"], tested_by: "Stratah session, 2026-10-03", gaps: ["Host link not traced from nsf.org in this pass."], checked: 2026-10-03}
+  - id: src-luke-2001
+    title: "Luke J. Fluoride deposition in the aged human pineal gland. Caries Res. 2001;35:125-128"
+    url: https://europepmc.org/article/MED/11275672
+    document_class: primary_text (autopsy study)
+    read: abstract
+    sha256: 278ad2044e4bc724f282bcddb8c90776c7e851e499da29e9649ec8c1c24eaf73
+    publication: {status: published}
+    authenticity: {status: authenticated, strength: moderate, provenance: "PubMed record PMID 11275672.", tests: ["Standard journal-record test [read]"], tested_by: "Stratah session, 2026-10-03", gaps: ["Full text not read."], checked: 2026-10-03}
+  - id: src-malin-till-2015
+    title: "Malin AJ, Till C. Exposure to fluoridated water and attention deficit hyperactivity disorder prevalence among children and adolescents in the United States: an ecological association. Environ Health. 2015;14:17"
+    url: https://www.ebi.ac.uk/europepmc/webservices/rest/PMC4389999/fullTextXML
+    document_class: primary_text (ecological study)
+    read: full (Europe PMC XML)
+    sha256: 4ac48e6b421e6e02eb86e7e77b0e8aa32770696956e9eb08b5cbab9ae4b1ea7b
+    publication: {status: published}
+    authenticity: {status: authenticated, strength: moderate, provenance: "Europe PMC, PMC4389999.", tests: ["Standard journal-record test [read]"], tested_by: "Stratah session, 2026-10-03", gaps: [], checked: 2026-10-03}
+  - id: src-perrott-2018
+    title: "Perrott KW. Fluoridation and attention deficit hyperactivity disorder - a critique of Malin and Till (2015). Br Dent J. 2018"
+    url: https://europepmc.org/article/MED/29192688
+    document_class: secondary (reanalysis)
+    read: abstract
+    sha256: b9cc22ac8223d8d49e3f4adbb4f1c142c077b24dee6bbfabf11908d1ffe7537f
+    publication: {status: published}
+    authenticity: {status: authenticated, strength: moderate, provenance: "PubMed record PMID 29192688.", tests: ["Standard journal-record test [read]"], tested_by: "Stratah session, 2026-10-03", gaps: ["Full text not read."], checked: 2026-10-03}
+  - id: src-rfk-x-2024
+    title: "Robert F. Kennedy Jr., post on X, 2 Nov 2024 20:36 UTC (status 1852812012478398923)"
+    url: https://x.com/RobertKennedyJr/status/1852812012478398923
+    document_class: primary_text (public post)
+    read: full (platform syndication record JSON)
+    sha256: 7dd7b3163e4d1175bf5b1d892b139884f423534209550c475819852b2262c9b8
+    authenticity: {status: authenticated, strength: moderate, provenance: "Platform's own syndication record (A8); reported the same day by NBC News.", tests: ["Platform record [read]", "Independent report of the same text (NBC News, 2 Nov 2024) [read]"], tested_by: "Stratah session, 2026-10-03", gaps: [], checked: 2026-10-03}
+  - id: src-annenberg-2026
+    title: "Annenberg Public Policy Center, ASAPH survey wave 29 (SSRS, fieldwork 14-28 Apr 2026, n=1,639), release of 11 Jun 2026 via EurekAlert"
+    url: https://www.eurekalert.org/news-releases/1131772
+    document_class: primary_text (survey release)
+    read: "full (EurekAlert copy of the release; the APPC site refused)"
+    sha256: f15582af889ba07dff3a8a825ed6fc835d05aa4d9c5a37a127017ad88462b93d
+    authenticity: {status: authenticated, strength: moderate, provenance: "Release distributed by the center through EurekAlert (AAAS).", tests: ["Distributor record dated and attributed [read]"], tested_by: "Stratah session, 2026-10-03", gaps: ["Topline not read on the center's own site."], checked: 2026-10-03}
+  - id: src-carequest-2025
+    title: "CareQuest Institute / Marketing for Change, national survey on community water fluoridation, fieldwork 7-9 Jul 2025 (n=1,114), topline"
+    url: https://carequest.org/wp-content/uploads/2025/10/Attitudes-about-Fluoride_National-Survey-Results_07.17.25.pdf
+    document_class: primary_text (survey topline)
+    read: full (topline PDF with question wording)
+    sha256: 4aaaef4152159de757cbdeb8f2d628528995352daadeeb08e55e7265785ff863
+    authenticity: {status: authenticated, strength: moderate, provenance: "Topline issued by the sponsor, which supports fluoridation.", tests: ["Question wording and fieldwork dates printed in the topline [read]"], tested_by: "Stratah session, 2026-10-03", gaps: [], checked: 2026-10-03}
+  - id: src-ipsos-2025
+    title: "Ipsos KnowledgePanel poll on fluoride, fieldwork 2-5 Jan 2025 (n=1,016)"
+    url: https://www.ipsos.com/en-us/many-americans-are-unsure-if-fluoride-being-added-their-water-supply
+    document_class: primary_text (survey release)
+    read: full (HTML)
+    sha256: b12fe5ef4360a337c8dad371b8fddc68062685cdc562ee6fc90157edcabe7a46
+    authenticity: {status: authenticated, strength: moderate, provenance: "ipsos.com.", tests: ["Official host [read]"], tested_by: "Stratah session, 2026-10-03", gaps: [], checked: 2026-10-03}

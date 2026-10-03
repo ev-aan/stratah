@@ -1,0 +1,1238 @@
+# ---------------------------------------------------------------------------
+# SEARCH HEADLINE: rules as in gulf-of-tonkin/claims.yaml (1-7).
+# It may only state a claim that is established or refuted at HIGH confidence with
+# anchor_checked: primary. The headline claim (fl-high-exposure-lower-iq) is established at
+# MODERATE confidence (the NTP's own rating), so the headline stays DRAFT by rule; it can only be
+# moved by a reviewer and the owner.
+# ---------------------------------------------------------------------------
+headline: "Does Fluoride Lower Kids' IQ? Not Shown at Tap-Water Levels; Lower IQ Found Above 1.5 mg/L"
+headline_claim: fl-high-exposure-lower-iq
+headline_status: draft          # draft: the headline claim is moderate, not high, confidence
+search_summary: >
+  Does fluoride lower children's IQ? At the 0.7 mg/L added to North American tap water, no
+  effect has been shown; studies of higher natural levels, mostly abroad, find lower IQ.
+url_slug: does-fluoride-lower-iq
+
+# ---------------------------------------------------------------------------
+# ASSESSMENT (SCHEMA N23): the "Where it stands" box the site shows first. No percentages.
+# ---------------------------------------------------------------------------
+assessment:
+  question: "Does fluoride in drinking water lower children's IQ?"
+  answer: "partly"
+  headline: "Not shown at the level added to tap water (0.7 mg/L). At natural levels above 1.5 mg/L, studies consistently find lower IQ (moderate confidence). Pregnancy studies at lower levels are split."
+  text: >
+    The answer depends on the dose, and the two halves of the question have different answers.
+    At high natural levels, mostly in parts of China, India, Iran and Mexico, children exposed to
+    water above 1.5 mg/L score lower on IQ tests: the US National Toxicology Program (2024)
+    rated this "moderate confidence"; of its 19 low-risk-of-bias studies, 18 reported
+    lower IQ with more fluoride (those 19 include two Canadian studies at community levels; the
+    NTP found results below 1.5 mg/L less consistent), and Europe's food safety agency (2025)
+    reached the same conclusion above 1.5 mg/L. At the 0.7 mg/L added to community water in the US and Canada,
+    no effect has been shown, and the evidence divides by how exposure was measured. Studies
+    that compare children by where they lived (New Zealand, Sweden, Australia, two large US
+    cohorts) find no lower IQ, and a pooled analysis of water studies below 1.5 mg/L found no
+    association. Studies that measure fluoride in pregnant women's urine (Canada, Mexico) found
+    lower IQ in children, while similar studies in Denmark and Spain did not, and Spain's
+    pointed the other way. The NTP itself says its review does not address 0.7 mg/L. A 2024
+    federal court finding of "unreasonable risk" was a regulatory ruling, not a scientific
+    finding of harm, and it was vacated on procedural grounds in May 2026. What health bodies
+    and governments now do is shown separately, because it is adoption, not evidence: Utah and
+    Florida banned fluoridation in 2025, the FDA restricted fluoride drops and tablets for young
+    children, the EPA is reviewing the standard, and the CDC's own page still recommends
+    fluoridation. The benefit side has also weakened: the 2024 Cochrane review found the
+    effect on tooth decay in modern studies small and uncertain.
+  key_points:
+    - "Above 1.5 mg/L (natural levels, mostly abroad), studies consistently find lower IQ; the NTP rates this moderate confidence."
+    - "At community levels, residence-based cohorts find no lower scores; pregnancy urine studies are split (Canada, Mexico lower; Denmark, Spain not)."
+    - "Adoption, not evidence: a 2024 court ruling (vacated 2026), state bans and FDA limits; the CDC page still recommends fluoridation."
+  basis: [fl-high-exposure-lower-iq, fl-water-07-no-lower-iq, fl-maternal-urine-signal, fl-fluoridation-lowers-iq, fl-ntp-silent-on-07, fl-court-ruling-is-not-a-finding, fl-small-effect-not-excludable]
+  rated_claim: fl-fluoridation-lowers-iq
+  would_settle: >
+    For 0.7 mg/L: a large prospective cohort with individual fluoride measures (repeated urine
+    or water-plus-diet intake) in a fluoridated population, with maternal IQ and lead measured,
+    that either reproduces or fails to reproduce the Canadian and Mexican pregnancy results; or
+    a natural experiment comparing cognition in children born before and after a city stopped
+    or restarted fluoridation (Calgary stopped 2011 and restarted 2025; dt-calgary-gap). Not yet
+    read and listed as sub-questions (fl-sq-...): the JAMA Pediatrics editorials of 2019 and
+    2025, the full Cochrane 2024 review, Health Canada's current position, what has happened in
+    the court case since the 2026 remand, any formal HHS directive to the CDC, and the original
+    source of the "Nazi camps" claim.
+
+# ---------------------------------------------------------------------------
+# SHORT ANSWER (owner rule, vaccines-autism log L-02): answer "No" or "Yes" AND name the
+# exceptions where they exist, each pointing to the claim that carries its weight.
+# ---------------------------------------------------------------------------
+short_answer:
+  question: "Does fluoride in drinking water lower children's IQ?"
+  answer: "No lowering of IQ has been shown at the level added to tap water (0.7 mg/L), to the best of our knowledge; except at high natural levels, where it has."
+  summary: >
+    The level matters. Above 1.5 mg/L, which occurs naturally in parts of Asia, Africa and the
+    Americas, studies consistently find lower IQ with more fluoride; the NTP rates this at
+    moderate confidence. (Of the NTP's 19 best-rated studies, 18 found lower IQ with more
+    fluoride, but that count mixes exposure levels and includes two Canadian studies at
+    community levels; below 1.5 mg/L the NTP found results less consistent.) At 0.7 mg/L, the level added to water in the US and Canada, studies following
+    children by where they lived (more than 150,000 people across New Zealand, Sweden,
+    Australia and the US; Sweden's fluoride is natural) find no lower test scores. A smaller set of pregnancy studies that measure
+    fluoride in the mother's urine disagree with each other.
+  summary_figures:
+    - figure: "18 of 19 low-risk-of-bias studies: lower IQ with more fluoride (all exposure levels)"
+      detail: >
+        NTP Monograph 08 (2024), main search to May 2020: 72 IQ studies, 19 at low risk of bias
+        (10 China, 3 India, 3 Mexico, 2 Canada, 1 Iran), more than 7,000 children. The 19 span
+        exposure levels: the two Canadian studies are at community levels, and the NTP found the
+        nine studies covering the range below 1.5 mg/L "less consistent". None was from the
+        United States. A 2020-2023 update added 28 studies and did not change the rating.
+      source: [src-ntp-2024]
+      checked: full
+    - figure: "Water studies below 1.5 mg/L: no association in the pooled dose-response"
+      detail: >
+        Taylor et al. 2025 (the NTP's meta-analysis): water fluoride below 1.5 mg/L, 7 studies,
+        2,832 children, slope 0.05 (-0.36 to 0.45); the 3 low-risk-of-bias studies alone, -0.32
+        (-0.91 to 0.26), inverse but not significant. Urinary fluoride below 1.5 mg/L, 5
+        studies: a small inverse slope, -0.08 (-0.15 to -0.003).
+      source: [src-taylor-2025]
+      checked: full
+    - figure: "Residence-based cohorts at community levels: no lower IQ"
+      detail: >
+        New Zealand (Dunedin, 992 children), Sweden (81,776 conscripts), Australia (357), the US
+        High School and Beyond cohort (57,960 adolescents) and the Wisconsin Longitudinal Study
+        (10,317). Exposure is assigned by place of residence, not measured in each child.
+      source: [src-broadbent-2015, src-aggeborn-ohman-2021, src-do-2024, src-warren-2025, src-warren-2026]
+      checked: full
+    - figure: "What is and is not summed"
+      detail: >
+        The five residence-based cohorts are separate populations in four countries, so their
+        sizes are added (992 + 81,776 + 357 + 57,960 + 10,317 = 151,402; Stratah's arithmetic).
+        The review counts (NTP, Taylor) are not added to them or to each other: the reviews
+        share most of their studies. The cohorts also measure different outcomes (childhood IQ,
+        conscript test scores, high-school achievement tests, adult cognition), and Sweden's
+        exposure is natural fluoride, not fluoridation.
+  basis: >
+    High exposure: fl-high-exposure-lower-iq. Community level: fl-water-07-no-lower-iq and
+    fl-maternal-urine-signal, which disagree, and fl-fluoridation-lowers-iq, which records the
+    general claim as contested. The NTP review does not address 0.7 mg/L (fl-ntp-silent-on-07).
+  except:
+    - claim: fl-high-exposure-lower-iq
+      text: >
+        The exception that is established: above 1.5 mg/L, studies consistently find lower IQ.
+        This is the level of high natural fluoride, not of fluoridation.
+      scale: >
+        In the US about 1.9 million people (0.59%) drank water with 1.5 mg/L or more of natural
+        fluoride (NTP, April 2020 data); most of the studies come from high-fluoride regions of
+        China, India, Iran and Mexico.
+      scale_sources: [src-ntp-2024]
+      what_it_is:
+        - "A consistent association across many studies, rated moderate confidence by the NTP and accepted by EFSA in 2025."
+        - "Mostly cross-sectional studies, which compare children at one moment and cannot fully rule out other differences between villages."
+      what_it_is_not:
+        - "Not a finding about 0.7 mg/L: the NTP says so in its own words (fl-ntp-silent-on-07)."
+        - "Not a measured number of IQ points for any individual child: the NTP gave no estimate of points lost."
+    - claim: fl-maternal-urine-signal
+      text: >
+        The open question: in pregnancy cohorts in Canada and Mexico, children of mothers with
+        more fluoride in their urine scored lower on IQ tests; the Canadian urine result was in
+        boys only, though its estimate of mothers' fluoride intake was linked to lower IQ in both
+        sexes. Similar studies in Denmark found nothing and in Spain found the opposite in boys.
+      scale: >
+        Four pregnancy cohorts, from 248 to 837 mother-child pairs in the analyses. Canada (MIREC, 512 pairs):
+        boys -4.49 IQ points per 1 mg/L of maternal urinary fluoride (-8.38 to -0.60); girls no
+        significant change; maternal fluoride intake, both sexes, -3.66 IQ points per 1 mg/day.
+        Mexico (211 children in the IQ analysis, of 299 pairs): -2.50 IQ points per 0.5 mg/L, where exposure comes from
+        fluoridated salt, not water.
+      scale_sources: [src-green-2019, src-bashash-2017, src-grandjean-2024-odense, src-ibarluzea-2022]
+      what_it_is:
+        - "A statistical association in a few prospective cohorts, published in mainstream journals."
+      what_it_is_not:
+        - "Not replicated: the Danish cohort (837) found no association and the Spanish one found higher scores in boys."
+        - "Not a measure of what each mother drank: spot urine reflects the last few hours (the Canadian authors note a half-life of about 5 hours)."
+    - claim: fl-small-effect-not-excludable
+      text: >
+        A limit, not an exception. No study can prove an effect is exactly zero. The Swedish
+        register study rules out losses larger than 0.14 standard deviations per 1 mg/L; smaller
+        effects cannot be excluded by the studies read.
+      scale_sources: [src-aggeborn-ohman-2021, src-do-2024]
+  also_true:
+    - claim: fl-dental-benefit-smaller-now
+      text: >
+        The benefit side has also moved. Older studies (mostly before 1975) found fluoridation
+        cut tooth decay in baby teeth by about a third; in post-1975 studies the 2024 Cochrane
+        review found a small effect whose confidence interval includes no benefit.
+      scale_sources: [src-cochrane-2015, src-cochrane-2024, src-catfish-2024]
+
+source_notices:
+  - source: src-ntp-2024
+    notice: >
+      CORRECTED. The NTP monograph carries an erratum of 4 Sep 2024 (a description of how
+      children were sampled in one study). It does not change the monograph's conclusion.
+
+subject: fluoride-iq
+title: "Does Fluoride in Drinking Water Lower Children's IQ? (1945 to the present)"
+description: >
+  The question is dose-dependent and is filed as two questions that must not be fused: high
+  natural exposure (above 1.5 mg/L), where the evidence is consistent; and community water
+  fluoridation (0.7 mg/L), where it is not. The dig keeps apart (1) what the studies measured,
+  filed as `synthetic`; (2) what the primary documents say (the NTP review, the court rulings,
+  the statutes and agency actions); (3) the popular claims built on top of these; and (4) the
+  institutional record, which in 2025-2026 split sharply in the United States, filed as
+  adoption, never as evidence, in both directions.
+
+# ---------------------------------------------------------------------------
+# VERIFICATION LEVELS (as in vaccines-autism):
+#   anchor_checked: primary    the full document was fetched and read directly (sha256 in sources/MANIFEST.yaml)
+#   anchor_checked: secondary  read only as an abstract, through a summarizing fetch tool, or as quoted by others
+#   anchor_checked: no         not read
+# Evidential weight is capped at 4 unless anchor_checked is primary.
+# Population statistics are filed as `synthetic`.
+# ---------------------------------------------------------------------------
+
+divergence_note: >
+  Here the usual gap is reversed in places. For decades institutions and the public agreed
+  that fluoridation was safe and the debate was a fringe one; since 2024 the evidence about
+  high exposure has firmed up while the evidence about 0.7 mg/L has not, yet adoption has
+  moved fastest on 0.7 mg/L. Two US states banned fluoridation in 2025, the future US Health
+  Secretary called fluoride an industrial waste associated with IQ loss (Nov 2024), and the FDA
+  cited "possibly decreased IQ" when it began action on children's fluoride drops (May 2025), while the FDA's own
+  scientific evaluation called the US evidence on IQ "equivocal" and the NTP said its review
+  does not address 0.7 mg/L. On the other side, the CDC page and the main dental and
+  paediatric bodies still say fluoridation is safe, a position that rests partly on older
+  dental studies whose benefit the 2024 Cochrane review found much smaller in modern data.
+  Public opinion sits between: in April 2026, 43% of US adults favored fluoridation and 26%
+  opposed it (Annenberg). Stratah records all of this and gives none of it evidential weight.
+  The real open edge is narrow and specific: whether exposure in pregnancy at community levels
+  affects a child's IQ, a question on which four cohorts disagree.
+
+claims:
+
+  # =====================================================================
+  # A. THE CORE QUESTION: HIGH EXPOSURE
+  # =====================================================================
+
+  - id: fl-high-exposure-lower-iq
+    state: established
+    statement_kind: judgment
+    statement: >
+      Children exposed to drinking water with more than 1.5 mg/L of fluoride (the WHO guideline
+      value) score lower on IQ tests than children with less exposure, consistently across many
+      studies, most of them from high-fluoride regions of China, India, Iran and Mexico.
+    evidence_class: synthetic
+    confidence: moderate
+    confidence_reasons:
+      start: high
+      steps:
+        - {domain: primary_anchor_read, effect: none, reason: "NTP monograph, Taylor 2025 and Choi 2012 read in full."}
+        - {domain: risk_of_bias, effect: down1, reason: "Most studies are cross-sectional (16 of the 19 low-risk-of-bias studies); confounding between villages cannot be fully excluded."}
+        - {domain: independent_corroboration, effect: none, reason: "Several research groups and an EU agency (EFSA 2025) reach the same conclusion above 1.5 mg/L, but they review the same body of studies."}
+    evidential_weight: 4   # of 5
+    anchor_checked: primary
+    adoption_weight: 4   # of 5
+    adoption_note: >
+      Accepted above 1.5 mg/L by the NTP (2024) and EFSA (2025); the main critics read here
+      (Kumar et al.) dispute the low range, not the high one. The FDA's 2025 evaluation calls the
+      evidence mixed and does not state a view on the high range. This is adoption:
+      information, not evidence.
+    would_change_if: >
+      well-conducted prospective cohorts in high-fluoride areas, measuring lead, arsenic, iodine
+      and parental IQ, find no association
+    anchor:
+      type: systematic-review-and-meta-analysis
+      description: >
+        NTP Monograph 08 (Aug 2024), Abstract p. xix: "with moderate confidence", water fluoride
+        concentrations exceeding 1.5 mg/L "are consistently associated with lower IQ in
+        children"; 72 IQ studies, 19 low risk of bias, 18 of them inverse; more than 7,000
+        children in the 19; countries China 10, India 3, Mexico 3, Canada 2, Iran 1 [read].
+        Taylor et al. 2025, Table 2: water-fluoride dose-response over all data, 31 studies,
+        slope -0.15 (-0.20 to -0.11) [read]. Choi et al. 2012: 27 studies (25 China, 2 Iran),
+        SMD -0.45 (-0.56 to -0.35), exposed-group water up to 11.5 mg/L [read]. EFSA 2025
+        summary: adverse effects on the developing brain at concentrations above 1.5 mg/L
+        [read, summary only].
+      accessible: true
+      sources: [src-ntp-2024, src-taylor-2025, src-choi-2012, src-efsa-2025]
+    positions:
+      - label: "Yes"
+        holder: "NTP 2024; Taylor et al. 2025; Choi et al. 2012; EFSA 2025"
+        ground: "Consistent inverse associations above 1.5 mg/L across countries and study designs."
+      - label: "No (what exists)"
+        holder: "No group read here disputes the high-exposure association itself"
+        ground: >
+          NASEM (2020) criticized the NTP's 2019 draft for not adequately supporting its
+          conclusion, and added that this "does not mean that the conclusion is incorrect"
+          (fl-nasem-reviews).
+    basis: >
+      Filed as established because the result holds across many independent study populations
+      and the primary documents were read; held at moderate confidence because the design of
+      most studies is cross-sectional. Evidence class is synthetic: these are statistical
+      associations.
+
+  - id: fl-ntp-silent-on-07
+    state: established
+    statement_kind: reported
+    statement: >
+      The NTP monograph states that it does not address whether fluoride added to drinking
+      water at 0.7 mg/L, the US and Canadian level, has a measurable effect on IQ, and it gives
+      no estimate of IQ points lost.
+    evidence_class: primary_text
+    confidence: high
+    confidence_reasons:
+      start: high
+      steps:
+        - {domain: primary_anchor_read, effect: none, reason: "Read in the monograph itself, p. ii and p. 102."}
+    evidential_weight: 5   # of 5
+    anchor_checked: primary
+    adoption_weight: 2   # of 5
+    adoption_note: >
+      Not measured. Whether public uses of the monograph state this limit was not surveyed.
+    would_change_if: a revised NTP edition states a conclusion about 0.7 mg/L
+    anchor:
+      type: primary-document
+      description: >
+        "About This Monograph", p. ii: the findings "do not address whether the sole exposure
+        to fluoride added to drinking water" at 0.7 mg/L in the United States and Canada is
+        associated with a measurable effect on IQ [read]. Addendum, p. 102: the rating rests
+        "primarily on studies with estimated fluoride exposures higher than" those of optimally
+        fluoridated US water, and "uncertainty remains" at the lower range [read]. p. 47: below
+        1.5 mg/L the association "appeared less consistent" [read].
+      accessible: true
+      sources: [src-ntp-2024]
+    basis: >
+      The monograph's own scope statement. This claim records what the document says, not
+      whether 0.7 mg/L is safe.
+
+  - id: fl-nasem-reviews
+    state: established
+    statement_kind: reported
+    statement: >
+      The National Academies reviewed two drafts of the NTP monograph. In 2020 they found the
+      draft's conclusion not adequately supported; in 2021 they found that the added
+      meta-analysis substantially increased support for it, but that no conclusions could be
+      drawn about low exposures such as water fluoridation.
+    evidence_class: primary_text
+    confidence: high
+    evidential_weight: 5   # of 5
+    anchor_checked: primary
+    adoption_weight: 2   # of 5
+    adoption_note: "Cited by both sides; not measured."
+    would_change_if: not applicable (a record of what the reviews say)
+    anchor:
+      type: primary-document
+      description: >
+        NASEM 2020, Summary: "the committee does not find that NTP has adequately supported its
+        conclusion. That finding does not mean that the conclusion is incorrect"; criticisms
+        include inconsistent risk-of-bias ratings, use of an advocacy group's literature list,
+        and no meta-analysis [read]. NASEM 2021 letter: the meta-analysis "substantially
+        increases the support"; NTP should make clear that the monograph "cannot be used to
+        draw any conclusions regarding low fluoride exposure concentrations, including those
+        typically associated with drinking-water fluoridation" [read]. After these reviews the
+        NTP dropped its hazard conclusion and retitled the document a state-of-the-science
+        review (monograph p. xi, pp. 3-5) [read].
+      accessible: true
+      sources: [src-nasem-2020, src-nasem-2021, src-ntp-2024]
+
+  # =====================================================================
+  # B. THE CORE QUESTION: COMMUNITY WATER FLUORIDATION (0.7 mg/L)
+  # =====================================================================
+
+  - id: fl-fluoridation-lowers-iq
+    state: contested
+    statement_kind: judgment
+    statement: >
+      Community water fluoridation at the level used in the US and Canada (0.7 mg/L) lowers
+      children's IQ.
+    evidence_class: synthetic
+    confidence: low
+    confidence_reasons:
+      start: moderate
+      steps:
+        - {domain: inconsistency, effect: down1, reason: "Residence-based cohorts are null; pregnancy urine cohorts disagree in direction (Canada and Mexico lower, Denmark null, Spain higher)."}
+        - {domain: indirectness, effect: none, reason: "Recorded in fl-maternal-urine-signal and fl-water-07-no-lower-iq."}
+    evidential_weight: 2   # of 5
+    anchor_checked: primary
+    adoption_weight: 3   # of 5
+    adoption_note: >
+      Stated by Robert F. Kennedy Jr. (post of 2 Nov 2024, before he became Health Secretary) and cited in the reasons for the
+      2025 Utah and Florida bans and the FDA's 2025 action; rejected by the CDC page (as fetched
+      3 Oct 2026), the ADA and the AAP. In April 2026, 17% of US adults said fluoridation has a
+      negative effect on health (Annenberg; the question did not ask about IQ). Adoption is
+      information, not evidence.
+    would_change_if: >
+      a large cohort in a fluoridated population with repeated individual exposure measures
+      reproduces the pregnancy-urine result, or several such cohorts find none
+    disputed_by:
+      - {who: "Taylor et al. (NTP authors)", kind: work, position: "Inverse associations still observed below 1.5 mg/L in high-quality studies, by urinary and drinking-water measures", source_read: src-taylor-2025-aogh}
+      - {who: "Kumar et al.", kind: work, position: "No association in non-endemic (low-fluoride) studies", source_read: src-kumar-2023}
+    anchor:
+      type: cohort-and-meta-analysis
+      description: >
+        Taylor 2025, Table 2: water fluoride below 1.5 mg/L, 7 studies, n=2,832, slope 0.05
+        (-0.36 to 0.45), p=.82; restricted to low risk of bias, 3 studies, -0.32 (-0.91 to
+        0.26), p=.28, inverse but not significant; urinary fluoride below 1.5 mg/L, 5 studies,
+        -0.08 (-0.15 to -0.003), p=.04; Canada (2 studies) group comparison SMD 0.01 (-0.14 to 0.16) [read].
+        For the individual cohorts see fl-water-07-no-lower-iq and fl-maternal-urine-signal.
+      accessible: true
+      sources: [src-taylor-2025, src-taylor-2025-aogh, src-kumar-2023, src-antoon-kumar-2025]
+    positions:
+      - label: "Yes (what exists)"
+        holder: "Green 2019 (Canada); Bashash 2017 (Mexico); Taylor 2025 urinary slope below 1.5 mg/L"
+        ground: >
+          Higher maternal urinary fluoride is associated with lower child IQ in two cohorts, and
+          the pooled urinary slope below 1.5 mg/L is small but statistically significant.
+      - label: "No"
+        holder: "Residence-based cohorts (NZ, Sweden, Australia, two US cohorts); Danish pregnancy cohort; Taylor 2025 water slope below 1.5 mg/L; Kumar 2023"
+        ground: >
+          No lower IQ where children are compared by community fluoridation, and no association
+          in pooled water-fluoride data below 1.5 mg/L.
+    basis: >
+      Filed as contested, not proposed and not refuted: unlike the vaccines-autism general
+      claim, there is real evidence on both sides, and the two sides measure exposure in
+      different ways. Low confidence in either direction.
+
+  - id: fl-water-07-no-lower-iq
+    state: established
+    statement_kind: judgment
+    statement: >
+      Studies that compare people by the fluoride level of the community water they grew up on,
+      at community levels (fluoridated water of about 0.7 to 1.0 mg/L, or in Sweden natural
+      fluoride averaging 0.35 mg/L), find no lower IQ, cognitive or achievement test scores.
+    evidence_class: synthetic
+    confidence: moderate
+    confidence_reasons:
+      start: high
+      steps:
+        - {domain: primary_anchor_read, effect: none, reason: "All five cohorts read in full (Sweden in a third-party copy)."}
+        - {domain: indirectness, effect: down1, reason: "Exposure is assigned by residence, not measured in each child; prenatal exposure is mostly not considered (critique: Grandjean 2019)."}
+    evidential_weight: 4   # of 5
+    anchor_checked: primary
+    adoption_weight: 3   # of 5
+    adoption_note: >
+      Cited by the ADA and the AAP; criticized as ecological by the Canadian MIREC authors and
+      by Grandjean. Not measured.
+    would_change_if: >
+      a residence-based cohort with prenatal exposure and individual measures finds lower scores,
+      or the existing cohorts are shown to misclassify exposure enough to hide an effect
+    anchor:
+      type: cohort-studies
+      description: >
+        New Zealand (Dunedin, born 1972-73): childhood IQ, adjusted difference -0.14 (-3.49 to
+        3.20), 992 children, of whom 99 unexposed; authors call the exposure measure "an
+        ecological one" [read]. Sweden (Aggeborn & Öhman 2021, natural fluoride, mean 0.353
+        mg/L): conscription test scores of 81,776 men, no effect; losses larger than 0.14 SD
+        per 1 mg/L ruled out [read, third-party copy]. Australia (Do 2024): 357 young adults,
+        100% vs 0% early-life fluoridated water, 1.07 (-2.86 to 5.01) IQ points, inside a
+        3.75-point equivalence margin [read]. US High School and Beyond (Warren 2025): 57,960
+        adolescents, exposed scored about 7% of a standard deviation higher on achievement tests (math, reading, vocabulary) [read]. US
+        Wisconsin Longitudinal Study (Warren 2026): 10,317 people, only 2 of 45 key
+        coefficients significant, no negative association [read].
+      accessible: true
+      sources: [src-broadbent-2015, src-aggeborn-ohman-2021, src-do-2024, src-warren-2025, src-warren-2026, src-grandjean-2019-review]
+    positions:
+      - label: "No lower IQ"
+        holder: "Broadbent 2015; Aggeborn & Öhman 2021; Do 2024; Warren 2025, 2026"
+        ground: "Five cohorts in four countries."
+      - label: "Weak test (critique)"
+        holder: "Grandjean 2019 on Dunedin; Neurath on Warren 2026 (preprint, not read)"
+        ground: >
+          Dunedin had only 99 unexposed children and ignored prenatal exposure, so its power was
+          "probably insufficient" [read].
+    basis: >
+      Filed as established at moderate confidence: the null result is consistent and the
+      documents were read; the weakness is that the design cannot see differences in
+      individual exposure, including in pregnancy.
+
+  - id: fl-maternal-urine-signal
+    state: contested
+    statement_kind: judgment
+    statement: >
+      In pregnancy cohorts at community-level exposure, higher fluoride in the mother's urine is
+      associated with lower IQ in her child.
+    evidence_class: synthetic
+    confidence: low
+    confidence_reasons:
+      start: moderate
+      steps:
+        - {domain: primary_anchor_read, effect: none, reason: "Canadian, Mexican and Danish studies read in full; Spanish study abstract only."}
+        - {domain: inconsistency, effect: down1, reason: "Two cohorts inverse (Canada in boys only), one null (Denmark), one in the opposite direction in boys (Spain)."}
+    evidential_weight: 3   # of 5
+    anchor_checked: primary
+    adoption_weight: 3   # of 5
+    adoption_note: >
+      The Canadian study (2019) was the most-cited new evidence in the US court case and in the
+      2025 federal actions; the journal's editor published a note explaining the decision to
+      publish (not read). Not measured.
+    would_change_if: >
+      a further cohort with repeated urine samples and maternal IQ reproduces or fails to
+      reproduce the association; or the MIREC exposure measurements are shown to be invalid
+    disputed_by:
+      - {who: "Guichon et al. 2024", kind: work, position: "MIREC measurements are invalid", source_read: src-guichon-2024}
+      - {who: "Kumar et al. 2025", kind: work, position: "All four maternal-urine studies fail EPA data-quality criteria; pooled slope not significant", source_read: src-kumar-2025}
+    anchor:
+      type: prospective-cohorts
+      description: >
+        Canada, MIREC (Green 2019): 512 mother-child pairs; mean maternal urinary fluoride 0.69
+        vs 0.40 mg/L in fluoridated vs non-fluoridated cities; boys -4.49 IQ points per 1 mg/L
+        (-8.38 to -0.60), girls 2.40 (-2.53 to 7.33), sex interaction p=.02; fluoride intake,
+        both sexes, -3.66 per 1 mg/day; adjusting for lead and other metals did not
+        substantially change estimates; no maternal IQ data [read]. Mexico, ELEMENT (Bashash
+        2017): 299 pairs, 211 with IQ data, -2.50 IQ points per 0.5 mg/L creatinine-adjusted maternal urinary
+        fluoride (-4.12 to -0.59); exposure from fluoridated salt [read]. Denmark, Odense
+        (Grandjean 2024): 837 children, 0.08 (-1.14 to 1.30) per doubling, null, no sex
+        difference [read]. Spain, INMA (Ibarluzea 2022): positive association in boys (higher
+        scores with more fluoride) [abstract].
+      accessible: true
+      sources: [src-green-2019, src-till-2020-reply, src-bashash-2017, src-grandjean-2024-odense, src-ibarluzea-2022, src-guichon-2024, src-kumar-2025]
+    positions:
+      - label: "Yes (what exists)"
+        holder: "Green 2019; Bashash 2017; a three-cohort benchmark-dose analysis (Grandjean 2024)"
+        ground: "Inverse associations in two cohorts after adjusting for lead and other metals."
+      - label: "No"
+        holder: "Grandjean 2024 Danish cohort; Ibarluzea 2022; Kumar 2025"
+        ground: "No association in Denmark; opposite direction in Spain; exposure measure criticized."
+    basis: >
+      Spot urine reflects recent intake (the Canadian authors cite a half-life of about 5
+      hours), and the Canadian urine result appears in boys only (the intake estimate, a method
+      the authors say is not validated, was inverse in both sexes). The authors themselves wrote that
+      their study "reported an association, not causation" (src-till-2020-reply).
+
+  - id: fl-formula-signal
+    state: proposed
+    statement_kind: reported
+    statement: >
+      In the Canadian MIREC cohort, infants fed formula made with fluoridated water had lower
+      later IQ scores than those with less fluoride exposure, but the full-scale IQ result lost
+      significance after adjusting for prenatal exposure.
+    evidence_class: synthetic
+    confidence: provisional
+    evidential_weight: 2   # of 5
+    anchor_checked: primary
+    adoption_weight: 2   # of 5
+    adoption_note: "Not measured."
+    would_change_if: a second cohort with recorded formula preparation reproduces or contradicts it
+    anchor:
+      type: cohort-study
+      description: >
+        Till et al. 2020: 398 children (200 breastfed, 198 formula-fed); per 0.5 mg/L water
+        fluoride, full-scale IQ in formula-fed -4.4 (-8.34 to -0.46); after adjusting for
+        prenatal exposure -3.58 (-7.83 to 0.66); performance IQ lower in both feeding groups;
+        verbal IQ null; authors: results "must be interpreted with caution" [read].
+      accessible: true
+      sources: [src-till-2020-formula]
+
+  - id: fl-echo-2026-change-point
+    state: proposed
+    statement_kind: reported
+    statement: >
+      A 2026 analysis of US ECHO cohorts reports that children's fluid cognition begins to fall
+      above a water fluoride level of about 0.675 mg/L.
+    evidence_class: synthetic
+    confidence: provisional
+    evidential_weight: 2   # of 5
+    anchor_checked: secondary   # abstract only
+    adoption_weight: 1   # of 5
+    adoption_note: "Published Aug 2026; not measured."
+    would_change_if: the full text shows a different model or a fragile change-point estimate
+    anchor:
+      type: cohort-study
+      description: >
+        Simon et al. 2026 (abstract): 2,514 children; mean water fluoride 396.9 micrograms/L;
+        above a change point of 675 micrograms/L, -0.67 points per 100 micrograms/L (-0.92 to
+        -0.42) [abstract]. Full text not read.
+      accessible: true
+      sources: [src-simon-2026]
+    basis: >
+      New and unreviewed here; filed as proposed until the full paper is read. It is the first
+      large US study to report an effect near community levels, so it carries load and must be
+      read before anything rests on it.
+
+  - id: fl-small-effect-not-excludable
+    state: established
+    statement_kind: judgment
+    statement: >
+      The studies read cannot rule out a small effect of community-level fluoride on IQ; the
+      largest null study rules out only effects larger than about 0.14 standard deviations per
+      1 mg/L.
+    evidence_class: synthetic
+    confidence: high
+    evidential_weight: 4   # of 5
+    anchor_checked: primary
+    adoption_weight: 1   # of 5
+    adoption_note: "Rarely stated by either side; not measured."
+    would_change_if: a much larger study with individual exposure measures narrows the interval
+    anchor:
+      type: study-limits
+      description: >
+        Aggeborn & Öhman 2021: negative effects larger than 0.14 SD per 1 mg/L ruled out [read].
+        Do 2024: equivalence margin of 3.75 IQ points; the estimate fell inside it [read].
+        Confidence intervals in the other null studies include losses of up to about 3.5 points
+        (Dunedin, -3.49) [read].
+      accessible: true
+      sources: [src-aggeborn-ohman-2021, src-do-2024, src-broadbent-2015]
+    basis: >
+      A limit of statistics, not a finding of harm: no study can show an effect is exactly
+      zero.
+
+  # =====================================================================
+  # C. COURTS AND LAW: WHAT THEY ARE AND WHAT THEY ARE NOT
+  # =====================================================================
+
+  - id: fl-court-ruling-is-not-a-finding
+    state: established
+    statement_kind: reported
+    statement: >
+      On 24 September 2024 a federal court ruled that fluoridation at 0.7 mg/L poses an
+      "unreasonable risk" of reduced IQ under the Toxic Substances Control Act and ordered the
+      EPA to start rulemaking; the same ruling says it does not conclude with certainty that
+      fluoridated water harms public health and does not order fluoridation to stop.
+    evidence_class: primary_text
+    confidence: high
+    evidential_weight: 5   # of 5
+    anchor_checked: primary
+    adoption_weight: 3   # of 5
+    adoption_note: >
+      Widely reported as "a court ruled fluoride lowers IQ"; the ADA's statement of 25 Sep 2024
+      misquotes the "with certainty" sentence as "with any certainty" [read]. Not measured.
+    would_change_if: not applicable (a record of what the ruling says); see fl-court-ruling-vacated
+    anchor:
+      type: court-opinion
+      description: >
+        Doc. 445, p. 2: fluoridation at 0.7 mg/L "poses an unreasonable risk of reduced IQ in
+        children"; "this finding does not conclude with certainty that fluoridated water is
+        injurious to public health"; "This order does not dictate precisely what that response
+        must be" [read]. p. 6: a margin-of-exposure reasoning in which a hazard level of 4 mg/L
+        divided by 10 gives 0.4 mg/L [read]. paras 121-122, pp. 79-80: unreasonable risk under
+        15 U.S.C. 2620(b)(4)(B)(ii); EPA to initiate rulemaking under section 6(a) [read].
+      accessible: true
+      sources: [src-fww-v-epa-2024, src-ada-2024-09-25]
+    what_it_is:
+      - "A regulatory finding under a specific statute (TSCA section 21), weighing risk with a safety margin."
+      - "An order for the EPA to begin a rulemaking process, with no outcome specified."
+    what_it_is_not:
+      - "Not a scientific finding that fluoridation lowers IQ: the court says it does not conclude that with certainty."
+      - "Not an order to stop fluoridation."
+      - "No longer in force: vacated on appeal on 21 May 2026 (fl-court-ruling-vacated)."
+
+  - id: fl-court-ruling-vacated
+    state: established
+    statement_kind: reported
+    statement: >
+      On 21 May 2026 the Ninth Circuit vacated the 2024 ruling and sent the case back, holding
+      that the district court abused its discretion in how it handled the case after the first
+      trial; it did not rule on the science.
+    evidence_class: primary_text
+    confidence: high
+    evidential_weight: 5   # of 5
+    anchor_checked: primary
+    adoption_weight: 2   # of 5
+    adoption_note: "Much less widely reported than the 2024 ruling. Not measured."
+    would_change_if: the district court rules again on remand, or the vacatur is reheard
+    anchor:
+      type: appellate-memorandum
+      description: >
+        9th Cir. No. 25-384, memorandum filed 21 May 2026 (not for publication): "we vacate the
+        district court's decision and remand"; the court "abused its discretion after the first
+        bench trial by commandeering the case"; remand to rule on the first trial record (the
+        first trial, held before the final NTP monograph); standing returned to the district court
+        [read].
+      accessible: true
+      sources: [src-ca9-2026]
+    what_it_is:
+      - "A procedural ruling about how the trial court managed the case."
+    what_it_is_not:
+      - "Not a finding that fluoride is safe: the appeals court did not review the science."
+
+  - id: fl-court-proved-harm
+    state: refuted
+    statement_kind: judgment
+    refutes_target: >
+      The popular claim that a US federal court found or proved that fluoridated water lowers
+      children's IQ
+    refutation_class: narrative_drift
+    statement: >
+      A US federal court found that fluoridated water lowers children's IQ.
+    evidence_class: primary_text
+    confidence: high
+    evidential_weight: 5   # of 5
+    anchor_checked: primary
+    adoption_weight: 3   # of 5
+    adoption_note: "Common in 2024-2025 coverage and posts; not measured."
+    would_change_if: a court issues a finding of causation on a full record
+    anchor:
+      type: court-opinion
+      description: >
+        The 2024 opinion itself says the finding "does not conclude with certainty that
+        fluoridated water is injurious to public health" (Doc. 445 p. 2) [read]; it was vacated
+        on 21 May 2026 (9th Cir. No. 25-384) [read].
+      accessible: true
+      sources: [src-fww-v-epa-2024, src-ca9-2026]
+    positions:
+      - label: "Yes (what is real)"
+        holder: "Food & Water Watch v. EPA (2024)"
+        ground: "The court did find an unreasonable risk under TSCA at 0.7 mg/L."
+      - label: "No"
+        holder: "The ruling's own text; the Ninth Circuit"
+        ground: "The court said it did not conclude harm with certainty, and the ruling has been vacated."
+    basis: >
+      Refuted on primary text: the ruling's own words. The drift is from a regulatory risk
+      finding to a causal finding.
+
+  - id: fl-state-bans-2025
+    state: established
+    statement_kind: reported
+    statement: >
+      Utah (signed 27 March 2025, in force 7 May 2025) and Florida (approved 20 May 2025, in
+      force 1 July 2025) became the first US states to prohibit adding fluoride to public water;
+      Florida's law does so without using the word fluoride.
+    evidence_class: primary_text
+    confidence: high
+    evidential_weight: 5   # of 5
+    anchor_checked: primary
+    adoption_weight: 4   # of 5
+    adoption_note: "These are adoption events: a legislature acting is not evidence about IQ."
+    would_change_if: not applicable (a record of enacted law)
+    anchor:
+      type: statute
+      description: >
+        Utah H.B. 81, enrolled, section 19-4-111(2): "A person may not add fluoride to water"
+        in a public water system; effective 7 May 2025; signed 27 Mar 2025 per the bill status
+        record [read]. Florida SB 700, Chapter 2025-22, sections 31-32 (p. 51): defines "water
+        quality additive" and bars any additive that does not meet the definition; presented
+        to the Governor 15 May 2025, approved 20 May 2025, effective 1 Jul 2025 [read].
+      accessible: true
+      sources: [src-utah-hb81, src-florida-sb700]
+
+  - id: fl-fda-ingestible-action
+    state: established
+    statement_kind: reported
+    statement: >
+      In October 2025 the FDA moved against ingestible fluoride drops and tablets for young
+      children (labelling for children under 3, or not at high risk of decay) and not against
+      fluoridated water; its own scientific evaluation called the evidence on IQ in the US
+      population "equivocal".
+    evidence_class: primary_text
+    confidence: high
+    evidential_weight: 5   # of 5
+    anchor_checked: primary
+    adoption_weight: 3   # of 5
+    adoption_note: "An agency action; adoption, not evidence."
+    would_change_if: the FDA takes a further or different action
+    anchor:
+      type: agency-documents
+      description: >
+        13 May 2025 release: "initiating action to remove" ingestible fluoride prescription
+        products for children; studies "suggested an association" with "possibly decreased IQ"
+        [read]. 90 FR 25329 (16 Jun 2025): "These safety findings are not conclusive" [read].
+        31 Oct 2025: notices to 4 companies of intended enforcement against labelling for
+        children under 3 or not at high risk; the CDER evaluation, p. 13, calls the evidence
+        "equivocal in the U.S. population"; p. 15, neurocognitive concerns "more
+        hypothesis-generating" [read].
+      accessible: true
+      sources: [src-fda-2025-05-13, src-fr-2025-10943, src-fda-2025-10-31]
+
+  - id: fl-epa-review-open
+    state: established
+    statement_kind: reported
+    statement: >
+      The EPA is reviewing the fluoride drinking-water standard under the Safe Drinking Water
+      Act; as of October 2026 it has published a plan and a protocol but no conclusions, and the
+      legal maximum remains 4.0 mg/L.
+    evidence_class: primary_text
+    confidence: high
+    evidential_weight: 5   # of 5
+    anchor_checked: primary
+    adoption_weight: 2   # of 5
+    adoption_note: "Not measured."
+    would_change_if: the EPA releases a draft toxicity assessment or proposes a new limit
+    anchor:
+      type: agency-documents
+      description: >
+        EPA release 7 Apr 2025 ("Without prejudging any outcomes") [read]. 91 FR 3722 (28 Jan
+        2026): the plan "does not contain conclusions regarding harmful human health effects"
+        [read]. Release of 3 Aug 2026 and protocol EPA-822-D-26-001: the assessment will cover
+        neurodevelopment and dental fluorosis; draft not released [read]. 40 CFR 141.62: MCL
+        4.0 mg/L, as of 1 Sep 2026 [read].
+      accessible: true
+      sources: [src-epa-2025-04-07, src-epa-2026-01-22, src-fr-2026-01657, src-epa-2026-08-protocol, src-ecfr-fluoride-mcl]
+
+  - id: fl-cdc-still-recommends
+    state: established
+    statement_kind: reported
+    statement: >
+      As fetched on 3 October 2026, the CDC's fluoridation recommendations page still says the
+      CDC continues to recommend community water fluoridation, although the US Health Secretary
+      said in April 2025 that he would tell the CDC to stop.
+    evidence_class: primary_text
+    confidence: moderate
+    confidence_reasons:
+      start: high
+      steps:
+        - {domain: indirectness, effect: down1, reason: "A web page can lag behind policy; no formal withdrawal or HHS directive was found, and hhs.gov refused this environment (fl-sq-hhs-directive)."}
+    evidential_weight: 4   # of 5
+    anchor_checked: primary
+    adoption_weight: 3   # of 5
+    adoption_note: "Institutional positions are adoption, not evidence."
+    would_change_if: a formal CDC or HHS change of recommendation is found
+    anchor:
+      type: agency-web-page
+      description: >
+        CDC page, last reviewed 15 May 2024, fetched 3 Oct 2026: "CDC continues to recommend
+        community water fluoridation" [read]. AP via PBS (published 8 Apr 2025, reporting
+        remarks of 7 Apr): Kennedy "plans to tell" the CDC to stop recommending fluoridation [read; a report, not the directive].
+      accessible: true
+      sources: [src-cdc-cwf-recs, src-pbs-2025-04-07]
+
+  # =====================================================================
+  # D. DOSE, EXPOSURE AND THE DENTAL BENEFIT
+  # =====================================================================
+
+  - id: fl-exposure-levels
+    state: established
+    statement_kind: reported
+    statement: >
+      Fluoridating systems in the US mostly run near 0.7 mg/L; about 63% of the US population
+      and 39% of Canadians receive fluoridated water; about 1.9 million Americans drink water
+      with 1.5 mg/L or more of natural fluoride.
+    evidence_class: primary_text
+    confidence: moderate
+    confidence_reasons:
+      start: high
+      steps:
+        - {domain: primary_anchor_read, effect: down1, reason: "The national percentages for the US (2022) and Canada (2022) were read only through a fetch tool."}
+    evidential_weight: 4   # of 5
+    anchor_checked: secondary
+    adoption_weight: 2   # of 5
+    adoption_note: "Not measured."
+    would_change_if: newer surveillance data
+    anchor:
+      type: surveillance-data
+      description: >
+        CDC MMWR 2023 (2016-2021): 0.7 mg/L the most common level; 16.3% of population-weighted
+        months below 0.6 mg/L and 0.01% above 2.0 mg/L [read]. CDC 2022 statistics: 209,135,866
+        people, 62.8% of the US population [tool]. PHAC 2022: about 14.4 million Canadians,
+        38.8% [tool]. NTP monograph (April 2020 data): 0.59% of the US population, about 1.9
+        million, at 1.5 mg/L or more natural fluoride [read]. PHS 2015: 0.7 mg/L replaced the
+        1962 range of 0.7-1.2 mg/L [read].
+      accessible: true
+      sources: [src-cdc-mmwr-2023, src-cdc-wfrs-2022, src-phac-2022, src-ntp-2024, src-phs-2015]
+
+  - id: fl-dental-benefit-smaller-now
+    state: established
+    statement_kind: judgment
+    statement: >
+      Fluoridation's measured benefit for tooth decay is much smaller in studies after 1975
+      than in the older studies on which it was founded, and in the 2024 Cochrane review the
+      post-1975 effect is uncertain.
+    evidence_class: synthetic
+    confidence: moderate
+    confidence_reasons:
+      start: high
+      steps:
+        - {domain: primary_anchor_read, effect: down1, reason: "Cochrane 2015 and 2024 read as abstracts only; the GRADE tables were not read."}
+    evidential_weight: 3   # of 5
+    anchor_checked: secondary
+    adoption_weight: 3   # of 5
+    adoption_note: >
+      The CDC MMWR (2023) still cites a reduction of "approximately 25%" [read]; this is
+      adoption, not evidence.
+    would_change_if: new controlled comparisons in modern populations with fluoride toothpaste
+    anchor:
+      type: systematic-reviews-and-cohort
+      description: >
+        Cochrane 2015: 35% reduction in decayed, missing and filled baby teeth; 71% of studies
+        before 1975; over 97% at high risk of bias [abstract]. Cochrane 2024: starting
+        fluoridation, post-1975 studies, difference in change of dmft 0.24 (-0.03 to 0.52), 2
+        studies, 2,908 children, low certainty, "approximately one-quarter of a tooth" [abstract].
+        CATFISH (Cumbria, 2024): caries in the birth cohort 17.4% vs 21.4%, adjusted OR 0.74
+        (0.55 to 0.98); older cohort not significant [abstract].
+      accessible: true
+      sources: [src-cochrane-2015, src-cochrane-2024, src-catfish-2024, src-cdc-mmwr-2023]
+    positions:
+      - label: "Benefit remains"
+        holder: "CATFISH 2024; CDC; ADA"
+        ground: "A smaller but measurable effect in the youngest cohort in Cumbria."
+      - label: "Benefit uncertain now"
+        holder: "Cochrane 2024"
+        ground: "The modern effect's confidence interval includes no benefit."
+
+  - id: fl-cessation-caries
+    state: established
+    statement_kind: judgment
+    statement: >
+      In Calgary, which stopped fluoridating in 2011, decay in children's baby teeth rose more
+      than in Edmonton, which continued; across all cessation studies the results are mixed.
+    evidence_class: synthetic
+    confidence: moderate
+    evidential_weight: 3   # of 5
+    anchor_checked: primary
+    adoption_weight: 2   # of 5
+    adoption_note: "The City of Calgary's fluoride page links to this research; not measured."
+    would_change_if: a controlled follow-up after Calgary's 2025 restart
+    anchor:
+      type: repeated-cross-sectional-and-claims-studies
+      description: >
+        McLaren 2022: in 2018/19, baby-tooth decay prevalence 64.8% in Calgary vs 55.1% in
+        Edmonton; results for permanent teeth inconsistent [read]. Juneau (Meyer 2018): more
+        caries procedures in Medicaid children after cessation in 2007, before-after design
+        without a comparison city [read]. Hung 2026 scoping review of 19 studies: "Findings were
+        heterogeneous" [read]. Calgary's council directed reinstatement on 15 Nov 2021 after a
+        plebiscite (62% in favour) and fluoride returned on 30 Jun 2025 [read].
+      accessible: true
+      sources: [src-mclaren-2022, src-meyer-2018, src-hung-2026, src-calgary]
+
+  - id: fl-fluorosis-known-cost
+    state: established
+    statement_kind: judgment
+    statement: >
+      The known, accepted cost of fluoride at community levels is dental fluorosis (white marks
+      on teeth, mostly very mild), and it was the reason the US lowered its recommended level to
+      0.7 mg/L in 2015; severe fluorosis and skeletal effects arise at far higher levels.
+    evidence_class: synthetic
+    confidence: moderate
+    confidence_reasons:
+      start: high
+      steps:
+        - {domain: inconsistency, effect: down1, reason: "US survey estimates of fluorosis in adolescents vary widely between analyses (e.g. 41% in 1999-2004, 61-65% in 2011-12) and examiner reliability is debated."}
+    evidential_weight: 4   # of 5
+    anchor_checked: primary
+    adoption_weight: 3   # of 5
+    adoption_note: "Not measured."
+    would_change_if: new national fluorosis surveys with reliability checks
+    anchor:
+      type: federal-recommendation-and-reviews
+      description: >
+        PHS 2015: 0.7 mg/L gives the "best balance of protection from dental caries while
+        limiting the risk of dental fluorosis"; NHANES 1999-2004: 23% of ages 6-49 with
+        fluorosis, about 2% moderate, under 1% severe [read]. Cochrane 2015 at 0.7 ppm:
+        fluorosis of aesthetic concern about 12%, any fluorosis 40% [abstract]. Wiener 2018,
+        ages 16-17: 29.7% (2001-02) to 61.3% (2011-12) [read]. Neurath 2019, ages 12-15: any
+        fluorosis 65% in 2011-12 [abstract]. NRC 2006: the 4 mg/L goal should be lowered;
+        severe enamel fluorosis about 10% of children at or near 4 mg/L [read].
+      accessible: true
+      sources: [src-phs-2015, src-cochrane-2015, src-wiener-2018, src-neurath-2019, src-nrc-2006]
+
+  # =====================================================================
+  # E. POPULAR CLAIMS
+  # =====================================================================
+
+  - id: fl-harvard-study-applies-to-us
+    state: refuted
+    statement_kind: judgment
+    refutes_target: >
+      The popular claim that the "Harvard study" (Choi et al. 2012) showed that fluoridated US
+      tap water lowers children's IQ
+    refutation_class: narrative_drift
+    statement: >
+      The 2012 "Harvard study" showed that fluoridated tap water in the US lowers children's IQ.
+    evidence_class: primary_text
+    confidence: high
+    evidential_weight: 5   # of 5
+    anchor_checked: primary
+    adoption_weight: 3   # of 5
+    adoption_note: "A staple of anti-fluoridation material since 2012; not measured."
+    would_change_if: not applicable (the paper's own text)
+    anchor:
+      type: primary-document
+      description: >
+        Choi 2012: 27 studies, 25 from China and 2 from Iran; exposed-group water up to 11.5
+        mg/L, "in many cases" above US levels; "Our review cannot be used to derive an exposure
+        limit" [read]. The authors' statement of 11 Sep 2012 says the results do not allow a
+        judgment about risk at exposure levels typical of US fluoridation [read in a repost].
+        The "Harvard" label comes from the school's press release of 25 Jul 2012 [read].
+      accessible: true
+      sources: [src-choi-2012, src-choi-grandjean-statement-2012, src-hsph-2012, src-choi-2013-reply]
+    positions:
+      - label: "Yes (what is real)"
+        holder: "Choi et al. 2012"
+        ground: "Children in high-fluoride areas had lower IQ scores (SMD -0.45)."
+      - label: "No"
+        holder: "Choi et al. 2012 and the authors' own statement"
+        ground: "The studies were of high natural exposure in China and Iran and cannot set a US limit."
+
+  - id: fl-additives-toxic-waste
+    state: refuted
+    statement_kind: judgment
+    refutes_target: >
+      The claim that the chemicals used to fluoridate water put harmful levels of contaminants
+      such as arsenic into tap water (the 'industrial co-product' part is true and is not the
+      target)
+    refutation_class: narrative_drift
+    statement: >
+      Fluoridation chemicals, as industrial co-products, put harmful levels of contaminants into
+      tap water.
+    evidence_class: primary_text
+    confidence: moderate
+    confidence_reasons:
+      start: high
+      steps:
+        - {domain: primary_anchor_read, effect: down1, reason: "The CDC fact sheet was read in a mirror copy; the NSF data are the certifier's own."}
+    evidential_weight: 4   # of 5
+    anchor_checked: primary
+    adoption_weight: 3   # of 5
+    adoption_note: >
+      The 'industrial waste' wording was used by Robert F. Kennedy Jr. on 2 Nov 2024, before he
+      became Health Secretary [read]; his post does not mention arsenic or other contaminants.
+      Not measured.
+    would_change_if: independent testing finds contaminants above the NSF/ANSI 60 limits in product as dosed
+    anchor:
+      type: certification-test-data
+      description: >
+        CDC engineering fact sheet (2011): most additives come from phosphorite rock used mainly
+        in phosphate fertilizer manufacture; about 95% of fluorosilicic acid comes from captured
+        gases in that process [read, mirror copy]. NSF fact sheet (2019), 2012-2017 samples
+        (328): arsenic detected in 52%, mean 0.16 ppb, maximum 0.9 ppb, against the NSF limit of
+        1 ppb and the EPA maximum of 10 ppb; "none of the samples exceeded 1/10th the U.S. EPA
+        MCL" [read].
+      accessible: true
+      sources: [src-cdc-additives-2011, src-nsf-2019, src-rfk-x-2024]
+    positions:
+      - label: "Yes (what is real)"
+        holder: "CDC fact sheet"
+        ground: "Most fluoridation chemical is a co-product of phosphate fertilizer manufacture."
+      - label: "No"
+        holder: "NSF certification data"
+        ground: "Measured contaminants in certified product were far below the limits."
+    basis: >
+      The deciding data are the certifier's own test results, not an independent laboratory's;
+      would_change_if names the test that would overturn them.
+
+  - id: fl-nazi-camps
+    state: proposed
+    statement_kind: judgment
+    statement: >
+      The Nazis added fluoride to concentration-camp water to make prisoners docile.
+    evidence_class: interpretive
+    confidence: provisional
+    evidential_weight: 1   # of 5
+    anchor_checked: secondary
+    absence_anchor: true
+    adoption_weight: 2   # of 5
+    adoption_note: "Repeated widely online; repeated by a former US governor in 2014. Not measured."
+    would_change_if: a wartime document showing fluoride added to camp water is found
+    anchor:
+      type: absence-of-record
+      description: >
+        PolitiFact (2014) reports that a US Holocaust Memorial Museum historian knew of no
+        experiments involving fluoride; that the author of a book critical of fluoridation said
+        he never came across any documentation; and that the head of an anti-fluoridation group
+        called the historical evidence extremely weak (interviews of 2011, quoted in 2014)
+        [read]. The earliest written form found is a later reproduction (2000) of a letter
+        attributed to Charles Perkins (1954), which does mention Nazis; whether the original did
+        is unknown (fl-sq-nazi-origin) [read].
+      accessible: true
+      sources: [src-politifact-2014, src-perkins-repro]
+    positions:
+      - label: "Yes"
+        holder: "Later reproductions of the Perkins letter; online posts"
+        ground: "No document cited."
+      - label: "No"
+        holder: "Historians quoted by PolitiFact, including critics of fluoridation"
+        ground: "No record found."
+    basis: >
+      Filed as proposed and unsupported, not refuted: the record against it is an absence of
+      documents (capped at provisional), and Rule 9 needs material or primary-text evidence
+      for a refutation. No support for it was found. Its spread is recorded in threads.yaml.
+
+  - id: fl-pineal-calcification
+    state: proposed
+    statement_kind: judgment
+    statement: >
+      Fluoride calcifies the pineal gland.
+    evidence_class: interpretive
+    confidence: provisional
+    evidential_weight: 1   # of 5
+    anchor_checked: secondary
+    adoption_weight: 2   # of 5
+    adoption_note: "Common in wellness media; not measured."
+    would_change_if: a study shows fluoride exposure causing pineal calcification
+    anchor:
+      type: autopsy-study
+      description: >
+        Luke 2001 measured fluoride in the pineal glands of 11 elderly cadavers: high fluoride
+        that correlated with the gland's calcium (r=0.73) [abstract]. It shows fluoride collects
+        in calcified tissue; it does not show fluoride causes the calcification.
+      accessible: true
+      sources: [src-luke-2001]
+    basis: >
+      A correlation in 11 already-calcified glands. Unsupported as a causal claim; not refuted.
+
+  - id: fl-adhd-ecological
+    state: proposed
+    statement_kind: reported
+    statement: >
+      States with more fluoridation have more ADHD diagnoses.
+    evidence_class: synthetic
+    confidence: provisional
+    evidential_weight: 1   # of 5
+    anchor_checked: primary
+    adoption_weight: 2   # of 5
+    adoption_note: "Not measured."
+    would_change_if: an individual-level study finds the association
+    anchor:
+      type: ecological-study
+      description: >
+        Malin & Till 2015: state-level association; the authors list "an ecological design" as a
+        limitation [read]. Perrott 2018: after adding altitude, the association was no longer
+        statistically significant [abstract].
+      accessible: true
+      sources: [src-malin-till-2015, src-perrott-2018]
+
+  # =====================================================================
+  # F. SUB-QUESTIONS NOT YET ANSWERED (searched gaps)
+  # =====================================================================
+
+  - id: fl-sq-remand-status
+    state: searched_gap
+    statement_kind: search_result
+    statement: >
+      Sub-question: what has happened in Food & Water Watch v. EPA since the Ninth Circuit's
+      remand of 21 May 2026?
+    evidence_class: primary_text
+    confidence: provisional
+    evidential_weight: 1   # of 5
+    anchor_checked: "no"
+    adoption_weight: 1   # of 5
+    adoption_note: "Not measured."
+    absence_anchor: true
+    would_change_if: a new district-court ruling on the first trial record, or a rehearing petition
+    next_step: >
+      Read the N.D. Cal. docket for 3:17-cv-02162 after May 2026 (PACER or GovInfo's package
+      files beyond -16), and the Ninth Circuit docket for 25-384 (rehearing).
+    anchor:
+      type: search-record
+      description: >
+        Searched 3 Oct 2026: GovInfo package files -0 to -16 (latest is the fee order of 5 Jan
+        2026); a web search for remand coverage found reports of the March 2026 argument and the
+        May vacatur only. CourtListener refused this environment.
+      accessible: false
+    basis: "Bears on fl-court-ruling-vacated."
+
+  - id: fl-sq-hhs-directive
+    state: searched_gap
+    statement_kind: search_result
+    statement: >
+      Sub-question: did HHS issue a formal directive to the CDC to stop recommending
+      fluoridation, and has the CDC changed its recommendation anywhere other than the page read?
+    evidence_class: primary_text
+    confidence: provisional
+    evidential_weight: 1   # of 5
+    anchor_checked: "no"
+    adoption_weight: 1   # of 5
+    adoption_note: "Not measured."
+    absence_anchor: true
+    would_change_if: a dated HHS or CDC document is found
+    next_step: "Read hhs.gov press releases for April 2025 onward and the CDC oral-health pages (hhs.gov refused this environment)."
+    anchor:
+      type: search-record
+      description: "Tried 3 Oct 2026: hhs.gov (refused); cdc.gov fluoridation pages (read; no withdrawal found)."
+      accessible: false
+    basis: "Bears on fl-cdc-still-recommends."
+
+  - id: fl-sq-health-canada
+    state: searched_gap
+    statement_kind: search_result
+    statement: >
+      Sub-question: what is Health Canada's current position on fluoride and neurodevelopment
+      after the 2024 NTP review, and what is the basis of its 1.5 mg/L maximum?
+    evidence_class: primary_text
+    confidence: provisional
+    evidential_weight: 1   # of 5
+    anchor_checked: "no"
+    adoption_weight: 1   # of 5
+    adoption_note: "Not measured."
+    absence_anchor: true
+    would_change_if: the Health Canada guideline technical document or a 2024-2026 statement is read
+    next_step: >
+      Read Health Canada's Guidelines for Canadian Drinking Water Quality technical document on
+      fluoride and any 2024-2026 statement (canada.ca dropped every direct connection; try from a
+      local browser).
+    anchor:
+      type: search-record
+      description: "Tried 3 Oct 2026: canada.ca (connection errors), publications.gc.ca (script gate)."
+      accessible: false
+    basis: "A Canadian dig should not rest on US institutions alone."
+
+  - id: fl-sq-jama-editorials
+    state: searched_gap
+    statement_kind: search_result
+    statement: >
+      Sub-question: what do the JAMA Pediatrics editor's note on the 2019 Canadian study and the
+      two editorials published with the 2025 meta-analysis actually say?
+    evidence_class: primary_text
+    confidence: provisional
+    evidential_weight: 1   # of 5
+    anchor_checked: "no"
+    adoption_weight: 1   # of 5
+    adoption_note: "Not measured."
+    absence_anchor: true
+    would_change_if: the texts are read
+    next_step: "Read Christakis 2019 (PMID 31424484), Levy 2025 (PMID 39761058) and Lanphear 2025 (PMID 39761028) at jamanetwork.com from a browser."
+    anchor:
+      type: search-record
+      description: "jamanetwork.com refused this environment (403); Europe PMC has metadata only."
+      accessible: false
+      sources: [src-christakis-2019, src-levy-2025, src-lanphear-2025]
+    basis: "Commentary, not evidence; listed so that wording attributed to them is not repeated unread."
+
+  - id: fl-sq-cochrane-full
+    state: searched_gap
+    statement_kind: search_result
+    statement: >
+      Sub-question: what do the full Cochrane 2024 review and its certainty tables say about the
+      size of the modern dental benefit and about fluorosis?
+    evidence_class: primary_text
+    confidence: provisional
+    evidential_weight: 1   # of 5
+    anchor_checked: "no"
+    adoption_weight: 1   # of 5
+    adoption_note: "Not measured."
+    absence_anchor: true
+    would_change_if: the body changes the reading of the abstract
+    next_step: "Read CD010856.pub3 in full at cochranelibrary.com from a browser."
+    anchor:
+      type: search-record
+      description: "cochranelibrary.com and the PMC body returned a captcha; abstract read."
+      accessible: false
+      sources: [src-cochrane-2024]
+    basis: "Bears on fl-dental-benefit-smaller-now."
+
+  - id: fl-sq-other-state-bans
+    state: searched_gap
+    statement_kind: search_result
+    statement: >
+      Sub-question: have any states other than Utah and Florida enacted bans or restrictions on
+      fluoridation in 2025-2026?
+    evidence_class: primary_text
+    confidence: provisional
+    evidential_weight: 1   # of 5
+    anchor_checked: "no"
+    adoption_weight: 1   # of 5
+    adoption_note: "Not measured."
+    absence_anchor: true
+    would_change_if: an enacted bill is found
+    next_step: "Read 2025-2026 bill status pages for Louisiana, Kentucky, Tennessee and other states with filed bills."
+    anchor:
+      type: search-record
+      description: "NCSL tracker refused (challenge page); one advocacy summary seen but not used."
+      accessible: false
+    basis: "Bears on fl-state-bans-2025."
+
+  - id: fl-sq-nazi-origin
+    state: searched_gap
+    statement_kind: search_result
+    statement: >
+      Sub-question: what is the earliest dated source for the claim that Nazis fluoridated camp
+      water, and does the original Perkins letter (1954) mention Nazis?
+    evidence_class: primary_text
+    confidence: provisional
+    evidential_weight: 1   # of 5
+    anchor_checked: "no"
+    adoption_weight: 1   # of 5
+    adoption_note: "Not measured."
+    absence_anchor: true
+    would_change_if: an original letter or a 1950s newspaper printing is read
+    next_step: >
+      Search 1950s newspapers (Chronicling America, Canadian newspaper archives) for the Perkins
+      letter, and the Lee Foundation's records; one secondary source names an 18 Oct 1956 printing
+      without Nazi wording, unverified and from an unreliable outlet.
+    anchor:
+      type: search-record
+      description: "Chronicling America and loc.gov refused (Cloudflare); only later reproductions found."
+      accessible: false
+      sources: [src-perkins-repro]
+    basis: "Bears on fl-nazi-camps; records transmission only."

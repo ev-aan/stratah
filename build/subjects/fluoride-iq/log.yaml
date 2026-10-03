@@ -1,0 +1,95 @@
+subject: fluoride-iq
+# Append-only excavation log. Corrections are new entries; earlier entries are never edited.
+
+log:
+  - id: L-01
+    date: 2026-10-03
+    entry: >
+      Dig opened at the owner's request ("another dig on a controversial subject"; fluoride and IQ
+      chosen from four candidates). The repository, all branches and past conversations were
+      checked first: no fluoride dig existed (owner rule, 2026-10-03: always check whether a dig
+      has been done before starting). Format follows vaccines-autism, including the owner's rule
+      that every answer is given as "No, except in this particular case" with the exceptions
+      named, and that legal items state what they are and are not.
+  - id: L-02
+    date: 2026-10-03
+    entry: >
+      Scope. The question is split by dose: high natural exposure (above 1.5 mg/L) and community
+      water fluoridation (0.7 mg/L). Also covered: courts and law, agency actions, the dental
+      benefit and dose (so the dig shows what fluoridation is for), and the popular claims
+      (Harvard study, industrial waste, Nazi camps, pineal gland, ADHD).
+  - id: L-03
+    date: 2026-10-03
+    entry: >
+      Source pass in five parallel reading streams (core reviews; cohorts at low exposure; courts
+      and institutions; dose and dental benefit; history and popular claims). Reachable: Europe
+      PMC (REST full text), NCBI efetch, NTP, NASEM, GovInfo, Federal Register, eCFR, epa.gov,
+      fda.gov, cdc.gov (some pages), who.int, the Ninth Circuit's document store, the Utah and
+      Florida legislatures. Refused or failed in this environment: jamanetwork.com,
+      cochranelibrary.com, sciencedirect.com, hhs.gov, canada.ca, courtlistener.com, NCSL,
+      Chronicling America, the PMC HTML pages (captcha). What could not be read is listed as
+      searched gaps (fl-sq-...).
+  - id: L-04
+    date: 2026-10-03
+    entry: >
+      Finding that changes the usual account: the 2024 district-court ruling (Food & Water Watch
+      v. EPA) was vacated by the Ninth Circuit on 21 May 2026 on procedural grounds and remanded.
+      Both documents read in full (sha256 in the manifest). Nothing found on what has happened
+      since the remand (fl-sq-remand-status).
+  - id: L-05
+    date: 2026-10-03
+    entry: >
+      Discrepancy resolved: two streams gave different dates for Florida SB 700. The Florida
+      Senate's bill history, read directly, shows it was presented to the Governor on 15 May
+      2025 and approved on 20 May 2025; 20 May is used. Another stream's date for Calgary's
+      return to fluoridation (2024, from memory) is replaced by the city's own page: 30 Jun 2025.
+  - id: L-06
+    date: 2026-10-03
+    entry: >
+      Corrections to the research brief, recorded so they are not repeated: the Swedish register
+      study is in the Journal of Political Economy (2021), not J Eur Econ Assoc; the Australian
+      cohort (Do et al.) was published online in Dec 2024, not 2022; the ADHD reanalysis of
+      Malin & Till is Perrott 2018, not Huber 2015 (Huber is the altitude study it builds on);
+      the 0.24 dmft figure in Cochrane 2024 is a difference in change and its interval crosses
+      zero. The phrase "not an easy decision" attributed to the JAMA Pediatrics editor (2019)
+      could not be read and is not used.
+  - id: L-07
+    date: 2026-10-03
+    entry: >
+      Filing decisions. (1) The general claim at 0.7 mg/L (fl-fluoridation-lowers-iq) is
+      contested, not proposed as in vaccines-autism, because there is published evidence on both
+      sides that measures exposure differently. (2) Nazi camps and pineal calcification are filed
+      as proposed and unsupported, not refuted: the case against them is an absence of record or
+      a correlation, and Rule 9 needs material or primary-text evidence for a refutation (owner
+      decision of 2026-10-02 on statistics and absence, vaccines-autism log L-19). (3) The
+      "court proved harm" and "Harvard study" claims are refuted on the primary texts' own
+      words. (4) The headline claim is established at moderate confidence, so the headline
+      stays draft.
+  - id: L-08
+    date: 2026-10-03
+    entry: >
+      Not added, outside this subject's folder and owner-only: a line in build/taxonomy.yaml.
+      Proposed entry for the owner: "fluoride-iq: {area: medicine_health, areas: [law_justice,
+      media_misinformation], types: [is_claim_true], popular_claims: true}". Not added to
+      build/site.yaml either: publishing needs an independent review (docs/PUBLISH_GATE.md).
+  - id: L-09
+    date: 2026-10-03
+    entry: >
+      INDEPENDENT CHECK (a separate agent that had not seen the drafting re-opened the source
+      files; this is an author-side check, not the publish-gate review). One blocking finding:
+      the surface summary tied "18 of 19 low-risk-of-bias studies" to exposure above 1.5 mg/L,
+      but the 19 span all levels and include two Canadian studies at community levels; reworded
+      in the assessment, short answer and summary figure. Non-blocking findings fixed: pregnancy
+      cohort sizes (248 to 837; Mexico IQ analysis 211 of 299); the Canadian intake result in
+      both sexes added; Taylor's low-risk-of-bias water result below 1.5 mg/L (-0.32, -0.91 to
+      0.26) added; the NTP authors' rebuttal covers water and urine; Robert F. Kennedy Jr. was
+      not yet Health Secretary on 2 Nov 2024 and his post does not cite the NTP; Connett's
+      wording on the Nazi claim corrected and the Perkins point limited to what was read;
+      Smoot "never directly blamed Communists" (threads); NASEM 2020 dated 5 Mar 2020; FDA
+      quote is on p. 15; NTP revision on pp. 3-5; Sweden's exposure is natural fluoride and the
+      High School and Beyond outcome is achievement tests; the additives refutation narrowed to
+      contaminants; three manifest titles corrected to the papers' own titles; the eCFR added
+      to timeline a03; "2020 trial" replaced by "first trial"; the PBS report dated 8 Apr 2025;
+      the FDA adoption note no longer says the FDA concedes the high range. Could not be
+      verified by the checker: the PHAC Canadian figures (canada.ca unreachable) and the online
+      date of Aggeborn & Ohman 2021.

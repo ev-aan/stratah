@@ -1,0 +1,72 @@
+subject: fluoride-iq
+
+discriminating_tests:
+
+  - id: dt-low-range-dose-response
+    question: >
+      Below 1.5 mg/L, do children with more fluoride exposure score lower on IQ tests than
+      children with less?
+    retires: null
+    predicts:
+      effect-at-community-levels: >
+        IF fluoride at community levels lowers IQ, the dose-response slope should stay negative
+        below 1.5 mg/L, in water measures as well as urine measures.
+      threshold-above-community-levels: >
+        IF the effect starts only at higher exposure, slopes below 1.5 mg/L should be near zero.
+    result:
+      type: synthetic
+      finding: >
+        Taylor et al. 2025: water fluoride below 1.5 mg/L, 7 studies, slope 0.05 (-0.36 to
+        0.45), no association; urinary fluoride below 1.5 mg/L, 5 studies, -0.08 (-0.15 to
+        -0.003), a small inverse association [read]. The two exposure measures disagree.
+      accessible: true
+    resolves: >
+      Does not resolve the community-level question: the answer depends on which exposure
+      measure is trusted (fl-fluoridation-lowers-iq stays contested).
+    note: "Statistical evidence, class synthetic."
+
+  - id: dt-residence-cohorts
+    question: >
+      Do people who grew up in fluoridated communities score lower on cognitive tests than
+      those who did not?
+    retires: null
+    predicts:
+      effect: "IF fluoridation lowers IQ meaningfully, fluoridated groups should score lower in large cohorts."
+      no-effect: "IF not, differences should be near zero."
+    result:
+      type: synthetic
+      finding: >
+        No lower scores in New Zealand, Sweden, Australia or two US cohorts (151,402 people in
+        total) [read]. Exposure assigned by residence, not measured individually.
+      accessible: true
+    resolves: >
+      Retires a large effect of childhood residence in fluoridated areas; does not test prenatal
+      exposure measured individually (fl-maternal-urine-signal).
+
+  - id: dt-calgary-gap
+    question: >
+      Calgary stopped fluoridating in May 2011 and restarted on 30 June 2025; Edmonton
+      fluoridated throughout. Do children in Calgary who were in the womb or in infancy during
+      the gap score differently on cognitive tests from children born before or after it, and
+      from Edmonton children of the same ages?
+    retires: null
+    predicts:
+      prenatal-effect: >
+        IF prenatal fluoride at 0.7 mg/L lowers IQ, Calgary children gestated during the gap
+        should score higher than Calgary children gestated before 2011 and Edmonton children of
+        the same birth years.
+      no-effect: "IF not, no step change at the gap boundaries, relative to Edmonton."
+    result:
+      type: not_run
+      finding: >
+        Not run. Feasibility not checked: requires access to cognitive test data by birth date
+        and city (for example Alberta school assessments or a cohort such as APrON, whose 2023
+        Calgary analysis found no full-scale IQ association but poorer inhibitory control).
+      accessible: false
+    resolves: >
+      Would be a natural experiment with two switches (off and on) in the same city, with a
+      comparison city; it would test the prenatal question directly. Candidate for the bounty
+      board.
+    note: >
+      Design only. Before any data are collected the method, controls and decision thresholds
+      must be written down and calibrated (CONTRIBUTING section 4).

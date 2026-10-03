@@ -1,0 +1,38 @@
+subject: fluoride-iq
+
+threads:
+
+  - id: thread-fluoride-opposition-transmission
+    type: reception-overlay
+    title: "How opposition to fluoridation spread, and how the IQ claim joined it (1950 to 2026)"
+    confers_weight: false   # T4: required for reception overlays
+    description: >
+      The route the arguments took, recorded as transmission so that their reach is never read
+      as support. Each step is dated in timeline.yaml.
+    overlay_notes:
+      - >
+        1945-1950: fluoridation starts in Grand Rapids (25 Jan 1945) and is endorsed by the US
+        Public Health Service and the ADA in 1950; local referendums begin (Stevens Point,
+        Wisconsin rejected it in Sep 1950) (src-hicks-2011, src-cdc-mmwr-1999).
+      - >
+        1950s-1964: opposition turns to conspiracy themes. The Dan Smoot Report (9 Feb 1959)
+        likened water fluoridation to mass drugging (Smoot never directly blamed Communists); the
+        John Birch Society endorsed it; The Independent (31 Mar 1960) said former Communists called
+        fluoridation "a method of Red Warfare". Satirized in Dr. Strangelove (1964). A letter attributed to
+        Charles Perkins (1954) circulates; a reproduction of 2000 includes a Nazi-camp story,
+        and whether the original did is unknown (fl-nazi-camps, fl-sq-nazi-origin).
+      - >
+        2012: a meta-analysis of Chinese and Iranian high-exposure studies is labelled "the
+        Harvard study" through a university press release and is cited against US fluoridation,
+        which its authors said it could not address (fl-harvard-study-applies-to-us).
+      - >
+        2019-2024: Canadian and Mexican pregnancy cohorts and the NTP review move the IQ question
+        into mainstream journals and a federal lawsuit (fl-maternal-urine-signal,
+        fl-court-ruling-is-not-a-finding).
+      - >
+        2 Nov 2024 onward: the incoming US Health Secretary posts that fluoride is "an industrial
+        waste" associated with IQ loss; in 2025 Utah and Florida ban fluoridation and the FDA
+        restricts children's fluoride drops (fl-state-bans-2025, fl-fda-ingestible-action).
+    firewall: >
+      None of these steps adds evidential weight to any claim. Their reach is recorded as
+      adoption on the claims they touch.
