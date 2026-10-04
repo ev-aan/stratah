@@ -337,6 +337,65 @@ sources:
       next_step: "Open the Radio Oranje transcript or log held by NIOD or Beeld en Geluid."
       checked: 2026-10-04
 
+  - id: src-rbams-2015
+    title: "Rechtbank Amsterdam, judgment of 23 December 2015, Anne Frank-Fonds against Anne Frank Stichting and KNAW (copyright), C/13/583257 / HA ZA 15-270, ECLI:NL:RBAMS:2015:9312"
+    author: Rechtbank Amsterdam
+    date: "2015-12-23"
+    url: https://uitspraken.rechtspraak.nl/details?id=ECLI%3ANL%3ARBAMS%3A2015%3A9312
+    document_class: primary_text (court judgment; findings of fact)
+    read: "full (official open-data XML, about 34,000 characters; section 2 'De feiten' read closely)"
+    sha256: 52dfca8d2fa23e6e34ab2e17f1501c6e6c79a61152170b7a7e05b5c379f9b52f   # of https://data.rechtspraak.nl/uitspraken/content?id=ECLI:NL:RBAMS:2015:9312 as fetched
+    stored_as: "sources/extracts/rbams-2015-extract.txt"
+    authenticity:
+      status: authenticated
+      strength: strong
+      provenance: "The Dutch judiciary's own open-data service (Rechtspraak Open Data), which labels it Raad voor de Rechtspraak, ECLI-numbered, dated 2015-12-23."
+      tests:
+        - "The ECLI, court, date, case number and parties in the header match the Rechtspraak listing and the case as described by the Dutch press and legal sites (search results, not opened). [read]"
+        - "Its facts on custody and on versions A and B agree with the Anne Frank House, the Fonds and the NIOD editor (src-af-complete-works, src-fonds-publications, src-vanderstroom-1999); a conflict with them would have failed it. [read]"
+      tested_by: "Strata dig author session, 2026-10-04. Independent of both parties; the facts are those undisputed between two parties (the Fonds and the Stichting) who were adverse in the case."
+      gaps: ["A copyright case: it records how the diary exists, and says nothing on authenticity or on the forensic reports. Section 2 says the 1986 edition published the integral manuscripts of A and B; it does not mention C within the edition (the NIOD editor says all three are printed)."]
+      next_step: "None needed for its use here."
+      checked: 2026-10-04
+
+  - id: src-cidi-2000
+    title: "CIDI, Jaaroverzicht antisemitisme in Nederland 2000 (annual survey, 27 pages), section 'Rechtszaken'"
+    author: CIDI (Centrum Informatie en Documentatie Israel)
+    date: "2001 (survey of the year 2000)"
+    url: https://archive.jpr.org.uk/download?id=2999
+    document_class: secondary (a monitoring organisation's summary of rulings)
+    read: "full (pdftotext of the whole PDF); the passage on 27 April 2000 read"
+    sha256: 8da813983abc154d86acb001bab42feaaf79cc3e7eb94a8be8c4b525798d54f8
+    stored_as: "sources/extracts/cidi-2000-extract.txt"
+    authenticity:
+      status: authenticated
+      strength: weak
+      provenance: "Hosted by the Institute for Jewish Policy Research's online archive (archive.jpr.org.uk); a CIDI annual survey with its own table of contents."
+      tests: ["Its date and parties (27 April 2000; the defendant against the Anne Frank Stichting and the Anne Frank Fonds; the booklet 'Anne Frank. Een kritische benadering') agree with the Anne Frank House and the defendant's own page (src-vho-appeal-2000). [read]"]
+      tested_by: "Strata dig author session, 2026-10-04. Not a party to the case, but an interested monitoring body; a summary of a ruling, not the ruling."
+      gaps: ["A short summary; the judgment was not opened. It uses the defendant's surname and 'Holocaust denier'; neither is repeated here."]
+      next_step: "Obtain the judgment of the Gerechtshof Amsterdam of 27 April 2000."
+      checked: 2026-10-04
+
+  - id: src-afr-dagboek-nl
+    title: "Anne Frank House research archive (Dutch), 'Het dagboek van Anne Frank' (topic page with footnotes)"
+    author: Anne Frank Stichting (research site)
+    date: "undated page, read 2026-10-04"
+    url: https://research.annefrank.org/nl/onderwerpen/77e2d1df-a034-4a82-88b2-2a5ab0bb9471/
+    document_class: interpretive (an institution's account; quotes the laboratory's conclusion on the five sheets)
+    read: "full (6,827 characters of text)"
+    sha256: 33232695b7a9d47fef182d3188e3208f903f8d3b59c366e24ae57fddd195f78a
+    stored_as: "sources/extracts/afr-dagboek-nl-extract.txt"
+    authenticity:
+      status: authenticated
+      strength: moderate
+      provenance: "The Anne Frank House research site, fetched directly 2026-10-04; footnote 4 cites the 2001 fifth printing of De Dagboeken van Anne Frank, p. 209."
+      tests: ["Its date for the five sheets (1998) and the 2001 edition agree with the Rechtbank Amsterdam's findings of fact (src-rbams-2015). [read]"]
+      tested_by: "Strata dig author session, 2026-10-04. Not independent of the claimant; the same body as src-af-authenticity."
+      gaps: ["The lab quotation is as printed in the 2001 edition (p. 209), which was not opened. The page names a former staff member who passed the sheets on; not named here."]
+      next_step: "Open the 2001 printing of De Dagboeken van Anne Frank, p. 209."
+      checked: 2026-10-04
+
   - id: src-cbc-1998
     title: "CBC News, 'Illegal to question Anne Frank diaries: court', 10 December 1998"
     author: CBC News
@@ -441,7 +500,7 @@ sources:
     date: "1986; 2003"
     url: https://archive.org/details/diaryofannefrank0000fran_b0k1
     document_class: primary_text (the edition and the forensic summary)
-    read: "not read. The Internet Archive copy is a lending-library scan: the text download answered 401 Authorization Required on 2026-10-04. Only passages quoted by other sources were seen."
+    read: "not read. The Internet Archive copy (diaryofannefrank0000fran_b0k1; also dedagboekenvanan0000fran, the Dutch edition) is a lending-library scan: the text download answered 401 Authorization Required on 2026-10-04 and again in round 4. Not attempted: borrowing, which the owner excluded. Round 4 also tried: Google Books API (429, daily quota exhausted for this project), HathiTrust full-text search (403), NIOD site (429), dbnl.org search (403), Huygens repository front page (no copy of the edition), the Internet Archive search for open copies (only lending or denial-anthology items). Only passages quoted by other sources were seen."
     authenticity:
       status: unchecked
       provenance: "Published by the Dutch state institute that holds the manuscripts."
@@ -489,7 +548,7 @@ sources:
     date: "1978 to 2000"
     url: "none found"
     document_class: primary_text (court decisions)
-    read: "not read. Searched rechtspraak.nl open data by court and date on 2026-10-04 for 9 December 1998 (Rechtbank Amsterdam) and 27 April 2000 (Gerechtshof Amsterdam): no matching decision was identified. The German judgments are in private archives."
+    read: "not read. Searched rechtspraak.nl open data by court and date on 2026-10-04 (and again in round 4) for 9 December 1998 (Rechtbank Amsterdam) and 27 April 2000 (Gerechtshof Amsterdam): no matching decision was identified; the open data holds only later Anne Frank cases (copyright, 2015 to 2024). Web searches for a published text (Mediaforum, Nederlandse Jurisprudentie, German reports of the Frankfurt and Hamburg judgments) returned only summaries by the Anne Frank House, the taz, CBC, a monitoring body (CIDI) and the defendant. The German judgments are in private archives."
     authenticity:
       status: unchecked
       provenance: "Cited by the Anne Frank House research archive (Frankfurt 1978: AFF_OtF_bdoc_03; Amtsgericht Hamburg 13 January 1977 and 6 April 1979: OFA_108)."

@@ -128,8 +128,8 @@ claims:
       type: primary_text
       description: >
         Anne Frank House news release of 15 May 2018: 'In his will Otto Frank bequeathed the diaries of his daughter Anne to the NIOD ... and the Dutch state. The diaries were given on loan to the Anne Frank House
-        organisation and are permanently exhibited in the Anne Frank House.' Read in full 2026-10-04. Which part rests on which source: the bequest and the loan are from the 2018 release; 'since 1980' is from the taz (27 July 2006: the Dutch institute has held the manuscripts since 1980) and the German PDF 'Sieben Fragen' (the Dutch government placed the estate in NIOD's care).
-      sources: [src-af-2018-news, src-taz-2006-07-27, src-af-sieben-fragen]
+        organisation and are permanently exhibited in the Anne Frank House.' Read in full 2026-10-04. Which part rests on which source: the bequest and the loan are from the 2018 release; 'since 1980' is from the taz (27 July 2006: the Dutch institute has held the manuscripts since 1980) and the German PDF 'Sieben Fragen' (the Dutch government placed the estate in NIOD's care). Added in round 4 (log L-10): the Rechtbank Amsterdam judgment of 23 December 2015 (ECLI:NL:RBAMS:2015:9312, read in full from the official open-data text) states, as a fact between the Anne Frank Fonds and the Anne Frank Stichting, that Otto Frank left the physical works to the then Rijksinstituut voor Oorlogsdocumentatie (NIOD) and that NIOD lent the physical diaries to the Stichting.
+      sources: [src-af-2018-news, src-taz-2006-07-27, src-af-sieben-fragen, src-rbams-2015]
 
   - id: afd-1943-notebooks-missing
     state: established
@@ -450,7 +450,8 @@ claims:
       description: >
         Anne Frank House, 'The authenticity of the diary': 'In 1998, five previously unknown pages from the diary of Anne Frank cropped up ... They were examined and there was no reason whatsoever to presume that the five returned loose sheets were not written by Anne Frank ... first included in the fifth edition (2001)';
         German PDF 'Sieben Fragen' (same, through a former Anne Frank House staff member who said Otto Frank had given them to him to keep). Against it, 'The complete works of Anne Frank': 'In 2000, it turned out that Otto had withheld a diary letter ...'. Read in full 2026-10-04. The former staff member is not named here.
-      sources: [src-af-authenticity, src-af-sieben-fragen, src-af-complete-works]
+      sources: [src-af-authenticity, src-af-sieben-fragen, src-af-complete-works, src-rbams-2015, src-afr-dagboek-nl]
+      round_4_note: "Added in round 4 (log L-10): the Rechtbank Amsterdam judgment of 23 December 2015 (read in full) states as a fact between the Fonds and the Stichting that the NIOD's 2001 edition worked in 'a number of loose sheets from version B discovered in 1998', which supports 1998 for the sheets. The Anne Frank House research page (Dutch, read) says the sheets were examined by the Gerechtelijk Laboratorium, which concluded that the writing is, with near-certain probability ('met aan zekerheid grenzende waarschijnlijkheid'), of the same hand as the reference writing on the loose sheets of the diary. The 2000 letter item is still not tied to a date or event."
 
   - id: afd-covered-pages-2018
     state: established
@@ -541,6 +542,36 @@ claims:
         asked for 26 further deletions, which he accepted); Anne Frank House, 'Publication of the diary' (Otto included some critical texts about the mother, omitted a piece critical of his marriage) and 'The complete works of Anne Frank'; NIOD editor van der Stroom ('Otto Frank heeft niets aan de teksten van Anne toegevoegd',
         he joined the two incomplete versions into one). The Critical Edition's own wording on the 1947 foreword ('more than an obvious understatement') is known only as quoted in a denial article and was not compared with the book. Read in full 2026-10-04.
       sources: [src-fonds-publications, src-af-publication, src-af-complete-works, src-vanderstroom-1999]
+
+  - id: afd-versions-abc-court
+    state: established
+    statement: >
+      A Dutch court's own findings of fact state the structure of the diary: Anne wrote two versions of her diary between 1942 and 1944 (A: the original diary and two surviving notebooks; B: 215 surviving loose sheets, her rewrite for publication after she heard that diaries would be collected); Otto Frank published in 1947 an edited text of his own made up of parts of A and B (C),
+      in which some passages were removed or moved, he chose between passages found in both A and B, left some parts unused and made some corrections and language changes; and the 1986 NIOD edition published the integral manuscripts of A and B. The court recorded these as facts, not disputed between the Anne Frank Fonds and the Anne Frank Stichting (adverse parties in that case).
+    statement_kind: reported
+    evidence_class: primary_text
+    confidence: high
+    confidence_reasons:
+      start: high
+      start_because: "A court judgment was read in full from the official open-data text (data.rechtspraak.nl)."
+      steps:
+        - {domain: primary_anchor_read, effect: none, reason: "Counted in the start."}
+        - {domain: independent_corroboration, effect: none, reason: "The facts are the court's, taken from the undisputed submissions of two adverse parties; the Anne Frank House, the Fonds and the NIOD editor give the same structure (afd-versions-abcd)."}
+      reviewed: false
+    assumptions:
+      - text: "A court's findings of fact on matters not in dispute between the parties reflect what both parties said, not an independent examination of the manuscripts."
+        if_wrong: "None; the claim states what the court recorded, and says so."
+    evidential_weight: 4
+    anchor_checked: primary
+    adoption_weight: 3
+    adoption_note: "Not widely known; the structure is stated here by a court in a copyright case, not in an authenticity case."
+    would_change_if: "a later judgment or the manuscripts' catalogue describing the versions differently"
+    anchor:
+      type: primary_text
+      description: >
+        Rechtbank Amsterdam, judgment of 23 December 2015, case C/13/583257 / HA ZA 15-270 (Anne Frank Fonds against Anne Frank Stichting and the KNAW), ECLI:NL:RBAMS:2015:9312, section 2 'De feiten' (2.1 and 2.4 custody; 2.5 versions A and B; 2.8 version C; 2.9 the 1986 edition; 2.10 the 1998 facsimile agreement; 2.11 the 2001 edition and the sheets discovered in 1998).
+        Read in full from the open-data text on 2026-10-04. The later judgments (Rechtbank 1 February 2022, ECLI:NL:RBAMS:2022:328; Gerechtshof 7 March 2023, ECLI:NL:GHAMS:2023:542) repeat the custody and facsimile facts and say nothing on the versions.
+      sources: [src-rbams-2015]
 
   - id: afd-definitive-label-contested
     state: contested
@@ -696,7 +727,8 @@ claims:
       description: >
         Anne Frank House, 'The authenticity of the diary' ('In December 1998 the Amsterdam District Court found for the plaintiffs and upheld their demand for a ban, a judgement that was confirmed on appeal in 2000'; penalty 25,000 guilders); CBC News, 10 December 1998 (the court banned the booklet; it said the diary 'should be seen as authentic'); the defendant's page (judgment of 9 December 1998; the Court of Appeal's ban of 27 April 2000 in changed form).
         Read in full 2026-10-04. The defendant is the publisher named in the case.
-      sources: [src-af-authenticity, src-cbc-1998, src-vho-appeal-2000]
+      sources: [src-af-authenticity, src-cbc-1998, src-vho-appeal-2000, src-cidi-2000]
+      round_4_note: "Added in round 4 (log L-10): the CIDI yearbook on antisemitism in the Netherlands in 2000 (read in full) independently lists 27 April 2000 as the day the defendant lost his appeal against the Anne Frank Stichting and the Anne Frank Fonds, and says the Court forbade him to distribute the booklet in the Netherlands."
 
   - id: afd-amsterdam-appeal-reasoning-gap
     state: searched_gap
@@ -718,7 +750,8 @@ claims:
       description: >
         Searched rechtspraak.nl open data on 2026-10-04 by court and date for 9 December 1998 (Rechtbank Amsterdam) and 27 April 2000 (Gerechtshof Amsterdam); no decision in this case was identified. The only text of the appeal reasons found is quoted in a page by the defendant (paragraphs 6.14 to 8, in his translation);
         the paragraphs quoted above come from there, not from the judgment. Read the Anne Frank House account and CBC for the outcome.
-      sources: [src-vho-appeal-2000, src-af-authenticity, src-cbc-1998]
+      sources: [src-vho-appeal-2000, src-af-authenticity, src-cbc-1998, src-cidi-2000]
+      round_4_note: "Added in round 4 (log L-10): a third account, the CIDI yearbook for 2000 (a monitoring body, read in full), summarises the appeal ruling as the Court holding that research by the Gerechtelijk Laboratorium had established that the diary is authentic, that this does not mean the defendant may not doubt it or voice the doubt, but that doubt expressed in a revisionist context is unlawful and the booklet may not be distributed in the Netherlands. That agrees with paragraphs 6.14 to 6.19 as the defendant's page quotes them, but differs from paragraphs 6.24 and 6.26 as quoted there (the Court is not concerned with judging authenticity). The judgment itself was still not found, so the difference is not resolved: either the summary compresses the Court's reasoning or the party's quotation selects from it."
 
   # =====================================================================
   # CLAIMS BEING TESTED: authorship by someone else
