@@ -366,7 +366,7 @@ sources:
     document_class: secondary (a monitoring organisation's summary of rulings)
     read: "full (pdftotext of the whole PDF); the passage on 27 April 2000 read"
     sha256: 8da813983abc154d86acb001bab42feaaf79cc3e7eb94a8be8c4b525798d54f8
-    stored_as: "sources/extracts/cidi-2000-extract.txt"
+    stored_as: "sources/extracts/cidi-2000-extract.txt (one edit: the defendant's surname in the second sentence is replaced by [the defendant]; the source text names him)"
     authenticity:
       status: authenticated
       strength: weak

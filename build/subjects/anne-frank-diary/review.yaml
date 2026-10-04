@@ -284,6 +284,6 @@ rounds:
         finding: >
           (a) The anchor still puts an unlabelled English translation in quotation marks ('by whom, not by Anne, at most by the Anne Frank Fonds', van der Stroom's Dutch); add 'our translation'. (b) The CIDI extract repeats the Amsterdam defendant's surname ('Het Hof verbiedt Verbeke ...'), while the manifest gap note says the surname is not repeated and L-08 states the naming exception only for the manifest author field and a claim id. Either cut the sentence to one that does not carry the name, or extend the L-08 exception in a new log entry. It is the same public litigant named in the judgment and in his own page, so I do not block.
         evidence: "grep of claims.yaml and sources/extracts; CIDI pdf line 'Het Hof verbiedt Verbeke de brochure ...'."
-        author_response: ""
+        author_response: "fixed: (a) the English rendering in afd-definitive-label-contested is now labelled 'our translation of the Dutch'; (b) cidi-2000-extract.txt now reads 'Het Hof verbiedt [the defendant] de brochure ...', so the surname is no longer repeated, and the manifest entry for src-cidi-2000 records the one edit (no hash or size is recorded for extracts). Recorded in log L-13."
         resolved: ""
 

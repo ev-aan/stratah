@@ -598,7 +598,7 @@ claims:
     anchor:
       type: secondary
       description: >
-        Van der Stroom (1999): 'Deze zogenaamde d-versie ...', the German publisher's subtitle 'Einzig autorisierte Fassung' ('by whom, not by Anne, at most by the Anne Frank Fonds'), the US 'definitive edition' ('natuurlijk onzin'); Fonds 'Publications' page: Pressler compiles 'the globally valid reader's edition' in 1991.
+        Van der Stroom (1999): 'Deze zogenaamde d-versie ...', the German publisher's subtitle 'Einzig autorisierte Fassung' (by whom? 'not by Anne, at most by the Anne Frank Fonds', our translation of the Dutch), the US 'definitive edition' ('natuurlijk onzin'); Fonds 'Publications' page: Pressler compiles 'the globally valid reader's edition' in 1991.
         Both read in full 2026-10-04; the editions' front matter was not seen.
       sources: [src-vanderstroom-1999, src-fonds-publications]
 
