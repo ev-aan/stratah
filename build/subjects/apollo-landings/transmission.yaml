@@ -1,0 +1,49 @@
+# TRANSMISSION RECORD: how the "faked Moon landing" idea spread. Format: build/SCHEMA.md (transmission records, X1-X4).
+# Spread is adoption, never evidence. Nothing here supports or weakens any claim in claims.yaml.
+# Only items actually read are marked read: yes; the Kaysing step is read: no (search result only, host returned 403).
+
+subject: apollo-landings
+
+chains:
+
+  - id: tx-apollo-hoax-idea
+    about: "apollo-landings:apollo-staged-hoax"
+    title: "How the 'faked Moon landing' idea reached a wide audience (partial: three steps found)"
+    confers_weight: false
+    events:
+      - id: tx-a-01
+        date: "1976-01-01"
+        precision: year
+        step: origin
+        carrier: "Bill Kaysing, a former Rocketdyne employee, in a self-published book (as described in a search result)"
+        form: "Book titled 'We Never Went to the Moon: America's Thirty Billion Dollar Swindle', arguing the landings were not achieved."
+        source: src-smithsonian-kaysing
+        read: no
+        note: "Not read: the Smithsonian page returned 403 and the 1976 date (and an earlier 1974 pamphlet) come from search-result summaries that disagree. Treat as reported only."
+      - id: tx-a-02
+        date: "1995-07-19"
+        precision: day
+        step: persistence
+        carrier: "TIME/CNN/Yankelovich poll (as reported in Gallup's table)"
+        form: "Asked whether the government staged or faked the landing: 6 per cent yes, 83 per cent no, 11 per cent no opinion."
+        source: src-gallup-1999
+        read: yes
+        note: "The poll date is the table's own label 'Jul 19-20' for 1995. The figure measures belief, not evidence."
+      - id: tx-a-03
+        date: "1999-07-13"
+        precision: day
+        step: persistence
+        carrier: "Gallup poll, 13-14 July 1999, 1,061 adults"
+        form: "6 per cent said the government staged or faked the landing, 89 per cent said not, 5 per cent no opinion. Gallup's text says a film, 'Capricorn One', had a premise of faked televised landings, and calls the belief not widespread."
+        source: src-gallup-1999
+        read: yes
+        note: "The film's year is not given on the page. A later Gallup note (15 Feb 2001, linked on the page) mentions a Fox television programme on the question; only its listing snippet was seen."
+      - id: tx-a-04
+        date: "2019-07-19"
+        precision: day
+        step: persistence
+        carrier: "YouGov article by Kathy Frankovic"
+        form: "Says one in five are 'not at all sure' the landing happened; says doubt is higher among adults who were not alive in 1969."
+        source: src-yougov-2019
+        read: yes
+        note: "Article text only; no table seen. Different wording from Gallup 1999, so not a trend."

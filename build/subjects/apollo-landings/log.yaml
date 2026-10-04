@@ -64,3 +64,119 @@ log:
       and the track imagery is not independent of NASA. State changed from refuted
       to proposed. It can return to refuted when an independent material or
       primary-text anchor is read (for example non-NASA orbiter imagery of tracks).
+  - id: L-10
+    date: 2026-10-04
+    entry: >
+      RESUMED by a dig author agent on branch dig/apollo-landings, from origin/main. The reason it was parked (primary hosts
+      blocked) no longer holds: ntrs.nasa.gov, arxiv.org, nationalacademies.org, global.jaxa.jp, ilrs.gsfc.nasa.gov,
+      lroc.im-ldi.com, hou.usra.edu (LPSC), news.gallup.com, space.com, nasa.gov and curator.jsc.nasa.gov returned documents.
+      Still blocked or partial: science.org (403, so Bender et al. 1973 and Faller et al. 1969 were not opened),
+      journals.sagepub.com (403), smithsonianmag.com (403), the IOP full text (bot-check page; abstract only), psrd.hawaii.edu
+      (https did not connect, http worked), the old Apollo Lunar Surface Journal addresses (redirect to a general page),
+      nssdc.gsfc.nasa.gov and the ADS full-text pages. The title was changed to the question, "Did the Moon landing hoax
+      claims hold up?". First V2 read: NASA TN D-7080 (NTRS PDF, sha256 in the manifest): Table I and the text on printed pages 3 to 6.
+  - id: L-11
+    date: 2026-10-04
+    entry: >
+      CORRECTION (apollo-radiation-survivable). Read in TN D-7080: Table I has nine missions, Apollo 7 to 15, skin dose in rads
+      0.16, 0.16, 0.20, 0.48, 0.18, 0.58, 0.24, 1.14, 0.30. The first pass said "nine lunar-distance missions", a mean of 0.46
+      rad and an Apollo 17 value of 0.55 rad. None of those is in the report: only seven of the nine (8, 10 to 15) went to lunar
+      distance, no mean is given, and there is no Apollo 16 or 17 value (the report's date line is 24 Oct 1972, issued March 1973).
+      The first pass's "0.16 (Apollo 8) to 1.14 (Apollo 14)" holds. The statement that most of each dose came from belt passage was
+      not found in the pages read and is dropped. Limit confirmed: 400 rads to the skin, 50 rads to blood-forming organs;
+      blood-forming organ doses about 40 per cent lower than at the skin; individual readings within about 20 per cent of the
+      average. Claim now anchor_checked primary, confidence still moderate (the readings are NASA's, not independent).
+  - id: L-12
+    date: 2026-10-04
+    entry: >
+      CORRECTION (apollo-retroreflectors-on-moon). Read in full text: Courde et al. 2017 (arXiv 1704.06443), Murphy 2013 review
+      (arXiv 1309.6294), Murphy et al. 2011 (arXiv 1009.5720), Murphy et al. 2008 (arXiv 0710.0890), Merkowitz et al. 2007
+      (arXiv 0712.3539), and the ILRS lunar science page (modified 30 Sep 2026); abstract only of Zhang et al. 2022 (IOP).
+      (a) The 2017 Grasse paper says only four stations supply Earth-Moon range observations to the ILRS database: APOLLO,
+      McDonald, Matera, Grasse. That was a 2017 list. The ILRS page now names Apache Point, Grasse, Wettzell and Matera as the
+      main providers and says McDonald stopped in the 2010s. A Chinese station (Zhuhai) is reported to have ranged the Apollo and
+      Luna reflectors (abstract: echoes from all five arrays). (b) Murphy 2013 lists Lick Observatory (first accurate ranges, 1 Aug
+      1969), McDonald, the French station from 1984, Haleakala (1984-1990), and says efforts in Russia, Pic du Midi, Australia,
+      Japan and elsewhere are described in other works; the first pass's L-03 removed Japan and Australia as current stations, which stays right
+      for the 2017 list, but they appear in the history. (c) The first pass said the lost Lunokhod 1 reflector was re-found by outside
+      ranging. Murphy et al. 2011 says it was found with NASA's LRO images (2010) and then ranged by APOLLO: removed from the claim.
+      (d) The 63 and 0.1 photons a second figures are in Courde, quoted from Murphy 2013; Murphy's Table 2 gives 3,775 photons a minute
+      for APOLLO's record on Apollo 15 (about 63 a second, our arithmetic). (e) Funding: the Grasse station thanks INSU-CNRS and CNES;
+      APOLLO acknowledges NASA and NSF grants. Claim now anchor_checked primary, confidence high, weight 4.
+  - id: L-13
+    date: 2026-10-04
+    entry: >
+      Not read, so not claimed: the raw ranging data (normal points) of any station; Bender et al. 1973 (Science), the report of the
+      Lick and McDonald ranging; Faller et al. 1969; the papers on Wettzell and Matera; Tryapitsyn et al. 2021 (abstract only through
+      Crossref); the full text of Zhang et al. 2022. The ILRS page's station statement is its own and was not checked against station logs.
+  - id: L-14
+    date: 2026-10-04
+    entry: >
+      CORRECTION (samples). Read: National Academies 2019 chapter (Table 2.1 and text), NASA JSC curator page, PSRD 2009
+      (Martel), PSRD 2004 (Norman), LROC page on the Soviet sample returns. Findings: (a) the NAS table has Apollo 11 at 21.6 kg
+      (six rows sum to 381.7 kg); PSRD prints 21.8 kg and a total of 381.7, and its rows sum to 381.9. The first pass used 21.8.
+      (b) Luna 20: NAS 50 g, LROC 55 g; the 30 g figure of the first pass was not found in any source read and is dropped.
+      (c) NASA's curator page says 382 kg, about 2,200 samples and about 300 g from the three Soviet missions. (d) The first pass's
+      "about 150 laboratories", "27 of 110 Apollo 11 investigators from six countries" and "4.40 to 4.47 billion years" are not in any
+      source read and were removed; PSRD 2004 gives a 4.456 billion year pyroxene isochron (earlier values 4.29 to 4.54). (e) The
+      1971 NASA and Soviet sample exchange was not read. The claim apollo-samples-are-lunar is re-filed as secondary (summaries only)
+      and a new claim, apollo-sample-masses-recorded, carries the figures as records. The mass ratio is now given as about 1,170
+      to 1,190, not 1,170.
+  - id: L-15
+    date: 2026-10-04
+    entry: >
+      CORRECTION (orbital imaging). Read: LROC pages of 16 Jul 2009, 28 Oct 2009 and 6 Sep 2011; JAXA's 20 May 2008 release;
+      Stooke's LPSC 2026 abstract. (a) JAXA's release says a potential halo and gives the Terrain Camera resolution as 10 m
+      (no hardware visible); the first pass said SELENE detected the halo. (b) The abstract says the Chandrayaan-2 camera (about 25 cm
+      per pixel) viewed the descent stages of Apollo 11 and 12 and the sites; the first pass said the Apollo 11 descent stage and the
+      Apollo 12 site. The poster images were not seen. (c) The LROC pages read show the Apollo 14 lunar module and astronaut tracks
+      (2009) and Apollo 17 rover tracks (2009, 2011); the first pass said descent stages, rover tracks and foot trails at Apollo 12, 14 and 17.
+      The Apollo 12 and 14 low-altitude page was not read and is not claimed. (d) The first five-site set of July 2009 does not include
+      Apollo 12. (e) Added from Murphy et al. 2011: LROC coordinates for the Luna 17 site led APOLLO to a return 270 ns off prediction,
+      a check that LROC positions point at real hardware. Confidence lowered from high to moderate: the independent items are a
+      potential halo and an abstract without images.
+  - id: L-16
+    date: 2026-10-04
+    entry: >
+      CORRECTION (lost tapes). Read NASA's "The Apollo 11 Telemetry Data Recordings: A Final Report" (a scan; read by OCR, stored text
+      in sources/) and Space.com of 17 July 2009. The report estimates 45 tapes (three stations, 15 reels each) and the lead,
+      Nafzger, concluded they were degaussed, recertified and reused, from circumstantial weekly reports of 1981; the closing section
+      says Goddard either reused them or disposed of them. The first pass said they were erased and reused and that the restoration
+      used Goldstone; Space.com names Sydney (Parkes and Honeysuckle Creek), CBS and kinescopes at Johnson. Space.com quotes a recall
+      of 40,000 boxes in 1970 to 1974; the report places the reuse in the early 1980s: not reconciled. The claim now says probably, and
+      is marked an absence claim (absence_anchor) at low confidence with a next step.
+  - id: L-17
+    date: 2026-10-04
+    entry: >
+      CORRECTION (adoption and Soviet claim). Read Gallup's 1999 page: July 13-14 1999, n=1,061, plus or minus 3 points: staged 6, not 89, no
+      opinion 5 (TIME/CNN 1995: 6, 83, 11). Read YouGov's 2019 article (text only): one in five are not at all sure the moon landing
+      ever happened. The first pass's figures of 11 per cent (2019), 12 per cent (2021) and 12 per cent (UK 2012) and the Newsweek item were not
+      found in any source read, so they are dropped, not corrected. apollo-soviet-non-challenge is marked an absence claim; nothing from Soviet 1969
+      sources was read; the Crimean Observatory's ranging from 1970 to 1984 (abstract) is noted as a lead.
+  - id: L-18
+    date: 2026-10-04
+    entry: >
+      STRUCTURE changes in this pass (no earlier entry edited). New claims: apollo-sample-masses-recorded and apollo-photo-anomalies-untested
+      (a stated gap: shadows, flag and star claims were not tested). apollo-staged-hoax: statement narrowed to what the anchors show (hardware and
+      reflectors at the sites); now anchor_checked primary with confidence_reasons; its anchors no longer include the unread sample dating.
+      apollo-crewed-landings-occurred: evidence class changed from material to synthetic (our inference), still moderate.
+      Added: sources/MANIFEST.yaml (24 sources with authenticity), timeline.yaml and the generated timeline.html, transmission.yaml (X1 to X4),
+      an assessment block (answer: no), three key points, dig_status resumed, headline_status review. refutation_class is still not set
+      (see L-07). No percentages in the assessment. tests.yaml results updated to what was read; threads.yaml has one added sentence.
+  - id: L-19
+    date: 2026-10-04
+    entry: >
+      CHECKS made before hand-in: arithmetic (NAS Apollo rows sum to 381.7; PSRD rows sum to 381.9; Luna total 321 g with 50 g or 326 g
+      with 55 g; ratio 1,171 to 1,189; APOLLO 3,775 a minute is 62.9 a second) and TN D-7080 Table I against the stored text. Quotes in
+      anchors were matched against the two stored NASA texts with build/tools/review_dig.py; quotes from the arXiv papers, LROC, JAXA and the
+      National Academies page are not stored and need a manual check by the reviewer. Dates were checked against the sources named in
+      timeline.yaml; Space.com's Thursday is 16 July 2009.
+  - id: L-20
+    date: 2026-10-04
+    entry: >
+      NOT READ OR NOT VERIFIED (plain list): the raw laser-ranging data; the journal versions of every arXiv paper; Bender et al. 1973 and
+      Faller et al. 1969; the full text of Zhang et al. 2022 and of Tryapitsyn et al. 2021; the Wettzell and Matera station papers; the
+      Chandrayaan-2 images (abstract only) and any SELENE paper; the Apollo 12 and 14 low-altitude LROC page; Norman et al. 2003 and the
+      Apollo 11 conference papers (lunar origin and dating rest on summaries); any Soviet source on the Luna 20 mass or on the 1969 response;
+      the Goddard weekly reports of 1981; the Apollo photograph claims; the YouGov table; the Kaysing book. review.yaml is not written by
+      the author. A separate review agent should open the cited sources and check each quote.
