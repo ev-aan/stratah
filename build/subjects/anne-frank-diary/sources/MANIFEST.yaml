@@ -1,0 +1,497 @@
+# Sources for the anne-frank-diary dig, with authenticity entries (rules A1-A10, build/SCHEMA.md).
+#
+# What "authenticity" means in this file: whether each SOURCE is what it says it is (an institution's own page, an agency's own press release,
+# a newspaper article, a scanned PDF). It is not the answer to the dig's question. Whether the diary manuscripts are Anne Frank's is the subject
+# of claims afd-nl-forensic-conclusion and afd-hamburg-graphology-1960; the manuscripts themselves, the Dutch forensic report, the Critical Edition
+# and the court judgments were NOT opened in this dig and are listed at the end as "not read" so that no claim can lean on them by accident.
+#
+# Storage: web pages were fetched with curl on 2026-10-04 (raw bytes hashed below). The full pages are not stored (copyright);
+# sources/extracts/*.txt keep the short verbatim passages quoted or relied on, so a reader can check them. The BKA press release is stored in full
+# (sources/bka-2006-07-26.txt) because it is short and an official statement.
+#
+# read: full = whole page or document fetched and read here; extract = the passages named were read in a fetched copy; not read = not opened.
+# Independence note: the Anne Frank House (Anne Frank Stichting) and the Anne Frank Fonds (Basel) were plaintiffs in several of the cases below, and
+# the Netherlands Institute for War Documentation (RIOD, now NIOD) commissioned the forensic work and edited the Critical Edition. Pages from those bodies are
+# therefore accounts by parties, however careful. They are recorded as such in `tested_by`.
+retrieved: 2026-10-04
+sources:
+
+  # ---------------- Institutional accounts (parties) ----------------
+  - id: src-af-authenticity
+    title: "Anne Frank House, 'The authenticity of the diary of Anne Frank' (English page)"
+    author: Anne Frank Stichting (Anne Frank House), Amsterdam
+    date: "undated page, read 2026-10-04"
+    url: https://www.annefrank.org/en/anne-frank/go-in-depth/authenticity-diary-anne-frank/
+    document_class: interpretive (an institution's account of reports and cases it is a party to)
+    read: "full (whole page, 19,681 characters of text)"
+    sha256: 7ac4432cd17ca22666044c9cf1f5e4ac468da5c5f31c1dc591a22360451bcd13   # raw HTML as fetched
+    stored_as: "sources/extracts/af-authenticity-extract.txt"
+    authenticity:
+      status: authenticated
+      strength: moderate
+      provenance: "The museum's own site (annefrank.org), fetched directly over HTTPS on 2026-10-04."
+      tests:
+        - "Its quotation of the NIOD conclusion matches the German-language Anne Frank House document 'Sieben Fragen zur Echtheit des Tagebuchs' (src-af-sieben-fragen), which quotes the same sentence from a different printing (page 186 of the 2003 English revised edition against page 203 of the 1988 German edition). A mismatch would have failed it. [read]"
+        - "Its account of the Lubeck, Frankfurt and Hamburg proceedings matches the Anne Frank House research archive page (src-af-research-otto), which cites the judgments, and, for the Hamburg 1980 BKA report, the taz report (src-taz-2006-07-27). [read]"
+      tested_by: "Strata dig author session, 2026-10-04. Not independent of the claimant: the Anne Frank House is a party to the legal actions it describes."
+      gaps:
+        - "The page is a secondary account of the Critical Edition, the forensic report and the judgments; none of those was opened."
+        - "It is advocacy as well as report (it argues against denial); only its statements of fact were used."
+        - "It says a graphologist 'left a few notes' in 1959; the taz (src-taz-2006-07-11) quotes the Berlin Anne Frank Centre as saying an editor ('Lektorin') made the later notes; see claim afd-ballpoint-detail-gap."
+      next_step: "Open the Critical Edition summary of the forensic report (src-critical-edition) and compare."
+      checked: 2026-10-04
+
+  - id: src-af-sieben-fragen
+    title: "Anne Frank Stichting / Anne Frank Zentrum, 'Sieben Fragen zur Echtheit des Tagebuchs der Anne Frank' (German PDF, 9 pages; (c) 2007 Anne Frank Stichting, (c) 2015 Anne Frank Zentrum)"
+    author: Anne Frank Stichting; Anne Frank Zentrum (Berlin)
+    date: "2007 (text), 2015 (reprint)"
+    url: https://www.annefrank.de/fileadmin/Redaktion/Wanderausstellungen/Dokumente/JVA_Tournee_Sieben_Fragen_zur_Echtheit_des_Tagebuchs_JVA_Tournee.pdf
+    document_class: interpretive (institutional explainer)
+    read: "full (pdftotext of the whole PDF)"
+    sha256: 0f8ef10c040245685eba31d86eeed1c9c6e4b4bb52fcb61a1e5af8b85548fd69
+    stored_as: "sources/extracts/sieben-fragen-extract.txt"
+    authenticity:
+      status: authenticated
+      strength: moderate
+      provenance: "Hosted by annefrank.de, the Berlin Anne Frank Centre's own site; a nine-page PDF with the Stichting's copyright line."
+      tests:
+        - "Its statements on the 1960 Hamburg graphologists' report, the Dutch Forensic Institute and the BKA match src-af-authenticity, src-af-research-otto and (for the BKA) the BKA's own statement (src-bka-2006). [read]"
+      tested_by: "Strata dig author session, 2026-10-04. Not independent of the claimant (same institution as src-af-authenticity, so counted with it as one origin)."
+      gaps:
+        - "German-language derived text of the English page; counted once with it for independence."
+        - "Gives the pages of the Critical Edition by edition (1988 German), not the 2003 English edition."
+      next_step: "As for src-af-authenticity."
+      checked: 2026-10-04
+
+  - id: src-af-research-otto
+    title: "Anne Frank House research archive, 'Otto Frank and the attacks on the authenticity of the diary'"
+    author: Anne Frank Stichting (Kenniscentrum / research site)
+    date: "undated page, read 2026-10-04"
+    url: https://research.annefrank.org/en/onderwerpen/42405377-f044-4d4a-a988-f085228f8455/
+    document_class: interpretive (an archive's narrative citing judgments and letters in the Otto Frank Archive)
+    read: "full (20,668 characters of text, footnotes included)"
+    sha256: 44b187051faf9cee1eb4ce45008d1d14403c240c028e312abf7a377a6f2d5d0c
+    stored_as: "sources/extracts/af-research-otto-extract.txt"
+    authenticity:
+      status: authenticated
+      strength: moderate
+      provenance: "The Anne Frank House's research site; its footnotes cite items in the Anne Frank Stichting's Otto Frank Archive (OFA_104, 107 to 112) and the Anne Frank Fonds family archive in Basel, including the judgment of the Landgericht Frankfurt of 22 June 1978 and the BKA report of 28 May 1980."
+      tests:
+        - "Internal consistency: its account of the Frankfurt, Hamburg and BKA events matches src-af-sieben-fragen and the taz reports on the BKA (dates 1-2 April 1980 and the BKA expert's two days in Birsfelden). [read]"
+        - "It contradicts itself on one point, which a careful reader catches: it says the Lubeck court 'ruled that the diary was authentic' and also that 'a sentence was never passed' (the defendants withdrew). The second statement, and src-af-sieben-fragen, are followed (claim afd-luebeck-1959-61)."
+      tested_by: "Strata dig author session, 2026-10-04. Not independent of the claimant."
+      gaps:
+        - "The archive items it cites (letters, judgments, the BKA report) were not opened."
+        - "The page names living and dead persons; only public officials and public litigants in the cited cases are named in this dig."
+      next_step: "Request the cited items from the Anne Frank Stichting archive (OFA_108 for the Hamburg proceedings and the BKA report; AFF_OtF_bdoc_03 for the Frankfurt judgment)."
+      checked: 2026-10-04
+
+  - id: src-af-versions
+    title: "Anne Frank House, 'Two versions of Anne's diary'"
+    author: Anne Frank Stichting
+    date: "undated page, read 2026-10-04"
+    url: https://www.annefrank.org/en/anne-frank/diary/two-versions-annes-diary/
+    document_class: interpretive
+    read: "full (5,676 characters)"
+    sha256: 413ed6c8da0648a79d20f7ae1078c378884105050744e0a0adb3fcf0ae9dacf2
+    stored_as: "sources/extracts/af-versions-extract.txt"
+    authenticity:
+      status: authenticated
+      strength: moderate
+      provenance: "The museum's own site, fetched directly 2026-10-04."
+      tests:
+        - "Its account of Anne's rewrite beginning 20 May 1944 matches src-af-complete-works and the NIOD editor's account (src-vanderstroom-1999). [read]"
+      tested_by: "Strata dig author session, 2026-10-04. Not independent of the claimant."
+      gaps: ["Describes the differences between the first diary and the rewrite with selected examples only; the manuscripts and the Critical Edition were not opened."]
+      next_step: "Compare the examples with the Critical Edition's parallel text (src-critical-edition)."
+      checked: 2026-10-04
+
+  - id: src-af-complete-works
+    title: "Anne Frank House, 'The complete works of Anne Frank'"
+    author: Anne Frank Stichting
+    date: "undated page, read 2026-10-04"
+    url: https://www.annefrank.org/en/anne-frank/diary/complete-works-anne-frank/
+    document_class: interpretive
+    read: "full (8,216 characters)"
+    sha256: dc49dd5996f3901d1984de6c502ab258ea45c32da2df6b261ee0de60893a7086
+    stored_as: "sources/extracts/af-complete-works-extract.txt"
+    authenticity:
+      status: authenticated
+      strength: moderate
+      provenance: "The museum's own site, fetched directly 2026-10-04."
+      tests:
+        - "Which notebooks survive, the 1943 gap and the rewrite match the NIOD editor's account (src-vanderstroom-1999) and the German Anne Frank House PDF (src-af-sieben-fragen). [read]"
+        - "It dates the withheld letter about Otto Frank's marriage to 2000 ('In 2000, it turned out'); src-af-authenticity and src-af-sieben-fragen date the reappearance of five loose sheets to 1998. The two dates are not reconciled (claim afd-five-pages-1998)."
+      tested_by: "Strata dig author session, 2026-10-04. Not independent of the claimant."
+      gaps: ["Secondary account; manuscripts not seen."]
+      next_step: "Read the Critical Edition's description of the manuscripts."
+      checked: 2026-10-04
+
+  - id: src-af-publication
+    title: "Anne Frank House, 'Publication of the diary'"
+    author: Anne Frank Stichting
+    date: "undated page, read 2026-10-04"
+    url: https://www.annefrank.org/en/anne-frank/diary/publication-diary/
+    document_class: interpretive
+    read: "full (5,509 characters)"
+    sha256: 3e26715eb994e7355065983b4f6ad9543acc4d593cc10f01315a27ba00acaab5
+    stored_as: "sources/extracts/af-publication-extract.txt"
+    authenticity:
+      status: authenticated
+      strength: moderate
+      provenance: "The museum's own site, fetched directly 2026-10-04."
+      tests:
+        - "Its account of Otto Frank's compilation matches the Anne Frank Fonds page (src-fonds-publications), a body that has been adverse to the Stichting in other proceedings. [read]"
+        - "Its statement that the pseudonyms were selected by Otto Frank conflicts with src-fonds-publications and src-af-sieben-fragen (claim afd-pseudonyms-gap)."
+      tested_by: "Strata dig author session, 2026-10-04. Not independent of the claimant."
+      gaps: ["Secondary; includes a table of real names and pseudonyms whose provenance is not given."]
+      next_step: "Read the Critical Edition's note on names."
+      checked: 2026-10-04
+
+  - id: src-af-2018-news
+    title: "Anne Frank House, 'New texts from the diary of Anne Frank revealed' (news release, 15 May 2018)"
+    author: Anne Frank Stichting with the Huygens Institute and NIOD
+    date: "2018-05-15"
+    url: https://www.annefrank.org/en/about-us/news-and-press/news/2018/5/15/new-texts-diary-anne-frank-revealed/
+    document_class: primary_text (the holder's own announcement about its own holdings)
+    read: "full (2,391 characters)"
+    sha256: 0d9580171654f83af5c6de12d6cbf95c13f11c439c4e6a64cc092b9b6185735f
+    stored_as: "sources/extracts/af-2018-extract.txt"
+    authenticity:
+      status: authenticated
+      strength: moderate
+      provenance: "The museum's news archive, fetched directly 2026-10-04; dated 15 May 2018."
+      tests:
+        - "Its statement that Otto Frank bequeathed the diaries to NIOD and the Dutch state agrees with the German Anne Frank House PDF (src-af-sieben-fragen) and with the taz, which says NIOD has held the manuscripts since 1980 (src-taz-2006-07-27). [read]"
+      tested_by: "Strata dig author session, 2026-10-04. A holder's statement about what it holds; not an independent check of the manuscripts."
+      gaps: ["The deciphered text itself was not read; the 2016 photographs and the image processing were not examined."]
+      next_step: "Read the published transcription of the covered pages (28 September 1942) and the technical note."
+      checked: 2026-10-04
+
+  - id: src-fonds-publications
+    title: "Anne Frank Fonds (Basel), 'Publications' (diary section of its website)"
+    author: Anne Frank Fonds, Basel
+    date: "undated page, read 2026-10-04"
+    url: https://www.annefrank.ch/en/diary/publications
+    document_class: interpretive (the copyright holder's account of the editions)
+    read: "full (9,728 characters)"
+    sha256: 37ad81e6da195b85cfdeca43a58936916e94f65d03938c77a895675aebaff99d
+    stored_as: "sources/extracts/fonds-publications-extract.txt"
+    authenticity:
+      status: authenticated
+      strength: moderate
+      provenance: "The Fonds' own site (annefrank.ch), fetched directly 2026-10-04. The Fonds holds the copyright and was a co-plaintiff with the Stichting in the Amsterdam case."
+      tests:
+        - "Its account of Otto Frank's revision, the role of the script editor and the 1947 first edition matches src-af-publication and the NIOD editor's article (src-vanderstroom-1999). [read]"
+      tested_by: "Strata dig author session, 2026-10-04. A party with a financial interest in the editions; used for facts it states against that interest (that Otto Frank changed the text) and for the existence of version D."
+      gaps: ["Single source for the figure of 26 further deleted passages and for the statement that Anne's pseudonyms were accepted."]
+      next_step: "Check the figure and the pseudonym statement against the Critical Edition."
+      checked: 2026-10-04
+
+  # ---------------- Official statement ----------------
+  - id: src-bka-2006
+    title: "Bundeskriminalamt press release, 'BKA: Kriminaltechnisches Gutachten von 1980 begruendet keine Zweifel an der Echtheit der Anne Frank-Tagebuecher' (26 July 2006)"
+    author: Bundeskriminalamt (German Federal Criminal Police Office), Wiesbaden
+    date: "2006-07-26"
+    url: https://www.presseportal.de/blaulicht/pm/7/852993
+    document_class: primary_text (an agency's own statement about its own 1980 expert report)
+    read: "full (body text stored)"
+    sha256: e3e7736eaed49eb07329cb5a4af86a3a8a59cf037424cb08e71ba431ceaa7f61
+    stored_as: "sources/bka-2006-07-26.txt"
+    authenticity:
+      status: authenticated
+      strength: moderate
+      provenance: "Distributed through news aktuell's presseportal.de, which labels it 'Original-Content von: Bundeskriminalamt'; dated 26.07.2006 13:42."
+      tests:
+        - "Two of its sentences are quoted word for word in an independent newspaper report published the next day (taz, 27 July 2006, src-taz-2006-07-27), which also gives the time of release (about two in the afternoon on the previous day). A different wording would have failed it. [read]"
+        - "The Anne Frank House documents describe the same release and date (src-af-authenticity, src-af-sieben-fragen). [read]"
+      tested_by: "Strata dig author session, 2026-10-04; the taz is independent of the BKA and of the Anne Frank House."
+      gaps:
+        - "A copy of the release on bka.de was not found or compared; presseportal is a distribution service, not the agency's own site."
+        - "The release describes the 1980 report; the report itself (four typed pages, per taz) was not opened."
+      next_step: "Find the release in the BKA's own press archive, and obtain the 1980 report through the Hamburg court file or the Anne Frank Stichting (OFA_108)."
+      checked: 2026-10-04
+
+  # ---------------- Independent press and fact-check ----------------
+  - id: src-taz-2006-07-27
+    title: "Astrid Geisler, 'Ende einer unseligen Legende', die tageszeitung, 27 July 2006"
+    author: Astrid Geisler (taz)
+    date: "2006-07-27"
+    url: https://taz.de/Ende-einer-unseligen-Legende/!399012/
+    document_class: secondary (newspaper report with interviews and quotations from a court judgment and the BKA release)
+    read: "full (11,653 characters)"
+    sha256: 2a9cc6498712c92c18a248cc8437039abea5cac3504d3f89e9b2ae28eb9f97c4
+    stored_as: "sources/extracts/taz-2006-extract.txt"
+    authenticity:
+      status: authenticated
+      strength: moderate
+      provenance: "taz.de archive, fetched directly 2026-10-04, dated 27.7.2006 with the author's name. A repost on hagalil.com (not used) carries the same text."
+      tests:
+        - "Its quotation of the BKA release matches the release (src-bka-2006). [read]"
+        - "Its account of the BKA expert's two days of work in Birsfelden (a microscope and an ultraviolet lamp) matches the dates in src-af-research-otto (1 to 2 April 1980). [read]"
+      tested_by: "Strata dig author session, 2026-10-04. The paper is independent of the parties, but its main informant on the Dutch side is a NIOD researcher, so the account of the Amsterdam meeting is from the NIOD side."
+      gaps:
+        - "It quotes the written reasons of the Landgericht Hamburg (1990) and the BKA's 1980 report; neither was opened. The expert is named in the article; this dig does not name him."
+        - "It gives the Hamburg judgment as 1990; the NIOD editor says he testified in Hamburg in 1989 and the Anne Frank House says the case ran to 1993 (claim afd-hamburg-proceedings-gap)."
+      next_step: "Obtain the Landgericht Hamburg judgment from the court or the Hamburg Staatsarchiv, or ask the Anne Frank Stichting for OFA_108."
+      checked: 2026-10-04
+
+  - id: src-taz-2006-07-11
+    title: "Astrid Geisler, 'Streit um BKA-Gutachten zu Anne Frank', die tageszeitung, 11 July 2006"
+    author: Astrid Geisler (taz)
+    date: "2006-07-11"
+    url: https://taz.de/!405975/
+    document_class: secondary (newspaper report)
+    read: "full (3,473 characters)"
+    sha256: 51f04d83da4a0e9a78ff0ed9f974df22fffff45314c6f1a9567ea3eb0f1fc177
+    stored_as: "sources/extracts/taz-2006-07-11-extract.txt"
+    authenticity:
+      status: authenticated
+      strength: moderate
+      provenance: "taz.de archive, fetched directly 2026-10-04; dated 11.7.2006."
+      tests: ["Reports the Berlin Anne Frank Centre's account and the BKA's refusal to comment before the release of 26 July; the later release (src-bka-2006) and src-taz-2006-07-27 are consistent with that sequence. [read]"]
+      tested_by: "Strata dig author session, 2026-10-04."
+      gaps:
+        - "Gives the centre's director's statement that the Dutch analysis found the ballpoint passages to be later comments by an editor ('Lektorin'). The Anne Frank House says notes were left by an examining graphologist. The two are not reconciled."
+        - "It also cites a federal ministry's written statement of the consensus that the BKA report offers no ground against the dating of the running text; that letter was not seen."
+      next_step: "As for afd-ballpoint-detail-gap."
+      checked: 2026-10-04
+
+  - id: src-vanderstroom-1999
+    title: "Gerrold van der Stroom, 'Werken om niet dom te blijven. Anne Frank en haar dagboeken', Vooys 17 (1999), pp. 65-71 (DBNL)"
+    author: Gerrold van der Stroom (co-editor of the 1986 Critical Edition, RIOD)
+    date: "1999"
+    url: https://www.dbnl.org/tekst/_voo013199901_01/_voo013199901_01_0034.php
+    document_class: primary_text (first-hand account by an editor of what the edition contains and what he did) and interpretive
+    read: "full (32,228 characters of text)"
+    sha256: d13c2ba91d2443be2d06335c86f2716c5539d9f108f10ede3153e705486d9add
+    stored_as: "sources/extracts/vanderstroom-1999-extract.txt"
+    authenticity:
+      status: authenticated
+      strength: moderate
+      provenance: "Digital library of Dutch literature (DBNL), the journal Vooys 17 (1999), with its page numbers; fetched directly 2026-10-04."
+      tests:
+        - "Its description of versions a, b and c and of the forensic conclusion matches the Anne Frank House pages and the Fonds page. [read]"
+        - "Its statement that the Critical Edition prints a, b and c in full agrees with the Anne Frank House statement that it shows them on the same page. [read]"
+      tested_by: "Strata dig author session, 2026-10-04. The author is an editor of the work he describes and is critical of the Fonds' 'definitive' label; he is not independent of the Critical Edition."
+      gaps:
+        - "He cites the Critical Edition by page (pp. 69-90, 121-186, 99-119); that book was not opened."
+        - "His statement that Otto Frank 'added nothing' to Anne's text is the editor's judgment, not checked here."
+      next_step: "Open the Critical Edition (src-critical-edition) and check the cited pages."
+      checked: 2026-10-04
+
+  - id: src-fullfact-2024
+    title: "Charlotte Green, 'Diary of Anne Frank not written by American novelist after WW2', Full Fact, 7 March 2024"
+    author: Full Fact (UK fact-checking charity)
+    date: "2024-03-07"
+    url: https://fullfact.org/online/anne-frank-diary-ballpoint-pen-meyer-levin-false-claim/
+    document_class: secondary (fact-check)
+    read: "full (9,583 characters)"
+    sha256: 67c716e5a2d4f103a51102d58f5833a69d041b7fff82829aa3ff40be339a57b8
+    stored_as: "sources/extracts/fullfact-2024-extract.txt"
+    authenticity:
+      status: authenticated
+      strength: moderate
+      provenance: "Full Fact's site, dated 7 March 2024 with author, fetched directly 2026-10-04."
+      tests: ["Its account of the BKA and NIOD points matches the Anne Frank House page it cites, and its Levin chronology (read in French in 1950) matches the Anne Frank Fonds page (src-fonds-publications). [read]"]
+      tested_by: "Strata dig author session, 2026-10-04. Independent of the parties; it relies on the Anne Frank House for the ballpoint point and does not name its source for the X-ray fluorescence and infrared results."
+      gaps: ["The infrared (glue) and X-ray fluorescence (paper, 1939 to 1942) results are stated without a citation; see claim afd-paper-glue-gap."]
+      next_step: "Find the Critical Edition passage that reports these tests."
+      checked: 2026-10-04
+
+  - id: src-nos-bolkestein
+    title: "NOS, 'Dagboeken na 80 jaar steeds belangrijker om leven in oorlogstijd te begrijpen'"
+    author: NOS (Dutch public broadcaster)
+    date: "2025"
+    url: https://nos.nl/artikel/2565195-dagboeken-na-80-jaar-steeds-belangrijker-om-leven-in-oorlogstijd-te-begrijpen
+    document_class: secondary (news report)
+    read: "full (4,964 characters)"
+    sha256: d15a11ed01f42bc5e249662e315e7cfcd7daf26345e798f55e2cd9ec72d283ac
+    stored_as: "sources/extracts/nos-bolkestein-extract.txt"
+    authenticity:
+      status: authenticated
+      strength: weak
+      provenance: "NOS's site, fetched directly 2026-10-04 (the fetched URL redirected to the NOS collection path)."
+      tests: ["The date of the Radio Oranje appeal (28 March 1944) matches a second outlet, Radio Wereld (fetched 2026-10-04, 'Op 28 maart 1944') and the Anne Frank House pages. [read]"]
+      tested_by: "Strata dig author session, 2026-10-04. Independent of the Anne Frank House."
+      gaps: ["A news summary; the broadcast text or an archive record (NIOD, Radio Oranje) was not opened."]
+      next_step: "Open the Radio Oranje transcript or log held by NIOD or Beeld en Geluid."
+      checked: 2026-10-04
+
+  - id: src-cbc-1998
+    title: "CBC News, 'Illegal to question Anne Frank diaries: court', 10 December 1998"
+    author: CBC News
+    date: "1998-12-10"
+    url: https://www.cbc.ca/news/world/illegal-to-question-anne-frank-diaries-court-1.162475
+    document_class: secondary (short news report of the Amsterdam District Court's ruling)
+    read: "full (1,196 characters)"
+    sha256: d8dc79e59313eac7d7d574c75b2e6ed4ad450aadc80e8f2120a2ab2e44ee8035
+    stored_as: "sources/extracts/cbc-1998-extract.txt"
+    authenticity:
+      status: authenticated
+      strength: weak
+      provenance: "CBC News archive, dated December 10, 1998, fetched directly 2026-10-04."
+      tests: ["Its date and outcome match the Anne Frank House account (December 1998, ban upheld) and the party page src-vho-appeal-2000 (judgment of 9 December 1998). [read]"]
+      tested_by: "Strata dig author session, 2026-10-04. Independent of the parties; a wire-style summary."
+      gaps: ["One paragraph; it says the court held the diary 'should be seen as authentic', a paraphrase of a judgment that was not read."]
+      next_step: "Obtain the judgment of the Rechtbank Amsterdam of 9 December 1998."
+      checked: 2026-10-04
+
+  - id: src-hdot-ballpoint
+    title: "Holocaust Denial on Trial (Emory University), 'Anne Frank's Diary: Written in Ballpoint Pen?'"
+    author: Holocaust Denial on Trial project, Emory University
+    date: "undated page, read 2026-10-04"
+    url: https://www.hdot.org/debunking-denial/af3-ballpoint-pen/
+    document_class: secondary (academic project's summary, citing the Critical Edition pp. 160-165)
+    read: "full (1,945 characters)"
+    sha256: 1a47a7ad9f2516aba8b0c7965e483e8aa49dd19adab9b95258c1cd3fbaa82e44
+    stored_as: "sources/extracts/hdot-extract.txt"
+    authenticity:
+      status: authenticated
+      strength: weak
+      provenance: "Hosted at hdot.org, a university project site; fetched directly 2026-10-04."
+      tests: ["Its main point (no entry in Anne's hand is in ballpoint) agrees with src-af-authenticity. It adds a detail the Anne Frank House does not (page numbers partly in ballpoint, added by Otto Frank); the two accounts differ on what carries the ballpoint (claim afd-ballpoint-detail-gap). [read]"]
+      tested_by: "Strata dig author session, 2026-10-04. Independent of the parties."
+      gaps: ["A short summary citing the Critical Edition pages 160-165 of the 1988 printing; those pages were not opened."]
+      next_step: "Open the Critical Edition pp. 160-165 (1988; the matching pages of the 2003 revised edition)."
+      checked: 2026-10-04
+
+  - id: src-hdot-authentic
+    title: "Holocaust Denial on Trial (Emory University), 'Anne Frank's Diary: Anne's Diary Is Authentic'"
+    author: Holocaust Denial on Trial project, Emory University
+    date: "undated page, read 2026-10-04"
+    url: https://www.hdot.org/debunking-denial/af2-diary-authentic/
+    document_class: secondary
+    read: "full (8,272 characters)"
+    sha256: 1e9628a299eedd8bf43181397b8cad1d92983d557cf9913ab8fa6f3712432b65
+    authenticity:
+      status: authenticated
+      strength: weak
+      provenance: "Hosted at hdot.org; fetched directly 2026-10-04."
+      tests: ["Its description of the NIOD analysis and of Otto Frank's editing agrees with the Anne Frank House and Fonds pages. [read]"]
+      tested_by: "Strata dig author session, 2026-10-04. Independent of the parties. Used only to note which allegations were made and when; it is not an anchor for any claim."
+      gaps: ["It places the receipt of the manuscripts by NIOD in November 1980; not checked."]
+      next_step: "None needed for its use here."
+      checked: 2026-10-04
+
+  # ---------------- Party source and denial source (reception only) ----------------
+  - id: src-vho-appeal-2000
+    title: "Page on vho.org, 'Siegfried Verbeke: Amsterdam Court rejects claims of Anne Frank Foundation against Belgian Revisionist' (12 September 2000), reproducing numbered paragraphs of the Court of Appeal's judgment of 27 April 2000 with the defendant's comments"
+    author: Siegfried Verbeke (the defendant and appellant in the case)
+    date: "2000-09-12"
+    url: https://www.vho.org/GB/c/SV/120900.html
+    document_class: secondary (a party's account quoting a judgment; the judgment itself was not found)
+    read: "full (10,660 characters); used only for the paragraphs of the judgment it quotes and for the procedural history, never for the party's comments"
+    sha256: d535c6ed3f4d6c0fd35f3971527cafc874353f3cc699d9a1ac9166f4f41db46d
+    stored_as: "sources/extracts/vho-appeal-2000-extract.txt"
+    authenticity:
+      status: unchecked
+      strength: weak
+      provenance: "A page on the defendant's own publishing house site. It states that it reproduces paragraphs 6.14 to 8 of the Court of Appeal of Amsterdam's judgment of 27 April 2000; the English is the party's own translation (the text shows encoding damage)."
+      tests: ["Its date and outcome (judgment of the first instance on 9 December 1998 upheld in a changed form on 27 April 2000) agree with the Anne Frank House page (December 1998; confirmed on appeal in 2000). Its quoted paragraphs could not be compared with the judgment, which was not found on rechtspraak.nl (searched by court and date on 2026-10-04) or elsewhere."]
+      tested_by: "Strata dig author session, 2026-10-04. A party with an interest in the reading of the judgment: not independent."
+      gaps:
+        - "The judgment's own text was not opened; the quotations and the translation are the party's."
+        - "The party's capitalised comments are an advocate's reading and carry no weight here."
+      next_step: "Obtain the judgment of the Gerechtshof Amsterdam of 27 April 2000 (Anne Frank Stichting and Anne Frank Fonds against the defendant) from a Dutch legal database or the court archive."
+      checked: 2026-10-04
+
+  - id: src-faurisson-ihr
+    title: "Robert Faurisson, 'The Diary of Anne Frank: Is it Genuine?' (an update, written June 2000), Journal of Historical Review 19(6)"
+    author: Robert Faurisson (the author of the 1978 report that the cited cases concern)
+    date: "2000"
+    url: https://ihr.org/journal/v19n6p-2_faurisson.html
+    document_class: "reception only (a denial text; recorded to say what is claimed, never as evidence)"
+    read: "full (38,765 characters); read for the claims it makes and the passages it quotes from the Critical Edition"
+    sha256: 443c3577f1e01f9effa34561f00c601d6fa23ab72d53dcde5e3b37306190f311
+    stored_as: "sources/extracts/faurisson-ihr-extract.txt"
+    authenticity:
+      status: unchecked
+      strength: weak
+      provenance: "A journal of the Institute for Historical Review, signed by its author. Whether the document is his article is not in doubt; the accuracy of what it quotes and reports (including a 1980 statement it attributes to a French scholar) was not checked."
+      tests: ["Not tested: used only in transmission.yaml to record the claims being tested."]
+      tested_by: "Not independently tested."
+      gaps: ["Quotations of the Critical Edition on the page (for example about Otto Frank's edits) were not compared with the book."]
+      next_step: "Compare any quotation of the Critical Edition with the book before use."
+      checked: 2026-10-04
+
+  # ---------------- Not read (listed so no claim can lean on them by accident) ----------------
+  - id: src-critical-edition
+    title: "The Diary of Anne Frank: The Revised Critical Edition (NIOD, ed. Barnouw and van der Stroom; Doubleday 2003); first Dutch edition 'De Dagboeken van Anne Frank' (1986); German 1988. Includes a summary of the report of the State Forensic Science Laboratory, compiled by H.J.J. Hardy"
+    author: Netherlands State Institute for War Documentation (RIOD, now NIOD)
+    date: "1986; 2003"
+    url: https://archive.org/details/diaryofannefrank0000fran_b0k1
+    document_class: primary_text (the edition and the forensic summary)
+    read: "not read. The Internet Archive copy is a lending-library scan: the text download answered 401 Authorization Required on 2026-10-04. Only passages quoted by other sources were seen."
+    authenticity:
+      status: unchecked
+      provenance: "Published by the Dutch state institute that holds the manuscripts."
+      tests: []
+      tested_by: "Not opened."
+      gaps: ["The forensic summary (pp. 121 to 186 of the 1986 Dutch edition), the account of the attacks on authenticity and the page references are known only through the Anne Frank House, the NIOD editor's article and Full Fact."]
+      next_step: "Borrow the Internet Archive copy (identifier diaryofannefrank0000fran_b0k1) or a library copy and read the forensic summary, the chapters on the versions, and pp. 160 to 165 on the ballpoint traces."
+      checked: 2026-10-04
+
+  - id: src-nl-forensic-report
+    title: "Report of the Gerechtelijk Laboratorium (State Forensic Science Laboratory, now the Netherlands Forensic Institute), Ministry of Justice, for RIOD, early 1980s, over 250 pages"
+    author: Gerechtelijk Laboratorium
+    date: "c. 1981-1985"
+    url: "none (the Anne Frank House says the full report is available for research purposes)"
+    document_class: material (examination report)
+    read: "not read"
+    authenticity:
+      status: unchecked
+      provenance: "Commissioned by RIOD; the summary is printed in the Critical Edition."
+      tests: []
+      tested_by: "Not opened."
+      gaps: ["Everything about its methods and findings here is second hand."]
+      next_step: "Ask NIOD for research access to the full report."
+      checked: 2026-10-04
+
+  - id: src-bka-1980-report
+    title: "Bundeskriminalamt expert report for the Landgericht Hamburg, 28 May 1980, about four typed pages"
+    author: Bundeskriminalamt, Kriminaltechnisches Institut
+    date: "1980-05-28"
+    url: "none (held in the Otto Frank Archive, OFA_108, and the Hamburg court file)"
+    document_class: material (examination report)
+    read: "not read; its content is known from the BKA's own 2006 statement and from the taz"
+    authenticity:
+      status: unchecked
+      provenance: "Prepared after the examination at Birsfelden on 1 and 2 April 1980 (src-af-research-otto)."
+      tests: []
+      tested_by: "Not opened."
+      gaps: ["Which leaves exactly what it said about the 'Korrekturschriften' (where, how many, what colours) unverified."]
+      next_step: "Request OFA_108 from the Anne Frank Stichting or the file from the Hamburg court archive."
+      checked: 2026-10-04
+
+  - id: src-court-judgments
+    title: "Judgments: Landgericht Frankfurt am Main, 22 June 1978 (Otto Frank and the Anne Frank House against Roth); Landgericht Hamburg (appeal, 1990 per taz); Rechtbank Amsterdam, 9 December 1998; Gerechtshof Amsterdam, 27 April 2000"
+    author: German and Dutch courts
+    date: "1978 to 2000"
+    url: "none found"
+    document_class: primary_text (court decisions)
+    read: "not read. Searched rechtspraak.nl open data by court and date on 2026-10-04 for 9 December 1998 (Rechtbank Amsterdam) and 27 April 2000 (Gerechtshof Amsterdam): no matching decision was identified. The German judgments are in private archives."
+    authenticity:
+      status: unchecked
+      provenance: "Cited by the Anne Frank House research archive (Frankfurt 1978: AFF_OtF_bdoc_03; Amtsgericht Hamburg 13 January 1977 and 6 April 1979: OFA_108)."
+      tests: []
+      tested_by: "Not opened."
+      gaps: ["Each court's reasons are known only second hand (Anne Frank House, taz, a party's quotation)."]
+      next_step: "Obtain each judgment from the court archive, a legal database (for the Dutch cases, Nederlandse Jurisprudentie or Mediaforum), or the Anne Frank Stichting archive."
+      checked: 2026-10-04
+
+  - id: src-hamburg-graphology-1960
+    title: "Report of the Hamburg graphologists, March 1960, 131 pages"
+    author: Hamburg graphologists commissioned in the Lubeck proceedings
+    date: "1960-03"
+    url: "none (cited by the Anne Frank House)"
+    document_class: material (handwriting examination)
+    read: "not read"
+    authenticity:
+      status: unchecked
+      provenance: "Prepared for the legal action begun by Otto Frank in 1959; its existence and conclusion are reported by the Anne Frank House."
+      tests: []
+      tested_by: "Not opened."
+      gaps: ["Its method and its comparison material are unknown here."]
+      next_step: "Request it from the Anne Frank Stichting's Otto Frank Archive (OFA_104 and following)."
+      checked: 2026-10-04

@@ -1,0 +1,48 @@
+subject: anne-frank-diary
+log:
+  - id: L-01
+    date: "2026-10-04"
+    entry: >
+      DIG OPENED by an author agent on the owner's request: "Is the Diary of Anne Frank authentic?" (an authenticity dig, docs/AUTHENTICITY.md and SCHEMA rules A1 to A10). Scope fixed before reading:
+      three questions kept apart (Q1 the manuscripts: authorship and age of handwriting, paper and ink; Q2 the published text: versions A, B, C, the 1986 critical edition, the 1991 edition D; Q3 the truth of the content, which is out of scope and filed as a gap).
+      Repository rules read first (CLAUDE.md, CONTRIBUTING.md, build/SCHEMA.md, docs/AGENT_RULES.md, docs/AUTHENTICITY.md, docs/PUBLISH_GATE.md, docs/REVIEW.md, docs/NEWS_REVIEW.md) and the finished digs vaccines-autism and casket-letters used as models.
+      NAMING AND TONE GUARDRAILS (set before any claim was written; modelled on docs/NEWS_REVIEW.md): the subject is a murdered child and a document; the framing stays on the document and the evidence. No living private individual is named.
+      Public historical figures and officials are named where needed (Anne, Otto Frank, Miep Gies, Bep Voskuijl, the editors of the sources read, the minister Bolkestein). People named in the cited cases as litigants, or authors of the claims, are named only where the record needs it (the author of the 1978 report; the author of a 1975 introduction; the novelist whom a claim names).
+      Defendants of the 1950s to 1990s cases are described by role, not named. Denial claims are stated as claims being tested, never as findings, and are recorded in transmission.yaml, which confers no weight. Wikipedia was not used as an anchor.
+  - id: L-02
+    date: "2026-10-04"
+    entry: >
+      SOURCES OPENED AND READ (curl through the session proxy; raw bytes hashed in sources/MANIFEST.yaml): Anne Frank House pages (authenticity, two versions, publication, complete works, 2018 news release), the German Anne Frank House PDF 'Sieben Fragen' (pdftotext), the Anne Frank House research archive page on Otto Frank and the attacks,
+      the Anne Frank Fonds 'Publications' page, the BKA press release of 26 July 2006 (stored in full), two taz articles (11 and 27 July 2006), the NIOD co-editor's 1999 article (DBNL), the Full Fact fact-check (2024), two Holocaust Denial on Trial pages, a CBC report of 10 December 1998, NOS and Radio Wereld on the 28 March 1944 broadcast,
+      a party's page quoting the Amsterdam Court of Appeal (27 April 2000), and, for reception only, a 2000 article by the author of the 1978 report. Short verbatim extracts used in claims are in sources/extracts/.
+  - id: L-03
+    date: "2026-10-04"
+    entry: >
+      WHAT COULD NOT BE OPENED (so no claim is anchored to it; each is listed 'not read' in the manifest with its exact next step): (1) The Critical Edition, 1986 Dutch / 1988 German / 2003 revised English, including the 65-page summary of the forensic report: the Internet Archive copy (identifier diaryofannefrank0000fran_b0k1) is a lending scan and the text download answered 401.
+      (2) The Dutch forensic report itself (over 250 pages; the Anne Frank House says it is available for research purposes). (3) The BKA report of 28 May 1980 (four typed pages; Otto Frank Archive OFA_108 and the Hamburg court file). (4) The 1960 Hamburg graphologists' report (131 pages). (5) Every court judgment: Lubeck (no judgment), Frankfurt 22 June 1978,
+      the Hamburg appeal (about 1990), Rechtbank Amsterdam 9 December 1998, Gerechtshof Amsterdam 27 April 2000. A search of the rechtspraak.nl open data by court and date for the two Dutch decisions identified none. (6) A 'Tien vragen' PDF on verraadannefrank.nl was returned damaged and could not be read. (7) UPI's 1986 report returned 403; nd-aktuell returned a connection reset;
+      the Oxford 'Modern Judaism' article on the 1958 to 1998 campaign is behind a login. (8) The manuscripts were not seen. Consequence: every forensic and judicial finding in this dig is known through the institutions that commissioned or took part in it, or through newspapers and a fact-check, and the headline stays draft at moderate confidence.
+  - id: L-04
+    date: "2026-10-04"
+    entry: >
+      DISCREPANCIES FOUND BETWEEN SOURCES (each is a discrepancy to resolve, not evidence of fabrication; each is in a claim): (a) what carries the ballpoint writing: two note slips left by an examiner (Anne Frank House), later comments by an editor (Berlin centre, via the taz), page numbers partly in ballpoint probably added by Otto Frank (hdot), 'Korrekturschriften' on the original pages (BKA 2006): claim afd-ballpoint-detail-gap.
+      (b) the Lubeck case: the Anne Frank House research page says both that the court 'ruled that the diary was authentic' and that 'a sentence was never passed'; the German PDF says the defendants withdrew before a conviction: the dig follows the latter and records no verdict (afd-luebeck-1959-61).
+      (c) the Hamburg case: judgment 1990 (taz), expert testimony 1989 (NIOD editor), case to 1993 and ended on a limitation period (Anne Frank House), a conviction set aside on formal grounds (NIOD editor): afd-hamburg-proceedings-gap.
+      (d) the Dutch appeal: the Anne Frank House says the 1998 judgment was 'confirmed on appeal'; a party's quotation of the 2000 judgment says the court said it was not deciding authenticity but the manner of the attack: afd-amsterdam-appeal-reasoning-gap. The judgment was not read.
+      (e) the date the five loose sheets resurfaced: 1998 or 2000 (afd-five-pages-1998). (f) who chose the pseudonyms: Otto Frank, Anne, or the script editor (afd-pseudonyms-gap). (g) the print run of the 1947 first edition: 3,036 copies (Anne Frank House) or 3,000 (Fonds): not material.
+  - id: L-05
+    date: "2026-10-04"
+    entry: >
+      FINDINGS AS FILED. Q1 (manuscripts): established at moderate confidence on secondary anchors that two independent examinations of the handwriting (Hamburg 1960; Dutch laboratory early 1980s) and two of the materials (BKA 1980; Dutch laboratory) found Anne's hand and 1940s materials as reported;
+      the BKA's own 2006 statement (read in full) says its 1980 report answered only the materials question and gives no ground to doubt authenticity. The ballpoint allegation: no text in Anne's hand has been reported in ballpoint ink; the traces are later additions in other hands. Q2 (text): the published book is an edited compilation (C) and the 1991 reader's edition (D) is a further compilation; the edits are documented by the Fonds, the Anne Frank House and the NIOD editor.
+      A true story of editing lends no weight to a forgery claim (thread-edited-is-not-forged). Q3 (content): not tested (afd-content-truth-not-tested). The answer is 'yes' at moderate confidence, headline draft. Not firmer, because: no forensic report, judgment or edition was opened; the accounts come from parties; provenance has one origin (the helpers); and the no-anachronism claim is an absence claim, capped at provisional.
+  - id: L-06
+    date: "2026-10-04"
+    entry: >
+      ASYMMETRY CHECK (docs/AUTHENTICITY.md section 3). No test can prove genuineness absolutely. Here 'authentic' means: it survived examinations that could have failed (handwriting comparison, material tests, an alleged anachronism that was traced to later additions) and has a sound custody account from August 1944 (one origin). A forgery claim would need a decisive anachronism or two independent lines; the one offered (ballpoint) does not reach that bar for Anne's text on the sources read.
+      Our own checks are small: a chronology test of one allegation (afd-levin-chronology) and one external date (afd-external-consistency-bolkestein), both consistency checks, not authorship tests.
+  - id: L-07
+    date: "2026-10-04"
+    entry: >
+      FOR THE OWNER AND REVIEWER (not edited by the author). (1) build/taxonomy.yaml has no entry for this subject and is owner-only. Suggested entry: area history; additional areas media_misinformation and law_justice; types is_genuine, who_wrote_it, is_claim_true; popular_claims true. (2) The author did not write review.yaml and did not add the subject to build/site.yaml; the publish gate (docs/PUBLISH_GATE.md) applies.
+      (3) Open items a reviewer should expect: the headline claim is established on secondary anchors and carries conformance warnings 'established but anchor_checked is secondary'; the fix is to open the Critical Edition and the BKA report, not to downgrade. (4) The manifest names the publisher who was a defendant in the Amsterdam case in one source title (a public litigant), and the claims name the author of the 1978 report; the review should check the naming rule against docs/NEWS_REVIEW.md.

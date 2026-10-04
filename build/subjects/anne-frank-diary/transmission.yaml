@@ -1,0 +1,174 @@
+# TRANSMISSION RECORDS (format: build/SCHEMA.md, X1 to X4; see build/subjects/incandescent-lamp/transmission.yaml)
+#
+# How two forgery claims spread, step by dated step. This is reception, recorded because a claim about a document is documented as seriously as the document.
+# Nothing here is evidence for or against the diary's authenticity: how often or how widely a claim was repeated says nothing about whether it is true (confers_weight: false).
+# The claims are stated here as claims being tested, not as findings. The tests are in claims.yaml (afd-ballpoint-not-anne, afd-bka-1980-scope, afd-levin-chronology) and tests.yaml.
+# People are named only where they are public authors or litigants in the cited cases and it is needed for the record; others are described by role.
+# `read` says whether the source was opened here; the denial text was read only to record what it claims.
+
+subject: anne-frank-diary
+
+chains:
+
+  - id: tx-ballpoint
+    about: "anne-frank-diary:afd-ballpoint-not-anne"
+    title: "How the claim 'part of the diary is written in ballpoint pen, so it was written after the war' arose and spread (1960 to 2024)"
+    confers_weight: false
+    events:
+      - id: tx-b-01
+        date: "1960-03"
+        precision: month
+        step: origin
+        carrier: "an examining team's note slips left among the original pages (Anne Frank House account)"
+        form: "Ballpoint notes by an examiner end up among the manuscript pages during the 1959 to 1960 graphological examination; they are later found there."
+        source: src-af-sieben-fragen
+        read: yes
+        note: "The Anne Frank House dates the examination to 1959 and the report to March 1960. Who made the notes is reported differently by other accounts (claim afd-ballpoint-detail-gap)."
+      - id: tx-b-02
+        date: "1980-05-28"
+        precision: day
+        step: origin
+        carrier: "a four-page BKA expert report for the Landgericht Hamburg"
+        form: "The report notes later 'Korrekturschriften' on some sheets in black, green and blue ballpoint paste, a paste in use only from 1951 (as quoted by the taz and described by the BKA in 2006)."
+        source: src-taz-2006-07-27
+        read: yes
+        note: "The report itself was not read. The taz says the report did not say what the corrections said, how many there were or where, and did not consider later insertion by others."
+      - id: tx-b-03
+        date: "1980"
+        precision: year
+        step: amplification
+        carrier: "press and denial publications citing the report as an 'official' sign of forgery (a magazine report that the report cast 'further doubt', per the taz; a French scholar's remark quoted in a denial text)"
+        form: "The report is presented as showing that the diary was revised after the war with ballpoint pens that appeared only in 1951."
+        source: src-faurisson-ihr
+        read: yes
+        note: "The remark is attributed in a denial text to a French scholar, and was not checked against his own publication. The taz states the denial scene came to use the report as a preferred argument."
+      - id: tx-b-04
+        date: "1986"
+        precision: year
+        step: correction
+        carrier: "the Dutch State Forensic Science Laboratory examination (summary in the Critical Edition)"
+        form: "As reported by the Anne Frank House, ballpoint writing is found only on two loose note slips left by earlier examiners, in a hand that differs from Anne's, and not in any text by Anne."
+        source: src-af-sieben-fragen
+        read: yes
+        note: "Second hand: the Critical Edition was not read. The BKA expert, shown the originals in Amsterdam, is reported by the taz as unable to find the corrections again."
+      - id: tx-b-05
+        date: "1987"
+        precision: year
+        step: correction
+        carrier: "a relative of a member of the 1960 examining team, writing to the Anne Frank House"
+        form: "The ballpoint notes were written by that team member."
+        source: src-af-sieben-fragen
+        read: yes
+        note: "Single source, from the Anne Frank House; not checked."
+      - id: tx-b-06
+        date: "2006-06"
+        precision: month
+        step: persistence
+        carrier: "leaflets at an exhibition and an anonymous guestbook entry, citing the BKA report (taz, 11 July 2006)"
+        form: "The 1980 BKA report is cited as proof of forgery."
+        source: src-taz-2006-07-11
+        read: yes
+        note: "The taz reports a public burning of a copy of the book in June 2006 and a criminal complaint by the Berlin Anne Frank Centre; the persons are not named here."
+      - id: tx-b-07
+        date: "2006-07-26"
+        precision: day
+        step: correction
+        carrier: "the BKA's own press release"
+        form: "The report cannot be used to cast doubt on the authenticity of the diaries; the BKA distances itself from such speculation."
+        source: src-bka-2006
+        read: yes
+      - id: tx-b-08
+        date: "2024-03-07"
+        precision: day
+        step: persistence
+        carrier: "a social-media post, checked by Full Fact"
+        form: "Significant portions of the diary are in fine ballpoint pen, and none of it matched Anne's handwriting."
+        source: src-fullfact-2024
+        read: yes
+        note: "Full Fact rates the claim false. The post also claimed the BKA found that none of the handwriting matched Anne's; the BKA's 2006 statement says its report made no finding on authorship."
+      - id: tx-b-09
+        date: "2026-10-04"
+        precision: read_on
+        step: persistence
+        carrier: "the Anne Frank House page, which says posts are circulating on social media"
+        form: "Posts say parts of the diary were written in ballpoint pen."
+        source: src-af-authenticity
+        read: yes
+        note: "Undated page; the date is the date it was read here."
+
+  - id: tx-authorship
+    about: "anne-frank-diary:afd-levin-chronology"
+    title: "How 'the diary was written by someone else (a novelist, or Otto Frank)' was put forward and answered (1957 to 2024)"
+    confers_weight: false
+    events:
+      - id: tx-a-01
+        date: "1957"
+        precision: year
+        step: origin
+        carrier: "obscure Swedish and Norwegian periodicals (1957 to 1958)"
+        form: "The diary was said to have been written by the American writer Meyer Levin, who had tried to stage it."
+        source: src-af-research-otto
+        read: yes
+        note: "Levin's dispute with Otto Frank was about a stage adaptation (Anne Frank House; Full Fact), not about who wrote the diary."
+      - id: tx-a-02
+        date: "1958-10-10"
+        precision: day
+        step: amplification
+        carrier: "an essay in a school-association magazine in Lubeck"
+        form: "The diary was called forged; the author and a party colleague were later charged and withdrew the claim (claim afd-luebeck-1959-61)."
+        source: src-af-research-otto
+        read: yes
+        note: "The men are not named here."
+      - id: tx-a-03
+        date: "1975"
+        precision: year
+        step: amplification
+        carrier: "David Irving, in the introduction to a German edition of a history book"
+        form: "The forgery of the diary was said to be on record, proved by a civil suit by a New York scriptwriter who, it was said, had written it with the girl's father."
+        source: src-af-research-otto
+        read: yes
+        note: "Otto Frank swore an affidavit on 12 October 1975 that his daughter wrote it and that the Lubeck case had established this. The publisher's apology followed on 27 October 1975 and a corrective notice in 1976 (Anne Frank House). The 1975 passage is quoted from the Anne Frank House research page; Irving's own text was not read."
+      - id: tx-a-04
+        date: "1976"
+        precision: year
+        step: amplification
+        carrier: "pamphlets in Germany and England (Frankfurt, Hamburg, a British pamphlet)"
+        form: "The diary was called a forgery and a fraud; one pamphlet publisher was banned by the Landgericht Frankfurt on 22 June 1978."
+        source: src-af-research-otto
+        read: yes
+      - id: tx-a-05
+        date: "1978"
+        precision: year
+        step: institutionalisation
+        carrier: "Robert Faurisson, a report for a Hamburg court, offered in the Frankfurt appeal; published in French in 1980"
+        form: "A handwriting and style argument that the diary was not genuine; the same author later published an update (2000)."
+        source: src-faurisson-ihr
+        read: yes
+        note: "Read only to record what is claimed. The Frankfurt appeal court was not persuaded (Anne Frank House). The report itself (1978) was not read; the 2000 update was."
+      - id: tx-a-06
+        date: "1991"
+        precision: year
+        step: persistence
+        carrier: "a Belgian publishing house's booklet reproducing the 1978 report with an introduction, sent to Dutch libraries and private persons"
+        form: "The same claims in Dutch."
+        source: src-af-authenticity
+        read: yes
+        note: "The publisher was a defendant in the Amsterdam case, 1998 to 2000 (claims afd-amsterdam-ban-upheld, afd-amsterdam-appeal-reasoning-gap)."
+      - id: tx-a-07
+        date: "1999"
+        precision: year
+        step: correction
+        carrier: "the NIOD co-editor"
+        form: "After the critical edition appeared, the attacks 'mostly fell silent'; pamphlets reappeared in London in 1997."
+        source: src-vanderstroom-1999
+        read: yes
+        note: "An editor's view of his own edition's effect; not an independent finding."
+      - id: tx-a-08
+        date: "2024-03-07"
+        precision: day
+        step: persistence
+        carrier: "a social-media post, checked by Full Fact"
+        form: "The 'true author' was Meyer Levin, who sued Otto Frank and was awarded $50,000."
+        source: src-fullfact-2024
+        read: yes
+        note: "Full Fact: no basis; Levin's suit concerned a stage adaptation and a plagiarism award of $50,000 (Full Fact), which is not authorship of the diary."

@@ -1,0 +1,16 @@
+subject: anne-frank-diary
+
+threads:
+
+  - id: thread-edited-is-not-forged
+    type: reception-overlay
+    title: "'The published diary was edited, so it is a forgery' and the opposite 'it is the unaltered words of a girl'"
+    confers_weight: false
+    description: >
+      Two firewalls that readers cross in both directions. A documented fact (Otto Frank edited and compiled the 1947 book; the 1991 reader's edition changed it again) is a fact about the published text, version C and D. It says nothing about whether the manuscripts (A and B) are Anne's, which is a different question tested by different evidence (handwriting, paper, ink).
+    overlay_notes:
+      - "Documented (claims afd-versions-abcd, afd-otto-edits-documented): the published book is a compilation with omissions, changes and corrections by Otto Frank and others."
+      - "Documented (afd-nl-forensic-conclusion, afd-hamburg-graphology-1960): the manuscripts were examined and attributed to Anne; the examinations are known second hand."
+      - "A true story about editing lends no weight to a forgery claim. The reverse is also true: the examinations of the manuscripts do not show that the published book is word for word what Anne wrote."
+      - "Reach and repetition of the forgery claims (transmission.yaml) is adoption, not evidence."
+    firewall: "Mechanically barred (confers_weight: false) from lending evidential weight to any claim."
