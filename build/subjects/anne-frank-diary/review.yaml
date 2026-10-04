@@ -226,7 +226,7 @@ rounds:
           (c) src-faurisson-ihr in the manifest still says stored_as sources/extracts/faurisson-ihr-extract.txt, a file the author deleted; the manifest must say the source is not stored.
           Fix by adding back only the one short sentence each quotation needs (still one or two sentences per claim), or by removing the quotation marks and saying 'paraphrase', and correct the manifest field.
         evidence: "grep of sources/extracts for each phrase (no hits); wc -c sieben-fragen-extract.txt = 169; manifest line 426; ls sources/extracts (no faurisson-ihr file)."
-        author_response: ""
+        author_response: "fixed: one complete short sentence restored to the matching extract for each verbatim quotation the claims put in marks (list in log L-09); sieben-fragen-extract.txt now has three complete cited passages; src-faurisson-ihr stored_as now says none. A scripted check of the quoted strings named by the reviewer finds each in an extract; own scare quotes and titles are not source quotations."
         resolved: ""
       - id: R2-2
         target: "claims.yaml assessment.lean.strength (the lean block under key_points)"
@@ -234,7 +234,7 @@ rounds:
         finding: >
           `strength: strong` sits beside `answer: leans_yes` and the caveat 'the lean is moderate in confidence'; every finding is second hand and the headline claim is moderate. 'Strong' in the lean block reads as stronger than the page's own confidence. Use 'moderate' (casket-letters uses 'slight'), or explain in `caveats` what is strong.
         evidence: "claims.yaml lean block; build/conformance.py requires only that toward, short, strength, because and caveats exist."
-        author_response: ""
+        author_response: "fixed: lean strength is now moderate."
         resolved: ""
       - id: R2-3
         target: "sources/MANIFEST.yaml src-radiowereld-bolkestein; claims.yaml afd-amsterdam-ban-upheld"
@@ -242,6 +242,6 @@ rounds:
         finding: >
           (a) The Radio Wereld date 'April 2025' rests on the URL path only (the page text I fetched shows no byline date); say so in the manifest, which already says 'URL path dated 2025/04'. (b) The statement 'refused the declaration of authenticity' comes from the defendant's own capitalised heading, not from a numbered paragraph the page quotes; the statement already says 'as the defendant's page quotes it', but the confidence reason should say 'as the defendant's page states'.
         evidence: "radiowereld.nl page text; vho.org page lines after 'On 27 april 2000'."
-        author_response: ""
+        author_response: "fixed: the manifest says the Radio Wereld date rests on the URL path only; the Amsterdam appeal claim and its confidence reason now say the refusal of the declaration is, as the defendant's page states in its own heading, not a numbered paragraph."
         resolved: ""
 

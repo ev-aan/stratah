@@ -36,7 +36,7 @@ assessment:
   lean:
     toward: "Yes, authentic: the handwritten diaries are Anne Frank's own work"
     short: "yes"
-    strength: strong
+    strength: moderate
     because: "Two independent handwriting examinations (afd-hamburg-graphology-1960, afd-nl-forensic-conclusion) and the BKA's own account of its materials test (afd-bka-1980-scope) point the same way, and the one alleged anachronism is accounted for (afd-ballpoint-not-anne)."
     caveats: "Known only second hand through parties and the press; the reports, the Critical Edition and the judgments were not opened; the lean is moderate in confidence, and the headline stays draft."
   would_settle: "Opening the Dutch forensic report (or its summary in the critical edition), the 1980 BKA report and the court judgments, and, ideally, a fresh examination of the manuscripts by a laboratory unconnected to the parties."
@@ -673,7 +673,7 @@ claims:
     state: established
     statement: >
       Amsterdam (1998 to 2000): on 9 December 1998 the Amsterdam District Court, in an action by the Anne Frank Stichting and the Anne Frank Fonds against the publisher of a 1991 booklet reproducing a 1978 report that questioned the diary, banned distribution of the booklet in the Netherlands (penalty 25,000 guilders per breach).
-      On 27 April 2000 the Court of Appeal of Amsterdam, as the Anne Frank House puts it, 'confirmed' that judgment; as the defendant's page quotes it, the Court set the first judgment aside in part, refused the declaration of authenticity the plaintiffs had asked for, and re-worded the ban, which then covered the booklet and
+      On 27 April 2000 the Court of Appeal of Amsterdam, as the Anne Frank House puts it, 'confirmed' that judgment; as the defendant's page quotes it, the Court set the first judgment aside in part, refused (as the defendant's own heading on that page states, not a numbered paragraph) the declaration of authenticity the plaintiffs had asked for, and re-worded the ban (para. 7.2), which then covered the booklet and
       material that questions authenticity in the same way as the booklet (para. 7.2 and 8). The grounds are in afd-amsterdam-appeal-reasoning-gap.
     statement_kind: reported
     evidence_class: interpretive
@@ -682,7 +682,7 @@ claims:
       start: moderate
       start_because: "Secondary anchors: the Anne Frank House, CBC and the defendant's own page agree on date and outcome; no judgment was opened."
       steps:
-        - {domain: independent_corroboration, effect: up1, reason: "CBC (1998, independent) and the defendant's page, both adverse to or independent of the Anne Frank House, agree with it on the date and that a ban was ordered and survived appeal, in a re-worded form with the declaration of authenticity not granted, as the defendant's page quotes it."}
+        - {domain: independent_corroboration, effect: up1, reason: "CBC (1998, independent) and the defendant's page, both adverse to or independent of the Anne Frank House, agree with it on the date and that a ban was ordered and survived appeal, in a re-worded form with the declaration of authenticity not granted, as the defendant's page states in its own heading (not in a numbered paragraph)."}
         - {domain: indirectness, effect: down1, reason: "No judgment was read; the grounds are in afd-amsterdam-appeal-reasoning-gap."}
       reviewed: false
     evidential_weight: 3

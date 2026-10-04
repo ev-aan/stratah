@@ -321,7 +321,7 @@ sources:
   - id: src-radiowereld-bolkestein
     title: "Radio Wereld, 'Oproep via Radio Oranje in 1944 zorgt voor veel ooggetuigenverhalen' (April 2025)"
     author: Radio Wereld (media news site)
-    date: "2025-04"
+    date: "2025-04 (from the URL path only; the page text read carries no date)"
     url: https://radiowereld.nl/medianieuws/2025/04/oproep-via-radio-oranje-in-1944-zorgt-voor-veel-ooggetuigenverhalen/
     document_class: secondary (news item)
     read: "full (4,848 characters)"
@@ -330,7 +330,7 @@ sources:
     authenticity:
       status: authenticated
       strength: weak
-      provenance: "Radio Wereld's site, URL path dated 2025/04, fetched directly 2026-10-04."
+      provenance: "Radio Wereld's site, fetched directly 2026-10-04. The April 2025 date rests on the URL path (/2025/04/) only."
       tests: ["Its date for the appeal (28 March 1944) matches NOS (src-nos-bolkestein) and the Anne Frank House complete-works page; a different date would have failed it. [read]"]
       tested_by: "Strata dig author session, 2026-10-04. Independent of the Anne Frank House; a short news item."
       gaps: ["Does not cite the broadcast record; the Radio Oranje transcript or log was not opened."]
@@ -423,7 +423,7 @@ sources:
     document_class: "reception only (a denial text; recorded to say what is claimed, never as evidence)"
     read: "full (38,765 characters); read for the claims it makes and the passages it quotes from the Critical Edition"
     sha256: 443c3577f1e01f9effa34561f00c601d6fa23ab72d53dcde5e3b37306190f311
-    stored_as: "sources/extracts/faurisson-ihr-extract.txt"
+    stored_as: "none (no extract stored; the denial text is cited only in transmission.yaml)"
     authenticity:
       status: unchecked
       strength: weak
