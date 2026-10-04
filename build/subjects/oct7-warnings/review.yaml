@@ -1,0 +1,253 @@
+# Publish-gate review record (docs/PUBLISH_GATE.md). status: pending | revisions_requested | passed | passed_with_open_items | grandfathered | failed (rounds: see docs/PUBLISH_GATE.md)
+subject: oct7-warnings
+status: revisions_requested
+checks:
+- check: 'conformance: no errors for this subject'
+  result: pass
+  detail: ''
+- check: headline present, 70-95 characters
+  result: pass
+  detail: 89 characters
+- check: headline claim is established/refuted at high confidence with a primary check, or status is draft
+  result: pass
+  detail: 'o7w-pm-personally-warned: contested, low, anchor_checked secondary; headline_status draft'
+- check: headline_status is draft or review before the gate passes
+  result: pass
+  detail: draft
+- check: assessment present with question, answer, headline, text, basis, would_settle
+  result: pass
+  detail: ''
+- check: assessment has exactly three key_points
+  result: pass
+  detail: '3'
+- check: assessment states no percentage
+  result: pass
+  detail: ''
+- check: taxonomy entry (area and question types)
+  result: FAIL
+  detail: ''
+- check: every claim has statement_kind
+  result: pass
+  detail: ''
+- check: every searched gap names its next step
+  result: pass
+  detail: ''
+- check: sources manifest exists
+  result: pass
+  detail: ''
+- check: every source has an authenticity block
+  result: pass
+  detail: ''
+- check: log has entries
+  result: pass
+  detail: ''
+- check: timeline present (dates exist, so a timeline is required)
+  result: pass
+  detail: ''
+open_items:
+- Taxonomy entry missing (review_dig FAIL; conformance warning). Owner-only file. Suggested entry in the notes. Not added by the reviewer.
+- Nine claims are labelled established on secondary anchors through an `exception:` field that is a PROPOSED schema item, not an adopted rule (R2). Owner decision wanted on the field itself; it needs a
+  proposal under docs/SCHEMA_PROPOSALS.md.
+- 'Blocked originals nobody has read: IDF and Shin Bet published findings, High Court orders, expert committee report, The Atlantic, WSJ and NYT originals, the PM''s 55 pages, Bar''s April 2025 affidavit,
+  the Haaretz book excerpt, Egyptian official text of 11 Oct 2023. A person with legitimate access should read at least the first two groups before publication.'
+- Reviewer could not open Anadolu (src-aa-uae); the 23 Sep 2023 call date in log L-12 is unverified by the reviewer.
+- 'Live story: the 27 Oct 2026 election, the 15 Jan 2027 High Court deadline, the libel suits and any UAE or Egyptian statement will change claims; a re-review is due at each significant update (docs/NEWS_REVIEW.md).
+  headline_status must stay draft.'
+- 'Not verified by any reviewer: later State Comptroller releases after 6 Jan 2026; whether other published Comptroller reports name the prime minister.'
+needs_manual_check:
+- '9 established/refuted claims anchored below primary: o7w-jericho-held, o7w-jericho-dismissed, o7w-observers, o7w-night-signs, o7w-oct1-meeting, o7w-warnings-nonspecific, o7w-policy-of-calm, o7w-probes-scope,
+  o7w-inquiry-status'
+- 'quote not matched in stored sources (OCR noise possible): o7w-jericho-held (match 0.00): "Despite being made aware of Hamas'' plan for a broad offensive, known a..."'
+- 'quote not matched in stored sources (OCR noise possible): o7w-jericho-held (match 0.48): "As early as 2018, Israel caught wind of Hamas'' battle plan..."'
+- 'quote not matched in stored sources (OCR noise possible): o7w-jericho-held (match 0.00): "it failed to take either the 2018 or 2022 versions of the Walls of Jer..."'
+- 'quote not matched in stored sources (OCR noise possible): o7w-jericho-held (match 0.00): "a dossier detailing a possible Hamas attack against Israel..."'
+- 'quote not matched in stored sources (OCR noise possible): o7w-jericho-dismissed (match 0.00): "ordered preparations for war with Hamas based on the ''Jericho Wall'' pl..."'
+- 'quote not matched in stored sources (OCR noise possible): o7w-jericho-dismissed (match 0.00): "Given that it did not view these plans as realistic, a broader Hamas i..."'
+- 'quote not matched in stored sources (OCR noise possible): o7w-jericho-dismissed (match 0.00): "neglect of the ''Jericho Wall'' defense plan..."'
+- 'quote not matched in stored sources (OCR noise possible): o7w-jericho-reached-pm (match 0.00): "The New York Times said it could not determine whether Israeli Prime M..."'
+- 'quote not matched in stored sources (OCR noise possible): o7w-jericho-reached-pm (match 0.51): "It is unclear if the document was seen by Prime Minister Benjamin Neta..."'
+- 'quote not matched in stored sources (OCR noise possible): o7w-jericho-reached-pm (match 0.00): "was neither shared with the IDF''s top leadership nor with the top poli..."'
+- 'quote not matched in stored sources (OCR noise possible): o7w-jericho-reached-pm (match 0.43): "first heard about the ''Jericho Wall'' report only two weeks after the w..."'
+- 'quote not matched in stored sources (OCR noise possible): o7w-8200-analyst (match 0.38): "In an email on July 6, a female Israeli intelligence analyst who focus..."'
+- 'quote not matched in stored sources (OCR noise possible): o7w-8200-analyst (match 0.43): "were confirmed to NBC News by the senior Israeli official, who spoke o..."'
+- 'quote not matched in stored sources (OCR noise possible): o7w-8200-analyst (match 0.00): "This is a plan designed to start a war..."'
+- 'quote not matched in stored sources (OCR noise possible): o7w-observers (match 0.00): "praised the female field observers ... who ''continued to observe and r..."'
+- 'dates, names, patent or document numbers: verify each against the source'
+- every refuted claim names its target and rests on material or primary-text evidence (Rule 9)
+- no claim goes beyond what was read; anything not read is marked not read
+conformance_warnings: 10
+established_or_refuted_without_primary_check:
+- o7w-jericho-held
+- o7w-jericho-dismissed
+- o7w-observers
+- o7w-night-signs
+- o7w-oct1-meeting
+- o7w-warnings-nonspecific
+- o7w-policy-of-calm
+- o7w-probes-scope
+- o7w-inquiry-status
+quotes:
+  found_in_stored_sources: 4
+  not_found_in_stored_sources: 98
+  no_stored_source_to_check_against: 0
+reviewed_by: independent review agent
+reviewed_on: '2026-10-04'
+notes: |
+  VERDICT: revisions_requested. Not publishable as it stands; no hard factual fabrication found, but the headline and several labels read stronger than the record, and several quotations are mis-sourced.
+  Reviewer is independent of the author (did not see the author's reasoning). Validator (python3 build/conformance.py --base origin/main): 0 errors; this subject's warnings: nine 'established but anchor_checked is secondary' plus the missing taxonomy entry. review_dig.py: all checks pass except the taxonomy entry.
+  WHAT I DID. Re-fetched on 2026-10-04, from this environment, 47 of the 48 manifest URLs (HTML text), including both State Comptroller releases (mevaker.gov.il, read directly), the PMO X post, the UAE statement, Ynet (8 pieces), Haaretz (partly paywalled), Jerusalem Post, CNN, NPR, JTA, CTC Sentinel, NBC, ABC US and Australia, Al Jazeera, Washington Post (Yahoo copy), Fox, KIRO 7, MEE, MEMO, ThePrint, JC, JFeed, Kovler. I then matched every quoted string in every claim anchor (script) against the cited sources' text, and read the surrounding passages for the figures, times and dates. Most quotations, numbers (45 SIMs, 3:03, 4:30, 5:15, 6:29, 6:44, 9:47, 767 troops, 5,000 attackers, 25 probes/two-thirds/five red, 67 minutes, 45-minute call) and dates match their sources. Errors found are listed as requests R1 to R12.
+  SOURCE-BY-SOURCE (opened yes / passage found / matches): Comptroller 11 Nov 2025 (yes/yes/yes, quotes exact); Comptroller 6 Jan 2026 (yes/yes/partly: the parenthetical about intelligence and political decision-making is not in the release, see R3); PMO X post (yes/yes/yes, stored extract verbatim); UAE statement (yes/yes/yes, but the claim omits its third sentence, see R12); Ynet IDF findings (yes/yes/yes); NPR, JPost, CNN on the Shin Bet summary (yes/yes/yes); Ynet on the committee (yes/yes/yes); Ynet on Bar's affidavit and on the 55 pages (yes/yes/yes); Ynet on The Atlantic (yes/yes/yes); Haaretz on WSJ (yes/yes/yes); CNN on the UAE call (yes/yes/yes); MEMO and JPost on the NYT (yes/yes/yes); NBC (yes/yes/partly, R8); ThePrint (yes/NO for the quoted Bar sentence, R5); KIRO 7 and MEE (yes/yes, but 'aspirational' is not in either, R8); CTC (yes/yes, and it contains material the claims leave out, R4). Anadolu (src-aa-uae) could not be opened by me (connection reset); the 23 Sep call-date item in log L-12 rests on it and is unverified by me.
+  CHECK 1, HEADLINE. 'Signs reached Israeli units; a warning to Netanyahu is disputed; no sign he knew the date' is stronger than its basis in two of three clauses. (a) 'Signs reached Israeli units' is stated flat, but the claim that carries it (o7w-units-flagged, claims.yaml:250) is contested at low confidence and says the circulating claim is 'partly overstated'; the IDF's own first probe says 'no one saw or detected any sign of this event in advance'; and o7w-observers own basis (line 215) says whether reports reached anyone able to act 'is not an established chain'. (b) 'no sign he knew the date' is an absence claim (o7w-knew-date, claims.yaml:623: provisional, weight 1, absence_anchor true, with the stated limit that a search of published reports cannot rule out an unpublished communication) written as if it were a finding; the headline drops the 'found in published reports' qualifier that the claim itself keeps. (c) 'a warning to Netanyahu is disputed' is fair, but the named headline_claim is limited to a FOREIGN warning while the headline says 'a warning'; domestic channels (the Shin Bet chief's claimed real-time warnings, the 15 Sep 'earthquake' message) are separate contested/proposed claims. headline_status is draft, which is correct and must stay draft. The assessment headline (claims.yaml:21, 155 characters) says 'no evidence he knew the date or let it happen' (drops 'found'); key point 3 correctly says 'No evidence was found'. The assessment's rated_claim is o7w-warnings-nonspecific (established, 4 dots), while the question turns on o7w-pm-personally-warned (contested, low); the page will show 'Central claim ... Evidence 4/5' for the least contested item. See R1.
+  CHECK 2, 'ESTABLISHED' ON SECONDARY. Nine claims are `state: established` with `anchor_checked: secondary` and an `exception:` line (o7w-jericho-held, -dismissed, -observers, -night-signs, -oct1-meeting, -warnings-nonspecific, -policy-of-calm, -probes-scope, -inquiry-status). The `exception:` field is item 12 of SCHEMA.md's mechanical rules, marked PROPOSED; no adopted rule defines it and conformance.py has no handling for it (it only warns 'established but anchor_checked is secondary: re-anchor to the primary source'). AGENT_RULES section 2, CONTRIBUTING and CLAUDE.md say established means the primary source itself was opened and read. So it is a tolerated workaround, not a permitted mechanism. There is repo precedent (flydubai-fz1073 uses the same field and was passed_with_open_items with it listed as an open item), but this subject is a live story about a named living official, the owner's framing standard is that confidence words must be earned, and 12 claims also carry `evidence_class: primary_text` ('the document itself, read directly') although the document was not read: the nine above plus o7w-jericho-reached-pm, o7w-told-night-did-nothing and o7w-8200-analyst. Only o7w-comptroller-scope is genuinely a primary read, and the author says so. The honesty of the exception lines themselves is good (each says what was and was not read); the labels are the problem. See R2. Owner decision needed on the `exception:` field (needs a SCHEMA proposal either way; I have not touched the schema).
+  CHECK 3, ANONYMOUS SOURCES AND SYMMETRY. Largely sound. The UAE and Egypt claims are low-confidence and say repeats are adoption; the author notes the NYT sources may share a circle with Haaretz's; wire copies are counted once in the manifest header. The same test (L-04 D) is applied to the PM's counter-claim that the chiefs knew and did not wake him (o7w-chiefs-knew-no-wake, contested, low), and the wording is symmetric: each side's statement is called a statement, not a record. Weak spots: o7w-warnings-nonspecific gives itself 'independent corroboration up1' for six outlets whose underlying sources are the same four anonymous-source reports (R7); o7w-pm-personally-warned's alternatives text says anonymous sources 'from different governments' point the other way, which the dig elsewhere says is not known to be independent, and counts a US lawmaker's 2023 statement (about Egypt referring something to Israel, not about the PM) and a UAE 'does not comment' as if they were evidence for the claim (R12).
+  CHECK 4, TESTS AND ABSENCE CLAIMS. 'Knew the date', 'allowed deliberately' and 'staged' each carry what evidence would show them (L-04 and each claim's would_change_if); all five absence claims (jericho-reached-pm, told-night-did-nothing, knew-date, allowed-deliberately, staged) carry absence_anchor: true and provisional, anchor_checked no. Not blocking, but: L-04 is titled 'tests written before the claims' yet its (A) item already reports a result ('found none'), and the whole dig is one commit dated one day, so git cannot show the order. One absence claim is NOT marked: o7w-comptroller-scope (R3).
+  CHECK 5, DISCREPANCIES. The High Court order date (29 vs 31 Dec 2025, L-09), IDF 'no one saw' vs 'at least 10 warning signs' (L-10), visit vs call (L-11), UAE call date (L-12), PMO wording drift (L-13) and 06:15 vs 06:29 (L-14) are stated as unresolved, not smoothed. Exceptions: the author's reading in o7w-units-flagged is labelled an assumption (acceptable); timeline c09 is drawn at 31 Dec (the secondary date) with 29 Dec only as an alt note, although the primary source says 29 Dec. Discrepancies I found that are not logged: R9.
+  CHECK 6, NAMING. Named: Netanyahu, Bar, Halevi (via Bar), Hanegbi, Barnea, Kamel, bin Zayed, Sinwar, Englman, Eisenkot, Bennett, Lapid, Gil, Gallant: all office-holders or officials named in records; this fits the owner's ruling. No victim, hostage or minor is named. Observers and the analyst are by role only, and the analyst is described only as female and as being in signals intelligence (matches NBC). Concerns (R11): the claim file repeats, by role, the PM's accusation against 'a Palestinian political figure living in the UAE' (claims.yaml:382), who is a single identifiable person and not a senior office-holder; the transmission file (tx-c-03) records, by role, a remark about an opposition party leader's conduct on the morning of 7 October that the log (L-16) itself says is out of scope; the timeline (timeline.yaml:68) names two journalists. None of these is a victim or private citizen, so I treat them as owner decisions rather than failures.
+  CHECK 7, ASSESSMENT. Exactly three key points; no percentages in the assessment; answer 'partly' is consistent with the claims; counts and limits are visible in the text (what was not read is stated). Problems: the assessment text uses 'What is established' for items read only through news reports (R2); 'no evidence he knew the date or let it happen' in the assessment headline (R1). Basis list includes all 17 relevant claims, but the rated claim is the wrong one (R1).
+  CHECK 8. transmission.yaml: confers_weight false on all four chains, no claim cites a tx id. But o7w-staged lists src-wsws (a carrier of the staged claim, tx-k-02) and src-kovler (commentary) in its anchor.sources: the text says they are examples only, yet the manifest ids sit in the anchor (R10). Log: new subject, so append-only is trivially met; entries are dated and sequential. Rights: stored extracts are three or four sentences each; claim quotations are sentence-length or shorter; no image copied; acceptable. No Wikipedia anchor (only the log's own rule line mentions it).
+  CHECK 9. Live status and as-of date present everywhere (event_status live, as_of 2026-10-04, banner text, L-15 list of developments). Good.
+  SHOULD A PERSON WITH ACCESS READ THE BLOCKED ORIGINALS FIRST? Yes, before the nine 'established' claims are allowed to keep that word. In priority order: (1) the IDF's published findings of 27 Feb 2025 and the Shin Bet's published summary of 4 Mar 2025 (idf.il, shabak.gov.il; return 403 or challenge pages from here): they carry o7w-jericho-held, -dismissed, -night-signs, -policy-of-calm, -probes-scope and the 'no one saw' versus 'ten warning signs' discrepancy; (2) the High Court's interim order of late Dec 2025 and its 23 Sep 2026 decision (date, scope of the eight frozen audits, 15 Jan 2027 deadline); (3) the expert committee's report of Nov 2025; (4) The Atlantic, WSJ and NYT originals (the UAE/Egypt claims and the 1 Oct minutes are known only through summaries of them); (5) the PM's 55 pages and Bar's April 2025 affidavit; (6) the Haaretz book excerpt in full. I could not read any of them either (403, paywall or login wall), so none of the above is verified by me beyond what the outlets report.
+  RECOMMENDATION ON THE TAXONOMY ENTRY (owner-only file, not edited by me): add `oct7-warnings: {area: current_events, areas: [politics, media_misinformation], types: [what_did_they_know, is_claim_true], popular_claims: true}`. current_events is where the one other live-story subject (flydubai-fz1073) is shelved and its description ('things still unfolding... each page says as of when') fits; politics and media_misinformation as secondary areas; `what_did_they_know` already exists as a question type. Do this only when the owner decides to publish; do not add the subject to build/site.yaml or build/news.yaml until the requests below are resolved and a fresh reviewer re-reads them. The change set touches review.yaml (owner-only), so the pull request must be escalated to the owner, not merged by an agent.
+rounds:
+- round: 1
+  reviewed_on: '2026-10-04'
+  requests:
+  - id: R1-1
+    target: headline; assessment.headline; assessment.rated_claim (claims.yaml:13, 21, 34)
+    severity: blocking
+    finding: The headline reads stronger than the claims it rests on. (a) 'Signs reached Israeli units' is flat, but o7w-units-flagged (claims.yaml:250) is contested/low and says the circulating claim is
+      'partly overstated'; the IDF's own probe says no one detected any sign; o7w-observers (line 215) says the chain to anyone able to act is not established. (b) 'no sign he knew the date' states an absence
+      claim (o7w-knew-date, provisional, weight 1, limit stated at line 644) as a finding and drops the 'in published reports' limit. (c) 'a warning to Netanyahu' is wider than the named headline_claim
+      (a foreign warning only). The assessment headline says 'no evidence he knew the date or let it happen' (drops 'found'), and rated_claim is o7w-warnings-nonspecific (established, evidence 4/5) whereas
+      the question turns on o7w-pm-personally-warned (contested, low), so the page's 'Central claim' box shows the least contested item.
+    evidence: 'claims.yaml lines 13, 21, 34, 215, 250-282, 623-648; Ynet 27 Feb 2025 (src-ynet-idf-0227) quoting ''There was no one who saw or detected any sign of this event in advance''; build/tools/build_site.py
+      lines 138-143 (rated_claim is displayed with its evidence dots and ''Source checked''). Ask: rewrite each clause to carry its own weakness (for example attribute ''reported'' and ''none found in published
+      reports''), make the assessment headline match key point 3, point rated_claim at the claim the answer actually turns on, and keep headline_status draft.'
+    author_response: null
+    resolved: null
+  - id: R2-1
+    target: nine established claims and 12 primary_text labels (claims.yaml:67-132, 184-249, 470-502, 591-622, 701-735, 796-858)
+    severity: blocking
+    finding: 'o7w-jericho-held, -jericho-dismissed, -observers, -night-signs, -oct1-meeting, -warnings-nonspecific, -policy-of-calm, -probes-scope and -inquiry-status are state established with anchor_checked
+      secondary and an `exception:` line. `exception:` is SCHEMA.md rule 12, marked PROPOSED, and conformance.py does not recognise it (it only warns); AGENT_RULES section 2, CONTRIBUTING and CLAUDE.md
+      define established as the primary source opened and read. It is a workaround, not a permitted mechanism. Also 12 claims carry evidence_class primary_text (''the document itself, read directly'') although
+      the document was not read: those nine plus o7w-jericho-reached-pm, o7w-told-night-did-nothing and o7w-8200-analyst. The assessment text (claims.yaml:27) also says ''What is established'' for the same
+      items. Either have a person with access read the IDF and Shin Bet texts (and the other originals) and re-anchor, or restate these claims so the label matches what was read (what the reports say the
+      findings are, state proposed/provisional or another allowed state), set evidence_class honestly (interpretive for reports of documents), and change the assessment wording.'
+    evidence: 'build/SCHEMA.md line 37; build/conformance.py lines 204-209 (warning only, no exception handling); docs/AGENT_RULES.md section 2 (established, evidence_class); CLAUDE.md (''anchor_checked:
+      primary means the document itself was opened and read''); python3 build/conformance.py output (nine warnings for this subject).'
+    author_response: null
+    resolved: null
+  - id: R3-1
+    target: o7w-comptroller-scope (claims.yaml:764-795)
+    severity: blocking
+    finding: 'The only claim marked anchor_checked primary is an unmarked absence claim held above provisional: ''The State Comptroller has not published findings on what the prime minister knew'' rests
+      on a list of published reports in a press release of 6 Jan 2026, nine months before the as-of date; the claim''s own confidence_reasons admit later releases were not read. Under REVIEW.md B an unmarked
+      absence claim above provisional is blocking. Also: (i) the parenthetical ''(including decision-making by the intelligence services and the political leadership)'' is not in either Comptroller release
+      (the 6 Jan release says only ''eight of these subjects''); it comes from the Jerusalem Post text on Yahoo (src-yahoo-hcj, lines 38 and 59), which is not in the claim''s anchor.sources, so a secondary
+      detail sits inside a ''primary'' claim. (ii) ''the one published report that names the prime minister'' is not shown by the two releases; the 6 Jan list includes other reports (for example ''Operation
+      Iron Swords - Economic and Budgetary Aspects'', 4 Nov 2025) that were not opened. Split the claim: keep what the releases themselves say (the 11 Nov quotations; the 29 Dec order suspending eight audits)
+      as the primary part, and file the ''has not published'' part as an absence claim (absence_anchor true, provisional) with a current check of the Comptroller''s reports page.'
+    evidence: 'I fetched https://www.mevaker.gov.il/en/newsroom/2025-11-11-special-report and /2026-01-06-special-reports on 2026-10-04: the three quoted sentences are exact; the eight-audits sentence reads
+      ''has suspended audits on eight of these subjects''; the release contains no list of the eight.'
+    author_response: null
+    resolved: null
+  - id: R4-1
+    target: o7w-units-flagged (claims.yaml:250-282)
+    severity: blocking
+    finding: 'The claim concludes the ''units flagged it'' story is partly overstated, but omits material in the author''s own cited source (CTC Sentinel, src-ctc, lines 79-85 of the stored text) that points
+      the other way: the 8200 NCO''s warning that the exercise ''closely followed the Jericho Wall plan'', further warnings over the following weeks, a Gaza Division document warning that Hamas planned
+      a large-scale invasion and up to 250 hostages (no date or place), and a further warning ''a few days before October 7'' urging preparations. None of this appears in o7w-units-flagged, o7w-8200-analyst,
+      the timeline or the log, and the alternatives text says ''No source read says'' a specific warning existed. These are secondary and unconfirmed, but they must be as visible as the IDF''s ''no one
+      saw'' sentence. Also the quotation ''no one saw or detected any sign of this event in advance'' drops the word ''who'' from the source''s ''no one who saw or detected'' (quote marks must not edit).'
+    evidence: src-ctc stored text lines 79-85 (https://ctc.westpoint.edu/the-october-7-attack-an-assessment-of-the-intelligence-failings/); Ynet 27 Feb 2025 line 78.
+    author_response: null
+    resolved: null
+  - id: R5-1
+    target: o7w-bar-2023-warnings (claims.yaml:443-469; also timeline d11)
+    severity: blocking
+    finding: 'The anchor says ''Al-Monitor and ThePrint [read] carry Bar''s 28 Sep 2026 statement: "I warned Netanyahu of a disaster, and he ignored me"''. Al-Monitor is not in the manifest or the source
+      list and the sentence is not in ThePrint''s text. The nearest wording I found is ABC Australia''s "of an impending disaster, and he ignored me" (src-abc-au line 121), which is not in this claim''s
+      anchor.sources. A quotation put in a named living person''s mouth, and a source marked ''read'' that is not in the record, must be fixed: quote the source that has it, with its exact words, and add
+      it to the manifest and anchor.sources.'
+    evidence: 'grep of all 47 fetched source texts: ''ignored me'' appears only in src-abc-au; ThePrint (src-theprint-bar) has ''Bar''s suit follows a Haaretz report...'' and ''I will summon for testimony...''
+      but not the quoted sentence.'
+    author_response: null
+    resolved: null
+  - id: R6-1
+    target: o7w-oct1-meeting (claims.yaml:470-502)
+    severity: blocking
+    finding: 'Established (secondary) claim that joins two accounts that conflict and an absence. The PM''s own released document, as Ynet reports it, says ''no official proposed eliminating Hamas'' leadership
+      in Gaza'' and that he instructed preparations for targeted killings (src-ynet-bar line 60), while the NYT, via MEMO and Jerusalem Post, says he ''resisted''/''rejected'' strike proposals from security
+      chiefs (src-memo-nyt line 118, src-jpost-909744 line 79). The statement presents them side by side as one established account. ''Neither the excerpts nor, as reported, the minutes mention a foreign
+      warning'' is an absence claim inside an established claim. Split: what is established as reported (the meeting took place; the PMO summary wording), what is contested (whether strikes were proposed
+      and rejected; the Saudi remark, NYT only), and the absence part as absence_anchor provisional.'
+    evidence: src-ynet-bar lines 59-73; src-memo-nyt lines 112-118; src-jpost-909744 lines 72-80; src-abc-au lines 163-164.
+    author_response: null
+    resolved: null
+  - id: R7-1
+    target: o7w-warnings-nonspecific (claims.yaml:591-622)
+    severity: non_blocking
+    finding: The confidence arithmetic gives 'independent_corroboration up1' because the point appears in six outlets (Haaretz, NYT via MEMO, The Atlantic via Ynet, WaPo, WSJ via Haaretz, FT via CTC). The
+      dig's own rule is that repeats and summaries of one report count once, and these trace to roughly four anonymous-source originals none of which was opened. The claim is also a universal negative ('every
+      account read says no date'), which is how the 'no date' headline clause is built; Yedioth 2023 ('something unusual, a terrifying operation') and the Atlantic's 5 Oct 2023 message ('conveying urgency
+      about the possibility of an attack') should be shown as the strongest forms of the warnings. Reconsider the step and state the universal-negative nature.
+    evidence: claims.yaml lines 40-46; src-haaretz-deny-visit line 99; src-ynet-egypt lines 118-120.
+    author_response: null
+    resolved: null
+  - id: R8-1
+    target: attribution and wording slips (several claims)
+    severity: non_blocking
+    finding: '(a) o7w-jericho-dismissed (line 100ff): ''aspirational'' is attributed to the NYT ''via KIRO 7 and MEE''; neither text contains the word (MEE says ''too ambitious''); it is in CTC (src-ctc
+      line 293) and WSWS. (b) o7w-8200-analyst (line 159ff): ''a Gaza Division officer replied'' - NBC says ''an IDF commander'', ''Gaza Division'' is not in NBC; and ''she and a colleague answered that
+      it was "a plan designed to start a war"'' - only she wrote that; the colleague wrote that they ''completely and emphatically disagree'' it is imaginary. (c) o7w-probes-scope (line 796ff): ''did not
+      address the political echelon'' is the committee''s description of its OWN review (Ynet: ''based its work solely on IDF investigations''), but the statement reads as if it were a finding about the
+      army''s 25 probes. (d) o7w-chiefs-knew-no-wake (line 562ff): ''failure, not betrayal'' is in quotation marks but is the author''s compression of the PM''s ''That''s a failure, but it''s not betrayal'';
+      ''and that this is why October 7 happened'' overstates the PM''s words, since he also said he could not say ''nothing would have happened'' (JC). (e) The same claim and tx-c-02 cite the Washington
+      Post as saying he accused the chiefs of ''deliberately'' letting him sleep; the Post''s sentence says he accused them of letting him sleep ''for four hours after Hamas began its assault at 6:30 a.m.'',
+      which is a different accusation (after the attack began), and is not what the rest of the claim describes.'
+    evidence: src-kiro7-nyt, src-mee-jw (no 'aspirational'); src-nbc-analysts lines 149-150; src-ynet-meta lines 59-61; src-jc-wake; src-yahoo-wapo line 53.
+    author_response: null
+    resolved: null
+  - id: R9-1
+    target: unlogged discrepancies (log.yaml)
+    severity: non_blocking
+    finding: 'Add log entries for discrepancies the sources contain and the dig does not state: (a) 6:29 a.m.: the PM''s answers say a WhatsApp message (Ynet 6 Feb 2026, src-ynet-55page line 74) while Ynet''s
+      analysis of Bar''s affidavit says ''his first call'' (src-ynet-bar line 86); (b) the Washington Post''s ''four hours after 6:30 a.m.'' version of the PM''s sleep accusation versus his own 6:29/6:44
+      account; (c) the two State Comptroller releases disagree on when the earlier interim order was lifted (''only a few weeks ago'' on 11 Nov 2025; ''in April 2025'' on 6 Jan 2026) - the stored 11 Nov
+      extract contains the first wording; (d) McCaul is quoted two ways (''did refer this to Israel'', Fox; ''warned the Israelis three days prior'', Ynet/Haaretz); (e) timeline c09 draws the freezing order
+      at 31 Dec 2025 (secondary date, date_basis stated) with 29 Dec only as an alt note, although the primary source says 29 Dec; draw a window or put the primary date first.'
+    evidence: As cited; stored extract sources/mevaker-2025-11-11-extract.txt line 4; mevaker 6 Jan 2026 page; timeline.yaml event c09.
+    author_response: null
+    resolved: null
+  - id: R10-1
+    target: o7w-staged anchor.sources (claims.yaml:675-700)
+    severity: non_blocking
+    finding: src-wsws (the carrier of the 'deliberate stand-down' wording, transmission tx-k-02) and src-kovler (a commentary) are listed in the anchor.sources of an absence claim. The text says they are
+      examples only, but the anchor field is where support is declared; a transmission carrier should not sit there (docs/AGENT_RULES section 6, SCHEMA transmission rule). Remove them from anchor.sources
+      and keep them in the description or the transmission file only.
+    evidence: 'claims.yaml line 697: sources: [src-jta-idf, src-ynet-idf-0227, src-ynet-egypt, src-kovler, src-wsws].'
+    author_response: null
+    resolved: null
+  - id: R11-1
+    target: naming by role (claims.yaml:365-391; transmission.yaml:176-186; timeline.yaml:68)
+    severity: non_blocking
+    finding: 'Owner ruling: no private individual named. (a) o7w-uae-call.disputed_by repeats the PM''s accusation that ''a Palestinian political figure living in the UAE'' was behind the Haaretz report;
+      that is one identifiable person, not a senior office-holder, accused without evidence in a live election story. Remove, or send to the owner. (b) transmission tx-c-03 records by role a remark that
+      an opposition party leader had advance knowledge on the morning of 7 October; the log (L-16) says the point is out of scope because it is about one person''s conduct on the day. Either drop it or
+      justify it; by role it identifies the person. (c) timeline.yaml:68 names two journalists (spelled ''Ruth Yuval''; CNN has ''Ruti Yuval''); claims.yaml says only ''two journalists''. Owner decision
+      on journalists; I recommend role-only as in claims.yaml.'
+    evidence: src-aj-sue lines 103-107; src-jc-wake; timeline.yaml line 68; log L-16.
+    author_response: null
+    resolved: null
+  - id: R12-1
+    target: weaker-side visibility (o7w-egypt-visit, o7w-uae-call, o7w-pm-personally-warned)
+    severity: non_blocking
+    finding: (a) o7w-egypt-visit calls the visit 'one anonymous-source report', but the WSJ (via Haaretz, src-haaretz-deny-visit line 94) also says Kamel traveled to Israel in September; show it, with the
+      caveat that its relation to The Atlantic's sources is unknown. (b) o7w-uae-call quotes only the first sentence of the UAE statement as a non-denial; the stored statement's third sentence ('When necessary,
+      all relevant intelligence has been and continues to be communicated between the relevant entities') cuts toward the claimants, and CNN quoted it; quote the whole statement or neither. (c) o7w-pm-personally-warned
+      alternatives (line 254) says sources 'from different governments' point the other way and counts a UAE 'does not comment' and a US lawmaker's 2023 statement about Egypt referring something to Israel;
+      independence of the sources is stated elsewhere as unknown and neither item is about a warning to the PM. Rephrase so neither side is padded.
+    evidence: src-uae-mofa-0908; src-cnn-uae line 247; src-fox-mccaul line 21.
+    author_response: null
+    resolved: null
