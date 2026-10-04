@@ -37,7 +37,7 @@ chains:
         date: "1980"
         precision: year
         step: amplification
-        carrier: "press and denial publications citing the report as an 'official' sign of forgery (a magazine report that the report cast 'further doubt', per the taz; a French scholar's remark quoted in a denial text)"
+        carrier: "press and denial publications citing the report as an 'official' sign of forgery (a magazine report that the report cast further doubt, our translation of the taz's 'weiter in Zweifel'; a French scholar's remark quoted in a denial text)"
         form: "The report is presented as showing that the diary was revised after the war with ballpoint pens that appeared only in 1951."
         source: src-faurisson-ihr
         read: yes
@@ -68,13 +68,13 @@ chains:
         form: "The 1980 BKA report is cited as proof of forgery."
         source: src-taz-2006-07-11
         read: yes
-        note: "The burning took place on 24 June 2006 (BKA release); the guestbook entry followed 'wenig spaeter' (taz, undated). A criminal complaint by the Berlin Anne Frank Centre followed; the persons are not named here."
+        note: "The burning took place on 24 June 2006 (BKA release); the guestbook entry followed 'Wenig später' (taz, undated). A criminal complaint by the Berlin Anne Frank Centre followed; the persons are not named here."
       - id: tx-b-06b
         date: "2006-07-11"
         precision: read_on
         step: persistence
         carrier: "leaflets at an Anne Frank exhibition in Wolgast (taz, 11 July 2006)"
-        form: "Leaflets with the slogan 'Alles Luege!' cite the 1980 BKA report as alleged proof."
+        form: "Leaflets with the slogan 'Alles Lüge!' cite the 1980 BKA report as alleged proof."
         source: src-taz-2006-07-11
         read: yes
         note: "The leaflets are undated in the taz; the date given is the date of the report that mentions them."
@@ -83,7 +83,7 @@ chains:
         precision: day
         step: correction
         carrier: "the BKA's own press release"
-        form: "The report cannot be used to cast doubt on the authenticity of the diaries; the BKA distances itself from such speculation."
+        form: "The report cannot be used to cast doubt on the authenticity of the diaries; the BKA distances itself from such speculation (our translation of the German release)."
         source: src-bka-2006
         read: yes
       - id: tx-b-08
@@ -168,7 +168,7 @@ chains:
         precision: year
         step: correction
         carrier: "the NIOD co-editor"
-        form: "After the critical edition appeared, the attacks 'mostly fell silent'; pamphlets reappeared in London in 1997."
+        form: "After the critical edition appeared, the attacks mostly fell silent (our translation of 'verstomden ... goeddeels'); pamphlets reappeared in London in 1997."
         source: src-vanderstroom-1999
         read: yes
         note: "An editor's view of his own edition's effect; not an independent finding."

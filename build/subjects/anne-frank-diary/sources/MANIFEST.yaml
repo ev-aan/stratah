@@ -353,7 +353,7 @@ sources:
       tests:
         - "The ECLI, court, date, case number and parties in the header match the Rechtspraak listing and the case as described by the Dutch press and legal sites (search results, not opened). [read]"
         - "Its facts on custody and on versions A and B agree with the Anne Frank House, the Fonds and the NIOD editor (src-af-complete-works, src-fonds-publications, src-vanderstroom-1999); a conflict with them would have failed it. [read]"
-      tested_by: "Strata dig author session, 2026-10-04. Independent of both parties; the facts are those undisputed between two parties (the Fonds and the Stichting) who were adverse in the case."
+      tested_by: "Strata dig author session, 2026-10-04. Independent of both parties; section 2 states the facts without saying on whose submissions (the case was between the Fonds and the Stichting)."
       gaps: ["A copyright case: it records how the diary exists, and says nothing on authenticity or on the forensic reports. Section 2 says the 1986 edition published the integral manuscripts of A and B; it does not mention C within the edition (the NIOD editor says all three are printed)."]
       next_step: "None needed for its use here."
       checked: 2026-10-04
