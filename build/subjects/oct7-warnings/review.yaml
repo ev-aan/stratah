@@ -45,15 +45,15 @@ checks:
   result: pass
   detail: ''
 open_items:
-- Taxonomy entry missing (review_dig FAIL; conformance warning). Owner-only file. Suggested entry in the notes. Not added by the reviewer.
-- Nine claims are labelled established on secondary anchors through an `exception:` field that is a PROPOSED schema item, not an adopted rule (R2). Owner decision wanted on the field itself; it needs a
-  proposal under docs/SCHEMA_PROPOSALS.md.
-- 'Blocked originals nobody has read: IDF and Shin Bet published findings, High Court orders, expert committee report, The Atlantic, WSJ and NYT originals, the PM''s 55 pages, Bar''s April 2025 affidavit,
-  the Haaretz book excerpt, Egyptian official text of 11 Oct 2023. A person with legitimate access should read at least the first two groups before publication.'
-- Reviewer could not open Anadolu (src-aa-uae); the 23 Sep 2023 call date in log L-12 is unverified by the reviewer.
-- 'Live story: the 27 Oct 2026 election, the 15 Jan 2027 High Court deadline, the libel suits and any UAE or Egyptian statement will change claims; a re-review is due at each significant update (docs/NEWS_REVIEW.md).
-  headline_status must stay draft.'
-- 'Not verified by any reviewer: later State Comptroller releases after 6 Jan 2026; whether other published Comptroller reports name the prime minister.'
+- 'PENDING OWNER RULING (R2): do the nine claims anchored on secondary sources stay `established` with `exception:` lines (needs a SCHEMA proposal), move to `proposed`/provisional, or get re-anchored after
+  someone reads the IDF and Shin Bet texts? Consequences of each are in request R2-1.'
+- 'Owner to confirm: reporters credited by name in the sources manifest (bibliographic bylines) are acceptable under the 2026-10-04 naming ruling (request R11-1 note).'
+- Taxonomy entry missing (owner-only file); suggested entry in the notes. Not added by the reviewer.
+- 'Blocked originals still unread by anyone: IDF and Shin Bet published findings, High Court orders, expert committee report, The Atlantic, WSJ and NYT originals, the PM''s 55 pages, Bar''s April 2025 affidavit,
+  the Haaretz book excerpt. Anadolu (src-aa-uae) could not be opened by the reviewer.'
+- 'Weak search behind o7w-comptroller-no-findings: Comptroller home page features only about ten reports; later releases and each listed report were not opened (claim is provisional and says so).'
+- 'Live story: re-review at each significant update (27 Oct 2026 election, 15 Jan 2027 High Court deadline, libel suits, any UAE or Egyptian statement). headline_status must stay draft.'
+- Non-blocking R13 to R15 (wording) to be fixed by the author.
 needs_manual_check:
 - '9 established/refuted claims anchored below primary: o7w-jericho-held, o7w-jericho-dismissed, o7w-observers, o7w-night-signs, o7w-oct1-meeting, o7w-warnings-nonspecific, o7w-policy-of-calm, o7w-probes-scope,
   o7w-inquiry-status'
@@ -108,6 +108,9 @@ notes: |
   CHECK 9. Live status and as-of date present everywhere (event_status live, as_of 2026-10-04, banner text, L-15 list of developments). Good.
   SHOULD A PERSON WITH ACCESS READ THE BLOCKED ORIGINALS FIRST? Yes, before the nine 'established' claims are allowed to keep that word. In priority order: (1) the IDF's published findings of 27 Feb 2025 and the Shin Bet's published summary of 4 Mar 2025 (idf.il, shabak.gov.il; return 403 or challenge pages from here): they carry o7w-jericho-held, -dismissed, -night-signs, -policy-of-calm, -probes-scope and the 'no one saw' versus 'ten warning signs' discrepancy; (2) the High Court's interim order of late Dec 2025 and its 23 Sep 2026 decision (date, scope of the eight frozen audits, 15 Jan 2027 deadline); (3) the expert committee's report of Nov 2025; (4) The Atlantic, WSJ and NYT originals (the UAE/Egypt claims and the 1 Oct minutes are known only through summaries of them); (5) the PM's 55 pages and Bar's April 2025 affidavit; (6) the Haaretz book excerpt in full. I could not read any of them either (403, paywall or login wall), so none of the above is verified by me beyond what the outlets report.
   RECOMMENDATION ON THE TAXONOMY ENTRY (owner-only file, not edited by me): add `oct7-warnings: {area: current_events, areas: [politics, media_misinformation], types: [what_did_they_know, is_claim_true], popular_claims: true}`. current_events is where the one other live-story subject (flydubai-fz1073) is shelved and its description ('things still unfolding... each page says as of when') fits; politics and media_misinformation as secondary areas; `what_did_they_know` already exists as a question type. Do this only when the owner decides to publish; do not add the subject to build/site.yaml or build/news.yaml until the requests below are resolved and a fresh reviewer re-reads them. The change set touches review.yaml (owner-only), so the pull request must be escalated to the owner, not merged by an agent.
+
+  ROUND 2 (re-review of 33fcdf5, same day). Conformance 0 errors; only the nine R2 warnings and the taxonomy warning remain. I re-read the diff since ea79106 in full and re-opened sources for every new or changed quotation: the CTC material in o7w-units-flagged, the ABC Australia Bar wording, the Ynet/JPost/MEMO/ABC quotations in o7w-oct1-strikes and -no-foreign-warning, the UAE statement's third sentence, the WSJ-via-Haaretz September visit, and the Comptroller home page (https://www.mevaker.gov.il/en/). Quote matcher over all claims: no unmatched quotation except a nesting artifact. Counts: 30 claims (10 contested low, 9 established-moderate-secondary, 1 established-moderate-primary, 7 searched gaps, 2 proposed, 1 contested provisional); 3 key points; no percentages in the assessment; as_of 2026-10-04 and event_status live everywhere; headline 94 characters, draft; every basis id exists; evidence_class now 24 interpretive, 5 synthetic, 1 primary_text (the primary read). Log: L-18 to L-24 are pure appends; earlier entries unchanged. transmission.yaml: tx-c-03 removed (it was an out-of-scope insinuation), confers_weight false kept, no claim cites a tx id. The author edited author_response fields in this file, which is the process; no other review text was changed.
+  STATUS DECISION. I keep revisions_requested for one reason only: docs/PUBLISH_GATE.md says every blocking request must be resolved before passed or passed_with_open_items, and R2 is blocking and can be resolved only by the owner's ruling (conformance would error on a published subject otherwise). Content-wise I judge publication safe once the owner rules on R2: the headline, assessment headline and three key points no longer read stronger than the contested and absence claims they rest on, the weaker claims are as visible as the strong ones, and the R2 choice changes only the label on nine claims. When the owner has ruled and the author has applied the ruling (or none is needed under option A), a fresh reviewer needs only to confirm R2 and R13 to R15 and set passed_with_open_items. The subject is still not in build/site.yaml, build/news.yaml or taxonomy; the taxonomy recommendation in the notes above stands.
 rounds:
 - round: 1
   reviewed_on: '2026-10-04'
@@ -123,8 +126,17 @@ rounds:
     evidence: 'claims.yaml lines 13, 21, 34, 215, 250-282, 623-648; Ynet 27 Feb 2025 (src-ynet-idf-0227) quoting ''There was no one who saw or detected any sign of this event in advance''; build/tools/build_site.py
       lines 138-143 (rated_claim is displayed with its evidence dots and ''Source checked''). Ask: rewrite each clause to carry its own weakness (for example attribute ''reported'' and ''none found in published
       reports''), make the assessment headline match key point 3, point rated_claim at the claim the answer actually turns on, and keep headline_status draft.'
-    author_response: {action: fixed, note: "Headline now: \"Signs reported inside Israel's services; foreign warnings to Netanyahu disputed; no date found\" (94 characters, draft). Assessment headline now says signs are 'reported and partly disputed', foreign warnings 'contested and unproven' and 'no evidence was found, in published reports, that he knew the date or let it happen'. search_summary now says most claims are contested or open and read mostly through news reports. rated_claim is now o7w-pm-personally-warned (contested, low). headline_status stays draft. 'No date found' is still an absence claim; the full qualifier is in the assessment headline and o7w-knew-date."}
-    resolved: null
+    author_response:
+      action: fixed
+      note: 'Headline now: "Signs reported inside Israel''s services; foreign warnings to Netanyahu disputed; no date found" (94 characters, draft). Assessment headline now says signs are ''reported and
+        partly disputed'', foreign warnings ''contested and unproven'' and ''no evidence was found, in published reports, that he knew the date or let it happen''. search_summary now says most claims are
+        contested or open and read mostly through news reports. rated_claim is now o7w-pm-personally-warned (contested, low). headline_status stays draft. ''No date found'' is still an absence claim; the
+        full qualifier is in the assessment headline and o7w-knew-date.'
+    resolved: true
+    reviewer_note: 'Resolved. New headline (94 chars, draft) ''Signs reported inside Israel''s services; foreign warnings to Netanyahu disputed; no date found'' now matches its claims: ''reported'' for
+      o7w-units-flagged (contested/low) and the observers claim, ''foreign warnings ... disputed'' for o7w-pm-personally-warned (contested/low, now also the rated_claim), ''no date found'' for the absence
+      claim o7w-knew-date. Assessment headline (199 chars, under the 200 warning limit) says ''no evidence was found in published reports''. headline_status draft. Residual, non-blocking: key point 3 omits
+      ''in published reports'' (R15).'
   - id: R2-1
     target: nine established claims and 12 primary_text labels (claims.yaml:67-132, 184-249, 470-502, 591-622, 701-735, 796-858)
     severity: blocking
@@ -136,8 +148,30 @@ rounds:
       findings are, state proposed/provisional or another allowed state), set evidence_class honestly (interpretive for reports of documents), and change the assessment wording.'
     evidence: 'build/SCHEMA.md line 37; build/conformance.py lines 204-209 (warning only, no exception handling); docs/AGENT_RULES.md section 2 (established, evidence_class); CLAUDE.md (''anchor_checked:
       primary means the document itself was opened and read''); python3 build/conformance.py output (nine warnings for this subject).'
-    author_response: {action: deferred, note: "Done (no ruling needed): (a) evidence_class of all twelve claims changed from primary_text to interpretive; (b) assessment text 'What is established' now 'What is reported, from news accounts of ... (the texts were not opened)'; (c) the nine statements now begin 'As reported by ...'. NOT changed, pending the owner's ruling: state, confidence and the `exception:` lines of the nine. WHAT A STATE CHANGE WOULD AFFECT: for each of the nine (o7w-jericho-held, -jericho-dismissed, -observers, -night-signs, -oct1-meeting, -warnings-nonspecific, -policy-of-calm, -probes-scope, -inquiry-status) change state to proposed, confidence moderate to provisional (conformance errors on proposed above provisional only for 'high', but CONTRIBUTING caps proposed at provisional, and confidence_reasons.start/steps must then net to provisional or conformance errors), delete the `exception:` line, and remove their established-but-secondary warnings; the assessment text (already 'reported'), the three key points and the basis list need no change; the headline, which rests on the contested claims, is unaffected; evidential_weight (4) may be lowered to 3 for consistency; o7w-warnings-nonspecific is the assessment's most-quoted item and o7w-comptroller-scope (primary) stays established. If instead the owner allows established-on-secondary, nothing more is needed."}
+    author_response:
+      action: deferred
+      note: 'Done (no ruling needed): (a) evidence_class of all twelve claims changed from primary_text to interpretive; (b) assessment text ''What is established'' now ''What is reported, from news accounts
+        of ... (the texts were not opened)''; (c) the nine statements now begin ''As reported by ...''. NOT changed, pending the owner''s ruling: state, confidence and the `exception:` lines of the nine.
+        WHAT A STATE CHANGE WOULD AFFECT: for each of the nine (o7w-jericho-held, -jericho-dismissed, -observers, -night-signs, -oct1-meeting, -warnings-nonspecific, -policy-of-calm, -probes-scope, -inquiry-status)
+        change state to proposed, confidence moderate to provisional (conformance errors on proposed above provisional only for ''high'', but CONTRIBUTING caps proposed at provisional, and confidence_reasons.start/steps
+        must then net to provisional or conformance errors), delete the `exception:` line, and remove their established-but-secondary warnings; the assessment text (already ''reported''), the three key
+        points and the basis list need no change; the headline, which rests on the contested claims, is unaffected; evidential_weight (4) may be lowered to 3 for consistency; o7w-warnings-nonspecific is
+        the assessment''s most-quoted item and o7w-comptroller-scope (primary) stays established. If instead the owner allows established-on-secondary, nothing more is needed.'
     resolved: null
+    reviewer_note: 'NOT RESOLVED: PENDING OWNER RULING. The author''s labelling fixes are sound and I accept them as far as they go: evidence_class of all twelve changed to interpretive (only o7w-comptroller-scope
+      is primary_text; checked: 24 interpretive, 5 synthetic, 1 primary_text), the nine statements begin ''As reported by ...'' (checked each), assessment text says ''What is reported ... (the texts were
+      not opened)''. State, confidence and the `exception:` lines are unchanged, as instructed. What remains is the owner''s decision, which no author or reviewer can make. CONSEQUENCES. Option A, keep
+      the nine as established-on-secondary: needs a SCHEMA proposal under docs/SCHEMA_PROPOSALS.md that adopts `exception:` (SCHEMA.md rule 12 is only PROPOSED, conformance.py ignores it and warns); the
+      page then shows the label ''established'' next to ''Source checked: secondary'' and the statement text ''As reported by ...''; this subject''s nine warnings stay; flydubai-fz1073 already relies on
+      the same field. Option B, move the nine to proposed: for each of o7w-jericho-held, -jericho-dismissed, -observers, -night-signs, -oct1-meeting, -warnings-nonspecific, -policy-of-calm, -probes-scope,
+      -inquiry-status set state proposed, confidence provisional (CONTRIBUTING caps proposed at provisional; confidence_reasons must net to provisional; conformance errors only on proposed+high), delete
+      the `exception:` line, and lower evidential_weight 4 to 3 for consistency. That clears the nine warnings, needs no SCHEMA change, and does not touch the headline, the three key points or the basis
+      list, because the headline rests on the contested and absence claims. It makes the facts the IDF and Shin Bet themselves published (Jericho Wall held and dismissed, the 3:03 a.m. alert) look weaker
+      than they are in news accounts that agree with each other; that is the cost. Option C, re-anchor: a person with legitimate access reads the IDF (27 Feb 2025) and Shin Bet (4 Mar 2025) texts, the High
+      Court decision of 23 Sep 2026, the committee report and the PM''s 55 pages; claims confirmed there can be anchor_checked primary and truly established, and the rest fall to B. I recommend C for the
+      Jericho/night/probes/policy claims, then B for any not re-anchored; A only if the owner wants the `exception:` field adopted for all dig work. Neither choice changes my view that the dig is safe to
+      publish with the limits visible; the choice changes only the label on nine claims.'
+    status_note: PENDING OWNER RULING (needs a SCHEMA proposal for the `exception:` field either way)
   - id: R3-1
     target: o7w-comptroller-scope (claims.yaml:764-795)
     severity: blocking
@@ -150,8 +184,17 @@ rounds:
       as the primary part, and file the ''has not published'' part as an absence claim (absence_anchor true, provisional) with a current check of the Comptroller''s reports page.'
     evidence: 'I fetched https://www.mevaker.gov.il/en/newsroom/2025-11-11-special-report and /2026-01-06-special-reports on 2026-10-04: the three quoted sentences are exact; the eight-audits sentence reads
       ''has suspended audits on eight of these subjects''; the release contains no list of the eight.'
-    author_response: {action: fixed, note: "o7w-comptroller-scope now states only what the two releases say (11 Nov quotations; the 29 Dec order suspending eight audits, 31 Dec per other outlets); the parenthetical about intelligence and political decision-making and 'the one published report that names the PM' are removed. The absence part is the new claim o7w-comptroller-no-findings (searched_gap, absence_anchor true, provisional), which says later releases after 6 Jan 2026 and the other listed reports were not read, cites the Comptroller's home page read on 4 Oct 2026 (new manifest source src-mevaker-home) and the Jerusalem Post/Yahoo account of the suspended subjects. Added to the assessment basis."}
-    resolved: null
+    author_response:
+      action: fixed
+      note: o7w-comptroller-scope now states only what the two releases say (11 Nov quotations; the 29 Dec order suspending eight audits, 31 Dec per other outlets); the parenthetical about intelligence
+        and political decision-making and 'the one published report that names the PM' are removed. The absence part is the new claim o7w-comptroller-no-findings (searched_gap, absence_anchor true, provisional),
+        which says later releases after 6 Jan 2026 and the other listed reports were not read, cites the Comptroller's home page read on 4 Oct 2026 (new manifest source src-mevaker-home) and the Jerusalem
+        Post/Yahoo account of the suspended subjects. Added to the assessment basis.
+    resolved: true
+    reviewer_note: 'Resolved. o7w-comptroller-scope now says only what the two releases say (quotes exact, re-checked against mevaker.gov.il) and is the sole primary claim. The absence part is the new o7w-comptroller-no-findings
+      (searched_gap, absence_anchor true, provisional, anchor_checked no, next step given). I opened https://www.mevaker.gov.il/en/ on 2026-10-04: it features about ten reports (ageing, AI, emergency plan,
+      civil-domain ''An Ongoing Failure'', mental health) and none on political or intelligence decision-making before 7 October, as the claim says; it is a thin search (featured items only) and the claim
+      says later releases and listed reports were not opened. The new manifest source src-mevaker-home is truthful. One wording slip remains (R13).'
   - id: R4-1
     target: o7w-units-flagged (claims.yaml:250-282)
     severity: blocking
@@ -161,8 +204,14 @@ rounds:
       the timeline or the log, and the alternatives text says ''No source read says'' a specific warning existed. These are secondary and unconfirmed, but they must be as visible as the IDF''s ''no one
       saw'' sentence. Also the quotation ''no one saw or detected any sign of this event in advance'' drops the word ''who'' from the source''s ''no one who saw or detected'' (quote marks must not edit).'
     evidence: src-ctc stored text lines 79-85 (https://ctc.westpoint.edu/the-october-7-attack-an-assessment-of-the-intelligence-failings/); Ynet 27 Feb 2025 line 78.
-    author_response: {action: fixed, note: "o7w-units-flagged now includes, from CTC Sentinel, the analyst's further warnings over the following weeks, the Gaza Division's document warning of a large-scale invasion with the intention to take up to 250 hostages (no names), and her warning a few days before 7 October; src-ctc added to its sources. The IDF sentence is now quoted correctly as 'There was no one who saw or detected any sign of this event in advance' (the 'who' restored in the statement, disputed_by, would_change_if and anchor)."}
-    resolved: null
+    author_response:
+      action: fixed
+      note: o7w-units-flagged now includes, from CTC Sentinel, the analyst's further warnings over the following weeks, the Gaza Division's document warning of a large-scale invasion with the intention
+        to take up to 250 hostages (no names), and her warning a few days before 7 October; src-ctc added to its sources. The IDF sentence is now quoted correctly as 'There was no one who saw or detected
+        any sign of this event in advance' (the 'who' restored in the statement, disputed_by, would_change_if and anchor).
+    resolved: true
+    reviewer_note: Resolved. CTC Sentinel material (further warnings, Gaza Division document with up to 250 hostages and no time or place, another warning a few days before 7 Oct) added to o7w-units-flagged
+      and src-ctc to its sources; I matched the quotations in the stored CTC text. 'There was no one who saw or detected any sign of this event in advance' is now exact.
   - id: R5-1
     target: o7w-bar-2023-warnings (claims.yaml:443-469; also timeline d11)
     severity: blocking
@@ -172,8 +221,12 @@ rounds:
       it to the manifest and anchor.sources.'
     evidence: 'grep of all 47 fetched source texts: ''ignored me'' appears only in src-abc-au; ThePrint (src-theprint-bar) has ''Bar''s suit follows a Haaretz report...'' and ''I will summon for testimony...''
       but not the quoted sentence.'
-    author_response: {action: fixed, note: "The Bar sentence is now attributed to ABC Australia (src-abc-au, added to anchor.sources) with ABC's wording, 'of an impending disaster, and he ignored me'; Al-Monitor and ThePrint no longer cited for it. Timeline d11 changed to the same wording. (Al-Monitor's page does carry a similar sentence, but it is not in the manifest and I did not add it.)"}
-    resolved: null
+    author_response:
+      action: fixed
+      note: The Bar sentence is now attributed to ABC Australia (src-abc-au, added to anchor.sources) with ABC's wording, 'of an impending disaster, and he ignored me'; Al-Monitor and ThePrint no longer
+        cited for it. Timeline d11 changed to the same wording. (Al-Monitor's page does carry a similar sentence, but it is not in the manifest and I did not add it.)
+    resolved: true
+    reviewer_note: Resolved. The Bar sentence is now ABC Australia's 'of an impending disaster, and he ignored me' (src-abc-au line 121), added to anchor.sources; timeline d11 matches.
   - id: R6-1
     target: o7w-oct1-meeting (claims.yaml:470-502)
     severity: blocking
@@ -183,8 +236,13 @@ rounds:
       warning'' is an absence claim inside an established claim. Split: what is established as reported (the meeting took place; the PMO summary wording), what is contested (whether strikes were proposed
       and rejected; the Saudi remark, NYT only), and the absence part as absence_anchor provisional.'
     evidence: src-ynet-bar lines 59-73; src-memo-nyt lines 112-118; src-jpost-909744 lines 72-80; src-abc-au lines 163-164.
-    author_response: {action: fixed, note: "Split: o7w-oct1-meeting (established, narrowed to the meeting and the PMO's own excerpts and summary, statement 'As reported by Ynet'); o7w-oct1-strikes (contested, low; the PM's document against the NYT-via-Jerusalem-Post/MEMO account, with disputed_by on both sides); o7w-oct1-no-foreign-warning (searched_gap, absence_anchor true, provisional)."}
-    resolved: null
+    author_response:
+      action: fixed
+      note: 'Split: o7w-oct1-meeting (established, narrowed to the meeting and the PMO''s own excerpts and summary, statement ''As reported by Ynet''); o7w-oct1-strikes (contested, low; the PM''s document
+        against the NYT-via-Jerusalem-Post/MEMO account, with disputed_by on both sides); o7w-oct1-no-foreign-warning (searched_gap, absence_anchor true, provisional).'
+    resolved: true
+    reviewer_note: Resolved. Split into o7w-oct1-meeting (established-secondary, narrowed to the meeting and the PM's excerpts and PMO summary, as reported by Ynet), o7w-oct1-strikes (contested, low, both
+      sides in disputed_by; Ynet, JPost, MEMO and ABC quotations matched) and o7w-oct1-no-foreign-warning (searched_gap, absence_anchor true, provisional). Good.
   - id: R7-1
     target: o7w-warnings-nonspecific (claims.yaml:591-622)
     severity: non_blocking
@@ -193,8 +251,15 @@ rounds:
       account read says no date'), which is how the 'no date' headline clause is built; Yedioth 2023 ('something unusual, a terrifying operation') and the Atlantic's 5 Oct 2023 message ('conveying urgency
       about the possibility of an attack') should be shown as the strongest forms of the warnings. Reconsider the step and state the universal-negative nature.
     evidence: claims.yaml lines 40-46; src-haaretz-deny-visit line 99; src-ynet-egypt lines 118-120.
-    author_response: {action: fixed, note: "The statement is marked a universal negative over anonymous-source reports. The up1 step is kept but its reason is rewritten: the corroboration is that the claimants' own accounts concede the point, not the number of outlets, which trace to about four anonymous-source reports. If the owner or reviewer prefers to remove the step, confidence becomes low (a state/confidence change, held for the owner's ruling alongside R2)."}
-    resolved: null
+    author_response:
+      action: fixed
+      note: 'The statement is marked a universal negative over anonymous-source reports. The up1 step is kept but its reason is rewritten: the corroboration is that the claimants'' own accounts concede
+        the point, not the number of outlets, which trace to about four anonymous-source reports. If the owner or reviewer prefers to remove the step, confidence becomes low (a state/confidence change,
+        held for the owner''s ruling alongside R2).'
+    resolved: true
+    reviewer_note: 'Accepted as non-blocking. The claim is marked a universal negative and the up1 step is rewritten narrowly (''claimants'' own accounts concede the point''), with a stated fallback to
+      low. Not done: showing Yedioth''s ''terrifying operation'' and the Atlantic''s 5 Oct ''urgency'' message as the strongest forms of the warnings (R15). The step is a judgment call I would drop, but
+      it is disclosed; it belongs with R2 for the owner.'
   - id: R8-1
     target: attribution and wording slips (several claims)
     severity: non_blocking
@@ -207,8 +272,15 @@ rounds:
       Post as saying he accused the chiefs of ''deliberately'' letting him sleep; the Post''s sentence says he accused them of letting him sleep ''for four hours after Hamas began its assault at 6:30 a.m.'',
       which is a different accusation (after the attack began), and is not what the rest of the claim describes.'
     evidence: src-kiro7-nyt, src-mee-jw (no 'aspirational'); src-nbc-analysts lines 149-150; src-ynet-meta lines 59-61; src-jc-wake; src-yahoo-wapo line 53.
-    author_response: {action: fixed, note: "'aspirational' now attributed to CTC Sentinel (src-ctc added); the 8200 claim now follows NBC (an IDF commander replied 'imaginary scenario'; the analyst answered 'This is a plan designed to start a war'; a colleague wrote they 'completely and emphatically disagree'); o7w-probes-scope now says the committee describes its own review as based solely on IDF investigations without addressing the political echelon; 'failure, not betrayal' replaced with his words ('a failure' but not 'betrayal'; 'This [October 7] would not have taken place'); the Washington Post's 'deliberately ... four hours after 6:30' version is labelled a different accusation (log L-20)."}
-    resolved: null
+    author_response:
+      action: fixed
+      note: '''aspirational'' now attributed to CTC Sentinel (src-ctc added); the 8200 claim now follows NBC (an IDF commander replied ''imaginary scenario''; the analyst answered ''This is a plan designed
+        to start a war''; a colleague wrote they ''completely and emphatically disagree''); o7w-probes-scope now says the committee describes its own review as based solely on IDF investigations without
+        addressing the political echelon; ''failure, not betrayal'' replaced with his words (''a failure'' but not ''betrayal''; ''This [October 7] would not have taken place''); the Washington Post''s
+        ''deliberately ... four hours after 6:30'' version is labelled a different accusation (log L-20).'
+    resolved: true
+    reviewer_note: 'Resolved. Checked: ''aspirational'' now attributed to CTC; the 8200 claim follows NBC; probes-scope attributes ''solely on IDF investigations'' to the committee''s own review; the PM''s
+      words are quoted exactly; the Washington Post version is labelled a different accusation (L-20).'
   - id: R9-1
     target: unlogged discrepancies (log.yaml)
     severity: non_blocking
@@ -218,8 +290,13 @@ rounds:
       extract contains the first wording; (d) McCaul is quoted two ways (''did refer this to Israel'', Fox; ''warned the Israelis three days prior'', Ynet/Haaretz); (e) timeline c09 draws the freezing order
       at 31 Dec 2025 (secondary date, date_basis stated) with 29 Dec only as an alt note, although the primary source says 29 Dec; draw a window or put the primary date first.'
     evidence: As cited; stored extract sources/mevaker-2025-11-11-extract.txt line 4; mevaker 6 Jan 2026 page; timeline.yaml event c09.
-    author_response: {action: fixed, note: "New log entries L-19 (WhatsApp message vs first call at 6:29), L-20 (Washington Post 'four hours' version), L-21 (the two Comptroller releases disagree on when the earlier interim order was lifted: 'a few weeks ago' vs 'April 2025'), L-22 (the House chairman quoted two ways), L-23 (correction of timeline c09). c09 now drawn at 29 Dec 2025, the primary date, with 31 Dec as the alternative."}
-    resolved: null
+    author_response:
+      action: fixed
+      note: 'New log entries L-19 (WhatsApp message vs first call at 6:29), L-20 (Washington Post ''four hours'' version), L-21 (the two Comptroller releases disagree on when the earlier interim order was
+        lifted: ''a few weeks ago'' vs ''April 2025''), L-22 (the House chairman quoted two ways), L-23 (correction of timeline c09). c09 now drawn at 29 Dec 2025, the primary date, with 31 Dec as the alternative.'
+    resolved: true
+    reviewer_note: Resolved. L-19 to L-23 added as pure appends (diff shows only additions after L-17; L-18 and L-24 also appended); each matches the sources I read (Ynet WhatsApp vs call; JC vs WaPo; the
+      two Comptroller releases; Fox vs Ynet McCaul quotes). Timeline c09 now drawn at 29 Dec with 31 Dec as the alternative and L-23 says so.
   - id: R10-1
     target: o7w-staged anchor.sources (claims.yaml:675-700)
     severity: non_blocking
@@ -227,8 +304,12 @@ rounds:
       examples only, but the anchor field is where support is declared; a transmission carrier should not sit there (docs/AGENT_RULES section 6, SCHEMA transmission rule). Remove them from anchor.sources
       and keep them in the description or the transmission file only.
     evidence: 'claims.yaml line 697: sources: [src-jta-idf, src-ynet-idf-0227, src-ynet-egypt, src-kovler, src-wsws].'
-    author_response: {action: fixed, note: "src-wsws and src-kovler removed from o7w-staged's anchor.sources; the sentence citing the WSWS commentary removed from its description. They remain in the manifest and the transmission record only."}
-    resolved: null
+    author_response:
+      action: fixed
+      note: src-wsws and src-kovler removed from o7w-staged's anchor.sources; the sentence citing the WSWS commentary removed from its description. They remain in the manifest and the transmission record
+        only.
+    resolved: true
+    reviewer_note: Resolved. src-wsws and src-kovler are gone from o7w-staged anchor.sources and its description.
   - id: R11-1
     target: naming by role (claims.yaml:365-391; transmission.yaml:176-186; timeline.yaml:68)
     severity: non_blocking
@@ -238,8 +319,18 @@ rounds:
       justify it; by role it identifies the person. (c) timeline.yaml:68 names two journalists (spelled ''Ruth Yuval''; CNN has ''Ruti Yuval''); claims.yaml says only ''two journalists''. Owner decision
       on journalists; I recommend role-only as in claims.yaml.'
     evidence: src-aj-sue lines 103-107; src-jc-wake; timeline.yaml line 68; log L-16.
-    author_response: {action: fixed, note: "(a) The PM's accusation against the Palestinian political figure removed from o7w-uae-call and timeline d04 (it stays only in the sources the dig read, not in the dig). (b) transmission tx-c-03 removed (log L-16 already placed it out of scope). (c) Timeline people entry and source title now say Haaretz, not the journalists; manifest author field likewise. Not a victim, hostage or minor is named anywhere. The owner may still decide on journalists' bylines in manifest titles of other sources."}
-    resolved: null
+    author_response:
+      action: fixed
+      note: (a) The PM's accusation against the Palestinian political figure removed from o7w-uae-call and timeline d04 (it stays only in the sources the dig read, not in the dig). (b) transmission tx-c-03
+        removed (log L-16 already placed it out of scope). (c) Timeline people entry and source title now say Haaretz, not the journalists; manifest author field likewise. Not a victim, hostage or minor
+        is named anywhere. The owner may still decide on journalists' bylines in manifest titles of other sources.
+    resolved: true
+    reviewer_note: 'Resolved for what was asked. The Palestinian political figure is removed from claims and timeline, tx-c-03 is removed, and the journalists'' names are removed from timeline.yaml and
+      the Haaretz manifest entry. OWNER NOTE ON REMAINING BYLINES: the manifest still credits about twenty reporters by name in source titles and author fields (for example Itamar Eichner, Yoav Zitun, Tal
+      Amoday, Jacob Jaffa, Yonah Jeremy Bob, Daniel Estrin, Michel Wyss, Herb Keinon, Jack Khoury, Charles Creitz) and src-kovler credits a newsletter author. I judge this acceptable under the 2026-10-04
+      ruling: it forbids naming victims, hostages, minors and private individuals as subjects of claims; these are bibliographic credits for published, signed work, they are not the subject of any claim,
+      and no accusation attaches to them. It is still the owner''s reading of ''private individuals'' to confirm; if the owner wants them out, strip the names from manifest title/author and keep outlet
+      only (a mechanical edit). One inconsistency remains (R14).'
   - id: R12-1
     target: weaker-side visibility (o7w-egypt-visit, o7w-uae-call, o7w-pm-personally-warned)
     severity: non_blocking
@@ -249,5 +340,41 @@ rounds:
       alternatives (line 254) says sources 'from different governments' point the other way and counts a UAE 'does not comment' and a US lawmaker's 2023 statement about Egypt referring something to Israel;
       independence of the sources is stated elsewhere as unknown and neither item is about a warning to the PM. Rephrase so neither side is padded.
     evidence: src-uae-mofa-0908; src-cnn-uae line 247; src-fox-mccaul line 21.
-    author_response: {action: fixed, note: "(a) o7w-egypt-visit now shows the WSJ (via Haaretz) September 2023 visit, with the caveat that the relation of its sources to The Atlantic's is unknown; src-haaretz-deny-visit added to its sources. (b) o7w-uae-call now quotes the UAE statement's third sentence ('When necessary, all relevant intelligence has been and continues to be communicated between the relevant entities'). (c) The alternatives in o7w-pm-personally-warned are rewritten: neither side padded, the 2023 lawmaker's statement and the non-denial described for what they are, a second alternative (warnings reached others only) added."}
+    author_response:
+      action: fixed
+      note: '(a) o7w-egypt-visit now shows the WSJ (via Haaretz) September 2023 visit, with the caveat that the relation of its sources to The Atlantic''s is unknown; src-haaretz-deny-visit added to its
+        sources. (b) o7w-uae-call now quotes the UAE statement''s third sentence (''When necessary, all relevant intelligence has been and continues to be communicated between the relevant entities'').
+        (c) The alternatives in o7w-pm-personally-warned are rewritten: neither side padded, the 2023 lawmaker''s statement and the non-denial described for what they are, a second alternative (warnings
+        reached others only) added.'
+    resolved: true
+    reviewer_note: Resolved. WSJ (via Haaretz) September visit added to o7w-egypt-visit with the independence caveat; UAE statement's third sentence added to o7w-uae-call; o7w-pm-personally-warned alternatives
+      rewritten symmetrically and a third alternative added.
+- round: 2
+  reviewed_on: '2026-10-04'
+  summary: Re-review of commit 33fcdf5 against ea79106. All blocking requests except R2 are resolved. R2 is pending the owner. Three new non-blocking requests.
+  requests:
+  - id: R13-1
+    target: o7w-comptroller-scope statement (claims.yaml, o7w-comptroller-scope)
+    severity: non_blocking
+    finding: The statement says 'the one sentence about the prime minister in it concerns that concept'. The 11 Nov 2025 release has several sentences about the prime minister (headline quote 'did not fulfill
+      his responsibility on this matter'; 'initiated the drafting'; 'himself acknowledged'; 'he did not fulfill his responsibilities'). All concern the security concept, so the point stands, but 'one sentence'
+      is wrong. Say 'what it says about the prime minister concerns that concept'.
+    evidence: mevaker.gov.il/en/newsroom/2025-11-11-special-report, fetched 2026-10-04.
+    author_response: null
+    resolved: null
+  - id: R14-1
+    target: o7w-oct1-strikes anchor (claims.yaml ~line 524)
+    severity: non_blocking
+    finding: The anchor names a journalist ('Bergman's reporting') although the round-1 fix removed journalist names elsewhere; use 'Ynet's own investigation' as the statement already does.
+    evidence: claims.yaml line 524.
+    author_response: null
+    resolved: null
+  - id: R15-1
+    target: assessment text and key point 3; o7w-warnings-nonspecific
+    severity: non_blocking
+    finding: '(a) The assessment text still says ''Every account of these warnings ... says they gave no date, target or method'' without ''read'' or ''as reported''; add the hedge the claim now has. (b)
+      Key point 3 says ''No evidence was found'' without ''in published reports'' (the headline and assessment headline have it). (c) R7 residual: Yedioth''s ''something unusual, a terrifying operation''
+      and The Atlantic''s 5 Oct ''urgency'' message are not shown as the strongest forms of the warnings.'
+    evidence: claims.yaml assessment (lines 21-30); src-haaretz-deny-visit line 99; src-ynet-egypt lines 118-120.
+    author_response: null
     resolved: null
