@@ -27,9 +27,9 @@ assessment:
     Because everything here is known second hand, the answer is a lean toward yes, not a flat yes. Our confidence is moderate, not high, because the forensic reports, the critical edition and the court judgments were not opened here; every finding about them comes from the
     institutions that commissioned or took part in them (the Anne Frank House, the Anne Frank Fonds, the Dutch war documentation institute) and from newspaper and fact-check reports.
     LIMITS AT A GLANCE (counted from the claims in this file at this revision: 26 claims). Every forensic and judicial finding here is second hand: the Critical Edition, the Dutch forensic report, the BKA 1980 report, the 1960 Hamburg report and all court judgments were NOT opened; they are known through the Anne Frank House, the Anne Frank Fonds, the NIOD editor, the taz and fact-checks.
-    Of the 26 claims, 15 are filed established but only 4 of those rest on a document read directly (custody, the BKA's 2006 statement, the covered pages of 2018, and a 2015 Dutch court's statement of the versions); the other 11 established claims rest on secondary accounts and are worded 'as reported'.
+    Of the 26 claims, 13 are filed established but only 4 of those rest on a document read directly (custody, the BKA's 2006 statement, the covered pages of 2018, and a 2015 Dutch court's statement of the versions); the other 9 established claims rest on secondary accounts and are worded 'as reported'.
     6 are open gaps (searched_gap): what exactly carries the ballpoint writing; the paper and glue dating; who chose the pseudonyms; how and when the Hamburg case ended; the reasoning of the Amsterdam appeal ruling of 2000; and whether the diary's content is true (not tested). 2 are contested: the year the five loose sheets resurfaced, and whether the 1991 edition may be called definitive.
-    3 are only proposed: the helpers' account of custody (one origin), the absence of any anachronism, and a weak date check against a radio broadcast.
+    5 are only proposed: the helpers' account of custody (one origin), the absence of any anachronism, a weak date check against a radio broadcast, and the reports of the Lubeck case (1959 to 1961, ended in a withdrawal, no verdict) and the Frankfurt case (1978), both a party's account with no judgment read.
     Provenance rests on the helpers' account, which comes from one origin. No anachronism has been found in the sources read, but that rests on absence.
     The forgery claims are traced in transmission.yaml; their spread is not evidence.
   key_points:
@@ -628,7 +628,7 @@ claims:
   # =====================================================================
 
   - id: afd-luebeck-1959-61
-    state: established
+    state: proposed
     statement: >
       As reported by the Anne Frank House (the court file was not opened): In the first court case (Lubeck, 1959 to 1961), Otto Frank brought a criminal complaint against two men over a 1958 published statement that called the diary forged. After a prosecutor's graphological examination and witness statements (including those of the helpers), the two withdrew their allegations
       and said they were convinced the diary was genuine; Otto Frank agreed to a settlement and withdrew his complaint. No verdict was given. He later regretted not having had the trial.
@@ -656,7 +656,7 @@ claims:
       sources: [src-af-research-otto, src-af-sieben-fragen]
 
   - id: afd-frankfurt-roth-1976-79
-    state: established
+    state: proposed
     statement: >
       As reported by the Anne Frank House (the judgments were not opened): Frankfurt (1976 to 1980): in a legal action by Otto Frank and the Anne Frank House (a joint plaintiff; the German PDF calls its role Nebenklaeger) against a pamphlet publisher, the Landgericht Frankfurt am Main on 22 June 1978 forbade him, on pain of a fine up to DM 500,000 or six months' detention, to repeat claims that the diary was a forgery and fraud.
       On appeal he put forward the 1978 report of Robert Faurisson; the Oberlandesgericht rejected the appeal in 1979. The case then went to the Federal Court (Bundesgerichtshof), which in 1980 sent it back because he had too little chance to prove his claims, and it was never heard again.
