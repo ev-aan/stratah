@@ -1,10 +1,10 @@
 subject: anne-frank-diary
 # Status vocabulary follows docs/PUBLISH_GATE.md: `revisions_requested` is the gate's word for "changes requested". Not allowed to publish until
-# R1-1 and R1-2 are answered by the author and resolved by a reviewer who did not write the work.
+# R2-1 (round 2) is answered by the author and resolved by a reviewer who did not write the work (R1-1 and R1-2 were resolved in round 2).
 status: revisions_requested
 reviewed_by: independent review agent
 reviewed_on: 2026-10-04
-reviewed_head: c7c49cb (origin/dig/anne-frank-diary); this reviewer edited only this file and did not edit claims, log, timeline, sources, build/site.yaml or build/taxonomy.yaml.
+reviewed_head: round 1 at c7c49cb; round 2 at 24f7a23 (origin/dig/anne-frank-diary); this reviewer edited only this file and did not edit claims, log, timeline, sources, build/site.yaml or build/taxonomy.yaml.
 notes: >
   MECHANICAL. python3 build/conformance.py --base origin/main: 0 errors for this subject; 12 warnings for it (11 established claims anchored below primary,
   plus the missing taxonomy entry). python3 build/tools/review_dig.py anne-frank-diary: every check passes except the taxonomy entry. Only build/subjects/anne-frank-diary/
@@ -102,7 +102,7 @@ rounds:
           vanderstroom-1999-extract.txt 6,194 and af-research-otto-extract.txt 3,947 are also long. A reader needs only the sentence a claim cites.
         evidence: "Line-by-line comparison of each extract with the live page, byte counts above (wc -c), and manifest line 8-9 which says full pages are not stored for copyright reasons."
         author_response: "fixed: all 17 extract files were regenerated and cut to the one or two sentences a claim cites (36 kB to about 10 kB); the vho.org extract now holds only paragraphs 6.14 and 6.26 and none of the defendant's commentary; the IHR denial excerpt was deleted; manifest storage note updated; see log L-08. The BKA release stays in full."
-        resolved: ""
+        resolved: true
       - id: R1-2
         target: "claims.yaml lines 402 and 415 (afd-external-consistency-bolkestein); sources/MANIFEST.yaml line 315 (src-nos-bolkestein tests); tests.yaml line 67"
         severity: blocking
@@ -113,7 +113,7 @@ rounds:
           The date itself is not in doubt: NOS and the Anne Frank House complete-works page both give 28 March 1944, which I confirmed.
         evidence: "NOS article and annefrank.org complete-works page (both give 28 March 1944). grep of the subject folder: 'Radio Wereld' appears only in prose, never in the manifest."
         author_response: "fixed: the article is Radio Wereld, 'Oproep via Radio Oranje in 1944' (April 2025). It was fetched and read in full and has a manifest entry src-radiowereld-bolkestein (hash, read status, authenticity block, extract); it is in the claim's anchor.sources; the NOS test and tests.yaml cite the manifest id."
-        resolved: ""
+        resolved: true
       - id: N-1
         target: "claims.yaml lines 17-18 (assessment.answer, assessment.headline)"
         severity: non_blocking
@@ -123,7 +123,7 @@ rounds:
           anchors, so I am not blocking, but SCHEMA N23 ties leans_yes to a basis claim at moderate or high confidence; consider `leans_yes` with a `lean` block, or state in `caveats` why 'yes'.
         evidence: "claims.yaml lines 3-4, 12-18; SCHEMA N23."
         author_response: "fixed: answer changed to leans_yes with a lean block (caveats stated); the assessment headline begins 'Leans yes'; the text says why the answer is a lean."
-        resolved: ""
+        resolved: true
       - id: N-2
         target: "claims.yaml lines 22-23 (assessment.text), 32 (key point 2), 38-39 (search_summary)"
         severity: non_blocking
@@ -134,7 +134,7 @@ rounds:
           lumps three examinations together; the BKA made no authorship finding (the claim says so, the surface sentence only implies it in the clause before).
         evidence: "BKA release point 2: 'Offenbar handelt es sich dabei um nachtraeglich vorgenommene redaktionelle Anmerkungen bzw. Korrekturen eines weiteren Bearbeiters'; 'Darueber hinausgehende Feststellungen, insbesondere solche zur Autorenschaft ... wurden ... nicht getroffen'."
         author_response: "fixed: key point 2, search_summary and the assessment text now say 'apparently' (BKA 'offenbar'), note that the accounts of what carries the ballpoint differ, and separate the BKA materials-only test from the handwriting examinations."
-        resolved: ""
+        resolved: true
       - id: N-3
         target: "claims.yaml afd-manuscripts-held-by-niod (lines 101-126)"
         severity: non_blocking
@@ -143,7 +143,7 @@ rounds:
           the Dutch state'); it comes from the taz and the Sieben Fragen PDF ('in die Obhut des NIOD'), and Holocaust Denial on Trial says November 1980. Say which part rests on which source.
         evidence: "annefrank.org 2018 release; taz 27 July 2006 ('seit 1980 in Besitz'); Sieben Fragen p. 3."
         author_response: "fixed: afd-manuscripts-held-by-niod states that the bequest and loan are from the 2018 release (primary) and 'since 1980' is from the taz and the German PDF (secondary); the German PDF was added to anchor.sources."
-        resolved: ""
+        resolved: true
       - id: N-4
         target: "claims.yaml afd-amsterdam-ban-upheld (lines 666-692), its confidence reasons"
         severity: non_blocking
@@ -154,7 +154,7 @@ rounds:
           a reworded form, with the declaration of authenticity not granted, as the defendant's page quotes it'.
         evidence: "vho.org page: 'On 27 april 2000 THE JUDGMENT ... WAS REVERSED, AND THE COURT OF HIGHER APPEAL REJECTED THE PLEA OF THE PLAINTIFFS THAT THE AUTHENTICITY OF THE DIARY SHOULD BE CONFIRMED IN AN AFFIDAVIT'; 7.2 'IS SET ASIDE ... REWORD it'."
         author_response: "fixed: statement and confidence reason now say the appeal, as the defendant's page quotes it, set the first judgment aside in part, refused the declaration of authenticity and re-worded the ban (paras 7.2 and 8); the Anne Frank House word is 'confirmed'."
-        resolved: ""
+        resolved: true
       - id: N-5
         target: "log L-01; sources/MANIFEST.yaml src-vho-appeal-2000 (title and author fields); sources/extracts/vho-appeal-2000-extract.txt; claim id afd-frankfurt-roth-1976-79; manifest line 468"
         severity: non_blocking
@@ -164,7 +164,7 @@ rounds:
           I am not blocking, but add a log entry (new entry, not an edit) that states the exception, so the policy and the files agree. L-07 item 4 already flags the first of these.
         evidence: "grep for the names in the subject folder; Sieben Fragen and the research page name all of them."
         author_response: "fixed by a new log entry (L-08) that states the exceptions (the Amsterdam defendant as author of the cited party page; the Frankfurt defendant's surname in a claim id, which cannot be renumbered). No files de-named."
-        resolved: ""
+        resolved: true
       - id: N-6
         target: "transmission.yaml tx-b-01 (lines 14-22), tx-b-05, tx-b-06"
         severity: non_blocking
@@ -174,7 +174,7 @@ rounds:
           leaflets (no date given in the taz) with the June 2006 guestbook entry under '2006-06'.
         evidence: "annefrank.org authenticity page ('In 1959 ... a graphologist left a few notes'); taz 11 July 2006."
         author_response: "fixed: tx-b-01 is attributed to the Anne Frank House, dated 1959 (year) and notes the German PDF's two note slips; tx-b-06 now covers only the guestbook entry after the 24 June 2006 burning; the undated Wolgast leaflets are a new event tx-b-06b."
-        resolved: ""
+        resolved: true
       - id: N-7
         target: "claims.yaml afd-ballpoint-not-anne (statement) and afd-materials-nl-lab (statement)"
         severity: non_blocking
@@ -184,7 +184,7 @@ rounds:
           result ('the Dutch examination, as reported by the Anne Frank House, found ...') instead of 'has been reported', so a reader does not take them for a search for a missing record. The separate absence claim afd-no-anachronism-found is correctly marked and capped.
         evidence: "Sieben Fragen point 5; annefrank.org authenticity page; REVIEW.md B (absence claims)."
         author_response: "fixed: afd-ballpoint-not-anne and afd-materials-nl-lab now state the reported examination results ('as reported by the Anne Frank House, ... found') instead of 'has been reported'."
-        resolved: ""
+        resolved: true
       - id: N-8
         target: "claims.yaml afd-frankfurt-roth-1976-79 ('civil action'); afd-five-pages-1998 (premise that 1998 and 2000 are one event); tests.yaml dt-materials-1940s"
         severity: non_blocking
@@ -196,7 +196,7 @@ rounds:
           materials test, because the test discriminates against later materials, not against a post-war hand using older materials.
         evidence: "Sieben Fragen p. 6; research.annefrank.org 'Start of the ballpoint myth' (extract af-research-otto line 5 contains the sentence); annefrank.org complete-works page."
         author_response: "fixed: (a) 'civil action' replaced by 'a legal action' with the Nebenklaeger note; (b) afd-five-pages-1998 now says the 1998 and 2000 items may be two events and the identity is unconfirmed (timeline alt note too); (c) the limit that common materials and iron-gall ink do not date the writing was added to afd-materials-nl-lab and to dt-materials-1940s."
-        resolved: ""
+        resolved: true
       - id: N-9
         target: "tests.yaml dt-handwriting-1960-1980s note; sources/extracts/faurisson-ihr-extract.txt"
         severity: non_blocking
@@ -205,4 +205,43 @@ rounds:
           but the rule's intent is that such claims live in transmission.yaml; move the sentence there or point to it. The IHR extract is a verbatim paragraph of a denial text; trim it under R1-1.
         evidence: "tests.yaml line 43; Faurisson IHR article (line 75 of my text copy)."
         author_response: "fixed: the denial argument was removed from tests.yaml (which now points to transmission.yaml tx-a-05) and is stated, as a claim not tested here, in the tx-a-05 note; the IHR extract was deleted under R1-1."
+        resolved: true
+  - round: 2
+    reviewed_on: 2026-10-04
+    note: >
+      Reviewed 59c0470..24f7a23 (author's answers). Sources re-opened by me for the new facts: Radio Wereld (fetched; page title, 'Op 28 maart 1944 doet de Nederlandse minister Gerrit Bolkestein een oproep via Radio Oranje' and the 'Wil het nageslacht...' sentence match the extract; the page is dynamic so its hash cannot be compared; the April 2025 date rests on the URL path),
+      the vho.org page (paras 6.14, 6.26, 7.2 and 8 match the new Amsterdam wording), the BKA release and taz (unchanged). All 17 extract files again match the live pages. Conformance 0 errors; log L-08 is an added entry, earlier entries untouched (diff shows only additions).
+      Accepted and resolved: R1-1 (rights: extracts now about 10 kB, one or two sentences, vho extract holds only 6.14 and 6.26, the IHR excerpt is gone; the follow-on problem is R2-1), R1-2 (manifest entry, hash, authenticity block, extract and anchor id all present; the NOS test and tests.yaml cite src-radiowereld-bolkestein),
+      N-2 (apparently/'offenbar' in key point 2, search_summary and assessment text; the BKA materials-only test is separated from the two handwriting examinations), N-3, N-4 (the defendant's page also quotes 'refused the declaration' only in its own heading, not in a numbered paragraph; the claim says 'as the defendant's page quotes it', which I accept as hedged enough),
+      N-5 (stating the exception in L-08 is enough: NEWS_REVIEW guardrail 1 is about suspects and private individuals in live events, and here the name appears only as the author of a cited party page and, for a deceased defendant, in a claim id; nothing is asserted about either person), N-6, N-7, N-8, N-9 (tx-a-05 now carries the objection as reception and says it was not tested).
+      N-1 is accepted (leans_yes, lean block present; conformance accepts the lean rules) with one new non-blocking point, R2-2.
+    requests:
+      - id: R2-1
+        target: "sources/extracts/*.txt (sieben-fragen, af-research-otto, vanderstroom-1999, fonds-publications, taz-2006, af-complete-works, af-authenticity); sources/MANIFEST.yaml src-faurisson-ihr `stored_as` (line 426)"
+        severity: blocking
+        finding: >
+          The trim went too far for the quotation check. (a) Verbatim quotations that the claims put in quotation marks are no longer in any stored extract: 'in weitgehendem Maße' (afd-ballpoint-not-anne), 'Natuurlijk stormden ze allemaal direct op mijn dagboek af' (afd-external-consistency-bolkestein),
+          'Deze zogenaamde d-versie' and 'natuurlijk onzin' (afd-definitive-label-contested), 'Einzig autorisierte Fassung', 'Had I but known ... I should certainly not have dropped the case' (afd-luebeck-1959-61), 'In 2000, it turned out' (afd-five-pages-1998), and the taz passage on which the Hamburg claim relies beyond 'durch viele Hände gegangen'.
+          (b) sieben-fragen-extract.txt is a 169-byte fragment ('Schwindel" verteilte. Römer wurde 1977 wegen Verleumdung ... zu') that is not a cited sentence and cites nothing the claims quote; the Sieben Fragen point 5 and point 4 sentences the claims rely on are absent.
+          (c) src-faurisson-ihr in the manifest still says stored_as sources/extracts/faurisson-ihr-extract.txt, a file the author deleted; the manifest must say the source is not stored.
+          Fix by adding back only the one short sentence each quotation needs (still one or two sentences per claim), or by removing the quotation marks and saying 'paraphrase', and correct the manifest field.
+        evidence: "grep of sources/extracts for each phrase (no hits); wc -c sieben-fragen-extract.txt = 169; manifest line 426; ls sources/extracts (no faurisson-ihr file)."
+        author_response: ""
         resolved: ""
+      - id: R2-2
+        target: "claims.yaml assessment.lean.strength (the lean block under key_points)"
+        severity: non_blocking
+        finding: >
+          `strength: strong` sits beside `answer: leans_yes` and the caveat 'the lean is moderate in confidence'; every finding is second hand and the headline claim is moderate. 'Strong' in the lean block reads as stronger than the page's own confidence. Use 'moderate' (casket-letters uses 'slight'), or explain in `caveats` what is strong.
+        evidence: "claims.yaml lean block; build/conformance.py requires only that toward, short, strength, because and caveats exist."
+        author_response: ""
+        resolved: ""
+      - id: R2-3
+        target: "sources/MANIFEST.yaml src-radiowereld-bolkestein; claims.yaml afd-amsterdam-ban-upheld"
+        severity: non_blocking
+        finding: >
+          (a) The Radio Wereld date 'April 2025' rests on the URL path only (the page text I fetched shows no byline date); say so in the manifest, which already says 'URL path dated 2025/04'. (b) The statement 'refused the declaration of authenticity' comes from the defendant's own capitalised heading, not from a numbered paragraph the page quotes; the statement already says 'as the defendant's page quotes it', but the confidence reason should say 'as the defendant's page states'.
+        evidence: "radiowereld.nl page text; vho.org page lines after 'On 27 april 2000'."
+        author_response: ""
+        resolved: ""
+
