@@ -1,0 +1,208 @@
+subject: anne-frank-diary
+# Status vocabulary follows docs/PUBLISH_GATE.md: `revisions_requested` is the gate's word for "changes requested". Not allowed to publish until
+# R1-1 and R1-2 are answered by the author and resolved by a reviewer who did not write the work.
+status: revisions_requested
+reviewed_by: independent review agent
+reviewed_on: 2026-10-04
+reviewed_head: c7c49cb (origin/dig/anne-frank-diary); this reviewer edited only this file and did not edit claims, log, timeline, sources, build/site.yaml or build/taxonomy.yaml.
+notes: >
+  MECHANICAL. python3 build/conformance.py --base origin/main: 0 errors for this subject; 12 warnings for it (11 established claims anchored below primary,
+  plus the missing taxonomy entry). python3 build/tools/review_dig.py anne-frank-diary: every check passes except the taxonomy entry. Only build/subjects/anne-frank-diary/
+  differs from origin/main (26 files), so the missing taxonomy entry is an owner-only gap (build/taxonomy.yaml is on the owner-only list in docs/REVIEW.md), not an author
+  error; the author's suggested entry in log L-07 uses valid keys (area history; areas media_misinformation, law_justice; types is_genuine, who_wrote_it, is_claim_true;
+  popular_claims true). The owner adds it; nobody else may.
+
+  SOURCES RE-OPENED BY ME, 2026-10-04 (all fetched fresh over HTTPS; quotes and numbers compared with the claims): BKA press release of 26 July 2006 (presseportal.de; the stored
+  sources/bka-2006-07-26.txt matches the live body text word for word, only line breaks differ); taz 27 July 2006 and 11 July 2006; Anne Frank House pages (authenticity, complete
+  works, two versions, publication of the diary, 2018 news release); Anne Frank House research archive page on Otto Frank and the attacks; German PDF 'Sieben Fragen' (read
+  in full); Anne Frank Fonds 'Publications'; van der Stroom 1999 (DBNL); Full Fact 7 March 2024 (datePublished 2024-03-07 confirmed); CBC 10 December 1998; NOS Bolkestein
+  article; Holocaust Denial on Trial (ballpoint page and 'diary is authentic' page); the vho.org page quoting the Amsterdam appeal judgment; Faurisson's 2000 IHR article
+  (reception only). Raw-HTML sha256 values in the manifest matched my own fetches exactly for 12 pages (authenticity, Sieben Fragen, research page, versions, complete works,
+  publication, 2018 release, CBC, DBNL, both hdot pages, vho), which independently confirms those pages were fetched and are unchanged; the other pages are dynamic (BKA, taz,
+  Fonds, Full Fact, NOS, IHR) and hash differently on every fetch, so no hash comparison is possible for them. I also ran a line-by-line check of every stored extract against the
+  live text: all 17 extract files match the sources (the only non-matches were hyphenation and whitespace artefacts, checked by eye).
+
+  RESULT OF THE CONTENT CHECK. Every quotation, date, number and name I tested matched its source: BKA release points 1 and 2, the 'Fazit' and the sentence that the report 'kann nicht
+  dafuer in Anspruch genommen werden, die Authentizitaet der Tagebuecher der Anne Frank in Zweifel zu ziehen' (claims.yaml lines 229-260); taz (four typed pages, Birsfelden, two
+  days, microscope and UV lamp, 1990 written reasons with the 'durch viele Haende gegangen' passage, BKA expert could not find the corrections again); the NIOD conclusion sentence
+  with its two page numbers (186 in the 2003 English edition, 203 in the 1988 German); Hamburg 131 pages, March 1960; the 250-page / 65-page forensic report and pp. 121-186; grey-blue
+  fountain-pen ink, red ink, coloured and black pencil, no ballpoint; two loose note slips of earlier examiners (German PDF only); the 1943 gap and the 22 Dec 1943 / 17 April / 1 Aug
+  1944 notebooks; version B 12 June 1942 to 29 March 1944 from 20 May 1944; 25 June 1947 and 3,036 versus 3,000 copies; 26 further deletions; Cauvern, Pressler, 1991, 'globally valid
+  reader's edition', 'definitive' and 'einzig autorisierte Fassung'; 'Otto Frank heeft niets aan de teksten van Anne toegevoegd'; Luebeck 17 October 1961 with 'A sentence was never
+  passed'; Frankfurt 22 June 1978, DM 500,000 or six months, 1979 appeal rejected, Federal Court 1980 remit, defendant dead since 1978; Amtsgericht Hamburg DM 1,500 (1977); 9 December
+  1998 and 27 April 2000 Amsterdam, 25,000 guilders; the five pages (two Anne Frank House pages say 1998, the complete-works page says 2000); 28 March 1944 Bolkestein appeal and the next-day diary reaction (as
+  quoted by van der Stroom); the covered pages (photographed 2016, text of 28 September 1942, published 15 May 2018); Meyer Levin read the French translation in 1950, $50,000 award
+  for plagiarism of a stage version (Full Fact). I found no wrong date, name or number in claims, timeline, tests or transmission.
+
+  THE EIGHT POINTS YOU ASKED ME TO CHECK.
+  (1) Headline. claims.yaml line 12 is 86 characters (70-95). headline_claim afd-nl-forensic-conclusion is established at MODERATE with anchor_checked: secondary, so the rule
+  keeps the headline draft; headline_status is draft (line 14) and the comment at lines 2-4 says why. Honest. (The assessment `answer: "yes"` is firmer than the page's own
+  moderate confidence; see non-blocking N-1.)
+  (2) anchor_checked: primary appears on exactly three claims: afd-manuscripts-held-by-niod (Anne Frank House 2018 release, opened in full by me), afd-bka-1980-scope (the BKA
+  release, opened in full by me) and afd-covered-pages-2018 (same 2018 release). Each document was really opened and read. The one qualification is that 'held by NIOD since 1980' in the
+  first claim is not in the release; it comes from the taz (secondary), see N-3. Everything not opened is marked 'not read' in the manifest (Critical Edition, Dutch forensic report, BKA
+  report of 28 May 1980, all judgments, the 1960 Hamburg report), with the next step and the reason (401 lending scan, private archive, rechtspraak.nl search by court and date).
+  (3) Three questions. Kept apart in the file comments (lines 6-9), the description, the log (L-01, L-05, L-06), threads.yaml (thread-edited-is-not-forged, confers_weight false) and the
+  assessment text. Q3 is filed as the searched gap afd-content-truth-not-tested and is not claimed as answered; the single content check (the Bolkestein date) is rated low and labelled
+  a weak consistency check. Pass.
+  (4) Disputed items. Amsterdam appeal reasoning: stated as a searched gap, with the quoted paragraphs (6.14, 6.15, 6.16-6.19, 6.24, 6.26, 7.2 all present on the vho.org page as the claim says) attributed to a
+  party's page, the judgment not found. Hamburg dates (1989 / 1990 / 1993, limitation period versus formal grounds): stated as discrepancies, judgment not found. Ballpoint detail
+  (examiner's note slips versus an editor versus page numbers): stated as a gap, with all accounts. Five pages (1998 versus 2000): stated as contested with both disputants. Pseudonyms:
+  stated as a gap with three conflicting accounts. Lubeck 'ruled authentic' versus 'a sentence was never passed': follows the German PDF, records no verdict, and says why.
+  Not resolved by preference anywhere I could find, with the small exceptions in N-4 to N-8 below.
+  (5) Denial claims. They appear in transmission.yaml (both chains confers_weight: false) and in thread-edited-is-not-forged (confers_weight false); no surface line (headline, assessment,
+  search_summary, key points, description) asserts one. The ballpoint allegation is named on the surface only to be answered, and always with its correction. One denial argument also
+  sits in tests.yaml (dt-handwriting note), labelled 'reception only'; see N-9.
+  (6) Naming. No living private individual is named in claims, timeline, tests, threads, transmission or log. Public figures named: Otto Frank, Miep Gies, Bep Voskuijl, Bolkestein, the
+  editors van der Stroom and Barnouw, Mirjam Pressler, Cauvern (all dead or public scholars), Robert Faurisson (dead; author of the report the cases concern), Meyer Levin (dead; the person
+  falsely named as author) and David Irving (living; named as the author of a published 1975 introduction, which the Anne Frank House research page and Holocaust Denial on Trial both
+  report, the latter citing the Critical Edition p. 91 fn 53; his own text was not read and tx-a-03 says so). I judge that justified. Others are described by role: the BKA expert, the Berlin
+  centre's director, the Pretzien suspects, the Luebeck, Hamburg and Amsterdam defendants, the former staff member who held the five pages, the relative of the examiner. Sources
+  name them (the Anne Frank House pages name the Luebeck, Frankfurt and Hamburg defendants and the examiner's relative; the taz names the BKA expert), so the dig's restraint is its own
+  choice, and it holds in claims.yaml. Anne Frank is the subject and is named as the author of the document; the tone is plain ('a murdered child and a document'), no sensational
+  wording; 'Holocaust' appears only in source quotations and neutral descriptions. Two places do not fully match the author's own policy (log L-01 says defendants are described by role):
+  see N-5.
+  (7) Assessment. Exactly three key points; no '%' or 'percent' anywhere in claims.yaml; no `lean` block, and none is needed for `answer: yes`. The key points say no more than the claims
+  they cite, with the hedging comments in N-1 and N-2.
+  (8) Log, timeline, authenticity, rights. The log is new, so append-only against origin/main is trivially met: seven entries, all 2026-10-04, none edited; L-03 correctly lists what
+  could not be opened. Timeline dates and sources agree with what I read (the 13 January 1977 Amtsgericht date is footnote 47 of the research page; 28 May 1980 is footnote 50;
+  1-2 April 1980 is from the research page; 19 August 1980 from the Sieben Fragen PDF). Every source in the manifest has an authenticity block (review_dig confirms); one source is
+  cited in prose without a manifest entry (R1-2). Rights: the BKA release is stored in full, six kilobytes, an official agency statement distributed through a press agency for
+  re-use; I find that acceptable. The extracts are not 'short quotations only' (R1-1).
+
+  WHAT I COULD NOT VERIFY. The Dutch forensic report, the Critical Edition, the BKA report of 28 May 1980, the 1960 Hamburg report, every court judgment (Luebeck, Frankfurt, Hamburg,
+  Amsterdam 1998 and 2000; I did not search the Dutch legal databases myself) and the manuscripts: nothing about them was opened, so every forensic and judicial finding on the page is
+  as reported by the Anne Frank House, the Anne Frank Fonds, the NIOD editor, the taz, CBC and Full Fact. The Radio Wereld article that claims.yaml lines 402 and 415 cite. Whether
+  the 'five pages of 1998' and the 'withheld letter of 2000' are one event or two. The quotations of the Critical Edition that appear only inside the IHR article. The BKA
+  press release is also unconfirmed against the BKA's own site (bka.de), which I did not open; presseportal.de labels it 'Original-Content von: Bundeskriminalamt', and the taz of the
+  next day quotes two of its sentences word for word.
+
+  VERDICT. The content is careful and I found no factual error in a claim, date, name or number. The draft headline is correct and honest. Two small things must be fixed before the
+  page can be published (R1-1 on quotation length, R1-2 on a source missing from the manifest), neither of which changes any finding. With those answered the status would be
+  passed_with_open_items; the open items below are limits the page must show.
+open_items:
+  - "Every forensic and judicial finding rests on interested parties' accounts; the Critical Edition summary, the BKA report of 28 May 1980 and the judgments are unopened (claims afd-nl-forensic-conclusion, afd-hamburg-graphology-1960, afd-materials-nl-lab, afd-ballpoint-not-anne, afd-luebeck-1959-61, afd-frankfurt-roth-1976-79, afd-amsterdam-ban-upheld). Page must show this as a limit."
+  - "headline_status stays draft until the Dutch forensic report or its Critical Edition summary is opened (rule: headline claim established at HIGH with a primary read)."
+  - "build/taxonomy.yaml has no entry for anne-frank-diary (owner-only file). The owner adds it before publishing; the author's suggestion in log L-07 is valid."
+  - "Provenance (afd-papers-found-after-arrest) has one origin, the helpers' account; absence of an anachronism (afd-no-anachronism-found) is capped at provisional."
+  - "Q3, whether what the diary says is true, is not tested (afd-content-truth-not-tested)."
+rounds:
+  - round: 1
+    reviewed_on: 2026-10-04
+    requests:
+      - id: R1-1
+        target: "build/subjects/anne-frank-diary/sources/extracts/ (17 files, 36 kB), and the header line of each ('Short verbatim extracts')"
+        severity: blocking
+        finding: >
+          The extracts are not short quotations. docs/PUBLISH_GATE.md (rights check) says short quotations only, and docs/BROWSER_CHECKS.md says do not save copyrighted full text;
+          keep the sha256, short quotes and the link. Several extracts keep whole runs of consecutive paragraphs of copyrighted pages: fonds-publications-extract.txt 3,598 bytes of a
+          page of about 9,600 characters (about 37 percent); af-complete-works-extract.txt 2,964 of about 9,500 (about 31 percent); taz-2006-extract.txt 4,234 of about 14,900 (about 28
+          percent, including a full multi-sentence court-reasons quotation inside a newspaper article); af-authenticity-extract.txt 5,231 of about 21,000 (about 25 percent); vho-appeal-2000-extract.txt
+          2,658 of about 10,600 (about 25 percent, and it includes the defendant's own capitalised commentary on lines 6 and 7 although the manifest says the party's comments were never used);
+          vanderstroom-1999-extract.txt 6,194 and af-research-otto-extract.txt 3,947 are also long. A reader needs only the sentence a claim cites.
+        evidence: "Line-by-line comparison of each extract with the live page, byte counts above (wc -c), and manifest line 8-9 which says full pages are not stored for copyright reasons."
+        author_response: ""
+        resolved: ""
+      - id: R1-2
+        target: "claims.yaml lines 402 and 415 (afd-external-consistency-bolkestein); sources/MANIFEST.yaml line 315 (src-nos-bolkestein tests); tests.yaml line 67"
+        severity: blocking
+        finding: >
+          'Radio Wereld (2025)' is cited as a second, independent outlet for the 28 March 1944 broadcast date and is counted in the confidence reasons ('independent news reports (NOS, Radio Wereld)')
+          and in the NOS authenticity test, but it has no entry in sources/MANIFEST.yaml (no id, URL, hash, read status or authenticity block) and is not in the claim's `anchor.sources`. A source the
+          dig relies on must have its own manifest entry (docs/AUTHENTICITY.md rule 1; docs/PUBLISH_GATE.md 'authenticity entry for every source'). I could not find which article is meant.
+          The date itself is not in doubt: NOS and the Anne Frank House complete-works page both give 28 March 1944, which I confirmed.
+        evidence: "NOS article and annefrank.org complete-works page (both give 28 March 1944). grep of the subject folder: 'Radio Wereld' appears only in prose, never in the manifest."
+        author_response: ""
+        resolved: ""
+      - id: N-1
+        target: "claims.yaml lines 17-18 (assessment.answer, assessment.headline)"
+        severity: non_blocking
+        finding: >
+          `answer: "yes"` and a headline beginning 'Yes' are firmer than the page's own confidence (moderate on secondary anchors; headline claim kept draft by the headline rule). The
+          page shows the answer prominently, so a firm 'yes' on the assessment sits oddly beside a draft search headline. Other digs in this repository also use a plain yes/no on secondary
+          anchors, so I am not blocking, but SCHEMA N23 ties leans_yes to a basis claim at moderate or high confidence; consider `leans_yes` with a `lean` block, or state in `caveats` why 'yes'.
+        evidence: "claims.yaml lines 3-4, 12-18; SCHEMA N23."
+        author_response: ""
+        resolved: ""
+      - id: N-2
+        target: "claims.yaml lines 22-23 (assessment.text), 32 (key point 2), 38-39 (search_summary)"
+        severity: non_blocking
+        finding: >
+          The BKA wrote that the ballpoint 'Korrekturschriften' were 'Offenbar' (apparently) later editorial notes by a further editor, and the Dutch account (two slips left by examiners), the taz (an
+          editor) and Holocaust Denial on Trial (page numbers too) differ on what carries the ballpoint. The surface lines say flatly that the report 'concerned later additions in another hand' and
+          'the BKA said so itself'. Add 'apparently' or 'as reported' to match the source; the claim bodies are already careful. Also, 'they found Anne Frank's hand throughout and materials in common use'
+          lumps three examinations together; the BKA made no authorship finding (the claim says so, the surface sentence only implies it in the clause before).
+        evidence: "BKA release point 2: 'Offenbar handelt es sich dabei um nachtraeglich vorgenommene redaktionelle Anmerkungen bzw. Korrekturen eines weiteren Bearbeiters'; 'Darueber hinausgehende Feststellungen, insbesondere solche zur Autorenschaft ... wurden ... nicht getroffen'."
+        author_response: ""
+        resolved: ""
+      - id: N-3
+        target: "claims.yaml afd-manuscripts-held-by-niod (lines 101-126)"
+        severity: non_blocking
+        finding: >
+          anchor_checked: primary and confidence high are right for the bequest and the loan, which the 2018 release states. 'Held by NIOD since 1980' is not in the release (it says bequeathed to 'the NIOD ... and
+          the Dutch state'); it comes from the taz and the Sieben Fragen PDF ('in die Obhut des NIOD'), and Holocaust Denial on Trial says November 1980. Say which part rests on which source.
+        evidence: "annefrank.org 2018 release; taz 27 July 2006 ('seit 1980 in Besitz'); Sieben Fragen p. 3."
+        author_response: ""
+        resolved: ""
+      - id: N-4
+        target: "claims.yaml afd-amsterdam-ban-upheld (lines 666-692), its confidence reasons"
+        severity: non_blocking
+        finding: >
+          The statement says the Court of Appeal 'upheld a ban'. The only text of the appeal reasons found (the vho.org page) says the first-instance judgment was reversed in part: the plaintiffs' request for
+          a declaration of authenticity was not granted and the ban's wording was set aside to be reworded (para. 7.2), while the same page also uses the word 'upheld'. The Anne Frank House says
+          'confirmed on appeal'. The next claim carries this, but the established claim's own statement and its reason that the defendant's page 'agrees ... that a ban was ordered and upheld' should say 'in
+          a reworded form, with the declaration of authenticity not granted, as the defendant's page quotes it'.
+        evidence: "vho.org page: 'On 27 april 2000 THE JUDGMENT ... WAS REVERSED, AND THE COURT OF HIGHER APPEAL REJECTED THE PLEA OF THE PLAINTIFFS THAT THE AUTHENTICITY OF THE DIARY SHOULD BE CONFIRMED IN AN AFFIDAVIT'; 7.2 'IS SET ASIDE ... REWORD it'."
+        author_response: ""
+        resolved: ""
+      - id: N-5
+        target: "log L-01; sources/MANIFEST.yaml src-vho-appeal-2000 (title and author fields); sources/extracts/vho-appeal-2000-extract.txt; claim id afd-frankfurt-roth-1976-79; manifest line 468"
+        severity: non_blocking
+        finding: >
+          Log L-01 says defendants of the 1950s to 1990s cases are described by role, not named. The manifest names the Amsterdam defendant in the title and author fields of src-vho-appeal-2000, the extract
+          repeats his name five times, and a claim id and the manifest name the deceased Frankfurt defendant. Naming the author of a cited source is ordinary bibliography and the Frankfurt defendant died in 1978, so
+          I am not blocking, but add a log entry (new entry, not an edit) that states the exception, so the policy and the files agree. L-07 item 4 already flags the first of these.
+        evidence: "grep for the names in the subject folder; Sieben Fragen and the research page name all of them."
+        author_response: ""
+        resolved: ""
+      - id: N-6
+        target: "transmission.yaml tx-b-01 (lines 14-22), tx-b-05, tx-b-06"
+        severity: non_blocking
+        finding: >
+          tx-b-01 is dated 1960-03 and states in its `form` line, unattributed, that the ballpoint notes were an examiner's; the Anne Frank House dates the notes to the 1959 examination (the report is of March 1960)
+          and other accounts differ on who made the marks, which the dig itself treats as a gap. Put 'the Anne Frank House says' in the form line and date the origin to 1959 as reported. tx-b-06 bundles the Wolgast
+          leaflets (no date given in the taz) with the June 2006 guestbook entry under '2006-06'.
+        evidence: "annefrank.org authenticity page ('In 1959 ... a graphologist left a few notes'); taz 11 July 2006."
+        author_response: ""
+        resolved: ""
+      - id: N-7
+        target: "claims.yaml afd-ballpoint-not-anne (statement) and afd-materials-nl-lab (statement)"
+        severity: non_blocking
+        finding: >
+          Both statements use absence-of-report wording ('No text written by Anne Frank has been reported in ballpoint ink'; 'no material of a later date has been reported'). Their support is a reported positive
+          examination result (the Dutch laboratory found ink and pencil of listed kinds and 'Es gibt keinen einzigen Eintrag mit Kugelschreiber'), so I do not treat them as unmarked absence claims, but state the reported
+          result ('the Dutch examination, as reported by the Anne Frank House, found ...') instead of 'has been reported', so a reader does not take them for a search for a missing record. The separate absence claim afd-no-anachronism-found is correctly marked and capped.
+        evidence: "Sieben Fragen point 5; annefrank.org authenticity page; REVIEW.md B (absence claims)."
+        author_response: ""
+        resolved: ""
+      - id: N-8
+        target: "claims.yaml afd-frankfurt-roth-1976-79 ('civil action'); afd-five-pages-1998 (premise that 1998 and 2000 are one event); tests.yaml dt-materials-1940s"
+        severity: non_blocking
+        finding: >
+          (a) No source read calls the Frankfurt case 'civil'; the Anne Frank House was a 'Nebenklaeger' (a role in criminal proceedings) per the Sieben Fragen PDF, and the research page only says 'legal action'.
+          Say 'a legal action' unless a source says civil. (b) The five-pages claim presents 1998 versus 2000 as a date conflict; the 'complete works' page says only that in 2000 'it turned out' a letter had been withheld,
+          which may be a different event from the 1998 reappearance; note that this identity is itself unconfirmed. (c) The research page, which the dig read, says of the BKA examination that 'the exact age of the
+          papers and inscriptions could not be determined unequivocally' and that the paper and iron-gall ink were 'very common before 1950'. That limit (common materials do not date the writing) is not in claims or tests; add it to the
+          materials test, because the test discriminates against later materials, not against a post-war hand using older materials.
+        evidence: "Sieben Fragen p. 6; research.annefrank.org 'Start of the ballpoint myth' (extract af-research-otto line 5 contains the sentence); annefrank.org complete-works page."
+        author_response: ""
+        resolved: ""
+      - id: N-9
+        target: "tests.yaml dt-handwriting-1960-1980s note; sources/extracts/faurisson-ihr-extract.txt"
+        severity: non_blocking
+        finding: >
+          A denial argument (that differences between early and late handwriting were not shown) is stated in tests.yaml, outside transmission.yaml. It is labelled 'reception only' and not asserted, so it does not break the rule,
+          but the rule's intent is that such claims live in transmission.yaml; move the sentence there or point to it. The IHR extract is a verbatim paragraph of a denial text; trim it under R1-1.
+        evidence: "tests.yaml line 43; Faurisson IHR article (line 75 of my text copy)."
+        author_response: ""
+        resolved: ""
