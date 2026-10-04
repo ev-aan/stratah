@@ -140,7 +140,7 @@ events:
      label: "1991: a Belgian publisher issues a booklet with the 1978 report and an introduction",
      detail: "The booklet was sent to Dutch libraries and private persons and led to the Amsterdam case (reception only)."}
   - {id: b18, panel: tests, lane: forensic, time: "1998-07-01T12:00:00Z", precision: year, date_basis: stated, kind: analysis, status: disputed, sources: [src-af-authenticity, src-af-sieben-fragen],
-     alt_time: "2000-07-01T12:00:00Z", alt_note: "One Anne Frank House page says 'In 2000, it turned out' that Otto Frank had withheld a letter about his marriage (src-af-complete-works).",
+     alt_time: "2000-07-01T12:00:00Z", alt_note: "One Anne Frank House page says 'In 2000, it turned out' that Otto Frank had withheld a letter about his marriage (src-af-complete-works); possibly a separate event.",
      label: "1998: five loose sheets Otto Frank had set aside resurface",
      detail: "First printed in the 2001 edition of the Dutch critical edition (claim afd-five-pages-1998)."}
   - {id: b19, panel: tests, lane: courts, time: "1998-12-09T12:00:00Z", precision: day, date_basis: stated, kind: media, status: reported, sources: [src-cbc-1998, src-vho-appeal-2000, src-af-authenticity],

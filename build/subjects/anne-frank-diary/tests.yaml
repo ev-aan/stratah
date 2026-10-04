@@ -21,7 +21,7 @@ discriminating_tests:
         coloured and black pencil, no ballpoint ink in Anne's text. Full Fact (single source, not confirmed): glue by infrared, paper by X-ray fluorescence dated 1939 to 1942 (claim afd-paper-glue-gap).
       accessible: false
     resolves: >
-      The test could have failed and, as reported, did not for Anne's text. Because the reports were not opened, the strength is moderate, not high.
+      The test could have failed and, as reported, did not for Anne's text. Limit: it discriminates against later materials, not against a later hand using older materials; the Anne Frank House research page says the BKA could not determine the exact age of the papers and inscriptions unequivocally and that the paper and iron-gall ink were very common before 1950. The handwriting test (dt-handwriting-1960-1980s) carries that question. Because the reports were not opened, the strength is moderate, not high.
     note: "Test run by others. The limits of both laboratories' methods are not known here."
 
   - id: dt-handwriting-1960-1980s
@@ -40,7 +40,7 @@ discriminating_tests:
       accessible: false
     resolves: >
       Two independent handwriting examinations could have found another hand and, as reported, did not. The Hamburg team's work was done for a case begun by Otto Frank and the Dutch work for the institute that holds the manuscripts: both are known only from interested parties' accounts.
-    note: "Test run by others. A denial text (reception only) objects that differences between early and late handwriting were not shown; that was not answered here because the comparison tables were not read."
+    note: "Test run by others. An objection about early and late handwriting is recorded as reception in transmission.yaml (tx-a-05); the comparison tables were not read, so it is not answered here."
 
   - id: dt-chronology-levin
     question: >
@@ -64,7 +64,7 @@ discriminating_tests:
     predicts:
       consistent: "The diary reacts to the broadcast on or after 28 March 1944."
       inconsistent: "The diary dates the reaction before the broadcast or gives a different content."
-    method: "Compared the date of the Radio Oranje appeal in NOS and Radio Wereld with the diary's reaction as quoted by the NIOD editor and described by the Anne Frank House."
+    method: "Compared the date of the Radio Oranje appeal in NOS and Radio Wereld (src-nos-bolkestein, src-radiowereld-bolkestein) with the diary's reaction as quoted by the NIOD editor and described by the Anne Frank House."
     result:
       type: synthetic
       finding: "The broadcast is dated 28 March 1944 in both news reports; the diary reaction is quoted for the next day. Consistent."

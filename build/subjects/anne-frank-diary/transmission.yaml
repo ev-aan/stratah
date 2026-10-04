@@ -16,11 +16,11 @@ chains:
     confers_weight: false
     events:
       - id: tx-b-01
-        date: "1960-03"
-        precision: month
+        date: "1959"
+        precision: year
         step: origin
-        carrier: "an examining team's note slips left among the original pages (Anne Frank House account)"
-        form: "Ballpoint notes by an examiner end up among the manuscript pages during the 1959 to 1960 graphological examination; they are later found there."
+        carrier: "per the Anne Frank House: a graphologist's notes left among the original pages during the 1959 examination"
+        form: "The Anne Frank House says a graphologist left a few notes among the original pages in 1959 and that they were later found there; the German PDF says the ballpoint writing is on two loose note slips of earlier examiners."
         source: src-af-sieben-fragen
         read: yes
         note: "The Anne Frank House dates the examination to 1959 and the report to March 1960. Who made the notes is reported differently by other accounts (claim afd-ballpoint-detail-gap)."
@@ -64,11 +64,20 @@ chains:
         date: "2006-06"
         precision: month
         step: persistence
-        carrier: "leaflets at an exhibition and an anonymous guestbook entry, citing the BKA report (taz, 11 July 2006)"
+        carrier: "an anonymous guestbook entry on a municipality's website, shortly after a public burning of a copy of the book (taz, 11 and 27 July 2006)"
         form: "The 1980 BKA report is cited as proof of forgery."
         source: src-taz-2006-07-11
         read: yes
-        note: "The taz reports a public burning of a copy of the book in June 2006 and a criminal complaint by the Berlin Anne Frank Centre; the persons are not named here."
+        note: "The burning took place on 24 June 2006 (BKA release); the guestbook entry followed 'wenig spaeter' (taz, undated). A criminal complaint by the Berlin Anne Frank Centre followed; the persons are not named here."
+      - id: tx-b-06b
+        date: "2006-07-11"
+        precision: read_on
+        step: persistence
+        carrier: "leaflets at an Anne Frank exhibition in Wolgast (taz, 11 July 2006)"
+        form: "Leaflets with the slogan 'Alles Luege!' cite the 1980 BKA report as alleged proof."
+        source: src-taz-2006-07-11
+        read: yes
+        note: "The leaflets are undated in the taz; the date given is the date of the report that mentions them."
       - id: tx-b-07
         date: "2006-07-26"
         precision: day
@@ -144,7 +153,7 @@ chains:
         form: "A handwriting and style argument that the diary was not genuine; the same author later published an update (2000)."
         source: src-faurisson-ihr
         read: yes
-        note: "Read only to record what is claimed. The Frankfurt appeal court was not persuaded (Anne Frank House). The report itself (1978) was not read; the 2000 update was."
+        note: "Read only to record what is claimed. The claim, as its author states it, includes that two samples of Anne's early and later hand differ and were not shown or analysed in the Critical Edition; not tested here (the comparison tables were not read). The Frankfurt appeal court was not persuaded (Anne Frank House). The report itself (1978) was not read; the 2000 update was."
       - id: tx-a-06
         date: "1991"
         precision: year

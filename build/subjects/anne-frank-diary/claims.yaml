@@ -14,28 +14,34 @@ headline_claim: afd-nl-forensic-conclusion
 headline_status: draft
 assessment:
   question: "Is the Diary of Anne Frank authentic?"
-  answer: "yes"
-  headline: "Yes, to the best of our reading. The handwritten diaries are Anne Frank's own; the book most people read is her father's edited version of them."
+  answer: leans_yes
+  headline: "Leans yes. As reported, the handwritten diaries are Anne Frank's own; the book most people read is her father's edited version of them."
   text: >
     Authenticity has three parts, kept apart here. (1) Are the surviving handwritten diaries what they claim to be? Three sets of expert examination are reported:
     German handwriting experts in 1960, the German federal police laboratory (BKA) in 1980 on paper and writing materials, and the Dutch state forensic laboratory in the early 1980s on handwriting,
-    paper and ink. As reported, they found Anne Frank's hand throughout and materials in common use in the 1940s. The one reported anomaly, ballpoint ink (not made until 1951),
-    concerned later additions in another hand, not Anne's text; the BKA said so itself in 2006. (2) Is the published text unaltered? No, and this is documented, not hidden:
+    paper and ink. As reported, the Hamburg graphologists (1960) and the Dutch laboratory (1980s) found Anne's hand, and the BKA (1980), which tested materials only and made no finding on authorship, found paper and writing materials in common use in the 1940s.
+    The one reported anomaly, ballpoint ink (not sold until 1951), apparently concerned later additions in another hand, not Anne's text: the BKA's own 2006 word is 'offenbar' (apparently) later editorial notes by another editor, and the accounts of what carries the ballpoint differ (afd-ballpoint-detail-gap). (2) Is the published text unaltered? No, and this is documented, not hidden:
     Anne wrote a first diary (A) and later rewrote it herself (B); her father, Otto Frank, made a compilation (C, first published in 1947) that omitted and changed some passages;
     a 1991 reader's edition (D) restored some of them. The 1986 critical edition prints A, B and C together. Edited is not forged. (3) Is what it says true? This dig does not test that.
-    Our confidence is moderate, not high, because the forensic reports, the critical edition and the court judgments were not opened here; every finding about them comes from the
+    Because everything here is known second hand, the answer is a lean toward yes, not a flat yes. Our confidence is moderate, not high, because the forensic reports, the critical edition and the court judgments were not opened here; every finding about them comes from the
     institutions that commissioned or took part in them (the Anne Frank House, the Anne Frank Fonds, the Dutch war documentation institute) and from newspaper and fact-check reports.
     Provenance rests on the helpers' account, which comes from one origin. No anachronism has been found in the sources read, but that rests on absence.
     The forgery claims are traced in transmission.yaml; their spread is not evidence.
   key_points:
     - "Experts examined the handwriting (1960, 1980s) and the paper and ink (1980, 1980s) and, as reported, found Anne's hand and materials in use in the 1940s."
-    - "The 1980 ballpoint finding concerned later additions in another hand, not Anne's text; the BKA said in 2006 that its report gives no ground to doubt authenticity."
+    - "The 1980 ballpoint finding apparently concerned later additions in another hand, not Anne's text; the BKA said in 2006 its report gives no ground to doubt authenticity."
     - "The published book is an edited compilation (her father's, 1947); the edits are documented and the 1986 critical edition prints the versions side by side."
   basis: [afd-nl-forensic-conclusion, afd-hamburg-graphology-1960, afd-bka-1980-scope, afd-ballpoint-not-anne, afd-versions-abcd, afd-otto-edits-documented, afd-no-anachronism-found]
   rated_claim: afd-nl-forensic-conclusion
+  lean:
+    toward: "Yes, authentic: the handwritten diaries are Anne Frank's own work"
+    short: "yes"
+    strength: strong
+    because: "Two independent handwriting examinations (afd-hamburg-graphology-1960, afd-nl-forensic-conclusion) and the BKA's own account of its materials test (afd-bka-1980-scope) point the same way, and the one alleged anachronism is accounted for (afd-ballpoint-not-anne)."
+    caveats: "Known only second hand through parties and the press; the reports, the Critical Edition and the judgments were not opened; the lean is moderate in confidence, and the headline stays draft."
   would_settle: "Opening the Dutch forensic report (or its summary in the critical edition), the 1980 BKA report and the court judgments, and, ideally, a fresh examination of the manuscripts by a laboratory unconnected to the parties."
 search_summary: >
-  Is the Diary of Anne Frank authentic? Yes, to the best of our reading: handwriting, paper and ink were examined by German and Dutch experts, and the 1980 ballpoint report concerned later additions
+  Is the Diary of Anne Frank authentic? Leans yes: handwriting, paper and ink were examined by German and Dutch experts, and the 1980 ballpoint report apparently concerned later additions
   in another hand, not Anne's text. The published book is her father's edited compilation, which is documented. Confidence is moderate because the reports themselves were not opened.
 url_slug: is-the-diary-of-anne-frank-authentic
 
@@ -101,8 +107,8 @@ claims:
   - id: afd-manuscripts-held-by-niod
     state: established
     statement: >
-      Otto Frank bequeathed his daughter's diaries to the Dutch state. They have been held by NIOD (the successor of the 1980s Dutch war documentation institute) since 1980 and are on loan to,
-      and shown at, the Anne Frank House in Amsterdam.
+      Otto Frank bequeathed his daughter's diaries to NIOD and the Dutch state, and they are on loan to, and permanently shown at, the Anne Frank House in Amsterdam (the Anne Frank House's own 2018 release, read in full: primary).
+      That NIOD (then the Dutch war documentation institute) has held them since 1980 rests on the taz of 2006 and the German Anne Frank House document, which are secondary.
     statement_kind: reported
     evidence_class: primary_text
     confidence: high
@@ -122,8 +128,8 @@ claims:
       type: primary_text
       description: >
         Anne Frank House news release of 15 May 2018: 'In his will Otto Frank bequeathed the diaries of his daughter Anne to the NIOD ... and the Dutch state. The diaries were given on loan to the Anne Frank House
-        organisation and are permanently exhibited in the Anne Frank House.' Read in full 2026-10-04. Corroborated by the taz (27 July 2006), which says the Dutch institute has held the manuscripts since 1980.
-      sources: [src-af-2018-news, src-taz-2006-07-27]
+        organisation and are permanently exhibited in the Anne Frank House.' Read in full 2026-10-04. Which part rests on which source: the bequest and the loan are from the 2018 release; 'since 1980' is from the taz (27 July 2006: the Dutch institute has held the manuscripts since 1980) and the German PDF 'Sieben Fragen' (the Dutch government placed the estate in NIOD's care).
+      sources: [src-af-2018-news, src-taz-2006-07-27, src-af-sieben-fragen]
 
   - id: afd-1943-notebooks-missing
     state: established
@@ -262,8 +268,8 @@ claims:
   - id: afd-materials-nl-lab
     state: established
     statement: >
-      As reported, the Dutch laboratory found that most of the diary and loose sheets were written in grey-blue fountain-pen ink, with some thin red ink, green and red coloured pencils and black pencil for notes, and no ballpoint ink in Anne's writing.
-      Together with the BKA's 1980 confirmation that the paper and writing materials were in common use in the war years, no material of a later date has been reported in Anne's text.
+      As reported by the Anne Frank House, the Dutch laboratory found that most of the diary and loose sheets were written in grey-blue fountain-pen ink, with some thin red ink, green and red coloured pencils and black pencil for notes, and no ballpoint ink in Anne's writing.
+      The BKA (2006 statement on its 1980 report) confirmed that the paper and writing materials were in common use in the war years. Limit: this excludes materials first made after 1944; it does not date the writing. The Anne Frank House research page says of the BKA examination that the paper and the iron-gall ink were very common before 1950 and that the exact age of the papers and inscriptions could not be determined unequivocally, so these tests would not catch a post-war hand using older materials; the handwriting examinations address that.
     statement_kind: reported
     evidence_class: material
     confidence: moderate
@@ -291,8 +297,8 @@ claims:
   - id: afd-ballpoint-not-anne
     state: established
     statement: >
-      No text written by Anne Frank has been reported in ballpoint ink. The 1980 BKA finding of ballpoint corrections concerned later additions in another hand: the BKA called them later editorial notes by another editor (2006), and the Dutch examination of the 1980s,
-      as reported by the Anne Frank House, found ballpoint writing only on two loose note slips left among the pages by earlier examiners, in handwriting that differs from Anne's.
+      The Dutch examination of the 1980s, as reported by the Anne Frank House, found grey-blue fountain-pen ink, pencils and no ballpoint in Anne's writing, and ballpoint writing only on two loose note slips left among the pages by earlier examiners, in handwriting that differs from Anne's.
+      The BKA's 1980 finding of ballpoint 'Korrekturschriften' is, in the BKA's own 2006 word, apparently ('offenbar') later editorial notes by another editor.
     statement_kind: reported
     evidence_class: material
     confidence: moderate
@@ -399,7 +405,7 @@ claims:
     confidence: low
     confidence_reasons:
       start: moderate
-      start_because: "The broadcast date comes from independent news reports (NOS, Radio Wereld); the diary entry is known only as quoted by the NIOD editor and the Anne Frank House."
+      start_because: "The broadcast date comes from independent news reports (NOS and Radio Wereld, both read); the diary entry is known only as quoted by the NIOD editor and the Anne Frank House."
       steps:
         - {domain: indirectness, effect: down1, reason: "The entries were not read; a public broadcast date is also known to any later writer, so the test could not catch a well-informed forger."}
       reviewed: false
@@ -412,15 +418,15 @@ claims:
     anchor:
       type: secondary
       description: >
-        NOS (2025): 'Op 28 maart 1944 doet minister Gerrit Bolkestein ... via Radio Oranje een oproep ...' ; Radio Wereld (2025) gives the same date. Anne Frank House, 'The complete works of Anne Frank': the people in hiding heard the appeal on 28 March 1944 and it inspired Anne.
+        NOS (2025): 'Op 28 maart 1944 doet minister Gerrit Bolkestein ... via Radio Oranje een oproep ...' ; Radio Wereld (April 2025, src-radiowereld-bolkestein) gives the same date. Anne Frank House, 'The complete works of Anne Frank': the people in hiding heard the appeal on 28 March 1944 and it inspired Anne.
         NIOD editor van der Stroom (1999) quotes the next day's diary reaction ('Natuurlijk stormden ze allemaal direct op mijn dagboek af') from the Critical Edition, p. 594, and gives the broadcast text. Read 2026-10-04; the diary entries were not read.
-      sources: [src-nos-bolkestein, src-af-complete-works, src-vanderstroom-1999]
+      sources: [src-nos-bolkestein, src-radiowereld-bolkestein, src-af-complete-works, src-vanderstroom-1999]
 
   - id: afd-five-pages-1998
     state: contested
     statement: >
       Five loose sheets that Otto Frank had set aside before the 1947 publication surfaced in 1998, through a former Anne Frank House staff member, and were examined without reason to doubt that Anne wrote them; they were first printed in the 2001 edition of the Dutch critical edition.
-      The sources do not agree on the date: one Anne Frank House page says that in 2000 it turned out Otto Frank had withheld a diary letter about his marriage.
+      One Anne Frank House page says that in 2000 it turned out Otto Frank had withheld a diary letter about his marriage. Whether that is the same event as the 1998 reappearance is not confirmed: the sources may describe two events (the five sheets in 1998; the discovery or announcement about the letter in 2000), not two dates for one.
     statement_kind: reported
     evidence_class: interpretive
     confidence: low
@@ -616,7 +622,7 @@ claims:
   - id: afd-frankfurt-roth-1976-79
     state: established
     statement: >
-      Frankfurt (1976 to 1980): in a civil action by Otto Frank and the Anne Frank House against a pamphlet publisher, the Landgericht Frankfurt am Main on 22 June 1978 forbade him, on pain of a fine up to DM 500,000 or six months' detention, to repeat claims that the diary was a forgery and fraud.
+      Frankfurt (1976 to 1980): in a legal action by Otto Frank and the Anne Frank House (a joint plaintiff; the German PDF calls its role Nebenklaeger) against a pamphlet publisher, the Landgericht Frankfurt am Main on 22 June 1978 forbade him, on pain of a fine up to DM 500,000 or six months' detention, to repeat claims that the diary was a forgery and fraud.
       On appeal he put forward the 1978 report of Robert Faurisson; the Oberlandesgericht rejected the appeal in 1979. The case then went to the Federal Court (Bundesgerichtshof), which in 1980 sent it back because he had too little chance to prove his claims, and it was never heard again.
     statement_kind: reported
     evidence_class: interpretive
@@ -667,7 +673,8 @@ claims:
     state: established
     statement: >
       Amsterdam (1998 to 2000): on 9 December 1998 the Amsterdam District Court, in an action by the Anne Frank Stichting and the Anne Frank Fonds against the publisher of a 1991 booklet reproducing a 1978 report that questioned the diary, banned distribution of the booklet in the Netherlands (penalty 25,000 guilders per breach).
-      The Court of Appeal of Amsterdam upheld a ban on 27 April 2000.
+      On 27 April 2000 the Court of Appeal of Amsterdam, as the Anne Frank House puts it, 'confirmed' that judgment; as the defendant's page quotes it, the Court set the first judgment aside in part, refused the declaration of authenticity the plaintiffs had asked for, and re-worded the ban, which then covered the booklet and
+      material that questions authenticity in the same way as the booklet (para. 7.2 and 8). The grounds are in afd-amsterdam-appeal-reasoning-gap.
     statement_kind: reported
     evidence_class: interpretive
     confidence: moderate
@@ -675,7 +682,7 @@ claims:
       start: moderate
       start_because: "Secondary anchors: the Anne Frank House, CBC and the defendant's own page agree on date and outcome; no judgment was opened."
       steps:
-        - {domain: independent_corroboration, effect: up1, reason: "CBC (1998, independent) and the defendant's page, both adverse to or independent of the Anne Frank House, agree with it on the date and that a ban was ordered and upheld."}
+        - {domain: independent_corroboration, effect: up1, reason: "CBC (1998, independent) and the defendant's page, both adverse to or independent of the Anne Frank House, agree with it on the date and that a ban was ordered and survived appeal, in a re-worded form with the declaration of authenticity not granted, as the defendant's page quotes it."}
         - {domain: indirectness, effect: down1, reason: "No judgment was read; the grounds are in afd-amsterdam-appeal-reasoning-gap."}
       reviewed: false
     evidential_weight: 3

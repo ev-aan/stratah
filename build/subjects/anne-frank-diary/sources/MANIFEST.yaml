@@ -6,7 +6,7 @@
 # and the court judgments were NOT opened in this dig and are listed at the end as "not read" so that no claim can lean on them by accident.
 #
 # Storage: web pages were fetched with curl on 2026-10-04 (raw bytes hashed below). The full pages are not stored (copyright);
-# sources/extracts/*.txt keep the short verbatim passages quoted or relied on, so a reader can check them. The BKA press release is stored in full
+# sources/extracts/*.txt keep only the one or two sentences a claim cites (trimmed in round 1, log L-08), so a reader can check them. The BKA press release is stored in full
 # (sources/bka-2006-07-26.txt) because it is short and an official statement.
 #
 # read: full = whole page or document fetched and read here; extract = the passages named were read in a fetched copy; not read = not opened.
@@ -312,9 +312,28 @@ sources:
       status: authenticated
       strength: weak
       provenance: "NOS's site, fetched directly 2026-10-04 (the fetched URL redirected to the NOS collection path)."
-      tests: ["The date of the Radio Oranje appeal (28 March 1944) matches a second outlet, Radio Wereld (fetched 2026-10-04, 'Op 28 maart 1944') and the Anne Frank House pages. [read]"]
+      tests: ["The date of the Radio Oranje appeal (28 March 1944) matches a second outlet, Radio Wereld (src-radiowereld-bolkestein) and the Anne Frank House pages. [read]"]
       tested_by: "Strata dig author session, 2026-10-04. Independent of the Anne Frank House."
       gaps: ["A news summary; the broadcast text or an archive record (NIOD, Radio Oranje) was not opened."]
+      next_step: "Open the Radio Oranje transcript or log held by NIOD or Beeld en Geluid."
+      checked: 2026-10-04
+
+  - id: src-radiowereld-bolkestein
+    title: "Radio Wereld, 'Oproep via Radio Oranje in 1944 zorgt voor veel ooggetuigenverhalen' (April 2025)"
+    author: Radio Wereld (media news site)
+    date: "2025-04"
+    url: https://radiowereld.nl/medianieuws/2025/04/oproep-via-radio-oranje-in-1944-zorgt-voor-veel-ooggetuigenverhalen/
+    document_class: secondary (news item)
+    read: "full (4,848 characters)"
+    sha256: 7ef128d102fce92af7bb479d53047a867ab5b867ff3b393aee5f3ca9016ac524
+    stored_as: "sources/extracts/radiowereld-bolkestein-extract.txt"
+    authenticity:
+      status: authenticated
+      strength: weak
+      provenance: "Radio Wereld's site, URL path dated 2025/04, fetched directly 2026-10-04."
+      tests: ["Its date for the appeal (28 March 1944) matches NOS (src-nos-bolkestein) and the Anne Frank House complete-works page; a different date would have failed it. [read]"]
+      tested_by: "Strata dig author session, 2026-10-04. Independent of the Anne Frank House; a short news item."
+      gaps: ["Does not cite the broadcast record; the Radio Oranje transcript or log was not opened."]
       next_step: "Open the Radio Oranje transcript or log held by NIOD or Beeld en Geluid."
       checked: 2026-10-04
 
