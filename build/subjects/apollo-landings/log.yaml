@@ -180,3 +180,34 @@ log:
       Apollo 11 conference papers (lunar origin and dating rest on summaries); any Soviet source on the Luna 20 mass or on the 1969 response;
       the Goddard weekly reports of 1981; the Apollo photograph claims; the YouGov table; the Kaysing book. review.yaml is not written by
       the author. A separate review agent should open the cited sources and check each quote.
+  - id: L-21
+    date: 2026-10-04
+    entry: >
+      CORRECTION of L-14 (d) and of the sample-dating claim (review round 1, R1-3). L-14 (d) said that "4.40 to 4.47 billion years" is in no
+      source read. PSRD 2004 does give 4.40 billion years: for the Apollo 16 clast 67215 alone, a crystallisation age that "might have been
+      affected" by later shock heating; and 4.456 billion years (text: 4.46) for the pyroxene isochron on four anorthosites together. What the
+      first pass lacked was a source for a range of 4.40 to 4.47 and for "about 150 laboratories" and the Apollo 11 investigator counts, which
+      stay removed. The statement of apollo-samples-are-lunar and the result in tests.yaml dt-independent-records now give both figures and say
+      an age is not proof of lunar origin (the claim id is kept; ids are never renamed).
+  - id: L-22
+    date: 2026-10-04
+    entry: >
+      REVISION ROUND 1 changes (commit after 0a78192). R1-1: headline now "2026 review: Moon landing hoax claims fail; outside labs still range
+      Apollo's reflectors" (82 characters, with year); assessment headline and key point 2 now name the crewed-versus-robotic limit; the claim
+      that India's orbiter imaged tracks is removed (the abstract mentions the Apollo 11 and 12 sites and descent stages only); search_summary
+      rewritten (under 200 characters) and no longer says orbiters imaged the sites. R1-2: apollo-crewed-landings-occurred changed from
+      established to proposed, the state of its negation apollo-robotic-only-alternative, because both rest on the same records and the same
+      inference. R1-4: transmission event tx-a-01 retyped from origin to earliest_reported_unverified, decade precision, no named person, title,
+      employer or year (none was read). R1-5: unsourced remarks about why people doubt, and adoption notes, reworded to Not measured. R1-6: the
+      LROC Apollo 12 remark is now stated as what the page shows. R1-7: station wording follows the sources (reported to range lunar reflectors
+      including the Apollo arrays; Zhang's abstract says five arrays). R1-8: Nafzger's caveat added to the tapes claim. R1-9: summary length fixed.
+  - id: L-23
+    date: 2026-10-04
+    entry: >
+      Review round 1, R1-6 (a): apollo-sites-imaged-by-non-nasa-orbiters stays established at moderate confidence and keeps its id (ids are never
+      renamed). Its statement already says the independent items are a probable halo (10 m, no hardware) and one report whose images were not
+      seen; the LRO texts it rests on were read in full. Reviewer to confirm.
+  - id: L-24
+    date: 2026-10-04
+    entry: >
+      CORRECTION of L-22: the new headline is 88 characters, not 82 as L-22 says.

@@ -12,14 +12,14 @@ chains:
     confers_weight: false
     events:
       - id: tx-a-01
-        date: "1976-01-01"
-        precision: year
-        step: origin
-        carrier: "Bill Kaysing, a former Rocketdyne employee, in a self-published book (as described in a search result)"
-        form: "Book titled 'We Never Went to the Moon: America's Thirty Billion Dollar Swindle', arguing the landings were not achieved."
+        date: "1970-01-01"
+        precision: decade
+        step: earliest_reported_unverified
+        carrier: "A self-published book, named only in a search-result summary of a Smithsonian Magazine page"
+        form: "Said (by that summary) to argue that the landings were not achieved. Its author, title, employer and date are not stated here because none was read."
         source: src-smithsonian-kaysing
         read: no
-        note: "Not read: the Smithsonian page returned 403 and the 1976 date (and an earlier 1974 pamphlet) come from search-result summaries that disagree. Treat as reported only."
+        note: "Not read: the Smithsonian page returned 403. The summaries disagree on the year (1974 or 1976), so only the decade is given. This is not established as the origin of the idea. Next step: open the book or a library record."
       - id: tx-a-02
         date: "1995-07-19"
         precision: day

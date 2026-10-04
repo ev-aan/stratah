@@ -369,7 +369,7 @@ events:
   sources:
   - src-lroc-first-look
   label: '16 Jul 2009: LROC publishes first images of five Apollo sites (taken 11-15 July)'
-  detail: Descent stages visible at 1.0 to 1.4 m per pixel; Apollo 12 not in the set.
+  detail: Descent stages visible at 1.0 to 1.4 m per pixel; the page shows five sites and does not mention Apollo 12.
 - id: b06
   panel: recent
   lane: orbiters

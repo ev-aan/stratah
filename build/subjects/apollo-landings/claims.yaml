@@ -6,7 +6,7 @@
 # releases and the LPSC 2026 abstract. headline_status is `review`: the independent reviewer and the owner decide
 # whether it goes on the site; the author never marks it passed.
 # ---------------------------------------------------------------------------
-headline: "Moon landing hoax claims fail: outside labs still bounce lasers off Apollo's reflectors"
+headline: "2026 review: Moon landing hoax claims fail; outside labs still range Apollo's reflectors"
 headline_claim: apollo-staged-hoax
 headline_status: review
 dig_status: resumed             # parked 2026-10-01; resumed 2026-10-04 (see below); not published
@@ -22,7 +22,7 @@ resume_reason: >
   journals.sagepub.com, smithsonianmag.com (403) and the IOP full text (bot check); psrd.hawaii.edu
   worked only over http. Several first-pass figures changed or were removed (log L-11 to L-18).
 search_summary: >
-  The question is whether the Moon landing hoax claims hold up. They do not: observatories in several countries still bounce lasers off Apollo's reflectors, and orbiters of NASA, Japan and India have imaged the sites.
+  Observatories in several countries still range reflectors left on the Moon, so the hoax claim fails. Whether crews rather than robots did the work is held less firmly.
 
 subject: apollo-landings
 title: "Did the Moon landing hoax claims hold up?"
@@ -46,18 +46,19 @@ description: >
 assessment:
   question: "Did the Moon landing hoax claims hold up?"
   answer: "no"
-  headline: "No. The claim that the landings were staged fails against physical records that outside observatories and other space agencies can check; two narrower items stay open."
+  headline: "No. The claim that no Apollo hardware or reflectors went to the Moon fails against records that outside observatories can check; whether crews rather than robots did the work is held less firmly."
   key_points:
-    - "Observatories in France, Italy, Germany, the US and China range the Apollo 11, 14 and 15 reflectors, and the French team's work is funded by CNRS and CNES."
-    - "NASA's orbiter images Apollo descent stages and tracks; a 2026 abstract says India's did too. Apollo returned about 382 kg of rock, Soviet robots about 0.3 kg."
-    - "Open: the original Apollo 11 tapes are lost (documented), and the photo claims (shadows, flag, stars) were not tested in this pass."
+    - "Stations in France, Italy, Germany, the US and China are reported to range lunar reflectors including the Apollo arrays; the French team is funded by CNRS and CNES."
+    - "Crews versus robots is the weak link: it rests on about 382 kg of Apollo rock against about 0.3 kg from Soviet robots, and on NASA's own images of tracks."
+    - "Open: the original Apollo 11 tapes are probably lost (documented), and the photo claims (shadows, flag, stars) were not tested in this pass."
   text: >
     A staged event on Earth would not leave laser reflectors on the Moon that observatories in several
     countries still range. Courde et al. (2017, Grasse, France) name the stations then supplying lunar
     range data (APOLLO and McDonald in the US, Matera in Italy, Grasse), and report that the Apollo 11,
     14 and 15 arrays hold 100, 100 and 300 corner cubes. The International Laser Ranging Service page
     (last changed 30 Sep 2026) lists Apache Point, Grasse, Wettzell (Germany) and Matera as the
-    main providers now, and a Chinese station's abstract reports echoes from all five arrays. The first accurate
+    main providers of lunar ranging data now (it does not say which reflectors each ranges), and says a Chinese station ranged
+    the Apollo and Luna reflectors; that station's abstract reports echoes from five arrays. The first accurate
     ranges came from Lick Observatory on 1 August 1969, less than two weeks after the Apollo 11 landing
     (Murphy 2013). NASA's LRO camera images the Apollo descent stages and the astronauts'
     tracks; the independent checks so far are Japan's SELENE (a probable exhaust halo at the Apollo 15
@@ -82,7 +83,7 @@ assessment:
     foot trails or rover tracks, which would raise the crewed-versus-robotic claim.
 
 divergence_note: >
-  Evidence and adoption mostly agree: Gallup in July 1999 found 89 per cent said the government did not stage the landing, 6 per cent said it did and 5 per cent had no opinion (n=1,061, plus or minus 3 points; the TIME/CNN poll of 1995 found the same 6 per cent). YouGov's 2019 article says one in five are "not at all sure" the landing happened, which is a different question and was not seen as a table. Doubt is higher among those not alive in 1969 (same article). The gap is the footage, the radiation question and the lost original tapes. The tapes gap is documented, which is why it deserves a plain answer. The weakest evidential point is crewed versus robotic, not staged versus real.
+  Evidence and adoption mostly agree: Gallup in July 1999 found 89 per cent said the government did not stage the landing, 6 per cent said it did and 5 per cent had no opinion (n=1,061, plus or minus 3 points; the TIME/CNN poll of 1995 found the same 6 per cent). YouGov's 2019 article says one in five are "not at all sure" the landing happened, which is a different question and was not seen as a table. The same article says doubt is higher among those not alive in 1969. Why some people doubt was not measured in any source read. One documented gap, the lost original tapes, is stated plainly in this dig. The weakest evidential point is crewed versus robotic, not staged versus real.
 
 claims:
 
@@ -98,7 +99,7 @@ claims:
     anchor_checked: primary   # Courde 2017, Murphy 2013, Murphy 2011 and the ILRS page read directly in the resumed pass (log L-12)
     adoption_weight: 5   # of 5, shown separately; never combined with evidential_weight
     adoption_note: >
-      Not polled. Accepted across the relevant sciences; stations still use the arrays.
+      Not measured. Stations still use the arrays (ILRS page).
     would_change_if: >
       an outside station reports no return from a site's coordinates under conditions where one is expected, or ranging records are shown not to be independent of NASA
     anchor:
@@ -108,7 +109,7 @@ claims:
         of the International Laser Ranging Service "only four stations supply Earth-Moon range observations
         to the ILRS database: APOLLO (New Mexico, USA), McDonald (Texas, USA), Matera (Italy) and Grasse
         (France)", and that the Apollo 11 and 14 arrays have 100 corner cubes each and Apollo 15 has 300
-        (Section 3.1.1). Their own station followed all five arrays on twenty nights in 2015 with an infrared laser, against
+        (Section 3.1.1). Their own station followed all five lunar arrays (A11, A14, A15, L1, L2) on twenty nights in 2015 with an infrared laser, against
         one night in 2014 with green light (Table 8), and obtained about 60 per cent of its 2014 green-light normal points on Apollo 15. The photon rate on
         Apollo 15 is about 0.1 per second at Grasse and 63 per second at APOLLO, quoted from Murphy 2013, whose
         Table 2 gives 3,775 photons per minute for APOLLO's record run on Apollo 15 (about 63 a second; our arithmetic). The ILRS science page
@@ -152,7 +153,7 @@ claims:
     anchor_checked: primary   # NAS Table 2.1, the NASA curator page and PSRD read in the resumed pass (log L-14); the Soviet masses are read only as repeated by NAS and LROC
     adoption_weight: 5   # of 5, shown separately; never combined with evidential_weight
     adoption_note: >
-      Not polled. The totals are repeated across NASA, university and Academy pages.
+      Not measured. The totals are repeated across NASA, university and Academy pages (one origin).
     would_change_if: >
       the Lunar Sample Compendium or the Soviet records give different totals, or the 381.7 kg total is shown to be wrong
     anchor:
@@ -183,22 +184,24 @@ claims:
     state: established
     statement_kind: reported
     statement: >
-      Radiometric dating of lunar anorthosites, including a clast from Apollo 16 breccia 67215, gives a crystallisation age of about
-      4.46 billion years, consistent with early melting of the Moon.
+      A samarium-neodymium isochron on pyroxenes from four lunar anorthosites gives a crystallisation age of 4.456 billion years;
+      the Apollo 16 clast 67215 alone gave 4.40 billion years, an age that may have been affected by later shock heating (PSRD 2004).
+      An age is not by itself proof of lunar origin.
     evidence_class: material
     confidence: moderate
     evidential_weight: 3   # of 5; read only as a summary by researchers of their own paper; the papers themselves were not opened
     anchor_checked: secondary   # PSRD (April 2004, by Marc Norman, Lunar and Planetary Institute and Australian National University) and the NAS chapter read; Norman et al. 2003 and the Apollo 11 conference papers not opened
     adoption_weight: 5   # of 5, shown separately; never combined with evidential_weight
     adoption_note: >
-      Not polled. Not measured; the dating is routine in planetary science.
+      Not measured.
     would_change_if: >
       an outside laboratory shows a documented returned sample to be terrestrial, or the dating is shown not to reproduce
     anchor:
       type: laboratory-dating-summary
       description: >
         PSRD (April 2004; the author is a participant in the work) reports a samarium-neodymium isochron on pyroxenes
-        from four lunar anorthosites giving a crystallisation age of 4.456 billion years, and says earlier isochrons on
+        from four lunar anorthosites (the page says 4.46, caption 4.456 billion years). For the Apollo 16 clast 67215 alone it reports a precise
+        crystallisation age of 4.40 billion years that might have been affected by later shock heating. It says earlier isochrons on
         three other anorthosites gave 4.29 to 4.54 billion, "an unexpectedly large range". The clast newly studied was from Apollo 16 breccia 67215. The NAS chapter says
         the Apollo samples changed the understanding of the Moon, Earth and solar system and are held at JSC, with a back-up
         store at White Sands.
@@ -209,7 +212,7 @@ claims:
       # REMOVED from the first pass (log L-14): "about 150 laboratories" and "about 27 of the initial 110 Apollo 11
       #    investigators from six countries" (no source read supports either number); "older than most terrestrial rock" (no
       #    source read compares with Earth rock); "studied in many countries" (not shown by the pages read); "4.40 to 4.47 billion
-      #    years" (the PSRD figure is 4.456 for one isochron, with a wider published range); the 1971 NASA and Soviet
+      #    years" (PSRD gives 4.456 for the four-rock isochron and 4.40 for clast 67215; see log L-21, which corrects L-14 (d)); the 1971 NASA and Soviet
       #    exchange (not read here). The authors of the 2003 paper may include NASA scientists (affiliations not read), so
       #    "outside NASA" is not claimed.
       TO RAISE: read Norman et al. 2003 and the Apollo 11 Lunar Science Conference papers. Like the reflectors, rocks
@@ -227,14 +230,14 @@ claims:
     anchor_checked: primary   # the LROC pages, the JAXA release and the LPSC 2026 abstract were read in full as texts; no image file was analysed
     adoption_weight: 4   # of 5, shown separately; never combined with evidential_weight
     adoption_note: >
-      Not polled. Accepted among planetary scientists; less widely known to the public.
+      Not measured.
     would_change_if: >
       the JAXA or ISRO imaging is shown not to match the claimed sites, or the SELENE halo is attributed to something else
     anchor:
       type: independent-orbital-imaging
       description: >
         LROC (Arizona State University, NASA's camera team; pages read): the first Apollo-site images of 11 to 15 July 2009
-        showed the descent stages, about 3.7 m across, at 1.0 to 1.4 m per pixel (Apollo 12 was not among the five sites in that set); a 50 km orbit gave 0.5 m per
+        showed the descent stages, about 3.7 m across, at 1.0 to 1.4 m per pixel (the page shows five sites and does not mention Apollo 12; its text also says six sites, which we read as an inconsistency, not as evidence); a 50 km orbit gave 0.5 m per
         pixel in September 2009 and "tracks are clearly visible" at Apollo 17; a low pass about 22 km up in 2011 gave
         27 cm by 56 cm pixels (sampled at 25 cm) with new detail around the lunar module, rover and surface experiments.
         JAXA's release of 20 May 2008 reports that SELENE's Terrain Camera (10 m resolution, so no hardware visible)
@@ -257,7 +260,7 @@ claims:
       TO RAISE: non-NASA images of the descent stages at the other four sites, or of foot trails.
 
   - id: apollo-crewed-landings-occurred
-    state: established
+    state: proposed            # was established in the first pass; changed 2026-10-04 (log L-22), see basis
     statement_kind: judgment
     statement: >
       Six Apollo missions (11, 12, 14, 15, 16, 17) landed crews on the Moon, and the crews walked on the surface and
@@ -282,7 +285,8 @@ claims:
       accessible: true
       sources: [src-courde-2017, src-nas-2019, src-lroc-first-look, src-lroc-a17]
     basis: >
-      Filed as our judgment (synthetic) because the step from "hardware and rock came from the Moon" to "crews did it" is an
+      Filed proposed, the same state as its negation apollo-robotic-only-alternative, because both rest on the same three records
+      and the same inference, and neither can be settled by them (log L-22). Filed as our judgment (synthetic) because the step from "hardware and rock came from the Moon" to "crews did it" is an
       inference about robotic capability and the track images are NASA's. Contemporaneous Soviet non-challenge is NOT counted
       here (see apollo-soviet-non-challenge).
       # V: inherits the weakest link, so moderate. Unchanged from the first pass except for the figures and the checks above.
@@ -300,7 +304,7 @@ claims:
     anchor_checked: primary   # the masses and the track descriptions were read directly; the capability inference is ours
     adoption_weight: 1   # of 5, shown separately; never combined with evidential_weight
     adoption_note: >
-      Not measured. Rarely proposed outside specialist discussion.
+      Not measured.
     would_change_if: >
       independent imaging of rover tracks or foot trails is found (raises it), or a documented robotic return of hundreds of kg is shown (lowers it)
     refutes_target: "Apollo artifacts were placed and collected robotically only"
@@ -340,7 +344,7 @@ claims:
       type: convergence-against-fabrication
       description: >
         A staging on Earth would have to account for: reflectors at the Apollo 11, 14 and 15 sites that observatories in
-        France, Italy, Germany, the US and China range today, with the first accurate ranges made at Lick Observatory
+        France, Italy, Germany, the US and China range lunar reflectors today (the ILRS page says they range the Apollo and Luna reflectors without naming arrays for every station), with the first accurate ranges made at Lick Observatory
         within two weeks of the Apollo 11 landing (apollo-retroreflectors-on-moon); descent stages and tracks imaged
         by orbiters, with Japan's SELENE and India's Chandrayaan-2 also examining the sites
         (apollo-sites-imaged-by-non-nasa-orbiters); and about 382 kg of rock returned (apollo-sample-masses-recorded).
@@ -376,7 +380,7 @@ claims:
     anchor_checked: no   # nothing from Soviet 1969 sources was read
     adoption_weight: 3   # of 5, shown separately; never combined with evidential_weight
     adoption_note: >
-      Not measured. Widely repeated as an argument; its public form is stronger than its documentation.
+      Not measured.
     would_change_if: >
       Soviet primary documents or press from 1969 are found that either confirm or contest the landing
     anchor:
@@ -406,7 +410,7 @@ claims:
     anchor_checked: primary   # NASA TN D-7080 read in full in the resumed pass (log L-10)
     adoption_weight: 3   # of 5, shown separately; never combined with evidential_weight
     adoption_note: >
-      Not measured. The Van Allen belts argument is a staple of hoax claims, so doubt is common; expert acceptance is high.
+      Not measured.
     would_change_if: >
       dosimetry outside NASA's records, or a recomputation of the belt transit from independent belt data, differing materially from the table
     anchor:
@@ -448,7 +452,7 @@ claims:
     anchor_checked: primary   # NASA's final report read in full (scan, OCR); the weekly reports it cites were not seen
     adoption_weight: 5   # of 5, shown separately; never combined with evidential_weight
     adoption_note: >
-      Not polled. Widely known and accepted.
+      Not measured; the loss is stated in NASA's own 2009 report.
     would_change_if: >
       the original tapes, or records of their disposal that contradict NASA's 2009 account, are found
     next_step: >
@@ -459,7 +463,8 @@ claims:
         NASA's "The Apollo 11 Telemetry Data Recordings: A Final Report" (read in full; the PDF is a scan, read by OCR)
         says the team estimated each of three tracking stations used 15 one-inch reels, 45 tapes in all, and that the lead,
         Richard Nafzger, could draw one conclusion: "The 45 Apollo 11 tapes were degaussed, recertified, and reused" to
-        meet a tape shortage, citing Goddard weekly reports of January and May 1981. The closing section says
+        meet a tape shortage, citing Goddard weekly reports of January and May 1981. Nafzger says he "didn't find a smoking gun" and that the weekly reports "didn't reference the WNRC in name, but they did
+        reference the need for tapes". The closing section says
         Goddard "either reused the one-inch tapes to meet a network shortage in the early 1980s or disposed of them" and that
         "At no time did anyone recognize the unique content on roughly 45 tapes". Space.com (17 July 2009, read) reports
         the briefing of 16 July 2009 and a restoration from recordings made in Sydney (from Parkes and Honeysuckle Creek),
