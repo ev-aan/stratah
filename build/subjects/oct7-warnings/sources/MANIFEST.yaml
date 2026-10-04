@@ -357,8 +357,8 @@ sources:
 
 # ------------------------- F. The UAE -------------------------
 - id: src-haaretz-uae-orig
-  title: Haaretz (Shlomi Eldar and Ruth Yuval), Revealed - Netanyahu Received an Explicit Warning Days Before Oct. 7. He Didn't Brief Israel's Security Chiefs (8 Sep 2026)
-  author: Shlomi Eldar and Ruth Yuval
+  title: Haaretz, Revealed - Netanyahu Received an Explicit Warning Days Before Oct. 7. He Didn't Brief Israel's Security Chiefs (8 Sep 2026)
+  author: Haaretz (two journalists)
   published: 2026-09-08
   url: https://www.haaretz.com/israel-news/israel-security/2026-09-08/ty-article-magazine/.highlight/netanyahu-got-an-explicit-warning-before-oct-7-he-didnt-brief-security-chiefs/000001a0-7a3b-d7d5-a9fc-7eff3d0f0000
   document_class: secondary (investigative report excerpted from a book; paywalled)
@@ -510,6 +510,16 @@ sources:
     basis: A news report. The IDF told ABC the claims would be looked into at a later stage.
 
 # ------------------------- H. Other reporting and commentary -------------------------
+- id: src-mevaker-home
+  title: "State Comptroller and Ombudsman of Israel, English home page (read 2026-10-04)"
+  author: Office of the State Comptroller and Ombudsman of Israel
+  published: 2026-10-04
+  url: https://www.mevaker.gov.il/en/
+  document_class: "primary_text (the audit body's own home page; a list of featured reports)"
+  read: "yes, directly (home page only; the reports and later releases were not opened)"
+  authenticity:
+    status: not_applicable
+    basis: "A home page read to see which reports are featured; used only for the absence claim o7w-comptroller-no-findings, which is provisional."
 - id: src-inn-comptroller
   title: Israel National News, Comptroller warns - Israel lacks coherent national security doctrine (Nov 2025)
   author: Israel National News

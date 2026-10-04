@@ -172,16 +172,7 @@ chains:
         form: "The security chiefs 'decided ... not to wake me up, and not to attack beforehand. That's a failure, but it's not betrayal.'"
         source: src-jc-wake
         read: yes
-        note: "Washington Post says he accused them of 'deliberately' letting him sleep. Both are his statements; the broadcasts were not seen."
-      - id: tx-c-03
-        date: "2026-08-31"
-        precision: day
-        step: persistence
-        carrier: "A television interview by a member of the prime minister's household (Channel 14, Monday 31 Aug per the Jewish Chronicle)"
-        form: "A remark implying that an opposition party leader was 'already dressed and ready' early on 7 October; the leader called it a 'vile conspiracy theory' and said he would sue."
-        source: src-cnn-uae
-        read: yes
-        note: "The prime minister called the idea 'nonsense' (Jewish Chronicle). A claim about one person's conduct on the day, not about what the prime minister knew; recorded by role only (log L-16)."
+        note: "The Washington Post reports a different version, that he said they 'deliberately' let him sleep for four hours after the attack began (log L-20). Both are his statements; the broadcasts were not seen."
       - id: tx-c-04
         date: "2026-09-10"
         precision: day

@@ -10,7 +10,7 @@
 #  - nothing here speculates about anyone's religion, ethnicity or beliefs.
 # Authored 2026-10-04 for independent review. The author does not write review.yaml.
 # ---------------------------------------------------------------------------
-headline: "Signs reached Israeli units; a warning to Netanyahu is disputed; no sign he knew the date"
+headline: "Signs reported inside Israel's services; foreign warnings to Netanyahu disputed; no date found"
 headline_claim: o7w-pm-personally-warned
 headline_status: draft           # live story; the headline rests on contested and absence claims, so it stays a draft
 event_status: live
@@ -18,23 +18,23 @@ as_of: 2026-10-04
 assessment:
   question: "What is known about warnings before the 7 October 2023 attack, and what did the Israeli prime minister know?"
   answer: partly
-  headline: "Partly known: signs existed inside Israel's services; whether Netanyahu was warned is disputed and unproven; no evidence he knew the date or let it happen."
+  headline: "Partly known: signs inside Israel's services are reported but disputed; foreign warnings to Netanyahu are contested; no evidence was found in published reports that he knew the date or let it happen."
   key_points:
     - "The IDF and Shin Bet say they held Hamas's invasion plan and misread signs, but their probes do not cover what the prime minister was told."
     - "Reports say the UAE and Egypt warned Netanyahu; they rest on anonymous sources, he denies both, and no document or recording is public."
     - "No evidence was found that he knew the date or let the attack happen. No state inquiry exists; the court has deferred the question."
   text: >
-    As of 4 October 2026 this is a live story and no inquiry with power to compel records has reported. What is established, from the Israeli military's and Shin Bet's own published investigations (read through news reports, not opened): Israeli bodies held Hamas's invasion plan, called "Jericho Wall" by the army and "Walls of Jericho" by the Shin Bet, in two versions (2018 and 2022); it was judged unrealistic and not acted on;
+    As of 4 October 2026 this is a live story and no inquiry with power to compel records has reported. What is reported, from news accounts of the Israeli military's and Shin Bet's own published investigations (the texts were not opened): Israeli bodies held Hamas's invasion plan, called "Jericho Wall" by the army and "Walls of Jericho" by the Shin Bet, in two versions (2018 and 2022); it was judged unrealistic and not acted on;
     observers on the border and at least one signals-intelligence analyst reported unusual Hamas activity in the months before; and on the night of 6 to 7 October the Shin Bet and the army saw signs they read as readiness or a limited raid, not an invasion. The Shin Bet's alert of 3:03 a.m. went to the army, the police and the National Security Council. By the prime minister's own account he was first told the attack had begun, at 6:29 a.m.
     What is contested: in September 2026 Haaretz (from a book by two journalists), then the New York Times, The Atlantic and the Wall Street Journal, reported that the UAE president phoned Netanyahu about ten days before the attack and that Egypt's intelligence chief warned Israel, in a visit on 26 September 2023 and in a call. All rest on anonymous officials. The Prime Minister's Office calls the UAE report an "absolute lie" and says he neither met nor spoke with the Egyptian chief in the months before; the UAE ministry declined to deny and Egypt has not commented.
     Every account of these warnings, including those who claim them, says they gave no date, target or method.
-    What is not supported: that he knew the date, that he was told in the night and did nothing, that he deliberately let the attack happen, or that the Israeli government staged it. Each is filed as a claim to test, with what evidence would show it; none was found. He in turn says the Shin Bet chief and army chiefs saw warning signs the night before and chose not to wake him; the Shin Bet chief denies it and says he warned him in general terms in 2023. Both sides publish only selected excerpts of meeting records.
+    What is not supported: that he knew the date, that he was told in the night and did nothing, that he deliberately let the attack happen, or that the Israeli government staged it. Each is filed as a claim to test, with what evidence would show it; none was found in the published reports read. He in turn says the Shin Bet chief and army chiefs saw warning signs the night before and chose not to wake him; the Shin Bet chief denies it and says he warned him in general terms in 2023. Both sides publish only selected excerpts of meeting records.
     The official record is thin where the question is sharpest: the army and Shin Bet investigated themselves, the State Comptroller's audits of political-level decision-making are frozen by a High Court order, the Prime Minister's published answers are excerpts, and the High Court said on 23 September 2026 that it will not rule on a state commission of inquiry until after the 27 October election.
-  basis: [o7w-pm-personally-warned, o7w-uae-call, o7w-egypt-visit, o7w-egypt-call, o7w-warnings-nonspecific, o7w-jericho-held, o7w-jericho-dismissed, o7w-units-flagged, o7w-night-signs, o7w-told-night-did-nothing, o7w-chiefs-knew-no-wake, o7w-knew-date, o7w-allowed-deliberately, o7w-staged, o7w-probes-scope, o7w-comptroller-scope, o7w-inquiry-status]
-  rated_claim: o7w-warnings-nonspecific
+  basis: [o7w-pm-personally-warned, o7w-comptroller-no-findings, o7w-uae-call, o7w-egypt-visit, o7w-egypt-call, o7w-warnings-nonspecific, o7w-jericho-held, o7w-jericho-dismissed, o7w-units-flagged, o7w-night-signs, o7w-told-night-did-nothing, o7w-chiefs-knew-no-wake, o7w-knew-date, o7w-allowed-deliberately, o7w-staged, o7w-probes-scope, o7w-comptroller-scope, o7w-inquiry-status]
+  rated_claim: o7w-pm-personally-warned
   would_settle: "A state commission of inquiry with power to compel records, or discovery in the defamation suits, producing: the PMO, National Security Council and military secretary call logs and the full minutes of the 1 October 2023 meeting; the Shin Bet and military secretariat records of the night of 6 to 7 October; the UAE and Egyptian records of their contacts; and the documents the book's authors say they hold."
 search_summary: >
-  A claims map of what is known about warnings before 7 October 2023 and what Israel's prime minister knew: each circulating claim tested against the official and primary record, as of 4 October 2026.
+  A claims map of what is known about warnings before 7 October 2023 and what Israel's prime minister knew: each circulating claim tested against the official record as far as it could be read (mostly through news reports); most claims are contested or open, as of 4 October 2026.
 url_slug: oct7-warnings-claims-map-news-review
 
 subject: oct7-warnings
@@ -68,8 +68,8 @@ claims:
     state: established
     exception: "The IDF's and Shin Bet's own published findings were read only through news reports (their sites were blocked), and the New York Times piece was not reached, so the anchor stays secondary and the claim is held at moderate."
     statement: >
-      Israeli military intelligence and the Shin Bet held Hamas's plan for a mass invasion of southern Israel before 7 October 2023, the plan Israel called "Jericho Wall" (the Shin Bet's published summary, as reported, says it knew two versions, from 2018 and 2022); the New York Times reported on 30 November 2023 a 40-page document obtained more than a year before.
-    evidence_class: primary_text
+      As reported by CNN, NPR, the Jerusalem Post and Ynet on the Shin Bet's and the IDF's published findings (and by the NYT through summaries), Israeli military intelligence and the Shin Bet held Hamas's plan for a mass invasion of southern Israel before 7 October 2023, the plan Israel called "Jericho Wall" (the Shin Bet's published summary, as reported, says it knew two versions, from 2018 and 2022); the New York Times reported on 30 November 2023 a 40-page document obtained more than a year before.
+    evidence_class: interpretive
     confidence: moderate
     statement_kind: reported
     confidence_reasons:
@@ -101,8 +101,8 @@ claims:
     state: established
     exception: "As o7w-jericho-held: the official findings were read through reports only."
     statement: >
-      The Jericho Wall plan was judged unrealistic or aspirational and was not translated into preparations: the IDF's investigations, as reported, found that no action followed the July 2022 General Staff discussion, and the Shin Bet says it did not take the 2018 or 2022 versions seriously; an expert committee that reviewed the IDF's probes (Nov 2025) listed neglect of the Jericho Wall plan among six main causes.
-    evidence_class: primary_text
+      As reported by Ynet and the Jerusalem Post on the IDF's and Shin Bet's findings and by CTC Sentinel on the NYT's report, the Jericho Wall plan was judged unrealistic or "aspirational" and was not translated into preparations: the IDF's investigations found that no action followed the July 2022 General Staff discussion, and the Shin Bet says it did not take the 2018 or 2022 versions seriously; an expert committee that reviewed the IDF's probes (Nov 2025) listed neglect of the Jericho Wall plan among six main causes.
+    evidence_class: interpretive
     confidence: moderate
     statement_kind: reported
     confidence_reasons:
@@ -125,8 +125,8 @@ claims:
       type: official-findings-via-reports
       description: >
         Ynet on the IDF findings (27 Feb 2025) [read, report only]: at a classified General Staff meeting on 27 July 2022 a senior officer "ordered preparations for war with Hamas based on the 'Jericho Wall' plans. However, no action was taken." The Jerusalem Post on the Shin Bet summary [read, report only]: "Given that it did not view these plans as realistic, a broader Hamas invasion of southern Israel was essentially not part of any of the agency's security analyses."
-        Ynet on the expert committee (10 Nov 2025) [read, report only]: it "identified six main causes", including "neglect of the 'Jericho Wall' defense plan". New York Times via KIRO 7 and MEE [read]: officials saw it as "aspirational" and beyond Hamas's capabilities.
-      sources: [src-ynet-idf-0227, src-jpost-shabak, src-ynet-meta, src-kiro7-nyt, src-mee-jw]
+        Ynet on the expert committee (10 Nov 2025) [read, report only]: it "identified six main causes", including "neglect of the 'Jericho Wall' defense plan". New York Times via KIRO 7 and MEE [read]: officials judged it beyond Hamas's capabilities; the word "aspirational" is from CTC Sentinel [read].
+      sources: [src-ynet-idf-0227, src-jpost-shabak, src-ynet-meta, src-kiro7-nyt, src-mee-jw, src-ctc]
     basis: >
       # V: quotations found in the stored page text of the named outlets on 2026-10-04. Whether the plan was ever shown to anyone outside these services is a separate question (o7w-jericho-reached-pm).
 
@@ -134,7 +134,7 @@ claims:
     state: searched_gap
     statement: >
       Whether the prime minister was shown the Jericho Wall document or its content before 7 October is not established: the New York Times said it could not determine whether he saw it, and later reporting says it was not shared with the top political leadership.
-    evidence_class: primary_text
+    evidence_class: interpretive
     confidence: provisional
     statement_kind: search_result
     absence_anchor: true
@@ -159,8 +159,8 @@ claims:
   - id: o7w-8200-analyst
     state: proposed
     statement: >
-      On 6 July 2023 a signals-intelligence analyst emailed superiors that a Hamas training exercise matched the Jericho Wall plan; a Gaza Division officer replied six days later that it was an "imaginary scenario", and she and a colleague answered that it was "a plan designed to start a war".
-    evidence_class: primary_text
+      On 6 July 2023 a signals-intelligence analyst emailed superiors that a Hamas training exercise matched the Jericho Wall plan; an IDF commander replied six days later that it was an "imaginary scenario"; the analyst answered "This is a plan designed to start a war", and a colleague wrote that they "completely and emphatically disagree".
+    evidence_class: interpretive
     confidence: provisional
     statement_kind: reported
     evidential_weight: 3   # of 5
@@ -185,8 +185,8 @@ claims:
     state: established
     exception: "The expert committee's report was read only through Ynet, and the observers' accounts through ABC and CTC, so the anchor stays secondary."
     statement: >
-      Border observers of the army's combat-intelligence corps reported unusual Hamas activity (drills, holes dug, explosives placed) for months before 7 October; an expert committee that reviewed the IDF's probes (reported 10 Nov 2025) said their reporting could have exposed the activity had it been properly analysed.
-    evidence_class: primary_text
+      As reported by Ynet, ABC and CTC Sentinel, border observers of the army's combat-intelligence corps reported unusual Hamas activity (drills, holes dug, explosives placed) for months before 7 October; an expert committee that reviewed the IDF's probes (reported 10 Nov 2025) said their reporting could have exposed the activity had it been properly analysed.
+    evidence_class: interpretive
     confidence: moderate
     statement_kind: reported
     confidence_reasons:
@@ -218,8 +218,8 @@ claims:
     state: established
     exception: "The Shin Bet and IDF accounts of the night were read through reports and a news analysis of Bar's affidavit only."
     statement: >
-      On the night of 6 to 7 October the Shin Bet and the army saw signs of unusual Hamas activity (the activation of 45 Israeli SIM cards in Gaza, reports of readiness) which they read as Hamas readiness or a limited raid, not as an invasion; the Shin Bet sent an alert at 3:03 a.m. to the IDF, the police and the National Security Council, and its chief briefed deputies at 4:30 a.m.; no one assessed that an attack of the scale that followed was coming.
-    evidence_class: primary_text
+      As reported by NPR, CNN, the Jerusalem Post and Ynet, on the night of 6 to 7 October the Shin Bet and the army saw signs of unusual Hamas activity (the activation of 45 Israeli SIM cards in Gaza, reports of readiness) which they read as Hamas readiness or a limited raid, not as an invasion; the Shin Bet sent an alert at 3:03 a.m. to the IDF, the police and the National Security Council, and its chief briefed deputies at 4:30 a.m.; no one assessed that an attack of the scale that followed was coming.
+    evidence_class: interpretive
     confidence: moderate
     statement_kind: reported
     confidence_reasons:
@@ -250,7 +250,7 @@ claims:
   - id: o7w-units-flagged
     state: contested
     statement: >
-      The circulating claim that intelligence units, drills or monitoring reports "flagged" the attack and were ignored is partly supported and partly overstated: signs of unusual activity were reported and not read as an invasion warning (o7w-8200-analyst, o7w-observers, o7w-night-signs), but the IDF's first published probe also says that "no one saw or detected any sign of this event in advance, not even at the lowest intelligence level".
+      The circulating claim that intelligence units, drills or monitoring reports "flagged" the attack and were ignored is partly supported and partly overstated: signs of unusual activity were reported and not read as an invasion warning (o7w-8200-analyst, o7w-observers, o7w-night-signs), but the IDF's first published probe also says, as Ynet quotes it, "There was no one who saw or detected any sign of this event in advance, not even at the lowest intelligence level"; CTC Sentinel also reports that the signals-intelligence analyst issued further warnings in the following weeks, that the Gaza Division then prepared a document warning of a large-scale invasion in which Hamas intended to take up to 250 hostages, and that she sent another warning a few days before 7 October.
     evidence_class: interpretive
     confidence: low
     statement_kind: judgment
@@ -264,17 +264,17 @@ claims:
     adoption_note: >
       Not polled. "They knew and ignored it" is the form in which the claim circulates abroad; inside Israel a version of it is used against the security chiefs (o7w-chiefs-knew-no-wake).
     would_change_if: >
-      a recorded assessment before 7 October that named an imminent mass attack, or the IDF's text reconciling "no one saw any sign" with its list of earlier warning signs
+      a recorded assessment before 7 October that named an imminent mass attack, or the IDF's text reconciling "no one who saw or detected any sign" with its list of earlier warning signs
     next_step: >
       Read the IDF findings in full and ask what "this event" means in the sentence quoted.
     disputed_by:
-      - {who: "IDF investigation of 27 Feb 2025, as reported", kind: institution, position: "No one saw or detected any sign of this event in advance, not even at the lowest intelligence level; the surprise was total.", source_read: src-ynet-idf-0227, via: "Ynetnews report on the IDF's published findings"}
+      - {who: "IDF investigation of 27 Feb 2025, as reported", kind: institution, position: "There was no one who saw or detected any sign of this event in advance, not even at the lowest intelligence level; the surprise was total.", source_read: src-ynet-idf-0227, via: "Ynetnews report on the IDF's published findings"}
       - {who: "IDF expert committee reviewing the probes, Nov 2025, as reported", kind: institution, position: "Direct intelligence accumulated on the night which, if professionally analysed, could and should have led to an alert; observers' reports could have exposed unusual activity.", source_read: src-ynet-meta, via: "Ynetnews report on the committee's findings"}
     anchor:
       type: comparison-of-official-findings
       description: >
-        Compares the sentence quoted from the IDF's 2025 probe with the other IDF-linked findings: Ynet (27 Feb 2025) [read] reports both the "no one saw" sentence and "at least 10 warning signs in the two years before the war", and that "We read the signals but we didn't see what they actually said"; Ynet (10 Nov 2025) [read] reports the committee's contrary emphasis. Shin Bet [via Ynet on Bar's affidavit, read]: the warning level was wrong. The discrepancy is recorded as a discrepancy to resolve, not as evidence of concealment.
-      sources: [src-ynet-idf-0227, src-ynet-meta, src-ynet-bar, src-nbc-analysts, src-abc-spotters]
+        Compares the sentence quoted from the IDF's 2025 probe with the other IDF-linked findings: Ynet (27 Feb 2025) [read] reports both the "no one who saw or detected" sentence and "at least 10 warning signs in the two years before the war", and that "We read the signals but we didn't see what they actually said"; Ynet (10 Nov 2025) [read] reports the committee's contrary emphasis. CTC Sentinel [read] adds: the analyst's "additional warnings about Hamas' plans over the coming weeks"; a Gaza Division document warning "that Hamas was planning a large-scale invasion and intended to take up to 250 hostages", with no specific time, date or location; and another warning from the same analyst "a few days before October 7". Shin Bet [via Ynet on Bar's affidavit, read]: the warning level was wrong. The discrepancy is recorded as a discrepancy to resolve, not as evidence of concealment.
+      sources: [src-ynet-idf-0227, src-ynet-meta, src-ynet-bar, src-nbc-analysts, src-abc-spotters, src-ctc]
     basis: >
       Our own comparison, so a judgment. The claim as circulated (flagged and ignored) is partly right on indicators and wrong if it means a specific warning of the attack.
 
@@ -330,10 +330,10 @@ claims:
       type: news-reports-and-statements
       description: >
         Ynet summary of The Atlantic [read]: "Flight records cited in the report show that the Egyptian aircraft remained at Ben Gurion Airport for 67 minutes"; "It remains unclear exactly which Israeli officials met with Kamel". Haaretz (26 Sep 2026) [read]: "The plane's landing had previously been reported in the Israeli media, but the identity of the person on board was unknown"; the National Security Council had said at the time that the adviser's absence from the Yom Kippur War ceremony "was not related to the National Security Adviser's schedule". Jerusalem Post [read]: The Atlantic says the timing appears in Israel Airports Authority flight logs and is documented by independent flight trackers.
-        PMO statement of 26 Sep 2026 [read, stored]: the prime minister "neither met nor spoke with Abbas Kamel"; it does not mention a visit to others. Egypt and its president's office did not respond to The Atlantic (Haaretz). The original was not reached.
-      sources: [src-ynet-egypt, src-haaretz-egypt, src-jpost-egypt, src-mee-atlantic, src-pmo-x-0926, src-aj-warnings]
+        PMO statement of 26 Sep 2026 [read, stored]: the prime minister "neither met nor spoke with Abbas Kamel"; it does not mention a visit to others. Egypt and its president's office did not respond to The Atlantic (Haaretz). The Wall Street Journal, via Haaretz (28 Sep 2026) [read], also says Kamel travelled to Israel in September 2023 and warned the situation "could 'blow up in everyone's faces'", and that Israeli officials told him it was under control. The originals were not reached.
+      sources: [src-ynet-egypt, src-haaretz-egypt, src-jpost-egypt, src-mee-atlantic, src-pmo-x-0926, src-aj-warnings, src-haaretz-deny-visit]
     basis: >
-      Contested: one anonymous-source report with a verifiable flight record cited but not published, against a denial by one named official. The plane's landing is reported to have been public in 2023; the identity of its passenger is the claim.
+      Contested: anonymous-source reports (The Atlantic; the Wall Street Journal, via Haaretz, also says a September 2023 visit; whether their sources are independent is unknown) with a flight record cited but not published, against a denial by one named official. The plane's landing is reported to have been public in 2023; the identity of its passenger is the claim.
 
   - id: o7w-egypt-call
     state: contested
@@ -379,11 +379,11 @@ claims:
     next_step: >
       Obtain the book and the New York Times original; ask the UAE and the PMO for the records; watch for disclosure in the libel suits the PM has said he will bring.
     disputed_by:
-      - {who: "Prime Minister's Office of Israel", kind: institution, position: "'Prime Minister Netanyahu didn't speak to the president of the UAE during the period in question and received no warning from him'; the National Security Council and the military secretary reviewed his call log 'and found no trace'; no entry of an Emirati representative into the PMO in the period; the PM named a Palestinian political figure living in the UAE as the person behind the report (his representatives reject this).", source_read: src-aj-sue, via: "Al Jazeera 10 Sep 2026, Jerusalem Post 26 Sep 2026, CNN 8 Sep 2026 [all read]"}
+      - {who: "Prime Minister's Office of Israel", kind: institution, position: "'Prime Minister Netanyahu didn't speak to the president of the UAE during the period in question and received no warning from him'; the National Security Council and the military secretary reviewed his call log 'and found no trace'; no entry of an Emirati representative into the PMO in the period.", source_read: src-aj-sue, via: "Al Jazeera 10 Sep 2026, Jerusalem Post 26 Sep 2026, CNN 8 Sep 2026 [all read]"}
     anchor:
       type: news-reports-and-statements
       description: >
-        CNN, 8 Sep 2026 [read]: the report "said UAE President Sheikh Mohammed bin Zayed called Netanyahu about 10 days before October 7 and, during a 45-minute call, warned him that Hamas' Gaza leader Yahya Sinwar was planning a major move"; one author said "I have the document, I have records"; the UAE Foreign Ministry "does not comment on media stories or speculation regarding conversations between government leaders" but "did not deny the call". UAE statement [read, stored].
+        CNN, 8 Sep 2026 [read]: the report "said UAE President Sheikh Mohammed bin Zayed called Netanyahu about 10 days before October 7 and, during a 45-minute call, warned him that Hamas' Gaza leader Yahya Sinwar was planning a major move"; one author said "I have the document, I have records"; the UAE Foreign Ministry "does not comment on media stories or speculation regarding conversations between government leaders" but "did not deny the call". UAE statement [read, stored]: its third sentence adds "When necessary, all relevant intelligence has been and continues to be communicated between the relevant entities."
         Haaretz summary of the New York Times (25 Sep 2026) [read]: "Two sources, including a person who spoke directly with United Arab Emirates President Mohammed bin Zayed, confirmed that the Emirati leader warned Prime Minister Benjamin Netanyahu of a 'major attack' by Hamas". Washington Post via Yahoo [read]: a person familiar says that in early 2024 the UAE president told the CIA director he had warned Netanyahu "about the possibility of violence erupting but did not include specific details". Jerusalem Post [read]: the UAE official told The National that the UAE "does not discuss details of this kind at the level of the leaders" (not a denial); two US sources said the Biden administration "was unaware of any specific warning". The originals of Haaretz's book excerpt, the Times and The National were not reached.
       sources: [src-cnn-uae, src-ynet-book, src-haaretz-uae-orig, src-haaretz-nyt-uae, src-memo-nyt, src-yahoo-wapo, src-jpost-909744, src-aj-sue, src-uae-mofa-0908, src-pmo-x-0926, src-aa-uae]
     basis: >
@@ -462,31 +462,31 @@ claims:
       type: news-reports-and-affidavit-via-report
       description: >
         Ynet (29 Sep 2026) [read]: Bar's April 2025 affidavit to the High Court says the Shin Bet "repeatedly warned political leaders during 2023" of a "window of opportunity" and a "perfect storm"; in July 2023 he told Netanyahu he was delivering a "warning of war" with "neither a specific date nor time"; "That warning, however, was not intelligence indicating that Hamas was preparing to attack Israel on Oct. 7, nor was it a specific warning of an impending assault from Gaza", and the PMO "maintained that the prime minister received no warning from Bar of 'a war in Gaza.'"
-        Ynet on the PM's 55 pages (6 Feb 2026) [read]: a 31 July 2023 excerpt in which Bar "described a sharp rise in daily threat warnings" and the PM said "You need to hit them hard. Kill someone there". Al-Monitor and ThePrint [read] carry Bar's 28 Sep 2026 statement: "I warned Netanyahu of a disaster, and he ignored me". The affidavit and the transcripts were not opened.
-      sources: [src-ynet-bar, src-ynet-55page, src-jpost-shabak, src-theprint-bar]
+        Ynet on the PM's 55 pages (6 Feb 2026) [read]: a 31 July 2023 excerpt in which Bar "described a sharp rise in daily threat warnings" and the PM said "You need to hit them hard. Kill someone there". ABC Australia (30 Sep 2026) [read]: Bar says he had warned the PM "of an impending disaster, and he ignored me". The affidavit and the transcripts were not opened.
+      sources: [src-ynet-bar, src-ynet-55page, src-jpost-shabak, src-theprint-bar, src-abc-au]
     basis: >
       Contested. Both sides publish excerpts selected by themselves; the full records are not public. The claim "he ignored warnings of 7 October" is not what this record shows; "he heard general warnings and set policy toward calm" is.
 
   - id: o7w-oct1-meeting
     state: established
-    exception: "The 1 October 2023 meeting is shown by the prime minister's own released excerpts, read through Ynet; the rest of what is said about its minutes comes from the New York Times, which was not reached."
+    exception: "The 1 October 2023 meeting is shown by the prime minister's own released excerpts, read through Ynet; the 55-page document and the PMO summary were not opened."
     statement: >
-      On 1 October 2023 the prime minister convened a Gaza security assessment at which Shin Bet and army chiefs discussed the border unrest; his own released excerpts and meeting summary show humanitarian easing and "operational readiness for the targeted killings that were recommended", and the New York Times reported from minutes that he opposed strikes on Hamas leaders and said action in Gaza might harm a Saudi normalisation deal; neither the excerpts nor, as reported, the minutes mention a foreign warning.
-    evidence_class: primary_text
+      As reported by Ynet on the prime minister's own released excerpts and PMO summary, on 1 October 2023 he convened a Gaza security assessment at which Shin Bet and army chiefs discussed the border unrest; the excerpts and summary show humanitarian easing and "operational readiness for the targeted killings that were recommended"; the full transcript is not public.
+    evidence_class: interpretive
     confidence: moderate
     statement_kind: reported
     confidence_reasons:
       start: moderate
       start_because: "The meeting and its calm-first line are in the prime minister's own published excerpts and the PMO's contemporaneous summary, read through Ynet."
       steps:
-        - {domain: indirectness, effect: down1, reason: "The 55-page document, the PMO summary and the Times' minutes were not opened."}
+        - {domain: indirectness, effect: down1, reason: "The 55-page document and the PMO summary were not opened."}
         - {domain: independent_corroboration, effect: up1, reason: "The meeting is confirmed by a party (his excerpts), an opponent (Bar's omitted remarks, as reported by Ynet) and a newspaper's reading of the minutes."}
       reviewed: false
     evidential_weight: 4   # of 5
     anchor_checked: secondary
     adoption_weight: 3   # of 5
     adoption_note: >
-      Not polled. What was said at the meeting is disputed in part (o7w-netanyahu-excerpts); that it took place and set a calm-first line is not.
+      Not polled. What was said at the meeting is disputed in part (o7w-oct1-strikes, o7w-netanyahu-excerpts); that it took place and set a calm-first line is not.
     would_change_if: >
       the full transcript of the meeting published
     next_step: >
@@ -495,10 +495,61 @@ claims:
       type: official-excerpts-via-reports
       description: >
         Ynet (29 Sep 2026) [read]: "a security assessment Netanyahu convened on Oct. 1, 2023, just six days before the massacre"; excerpt of Bar, "We can be very, very generous, even enticing, on humanitarian issues ... I don't think that, given the situation as we know it, we can initiate a round of fighting"; PMO summary: "advancing operational readiness for the targeted killings that were recommended"; "The full transcript of the Oct. 1 meeting has not been released."
-        ABC Australia (30 Sep 2026) [read], quoting the Times: "he told them that the goal should be to maintain calm in Gaza" and any Israeli action "might sabotage the prospect of Saudi Arabia establishing diplomatic relations with Israel". Jerusalem Post (26 Sep 2026) [read] and Haaretz (25 Sep 2026) [read] give the same account; the Emirati warning was not mentioned at the meeting (five former officials, via the Times). The Times was not reached.
-      sources: [src-ynet-bar, src-ynet-55page, src-jpost-909744, src-haaretz-nyt-uae, src-abc-au]
+      sources: [src-ynet-bar, src-ynet-55page]
     basis: >
-      # V: quotations found in the stored page text of Ynet and the Jerusalem Post on 2026-10-04. The Saudi-deal remark rests on the Times alone and is labelled as reported.
+      # V: quotations found in the stored page text of Ynet on 2026-10-04.
+
+  - id: o7w-oct1-strikes
+    state: contested
+    statement: >
+      Whether the prime minister opposed or rejected proposals at the 1 October 2023 meeting to strike Hamas leaders is contested: the New York Times, via the Jerusalem Post and Middle East Monitor, reported from minutes that he rejected suggestions to strike Hamas leaders directing West Bank attacks, said the goal should be calm and that action in Gaza might harm a Saudi normalisation deal; his own published document says "no official proposed eliminating Hamas' leadership in Gaza" and that he instructed the establishment to prepare such targeted killings; Ynet's own investigation says Bar did seek to advance a plan to kill Hamas's leaders.
+    evidence_class: interpretive
+    confidence: low
+    statement_kind: reported
+    evidential_weight: 3   # of 5
+    anchor_checked: secondary
+    adoption_weight: 3   # of 5
+    adoption_note: >
+      Not polled. Both accounts are selected readings of minutes the public has not seen.
+    would_change_if: >
+      the full minutes of the meeting
+    next_step: >
+      Obtain the full minutes of 1 October 2023.
+    disputed_by:
+      - {who: "Prime Minister's Office of Israel, in the PM's published answers", kind: institution, position: "No official proposed eliminating Hamas's leadership at that meeting; it was the PM who instructed preparation for targeted killings.", source_read: src-ynet-bar, via: "Ynet 29 Sep 2026 [read]"}
+      - {who: "New York Times, as reported (five former Israeli security officials)", kind: work, position: "He rejected suggestions to strike Hamas leaders and said action in Gaza might sabotage Saudi normalisation.", source_read: src-jpost-909744, via: "Jerusalem Post and Middle East Monitor [read]; the Times was not reached"}
+    anchor:
+      type: news-reports-and-published-excerpts
+      description: >
+        Ynet (29 Sep 2026) [read]: "Netanyahu's document also argues that during that discussion 'no official proposed eliminating Hamas' leadership in Gaza' and says it was Netanyahu who instructed the security establishment to prepare for such targeted killings"; Bergman's reporting: Bar "sought to advance an assassination plan". Jerusalem Post (26 Sep 2026) [read]: the Times "cited five former Israeli security officials, who further told the NYT that Netanyahu rejected suggestions from his security chiefs to strike Hamas leaders". Middle East Monitor [read]: he "resisted proposals by some security officials to consider strikes against senior Hamas figures". ABC Australia [read], quoting the Times: he "told them that the goal should be to maintain calm in Gaza" and any action "might sabotage the prospect of Saudi Arabia establishing diplomatic relations with Israel". The Times was not reached.
+      sources: [src-ynet-bar, src-jpost-909744, src-memo-nyt, src-abc-au]
+    basis: >
+      Contested between two accounts of the same meeting; neither side's minutes are public.
+
+  - id: o7w-oct1-no-foreign-warning
+    state: searched_gap
+    statement: >
+      No source read shows that a foreign warning was raised at the 1 October 2023 meeting: the prime minister's excerpts, as reported, do not mention one, and the New York Times, via the Jerusalem Post and Middle East Monitor, reports that the minutes it reviewed do not mention the Emirati warning; this is an absence in excerpts and in a newspaper's reading, not a reading of the full minutes.
+    evidence_class: synthetic
+    confidence: provisional
+    statement_kind: search_result
+    absence_anchor: true
+    evidential_weight: 2   # of 5; an absence anchor
+    anchor_checked: no
+    adoption_weight: 3   # of 5
+    adoption_note: >
+      Not polled. Its meaning depends on whether there was a warning to raise (o7w-uae-call).
+    would_change_if: >
+      the full minutes showing a mention, or a participant's account
+    next_step: >
+      Obtain the full minutes of 1 October 2023.
+    anchor:
+      type: search-record
+      description: >
+        Searched Ynet (29 Sep 2026 and 6 Feb 2026) [read] for the excerpts' content: no foreign warning mentioned. Jerusalem Post (26 Sep 2026) [read]: the Times reported he "did not disclose an alleged warning from the UAE president" at the meeting; Middle East Monitor [read]: the minutes "reviewed by the newspaper" do not mention it. The Times was not reached.
+      sources: [src-ynet-bar, src-ynet-55page, src-jpost-909744, src-memo-nyt]
+    basis: >
+      An absence anchor is capped at provisional. Excerpts and a newspaper's reading are not the minutes.
 
   - id: o7w-pm-personally-warned
     state: contested
@@ -510,7 +561,8 @@ claims:
     assumptions:
       - {text: "The reports of the UAE call and the Egyptian contacts describe real events and are not distorted by the interests of those who leaked them.", if_wrong: "If any is fabricated or mistaken, that part of the claim falls; if all are right, the claim holds in the general form only."}
     alternatives:
-      - {text: "No warning reached him; the reports are mistaken, or are leaks timed for the 27 Oct election.", why_not_preferred: "Not preferred, but not excluded: a UAE non-denial, a US lawmaker's on-the-record statement in 2023 and several anonymous sources from different governments point the other way, while the PMO's denial rests on a call-log review that is not public. The election timing is a reason for care, not evidence."}
+      - {text: "No warning reached him; the reports are mistaken, or are leaks timed for the 27 Oct election.", why_not_preferred: "Not excluded. The anonymous reports may share sources, and the 2023 lawmaker's statement concerns Egypt referring something to Israel, not the PM; the UAE statement is a non-denial, not a confirmation. Against that, the denial rests on a call-log review that is not public. Neither side has published a record; election timing is a reason for care about both the leaks and the denials, not evidence for either."}
+      - {text: "Warnings were given but reached only other officials or were relayed in general terms, not to him personally.", why_not_preferred: "Not excluded and not shown; the PMO's 2026 wording denies that an Israeli intelligence official conveyed an Egyptian warning to him, and the UAE and Egyptian accounts name no other recipient."}
     evidential_weight: 3   # of 5
     anchor_checked: secondary
     adoption_weight: 5   # of 5
@@ -537,7 +589,7 @@ claims:
     state: searched_gap
     statement: >
       No source read shows that the prime minister was told, before the attack began, on the night of 6 to 7 October 2023 that Hamas attack preparations were under way and then delayed or did nothing: by his own account he was first informed at 6:29 a.m. that the attack had begun, and the Shin Bet's 3:03 a.m. alert went to the National Security Council, whose handling is not public.
-    evidence_class: primary_text
+    evidence_class: interpretive
     confidence: provisional
     statement_kind: search_result
     absence_anchor: true
@@ -562,7 +614,7 @@ claims:
   - id: o7w-chiefs-knew-no-wake
     state: contested
     statement: >
-      The prime minister's counter-claim is that the Shin Bet chief and army chiefs saw warning signs on the night before the attack and chose not to wake him ("failure, not betrayal"), and that this is why October 7 happened; the former Shin Bet chief denies it, and the Shin Bet's and army's own accounts describe signs read as readiness or a limited raid.
+      The prime minister's counter-claim is that the Shin Bet chief and army chiefs saw warning signs on the night before the attack and chose not to wake him, which he called "a failure" but not "betrayal", and that had they woken him "This [October 7] would not have taken place"; the former Shin Bet chief denies it, and the Shin Bet's and army's own accounts describe signs read as readiness or a limited raid.
     evidence_class: interpretive
     confidence: low
     statement_kind: reported
@@ -580,7 +632,7 @@ claims:
     anchor:
       type: news-reports-and-statements
       description: >
-        Jewish Chronicle (2 Sep 2026) [read]: on Channel 14 he said "they [the security chiefs] decided - because of a fear of a miscalculation, so as not to annoy Hamas - not to wake me up, and not to attack beforehand. That's a failure, but it's not betrayal"; the Washington Post [read] says he accused them of "deliberately" letting him sleep. ThePrint [read]: his 1 Sep press conference said Bar, the chief of staff and the military intelligence chief "discussed warning signs, but Bar chose not to update the prime minister".
+        Jewish Chronicle (2 Sep 2026) [read]: on Channel 14 he said "they [the security chiefs] decided - because of a fear of a miscalculation, so as not to annoy Hamas - not to wake me up, and not to attack beforehand. That's a failure, but it's not betrayal"; the Washington Post [read] reports a different accusation, that he said they "deliberately" let him sleep for four hours after the attack began at 6:30 a.m. (not the claim described here; see log). ThePrint [read]: his 1 Sep press conference said Bar, the chief of staff and the military intelligence chief "discussed warning signs, but Bar chose not to update the prime minister".
         Against: Ynet on the 55 pages [read]: the Shin Bet assessment at 5:15 a.m. said "the likelihood of a broad campaign was considered low, while a localized surprise could not be ruled out"; Ynet on Bar's affidavit [read]: "No one ... assessed that Hamas was preparing to launch an attack on the scale that began that morning"; Ynet on the committee [read]: no commander assembled a complete picture on 6 October. The affidavit, the 55 pages and the minutes were not opened.
       sources: [src-jc-wake, src-theprint-bar, src-yahoo-wapo, src-ynet-55page, src-ynet-bar, src-ynet-meta]
     basis: >
@@ -592,7 +644,7 @@ claims:
     state: established
     exception: "The warnings are described by anonymous officials in reports that were read only through summaries, and the Jericho Wall document through two summaries of the New York Times; the anchor stays secondary and the claim is held at moderate."
     statement: >
-      Every account read of the warnings said to have reached Israel, including those by outlets and officials who claim them, says they gave no date, target or method: the Jericho Wall document had no set date, the Egyptian warnings had "no firm date, target or method", the UAE warning did not say whether rockets or a ground assault, and the Hamas leader's "earthquake" message named none.
+      As reported by Ynet, Haaretz, Middle East Monitor, the Washington Post, KIRO 7 and CTC Sentinel, every account read of the warnings said to have reached Israel (a universal negative over anonymous-source reports), including those by outlets and officials who claim them, says they gave no date, target or method: the Jericho Wall document had no set date, the Egyptian warnings had "no firm date, target or method", the UAE warning did not say whether rockets or a ground assault, and the Hamas leader's "earthquake" message named none.
     evidence_class: interpretive
     confidence: moderate
     statement_kind: reported
@@ -601,7 +653,7 @@ claims:
       start_because: "The nonspecific nature is stated by the claimants' own reporting and by the denying side, in six separate reports."
       steps:
         - {domain: indirectness, effect: down1, reason: "The reports are anonymous-source accounts read through summaries; the warnings' texts are not public."}
-        - {domain: independent_corroboration, effect: up1, reason: "The claim is conceded by both sides and appears in separate outlets (Haaretz, NYT via MEMO, The Atlantic via Ynet, Washington Post, the Journal via Haaretz, FT via CTC)."}
+        - {domain: independent_corroboration, effect: up1, reason: "Justified narrowly: the corroboration is that the claimants' own accounts concede the point (a statement against the interest of a 'he was warned' story), not the number of outlets, which trace to about four anonymous-source reports (Haaretz and its book, the NYT, The Atlantic, the Journal) plus the 2023 FT and NYT Jericho Wall reports. It is a universal negative over reports and would fall with one report naming a date; if a reviewer removes this step, confidence is low."}
       reviewed: false
     evidential_weight: 4   # of 5
     anchor_checked: secondary
@@ -693,8 +745,8 @@ claims:
       type: search-record
       description: >
         Searched every source read for evidence that the Israeli side directed or arranged the attack: none found. What the sources show: Israeli bodies held a Hamas plan and judged it unrealistic (o7w-jericho-held, o7w-jericho-dismissed); a policy of calm and Qatari funds that, in the IDF's and Shin Bet's findings, helped Hamas build up (o7w-policy-of-calm); an IDF investigation reporting 767 troops on the border facing more than 5,000 attackers (JTA [read]); and Ynet on The Atlantic [read], which says documents found in Gaza, including a memo apparently in the Hamas leader's handwriting from August 2022, show Hamas's own planning (not opened).
-        A staging claim would have to explain why the Hamas leaders' own documents, the Israeli services' admissions of failure, and the reports of several governments agree with an unplanned surprise. Limits: those accounts are by parties; no independent inquiry has reported. The WSWS commentary of 2 Dec 2023 [read] is cited only as an example of the claim, never as evidence.
-      sources: [src-jta-idf, src-ynet-idf-0227, src-ynet-egypt, src-kovler, src-wsws]
+        A staging claim would have to explain why the Hamas leaders' own documents, the Israeli services' admissions of failure, and the reports of several governments agree with an unplanned surprise. Limits: those accounts are by parties; no independent inquiry has reported.
+      sources: [src-jta-idf, src-ynet-idf-0227, src-ynet-egypt]
     basis: >
       An absence anchor is capped at provisional. Not finding evidence is not evidence of absence; this is why it stays open. It is not a finding that the claim is false.
 
@@ -702,8 +754,8 @@ claims:
     state: established
     exception: "The IDF's and Shin Bet's findings were read through reports and the prime minister's published answers through Ynet; the anchor stays secondary."
     statement: >
-      The factual core behind the "allowed it" claims is a policy: for years Israel's governments managed the conflict with Hamas by easing restrictions and allowing Qatari payments, on the belief that Hamas was deterred and did not want war; the IDF's and Shin Bet's findings say this belief was wrong and helped Hamas build up, and the prime minister's own published answers say the intelligence bodies recommended continuing that approach.
-    evidence_class: primary_text
+      As reported by Ynet, NPR and Ynet on the PM's own answers, the factual core behind the "allowed it" claims is a policy: for years Israel's governments managed the conflict with Hamas by easing restrictions and allowing Qatari payments, on the belief that Hamas was deterred and did not want war; the IDF's and Shin Bet's findings say this belief was wrong and helped Hamas build up, and the prime minister's own published answers say the intelligence bodies recommended continuing that approach.
+    evidence_class: interpretive
     confidence: moderate
     statement_kind: reported
     confidence_reasons:
@@ -764,16 +816,16 @@ claims:
   - id: o7w-comptroller-scope
     state: established
     statement: >
-      The State Comptroller has not published findings on what the prime minister knew before 7 October: eight core audits (including decision-making by the intelligence services and the political leadership) were suspended by a High Court interim order (29 December 2025 by the Comptroller's own account; other outlets say 31 December), and the one published report that names the prime minister concerns the absence of an approved national security concept and says it is not a substitute for the audit of accountability for 7 October.
+      What the State Comptroller's own press releases say: the report of 11 November 2025 is on the absence of an approved national security concept, says the Comptroller, and "is not a substitute for a comprehensive audit aimed at identifying deficiencies or holding accountable any bodies or officials involved in the events of October 7"; the one sentence about the prime minister in it concerns that concept; and the release of 6 January 2026 says a High Court interim order of 29 December 2025 (other outlets say 31 December) suspended audits on eight subjects.
     evidence_class: primary_text
     confidence: moderate
     statement_kind: reported
     confidence_reasons:
       start: high
-      start_because: "Two press releases on the Comptroller's own domain were opened and read."
+      start_because: "Two press releases on the Comptroller's own domain were opened and read, and the claim states only what they say."
       steps:
         - {domain: primary_anchor_read, effect: none, reason: "Counted in the high start; not applied twice."}
-        - {domain: indirectness, effect: down1, reason: "The reports themselves were not opened, and later Comptroller releases (after 6 Jan 2026) and the outcome of the High Court's review (hearing 10 May 2026, no ruling found) were not read, so 'has not published' is as of the releases read."}
+        - {domain: indirectness, effect: down1, reason: "The reports themselves were not opened; only the press releases were."}
       reviewed: false
     evidential_weight: 4   # of 5
     anchor_checked: primary
@@ -781,24 +833,49 @@ claims:
     adoption_note: >
       Not polled. The Comptroller's criticism of the prime minister is sometimes cited as if it concerned 7 October warnings; the release says it concerns the security concept.
     would_change_if: >
-      a later Comptroller release on the core audits, a High Court ruling lifting the order, or the Comptroller's term ending with a final report
+      a corrected or later Comptroller release changing these statements
     next_step: >
-      Check mevaker.gov.il for releases after 6 Jan 2026 and the Supreme Court site for the ruling; read the 11 Nov 2025 report.
+      Read the 11 Nov 2025 report itself and the High Court order.
     anchor:
       type: primary-text-press-releases
       description: >
         Comptroller press release of 11 Nov 2025 [read, stored]: "The State Comptroller clarified that the current report is not a substitute for a comprehensive audit aimed at identifying deficiencies or holding accountable any bodies or officials involved in the events of October 7"; on the prime minister: "he did not fulfill his responsibilities, resulting in his concept remaining unimplemented and lacking binding validity" (about the security concept).
-        Press release of 6 Jan 2026 [read, stored]: "An interim order issued by the High Court of Justice on December 29, 2025, has suspended audits on eight of these subjects; however, work continues on the remaining Swords of Iron War audits that have not yet been published." The list of published reports in the release has no report on the intelligence services' or the political leadership's decision-making before the attack.
+        Press release of 6 Jan 2026 [read, stored]: "An interim order issued by the High Court of Justice on December 29, 2025, has suspended audits on eight of these subjects; however, work continues on the remaining Swords of Iron War audits that have not yet been published." The releases do not list the eight subjects.
       sources: [src-mevaker-1111, src-mevaker-0106]
     basis: >
-      # V: the three quotations were found in the stored page text of mevaker.gov.il on 2026-10-04. The two-day date difference with other outlets is logged (L-09), not resolved.
+      # V: the three quotations were found in the stored page text of mevaker.gov.il on 2026-10-04. The two-day date difference with other outlets is logged (L-09), not resolved. The question of what the Comptroller has not published is the separate absence claim o7w-comptroller-no-findings.
+
+  - id: o7w-comptroller-no-findings
+    state: searched_gap
+    statement: >
+      No Comptroller finding on what the prime minister knew before 7 October was found: in the releases of 11 Nov 2025 and 6 Jan 2026 and on the Comptroller's home page as read on 4 Oct 2026, no report on the intelligence services' or the political leadership's decision-making before the attack appears. Later releases and the other published reports (for example the economic and budgetary report of 4 Nov 2025) were not opened, so this is an absence in what was read.
+    evidence_class: synthetic
+    confidence: provisional
+    statement_kind: search_result
+    absence_anchor: true
+    evidential_weight: 2   # of 5; an absence anchor
+    anchor_checked: no
+    adoption_weight: 3   # of 5
+    adoption_note: >
+      Not polled. Jerusalem Post and Yahoo (31 Dec 2025) describe the suspended audits as including decision-making in the intelligence services and the political leadership; that detail is from those outlets, not from the Comptroller's releases.
+    would_change_if: >
+      a Comptroller report, after 6 Jan 2026 or among the reports not opened, that addresses what the prime minister was told or decided before 7 October
+    next_step: >
+      Check the Comptroller's reports page (mevaker.gov.il) for every October 7 report, and the High Court's ruling on the Comptroller's authority (hearing 10 May 2026, no ruling found).
+    anchor:
+      type: search-record
+      description: >
+        Searched the two Comptroller releases and the Comptroller's English home page [read 2026-10-04] for a report on political-level or intelligence decision-making before the attack: none listed; the 6 Jan 2026 list of published Swords of Iron reports is civil, economic and preparedness topics plus the 11 Nov 2025 security-concept report. Jerusalem Post via Yahoo [read] reports the interim order froze audits touching those decision-making subjects. Limit: reports after 6 Jan 2026 and each listed report's text were not read.
+      sources: [src-mevaker-1111, src-mevaker-0106, src-mevaker-home, src-yahoo-hcj, src-jpost-hcj-0510]
+    basis: >
+      An absence anchor is capped at provisional. Not finding a report in a list is not evidence that none exists.
 
   - id: o7w-probes-scope
     state: established
     exception: "The IDF's and Shin Bet's published reports and the expert committee's report were read through news reports only."
     statement: >
-      The army's and Shin Bet's published investigations do not examine what the prime minister was told: the IDF's report is confined to the military, the Shin Bet's is an internal review, and an external committee found that two-thirds of the army's 25 core probes (including the one on the night before 7 October) were incomplete or insufficient and did not address the political echelon.
-    evidence_class: primary_text
+      As reported by JTA, Ynet and NPR, the army's and Shin Bet's published investigations do not examine what the prime minister was told: the IDF's report is confined to the military, the Shin Bet's is an internal review, and an external committee found two-thirds of the army's 25 core probes (including the one on the night before 7 October) incomplete or insufficient; the committee describes its own review as based solely on IDF investigations, without addressing the political echelon.
+    evidence_class: interpretive
     confidence: moderate
     statement_kind: reported
     confidence_reasons:
@@ -829,8 +906,8 @@ claims:
     state: established
     exception: "The High Court's orders and the Knesset bill were read through news reports only."
     statement: >
-      As of 4 October 2026 no state commission of inquiry into 7 October has been set up and none can compel records: the High Court (23 September 2026) will not rule on petitions for one until after the 27 October election and has asked the government for its position by 15 January 2027; the Attorney General says only a state commission is appropriate but supports delay; the government says its own bill was not completed and will be taken up by the next Knesset; and the Comptroller's core audits remain frozen.
-    evidence_class: primary_text
+      As reported by JFeed, Haaretz and the Jerusalem Post, as of 4 October 2026 no state commission of inquiry into 7 October has been set up and none can compel records: the High Court (23 September 2026) will not rule on petitions for one until after the 27 October election and has asked the government for its position by 15 January 2027; the Attorney General says only a state commission is appropriate but supports delay; the government says its own bill was not completed and will be taken up by the next Knesset; and the Comptroller's core audits remain frozen.
+    evidence_class: interpretive
     confidence: moderate
     statement_kind: reported
     confidence_reasons:

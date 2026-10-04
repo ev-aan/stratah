@@ -111,3 +111,34 @@ log:
     date: 2026-10-04
     entry: >
       CLOCK NOTE. The PMO's X post of 26 Sep 2026 shows "7:04 PM" on the page read, while Haaretz's embed of the same post shows "10:04 PM"; the pages use different time-zone displays and neither states one. The post's day is not in doubt; its hour is not used. WAM stamps the UAE statement 2026-09-08T21:29+04:00 (17:29 UTC); CNN published its piece at 11:10 a.m. ET on 8 Sep 2026 (15:10 UTC), so the UAE statement was issued after CNN's first piece (CNN's update at 7:14 p.m. ET includes it).
+  - id: L-18
+    date: 2026-10-04
+    entry: >
+      NOTE ON L-04 (review round 1). L-04 is headed "tests written before the claims" and its item (A) already states a result. The dig was committed as one commit on one day, so git cannot show that the tests came first. They are stated here as the standard applied to each claim, not as proof of pre-registration.
+  - id: L-19
+    date: 2026-10-04
+    entry: >
+      DISCREPANCY TO RESOLVE (R9): what happened at 6:29 a.m. on 7 October is described two ways. Ynet on the PM's answers says he "was informed by his military secretary via WhatsApp that the Hamas attack had begun" at 6:29; Ynet's analysis of Bar's affidavit says he "received his first call from his military secretary" at 6:29. A message and a call may be the same contact or two; neither text was opened. The timeline draws one event (b08) from the PM's account.
+  - id: L-20
+    date: 2026-10-04
+    entry: >
+      DISCREPANCY TO RESOLVE (R9, R8): the prime minister's accusation about the night is reported in two forms. Jewish Chronicle (2 Sep 2026), quoting Channel 14: the chiefs decided, "because of a fear of a miscalculation", not to wake him before the attack, "a failure, but ... not betrayal". Washington Post (about 30 Sep 2026): he accused them of "deliberately" letting him sleep for four hours after the attack began at 6:30 a.m. These are different accusations (before the attack; after it began). The claim o7w-chiefs-knew-no-wake describes the first and now labels the second as a different accusation. The broadcasts were not seen.
+  - id: L-21
+    date: 2026-10-04
+    entry: >
+      DISCREPANCY TO RESOLVE (R9): the two State Comptroller releases disagree on when the earlier interim order (the one that delayed the core audits for about 15 months) was lifted: the release of 11 Nov 2025 says it was "lifted only a few weeks ago"; the release of 6 Jan 2026 says it was "lifted in April 2025". Both are on the Comptroller's own domain. Neither is used in a claim except as read; next step: ask the Comptroller or read the orders.
+  - id: L-22
+    date: 2026-10-04
+    entry: >
+      DISCREPANCY TO RESOLVE (R9): the US House committee chairman's statement of 11 Oct 2023 is quoted two ways. Fox News (12 Oct 2023, read): "We do know the Egyptian intelligence did refer this to Israel. And I can't get into any more depth than that." Ynet (26 Sep 2026, read): "We know that Egypt had warned the Israelis three days prior that an event like this could happen ... a warning was given. I think the question was at what level." They may be from different moments of one interview or briefing; the wording in the claims and timeline uses Fox's text. The chairman did not describe the warning's content.
+  - id: L-23
+    date: 2026-10-04
+    entry: >
+      CORRECTION (R9): timeline event c09 was drawn at 31 Dec 2025, the secondary date, with the primary source's date (29 Dec 2025, the Comptroller's release of 6 Jan 2026) only as an alternative marker. It is now drawn at 29 Dec with 31 Dec as the alternative, and says so. The discrepancy itself (L-09) is unresolved.
+  - id: L-24
+    date: 2026-10-04
+    entry: >
+      REVISION ROUND 1 (independent review of 2026-10-04; commit ea79106). Changes, each also answered in review.yaml: (R1) headline, assessment headline and search_summary rewritten to carry their hedges; the rated claim is now o7w-pm-personally-warned. (R2) evidence_class of twelve claims changed from primary_text to interpretive (their documents were not read); the assessment text says "reported"; nine statements now read "As reported by ..."; no state, confidence or `exception:` line was changed (owner ruling pending).
+      (R3) o7w-comptroller-scope narrowed to what the two releases say; the absence part is the new claim o7w-comptroller-no-findings (provisional, absence anchor). (R4) o7w-units-flagged adds the CTC Sentinel material and the corrected quotation "no one who saw or detected". (R5) Bar's quotation re-attributed to ABC Australia. (R6) o7w-oct1-meeting split into the meeting, the contested strikes account (o7w-oct1-strikes) and the absence of a foreign warning (o7w-oct1-no-foreign-warning).
+      (R7) the corroboration step in o7w-warnings-nonspecific is justified narrowly and the claim is marked a universal negative. (R8) wording fixed. (R10) the carrier and commentary sources removed from o7w-staged's anchor. (R11) the repeated accusation against a Palestinian political figure removed from the claims and timeline; transmission event tx-c-03 removed (an opposition leader, out of scope per L-16); the two journalists' names removed from the timeline and manifest. L-03 and L-16 above are history and stay as written.
+      (R12) the WSJ's September Kamel visit and the UAE statement's third sentence added; the alternatives in o7w-pm-personally-warned made symmetric.

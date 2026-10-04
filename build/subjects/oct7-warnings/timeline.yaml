@@ -65,7 +65,7 @@ people:
   - {who: "Avi Gil", detail: "The prime minister's military secretary on 7 Oct 2023; named in the PM's own account as the person who messaged him at 06:29 Israel time."}
   - {who: "Matanyahu Englman", detail: "State Comptroller; his core October 7 audits are suspended by a High Court order."}
   - {who: "Gadi Eisenkot, Naftali Bennett, Yair Lapid", detail: "Opposition figures quoted on the record; their statements are accusations by political rivals."}
-  - {who: "Shlomi Eldar and Ruth Yuval", detail: "Journalists; authors of the Haaretz investigation and the book 'Hostages: 843 Days of Abandonment'."}
+  - {who: "Haaretz", detail: "Newspaper; published the 8 Sep 2026 investigation excerpted from a book by two of its journalists, 'Hostages: 843 Days of Abandonment'."}
   - {who: "Israel's Prime Minister's Office", detail: "Issues denials and releases excerpts; a party to the dispute."}
 
 sources:
@@ -85,7 +85,7 @@ sources:
   s_haaretz_egypt: {title: "Haaretz, Egypt's intel chief report and PMO reply, 26 Sep 2026", url: "https://www.haaretz.com/israel-news/israel-security/2026-09-26/ty-article/report-egypts-intel-chief-came-to-israel-warned-of-hamas-attack-before-oct-7/000001a0-dbe9-dd66-a9a4-fbeb56d60000"}
   s_haaretz_deny: {title: "Haaretz and AP, Netanyahu asked UAE leader to deny, 28 Sep 2026", url: "https://www.haaretz.com/israel-news/israel-security/2026-09-28/ty-article/netanyahu-asked-uae-leader-to-deny-haaretz-report-on-oct-7-warning/000001a0-e77e-db4b-a7a5-f77eecd60000"}
   s_haaretz_nyt: {title: "Haaretz, on the New York Times report, 25 Sep 2026", url: "https://www.haaretz.com/israel-news/israel-security/2026-09-25/ty-article/report-bin-zayed-warned-netanyahu-days-before-oct-7-sources-say/000001a0-d9b8-dfbb-afa4-fbf8844a0000"}
-  s_haaretz_orig: {title: "Haaretz (Eldar and Yuval), 8 Sep 2026 (standfirst only)", url: "https://www.haaretz.com/israel-news/israel-security/2026-09-08/ty-article-magazine/.highlight/netanyahu-got-an-explicit-warning-before-oct-7-he-didnt-brief-security-chiefs/000001a0-7a3b-d7d5-a9fc-7eff3d0f0000"}
+  s_haaretz_orig: {title: "Haaretz, 8 Sep 2026 investigation (standfirst only)", url: "https://www.haaretz.com/israel-news/israel-security/2026-09-08/ty-article-magazine/.highlight/netanyahu-got-an-explicit-warning-before-oct-7-he-didnt-brief-security-chiefs/000001a0-7a3b-d7d5-a9fc-7eff3d0f0000"}
   s_haaretz_council: {title: "Haaretz, October Council findings, 4 Oct 2026 (first sentence only)", url: "https://www.haaretz.com/israel-news/israel-security/2026-10-04/ty-article/.premium/october-7-victims-families-allege-netanyahu-ignored-repeated-warnings-of-attack/000001a1-0329-d2e8-afb1-173db4ec0000"}
   s_ynet_book:   {title: "Ynetnews, on the book, 8 Sep 2026", url: "https://www.ynetnews.com/article/hjiwy7pumx"}
   s_cnn_uae:     {title: "CNN, Netanyahu faces backlash, 8 Sep 2026", url: "https://www.cnn.com/2026/09/08/middleeast/netanyahu-report-warning-uae-hamas-attack-intl"}
@@ -215,9 +215,9 @@ events:
   - {id: c08, panel: after, lane: courts_comptroller, time: "2025-11-11T12:00:00Z", precision: day, date_basis: stated, kind: official, status: single, sources: [s_mevaker_1111],
      label: "11 Nov 2025: State Comptroller's report on the absence of a national security concept; says it is not a substitute for the audit of accountability",
      detail: "Press release read and stored. About the missing security concept, not about warnings."}
-  - {id: c09, panel: after, lane: courts_comptroller, time: "2025-12-31T12:00:00Z", precision: day, date_basis: stated, kind: official, status: disputed, alt_time: "2025-12-29T12:00:00Z", alt_tag: "Comptroller", alt_note: "The Comptroller's own release dates the order 29 Dec 2025", sources: [s_yahoo_hcj, s_mevaker_0106],
-     label: "31 Dec 2025 (or 29 Dec): High Court interim order freezes eight core Comptroller audits",
-     detail: "Jerusalem Post and the PM's video: Wednesday 31 Dec; the Comptroller's release (6 Jan 2026): 29 Dec. The order was not opened (log L-09)."}
+  - {id: c09, panel: after, lane: courts_comptroller, time: "2025-12-29T12:00:00Z", precision: day, date_basis: stated, kind: official, status: disputed, alt_time: "2025-12-31T12:00:00Z", alt_tag: "press and PM", alt_note: "Jerusalem Post and the PM's video give 31 Dec 2025", sources: [s_mevaker_0106, s_yahoo_hcj],
+     label: "29 Dec 2025 (Comptroller's own release) or 31 Dec: High Court interim order freezes eight core Comptroller audits",
+     detail: "Drawn at the date in the primary source, the Comptroller's release of 6 Jan 2026 (29 Dec); Jerusalem Post and the PM's video give Wednesday 31 Dec (secondary). The order was not opened (log L-09, L-23)."}
   - {id: c10, panel: after, lane: pm_statements, time: "2026-02-05T20:00:00Z", precision: day, date_basis: stated, kind: official, status: single, sources: [s_ynet_55, s_ynet_submit],
      label: "5 Feb 2026: PM publishes his 55-page answers to the Comptroller (three pages redacted, selected excerpts)",
      detail: "Ynet. Says he was first told at 06:29 and that the intelligence bodies recommended calm; no acceptance of responsibility. Critics say it is selective; Bar says it omits warnings and offensive proposals."}
@@ -237,7 +237,7 @@ events:
      detail: "WAM timestamp 21:29 UAE time (UTC+4) = 17:29 UTC (derived). Read and stored. Said 'all relevant intelligence has been and continues to be communicated'."}
   - {id: d04, panel: late, lane: pmo_and_pm, time: "2026-09-09T12:00:00Z", precision: day, date_basis: stated, kind: official, status: reported, sources: [s_aj_sue, s_jp_909744],
      label: "9 Sep 2026: PM says he will sue Haaretz; call log and PMO entries reviewed 'found no trace'",
-     detail: "Al Jazeera and Jerusalem Post. The PM named a Palestinian political figure as responsible for the report; his representatives deny it. The log review is a statement; the log is not public."}
+     detail: "Al Jazeera and Jerusalem Post. The log review is a statement; the log is not public."}
   - {id: d05, panel: late, lane: opponents_and_courts, time: "2026-09-23T12:00:00Z", precision: day, date_basis: stated, kind: official, status: reported, sources: [s_jfeed, s_haaretz_hcj],
      label: "23 Sep 2026: High Court will not rule on state-commission petitions until after the 27 Oct election; government update due 15 Jan 2027",
      detail: "JFeed (read), Haaretz (first sentence only). The Attorney General supports delay and says only a state commission is appropriate."}
@@ -257,7 +257,7 @@ events:
      label: "27 Sep 2026: PM's unannounced visit to Abu Dhabi; an AP source says he asked the UAE president to deny the report",
      detail: "One person with first-hand knowledge and a regional official, anonymous (AP via Haaretz). The PMO calls it 'fake news'; the UAE's agency says the leaders discussed bilateral relations (Washington Post). Israel's public broadcaster said the visit coincided with other arrivals suggesting a discussion about Iran (ABC). A discrepancy; the purpose is not established."}
   - {id: d11, panel: late, lane: opponents_and_courts, time: "2026-09-28T12:00:00Z", precision: day, date_basis: stated, kind: official, status: reported, sources: [s_ynet_bar, s_theprint, s_abc_au],
-     label: "28 Sep 2026: Bar says he will sue the PM for defamation: 'I warned Netanyahu of a disaster, and he ignored me'; the PMO says Bar knew of 'a real danger' the night before",
+     label: "28 Sep 2026: Bar says he will sue the PM for defamation and that he had warned the PM 'of an impending disaster, and he ignored me' (ABC); the PMO says Bar knew of 'a real danger' the night before",
      detail: "Ynet, ThePrint, ABC. Both are accusations. Bar demands the full transcripts and the PM's schedule of meetings."}
   - {id: d12, panel: late, lane: opponents_and_courts, time: "2026-10-03T12:00:00Z", precision: day, date_basis: derived, kind: media, status: single, sources: [s_haaretz_council],
      label: "3 Oct 2026: the October Council announces findings of an 'independent investigation' that the PM concealed information and ignored warnings",
