@@ -1,10 +1,9 @@
 subject: anne-frank-diary
-# Status vocabulary follows docs/PUBLISH_GATE.md: `revisions_requested` is the gate's word for "changes requested". Not allowed to publish until
-# R2-1 (round 2) is answered by the author and resolved by a reviewer who did not write the work (R1-1 and R1-2 were resolved in round 2).
-status: revisions_requested
+# Status vocabulary follows docs/PUBLISH_GATE.md. Round 3: every blocking request (R1-1, R1-2, R2-1) has an author response and is resolved by a reviewer who did not write the work.
+status: passed_with_open_items
 reviewed_by: independent review agent
 reviewed_on: 2026-10-04
-reviewed_head: round 1 at c7c49cb; round 2 at 24f7a23 (origin/dig/anne-frank-diary); this reviewer edited only this file and did not edit claims, log, timeline, sources, build/site.yaml or build/taxonomy.yaml.
+reviewed_head: round 1 at c7c49cb; round 2 at 24f7a23; round 3 at 94b62d2 (origin/dig/anne-frank-diary); this reviewer edited only this file and did not edit claims, log, timeline, sources, build/site.yaml or build/taxonomy.yaml.
 notes: >
   MECHANICAL. python3 build/conformance.py --base origin/main: 0 errors for this subject; 12 warnings for it (11 established claims anchored below primary,
   plus the missing taxonomy entry). python3 build/tools/review_dig.py anne-frank-diary: every check passes except the taxonomy entry. Only build/subjects/anne-frank-diary/
@@ -227,7 +226,7 @@ rounds:
           Fix by adding back only the one short sentence each quotation needs (still one or two sentences per claim), or by removing the quotation marks and saying 'paraphrase', and correct the manifest field.
         evidence: "grep of sources/extracts for each phrase (no hits); wc -c sieben-fragen-extract.txt = 169; manifest line 426; ls sources/extracts (no faurisson-ihr file)."
         author_response: "fixed: one complete short sentence restored to the matching extract for each verbatim quotation the claims put in marks (list in log L-09); sieben-fragen-extract.txt now has three complete cited passages; src-faurisson-ihr stored_as now says none. A scripted check of the quoted strings named by the reviewer finds each in an extract; own scare quotes and titles are not source quotations."
-        resolved: ""
+        resolved: true
       - id: R2-2
         target: "claims.yaml assessment.lean.strength (the lean block under key_points)"
         severity: non_blocking
@@ -235,7 +234,7 @@ rounds:
           `strength: strong` sits beside `answer: leans_yes` and the caveat 'the lean is moderate in confidence'; every finding is second hand and the headline claim is moderate. 'Strong' in the lean block reads as stronger than the page's own confidence. Use 'moderate' (casket-letters uses 'slight'), or explain in `caveats` what is strong.
         evidence: "claims.yaml lean block; build/conformance.py requires only that toward, short, strength, because and caveats exist."
         author_response: "fixed: lean strength is now moderate."
-        resolved: ""
+        resolved: true
       - id: R2-3
         target: "sources/MANIFEST.yaml src-radiowereld-bolkestein; claims.yaml afd-amsterdam-ban-upheld"
         severity: non_blocking
@@ -243,5 +242,24 @@ rounds:
           (a) The Radio Wereld date 'April 2025' rests on the URL path only (the page text I fetched shows no byline date); say so in the manifest, which already says 'URL path dated 2025/04'. (b) The statement 'refused the declaration of authenticity' comes from the defendant's own capitalised heading, not from a numbered paragraph the page quotes; the statement already says 'as the defendant's page quotes it', but the confidence reason should say 'as the defendant's page states'.
         evidence: "radiowereld.nl page text; vho.org page lines after 'On 27 april 2000'."
         author_response: "fixed: the manifest says the Radio Wereld date rests on the URL path only; the Amsterdam appeal claim and its confidence reason now say the refusal of the declaration is, as the defendant's page states in its own heading, not a numbered paragraph."
+        resolved: true
+  - round: 3
+    reviewed_on: 2026-10-04
+    note: >
+      Reviewed 14d6b3b..94b62d2. Log L-09 is a pure addition (diff shows only added lines). R2-1 accepted: I extracted every string in quotation marks from claims, tests, transmission and timeline and compared it with the stored extracts and the stored BKA release;
+      the restored passages (Dutch laboratory and 'in weitgehendem Maße', the three Sieben Fragen passages, 'Natuurlijk stormden', 'Deze zogenaamde d-versie', 'natuurlijk onzin', 'Einzig autorisierte Fassung', 'Had I but known', the Fonds sentences, the Full Fact sentence, the 2018 release sentences) all match the live pages I fetched in round 1 (all 17 extracts again match, total about 14 kB, each quotation one or two sentences, no extract over 2.4 kB).
+      sieben-fragen-extract.txt is now three complete passages the claims cite. src-faurisson-ihr says stored_as: none. Ruling on the author's point: 'forgery proof' and 'ruled the diary authentic' / 'ruled authentic' (divergence_note, adoption notes) are the dig's own scare quotes for popular characterisations, not source quotations, and need no extract.
+      R2-2 accepted (lean strength moderate). R2-3 accepted (manifest and claim wording both say what the date and the refusal rest on). Conformance: 0 errors for the whole repository.
+      Result: no blocking request remains. Status passed_with_open_items. The page must still show the open_items above as limits. The owner must add the taxonomy entry and publishes; I did not touch build/site.yaml or build/taxonomy.yaml.
+    requests:
+      - id: R3-1
+        target: "sources/extracts and the quotations in claims.yaml (afd-luebeck-1959-61 confidence reason, afd-hamburg-proceedings-gap, afd-bka-1980-scope, afd-amsterdam-appeal-reasoning-gap, afd-five-pages-1998), transmission.yaml tx-b-06 and tx-b-06b, log L-04"
+        severity: non_blocking
+        finding: >
+          A few residual quotation-mark strings are not in any stored extract: the research page's 'ruled that the diary was authentic' (quoted to show the page contradicts itself; the live page and its matching hash confirm it), the taz slogan 'Alles Lüge!' (tx-b-06b) and 'wenig später' (tx-b-06), and 'more than an obvious understatement' (quoted from the Critical Edition via the deleted denial text; the claim already says so).
+          Several English strings in quotation marks are the dig's translations of German or Dutch ('cannot be used to cast doubt on the authenticity', 'have passed through many hands', 'quite possible', 'further doubt', 'mostly fell silent', 'set aside on formal grounds'); mark them 'our translation' so a reader does not look for them verbatim. The af-2018 extract joins page navigation ('Overview') and the date to its sentence; drop the stitched prefix.
+          None changes a finding, and I verified each against the live source myself.
+        evidence: "grep of quoted strings against sources/extracts and bka-2006-07-26.txt; live pages fetched 2026-10-04."
+        author_response: ""
         resolved: ""
 
