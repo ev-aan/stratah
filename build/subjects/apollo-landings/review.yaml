@@ -1,0 +1,135 @@
+# Publish-gate review record (docs/PUBLISH_GATE.md). status: pending | revisions_requested | passed | passed_with_open_items | grandfathered | failed (rounds: see docs/PUBLISH_GATE.md)
+subject: apollo-landings
+status: revisions_requested
+checks:
+- check: 'conformance: no errors for this subject'
+  result: pass
+  detail: ''
+- check: headline present, 70-95 characters
+  result: pass
+  detail: 87 characters
+- check: headline claim is established/refuted at high confidence with a primary check, or status is draft
+  result: pass
+  detail: 'apollo-staged-hoax: refuted, high, anchor_checked primary; headline_status review'
+- check: headline_status is draft or review before the gate passes
+  result: pass
+  detail: review
+- check: assessment present with question, answer, headline, text, basis, would_settle
+  result: pass
+  detail: ''
+- check: assessment has exactly three key_points
+  result: pass
+  detail: '3'
+- check: assessment states no percentage
+  result: pass
+  detail: ''
+- check: taxonomy entry (area and question types)
+  result: pass
+  detail: ''
+- check: every claim has statement_kind
+  result: pass
+  detail: ''
+- check: every searched gap names its next step
+  result: pass
+  detail: ''
+- check: sources manifest exists
+  result: pass
+  detail: ''
+- check: every source has an authenticity block
+  result: pass
+  detail: ''
+- check: log has entries
+  result: pass
+  detail: ''
+- check: timeline present (dates exist, so a timeline is required)
+  result: pass
+  detail: ''
+open_items:
+  - "apollo-samples-are-lunar is established but anchor_checked: secondary (PSRD summaries only; Norman et al. 2003 not opened). Shown as a limit; not used by the headline claim."
+  - "apollo-sites-imaged-by-non-nasa-orbiters is established at moderate, but the only non-NASA items are a JAXA 'potential halo' at 10 m resolution (its comparison images are NASA's) and a conference abstract whose images were not seen; LRO images are NASA's. No image file was examined."
+  - "Zhang 2022 (China, five arrays) and Tryapitsyn 2021 were read as abstracts only; Stooke LPSC 2026 is an abstract, poster images not seen. The arXiv papers are preprints, not compared with the journal versions."
+  - "Raw ranging data, Bender 1973, Faller 1969, the Wettzell and Matera papers, Norman 2003, Soviet sources and the Goddard weekly reports were not read by the author or by this reviewer."
+  - "Photo claims (shadows, flag, stars) are untested (apollo-photo-anomalies-untested); the dig says so."
+needs_manual_check_done:
+  - "All six quotes the script could not match were opened by the reviewer and match: Courde 'only four stations ...' (arXiv v1 introduction; the layout-mode text interleaves two columns, the flowed text matches exactly); NASA curator 'brought back 382 kilograms (842 pounds)' and 'three automated Soviet spacecraft returned important samples totaling 300 grams'; Stooke 'viewed the Apollo 11 and 12 sites'; TN D-7080 'radiation doses to Apollo crewmen have been minimal (table I)'; NASA tape report title 'The Apollo 11 Telemetry Data Recordings: A Final Report' (page 1 and running head, by the reviewer's own OCR)."
+reviewed_by: independent review agent
+reviewed_on: 2026-10-04
+notes: |
+  VERDICT: revisions requested (status revisions_requested, the PUBLISH_GATE.md name for a changes-requested verdict). Four blocking requests and five non-blocking. The refuted claim itself is sound and its quotes and numbers check out; the problems are in top-line wording, one mis-attributed number, one claim state and one transmission step.
+
+  Mechanical: conformance 0 errors (98 warnings across the repository; this subject 1, apollo-samples-are-lunar). review_dig.py: all checks pass. The log is append-only against origin/main (only additions; L-10 to L-20 are new, no earlier entry changed). No claim was deleted. Every state or confidence change from main is logged (L-14 to L-18). timeline.html regenerates byte-identical from timeline.yaml with no bad source refs.
+
+  Sources the reviewer re-opened and re-checked personally on 2026-10-04: arXiv Courde 2017 (1704.06443), Murphy 2013 (1309.6294), Murphy 2011 (1009.5720), Murphy 2008 (0710.0890), Merkowitz 2007 (0712.3539); the ILRS lunar page; Crossref abstracts for Zhang 2022 and Tryapitsyn 2021; the NASA NTRS TN D-7080 PDF; NASA's 2009 Apollo 11 tapes final report (own OCR of the 20-page scan); NAS 2019 chapter 2; NASA curator page; PSRD 2009 and 2004; LROC pages 157, 72, 379 and 9; JAXA release of 20 May 2008; Stooke LPSC 2026 abstract 1044; Gallup 1999; YouGov 2019; Space.com of 17 Jul 2009. The sha256 of the six PDFs downloaded equals the value in MANIFEST.yaml.
+
+  Confirmed exact: Courde station list, 100/100/300 corner cubes, 63 and 0.1 photons per second, 60 per cent of 2014 green normal points on Apollo 15, one night in 2014 against twenty in 2015 (section 3.3, Table 8), CNRS and CNES thanks; Murphy 2013 Lick 1 Aug 1969 'less than two weeks', Table 2 3775 photons per minute (62.9 a second); Murphy 2011 March 2010 LROC coordinates about 100 m, 22 April 2010, 270 ns, Lunokhod 1 landing November 1970; Murphy 2008 NASA and NSF funding; Merkowitz 'only' McDonald and OCA routine; ILRS station list, McDonald stopped, Zhuhai, last modified 30 Sep 2026; Zhang abstract five arrays, 234 normal points, 7 mm; TN D-7080 Table I values (7 .16, 8 .16, 9 .20, 10 .48, 11 .18, 12 .58, 13 .24, 14 1.14, 15 .30), 20 and 40 per cent, 400 and 50 rads, 'minimal', no major solar event, March 1973 cover, 24 Oct 1972 date line, no Apollo 16 or 17 value; tape report 45 tapes (3 stations x 15 reels), 'could draw only one conclusion', the 'degaussed, recertified, and reused' sentence, the closing 'either reused ... or disposed of them' and 'At no time did anyone recognize ...' sentences, the 8 Jan and 7 May 1981 weekly reports (Nafzger: 'didn't find a smoking gun'); Space.com briefing 'Thursday' (16 Jul 2009), Sydney, CBS and kinescopes, 40,000 boxes 1970 to 1974; NAS Table 2.1 masses and return dates (sum 381.7) and Luna 101, 50 and 170 g; curator 382 kg, 2200 samples, 300 g; PSRD 2009 21.8 kg and 2,196 samples (rows sum 381.9, as the author says); LROC dates, 1.0 to 1.4 m per pixel, 3.7 m deck, five sites shown, Apollo 14 astronaut tracks, Apollo 17 'Tracks are clearly visible', 50 cm, 27 x 56 cm pixels, Luna 20 55 g, Luna 24 170 g and 2 m; JAXA 'potential' then 'probable halo area was confirmed', 10 m, NASA comparison images; Stooke text; Gallup 6/89/5 and 1995 6/83/11, n=1,061, plus or minus 3, Capricorn One, 'not widespread'; YouGov 'one in five ... not at all sure'. All timeline dates (a01 to b12) match these sources.
+
+  Rule checks. Headline: 87 characters, states the finding, headline_claim apollo-staged-hoax is refuted at high with anchor_checked primary, and its main anchors (Courde, Murphy 2013, ILRS) were opened in full; headline_status review is right. Rule 9: the refuted claim names its target (refutes_target), is class material and rests on station-team ranging papers and an ILRS page, not on belief or consensus; its basis line says so; no refutation_class is set, acceptable per log L-07. Polls (Gallup, YouGov, adoption_note fields) are used only as adoption and never support a claim. Assessment: exactly three key points, no percentage, answer no, no lean needed. transmission.yaml has confers_weight false, marks the Kaysing event read: no, and no claim cites it. No images are stored; the two stored NASA texts are US Government works; quotations are short and attributed.
+
+  anchor_checked: primary is used only where the document was opened. Abstract-only sources (Zhang, Tryapitsyn, Stooke poster) are labelled as such and the claim text matches the abstracts. Zhang's 'five arrays' is the abstract's wording; reading it as the three Apollo arrays plus two Lunokhod arrays is an inference (the ILRS page says Apollo and Luna reflectors), reasonable but not stated by either source.
+rounds:
+  - round: 1
+    reviewed_on: 2026-10-04
+    requests:
+      - id: R1-1
+        target: "claims.yaml headline, search_summary, assessment.headline and assessment.key_points"
+        severity: blocking
+        finding: "The top-line text says more than the claims support. (a) The headline 'Moon landing hoax claims fail' (plural, general) and the assessment headline ('The claim that the landings were staged fails ... two narrower items stay open') list only the lost tapes and the photo claims as open. The dig's own weakest point, whether crews rather than robots did the work (apollo-crewed-landings-occurred at moderate; apollo-robotic-only-alternative proposed and called 'the strongest serious alternative'), is only in the long text and the divergence note, not in the headline or the key points. The refuted claim is the narrow one: hardware and reflectors were not taken to the Moon. (b) Key point 2 says NASA's orbiter images descent stages and tracks and 'a 2026 abstract says India's did too'; the abstract mentions descent stages and sites only, and tests.yaml says non-NASA imaging of tracks is NOT claimed. (c) search_summary says 'orbiters of NASA, Japan and India have imaged the sites'. JAXA reports a potential exhaust halo at one site (Apollo 15) at 10 m resolution with no hardware visible, using NASA comparison images; the India item is an abstract whose images were not seen. 'Imaged the sites' overstates both (REVIEW.md rule E)."
+        evidence: "Opened by the reviewer: JAXA release 20 May 2008 ('potential halo', 'probable halo area was confirmed', 10 m, NASA images AS15-87-11719 and AS15-9430); Stooke LPSC 2026 abstract 1044 ('OHRC viewed the Apollo 11 and 12 sites including Surveyor 3'; 'OHRC has imaged ... the descent stages of Apollo 11 and Apollo 12'; no tracks, no other Apollo site). claims.yaml lines 9, 24-25 and 46-75 against 259-322."
+        author_response: ""
+        resolved: ""
+      - id: R1-2
+        target: "apollo-crewed-landings-occurred (state)"
+        severity: blocking
+        finding: "The claim is filed established, but its own anchor says 'No single record carries this ... Each is individually insufficient', evidence_class is synthetic, and the only track evidence is NASA's own LRO images. CONTRIBUTING section 2 says our own inference is synthetic and a new reading is proposed. Meanwhile apollo-robotic-only-alternative, its negation, rests on the same three records with the same weight and confidence, and is filed proposed. The two are held to different standards on identical evidence (REVIEW.md rule D). A reader is told as established that the crews walked on the surface and collected the samples, while the dig's own open question is whether they did."
+        evidence: "claims.yaml lines 259-290 (anchor type convergence-of-records) against lines 292-322. CONTRIBUTING.md section 2."
+        author_response: ""
+        resolved: ""
+      - id: R1-3
+        target: "apollo-samples-are-lunar (statement); tests.yaml dt-independent-records finding; log L-14 (d)"
+        severity: blocking
+        finding: "The 4.46 billion year figure is mis-attributed. PSRD 2004 gives the 4.456 Ga Sm-Nd isochron for pyroxenes from four anorthosites together. The 67215 clast on its own gave a crystallisation age of 4.40 Ga ('allowing us to determine a precise crystallisation age of 4.40 billion years. But even that age might have been affected by the subsequent shock heating event'). The claim statement ('dating of lunar anorthosites, including a clast from Apollo 16 breccia 67215, gives ... about 4.46 billion years') and tests.yaml ('An Apollo 16 anorthosite clast dates to about 4.46 billion years') read as if the clast gives 4.46. Log L-14 (d) says '4.40 to 4.47 billion years' is not in any source read; 4.40 is in PSRD 2004. Also the claim id says 'samples are lunar' but a crystallisation age shows an age, not that the rock is lunar; the statement itself is only about age."
+        evidence: "Opened by the reviewer: http://www.psrd.hawaii.edu/April04/lunarAnorthosites.html, the paragraph beginning 'My colleagues Lars Borg ... studied an anorthosite (rock 67215)' and the isochron caption (four anorthosites, 4.456). claims.yaml lines 182-216; tests.yaml dt-independent-records result."
+        author_response: ""
+        resolved: ""
+      - id: R1-4
+        target: "transmission.yaml tx-a-01 (step: origin)"
+        severity: blocking
+        finding: "Event tx-a-01 is typed step 'origin' with a named person, a book title and a 1976 date, all from a search-result summary the author could not open (read: no). The note concedes the summaries disagree (a 1974 pamphlet versus a 1976 book). Calling it the 'origin' of the idea is a historical claim about a named person that nothing read supports, and the event gives the title and employer as facts. Change the step to a neutral label (for example 'earliest reported, unverified') and mark the biographical detail as unread, or drop the event until a source is opened."
+        evidence: "transmission.yaml lines 14-23; MANIFEST.yaml src-smithsonian-kaysing: read not_read, authenticity unchecked."
+        author_response: ""
+        resolved: ""
+      - id: R1-5
+        target: "divergence_note and adoption_note fields"
+        severity: non_blocking
+        finding: "'The gap is the footage, the radiation question and the lost original tapes' states why people doubt; no source read says so (Gallup and YouGov report percentages only). Notes such as 'doubt is common; expert acceptance is high' (apollo-radiation-survivable) and 'Widely repeated as an argument' (apollo-soviet-non-challenge) are unsourced, and the adoption_weight values for claims 'not polled' are the author's estimates. Reword as not measured."
+        evidence: "claims.yaml lines 84-85, 378-379, 408-409; Gallup and YouGov pages opened."
+        author_response: ""
+        resolved: ""
+      - id: R1-6
+        target: "apollo-sites-imaged-by-non-nasa-orbiters; timeline b05; log L-15 (d)"
+        severity: non_blocking
+        finding: "(a) The id says 'non-NASA' and the state is established, but the only non-NASA items are the halo (10 m, NASA comparison images) and an abstract with images unseen; consider whether established is right, or say so in the statement. (b) 'Apollo 12 was not among the five sites in that set' is the author's inference: the LROC page says LRO imaged 'the six Apollo landing sites July 11 through 15' yet shows and links five and never mentions Apollo 12. Say 'the page shows five sites and does not mention Apollo 12'. (c) anchor_checked primary rests on release text and captions; no image was analysed (the dig says so)."
+        evidence: "LROC image page 157 opened and searched: five sites shown, the string 'Apollo 12' does not occur."
+        author_response: ""
+        resolved: ""
+      - id: R1-7
+        target: "apollo-retroreflectors-on-moon (anchor wording) and assessment key point 1"
+        severity: non_blocking
+        finding: "Key point 1 and the anchor say Germany and China range 'the Apollo 11, 14 and 15 reflectors'. The ILRS page names Wettzell as an LLR provider ('infrared ... retroreflectors') and Zhuhai as ranging 'the Apollo and Luna retroreflectors'; the Zhang abstract says 'five lunar retro-reflector arrays'. No Wettzell or Matera paper was read (log L-13). Say 'lunar reflectors including the Apollo arrays' or mark the array-by-array reading as inferred."
+        evidence: "ILRS page text; Zhang abstract via Crossref; Courde section 3.1 (five arrays are A11, A14, A15, L1, L2)."
+        author_response: ""
+        resolved: ""
+      - id: R1-8
+        target: "apollo-original-sstv-tapes-lost (anchor description)"
+        severity: non_blocking
+        finding: "The claim reports Nafzger's conclusion and its inference status, but not the report's own caveat: Nafzger says he 'didn't find a smoking gun' and the weekly reports 'didn't reference the WNRC in name, but they did reference the need for tapes'. Add that next to the inference. The honest note that the 1970 to 1974 recall (Space.com) and the 1981 shortage (report) are not reconciled should stay."
+        evidence: "Reviewer's OCR of the 20-page PDF (sha256 fa080641...), pages 14 to 15; Space.com page."
+        author_response: ""
+        resolved: ""
+      - id: R1-9
+        target: "search_summary and headline (headline rules 6 and 7)"
+        severity: non_blocking
+        finding: "search_summary is 215 characters; rule 7 says under 200. The headline carries no year although rule 7 asks for the name people search plus a date or year. Optional."
+        evidence: "Header comments of gulf-of-tonkin/claims.yaml, rules 1 to 7."
+        author_response: ""
+        resolved: ""
