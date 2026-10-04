@@ -1,0 +1,113 @@
+subject: oct7-warnings
+dig_status: drafted          # claims drafted 2026-10-04 for independent review; live story, facts still changing
+event_status: live           # inquiries are unfinished or contested; reports and denials are still arriving; the Israeli election is on 2026-10-27
+as_of: 2026-10-04
+# Append-only excavation log. Corrections are new entries; earlier entries are never edited.
+# GUARDRAILS FOR THIS DIG (set before any claim was written):
+#  - Benjamin Netanyahu and other senior office-holders may be named as public officials, only as the subject of claims or where official records name them (owner's naming ruling, 2026-10-04).
+#    No victim, hostage, minor or private individual is named. His legal proceedings are not discussed, except where a source ties them directly to the 7 October claims (here: the libel suits he says he
+#    will bring over the UAE and Egyptian reports, and the Shin Bet chief's defamation suit, which are about those claims).
+#  - Every accusation stays labelled a claim, never a finding. "Staged", "allowed" and "knew" are claims to test: who did what, how, and what evidence would show it.
+#  - A discrepancy between reports is a discrepancy to resolve, not proof of fabrication. Early reporting on a live story is often wrong: every fact is logged with its source and when it was reported.
+#  - Anonymous sourcing is stated and keeps a claim at the confidence it implies. Repeats are not corroboration; summaries of one outlet's report count once.
+#  - Casualty counts and the politics of the war outside the "what was known beforehand" question are out of scope. Nothing here speculates about anyone's religion, ethnicity or beliefs.
+#  - Wikipedia is never an anchor; search snippets and summaries are not primary reads. No source was used that the author had not opened, except where a claim says it rests on a report of a document.
+
+log:
+  - id: L-01
+    date: 2026-10-04
+    entry: >
+      TOPIC OPENED by the owner: "What is known about warnings before the 7 October 2023 attack, and what did the Israeli prime minister know?" Framing chosen by the owner: a CLAIMS MAP. Many claims circulate that the prime minister knew of the attack in advance;
+      the owner asked for each specific claim to be filed separately and tested against what the official and primary record shows, shows only partly, and does not establish: that Egypt's intelligence chief warned him; that Israeli authorities held the Hamas plan known as "Jericho Wall" and it was dismissed;
+      that intelligence units, drills or monitoring reports flagged the attack; that the leadership "allowed it to happen" or let it happen deliberately; that he was told on a specific night and delayed or did nothing; that he knew the date.
+      The owner's naming ruling of 2026-10-04 applies (see the header). Scoping only; no claim was written before the guardrails above were set.
+  - id: L-02
+    date: 2026-10-04
+    entry: >
+      METHOD AND LIMITS. Every source listed in sources/MANIFEST.yaml was fetched on 2026-10-04 and its text read (not search snippets). Four short official texts are stored as extracts with sha256 (the PMO's X statement of 26 Sep 2026, the UAE Foreign Ministry statement of 8 Sep 2026,
+      two State Comptroller press releases). BLOCKED OR NOT REACHED: The Atlantic, the Wall Street Journal and the New York Times (all originals; their reports were read only through summaries by Haaretz, Ynet, ABC Australia, Jerusalem Post, Middle East Eye, Middle East Monitor, KIRO 7 and the Washington Post's own reporting);
+      the full Haaretz investigation of 8 Sep 2026 and two other Haaretz pieces (paywall: first sentence only); Times of Israel and Israel Hayom (HTTP 403); gov.il, shabak.gov.il and idf.il (Cloudflare or Incapsula block), so the IDF's and Shin Bet's published findings, the PMO's own statements on gov.il and the Supreme Court orders were read only through reports;
+      the prime minister's 55-page answers and Bar's April 2025 affidavit (through Ynet only); any Egyptian official text (none located); France 24 and Library of Congress pages on the inquiry bill; Channel 12 and Channel 14 broadcasts. Consequence: only the claim on the State Comptroller's press releases rests on a primary text opened by the author; every other claim is anchored at secondary or lower.
+  - id: L-03
+    date: 2026-10-04
+    entry: >
+      NAMING DECISIONS. Named, as public officials who are the subject of claims or are named by official records: Benjamin Netanyahu (prime minister); Ronen Bar (then Shin Bet chief); Herzi Halevi (then chief of staff, named in Bar and the book's authors' accounts); Tzachi Hanegbi (then head of the National Security Council);
+      Abbas Kamel (then head of Egypt's General Intelligence Service); Mohamed bin Zayed (UAE president, as the person said to have telephoned); Matanyahu Englman (State Comptroller); Gadi Eisenkot, Naftali Bennett and Yair Lapid (opposition figures, only for statements on the record); Avi Gil (the PM's military secretary, named in the PMO's own account of the morning).
+      Not named: any victim, hostage, minor or private individual; the observers and analysts who raised warnings (referred to by role); the former Palestinian official and the Palestinian political figure named in the sources; the journalists are named only as authors of the cited reports; a relative of the prime minister and an opposition party leader who are subjects of a related claim are left out of the claims and described by role in the transmission record.
+      The prime minister's trials and other legal proceedings are not discussed. Where the Shin Bet chief names the prime minister in a defamation suit, the suit is recorded only as the setting of a claim about what he was told.
+  - id: L-04
+    date: 2026-10-04
+    entry: >
+      TESTS WRITTEN BEFORE THE CLAIMS ("staged", "allowed", "knew"). Each is a claim to test, not a conclusion.
+      (A) KNEW THE DATE: would need a communication naming the day and reaching him before 7 October, a record of his reaction, or testimony from a recipient. A search of published accounts of every warning found none.
+      (B) ALLOWED IT / LET IT HAPPEN: would need (1) a specific warning that reached a decision-maker, (2) a decision or order to withhold a response (to hold forces back, to withhold an alert, to cancel a deployment), (3) the people who carried it out, and (4) records. The claim is distinct from "failed to heed general warnings" (a claim of negligence or judgment) and from "pursued a policy that strengthened Hamas" (documented as policy by the IDF and Shin Bet; responsibility disputed).
+      (C) STAGED / ARRANGED: would need a communication between the Israeli side and Hamas's planners or an Israeli order directing the operation, and the cooperation of many people on both sides; the Hamas leaders' own planning documents, the services' admissions of failure and the border forces' deployment on the day are the material that would have to be explained.
+      (D) THE CONVERSE CLAIM (the security chiefs knew and hid it from him): the same standard applies; it needs a specific warning that reached the chiefs, a decision not to pass it up, and records. Applied equally; see o7w-chiefs-knew-no-wake.
+      Limits recorded now: the army and Shin Bet investigated themselves; the army's own external committee found two-thirds of its probes inadequate; no inquiry that can compel records has reported; the call logs and the minutes are held by the parties.
+  - id: L-05
+    date: 2026-10-04
+    entry: >
+      CLAIMS MAP (each filed separately in claims.yaml). Signs inside the services: o7w-jericho-held, o7w-jericho-dismissed, o7w-jericho-reached-pm, o7w-8200-analyst, o7w-observers, o7w-night-signs, o7w-units-flagged. Warnings said to reach the prime minister from outside:
+      o7w-egypt-general-warning, o7w-egypt-visit, o7w-egypt-call, o7w-uae-call, o7w-uae-not-passed-on, o7w-sinwar-earthquake, o7w-bar-2023-warnings, o7w-oct1-meeting, and the central o7w-pm-personally-warned. The night: o7w-told-night-did-nothing, o7w-chiefs-knew-no-wake.
+      Claims to test: o7w-warnings-nonspecific, o7w-knew-date, o7w-allowed-deliberately, o7w-staged, o7w-policy-of-calm. What the record covers: o7w-netanyahu-excerpts, o7w-comptroller-scope, o7w-probes-scope, o7w-inquiry-status.
+  - id: L-06
+    date: 2026-10-04
+    entry: >
+      ELECTION CONTEXT, recorded as context and not as evidence. The Israeli election is set for 27 October 2026. Reports of the UAE and Egyptian warnings appeared in the five weeks before it (Haaretz on 8 Sep; New York Times on 25 Sep; The Atlantic and PMO reply on 26 Sep; Wall Street Journal on 27 Sep). The Prime Minister's Office and his party call them an election-season smear by "left-wing" media; opposition leaders call for an inquiry.
+      Timing is a reason for care in weighing anonymous leaks; it is not evidence that any report is false or true. The same applies to the prime minister's own releases of excerpts (6 Feb, 28 Sep).
+  - id: L-07
+    date: 2026-10-04
+    entry: >
+      FACT LEDGER, 2023 reporting (what was reported when; later changes are new entries). 9 Oct 2023: Yedioth Ahronoth reported that Egypt's intelligence chief spoke with the prime minister before the attack (via Haaretz 26 Sep 2026 and Ynet 8 Sep 2026); the PMO said the PM "has neither spoken, nor met, with the head of Egyptian intelligence since the formation of the government, neither directly nor indirectly" (via Ynet 26 Sep 2026).
+      An Egyptian intelligence official told the Associated Press that Israel ignored warnings of "something big" (via Ynet and CTC Sentinel; the AP piece was not read). 11 Oct 2023: a US House committee chairman said "We do know the Egyptian intelligence did refer this to Israel" (Fox News, 12 Oct 2023); the Financial Times reported unnamed officials calling it a "general warning" (via CTC). 13 Oct 2023: Israel's national security adviser called the reports "utterly fake" (Haaretz headline).
+      30 Nov to 1 Dec 2023: the New York Times reported the 40-page Jericho Wall document, said it set no date, and could not determine whether the PM saw it (via KIRO 7, MEE); NBC reported the July 2023 analyst emails (read); a US official told NBC the US intelligence community appears not to have received the document. 28 Jun 2024: ABC reported observers' accounts (read).
+  - id: L-08
+    date: 2026-10-04
+    entry: >
+      FACT LEDGER, official investigations. 27 Feb 2025: the IDF published four General Staff investigations (read through Ynet and JTA). 4 Mar 2025: the Shin Bet published a summary of its investigation (read through CNN, NPR, Jerusalem Post); the PMO responded that "On the night of the attack, the Shin Bet chief did not see fit to wake the Prime Minister" (NPR). April 2025: Bar's affidavit to the High Court (through Ynet).
+      10 Nov 2025: the IDF chief presented an external committee's review of 25 internal probes (Ynet). 11 Nov 2025 and 6 Jan 2026: State Comptroller press releases (read, stored). 5 Feb 2026: the PM published 55 pages of answers (Ynet, 5 and 6 Feb). 10 May 2026: five-justice High Court hearing on the Comptroller's authority (Jerusalem Post). 23 Sep 2026: High Court deferred the commission petitions (JFeed; Haaretz; Jerusalem Post).
+  - id: L-09
+    date: 2026-10-04
+    entry: >
+      DISCREPANCY TO RESOLVE (not evidence of anything): the date of the High Court's interim order freezing eight core State Comptroller audits. The Comptroller's own press release of 6 Jan 2026 says "December 29, 2025"; the Jerusalem Post text on Yahoo (31 Dec 2025) says "on Wednesday" (31 Dec 2025 was a Wednesday), and the PM's video says "On Dec. 31, 2025, just six days after that meeting" (Ynet, 5 Feb 2026).
+      A second order or a later formal order may explain the difference. Next step: read the order. The claim o7w-comptroller-scope states both dates.
+  - id: L-10
+    date: 2026-10-04
+    entry: >
+      DISCREPANCY TO RESOLVE: the IDF's 2025 probe, as reported by Ynet, says "There was no one who saw or detected any sign of this event in advance, not even at the lowest intelligence level", yet the same report lists "at least 10 warning signs in the two years before the war" and the Nov 2025 committee says the night's intelligence "could and should have led to an alert". Our reading (an assumption, in o7w-units-flagged): the first sentence refers to detecting the invasion as an event, the others to indicators.
+      Next step: read the IDF text.
+  - id: L-11
+    date: 2026-10-04
+    entry: >
+      DISCREPANCY TO RESOLVE: the Egyptian contacts are described three ways. The Atlantic (26 Sep 2026, via Ynet, Haaretz, MEE and Jerusalem Post): a visit on 26 Sep 2023, a 67-minute stay, counterpart unknown. Yedioth Ahronoth (9 Oct 2023) and the Wall Street Journal (27 Sep 2026, via Haaretz and Al Jazeera): a telephone call to the prime minister, after two earlier warnings (June and September 2023, per the Journal).
+      They are not necessarily contradictory (a visit, then a call), but the claims are filed separately (o7w-egypt-visit, o7w-egypt-call) because their sources and denials differ. The PMO's 2026 statement denies that the prime minister met or spoke with the chief; it does not address a visit to others.
+  - id: L-12
+    date: 2026-10-04
+    entry: >
+      DISCREPANCY TO RESOLVE: the date of the alleged UAE call. Haaretz says "a week and a half before" 7 October (Haaretz, 25 and 28 Sep 2026); Anadolu, summarising Haaretz, says "Sept. 23, 2023" (8 Sep 2026); the New York Times is reported as saying "late September 2023" (Middle East Monitor, 26 Sep 2026). The book's author says the Shin Bet chief received Hamas's leader's message on 15 Sep and the call followed "about a week and a half later" (Ynet, 8 Sep 2026).
+      The timeline draws the call as a range (23 to 27 Sep). Next step: the book's text. A second item to resolve: the author says the call was held on "a special communications system" brought by an embassy representative, while the PMO says its review of the call log and of entries into the PMO found no trace; whether such a call would appear in a call log is not shown by any source read.
+  - id: L-13
+    date: 2026-10-04
+    entry: >
+      DISCREPANCY TO RESOLVE: the PMO's wording on Egypt's intelligence chief has changed in scope. 9 Oct 2023 (via Ynet): "has neither spoken, nor met, with the head of Egyptian intelligence since the formation of the government, neither directly nor indirectly". 26 Sep 2026 (read, stored): "In the months preceding October 7, Prime Minister Netanyahu neither met nor spoke with Abbas Kamel".
+      28 Sep 2026 (via Haaretz): "Netanyahu has never met or spoken with the head of intelligence of a foreign country without their Israeli counterparts". The three are not the same statement; a narrower period and an added clause do not show a denial is false, but they are what a reader should compare. Also: the 2026 statement says "On October 11, 2023, Egypt officially denied that it had warned Israel"; the Egyptian text was not located, and one search summary (not read, not used) says Egyptian media quoted unnamed security sources. Next step: find the Egyptian text.
+  - id: L-14
+    date: 2026-10-04
+    entry: >
+      DISCREPANCY TO RESOLVE: the times of the morning of 7 October as given by three sources: the PMO's published answers, as reported by Ynet (military secretary informed the PM at 6:29 a.m. by WhatsApp; second call 6:44; Shin Bet assessment of 5:15 a.m. received by the military secretariat at 9:47); Bar's affidavit, as reported by Ynet (alert at 3:03 a.m.; 5:15 instruction to update the military secretary);
+      CTC Sentinel (military secretary "reportedly" briefed at 6:15 a.m.). Times are Israel local time (UTC+3 on 7 Oct 2023, Israel's summer time). They are not necessarily contradictory (a briefing of the secretary, then a message to the PM), but who held the 3:03 a.m. alert in the National Security Council, and why 5:15 became 6:29, is not answered by any source read.
+  - id: L-15
+    date: 2026-10-04
+    entry: >
+      LIVE DEVELOPMENTS TO WATCH (as of 2026-10-04): (1) the libel suit the PM says he will bring against Haaretz and the authors (he instructed lawyers on 9 Sep; a Haaretz headline of 29 Sep says he filed one, not read) and any suit over the Egyptian reports; (2) Bar's defamation suit and the documents he demands;
+      (3) the High Court's 15 January 2027 deadline and the post-election government's position on a state commission; (4) the High Court's ruling on the Comptroller's authority (hearing 10 May 2026, no ruling found); (5) any UAE or Egyptian statement; (6) publication of the October Council's findings (announced 3 Oct 2026, reported by Haaretz on 4 Oct; the findings were not reached);
+      (7) the 27 Oct 2026 election. A significant change will be a new log entry and a re-review.
+  - id: L-16
+    date: 2026-10-04
+    entry: >
+      NOT USED, AND WHY. A search summary said the Knesset passed a bill for a government-designed commission on first reading in July 2026 with the opposition boycotting; the France 24 and Library of Congress pages were blocked, so the bill's reading is not stated as fact in a claim (JFeed says only that the government told the court in July the legislation was not completed).
+      A claim by a member of the prime minister's household that an opposition party leader's early start on 7 October showed advance knowledge (CNN, Jewish Chronicle) is recorded in the transmission file only, without names, because it concerns one person's conduct on the day and not what the prime minister knew beforehand.
+  - id: L-17
+    date: 2026-10-04
+    entry: >
+      CLOCK NOTE. The PMO's X post of 26 Sep 2026 shows "7:04 PM" on the page read, while Haaretz's embed of the same post shows "10:04 PM"; the pages use different time-zone displays and neither states one. The post's day is not in doubt; its hour is not used. WAM stamps the UAE statement 2026-09-08T21:29+04:00 (17:29 UTC); CNN published its piece at 11:10 a.m. ET on 8 Sep 2026 (15:10 UTC), so the UAE statement was issued after CNN's first piece (CNN's update at 7:14 p.m. ET includes it).

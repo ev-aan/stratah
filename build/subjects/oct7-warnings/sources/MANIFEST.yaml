@@ -1,0 +1,552 @@
+# Sources for the 7 October warnings dig, with authenticity entries (rules A1-A10, build/SCHEMA.md).
+# LIVE STORY, as of 2026-10-04. Every source below was opened and read by the author on 2026-10-04 (HTML fetched and its text read) unless its `read:` line says otherwise.
+# Copied wire reports and syndicated copies count once. Reports that all trace to one underlying outlet (for example summaries of The Atlantic, The Wall Street Journal,
+# The New York Times or Haaretz) are one origin each; they are adoption of that report, never corroboration.
+# Only four short official texts are stored under sources/ (one or two sentences per quotation). Everything else is cited by URL.
+# NOT REACHED (HTTP 403, paywall or script block) from this environment: The Atlantic (original), The Wall Street Journal (original), The New York Times (all pieces), the full Haaretz
+# investigation of 8 Sep 2026 (headline and standfirst only), Times of Israel (all pages, 403), Israel Hayom (403), gov.il and shabak.gov.il (Cloudflare block), the IDF "October 7 inquiries" pages
+# (Incapsula block), the Shin Bet's own published summary (read only through reports), the IDF's own published findings (read only through reports), the text of the High Court orders,
+# Netanyahu's 55-page answers to the State Comptroller (read only through two Ynet reports), Ronen Bar's April 2025 affidavit (read only through Ynet), the Egyptian State Information Service
+# or any other Egyptian official text of October 2023 (not located), France 24 and the Library of Congress pieces on the inquiry bill, The National, Channel 12 and Channel 14 broadcasts.
+retrieved: 2026-10-04
+sources:
+
+# ------------------------- A. Official and primary texts read directly -------------------------
+- id: src-pmo-x-0926
+  title: Prime Minister's Office of Israel, statement on X (@IsraeliPM), 26 Sep 2026, in response to The Atlantic
+  author: Israel Prime Minister's Office
+  published: 2026-09-26
+  url: https://x.com/IsraeliPM/status/2103923745807278557
+  document_class: primary_text (a government office's own statement; a party to the dispute)
+  read: yes, directly (the post page; the same text is carried by Haaretz and Israel.com, which says it was also published on gov.il, not reached)
+  authenticity:
+    status: authenticated
+    strength: moderate
+    provenance: Posted on the PMO's official account; the text is quoted word for word by Haaretz (26 Sep 2026) and described by Israel.com, Ynet and Jerusalem Post. Short extract stored.
+    tests:
+    - 'Account check: the account is the PMO''s official English-language account (page "The official account of the Office of the Prime Minister of Israel") [read]'
+    - 'Content match: Haaretz reproduces the same four sentences [read]; a differing text would have failed the match'
+    tested_by: Stratah session, 2026-10-04 (not independent of the claimant; it is the PMO''s own statement)
+    gaps:
+    - The gov.il original was not reached (Cloudflare block). No independent archive capture.
+    next_step: Obtain a web-archive capture of the post and the gov.il statement page.
+    checked: '2026-10-04'
+  stored_as: sources/pmo-x-2026-09-26-egypt.txt
+  sha256: ec84c39b0e9cb7db510111976a59c44b8fd38928c66ee88dea0e34a00f89fe32
+- id: src-uae-mofa-0908
+  title: UAE Ministry of Foreign Affairs, statement in response to media reporting, 8 Sep 2026 (WAM text on Emirates 24|7; also posted on X)
+  author: UAE Ministry of Foreign Affairs via WAM
+  published: 2026-09-08
+  url: https://www.emirates247.com/uae/statement-by-uae-ministry-of-foreign-affairs-in-response-to-media-reporting/5398
+  document_class: primary_text (a government ministry's statement, as carried by the state news agency)
+  read: yes, directly (Emirates 24|7 copy, and the X post https://x.com/AfraMalHameli/status/2097371808118755369; the ministry's own page and the WAM original not reached)
+  authenticity:
+    status: authenticated
+    strength: moderate
+    provenance: WAM (the Emirates News Agency) text republished by Emirates 24|7 with a timestamp (2026-09-08T21:29+04:00); an identical text is posted on X by a UAE official account; CNN, ABC (Australia) and Anadolu quote it. Short extract stored.
+    tests:
+    - 'Content match: the three sentences are identical in the Emirates 24|7 copy and the X post, and CNN and Anadolu quote them [read]'
+    - 'Provenance: carried by the state news agency WAM [read]'
+    tested_by: Stratah session, 2026-10-04 (not independent of the UAE government, which issued it)
+    gaps:
+    - The ministry's own page and the WAM original were not reached.
+    next_step: Read the WAM release (wam.ae) or mofa.gov.ae.
+    checked: '2026-10-04'
+  stored_as: sources/uae-mofa-2026-09-08.txt
+  sha256: b9539282af6c08028ac5aecb5735b5505b913f4b561ec13c5219aaefb18d26eb
+- id: src-mevaker-1111
+  title: State Comptroller and Ombudsman of Israel, press release 11 Nov 2025, "State Comptroller Englman on the Absence of a National Security Concept"
+  author: Office of the State Comptroller and Ombudsman of Israel
+  published: 2025-11-11
+  url: https://www.mevaker.gov.il/en/newsroom/2025-11-11-special-report
+  document_class: primary_text (the audit body's own press release; the report itself was not opened)
+  read: yes, directly (the press release page, mevaker.gov.il)
+  authenticity:
+    status: authenticated
+    strength: moderate
+    provenance: Served over HTTPS from mevaker.gov.il, the State Comptroller's own domain; Israel National News reports the same release (read, see src-inn-comptroller; it does not repeat the sentence about the prime minister).
+    tests:
+    - 'Domain check: the Comptroller''s official domain [read]'
+    - 'Content match: Israel National News reports the same finding about the absence of a security concept [read]'
+    tested_by: Stratah session, 2026-10-04 (the Comptroller is not a party to the claims in this dig, but the release describes its own work)
+    gaps:
+    - The report itself (Hebrew and English PDF) was not opened; no independent archive capture.
+    next_step: Open the full report on the Comptroller's site.
+    checked: '2026-10-04'
+  stored_as: sources/mevaker-2025-11-11-extract.txt
+  sha256: af36c3a78929606ce019bd79fb1b23c3383af925b4b3c9338d734f2330188c8e
+- id: src-mevaker-0106
+  title: State Comptroller and Ombudsman of Israel, press release 6 Jan 2026 (ninth Swords of Iron publication), with its account of the High Court interim order
+  author: Office of the State Comptroller and Ombudsman of Israel
+  published: 2026-01-06
+  url: https://www.mevaker.gov.il/en/newsroom/2026-01-06-special-reports
+  document_class: primary_text (the audit body's own press release)
+  read: yes, directly (mevaker.gov.il)
+  authenticity:
+    status: authenticated
+    strength: moderate
+    provenance: Served over HTTPS from mevaker.gov.il; Jerusalem Post and Yahoo (JPost text) report the same interim order, with a different date (see log L-09).
+    tests:
+    - 'Domain check: the Comptroller''s official domain [read]'
+    - 'Content match: the interim order and its eight suspended audits are described by Jerusalem Post and Yahoo [read]; the date differs by two days, a discrepancy to resolve'
+    tested_by: Stratah session, 2026-10-04
+    gaps:
+    - The text of the High Court order was not reached; the release gives 29 Dec 2025, other reports 31 Dec 2025.
+    next_step: Read the order on the Supreme Court site (supreme.court.gov.il).
+    checked: '2026-10-04'
+  stored_as: sources/mevaker-2026-01-06-extract.txt
+  sha256: 73dedc28343255e26188565bd862fe8dc314e8a4f1d0a95ea55f50579c81fe98
+
+# ------------------------- B. The prime minister's own recorded statements and published documents (read through reports) -------------------------
+- id: src-ynet-55page
+  title: Ynetnews (Itamar Eichner), Netanyahu denies responsibility for October 7 failures, releases 55-page response to state comptroller (6 Feb 2026)
+  author: Itamar Eichner
+  published: 2026-02-06
+  url: https://www.ynetnews.com/article/ry0tcnmd11l
+  document_class: secondary (news; describes and quotes a primary document the PM published; the document was not opened)
+  read: yes, directly
+  authenticity:
+    status: not_applicable
+    basis: A news report. What is tested is the claims it carries; the 55-page document it describes was not opened.
+- id: src-ynet-submit
+  title: Ynetnews (Itamar Eichner), Netanyahu submits response to state comptroller on Oct. 7 failures (5 Feb 2026), quoting the PM's video
+  author: Itamar Eichner
+  published: 2026-02-05
+  url: https://www.ynetnews.com/article/b1ijmffvzg
+  document_class: secondary (news; quotes the prime minister's published video)
+  read: yes, directly
+  authenticity:
+    status: not_applicable
+    basis: A news report. It quotes the PM's own video statement; the video was not seen.
+- id: src-jc-wake
+  title: The Jewish Chronicle (Jacob Jaffa), Netanyahu claims October 7 'would not have taken place' if army chiefs had woken him up (2 Sep 2026)
+  author: Jacob Jaffa
+  published: 2026-09-02
+  url: https://www.thejc.com/news/israel/netanyahu-october-7-not-happened-army-woke-up-g26mb12m
+  document_class: secondary (news; quotes the PM's own words on Channel 14 and other Israeli TV)
+  read: yes, directly
+  authenticity:
+    status: not_applicable
+    basis: A news report quoting the prime minister's televised interviews of 1 Sep 2026; the broadcasts were not seen.
+- id: src-theprint-bar
+  title: ThePrint (Ashwin Shekhar), Ex-chief of Israel's internal security service says he will sue Netanyahu over 7 October accusations (30 Sep 2026)
+  author: Ashwin Shekhar
+  published: 2026-09-30
+  url: https://theprint.in/world/ex-chief-of-israels-internal-security-service-says-he-will-sue-netanyahu-over-7-october-accusations/3057677/
+  document_class: secondary (news; quotes the PM's 1 Sep press conference and PMO statements)
+  read: yes, directly (the text up to the PMO statement; the article's last paragraphs were cut off in the extracted page)
+  authenticity:
+    status: not_applicable
+    basis: A news report.
+- id: src-aj-sue
+  title: Al Jazeera, Netanyahu to sue Haaretz over claims UAE warned him before October 7 attack (10 Sep 2026)
+  author: Al Jazeera Staff
+  published: 2026-09-10
+  url: https://www.aljazeera.com/news/2026/9/10/netanyahu-to-sue-haaretz-over-claims-uae-warned-him-before-october-7-attack
+  document_class: secondary (news; quotes the PM's X statement)
+  read: yes, directly
+  authenticity:
+    status: not_applicable
+    basis: A news report. It quotes the PM's statement on X of 9 Sep 2026; the post itself was not opened.
+
+# ------------------------- C. Published investigations and their stated limits (read through reports) -------------------------
+- id: src-ynet-idf-0227
+  title: Ynetnews (Yoav Zitun), Military intelligence thought it 'knew everything'; IDF chief knew nothing about 'Jericho Wall' (27 Feb 2025), on the IDF's published investigations
+  author: Yoav Zitun
+  published: 2025-02-27
+  url: https://www.ynetnews.com/article/s100p00zr9yl
+  document_class: secondary (news; describes and quotes the IDF's published findings, which were not opened)
+  read: yes, directly
+  authenticity:
+    status: not_applicable
+    basis: A news report on an official publication. The IDF page (idf.il) returned an Incapsula block.
+- id: src-jta-idf
+  title: Jewish Telegraphic Agency (Ben Sales), The IDF just released its report on Oct. 7. Here are some takeaways (27 Feb 2025)
+  author: Ben Sales
+  published: 2025-02-27
+  url: https://www.jta.org/2025/02/27/israel/the-idf-just-released-its-report-on-oct-7-here-are-some-takeaways
+  document_class: secondary (a digest of Israeli press coverage of the IDF report)
+  read: yes, directly
+  authenticity:
+    status: not_applicable
+    basis: A news digest quoting other outlets; it counts as adoption of those outlets, not an independent origin.
+- id: src-jpost-shabak
+  title: Jerusalem Post (Yonah Jeremy Bob), Shin Bet ignored sim cards, sensor warning on Oct. 7, probe finds (4 Mar 2025), on the Shin Bet's published summary
+  author: Yonah Jeremy Bob
+  published: 2025-03-04
+  url: https://www.jpost.com/israel-news/article-844712
+  document_class: secondary (news; describes the Shin Bet's published summary, not opened)
+  read: yes, directly
+  authenticity:
+    status: not_applicable
+    basis: A news report on an official publication. shabak.gov.il returned a Cloudflare block.
+- id: src-npr-shabak
+  title: NPR (Daniel Estrin) via Houston Public Media, What went wrong? Israel's spy agency lists failures in preventing Oct. 7 attack (5 Mar 2025)
+  author: Daniel Estrin
+  published: 2025-03-05
+  url: https://www.houstonpublicmedia.org/npr/2025/03/05/nx-s1-5318591/what-went-wrong-israels-spy-agency-lists-failures-in-preventing-oct-7-attack/
+  document_class: secondary (news; its reporter says he read the Shin Bet report; the report was not opened here)
+  read: yes, directly
+  authenticity:
+    status: not_applicable
+    basis: A news report on an official publication.
+- id: src-cnn-shabak
+  title: CNN, Israel's Shin Bet says October 7 attack could have been prevented as it admits fault and casts blame (4 Mar 2025)
+  author: Lauren Izso, Caitlin Danaher, Mick Krever
+  published: 2025-03-04
+  url: https://edition.cnn.com/2025/03/04/middleeast/israel-shin-bet-october-7-fault-intl-latam/index.html
+  document_class: secondary (news; describes the Shin Bet's published summary)
+  read: yes, directly
+  authenticity:
+    status: not_applicable
+    basis: A news report on an official publication.
+- id: src-ynet-meta
+  title: Ynetnews (Yoav Zitun), IDF 'meta-investigation' finds six major failures behind Oct. 7 attack as Zamir signals policy shift (10 Nov 2025)
+  author: Yoav Zitun
+  published: 2025-11-10
+  url: https://www.ynetnews.com/article/rkt4boyxwl
+  document_class: secondary (news; reports an expert committee's review of the IDF's own probes)
+  read: yes, directly
+  authenticity:
+    status: not_applicable
+    basis: A news report on an official presentation; the committee's report was not opened.
+- id: src-ynet-bar
+  title: "Ynetnews (Tal Amoday), Netanyahu vs. Ronen Bar: What the partial Oct. 7 records show, and what remains disputed (about 29 Sep 2026)"
+  author: Tal Amoday
+  published: 2026-09-29
+  url: https://www.ynetnews.com/article/hkwjepo5zx
+  document_class: secondary (news analysis; describes Bar's April 2025 affidavit, the PM's released excerpts and a Ynet/Yedioth investigation; none opened)
+  read: yes, directly
+  authenticity:
+    status: not_applicable
+    basis: A news analysis. The page's publication time is 2026-09-29 04:57 UTC; it refers to "Monday" (28 Sep).
+- id: src-ctc
+  title: "CTC Sentinel (Michel Wyss), The October 7 Attack: An Assessment of the Intelligence Failings (Oct 2024, vol. 17 issue 9)"
+  author: Michel Wyss
+  published: 2024-10
+  url: https://ctc.westpoint.edu/the-october-7-attack-an-assessment-of-the-intelligence-failings/
+  document_class: secondary (a scholarly synthesis of open-source reporting; cites Times of Israel, Channel 12, NYT, FT, Haaretz)
+  read: yes, directly
+  authenticity:
+    status: not_applicable
+    basis: An analytic article. It is a synthesis of public reports (not new evidence) and carries each claim's own limits; weighed as interpretive.
+
+# ------------------------- D. Courts and the state inquiry (read through reports) -------------------------
+- id: src-yahoo-hcj
+  title: "Jerusalem Post text via Yahoo, October 7 investigation: High Court freezes core State Comptroller audits, seeks clarification (31 Dec 2025)"
+  author: Jerusalem Post
+  published: 2025-12-31
+  url: https://www.yahoo.com/news/articles/october-7-investigation-comptroller-barred-103815206.html
+  document_class: secondary (news; reports the High Court's interim order)
+  read: yes, directly (the page's machine-written "key takeaways" box was ignored; only the article text was read)
+  authenticity:
+    status: not_applicable
+    basis: A news report on a court order; the order was not opened.
+- id: src-jpost-hcj-0510
+  title: Jerusalem Post (Sarah Ben-Nun), High Court questions comptroller's authority to probe core Oct. 7 failures (10 May 2026)
+  author: Sarah Ben-Nun
+  published: 2026-05-10
+  url: https://www.jpost.com/israel-news/politics-and-diplomacy/article-895705
+  document_class: secondary (news; reports a five-justice hearing)
+  read: yes, directly
+  authenticity:
+    status: not_applicable
+    basis: A news report on a hearing.
+- id: src-jfeed-hcj
+  title: JFeed (Gila Isaacson), High Court Delays October 7 Inquiry Decision Until Elections (23 Sep 2026)
+  author: Gila Isaacson
+  published: 2026-09-23
+  url: https://www.jfeed.com/news-israel/tltkh7
+  document_class: secondary (news; reports the High Court's 23 Sep 2026 decision and the AG's and government's positions)
+  read: yes, directly
+  authenticity:
+    status: not_applicable
+    basis: A news report; the decision text was not opened. Haaretz (src-haaretz-hcj-0923) and Jerusalem Post (src-jpost-postpone) report the same decision.
+- id: src-haaretz-hcj-0923
+  title: Haaretz (Chen Maanit), Israel's Top Court Delays Decision on Oct. 7 State Probe Petitions Until After Election (23 Sep 2026)
+  author: Chen Maanit
+  published: 2026-09-23
+  url: https://www.haaretz.com/israel-news/2026-09-23/ty-article/.premium/high-court-wont-rule-on-oct-7-state-commission-petitions-until-after-election/000001a0-cde0-dcb9-a9a4-fde4a5040000
+  document_class: secondary (news; paywalled)
+  read: partial (first sentence only; paywall)
+  authenticity:
+    status: not_applicable
+    basis: A news report; only its opening sentence was read.
+- id: src-jpost-postpone
+  title: Jerusalem Post (Herb Keinon), Has Netanyahu's postponement of a state commission of inquiry into October 7 backfired? - analysis (29 Sep 2026)
+  author: Herb Keinon
+  published: 2026-09-29
+  url: https://www.jpost.com/israel-news/politics-and-diplomacy/article-910111
+  document_class: secondary (news analysis)
+  read: yes, directly
+  authenticity:
+    status: not_applicable
+    basis: An analysis piece; used for its description of what is contested, not for facts.
+
+# ------------------------- E. Egypt -------------------------
+- id: src-ynet-egypt
+  title: Ynetnews, Egypt spy chief flew to Israel 11 days before Oct. 7 with warning on Gaza, report says (26 Sep 2026), summarising The Atlantic
+  author: Ynet
+  published: 2026-09-26
+  url: https://www.ynetnews.com/article/bkxy4f49zg
+  document_class: secondary (news; a long summary of The Atlantic's report; one origin with the Atlantic)
+  read: yes, directly (The Atlantic's original was not reached)
+  authenticity:
+    status: not_applicable
+    basis: A news report summarising another outlet's investigation, which rests on anonymous officials from seven countries.
+- id: src-haaretz-egypt
+  title: Haaretz, Report - Egypt's Intel Chief Came to Israel to Warn of Major Hamas Attack 11 Days Before Oct. 7 (26 Sep 2026), including the PMO statement and 2023 reporting
+  author: Haaretz
+  published: 2026-09-26
+  url: https://www.haaretz.com/israel-news/israel-security/2026-09-26/ty-article/report-egypts-intel-chief-came-to-israel-warned-of-hamas-attack-before-oct-7/000001a0-dbe9-dd66-a9a4-fbeb56d60000
+  document_class: secondary (news; summarising The Atlantic; quotes the PMO statement and Yedioth Ahronoth's 9 Oct 2023 report)
+  read: yes, directly
+  authenticity:
+    status: not_applicable
+    basis: A news report. It reproduces the PMO's X text, which matches the stored extract.
+- id: src-mee-atlantic
+  title: Middle East Eye live blog, The Atlantic - Egypt's intelligence chief had warned Israel of Hamas attack (26 Sep 2026)
+  author: Middle East Eye
+  published: 2026-09-26
+  url: https://www.middleeasteye.net/live-blog/live-blog-update/atlantic-egypts-intelligence-chief-had-warned-israel-hamas-attack
+  document_class: secondary (news; summarising The Atlantic, the AP report of 2023 and Haaretz)
+  read: yes, directly
+  authenticity:
+    status: not_applicable
+    basis: A news summary; one origin with The Atlantic and Haaretz.
+- id: src-jpost-egypt
+  title: Jerusalem Post (Idan Kweller), Egyptian intelligence chief visited Israel days before Oct. 7 to issue security warning - report (26 Sep 2026)
+  author: Idan Kweller
+  published: 2026-09-26
+  url: https://www.jpost.com/israel-news/defense-news/article-909763
+  document_class: secondary (news; summarising The Atlantic)
+  read: yes, directly (first part of the article)
+  authenticity:
+    status: not_applicable
+    basis: A news summary; one origin with The Atlantic.
+- id: src-haaretz-deny-visit
+  title: Haaretz (Jack Khoury and the Associated Press), Netanyahu Asked UAE Leader to Deny Haaretz Report on Oct. 7 Warning in Secret Visit, Sources Say (28 Sep 2026), with a summary of the UAE, Egyptian and WSJ reports
+  author: Jack Khoury and the Associated Press
+  published: 2026-09-28
+  url: https://www.haaretz.com/israel-news/israel-security/2026-09-28/ty-article/netanyahu-asked-uae-leader-to-deny-haaretz-report-on-oct-7-warning/000001a0-e77e-db4b-a7a5-f77eecd60000
+  document_class: secondary (news; AP text with Haaretz additions; anonymous sources)
+  read: yes, directly
+  authenticity:
+    status: not_applicable
+    basis: A news report; the visit story rests on one person with first-hand knowledge and a regional official, both anonymous.
+- id: src-fox-mccaul
+  title: Fox News (Charles Creitz), Egypt warned Israel of attack, House Foreign Affairs chairman claims (12 Oct 2023)
+  author: Charles Creitz
+  published: 2023-10-12
+  url: https://noticias.foxnews.com/media/egypt-warned-israel-attack-house-foreign-affairs-chairman-claims.print
+  document_class: secondary (news; quotes a named US lawmaker's on-record words and a PMO statement)
+  read: yes, directly
+  authenticity:
+    status: not_applicable
+    basis: A news report. The lawmaker's words are on record; the PMO wording is quoted via the Jerusalem Post and the New York Post, neither opened.
+- id: src-haaretz-hanegbi23
+  title: "Haaretz (Jonathan Lis), 'Utterly Fake': Israel's National Security Adviser Denies Receiving Egyptian Warning of Hamas Attack (13 Oct 2023)"
+  author: Jonathan Lis
+  published: 2023-10-13
+  url: https://www.haaretz.com/israel-news/2023-10-13/ty-article/.premium/israels-national-security-adviser-denies-receiving-egyptian-warning-of-hamas-attack/0000018b-28c9-d1bc-a58b-69ef2ed70000
+  document_class: secondary (news; paywalled)
+  read: partial (headline and first sentence only; paywall)
+  authenticity:
+    status: not_applicable
+    basis: A news report; the CTC article (src-ctc, footnote o) cites the same piece and its content.
+
+# ------------------------- F. The UAE -------------------------
+- id: src-haaretz-uae-orig
+  title: Haaretz (Shlomi Eldar and Ruth Yuval), Revealed - Netanyahu Received an Explicit Warning Days Before Oct. 7. He Didn't Brief Israel's Security Chiefs (8 Sep 2026)
+  author: Shlomi Eldar and Ruth Yuval
+  published: 2026-09-08
+  url: https://www.haaretz.com/israel-news/israel-security/2026-09-08/ty-article-magazine/.highlight/netanyahu-got-an-explicit-warning-before-oct-7-he-didnt-brief-security-chiefs/000001a0-7a3b-d7d5-a9fc-7eff3d0f0000
+  document_class: secondary (investigative report excerpted from a book; paywalled)
+  read: "partial (standfirst only: \"In September '23, UAE President bin Zayed called Netanyahu to deliver a harsh warning...\", plus the PMO's \"absolute lie\"; the article body was not reachable)"
+  authenticity:
+    status: not_applicable
+    basis: A news investigation. The documents and recordings its authors say they hold have not been published.
+- id: src-ynet-book
+  title: Ynetnews, UAE gave explicit warning to Netanyahu of Hamas plans days before October 7, new book says (8 Sep 2026)
+  author: Ynet
+  published: 2026-09-08
+  url: https://www.ynetnews.com/article/hjiwy7pumx
+  document_class: "secondary (news; reports the book \"Hostages: 843 Days of Abandonment\" and an interview with one author; the book was not read)"
+  read: yes, directly
+  authenticity:
+    status: not_applicable
+    basis: A news report; one origin with the Haaretz excerpt and the book.
+- id: src-cnn-uae
+  title: CNN (Tal Shalev), Netanyahu faces backlash over report he was warned of Hamas attack days before October 7 (8 Sep 2026)
+  author: Tal Shalev
+  published: 2026-09-08
+  url: https://www.cnn.com/2026/09/08/middleeast/netanyahu-report-warning-uae-hamas-attack-intl
+  document_class: secondary (news)
+  read: yes, directly
+  authenticity:
+    status: not_applicable
+    basis: A news report. It quotes one of the book's authors in an interview and the PMO statement.
+- id: src-haaretz-nyt-uae
+  title: Haaretz, NYT - Sources Confirm Haaretz Report of UAE President's Oct. 7 Warning to Netanyahu (25 Sep 2026)
+  author: Haaretz
+  published: 2026-09-25
+  url: https://www.haaretz.com/israel-news/israel-security/2026-09-25/ty-article/report-bin-zayed-warned-netanyahu-days-before-oct-7-sources-say/000001a0-d9b8-dfbb-afa4-fbf8844a0000
+  document_class: secondary (news; summarising a New York Times report, which was not reached)
+  read: yes, directly
+  authenticity:
+    status: not_applicable
+    basis: A news report summarising another outlet; one origin with the New York Times.
+- id: src-memo-nyt
+  title: Middle East Monitor, Netanyahu failed to relay UAE warning of possible Hamas attack to security chiefs - NYT (26 Sep 2026)
+  author: Middle East Monitor
+  published: 2026-09-26
+  url: https://www.middleeastmonitor.com/20260926-netanyahu-failed-to-relay-uae-warning-of-possible-hamas-attack-to-security-chiefs-nyt
+  document_class: secondary (news; summarising a New York Times report, which was not reached)
+  read: yes, directly
+  authenticity:
+    status: not_applicable
+    basis: A news summary; one origin with the New York Times.
+- id: src-jpost-909744
+  title: Jerusalem Post staff, Netanyahu did not discuss UAE's October 7 warning at Gaza security meeting week of attack - report (26 Sep 2026)
+  author: Jerusalem Post staff
+  published: 2026-09-26
+  url: https://www.jpost.com/israel-news/article-909744
+  document_class: secondary (news; summarising the New York Times; includes PMO and UAE source statements and two US sources)
+  read: yes, directly
+  authenticity:
+    status: not_applicable
+    basis: A news report.
+- id: src-yahoo-wapo
+  title: Washington Post text via Yahoo, Reports that Netanyahu ignored Oct. 7 warnings dominate Israeli election (about 30 Sep 2026)
+  author: Washington Post
+  published: 2026-09-30
+  url: https://www.yahoo.com/news/politics/articles/reports-netanyahu-ignored-oct-7-125325026.html
+  document_class: secondary (news; anonymous and named sources; includes an on-record account by a former Palestinian official)
+  read: yes, directly
+  authenticity:
+    status: not_applicable
+    basis: A news report; the article carries no byline in the Yahoo copy.
+- id: src-abc-au
+  title: ABC News (Australia) (Laura Tingle), Netanyahu was warned of October 7 Hamas attack, reports say ahead of election (30 Sep 2026)
+  author: Laura Tingle
+  published: 2026-09-30
+  url: https://abc.net.au/news/2026-09-30/benjamin-netanyahu-october-7-hamas-attack-warning/107206790
+  document_class: secondary (news analysis; summarises Haaretz, NYT, WSJ and The Atlantic)
+  read: yes, directly
+  authenticity:
+    status: not_applicable
+    basis: A news analysis that repeats the original outlets' reports; it counts as adoption of them.
+- id: src-aj-warnings
+  title: Al Jazeera (Simon Speakman Cordall), The October 7 warnings threatening Netanyahu's Israeli election campaign (30 Sep 2026)
+  author: Simon Speakman Cordall
+  published: 2026-09-30
+  url: https://aljazeera.com/news/2026/9/30/the-october-7-warnings-threatening-netanyahus-israel-election-campaign
+  document_class: secondary (news; says neither Kamel nor the Egyptian government commented)
+  read: yes, directly
+  authenticity:
+    status: not_applicable
+    basis: A news report; the statement that Egypt has not commented is the outlet's.
+- id: src-aa-uae
+  title: Anadolu Agency, UAE says it does not comment on reports about government leaders' talks (8 Sep 2026)
+  author: Anadolu Agency
+  published: 2026-09-08
+  url: https://www.aa.com.tr/en/middle-east/uae-says-it-does-not-comment-on-reports-about-government-leaders-talks/4051405
+  document_class: secondary (news; gives 23 Sep 2023 as the date of the call in Haaretz's report)
+  read: yes, directly
+  authenticity:
+    status: not_applicable
+    basis: A news report. The 23 Sep date is Anadolu's reading of Haaretz and differs from Haaretz's "a week and a half before" (log L-12).
+- id: src-haaretz-oct-council
+  title: Haaretz (Bar Peleg), October 7 Victims' Families Allege Netanyahu Ignored Repeated Warnings of Attack (4 Oct 2026)
+  author: Bar Peleg
+  published: 2026-10-04
+  url: https://www.haaretz.com/israel-news/israel-security/2026-10-04/ty-article/.premium/october-7-victims-families-allege-netanyahu-ignored-repeated-warnings-of-attack/000001a1-0329-d2e8-afb1-173db4ec0000
+  document_class: secondary (news; paywalled)
+  read: partial (first sentence only; paywall)
+  authenticity:
+    status: not_applicable
+    basis: A news report; the October Council's own findings were not reached.
+
+# ------------------------- G. Jericho Wall, analysts and observers -------------------------
+- id: src-kiro7-nyt
+  title: KIRO 7 (Cox Media Group National Content Desk), Reports - Israeli officials obtained Hamas's battle plan over a year before Oct. 7 happened (30 Nov 2023), summarising The New York Times
+  author: Jessica Goodman
+  published: 2023-11-30
+  url: https://www.kiro7.com/news/trending/reports-israeli-officials-obtained-hamass-battle-plan-over-year-before-oct-7-happened/7M7RBB6Y2ZHA5IMJ5CRVFQSH3A/
+  document_class: secondary (a syndicated summary of the New York Times report by Ronen Bergman and Adam Goldman; the Times piece was not reached)
+  read: yes, directly
+  authenticity:
+    status: not_applicable
+    basis: A summary of another outlet's investigation; one origin with the New York Times.
+- id: src-mee-jw
+  title: Middle East Eye, Israel obtained Hamas attack plan over a year ago, says report (1 Dec 2023), summarising The New York Times
+  author: MEE staff
+  published: 2023-12-01
+  url: https://www.middleeasteye.net/news/israel-palestine-war-hamas-attack-plan-obtained-year-ago-report
+  document_class: secondary (a summary of the New York Times report)
+  read: yes, directly
+  authenticity:
+    status: not_applicable
+    basis: A summary of another outlet's investigation; one origin with the New York Times.
+- id: src-nbc-analysts
+  title: NBC News (Anna Schecter, Tom Winter, Daniel Arkin), Israeli military analysts flagged Hamas plans to 'start a war' before terror attack (1 Dec 2023)
+  author: Anna Schecter, Tom Winter and Daniel Arkin
+  published: 2023-12-01
+  url: https://www.nbcnews.com/news/investigations/israeli-military-analysts-flagged-hamas-plans-start-war-terror-attack-rcna127686
+  document_class: secondary (news; an anonymous senior Israeli official confirmed email contents first reported by Channel 12 and the Financial Times; NBC did not obtain the Jericho Wall document)
+  read: yes, directly
+  authenticity:
+    status: not_applicable
+    basis: A news report. The emails were not published; NBC says it has not independently confirmed the Times report.
+- id: src-abc-spotters
+  title: ABC News (Ines de la Cuetara), IDF soldiers say repeated warnings of Hamas activity prior to Oct. 7 attacks were ignored (28 Jun 2024)
+  author: Ines de la Cuetara
+  published: 2024-06-28
+  url: https://abcnews.com/International/idf-soldiers-repeated-warnings-hamas-activity-prior-oct/story?id=111312207
+  document_class: secondary (news; an on-record account by a former observer and relatives' accounts; names are deliberately not used in this dig)
+  read: yes, directly
+  authenticity:
+    status: not_applicable
+    basis: A news report. The IDF told ABC the claims would be looked into at a later stage.
+
+# ------------------------- H. Other reporting and commentary -------------------------
+- id: src-inn-comptroller
+  title: Israel National News, Comptroller warns - Israel lacks coherent national security doctrine (Nov 2025)
+  author: Israel National News
+  published: 2025-11-11
+  url: https://www.israelnationalnews.com/news/417634
+  document_class: secondary (news; reports the Comptroller's 11 Nov 2025 release)
+  read: yes, directly
+  authenticity:
+    status: not_applicable
+    basis: A news report on the Comptroller's release; used only to test that the release is described the same way.
+- id: src-jpost-910081
+  title: Jerusalem Post (Douglas Bloomfield), The question Netanyahu must answer - What did he know before October 7? (opinion, 30 Sep 2026)
+  author: Douglas Bloomfield
+  published: 2026-09-30
+  url: https://www.jpost.com/opinion/article-910081
+  document_class: secondary (opinion; an advocacy-labelled column; used only for what it says is being asked and for claims it attributes to others)
+  read: yes, directly
+  authenticity:
+    status: not_applicable
+    basis: An opinion piece. Nothing in it is used as a fact on its own.
+- id: src-kovler
+  title: The Hat Tip (Arieh Kovler), The politics of October 7 conspiracies (10 Sep 2026)
+  author: Arieh Kovler
+  published: 2026-09-10
+  url: https://arieh.substack.com/p/the-politics-of-october-7-conspiracies
+  document_class: secondary (a newsletter essay by an Israeli political commentator; cites two polls, one by Reichman University and one by Maariv/Jerusalem Post, not opened)
+  read: yes, directly
+  authenticity:
+    status: not_applicable
+    basis: A commentary. Used only to describe how the "allowed it" and "betrayal from within" claims circulate; it carries the author's own opinions and no document.
+- id: src-wsws
+  title: World Socialist Web Site, Documents expose Israeli conspiracy to facilitate October 7 attack (2 Dec 2023)
+  author: World Socialist Web Site
+  published: 2023-12-02
+  url: https://www.wsws.org/en/articles/2023/12/02/klox-d02.html
+  document_class: secondary (a political publication's commentary; cited ONLY as an example of a claim as it circulated, never as evidence)
+  read: yes, directly (first paragraphs)
+  authenticity:
+    status: not_applicable
+    basis: A commentary quoted to show how a claim is worded. It supports no claim in this dig.

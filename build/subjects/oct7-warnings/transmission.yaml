@@ -1,0 +1,193 @@
+# TRANSMISSION RECORD for the 7 October warnings dig (format: build/SCHEMA.md, X1 to X4; see incandescent-lamp/transmission.yaml for the header).
+# How four claims spread. Spread is adoption, never evidence: it confers no weight on any claim and no claim cites these chains (X1, X3).
+# `read: yes` means the carrier's text was opened by the author; `read: no` means the step is known only through another source. Counts, polls and reach are adoption.
+# No private individual is named; two related claims about a person's conduct on the day are described by role only (see log L-16).
+subject: oct7-warnings
+
+chains:
+
+  - id: tx-o7w-uae-warning
+    about: "oct7-warnings:o7w-uae-call"
+    title: "How the claim that the UAE president warned the prime minister spread"
+    confers_weight: false
+    events:
+      - id: tx-u-01
+        date: "2026-09-08"
+        precision: day
+        step: origin
+        carrier: "Haaretz investigation by two journalists, excerpted from their book 'Hostages: 843 Days of Abandonment'"
+        form: "In September 2023 the UAE president called Netanyahu to deliver a harsh warning; Netanyahu did nothing and did not brief the security chiefs. Netanyahu: 'This is an absolute lie'."
+        source: src-haaretz-uae-orig
+        read: no
+        note: "Only the standfirst of the Haaretz piece was read; the content is known through Ynet, CNN and Al Jazeera. One author told CNN he holds a document and records; none is public."
+      - id: tx-u-02
+        date: "2026-09-08"
+        precision: day
+        step: amplification
+        carrier: "CNN, then the world press; a joint statement by four opposition party leaders calling for an investigation"
+        form: "'What did Netanyahu know, when did he know, why he didn't update the security establishment?' (opposition statement quoted by CNN); one opposition leader called it 'criminal negligence'."
+        source: src-cnn-uae
+        read: yes
+        note: "The opposition's statements are accusations by political rivals six weeks before an election, recorded as such."
+      - id: tx-u-03
+        date: "2026-09-08"
+        precision: day
+        step: response
+        carrier: "UAE Foreign Ministry statement carried by WAM"
+        form: "'does not comment on media stories or speculation regarding conversations between government leaders'; 'all relevant intelligence has been and continues to be communicated between the relevant entities'."
+        source: src-uae-mofa-0908
+        read: yes
+        note: "Reported by CNN, ABC and Anadolu as a non-denial; read as such by some outlets and as a neutral statement by others. Neither reading is evidence about the call."
+      - id: tx-u-04
+        date: "2026-09-25"
+        precision: day
+        step: amplification
+        carrier: "New York Times report, picked up by Haaretz, Jerusalem Post, Middle East Monitor and ABC Australia"
+        form: "Two sources, one who spoke to the UAE president, confirm he warned of a 'major attack'; five former Israeli officials say it never reached the security leadership."
+        source: src-haaretz-nyt-uae
+        read: no
+        note: "The Times was not reached; its account is read through Haaretz and Middle East Monitor, which are one origin. Whether the Times sources are independent of Haaretz's is not known."
+      - id: tx-u-05
+        date: "2026-09-30"
+        precision: day
+        step: persistence
+        carrier: "Washington Post, ABC Australia, Al Jazeera analyses"
+        form: "'Netanyahu was warned of October 7 Hamas attack, reports say' (ABC headline); the Washington Post adds an anonymous source and a named intermediary on the Hamas message."
+        source: src-abc-au
+        read: yes
+        note: "The analyses repeat the original reports; ABC says other governments 'have not denied them'. Repeats are adoption."
+
+  - id: tx-o7w-egypt-warning
+    about: "oct7-warnings:o7w-egypt-general-warning"
+    title: "How the claim that Egypt warned Israel spread"
+    confers_weight: false
+    events:
+      - id: tx-e-01
+        date: "2023-10-09"
+        precision: day
+        step: origin
+        carrier: "An Egyptian intelligence official to the Associated Press; a Yedioth Ahronoth report that the Egyptian chief spoke with the prime minister"
+        form: "AP: Israel ignored repeated warnings that Hamas was planning 'something big'. Yedioth: the chief was 'amazed by the indifference' his warning met."
+        source: src-haaretz-egypt
+        read: yes
+        note: "Read through Haaretz and Ynet (the AP piece and the Yedioth report were not opened). Both rest on unnamed Egyptian officials."
+      - id: tx-e-02
+        date: "2023-10-09"
+        precision: day
+        step: response
+        carrier: "Prime Minister's Office statement and a televised address"
+        form: "'The Prime Minister has neither spoken, nor met, with the head of Egyptian intelligence since the formation of the government'; 'fake news'."
+        source: src-fox-mccaul
+        read: yes
+        note: "Fox News quotes the PMO via the Jerusalem Post and the New York Post (not opened)."
+      - id: tx-e-03
+        date: "2023-10-11"
+        precision: day
+        step: amplification
+        carrier: "A US House committee chairman, on television, after a classified briefing (Fox News, published 12 Oct 2023)"
+        form: "'We do know the Egyptian intelligence did refer this to Israel. And I can't get into any more depth than that.'"
+        source: src-fox-mccaul
+        read: yes
+        note: "On the record; he did not describe the warning's content. Israel's national security adviser called the reports 'utterly fake' on 13 Oct (Haaretz headline)."
+      - id: tx-e-04
+        date: "2026-09-26"
+        precision: day
+        step: amplification
+        carrier: "The Atlantic investigation; reproduced by Ynet, Haaretz, Middle East Eye and the Jerusalem Post the same day"
+        form: "Egypt's intelligence chief flew to Israel on 26 Sep 2023 with the warning 'If you don't change course, Gaza is going to blow up in your faces'."
+        source: src-ynet-egypt
+        read: no
+        note: "The Atlantic was not reached. The four same-day reports are one origin. The PMO replied the same day (stored statement)."
+      - id: tx-e-05
+        date: "2026-09-27"
+        precision: day
+        step: amplification
+        carrier: "Wall Street Journal report"
+        form: "The Egyptian chief telephoned the prime minister days before 7 October after two earlier warnings; no warning gave a date or scale."
+        source: src-haaretz-deny-visit
+        read: no
+        note: "The Journal was not reached; read through Haaretz and Al Jazeera. It cites officials in an Arab government."
+
+  - id: tx-o7w-knew-let-happen
+    about: "oct7-warnings:o7w-allowed-deliberately"
+    title: "How the claim that the prime minister knew and let the attack happen circulates"
+    confers_weight: false
+    events:
+      - id: tx-k-01
+        date: "2023-11-30"
+        precision: day
+        step: origin
+        carrier: "New York Times report on the Jericho Wall document"
+        form: "Israeli authorities obtained a 40-page Hamas plan more than a year before; officials judged it beyond Hamas's capabilities. The Times could not determine whether the prime minister saw it."
+        source: src-kiro7-nyt
+        read: no
+        note: "The report is the factual base the later claims draw on; it does not say anyone let the attack happen. Read through KIRO 7 and Middle East Eye."
+      - id: tx-k-02
+        date: "2023-12-02"
+        precision: day
+        step: amplification
+        carrier: "A political website's commentary"
+        form: "'Israeli officials, knowing full well where and how Hamas would strike, made a deliberate decision to stand down in order to facilitate the attack.'"
+        source: src-wsws
+        read: yes
+        note: "The commentary asserts a deliberate stand-down; the report it cites, as read, does not. Cited only as an example of the claim's wording; it supports no claim in this dig."
+      - id: tx-k-03
+        date: "2026-09-08"
+        precision: day
+        step: persistence
+        carrier: "An opposition party leader on X, quoted by CNN"
+        form: "The 'they-didn't-wake-me narrative is over. He knew, he was warned' and 'a conscious and criminal abandonment'."
+        source: src-cnn-uae
+        read: yes
+        note: "A political statement by a rival, recorded as an accusation. 'Knew' here means 'was warned in general terms', which is claim o7w-pm-personally-warned, not 'knew the date' or 'let it happen'."
+      - id: tx-k-04
+        date: "2026-09-10"
+        precision: day
+        step: persistence
+        carrier: "A newsletter essay by an Israeli commentator"
+        form: "'Outside of Israel, conspiracy theories about October 7 tend to say Netanyahu was in on it. Inside, they're usually the complete opposite.'"
+        source: src-kovler
+        read: yes
+        note: "The commentator's opinion, not a finding; he calls the 'allowed it' claim baseless and gives no source for the 'in on it' claim's reach. Used only to show the claim circulates in opposite forms."
+
+  - id: tx-o7w-chiefs-hid-it
+    about: "oct7-warnings:o7w-chiefs-knew-no-wake"
+    title: "How the claim that the security chiefs knew and did not wake the prime minister circulates"
+    confers_weight: false
+    events:
+      - id: tx-c-01
+        date: "2025-03-04"
+        precision: day
+        step: origin
+        carrier: "Prime Minister's Office statement after the Shin Bet's published summary"
+        form: "'On the night of the attack, the Shin Bet chief did not see fit to wake the Prime Minister - a fundamental and obvious decision that should have been made without question.'"
+        source: src-npr-shabak
+        read: yes
+        note: "Quoted by NPR; a source close to the prime minister said the same to CNN (read)."
+      - id: tx-c-02
+        date: "2026-09-01"
+        precision: day
+        step: amplification
+        carrier: "Prime minister's press conference and television interviews"
+        form: "The security chiefs 'decided ... not to wake me up, and not to attack beforehand. That's a failure, but it's not betrayal.'"
+        source: src-jc-wake
+        read: yes
+        note: "Washington Post says he accused them of 'deliberately' letting him sleep. Both are his statements; the broadcasts were not seen."
+      - id: tx-c-03
+        date: "2026-08-31"
+        precision: day
+        step: persistence
+        carrier: "A television interview by a member of the prime minister's household (Channel 14, Monday 31 Aug per the Jewish Chronicle)"
+        form: "A remark implying that an opposition party leader was 'already dressed and ready' early on 7 October; the leader called it a 'vile conspiracy theory' and said he would sue."
+        source: src-cnn-uae
+        read: yes
+        note: "The prime minister called the idea 'nonsense' (Jewish Chronicle). A claim about one person's conduct on the day, not about what the prime minister knew; recorded by role only (log L-16)."
+      - id: tx-c-04
+        date: "2026-09-10"
+        precision: day
+        step: persistence
+        carrier: "Polls of Israeli voters, as cited by a commentator"
+        form: "A Reichman University poll in April found 29 per cent of Israelis agreed that senior security officials knew of the attack and hid it from the prime minister (18 per cent in Dec 2023); a Maariv/Jerusalem Post poll found 44 per cent believed in a 'betrayal from within' (wording not seen)."
+        source: src-kovler
+        read: no
+        note: "The polls were not opened; they measure adoption, not evidence. The two questions are not identical."

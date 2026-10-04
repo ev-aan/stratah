@@ -1,0 +1,264 @@
+# Timeline data for the 7 October warnings dig. YAML is the source of truth; the diagram is generated
+# by build/tools/render_timeline.py. Nothing here is a finding: every item is a REPORTED fact with its
+# sources and a status, and the discrepancies are shown, not resolved. Official statements are shown beside material evidence.
+timeline:
+  id: oct7-warnings
+  title: "Warnings before 7 October 2023 and what the prime minister knew: who reported what, and when"
+  as_of: "2026-10-04"
+  note: >
+    Live story, as of 2026-10-04. Reports are being revised and denied. All clock times are UTC unless a note says otherwise;
+    Israel was on summer time (UTC+3) on 6 to 7 October 2023, so 06:29 in Israel is 03:29 UTC (derived). Dates of reports are the outlet's publication date; where a source gives only a month or year, the event is drawn as a month or year.
+    Named people are officials named in the cited reports and records, or journalists named as authors; no victim, hostage, minor or private individual is named.
+    Each event states how its time was arrived at (date_basis). An accusation on this chart is an accusation, not a finding. Events marked inferred are placed by us at a midpoint (day precision at 12:00 UTC).
+
+panels:
+  - id: before
+    title: "Panel A: signs and warnings before 7 October 2023 (years and months, UTC)"
+    start: "2018-01-01T00:00:00Z"
+    end: "2023-10-20T00:00:00Z"
+    tick_years: 1
+    lanes: [plans, intel_units, outside, leadership]
+  - id: night
+    title: "Panel B: the night of 6 to 7 October 2023 (UTC; Israel time is UTC+3)"
+    start: "2023-10-06T18:00:00Z"
+    end: "2023-10-07T08:00:00Z"
+    tick_minutes: 60
+    axes: [{label: "Israel time (UTC+3)", offset_hours: 3}]
+    lanes: [shin_bet, idf, pm_office]
+  - id: after
+    title: "Panel C: reports, investigations and court steps, October 2023 to August 2026"
+    start: "2023-10-01T00:00:00Z"
+    end: "2026-08-28T00:00:00Z"
+    tick_years: 1
+    lanes: [reports, official_probes, courts_comptroller, pm_statements]
+  - id: late
+    title: "Panel D: the September 2026 reports and replies (days, UTC)"
+    start: "2026-08-29T00:00:00Z"
+    end: "2026-10-06T00:00:00Z"
+    tick_hours: 72
+    lanes: [news_reports, pmo_and_pm, other_governments, opponents_and_courts]
+
+lanes:
+  plans:               {label: "Hamas plan held by Israeli bodies"}
+  intel_units:         {label: "Intelligence units and observers"}
+  outside:             {label: "Warnings from outside Israel (reported)"}
+  leadership:          {label: "Prime minister's meetings and records"}
+  shin_bet:            {label: "Shin Bet"}
+  idf:                 {label: "Army"}
+  pm_office:           {label: "Prime minister's office"}
+  reports:             {label: "Reports and findings"}
+  official_probes:     {label: "IDF, Shin Bet and expert probes"}
+  courts_comptroller:  {label: "State Comptroller and High Court"}
+  pm_statements:       {label: "Prime minister's own statements"}
+  news_reports:        {label: "Newspaper reports"}
+  pmo_and_pm:          {label: "Prime Minister's Office and the PM"}
+  other_governments:   {label: "UAE and Egyptian governments"}
+  opponents_and_courts: {label: "Opponents, the Shin Bet chief and the courts"}
+
+people:
+  - {who: "Benjamin Netanyahu", detail: "Israel's prime minister; the subject of the claims. Every accusation about what he knew is a claim; he denies receiving any warning from the UAE or Egypt and says the security chiefs did not wake him."}
+  - {who: "Ronen Bar", detail: "Then head of the Shin Bet. Says he warned the prime minister in general terms in 2023 and has said he will sue for defamation; the PMO says he knew of 'a real danger' on the night before and did not alert the PM. Accepted responsibility for the Shin Bet's failure on the night (Ynet)."}
+  - {who: "Herzi Halevi", detail: "Then chief of staff. Said, per the book's account and Ynet, that he was not told of any UAE warning."}
+  - {who: "Tzachi Hanegbi", detail: "Then head of the National Security Council. Called the 2023 reports of an Egyptian warning 'utterly fake'; denied to The Atlantic (Sept 2026) any visit or warning."}
+  - {who: "Abbas Kamel", detail: "Then head of Egypt's General Intelligence Service. Reported to have visited Israel on 26 Sep 2023 and to have telephoned the prime minister; Egypt has not commented in 2026."}
+  - {who: "Mohamed bin Zayed", detail: "UAE president. Reported to have telephoned the prime minister; his government's ministry declined to deny it."}
+  - {who: "Avi Gil", detail: "The prime minister's military secretary on 7 Oct 2023; named in the PM's own account as the person who messaged him at 06:29 Israel time."}
+  - {who: "Matanyahu Englman", detail: "State Comptroller; his core October 7 audits are suspended by a High Court order."}
+  - {who: "Gadi Eisenkot, Naftali Bennett, Yair Lapid", detail: "Opposition figures quoted on the record; their statements are accusations by political rivals."}
+  - {who: "Shlomi Eldar and Ruth Yuval", detail: "Journalists; authors of the Haaretz investigation and the book 'Hostages: 843 Days of Abandonment'."}
+  - {who: "Israel's Prime Minister's Office", detail: "Issues denials and releases excerpts; a party to the dispute."}
+
+sources:
+  s_pmo_x:       {title: "PMO statement on X, 26 Sep 2026 (read; stored extract)", url: "https://x.com/IsraeliPM/status/2103923745807278557"}
+  s_uae_mofa:    {title: "UAE Foreign Ministry statement, 8 Sep 2026 (WAM text on Emirates 24|7; stored extract)", url: "https://www.emirates247.com/uae/statement-by-uae-ministry-of-foreign-affairs-in-response-to-media-reporting/5398"}
+  s_mevaker_1111: {title: "State Comptroller press release, 11 Nov 2025 (stored extract)", url: "https://www.mevaker.gov.il/en/newsroom/2025-11-11-special-report"}
+  s_mevaker_0106: {title: "State Comptroller press release, 6 Jan 2026 (stored extract)", url: "https://www.mevaker.gov.il/en/newsroom/2026-01-06-special-reports"}
+  s_ynet_idf:    {title: "Ynetnews, on the IDF's published investigations, 27 Feb 2025", url: "https://www.ynetnews.com/article/s100p00zr9yl"}
+  s_jta_idf:     {title: "JTA, takeaways from the IDF report, 27 Feb 2025", url: "https://www.jta.org/2025/02/27/israel/the-idf-just-released-its-report-on-oct-7-here-are-some-takeaways"}
+  s_npr_shabak:  {title: "NPR, on the Shin Bet's published summary, 5 Mar 2025", url: "https://www.houstonpublicmedia.org/npr/2025/03/05/nx-s1-5318591/what-went-wrong-israels-spy-agency-lists-failures-in-preventing-oct-7-attack/"}
+  s_jp_shabak:   {title: "Jerusalem Post, on the Shin Bet's published summary, 4 Mar 2025", url: "https://www.jpost.com/israel-news/article-844712"}
+  s_ynet_meta:   {title: "Ynetnews, IDF 'meta-investigation', 10 Nov 2025", url: "https://www.ynetnews.com/article/rkt4boyxwl"}
+  s_ynet_bar:    {title: "Ynetnews, Netanyahu vs. Ronen Bar, 29 Sep 2026", url: "https://www.ynetnews.com/article/hkwjepo5zx"}
+  s_ynet_55:     {title: "Ynetnews, the PM's 55-page response to the Comptroller, 6 Feb 2026", url: "https://www.ynetnews.com/article/ry0tcnmd11l"}
+  s_ynet_submit: {title: "Ynetnews, the PM submits his response, 5 Feb 2026", url: "https://www.ynetnews.com/article/b1ijmffvzg"}
+  s_ynet_egypt:  {title: "Ynetnews, summary of The Atlantic on the Egyptian visit, 26 Sep 2026", url: "https://www.ynetnews.com/article/bkxy4f49zg"}
+  s_haaretz_egypt: {title: "Haaretz, Egypt's intel chief report and PMO reply, 26 Sep 2026", url: "https://www.haaretz.com/israel-news/israel-security/2026-09-26/ty-article/report-egypts-intel-chief-came-to-israel-warned-of-hamas-attack-before-oct-7/000001a0-dbe9-dd66-a9a4-fbeb56d60000"}
+  s_haaretz_deny: {title: "Haaretz and AP, Netanyahu asked UAE leader to deny, 28 Sep 2026", url: "https://www.haaretz.com/israel-news/israel-security/2026-09-28/ty-article/netanyahu-asked-uae-leader-to-deny-haaretz-report-on-oct-7-warning/000001a0-e77e-db4b-a7a5-f77eecd60000"}
+  s_haaretz_nyt: {title: "Haaretz, on the New York Times report, 25 Sep 2026", url: "https://www.haaretz.com/israel-news/israel-security/2026-09-25/ty-article/report-bin-zayed-warned-netanyahu-days-before-oct-7-sources-say/000001a0-d9b8-dfbb-afa4-fbf8844a0000"}
+  s_haaretz_orig: {title: "Haaretz (Eldar and Yuval), 8 Sep 2026 (standfirst only)", url: "https://www.haaretz.com/israel-news/israel-security/2026-09-08/ty-article-magazine/.highlight/netanyahu-got-an-explicit-warning-before-oct-7-he-didnt-brief-security-chiefs/000001a0-7a3b-d7d5-a9fc-7eff3d0f0000"}
+  s_haaretz_council: {title: "Haaretz, October Council findings, 4 Oct 2026 (first sentence only)", url: "https://www.haaretz.com/israel-news/israel-security/2026-10-04/ty-article/.premium/october-7-victims-families-allege-netanyahu-ignored-repeated-warnings-of-attack/000001a1-0329-d2e8-afb1-173db4ec0000"}
+  s_ynet_book:   {title: "Ynetnews, on the book, 8 Sep 2026", url: "https://www.ynetnews.com/article/hjiwy7pumx"}
+  s_cnn_uae:     {title: "CNN, Netanyahu faces backlash, 8 Sep 2026", url: "https://www.cnn.com/2026/09/08/middleeast/netanyahu-report-warning-uae-hamas-attack-intl"}
+  s_aj_sue:      {title: "Al Jazeera, Netanyahu to sue Haaretz, 10 Sep 2026", url: "https://www.aljazeera.com/news/2026/9/10/netanyahu-to-sue-haaretz-over-claims-uae-warned-him-before-october-7-attack"}
+  s_jc_wake:     {title: "Jewish Chronicle, 'would not have taken place' if woken, 2 Sep 2026", url: "https://www.thejc.com/news/israel/netanyahu-october-7-not-happened-army-woke-up-g26mb12m"}
+  s_theprint:    {title: "ThePrint, Bar to sue Netanyahu, 30 Sep 2026", url: "https://theprint.in/world/ex-chief-of-israels-internal-security-service-says-he-will-sue-netanyahu-over-7-october-accusations/3057677/"}
+  s_abc_au:      {title: "ABC News (Australia), Netanyahu was warned, reports say, 30 Sep 2026", url: "https://abc.net.au/news/2026-09-30/benjamin-netanyahu-october-7-hamas-attack-warning/107206790"}
+  s_jp_909744:   {title: "Jerusalem Post, on the New York Times and the PMO's call-log statement, 26 Sep 2026", url: "https://www.jpost.com/israel-news/article-909744"}
+  s_yahoo_wapo:  {title: "Washington Post via Yahoo, 30 Sep 2026", url: "https://www.yahoo.com/news/politics/articles/reports-netanyahu-ignored-oct-7-125325026.html"}
+  s_aj_warnings: {title: "Al Jazeera, The October 7 warnings, 30 Sep 2026", url: "https://aljazeera.com/news/2026/9/30/the-october-7-warnings-threatening-netanyahus-israel-election-campaign"}
+  s_jfeed:       {title: "JFeed, High Court delays decision, 23 Sep 2026", url: "https://www.jfeed.com/news-israel/tltkh7"}
+  s_yahoo_hcj:   {title: "Jerusalem Post text via Yahoo, High Court freezes Comptroller audits, 31 Dec 2025", url: "https://www.yahoo.com/news/articles/october-7-investigation-comptroller-barred-103815206.html"}
+  s_jp_hcj:      {title: "Jerusalem Post, High Court hearing on the Comptroller, 10 May 2026", url: "https://www.jpost.com/israel-news/politics-and-diplomacy/article-895705"}
+  s_nbc_analysts: {title: "NBC News, analysts flagged Hamas plans, 1 Dec 2023", url: "https://www.nbcnews.com/news/investigations/israeli-military-analysts-flagged-hamas-plans-start-war-terror-attack-rcna127686"}
+  s_kiro7:       {title: "KIRO 7 (Cox), on the New York Times Jericho Wall report, 30 Nov 2023", url: "https://www.kiro7.com/news/trending/reports-israeli-officials-obtained-hamass-battle-plan-over-year-before-oct-7-happened/7M7RBB6Y2ZHA5IMJ5CRVFQSH3A/"}
+  s_mee_jw:      {title: "Middle East Eye, on the New York Times Jericho Wall report, 1 Dec 2023", url: "https://www.middleeasteye.net/news/israel-palestine-war-hamas-attack-plan-obtained-year-ago-report"}
+  s_abc_spotters: {title: "ABC News, observers' warnings, 28 Jun 2024", url: "https://abcnews.com/International/idf-soldiers-repeated-warnings-hamas-activity-prior-oct/story?id=111312207"}
+  s_fox_mccaul:  {title: "Fox News, House chairman on Egypt, 12 Oct 2023", url: "https://noticias.foxnews.com/media/egypt-warned-israel-attack-house-foreign-affairs-chairman-claims.print"}
+  s_haaretz_hanegbi: {title: "Haaretz, 'Utterly Fake', 13 Oct 2023 (headline and first sentence only)", url: "https://www.haaretz.com/israel-news/2023-10-13/ty-article/.premium/israels-national-security-adviser-denies-receiving-egyptian-warning-of-hamas-attack/0000018b-28c9-d1bc-a58b-69ef2ed70000"}
+  s_ctc:         {title: "CTC Sentinel, The October 7 Attack: An Assessment of the Intelligence Failings, Oct 2024", url: "https://ctc.westpoint.edu/the-october-7-attack-an-assessment-of-the-intelligence-failings/"}
+  s_cnn_shabak:  {title: "CNN, Shin Bet says attack could have been prevented, 4 Mar 2025", url: "https://edition.cnn.com/2025/03/04/middleeast/israel-shin-bet-october-7-fault-intl-latam/index.html"}
+  s_haaretz_hcj: {title: "Haaretz, Top court delays decision, 23 Sep 2026 (first sentence only)", url: "https://www.haaretz.com/israel-news/2026-09-23/ty-article/.premium/high-court-wont-rule-on-oct-7-state-commission-petitions-until-after-election/000001a0-cde0-dcb9-a9a4-fde4a5040000"}
+
+# kind: data = machine-recorded; official = government or institutional statement or finding; witness = a person's account; media = a news outlet's own report; document = a published document; analysis = a scholar's account.
+# status: reported = 2+ independent sources agree; single = one source (or several that trace to one); disputed = sources or parties differ; inferred = our inference.
+# date_basis: stated | derived (a time-zone conversion or "after X" by us) | publication_proxy | inferred | dataset_field.
+events:
+
+  # ---------------- Panel A: before 7 October 2023 ----------------
+  - {id: a01, panel: before, lane: plans, time: "2018-07-01T00:00:00Z", precision: year, date_basis: stated, kind: official, status: reported, sources: [s_cnn_shabak, s_npr_shabak],
+     label: "2018: first version of Hamas's invasion plan known to the Shin Bet",
+     detail: "The Shin Bet's published summary (4 Mar 2025, via CNN and NPR) says it knew two iterations, in 2018 and 2022, and did not take them seriously. Drawn at mid-year; only the year is stated."}
+  - {id: a02, panel: before, lane: plans, time: "2022-07-27T12:00:00Z", precision: day, date_basis: stated, kind: official, status: single, sources: [s_ynet_idf],
+     label: "27 Jul 2022: General Staff meeting orders preparations based on Jericho Wall; 'no action was taken'",
+     detail: "Ynet's account of the IDF's published findings (27 Feb 2025): a classified General Staff meeting on 27 July 2022 at which a senior officer ordered preparations for war based on the plan. Time of day not stated."}
+  - {id: a03, panel: before, lane: plans, time: "2022-10-01T00:00:00Z", precision: year, date_basis: stated, kind: official, status: reported, sources: [s_cnn_shabak, s_kiro7, s_mee_jw],
+     label: "2022: second version of the plan; the New York Times says the 40-page 'Jericho Wall' document was obtained over a year before 7 Oct",
+     detail: "Shin Bet summary (via CNN): a 2022 iteration. New York Times, 30 Nov 2023 (via KIRO 7 and MEE): a 40-page document with no set date; the Times could not determine whether the prime minister saw it. Drawn at late 2022 as an approximation of 'more than a year before'; the Times piece was not reached."}
+  - {id: a04, panel: before, lane: intel_units, time: "2023-07-06T12:00:00Z", precision: day, date_basis: stated, kind: document, status: single, sources: [s_nbc_analysts, s_ctc],
+     label: "6 Jul 2023: a signals-intelligence analyst emails that a Hamas exercise matches the Jericho Wall plan; replies call it 'imaginary'",
+     detail: "NBC (1 Dec 2023): 'In an email on July 6'; the reply came six days later; confirmed by one anonymous senior Israeli official; first reported by Channel 12 and the Financial Times. One set of emails, not published. The analyst is not named."}
+  - {id: a05, panel: before, lane: intel_units, time: "2023-07-15T12:00:00Z", precision: month, date_basis: publication_proxy, kind: witness, status: reported, sources: [s_ynet_meta, s_abc_spotters, s_ctc],
+     label: "Months before 7 Oct: border observers report unusual activity (drills, holes, explosives)",
+     detail: "A former observer to ABC (28 Jun 2024), CTC Sentinel, and an expert committee's review (Ynet, 10 Nov 2025): the observers' intelligence could have exposed the activity had it been analysed. The bar is a placeholder at July; the sources give no start date."}
+  - {id: a06, panel: before, lane: leadership, time: "2023-04-15T12:00:00Z", precision: month, date_basis: stated, kind: official, status: single, sources: [s_ynet_bar],
+     label: "Apr 2023: Bar says he recommended 'a focused, forceful move' to halt the erosion of deterrence",
+     detail: "From Bar's April 2025 affidavit to the High Court as described by Ynet (29 Sep 2026); the affidavit was not opened. A general strategic recommendation, not a warning of 7 October."}
+  - {id: a07, panel: before, lane: leadership, time: "2023-07-31T12:00:00Z", precision: day, date_basis: stated, kind: official, status: single, sources: [s_ynet_55],
+     label: "31 Jul 2023: Bar tells the PM of a sharp rise in daily threat warnings; the PM: 'You need to hit them hard'",
+     detail: "From excerpts the PM published (Ynet, 6 Feb 2026). A selected excerpt; the full transcript is not public. Bar later said a covert message was being prepared for Hamas's leader."}
+  - {id: a08, panel: before, lane: leadership, time: "2023-07-15T12:00:00Z", precision: month, date_basis: stated, kind: official, status: disputed, sources: [s_ynet_bar],
+     label: "Jul 2023: Bar's 'warning of war' to the PM before the judicial-overhaul vote (general; no date, no place)",
+     detail: "Ynet (29 Sep 2026): Bar's affidavit backs reporting that in July 2023 he told the PM he was delivering a 'warning of war' with neither a specific date nor time. The PMO says the PM received no warning of 'a war in Gaza'."}
+  - {id: a09, panel: before, lane: outside, time: "2023-09-15T12:00:00Z", precision: day, date_basis: stated, kind: media, status: disputed, sources: [s_ynet_book, s_yahoo_wapo],
+     label: "15 Sep 2023 (per the book): Hamas leader's 'earthquake' message reaches the Shin Bet; the book says the Shin Bet chief passed it to the PM",
+     detail: "The book's author (Ynet, 8 Sep 2026) gives the date. A former Palestinian official says he passed the message to Shin Bet officials and to an adviser to the UAE president, and that the intermediaries did not know whether, how or when Hamas would act (Washington Post). The PMO's denials do not address this message."}
+  - {id: a10, panel: before, lane: leadership, time: "2023-09-21T12:00:00Z", precision: day, date_basis: stated, kind: official, status: single, sources: [s_ynet_55],
+     label: "21 Sep 2023: security assessment; Bar: Hamas not interested in another round; the PM: Hamas's terms 'delusional'",
+     detail: "From the PM's published excerpts (Ynet, 6 Feb 2026). Selected; not the full transcript."}
+  - {id: a11, panel: before, lane: outside, time: "2023-09-25T12:00:00Z", precision: range, end: "2023-09-27T12:00:00Z", date_basis: inferred, kind: media, status: disputed, sources: [s_haaretz_nyt, s_ynet_book],
+     label: "About 23 to 27 Sep 2023 (disputed): reported 45-minute call from the UAE president to the PM",
+     detail: "Haaretz: 'a week and a half before' 7 Oct; Anadolu, summarising Haaretz: 23 Sep 2023; the New York Times: 'late September' (via Middle East Monitor). The PMO says no call took place and a call-log review found no trace. Anonymous or unpublished sources on one side, a denial on the other. See claims o7w-uae-call and log L-12."}
+  - {id: a12, panel: before, lane: outside, time: "2023-09-26T12:00:00Z", precision: day, date_basis: stated, kind: media, status: disputed, sources: [s_ynet_egypt, s_haaretz_egypt, s_aj_warnings],
+     label: "26 Sep 2023: reported visit of Egypt's intelligence chief to Israel, 67 minutes on the ground",
+     detail: "The Atlantic (26 Sep 2026, via Ynet and Haaretz), citing officials from several countries and flight records it says are in the Israel Airports Authority logs; no one has said whom he met. Israel's then national security adviser denies any visit. Egypt has not commented (Al Jazeera, 30 Sep 2026). The same day Israel marked 50 years since the 1973 war."}
+  - {id: a13, panel: before, lane: leadership, time: "2023-10-01T12:00:00Z", precision: day, date_basis: stated, kind: official, status: reported, sources: [s_ynet_bar, s_abc_au, s_jp_909744],
+     label: "1 Oct 2023: PM convenes Gaza security assessment: 'calm' line; no mention of a foreign warning (per the NYT's reading of minutes)",
+     detail: "Ynet (29 Sep 2026): his own released excerpts and the PMO summary (humanitarian easing; 'operational readiness for the targeted killings that were recommended'); the full transcript is not public. The New York Times, via ABC and the Jerusalem Post: he said the goal was to maintain calm and that action in Gaza might harm a Saudi deal. Bar's remarks omitted from the excerpts are reported by Ynet's own investigation."}
+  - {id: a14, panel: before, lane: leadership, time: "2023-10-03T12:00:00Z", precision: day, date_basis: stated, kind: document, status: single, sources: [s_ynet_55, s_ynet_bar],
+     label: "3 Oct 2023: military-intelligence and Shin Bet assessments: Hamas building strength slowly; calm for relief",
+     detail: "Excerpts the PM published (Ynet, 6 Feb 2026) and a Shin Bet report of the same date (Ynet, 29 Sep 2026). Neither mentions a Hamas-initiated offensive, per Ynet."}
+  - {id: a15, panel: before, lane: outside, time: "2023-10-05T12:00:00Z", precision: day, date_basis: stated, kind: media, status: single, sources: [s_ynet_egypt],
+     label: "5 Oct 2023: reported further Egyptian message that the situation was unsustainable (no date or method)",
+     detail: "The Atlantic via Ynet (26 Sep 2026), citing US, Egyptian and Israeli officials. Anonymous; the original was not reached. A CIA internal assessment of the same date is reported to have discussed escalation, not the ground assault."}
+
+  # ---------------- Panel B: the night of 6 to 7 October 2023 (UTC) ----------------
+  - {id: b01, panel: night, lane: idf, time: "2023-10-06T20:00:00Z", precision: approx, date_basis: derived, kind: official, status: single, sources: [s_ynet_bar],
+     label: "About 23:00 Israel time (20:00 UTC): army officials told of unusual activity",
+     detail: "Bar's April 2025 affidavit as described by Ynet: 'at around 11 p.m. on Oct. 6'. Converted to UTC by us."}
+  - {id: b02, panel: night, lane: shin_bet, time: "2023-10-06T22:00:00Z", precision: approx, date_basis: derived, kind: official, status: single, sources: [s_npr_shabak],
+     label: "01:00 Israel time: Shin Bet reports Hamas emergency preparedness, with signs of restraint",
+     detail: "NPR on the Shin Bet summary: at 1 a.m. the agency reported Hamas conducting emergency preparedness while assessing it was not interested in escalation."}
+  - {id: b03, panel: night, lane: shin_bet, time: "2023-10-07T00:03:00Z", precision: exact, date_basis: derived, kind: official, status: reported, sources: [s_npr_shabak, s_jp_shabak, s_ynet_bar],
+     label: "03:03 Israel time: Shin Bet alert on SIM-card activity to the IDF, the police and the National Security Council",
+     detail: "Shin Bet summary via NPR, Jerusalem Post and Ynet (on the affidavit): 'unusual preparations and the possibility of offensive intentions by Hamas'; the warning level assigned was wrong by Bar's own account. Whether and how the National Security Council passed it on is not public."}
+  - {id: b04, panel: night, lane: idf, time: "2023-10-07T01:00:00Z", precision: approx, date_basis: derived, kind: media, status: single, sources: [s_ctc],
+     label: "About 04:00 Israel time: situational assessment including the chief of staff",
+     detail: "CTC Sentinel, summarising Israeli reports: 'at least one of which included IDF Chief of Staff LTG Herzi Halevi at 4 a.m.'"}
+  - {id: b05, panel: night, lane: shin_bet, time: "2023-10-07T01:30:00Z", precision: exact, date_basis: derived, kind: official, status: single, sources: [s_npr_shabak],
+     label: "04:30 Israel time: Shin Bet chief briefs deputies; a small team is sent south",
+     detail: "NPR on the Shin Bet summary. The team was too small to stop the attack."}
+  - {id: b06, panel: night, lane: shin_bet, time: "2023-10-07T02:15:00Z", precision: exact, date_basis: derived, kind: official, status: disputed, sources: [s_ynet_55, s_ynet_bar],
+     label: "05:15 Israel time: Shin Bet situation assessment completed; Bar says he told officials to update the PM's military secretary",
+     detail: "The PM's published answers (via Ynet) say the assessment, completed at 05:15 and saying a broad campaign was unlikely but a local surprise could not be ruled out, reached the military secretariat at 09:47. Bar says he instructed at 05:15 that the secretary be updated. Who held what between 05:15 and 06:29 is not answered by any source read (log L-14)."}
+  - {id: b07, panel: night, lane: pm_office, time: "2023-10-07T03:15:00Z", precision: approx, date_basis: derived, kind: media, status: single, sources: [s_ctc],
+     label: "About 06:15 Israel time: the PM's military secretary reportedly briefed on the still unclear situation",
+     detail: "CTC Sentinel ('reportedly'); not confirmed by the PM's account, which gives 06:29 as the first message to him."}
+  - {id: b08, panel: night, lane: pm_office, time: "2023-10-07T03:29:00Z", precision: exact, date_basis: derived, kind: official, status: single, sources: [s_ynet_55],
+     label: "06:29 Israel time: the PM says he is first informed, by WhatsApp from his military secretary, that the attack has begun",
+     detail: "The PM's own account in his answers to the Comptroller, as reported by Ynet (6 Feb 2026). A second call at 06:44 (03:44 UTC). No source read says he was told earlier."}
+  - {id: b09, panel: night, lane: pm_office, time: "2023-10-07T06:47:00Z", precision: exact, date_basis: derived, kind: official, status: single, sources: [s_ynet_55],
+     label: "09:47 Israel time: the Shin Bet's 05:15 assessment reaches the military secretariat",
+     detail: "From the PM's answers via Ynet. Quoted in his answers as showing the Shin Bet's own assessment; Bar says it omits what he told officials."}
+
+  # ---------------- Panel C: October 2023 to August 2026 ----------------
+  - {id: c01, panel: after, lane: reports, time: "2023-10-09T12:00:00Z", precision: day, date_basis: stated, kind: media, status: disputed, sources: [s_haaretz_egypt, s_ynet_book],
+     label: "9 Oct 2023: Yedioth Ahronoth and an Egyptian official (AP): Egypt warned of 'something big'; the PMO denies the PM was told",
+     detail: "Yedioth: the Egyptian chief spoke with the PM; the AP's Egyptian official: Israel ignored 'something big' warnings. The PMO the same week: the PM 'has neither spoken, nor met, with the head of Egyptian intelligence since the formation of the government'. The originals were not opened."}
+  - {id: c02, panel: after, lane: reports, time: "2023-10-11T12:00:00Z", precision: day, date_basis: stated, kind: official, status: single, sources: [s_fox_mccaul],
+     label: "11 Oct 2023: US House committee chairman: 'the Egyptian intelligence did refer this to Israel'",
+     detail: "On the record, on television (Fox News, 12 Oct 2023). He did not describe its content. Israel's national security adviser called such reports 'utterly fake' on 13 Oct (Haaretz headline)."}
+  - {id: c03, panel: after, lane: reports, time: "2023-11-30T12:00:00Z", precision: day, date_basis: stated, kind: media, status: reported, sources: [s_kiro7, s_mee_jw, s_nbc_analysts],
+     label: "30 Nov 2023: New York Times reports the 40-page Jericho Wall document; NBC reports the July 2023 analyst emails",
+     detail: "The Times said it set no date and it could not determine whether the PM saw it; NBC (1 Dec) said it had not obtained the document, and a US official said US intelligence appears not to have received it."}
+  - {id: c04, panel: after, lane: reports, time: "2024-06-28T12:00:00Z", precision: day, date_basis: stated, kind: media, status: single, sources: [s_abc_spotters],
+     label: "28 Jun 2024: observers' accounts of unheeded reports (ABC)",
+     detail: "A former observer on the record; the army said the claims would be looked into later. No observer who died on 7 October is named here."}
+  - {id: c05, panel: after, lane: official_probes, time: "2025-02-27T12:00:00Z", precision: day, date_basis: stated, kind: official, status: reported, sources: [s_ynet_idf, s_jta_idf],
+     label: "27 Feb 2025: IDF publishes four investigations; 'the IDF failed in its mission'",
+     detail: "Via Ynet and JTA (the IDF pages were blocked). Does not cover the prime minister's decisions (JTA). 767 troops on the border facing over 5,000 attackers."}
+  - {id: c06, panel: after, lane: official_probes, time: "2025-03-04T12:00:00Z", precision: day, date_basis: stated, kind: official, status: reported, sources: [s_cnn_shabak, s_npr_shabak, s_jp_shabak],
+     label: "4 Mar 2025: Shin Bet publishes its summary; the PMO: the chief 'did not see fit to wake the Prime Minister'",
+     detail: "Via CNN, NPR and the Jerusalem Post. The Shin Bet says if it had acted differently 'the massacre would have been prevented'; it also points to the policy of calm. The PMO's response is quoted by NPR."}
+  - {id: c07, panel: after, lane: official_probes, time: "2025-11-10T12:00:00Z", precision: day, date_basis: publication_proxy, kind: official, status: single, sources: [s_ynet_meta],
+     label: "10 Nov 2025: expert committee finds two-thirds of the army's 25 core probes incomplete or insufficient",
+     detail: "Ynet. The committee addressed only the army's probes, not the political echelon; it says the night's intelligence 'could and should have led to an alert'."}
+  - {id: c08, panel: after, lane: courts_comptroller, time: "2025-11-11T12:00:00Z", precision: day, date_basis: stated, kind: official, status: single, sources: [s_mevaker_1111],
+     label: "11 Nov 2025: State Comptroller's report on the absence of a national security concept; says it is not a substitute for the audit of accountability",
+     detail: "Press release read and stored. About the missing security concept, not about warnings."}
+  - {id: c09, panel: after, lane: courts_comptroller, time: "2025-12-31T12:00:00Z", precision: day, date_basis: stated, kind: official, status: disputed, alt_time: "2025-12-29T12:00:00Z", alt_tag: "Comptroller", alt_note: "The Comptroller's own release dates the order 29 Dec 2025", sources: [s_yahoo_hcj, s_mevaker_0106],
+     label: "31 Dec 2025 (or 29 Dec): High Court interim order freezes eight core Comptroller audits",
+     detail: "Jerusalem Post and the PM's video: Wednesday 31 Dec; the Comptroller's release (6 Jan 2026): 29 Dec. The order was not opened (log L-09)."}
+  - {id: c10, panel: after, lane: pm_statements, time: "2026-02-05T20:00:00Z", precision: day, date_basis: stated, kind: official, status: single, sources: [s_ynet_55, s_ynet_submit],
+     label: "5 Feb 2026: PM publishes his 55-page answers to the Comptroller (three pages redacted, selected excerpts)",
+     detail: "Ynet. Says he was first told at 06:29 and that the intelligence bodies recommended calm; no acceptance of responsibility. Critics say it is selective; Bar says it omits warnings and offensive proposals."}
+  - {id: c11, panel: after, lane: courts_comptroller, time: "2026-05-10T12:00:00Z", precision: day, date_basis: stated, kind: official, status: single, sources: [s_jp_hcj],
+     label: "10 May 2026: five-justice High Court hearing on the Comptroller's authority; ruling 'at a later date'",
+     detail: "Jerusalem Post. No ruling was found as of 4 Oct 2026."}
+
+  # ---------------- Panel D: late August to October 2026 ----------------
+  - {id: d01, panel: late, lane: pmo_and_pm, time: "2026-09-01T12:00:00Z", precision: day, date_basis: stated, kind: official, status: reported, sources: [s_jc_wake, s_theprint],
+     label: "1 Sep 2026: PM says the security chiefs chose not to wake him: 'a failure, but it's not betrayal'",
+     detail: "Press conference and Channel 14 and other television interviews (Jewish Chronicle; ThePrint); the broadcasts were not seen. His own statement, adoption-class."}
+  - {id: d02, panel: late, lane: news_reports, time: "2026-09-08T08:00:00Z", precision: day, date_basis: stated, kind: media, status: disputed, sources: [s_haaretz_orig, s_cnn_uae, s_ynet_book],
+     label: "8 Sep 2026: Haaretz (from a book) reports the UAE president warned the PM about 10 days before 7 Oct; PMO: 'an absolute lie'",
+     detail: "One author told CNN he holds documents and records; none public. The original Haaretz article was read only in part (paywall)."}
+  - {id: d03, panel: late, lane: other_governments, time: "2026-09-08T17:29:00Z", precision: exact, date_basis: derived, kind: official, status: reported, sources: [s_uae_mofa, s_cnn_uae],
+     label: "8 Sep 2026: UAE Foreign Ministry declines to comment on 'conversations between government leaders'; does not deny the call",
+     detail: "WAM timestamp 21:29 UAE time (UTC+4) = 17:29 UTC (derived). Read and stored. Said 'all relevant intelligence has been and continues to be communicated'."}
+  - {id: d04, panel: late, lane: pmo_and_pm, time: "2026-09-09T12:00:00Z", precision: day, date_basis: stated, kind: official, status: reported, sources: [s_aj_sue, s_jp_909744],
+     label: "9 Sep 2026: PM says he will sue Haaretz; call log and PMO entries reviewed 'found no trace'",
+     detail: "Al Jazeera and Jerusalem Post. The PM named a Palestinian political figure as responsible for the report; his representatives deny it. The log review is a statement; the log is not public."}
+  - {id: d05, panel: late, lane: opponents_and_courts, time: "2026-09-23T12:00:00Z", precision: day, date_basis: stated, kind: official, status: reported, sources: [s_jfeed, s_haaretz_hcj],
+     label: "23 Sep 2026: High Court will not rule on state-commission petitions until after the 27 Oct election; government update due 15 Jan 2027",
+     detail: "JFeed (read), Haaretz (first sentence only). The Attorney General supports delay and says only a state commission is appropriate."}
+  - {id: d06, panel: late, lane: news_reports, time: "2026-09-25T12:00:00Z", precision: day, date_basis: stated, kind: media, status: single, sources: [s_haaretz_nyt, s_jp_909744],
+     label: "25 Sep 2026: New York Times: two sources confirm the UAE president warned of a 'major attack'; minutes of the 1 Oct 2023 meeting do not mention it",
+     detail: "Read through Haaretz and the Jerusalem Post; the Times was not reached."}
+  - {id: d07, panel: late, lane: news_reports, time: "2026-09-26T12:00:00Z", precision: day, date_basis: stated, kind: media, status: disputed, sources: [s_ynet_egypt, s_haaretz_egypt],
+     label: "26 Sep 2026: The Atlantic reports the Egyptian chief's 26 Sep 2023 visit; no date, target or method given",
+     detail: "Read through Ynet, Haaretz and others; the original was not reached."}
+  - {id: d08, panel: late, lane: pmo_and_pm, time: "2026-09-26T12:00:00Z", precision: day, date_basis: stated, kind: official, status: single, sources: [s_pmo_x],
+     label: "26 Sep 2026: PMO: the allegation is false; the PM 'neither met nor spoke with' Egypt's intelligence chief 'in the months preceding October 7'",
+     detail: "Read and stored. The post's displayed hour (7:04 PM) and Haaretz's embed (10:04 PM) differ by zone display; the day is certain, the hour is not used (log L-17). Drawn at a placeholder hour."}
+  - {id: d09, panel: late, lane: news_reports, time: "2026-09-27T12:00:00Z", precision: day, date_basis: stated, kind: media, status: single, sources: [s_haaretz_deny, s_aj_warnings],
+     label: "27 Sep 2026: Wall Street Journal: the Egyptian chief telephoned the PM days before 7 Oct; no specific date or scale",
+     detail: "Via Haaretz and Al Jazeera; the Journal was not reached. Cites officials in an Arab government."}
+  - {id: d10, panel: late, lane: pmo_and_pm, time: "2026-09-27T14:00:00Z", precision: day, date_basis: stated, kind: media, status: disputed, sources: [s_haaretz_deny, s_yahoo_wapo, s_abc_au],
+     label: "27 Sep 2026: PM's unannounced visit to Abu Dhabi; an AP source says he asked the UAE president to deny the report",
+     detail: "One person with first-hand knowledge and a regional official, anonymous (AP via Haaretz). The PMO calls it 'fake news'; the UAE's agency says the leaders discussed bilateral relations (Washington Post). Israel's public broadcaster said the visit coincided with other arrivals suggesting a discussion about Iran (ABC). A discrepancy; the purpose is not established."}
+  - {id: d11, panel: late, lane: opponents_and_courts, time: "2026-09-28T12:00:00Z", precision: day, date_basis: stated, kind: official, status: reported, sources: [s_ynet_bar, s_theprint, s_abc_au],
+     label: "28 Sep 2026: Bar says he will sue the PM for defamation: 'I warned Netanyahu of a disaster, and he ignored me'; the PMO says Bar knew of 'a real danger' the night before",
+     detail: "Ynet, ThePrint, ABC. Both are accusations. Bar demands the full transcripts and the PM's schedule of meetings."}
+  - {id: d12, panel: late, lane: opponents_and_courts, time: "2026-10-03T12:00:00Z", precision: day, date_basis: derived, kind: media, status: single, sources: [s_haaretz_council],
+     label: "3 Oct 2026: the October Council announces findings of an 'independent investigation' that the PM concealed information and ignored warnings",
+     detail: "Haaretz, 4 Oct 2026 03:18 Israel time ('announced Saturday'); only the first sentence was read. The findings were not reached. An advocacy group's allegation, not a finding."}
