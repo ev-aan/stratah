@@ -1,0 +1,190 @@
+# Sources for the apollo-landings dig, with authenticity entries (rules A1-A10, build/SCHEMA.md).
+# Opened and read 2026-10-04 in the resumed pass (log L-10 onward). Copies are identified by sha256 of the file
+# as fetched; only two US Government texts are stored in this folder (sources/nasa-*.txt), for the quote check.
+# read: full = the whole document was downloaded and the passages used were read directly; page = one web page read in full;
+# abstract = the abstract or catalogue record only; not_read = known only from a search result.
+# Standard test for papers: "Crossref record matches title, journal, volume, pages and year of the copy read". The arXiv files
+# are preprints; none was compared with the publisher's file, which is stated as a gap on each.
+retrieved: 2026-10-04
+sources:
+
+  # ---------------- Ranging ----------------
+  - id: src-courde-2017
+    title: "Courde C et al. Lunar laser ranging in infrared at the Grasse laser station. Astronomy & Astrophysics 602, A90 (2017); arXiv:1704.06443 v1"
+    url: https://arxiv.org/pdf/1704.06443
+    document_class: primary_text (a measurement paper by the station team; funded by INSU-CNRS and CNES)
+    read: "full (arXiv PDF, 765 lines of text; Introduction, section 3.1 on the reflector arrays, sections 3.3-3.4 and Table 8 read; Tables 2-7 and the appendix only skimmed)"
+    sha256: abf4dc17474e81ea3872f423d8de9fba98f5173c7ab657f6ce229c3812d81383
+    authenticity: {status: authenticated, strength: moderate, provenance: "arXiv listing; the Crossref record for DOI 10.1051/0004-6361/201628590 gives the same title, journal (A&A 602, A90) and year (2017).", tests: ["Crossref record matches the copy's title, authors and journal [read]"], tested_by: "Strata session, 2026-10-04; the authors are the station team (not independent of the measurement they report)", gaps: ["Preprint v1, not compared with the published A&A text.", "The photon rates are quoted from Murphy 2013, not measured in this paper."], next_step: "Compare with the A&A version.", checked: 2026-10-04}
+  - id: src-murphy-2013
+    title: "Murphy TW Jr. Lunar laser ranging: the millimeter challenge. Reports on Progress in Physics 76, 076901 (2013); arXiv:1309.6294 v1"
+    url: https://arxiv.org/pdf/1309.6294
+    document_class: primary_text (review by the principal investigator of APOLLO)
+    read: "full text extracted; sections 1.3 (reflectors), 3.1 (history), 3.2 and Table 2 (APOLLO performance) read; the physics sections were not read"
+    sha256: e2dd310a836d30d29ab647c8ae28e5ec21a513bf4daa8b48768d86b501e3ca49
+    authenticity: {status: authenticated, strength: moderate, provenance: "arXiv listing; Crossref record for DOI 10.1088/0034-4885/76/7/076901 matches title, journal, volume and year.", tests: ["Crossref record matches [read]"], tested_by: "Strata session, 2026-10-04; author runs one of the stations described (not independent of APOLLO)", gaps: ["Preprint v1, not compared with the journal text.", "History in section 3.1 cites Bender et al. 1973 (Science), which was not opened (science.org returned 403)."], next_step: "Read Bender et al. 1973 and Faller et al. 1969.", checked: 2026-10-04}
+  - id: src-murphy-2011-l1
+    title: "Murphy TW Jr. et al. Laser ranging to the lost Lunokhod 1 reflector. Icarus 211, 1103-1108 (2011); arXiv:1009.5720 v2"
+    url: https://arxiv.org/pdf/1009.5720
+    document_class: primary_text
+    read: "full (arXiv PDF, 523 lines of text; abstract, introduction, section 2 read; Tables 1-2 skimmed)"
+    sha256: 558fec1f2cb066a8d3eee2d7789e765c733d989f7c8d96f3b5c0605325f10f59
+    authenticity: {status: authenticated, strength: moderate, provenance: "arXiv listing; Crossref record for DOI 10.1016/j.icarus.2010.11.010 matches (Icarus 211, 1103-1108, 2011).", tests: ["Crossref record matches [read]"], tested_by: "Strata session, 2026-10-04", gaps: ["Preprint v2, not compared with the Icarus text."], next_step: "Compare with the Icarus version.", checked: 2026-10-04}
+  - id: src-murphy-2008-apollo
+    title: "Murphy TW Jr. et al. APOLLO: the Apache Point Observatory Lunar Laser-ranging Operation: instrument description and first detections. PASP 120, 20-37 (2008); arXiv:0710.0890 v2"
+    url: https://arxiv.org/pdf/0710.0890
+    document_class: primary_text
+    read: "full text extracted; abstract, introduction and the funding acknowledgement read; the instrument sections were not read"
+    sha256: 4f3d2a5df6ba878bce0cfd35fd9896a219ed792a16e801f81fa877fbc4d4d03f
+    authenticity: {status: authenticated, strength: moderate, provenance: "arXiv listing; Crossref record for DOI 10.1086/526428 matches (PASP 120, 20-37, 2008).", tests: ["Crossref record matches [read]"], tested_by: "Strata session, 2026-10-04", gaps: ["Used only for the funding statement (NASA and NSF grants)."], checked: 2026-10-04}
+  - id: src-merkowitz-2007
+    title: "Merkowitz SM et al. Laser ranging for gravitational, lunar, and planetary science. Int. J. Mod. Phys. D 16, 2151-2164 (2007); arXiv:0712.3539 v1"
+    url: https://arxiv.org/pdf/0712.3539
+    document_class: primary_text (NASA Goddard authors)
+    read: "full text extracted; abstract, introduction and Figure 1 caption read; the rest was not read"
+    sha256: d1e86eb7566505f656c8e9728329404889f915ae4c9aacdd2f2238dfda64a86f
+    authenticity: {status: authenticated, strength: moderate, provenance: "arXiv listing; Crossref record for DOI 10.1142/s0218271807011565 matches (IJMPD 16, 2151-2164, Dec 2007).", tests: ["Crossref record matches [read]"], tested_by: "Strata session, 2026-10-04; authors are NASA staff (not independent of NASA)", gaps: ["Used only to show who was ranging in 2007."], checked: 2026-10-04}
+  - id: src-ilrs-lunar
+    title: "International Laser Ranging Service, Lunar Laser Ranging (LLR) science page, hosted at ilrs.gsfc.nasa.gov (last modified 30 Sep 2026)"
+    url: https://ilrs.gsfc.nasa.gov/science/scienceContributions/lunar.html
+    document_class: primary_text (service page of an international body of the International Association of Geodesy; hosted by NASA Goddard)
+    read: "page (full text, 2026-10-04)"
+    sha256: f5b6a9a7bf221daa8e5d17c447b1478205742d9b0ead74ca6f7c0fad47c71453
+    authenticity: {status: authenticated, strength: moderate, provenance: "Official ILRS site; the page's own footer gives a NASA official and a last-modified date of Sep 30, 2026; it cites papers by Courde et al. 2017, Murphy et al. 2011 and Zhang et al. 2022, each of which has a Crossref record.", tests: ["Cited papers resolve in Crossref [read]", "Statements about the Luna 17 reflector agree with Murphy et al. 2011, which was read separately [read]"], tested_by: "Strata session, 2026-10-04", gaps: ["The site is hosted by NASA, so it is not independent of NASA as a host. The ILRS is a service of the International Association of Geodesy.", "Station list is the page's own statement of present activity, not checked against station logs."], next_step: "Read the ILRS normal-point statistics per station (the page's Figure 2).", checked: 2026-10-04}
+  - id: src-zhang-2022-tianqin
+    title: "Zhang C et al. The facilities and performance of TianQin laser ranging station. Classical and Quantum Gravity 39(12), 2022 (doi 10.1088/1361-6382/ac6d3e)"
+    url: https://doi.org/10.1088/1361-6382/ac6d3e
+    document_class: primary_text (measurement paper, Chinese station)
+    read: "abstract only (IOPscience article page; the PDF is behind a bot-check page and was not opened). Abstract: echoes obtained from the five lunar retro-reflector arrays; 234 normal points; statistical error about 7 mm."
+    sha256: 1c0f7eccdf39747137bff67602045c8d3220c727e183007731752facd3109370   # of the IOPscience page as fetched
+    authenticity: {status: authenticated, strength: weak, provenance: "IOPscience page and Crossref record agree on title, journal, volume and date (25 May 2022).", tests: ["Crossref abstract matches the IOPscience page [read]"], tested_by: "Strata session, 2026-10-04", gaps: ["Full text not read; the figure of five arrays is from the abstract only."], next_step: "Read the full paper from a host that allows it.", checked: 2026-10-04}
+  - id: src-tryapitsyn-2021
+    title: "Tryapitsyn VN et al. The 1970-1984 lunar laser ranging observations in the Crimean Astrophysical Observatory. Journal for the History of Astronomy 52(1), 67-76 (2021)"
+    url: https://doi.org/10.1177/0021828621989110
+    document_class: primary_text
+    read: "abstract only (Crossref record; sagepub.com returned 403)"
+    sha256: not_computed   # abstract read through the Crossref API, no file stored
+    authenticity: {status: authenticated, strength: weak, provenance: "Crossref record (DOI 10.1177/0021828621989110) gives title, journal and date (Feb 2021); the ILRS page cites it.", tests: ["Crossref record exists and matches the ILRS citation [read]"], tested_by: "Strata session, 2026-10-04", gaps: ["Abstract only. It does not say which reflectors the Soviet station ranged."], next_step: "Read the paper to see whether Apollo reflectors were ranged from Crimea.", checked: 2026-10-04}
+
+  # ---------------- Radiation ----------------
+  - id: src-tn-d7080
+    title: "English RA, Benson RE, Bailey JV, Barnes CM. Apollo Experience Report: Protection Against Radiation. NASA TN D-7080 (MSC S-329), March 1973"
+    url: https://ntrs.nasa.gov/citations/19730010172
+    document_class: primary_text (NASA technical note; dose readings are NASA's own)
+    read: "full (NTRS PDF, 19 pages, 5.6 MB; Table I on printed page 3, the dose-limit paragraph, Table II, the solar-particle and cosmic-ray sections read)"
+    sha256: ab780084ca8a368c69a9da19d1141bc8e29a24d8f3d295c1955d825f527b1b85
+    stored_as: sources/nasa-tn-d7080.txt   # pdftotext -layout; OCR noise from the scan (split letters)
+    authenticity: {status: authenticated, strength: strong, provenance: "NASA Technical Reports Server, the agency's official archive; report number, date line (Houston, 24 October 1972; issued March 1973) and authors agree between the cover, the report documentation page and the catalogue entry.", tests: ["Report number and date agree across cover, documentation page and page header [read]", "Dose figures in the text and in the table agree where they overlap [read]"], tested_by: "Strata session, 2026-10-04", gaps: ["The report is NASA's own, so the dose values are not independent of NASA.", "The table stops at Apollo 15; Apollo 16 and 17 doses are not in this document."], next_step: "Find the Apollo 16 and 17 mission dose data and an outside dosimetry or belt-model check.", checked: 2026-10-04}
+
+  # ---------------- Samples ----------------
+  - id: src-nas-2019
+    title: "National Academies of Sciences, Engineering, and Medicine. Strategic Investments in Instrumentation and Facilities for Extraterrestrial Sample Curation and Analysis (2019), chapter 2 (NAP page numbers 8-13); doi 10.17226/25312"
+    url: https://www.nationalacademies.org/read/25312/chapter/4
+    document_class: interpretive (consensus-study report; masses are taken from NASA and Russian records)
+    read: "page (the chapter's web text, 2026-10-04; Table 2.1 and the Apollo and Luna sections read)"
+    sha256: 7ec85528d697ffafee33f780e7ba0ac84589967b7c2a7074a18c715215b157f5
+    authenticity: {status: authenticated, strength: moderate, provenance: "National Academies Press; Crossref has the DOI 10.17226/25312, 29 March 2019, with the same title.", tests: ["Crossref DOI record matches the title and date [read]", "Table 2.1 Apollo masses sum to 381.7 kg [our arithmetic]"], tested_by: "Strata session, 2026-10-04", gaps: ["A summary report, not the sample catalogue itself; its masses derive from NASA and Soviet records.", "States Luna 20 as about 50 g, where other sources say 55 g."], next_step: "Read the Soviet (Vernadsky Institute) descriptions of the Luna 16, 20 and 24 returns.", checked: 2026-10-04}
+  - id: src-nasa-curator
+    title: "NASA Johnson Space Center, Astromaterials Research and Exploration Science: Lunar Samples (curator.jsc.nasa.gov/lunar)"
+    url: https://curator.jsc.nasa.gov/lunar/
+    document_class: primary_text (the curator's own page)
+    read: "page (2026-10-04)"
+    sha256: 7444806901643f24104e77986218d1d0c15a1cc0957819ae46db8a38a07f04d7
+    authenticity: {status: authenticated, strength: moderate, provenance: "Official NASA curation site for the Apollo collection.", tests: ["Totals (382 kg, about 2,200 samples, about 300 g Soviet) agree with the NAS report and PSRD [read]"], tested_by: "Strata session, 2026-10-04; NASA is the holder, not independent", gaps: ["Rounded figures only."], checked: 2026-10-04}
+  - id: src-psrd-2009
+    title: "Martel LMV. Celebrated Moon Rocks. Planetary Science Research Discoveries, 21 Dec 2009 (Univ. of Hawaii; summary of NASA curator and CAPTEM presentations)"
+    url: http://www.psrd.hawaii.edu/Dec09/Apollo-lunar-samples.html
+    document_class: interpretive (summary of a NASA curator presentation)
+    read: "page (2026-10-04, http; the https address did not connect)"
+    sha256: 565a9c70551e3c438c1e1e7f91e4b00ab5991ccc4ccecfc05dad3339c0c85dd0
+    authenticity: {status: authenticated, strength: weak, provenance: "University of Hawaii research site with a named author and citation line.", tests: ["Table totals compared with the NAS report [our arithmetic]: the printed Apollo 11 value (21.8 kg) makes the six rows sum to 381.9, not the printed 381.7; the NAS table has 21.6, which sums to 381.7"], tested_by: "Strata session, 2026-10-04", gaps: ["Internal inconsistency in the Apollo 11 row. Not a primary record."], next_step: "Read the Lunar Sample Compendium mission totals.", checked: 2026-10-04}
+  - id: src-psrd-2004
+    title: "Norman M. The Oldest Moon Rocks. Planetary Science Research Discoveries, posted 21 Apr 2004 (the author summarises Norman, Borg, Nyquist and Bogard 2003, Meteoritics & Planetary Science 38, 645-661)"
+    url: http://www.psrd.hawaii.edu/April04/lunarAnorthosites.html
+    document_class: interpretive (a summary by researchers of their own work)
+    read: "page (2026-10-04)"
+    sha256: 7f80ce50fef8a1042f02fbd19bc3057d7f71ec225b5d50f46dc1d54dfceeae73
+    authenticity: {status: authenticated, strength: weak, provenance: "University of Hawaii research site; written by a named author (Lunar and Planetary Institute and Australian National University) who names the underlying paper and earlier Sm-Nd ages.", tests: ["Named references exist as journal papers [not looked up]"], tested_by: "Strata session, 2026-10-04", gaps: ["The underlying paper (Norman et al. 2003) was not opened; this is a secondary account."], next_step: "Read Norman et al. 2003 in Meteoritics & Planetary Science.", checked: 2026-10-04}
+  - id: src-lroc-luna
+    title: "LROC (Arizona State University), Soviet Union Lunar Sample Return Missions (lroc.im-ldi.com/images/9)"
+    url: https://lroc.im-ldi.com/images/9
+    document_class: primary_text (NASA mission camera team's web release)
+    read: "page (2026-10-04)"
+    sha256: 1f5f6b0fa0d3eb6bc3455b716cdce5ac3fdbea93531b28a4eadbef5408a6c00f
+    authenticity: {status: authenticated, strength: moderate, provenance: "Official LROC site of the LRO camera team at Arizona State University, with image identifiers (for example NAC M119482862RE) and a named publication line.", tests: ["Luna 16 (101 g) and Luna 24 (about 170 g) figures agree with the NAS report [read]", "Luna 20 is given as 55 g here and 50 g in the NAS report: a disagreement, recorded"], tested_by: "Strata session, 2026-10-04", gaps: ["Soviet mission records for Luna 20 mass not read."], next_step: "Find a Soviet or Russian primary statement of the Luna 20 mass.", checked: 2026-10-04}
+
+  # ---------------- Orbital imaging ----------------
+  - id: src-lroc-first-look
+    title: "Robinson M. LROC's First Look at the Apollo Landing Sites (LROC feature, 16 Jul 2009)"
+    url: https://lroc.im-ldi.com/images/157
+    document_class: primary_text
+    read: "page (2026-10-04)"
+    sha256: 3606e34f7ffd2b10a5449c7e56b48bf8434e9871a4f7d2b1d30188708b6e0802
+    authenticity: {status: authenticated, strength: moderate, provenance: "Official LROC site; named author and publication date; image pixel scales and widths stated.", tests: ["Pixel scale and altitude statements are internally consistent (1.0 to 1.4 m per pixel, 40 x 199 km orbit) [read]"], tested_by: "Strata session, 2026-10-04; the camera team is NASA's (not independent of NASA)", gaps: ["The images themselves were viewed only as described in the text; no image file was analysed."], next_step: "Open the PDS archive images for the five sites.", checked: 2026-10-04}
+  - id: src-lroc-a17
+    title: "Robinson M. Exploring the Apollo 17 Site (LROC feature, 28 Oct 2009)"
+    url: https://lroc.im-ldi.com/images/72
+    document_class: primary_text
+    read: "page (2026-10-04)"
+    sha256: d23e182e8489da0a03215dd2cc2cf0462bd91c7c7e9b1e1ecbb6968fa8eaefc8
+    authenticity: {status: authenticated, strength: moderate, provenance: "Official LROC site; named author and date.", tests: ["Statements about the 50-km orbit and 50 cm per pixel agree with the other LROC pages [read]"], tested_by: "Strata session, 2026-10-04; NASA camera team", gaps: ["No image analysed."], checked: 2026-10-04}
+  - id: src-lroc-skimming
+    title: "Robinson M. Skimming the Moon (LROC feature, 6 Sep 2011)"
+    url: https://lroc.im-ldi.com/images/379
+    document_class: primary_text
+    read: "page (2026-10-04)"
+    sha256: 856419338ed6ff7366d3043146f781be7a7c15d8032d0878b286f9c917c79680
+    authenticity: {status: authenticated, strength: moderate, provenance: "Official LROC site; named author and date; image identifiers and parameters given.", tests: ["Pixel-size arithmetic (338 microseconds at about 1,640 m/s is about 0.5 m) checks [our arithmetic]"], tested_by: "Strata session, 2026-10-04; NASA camera team", gaps: ["No image analysed."], checked: 2026-10-04}
+  - id: src-jaxa-2008
+    title: "JAXA press release, 20 May 2008: The 'halo' area around Apollo 15 landing site observed by Terrain Camera on SELENE (KAGUYA)"
+    url: https://global.jaxa.jp/press/2008/05/20080520_kaguya_e.html
+    document_class: primary_text (the Japanese space agency's own release)
+    read: "page (2026-10-04)"
+    sha256: 06b175513f9ce7be8fe7e72b1cd48736754c799546f2f8bf063b02f74e99f8b3
+    authenticity: {status: authenticated, strength: moderate, provenance: "Official JAXA site; dated release naming the instrument and the images compared.", tests: ["Stated 10 m Terrain Camera resolution is consistent with its stated inability to show rocks [read]", "The comparison images are credited to NASA (Apollo photographs), stated on the page [read]"], tested_by: "Strata session, 2026-10-04; JAXA is independent of NASA", gaps: ["Reports a 'potential' halo; no peer-reviewed paper was read.", "Images not analysed."], next_step: "Find the SELENE team's refereed paper on the halo.", checked: 2026-10-04}
+  - id: src-lpsc-2026-stooke
+    title: "Stooke PJ. LROC-NAC and OHRC images of lunar mission sites: new insights. 57th Lunar and Planetary Science Conference (2026), abstract 1044"
+    url: https://www.hou.usra.edu/meetings/lpsc2026/pdf/1044.pdf
+    document_class: primary_text (conference abstract by an independent researcher, University of Western Ontario)
+    read: "full abstract (one page of text); the poster figures were not seen"
+    sha256: 2169338d6a4e24523fad0fb8c189a8a76c4afe8fb5dda3018efbbd896d4063df
+    authenticity: {status: authenticated, strength: moderate, provenance: "Host is the Universities Space Research Association's meeting site; the PDF header names the conference and abstract number.", tests: ["Abstract states OHRC resolution of about 25 cm per pixel, consistent with Chandrayaan-2 mission descriptions in the Murphy and LROC pages [not cross-read]"], tested_by: "Strata session, 2026-10-04", gaps: ["An abstract, not a refereed paper. Says OHRC 'viewed' the Apollo 11 and 12 sites and the descent stages; the images are in the poster, which was not seen."], next_step: "Open the OHRC images in ISRO's data centre.", checked: 2026-10-04}
+
+  # ---------------- Lost tapes ----------------
+  - id: src-nasa-tapes-2009
+    title: "The Apollo 11 Telemetry Data Recordings: A Final Report (NASA, 2009)"
+    url: https://www.nasa.gov/wp-content/uploads/2015/01/398311main_apollo_11_report.pdf
+    document_class: primary_text (the search team's report)
+    read: "full (20-page scan; OCR by tesseract; the narrative on pages 2, 12 and 16 read; the credits page not read)"
+    sha256: fa080641a83c991e46377e154aaa199bcccc3879c063c71ec586e7083bd3597d
+    stored_as: sources/nasa-apollo11-tapes-final-report.ocr.txt
+    authenticity: {status: authenticated, strength: moderate, provenance: "nasa.gov file; NTRS catalogues it as 20110011709; its content (three-year search, Nafzger, 45 tapes) agrees with Space.com's report of the 16 July 2009 briefing.", tests: ["Agrees with an independent press report of the same briefing [read]"], tested_by: "Strata session, 2026-10-04; NASA reports on its own loss", gaps: ["OCR noise.", "The weekly management reports it cites were not seen."], next_step: "Read the Goddard weekly reports of 8 Jan and 7 May 1981 cited in the report.", checked: 2026-10-04}
+  - id: src-spacecom-tapes-2009
+    title: "Pearlman R. NASA Erased Moonwalk Tapes, Restores Copies. Space.com, 17 July 2009"
+    url: https://www.space.com/6994-nasa-erased-moonwalk-tapes-restores-copies.html
+    document_class: secondary (news report of the 16 July 2009 briefing, quoting Nafzger)
+    read: "page (2026-10-04)"
+    sha256: 0ba1e78cae3b01873654d20f0216d03919bc8531c033621683bfb078b15968e4
+    authenticity: {status: not_applicable, basis: "A news report, used for the briefing date and the restoration sources (Sydney, CBS, kinescopes). It is not the report."}
+
+  # ---------------- Adoption and reception ----------------
+  - id: src-gallup-1999
+    title: "Gallup. Landing a Man on the Moon: The Public's View (20 Jul 1999), with the 2001 note 'Did Men Really Land on the Moon?' linked on the page"
+    url: https://news.gallup.com/poll/3712/landing-man-moon-publics-view.aspx
+    document_class: primary_text (the pollster's own release)
+    read: "page (2026-10-04)"
+    sha256: 2975e636bbd0beab1fb907e75f8ad077466c8158164800c9fb14aec472915b89
+    authenticity: {status: authenticated, strength: moderate, provenance: "Gallup's own news site; gives the dates (13-14 Jul 1999), sample (1,061 adults) and margin of error (3 points).", tests: ["Question wording and the 1995 TIME/CNN comparison are given on the page [read]"], tested_by: "Strata session, 2026-10-04", gaps: ["Poll results are adoption, not evidence."], checked: 2026-10-04}
+  - id: src-yougov-2019
+    title: "Frankovic K. 50 years later: Was the moon landing worth it? YouGov, 19 Jul 2019"
+    url: https://today.yougov.com/politics/articles/24401-moon-landing-50-year-anniversary-conspiracy
+    document_class: secondary (pollster's article; the toplines were not seen)
+    read: "page (2026-10-04); the article's text says 'one in five are not at all sure the moon landing ever happened'; no table of answers was seen"
+    sha256: 7ae429cb6cad1083773d38277af3cbed9f49d13df3333b26095b14cee4e316a4
+    authenticity: {status: not_applicable, basis: "Used for one sentence of adoption context. Poll results are adoption, not evidence."}
+  - id: src-smithsonian-kaysing
+    title: "Smithsonian Magazine, Yes, the United States Certainly DID Land Humans on the Moon (cited in a search result as describing Bill Kaysing's 1976 self-published book)"
+    url: https://www.smithsonianmag.com/smithsonian-institution/yes-united-states-certainly-did-land-humans-moon-180972161/
+    document_class: secondary
+    read: "not_read: the host returned 403 to this environment; the 1976 date is from a search-result summary only"
+    authenticity: {status: unchecked, basis: "Not opened. Used only for a transmission event marked read: no."}

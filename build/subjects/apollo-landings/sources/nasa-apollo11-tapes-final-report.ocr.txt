@@ -1,0 +1,835 @@
+National Aeronautics and Space Administration
+
+The Apollo 11 Telemetry Data Recordings:
+A Final Report
+
+The Apollo 11 Telemetry Data Recordings: A Final Report
+
+When astronauts landed on the moon on July 20, 1969, the Eagle lander carried a
+small, unconventional television camera affixed to the inside of the door. It had one
+mission. Once astronauts opened the door and activated the camera, it would begin
+shooting live images of the historic event, transmitting the raw footage by way of an
+antenna to Earth below. There, engineers at three tracking stations would tape the
+original signals onto one-inch telemetry tapes for backup and then also convert the raw
+feed into a conventional format compatible with American broadcast standards.
+
+The camera did its job.
+
+As Neil Armstrong descended from the ladder to take that historic first step, hundreds of
+millions of viewers watched spellbound as the drama unfolded. NASA had given them
+something they had never seen before: a man walking on the moon via live television.
+
+What most people did not realize, however, is
+that the television footage they viewed was
+actually inferior to what ground station
+engineers saw as the raw footage arrived
+from the moon 250,000 miles away. While the
+public saw blurry, ghostlike images, the
+engineers working at NASA’s tracking stations
+in California and Australia saw clear, crisp
+video on special television monitors capable
+of displaying the unconventional video.
+Although NASA engineers knew that the scan
+converter would degrade the original picture
+quality, they viewed it as an engineering
+trade-off. NASA wanted live television and the
+only way to provide it at the time was with
+scan-conversion technology, despite the degradation.
+
+In the triumph of the day, no one at the tracking stations considered these differences
+and certainly the public was unaware. The engineers boxed the one-inch telemetry
+tapes wound onto 14-inch canister reels—which served no other purpose than to
+provide backup if the live relay failed—and shipped them to the Goddard Space Flight
+Center. From there, the tapes were sent to the Washington National Records Center
+(WRNC) in Suitland, Md.
+
+The engineers never saw the back-up telemetry tapes again.
+Fast Forward to the Present
+
+Much has happened over the ensuing years. Today, it is hard to imagine life without the
+Internet, cell phones, and high-definition television—innovations made possible by the
+revolution in digital technology. What was impossible nearly 40 years ago is now
+possible. The Apollo 11 telemetry tapes certainly provide a case in point. Using digital
+technology, technicians today could convert the raw signals into high-quality video,
+allowing the world to see what only a handful of engineers saw in 1969.
+
+The desire to show the Apollo 11 moonwalk as it originally was received and recorded is
+what catalyzed a core team of U.S. and Australian Apollo enthusiasts, former NASA
+contractors, and a current Agency employee to find the one-inch telemetry backup
+tapes. They wanted to give the public a clearer picture of that iconic moment in
+American history. Enlisting the support of current Goddard Space Flight Center
+employees, these individuals spent thousands of hours tracking down and interviewing
+former NASA employees, pouring over memos, telex messages, and databases, and
+visiting possible storage sites.
+
+Each had a special role in the effort:
+
+e John Sarkissian, an operations scientist and the de facto historian of the Parkes
+Radio Observatory in Australia, initiated the search;
+
+e Colin Mackellar, an avowed Apollo enthusiast, fanned interest through his
+posting of images on a website that paid tribute to those who worked at
+Australia’s Honeysuckle Creek tracking station before the facility closed in 1981;
+
+e Stan Lebar, a retired Westinghouse Electric program manager who oversaw the
+development of the special Apollo 11 camera, volunteered his time to search for
+the tapes;
+
+e Bill Wood, a retired Bendix engineer who served as the crew supervisor at the
+Goldstone tracking station in California, assisted in contacting retired NASA
+officials who may have known of the tapes’ whereabouts; and
+
+e Richard Nafzger, who oversaw television processing at the ground tracking sites
+during the Apollo 11 mission, is today a Goddard employee who was able to
+access resources at the Center to help in the search. He soon became a pivotal
+figure, the team’s unofficial leader.
+
+Unexpected Outcome
+
+By all accounts, the epic-like search has not ended as anyone had expected. The
+searchers never found what they set out to uncover. Aside from a few canisters of
+Apollo 9 telemetry tapes still stored at the WNRC, the Apollo-era telemetry tapes no
+longer exist—anywhere. However, this disappointing discovery does not mean the
+Herculean effort that spanned more than eight years ended in vain. The team
+uncovered the best television-formatted recordings of the Apollo 11 moon landing and
+has secured NASA funding to apply modern-day digital technology to dramatically
+enhance the quality of these tapes.
+
+Will the public truly experience what just a handful of engineers witnessed 40 years
+ago? The answer is probably no, says Nafzger. “However, our search for the original
+tapes gave rise to the restoration of what we do have. Now that the 40" anniversary is
+upon us, it is fitting that we release the enhanced video and explain why the raw-feed
+tapes are not with us today.”
+
+Starting at the Beginning
+
+To fully understand the loss of the original telemetry tapes, one needs to consider the
+technology of the day and appreciate the fact that live broadcasts from remote locations
+were difficult. No one was even sure it could be done from the surface of the moon.
+
+Given the importance of the Apollo 11 mission, however, mission planners understood
+the necessity of television. But because they did not know whether a live broadcast was
+technologically feasible, they stipulated that voice, telemetry, biomedical data, and
+television all share the same transmission link from an antenna atop the Lunar Module.
+Consequently, the Agency budgeted only 500 kHz of the available bandwidth to
+television—far less than the 4.5MHz then used by the commercial broadcast television
+industry.
+
+To cope with this reduction in bandwidth, NASA hired the Westinghouse Electric
+Corporation in Baltimore, Md., to develop a special television camera that used a non-
+standard scan format of 10 frames per second and 320 lines of resolution, compared
+with the U.S. television standard of 30 frames per second and 525 lines.
+
+Because commercial television could
+not broadcast the slow-scan format,
+NASA hired the RCA Corporation to
+build a scan converter to optically and
+electronically adapt these images to a
+standard U.S. broadcast TV signal. The
+tracking stations converted the signals
+and transmitted them by way of
+microwave links, Intelsat
+communications satellites, and AT&T
+analog landlines to Mission Control in
+Houston. By the time the images
+appeared on international television,
+they were substantially degraded.
+
+But at the time, who noticed? Certainly not the hundreds of millions of people worldwide
+who sat mesmerized by the fuzzy images on their television sets.
+But Lebar, who managed Westinghouse’s lunar camera project, noticed. Now in his
+80s, Lebar said he sat stunned watching the drama unfold on the television monitors in
+Houston. “Il kept thinking it just doesn’t look as clear and crisp as | expected. What’s
+going on here?” From testing, he knew the camera was capable of producing good
+television, despite the reduced bandwidth. What he did not know, however, was that the
+converter used to reformat the signal would degrade the quality of the video to the
+extent that it did. Furthermore, long-distance transmission of the video from the tracking
+stations to Houston further reduced the quality.
+
+Though disappointed, he let his initial emotions pass and allowed himself to be caught
+up in the moment. “No one was unhappy,” he said. “We were all in seventh heaven.”
+America had pulled off the impossible. In less than 10 years, the Nation had landed a
+man on the moon and showed the world, via live television, that it could be done.
+
+NASA never again used the camera Lebar created. In addition to pulling off one of the
+most important triumphs of the 20" century, NASA discovered from Apollo 11 that it
+could broadcast live video using standard, higher-bandwidth television formats. It no
+longer needed to convert the signal to make video accessible to the public. In other
+words, viewers would see the broadcast in clear, sharp focus just as a conventional
+video camera captured the event.
+
+But no one knew then. Consequently, only those working at the three tracking
+stations—Goldstone, Honeysuckle Creek, and Parkes—saw the feed as it came directly
+from the moon and was played on their slow-scan television monitors. As the converted
+signal made its way to Houston, the engineers at the tracking stations recorded the raw
+feed onto one-inch magnetic tapes using M-22 recorders, as required by NASA
+protocol. They stored the backup tapes in metal canisters, placed the canisters in
+boxes, and then shipped them by airfreight to Goddard. After a months-long holding
+period, during which Goddard personnel reviewed the tapes’ content and determined
+that the Apollo program no longer needed the data, employees sent the canisters to
+WNRC for storage.
+
+The Australian Connection
+
+Sarkissian, the operations scientist and the de facto historian of the Parkes station,
+began researching the whereabouts of the slow-scan tapes in 1997 when a British
+author called him to get information about Parkes’s role in the Apollo 11 mission. Had
+the author not queried Sarkissian, it is conceivable that the search for the tapes would
+not have begun.
+
+But in his relentless quest to confirm which of the three tracking stations actually
+provided the first steps video, Sarkissian discovered in 2001 the existence of a Polaroid
+image taken as the raw-feed video played on the special slow-scan monitor. Even on a
+Polaroid print, it was obvious to Sarkissian that the images were far better than those
+broadcast in 1969.
+One year later in another part of Australia, John Saxon, a retiree who formerly served
+as the operations supervisor at Honeysuckle Creek, attended a reunion picnic. Another
+Honeysuckle retiree brought along a magnetic-tape canister and passed it around for
+others to see. The retiree claimed he dubbed the tape from the original M-22 recording
+as a keepsake of the historic day. For 36 years, the tape languished in the garage of his
+Canberra home.
+
+According to Saxon, no one thought much of the tape then. An interesting piece of
+memorabilia, yes, but without a player, no one would ever know what the tape actually
+contained or whether the data survived the less-than-ideal storage conditions.
+Furthermore, NASA had stored the originals safely away in the U.S. At least, that is
+what he figured at the time.
+
+By mid-2008, however, interest began to take on a life of its own. Another set of photos
+had surfaced; this time they were scanned and posted on the Honeysuckle Creek Web
+site managed by Mackellar, an Apollo enthusiast who created the site in tribute to those
+who worked at the station before it closed in 1981. Within six months, the Australians
+had launched an all-out search for the original recordings and a machine that could play
+the tape found in the Canberra garage.
+
+The American Contingent
+
+Across the Pacific Ocean, Wood also had begun his own research. The retired senior
+engineer at the Goldstone tracking station in California was gathering information for an
+article to appear in the NASA Apollo Lunar Surface Journal about how NASA used
+television during the Apollo program. Like his Australian colleagues, with whom he had
+communicated via email, he, too had obtained a Polaroid image taken from the slow-
+scan television monitor at Goldstone. What he wanted were the original recordings from
+which to make screen captures to help illustrate his article.
+
+After several calls to current and former NASA employees as well as a video producer
+who had made a DVD set about Apollo 11, he learned that the scan-converted 16-mm
+kinescope stored in the National Archives offered the best available video quality. Not
+
+ready to give up, he also contacted Lebar—the man who had made television possible
+in the first place—to enlist his support in the search effort.
+
+“When Bill showed me the photograph, | immediately said yes,” Lebar recalled. He
+knew what the Westinghouse camera was capable of producing. He also understood
+the possibilities promised by digital technology. “I felt there was enough proof.”
+
+The Dub
+
+At least initially, hopes ran high. The Australians had located Nafzger at the Goddard
+Space Flight Center. Nafzger told them that the world’s last remaining seven-foot-tall
+analog machine capable of playing the slow-scan tapes still existed at Goddard’s Data
+Evaluation Lab (DEL). He also told them time was running short. Even though the
+Center planned to mothball the facility within the next few months, Nafzger convinced
+management to maintain the facility until he and his team could play the Australians’
+tape.
+
+Anxious to deliver the tape as quickly as possible, Saxon contacted Neal Newman, the
+NASA Representative to Australia and Southeast Asia. Newman not only guaranteed
+“110 percent support from himself and the U.S. Embassy,” but even offered to hand
+deliver the tape to Nafzger on June 10, 2004. After having the tape “conditioned” by
+Australia’s National Film and Sound Archive, a film company, and allowing the tape to
+acclimate in the lab for 24 hours, Nafzger and DEL Manager Dick Bouchard reported to
+work the next day. As millions of other Americans watched President Reagan’s state
+funeral on television, they fed the tape into the machine and discovered almost
+immediately that it contained chatter and simulation data from October 1967.
+
+When told of the results, the tape’s owner said that in the confusion of the day he must
+have picked up the wrong reel. For 36 years, he kept a tape that contained nothing but
+chatter.
+
+Though disappointing, the playback made the retirees and volunteers more determined
+to find the original recordings, recalled Saxon. It proved that the antiquated DEL could
+still play the magnetic tapes—even those stored under less-than-optimal conditions. “If
+other tapes are discovered, there may be all sorts of possibilities for space historians
+and others to study data from one of the most defining moments in 20" century scientific
+history,” he said.
+
+Also buoyed by the possibilities, Wood and Lebar agreed to focus their efforts on the
+Goddard Space Flight Center now that their Australian counterparts had exhausted the
+search there, finding nothing in the way of one-inch Apollo 11 tapes. From
+conversations with retirees, they knew Goddard received the tapes; they just were not
+sure which organization in particular. It would take them nearly two years before they
+found out.
+
+The Initial Search
+
+Imagine people’s garages, basements, and attics. Across America, people store all
+manner boxes, containing a life’s worth of possessions and keepsakes. Now just
+imagine what an agency as large as NASA would generate in a single day. Those
+belongings, which include everything from video, written correspondence, photography,
+and reports, often go to the National Archives, especially if they serve an important
+historical purpose. Other materials go to the WNRC or to privately operated facilities for
+temporary storage. Some are even kept in buildings on campus. Regardless of where
+they go, all must abide by records-keeping procedures.
+Wood, Lebar, and Nafzger, who agreed to support the retirees’ efforts to the extent that
+he could be given his job responsibilities, were novices to NASA’s storage policies and
+procedures — especially those carried out four decades ago. Without documentation,
+they knew they would never find what they were looking for.
+
+In mid-2005, Lebar and Nafzger contacted Goddard’s Public Affairs Office and the
+Information and Logistics Management Division (Code 270), the Center’s official
+records-keeping organization, to inform these groups of the informal search and to see
+if they could enlist their help. Nafzger also set up a meeting with the Information
+Technology and Communications Directorate and others to develop a strategy. By this
+point, Lebar and Wood also had signed a government contract volunteering their
+services to help Nafzger with the search.
+
+“Basically Stan and Dick said they were looking for historic magnetic telemetry tapes,”
+recalled a records management employee. “They had no idea of the mountain of stuff
+here.”
+
+While Lebar searched Goddard’s library for documents, Code 270 employees combed
+the filing cabinets looking for Apollo-related documentation—a task made more difficult
+because Goddard has not automated old records due to budget constraints. Lebar also
+contacted the National Archives in College Park, Md., to determine if the “Nation’s attic”
+had a copy of the tapes. Confirming what Wood discovered months earlier, the tapes
+were not there. The only video contained in that collection was the broadcast film that
+hundreds of millions of people saw on July 20, 1969.
+
+The first break came when Code 270 employees located seven green ledger books
+listing the accession numbers issued since 1963 to transfer materials to the WNRC. “I
+had always been under the assumption that every Goddard accession was listed in
+these books,” an employee said. She was mistaken.
+
+Gaps in Documentation
+
+Although Goddard policy now requires organizations to work through Code 270 when
+storing and withdrawing records from the WNRC, it was not always that way. Records-
+keeping personnel said that in the past, several organizations with large data holdings
+managed their own records and their own paperwork—the so-called SF 135s needed to
+transfer records to the WNRC and the Form 11s to withdraw them. The practice
+stopped in the late 1990s when NASA Headquarters became concerned that important
+data could be lost without a stricter accounting of what these organizations shipped and
+withdrew.
+
+After examining the green ledger books, employees began to suspect that the
+organization responsible for the Apollo tapes enjoyed the same working arrangement.
+The accession numbers listed in the ledger books were not in sequential order. In fact,
+employees found large gaps, indicating that the records office had assigned those
+numbers to other organizations. “My reaction was that the processes obviously were
+different then,” an employee recalled. “Some type of agreement must have allowed
+people to send records outside of the normal records process.”
+
+When employees scoured the filing cabinets for the forms needed to transfer and
+withdraw Apollo-era records, again they found gaps. Although the paperwork described
+in detail the contents of boxes containing correspondence, reports, and memos, the
+forms lacked details for other types of records. Accessions and corresponding
+paperwork assigned to tapes, for example, were simply labeled “magnetic tapes,” with
+no further identification of the mission or whether the tapes contained audio, commercial
+video, telemetry, or computer data.
+
+Whether the Apollo 11 backup telemetry tapes ever flowed through Code 270, no one
+could tell from the vague “magnetic tape” descriptor. Even so, employees gave the
+accession numbers to Nafzger and Lebar and they met with the Smithsonian Curator for
+Space History and the WNRC Chief of the Accessions Branch to learn how to best
+proceed with the information they had.
+
+The Proverbial Needle in a Haystack
+
+Looking back, Lebar’s first foray into WNRC’s
+vast holdings was like finding the proverbial
+needle in a haystack, he said. WNRC
+personnel had printed the complete listing of
+Goddard accessions stored at the WNRC,
+including those for which the Goddard’s
+records department had no documentation.
+After about two weeks, though, he realized the
+futility of the task.
+
+Although he limited his effort to the 1969-1975
+timeframe, the list of accessions for magnetic
+tapes still involved tens of thousands of boxes.
+“| realized this was going to take a lot of time
+and | needed a way to narrow down the search,” said Lebar. “We all agreed that to
+blindly recall tape boxes for examination would be an exercise in futility.”
+
+Oversized Boxes
+
+On a hunch, Lebar asked if the WNRC used a standard-size box to store the materials it
+received. WNRC employees advised him that WNRC used a one cubic-foot standard
+box. Lebar then asked Nafzger to give him a sample of the M-22 tape reel. It became
+immediately apparent that a 14-inch tape reel, when packaged inside a metal canister
+and then an outer cardboard box, would never fit inside the standard storage box.
+WNEPC staff members told Lebar that boxes larger than the standard were called “Z”
+boxes, which WNRC stored on specially designed shelves to accommodate their larger
+size.
+
+At last, Lebar felt he was making progress. He then asked the WNRC staff to produce a
+printout only of those accessions stored in the “Z’” boxes. He gave the file to Wood, who
+further massaged the list by date, narrowing down candidate boxes to about 5,000.
+From that printout, Lebar and Wood developed a more manageable accession list.
+
+A Trip Through the Stacks
+
+In January 2006, Lebar returned to WNRC, this time armed with a map showing the
+location of all the oversize shelves, a printout of the magnetic-tape accessions stored in
+these areas, and permission from the Goddard records department to open the boxes.
+Having never seen the stacks before, Lebar was overwhelmed by what he saw. Each
+stack contained up to 20 shelves, separated by two-foot aisles. “It goes on forever,” he
+said. “If there was ever a time when | thought no one would find anything it was then.”
+
+Accompanied by a WRNC staff member who joined the organization in 1974 and was
+familiar with the operation there, Lebar spent days sampling the contents of boxes
+stored under every accession created during the Apollo era. The good news was that
+each accession dealt with a specific mission or experiment. In other words, the contents
+were not mixed, which would have made a search infinitely more difficult and time
+consuming. He also confirmed that the magnetic tapes used during the Apollo program
+fit roughly five to a box.
+
+After several days, though, he still had not found a single Apollo tape.
+
+Just to make sure he and the WNFC staff member had not overlooked anything, they
+went through the stacks again. On the second pass, they came to a bottom shelf that
+was supposed to house two boxes stored under accession 255-69A-4099. The shelf
+was empty. This time, though, the WNRC employee got down on his hands and knees
+to peer into the back of the shelf.
+
+That is when he found a single, slightly damaged box containing nine tapes labeled
+“NCG-721.” “Immediately, | knew it was Apollo,” Lebar said.
+
+Although they contained Apollo 9 mission data recorded at the Canary Island tracking
+station in 1969, the accompanying paperwork listed the 255-69A-4099 accession
+number—apparently the number Goddard had assigned to the storage of Apollo
+magnetic tapes. Lebar finally had something to work with.
+
+Another Dead End
+
+Back at Goddard, Code 270 personnel searched through the green ledger books to see
+what they could learn about that particular accession. They found nothing, confirming
+their suspicions that the organization responsible for the tapes had worked outside the
+records department. The WNRC, meanwhile, had better luck finding the original
+paperwork. On May 4, 2006, a WNRC employee reported her findings to Lebar by way
+of email:
+
+“This was originally quite an extensive accession in our holdings, 2,614
+magnetic tape containers. But over the years, mostly in the 1970s, most of
+the containers were permanently withdrawn by NASA. Currently, only two
+containers remain in our possession. Besides the original SF 135, we also
+have the original charge cards from when the boxes were being
+withdrawn. Unfortunately, there’s very little information on the charge
+cards beyond the date and the box numbers. Often even the name of the
+person doing the withdrawal is not included, with ‘NASA Goddard’ being
+written in its place.”
+
+Once the boxes left WNRC, NASA determined their fate, the employee added. Goddard
+could have destroyed them, returned them as part of a different accession, or even
+offered them to the National Archives as part of a direct offer, she said.
+
+In the weeks to come, the news would not get better. An analysis of the WNRC
+accession files also indicated that in 1981-1983, “NASA Goddard” had withdrawn
+42,996 boxes of magnetic tapes—25,443 in 1981 alone. Even if the Center had
+returned the Apollo tapes as part of another accession, it was conceivable that they
+were later withdrawn as part of the massive recall a few years later.
+
+Without knowing the identity of those responsible for the withdrawal, no one could say
+what happened or why. The search continued.
+
+An Appeal for Help
+
+In May 2006, Sarkissian wrote a report updating readers on the status of the search and
+published it on the Parkes website. The report also was linked on the Honeysuckle
+Creek website. One month later, Mackellar and Lebar issued an appeal for information,
+preparing a flyer that included photos showing the differences in quality. They posted
+the piece on the Honeysuckle Creek website.
+
+National Public Radio saw these reports and interviewed Lebar and Nafzger, airing the
+program on July 31, 2006. The story caught the attention of the Sydney Morning Herald,
+which published a front-page article on August 5, 2006 under the headline—“One giant
+blunder for mankind: how NASA lost moon pictures.” Within a few days, the story had
+spread worldwide.
+
+10
+The Official Search
+
+Understandably concerned about the sensationalized headlines, then Goddard Center
+Director Ed Weiler tasked Deputy Director Dolly Perkins, who has since retired, to pull
+together a formal search team, including the U.S. retirees who initiated the search years
+earlier. In addition to revisiting Goddard records and possible storage sites on and off
+Goddard’s campus, the team agreed to carry out more extensive interviews with current
+and former employees.
+
+Nafzger and Lebar returned to the WNRC to determine whether Goddard had returned
+the tapes under different accessions. They found nothing. However, a long-time WNRC
+staff member recalled that from 1970-1973, two Goddard contractors worked in the
+stacks Monday-Friday, receiving and storing trucked shipments of “Z-type” boxes from
+Goddard.
+
+Meanwhile, Wood began contacting retired Goddard and contractor employees. To aid
+in his research, he obtained all available Goddard telephone directories from 1968 to
+2000 and the current issue of the Goddard Retirees and Alumni Association
+Membership Directory.
+
+“Initially, the search concentrated on finding out if any slow-scan recordings were still at
+Goddard,” Wood said. Working from his home in California, he followed up on a tip that
+the tapes were stored in a private facility called lron Mountain. He concluded from
+talking with employees familiar with the operation, however, that neither Iron Mountain
+nor any other previously used storage facility had ever held the Apollo tapes. Goddard’s
+Manned Space Flight Network, which supported the Apollo program in the late 1960s
+and 1970s, managed its own tape-handling operation, these employees said. Even so,
+Nafzger and Lebar arranged visits with Iron Mountain to sample its magnetic-tape
+collection. Eventually, they came to the same conclusion: the Apollo tapes were not
+stored there.
+
+The team hit pay dirt in September when Lebar and Nafzger found a supplement to the
+Manned Space Flight Network Operations Directive—NOD for short—spelling out what
+Apollo recordings would be made and where they would be shipped. After nearly two
+years of looking, Lebar and Nafzger found one of the most important pieces to the
+Apollo-tape puzzle—the name of the Goddard organization responsible for receiving the
+Apollo tapes—the Data Services Section (Code 824.3)—and the name of the employee
+who managed the operation.
+
+Tracking Down Employees
+
+Did the manager know what had happened to the Apollo tapes? No one will ever know.
+He died in 1997.
+
+11
+However, Wood's diligence in creating searchable PDF files of phone books and
+organizational charts gave the team other venues to investigate. In 1974, one year
+before Goddard withdrew the Apollo accession, another employee assumed control of
+the operation, which also became known as the Data Evaluation Section or Code 863.1.
+Wood consulted Internet-based locator services and found him living in Delaware.
+
+Over the course of several telephone interviews with Wood and Nafzger, the former
+employee confirmed that his organization received and stored Manned Space Flight
+Network tapes and that he kept detailed logbooks listing each tape received, the station
+that provided it, and the accession number needed to transfer the tapes to WNRC. The
+logbooks made it possible for the organization to recall any tape for later use, he said.
+
+However, the employee did not know what became of the detailed logbooks or the
+Apollo tapes. He simply could not remember if they had been recalled, degaussed, and
+recertified for other uses.
+
+Digging Deeper
+
+Although the employee who headed the organization could not recall details, his
+supervisors did. A former chief of Goddard’s Network Procedures and Evaluation
+Division (Code 860) recalled instructing personnel to strip all identification from the
+magnetic tapes slated for recycling and to degauss them. However, the former
+employee stressed that Code 863.1 never would have destroyed data on a particular
+tape without first getting approval from the Johnson Space Center, which had full control
+of the Apollo data. Neither he nor anyone else, however, could recall the name of the
+person who would have made that call.
+
+Given the vast number of tapes involved, something must have triggered the recycling
+operation. Wood and Nafzger would soon have a clue.
+
+Motivation for Recycling
+
+By the mid 1970s, the magnetic-tape industry had begun using a synthetic product to
+apply magnetic oxide to tapes. However, the new binder proved troublesome. After only
+a couple years, many of these tapes became unusable because the oxide would stick to
+tape heads and strip off when the tape was played back, a condition known as “Sticky
+Shed Syndrome.”
+
+By the early 1980s, NASA was experiencing a critical shortage of magnetic tape. The
+Associate Chief for Goddard’s Network Procedure and Evaluation Division recalled
+someone from Goddard’s Network Logistics Depot calling him to request additional
+recycled magnetic tapes to make up for procurement shortages caused by
+manufacturers failing to meet NASA’s minimum quality specifications.
+
+12
+To see if he could obtain more details about the shortage, Nafzger visited Goddard’s
+library in February 2007 to review old copies of the Center's weekly management
+reports. Knowing that Goddard had withdrawn 25,443 boxes of magnetic tape in 1981,
+Nafzger examined that year first. It did not take long to find a reference to the tape
+shortage.
+
+On January 8, 1981, the Network Operations Division (Code 850) reported: “Landsat
+magnetic tape requirements have increased substantially over the originally provided
+projections for 1981. Recent increases of 10 reels per day for DOMSAT and 50 per day
+by the Image Processing Facility have severely strained both new and recertified tape
+supply systems.” Furthermore, the report said that Goddard’s magnetic-tape
+recertification facility had added a third shift to recertify Landsat tape.
+
+And then on May 7, 1981, Code 863.1 reported that it needed to procure 164,220 reels
+of magnetic tape required by the Network Logistics Depot, the Jet Propulsion
+Laboratory, and three other NASA centers over an eight-month period. Sitting in the
+library that day, Nafzger could only think, “Wow, it looks like there’s a rational
+connection between the pull out of tapes and the shortage of one-inch magnetic tapes. |
+didn’t find a smoking gun and they didn’t reference the WNRC in name, but they did
+reference the need for tapes.”
+
+The day Neil Armstrong and Astronaut Buzz Aldrin walked on moon, the tracking
+stations faithfully recorded the event. Nafzger figures that each of the three stations
+used 15 one-inch tape reels to record the actual event, meaning that Goddard received
+a total of 45 tapes documenting the history-making occasion. Because the WNRC no
+longer stored the Apollo-era tapes, Nafzger could draw only one conclusion based on
+what he read in the weeklies: The 45 Apollo 11 tapes were degaussed, recertified, and
+reused to satisfy a NASA-wide shortage of one-inch tapes more than a decade later.
+NASA’s M-22 recordings of the Apollo 11 moonwalk likely were gone forever.
+
+Hope Still Remains
+
+A few months before Nafzger learned the details of the tape shortage, he also made
+another discovery that could prove providential for those who want to make the raw-
+feed recordings available to the public via modern-day technology.
+
+When he and Lebar visited the WNRC in early fall of 2006, they decided to search the
+documentation files related to the Apollo 11 mission. In one dusty box, they uncovered a
+Goddard Teletype message indicating that NASA had hired the Applied Physics
+Laboratory (APL) near Baltimore to modify another tape recorder—an Ampex VR-660C
+that used two-inch magnetic tape—to handle the slow-scan television signals received
+only at the Parkes tracking station. Nafzger had no knowledge of this experimental
+program even though he was in charge of the Apollo 11 television ground-support effort.
+
+13
+Sarkissian, meanwhile, already had found a letter and a photo showing two Ampex
+VR-660C recorders and a man who may have operated them. The letter, written by the
+former Parkes director, suggested the operator worked for APL.
+
+The Search at APL
+
+At the request of Goddard Deputy Director Perkins, the APL Office of Communications
+and Public Affairs contacted retirees, and the organization’s records group searched its
+archives to see if they could discover the man’s identity and whether APL still had the
+recording.
+
+By December, after finding back issues of APL’s employee newsletter and its quarterly
+progress reports, APL personnel had an answer. They uncovered the identity of the
+man who had indeed modified the Ampex VR-660C.
+
+From additional sleuthing, Wood and Lebar found the man’s son who provided his
+father’s phone number at his home in Arkansas. Now also in his 80s, the former APL
+employee confirmed he had modified the recorders and recorded the original moonwalk
+signal. At the time, no one asked him to make a dupe of the tapes; so he did not.
+Whether he packed the tapes and personally delivered them to APL, he does not recall.
+However, he distinctly remembered seeing the tapes at APL after his return from
+Australia.
+
+APL Tapes Found
+
+In early January, the APL Archivist called Nafzger to say that she found five two-inch
+videotapes, along with some 16mm films.
+
+Before team members could play the tapes, though, they had to find a VR-660C. Wood
+found a company in California that agreed to ship its legacy machine to Goddard. After
+it arrived, Nafzger loaded the tapes and lived yet another déja vu experience. Although
+he confirmed that the tapes had been previously recorded in a format consistent with a
+VR-660C, the two-inch tapes were blank and the film contained unrelated television
+footage.
+
+Although a search for the VR-660C recordings at the National Archives and the WNRC
+has yielded nothing, Nafzger, Wood, Lebar, and other members of the Goddard search
+team are hopeful that APL will one day find them in its holdings. If APL finds the
+recordings, NASA will be ready: it is maintaining its capability to playback and view one-
+and two-inch tapes if they are ever found.
+
+Never Say Die — The Restoration Effort
+
+Despite the twists and turns, the emotional highs and lows, the search team never lost
+its passion for giving the world a glimpse of what the historic landing really looked like
+
+14
+as the signal played on the slow-scan television monitors at the three tracking stations.
+That motivation compelled the team to take another tack in its quest.
+
+On two continents, team members started looking for what might be the best of the
+broadcast-format video. In Australia, searchers had already made two significant finds.
+One was a copy of a tape recorded at NASA’s Sydney video switching center where
+downlinked television from Parkes and Honeysuckle Creek was received for
+transmission to the U.S. The other was a Super 8 film a technician at Honeysuckle
+Creek had made of the slow-scan monitor showing details that had been lost by the
+time the television arrived in Houston.
+
+In the U.S., Lebar and Nafzger visited CBS News Archives and found original broadcast
+tapes recorded via direct microwave and landline feeds from the Johnson Space
+Center. At Johnson, they also found kinescopes that no one had viewed for 36 years.
+
+Nafzger viewed and evaluated each available recording, and selected the best for
+digitization. One company, Lowry Digital, which has restored aging Hollywood films,
+demonstrated how it could use it proprietary software technology to significantly
+enhance these tapes. After seeing Lowry’s demonstration, NASA Headquarters hired
+the company to restore the various video clips for the sole purpose of providing the
+public, future historians, and the National Archives with the highest quality video of this
+historic event.
+
+Under the initial restoration effort, Lowry restored 15 scenes and included on the tape
+several before-and-after comparisons. That tape was released for the 40" anniversary
+of the Apollo 11 moon landing. The restoration, however, is ongoing and may produce
+even better video by this fall.
+
+Observations
+
+In the case of the missing Apollo 11
+moonwalk tapes, hindsight is indeed
+twenty-twenty. Had NASA known what it
+knows today, the one-inch magnetic
+telemetry tapes used to record the raw-
+feed images of Neil Armstrong's first
+steps on the moon would be available
+today, stored safely in the National
+Archives. Though NASA certainly
+understood the historic significance of
+
+») man’s first steps on the moon, it did not
+anticipate the ability to digitize the
+unconventional television signal into high-
+quality video 40 years later. In an era of
+
+15
+slide rules, carbon copies, and computer punch cards, the lack of foresight is perhaps
+understandable.
+
+Even so, some might believe that NASA and its employees—some of them long dead—
+should have recognized the tapes’ importance and preserved them for posterity. But
+before coming to judgment, one needs to put the issue into perspective and consider
+the role that these tapes played in the Apollo 11 mission.
+
+Among other data, they recorded an unconventional television signal, which had to be
+converted and repackaged to make viewable—and only then with significant
+degradation. “They were telemetry tapes; it’s as simple as that,” Nafzger said. “NASA
+has always backed up mission data and that’s the role these tapes played. In all
+honesty | don’t think they would have passed the test,” he added. “The technology didn’t
+exist to do anything with them other than what was already done at the time they were
+made.”
+
+Perhaps there are no clear answers. All that can be said with any certainty is that NASA
+and the Goddard Space Flight Center followed all procedures in storing the Apollo
+telemetry tapes, the search team has concluded. After reviewing their content and
+determining that Apollo program managers no longer needed the data, Goddard
+personnel shipped the telemetry tapes to WNRC for storage. Over the ensuing years,
+Goddard recalled them and either reused the one-inch tapes to meet a network
+shortage in the early 1980s or disposed of them because of the high cost of storing
+them. At no time did anyone recognize the unique content on roughly 45 tapes
+containing the actual moonwalk video. At no time did anyone ever consider what could
+be possible nearly 40 years into the future with the advent of new technology.
+
+While current leaders can do nothing to reverse decisions made 40 years ago, they can
+redouble their efforts to make sure historically important recordings and paperwork find
+a permanent home within the National Archives, particularly now as they prepare to take
+the Nation back to the moon.
+
+16
+Final Search Report Credits
+
+Apollo 11 Search Team — NASA Goddard Space Flight Center
+Dolly Perkins, Deputy Director, Goddard Space Flight Center (Retired)
+Richard Nafzger, Engineer, Search Team Leader
+Karen Flynn, Engineering Deputy Director
+Mark Hess, Public Affairs
+Marilyn Tolliver, Chief, Logistic Management Division
+Lori Keesey, Writer/Editor
+
+Apollo 11 Tape Search Support Team
+Stan Lebar, Program Manager Apollo Lunar TV Camera, Westinghouse Electric
+Corporation, (Retired)
+Colin Mackellar, Apollo Historian, Honeysuckle Creek Web Site
+John Sarkissian, Operations Scientist, CSIRO-ATNF Parkes Radio Observatory
+Bill Wood, Goldstone, Apollo USB Lead Engineer (Retired)
+
+Support Companies and Organizations
+NASA Goddard Space Flight Center (GSFC) Support
+GFSC TV Operations
+GSFC Production Office
+Joe Damiano
+Patrick Kennedy
+Mike Marosy
+John Putman
+Loyal Stewart
+
+NASA Headquarters
+Robert Jacobs, Public Affairs Administrator
+Bert Ulrich, Public Affairs
+Fred Brown, Executive Producer, NASA TV
+Cliff Feldman
+John Malechek
+
+National Archives and Washington National Records Center (WNRC)
+
+Judith A. Barnes, Deputy Director, WNRC
+
+Krista Donnelly, Chief of Transfers and Disposition, WNRC
+
+Nathan Miller, Archivist, WNRC
+
+Michael Waesche, Management Analyst, WRNC
+
+Alan Kramer, Supervisor Archivist Specialist, WRNC
+
+Les Waffen, Chief, Motion Picture Sound & Video, National Archives,
+College Park, MD
+
+Daniel Rooney, Audiovisual Archivist, National Archives, College
+Park, MD
+
+17
+Lowry Digital — Restoration
+John D. Lowry, Founder and Chief Technical Officer
+Mike Inchalik, Chief Operating Officer
+Amy Bailey, Internal Producer
+Patrick Edquist
+Ray Mitchell
+Kimball Thurston
+
+Archival Recordings
+Kipp Teague, Archival Tape
+Ed von Renouard, Archival Super 8 Film
+
+Archival VR-660 Recorder
+Richard Diehl
+
+NASA Johnson Space Center
+Sylvia Stuart Gederberg, Librarian
+
+Honeysuckle Creek Tracking Station MSFN, Australia
+Mike Dinn (Retired)
+John Saxon (Retired)
+
+Parkes Radio Observatory
+John Reynolds
+
+Goddard Space Center Ground Tracking Network, Apollo
+Richard Holl (Retired)
+
+Goddard Data Evaluation Lab
+Richard Bouchard
+
+Wheeler Tape Forensics
+Jim Wheeler, Former Ampex Design Engineer
+
+Smithsonian Institution, National Air and Space Museum
+James David, Curator Space History
+
+CBS Broadcasting TV Archives
+Roy Carubia, CBS News Archives
+
+Colorlab
+Mike Lloyd, Tape Processing
+
+Vidipax
+Sam Verga, Tape Processing
+
+18
+lron Mountain Records Management Facility, Maryland Tape Search
+
+Applied Physics Laboratory
+John O'Brian, Technical Communications
+Margaret Brown, Communication and Public Affairs
+Mark Simon, Space Department
+Judith Theodori, Information Services
+
+Spacecraft Films
+Mark Gray, President
+
+Nine Network Australia Archives
+
+National Electronic Museum
+Michael Simons, Director
+
+BBC Post Production
+
+Tim Emblem-English, Archive Telecine Specialist
+David Woods, Transfer Assistance
+
+19

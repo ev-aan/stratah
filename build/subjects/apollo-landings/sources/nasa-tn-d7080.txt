@@ -1,0 +1,877 @@
+                                                                                c m n
+                                                                                             A NASA TN D-70p
+
+
+
+
+APOLLO EXPERIENCE REPORT -
+PROTECTION AGAINST RADIATION
+
+by Robert A , Etzglisb, Ricburd E . Bensotz,
+J. Vernon Builey, m2d Clburles M . Barnes
+Mumzed S’acecrufi Ceizter
+Houston, Texus 77058
+
+N A T I O N A L A E R O N A U T I C S A N D SPACE A D M I N I S T R A T I O N   W A S H I N G T O N , D. C.   M A R C H 1973
+1. Report No.                                     2. Government Accession No.                            3. Recipient's Catalog No.
+   NASA TN D-7080
+
+   APOLLOEXPERIENCEREPORT
+   PROTECTION AGAINST RADIATION
+
+7. Author(s.1
+   Robert A. English, Kelsey-Seybold Clinic, Richard E. Benson,
+   J. Vernon Bailev, and Charles M. Barnes. MSC
+                                                                                                     1   8. Performing Organization Report No.
+                                                                                                             MSC S-329
+                                                                                                         10. Work Unit No.
+9. F'erforming Organization Name and Address                                                                914-50-95-06-72
+   Manned Spacecraft Center
+   Houston, Texas 77058
+                                                                                                     I   11. Contract or Grant No.
+
+
+                                                                                                         13. Type of Report and Period Covered
+2. Sponsoring Agency Name and Address                                                                        Technical Note
+   National Aeronautics and Space Administration                                                         14. Sponsoring Agency Code
+   Washington, D. C. 20546
+                                                                                                     I
+5. Supplementary Notes
+  The MSC Director waived the use of the International System of Units (SI) f o r this
+  Apollo Experience Report because, in his judgment, the use of SI units would impair
+  the usefulness of the report o r result in excessive cost.
+                                                                                                               ~~
+
+
+
+
+                                                  ~
+
+
+
+
+16. Abstract
+
+   Radiation protection problems on earth and in space are discussed. Flight through the Van Allen
+   belts and into space beyond the geomagnetic shielding was recognized as hazardous before the
+   advent of manned space flight. Specialized dosimetry systems were developed for use on the
+   Apollo spacecraft, and systems for solar-particle-event warning and dose projection were de-
+   vised. Radiation sources of manmade origin on board the Apollo spacecraft present additional
+   problems. Methods applied to evaluate and control o r avoid the various Apollo radiation hazards
+   are discussed.
+
+
+
+
+17. Key Words (Suggested by Author(s)l                                        18. Distribution Statement
+     Lunar Radiation
+   ' Van Allen Belt
+   ' Apollo Radiation
+   .Space Dosimetry
+   ' Radiation Protection
+
+19. Security Massif. (of this report)                 20. Security Classif. (of this page)                 21. NO. of Pages      22. Rice
+                                                                                                                    19                $3.00
+    None                                                  None
+
+                              * For sale by the National Technical Information Service, Springfield, Virginia 22151
+                                       CONTENTS
+
+
+Section                                                                             Page
+SUMMARY . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .        ..      1
+INTRODUCTION      .............................                                ..      1
+PROBLEMS RELATING TO THE SPACE RADIATION ENVIRONMENT                           ..      2
+   Van Allen Belts       ........................ . . . .                      ..      3
+
+         P a r t i c l e Events . . . . . . . . . . . . . . . . . . . .
+   Solar .                                                              ....   ..      5
+   Cosmic Rays . . . . . . . . . . . . . . . . . . . . . . . . . .      ....   ..      7
+   Neutrons . . . . . . . . . . . . . . . . . . . . . . . . . . .       ....   ..      8
+OVERALL RADIATION SPECTRUM . . . . . . . . . . . . . . . . . .                 ..      8
+
+PROBLEMS INVOLVING RADIATIONS O F MANMADE ORIGIN . . . .                       ..      9
+
+   Radioluminescent Switch Tips . . . . . . . . . . . . . . . . . . . .        ..      9
+
+   Radioluminescent Panels . . . . . . . . . . . . . . . . . . . . . .         ..     10
+   Radioluminescent Lighting . . . . . . . . . . . . . . . . . . . . .         ..     10
+CONCLUDING REMARKS . . . . . . . . . . . . . . . . . . . .              ....   ..     10
+REFERENCES . . . . . . . . . . . . . . . . . . . . . . . . . .          ....   ..     12
+BIBLIOGRAPHY . . . . . . . . . . . . . . . . . . . . . . . . .          ....   ..     13
+APPENDIX .
+         SOLAR-PARTICLE-MONITORING NETWORK SYSTEM                              ..     15
+
+
+
+
+                                              iii
+                          TABLES
+
+
+                                                                          Page
+
+AVERAGE RADIATION DOSES OF THE FLIGHT CREWS
+  FORTHEAPOLLOMISSIONS.   .................                                  3
+
+SOLAR-FLARE RULES FOR APOLLO MISSIONS . . . . . . . . .                     6
+
+
+                               FIGURES
+
+
+                                                                          Page
+
+Radiation-dose estimates for particle events between
+   June 1968 and December 1969 . . . . . . . . . . . . . . . . .             2
+
+Isodose profile showing high-dose region over the South
+   Atlantic (values a r e in mrads/day at an altitude of
+   210 km)  .............................                                   4
+
+Van Allen belt dosimeter . . . . . . . . . . . . . . . . . . . . . .         5
+
+Nuclear-particle-detection system . . . . . . . . . . . . . . . . .          5
+
+Personal radiation do sim ete r . . . . . . . . . . . . . . . . . . . .      8
+
+Passive dosimeter with component p a r t s . . . . . . . . . . . . .         9
+
+Radiation-survey m e t e r .   ......................                        9
+
+
+
+
+                                 iv
+                              APOLLO EXPERIENCE REPORT
+
+                           PROTECT1ON AGAINST RAD lAT1 ON
+                       By Robert A . English,* Richard E. Benson,
+                       J. V e r n o n Bailey, and Charles M. Barnes
+                                Manned Spacecraft Center
+
+                                         SUMMARY
+
+      Radiation was not an operational problem during the Apollo Program. Doses
+received by the crewmen of Apollo missions 7 to 15 were small because no major
+solar -particle events occurred during those missions. One small event w a s detected
+by a radiation sensor outside the Apollo 1 2 spacecraft, but no increase in radiation dose
+to the crewmen inside the spacecraft was detected. Solar -particle r e l e a s e s a r e random
+events, and it is possible that a flare, with the accompanying energetic nuclear parti-
+cles, may hinder future flights beyond the magnetosphere.
+
+      Radiation protection for the Apollo Program w a s focused on both the peculiarities
+of the natural space radiation environment and the increased prevalence of manmade
+radiation sources on the ground and on board the spacecraft. Radiation-exposure r i s k s
+to crewmen were a s s e s s e d and balanced against mission gain to determine mission
+constraints. Operational radiation evaluation required specially designed radiation-
+detection s y s t e m s on board the spacecraft in addition to the use of satellite data, solar
+observatory support, and other liaison.
+
+       Control and management of radioactive sources and radiation-generating equip-
+ment have been important in minimizing radiation exposure of ground-support person-
+nel, r e s e a r c h e r s , and the Apollo flight and backup crewmen. Problems of radiation
+protection that influence space flights as well as ground operations a r e discussed and
+the solutions docum ente d.
+
+
+                                      INTRODUCTION
+
+          The Apollo experience in radiation protection includes two distinct a r e a s : space,
+where the l a r g e s t and most critical radiation sources a r e virtually uncontrollable, and
+e a r t h , where most radiation sources of appreciable strength are manmade and con-
+trollable. The basic philosophy of radiation protection in these two areas remains the
+
+
+      *Kelsey-Seybold Clinic, Houston, Texas.
+s a m e ; that is, to avoid harmful effects of radiation by limiting the radiation dose to the
+lowest level judged consistent with the achievement of beneficial goals.
+
+
+                      PROBLEMS RELATING TO THE SPACE RADIATION ENVIRONMENT
+
+      Although the Apollo missions have placed men outside the protective geomagnetic
+shielding and have subjected them to types of ionizing radiation seldom encountered in
+earth environment, radiation doses to Apollo crewmen have been minimal (table I).
+Spacecraft transfer from low earth orbit to translunar coast necessitates t r a v e r s e of
+the regions of geomagnetically trapped electrons and protons known as the Van Allen
+belts. When beyond these belts, the spacecraft and crewmen a r e continuously subjected
+to high-energy cosmic rays (ref. 1) and to varying probabilities of particle b u r s t s f r o m
+the sun (fig. 1).
+                                                       -       Total dose within command module
+                                                       i?ZZPJ Total dose within lunar module
+                                                              on lunar surface
+                                                               Total dose within space suit on
+                                                               lunar surface
+
+
+
+
+     ij
+                                   2 x 108 pkm2   -
+                             1.5 x 106p/cm2
+
+                                            1
+                        1.2 x 107 p l c m 2 7
+
+     101 I      - 1.1x 107pIcm2
+                                            \I
+                  1
+E        -
+E!
+0;
+0    100 :
+ c
+._
+.L
+I    n      -
+
+
+                                                                                                  r     lo5 p'cmZ
+
+
+
+     10.1 ;
+
+
+
+
+     10-2       L
+                une
+
+                               Y
+                        Apollo 1                            L A p o l l o 10   L A p o l l o 11       Apollo 12
+
+
+         Figure 1. - Radiation-dose estimates for particle events between June 1968 and
+                                         December 1969.
+2
+          In table I, the tabulated radiation doses a r e the averages of all readings on the
+    thermoluminescent dosimeters for the respective mission. Individual dosimeter read-
+    ings have varied approximately 20 percent from the average because of variations in
+    the shielding effectiveness of the Apollo spacecraft and the differences in duties, move-
+    ments, and locations of the crewmen. Doses to blood-forming organs a r e approximate-
+    ly 40 percent lower than the values measured a t the body surface. In comparison with
+    the doses actually received, the maximum operational dose (MOD) limit for each of the
+    Apollo missions was set at 400 rads (X-ray equivalent) to skin and 50 rads to the blood-
+    forming organs.
+
+
+                         TABLE I. - AVERAGE RADIATION DOSES O F
+
+                                 THE FLIGHT CREWS FOR THE
+
+                                          APOLLO MISSIONS
+
+
+
+                             Apollo mission            Skin dose, rads
+
+                                     7                       0.16
+                                     8                         .16
+                                     9                         .20
+                                     10                        .48
+                                     11                        .18
+                                     12                       .58
+                                     13                       .24
+                                     14                      1.14
+                                     15                        .30
+
+
+
+                                           Van Allen Belts
+          The problem of protection against the natural radiations of the Van Allen belts
+    w a s recognized before the advent of manned space flight. The simplified solution is to
+    remain under the belts (below an altitude of approximately 300 nautical miles) when in
+    earth orbit and to traverse the belts rapidly on the way to outer space. In reality, the
+    problem is somewhat more complex. The radiation belts vary in altitude over various
+    p a r t s of the e a r t h and a r e absent over the north and south magnetic poles. A particu-
+    larly significant portion of the Van Allen belts is a region known as the South Atlantic
+    anomaly (fig. 2). Over the South Atlantic region, the geomagnetic field draws particles
+    closer to the earth than in other regions of the globe. The orbit inclination of a space-
+    craft determines the number of passes made per day through this region and, thus,
+    determines the radiation dose that will accompany these passes for a set altitude and
+~   spacecraft shielding.
+
+                                                                                                 3
+                                                      A major camplication concerning
+                                                radiation stability within the belts (includ-
+                                                ing the South Atlantic anomaly portion) is a
+                                                result of high-altitude nuclear detonations.
+                                                In 1962, the United States detonated a
+                                                1. 5-megaton thermonuclear device (Proj-
+                                                ect Starfish) in a portion of the Van Allen
+                                                belt region and caused the radiation levels
+                                                within the belts to rise significantly. By
+     160 120  80   40     0      40  80 120 160
+                                                1969, the high -energy electron component
+                      Longitude. deg            of the injected radiation had decayed to only
+                                                one-twelfth of the 1962 intensity. The
+  Figure 2. - Isodose profile showing high- s m a l l amount of time spent in earth orbit
+    dose region over the South Atlantic         and the rapid t r a v e r s e of the radiation belts
+    (values a r e in mrads/day at an altitude during Apollo missions have minimized
+    of 210 km).                                 astronaut radiation dose from the remain-
+                                                ing Starfish electrons. However, recur -
+                                                rence of high-altitude nuclear testing would
+have a significant impact on Apollo earth-orbit operations, and this possibility has been
+factored into radiation-protection planning f o r Apollo space missions. Sources of
+current intelligence information on nuclear-device testing a r e available to the NASA,
+and these sources a r e ready to assist in the real-time management of any contingency
+that might be caused by the high-altitude detonation of a nuclear device.
+
+      Particles within the Van Allen belts s p i r a l around the earth magnetic lines of
+force and, therefore, display directionality. This directionality v a r i e s continuously in
+angular relationship to the trajectory of the spacecraft. Therefore, dosimetry instru -
+mentation in the Van Allen belts must use relatively omnidirectional radiation s e n s o r s
+so that the radiation f l u will be measured accurately. The Van Allen belt dosimeter
+(VABD) (fig. 3) was designed specifically for Apollo dosimetry within these radiation
+belts and has proved satisfactory because dose values derived from its g r e a t e r than
+180" radiation acceptance angle have correlated well with doses indicated by postflight
+analyses of passive dosimeters worn by the crewmen. The nuclear -particle -detection
+system (NPDS) (fig. 4) w a s designed to have a relatively narrow acceptance angle and
+was intended to measure the isotropic proton and alpha particles derived from s o l a r -
+particle events. Experience with the NPDS within the highly directional radiation fields
+of the Van Allen belts has emphasized the difficulty in determining true flux levels using
+a detector of narrow angle response, There are two problems in determining flux levels.
+First, orientation of the spacecraft relative to the direction of the impinging particles
+is not precisely known at all times. Second, even if orientation were precisely known,
+inaccuracy would result from the high statistical e r r o r inherent with low counting rates
+when the detector is pointed away f r o m the direction of particle flux.
+
+      A compromise in VABD design w a s required f o r Apollo flammability considera-
+tions, and this compromise resulted in the u s e of aluminum as a replacement for
+tissue -equivalent plastic in the ionization-chamber walls, Aluminum is a satisfactory
+replacement f o r tissue -equivalent plastic only if electron secondary radiation (brems         -
+strahlung) is a small portion of the total radiation dose (as in the Apollo Program).
+Chambers of tetrafluoroethylene plastic would be preferable to aluminum if flammabil-
+ity remains a design factor for future missions, A detailed discussion of radiation do-
+simetry considerations for post-Apollo missions is contained in references 2 and 3.
+
+4
+                                                        Figure 3. - Van Allen belt dosimeter.
+
+
+                                                                                       S ol a r- P a rtic Ie Events
+Detector                    Detector elements 7
+assembly,
+6 00- by                                                                           No major s o l a r -particle events have
+2 . 1 8 - i n . diameter
+                                                                      n.
+                                                                            occurred during an Apollo mission (fig. 1).
+                                                                      ter   Although much effort has been expended in
+                                                                            the field of solar -event forecasting, indi-
+                                                                            vidual eruptions from the solar surface a r e
+                           B e r y l l i u m absorber                       impossible to forecast. The best that can
+                                                                            be provided at this time is an estimate of
+                                                                            particle dose, given visual o r radio-
+                                                                            frequency (RF) confirmation that an
+                                                                            eruption has occurred. A system of s o l a r -
+                                                                            monitoring stations, the Solar Particle
+                                                                            Alert Network (SPAN), provides a NASA-
+                                                                            sponsored network of continuous data on
+                                                                            solar -flare activity. The various compo-
+                                                                            nents of this network a r e described in the
+                                                                            appendix. Approximately 20 percent of the
+                                                                            largest solar flares (importance 2 bright
+                                                                            o r larger) w i l l result in particle fluxes in
+                                                                            the earth/moon region that can be related
+                                                                            i n intensity to early R F o r visual charac-
+    Figure 4. - Nuclear -particle -detection                                teristics. A warning interval of from l e s s
+                   system.                                                  than one to several hours (typically, 2 to
+
+                                                                                                                         5
+4 hours) is obtained between the RF/visual indication and the appearance of particles
+i n the earth/moon region. Because only approximately 20 percent of the flares result
+i n particle events, it is not necessary to change normal mission procedures on the
+basis of R F o r visual observations alone. Rather, radiation sensors on board solar-
+orbit and earth-orbit satellites, as well as on board the Apollo spacecraft itself, are
+used to confirm the particle event. Only after the appearance of particles is confirmed
+would action be taken to protect the crewmen. F o r a typical event, approximately
+8 hours would be available from the time particles a r e confirmed to the time of peak
+radiation dose. Details concerning effects of solar-particle events on various phases
+
+
+
+                                   TABLE 11. - SOLAR-FLARE RULES FOR APOLLO MISSIONS
+
+
+      ~         ~~
+
+
+
+
+                     Condition            Mission phase              Rule                            Comments
+
+      Major solar flare has been         All                Continue mission.
+        predicted.
+
+      Major solar flare h a s occurred
+
+          Unconfirmed particle event     All                Continue mission.               ieport: particles have not
+            h a s occurred.                                                                   been confirmed. No m i s -
+                                                                                              sion impact i s indicated.
+
+          Confirmed particle event       Prelaunch          Hold until data analysis
+            and SPAN or real-time                              indicates that the MOD
+            analyses indicate the                             will not be exceeded.
+            MOD will be exceeded
+            during the mission.          Earth parking      Continue mission. If data       Translunar injection i s no-go
+                                                              analysis indicates that         only if firm computation
+                                                              the MOD will be exceedec        before go/no-go indicates
+                                                              by a significant amount         more than the MOD.
+                                                              before mission comple-
+                                                              tion, translunar injec-
+                                                              tion i s no-go.
+
+                                         All other phases   Continue mission. Consid-
+                                                              eration will be given to
+                                                              early (or extended)
+                                                              transearth injection and
+                                                              inhibiting crew transfer
+                                                              to the lunar module.
+
+          Confirmed particle event       Translunar coast   Continue mission. Consid-       Crew should begin personal
+            and spacecraft telemetry                          eration should be given         dosimeter and radiation
+            or personal radiation                             to entering in next best        survey meter read-outs.
+            dosimeter read-out                                preferred target paint          A projection of g r e a t e r
+            projections indicate the                          if the total dose can be         than the MOD is not r e -
+            MOD will be exceeded                              reduced significantly           quired for crew read-outs.
+            during the mission.                               without increasing total
+                                                              risk to the crew.
+
+                                         Lunar orbit        Continue mission. Considei      Hatch-down attitude may be
+                                                              extending lunar orbit sta:       used to reduce the total
+                                                              time if the total dose to        dose.
+                                                              the crew would be r e -
+                                                              duced significantly by        If a particle event i s con-
+                                                              lunar shielding.                  firmed, the crew will
+                                                                                                transfer from the lunar
+                                                                                                module to the command
+                                                                                                and s e r v i c e module.
+
+                                         Lunar stay         Consider reducing the lunar     Comparison of command and
+                                                              stay time or extravehic-        service module and lunar
+                                                              ular activities if the tota     surface personal radiatior
+                                                              dose to the crew can be         dosimeters i s advised.
+                                                              reduced significantly
+                                                              without increasing the
+                                                              total r i s k to the crew.
+                                         All other phases   Continue mission.
+
+
+
+6
+         In t e r m s of hazard to crewmen in the heavy, well-shielded command module,
+even the l a r g e s t solar-particle event on record (November 12, 1960) would not have
+caused any impairment of crewmember functions o r ability of the crewmen to complete
+their mission safely. It is estimated that within the command module during this event
+                                                                                                  '
+the crewmen would have received a dose of 60 to 100 r a d s to their skin and 1 0 to 30 r a d s
+to their blood-forming organs (bone and spleen) (refs. 4 and 5). Other estimates have
+indicated that skin dose from this event could have been as high as 270 rads. Radiation
+doses to crewmen while inside the thinly shielded lunar module o r during an extravehic-
+u l a r activity (EVA) would be significantly higher f o r such a particle event. The radia-
+tion specialists at the Mission Control Center Space Environment Console, with the
+assistance of SPAN and the other monitoring system described in the appendix, must
+advise the Flight Director and Flight Surgeon of the radiation r i s k s that would be in-
+volved with the event. If doses a r e projected to be detrimentally high, it would be ad-
+vised that the astronauts not stay i n the lunar module o r perform EVA during this type
+of particle event. Rules that apply to lunar module stay o r EVA during such a n event
+are indicated in table 11under the mission phases "Lunar orbit" and "Lunar stay. ''
+
+                                       Cosmic Rays
+       Cosmic-ray fluxes have provided average dose r a t e s of 1 . 0 mr/hr in cislunar
+space and 0.6 m r / h r on the lunar surface. These values a r e expected to double at the
+low point i n the 11-year cycle of solar-flare activity (solar minimum) because of de-
+creased s o l a r magnetic shielding of the central planets. The effect of high-energy
+(but low dose rate) cosmic r a y s on humans is unknown but is considered by most au-
+thorities to be of relatively minor consequence for exposures of l e s s than a few years.
+Experimental evidence of the effects of these radiations is dependent on the develop-
+ment of highly advanced particle accelerators or the advent of long-term manned mis-
+sions outside the geomagnetic influence.
+
+       One particular effect possibly resulting from cosmic r a y s has been the light-
+flash phenomenon reported on the Apollo 11 and subsequent missions. Although ioniz-
+ing radiations can produce visual phosphenes (subjective sensations best described as
+flashes of light) of the types reported, a definite correlation h a s not been established
+between cosmic r a y s and the observation of flashes. The light flashes have been de-
+scribed as starlike flashes o r s t r e a k s of light that apparently occur within the eye.
+The flashes are observed only when the spacecraft cabin is dark o r when blindfolds are
+provided and the crewmen a r e concentrating on detection of the flashes. There is a
+possibility that visual flashes may indicate the occurrence of damage to the brain o r
+eye; however, no damage has been observed among crewmen who have experienced the
+light -flash phenomenon.
+
+       Additional investigations during future Apollo missions a r e planned to provide a
+better understanding of the cause of the visual light flashes and any possible detrimen-
+tal consequences. These investigations will include careful observations and reporting
+procedures to define the frequencies and characteristics of the visual events. Correla-
+tion of visual events with cosmic-ray flux rates will be determined by real-time record-              .
+ing of cosmic-ray interactions near the crewmen's heads during periods of light-flash
+observation.
+
+
+
+                                                                                            7
+                                          Neutrons
+          Neutrons created by cosmic r a y s i n collision with lunar materials were postulated
+to be a potential hazard to Apollo crewmen (ref. 6). It has been proposed that the neu-
+tron hazard be evaluated by the u s e of whole-body activation measurement of crewmen
+to determine the extent of neutron-induced sodium-24 and by u s e of neutron- resonant
+metal foils that have a known activation response for the type of neutrons expected.
+Both methods for neutron-dose assessment have been used at the NASA Manned Space-
+c r a f t Center (MSC). Whole-body counting and neutron-resonant foil techniques had
+been initiated on the Apollo 11 mission. The results of these analyses indicated that
+neutron doses were significantly lower than had been anticipated. Activation products
+were below the limits of detection by whole-body spectroscopy, and activities were ex-
+tremely low even i n the neutron-resonant foils (ref. 7). The whole-body and neutron-
+resonant foil methods of neutron-dose determination have been retained because of the
+remaining potential f o r neutron production by solar-event particles o r f o r excessive
+crewman exposure to neutrons f r o m the SNAP- 27 radioisotope thermal generator used
+to power the Apollo lunar surface experiments packages.
+
+
+                            OVERALL RADIATION SPECTRUM
+
+      During a complete Apollo mission, astronauts a r e exposed to widely varying
+fractions of radiations f r o m the Van Allen belts, cosmic rays, neutrons, and other
+subatomic particles created in high- energy collisions of p r i m a r y particles with space-
+craft materials. In addition, the individual responsibilities of the crewmen differ, and,
+therefore, radiation exposure may differ.
+
+             To allow accurate determination of radiation exposure of the crewman, each
+c a r r i e s a personal radiation dosimeter (PRD) (fig. 5) and three passive dosimeters
+(fig. 6). The PRD provides visual read-out of accumulated radiation dose to each
+crewman as the mission progresses. The P R D is approximately the size of a ciga-
+r e t t e pack, and pockets a r e provided in the flight coveralls, as well as in the mace-
+                                                  suyt, f o r carrying the PRD. The passive
+                                                  dosimeters are placed in the garments that
+                                                  are worn throughout the mission. The pas-
+                                                  sive dosimeters contain lithium fluoride
+                                                  thermoluminescent dosimetry powder, nu-
+   Sensor                                         clear emulsions, neutron-dosimetry foils,
+      1 1 cc tissue-equivalent
+       ion charber                                and foils f o r detection of high-atomic-weight
+   height
+       041b
+                                                  cosmic particles. These detector materials
+    Volume
+                                                  a r e analyzed after each mission, and an
+       5 46 in3
+    Range                                         accurate determination of the radiation dose
+       0 to 1000 rads i n 0 01-ra
+        increments
+                                                  to various portions of the body (ankle, thigh,
+    Operating life
+        2000 h l
+                                                  and   chest) is facilitated. In addition, the
+                                                  passive dosimeter provides detailed infor-
+                                                  mation on the types of radiation to which
+                                                  each astronaut is exposed.
+
+                                                      A radiation- survey meter (RSM)
+Figure 5. - Personal radiation dosimeter.      (fig. 7) is taken on each Apollo mission.
+
+8
+                                               Sensor
+                                                                            Range: linear
+                                                  10-cc tissue-equivalent     0 to 100
+                                                  ion chamber
+                                               Weight
+                                                  1.60 Ib
+                                                                              otoo.l
+                                               Volume
+                                                                            Operating life
+                                                 23 in3                       12M) hr
+
+
+
+
+                                               Figure 7. - Radiation-survey meter.
+
+
+                                            The RSM is a direct-reading dose-rate
+                                            instrument that allows the crewmen to de-
+                                            termine radiation levels in any desired loca-
+                                            tion i n their compartment. The crewmen
+                                            would u s e the RSM to find a habitable low-
+                                            dose region within the spacecraft in the
+                                            event of a radiation emergency. If desired,
+    Figure 6. - Passive dosimeter with      the RSM can be stowed in its wall bracket
+             component parts.               with its meter turned on, so that continuous
+                                            onboard dose-rate read-out may be obtained.
+
+
+           PROBLEMS INVOLVING RADIATIONS OF MANMADE ORIGIN
+
+      Protection against manmade sources of radiation is a ground- support function
+concerned mainly with the protection of t h e ground personnel, the general public, and
+the environment against detrimental effects of ionizing radiation. Much of this effort
+is routine health-physics procedure governed by U. S. Atomic Energy Commission reg-
+ulations (ref. 8) and U. s. Department of Labor standards (ref. 9). However, certain
+problems involving spacecraft radioluminescent sources apply directly to the Apollo
+experience and a r e discussed in detail.
+
+
+                             Radio1u m i nescent Switch Tips
+      Lunar module switch tips contain microspheres of promethium-147 bound with a
+phosphor that produces light by interaction with the short-range promethium-147 beta
+radiation. Originally, many switch tips were manufactured as type 19, and acrylic
+plastic enclosed the microspheres. The acrylic plastic sealed in the radioactive mate-
+rial and a l s o shielded out the ionizing radiations while allowing the passage of light.
+Later, the f i r e hazard from the acrylic plastic was recognized, the encapsulating mate-
+rial was changed to Kel-F plastic, and a n epoxy plug was used to seal the radioactive
+microspheres in a cylindrical hole within the Kel-F. The Kel-F/epoxy tips are desig-
+nated type 39.
+
+
+
+                                                                                             9
+1
+           Type 19 tips were used on board the lunar module simulators where no flammabil-
+    ity hazard existed because the atmosphere was not oxygen enriched. Flight vehicles
+    were equipped with type 39 tips. Both types of tips failed (leakage of more than
+.          3
+    5 x 1 0 picocuries) because of radiation self-degradation of the encapsulation materials
+    and subsequent leakage of promethium-147. No personnel injury was caused by these
+    failures. However, cleanroom facilities were shut down f o r a period of 14 hours before
+    the launch of the Apollo 1 0 mission when several leaking tips onboard the lunar module
+    required last-minute replacement.
+
+          The problem of leakage was solved by encapsulating the microspheres in glass
+    before sealing with epoxy in Kel-F. The resultant tip is designated type 59. The new
+    type 59 tip has replaced all type 19 simulator tips and all type 39 flight-qualified tips.
+
+
+                                   Radiol u m i nescent Panels
+           Promethium-147 microspheres were used in a luminescent paint applied t o panels
+    on the lunar communications relay unit and on the lunar roving vehicle. A thin coating
+    of acrylic plastic was applied over the paint as a sealant. When the panels arrived at
+    the MSC for testing, it w a s found that the acrylic coating was too thin to reduce radia-
+    tion levels to limits acceptable f o r handling. The problem was solved by applying a
+    layer of l/ls-inch Kel-F plastic over the panels during testing procedures. The plastic
+    layer reduced the soft X-ray dose from a n initial value of approximately 1 3 rads/hr at
+    a distance of 2 inches from the panels to an acceptable value of less than 0. 3 rad/hr.
+    The panels were not considered hazardous to the crewmen during missions because the
+    space suits provide more than the equivalent shielding of 1/16-inch Kel-F. Therefore,
+    plastic covers were not required on flight units.
+
+
+                                  Radiol u m inescent Lighting
+          The portable life support system (PLSS) worn by the crewmen on the lunar surface
+    has a remote control unit (RCU) that contains the controls and the quantity gages f o r the
+    PLSS. The requirement f o r lighting the RCU was met by using small hydrogen-3-
+    activated, glass-encapsulated, radioluminescent light sources imbedded in the polycar-
+    bonate plastic top cover of the unit. These light sources were modified commercially
+    available units (Beta lights). No external radiation was detected in association with
+    the Beta lights. These lights have performed satisfactorily where indirect lighting can
+    be used. Also, the Beta lights eliminate the external radiation problems and the effect
+    on scientific measurements that occur when the promethium-147-activated systems are
+    used.
+
+
+                                   CONCLUDING REMARKS
+
+          Apollo missions have not undergone any major space radiation contingency.
+    However, the development of spacecraft dosimetry systems, the u s e of a space radia-
+.   tion surveillance network, and the availability of individuals with a thorough knowledge
+
+
+    10
+of the space radiation environment have assured that any contingency would be recog-
+nized immediately and would be coped with in a manner most expedient for both crew-
+member safety and mission objectives.
+
+         Routine radiation-protection problems dealing with manmade radiation sources
+have been solved by using standard health-physics procedures. Spacecraft
+radioluminescent-light-source problems were solved by improvement in shielding and
+containment of the promethium-147 isotope. It has been shown on the Apollo missions
+that the spacecraft and its crewmen have successfully avoided the l a r g e radiation doses
+that, before the Apollo missions, had been cited as a possible deterrent to manned
+space flight. Radiation doses to Apollo crewmen have been significantly lower than
+the yearly average of 5 r e m s e t by the U.S. Atomic Energy Commission f o r workers
+who u s e radioactive materials in factories and institutions a c r o s s the United States.
+More significantly, Apollo astronaut doses have been negligible in t e r m s of any medical
+o r biological effects that could impair the function of man in the space environment.
+Close coordination among mission planners, the Radiation Safety Committee, the Radio-
+logical Health Team, and the Radiation Constraints Panel ensures that radiation expo-
+s u r e s under nominal conditions will continue to remain minimal.
+
+
+Manned Spacecraft Center
+     National Aeronautics and Space Administration
+           Houston, Texas, October 24, 1972
+                914-50-95-06-72
+
+
+
+
+                                                                                        11
+                                        REFERENCES
+
+    1 . Holly, F. ; and Trafton, L. : The Space Radiation Environment. Aerospace Med.,
+          vol. 40, no. 12, sec. 11, Dec. 1969, pp. 1441-1455.
+
+    2. Schneider, Marion F. ; and Janni, J’. F. : A Comprehensive Review of the Space
+         Radiation Environments and Radiation Instrument Systems f o r the Space Shuttle
+         and Space Station. AFWL TR-71-124, Feb., 1972.
+
+    3. Space Science Board, Radiobiological Advisory Panel, Committee on Space
+         Medicine: Radiation Protection Guides and Constraints f o r Space-Mission and
+         Vehicle- Design Studies Involving Nuclear Systems. National Acad. Sci.
+         (Washington, D. C. ), 1970.
+
+    4. Jones, Robert K. ; Adams, Duane E. ; and Russell, Irving J. : The Radiobiological
+         Consequences of Dose Distributions Produced by Solar-Flare-Type Spectra. In
+         Second Symposium on Protection Against Radiations in Space, NASA SP-71, 1965,
+         pp. 85-95.
+
+    5. Langham, Wright H . , ed. : Radiobiological Factors in Manned Space Flight.
+         National Acad. Sci., National Res. Council Pub. 1487 (Washington, D. C. ), 1967.
+
+    6. Kastner, Jacob; Oltman, B. G. ; Feige, Yehuda; and Gold, Raymond: Neutron
+         Exposure to Lunar Astronauts. Health Phys., vol. 17, no. 5, Nov. 1969,
+         pp. 732-733.
+
+    7. English, R. A. ; and Liles, E. D. : Iridium and Tantalum Foils f o r Spaceflight
+         Neutron Dosimetry. Health Phys., vol. 22, May 1972, pp. 503-506.
+
+    8. Anon. : Standards for Protection Against Radiation. Title 10, Code of Federal
+         Regulations, part 20, rev. July 15, 1971.
+
+    9. Anon. : Occupational Safety and Health Standards.   Title 29, Code of Federal
+         Regulations, part 1910, May 1971.
+
+
+
+
+1   12
+                                    BIBLIOGRAPHY
+
+Grahn, Douglas: Radiation.     Bioastronautics Data Book. NASA SP- 3006, 1964.
+
+Grigor'yev, Yu. G., e t al. : Radiation Safety Criteria f o r Prolonged Spaceflights.
+  NASA TT F-9429, 1965.
+
+Hess, Wilmot N: , ed. : AAS-NASA Symposium on the Physics of Solar Flares.
+  NASA SP-50, 1964.
+
+Langham, Wright H., ed. : Radiobiological Factors in Manned Space Flight. NAS-NRC
+  Pub. 1487, 1967.
+
+Reetz, Arthur, Jr., ed. : Second Symposium on Protection Against Radiations in
+  Space. NASA SP-71, 1965.
+
+Reetz, Arthur, Jr. ; and O'Brien, Keran, eds. : Protection Against Space Radiation.
+  NASA SP-169, 1968.
+
+Rittenhouse, J. B. ; and Singletary, J. B., eds. : Space Materials Handbook. Third
+   ed., NASA SP-3051, 1969.
+
+Schambra, Philip E. ; Stapleton, George E. ; and B a r r , Nathaniel, eds. : Space
+  Radiation Biology. Supplement 7, Radiation Research, Academic P r e s s (New York),
+  1967.
+
+
+
+
+                                                                                        13
+                                           APPENDIX
+
+                   SOLAR - PA RT ICLE-MON ITOR I NG NETWORK SYSTEM
+
+                            SOLAR PARTICLE ALERT NETWORK
+
+       The Solar Particle Alert Network (SPAN) consists of three multiple-frequency
+radio telescopes and seven optical telescopes that a r e operated under contract to the
+NASA. The SPAN provides data f o r determining the severity of solar-particle events
+and the resultant possible radiation hazards to the crewmen. Solar-event data, when
+used for mission support, a r e sent by teletype directly to the Space Environment Con-
+sole (SEC) at the Manned Spacecraft Center Mission Control Center. Radiation experts
+at the SEC evaluate the data and concurrently increase their watch of earth-based, sat-
+ellite and spacecraft radiation s e n s o r s to determine early signs of particle-flux
+increase i n the earth/moon region.
+
+
+                                 SOLAR FORECAST CENTER
+
+      The Solar Forecast Center (SFC) is located in the North American A i r Defense
+Command, Cheyenne Mountain Complex, Colorado Springs, Colorado, and is manned
+by personnel of Detachment 7, Fourth Weather Wing, Ent A i r , F o r c e Base, Colorado.
+Detachment 7 includes a worldwide Solar Observing and Forecasting Network (SOFNET)
+as well as the SFC. Personnel of the Fourth Weather Wing augment the staffs of sev-
+eral solar observatories. These observatories a r e located at Sacramento Peak, New
+Mexico; Sagamore Hill, Massachusetts; South Point, Hawaii (SPAN site); Athens,
+Greece; Manila, Philippines; Teheran, I r a n (SPAN site); and Los Angeles, California.
+The personnel a t these SOFNET observatories, along with personnel at several other
+cooperating observatories and agencies, maintain a continuous surveillance of the sun
+and send real-time solar and geophysical data to the SFC. These data a r e received
+24 hours a day at the SFC and a r e plotted and analyzed by the solar f o r e c a s t e r s on duty.
+On the basis of analysis of these reports, the SFC i s s u e s four routine forecasts each
+day, an extended period forecast each week, and special-activity alerts. During Apollo
+mission periods, these f o r e c a s t s and a l e r t s a r e sent to the SEC to aid support personnel
+in keeping track of solar activity.
+
+
+                        SPACE D I STURBANCE FORECAST CENTER
+
+          The Space Disturbance Forecast Center (SDFC) is a part of the Space Disturbance
+Laboratory, National Oceanographic and Atmospheric Administration, and is located at
+Boulder, Colorado. The SDFC operates one of the seven SPAN optical telescopes and
+s e r v e s as a collection point f o r data f r o m a number of monitoring stations located near
+Boulder. The SDFC is operated 24 hours a day and provides support to various Govern-
+ment agencies in the f o r m of s o l a r forecast prepared and sent out every 12 hours. In
+
+
+
+14
+    addition to the 12-hour forecasts, the SDFC will transmit other solar-activity data to
+    the SEC during mission periods. Data will be transmitted by way of teletype through
+    NASA Goddard Space Flight Center o r by telephone directly to the SEC.
+
+
+                                     OPT1 CAL TELESCOPE SYSTEM
+
+          The optical telescope system is used to observe and locate the major centers of
+    activity on the solar disk. Solar eruptions o r flares occurring in these active regions
+    can be observed f o r characteristics associated with particle-producing events. When
+    a solar-flare event occurs, it is recorded by a c a m e r a that photographs the solar disk
+    as viewed through the telescope. Observations a r e reported routinely to the SDFC in
+    Boulder; and, during mission- support periods, telephone o r radio reports a r e made
+    directly to the SEC in Houston.
+
+
+                                RAD IO-F REQUENCY TELESCOPE SYSTEM
+
+              The RF telescope system will detect and record the intensity of solar radio emis-
+    sions in the microwave region at frequencies of 1420, 2695, and 4995 megahertz.
+    Observations are reported to the SDFC o r , for optical events, to the SEC. The time-
+    integrated radio emissions vary with the solar cycle. During periods of marked solar
+    activity, outbursts of radio energy from two times to more than 50 t i m e s the normal
+    background signal may occur for short periods usually lasting less than 3 hours. The
+    simultaneous detection of a n R F burst, at all three frequencies indicates the reception
+    of synchrotron emission from electrons accelerated in the solar magnetic fields. Pro-
+    ton acceleration and release of protons and other charged nuclear particles by the
+    s o l a r event are implied when the RF synchrotron emission is detected. Approximately
+    20 percent of such particle releases result i n the appearance of particles i n the earth/
+    moon region.
+
+
+                                         R I OMETER SYSTEM
+
+          The riometer (relative ionospheric opacity meter) system is a highly sensitive,
+    ultrastable system operated for the NASA under support agreements for measuring in-
+    tensities of electromagnetic fields. The riometer measures the changes in absorption
+    of cosmic radio noise as it t r a v e r s e s the ionosphere. Such changes are caused by var-
+    iations in electron density within the ionosphere brought about by solar atmospheric
+    disturbances o r high-altitude nuclear events. The electron density profile is a function
+    of the spectrum of protons incident on the atmosphere causing ionization. Therefore,
+    by using r i o m e t e r s at different frequencies, estimates can be made of proton f l u x and
+    spectra. When required f o r mission support, the system reports directly to the SEC.
+
+
+
+
+                         -31 S-329                                                               15
+I   NASA-Langley, 1973
+

@@ -9,25 +9,26 @@ discriminating_tests:
     retires: apollo-staged-hoax
     predicts:
       landings-occurred: >
-        IF crews landed, outside observatories should get laser returns from the
-        site coordinates, foreign labs should find lunar-only signatures in the
-        samples, and other nations' orbiters should see hardware and traces there.
+        IF hardware was landed at the sites, outside observatories should get laser returns from the
+        site coordinates, and other nations' orbiters should see hardware or its effects there. Samples
+        dated by laboratories should be lunar.
       staged-on-earth: >
         IF staged, at least one of these independent records should fail or
         disagree, because a single fake would have to defeat all of them at once.
     result:
       type: material
       finding: >
-        Four stations in three countries (APOLLO and McDonald in the US, Matera in
-        Italy, Grasse in France) range the reflectors; about 150 labs studied
-        381.7 kg of samples dated to about 4.4+ billion years; Japan's SELENE detected
-        the Apollo 15 exhaust halo and India's Chandrayaan-2 imaged descent stages.
-        No independent record fails.
+        Stations in several countries range the Apollo 11, 14 and 15 reflectors (the 2017 Grasse paper
+        names APOLLO and McDonald in the US, Matera in Italy and Grasse in France; the ILRS page of 2026 names Apache Point,
+        Grasse, Wettzell and Matera, and a Chinese station reports echoes from all five arrays). Japan's SELENE
+        shows a probable Apollo 15 exhaust halo, and a 2026 abstract reports India's Chandrayaan-2 camera viewed the
+        Apollo 11 and 12 descent stages. A pyroxene isochron on four lunar anorthosites gives 4.456 billion years and the Apollo 16
+        clast 67215 alone 4.40 billion years, possibly shock-affected (secondary account only; an age, not proof of origin). No independent record was found to fail. Read in the resumed pass, 2026-10-04.
       accessible: true
     resolves: >
       The retirement rests on physical records anyone can re-measure, not on which
-      side has more believers. Verification level V1 (search-corroborated, primary documents
-      not opened); see the header of claims.yaml.
+      side has more believers. The reflector and imaging anchors are V2 (documents read, 2026-10-04); the sample
+      dating is secondary only and is not used for the retirement. See the header of claims.yaml.
     note: >
       D3 satisfied: retired by material convergence, never by popularity or by
       NASA's authority. The test does not retire every individual question about
@@ -44,15 +45,15 @@ discriminating_tests:
         should be present and imaged.
       robotic-only: >
         IF robotic only, trails and tracks of that kind should be absent, and returned
-        mass should be in the range robotic missions achieved (101 g, 55 g and 170.1 g
-        for Luna 16, 20 and 24; 326.1 g total).
+        mass should be in the range robotic missions achieved (101 g, 50 or 55 g and about 170 g
+        for Luna 16, 20 and 24; about 0.32 kg in total).
     result:
       type: material
       finding: >
-        Foot trails and rover tracks are imaged at the sites by LRO (NASA's own images,
-        so not independent). Returned mass is 381.7 kg, about 1,170 times the Soviet
-        robotic total. Chandrayaan-2 shows descent stages; its foot-trail imaging is
-        NOT claimed (unconfirmed).
+        Astronaut tracks (Apollo 14) and rover tracks (Apollo 17) are described in LROC's own releases
+        (NASA's camera team, so not independent). Returned mass is about 382 kg, about 1,170 to 1,190 times the
+        Soviet robotic total. A 2026 abstract says Chandrayaan-2 viewed the Apollo 11 and 12 descent stages; foot-trail
+        imaging by a non-NASA orbiter is NOT claimed.
       accessible: true
     resolves: >
       Separates "something delivered these things" (reflectors, rocks) from
