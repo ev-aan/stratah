@@ -1,0 +1,73 @@
+subject: anne-frank-diary
+
+# Discriminating tests: examinations that could have failed. None of these was run by this dig. Each is an examination run by others and known here second hand (the reports were not opened);
+# the entries say so, so that a reader does not take a description for a result read.
+
+discriminating_tests:
+
+  - id: dt-materials-1940s
+    question: >
+      Are the paper, ink, glue and writing materials of the manuscripts of a kind that existed and was in common use in 1942 to 1944? (Material test, hardest kind: a forger working after the war would have to avoid every later material.)
+    retires: afd-materials-nl-lab
+    predicts:
+      genuine-wartime: "Paper, inks, pencils and glue all of kinds in common use before 1945; any later material confined to additions by others."
+      postwar-text: "A material first sold after 1944 inside text in Anne's hand (ballpoint paste from 1951 was the one raised) would make that passage an anachronism."
+    method: >
+      As reported: the BKA (1980, two days at Birsfelden, microscope and ultraviolet lamp, samples taken) for paper and writing materials; the Dutch State Forensic Science Laboratory (first half of the 1980s) for ink, pencils, paper and glue.
+    result:
+      type: material
+      finding: >
+        Reported, not read. BKA (its own 2006 statement): paper and writing materials in common use in the war years, beyond doubt; ballpoint 'Korrekturschriften' later additions by another hand. Dutch laboratory (Anne Frank House): grey-blue fountain-pen ink, thin red ink,
+        coloured and black pencil, no ballpoint ink in Anne's text. Full Fact (single source, not confirmed): glue by infrared, paper by X-ray fluorescence dated 1939 to 1942 (claim afd-paper-glue-gap).
+      accessible: false
+    resolves: >
+      The test could have failed and, as reported, did not for Anne's text. Limit: it discriminates against later materials, not against a later hand using older materials; the Anne Frank House research page says the BKA could not determine the exact age of the papers and inscriptions unequivocally and that the paper and iron-gall ink were very common before 1950. The handwriting test (dt-handwriting-1960-1980s) carries that question. Because the reports were not opened, the strength is moderate, not high.
+    note: "Test run by others. The limits of both laboratories' methods are not known here."
+
+  - id: dt-handwriting-1960-1980s
+    question: >
+      Do the entries, loose sheets and corrections in the manuscripts match one hand, Anne Frank's, as shown by comparison with her known handwriting?
+    retires: afd-nl-forensic-conclusion
+    predicts:
+      anne: "One hand throughout, matching Anne's authenticated writing across the 1942 to 1944 development (round hand early, more cursive later)."
+      other-writer: "Differences in letter forms, habits or pressure that a comparison with known specimens would show."
+    method: >
+      As reported: Hamburg graphologists (1960, 131 pages) and the Dutch State Forensic Science Laboratory (early 1980s, handwriting comparison as the main part of a report of over 250 pages). Comparison material included specimens of Anne's writing and, per Full Fact, of classmates.
+    result:
+      type: material
+      finding: >
+        Reported, not read. Hamburg 1960: all notations, corrections and additions identical with Anne's handwriting; loose sheets not older than the diary books. Dutch laboratory: both A and B were written by Anne in 1942 to 1944. Two independent examining teams, twenty years apart, agree as reported.
+      accessible: false
+    resolves: >
+      Two independent handwriting examinations could have found another hand and, as reported, did not. The Hamburg team's work was done for a case begun by Otto Frank and the Dutch work for the institute that holds the manuscripts: both are known only from interested parties' accounts.
+    note: "Test run by others. An objection about early and late handwriting is recorded as reception in transmission.yaml (tx-a-05); the comparison tables were not read, so it is not answered here."
+
+  - id: dt-chronology-levin
+    question: >
+      Could Meyer Levin have written the diary? (A chronology test: a text published in 1947 cannot be the work of someone who first read it in 1950.)
+    retires: afd-levin-chronology
+    predicts:
+      levin-wrote-it: "A pre-1947 text or dated record by Levin; the Dutch first edition appearing after his involvement."
+      not: "The 1947 Dutch edition predates his first reading of the diary (in French, 1950)."
+    method: "Compared the dates given by the Anne Frank House, the Anne Frank Fonds and Full Fact for the first edition and for Levin's first reading."
+    result:
+      type: synthetic
+      finding: "First edition 25 June 1947 (Fonds, Anne Frank House); Levin read the French translation of 1950 and then contacted Otto Frank (Fonds, Full Fact). The dates disagree with the allegation. Secondary sources only."
+      accessible: true
+    resolves: "The allegation fails on its own chronology. Filed as established (secondary) and not as refuted, because Rule 9 needs material or primary-text evidence for a refutation."
+    note: "Our own comparison of dates; class synthetic. It rests on three accounts that agree."
+
+  - id: dt-external-consistency-bolkestein
+    question: >
+      Does a dated event mentioned in the diary match an independent record of that date?
+    retires: afd-external-consistency-bolkestein
+    predicts:
+      consistent: "The diary reacts to the broadcast on or after 28 March 1944."
+      inconsistent: "The diary dates the reaction before the broadcast or gives a different content."
+    method: "Compared the date of the Radio Oranje appeal in NOS and Radio Wereld (src-nos-bolkestein, src-radiowereld-bolkestein) with the diary's reaction as quoted by the NIOD editor and described by the Anne Frank House."
+    result:
+      type: synthetic
+      finding: "The broadcast is dated 28 March 1944 in both news reports; the diary reaction is quoted for the next day. Consistent."
+      accessible: true
+    resolves: "A weak consistency check: a later writer could know the date of a public broadcast. It does not discriminate between a wartime diary and a careful later forgery."
+    note: "The diary entries were not read; only quotations."

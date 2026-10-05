@@ -1,0 +1,160 @@
+timeline:
+  id: anne-frank-diary
+  title: "The diary, its custody, its editions and the tests of its authenticity (1942 to 2024)"
+  as_of: "2026-10-04"
+  note: >
+    Times are UTC; every event here is known to the day, month or year only, so dots are hollow or drawn as bars. Dates are the dates given by the cited page. Almost all events are single-source or
+    rest on accounts from the Anne Frank House, the Anne Frank Fonds or the NIOD editor, which are parties to what they describe; none rests on a court judgment or forensic report opened here.
+    Where sources disagree, a ghost marker shows the other date. Panel A covers the writing and the custody; Panel B the editions, the forgery claims, the examinations and the court cases.
+    Events marked 'single' rest on one source; a dot is a record of what a source says, not proof of the event.
+panels:
+  - id: writing
+    title: "Panel A: 1942 to 1947, writing, hiding, arrest, custody and first edition (one tick per year)"
+    start: "1942-01-01T00:00:00Z"
+    end:   "1948-01-01T00:00:00Z"
+    tick_years: 1
+    lanes: [writing, custody, editions]
+  - id: tests
+    title: "Panel B: 1957 to 2024, forgery claims, examinations, court cases and editions (one tick per five years)"
+    start: "1955-01-01T00:00:00Z"
+    end:   "2026-01-01T00:00:00Z"
+    tick_years: 5
+    lanes: [claims, forensic, courts, editions]
+lanes:
+  writing:   {label: "Writing and rewriting"}
+  custody:   {label: "Custody of the manuscripts"}
+  editions:  {label: "Editions"}
+  claims:    {label: "Forgery claims (reception only)"}
+  forensic:  {label: "Examinations of the manuscripts"}
+  courts:    {label: "Court cases"}
+people:
+  - {who: "Anne Frank", detail: "Wrote the diary (born 12 June 1929; died in Bergen-Belsen in early 1945). The question concerns the document, not her."}
+  - {who: "Otto Frank", detail: "Her father, the only one of the eight in hiding to survive; compiled the 1947 edition; died 19 August 1980; bequeathed the manuscripts to the Dutch state."}
+  - {who: "Miep Gies and Bep Voskuijl", detail: "Helpers who found Anne's papers after the arrest; Miep Gies kept them and gave them to Otto Frank."}
+  - {who: "Gerrit Bolkestein", detail: "Dutch education minister in exile; appealed on Radio Oranje on 28 March 1944 for diaries and letters to be kept."}
+  - {who: "Mirjam Pressler", detail: "Compiled the 1991 reader's edition (version D) for the Anne Frank Fonds."}
+  - {who: "Gerrold van der Stroom and David Barnouw", detail: "Editors of the 1986 Critical Edition at the Dutch state war documentation institute; van der Stroom is the author of a source read here."}
+  - {who: "Robert Faurisson", detail: "Author of a 1978 report for a Hamburg court that denied the diary's authenticity; his report was offered in the Frankfurt appeal, and he was a defendant in the Amsterdam case. His claims are recorded in transmission.yaml as reception only."}
+sources:
+  src-af-complete-works:   {title: "Anne Frank House, The complete works of Anne Frank", url: "https://www.annefrank.org/en/anne-frank/diary/complete-works-anne-frank/", authenticity: "authenticated, moderate; a party's account"}
+  src-af-versions:         {title: "Anne Frank House, Two versions of Anne's diary", url: "https://www.annefrank.org/en/anne-frank/diary/two-versions-annes-diary/", authenticity: "authenticated, moderate; a party's account"}
+  src-af-2018-news:        {title: "Anne Frank House, New texts from the diary revealed (15 May 2018)", url: "https://www.annefrank.org/en/about-us/news-and-press/news/2018/5/15/new-texts-diary-anne-frank-revealed/", authenticity: "authenticated, moderate; the holder's own announcement"}
+  src-af-authenticity:     {title: "Anne Frank House, The authenticity of the diary of Anne Frank", url: "https://www.annefrank.org/en/anne-frank/go-in-depth/authenticity-diary-anne-frank/", authenticity: "authenticated, moderate; a party's account"}
+  src-af-sieben-fragen:    {title: "Anne Frank Zentrum / Stichting, Sieben Fragen zur Echtheit des Tagebuchs (PDF)", url: "https://www.annefrank.de/fileadmin/Redaktion/Wanderausstellungen/Dokumente/JVA_Tournee_Sieben_Fragen_zur_Echtheit_des_Tagebuchs_JVA_Tournee.pdf", authenticity: "authenticated, moderate; a party's account"}
+  src-af-research-otto:    {title: "Anne Frank House research archive, Otto Frank and the attacks on the authenticity of the diary", url: "https://research.annefrank.org/en/onderwerpen/42405377-f044-4d4a-a988-f085228f8455/", authenticity: "authenticated, moderate; a party's account citing archive items"}
+  src-fonds-publications:  {title: "Anne Frank Fonds, Publications", url: "https://www.annefrank.ch/en/diary/publications", authenticity: "authenticated, moderate; the copyright holder's account"}
+  src-vanderstroom-1999:   {title: "G. van der Stroom, Werken om niet dom te blijven, Vooys 17 (1999)", url: "https://www.dbnl.org/tekst/_voo013199901_01/_voo013199901_01_0034.php", authenticity: "authenticated, moderate; an editor's account"}
+  src-bka-2006:            {title: "Bundeskriminalamt press release, 26 July 2006", url: "https://www.presseportal.de/blaulicht/pm/7/852993", authenticity: "authenticated, moderate; the agency's own statement"}
+  src-taz-2006-07-27:      {title: "taz, Ende einer unseligen Legende (27 July 2006)", url: "https://taz.de/Ende-einer-unseligen-Legende/!399012/", authenticity: "authenticated, moderate; independent newspaper"}
+  src-taz-2006-07-11:      {title: "taz, Streit um BKA-Gutachten zu Anne Frank (11 July 2006)", url: "https://taz.de/!405975/", authenticity: "authenticated, moderate; independent newspaper"}
+  src-nos-bolkestein:      {title: "NOS, Dagboeken na 80 jaar steeds belangrijker", url: "https://nos.nl/artikel/2565195-dagboeken-na-80-jaar-steeds-belangrijker-om-leven-in-oorlogstijd-te-begrijpen", authenticity: "authenticated, weak; news summary"}
+  src-cbc-1998:            {title: "CBC News, Illegal to question Anne Frank diaries: court (10 Dec 1998)", url: "https://www.cbc.ca/news/world/illegal-to-question-anne-frank-diaries-court-1.162475", authenticity: "authenticated, weak; independent news report"}
+  src-vho-appeal-2000:     {title: "Defendant's page quoting the Amsterdam Court of Appeal's judgment of 27 April 2000", url: "https://www.vho.org/GB/c/SV/120900.html", authenticity: "unchecked, weak; a party's page, the judgment not read"}
+  src-fullfact-2024:       {title: "Full Fact, Diary of Anne Frank not written by American novelist after WW2 (7 March 2024)", url: "https://fullfact.org/online/anne-frank-diary-ballpoint-pen-meyer-levin-false-claim/", authenticity: "authenticated, moderate; independent fact-check"}
+  src-hdot-authentic:      {title: "Holocaust Denial on Trial, Anne's Diary Is Authentic", url: "https://www.hdot.org/debunking-denial/af2-diary-authentic/", authenticity: "authenticated, weak; academic project summary"}
+  src-faurisson-ihr:       {title: "Robert Faurisson, The Diary of Anne Frank: Is it Genuine? (2000), reception only", url: "https://ihr.org/journal/v19n6p-2_faurisson.html", authenticity: "unchecked, weak; a denial text, reception only"}
+events:
+  # ---------------- Panel A ----------------
+  - {id: a01, panel: writing, lane: writing, time: "1942-06-12T12:00:00Z", precision: day, date_basis: stated, kind: analysis, status: single, sources: [src-af-complete-works],
+     label: "12 Jun 1942: Anne is given the red-checked diary",
+     detail: "Anne Frank House: she received it for her thirteenth birthday and began writing on 14 June 1942."}
+  - {id: a02, panel: writing, lane: writing, time: "1942-07-06T12:00:00Z", precision: day, date_basis: stated, kind: official, status: single, sources: [src-af-2018-news],
+     label: "6 Jul 1942: the family goes into hiding",
+     detail: "Date as given in the Anne Frank House release of 2018."}
+  - {id: a03, panel: writing, lane: writing, time: "1942-12-05T12:00:00Z", precision: day, date_basis: stated, kind: analysis, status: single, sources: [src-af-complete-works],
+     label: "5 Dec 1942: last entry in the first diary book",
+     detail: "The notebooks for 6 December 1942 to 21 December 1943 have not survived (claim afd-1943-notebooks-missing)."}
+  - {id: a04, panel: writing, lane: writing, time: "1944-03-28T12:00:00Z", precision: day, date_basis: stated, kind: media, status: reported, sources: [src-nos-bolkestein, src-af-complete-works],
+     label: "28 Mar 1944: Bolkestein's Radio Oranje appeal to keep diaries",
+     detail: "An independent news report and the Anne Frank House give the same date (claim afd-external-consistency-bolkestein)."}
+  - {id: a05, panel: writing, lane: writing, time: "1944-05-20T12:00:00Z", precision: day, date_basis: stated, kind: analysis, status: reported, sources: [src-af-versions, src-af-complete-works],
+     label: "20 May 1944: Anne starts rewriting her diary (version B)",
+     detail: "Rewritten on loose sheets; the rewrite covers 12 June 1942 to 29 March 1944."}
+  - {id: a06, panel: writing, lane: writing, time: "1944-08-01T12:00:00Z", precision: day, date_basis: stated, kind: analysis, status: single, sources: [src-af-complete-works],
+     label: "1 Aug 1944: last diary entry",
+     detail: "Three days before the arrest."}
+  - {id: a07, panel: writing, lane: custody, time: "1944-08-04T12:00:00Z", precision: day, date_basis: stated, kind: analysis, status: single, sources: [src-vanderstroom-1999],
+     label: "4 Aug 1944: the eight are arrested; helpers find the papers",
+     detail: "NIOD editor: arrested on 4 August 1944 after betrayal. The Anne Frank House: the helpers Miep Gies and Bep Voskuijl found the writings and Miep Gies kept them (claim afd-papers-found-after-arrest)."}
+  - {id: a08, panel: writing, lane: custody, time: "1945-08-15T12:00:00Z", precision: month, date_basis: stated, kind: analysis, status: single, sources: [src-fonds-publications, src-af-complete-works],
+     label: "Aug 1945: Miep Gies gives the papers to Otto Frank",
+     detail: "The Fonds dates it to August 1945, when the Red Cross confirmed his daughters' deaths. The Anne Frank House gives no date."}
+  - {id: a09, panel: writing, lane: editions, time: "1945-10-15T12:00:00Z", precision: approx, date_basis: stated, kind: analysis, status: reported, sources: [src-fonds-publications, src-af-sieben-fragen],
+     label: "Autumn 1945: Otto Frank begins copying and compiling (version C)",
+     detail: "He worked from Anne's rewrite and added passages from the first diary, then enlisted a radio script editor to correct the typescript (claim afd-otto-edits-documented)."}
+  - {id: a10, panel: writing, lane: editions, time: "1947-06-25T12:00:00Z", precision: day, date_basis: stated, kind: analysis, status: reported, sources: [src-fonds-publications, src-af-complete-works],
+     label: "25 Jun 1947: Het Achterhuis first published",
+     detail: "Dutch first edition of 3,000 to 3,036 copies. This date comes before Meyer Levin read the diary in French in 1950 (claim afd-levin-chronology)."}
+
+  # ---------------- Panel B ----------------
+  - {id: b01, panel: tests, lane: claims, time: "1957-07-01T12:00:00Z", precision: year, date_basis: stated, kind: analysis, status: single, sources: [src-af-research-otto],
+     label: "1957 to 1958: first printed allegations of forgery",
+     detail: "Obscure Swedish and Norwegian periodicals, which also named a writer who had tried to stage the diary (claim afd-levin-chronology)."}
+  - {id: b02, panel: tests, lane: courts, time: "1959-02-15T12:00:00Z", precision: approx, date_basis: stated, kind: analysis, status: single, sources: [src-af-research-otto],
+     label: "Early 1959: Otto Frank files a criminal complaint (Lubeck)",
+     detail: "Over a 1958 statement in a school-association magazine."}
+  - {id: b03, panel: tests, lane: forensic, time: "1960-03-15T12:00:00Z", precision: month, date_basis: stated, kind: analysis, status: reported, sources: [src-af-authenticity, src-af-sieben-fragen],
+     label: "Mar 1960: Hamburg graphologists' 131-page report",
+     detail: "All entries, loose sheets, corrections and additions identical with Anne's handwriting (claim afd-hamburg-graphology-1960). Report not read."}
+  - {id: b04, panel: tests, lane: courts, time: "1961-10-17T12:00:00Z", precision: day, date_basis: stated, kind: analysis, status: reported, sources: [src-af-research-otto, src-af-sieben-fragen],
+     label: "17 Oct 1961: Lubeck hearing; defendants withdraw; no verdict",
+     detail: "Settlement after a graphological examination and witness statements (claim afd-luebeck-1959-61)."}
+  - {id: b05, panel: tests, lane: claims, time: "1975-07-01T12:00:00Z", precision: year, date_basis: stated, kind: analysis, status: reported, sources: [src-af-research-otto, src-hdot-authentic],
+     label: "1975: a forgery allegation printed in a German history book's introduction",
+     detail: "Otto Frank swore an affidavit in October 1975; the publisher printed a correction in 1976 (transmission chain tx-authorship)."}
+  - {id: b06, panel: tests, lane: courts, time: "1977-01-13T12:00:00Z", precision: day, date_basis: stated, kind: analysis, status: single, sources: [src-af-research-otto],
+     label: "13 Jan 1977: Amtsgericht Hamburg judgment in the leaflet case",
+     detail: "A fine of DM 1,500; the German PDF dates it to 1977 (claim afd-hamburg-proceedings-gap). Judgment not read."}
+  - {id: b07, panel: tests, lane: claims, time: "1978-07-01T12:00:00Z", precision: year, date_basis: stated, kind: analysis, status: reported, sources: [src-af-research-otto, src-faurisson-ihr],
+     label: "1978: a report for a Hamburg court denies the diary's authenticity",
+     detail: "Written in 1978 for a Hamburg court, published in French in 1980 (reception only; transmission chain tx-authorship)."}
+  - {id: b08, panel: tests, lane: courts, time: "1978-06-22T12:00:00Z", precision: day, date_basis: stated, kind: analysis, status: single, sources: [src-af-research-otto],
+     label: "22 Jun 1978: Landgericht Frankfurt bans a pamphlet publisher's forgery claims",
+     detail: "Penalty up to DM 500,000 or six months; appeal rejected 1979; Federal Court remitted 1980; never reheard (claim afd-frankfurt-roth-1976-79). Judgment not read."}
+  - {id: b09, panel: tests, lane: forensic, time: "1980-04-01T12:00:00Z", end: "1980-04-02T12:00:00Z", precision: range, date_basis: stated, kind: analysis, status: reported, sources: [src-af-research-otto, src-taz-2006-07-27],
+     label: "1-2 Apr 1980: BKA expert examines the manuscripts at Birsfelden (Switzerland)",
+     detail: "Two days with a microscope and an ultraviolet lamp; samples of paper and ink taken."}
+  - {id: b10, panel: tests, lane: forensic, time: "1980-05-28T12:00:00Z", precision: day, date_basis: stated, kind: analysis, status: single, sources: [src-af-research-otto, src-taz-2006-07-27],
+     label: "28 May 1980: BKA report for the Landgericht Hamburg (four typed pages)",
+     detail: "Paper and writing materials in common use in the war years; later 'Korrekturschriften' in ballpoint paste (claims afd-bka-1980-scope, afd-ballpoint-not-anne). Report not read."}
+  - {id: b11, panel: tests, lane: custody, time: "1980-08-19T12:00:00Z", precision: day, date_basis: stated, kind: analysis, status: reported, sources: [src-af-sieben-fragen, src-af-2018-news],
+     label: "19 Aug 1980: Otto Frank dies; the manuscripts pass to the Dutch state",
+     detail: "Bequeathed in his will; NIOD has held them since 1980 (claim afd-manuscripts-held-by-niod)."}
+  - {id: b12, panel: tests, lane: forensic, time: "1980-01-01T12:00:00Z", end: "1985-12-31T12:00:00Z", precision: range, date_basis: stated, kind: analysis, status: reported, sources: [src-af-authenticity, src-vanderstroom-1999],
+     label: "First half of the 1980s: Dutch State Forensic Science Laboratory examination",
+     detail: "Handwriting comparison and document-technical analysis; report of over 250 pages (claim afd-nl-forensic-conclusion). Report not read."}
+  - {id: b13, panel: tests, lane: editions, time: "1986-07-01T12:00:00Z", precision: year, date_basis: stated, kind: analysis, status: reported, sources: [src-af-complete-works, src-vanderstroom-1999],
+     label: "1986: Critical Edition (De Dagboeken van Anne Frank) prints versions A, B and C",
+     detail: "With a summary of the forensic report. German edition 1988; revised English edition 2003. Not read."}
+  - {id: b14, panel: tests, lane: forensic, time: "1987-07-01T12:00:00Z", precision: year, date_basis: stated, kind: analysis, status: single, sources: [src-af-sieben-fragen],
+     label: "1987: a relative of an examiner tells the Anne Frank House the ballpoint notes were the examiner's",
+     detail: "The notes were written during the 1960 graphological examination (claim afd-ballpoint-detail-gap)."}
+  - {id: b15, panel: tests, lane: courts, time: "1990-07-01T12:00:00Z", precision: year, date_basis: stated, kind: media, status: disputed, sources: [src-taz-2006-07-27, src-vanderstroom-1999, src-af-sieben-fragen],
+     alt_time: "1989-07-01T12:00:00Z", alt_note: "The NIOD editor says he testified in Hamburg in 1989; the Anne Frank House says the case ran from 1976 to 1993 and ended on a limitation period.",
+     label: "1990: Landgericht Hamburg judgment sees no reason to doubt the originals (as quoted by the taz)",
+     detail: "Dates differ between sources; the judgment was not found (claim afd-hamburg-proceedings-gap)."}
+  - {id: b16, panel: tests, lane: editions, time: "1991-07-01T12:00:00Z", precision: year, date_basis: stated, kind: analysis, status: reported, sources: [src-fonds-publications, src-vanderstroom-1999],
+     label: "1991: reader's edition (version D) compiled by Mirjam Pressler for the Fonds",
+     detail: "Based on version C with material restored from the critical edition; its 'definitive' label is disputed (claim afd-definitive-label-contested)."}
+  - {id: b17, panel: tests, lane: claims, time: "1991-07-01T12:00:00Z", precision: year, date_basis: stated, kind: analysis, status: single, sources: [src-af-authenticity],
+     label: "1991: a Belgian publisher issues a booklet with the 1978 report and an introduction",
+     detail: "The booklet was sent to Dutch libraries and private persons and led to the Amsterdam case (reception only)."}
+  - {id: b18, panel: tests, lane: forensic, time: "1998-07-01T12:00:00Z", precision: year, date_basis: stated, kind: analysis, status: disputed, sources: [src-af-authenticity, src-af-sieben-fragen],
+     alt_time: "2000-07-01T12:00:00Z", alt_note: "One Anne Frank House page says 'In 2000, it turned out' that Otto Frank had withheld a letter about his marriage (src-af-complete-works); possibly a separate event.",
+     label: "1998: five loose sheets Otto Frank had set aside resurface",
+     detail: "First printed in the 2001 edition of the Dutch critical edition (claim afd-five-pages-1998)."}
+  - {id: b19, panel: tests, lane: courts, time: "1998-12-09T12:00:00Z", precision: day, date_basis: stated, kind: media, status: reported, sources: [src-cbc-1998, src-vho-appeal-2000, src-af-authenticity],
+     label: "9 Dec 1998: Amsterdam District Court bans the 1991 booklet",
+     detail: "Penalty 25,000 guilders per breach; CBC reports the court said the diary should be seen as authentic (claim afd-amsterdam-ban-upheld). Judgment not read."}
+  - {id: b20, panel: tests, lane: courts, time: "2000-04-27T12:00:00Z", precision: day, date_basis: stated, kind: analysis, status: single, sources: [src-vho-appeal-2000, src-af-authenticity],
+     label: "27 Apr 2000: Amsterdam Court of Appeal upholds a ban, on changed grounds (as a party quotes it)",
+     detail: "Quoted reasons say it was not deciding authenticity but the manner of the attack (claim afd-amsterdam-appeal-reasoning-gap). Judgment not read."}
+  - {id: b21, panel: tests, lane: forensic, time: "2006-07-26T12:00:00Z", precision: day, date_basis: stated, kind: official, status: reported, sources: [src-bka-2006, src-taz-2006-07-27],
+     label: "26 Jul 2006: BKA says its 1980 report gives no ground to doubt authenticity",
+     detail: "Statement issued after repeated use of the report in denial leaflets (claim afd-bka-1980-scope)."}
+  - {id: b22, panel: tests, lane: forensic, time: "2018-05-15T12:00:00Z", precision: day, date_basis: stated, kind: official, status: single, sources: [src-af-2018-news],
+     label: "15 May 2018: text under two gummed pages of the first diary made legible and published",
+     detail: "Photographed in 2016; an entry of 28 September 1942 (claim afd-covered-pages-2018)."}
+  - {id: b23, panel: tests, lane: claims, time: "2024-03-07T12:00:00Z", precision: day, date_basis: stated, kind: media, status: single, sources: [src-fullfact-2024],
+     label: "7 Mar 2024: Full Fact checks a social-media post repeating the ballpoint and Levin claims",
+     detail: "Rates both claims false (transmission chains tx-ballpoint and tx-authorship)."}
