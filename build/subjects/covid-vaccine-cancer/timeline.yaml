@@ -36,7 +36,7 @@ sources:
   src-polack-2020: {title: "Polack FP et al. Safety and Efficacy of the BNT162b2 mRNA Covid-19 Vaccine. N Engl J Med 2020 (online 10 Dec 2020; PMID 33301246)", url: "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC7745181/fullTextXML", authenticity: "authenticated"}
   src-rair-kruger-2022: {title: "RAIR Foundation. \"Senior physician warns aggressive and unusual cancers following COVID vaccination are on the rise in Sweden (video)\" (published 2022", url: "https://rairfoundation.com/senior-physician-warns-aggressive-and-unusual-cancers-following-covid-vaccination-are-on-the-rise-in-sweden-video/", authenticity: "unchecked"}
   src-mymedfreedom-kruger-2022: {title: "myMedicalFreedom. Same title as src-rair-kruger-2022 (published 2022-07-28)", url: "https://mymedicalfreedom.org/senior-physician-warns-aggressive-and-unusual-cancers-following-covid-vaccination-are-on-the-rise-in-sweden-video/", authenticity: "unchecked"}
-  src-hecht-turbo-2022: {title: "Etana Hecht. \"Turbo-Cancer\" (Substack \"Clown World - Honk\"), dated \"Aug 04, 2022\" (Wayback capture of 2025-12-27)", url: "https://web.archive.org/web/20251227031708/https://etana.substack.com/p/turbo-cancer", authenticity: "authenticated"}
+  src-hecht-turbo-2022: {title: "Etana Hecht. \"Turbo-Cancer\" (Substack \"Clown World - Honk\"), dated \"Aug 04, 2022\" (Wayback capture of 2026-01-08)", url: "https://web.archive.org/web/20260108072452/https://etana.substack.com/p/turbo-cancer", authenticity: "authenticated"}
   src-globalresearch-2022: {title: "Global Research. \"Covid Vaccination and Turbo-Cancer. 'Multiple Tumors in Multiple Organs'. Dr. Ute Kruger\" by Etana Hecht (page metadata datePublishe", url: "https://www.globalresearch.ca/turbo-cancer-we-have-problem/5789172", authenticity: "unchecked"}
   src-leadstories-2022: {title: "Lead Stories, Nov 2022: Fact check: the movie \"Died Suddenly\" does not demonstrate that COVID vaccines cause sudden death", url: "https://leadstories.com/hoax-alert/2022/11/fact-check-movie-died-suddenly-does-not-demonstrate-that-covid-vaccines-cause-sudden-death.html", authenticity: "not_applicable"}
   src-died-suddenly-film: {title: "\"Died Suddenly\" (Stew Peters Network), 68-minute video; copy held on the Internet Archive item \"died-suddenly\" (uploaded 2022-11-22 per the item metad", url: "https://archive.org/details/died-suddenly", authenticity: "unchecked"}
@@ -66,6 +66,7 @@ sources:
   src-kim-2025-page: {title: "Biomarker Research article page for Kim et al. 2025 (notice of concern of 22 Oct 2025)", url: "https://biomarkerres.biomedcentral.com/articles/10.1186/s40364-025-00831-w", authenticity: "authenticated"}
   src-semenzato-2025: {title: "Semenzato et al. French cohort of adults 18-59, 4-year all-cause mortality. JAMA Netw Open 2025-12-01 (PMID 41343214)", url: "https://pubmed.ncbi.nlm.nih.gov/41343214/", authenticity: "unchecked"}
   src-kuperwasser-2026: {title: "Kuperwasser C, El-Deiry WS. COVID vaccination and post-infection cancer signals: Evaluating patterns and potential biological mechanisms. Oncotarget 2", url: "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12893478/fullTextXML", authenticity: "authenticated"}
+  src-kakeya-reply-2026: {title: "Kakeya H et al. The Imperative of Data Transparency for Pursuing Scientific Truth about COVID-19 Vaccines (reply to Kutsuna and Suzuki). JMA J 2026 (online 2026-04-24; PMID 42577312)", url: "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC13453932/fullTextXML", authenticity: "authenticated"}
   src-kutsuna-2026: {title: "Kutsuna S, Suzuki T. Concerns about Methodological Flaws and Use of Retracted Evidence in the Opinion Paper... JMA J 2026 Jan (online 14 Nov 2025). do", url: "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12888968/fullTextXML", authenticity: "authenticated"}
   src-locquet-2026: {title: "Locquet M et al. Commentary: 1-year risks of cancers associated with COVID-19 vaccination: a large population-based cohort study in South Korea. Front", url: "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC13076561/fullTextXML", authenticity: "authenticated"}
   src-ema-key-facts: {title: "EMA. COVID-19 vaccines: key facts (page metadata og:updated_time 2026-04-08)", url: "https://www.ema.europa.eu/en/human-regulatory-overview/public-health-threats/coronavirus-disease-covid-19/covid-19-medicines/covid-19-vaccines-key-facts", authenticity: "authenticated"}
@@ -79,7 +80,7 @@ sources:
 events:
   - {id: a01, panel: years, lane: research, time: "2020-11-30T12:00:00Z", precision: day, kind: witness, status: single, sources: ["src-sbm-turbo-2022"],
      label: "30 Nov 2020: an ar15.com forum comment reportedly reads 'I can't wait for the turbo cancer'",
-     detail: "Reported by Gorski (Science-Based Medicine, 2022); we could not open the page (403, also via Wayback), so the date and wording are unverified. The context is not stated."}
+     detail: "Reported by Gorski (Science-Based Medicine, 2022), who calls the commenter sarcastic and says the thread was about the impending Pfizer vaccine authorisation; we could not open the page (403, also via Wayback), so the date and wording are unverified."}
   - {id: a02, panel: years, lane: research, time: "2020-12-10T12:00:00Z", precision: day, kind: data, status: reported, sources: ["src-polack-2020"],
      label: "10 Dec 2020: Polack et al. report the Pfizer-BioNTech trial in NEJM",
      detail: "Our text search of the main text found no cancer outcome; the trial ran about 6 months [abstract and text search]."}
@@ -182,9 +183,9 @@ events:
   - {id: b09, panel: recent, lane: journals, time: "2026-01-03T12:00:00Z", precision: day, kind: analysis, status: reported, sources: ["src-kuperwasser-2026"],
      label: "3 Jan 2026: Kuperwasser and El-Deiry review of 66 reports and 333 patients",
      detail: "The authors say it cannot estimate risk or draw causal inferences."}
-  - {id: b10, panel: recent, lane: journals, time: "2026-01-15T12:00:00Z", precision: month, kind: analysis, status: reported, sources: ["src-kutsuna-2026"],
-     label: "Jan 2026: Kutsuna and Suzuki criticise reliance on the retracted Japan paper",
-     detail: "A JMA Journal letter; a reply by Kakeya et al. concedes causality is not shown."}
+  - {id: b10, panel: recent, lane: journals, time: "2026-01-15T12:00:00Z", precision: month, kind: analysis, status: reported, sources: ["src-kutsuna-2026", "src-kakeya-reply-2026"],
+     label: "Jan 2026: Kutsuna and Suzuki criticise a Japanese opinion paper on excess deaths, including a source that reflects the retracted Japan paper",
+     detail: "A JMA Journal letter (online 14 Nov 2025). The authors' reply (online 24 Apr 2026) says their paper did not assume causality, cites the Seoul letter and says they cannot rule out vaccination worsening pre-existing cancers."}
   - {id: b11, panel: recent, lane: journals, time: "2026-03-31T12:00:00Z", precision: day, kind: analysis, status: reported, sources: ["src-locquet-2026"],
      label: "31 Mar 2026: Locquet et al. publish a commentary on the Seoul cohort",
      detail: "Different start dates, surveillance bias and multiplicity."}
