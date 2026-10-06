@@ -1,0 +1,6 @@
+Excerpt from the National Cancer Institute page 'COVID-19 Vaccines and People with Cancer'
+URL: https://www.cancer.gov/about-cancer/coronavirus/covid-19-vaccines-people-with-cancer
+Page stamp: Updated: October 10, 2023. Fetched 2026-10-05 (research stream C2, raw/nci_vacc_people_cancer.html).
+US government work (NCI states its content may be reproduced with credit to the National Cancer Institute). Only the paragraph quoted in the dig is stored.
+
+Can COVID-19 vaccines cause cancer? Can the vaccines cause cancer to recur or make it more aggressive? There is no evidence that COVID-19 vaccines cause cancer, lead to recurrence, or lead to disease progression. Furthermore, COVID-19 vaccines do not change your DNA (i.e., your genetic code). Can getting vaccinated cause a rise in tumor markers or signs of cancer recurrence just after a vaccination? We are not aware of any evidence that suggests vaccines can affect cancer biomarkers in this way.

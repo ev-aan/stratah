@@ -1,0 +1,11 @@
+Excerpt from the FDA prescribing information for COMIRNATY (COVID-19 Vaccine, mRNA), 2026-2027 Formula, 'Revised: 8/2026'.
+URL: https://www.fda.gov/media/151707/download (fetched 2026-10-05; raw/fda_comirnaty_pi.pdf, text raw/fda_comirnaty_pi.txt). US government document; only section 13.1 is stored.
+
+13 NONCLINICAL TOXICOLOGY
+
+13.1 Carcinogenesis, Mutagenesis, Impairment of Fertility
+
+COMIRNATY has not been evaluated for the potential to cause carcinogenicity, genotoxicity, or impairment of
+male fertility. In a developmental toxicity study in rats with COMIRNATY [encoding the viral spike (S)
+glycoprotein of SARS-CoV-2 Wuhan-Hu-1 strain (Original)] there were no vaccine-related effects on female
+fertility [see Use in Specific Populations (8.1)].

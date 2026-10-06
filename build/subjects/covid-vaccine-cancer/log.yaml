@@ -1,0 +1,95 @@
+subject: covid-vaccine-cancer
+# Append-only excavation log. Corrections are new entries; earlier entries are never edited.
+
+log:
+  - id: L-01
+    date: 2026-10-05
+    entry: >
+      Dig opened at the owner's request on "COVID-19 vaccines cause cancer". Owner's standing rule
+      applied before starting: the repository, its branches and past chats were checked and no
+      such dig existed. Templates used: build/subjects/vaccines-autism and the fluoride-iq dig.
+  - id: L-02
+    date: 2026-10-05
+    entry: >
+      SCOPE DECISION (owner). Scoped to the popular claim of rapidly progressing, aggressive
+      cancers after vaccination ("turbo cancer"), with a timeline. The general claim "vaccines
+      cause cancer" is carried as a second claim because the direct tests (two cohorts) address it.
+  - id: L-03
+    date: 2026-10-05
+    entry: >
+      Two parallel research streams (c1: evidence tests, registries, cohorts, case reports,
+      mechanisms; c2: origin and spread of the term, official and journal responses), each with
+      raw copies and sha256 hashes. sources/MANIFEST.yaml lists 93 sources, with sha256 checked
+      against the raw files; the Semenzato abstract has no sha256 because no copy was retained.
+      Six texts are stored under sources/ for the quote check (NCI excerpt, FDA reply, Ladapo
+      letter, Florida release, Comirnaty section 13.1, Blumenthal statement). Copyright-uncertain
+      texts (ACIP slides, Gralow and Dalgleish testimony, journal notices) were not stored, so
+      quotations from them show as manual-check items.
+  - id: L-04
+    date: 2026-10-05
+    entry: >
+      VERIFICATION RULE used in this dig. anchor_checked: primary only where the full document
+      was downloaded and read directly (Wayback and Europe PMC copies count as direct copies where
+      the original host refused us). Abstracts, summaries and secondary reports are secondary.
+      The headline claim is established at moderate confidence, so the headline stays draft.
+  - id: L-05
+    date: 2026-10-05
+    entry: >
+      CORRECTIONS TO THE BRIEF. (1) The Japanese cancer-mortality paper is from 2024, not 2025, and
+      was retracted on 26 Jun 2024. (2) The Korean study is not a "national cohort": it is Seoul
+      residents in the national insurance database, and it is a Letter. (3) No cohort of cancer after
+      vaccination was found from Kaiser, the Vaccine Safety Datalink, Israel, the Netherlands, the
+      Nordic countries or the UK. (4) "Turbo cancer" appears in the peer-reviewed literature we read
+      only in review papers, not in an epidemiological study.
+  - id: L-06
+    date: 2026-10-05
+    entry: >
+      FILING DECISIONS. (a) Population statistics cannot formally refute a claim (Rule 9; the
+      vaccines-autism owner decision L-19): the registry series and the cohorts are filed as
+      synthetic evidence, so "vaccines cause cancer" and "vaccines cause turbo cancer" are
+      `proposed` and the incidence difference is `contested`, none refuted by statistics. (b) The
+      claim that the Eens mouse report proved turbo cancer is `refuted` on primary text, the
+      authors' own addendum, with refutation_class narrative_drift. (c) The assessment answer is
+      leans_no at moderate strength, not no, because the measurement has not been done.
+  - id: L-07
+    date: 2026-10-05
+    entry: >
+      BLOCKED OR NOT READ (from our proxy): cdc.gov, floridahealth.gov, congress.gov, hhs.gov,
+      cureus.com, oncotarget.com, europepmc.org web pages, digital.nhs.uk, ar15.com, rumble.com,
+      the live Science-Based Medicine site and X. Wayback and archive.cdc.gov copies were used where
+      they worked. Not read: the Kruger interview video, the Epoch Times article, oral Senate
+      testimony, the 2026 US Annual Report in full, the Nature Medicine, Eur J Cancer and JITC
+      papers beyond abstracts, the Cureus expression-of-concern text, supplementary RCT tables.
+  - id: L-08
+    date: 2026-10-05
+    entry: >
+      SCOPED OUT. Residual-DNA contamination (cvc-sq-dna-contamination); a re-run of the retracted
+      Japan paper's regression (cvc-sq-japan-mortality-rerun); the retraction of Mead et al., Cureus
+      2024 (26 Feb 2024; read in the c2 stream, not in this manifest); the Int J Biol Macromol review
+      on N1-methylpseudouridine, whose mouse-study author told FactCheck.org the study did not show tumour
+      promotion (review not opened).
+  - id: L-09
+    date: 2026-10-05
+    entry: >
+      DISCREPANCIES RECORDED. (1) Europe PMC phrase hits for "turbo cancer": 5 in c1, 6 in c2; both
+      said none is an epidemiological study. (2) The scoping review: c1 notes 50 case reports plus 5
+      series, 3 reviews and 8 population items; the paper's text says 55 of 69 (81 percent) are
+      single-patient reports or small series; the review also covers infection. (3) The Korea
+      "about 8.4 million" is the screened population; the analysed matched cohort is 2,975,035. (4)
+      The ACS live page's canonical URL differs from the URL requested. (5) Some dates (Cureus expression
+      of concern, Pescara epub) were taken from raw PubMed records where the notes lacked them.
+      (6) The military report's units are inconsistent inside the document.
+  - id: L-10
+    date: 2026-10-05
+    entry: >
+      PROPOSED TAXONOMY LINE for the owner (build/taxonomy.yaml is outside this dig's folder and was
+      not edited): covid-vaccine-cancer needs an area (health or medicine, as for vaccines-autism)
+      and question types matching a causal question that is resolvable in principle; conformance
+      warns until the entry exists.
+  - id: L-11
+    date: 2026-10-06
+    entry: >
+      Work resumed after a rate-limit cutoff. Raw files were used again to check dates and quotes.
+      The assessment headline was shortened and the short answer cites only non-flagged source ids so
+      that publication-status rule PS3 is satisfied (flagged ids appear only on the claims that carry
+      their notice). Thread ids are prefixed thread-cvc- because thread ids are unique across subjects.

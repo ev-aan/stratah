@@ -1,0 +1,702 @@
+# Sources for the covid-vaccine-cancer dig, with authenticity entries (rules A1-A10, build/SCHEMA.md).
+# The research was done in two read-only streams on 2026-10-05: C1 (evidence tests: registries, cohorts, cancer-patient
+# studies, mechanism papers) and C2 (origin and spread of the term, official statements, journal actions). Every sha256 below
+# is the hash of the file saved in the stream's raw/ folder (ALL_SHA256.txt of that stream) and was re-computed against the
+# file when this manifest was written. Only small public-record texts are stored in this folder (stored_as); journal papers,
+# web pages and videos are not stored here.
+# read: full = opened and read; abstract = PubMed/Europe PMC abstract only; metadata only = citation record only;
+# "not read" is stated where it applies. Publication status: only a `publication` block means someone looked
+# (SCHEMA, "What silence means"); a source with no block has not been looked up.
+# Wikipedia is not used as a source anywhere in this dig.
+# Standard test for journal records: "PubMed/Europe PMC record matches DOI, journal, authors and date; retraction and
+# correction links checked in Europe PMC [read]". Standard test for government records: "Official host [read]; header date
+# and document identifiers internally consistent [read]".
+retrieved: 2026-10-05
+sources:
+  - id: src-arn-2025
+    title: "Sherman RL et al. Annual Report to the Nation on the Status of Cancer, featuring state-level statistics after the first year of the COVID-19 pandemic. Cancer 2025;131 (issue 1 May 2025). doi:10.1002/cncr.35833"
+    url: "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12010951/fullTextXML"
+    document_class: "primary_text (registry report; its rates are synthetic)"
+    read: "full (Europe PMC JATS XML of PMC12010951, PMID 40257373; abstract, results, joinpoint tables and limitations read)"
+    sha256: "d650b2df9fb436d66817d6959a4e298848a2a092dbe70209beeafc430ac81f1e"
+    publication: {status: "published", checked: "2026-10-05"}
+    authenticity: {status: "authenticated", strength: "moderate", provenance: "Europe PMC full text of PMID 40257373 (received 2024-12-13, accepted 2025-02-26); NAACCR/CDC/NCI/ACS collaboration.", tests: ["Standard journal-record test [read]: PubMed/Europe PMC record matches DOI, journal, authors and date; retraction and correction links checked in Europe PMC"], tested_by: "Stratah research stream C1 (2026-10-05); independent of the claimants", gaps: ["Not compared with the publisher PDF."], checked: "2026-10-05"}
+  - id: src-arn-2026-abstract
+    title: "Henley SJ et al. Annual Report to the Nation on the Status of Cancer, featuring 21st century progress. Cancer 2026, doi:10.1002/cncr.70577 (PubMed record, accepted 2026-07-23)"
+    url: "https://pubmed.ncbi.nlm.nih.gov/42770880/"
+    document_class: "primary_text (registry report; abstract only)"
+    read: "abstract only (PubMed record, PMID 42770880). Full text not read."
+    sha256: "c77090e03813cd3958e50cc421bff34353bb4aabd4b0b0b2eb1b2e0cd83abaaa"
+    authenticity: {status: "authenticated", strength: "moderate", provenance: "PubMed record PMID 42770880.", tests: ["Standard journal-record test [read]: PubMed/Europe PMC record matches DOI, journal, authors and date; retraction and correction links checked in Europe PMC"], tested_by: "Stratah research stream C1 (2026-10-05); independent of the claimants", gaps: ["Full text not read; incidence and mortality figures taken from the abstract."], next_step: "Read the full text of the 2026 Annual Report to the Nation (cdc.gov and the journal site were not reachable or not tried).", checked: "2026-10-05"}
+  - id: src-cdc-arn-2026-release
+    title: "CDC Newsroom, Annual Report to the Nation: Progress Against Lung Cancer Drives Down Cancer Mortality (22 Sep 2026)"
+    url: "https://www.cdc.gov/media/releases/2026/annual-report-to-the-nation-progress-against-lung-cancer-drives-down-cancer-mortality.html"
+    document_class: "primary_text (agency press release)"
+    read: "full (HTML saved by research stream C1)"
+    sha256: "f3c7296165aabf16c92c32a9f79c05b2524f2da8ab9385de976b87691b234530"
+    authenticity: {status: "authenticated", strength: "strong", provenance: "cdc.gov, the CDC newsroom; release dated 22 September 2026 on the page.", tests: ["Official host [read]", "Header date and document identifiers internally consistent [read]"], tested_by: "Stratah research stream C1 (2026-10-05); independent of the claimants", gaps: ["cdc.gov refused most paths in this environment; this page was saved by stream C1."], checked: "2026-10-05"}
+  - id: src-seer-arn-2026-page
+    title: "SEER, Overall Cancer Statistics, Annual Report to the Nation (short-term trends 2018-2022, mortality 2019-2023)"
+    url: "https://seer.cancer.gov/report_to_nation/statistics.html"
+    document_class: "primary_text (agency statistics page)"
+    read: "full (HTML saved by research stream C1)"
+    sha256: "005da87a32571fe10609d0262934cd4bab743f0d9804cb555f7d3eb127c7be0a"
+    authenticity: {status: "authenticated", strength: "strong", provenance: "seer.cancer.gov, the NCI SEER programme site.", tests: ["Official host [read]", "Header date and document identifiers internally consistent [read]"], tested_by: "Stratah research stream C1 (2026-10-05); independent of the claimants", gaps: [], checked: "2026-10-05"}
+  - id: src-seer-cross-2025
+    title: "A cross-sectional assessment of US cancer diagnoses during the COVID-19 pandemic. Cancer Epidemiol 2025 Dec (PubMed record)"
+    url: "https://pubmed.ncbi.nlm.nih.gov/41108855/"
+    document_class: "synthetic (Bayesian models on SEER data; abstract only)"
+    read: "abstract only (PubMed record, PMID 41108855)"
+    sha256: "4a049a288a0684451dde9e3d21dcdd755eb65add1359d9903d447ebf7f516a59"
+    authenticity: {status: "authenticated", strength: "moderate", provenance: "PubMed record PMID 41108855.", tests: ["Standard journal-record test [read]: PubMed/Europe PMC record matches DOI, journal, authors and date; retraction and correction links checked in Europe PMC"], tested_by: "Stratah research stream C1 (2026-10-05); independent of the claimants", gaps: ["Full text not read."], next_step: "Read the full text.", checked: "2026-10-05"}
+  - id: src-ncc-mortality-2024
+    title: "National Cancer Center Japan (ganjoho.jp), cancer mortality 1979-2024, age-standardised (Heisei-27 model population), sheet \"asr\""
+    url: "https://ganjoho.jp/reg_stat/statistics/data/dl/excel/cancer_mortality(1979-2024)H27.xls"
+    document_class: "dataset (official vital-statistics re-tabulation)"
+    read: "full (Excel file opened; it is read-only-encrypted with the Excel default password and was opened with msoffcrypto; the all-sites and site rows quoted in the dig were read)"
+    sha256: "a1f8a171dd1d68dc45977aa4ceba1b1e489c921576a8f3ddf5fe6a44df372c4d"
+    decrypted_copy_sha256: "6825413dbdeff43175c0bf0a567676ed96926420b48119cdbdf64bbe4d353289"
+    authenticity: {status: "authenticated", strength: "moderate", provenance: "ganjoho.jp, the National Cancer Center Japan; file last saved 2025-10-14 per the file properties read by stream C1; built on the MHLW vital-statistics re-tabulation.", tests: ["Official host [read]", "Header date and document identifiers internally consistent [read]"], tested_by: "Stratah research stream C1 (2026-10-05); independent of the claimants", gaps: ["Not reconciled with the Ministry of Health, Labour and Welfare original tables (cause-specific age-adjusted cancer rates are not in the MHLW summary PDFs read)."], checked: "2026-10-05"}
+  - id: src-ncc-incidence-2023
+    title: "National Cancer Center Japan (ganjoho.jp), national cancer registry incidence 2016-2023, world standard population, sheet \"asr\""
+    url: "https://ganjoho.jp/reg_stat/statistics/data/dl/excel/cancer_incidenceNCR(2016-2023).xls"
+    document_class: "dataset (national cancer registry)"
+    read: "full (Excel file opened; all-sites rows quoted in the dig read)"
+    sha256: "0b738a50d4549d47ed8b434c841e9769f6f616b7bcc00092f75c499985931212"
+    authenticity: {status: "authenticated", strength: "moderate", provenance: "ganjoho.jp, the National Cancer Center Japan.", tests: ["Official host [read]", "Header date and document identifiers internally consistent [read]"], tested_by: "Stratah research stream C1 (2026-10-05); independent of the claimants", gaps: [], checked: "2026-10-05"}
+  - id: src-nordic-2025
+    title: "Cancer incidence in the Nordic countries during the COVID-19 pandemic 2020-2021. Acta Oncol 2025 (PMID 39935358)"
+    url: "https://pubmed.ncbi.nlm.nih.gov/39935358/"
+    document_class: "synthetic (registry analysis; abstract read)"
+    read: "abstract (PubMed record; the PMC XML was also fetched but only the abstract was used)"
+    sha256: "e58918eda87ca75338b636a31cdf00d5ccb9c03e2abbe086e3d8fe7214e30652"
+    authenticity: {status: "authenticated", strength: "moderate", provenance: "PubMed record PMID 39935358.", tests: ["Standard journal-record test [read]: PubMed/Europe PMC record matches DOI, journal, authors and date; retraction and correction links checked in Europe PMC"], tested_by: "Stratah research stream C1 (2026-10-05); independent of the claimants", gaps: ["Full text not read; data end in 2021."], checked: "2026-10-05"}
+  - id: src-icbp-2026
+    title: "International Cancer Benchmarking Partnership seven-country registry study. Lancet Oncol 2026 Jun (PMID 42225103)"
+    url: "https://pubmed.ncbi.nlm.nih.gov/42225103/"
+    document_class: "synthetic (registry analysis; abstract read)"
+    read: "abstract only"
+    sha256: "f1d7466afb613eb49fae63e5fd69eed21a49d9349a5667ecdb379972b5ba9559"
+    authenticity: {status: "authenticated", strength: "moderate", provenance: "PubMed record PMID 42225103.", tests: ["Standard journal-record test [read]: PubMed/Europe PMC record matches DOI, journal, authors and date; retraction and correction links checked in Europe PMC"], tested_by: "Stratah research stream C1 (2026-10-05); independent of the claimants", gaps: ["Full text not read."], checked: "2026-10-05"}
+  - id: src-opensafely-prostate-2024
+    title: "OpenSAFELY prostate cancer incidence in England. BJU Int 2024 (PMID 38414224)"
+    url: "https://pubmed.ncbi.nlm.nih.gov/38414224/"
+    document_class: "synthetic (primary-care records analysis; abstract read)"
+    read: "abstract only"
+    sha256: "846717b584dfcb142ec510b470951e2d6c142e3f7c42e221facea7165be4f818"
+    authenticity: {status: "authenticated", strength: "moderate", provenance: "PubMed record PMID 38414224.", tests: ["Standard journal-record test [read]: PubMed/Europe PMC record matches DOI, journal, authors and date; retraction and correction links checked in Europe PMC"], tested_by: "Stratah research stream C1 (2026-10-05); independent of the claimants", gaps: ["Full text not read."], checked: "2026-10-05"}
+  - id: src-breast-england-2023
+    title: "Breast cancer diagnoses in England during the pandemic. Br J Cancer 2023 (PMID 36371502)"
+    url: "https://pubmed.ncbi.nlm.nih.gov/36371502/"
+    document_class: "synthetic (analysis; abstract read)"
+    read: "abstract only"
+    sha256: "570fda6110cac5eee5cfe4fd808b3e61a4b593fa9bdc7057ed9c59b09ebf549f"
+    authenticity: {status: "authenticated", strength: "moderate", provenance: "PubMed record PMID 36371502.", tests: ["Standard journal-record test [read]: PubMed/Europe PMC record matches DOI, journal, authors and date; retraction and correction links checked in Europe PMC"], tested_by: "Stratah research stream C1 (2026-10-05); independent of the claimants", gaps: ["Full text not read."], checked: "2026-10-05"}
+  - id: src-hungary-2026
+    title: "Hungarian cancer incidence and mortality 2011-2023. Cancers 2026 Jun 23 (PMID 42449573)"
+    url: "https://pubmed.ncbi.nlm.nih.gov/42449573/"
+    document_class: "synthetic (registry analysis; abstract read)"
+    read: "abstract only"
+    sha256: "9060c9ed0da32b111ce340070b731e8cfa16579528d051b72a660f5e6d862451"
+    authenticity: {status: "authenticated", strength: "moderate", provenance: "PubMed record PMID 42449573.", tests: ["Standard journal-record test [read]: PubMed/Europe PMC record matches DOI, journal, authors and date; retraction and correction links checked in Europe PMC"], tested_by: "Stratah research stream C1 (2026-10-05); independent of the claimants", gaps: ["Full text not read."], checked: "2026-10-05"}
+  - id: src-msmr-nhl-2025
+    title: "Non-Hodgkin lymphoma incidence in active component U.S. service members, 2017-2023. MSMR 2025 Feb 20 (PMID 40019944)"
+    url: "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC11933234/fullTextXML"
+    document_class: "primary_text (military surveillance report; counts and rates are synthetic)"
+    read: "full (Europe PMC XML of PMC11933234)"
+    sha256: "466940f2b96609de1fb5ee1bb47c9da3db333568e03dd1ff19e53391524f0df1"
+    authenticity: {status: "authenticated", strength: "moderate", provenance: "Europe PMC full text of PMID 40019944; Defense Health Agency surveillance monthly report (PubMed type \"other\").", tests: ["Standard journal-record test [read]: PubMed/Europe PMC record matches DOI, journal, authors and date; retraction and correction links checked in Europe PMC"], tested_by: "Stratah research stream C1 (2026-10-05); independent of the claimants", gaps: ["A surveillance report, not a peer-reviewed article in the usual sense.", "Units are inconsistent inside the document (table footnote per 10,000 person-years, text per 100,000)."], checked: "2026-10-05"}
+  - id: src-kim-2025
+    title: "Kim HJ, Kim MH, Choi MG, Chun EM. 1-year risks of cancers associated with COVID-19 vaccination: a large population-based cohort study in South Korea. Biomark Res 2025;13:114 (Letter). doi:10.1186/s40364-025-00831-w"
+    url: "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12465339/fullTextXML"
+    document_class: "synthetic (retrospective cohort; published as a Letter, PubMed type \"Letter\")"
+    read: "full (Europe PMC JATS XML of PMC12465339, PMID 41013858; with the three additional files in src-kim-2025-supp)"
+    sha256: "28339ffa2a79fca02057608b8a73258ce643707d14d09e535050ba2fd0866200"
+    publication: {status: "expression_of_concern", checked: "2026-10-05", date: "2025-10-22", notice: "Notice on the article page, https://biomarkerres.biomedcentral.com/articles/10.1186/s40364-025-00831-w, and in the PMC XML \"Change history\", dated 22 Oct 2025", reason: "The notice reads: \"Readers are alerted that concerns with this article have been raised with the Editors. Editorial action will be taken as appropriate once the concerns have been fully investigated.\" Not retracted and not corrected as of the fetch of 2026-10-05; Crossref shows no update-to relation; the notice is a journal editor's notice of concern, and the journal had published no outcome."}
+    authenticity: {status: "authenticated", strength: "moderate", provenance: "Europe PMC full text of PMID 41013858 (received 2025-07-11, accepted 2025-08-21; online 2025-09-26).", tests: ["Standard journal-record test [read]: PubMed/Europe PMC record matches DOI, journal, authors and date; retraction and correction links checked in Europe PMC", "Journal article page opened and the notice of 22 Oct 2025 read there and in the PMC \"Change history\" [read]"], tested_by: "Stratah research stream C1 (2026-10-05); independent of the claimants", gaps: ["Figure 1 and Figure S1 (images) not read.", "Not compared with the publisher PDF."], checked: "2026-10-05"}
+  - id: src-kim-2025-supp
+    title: "Kim et al. 2025, Additional files 1, 2 and 3 (Word documents: results text, methods and limitations, tables)"
+    url: "https://biomarkerres.biomedcentral.com/articles/10.1186/s40364-025-00831-w#Sec14"
+    document_class: "primary_text (supplementary material of src-kim-2025)"
+    read: "full (three .docx files opened; overall-cancer hazard ratio, matching description, exclusions and the limitations paragraph read in Additional files 1 and 2)"
+    sha256: "401021f85bfb8af541e91c133f2f51302f3e70fda65a539c760710a05af6b633"
+    additional_file_sha256: {MOESM2: "4e378f5650a1f67eddc1932a05268ab578bd7e40d36efb72b4b383d751e510ac", MOESM3: "c3740b5f7458a445baa588b20bce72ca94658d97a369c56c45ced4c6b13cad23"}
+    authenticity: {status: "authenticated", strength: "moderate", provenance: "Supplementary files linked from the journal article page and PMC record of src-kim-2025.", tests: ["Internal consistency with the article text (cohort sizes 595,007 and 2,380,028) [read]"], tested_by: "Stratah research stream C1 (2026-10-05); independent of the claimants", gaps: ["Figure S1 (flow diagram image) not seen."], checked: "2026-10-05"}
+  - id: src-kim-2025-page
+    title: "Biomarker Research article page for Kim et al. 2025 (notice of concern of 22 Oct 2025)"
+    url: "https://biomarkerres.biomedcentral.com/articles/10.1186/s40364-025-00831-w"
+    document_class: "primary_text (journal article page)"
+    read: "full (HTML saved by research stream C1)"
+    sha256: "e4a0c68b46b4f668b0df5ef72e76a9c42a7037ff87de18709616cba919e10d5f"
+    authenticity: {status: "authenticated", strength: "strong", provenance: "The journal publisher's own page.", tests: ["Official host [read]", "Notice text matches the PMC \"Change history\" [read]"], tested_by: "Stratah research stream C1 (2026-10-05); independent of the claimants", gaps: ["Page fetched once, 2026-10-05; later editorial action would not appear here."], next_step: "Re-read the article page for any outcome of the editors' investigation.", checked: "2026-10-05"}
+  - id: src-locquet-2026
+    title: "Locquet M et al. Commentary: 1-year risks of cancers associated with COVID-19 vaccination: a large population-based cohort study in South Korea. Front Public Health 2026;14:1772406 (online 31 Mar 2026). doi:10.3389/fpubh.2026.1772406"
+    url: "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC13076561/fullTextXML"
+    document_class: "secondary (published critique)"
+    read: "full (Europe PMC XML of PMC13076561, PMID 41988570)"
+    sha256: "cb28e727dc6bb5dcbec8b132f355299b21477c63872767f4afbef5212c0f5ff4"
+    publication: {status: "published", checked: "2026-10-05"}
+    authenticity: {status: "authenticated", strength: "moderate", provenance: "Europe PMC full text of PMID 41988570 (received 2025-12-20, accepted 2026-03-10).", tests: ["Standard journal-record test [read]: PubMed/Europe PMC record matches DOI, journal, authors and date; retraction and correction links checked in Europe PMC"], tested_by: "Stratah research stream C1 (2026-10-05); independent of the claimants", gaps: ["One author declares personal fees from several pharmaceutical and diagnostic firms (competing-interest note in the paper)."], checked: "2026-10-05"}
+  - id: src-roccetti-2026
+    title: "Roccetti M. Enhancing public health surveillance: a statistical validation of potential sampling bias in large retrospective vaccine cohorts. AIMS Public Health 2026 (PMID 42459262)"
+    url: "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC13368687/fullTextXML"
+    document_class: "secondary (single-author benchmark audit; synthetic)"
+    read: "full (Europe PMC XML of PMC13368687)"
+    sha256: "06e0b4d839e0e5b6a39d882cd57c955c57b30db105216f2c62e620254dd40df0"
+    publication: {status: "published", checked: "2026-10-05"}
+    authenticity: {status: "authenticated", strength: "moderate", provenance: "Europe PMC full text of PMID 42459262 (received 2026-01-28, accepted 2026-05-06; online 2026-05-13).", tests: ["Standard journal-record test [read]: PubMed/Europe PMC record matches DOI, journal, authors and date; retraction and correction links checked in Europe PMC"], tested_by: "Stratah research stream C1 (2026-10-05); independent of the claimants", gaps: ["Compares a Seoul-only matched cohort with national figures and uses figures extracted from the letter (reading by stream C1); not replicated."], checked: "2026-10-05"}
+  - id: src-acuti-martellucci-2025
+    title: "Acuti Martellucci C et al. COVID-19 vaccination, all-cause mortality, and hospitalization for cancer: 30-month cohort study in an Italian province. EXCLI J 2025;24:690-707. doi:10.17179/excli2025-8400"
+    url: "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12381369/fullTextXML"
+    document_class: "synthetic (population-wide retrospective cohort)"
+    read: "full (Europe PMC XML of PMC12381369, PMID 40881928; also saved as text)"
+    sha256: "0d5e3b2032bc6703565b2707778893298ddebb8354100b0f7e436c0079a43593"
+    publication: {status: "published", checked: "2026-10-05"}
+    authenticity: {status: "authenticated", strength: "moderate", provenance: "Europe PMC full text of PMID 40881928 (received 2025-03-30, accepted 2025-05-07; epub 2025-07-01).", tests: ["Standard journal-record test [read]: PubMed/Europe PMC record matches DOI, journal, authors and date; retraction and correction links checked in Europe PMC"], tested_by: "Stratah research stream C1 (2026-10-05); independent of the claimants", gaps: ["Not compared with the publisher PDF."], checked: "2026-10-05"}
+  - id: src-malatesta-2025
+    title: "Malatesta F, Alessandria M, Berrino F, Donzelli A. Comment to \"COVID-19 vaccination, all-cause mortality, and hospitalization for cancer...\" EXCLI J 2025 (PMID 41624159)"
+    url: "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12853024/fullTextXML"
+    document_class: "secondary (published comment)"
+    read: "full (Europe PMC XML)"
+    sha256: "5f8e4411a724880a613d5661dc2a15e539ab359a85a48b45fb5a04465a58e75a"
+    publication: {status: "published", checked: "2026-10-05"}
+    authenticity: {status: "authenticated", strength: "moderate", provenance: "Europe PMC full text of PMID 41624159.", tests: ["Standard journal-record test [read]: PubMed/Europe PMC record matches DOI, journal, authors and date; retraction and correction links checked in Europe PMC"], tested_by: "Stratah research stream C1 (2026-10-05); independent of the claimants", gaps: [], checked: "2026-10-05"}
+  - id: src-manzoli-reply-2025
+    title: "Manzoli L et al. Reply to the Letter to the editor by Malatesta, Alessandria, Berrino and Donzelli. EXCLI J 2025 (PMID 41624156)"
+    url: "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12853026/fullTextXML"
+    document_class: "secondary (authors' reply)"
+    read: "full (Europe PMC XML)"
+    sha256: "dcb669e4dec64f123015a70821ec9948b3239a49abf7c919a31be952dbe621d7"
+    publication: {status: "published", checked: "2026-10-05"}
+    authenticity: {status: "authenticated", strength: "moderate", provenance: "Europe PMC full text of PMID 41624156.", tests: ["Standard journal-record test [read]: PubMed/Europe PMC record matches DOI, journal, authors and date; retraction and correction links checked in Europe PMC"], tested_by: "Stratah research stream C1 (2026-10-05); independent of the claimants", gaps: [], checked: "2026-10-05"}
+  - id: src-excli-exchange-2026
+    title: "Further EXCLI J exchange on the Pescara cohort, 2026 (PMIDs 42093911 and 42093912)"
+    url: "https://pubmed.ncbi.nlm.nih.gov/42093912/"
+    document_class: "secondary (letters)"
+    read: "metadata only: the Europe PMC XML of both items was downloaded but the research notes record only their existence; no figure or quotation from them is used in this dig"
+    sha256: "44b35377058248e22f54c5b5893be24d30c18751c9adf0b50825ea2d98c7dd52"
+    additional_file_sha256: {42093911: "ee6e6eabf5830be3ea1837d02ff7029ba95e82783aa0c19ac3642a69d65501a2"}
+    authenticity: {status: "unchecked", basis: "Only the existence of the exchange is used; its content was not summarised.", next_step: "Read both letters and summarise their points."}
+  - id: src-gibo-2024
+    title: "Gibo M, Kojima S, Fujisawa A, Kikuchi T, Fukushima M. Increased Age-Adjusted Cancer Mortality After the Third mRNA-Lipid Nanoparticle Vaccine Dose During the COVID-19 Pandemic in Japan. Cureus 2024 Apr (accepted 2024-04-06; PMC release 2024-04-08). doi:10.7759/cureus.57860"
+    url: "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC11077472/fullTextXML"
+    document_class: "synthetic (ecological time series; RETRACTED)"
+    read: "full (Europe PMC XML of PMC11077472, PMID 38721172; cureus.com refused this environment)"
+    sha256: "dde2d2c5e7089f87c6919130c5f3ad54dba8379cfc945e4c5bec39395388218d"
+    publication: {status: "retracted", checked: "2026-10-05", date: "2024-06-26", notice: "Retraction: Increased Age-Adjusted Cancer Mortality After the Third mRNA-Lipid Nanoparticle Vaccine Dose... Cureus 2024, doi:10.7759/cureus.r143 (PMID 38933341, PMC11204115)", reason: "The retraction notice says: \"Upon post-publication review, it has been determined that the correlation between mortality rates and vaccination status cannot be proven with the data presented in this article. As this invalidates the conclusions of the article, the decision has been made to retract. The authors disagree with this retraction.\" An expression of concern was published on 2024-06-12 (doi:10.7759/cureus.x58, PMID 38873395)."}
+    authenticity: {status: "authenticated", strength: "moderate", provenance: "Europe PMC full text of PMID 38721172, tagged as retracted; Crossref lists both notices (source: retraction-watch).", tests: ["Standard journal-record test [read]: PubMed/Europe PMC record matches DOI, journal, authors and date; retraction and correction links checked in Europe PMC", "Retraction notice read in full in src-gibo-retraction-2024 [read]"], tested_by: "Stratah research stream C1 (2026-10-05); independent of the claimants", gaps: ["The Cureus site itself was not opened (403)."], checked: "2026-10-05"}
+  - id: src-gibo-retraction-2024
+    title: "Retraction: Increased Age-Adjusted Cancer Mortality After the Third mRNA-Lipid Nanoparticle Vaccine Dose During the COVID-19 Pandemic in Japan. Cureus 2024 (26 Jun 2024). doi:10.7759/cureus.r143"
+    url: "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC11204115/fullTextXML"
+    document_class: "primary_text (journal notice)"
+    read: "full (Europe PMC XML of PMC11204115, PMID 38933341)"
+    sha256: "8c2f4032715bff4e35488e600a8d2f330aaeadfb74d125f91de1d6d72c2bc292"
+    authenticity: {status: "authenticated", strength: "moderate", provenance: "Europe PMC full text of the notice, PMID 38933341.", tests: ["Standard journal-record test [read]: PubMed/Europe PMC record matches DOI, journal, authors and date; retraction and correction links checked in Europe PMC"], tested_by: "Stratah research stream C1 (2026-10-05); independent of the claimants", gaps: ["The Cureus page for the notice was not opened (403)."], checked: "2026-10-05"}
+  - id: src-gibo-eoc-2024
+    title: "Expression of Concern: Increased Age-Adjusted Cancer Mortality After the Third mRNA-Lipid Nanoparticle Vaccine Dose... Cureus 2024 (12 Jun 2024). doi:10.7759/cureus.x58"
+    url: "https://pubmed.ncbi.nlm.nih.gov/38873395/"
+    document_class: "primary_text (journal notice; PubMed record only)"
+    read: "metadata only (PubMed record, PMID 38873395); the notice text was not read"
+    sha256: "f442edcab8b417bb639d38a47bb41e073bc57d54030ec9ad940e67d065460f65"
+    authenticity: {status: "authenticated", strength: "moderate", provenance: "PubMed record PMID 38873395.", tests: ["Standard journal-record test [read]: PubMed/Europe PMC record matches DOI, journal, authors and date; retraction and correction links checked in Europe PMC"], tested_by: "Stratah research stream C1 (2026-10-05); independent of the claimants", gaps: ["Notice text not read."], next_step: "Read the expression of concern on cureus.com or in PMC.", checked: "2026-10-05"}
+  - id: src-kutsuna-2026
+    title: "Kutsuna S, Suzuki T. Concerns about Methodological Flaws and Use of Retracted Evidence in the Opinion Paper... JMA J 2026 Jan (online 14 Nov 2025). doi:10.31662/jmaj.2025-0440"
+    url: "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12888968/fullTextXML"
+    document_class: "secondary (published letter)"
+    read: "full (Europe PMC XML of PMC12888968, PMID 41676796)"
+    sha256: "0c0d885140b58293c37f65fa06ba2c2eaf093f13f7b685c9dbed7d0a1f8ffc91"
+    publication: {status: "published", checked: "2026-10-05"}
+    authenticity: {status: "authenticated", strength: "moderate", provenance: "Europe PMC full text of PMID 41676796 (received 2025-09-12, accepted 2025-10-17).", tests: ["Standard journal-record test [read]: PubMed/Europe PMC record matches DOI, journal, authors and date; retraction and correction links checked in Europe PMC"], tested_by: "Stratah research stream C1 (2026-10-05); independent of the claimants", gaps: [], checked: "2026-10-05"}
+  - id: src-kakeya-reply-2026
+    title: "Kakeya H et al. The Imperative of Data Transparency for Pursuing Scientific Truth about COVID-19 Vaccines (reply). JMA J 2026 (PMID 42577312)"
+    url: "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC13453932/fullTextXML"
+    document_class: "secondary (authors' reply)"
+    read: "full (Europe PMC XML of PMC13453932)"
+    sha256: "116fcd21d1c44d7226dd32043b51e7ea45d8ba0f070e31e0544d78349aefa1de"
+    publication: {status: "published", checked: "2026-10-05"}
+    authenticity: {status: "authenticated", strength: "moderate", provenance: "Europe PMC full text of PMID 42577312 (received 2025-10-30, accepted 2026-02-06; online 2026-04-24).", tests: ["Standard journal-record test [read]: PubMed/Europe PMC record matches DOI, journal, authors and date; retraction and correction links checked in Europe PMC"], tested_by: "Stratah research stream C1 (2026-10-05); independent of the claimants", gaps: [], checked: "2026-10-05"}
+  - id: src-gentilini-2026
+    title: "Gentilini P et al. Exploring the potential link between mRNA COVID-19 vaccinations and cancer: a case report and literature review. Oncotarget 2026 (PMID 41954969)"
+    url: "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12935077/fullTextXML"
+    document_class: "secondary (single case report plus narrative review)"
+    read: "introduction read in detail; the rest of the Europe PMC XML (PMC12935077) was downloaded but not read in detail"
+    sha256: "22b8f82813ae473aacb8e0121f5f537d7a7f1f0e7c19174080b5b086d303bdca"
+    authenticity: {status: "authenticated", strength: "moderate", provenance: "Europe PMC full text of PMID 41954969 (online 2026-02-06).", tests: ["Standard journal-record test [read]: PubMed/Europe PMC record matches DOI, journal, authors and date; retraction and correction links checked in Europe PMC"], tested_by: "Stratah research stream C1 (2026-10-05); independent of the claimants", gaps: ["Only the introduction was read in detail."], checked: "2026-10-05"}
+  - id: src-kuperwasser-2026
+    title: "Kuperwasser C, El-Deiry WS. COVID vaccination and post-infection cancer signals: Evaluating patterns and potential biological mechanisms. Oncotarget 2026 (3 Jan 2026). doi:10.18632/oncotarget.28824"
+    url: "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12893478/fullTextXML"
+    document_class: "secondary (scoping review of published reports)"
+    read: "full (Europe PMC XML of PMC12893478, PMID 41498242; oncotarget.com refused this environment)"
+    sha256: "1d47a3f067c1f6f5394b08d1b45671f94389f68540babf608cc7debb23a98800"
+    publication: {status: "published", checked: "2026-10-05"}
+    authenticity: {status: "authenticated", strength: "moderate", provenance: "Europe PMC full text of PMID 41498242 (received 2025-11-26, accepted 2025-12-26).", tests: ["Standard journal-record test [read]: PubMed/Europe PMC record matches DOI, journal, authors and date; retraction and correction links checked in Europe PMC"], tested_by: "Stratah research stream C1 (2026-10-05); independent of the claimants", gaps: ["Oncotarget journal page not opened, so journal-page status is not verified (Europe PMC records show no correction, retraction or concern).", "The authors ran the search themselves and added non-systematic web searches (their own statement)."], next_step: "Read the Oncotarget article page for any notice.", checked: "2026-10-05"}
+  - id: src-goldman-2021
+    title: "Goldman S et al. Rapid Progression of Angioimmunoblastic T Cell Lymphoma Following BNT162b2 mRNA Vaccine Booster Shot: A Case Report. Front Med 2021;8:798095. doi:10.3389/fmed.2021.798095"
+    url: "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC8656165/fullTextXML"
+    document_class: "primary_text (case report)"
+    read: "full (Europe PMC XML of PMC8656165, PMID 34901098)"
+    sha256: "7230875647b83c8ee71585889733294d97f211515a500702ec9502c808f98d6f"
+    publication: {status: "published", checked: "2026-10-05"}
+    authenticity: {status: "authenticated", strength: "moderate", provenance: "Europe PMC full text of PMID 34901098 (received 2021-10-19, accepted 2021-11-08, online 2021-11-25).", tests: ["Standard journal-record test [read]: PubMed/Europe PMC record matches DOI, journal, authors and date; retraction and correction links checked in Europe PMC"], tested_by: "Stratah research stream C1 (2026-10-05); independent of the claimants", gaps: [], checked: "2026-10-05"}
+  - id: src-eens-2023
+    title: "Eens S et al. B-cell lymphoblastic lymphoma following intravenous BNT162b2 mRNA booster in a BALB/c mouse: A case report. Front Oncol 2023;13:1158124 (1 May 2023). doi:10.3389/fonc.2023.1158124"
+    url: "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC10183601/fullTextXML"
+    document_class: "primary_text (animal case report)"
+    read: "full (Europe PMC XML of PMC10183601, PMID 37197431; also text saved)"
+    sha256: "d5dd4e5abe5362f2b7f7fa404dc0d97e1afbb76677f4d75ed1e35fb6f7f52f6b"
+    publication: {status: "corrected", checked: "2026-10-05", date: "2023-10-20", notice: "Addendum, Front Oncol 2023, doi:10.3389/fonc.2023.1267904 (PMC10622962), epub 2023-10-20", reason: "Not retracted. The article page carries a banner that parts of the content have been modified or rectified in an Addendum, written by the authors to disassociate themselves from the term \"turbo cancer\" and to say what the case report does and does not show."}
+    authenticity: {status: "authenticated", strength: "moderate", provenance: "Europe PMC full text of PMID 37197431 (received 2023-02-03, accepted 2023-04-13).", tests: ["Standard journal-record test [read]: PubMed/Europe PMC record matches DOI, journal, authors and date; retraction and correction links checked in Europe PMC"], tested_by: "Stratah research stream C1 (2026-10-05); independent of the claimants", gaps: [], checked: "2026-10-05"}
+  - id: src-eens-addendum-2023
+    title: "Addendum: B-cell lymphoblastic lymphoma following intravenous BNT162b2 mRNA booster in a BALB/c mouse: A case report. Front Oncol 2023. doi:10.3389/fonc.2023.1267904"
+    url: "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC10622962/fullTextXML"
+    document_class: "primary_text (authors' addendum)"
+    read: "full (Europe PMC XML; also the Frontiers article page banner)"
+    sha256: "3d7c707574ba6e887a2a1e9b0a41d42409a4d7ba184216c782997f22486e51db"
+    authenticity: {status: "authenticated", strength: "moderate", provenance: "Europe PMC full text of the addendum; epub 2023-10-20 (received 2023-10-01, accepted 2023-10-06 per the research notes).", tests: ["Standard journal-record test [read]: PubMed/Europe PMC record matches DOI, journal, authors and date; retraction and correction links checked in Europe PMC"], tested_by: "Stratah research stream C2 (2026-10-05); independent of the claimants", gaps: [], checked: "2026-10-05"}
+  - id: src-vaccines-2025-cutaneous
+    title: "Rapid Progression of Cutaneous Lymphoma Following mRNA COVID-19 Vaccination: a case report and review. Vaccines 2025;13(7):678 (online 2025-06-25). doi:10.3390/vaccines13070678"
+    url: "https://pubmed.ncbi.nlm.nih.gov/40733655/"
+    document_class: "primary_text (case report plus review)"
+    read: "abstract read; the Europe PMC XML (PMC12299705) was downloaded but only the abstract is used"
+    sha256: "7af7075bf5ecebb148382ce0f0103cd98ee9a629429cd222f94139755aed77e1"
+    authenticity: {status: "authenticated", strength: "moderate", provenance: "PubMed record PMID 40733655.", tests: ["Standard journal-record test [read]: PubMed/Europe PMC record matches DOI, journal, authors and date; retraction and correction links checked in Europe PMC"], tested_by: "Stratah research stream C1 (2026-10-05); independent of the claimants", gaps: ["Full text not read."], checked: "2026-10-05"}
+  - id: src-ijo-2022
+    title: "Necrotic uveal melanoma after the second BNT162b2 dose (case report). Indian J Ophthalmol 2022 (PMID 35502089)"
+    url: "https://pubmed.ncbi.nlm.nih.gov/35502089/"
+    document_class: "primary_text (case report)"
+    read: "abstract read (PubMed record); Europe PMC XML downloaded, not otherwise read here"
+    sha256: "0143ba67cdd975be370ad742ba95e753a991103d482f3bf81670648fcc5df519"
+    authenticity: {status: "authenticated", strength: "moderate", provenance: "PubMed record PMID 35502089.", tests: ["Standard journal-record test [read]: PubMed/Europe PMC record matches DOI, journal, authors and date; retraction and correction links checked in Europe PMC"], tested_by: "Stratah research stream C1 (2026-10-05); independent of the claimants", gaps: ["Full text not read."], checked: "2026-10-05"}
+  - id: src-jeadv-2022
+    title: "Recurrence of cutaneous T-cell lymphoma post viral vector COVID-19 vaccination (Letter). J Eur Acad Dermatol Venereol 2022 (PMID 34628691)"
+    url: "https://pubmed.ncbi.nlm.nih.gov/34628691/"
+    document_class: "primary_text (letter; viral-vector, not mRNA)"
+    read: "not read: the PubMed record has no abstract and the Europe PMC full-text request failed; only the citation record was seen"
+    sha256: "c4612ce3aa715049b166bee5572826a9e76d678617db65ec3fbb5c7910f3a839"
+    authenticity: {status: "unchecked", basis: "Citation record only; its content is not used.", next_step: "Read the letter."}
+  - id: src-grippin-2025
+    title: "Grippin AJ et al. SARS-CoV-2 mRNA vaccines sensitize tumours to immune checkpoint blockade. Nature 2025;647:488-497 (online 2025-10-22). doi:10.1038/s41586-025-09655-y"
+    url: "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12611756/fullTextXML"
+    document_class: "synthetic (retrospective cohorts plus mouse experiments)"
+    read: "full (Europe PMC XML of PMC12611756, PMID 41125896)"
+    sha256: "56e3a707105477a9e15e52bc22e17e5376c0b073d91a1c1e99c4a73b7024237c"
+    publication: {status: "published", checked: "2026-10-05"}
+    authenticity: {status: "authenticated", strength: "moderate", provenance: "Europe PMC full text of PMID 41125896 (received 2024-11-06, accepted 2025-09-19); Crossref shows no update or correction.", tests: ["Standard journal-record test [read]: PubMed/Europe PMC record matches DOI, journal, authors and date; retraction and correction links checked in Europe PMC"], tested_by: "Stratah research stream C1 (2026-10-05); independent of the claimants", gaps: ["The paper's text has no section titled Limitations."], checked: "2026-10-05"}
+  - id: src-natmed-2026
+    title: "COVID-19 vaccination around immune checkpoint inhibitor start and survival in a French nationwide cohort. Nat Med 2026 (published 2026-09-10 per PubMed; PMID 42722885)"
+    url: "https://pubmed.ncbi.nlm.nih.gov/42722885/"
+    document_class: "synthetic (nationwide claims cohort; abstract only)"
+    read: "abstract only (PubMed record)"
+    sha256: "56bd1973261d6bd1850b5333027f4141b13956c8832e5b4699785d2d3ed71dd1"
+    authenticity: {status: "authenticated", strength: "moderate", provenance: "PubMed record PMID 42722885.", tests: ["Standard journal-record test [read]: PubMed/Europe PMC record matches DOI, journal, authors and date; retraction and correction links checked in Europe PMC"], tested_by: "Stratah research stream C1 (2026-10-05); independent of the claimants", gaps: ["Full text not read; DOI and volume not captured."], next_step: "Read the full text.", checked: "2026-10-05"}
+  - id: src-ejc-2026
+    title: "COVID-19 vaccination before immune checkpoint inhibitor initiation and the overall survival of patients (single centre). Eur J Cancer 2026 Jun 18 (PMID 42127458)"
+    url: "https://pubmed.ncbi.nlm.nih.gov/42127458/"
+    document_class: "synthetic (single-centre retrospective cohort; abstract only)"
+    read: "abstract only"
+    sha256: "634a2efa94a2f1d1bba0f872cc18f38448bb5833ff5c56a73977f71bb4533278"
+    authenticity: {status: "authenticated", strength: "moderate", provenance: "PubMed record PMID 42127458.", tests: ["Standard journal-record test [read]: PubMed/Europe PMC record matches DOI, journal, authors and date; retraction and correction links checked in Europe PMC"], tested_by: "Stratah research stream C1 (2026-10-05); independent of the claimants", gaps: ["Full text not read."], checked: "2026-10-05"}
+  - id: src-jitc-2026
+    title: "COVID-19 mRNA vaccination and immune-related adverse events in patients with cancer on immune checkpoint inhibitors (TriNetX). J Immunother Cancer 2026 Jun 25 (PMID 42350043)"
+    url: "https://pubmed.ncbi.nlm.nih.gov/42350043/"
+    document_class: "synthetic (database cohort; abstract only)"
+    read: "abstract only (the PMC XML was saved but only the PubMed abstract was used)"
+    sha256: "cfc46110e104922285b75433f499631659590a64eccd359b2d8af45cb03e62cd"
+    authenticity: {status: "authenticated", strength: "moderate", provenance: "PubMed record PMID 42350043 (PMC13311639).", tests: ["Standard journal-record test [read]: PubMed/Europe PMC record matches DOI, journal, authors and date; retraction and correction links checked in Europe PMC"], tested_by: "Stratah research stream C1 (2026-10-05); independent of the claimants", gaps: ["Full text not read."], checked: "2026-10-05"}
+  - id: src-zhang-2024
+    title: "Zhang S, El-Deiry WS. Transfected SARS-CoV-2 spike DNA for mammalian cell expression inhibits p53 activation of p21(WAF1), TRAIL Death Receptor DR5 and MDM2 proteins in cancer cells and increases cancer cell viability after chemotherapeutic exposure. Oncotarget 2024 (3 May 2024; PMID 38709242)"
+    url: "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC11073320/fullTextXML"
+    document_class: "primary_text (in vitro experiments in cultured cell lines)"
+    read: "full (Europe PMC XML of PMC11073320)"
+    sha256: "1ed08cf67b1bace4ce15ef8b7e58598b2dc3e3c0311a6c1684f8ab71146cb4ce"
+    publication: {status: "published", checked: "2026-10-05"}
+    authenticity: {status: "authenticated", strength: "moderate", provenance: "Europe PMC full text of PMID 38709242 (received 2024-04-16, accepted 2024-04-30).", tests: ["Standard journal-record test [read]: PubMed/Europe PMC record matches DOI, journal, authors and date; retraction and correction links checked in Europe PMC"], tested_by: "Stratah research stream C1 (2026-10-05); independent of the claimants", gaps: ["Competing interest in the paper: the senior author is a cofounder of three therapeutics companies (as declared).", "DOI not captured."], checked: "2026-10-05"}
+  - id: src-eldeiry-hypothesis-2026
+    title: "El-Deiry WS. Hypothesis: HPV E6 and COVID spike proteins cooperate in targeting tumor suppressors. Oncotarget 2026 (3 Jan 2026; PMID 41498241)"
+    url: "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12893477/fullTextXML"
+    document_class: "interpretive (hypothesis paper)"
+    read: "full (Europe PMC XML of PMC12893477)"
+    sha256: "48ddc53418c76cdaef0264a99533680ff885b6613443b731eb91e337d50d36af"
+    publication: {status: "published", checked: "2026-10-05"}
+    authenticity: {status: "authenticated", strength: "moderate", provenance: "Europe PMC full text of PMID 41498241.", tests: ["Standard journal-record test [read]: PubMed/Europe PMC record matches DOI, journal, authors and date; retraction and correction links checked in Europe PMC"], tested_by: "Stratah research stream C1 (2026-10-05); independent of the claimants", gaps: [], checked: "2026-10-05"}
+  - id: src-seneff-2022
+    title: "Seneff S et al. Innate immune suppression by SARS-CoV-2 mRNA vaccinations: the role of G-quadruplexes, exosomes, and microRNAs. Food Chem Toxicol 2022;164:113008. doi:10.1016/j.fct.2022.113008"
+    url: "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC9012513/fullTextXML"
+    document_class: "interpretive (hypothesis / narrative review using VAERS counts)"
+    read: "Europe PMC XML (PMC9012513) downloaded; the research notes record its stated hypothesis and its critics; not re-read line by line for this dig"
+    sha256: "228484cac51aa2a9454e32a5ddcb73e80c08d1b036639c243b3ef675ad269493"
+    publication: {status: "published", checked: "2026-10-05"}
+    authenticity: {status: "authenticated", strength: "moderate", provenance: "Europe PMC full text of PMID 35436552 (received 2022-02-09, accepted 2022-04-08); no retraction in the PubMed record.", tests: ["Standard journal-record test [read]: PubMed/Europe PMC record matches DOI, journal, authors and date; retraction and correction links checked in Europe PMC"], tested_by: "Stratah research stream C1 (2026-10-05); independent of the claimants", gaps: ["Not re-read line by line."], checked: "2026-10-05"}
+  - id: src-barriere-2023
+    title: "Barrière J et al. Letter to Editor \"Innate immune suppression by SARS-CoV-2 mRNA vaccinations...\" Food Chem Toxicol 2023;178:113897 (PMID 37328089)"
+    url: "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC10265941/fullTextXML"
+    document_class: "secondary (published critical letter)"
+    read: "full (Europe PMC XML of PMC10265941); a 2026 corrigendum to this letter (FCT 218:116393, PMID 42790259) was not read"
+    sha256: "31f666e772d7f25611a3240643a502f2f683f4e304b826e8a01846b30da745bd"
+    authenticity: {status: "authenticated", strength: "moderate", provenance: "Europe PMC full text of PMID 37328089.", tests: ["Standard journal-record test [read]: PubMed/Europe PMC record matches DOI, journal, authors and date; retraction and correction links checked in Europe PMC"], tested_by: "Stratah research stream C1 (2026-10-05); independent of the claimants", gaps: ["Corrigendum of 2026-09-25 not read."], next_step: "Read the corrigendum (PMID 42790259).", checked: "2026-10-05"}
+  - id: src-irrgang-2023
+    title: "Irrgang P et al. Class switch toward noninflammatory, spike-specific IgG4 antibodies after repeated SARS-CoV-2 mRNA vaccination. Sci Immunol 2023;8:eade2798 (27 Jan 2023)"
+    url: "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC9847566/fullTextXML"
+    document_class: "synthetic (human serology)"
+    read: "full (Europe PMC XML of PMC9847566, PMID 36548397); text-searched for cancer, tumor, tumour and malignan: zero hits"
+    sha256: "c81af288fa10bb1178993403e066e4a5a9dd87cbe9030e80bd8cfe5ae86c64a5"
+    authenticity: {status: "authenticated", strength: "moderate", provenance: "Europe PMC full text of PMID 36548397.", tests: ["Standard journal-record test [read]: PubMed/Europe PMC record matches DOI, journal, authors and date; retraction and correction links checked in Europe PMC"], tested_by: "Stratah research stream C1 (2026-10-05); independent of the claimants", gaps: [], checked: "2026-10-05"}
+  - id: src-cellrep-igg4-2025
+    title: "Spike-specific IgG4 generated post BNT162b2 mRNA vaccination is inhibitory when directly competing with functional IgG subclasses. Cell Rep 2025 (PMID 40650904)"
+    url: "https://pubmed.ncbi.nlm.nih.gov/40650904/"
+    document_class: "synthetic (laboratory serology; abstract read)"
+    read: "abstract only"
+    sha256: "9f903c242a31d8b12e19516171aebca1bd7b4e4def65af795bc5fd48c967b9a2"
+    authenticity: {status: "authenticated", strength: "moderate", provenance: "PubMed record PMID 40650904.", tests: ["Standard journal-record test [read]: PubMed/Europe PMC record matches DOI, journal, authors and date; retraction and correction links checked in Europe PMC"], tested_by: "Stratah research stream C1 (2026-10-05); independent of the claimants", gaps: ["Full text not read."], checked: "2026-10-05"}
+  - id: src-immunageing-2024
+    title: "Immunity & Ageing 2024 paper on IgG4 after mRNA vaccination (PMID 39272189)"
+    url: "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC11401348/fullTextXML"
+    document_class: "synthetic (human serology)"
+    read: "Europe PMC XML downloaded; text-searched for cancer, tumor, tumour and malignan: zero hits; not otherwise read"
+    sha256: "b2ec22c637f8884dadaa0831b93a9e0f26846708eaef1e2a21c1e86ed6701955"
+    authenticity: {status: "authenticated", strength: "moderate", provenance: "Europe PMC full text of PMID 39272189.", tests: ["Standard journal-record test [read]: PubMed/Europe PMC record matches DOI, journal, authors and date; retraction and correction links checked in Europe PMC"], tested_by: "Stratah research stream C1 (2026-10-05); independent of the claimants", gaps: ["Title and authors not captured in the research notes; only the search result is used."], checked: "2026-10-05"}
+  - id: src-szebeni-2025-oct
+    title: "Szebeni J. Unique Features and Collateral Immune Effects of mRNA-LNP COVID-19 Vaccines: Plausible Mechanisms (narrative review). Pharmaceutics 2025 Oct 13 (PMID 41155962)"
+    url: "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12567432/fullTextXML"
+    document_class: "interpretive (narrative review)"
+    read: "full (Europe PMC XML of PMC12567432, PMID 41155962); section 5, \"Turbo Cancer\", read"
+    sha256: "64d3c1c04d42b9f8a4eed1f03d17cb3e33108bbe2fc50da53f017e85e66128af"
+    authenticity: {status: "authenticated", strength: "moderate", provenance: "Europe PMC full text of PMID 41155962 (received 2025-07-31, accepted 2025-10-01).", tests: ["Standard journal-record test [read]: PubMed/Europe PMC record matches DOI, journal, authors and date; retraction and correction links checked in Europe PMC"], tested_by: "Stratah research stream C1 (2026-10-05); independent of the claimants", gaps: [], checked: "2026-10-05"}
+  - id: src-szebeni-2025-apr
+    title: "Szebeni J. Pharmaceutics 2025;17(4):450 (PMID 40284445), review in which \"turbo cancer\" is listed under \"Oncological\" in a table"
+    url: "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12029998/fullTextXML"
+    document_class: "interpretive (narrative review)"
+    read: "Europe PMC XML (PMC12029998) downloaded; the table entry and a wording correction notice (2025-06-20, PMID 40733155, wording and grammar only) were read"
+    sha256: "aeffb48100a0609a8ed84ad6d79f2beff71ae82f59697f71c3ac4e6a4bc18b90"
+    authenticity: {status: "authenticated", strength: "moderate", provenance: "Europe PMC full text of PMID 40284445.", tests: ["Standard journal-record test [read]: PubMed/Europe PMC record matches DOI, journal, authors and date; retraction and correction links checked in Europe PMC"], tested_by: "Stratah research stream C2 (2026-10-05); independent of the claimants", gaps: ["Only the table entry for \"turbo cancer\" and the correction notice were used."], checked: "2026-10-05"}
+  - id: src-isidoro-2025
+    title: "Isidoro C. SARS-CoV2 and Anti-COVID-19 mRNA Vaccines: Is There a Plausible Mechanistic Link with Cancer? Cancers 2025 Dec 2 (PMID 41375068)"
+    url: "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12691228/fullTextXML"
+    document_class: "interpretive (narrative review)"
+    read: "full (Europe PMC XML of PMC12691228; abstract quoted)"
+    sha256: "87c9c086ca2256845df1193b0755000e535951afc5a4d56e99eb2f0248b6e3c6"
+    authenticity: {status: "authenticated", strength: "moderate", provenance: "Europe PMC full text of PMID 41375068 (received 2025-10-27, accepted 2025-11-30).", tests: ["Standard journal-record test [read]: PubMed/Europe PMC record matches DOI, journal, authors and date; retraction and correction links checked in Europe PMC"], tested_by: "Stratah research stream C1 (2026-10-05); independent of the claimants", gaps: ["The residual-DNA papers it relies on were not opened."], checked: "2026-10-05"}
+  - id: src-valdes-angues-2023
+    title: "Valdes Angues R, Perea Bustos Y. SARS-CoV-2 vaccination and the multi-hit hypothesis of oncogenesis. Cureus 2023 Dec (PMID 38234925)"
+    url: "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC10792266/fullTextXML"
+    document_class: "interpretive (review)"
+    read: "Europe PMC XML (PMC10792266) downloaded; the research notes record its hypothesis and conclusion; not re-read line by line for this dig"
+    sha256: "5acc9049889bf02d5da5d9ef75d5b76feb6344d7e1db9c01dec66f14ac1252ff"
+    publication: {status: "published", checked: "2026-10-05"}
+    authenticity: {status: "authenticated", strength: "moderate", provenance: "Europe PMC full text of PMID 38234925; no retraction or correction in the PubMed record at fetch.", tests: ["Standard journal-record test [read]: PubMed/Europe PMC record matches DOI, journal, authors and date; retraction and correction links checked in Europe PMC"], tested_by: "Stratah research stream C1 (2026-10-05); independent of the claimants", gaps: ["Title wording not captured exactly in the research notes."], checked: "2026-10-05"}
+  - id: src-polack-2020
+    title: "Polack FP et al. Safety and Efficacy of the BNT162b2 mRNA Covid-19 Vaccine. N Engl J Med 2020 (online 10 Dec 2020; PMID 33301246)"
+    url: "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC7745181/fullTextXML"
+    document_class: "synthetic (randomised trial report)"
+    read: "open full text searched for malignan, cancer, neoplasm and tumor: no cancer outcome in the main text; supplementary tables not opened"
+    sha256: "985d422a37ea3543aa204be4892e0809aaf3f0ed4b2db43b097b130142f55cf1"
+    authenticity: {status: "authenticated", strength: "moderate", provenance: "Europe PMC full text of PMID 33301246; ArticleDate 2020-12-10 in the PubMed record.", tests: ["Standard journal-record test [read]: PubMed/Europe PMC record matches DOI, journal, authors and date; retraction and correction links checked in Europe PMC"], tested_by: "Stratah research stream C1 (2026-10-05); independent of the claimants", gaps: ["Supplementary adverse-event tables not opened."], checked: "2026-10-05"}
+  - id: src-thomas-2021
+    title: "Thomas SJ et al. Safety and Efficacy of the BNT162b2 mRNA Covid-19 Vaccine through 6 Months. N Engl J Med 2021 (PMID 34525277)"
+    url: "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC8461570/fullTextXML"
+    document_class: "synthetic (randomised trial report)"
+    read: "open full text searched for malignan, cancer, neoplasm and tumor: no cancer outcome in the main text; supplementary tables not opened"
+    sha256: "bc3f0894a338382bb8e8667c21607499f588ed410bbb9388ad7ab526eb456fee"
+    authenticity: {status: "authenticated", strength: "moderate", provenance: "Europe PMC full text of PMID 34525277.", tests: ["Standard journal-record test [read]: PubMed/Europe PMC record matches DOI, journal, authors and date; retraction and correction links checked in Europe PMC"], tested_by: "Stratah research stream C1 (2026-10-05); independent of the claimants", gaps: ["Supplementary adverse-event tables not opened.", "The date the placebo group was offered vaccine was not verified in the paper text."], checked: "2026-10-05"}
+  - id: src-vsd-mortality-2024
+    title: "Vaccine Safety Datalink self-controlled case series of mortality after COVID-19 vaccination. Vaccine 2024 (PMID 38388239)"
+    url: "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC11238073/fullTextXML"
+    document_class: "synthetic (self-controlled case series)"
+    read: "abstract and text searched; cancer appears only as an exclusion criterion, no cancer-specific outcome is reported"
+    sha256: "d5710a79c8c5a6bc99b1a7a08485ae0be3e5808b1abcac926cdb7f8838e38152"
+    authenticity: {status: "authenticated", strength: "moderate", provenance: "Europe PMC full text of PMID 38388239.", tests: ["Standard journal-record test [read]: PubMed/Europe PMC record matches DOI, journal, authors and date; retraction and correction links checked in Europe PMC"], tested_by: "Stratah research stream C1 (2026-10-05); independent of the claimants", gaps: ["Not read beyond the term search."], checked: "2026-10-05"}
+  - id: src-comirnaty-pi
+    title: "FDA. Prescribing information for COMIRNATY (COVID-19 Vaccine, mRNA), 2026-2027 Formula, Revised 8/2026"
+    url: "https://www.fda.gov/media/151707/download"
+    document_class: "primary_text (agency label)"
+    read: "section 13.1 read; the PDF text was saved by research stream C1"
+    sha256: "72ad18885271f8735d4cf02b7c8407d565d95722255171eaa32f2996443c50b0"
+    text_sha256: "6a3afa5b186be10ab4b53bff3459d124adcaefde4d7e0522ec38fee9f5f5672e"
+    stored_as: "sources/comirnaty-pi-section-13-1-excerpt.txt"
+    authenticity: {status: "authenticated", strength: "strong", provenance: "fda.gov; \"Revised: 8/2026\" and \"2026-2027 Formula\" printed on the document.", tests: ["Official host [read]", "Header date and document identifiers internally consistent [read]"], tested_by: "Stratah research stream C1 (2026-10-05); independent of the claimants", gaps: ["Other sections were not read for this dig."], checked: "2026-10-05"}
+  - id: src-nci-2023
+    title: "National Cancer Institute. COVID-19 Vaccines and People with Cancer (page stamped \"Updated: October 10, 2023\"; fetched 2026-10-05)"
+    url: "https://www.cancer.gov/about-cancer/coronavirus/covid-19-vaccines-people-with-cancer"
+    document_class: "primary_text (agency web page)"
+    read: "full (HTML saved 2026-10-05)"
+    sha256: "a465dd1d2715ee7b804439fdc0b2ce7a43b2c9b38e1a83363106ee2afc9bcc9e"
+    stored_as: "sources/nci-covid-vaccines-people-with-cancer-excerpt.txt"
+    authenticity: {status: "authenticated", strength: "strong", provenance: "cancer.gov, the NCI site.", tests: ["Official host [read]", "Header date and document identifiers internally consistent [read]"], tested_by: "Stratah research stream C2 (2026-10-05); independent of the claimants", gaps: ["A web page can change; the page was read once, on 2026-10-05."], checked: "2026-10-05"}
+  - id: src-ema-key-facts
+    title: "EMA. COVID-19 vaccines: key facts (page metadata og:updated_time 2026-04-08)"
+    url: "https://www.ema.europa.eu/en/human-regulatory-overview/public-health-threats/coronavirus-disease-covid-19/covid-19-medicines/covid-19-vaccines-key-facts"
+    document_class: "primary_text (agency web page)"
+    read: "full (HTML saved 2026-10-05)"
+    sha256: "d2fe309abf70289b8f8bf1e51a72f5d88e1d8019f92b1dcae8395c4d8e5ab54b"
+    authenticity: {status: "authenticated", strength: "strong", provenance: "ema.europa.eu, the European Medicines Agency site.", tests: ["Official host [read]", "Header date and document identifiers internally consistent [read]"], tested_by: "Stratah research stream C2 (2026-10-05); independent of the claimants", gaps: ["One embedded \"Last updated: 03/09/2026\" label on the page belongs to another listed item, so the page date rests on the page metadata (2026-04-08)."], checked: "2026-10-05"}
+  - id: src-acs-2024
+    title: "American Cancer Society. COVID-19 Vaccines in People with Cancer (Wayback capture of 2024-12-26; \"Last Revised: September 9, 2024\")"
+    url: "https://web.archive.org/web/20241226012539id_/https://www.cancer.org/cancer/managing-cancer/coronavirus-covid-19-and-cancer/covid-19-vaccines-in-people-with-cancer.html"
+    document_class: "primary_text (charity web page, archived copy)"
+    read: "full (HTML saved by research stream C2; the research notes truncate the Wayback URL after the capture stamp, so the path shown is the page's own canonical URL)"
+    sha256: "432d1fe34fa5916f6e7985991bec3810521f43ee0137fa8c4553283cf0627656"
+    authenticity: {status: "authenticated", strength: "moderate", provenance: "Internet Archive capture of the American Cancer Society page; the Wayback Machine is a capture party independent of the page owner.", tests: ["Capture stamp and page \"Last Revised\" line read [read]"], tested_by: "Stratah research stream C2 (2026-10-05); independent of the claimants", gaps: ["The exact Wayback URL was reconstructed from the research notes."], checked: "2026-10-05"}
+  - id: src-acs-2025
+    title: "American Cancer Society. Page fetched at the COVID-19 vaccines in people with cancer address; its canonical link is cancer.org/cancer/side-effects/infections/covid-19.html (\"Last Revised: September 24, 2025\")"
+    url: "https://www.cancer.org/cancer/managing-cancer/coronavirus-covid-19-and-cancer/covid-19-vaccines-in-people-with-cancer.html"
+    document_class: "primary_text (charity web page)"
+    read: "full (HTML saved by research stream C2, which needed a browser-style User-Agent and gzip; text-searched for the 2024 question and answer: absent)"
+    sha256: "0d2f665d4be732615b7de1ec4a2d36a6603dbf7c038459356bb0ae33383e0a88"
+    authenticity: {status: "authenticated", strength: "moderate", provenance: "The American Cancer Society's own site.", tests: ["Official host [read]", "\"Last Revised\" line read [read]"], tested_by: "Stratah research stream C2 (2026-10-05); independent of the claimants", gaps: ["The fetched page declares a different canonical URL from the one requested, so it may be a successor or merged page and not an edited version of the 2024 page; this was not determined."], next_step: "Find out whether the 2024 page was merged or its question deleted.", checked: "2026-10-05"}
+  - id: src-fda-marks-2023
+    title: "FDA (Peter Marks, Director, CBER). Letter to Joseph A. Ladapo, 14 December 2023"
+    url: "https://www.fda.gov/media/174875/download"
+    document_class: "primary_text (agency letter)"
+    read: "full (PDF; two pages)"
+    sha256: "0b52433ccf44477231cd41e3c14e34a0b1e5cd67f6348d2a1c2d9706b517dfca"
+    stored_as: "sources/fda-marks-reply-to-ladapo-2023-12-14.txt"
+    authenticity: {status: "authenticated", strength: "strong", provenance: "fda.gov; letter dated December 14, 2023 on its face, replying to a letter of December 6, 2023.", tests: ["Official host [read]", "Header date and document identifiers internally consistent [read]"], tested_by: "Stratah research stream C2 (2026-10-05); independent of the claimants", gaps: ["The FDA documents it links (151733 and 155931, animal and genotoxicity studies) were not opened."], checked: "2026-10-05"}
+  - id: src-fda-plasmid-guidance-2007
+    title: "FDA. Guidance for Industry: Considerations for Plasmid DNA Vaccines for Infectious Disease Indications (2007)"
+    url: "https://www.fda.gov/media/73667/download"
+    document_class: "primary_text (agency guidance)"
+    read: "downloaded; confirmed to be the plasmid DNA vaccine guidance cited by Ladapo; not analysed beyond that"
+    sha256: "9c950e9b4562d7bebe27a5d7a9943095281dad2b8349857fe7d2f63c77c3d0dc"
+    authenticity: {status: "authenticated", strength: "strong", provenance: "fda.gov.", tests: ["Official host [read]", "Header date and document identifiers internally consistent [read]"], tested_by: "Stratah research stream C2 (2026-10-05); independent of the claimants", gaps: ["Not analysed."], checked: "2026-10-05"}
+  - id: src-fl-ladapo-letter-2023
+    title: "Florida Department of Health, State Surgeon General Joseph Ladapo. Letter to FDA Commissioner Califf (cc CDC Director Cohen), 6 December 2023"
+    url: "https://web.archive.org/web/2024/https://www.floridahealth.gov/about/_documents/12-06-2023-DOH-Letter-to-FDA-RFI-on-COVID-19-Vaccines.pdf"
+    document_class: "primary_text (state official's letter, archived copy)"
+    read: "full (PDF; the original host floridahealth.gov returned 403; read as an Internet Archive copy, the exact capture stamp is not recorded in the research notes)"
+    sha256: "93e307e4e1a0cd5b129e0caec8908858ae7df75dca4eb37f1622ad7d3765cd37"
+    stored_as: "sources/fl-doh-ladapo-letter-2023-12-06.txt"
+    authenticity: {status: "authenticated", strength: "moderate", provenance: "Internet Archive capture of the Florida Department of Health PDF; the letter's content is consistent with the FDA reply of 2023-12-14 (src-fda-marks-2023), which quotes its three questions.", tests: ["Internal consistency with the FDA reply [read]", "Letterhead, date and signature block read [read]"], tested_by: "Stratah research stream C2 (2026-10-05); independent of the claimants", gaps: ["Original floridahealth.gov file not opened; Wayback capture stamp not recorded; the Wayback URL given is the generic form."], next_step: "Open the original from a browser and compare.", checked: "2026-10-05"}
+  - id: src-fl-halt-release-2024
+    title: "Florida Department of Health. Florida State Surgeon General Calls for Halt in the Use of COVID-19 mRNA Vaccines (press release, 3 January 2024)"
+    url: "https://web.archive.org/web/2024/https://www.floridahealth.gov/newsroom/2024/01/20240103-halt-use-covid19-mrna-vaccines.pr.html"
+    document_class: "primary_text (state press release, archived copy)"
+    read: "full (HTML; original host returned 403; read as an Internet Archive copy)"
+    sha256: "35358f265a6caa0b8d963189002efe5431e8c98536919101bdbbf0905557aab9"
+    stored_as: "sources/fl-doh-halt-release-2024-01-03.txt"
+    authenticity: {status: "authenticated", strength: "moderate", provenance: "Internet Archive capture of the Florida Department of Health newsroom page; date \"January 03, 2024\" printed on the page.", tests: ["Dates and statement text consistent with the letter of 2023-12-06 and the FDA reply of 2023-12-14 [read]"], tested_by: "Stratah research stream C2 (2026-10-05); independent of the claimants", gaps: ["Original host not opened; Wayback capture stamp not recorded."], checked: "2026-10-05"}
+  - id: src-cbs-ladapo-2024
+    title: "CBS News, 4 Jan 2024: Florida surgeon general's claims on COVID vaccines are misleading (outside physician quoted)"
+    url: "https://www.cbsnews.com/news/florida-surgeon-general-covid-vaccines-fda-claims-misleading/"
+    document_class: "secondary (news report)"
+    read: "full (HTML saved)"
+    sha256: "7c022274e214b5b2cc44d1f6af7eb0ead0a014f9d308adb925efc8b0ff3e1bcc"
+    authenticity: {status: "not_applicable", basis: "A news report used only for what an outside physician is reported to have said; the linkage to \"turbo cancer\" is the outlet's and the physician's characterisation, not Ladapo's wording."}
+  - id: src-acip-slides-2025
+    title: "CDC ACIP meeting 18-19 Sep 2025, COVID workgroup presentation \"Workgroup Safety Uncertainties of mRNA COVID Vaccines\" (W. El-Deiry and C. Kuperwasser; slides dated September 19, 2025)"
+    url: "https://web.archive.org/web/2025/https://www.cdc.gov/acip/downloads/slides-2025-09-18-19/06-el-deiry-kuperwasser-covid-508.pdf"
+    document_class: "primary_text (conference slides, archived copy; the original host cdc.gov returned 403)"
+    read: "full (PDF copy and text extracted by research stream C2)"
+    sha256: "07baca243457f733588f95161521efa48430fb0483b214a4b5e330149b5c5941"
+    text_sha256: "878ac2e8d0631baf14ae980c0538fa6189637a9e2447bfbb734230c8761229cb"
+    authenticity: {status: "authenticated", strength: "moderate", provenance: "Internet Archive copy of the original cdc.gov path; PDF metadata creation date 2025-09-18; slide dates read on the slides.", tests: ["Slide date and presenters read on the document [read]"], tested_by: "Stratah research stream C2 (2026-10-05); independent of the claimants", gaps: ["Original cdc.gov file not opened; Wayback capture stamp not recorded in the notes.", "The meeting votes and minutes were not read."], next_step: "Read the ACIP minutes and votes of 19 Sep 2025.", checked: "2026-10-05"}
+  - id: src-factcheck-acip-2025
+    title: "FactCheck.org, 7 Nov 2025: CDC vaccine panel presentation distorts research on safety of mRNA COVID-19 vaccines"
+    url: "https://www.factcheck.org/2025/11/cdc-vaccine-panel-presentation-distorts-research-on-safety-of-mrna-covid-19-vaccines/"
+    document_class: "secondary (fact-check)"
+    read: "full (HTML saved)"
+    sha256: "e9506b27507f8bd10c8b61cf84dd427cb49a8b91db1bda8924f4998671469134"
+    authenticity: {status: "not_applicable", basis: "A fact-check used for dates and context (who presented, what experts said); not evidence."}
+  - id: src-psi-hearing-page
+    title: "US Senate Permanent Subcommittee on Investigations (HSGAC), hearing page: Plausible Mechanisms of COVID-19 Injections Causing Cancer and Attacks on Scientific Publications and Research (3 Jun 2026)"
+    url: "https://www.hsgac.senate.gov/subcommittees/investigations/hearings/plausible-mechanisms-of-covid-19-injections-causing-cancer-and-attacks-on-scientific-publications/"
+    document_class: "primary_text (committee web page)"
+    read: "full (HTML saved)"
+    sha256: "6dabe85ff1de6abf1319f335e8be5bf83e41175fe9dba91577d9989f9731ea32"
+    authenticity: {status: "authenticated", strength: "strong", provenance: "hsgac.senate.gov, the Senate committee site.", tests: ["Official host [read]", "Header date and document identifiers internally consistent [read]"], tested_by: "Stratah research stream C2 (2026-10-05); independent of the claimants", gaps: ["Oral testimony and Q&A not read: no transcript was found."], checked: "2026-10-05"}
+  - id: src-psi-johnson-opening
+    title: "Opening statement of Chairman Ron Johnson, PSI hearing of 3 Jun 2026"
+    url: "https://www.hsgac.senate.gov/subcommittees/investigations/hearings/plausible-mechanisms-of-covid-19-injections-causing-cancer-and-attacks-on-scientific-publications/"
+    document_class: "primary_text (opening statement)"
+    read: "full (PDF and text)"
+    sha256: "2c504d74306b7e1e7d1bf097ce54732193452b18d2250a26344b65af6b1760fc"
+    text_sha256: "08e18879dc16340e323c99e8bcc300613e30859b51b1efa04d7bbf5b8b377803"
+    authenticity: {status: "authenticated", strength: "strong", provenance: "Posted on the committee hearing page.", tests: ["Official host [read]", "Header date and document identifiers internally consistent [read]"], tested_by: "Stratah research stream C2 (2026-10-05); independent of the claimants", gaps: ["Statement as posted, not as delivered."], checked: "2026-10-05"}
+  - id: src-psi-blumenthal
+    title: "Opening statement of Ranking Member Richard Blumenthal, PSI hearing of 3 Jun 2026"
+    url: "https://www.hsgac.senate.gov/subcommittees/investigations/hearings/plausible-mechanisms-of-covid-19-injections-causing-cancer-and-attacks-on-scientific-publications/"
+    document_class: "primary_text (opening statement)"
+    read: "full (Word file and text)"
+    sha256: "52729d93c80a9845f763da727356e29bb8fa530819e4b71e5faf05e7eca700e0"
+    text_sha256: "0642db2d869dad78129ae1d4eee1183d2354a32782a6bf741c7735a4d47a21ba"
+    stored_as: "sources/psi-blumenthal-opening-2026-06-03.txt"
+    authenticity: {status: "authenticated", strength: "strong", provenance: "Posted on the committee hearing page.", tests: ["Official host [read]", "Header date and document identifiers internally consistent [read]"], tested_by: "Stratah research stream C2 (2026-10-05); independent of the claimants", gaps: ["Statement as posted, not as delivered; the text contains bracketed transcript lines."], checked: "2026-10-05"}
+  - id: src-psi-dalgleish
+    title: "Written testimony of Angus Dalgleish, PSI hearing of 3 Jun 2026"
+    url: "https://www.hsgac.senate.gov/subcommittees/investigations/hearings/plausible-mechanisms-of-covid-19-injections-causing-cancer-and-attacks-on-scientific-publications/"
+    document_class: "primary_text (written testimony; the witness's own clinical observations, no data tables)"
+    read: "full (PDF and text)"
+    sha256: "57bb1a8204adb49a2f839631ae2781404c8e20c0423d29eee47e790e92e2dbac"
+    text_sha256: "140745adb5d3d9ce0bf0b199730b3c1bb088d0b4cc99c98719332bbda581ef4f"
+    authenticity: {status: "authenticated", strength: "strong", provenance: "Posted on the committee hearing page.", tests: ["Official host [read]", "Header date and document identifiers internally consistent [read]"], tested_by: "Stratah research stream C2 (2026-10-05); independent of the claimants", gaps: ["Statement as posted; oral testimony not read."], checked: "2026-10-05"}
+  - id: src-psi-el-deiry
+    title: "Written testimony of Wafik El-Deiry, PSI hearing of 3 Jun 2026"
+    url: "https://www.hsgac.senate.gov/subcommittees/investigations/hearings/plausible-mechanisms-of-covid-19-injections-causing-cancer-and-attacks-on-scientific-publications/"
+    document_class: "primary_text (written testimony)"
+    read: "full (PDF and text)"
+    sha256: "50271a23bb15ece31be15ad44e6332278d0a033cb613256f927cc6c2f7b89dbf"
+    text_sha256: "3e1ecc061b8314d295aec4af74aa2ee9c2ff33c009f2214d26d74ed157de1bf3"
+    authenticity: {status: "authenticated", strength: "strong", provenance: "Posted on the committee hearing page.", tests: ["Official host [read]", "Header date and document identifiers internally consistent [read]"], tested_by: "Stratah research stream C2 (2026-10-05); independent of the claimants", gaps: ["Statement as posted; oral testimony not read."], checked: "2026-10-05"}
+  - id: src-psi-gralow
+    title: "Written testimony of Julie Gralow (ASCO), PSI hearing of 3 Jun 2026"
+    url: "https://www.hsgac.senate.gov/subcommittees/investigations/hearings/plausible-mechanisms-of-covid-19-injections-causing-cancer-and-attacks-on-scientific-publications/"
+    document_class: "primary_text (written testimony)"
+    read: "full (PDF and text)"
+    sha256: "f75accd7c5e29998d539b3c23e47fc31d6d0aedbb184ab1ec0283e9bcd9d5040"
+    text_sha256: "1d56df4f5d9b2f97a7c2a6f931cd8f942dcc3ba61b30915c55cf7dd8fd955a59"
+    authenticity: {status: "authenticated", strength: "strong", provenance: "Posted on the committee hearing page.", tests: ["Official host [read]", "Header date and document identifiers internally consistent [read]"], tested_by: "Stratah research stream C2 (2026-10-05); independent of the claimants", gaps: ["Statement as posted; oral testimony not read."], checked: "2026-10-05"}
+  - id: src-psi-other-statements
+    title: "Written statements of Sabine Hazan, Aseem Malhotra, Saskia Mostert and Tamika Felder, PSI hearing of 3 Jun 2026"
+    url: "https://www.hsgac.senate.gov/subcommittees/investigations/hearings/plausible-mechanisms-of-covid-19-injections-causing-cancer-and-attacks-on-scientific-publications/"
+    document_class: "primary_text (written testimony; text-searched only)"
+    read: "saved and text-searched for \"turbo\" (no hit in any written statement); not read in full"
+    sha256: "2a18dd8b53a798a21f228140caddbd1facb4774e27055ea941240a59c65e2001"
+    additional_file_sha256: {malhotra: "639f35a4244e4280642ae8dc785c5aa56faf9c110b3a2892364abe9d8ebb5483", mostert: "0669527067502b9af2cbc07789498b3423dc24f22289d3b60120e3cb02f1e690", felder: "92e9a23d771f978c1f4a07e17fc84f7e4534365bf52a7d3e188c3bdd28da5cdf"}
+    authenticity: {status: "authenticated", strength: "strong", provenance: "Posted on the committee hearing page.", tests: ["Official host [read]", "Header date and document identifiers internally consistent [read]"], tested_by: "Stratah research stream C2 (2026-10-05); independent of the claimants", gaps: ["Not read in full; used only to record that \"turbo cancer\" does not occur in the written statements."], checked: "2026-10-05"}
+  - id: src-johnson-release-2026
+    title: "Sen. Ron Johnson press release, 5 Jun 2026: video release of the hearing on the mechanisms of the COVID-19 injections causing cancer"
+    url: "https://www.ronjohnson.senate.gov/2026/06/05/video-release-sen-johnson-holds-hearing-on-the-mechanisms-of-the-covid-19-injections-causing-cancer-and-attacks-on-scientific-publications-and-research/"
+    document_class: "primary_text (senator's press release)"
+    read: "full (HTML saved)"
+    sha256: "a0a0634814f60ec785990d1fd26262928ddd6e2816b62b0fad11a0f4333eb2ab"
+    authenticity: {status: "authenticated", strength: "strong", provenance: "ronjohnson.senate.gov, the senator's official site.", tests: ["Official host [read]", "Header date and document identifiers internally consistent [read]"], tested_by: "Stratah research stream C2 (2026-10-05); independent of the claimants", gaps: ["The source of the \"over 39,000 deaths\" figure it cites is not given in what was read."], checked: "2026-10-05"}
+  - id: src-who-qa
+    title: "WHO. Coronavirus disease (COVID-19): Vaccines (questions and answers)"
+    url: "https://www.who.int/news-room/questions-and-answers/item/coronavirus-disease-(covid-19)-vaccines"
+    document_class: "primary_text (agency web page)"
+    read: "full (HTML saved); the only cancer mention is about vaccinating people with cancer"
+    sha256: "27d01d030f7885161c59650221c62844901675e58189c40b1bb993b85e69efd0"
+    authenticity: {status: "authenticated", strength: "strong", provenance: "who.int.", tests: ["Official host [read]", "Header date and document identifiers internally consistent [read]"], tested_by: "Stratah research stream C2 (2026-10-05); independent of the claimants", gaps: ["Page date not recorded."], checked: "2026-10-05"}
+  - id: src-who-gacvs49
+    title: "WHO. Weekly Epidemiological Record, 6 March 2026: Report of the Forty-ninth meeting of the Global Advisory Committee on Vaccine Safety, 27-28 November 2025"
+    url: "https://iris.who.int/server/api/core/bitstreams/1d93815d-e311-43b7-9188-b996f0b079b3/content"
+    document_class: "primary_text (agency report)"
+    read: "full text searched for cancer, turbo, malignan, residual DNA and SV40: no hits; not read in full"
+    sha256: "4666b95b0300428652b9198552143dab1f5437f84ba6b84b97332f82f68eb407"
+    text_sha256: "2128e4e1639282a67d9d65934f5fc983c125f784c1986d190defb466edec562e"
+    authenticity: {status: "authenticated", strength: "strong", provenance: "iris.who.int, WHO's repository.", tests: ["Official host [read]", "Header date and document identifiers internally consistent [read]"], tested_by: "Stratah research stream C2 (2026-10-05); independent of the claimants", gaps: ["Term search only."], checked: "2026-10-05"}
+  - id: src-cdc-archive-myths
+    title: "CDC (archive.cdc.gov). Myths and Facts about COVID-19 Vaccines (cdc:last_updated \"Feb. 16, 2023\")"
+    url: "https://archive.cdc.gov/www_cdc_gov/coronavirus/2019-ncov/vaccines/facts.html"
+    document_class: "primary_text (archived agency page)"
+    read: "full (HTML saved)"
+    sha256: "44c080749af8d5cb0b4c7cc018b619d5f3d0425a5eccd9f6ecff0d8ee11a0361"
+    authenticity: {status: "authenticated", strength: "strong", provenance: "archive.cdc.gov, the CDC's own archive.", tests: ["Official host [read]", "Header date and document identifiers internally consistent [read]"], tested_by: "Stratah research stream C2 (2026-10-05); independent of the claimants", gaps: ["An archived 2023 page; no current cdc.gov page on vaccines and cancer was read (cdc.gov refused this environment)."], checked: "2026-10-05"}
+  - id: src-cdc-archive-safety
+    title: "CDC (archive.cdc.gov). Safety of COVID-19 Vaccines (archived, 7 Mar 2023)"
+    url: "https://archive.cdc.gov/www_cdc_gov/coronavirus/2019-ncov/vaccines/safety/safety-of-vaccines.html"
+    document_class: "primary_text (archived agency page)"
+    read: "full (HTML saved); text-searched for cancer: no mention"
+    sha256: "2fbdadf3bb90b3cdebded42dfa51ccbed9773aa10c280240664d81650358214f"
+    authenticity: {status: "authenticated", strength: "strong", provenance: "archive.cdc.gov.", tests: ["Official host [read]", "Header date and document identifiers internally consistent [read]"], tested_by: "Stratah research stream C2 (2026-10-05); independent of the claimants", gaps: ["An archived 2023 page."], checked: "2026-10-05"}
+  - id: src-cdc-archive-adverse
+    title: "CDC (archive.cdc.gov). Adverse events after COVID-19 vaccination (archived, 31 May 2023)"
+    url: "https://archive.cdc.gov/www_cdc_gov/coronavirus/2019-ncov/vaccines/safety/adverse-events.html"
+    document_class: "primary_text (archived agency page)"
+    read: "full (HTML saved); text-searched for cancer: no mention"
+    sha256: "49315068decf57ca4d3b6f31a7898a1afc3b1ba2c17c2c48d7df01918b6888c5"
+    authenticity: {status: "authenticated", strength: "strong", provenance: "archive.cdc.gov.", tests: ["Official host [read]", "Header date and document identifiers internally consistent [read]"], tested_by: "Stratah research stream C2 (2026-10-05); independent of the claimants", gaps: ["An archived 2023 page."], checked: "2026-10-05"}
+  - id: src-hecht-turbo-2022
+    title: "Etana Hecht. \"Turbo-Cancer\" (Substack \"Clown World - Honk\"), dated \"Aug 04, 2022\" (Wayback capture of 2025-12-27)"
+    url: "https://web.archive.org/web/20251227031708/https://etana.substack.com/p/turbo-cancer"
+    document_class: "primary_text (a blog post, as archived; a summary of an interview not watched)"
+    read: "full (HTML saved by research stream C2; original https://etana.substack.com/p/turbo-cancer was read via the Wayback copy)"
+    sha256: "b87fc90d8fd72994ed7444834bee6bc78f49c7ea3a33c689fc94009e288d5131"
+    authenticity: {status: "authenticated", strength: "moderate", provenance: "Internet Archive capture (2025-12-27) of a Substack post; the capture is a record by a party independent of the author (rule A8). The post date \"Aug 04, 2022\" is the date printed on the page and is the date relied on.", tests: ["Capture stamp read [read]", "Printed date read on the page [read]"], tested_by: "Stratah research stream C2 (2026-10-05); independent of the claimant", gaps: ["The capture is from 2025, three years after the post; an earlier capture (nearer 2022-08-04) was not looked for, so the text as of 2022 is not independently shown.", "The interview it summarises (Doctors for Covid Ethics video) was not watched."], next_step: "Look for a Wayback capture from 2022 and compare.", checked: "2026-10-05"}
+  - id: src-globalresearch-2022
+    title: "Global Research. \"Covid Vaccination and Turbo-Cancer. 'Multiple Tumors in Multiple Organs'. Dr. Ute Kruger\" by Etana Hecht (page metadata datePublished 8 August 2022; byline line \"Clown World - Honk 5 August 2022\")"
+    url: "https://www.globalresearch.ca/turbo-cancer-we-have-problem/5789172"
+    document_class: "primary_text (advocacy outlet's republication)"
+    read: "full (HTML saved)"
+    sha256: "0af0ee401c0c7dc8125bb964f2d5943e7a8c6416568e2f096b242539c5a526d4"
+    authenticity: {status: "unchecked", basis: "Used only for what was published and when; Global Research is an advocacy outlet. No independent capture was recorded.", next_step: "Find an independent web archive capture."}
+  - id: src-rair-kruger-2022
+    title: "RAIR Foundation. \"Senior physician warns aggressive and unusual cancers following COVID vaccination are on the rise in Sweden (video)\" (published 2022-07-27)"
+    url: "https://rairfoundation.com/senior-physician-warns-aggressive-and-unusual-cancers-following-covid-vaccination-are-on-the-rise-in-sweden-video/"
+    document_class: "primary_text (advocacy outlet's write-up)"
+    read: "full (HTML saved); text-searched for \"turbo\": not present"
+    sha256: "4ae618576871c37ac399dc608746d6d24f5db0c082dbc2aa9ee4ee27ae6e56a1"
+    authenticity: {status: "unchecked", basis: "Used only for its date and the absence of the word; no independent capture was recorded.", next_step: "Find an independent web archive capture."}
+  - id: src-mymedfreedom-kruger-2022
+    title: "myMedicalFreedom. Same title as src-rair-kruger-2022 (published 2022-07-28)"
+    url: "https://mymedicalfreedom.org/senior-physician-warns-aggressive-and-unusual-cancers-following-covid-vaccination-are-on-the-rise-in-sweden-video/"
+    document_class: "primary_text (advocacy outlet's write-up)"
+    read: "full (HTML saved); text-searched for \"turbo\": not present"
+    sha256: "bd85dd42769349ca00754a33a9dfee6dcf89903a2721915b3ca69ca2469f93c8"
+    authenticity: {status: "unchecked", basis: "Used only for its date and the absence of the word; no independent capture was recorded.", next_step: "Find an independent web archive capture."}
+  - id: src-dailyclout-61
+    title: "DailyClout. \"Report 61: Histopathology Series Part 3 - Ute Krüger MD, breast cancer specialist reveals increase in cancers and occurrences of 'turbo cancers' following genetic therapy vaccines\" (published 2023-03-10)"
+    url: "https://dailyclout.io/report-61-ute-kruger-md-breast-cancer-specialist-reveals-increase-in-cancers-and-occurrences-of-turbo-cancers-following-genetic-therapy-vaccines/"
+    document_class: "primary_text (advocacy outlet; used only for its title and date)"
+    read: "title and date read; body not read"
+    sha256: "93bef52667e6138b6917f2ba4c3c41d85b5f998d8c8fd9a0dfd8644d62a34a38"
+    authenticity: {status: "unchecked", basis: "Used only for the title and date shown on the page.", next_step: "Read the report and find an independent capture."}
+  - id: src-sbm-turbo-2022
+    title: "Gorski D. \"Do COVID-19 vaccines cause 'turbo cancer'?\" Science-Based Medicine, 19 Dec 2022 (Wayback copy of 2025-12-27)"
+    url: "https://web.archive.org/web/20251227031708/https://sciencebasedmedicine.org/do-covid-19-vaccines-cause-turbo-cancer/"
+    document_class: "secondary (blog rebuttal by a physician)"
+    read: "full (Wayback copy saved; the live site returned 403)"
+    sha256: "ac176114de0849f74e73f6b20b2d8cebf5532cd963ff4897072f91fcc8e13e33"
+    authenticity: {status: "not_applicable", basis: "A secondary rebuttal used only for what its author says about the term's earlier use and spread; its ar15.com 2020 claim could not be verified."}
+  - id: src-sbm-makis-2023
+    title: "Gorski D. \"Dr. William Makis and 'turbo cancer': falsely blaming COVID-19 vaccines for cancer.\" Science-Based Medicine, 2 Oct 2023 (Wayback copy of 2026-01-26)"
+    url: "https://web.archive.org/web/20260126213048/https://sciencebasedmedicine.org/dr-william-makis-and-turbo-cancer-falsely-blaming-covid-19-vaccines-for-cancer/"
+    document_class: "secondary (blog rebuttal by a physician)"
+    read: "full (Wayback copy saved)"
+    sha256: "ddf92542fa073a102d18fa226806a325096f05b0da37bb14eb01facee5ac0cd2"
+    authenticity: {status: "not_applicable", basis: "A secondary rebuttal used only for dates and for what it says about who used the term when."}
+  - id: src-contagion-2025
+    title: "Contagion Live / Infodemiology.com. \"mRNA COVID-19 vaccines and turbo cancer: the latest myth that won't disappear\" (9 Jan 2025)"
+    url: "https://www.contagionlive.com/view/mrna-covid-19-vaccines-and-turbo-cancer-the-latest-myth-that-won-t-disappear"
+    document_class: "secondary (trade-press article reporting vendor monitoring data)"
+    read: "full (HTML saved)"
+    sha256: "bc5a0b8da25b1d03a121b130e5aab3801bdc3b1892b5b05cb66cc590945e279b"
+    authenticity: {status: "not_applicable", basis: "Not peer reviewed; the post and impression counts are a vendor's monitoring figures that were not independently checked, and they exclude Facebook and Instagram."}
+  - id: src-factcheck-2023
+    title: "FactCheck.org, 31 Aug 2023: COVID-19 vaccines have not been shown to cause \"turbo cancer\""
+    url: "https://www.factcheck.org/2023/08/covid-19-vaccines-have-not-been-shown-to-cause-turbo-cancer/"
+    document_class: "secondary (fact-check)"
+    read: "full (HTML saved)"
+    sha256: "504f3a5908bb555b7f73d183ca8852d93de4e088209f4a36877c5b10014387e6"
+    authenticity: {status: "not_applicable", basis: "A fact-check used for the wording of the viral post it quotes (\"SHOCKING: New Study proves Pfizer mRNA induced turbo cancer\") and for dates; the post itself was not opened."}
+  - id: src-leadstories-2022
+    title: "Lead Stories, Nov 2022: Fact check: the movie \"Died Suddenly\" does not demonstrate that COVID vaccines cause sudden death"
+    url: "https://leadstories.com/hoax-alert/2022/11/fact-check-movie-died-suddenly-does-not-demonstrate-that-covid-vaccines-cause-sudden-death.html"
+    document_class: "secondary (fact-check)"
+    read: "full (HTML saved)"
+    sha256: "be078eccef01109702bfa8ad58d6b8f1cacc04e44d715cb33b0a8e7384646d58"
+    authenticity: {status: "not_applicable", basis: "A fact-check used for the film's Rumble posting date (2022-11-21) and the CDC and FDA statements it relays (about blood clots, not cancer)."}
+  - id: src-died-suddenly-film
+    title: "\"Died Suddenly\" (Stew Peters Network), 68-minute video; copy held on the Internet Archive item \"died-suddenly\" (uploaded 2022-11-22 per the item metadata)"
+    url: "https://archive.org/details/died-suddenly"
+    document_class: "primary_text (video; read only through a machine transcription)"
+    read: "downloaded and machine-transcribed by research stream C2 (base.en speech-to-text, error-prone, no human check); never viewed by a person"
+    sha256: "6f4373038d606efaafbc1e70e9409f300205f9f325a93eab5c68a22c515b2931"
+    authenticity: {status: "unchecked", basis: "A copy from the Internet Archive, not compared with the producer's own release; known to this dig only through an automated transcript.", gaps: ["No human viewing of any part; speaker names are not in the audio text."], next_step: "View 22:00 to 27:00 and the full film, and record each use of the words \"turbo\" and \"cancer\" with speaker and timestamp.", capture: "Internet Archive item metadata JSON files saved (ia_died-suddenly*.json)"}
+  - id: src-died-suddenly-asr
+    title: "Automated transcript (base.en) of the \"Died Suddenly\" video, made by research stream C2"
+    url: "https://archive.org/details/died-suddenly"
+    document_class: "synthetic (our own machine transcription; never an anchor by itself)"
+    read: "full (text read; the word \"turbo\" does not occur in it)"
+    sha256: "e46f972973b0ce63550b72f31dd5aaa9cca1736547fb95cfefcf91126cc39e0e"
+    derived_from: "src-died-suddenly-film"
+    authenticity: {status: "unchecked", basis: "Our own speech-to-text output (rule A9: a transcription carries its own entry). It is error-prone and was not checked against the audio by a person.", next_step: "Manual viewing of 22:00 to 27:00 before any quotation."}
+  - id: src-makis-epoch-post-2023
+    title: "\"Makis World First: my new Epoch Times article\" (Substack repost excerpting an Epoch Times article by Megan Redshaw of 2023-07-28 and a Makis post of 2023-08-04)"
+    url: "https://palexander.substack.com/p/makis-world-first-my-new-epoch-times"
+    document_class: "primary_text (third-party repost; excerpts only)"
+    read: "excerpts read; the Epoch Times original was NOT opened"
+    sha256: "24f4fae392fdd3a6b8ff1e8409439919449a3c8ec4a6c336fcf815abb06f854c"
+    authenticity: {status: "unchecked", basis: "A repost of excerpts; the original article was not opened and no independent capture was recorded.", next_step: "Open the Epoch Times article and the Makis post."}
+  - id: src-wlt-2023
+    title: "WLT Report, 26 Oct 2023: \"Details behind turbo cancer\" (aggregator embedding posts on X dated 20 to 26 Sep 2023)"
+    url: "https://wltreport.com/2023/10/26/details-behind-turbo-cancer/"
+    document_class: "secondary (hostile aggregator embedding social-media posts)"
+    read: "full (HTML saved); X itself was not reachable"
+    sha256: "a5875ffaef9f9abb6e34ed500f95014920062503e7a833c71fecb34d42885f8d"
+    authenticity: {status: "not_applicable", basis: "A hostile aggregator's page used only to record that the posts it embeds were attributed to named accounts in September 2023; the posts were not opened on X."}
+  - id: src-semenzato-2025
+    title: "Semenzato et al. French cohort of adults 18-59, 4-year all-cause mortality. JAMA Netw Open 2025-12-01 (PMID 41343214)"
+    url: "https://pubmed.ncbi.nlm.nih.gov/41343214/"
+    document_class: "synthetic (nationwide cohort; abstract only)"
+    read: "abstract only, read in research stream C2; no copy of the record was retained, so no sha256 can be given"
+    authenticity: {status: "unchecked", basis: "Only a citation and an abstract reading recorded in the research notes; no copy kept.", gaps: ["No retained copy and no sha256."], next_step: "Fetch the PubMed record and the full text; search for a cancer-specific mortality result."}

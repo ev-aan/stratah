@@ -1,0 +1,107 @@
+Florida Department of Health, State Surgeon General Joseph Ladapo to FDA Commissioner Robert Califf (cc CDC Director), December 6, 2023.
+Original URL: https://www.floridahealth.gov/about/_documents/12-06-2023-DOH-Letter-to-FDA-RFI-on-COVID-19-Vaccines.pdf (403 from this environment); read in the Wayback Machine copy.
+Text extracted with pdftotext from the archived PDF (raw/fl_letter_wb.pdf). Florida state public record.
+
+Ron DeSantis
+Governor
+
+Mission:
+To protect, promote and improve the health
+of all people in Florida through integrated
+state, county and community efforts.
+
+Joseph A. Ladapo, MD, PhD
+State Surgeon General
+Vision: To be the Healthiest State in the Nation
+
+December 6, 2023
+Robert M. Califf, MD, MACC
+Commissioner
+U.S. Food and Drug Administration
+10903 New Hampshire Ave
+Silver Springs, MD 20993
+CC: Mandy Cohen, MD, MPH
+Director
+Centers for Disease Control and Prevention
+1600 Clifton Road
+Atlanta, GA 30329-4027
+Dear Drs. Califf and Cohen,
+Ensuring that pharmaceutical products are both safe and effective for the public is the principal
+mission of the U.S. Food and Drug Administration (FDA). This function is essential and serves as the
+foundation for public trust in regulatory agencies and for health officials alike. While accelerated
+approvals for prescription drugs have been around for over two decades, the opioid crisis and
+COVID-19 pandemic are just two publicized examples illustrating the risks associated with these
+accelerated processes for drug approvals. On November 14, 2023, the Florida Public Health Integrity
+Committee met to discuss this topic and I encourage your team to review the constructive criticism
+that will further our mission of credible and safe public health.
+Related to these regulatory issues, debates over the safety and effectiveness of COVID-19 vaccines
+have been smeared as “hysteria” since their development – and yet as additional research is
+conducted, concerns continue to emerge. I have highlighted some of these concerns in a May 10,
+2023 letter sent to you and former Centers for Disease Control and Prevention Director Rochelle
+Walensky. To date, no response has been received. In addition to my previous letter, I am writing to
+you to address the recent discovery of host cell DNA fragments within the Pfizer and Moderna
+COVID-19 mRNA vaccines.
+This raises concerns regarding the presence of nucleic acid contaminants in the approved Pfizer and
+Moderna COVID-19 mRNA vaccines, particularly in the presence of lipid nanoparticle complexes, and
+Simian Virus 40 (SV40) promoter/enhancer DNA. Lipid nanoparticles are an efficient vehicle for
+delivery of the mRNA in the COVID-19 vaccines into human cells, and may therefore be an equally
+efficient vehicle for delivering contaminant DNA into human cells. The presence of SV40
+promoter/enhancer DNA may also pose a unique and heightened risk of DNA integration into host
+cells.
+In 2007, the FDA published guidance on regulatory limits for DNA vaccines in the Guidance for
+Industry: Considerations for Plasmid DNA Vaccines for Infectious Disease Indications (Guidance for
+Industry). This Guidance for Industry highlights important considerations for vaccines that use novel
+methods of delivery regarding DNA integration:
+
+Florida Department of Health
+Office of the State Surgeon General
+4052 Bald Cypress Way, Bin A-00 • Tallahassee, FL 32399-1701
+PHONE: 850-245-4210 • FAX: 850-922-9453
+FloridaHealth.gov
+
+Accredited Health Department
+Public Health Accreditation Board
+
+Page 2
+Robert M. Califf, MD, MACC
+CC: Mandy Cohen, MD, MPH
+December 6, 2023
+•
+•
+•
+
+DNA integration could theoretically impact a human’s oncogenes – the genes which can
+transform a healthy cell into a cancerous cell.
+DNA integration may result in chromosomal instability.
+The Guidance for Industry discusses biodistribution of DNA vaccines and how such integration
+could affect unintended parts of the body including blood, heart, brain, liver, kidney, bone
+marrow, ovaries/testes, lung, draining lymph nodes, spleen, the site of administration and
+subcutis at injection site.
+
+Based on this Guidance for Industry, the efficacy of the COVID-19 mRNA vaccine’s lipid nanoparticle
+delivery system, and the presence of DNA fragments in these vaccines, it is essential to human
+health to assess the risks of contaminant DNA integration into human DNA. With this in mind, I have
+the following questions for which the public deserves answers:
+1. Have drug manufacturers evaluated the risk of human genome integration or mutagenesis of
+residual DNA contaminants from the mRNA COVID-19 vaccines alongside the additional risk of
+DNA integration from the lipid nanoparticle delivery system and SV40 promoter/enhancer? Has
+FDA inquired any information from the drug manufacturers to investigate such risk?
+2. Do current FDA standards for acceptable and safe quantity of residual DNA (present as known
+contaminants in biological therapies) consider the lipid nanoparticle delivery system for the mRNA
+COVID-19 vaccines?
+3. Considering the potentially wide biodistribution of mRNA COVID-19 vaccines and DNA
+contaminants beyond the local injection site, have you evaluated the risk of DNA integration in
+reproductive cells with respect to the lipid nanoparticle delivery system?
+Considering the urgency of these questions due to the mass administration of these vaccines and
+currently unavailable data surrounding possible genomic effects, I request that you provide a written
+response by December 13, 2023, to both my previous letter and the concerns I have outlined above.
+The American people and the scientific community have a right to have all relevant information
+pertaining to the COVID-19 vaccines to properly inform individual decision making. I look forward to
+promptly hearing from you.
+
+Sincerely,
+
+Joseph A. Ladapo, MD, PhD
+State Surgeon General
+
+

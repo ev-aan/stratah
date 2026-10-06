@@ -1,0 +1,1707 @@
+# ---------------------------------------------------------------------------
+# SEARCH HEADLINE: rules as in gulf-of-tonkin/claims.yaml (1-7).
+# It may only state a claim that is established or refuted at HIGH confidence with
+# anchor_checked: primary. The headline claim (cvc-no-registry-surge) is established at
+# MODERATE confidence (the 2026 US report was read as an abstract and a press release, the
+# English registry not at all), so the status stays DRAFT until a reviewer and the owner move it.
+# ---------------------------------------------------------------------------
+headline: "Do COVID Vaccines Cause 'Turbo Cancer'? Not Shown; Two Disputed Studies Report More Cancer"
+headline_claim: cvc-no-registry-surge
+headline_status: draft          # draft until the headline claim reaches high confidence with a primary check
+search_summary: >
+  Do COVID vaccines cause "turbo cancer"? Not shown: no controlled study measured it, and national registries show no surge. Two cohort studies report more cancer after vaccination; both are disputed and one carries an editor's notice of concern.
+url_slug: do-covid-vaccines-cause-turbo-cancer
+
+# ---------------------------------------------------------------------------
+# ASSESSMENT (SCHEMA N23): the "Where it stands" box the site shows first.
+# Drawn from short_answer below; no percentages (N23).
+# ---------------------------------------------------------------------------
+assessment:
+  question: "Do COVID-19 vaccines cause cancer, including the rapidly progressing cancers called 'turbo cancer'?"
+  answer: leans_no
+  headline: "Leans no (moderate confidence). No study has measured 'turbo cancer'; registries show no surge; the two cohorts that report more cancer are disputed and their authors disclaim cause."
+  text: >
+    The term "turbo cancer" means cancers that appear or progress unusually fast after COVID-19
+    vaccination. We found no controlled study that defines such cancers in advance and compares
+    them between vaccinated and unvaccinated people (cvc-rapid-progression-gap), so the claim has
+    never been tested directly. What can be checked is indirect. National cancer series for the
+    United States and Japan show a drop in diagnoses in 2020, when screening was disrupted, and a
+    return toward earlier levels by 2021 to 2022; overall age-standardised cancer death rates
+    kept falling (cvc-no-registry-surge). Those are population totals with no vaccination
+    status, so they cannot rule out a rise in a small group, and the same totals cannot show
+    cause in either direction. Two cohort studies compared vaccinated with unvaccinated adults.
+    A Seoul study (a Letter in Biomarker Research, September 2025) reports a hazard ratio of 1.27
+    for any cancer within one year, and an Italian study of Pescara province reports 1.23 for
+    hospital admission with cancer. Their authors say the results do not establish cause;
+    published critiques point to different start dates for the two groups in the Seoul study and
+    to the way a 12-month lag changes the Italian result; and the journal has carried a notice of
+    concern on the Seoul letter since October 2025, with no outcome yet (cvc-cancer-incidence-higher-after-vaccination).
+    A Japanese paper that reported excess cancer deaths after the third dose was retracted in June 2024.
+    Case reports describe individual patients whose cancer appeared or progressed after
+    vaccination, but they have no comparison group and their compilers say they cannot show how
+    often this happens. Laboratory work shows a spike-protein effect on p53 in two engineered
+    cell lines, which its authors call preliminary. A mouse case report that was widely shared
+    as proof was disowned in its authors' own addendum. Statistics cannot prove a general claim false, so
+    "vaccines cause cancer" and "vaccines cause turbo cancer" are filed as proposed, not refuted.
+    What health bodies and politicians say, in both directions, is shown separately as adoption,
+    not evidence: NCI, EMA, the American Cancer Society and ASCO say there is no evidence of a
+    link; a Florida official, two members of a CDC advisory workgroup and a Senate subcommittee
+    chair have said the opposite or called for more study. The FDA label says the vaccine has not
+    been evaluated for carcinogenicity, which is neither a finding of harm nor of safety.
+  key_points:
+    - "No study has measured 'turbo cancer' by vaccination status; US and Japanese registries show a 2020 dip and then no surge, but cannot see a small subgroup."
+    - "Two cohorts report more cancer after vaccination (Seoul 1.27, Pescara 1.23); both are disputed, authors disclaim cause, and the Seoul letter has a notice of concern."
+    - "Adoption is not evidence: a retracted 2024 Japan paper and a disowned mouse report circulated widely; NCI, EMA, ASCO and a Senate hearing took opposite sides."
+  basis: [cvc-rapid-progression-gap, cvc-no-registry-surge, cvc-cancer-incidence-higher-after-vaccination, cvc-korea-cohort-bias-concerns, cvc-italy-cohort-lag, cvc-case-reports-no-denominator, cvc-gibo-paper-retracted, cvc-mechanism-spike-p53, cvc-health-bodies-no-evidence]
+  rated_claim: cvc-turbo-cancer-vaccine-caused
+  lean:
+    toward: "no"
+    short: "leans no"
+    strength: "moderate"
+    because: >
+      Registries show no surge in all-cancer rates after the rollout, no controlled study has found
+      rapid progression after vaccination, the two cohorts that report more cancer have documented
+      design problems and one reverses at a 12-month lag, and the mechanism work is in cell lines.
+    caveats: >
+      Population totals cannot see a rise in a small group. No study has tested the claim as its
+      proponents state it. The two cohorts cannot be set aside as noise, and the Seoul letter's
+      concern notice is unresolved. Absence of a finding is a state of the search, not proof of absence.
+  would_settle: >
+    Not yet read, and listed as sub-questions of this question (claims cvc-sq-...): the Seoul
+    journal's outcome on its notice of concern; the English national registry for 2021 to 2022;
+    the 2026 US report in full; the Kruger interview and the "Died Suddenly" film by a human
+    viewer; the randomised trials' supplementary adverse-event tables; the French cohort's
+    cancer-specific result; the residual-DNA papers behind the FDA and EMA statements; and the
+    cdc.gov and UK official pages. What would settle the question itself: a matched cohort that
+    defines rapid progression in advance and compares vaccinated and unvaccinated people over
+    several years (dt-rapid-progression-cohort), a registry-linked analysis with individual
+    vaccination status (dt-registry-linked-incidence), and a replication of the Seoul analysis
+    with a common start date and a lag period (dt-lag-analysis).
+
+# ---------------------------------------------------------------------------
+# SHORT ANSWER (owner decision 2026-10-02, log L-02): every dig answers the question
+# and names the exceptions where they exist. Each line points to the claim that carries
+# its weight. The answer is only as strong as those claims.
+# ---------------------------------------------------------------------------
+short_answer:
+  question: "Do COVID-19 vaccines cause 'turbo cancer'?"
+  answer: "Probably not, to the best of our knowledge: no study has shown it, and the national totals show no surge."
+  summary: >
+    "Turbo cancer" is a social-media term, first found in a post of 4 August 2022, for cancers
+    said to appear or grow unusually fast after COVID-19 vaccination. No controlled study has
+    defined such cancers and compared them by vaccination status. National cancer registries
+    in the United States and Japan show a 2020 dip in diagnoses and no surge after the
+    vaccine rollout. Two cohort studies, in Seoul and in Pescara province, report modestly
+    higher cancer rates among vaccinated adults; their authors say they do not show cause, and
+    both are disputed. These figures are studies; what health agencies and politicians say is
+    recorded separately, as adoption.
+  summary_figures:
+    - figure: "US all-cancer incidence: 461.3 per 100,000 (2017-2019 and 2021), 425.6 in 2020"
+      detail: >
+        Annual Report to the Nation 2025: age-standardised incidence, registries covering 97
+        percent of the US population; 2020 was about 8 percent lower than the other years and
+        2021 "returned to prepandemic levels" per the authors. Mortality 2018 to 2022: 146.0 per
+        100,000, falling 1.5 per year on average.
+      source: src-arn-2025
+      checked: primary
+    - figure: "Japan all-cancer age-standardised mortality: 278.9 (2019) to 266.7 (2024) per 100,000"
+      detail: >
+        National Cancer Center Japan, both sexes, falling every year in that span. National
+        incidence: 282.1 (2019), 263.6 (2020), 275.7 (2021), 271.9 (2022), 272.5 (2023).
+      source: [src-ncc-mortality-2024, src-ncc-incidence-2023]
+      checked: primary
+    - figure: "Seoul cohort, hazard ratio 1.27 (1.21 to 1.33) for any cancer in one year"
+      detail: >
+        Kim et al., 2,975,035 matched adults, Seoul, 2022 to 2023 follow-up. Authors: findings do
+        not establish causal relationships. Disputed by two published critiques; a notice of
+        concern has been on the article since 22 October 2025.
+      source: [src-kim-2025-page, src-kim-2025-supp, src-locquet-2026, src-roccetti-2026]
+      checked: primary
+    - figure: "Pescara cohort, hazard ratio 1.23 (1.11 to 1.37) for cancer hospital admission"
+      detail: >
+        Acuti Martellucci et al., 296,015 residents, 180-day minimum lag; at a 365-day lag the
+        one-dose association was not significant and the three-dose hazard ratio was 0.90
+        (0.83 to 0.98).
+      source: src-acuti-martellucci-2025
+      checked: primary
+    - figure: "Not summed"
+      detail: >
+        The two cohorts use different populations, outcomes (new cancer diagnosis claims versus
+        hospital admission) and designs; their hazard ratios are not pooled here.
+      source: [src-kim-2025-supp, src-acuti-martellucci-2025]
+      checked: primary
+  basis: >
+    No controlled study measures rapid progression by vaccination status
+    (cvc-rapid-progression-gap, a gap and not a finding). Registry totals show no surge but are
+    ecological (cvc-no-registry-surge). The two cohorts that report more cancer are observational,
+    carry design problems and are disputed (cvc-cancer-incidence-higher-after-vaccination,
+    cvc-korea-cohort-bias-concerns, cvc-italy-cohort-lag). A 2024 Japanese paper was retracted
+    (cvc-gibo-paper-retracted) and a widely shared mouse report was disowned by its authors
+    (cvc-eens-proved-turbo-cancer).
+  except:
+    - claim: cvc-cancer-incidence-higher-after-vaccination
+      text: >
+        What remains open, 1: two cohorts report more cancer among vaccinated adults. In Seoul,
+        any cancer in one year: hazard ratio 1.27 (1.21 to 1.33); in Pescara province, hospital
+        admission with cancer, hazard ratio 1.23 (1.11 to 1.37) with at least one dose. We cannot
+        say these are bias, and we cannot say they are not.
+      scale: >
+        Two studies in two populations. The Seoul cohort followed adults for one year, and its
+        authors and critics agree that solid tumours rarely arise that fast. In Pescara the
+        association is gone at a 12-month lag for at least one dose, and below 1 for three doses.
+      scale_sources: [src-kim-2025-page, src-kim-2025-supp, src-acuti-martellucci-2025, src-locquet-2026]
+      what_it_is:
+        - "Two published observational comparisons of vaccinated with unvaccinated adults, each reporting a hazard ratio above 1 for cancer."
+        - "Reported with the authors' own warning that the results do not establish cause."
+      what_it_is_not:
+        - "Not evidence of 'turbo cancer': neither study defines or measures rapid progression."
+        - "Not an independent replication: different populations, outcomes and designs."
+        - "Not settled: critics describe design problems, and the Seoul letter carries an unresolved notice of concern."
+    - claim: cvc-case-reports-no-denominator
+      text: >
+        What remains open, 2: individual patients. A scoping review lists 66 reports of 333
+        patients in 27 countries whose cancer appeared, recurred or progressed after vaccination
+        or infection. These are real sequences in real patients.
+      scale: >
+        66 article-level reports, mostly single patients; no comparison group and no count of how
+        many vaccinated people were not affected. The compilers say they cannot estimate risk or
+        incidence.
+      scale_sources: [src-kuperwasser-2026, src-goldman-2021]
+      what_it_is:
+        - "A collection of case reports and small series, compiled by two authors who also hold the view that a signal may exist."
+      what_it_is_not:
+        - "Not an incidence or relative risk, and not a test of whether the order of events is more than coincidence."
+        - "Not limited to vaccination: the review also covers cancers after infection."
+    - claim: cvc-mechanism-spike-p53
+      text: >
+        What remains open, 3: a laboratory result. In two engineered human cancer cell lines,
+        spike protein expressed from a plasmid reduced p53 activity; the authors call it preliminary.
+        A route from vaccination to cancer has not been shown in animals or people.
+      scale: >
+        Two cell lines, one laboratory, spike produced from a plasmid and not delivered by a
+        vaccine. Other proposed routes (IgG4, interferon, spread to bone marrow, residual DNA) are
+        hypotheses, reviews or serology without tumour data.
+      scale_sources: [src-zhang-2024, src-eldeiry-hypothesis-2026, src-irrgang-2023, src-isidoro-2025]
+      what_it_is:
+        - "A cell-line experiment that found spike lowered p53 reporter activity and blunted drug-induced responses."
+      what_it_is_not:
+        - "Not a test of the vaccine, not an animal or human tumour result, and not an oncogenesis assay."
+    - claim: cvc-gibo-paper-retracted
+      text: >
+        What remains open, 4: a retracted paper that is still cited. A Japanese study reporting
+        excess cancer deaths after the third dose was retracted by its journal on 26 June 2024;
+        its authors disagree. It cannot be counted as evidence, but it is still used as support.
+      scale: >
+        One paper; national all-cancer age-standardised mortality in Japan fell every year from
+        2019 to 2024.
+      scale_sources: [src-gibo-retraction-2024, src-ncc-mortality-2024]
+      what_it_is:
+        - "An ecological time-series with no individual vaccination status, retracted over the authors' objection."
+      what_it_is_not:
+        - "Not proof the opposite is true: a retraction removes a paper, it does not test the claim."
+    - claim: cvc-fda-label-not-evaluated
+      text: >
+        What remains open, 5: the label. The FDA prescribing information for COMIRNATY says the
+        vaccine "has not been evaluated" for carcinogenicity and genotoxicity.
+      scale: >
+        One sentence in section 13.1 of the label, common to many products whose non-clinical
+        studies were not run for those endpoints; we did not check this for other products.
+      scale_sources: [src-comirnaty-pi]
+      what_it_is:
+        - "A statement that a test was not run."
+      what_it_is_not:
+        - "Not a finding that the vaccine causes cancer, and not a finding that it does not."
+    - claim: cvc-rapid-progression-gap
+      text: >
+        A limit, not an exception: no controlled study we found defines rapid progression in advance
+        and compares it between vaccinated and unvaccinated people. Until one is done, "no evidence
+        of turbo cancer" means "not measured", and registry totals cannot see a small subgroup.
+      scale: >
+        Our search found survival comparisons in patients starting immunotherapy and no
+        recurrence or progression comparison outside them. Search record in the claim.
+      scale_sources: [src-natmed-2026, src-grippin-2025]
+  also_true:
+    - claim: cvc-ici-patients-no-worse-survival
+      text: >
+        The reverse direction has also been looked at. In four observational cohorts of patients
+        starting immunotherapy for cancer, those vaccinated against COVID-19 around the start of
+        treatment had no worse survival, and most had better. The largest independent cohort
+        (95,015 French patients) attributes the early difference to transient or healthy-vaccinee
+        effects.
+      scale: >
+        Hazard ratios for death 0.51 (Nature 2025, 884 patients), 0.615 (281), 0.86 (7,218
+        matched) and 0.90 at one to three months, no significant association after 12 months
+        (95,015). One cohort reports more immune-related adverse events (hazard ratio 1.22).
+      scale_sources: [src-grippin-2025, src-natmed-2026, src-ejc-2026, src-jitc-2026]
+
+# ---------------------------------------------------------------------------
+# SOURCE NOTICES (rule PS4): shown first on the page, above every other section.
+# ---------------------------------------------------------------------------
+source_notices:
+  - source: src-gibo-2024
+    notice: >
+      RETRACTED. The Cureus paper by Gibo et al. (2024) reporting excess age-adjusted cancer
+      mortality in Japan after the third mRNA dose was retracted on 26 June 2024 after an
+      expression of concern on 12 June 2024. The notice says the correlation between mortality
+      rates and vaccination status cannot be proven with the data presented; the authors disagree.
+      It is cited here only to record what it claimed and what happened to it.
+  - source: src-kim-2025
+    notice: >
+      NOTICE OF CONCERN. The Biomarker Research letter by Kim et al. (September 2025) has carried
+      an editor's notice since 22 October 2025 that concerns have been raised and that editorial
+      action will follow once they are investigated. It has not been retracted or corrected as of
+      5 October 2026.
+  - source: src-eens-2023
+    notice: >
+      CORRECTED BY ADDENDUM. The mouse case report by Eens et al. (Frontiers in Oncology, 2023)
+      is not retracted. Its authors published an addendum on 20 October 2023 disassociating
+      themselves from the term "turbo cancer" and stating what a case report does not show.
+
+subject: covid-vaccine-cancer
+title: "Do COVID-19 Vaccines Cause Cancer? The 'turbo cancer' claim (2020 to 2026)"
+description: >
+  The question is resolvable in principle (a matched cohort with a pre-defined outcome would
+  answer it) and has not been answered. This dig keeps five things apart: (1) the direct tests,
+  two cohort studies, filed as `synthetic` evidence with their disputes; (2) the population
+  registry series, which are ecological and cannot see individual exposure; (3) case reports and
+  laboratory work, which are filed with what they cannot show; (4) a retracted paper and a
+  disowned case report that circulated as proof; and (5) the institutional record, filed as
+  adoption in both directions, never as evidence. Scope was set by the owner to the popular
+  claim of rapidly progressing cancers after vaccination ("turbo cancer"), with a timeline.
+
+# ---------------------------------------------------------------------------
+# VERIFICATION LEVELS used below (see log L-04):
+#   anchor_checked: primary    the full document was fetched and read directly (shell copy, sha256 in sources/MANIFEST.yaml)
+#   anchor_checked: secondary  read only as an abstract, through a summarizing fetch tool, or as quoted by others
+#   anchor_checked: no         not read
+# Evidential weight is capped at 4 unless anchor_checked is primary (SCHEMA rule 11, proposed).
+# Population statistics are filed as `synthetic` (CONTRIBUTING: statistics and computed results).
+# ---------------------------------------------------------------------------
+
+divergence_note: >
+  The reach of this claim and the evidence for it come apart. Online, the phrase "turbo cancer"
+  was reported by one monitoring vendor (not audited) as about 1.6 million English-language
+  posts and 22 billion impressions from November 2022 to November 2024. In 2025 and 2026 it moved
+  from there into a Florida health order's reasoning (as characterised by CBS), two slides at a
+  CDC advisory meeting, a Senate subcommittee hearing and a few review papers; the same period
+  produced official statements that there is "no evidence" of a link. None of that is evidence
+  either way. The evidence is thinner than either side's reach: no controlled study has measured
+  rapid progression by vaccination status; two cohorts report a modest excess and are disputed;
+  registry totals show no surge; case reports and cell-line work cannot bear the weight put on
+  them. The open edge is the unmeasured part: a rise in a small subgroup would not show in
+  all-cancer registry rates, and the study that would see it has not been done. Strata records
+  the gap and gives the crowd, on every side, no evidential weight.
+
+claims:
+
+  # =====================================================================
+  # A. THE CORE QUESTION
+  # =====================================================================
+
+  - id: cvc-turbo-cancer-vaccine-caused
+    state: proposed
+    statement_kind: judgment
+    statement: >
+      COVID-19 vaccination causes unusually rapid or aggressive cancers (called "turbo cancer")
+      in vaccinated people.
+    evidence_class: interpretive
+    confidence: provisional
+    evidential_weight: 1   # of 5
+    anchor_checked: secondary   # the Kruger interview was not watched; case reports and testimony read
+    adoption_weight: 3   # of 5, shown separately; never combined with evidential_weight
+    adoption_note: >
+      No survey of belief was found. Indirect indicators only: one monitoring vendor (not
+      audited) counted about 1.6 million English-language posts and 22 billion impressions
+      containing the term from November 2022 to November 2024; the claim was raised at a
+      Senate subcommittee hearing (3 June 2026). Adoption is information, not evidence.
+    would_change_if: >
+      a matched cohort that defines rapid progression in advance finds it clearly more common
+      after vaccination, or a registry-linked analysis with individual vaccination status finds
+      excess early-stage-to-advanced progression in vaccinated people
+    anchor:
+      type: case-reports-and-testimony
+      description: >
+        Rests on case reports and clinical impressions. Etana Hecht's post of 4 Aug 2022 summarises
+        an interview with Dr Ute Kruger, a pathologist, and says "Dr. Kruger initially thought that
+        these turbo cancers, as she calls them, were due to delayed doctor appointments from Covid
+        lockdowns, but that period is long over" (summary of an interview not watched here); Hecht
+        calls the testimony "by nature anecdotal". Angus Dalgleish's written Senate testimony
+        (3 Jun 2026) says he has "no doubt" the vaccine "likely played a significant role" in cancers
+        he saw, from his own clinical observations, with no data tables. Case reports are in
+        cvc-case-reports-no-denominator. No source read defines the term or measures it.
+      accessible: true
+      sources: [src-hecht-turbo-2022, src-psi-dalgleish, src-kuperwasser-2026, src-goldman-2021]
+    positions:
+      - label: "Yes"
+        holder: "Ute Kruger (as summarised by Hecht), William Makis, Angus Dalgleish, others who use the term"
+        ground: >
+          Clinicians report tumours that are larger, multiple, in younger patients or recurring
+          after vaccination, from their own practice.
+      - label: "No / not shown"
+        holder: "ASCO (Gralow), NCI, EMA, the authors of the Eens report"
+        ground: >
+          No clinical evidence proving it; cancer "does not develop suddenly" (ASCO written
+          testimony); the Eens authors say "nor do we recognize it as a legitimate medical term".
+    basis: >
+      Filed as `proposed` rather than `refuted`. Rule 9 lets a refutation rest only on material or
+      primary-text evidence, and what bears on this claim (registry series and cohorts) is
+      statistics, which CONTRIBUTING.md classes as `synthetic`. The owner decided (vaccines-autism
+      log L-19) that statistics cannot prove a claim false but can show that no evidence supports
+      it. The claim is not retired by a test: no test has been run on it as stated
+      (cvc-rapid-progression-gap). Registry totals (cvc-no-registry-surge) are consistent with
+      no population-wide surge and cannot see a small subgroup.
+
+  - id: cvc-vaccines-cause-cancer
+    state: proposed
+    statement_kind: judgment
+    statement: >
+      COVID-19 vaccination raises the risk of cancer in vaccinated people (in general, not only in
+      the rapid form).
+    evidence_class: interpretive
+    confidence: provisional
+    evidential_weight: 2   # of 5; two observational cohorts with disputed designs, one mechanism experiment in cell lines
+    anchor_checked: primary   # Kim 2025 (letter and additional files) and Acuti Martellucci 2025 read in full
+    adoption_weight: 3   # of 5
+    adoption_note: >
+      Cited as support in three review or opinion papers (Kuperwasser and El-Deiry 2026,
+      Gentilini 2026, Kakeya 2025); Senate subcommittee hearing title (3 Jun 2026) assumes
+      "Plausible Mechanisms of COVID-19 Injections Causing Cancer". Uses, not replications.
+    would_change_if: >
+      a cohort with a common start date and a lag period replicates a clear excess, or a
+      mechanism is shown in vaccinated animals or people
+    flagged_sources: [src-kim-2025]   # expression of concern; shown beside this claim (rule PS3)
+    anchor:
+      type: observational-cohorts-and-lab-work
+      description: >
+        Two cohorts report hazard ratios above 1 (cvc-korea-cohort-reports-excess,
+        cvc-italy-cohort-lag), both disputed (cvc-korea-cohort-bias-concerns); one cell-line
+        experiment (cvc-mechanism-spike-p53); mechanism reviews that name no tumour data
+        (cvc-mechanism-other-hypotheses). In the Seoul cohort the overall hazard ratio is highest for
+        adenoviral-vector vaccines (1.472) and lowest for mRNA only (1.199), the reverse of
+        what an mRNA-specific mechanism would suggest, as our observation, not the authors' claim.
+      accessible: true
+      sources: [src-kim-2025, src-kim-2025-supp, src-acuti-martellucci-2025, src-zhang-2024]
+    positions:
+      - label: "Yes (what exists)"
+        holder: "Kim et al. (Seoul); Acuti Martellucci et al. (Pescara); Kuperwasser and El-Deiry"
+        ground: >
+          Hazard ratios of 1.27 and 1.23 for cancer among vaccinated adults, and a compiled
+          pattern of case reports.
+      - label: "No / not shown"
+        holder: "NCI; EMA; ASCO; Locquet et al.; Roccetti; Kutsuna and Suzuki"
+        ground: >
+          No evidence of a causal link; one-year solid-tumour carcinogenesis is not biologically
+          plausible (Locquet; Kutsuna and Suzuki); design bias in the cohorts.
+    basis: >
+      Filed as `proposed` rather than `refuted` for the Rule 9 reason in
+      cvc-turbo-cancer-vaccine-caused. It is not a sign the claim is settled: the question has two
+      disputed positive studies and one disputed set of negatives (registry totals).
+
+  - id: cvc-cancer-incidence-higher-after-vaccination
+    state: contested
+    statement_kind: judgment
+    statement: >
+      COVID-19-vaccinated adults are diagnosed with cancer more often than unvaccinated adults
+      (hazard ratio 1.27 in a Seoul cohort and 1.23 for cancer hospital admission in a Pescara
+      cohort), and this reflects the vaccination and not how the groups were defined and followed.
+    evidence_class: synthetic
+    confidence: low
+    evidential_weight: 2   # of 5
+    anchor_checked: primary   # both papers, the Seoul additional files and the critiques read in full
+    adoption_weight: 2   # of 5
+    adoption_note: >
+      Cited as support by three papers; criticised by two published commentaries and by
+      FactCheck.org and Science Feedback (secondary, not opened). Adoption is information, not evidence.
+    would_change_if: >
+      a cohort with one common start date, a 6 to 12 month lag and a pre-specified outcome finds a
+      hazard ratio clearly above 1 (the claim would strengthen), or the same design finds it at 1
+      (it would weaken); or the Seoul journal's investigation ends in a correction or retraction
+    flagged_sources: [src-kim-2025]
+    disputed_by:
+      - {who: "Locquet M and colleagues, Frontiers in Public Health commentary (2026)", kind: work, position: "Different index dates in the two groups create calendar-time bias; surveillance bias with national screening; 30 uncorrected subgroup tests; one-year solid-tumour carcinogenesis does not seem biologically plausible; low-quality evidence by GRADE.", source_read: true, via: src-locquet-2026}
+      - {who: "Roccetti M, AIMS Public Health (2026)", kind: work, position: "The Seoul unvaccinated group has far fewer people aged 65 and over than national data and a cancer rate 45 percent below the national rate, which would inflate hazard ratios.", source_read: true, via: src-roccetti-2026}
+      - {who: "Kutsuna S and Suzuki T, JMA Journal (2026)", kind: work, position: "Letter on a related Japanese opinion paper that cites both the retracted Japan paper and the Seoul study as support; says a one-year effect on solid tumours is biologically implausible.", source_read: true, via: src-kutsuna-2026}
+      - {who: "National Cancer Institute and European Medicines Agency", kind: institution, position: "No evidence that COVID-19 vaccines cause cancer.", source_read: true, via: src-nci-2023}
+    anchor:
+      type: live-dispute
+      description: >
+        Seoul: Kim et al., Biomarker Research 2025;13:114 (a Letter), Korean National Health
+        Insurance claims, Seoul residents aged 20 and over, 595,007 unvaccinated and 2,380,028
+        vaccinated after 1:4 propensity matching; one-year follow-up; any cancer hazard ratio 1.27
+        (95% CI 1.21 to 1.33); the authors write "our findings do not establish causal
+        relationships" (Additional File 2). Pescara: Acuti Martellucci et al., EXCLI J 2025;24:690,
+        296,015 residents aged 11 and over, outcome first hospital admission with cancer; hazard
+        ratio 1.23 (1.11 to 1.37) for at least one dose and 1.09 (1.02 to 1.16) for three or more;
+        the authors call the findings "inevitably preliminary". Their critics and the cohort
+        limits are in cvc-korea-cohort-bias-concerns and cvc-cohort-limits.
+      accessible: true
+      sources: [src-kim-2025, src-kim-2025-supp, src-acuti-martellucci-2025, src-locquet-2026, src-roccetti-2026, src-kutsuna-2026]
+    positions:
+      - label: "Higher after vaccination"
+        holder: "Kim et al. (Seoul); Acuti Martellucci et al. (Pescara), each with a stated caution about cause"
+        ground: "Hazard ratios above 1 for cancer in vaccinated compared with unvaccinated adults."
+      - label: "Not shown to be an effect"
+        holder: "Locquet et al.; Roccetti; Kutsuna and Suzuki; NCI; EMA"
+        ground: "Different start dates, a low-incidence control group, surveillance bias and no lag period; no mechanism that acts within a year."
+    basis: >
+      Contested because both the data and their meaning are in dispute and the authors of both
+      studies stop short of cause. The incidence difference itself is reported in the papers; what
+      is contested is whether it is more than design.
+
+  - id: cvc-no-registry-surge
+    state: established
+    statement_kind: judgment
+    statement: >
+      In the national cancer series we read for the United States and Japan, age-standardised
+      all-cancer incidence fell in 2020 and returned toward earlier levels by 2021 to 2022, and
+      age-standardised all-cancer mortality kept falling to 2023 or 2024, so these series show no
+      surge in cancer after the 2021 vaccine rollout beyond long-running trends at particular sites.
+    evidence_class: synthetic
+    confidence: moderate
+    evidential_weight: 4   # of 5; the series were read directly, but they are ecological
+    anchor_checked: primary   # US 2025 report (full text) and the two Japanese national files read directly
+    adoption_weight: 3   # of 5
+    adoption_note: >
+      Stated in the Senate record by Sen. Blumenthal ("not supported") and in NCI, EMA and ASCO
+      statements. Adoption is information, not evidence.
+    would_change_if: >
+      a later year of the US or Japanese series, or the English registry, shows an age-standardised
+      all-cancer rise that cannot be traced to a long-running site trend; or an analysis with
+      individual vaccination status finds a rise in a subgroup that totals hide
+    anchor:
+      type: registry-series-read-directly
+      description: >
+        US: Sherman et al., Annual Report to the Nation 2025 (Cancer 2025, read in full): incidence
+        2017-2019 and 2021 aggregate 461.3 per 100,000, 2020 425.6; joinpoint all sites 2012-2021
+        annual percent change 0.1 (95% CI -0.1 to 0.3); mortality 2018-2022 146.0, average annual
+        change -1.5; joinpoint 2016-2019 -2.1 and 2019-2022 -1.3, "slowing" but not reversing; the
+        2026 report (abstract and CDC release only) reports mortality 2019-2023 falling 1.6 per year
+        in men and 1.1 in women and incidence rising slightly 2018 to 2022, "driven by increases in
+        breast cancer among women and prostate cancer among men". Japan: National Cancer Center
+        files read directly: age-standardised all-cancer mortality, both sexes, 278.9 (2019), 276.8
+        (2020), 275.0, 273.9, 268.4, 266.7 (2024); registry incidence 282.1 (2019), 263.6 (2020),
+        275.7, 271.9, 272.5 (2023). Not flat at every site: Japanese female breast cancer mortality
+        rose from 20.6 to 21.9 in 2022 and fell to 21.3 in 2023; leukaemia rose from 6.7 to 7.1 in
+        2022 and stayed there; pancreas has risen steadily since 2010. We did not test breakpoints
+        at the vaccine rollout ourselves.
+      accessible: true
+      sources: [src-arn-2025, src-arn-2026-abstract, src-cdc-arn-2026-release, src-seer-arn-2026-page, src-ncc-mortality-2024, src-ncc-incidence-2023]
+    positions:
+      - label: "No surge"
+        holder: "The registry series above"
+        ground: "Rates dipped in 2020 and then followed earlier trends; death rates kept falling."
+      - label: "Surge hidden by totals"
+        holder: "Not asserted by any source read; stated here as a limit"
+        ground: "Totals include every age and cancer type; a rise in a small subgroup would not move them."
+    basis: >
+      Our judgment, from the series themselves. Moderate, not high: the 2026 US report was read
+      only as an abstract and a press release, the English registry (403 to our proxy) and Danish
+      data were not read, and the series stop at 2023 (US mortality) or 2024 (Japan). Ecological
+      series have no vaccination status, so they cannot test causation in either direction and
+      cannot see a small group. The female incidence rise and the prostate rise pre-date the
+      vaccines in the US report's joinpoint tables (segments starting 2003 and 2014). The 2020 dip
+      complicates any reading of counts after it (cvc-pandemic-diagnosis-disruption).
+
+  - id: cvc-turbo-cancer-entity
+    state: proposed
+    statement_kind: judgment
+    statement: >
+      "Turbo cancer" is a recognised medical term for a defined kind of cancer.
+    evidence_class: interpretive
+    confidence: provisional
+    evidential_weight: 1   # of 5
+    anchor_checked: primary   # Szebeni 2025 (Oct), the Eens addendum and the ASCO testimony read
+    adoption_weight: 3   # of 5
+    adoption_note: "See cvc-turbo-cancer-vaccine-caused. Adoption is information, not evidence."
+    would_change_if: >
+      a published case definition for the term is adopted by a cancer society or tested in a
+      cohort, or an oncology guideline uses it
+    anchor:
+      type: usage-in-the-literature
+      description: >
+        The phrase is in a small number of review papers: our Europe PMC phrase searches returned
+        5 or 6 hits (the two research streams counted differently; log L-09), none an
+        epidemiological study. Szebeni (Pharmaceutics 2025, Oct) writes that the close timing of
+        blood-cell cancers and vaccination led to the concept of 'turbo cancer', "a highly debated
+        assertion on the acceleration of malignancy and rise in rapidly progressing new cancers
+        following vaccinations", and that "This concept is not accepted by mainstream medicine"; the Eens authors
+        write in their addendum that they "unequivocally disassociate ourselves from this term" and
+        "nor do we recognize it as a legitimate medical term"; ASCO's written testimony says the
+        appearance of late-stage aggressive tumours within weeks or months of an injection is
+        "biologically incompatible" with decades of research on cancer causes.
+      accessible: true
+      sources: [src-szebeni-2025-oct, src-szebeni-2025-apr, src-eens-addendum-2023, src-psi-gralow]
+    flagged_sources: [src-eens-2023]
+    basis: >
+      Filed as `proposed`. No source read gives the term a case definition (see
+      cvc-rapid-progression-gap). Its use in journals records adoption of the word, not a finding.
+
+  - id: cvc-rapid-progression-gap
+    state: searched_gap
+    statement_kind: search_result
+    statement: >
+      No controlled study we found defines rapid cancer progression, or aggressive cancer at
+      diagnosis, in advance and compares it, or cancer recurrence, between vaccinated and
+      unvaccinated people. The nearest are survival comparisons in patients starting
+      immunotherapy.
+    absence_anchor: true
+    evidence_class: primary_text
+    confidence: provisional
+    evidential_weight: 2   # of 5, for the existence of the gap
+    anchor_checked: secondary   # the dig's own search records
+    adoption_weight: 3   # of 5
+    adoption_note: >
+      Kuperwasser and El-Deiry say there are "no published population studies in the US with
+      mortality or cancer incidence follow-up beyond 42 days" (quoted, not verified by us). That
+      is their claim, recorded as adoption.
+    would_change_if: "a study of rapid progression or recurrence by vaccination status is published"
+    next_step: >
+      Match vaccinated and unvaccinated adults newly diagnosed with the same cancer type and
+      stage in a registry linked to vaccination records, define "rapid progression" before looking
+      (stage shift, time to recurrence, survival by stage), and report it with a 6 to 12 month
+      lag and a common start date (dt-rapid-progression-cohort).
+    anchor:
+      type: search-record
+      description: >
+        Searched PubMed and Europe PMC, 5 Oct 2026: "COVID-19 vaccination cancer risk cohort";
+        "turbo cancer COVID vaccine"; TITLE:"cancer" AND TITLE:"vaccinated" AND TITLE:"unvaccinated";
+        vaccination terms with Clalit or Israel; with Vaccine Safety Datalink or Kaiser; with
+        Netherlands, Denmark, Sweden, Norway or Finland; "excess mortality" AND cancer AND COVID;
+        and the citation lists of the Seoul, Pescara and Japanese papers. Hits were screened by
+        title and abstract. None is a study whose primary outcome is rapid progression or recurrence
+        by vaccination status outside immunotherapy cohorts (cvc-ici-patients-no-worse-survival).
+        The one Vaccine Safety Datalink hit was a mortality study with no cancer outcome. A title
+        and abstract screen can miss a study; the absence is a state of our search.
+      accessible: true
+    basis: >
+      A gap is not evidence of harm and not evidence of safety. It is the central open item:
+      the claim as proponents state it has not been tested, so the totals and the cohorts stand
+      in for it.
+
+  # =====================================================================
+  # B. THE EVIDENCE TESTS
+  # =====================================================================
+
+  - id: cvc-korea-cohort-reports-excess
+    state: established
+    statement_kind: reported
+    statement: >
+      Kim et al. (Biomarker Research, 26 Sep 2025, a Letter) report that among 2,975,035 matched
+      Seoul adults aged 20 and over in the Korean national health insurance database, vaccinated
+      people had more first cancer diagnoses in one year of follow-up than unvaccinated people:
+      overall hazard ratio 1.27 (95% CI 1.21 to 1.33), 42.62 against 33.43 per 10,000 at one year.
+      Site hazard ratios were 1.351 (thyroid), 1.335 (gastric), 1.283 (colorectal), 1.533 (lung),
+      1.197 (breast) and 1.687 (prostate).
+    evidence_class: primary_text
+    confidence: high
+    evidential_weight: 4   # of 5, for what the paper reports; the paper is not a test of cause (see cvc-korea-cohort-bias-concerns)
+    anchor_checked: primary   # letter, PMC XML and Additional Files 1 and 2 read
+    adoption_weight: 3   # of 5
+    adoption_note: >
+      Described as showing "27% higher overall" risk in Kuperwasser and El-Deiry and in Gentilini et
+      al.; cited as support in a JMA Journal letter (uses, not replications); criticised in two
+      commentaries and by FactCheck.org and Science Feedback (secondary).
+    would_change_if: >
+      the journal corrects or retracts the letter, or the Additional Files differ from the PMC copy read
+    flagged_sources: [src-kim-2025]   # expression of concern (rule PS3)
+    anchor:
+      type: the-document-itself
+      description: >
+        Kim HJ, Kim MH, Choi MG, Chun EM, Biomark Res 2025;13:114 (received 11 Jul 2025, accepted
+        21 Aug 2025), PubMed type Letter. Not "national": the cohort is Seoul residents. 8,407,849
+        screened (679,479 unvaccinated, 7,728,370 vaccinated); after exclusions and 1:4 greedy
+        propensity matching, 595,007 unvaccinated and 2,380,028 vaccinated; index date 1 Jan 2022
+        for the unvaccinated and the day after finishing the primary series for the vaccinated;
+        one-year follow-up; matching on age, sex, income proxy, Charlson index and prior SARS-CoV-2
+        infection (77.22 percent in both groups). The overall figure is in the additional files;
+        the letter's abstract gives site hazard ratios. Cumulative incidence per 10,000 at 1 month
+        2.91 against 1.63, at 1 year 42.62 against 33.43. By vaccine type, overall hazard ratio:
+        adenoviral only 1.472, heterologous 1.339, mRNA only 1.199. Booster against no booster
+        (n=1,067,688): overall 1.01 (0.95 to 1.06), pancreatic 2.25 (1.44 to 3.50), leukaemia 0.56
+        (0.35 to 0.92). Authors' limits (Additional File 2): "our findings do not establish causal
+        relationships"; one-year follow-up is short for solid tumours and "the possibility of reverse
+        causation or surveillance bias cannot be excluded".
+      accessible: true
+      sources: [src-kim-2025, src-kim-2025-supp, src-kim-2025-page]
+    basis: >
+      This claim records what the paper reports. Whether the difference is an effect is
+      cvc-cancer-incidence-higher-after-vaccination (contested). Our observation, not the
+      authors': the gap between the two groups is already present at one month, and the two
+      groups have different index-date definitions.
+
+  - id: cvc-korea-cohort-bias-concerns
+    state: contested
+    statement_kind: judgment
+    statement: >
+      The excess in the Seoul cohort is explained at least in part by how the two groups were
+      defined and followed: different start dates, an unvaccinated control group with a cancer rate
+      well below national figures, screening and surveillance differences, and many uncorrected
+      subgroup tests.
+    evidence_class: interpretive
+    confidence: low
+    evidential_weight: 2   # of 5
+    anchor_checked: primary   # the cohort's additional files, Locquet and Roccetti read
+    adoption_weight: 2   # of 5
+    adoption_note: "Two published critiques; also criticised by FactCheck.org and Science Feedback (secondary, not opened)."
+    would_change_if: >
+      the authors publish a reply or a re-analysis with a common start date, a lag period and
+      delayed-entry modelling and the excess remains (the claim weakens) or disappears (it strengthens)
+    flagged_sources: [src-kim-2025]
+    disputed_by:
+      - {who: "Kim HJ and colleagues (authors of the Seoul letter)", kind: group, position: "Single-payer access reduces surveillance differences; they acknowledge reverse causation and surveillance bias cannot be excluded and that the findings do not establish cause. No reply to the commentaries was found.", source_read: true, via: src-kim-2025-supp}
+    anchor:
+      type: live-dispute
+      description: >
+        Locquet et al., Front Public Health 2026;14:1772406: different index dates (vaccination date
+        against 1 Jan 2022) create "calendar time" bias without time-dependent or delayed-entry
+        modelling; matching targets the effect in the vaccinated; 77.22 percent prior infection
+        with no sensitivity analysis excluding it; surveillance bias for screened cancers
+        (thyroid, breast, gastric, colorectal); 30 subgroup analyses uncorrected for multiplicity;
+        "One-year solid tumor carcinogenesis does not seem biologically plausible"; asks for a lag
+        of 6 to 12 months; rates the evidence low quality by GRADE. One author reports personal
+        fees from pharmaceutical and diagnostic firms. Roccetti, AIMS Public Health 2026 (single
+        author, benchmark audit): in the cohort 12.2 percent were aged 65 and over against 18
+        percent nationally, and cancer incidence in the unvaccinated aged 65 and over was 85.2
+        against 155.2 per 10,000 nationally (45.1 percent lower); argues a deflated control
+        baseline inflates the hazard ratios. Our caveat: Roccetti compares a Seoul-only matched
+        cohort with national figures and uses figures taken from the letter.
+      accessible: true
+      sources: [src-locquet-2026, src-roccetti-2026, src-kim-2025-supp]
+    positions:
+      - label: "Design explains much of it"
+        holder: "Locquet et al.; Roccetti; Kutsuna and Suzuki"
+        ground: "Asymmetric start dates, a low-baseline control group, surveillance and multiplicity."
+      - label: "Authors' position"
+        holder: "Kim et al."
+        ground: "Report the ratios; say they do not establish cause; argue access to care is similar."
+    basis: >
+      Contested, not established: the critics' arguments are specific and checkable, but no
+      re-analysis has been published, and Roccetti's benchmark is a single author's comparison with
+      national data. An unresolved notice of concern is on the article (cvc-sq-korea-concern-outcome).
+
+  - id: cvc-italy-cohort-lag
+    state: established
+    statement_kind: reported
+    statement: >
+      Acuti Martellucci et al. (EXCLI Journal, July 2025) report that in 296,015 residents of
+      Pescara province aged 11 and over, first hospital admission with cancer was more frequent
+      after at least one dose (hazard ratio 1.23, 1.11 to 1.37) and three or more doses (1.09,
+      1.02 to 1.16) than with none, and that with a 365-day minimum lag the one-dose association was
+      no longer significant and the three-dose hazard ratio was 0.90 (0.83 to 0.98).
+    evidence_class: primary_text
+    confidence: high
+    evidential_weight: 4   # of 5, for what the paper reports
+    anchor_checked: primary   # the paper (PMC) and the exchange of letters read
+    adoption_weight: 2   # of 5
+    adoption_note: "Cited in the scoping review and in Gentilini et al. as an association. Four letters and replies were published."
+    would_change_if: "the authors or a critic publish a corrected analysis that changes the figures"
+    anchor:
+      type: the-document-itself
+      description: >
+        Acuti Martellucci C et al., EXCLI J 2025;24:690-707, DOI 10.17179/excli2025-8400. Follow-up
+        27 Jun 2021 to 31 Dec 2023, 180-day minimum lag between exposure and outcome (90 and 365
+        days as sensitivity runs). Unvaccinated 49,265, at least one dose 246,750, three or more
+        183,999. Outcome: first admission with a cancer diagnosis in the regional discharge database
+        (skin cancer excluded; admissions in the previous 10 years excluded), not registry
+        incidence; 3,134 admissions. Cox models adjusted for age, sex, prior infection, diabetes,
+        hypertension, cardiovascular disease, COPD, kidney disease and prior cancer admission; no
+        smoking, screening or healthcare-use data. Crude proportions 0.85 percent (unvaccinated)
+        and 1.15 percent (at least one dose). Without a recorded prior infection the hazard ratios
+        were 1.31 (1.16 to 1.47) and 1.11 (1.03 to 1.20). Breast, bladder and colorectal were raised
+        at one dose; lung, ovary and thyroid were not. All-cause death hazard ratio 0.42 (0.39
+        to 0.44) for at least one dose, which the authors ascribe to healthy-vaccinee bias. The authors
+        write: "Given that it was not possible to quantify the potential impact of the healthy
+        vaccinee bias and unmeasured confounders, these findings are inevitably preliminary."
+        Letters: Malatesta et al. argue the mortality result reflects immortal-time bias; Manzoli
+        et al. reply that age-adjusted models align time zero. Those exchanges are about
+        mortality, not the cancer outcome.
+      accessible: true
+      sources: [src-acuti-martellucci-2025, src-malatesta-2025, src-manzoli-reply-2025, src-excli-exchange-2026]
+    basis: >
+      Reported, with the lag result alongside: an association that vanishes or reverses when the
+      early months and then a full year are excluded is the pattern the critics of cohort designs
+      predict for bias, and the pattern an effect that takes years to arise would also show for a
+      one-year lag. We do not adjudicate; the authors' own words are that the results are
+      preliminary. The critics of the Italian paper are not on the reassurance side: they argue
+      its mortality benefit is an artefact.
+
+  - id: cvc-cohort-limits
+    state: established
+    statement_kind: judgment
+    statement: >
+      Both cohorts compare people who chose to be vaccinated with people who did not, take their
+      outcomes from claims or hospital records and not from cancer registries, and have no data on
+      smoking or screening; their authors state that the results do not establish cause.
+    evidence_class: primary_text
+    confidence: high
+    evidential_weight: 4   # of 5
+    anchor_checked: primary
+    adoption_weight: 2   # of 5
+    adoption_note: "Not measured."
+    would_change_if: >
+      a cohort with randomised or registry-verified exposure and outcome, and data on screening,
+      is published
+    flagged_sources: [src-kim-2025]
+    anchor:
+      type: the-documents-themselves
+      description: >
+        Seoul: outcome is the first primary diagnosis of cancer in insurance claims; Additional File 2
+        says "the possibility of reverse causation or surveillance bias cannot be excluded".
+        Pescara: outcome is hospital admission with a cancer diagnosis, which the authors say
+        "represent only a proxy of the total new cases of cancer"; smoking unknown. Pescara's
+        all-cause death hazard ratio of 0.42 for at least one dose, which no one reads as a
+        protective effect of that size, is the authors' own evidence that bias between vaccinated and
+        unvaccinated groups in this setting is large (our reading; the authors say so for mortality).
+        Neither study can say whether cancers were found earlier because vaccinated people use
+        more healthcare, or found later because they did not.
+      accessible: true
+      sources: [src-kim-2025-supp, src-acuti-martellucci-2025]
+    basis: >
+      Our judgment from the authors' stated limits. It is a limit on both positive cohorts, not a
+      conclusion that they are wrong. Bias could also run the other way: the Italian authors say
+      healthy-vaccinee bias can cause underestimation of harm for lifestyle-linked cancers.
+
+  - id: cvc-case-reports-no-denominator
+    state: established
+    statement_kind: judgment
+    statement: >
+      Published case reports and small series of cancers appearing, recurring or progressing after
+      COVID-19 vaccination describe individual patients; they have no comparison group and no
+      denominator, so they cannot show how often this happens or whether it is more than expected.
+    evidence_class: primary_text
+    confidence: high
+    evidential_weight: 4   # of 5
+    anchor_checked: primary   # the review and Goldman 2021 read in full; other case reports as abstracts
+    adoption_weight: 3   # of 5
+    adoption_note: >
+      The review was cited in testimony to a Senate subcommittee ("nearly 70 publications ...
+      more than 300 reported cancer cases from 27 countries") and in two slides at a CDC advisory
+      meeting. Adoption is information, not evidence.
+    would_change_if: >
+      a registry-linked analysis of the same cancer types shows the reported patterns more often in
+      vaccinated than unvaccinated people
+    anchor:
+      type: the-document-itself
+      description: >
+        Kuperwasser C, El-Deiry WS, Oncotarget 2026 (3 Jan 2026): 69 publications (January 2020
+        to October 2025 per the abstract), 66 article-level reports of 333 patients in 27
+        countries; reports of lymphomas, leukaemias, breast, lung, melanoma, sarcoma, pancreas,
+        glioma, Kaposi and Merkel; recurring themes of "unusually rapid progression, recurrence, or
+        reactivation". The review also covers cancers after infection. Its authors' limits: most
+        reports are single-patient descriptions or small series, "highly susceptible to publication
+        bias and selective reporting", and the review is "not designed to estimate cancer risk or
+        incidence, nor to draw causal inferences". Search was by the authors with non-systematic web
+        searches added. The Editor-in-Chief, El-Deiry, is also an author, was not involved in the
+        peer review, and emailed the manuscript to the NCI Director on 12 Dec 2025 (editorial note in
+        the paper).
+      accessible: true
+      sources: [src-kuperwasser-2026, src-goldman-2021, src-vaccines-2025-cutaneous, src-ijo-2022, src-jeadv-2022, src-gentilini-2026]
+    basis: >
+      Counts in the sources differ in how they split the 69 items (one reading: 50 case reports, 5
+      series, 3 reviews, 8 population items; the paper's text: 55 of 69, 81 percent, single-patient
+      reports or small series; log L-09). The conclusion does not depend on which. Mistiming and
+      confounding are possible in any single report; so is a real effect; a report cannot say which.
+
+  - id: cvc-goldman-aitl-case
+    state: established
+    statement_kind: reported
+    statement: >
+      Goldman et al. (Frontiers in Medicine, 2021) report one 66-year-old man with angioimmunoblastic
+      T-cell lymphoma whose whole-body total lesion glycolysis was 5.3 times higher on a second PET
+      scan 22 days after the first, 8 days after a booster dose, with new lesion sites; the authors
+      call the progression "highly unexpected" and say extrapolating to other patients is premature.
+    evidence_class: primary_text
+    confidence: high
+    evidential_weight: 3   # of 5, for what the report documents
+    anchor_checked: primary
+    adoption_weight: 2   # of 5
+    adoption_note: "Not measured. Included in the scoping review's list."
+    would_change_if: "not applicable: a report of one patient; a cohort would test the pattern"
+    anchor:
+      type: the-document-itself
+      description: >
+        Goldman S et al., Front Med 2021;8:798095. Biopsy after a PET/CT on 8 Sept 2021 showing
+        stage IV-pattern disease; two vaccine doses 5 to 6 months earlier; booster 14 days after the
+        first PET; steroids started right after; antibody titres unchanged. The authors write that
+        extrapolation of the findings to other patients is premature; no comparison patients. Our
+        observation, not the authors': the same 22 days include an untreated aggressive lymphoma, a
+        flu-like illness at presentation, and a short interval between scans.
+      accessible: true
+      sources: [src-goldman-2021]
+    basis: >
+      An example of what a case report contains: a documented sequence and a plausible reading,
+      without a way to separate the vaccine from the disease's own course.
+
+  - id: cvc-eens-mouse-case-report
+    state: established
+    statement_kind: reported
+    statement: >
+      Eens et al. (Frontiers in Oncology, 1 May 2023) report one BALB/c mouse, one of a group of 14
+      given high-dose intravenous BNT162b2 in a myocarditis model, that was found dead two days
+      after the booster with a B-cell lymphoblastic lymphoma; the authors say "a demonstration of
+      direct causality remains difficult" and, in an addendum, that over 70 other BALB/c mice they
+      injected did not develop haematologic malignancy.
+    evidence_class: primary_text
+    confidence: high
+    evidential_weight: 3   # of 5, for what the report documents
+    anchor_checked: primary   # paper (PubMed record and text) and addendum read
+    adoption_weight: 3   # of 5
+    adoption_note: "Widely circulated; see cvc-eens-proved-turbo-cancer. Adoption is information, not evidence."
+    would_change_if: "the journal retracts the paper or the authors publish further animal data"
+    flagged_sources: [src-eens-2023]   # corrected by addendum (rule PS3)
+    anchor:
+      type: the-document-itself
+      description: >
+        Eens S et al., Front Oncol 2023;13:1158124 (PMID 37197431). Single mouse; CD19-, TdT- and
+        c-MYC-positive lymphoid neoplasm; vaccination intravenous (not intramuscular) and high
+        dose; found dead two days after the booster at 14 weeks. Addendum (doi
+        10.3389/fonc.2023.1267904, 20 Oct 2023): "we have injected over 70 BALB/c mice ... Excluding
+        the published case report, none of these other vaccinated animals developed hematologic
+        malignancies of any type"; spontaneous lymphoma is known in the strain; "case reports ...
+        do not test correlation between variables, nor are they used to demonstrate causality".
+        FactCheck.org (2023-08-31, secondary) says 1 of 14 high-dose mice died of lymphoma.
+      accessible: true
+      sources: [src-eens-2023, src-eens-addendum-2023, src-factcheck-2023]
+    basis: >
+      Not retracted. The paper stays in the record with its addendum.
+
+  - id: cvc-eens-proved-turbo-cancer
+    state: refuted
+    statement_kind: reported
+    refutes_target: >
+      Social-media posts of 2023 presenting Eens et al. as proving that Pfizer mRNA induced "turbo
+      cancer" (post text "SHOCKING: New Study proves Pfizer mRNA induced turbo cancer", as quoted by
+      FactCheck.org, 31 Aug 2023)
+    statement: >
+      The Eens et al. 2023 mouse case report proved that Pfizer's mRNA vaccine induced "turbo cancer".
+    evidence_class: primary_text
+    refutation_class: narrative_drift
+    confidence: high
+    evidential_weight: 5   # of 5, for the refutation
+    anchor_checked: primary   # the authors' own addendum read
+    adoption_weight: 3   # of 5
+    adoption_note: "Spread widely in 2023 (FactCheck.org). Adoption is information, not evidence."
+    would_change_if: >
+      the authors retract their addendum, or the paper is shown to say what the posts claimed
+    flagged_sources: [src-eens-2023]
+    anchor:
+      type: the-document-itself
+      description: >
+        The paper is a case report of one mouse in which the authors write that "a demonstration of
+        direct causality remains difficult". Their addendum of 20 Oct 2023 says: "we wish to
+        unequivocally disassociate ourselves from this term. In our case report, there is not a
+        single reference to a condition called 'turbo cancer', nor do we recognize it as a
+        legitimate medical term"; the vaccine was given intravenously at high dose in a
+        myocarditis-model replication.
+      accessible: true
+      sources: [src-eens-2023, src-eens-addendum-2023, src-factcheck-2023]
+    basis: >
+      Refuted on primary text: the source of the claim says it does not claim this. It is the
+      post that drifted from the paper (`narrative_drift`), not the paper that is wrong. A
+      refutation of the posts does not test whether vaccines cause cancer.
+
+  - id: cvc-ici-patients-no-worse-survival
+    state: proposed
+    statement_kind: judgment
+    statement: >
+      In four observational cohorts of patients starting immune checkpoint inhibitors, those
+      vaccinated against COVID-19 around the start of treatment had no worse survival than
+      unvaccinated patients (hazard ratios 0.51 to 0.90 for death or survival); one cohort also
+      reports more immune-related adverse events (hazard ratio 1.22), and the largest independent
+      cohort found no significant association after 12 months.
+    evidence_class: synthetic
+    confidence: low
+    evidential_weight: 2   # of 5
+    anchor_checked: secondary   # Grippin read in full; the other three read as abstracts
+    adoption_weight: 2   # of 5
+    adoption_note: "The Nature paper is widely noticed; Kuperwasser and El-Deiry criticise its interpretation."
+    would_change_if: >
+      a prospective study or a cohort with a negative-control vaccine finds worse survival in
+      vaccinated patients, or confirms a durable benefit
+    anchor:
+      type: observational-cohorts
+      description: >
+        Grippin et al., Nature 2025;647:488-497: MD Anderson, 180 vaccinated within 100 days of
+        starting immunotherapy and 704 not (non-small-cell lung); adjusted for 39 covariates;
+        median survival 20.6 against 37.3 months as printed, adjusted hazard ratio 0.51 (0.37 to
+        0.71); no benefit around chemotherapy alone or with influenza or pneumonia vaccines; mice and
+        healthy volunteers show a rise in type I interferon. Single-centre cohort, retrospective.
+        Nature Medicine 2026 (abstract): French national claims, 95,015 adults; pre-treatment mRNA
+        vaccination hazard ratio for death 0.90 (0.87 to 0.94) at 1 to 3 months, 0.96 (0.93 to
+        1.00) at 6 months, "no significant association after 12 months", with "similar early
+        patterns with non-mRNA COVID-19 and other adult vaccines" suggesting "modest, transient
+        associations or healthy-vaccinee effects". European Journal of Cancer 2026 (abstract): 281
+        patients, 47 vaccinated, median 51.0 against 21.0 months, hazard ratio 0.615 (0.407 to
+        0.928). Journal for ImmunoTherapy of Cancer 2026 (abstract): 3,609 matched pairs,
+        mortality hazard ratio 0.86 (0.80 to 0.93), immune-related adverse events 1.22 (1.17 to
+        1.28), severe 1.11, ICU admission 0.43.
+      accessible: true
+      sources: [src-grippin-2025, src-natmed-2026, src-ejc-2026, src-jitc-2026]
+    basis: >
+      Filed as `proposed`: observational, mostly one-institution or abstract-level, and subject
+      to the healthy-vaccinee effects the French cohort names. It bears on the question only in
+      one direction (no sign of harm in this group) and covers only patients on immunotherapy; it
+      is not a test of recurrence or progression in other patients.
+
+  - id: cvc-pandemic-diagnosis-disruption
+    state: established
+    statement_kind: reported
+    statement: >
+      In 2020 new cancer diagnoses fell sharply in many countries because of disrupted screening and
+      care, and then returned toward expected levels; this complicates any reading of cancer counts
+      from 2020 onward.
+    evidence_class: synthetic
+    confidence: high
+    evidential_weight: 4   # of 5
+    anchor_checked: primary   # the US report and the Japanese files read directly; the other series as abstracts
+    adoption_weight: 3   # of 5
+    adoption_note: "Not disputed in any source read."
+    would_change_if: "a later series shows the 2020 deficit was not recovered or was larger than recorded"
+    anchor:
+      type: registry-series-read-directly
+      description: >
+        US (Annual Report to the Nation 2025, read in full): 2020 incidence 425.6 against 461.3 for the
+        other years, about 8 percent lower; earlier reports cited 2020 diagnoses "9%-10% lower than
+        expected overall", with screenable sites (prostate rate ratio 0.83 to 0.86, thyroid about
+        0.81, lung 0.86 to 0.87) falling most; the authors write that "additional data years are
+        needed to correctly interpret this decline and assess whether cases went undiagnosed or
+        underreported, because the rates in 2021 were not greater than expected". Japan: registry
+        incidence 282.1 (2019) to 263.6 (2020), 275.7 in 2021, still below 2019 in 2022 and 2023;
+        community screening fell 24.4 percent in 2020 (Gibo discussion). Abstract-level: US
+        Bayesian model 6.7 percent fewer cases than expected in 2020 to 2022 and "substantial
+        numbers of unaccounted-for cases remained"; seven-country benchmarking, 16 percent
+        deficit April to December 2020; England prostate down 31 percent in 2020 and back to
+        expected by 2022; Nordic first-wave declines of 7.9 to 21.7 percent; Hungary 12.8 percent lower in men.
+      accessible: true
+      sources: [src-arn-2025, src-ncc-incidence-2023, src-seer-cross-2025, src-icbp-2026, src-opensafely-prostate-2024, src-breast-england-2023, src-nordic-2025, src-hungary-2026]
+    basis: >
+      It bears on the claim two ways: a later catch-up could produce later-stage diagnoses for
+      reasons unrelated to vaccination, and a rise in late-stage cases is what both sides would
+      predict. A "rise after 2021" cannot be read from counts without this.
+
+  - id: cvc-military-nhl-counts
+    state: established
+    statement_kind: reported
+    statement: >
+      A US military surveillance report counted incident non-Hodgkin lymphoma in active-duty service
+      members as 40, 34, 30, 29, 30, 38 and 43 cases in 2017 to 2023 (rates 3.0, 2.5, 2.2, 2.1, 2.2,
+      2.8 and 3.3), mentions no vaccination and attributes nothing to it; a 2026 review cites it
+      as a "~50% increase" (2.2 in 2021 to 3.3 in 2023), while 2023 is 10 percent above 2017.
+    evidence_class: synthetic
+    confidence: high
+    evidential_weight: 3   # of 5
+    anchor_checked: primary
+    adoption_weight: 2   # of 5
+    adoption_note: "Cited in the scoping review as a population-level signal."
+    would_change_if: "the report is revised or a later report attributes the change to a cause"
+    anchor:
+      type: the-document-itself
+      description: >
+        Non-Hodgkin lymphoma incidence in active component U.S. service members, MSMR 2025
+        (PMID 40019944), Defense Medical Surveillance System, 621 incident cases 2017-2023;
+        "Specified and unspecified NHL" counts and rates as above; mature T/NK counts 9, 13, 9, 8,
+        17, 14, 14. The report notes a "modest increase". The units are inconsistent inside the
+        document (table footnote per 10,000 person-years, text per 100,000). Counts are in the
+        tens. The 10 percent figure is Strata's own arithmetic from 3.0 and 3.3.
+      accessible: true
+      sources: [src-msmr-nhl-2025, src-kuperwasser-2026]
+    basis: >
+      A surveillance report, not a peer-reviewed study. Whether 2022 and 2023 counts are higher
+      than chance is not tested in it. The comparison base matters: against 2021 the rise is
+      large; against 2017 it is small.
+
+  - id: cvc-gibo-paper-retracted
+    state: established
+    statement_kind: reported
+    statement: >
+      A 2024 Cureus paper by Gibo et al. reporting excess age-adjusted cancer mortality in Japan
+      after the third mRNA dose (2.1 higher in 2022 than an extrapolated line) was retracted on
+      26 June 2024 after an expression of concern on 12 June, with the editors writing that the
+      correlation between mortality rates and vaccination status cannot be proven with the data
+      presented; the authors disagree, and the paper is still cited as support.
+    evidence_class: primary_text
+    confidence: high
+    evidential_weight: 5   # of 5, for the retraction as a fact
+    anchor_checked: primary   # retraction notice (Europe PMC copy) and the paper read; the expression of concern as a PubMed record only
+    adoption_weight: 2   # of 5
+    adoption_note: >
+      Still cited as support in Gentilini et al. (2026, which acknowledges the retraction) and in a
+      JMA Journal opinion paper (Kutsuna and Suzuki note this). Adoption is information, not evidence.
+    would_change_if: "the journal reverses the retraction"
+    flagged_sources: [src-gibo-2024]   # retracted; shown beside this claim (rule PS3)
+    anchor:
+      type: retraction-notice-and-the-paper
+      description: >
+        Retraction notice, Cureus 2024 (doi 10.7759/cureus.r143), read in the Europe PMC copy:
+        "The Editors-in-Chief have retracted this article. Upon post-publication review, it has been
+        determined that the correlation between mortality rates and vaccination status cannot be
+        proven with the data presented in this article. As this invalidates the conclusions of the
+        article, the decision has been made to retract. The authors disagree with this retraction."
+        The paper (doi 10.7759/cureus.57860): descriptive ecological time-series of Japanese
+        vital statistics, logistic extrapolation of 2010-2019 (10 points) to predict 2020-2022,
+        no individual vaccination status (vaccination coverage appears only as a monthly series), 20
+        cancer types tested with no multiplicity correction described; excess for all cancers
+        -0.4 (2020), 1.1 (2021) and 2.1 (2022), 7,162 excess deaths in 2022 (95% CI 4,786 to 9,522);
+        observed all-cancer age-adjusted rates 275.5, 275.8 and 274.6 per 100,000, so the observed
+        rate did not rise in 2022. Its own limits: "has not been clinically validated"; further
+        analytical statistics by vaccination status are needed. The paper also notes that 2020
+        screening fell. Cureus pages returned 403 here; the expression-of-concern text was not read.
+      accessible: true
+      sources: [src-gibo-2024, src-gibo-retraction-2024, src-gibo-eoc-2024, src-ncc-mortality-2024]
+    basis: >
+      A retraction removes a paper from the citable record; it does not show the opposite
+      conclusion. Another retraction touches the wider claim: a 2024 Cureus review (Mead et al.)
+      that listed cancer among serious adverse events was retracted on 26 Feb 2024 for unreliable
+      conclusions and misrepresented references (read in c2 notes; not in this dig's manifest, log L-08).
+
+  # =====================================================================
+  # C. MECHANISM AND LABEL
+  # =====================================================================
+
+  - id: cvc-mechanism-spike-p53
+    state: established
+    statement_kind: reported
+    statement: >
+      Zhang and El-Deiry (Oncotarget, May 2024) report that in two human cell lines lacking p53
+      (U2OS p53-knockout and HCT116 p53-null) given wild-type p53, spike protein expressed from a
+      plasmid reduced MDM2-p53 co-precipitation and p53 reporter activity and blunted the rise of
+      p21, DR5 and MDM2 after cisplatin or nutlin; the authors did not detect spike bound to p53,
+      saw no cell-cycle arrest, and call the observations preliminary.
+    evidence_class: primary_text
+    confidence: moderate
+    evidential_weight: 3   # of 5, for what the experiment reports
+    anchor_checked: primary
+    adoption_weight: 3   # of 5
+    adoption_note: >
+      Presented as a mechanism in Senate testimony (El-Deiry, 3 Jun 2026) and in a 2026 hypothesis
+      paper by the same author; El-Deiry says his work has been attacked on PubPeer and that "we
+      corrected minor errors where appropriate" (not verified). Adoption is information, not evidence.
+    would_change_if: >
+      the effect is replicated in vaccinated animals or in tumour tissue from vaccinated patients
+      (it would strengthen), or fails to replicate in an independent laboratory (it would weaken)
+    anchor:
+      type: the-document-itself
+      description: >
+        Zhang S, El-Deiry WS, Oncotarget 2024 (PMID 38709242; received 16 Apr, accepted 30 Apr 2024).
+        Plasmid pcDNA3.1-SARS2-spike transfected into cancer cell lines with co-transfected wild-type
+        p53; effects on co-immunoprecipitation, a PG13-luciferase reporter and downstream proteins;
+        cisplatin-treated spike cells had higher viability. Authors: "did not detect SARS-CoV-2
+        spike bound with p53", "preliminary observations ... warrant further studies". Competing
+        interest in the paper: the corresponding author is cofounder of Oncoceutics, p53-Therapeutics
+        and SMURF-Therapeutics. A 2026 hypothesis paper by El-Deiry (PMID 41498241) adds an
+        anecdote of a recurrence after vaccination relayed from a third party.
+      accessible: true
+      sources: [src-zhang-2024, src-eldeiry-hypothesis-2026, src-psi-el-deiry]
+    basis: >
+      Records the observation. What it does not show: no vaccine-delivered spike, no animal or human
+      tumour data, no transformation or oncogenesis assay, and the effect is in cancer cell lines under
+      overexpression. Whether a vaccine can cause cancer by this route is cvc-mechanism-other-hypotheses
+      (proposed).
+
+  - id: cvc-mechanism-igg4-tumour-link
+    state: proposed
+    statement_kind: judgment
+    statement: >
+      The shift toward IgG4 antibodies after repeated mRNA doses weakens the body's antibody defence
+      against tumours.
+    evidence_class: interpretive
+    confidence: provisional
+    evidential_weight: 1   # of 5
+    anchor_checked: secondary   # the serology papers searched in full text for tumour terms; the tumour link taken from other literature not opened
+    adoption_weight: 2   # of 5
+    adoption_note: "Quoted in the retracted Japan paper, in Kakeya et al. and in Szebeni's review, and in the ACIP workgroup slides. Adoption is information, not evidence."
+    would_change_if: >
+      a study shows spike-specific IgG4 impairing anti-tumour antibody effects in vaccinated people,
+      or higher cancer incidence in people with higher IgG4 after vaccination
+    anchor:
+      type: serology-without-tumour-data
+      description: >
+        Irrgang et al., Sci Immunol 2023: the IgG4 share of spike-specific IgG rose from 0.04 percent
+        after dose 2 to 19.27 percent after dose 3; not seen after adenoviral vaccines; reduced
+        phagocytosis and complement activity. Our text search of this paper and of the 2024 Immunity
+        and Ageing paper for "cancer", "tumor", "tumour" and "malignan" found no hits. Cell Reports 2025:
+        spike IgG4 is "only inhibitory when directly competing with functional IgG subclasses" and
+        cytotoxicity in plasma "was not depleted by adding a cocktail of Spike-specific IgG4 monoclonal
+        antibodies". The link from IgG4 to tumours is borrowed from other literature (one mouse study
+        cited by Gibo, not opened).
+      accessible: true
+      sources: [src-irrgang-2023, src-cellrep-igg4-2025, src-immunageing-2024]
+    basis: >
+      The IgG4 rise itself is a reported serology finding; the claim is the step from it to cancer, which no source read tests.
+
+  - id: cvc-mechanism-interferon-suppression
+    state: proposed
+    statement_kind: judgment
+    statement: >
+      mRNA vaccination suppresses type I interferon signalling enough to impair cancer surveillance.
+    evidence_class: interpretive
+    confidence: provisional
+    evidential_weight: 1   # of 5
+    anchor_checked: secondary
+    adoption_weight: 2   # of 5
+    adoption_note: "Quoted in the retracted Japan paper and by Isidoro. Adoption is information, not evidence."
+    would_change_if: "measurements in vaccinated people show a lasting fall in interferon responses linked to tumour outcomes"
+    anchor:
+      type: narrative-review
+      description: >
+        Seneff et al., Food and Chemical Toxicology 2022;164:113008: a hypothesis and narrative review
+        using VAERS counts and the literature, no tumour data. A 2023 letter (Barriere et al., FCT
+        178:113897) lists "major misunderstandings of the literature" and says VAERS was misused; a
+        corrigendum to that letter was published 25 Sep 2026 (not read). Grippin et al. (Nature 2025)
+        report the opposite direction, "a substantial increase in type I interferon" after COVID
+        mRNA vaccines in mice and humans.
+      accessible: true
+      sources: [src-seneff-2022, src-barriere-2023, src-grippin-2025]
+    basis: >
+      A hypothesis paper; the one direct measurement we read points the other way.
+
+  - id: cvc-mechanism-other-hypotheses
+    state: proposed
+    statement_kind: judgment
+    statement: >
+      COVID-19 vaccination causes cancer through one of several other proposed routes: spread of
+      vaccine mRNA or spike to bone marrow with lymphopenia, microRNA in exosomes, spike binding
+      oestrogen receptor alpha or BRCA and p53 proteins, integration of residual vaccine DNA, or
+      promotion of dormant disease in a "multi-hit" model.
+    evidence_class: interpretive
+    confidence: provisional
+    evidential_weight: 1   # of 5
+    anchor_checked: secondary   # reviews read for what they say; underlying papers not opened
+    adoption_weight: 3   # of 5
+    adoption_note: "Raised in Senate testimony and the Florida correspondence (residual DNA). Adoption is information, not evidence."
+    would_change_if: >
+      integration of vaccine DNA into human cells, or tumour formation by it, is shown in vaccinated
+      people or animals with validated assays
+    anchor:
+      type: reviews-and-hypotheses
+      description: >
+        Narrative reviews, in silico docking, in vitro work and case reports. Isidoro, Cancers 2025:
+        "it appears extremely unlikely that SARS-CoV-2 and anti-COVID-19 mRNA vaccines elicit
+        genotoxic events and cause neo-cancerogenesis in a short time", proposing non-genotoxic
+        effects and writing "While a causal link cannot be established at this stage". Szebeni,
+        Pharmaceutics 2025 (Oct): DNA integration evidence "is heavily argued in the cancer field".
+        Valdes Angues and Perea Bustos, Cureus 2023, is a review; its conclusion urges caution for
+        patients with cancer. EMA: no evidence linking residual plasmid DNA to side effects, and high-DNA
+        claims "are based on results from unvalidated tests used by third parties". FDA (Marks): residual DNA
+        fragments reaching the nucleus and chromosomes is "quite implausible". Underlying residual-DNA
+        papers were not opened (cvc-sq-dna-contamination).
+      accessible: true
+      sources: [src-szebeni-2025-oct, src-isidoro-2025, src-valdes-angues-2023, src-ema-key-facts, src-fda-marks-2023]
+    basis: >
+      None was tested in vaccinated tumour-bearing people. Regulators and some of the reviews'
+      own authors rate the genotoxic routes unlikely; that is expert opinion, not a measurement.
+
+  - id: cvc-fda-label-not-evaluated
+    state: established
+    statement_kind: reported
+    statement: >
+      The FDA prescribing information for COMIRNATY (revised August 2026), section 13.1, says:
+      "COMIRNATY has not been evaluated for the potential to cause carcinogenicity, genotoxicity, or
+      impairment of male fertility."
+    evidence_class: primary_text
+    confidence: high
+    evidential_weight: 5   # of 5, for what the label says
+    anchor_checked: primary
+    adoption_weight: 2   # of 5
+    adoption_note: "Cited by people on the claim's side as an admission. Adoption is information, not evidence."
+    would_change_if: "the label is revised to report such an evaluation"
+    anchor:
+      type: the-document-itself
+      description: >
+        Section 13.1 of the prescribing information, read in the FDA copy (https://www.fda.gov/media/151707/download,
+        formula 2026-2027, revised 8/2026); excerpt saved in sources/. The sentence says "not evaluated".
+      accessible: true
+      sources: [src-comirnaty-pi]
+    basis: >
+      What it is: a statement that a non-clinical test was not run. What it is not: a finding that the
+      vaccine causes cancer, and not a finding that it does not. We did not check whether other
+      products' labels carry the same sentence.
+
+  # =====================================================================
+  # D. ADOPTION: WHAT INSTITUTIONS AND PEOPLE SAID
+  # =====================================================================
+
+  - id: cvc-health-bodies-no-evidence
+    state: established
+    statement_kind: reported
+    statement: >
+      The US National Cancer Institute (page updated 10 Oct 2023), the European Medicines Agency
+      (page dated 8 Apr 2026), the American Cancer Society (2024 version of its page) and ASCO (written
+      testimony, 3 Jun 2026) each state that there is no evidence, information or clinical evidence
+      that COVID-19 vaccines cause cancer.
+    evidence_class: primary_text
+    confidence: high
+    evidential_weight: 4   # of 5, for what the statements say
+    anchor_checked: primary
+    adoption_weight: 4   # of 5
+    adoption_note: >
+      The NCI sentence was read into the Senate record by Sen. Blumenthal on 3 Jun 2026. Statements
+      are adoption: they say the evidence at a date and confer no weight on either side.
+    would_change_if: "an agency page is revised or withdrawn"
+    anchor:
+      type: the-documents-themselves
+      description: >
+        NCI: "There is no evidence that COVID-19 vaccines cause cancer, lead to recurrence, or lead to
+        disease progression. Furthermore, COVID-19 vaccines do not change your DNA". EMA: "There is no
+        evidence that COVID-19 vaccines may cause side effects, such as cancer, in the long term" and
+        "No side effects linked to gene mutations, such as cancer, have been observed after
+        vaccination with mRNA vaccines". ACS (Last Revised 9 Sep 2024, Wayback): "There is no
+        information that suggests that COVID-19 vaccines cause cancer." ASCO (Gralow): "Currently,
+        there is no clinical evidence proving that mRNA COVID-19 vaccines cause cancer". The live ACS
+        page (revised 24 Sep 2025) no longer has that section; we do not know why
+        (cvc-sq-acs-wording-change). We found no WHO, current CDC or UK statement on the question
+        (cvc-sq-who-cdc-uk-statements).
+      accessible: true
+      sources: [src-nci-2023, src-ema-key-facts, src-acs-2024, src-acs-2025, src-psi-gralow, src-psi-blumenthal]
+    positions:
+      - label: "No evidence of a link"
+        holder: "NCI, EMA, ACS (2024), ASCO"
+        ground: "None found in their review of the literature at the dates given."
+      - label: "A signal needs study"
+        holder: "Kuperwasser and El-Deiry (ACIP slides, Senate testimony)"
+        ground: "Case reports and mechanism papers; they call it an early phase of potential safety-signal detection."
+    basis: >
+      "No evidence" is a statement about the state of the evidence at the page's date, not a proof of
+      absence, and these bodies did not run a new analysis. The statements are filed as adoption.
+
+  - id: cvc-fda-marks-letter
+    state: established
+    statement_kind: reported
+    statement: >
+      On 14 December 2023 the FDA's CBER director Peter Marks replied to Florida Surgeon General
+      Ladapo that "with over a billion doses of the mRNA vaccines administered, no safety concerns
+      related to residual DNA have been identified" and that "there is nothing to indicate harm to the
+      genome, such as increased rates of cancers".
+    evidence_class: primary_text
+    confidence: high
+    evidential_weight: 4   # of 5, for what the letter says
+    anchor_checked: primary
+    adoption_weight: 3   # of 5
+    adoption_note: "A regulator's position statement. Adoption is information, not evidence."
+    would_change_if: "the letter is withdrawn or the surveillance data it cites are shown not to support it"
+    anchor:
+      type: the-document-itself
+      description: >
+        Marks to Ladapo, 14 Dec 2023 (read in the FDA PDF; text saved in sources/): residual DNA
+        fragments reaching the nucleus and chromosomes is "quite implausible"; the 2007 plasmid DNA
+        vaccine guidance "was developed for DNA vaccines themselves, not for DNA as a contaminant in
+        other vaccines, and is not applicable to the mRNA COVID-19 vaccines". Points to global
+        surveillance data and animal studies (FDA documents 151733 and 155931, not opened).
+      accessible: true
+      sources: [src-fda-marks-2023, src-fda-plasmid-guidance-2007]
+    basis: >
+      What it is: an agency letter answering a state official, stating the FDA's position and
+      manufacturing facts. What it is not: a peer-reviewed study or a new analysis of cancer rates;
+      "no increased rates" is surveillance, which cannot see a small effect.
+
+  - id: cvc-florida-surgeon-general
+    state: established
+    statement_kind: reported
+    statement: >
+      On 6 December 2023 Florida Surgeon General Ladapo wrote to the FDA that "DNA integration could
+      theoretically impact a human's oncogenes", quoting the 2007 guidance, and on 3 January 2024 his
+      department said that if DNA integration risks "have not been assessed", mRNA vaccines "are not
+      appropriate for use in human beings"; neither document reports a cancer case or uses the
+      phrase "turbo cancer".
+    evidence_class: primary_text
+    confidence: high
+    evidential_weight: 4   # of 5, for what the documents say
+    anchor_checked: primary
+    adoption_weight: 3   # of 5
+    adoption_note: "A state official's statement. CBS quoted an outside physician linking it to the 'turbo cancer' idea; that is CBS's and the physician's characterisation, not Ladapo's wording."
+    would_change_if: "the department publishes data on cancer in vaccinated people"
+    anchor:
+      type: the-documents-themselves
+      description: >
+        Letter of 6 Dec 2023 to FDA Commissioner Califf (Wayback copy; floridahealth.gov returned 403):
+        "The presence of SV40 promoter/enhancer DNA may also pose a unique and heightened risk of
+        DNA integration into host cells"; three questions about integration and mutagenesis.
+        Release of 3 Jan 2024 (Wayback copy): "DNA integration poses a unique and elevated risk to human
+        health and to the integrity of the human genome"; providers should "prioritize patient access to
+        non-mRNA COVID-19 vaccines and treatment". The word "cancerous" appears only in the quoted
+        2007 guidance.
+      accessible: true
+      sources: [src-fl-ladapo-letter-2023, src-fl-halt-release-2024, src-cbs-ladapo-2024]
+    basis: >
+      What it is: questions and a recommendation to providers, framed as a risk not yet assessed. What
+      it is not: a ban or order, a finding that cancer has occurred, or new data.
+
+  - id: cvc-acip-slides
+    state: established
+    statement_kind: reported
+    statement: >
+      At the CDC's ACIP meeting of 18-19 September 2025, two workgroup participants, Wafik El-Deiry and
+      Charlotte Kuperwasser, presented slides saying "Cancers have been reported in mRNA vaccinated
+      individuals in temporal association to immunization" and listing "Genomic integration in
+      tissues or tumors in vaccinated patients" among gaps in knowledge; the slides do not use the
+      phrase "turbo cancer".
+    evidence_class: primary_text
+    confidence: moderate
+    evidential_weight: 4   # of 5, for what the slides say
+    anchor_checked: primary
+    adoption_weight: 3   # of 5
+    adoption_note: "FactCheck.org (7 Nov 2025, secondary) says experts judged the DNA-limit and IgG4 claims flawed, and that it was the first time such claims were given legitimacy at an ACIP meeting."
+    would_change_if: "the slides are shown to differ from the Wayback copy read"
+    anchor:
+      type: the-document-itself
+      description: >
+        Workgroup slides dated 19 Sep 2025, read in a Wayback copy (cdc.gov blocked here), PDF
+        created 18 Sep 2025: lists case reports (38 case reports and a study of 96 pancreatic cancer
+        outcomes against IgG4) and states residual DNA "Exceeds limits by ~36-153-fold" for the
+        Pfizer vaccine. The slides were not stored in this dig's sources folder (rights not
+        checked), so quotations are marked for manual check.
+      accessible: true
+      sources: [src-acip-slides-2025, src-factcheck-acip-2025]
+    basis: >
+      What it is: a presentation at a public advisory meeting by two workgroup participants (neither
+      a voting member, per FactCheck.org). What it is not: an ACIP vote, a CDC finding or a causal
+      conclusion; the slides frame the cancer items as reported in temporal association.
+
+  - id: cvc-senate-hearing
+    state: established
+    statement_kind: reported
+    statement: >
+      On 3 June 2026 the Senate Permanent Subcommittee on Investigations, chaired by Sen. Ron
+      Johnson, held a hearing titled "Plausible Mechanisms of COVID-19 Injections Causing Cancer and
+      Attacks on Scientific Publications and Research"; the written statements read contain no new
+      cancer data and none uses the phrase "turbo cancer".
+    evidence_class: primary_text
+    confidence: moderate
+    evidential_weight: 4   # of 5, for what was said
+    anchor_checked: primary   # written statements only; oral testimony not read
+    adoption_weight: 3   # of 5
+    adoption_note: "Majority-selected witnesses; a hearing makes no scientific finding."
+    would_change_if: "the oral testimony or a committee report contains data not in the written statements"
+    anchor:
+      type: the-documents-themselves
+      description: >
+        Witnesses: Dalgleish, El-Deiry, Hazan, Mostert, Malhotra, Gralow (ASCO), Felder. Johnson's
+        opening is about media and pharma influence and "attacks on scientific publications"; Dalgleish
+        (written): "I have no doubt in my mind that the mRNA vaccine likely played a significant
+        role in the development of these unexpected cancers", from clinical observations without data
+        tables; El-Deiry: the literature review and p53 experiments, and a PubPeer complaint;
+        Gralow: no clinical evidence proving a link; Blumenthal: "the idea that a rollout of
+        COVID-19 vaccines has precipitated a surge in cancer is simply not supported". Johnson's
+        release of 5 Jun 2026 says the hearing "exposed the corruption" and cites "over 39,000
+        deaths" associated with the injection (source not given). Oral testimony and Q&A not read
+        (no transcript found).
+      accessible: true
+      sources: [src-psi-hearing-page, src-psi-johnson-opening, src-psi-blumenthal, src-psi-dalgleish, src-psi-el-deiry, src-psi-gralow, src-psi-other-statements, src-johnson-release-2026]
+    basis: >
+      What it is: testimony before a subcommittee. What it is not: an agency action, a regulatory
+      finding or a report with data. The 39,000 figure is asserted and not sourced in what we read.
+
+  - id: cvc-term-first-use
+    state: established
+    statement_kind: reported
+    statement: >
+      The earliest document we read that uses "turbo cancer" about COVID-19 vaccines is Etana Hecht's
+      Substack post "Turbo-Cancer" of 4 August 2022, a summary of an interview with the Swedish
+      pathologist Ute Kruger; two earlier write-ups of the same interview (27 and 28 July 2022) say
+      "aggressive and unusual cancers" and not "turbo".
+    evidence_class: primary_text
+    confidence: moderate
+    evidential_weight: 3   # of 5
+    anchor_checked: primary   # via Wayback copies
+    adoption_weight: 2   # of 5
+    adoption_note: "Republished by Global Research on 8 Aug 2022. Reach and republication are adoption."
+    would_change_if: "an earlier document using the phrase about COVID-19 vaccines is found (cvc-sq-term-origin-earlier)"
+    anchor:
+      type: the-documents-themselves
+      description: >
+        Hecht (Wayback copy of etana.substack.com/p/turbo-cancer): "Dr. Kruger initially thought that
+        these turbo cancers, as she calls them"; she writes that she "hate[s] the title" and that
+        Kruger's testimony is "by nature anecdotal". Global Research republication, metadata 8 Aug
+        2022. RAIR Foundation (27 Jul 2022) and myMedicalFreedom (28 Jul 2022) text-searched: no "turbo".
+        Later amplification: DailyClout Report 61 (10 Mar 2023) titled with "Turbo Cancers". Secondary:
+        Gorski (SBM, 19 Dec 2022) says he could not find who coined the term and cites an ar15.com comment
+        of 30 Nov 2020 that we could not open. Whether Kruger herself used the term in the interview video
+        is not verified (video not watched).
+      accessible: true
+      sources: [src-hecht-turbo-2022, src-globalresearch-2022, src-rair-kruger-2022, src-mymedfreedom-kruger-2022, src-dailyclout-61, src-sbm-turbo-2022]
+    basis: >
+      "Earliest we read" is a statement about our search, not a finding of who coined the term.
+      It is the origin of the word, not evidence for the claim.
+
+  # =====================================================================
+  # E. SEARCHED GAPS: SOURCES NOT READ OR NOT FOUND
+  # None carries evidential weight for or against the question.
+  # =====================================================================
+
+  - id: cvc-sq-term-origin-earlier
+    state: searched_gap
+    statement_kind: search_result
+    statement: >
+      Sub-question: was "turbo cancer" used about COVID-19 vaccines before 4 August 2022, as in an
+      ar15.com comment of 30 November 2020 that Gorski cites?
+    absence_anchor: true
+    evidence_class: primary_text
+    confidence: provisional
+    evidential_weight: 1   # of 5, for the existence of the gap
+    anchor_checked: "no"
+    adoption_weight: 1   # of 5
+    adoption_note: "Not measured."
+    would_change_if: "the comment is opened and says what Gorski reports, or an earlier use is found"
+    next_step: >
+      Someone with access to ar15.com (403 to us, also via Wayback) can open the November 2020
+      thread and confirm the comment's date and wording.
+    anchor:
+      type: search-record
+      description: >
+        Gorski (secondary) gives the date and a quotation; we could not open the page. We found nothing earlier in a primary document.
+      accessible: false
+      sources: [src-sbm-turbo-2022]
+
+  - id: cvc-sq-kruger-interview
+    state: searched_gap
+    statement_kind: search_result
+    statement: >
+      Sub-question: did Ute Kruger herself say "turbo cancers" in the Doctors for Covid Ethics interview
+      of July 2022, and what did she report?
+    absence_anchor: true
+    evidence_class: primary_text
+    confidence: provisional
+    evidential_weight: 1   # of 5
+    anchor_checked: "no"
+    adoption_weight: 1   # of 5
+    adoption_note: "Not measured."
+    would_change_if: "the interview or her 18 Sep 2022 symposium talk (on archive.org) shows she used or did not use the term"
+    next_step: >
+      Watch the interview and the symposium talk (archive.org item dr.-ute-kruger-covid-19-vaccination-observations-of-a-pathologist-2nd-medical-sy)
+      and log what she said, with times.
+    anchor:
+      type: search-record
+      description: "Only Hecht's summary and two earlier write-ups were read; the video was not watched."
+      accessible: true
+      sources: [src-hecht-turbo-2022, src-rair-kruger-2022]
+
+  - id: cvc-sq-died-suddenly-term
+    state: searched_gap
+    statement_kind: search_result
+    statement: >
+      Sub-question: does the 2022 film "Died Suddenly" use the phrase "turbo cancer", and what does it
+      say about cancer?
+    absence_anchor: true
+    evidence_class: primary_text
+    confidence: provisional
+    evidential_weight: 1   # of 5
+    anchor_checked: secondary
+    adoption_weight: 1   # of 5
+    adoption_note: "Not measured."
+    would_change_if: "a human viewing finds the phrase or a different account of the cancer segments"
+    next_step: >
+      A person watches 22:00 to 27:00 of the 68-minute video and transcribes the cancer segments and
+      speakers. Our automated transcript (base.en, error-prone) has no "turbo" and has cancer
+      statements at about 22:08 and 25:34 (a military-doctor segment citing a "300% increase").
+    anchor:
+      type: search-record
+      description: >
+        Automated speech-to-text of a downloaded copy; the film is a venue for a general vaccine-cancer
+        claim via DMED data, not a documented origin of the term. Lead Stories (secondary) reviewed the film for sudden death.
+      accessible: true
+      sources: [src-died-suddenly-asr, src-died-suddenly-film, src-leadstories-2022]
+
+  - id: cvc-sq-other-cohorts
+    state: searched_gap
+    statement_kind: search_result
+    statement: >
+      No cohort of cancer after COVID-19 vaccination from Kaiser or the Vaccine Safety Datalink, Israel,
+      the Netherlands, the Nordic countries or the UK was found, beyond the Seoul and Pescara studies.
+    absence_anchor: true
+    evidence_class: primary_text
+    confidence: provisional
+    evidential_weight: 1   # of 5
+    anchor_checked: secondary
+    adoption_weight: 1   # of 5
+    adoption_note: "Not measured."
+    would_change_if: "such a cohort is found or published"
+    next_step: >
+      Query the Vaccine Safety Datalink, Clalit, Danish and Swedish registers for cancer incidence by
+      vaccination status with a lag period, and publish the analysis plan first.
+    anchor:
+      type: search-record
+      description: >
+        PubMed and Europe PMC queries listed in cvc-rapid-progression-gap, 5 Oct 2026. The only
+        Vaccine Safety Datalink hit was a mortality study in which cancer is an exclusion criterion.
+        Absence from our searches is not proof none exists.
+      accessible: true
+      sources: [src-vsd-mortality-2024]
+
+  - id: cvc-sq-rct-malignancy-data
+    state: searched_gap
+    statement_kind: search_result
+    statement: >
+      The main texts of the two Pfizer-BioNTech randomised trial reports report no cancer outcome, and
+      their supplementary adverse-event tables were not opened, so malignancy counts by arm are unread.
+    absence_anchor: true
+    evidence_class: primary_text
+    confidence: provisional
+    evidential_weight: 1   # of 5
+    anchor_checked: secondary
+    adoption_weight: 1   # of 5
+    adoption_note: "Not measured."
+    would_change_if: "the supplementary tables or the FDA review show malignancy counts by arm"
+    next_step: >
+      Read the supplementary adverse-event tables and the FDA clinical review for malignancy counts by
+      arm; note the follow-up length (about 6 months) and when the placebo group was offered vaccine,
+      which we did not verify.
+    anchor:
+      type: search-record
+      description: "Text search of the open full text of Polack 2020 and Thomas 2021 for malignan, cancer, neoplasm and tumor: no cancer outcome in the main text."
+      accessible: true
+      sources: [src-polack-2020, src-thomas-2021]
+
+  - id: cvc-sq-semenzato-cancer-mortality
+    state: searched_gap
+    statement_kind: search_result
+    statement: >
+      Does the French cohort of 28.7 million adults aged 18 to 59 (Semenzato et al., JAMA Network Open,
+      Dec 2025) report lower cancer mortality in vaccinated people, as Sen. Blumenthal said?
+    absence_anchor: true
+    evidence_class: primary_text
+    confidence: provisional
+    evidential_weight: 1   # of 5
+    anchor_checked: "no"
+    adoption_weight: 1   # of 5
+    adoption_note: "Blumenthal described it in his opening statement; unverified by us."
+    would_change_if: "the paper's cause-specific results are read"
+    next_step: >
+      Read the full paper and its supplement for a cancer-specific mortality result (hazard ratio
+      for all-cause death 0.75 over 4 years is in the abstract; the abstract says "regardless of the cause").
+    anchor:
+      type: search-record
+      description: "Abstract read; no copy retained, so the manifest entry has no sha256."
+      accessible: true
+      sources: [src-semenzato-2025, src-psi-blumenthal]
+
+  - id: cvc-sq-who-cdc-uk-statements
+    state: searched_gap
+    statement_kind: search_result
+    statement: >
+      We found no WHO statement, no current CDC page and no UK (NHS, UKHSA, MHRA) statement that
+      addresses whether COVID-19 vaccines cause cancer.
+    absence_anchor: true
+    evidence_class: primary_text
+    confidence: provisional
+    evidential_weight: 1   # of 5
+    anchor_checked: secondary
+    adoption_weight: 1   # of 5
+    adoption_note: "Not measured."
+    would_change_if: "such a statement is found"
+    next_step: >
+      Read current cdc.gov vaccine safety pages (403 to us), UKHSA and MHRA pages, Health Canada and
+      the TGA. Absence of a statement is not an endorsement either way.
+    anchor:
+      type: search-record
+      description: >
+        WHO vaccine Q&A and the 49th GACVS report (March 2026) text-searched for cancer, turbo,
+        malignan, residual DNA and SV40: no hits on causation. Archived CDC pages of 2023 contain no
+        cancer statement.
+      accessible: true
+      sources: [src-who-qa, src-who-gacvs49, src-cdc-archive-myths, src-cdc-archive-safety, src-cdc-archive-adverse]
+
+  - id: cvc-sq-england-registry
+    state: searched_gap
+    statement_kind: search_result
+    statement: >
+      England's national cancer registry figures for 2021 and 2022 (NHS England) were not read.
+    absence_anchor: true
+    evidence_class: primary_text
+    confidence: provisional
+    evidential_weight: 1   # of 5
+    anchor_checked: "no"
+    adoption_weight: 1   # of 5
+    adoption_note: "Not measured."
+    would_change_if: "the figures show a post-2021 all-cancer rise"
+    next_step: "Open the NHS England cancer registration statistics for 2021 and 2022 (403 to our proxy) and the Danish NORDCAN series."
+    anchor:
+      type: search-record
+      description: "digital.nhs.uk returned 403; the ONS 2023 deaths bulletin has no all-cancer age-standardised rate. England prostate and breast series were read as abstracts."
+      accessible: false
+      sources: [src-opensafely-prostate-2024, src-breast-england-2023]
+
+  - id: cvc-sq-dna-contamination
+    state: searched_gap
+    statement_kind: search_result
+    statement: >
+      The residual-DNA papers behind the FDA and EMA statements and behind the 36 to 153-fold claim
+      were not opened; this dig scopes the DNA-contamination question out.
+    absence_anchor: true
+    evidence_class: primary_text
+    confidence: provisional
+    evidential_weight: 1   # of 5
+    anchor_checked: "no"
+    adoption_weight: 2   # of 5
+    adoption_note: "Raised by Florida and the ACIP slides; see those claims."
+    would_change_if: "the underlying papers contradict how the agencies and reviews describe them"
+    next_step: >
+      Read the papers EMA cites (Kaiser et al., Vaccine 2025, PMID 40120438; Achs et al., npj Vaccines
+      2025) and the residual-DNA papers behind the slide claim (Kammerer et al.), as a separate dig.
+    anchor:
+      type: search-record
+      description: "Statements read; underlying measurements not opened."
+      accessible: true
+      sources: [src-ema-key-facts, src-fda-marks-2023, src-acip-slides-2025]
+
+  - id: cvc-sq-japan-mortality-rerun
+    state: searched_gap
+    statement_kind: search_result
+    statement: >
+      We did not re-run the retracted Japan paper's regression against current national data; this is scoped out.
+    absence_anchor: true
+    evidence_class: primary_text
+    confidence: provisional
+    evidential_weight: 1   # of 5
+    anchor_checked: secondary
+    adoption_weight: 1   # of 5
+    adoption_note: "Not measured."
+    would_change_if: "a re-run shows excess or none against a pre-specified method"
+    next_step: "Fit the 2010-2019 trend to the National Cancer Center series and test 2020-2024, with prediction intervals and a correction for the 2020 screening drop."
+    anchor:
+      type: search-record
+      description: "Only the paper's reported figures and the national series were compared."
+      accessible: true
+      sources: [src-ncc-mortality-2024]
+    flagged_sources: [src-gibo-2024]
+
+  - id: cvc-sq-korea-concern-outcome
+    state: searched_gap
+    statement_kind: search_result
+    statement: >
+      What editorial action will Biomarker Research take on the Seoul letter after its notice of concern of 22 October 2025?
+    absence_anchor: true
+    evidence_class: primary_text
+    confidence: provisional
+    evidential_weight: 1   # of 5
+    anchor_checked: secondary
+    adoption_weight: 1   # of 5
+    adoption_note: "Not measured."
+    would_change_if: "the journal corrects, retracts or clears the letter"
+    next_step: "Re-read the article page and Crossref for an update; ask the editors."
+    flagged_sources: [src-kim-2025]
+    anchor:
+      type: search-record
+      description: "Article page and PMC change history read 5 Oct 2026: notice present, no outcome; Crossref shows no update-to relation."
+      accessible: true
+      sources: [src-kim-2025-page, src-kim-2025]
+
+  - id: cvc-sq-acs-wording-change
+    state: searched_gap
+    statement_kind: search_result
+    statement: >
+      Why does the American Cancer Society page, revised 24 September 2025, no longer carry the 2024
+      statement that nothing suggests COVID-19 vaccines cause cancer?
+    absence_anchor: true
+    evidence_class: primary_text
+    confidence: provisional
+    evidential_weight: 1   # of 5
+    anchor_checked: secondary
+    adoption_weight: 1   # of 5
+    adoption_note: "Not measured."
+    would_change_if: "ACS says the removal was editorial or a change of position"
+    next_step: "Ask ACS; compare the Wayback versions between September 2024 and September 2025."
+    anchor:
+      type: search-record
+      description: "Text difference between the 2024 Wayback version and the live page noted; the ACS mRNA vaccines page (revised 29 Aug 2025) makes no causation statement."
+      accessible: true
+      sources: [src-acs-2024, src-acs-2025]
