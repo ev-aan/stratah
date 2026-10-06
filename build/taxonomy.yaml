@@ -40,3 +40,6 @@ assignments:
   votes-johnson-tonkin:  {area: politics,          areas: [history],                                              types: [did_it_happen],                      popular_claims: false}
   incandescent-lamp:     {area: technology,        areas: [history, law_justice],                                 types: [origin, is_claim_true],          popular_claims: true}
   vaccines-autism:       {area: medicine_health,   areas: [media_misinformation, law_justice],               types: [is_claim_true, what_caused_it, origin], popular_claims: true}
+  covid-origins:         {area: medicine_health,   areas: [science_nature, law_justice, media_misinformation],               types: [origin, is_claim_true],             popular_claims: true}
+  covid-vaccine-cancer:  {area: medicine_health,   areas: [media_misinformation],                            types: [is_claim_true, what_caused_it, origin], popular_claims: true}
+  fluoride-iq:           {area: medicine_health,   areas: [law_justice, media_misinformation],               types: [is_claim_true],                     popular_claims: true}
