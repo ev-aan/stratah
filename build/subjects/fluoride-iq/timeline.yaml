@@ -135,7 +135,7 @@ events:
   # ---------------- Panel B ----------------
   - {id: b01, panel: recent, lane: research, time: "2024-08-21T12:00:00Z", precision: month, kind: document, status: reported, sources: [src-ntp-2024],
      label: "Aug 2024: NTP monograph: moderate confidence of lower IQ above 1.5 mg/L",
-     detail: "Says it does not address 0.7 mg/L [read]."}
+     detail: "Says its findings do not address whether the sole exposure to fluoride added to drinking water has a measurable effect; may also be relevant in fluoridated US areas depending on other sources (p. 84) [read]."}
   - {id: b02, panel: recent, lane: legal, time: "2024-09-24T12:00:00Z", precision: day, kind: official, status: reported, sources: [src-fww-v-epa-2024],
      label: "24 Sep 2024: court finds 'unreasonable risk' under TSCA at 0.7 mg/L",
      detail: "Does not conclude harm with certainty; orders EPA rulemaking, not an end to fluoridation [read]."}

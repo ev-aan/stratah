@@ -5,12 +5,13 @@
 # MODERATE confidence (the NTP's own rating), so the headline stays DRAFT by rule; it can only be
 # moved by a reviewer and the owner.
 # ---------------------------------------------------------------------------
-headline: "Does Fluoride Lower Kids' IQ? Not Shown at Tap-Water Levels; Lower IQ Found Above 1.5 mg/L"
+headline: "Does Fluoride Lower Kids' IQ? Unsettled at Tap-Water Levels; Lower IQ Found Above 1.5 mg/L"
 headline_claim: fl-high-exposure-lower-iq
 headline_status: draft          # draft: the headline claim is moderate, not high, confidence
 search_summary: >
   Does fluoride lower children's IQ? At the 0.7 mg/L added to North American tap water, no
-  effect has been shown; studies of higher natural levels, mostly abroad, find lower IQ.
+  effect has been established and the evidence is divided; studies of higher natural levels,
+  mostly abroad, find lower IQ.
 url_slug: does-fluoride-lower-iq
 
 # ---------------------------------------------------------------------------
@@ -19,7 +20,7 @@ url_slug: does-fluoride-lower-iq
 assessment:
   question: "Does fluoride in drinking water lower children's IQ?"
   answer: "partly"
-  headline: "Not shown at the level added to tap water (0.7 mg/L). At natural levels above 1.5 mg/L, studies consistently find lower IQ (moderate confidence). Pregnancy studies at lower levels are split."
+  headline: "Unsettled at the level added to tap water (0.7 mg/L). At natural levels above 1.5 mg/L, studies consistently find lower IQ (moderate confidence). Pregnancy studies at lower levels are split."
   text: >
     The answer depends on the dose, and the two halves of the question have different answers.
     At high natural levels, mostly in parts of China, India, Iran and Mexico, children exposed to
@@ -28,12 +29,15 @@ assessment:
     lower IQ with more fluoride (those 19 include two Canadian studies at community levels; the
     NTP found results below 1.5 mg/L less consistent), and Europe's food safety agency (2025)
     reached the same conclusion above 1.5 mg/L. At the 0.7 mg/L added to community water in the US and Canada,
-    no effect has been shown, and the evidence divides by how exposure was measured. Studies
-    that compare children by where they lived (New Zealand, Sweden, Australia, two large US
-    cohorts) find no lower IQ, and a pooled analysis of water studies below 1.5 mg/L found no
-    association. Studies that measure fluoride in pregnant women's urine (Canada, Mexico) found
+    no effect has been established, and the evidence divides by how exposure was measured. Five
+    studies that compare children by where they lived (New Zealand, Sweden, Australia, two large
+    US cohorts) find no lower IQ, and a pooled analysis of water studies below 1.5 mg/L found no
+    association. One 2026 US cohort that also assigns exposure by home address reports lower
+    fluid cognition above about 0.675 mg/L (abstract only; not yet read in full). Studies that measure fluoride in pregnant women's urine (Canada, Mexico) found
     lower IQ in children, while similar studies in Denmark and Spain did not, and Spain's
-    pointed the other way. The NTP itself says its review does not address 0.7 mg/L. A 2024
+    pointed the other way. The NTP says its findings do not address whether the sole exposure to
+    fluoride added to drinking water at 0.7 mg/L has a measurable effect, and that they may also
+    be relevant in fluoridated US areas depending on people's other sources of fluoride. A 2024
     federal court finding of "unreasonable risk" was a regulatory ruling, not a scientific
     finding of harm, and it was vacated on procedural grounds in May 2026. What health bodies
     and governments now do is shown separately, because it is adoption, not evidence: Utah and
@@ -43,7 +47,7 @@ assessment:
     effect on tooth decay in modern studies small and uncertain.
   key_points:
     - "Above 1.5 mg/L (natural levels, mostly abroad), studies consistently find lower IQ; the NTP rates this moderate confidence."
-    - "At community levels, residence-based cohorts find no lower scores; pregnancy urine studies are split (Canada, Mexico lower; Denmark, Spain not)."
+    - "At community levels, five residence-based cohorts find no lower scores, one 2026 US cohort (abstract only) reports lower; pregnancy urine studies are split."
     - "Adoption, not evidence: a 2024 court ruling (vacated 2026), state bans and FDA limits; the CDC page still recommends fluoridation."
   basis: [fl-high-exposure-lower-iq, fl-water-07-no-lower-iq, fl-maternal-urine-signal, fl-fluoridation-lowers-iq, fl-ntp-silent-on-07, fl-court-ruling-is-not-a-finding, fl-small-effect-not-excludable]
   rated_claim: fl-fluoridation-lowers-iq
@@ -64,7 +68,7 @@ assessment:
 # ---------------------------------------------------------------------------
 short_answer:
   question: "Does fluoride in drinking water lower children's IQ?"
-  answer: "No lowering of IQ has been shown at the level added to tap water (0.7 mg/L), to the best of our knowledge; except at high natural levels, where it has."
+  answer: "No lowering of IQ has been established at the level added to tap water (0.7 mg/L), to the best of our knowledge; except at high natural levels, where it has. One 2026 US cohort (abstract only) reports lower scores above about 0.675 mg/L."
   summary: >
     The level matters. Above 1.5 mg/L, which occurs naturally in parts of Asia, Africa and the
     Americas, studies consistently find lower IQ with more fluoride; the NTP rates this at
@@ -72,7 +76,9 @@ short_answer:
     fluoride, but that count mixes exposure levels and includes two Canadian studies at
     community levels; below 1.5 mg/L the NTP found results less consistent.) At 0.7 mg/L, the level added to water in the US and Canada, studies following
     children by where they lived (more than 150,000 people across New Zealand, Sweden,
-    Australia and the US; Sweden's fluoride is natural) find no lower test scores. A smaller set of pregnancy studies that measure
+    Australia and the US; Sweden's fluoride is natural) find no lower test scores; one 2026 US
+    cohort that also assigns exposure by address reports lower fluid cognition above about 0.675
+    mg/L (abstract only, not yet read in full). A smaller set of pregnancy studies that measure
     fluoride in the mother's urine disagree with each other.
   summary_figures:
     - figure: "18 of 19 low-risk-of-bias studies: lower IQ with more fluoride (all exposure levels)"
@@ -110,7 +116,9 @@ short_answer:
   basis: >
     High exposure: fl-high-exposure-lower-iq. Community level: fl-water-07-no-lower-iq and
     fl-maternal-urine-signal, which disagree, and fl-fluoridation-lowers-iq, which records the
-    general claim as contested. The NTP review does not address 0.7 mg/L (fl-ntp-silent-on-07).
+    general claim as contested. The NTP findings do not address whether the sole exposure to
+    fluoride added to drinking water has an effect (fl-ntp-silent-on-07, with the monograph's
+    qualification); fl-echo-2026-change-point is a contrary report, abstract only.
   except:
     - claim: fl-high-exposure-lower-iq
       text: >
@@ -125,7 +133,7 @@ short_answer:
         - "A consistent association across many studies, rated moderate confidence by the NTP and accepted by EFSA in 2025."
         - "Mostly cross-sectional studies, which compare children at one moment and cannot fully rule out other differences between villages."
       what_it_is_not:
-        - "Not a finding about 0.7 mg/L: the NTP says so in its own words (fl-ntp-silent-on-07)."
+        - "Not a finding about the sole exposure to fluoride added to drinking water at 0.7 mg/L, which the NTP says its findings do not address; it adds that they may be relevant in fluoridated areas depending on other sources of fluoride (fl-ntp-silent-on-07)."
         - "Not a measured number of IQ points for any individual child: the NTP gave no estimate of points lost."
     - claim: fl-maternal-urine-signal
       text: >
@@ -192,8 +200,8 @@ divergence_note: >
   moved fastest on 0.7 mg/L. Two US states banned fluoridation in 2025, the future US Health
   Secretary called fluoride an industrial waste associated with IQ loss (Nov 2024), and the FDA
   cited "possibly decreased IQ" when it began action on children's fluoride drops (May 2025), while the FDA's own
-  scientific evaluation called the US evidence on IQ "equivocal" and the NTP said its review
-  does not address 0.7 mg/L. On the other side, the CDC page and the main dental and
+  scientific evaluation called the US evidence on IQ "equivocal" and the NTP said its findings
+  do not address whether the sole exposure to fluoride added to drinking water has an effect. On the other side, the CDC page and the main dental and
   paediatric bodies still say fluoridation is safe, a position that rests partly on older
   dental studies whose benefit the 2024 Cochrane review found much smaller in modern data.
   Public opinion sits between: in April 2026, 43% of US adults favored fluoridation and 26%
@@ -267,9 +275,12 @@ claims:
     state: established
     statement_kind: reported
     statement: >
-      The NTP monograph states that it does not address whether fluoride added to drinking
-      water at 0.7 mg/L, the US and Canadian level, has a measurable effect on IQ, and it gives
-      no estimate of IQ points lost.
+      The NTP monograph states that its findings do not address whether the sole exposure to
+      fluoride added to drinking water at 0.7 mg/L, the US and Canadian level, is associated
+      with a measurable effect on IQ; it adds that the moderate-confidence conclusions may also
+      be relevant in optimally fluoridated US areas depending on people's additional exposure
+      from other sources, and that targeted US research is needed. It gives no estimate of IQ
+      points lost.
     evidence_class: primary_text
     confidence: high
     confidence_reasons:
@@ -287,7 +298,11 @@ claims:
       description: >
         "About This Monograph", p. ii: the findings "do not address whether the sole exposure
         to fluoride added to drinking water" at 0.7 mg/L in the United States and Canada is
-        associated with a measurable effect on IQ [read]. Addendum, p. 102: the rating rests
+        associated with a measurable effect on IQ [read]. p. 84, after the 1.9 million figure:
+        the conclusions "may also be relevant to people living in optimally fluoridated areas of
+        the United States depending on the extent of their additional exposures to fluoride from
+        sources other than drinking water", and targeted US research is needed [read, reviewer
+        round 1]. Addendum, p. 102: the rating rests
         "primarily on studies with estimated fluoride exposures higher than" those of optimally
         fluoridated US water, and "uncertainty remains" at the lower range [read]. p. 47: below
         1.5 mg/L the association "appeared less consistent" [read].
@@ -389,9 +404,11 @@ claims:
     state: established
     statement_kind: judgment
     statement: >
-      Studies that compare people by the fluoride level of the community water they grew up on,
-      at community levels (fluoridated water of about 0.7 to 1.0 mg/L, or in Sweden natural
-      fluoride averaging 0.35 mg/L), find no lower IQ, cognitive or achievement test scores.
+      Five cohorts that compare people by the fluoride level of the community water they grew
+      up on (fluoridated water of about 0.7 to 1.0 mg/L, or in Sweden natural fluoride averaging
+      0.35 mg/L) find no lower IQ, cognitive or achievement test scores. A sixth, the 2026 ECHO
+      analysis (fl-echo-2026-change-point, abstract only), assigns exposure the same way and
+      reports lower scores above about 0.675 mg/L.
     evidence_class: synthetic
     confidence: moderate
     confidence_reasons:
@@ -403,7 +420,7 @@ claims:
     anchor_checked: primary
     adoption_weight: 3   # of 5
     adoption_note: >
-      Cited by the ADA and the AAP; criticized as ecological by the Canadian MIREC authors and
+      Cited by the ADA and the AAP (not about ECHO 2026); criticized as ecological by the Canadian MIREC authors and
       by Grandjean. Not measured.
     would_change_if: >
       a residence-based cohort with prenatal exposure and individual measures finds lower scores,
@@ -427,14 +444,21 @@ claims:
       - label: "No lower IQ"
         holder: "Broadbent 2015; Aggeborn & Öhman 2021; Do 2024; Warren 2025, 2026"
         ground: "Five cohorts in four countries."
+      - label: "Lower scores above about 0.675 mg/L (abstract only)"
+        holder: "Simon et al. 2026 (ECHO), fl-echo-2026-change-point"
+        ground: >
+          2,514 US children, prenatal water fluoride assigned from census-tract levels linked to
+          residential addresses; fluid cognition -0.67 points per 100 micrograms/L above 675
+          micrograms/L (-0.92 to -0.42) [abstract]. Full text not read.
       - label: "Weak test (critique)"
         holder: "Grandjean 2019 on Dunedin; Neurath on Warren 2026 (preprint, not read)"
         ground: >
           Dunedin had only 99 unexposed children and ignored prenatal exposure, so its power was
           "probably insufficient" [read].
     basis: >
-      Filed as established at moderate confidence: the null result is consistent and the
-      documents were read; the weakness is that the design cannot see differences in
+      Filed as established at moderate confidence for the five cohorts read: the null result is
+      consistent and the documents were read, but one contrary residence-based report is open
+      (ECHO 2026, abstract only; reading it in full could lower this confidence); the weakness is that the design cannot see differences in
       individual exposure, including in pregnancy.
 
   - id: fl-maternal-urine-signal
@@ -677,7 +701,7 @@ claims:
     statement_kind: reported
     statement: >
       Utah (signed 27 March 2025, in force 7 May 2025) and Florida (approved 20 May 2025, in
-      force 1 July 2025) became the first US states to prohibit adding fluoride to public water;
+      force 1 July 2025) each enacted a prohibition on adding fluoride to public water (whether any state did so earlier is not checked: fl-sq-other-state-bans);
       Florida's law does so without using the word fluoride.
     evidence_class: primary_text
     confidence: high

@@ -93,3 +93,21 @@ log:
       the FDA adoption note no longer says the FDA concedes the high range. Could not be
       verified by the checker: the PHAC Canadian figures (canada.ca unreachable) and the online
       date of Aggeborn & Ohman 2021.
+  - id: L-10
+    date: 2026-10-06
+    entry: >
+      REVISIONS after publish-gate review round 1 (independent review agent, PR head 0f60029).
+      R1-1 (blocking): the NTP scope statement is now quoted with its qualifier "the sole exposure
+      to fluoride added to drinking water", and the monograph's p. 84 qualification (the findings
+      may also be relevant in optimally fluoridated US areas depending on additional exposure from
+      other sources; targeted US research needed) is added to fl-ntp-silent-on-07, the assessment,
+      the short answer and the divergence note. R1-2 (blocking): fl-water-07-no-lower-iq is
+      narrowed to the five cohorts read, and the 2026 ECHO analysis (fl-echo-2026-change-point,
+      abstract only, still proposed) is named as a contrary residence-based report in its
+      statement, positions and basis, in the assessment, key points and short answer. Because the
+      "no effect has been shown" wording could stand unqualified while that report is open, the
+      headline and search summary now say "unsettled" / "no effect has been established" and the
+      headline stays draft. Reading the ECHO full text remains the stronger fix and is not done.
+      R1-3 (non-blocking): "first US states" removed from fl-state-bans-2025; whether any state
+      acted earlier is left to fl-sq-other-state-bans. The review's open items (taxonomy entry,
+      secondary anchors, third-party copies) are unchanged. Earlier log entries are untouched.
