@@ -111,3 +111,13 @@ log:
       R1-3 (non-blocking): "first US states" removed from fl-state-bans-2025; whether any state
       acted earlier is left to fl-sq-other-state-bans. The review's open items (taxonomy entry,
       secondary anchors, third-party copies) are unchanged. Earlier log entries are untouched.
+  - id: L-11
+    date: 2026-10-06
+    entry: >
+      FORMAT FIX (SCHEMA N21), no change to any finding. In 4 `disputed_by` entries the source id
+      had been put in `source_read`, and the required `via` field was missing, which stopped the
+      site build (build_site.py needs `via`). Each source id is moved to `via`, and `source_read`
+      is set from this dig's MANIFEST `read` field: true where the manifest records the source as
+      read in full or in part (src-taylor-2025-aogh), false where only the abstract was read
+      (src-kumar-2023, src-guichon-2024, src-kumar-2025). Statements, weights, states and
+      positions are unchanged. Earlier entries are untouched.
