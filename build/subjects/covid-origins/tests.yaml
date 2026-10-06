@@ -1,0 +1,93 @@
+subject: covid-origins
+
+# Discriminating tests: DESIGN ONLY. None has been run; each result is `not_run`. A test is listed only if its possible
+# outcomes would move the weight of at least one hypothesis in a known direction, whichever way it comes out.
+
+discriminating_tests:
+
+  - id: dt-progenitor-search
+    question: >
+      Is there a virus more than 99 percent similar to SARS-CoV-2 (the US report's definition of a close progenitor) in any
+      animal population or sample archive?
+    retires: null
+    predicts:
+      natural-spillover: >
+        IF the virus spilled over from animals, systematic sampling of bats, other wildlife and farmed or traded animals in
+        the regions and trade routes linked to Wuhan, and re-testing of archived samples, should eventually find a virus,
+        or antibodies in animals or people, much closer than the 96.8 and 96.2 percent relatives known today.
+      laboratory-related: >
+        IF the first infection came from a laboratory holding a progenitor, field sampling can still find nothing closer,
+        and the closer sequence would be in laboratory records (see dt-wiv-records).
+    result:
+      type: not_run
+      finding: "Design only. Not run. Finding a progenitor in animals would move weight toward natural spillover; not finding one is not evidence for the laboratory side."
+      accessible: false
+    resolves: >
+      A positive result in animals would be the single most informative event for the natural hypothesis. A negative result
+      resolves nothing, since sampling is sparse (Chan and Zhan and the Andersen paper both say bats are under-sampled).
+    note: Related claims, co-no-progenitor-public and co-origin-not-established.
+
+  - id: dt-early-sequences
+    question: >
+      Do the more than 500 early-pandemic sequences and the early-case line list that China holds support a market
+      epicentre, or do they show the market pattern comes from how cases were found?
+    retires: null
+    predicts:
+      natural-spillover: >
+        IF the market was the epicentre, the earliest sequences and onset dates should cluster in and around the market,
+        with market-linked and unlinked cases consistent with spread from the market.
+      case-finding-artefact: >
+        IF case-finding made the market look central, early cases with no link to the market should appear before or
+        independently of the market cluster in the full data, and the clustering should weaken against the full list.
+    result:
+      type: not_run
+      finding: "Design only. Not run. The data are not public (co-sq-early-sequences)."
+      accessible: false
+    resolves: >
+      Tests the case-geography claim (co-market-pattern) and the two-lineage claim (co-two-lineages) against the data they
+      were built from instead of digitised maps. It would not show where the virus came from before the market.
+    note: Both the Worobey authors and their critics ask for this list.
+
+  - id: dt-market-animals
+    question: >
+      Were any of the animals sold at the Huanan market, or on the farms that supplied it, infected with SARS-CoV-2 or a
+      related virus before the market closed?
+    retires: null
+    predicts:
+      natural-spillover: >
+        IF an animal at or upstream of the market carried the virus, supplier records, farm sampling and serology of
+        workers and farmers should find infected animals or antibodies, and a more closely related virus.
+      human-introduced: >
+        IF a person brought the virus into the market, the supply chain should show no infected animals and the market's
+        positives should fit human spread.
+    result:
+      type: not_run
+      finding: "Design only. Not run. Sampling before closure cannot now be done; supplier, farm and trade data and worker serology may still exist (co-sq-market-supply-chain)."
+      accessible: false
+    resolves: >
+      A positive result would identify an intermediate host. A negative result from limited data would not exclude one.
+    note: The 457 animal samples taken from 18 January 2020 were all negative (co-market-animals-untested).
+
+  - id: dt-wiv-records
+    question: >
+      Do WIV's laboratory notebooks, sequence archives, freezer inventories, staff health records and stored sera show that
+      SARS-CoV-2 or a progenitor was held, made or released before December 2019?
+    retires: co-engineered-in-lab
+    predicts:
+      laboratory-related: >
+        IF a laboratory incident started the outbreak, records and stored sera should show a progenitor or an early
+        infection in staff, and sequence archives should hold a virus closer than 96.8 percent, or a construct with the
+        features of SARS-CoV-2.
+      natural-spillover: >
+        IF not, an independent audit should find nothing closer than the known relatives, no unexplained deletions, and
+        sera without SARS-CoV-2 antibodies.
+    result:
+      type: not_run
+      finding: "Design only. Not run. WIV records have been requested by WHO and NIH and not provided (co-sq-wiv-records)."
+      accessible: false
+    resolves: >
+      A positive result would move weight strongly toward the laboratory hypothesis. A clean audit would lower it, but only
+      as far as the audit's independence and completeness allow; a Chinese statement alone would not.
+    note: >
+      Records held by the party in question are the hardest evidence class to verify; an audit would need independent
+      access to original files, not summaries.

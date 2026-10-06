@@ -1,0 +1,678 @@
+Updated Assessment on COVID-19 Origins
+
+ Key Takeaways
+
+ Scope Note: This assessment responds to the President’s request that the Intelligence Community (IC) update its previous judgments
+ on the origins of COVID-19. It also identifies areas for possible additional research. Annexes include a lexicon, additional details on
+ methodology, and comments from outside experts. This assessment is based on information through August 2021.
+
+ The IC assesses that SARS-CoV-2, the virus that causes COVID-19, probably emerged and infected humans
+ through an initial small-scale exposure that occurred no later than November 2019 with the first known cluster of
+ COVID-19 cases arising in Wuhan, China in December 2019. In addition, the IC was able to reach broad
+ agreement on several other key issues. We judge the virus was not developed as a biological weapon. Most
+ agencies also assess with low confidence that SARS-CoV-2 probably was not genetically engineered; however, two
+ agencies believe there was not sufficient evidence to make an assessment either way. Finally, the IC assesses
+ China’s officials did not have foreknowledge of the virus before the initial outbreak of COVID-19 emerged.
+
+ After examining all available intelligence reporting and other information, though, the IC remains divided on the
+ most likely origin of COVID-19. All agencies assess that two hypotheses are plausible: natural exposure to an
+ infected animal and a laboratory-associated incident.
+
+    Four IC elements and the National Intelligence Council assess with low confidence that the initial SARS-CoV-2
+     infection was most likely caused by natural exposure to an animal infected with it or a close progenitor virus—a
+     virus that probably would be more than 99 percent similar to SARS-CoV-2. These analysts give weight to
+     China’s officials’ lack of foreknowledge, the numerous vectors for natural exposure, and other factors.
+
+    One IC element assesses with moderate confidence that the first human infection with SARS-CoV-2 most
+     likely was the result of a laboratory-associated incident, probably involving experimentation, animal
+     handling, or sampling by the Wuhan Institute of Virology. These analysts give weight to the inherently risky
+     nature of work on coronaviruses.
+
+    Analysts at three IC elements remain unable to coalesce around either explanation without additional
+     information, with some analysts favoring natural origin, others a laboratory origin, and some seeing the
+     hypotheses as equally likely.
+
+    Variations in analytic views largely stem from differences in how agencies weigh intelligence reporting and
+     scientific publications and intelligence and scientific gaps.
+
+ The IC judges they will be unable to provide a more definitive explanation for the origin of COVID-19 unless new
+ information allows them to determine the specific pathway for initial natural contact with an animal or to determine
+ that a laboratory in Wuhan was handling SARS-CoV-2 or a close progenitor virus before COVID-19 emerged.
+
+    The IC—and the global scientific community—lacks clinical samples or a complete understanding of
+     epidemiological data from the earliest COVID-19 cases. If we obtain information on the earliest cases that
+     identified a location of interest or occupational exposure, it may alter our evaluation of hypotheses.
+
+
+
+
+                                                                  [1]
+China’s cooperation most likely would be needed to reach a conclusive assessment of the origins of COVID-19.
+Beijing, however, continues to hinder the global investigation, resist sharing information, and blame other
+countries, including the United States. These actions reflect, in part, China’s government’s own uncertainty about
+where an investigation could lead as well as its frustration the international community is using the issue to exert
+political pressure on China.
+
+
+
+
+                                                        [2]
+[3]
+Introduction                                                            could have plausibly served as a backbone if
+                                                                        SARS-CoV-2 had been genetically engineered.
+The IC has prepared several assessments examining the
+origins of COVID-19. Analysts have focused on whether                 Our growing understanding of the similarities of
+SARS-CoV-2, the causative virus of COVID-19, was                       SARS-CoV-2 to other coronaviruses in nature and
+genetically engineered—particularly as a biological                    the ability of betacoronaviruses—the genus to which
+weapon—was transmitted to humans naturally or                          SARS-CoV-2 belongs—to naturally recombine
+transmitted due to a laboratory-associated incident,                   suggests SARS-CoV-2 was not genetically
+perhaps during sampling or experimentation. China’s                    engineered. For instance, academic literature has
+reaction to and handling of the pandemic have given                    noted that in some instances betacoronaviruses have
+analysts insights into these issues, but Beijing’s actions             recombined with other viruses in nature and that
+have also impeded the global scientific community and                  furin cleavage sites (FCS)—a region in the spike
+our ability to confidently determine how the virus first               protein that enhances infection—have been
+infected humans.                                                       identified in naturally occurring coronaviruses in the
+                                                                       same genetic location as the FCS in SARS-CoV-2.
+SARS-CoV-2 Probably Not a                                              This suggests that SARS-CoV-2 or a progenitor virus
+Biological Weapon                                                      could have acquired its FCS through natural
+                                                                       recombination with another virus.
+The IC assesses China did not develop SARS-CoV-2 as a
+biological weapon.                                                 IC analysts do not have higher confidence that SARS-
+                                                                   CoV-2 was not genetically engineered because some
+   We remain skeptical of allegations that SARS-CoV-2             genetic engineering techniques can make modifications
+    was a biological weapon because they are supported             difficult to identify and we have gaps in our knowledge of
+    by scientifically invalid claims, their proponents do          naturally occurring coronaviruses.
+    not have direct access to the Wuhan Institute of
+    Virology (WIV), or their proponents are suspected of              Some genetic engineering techniques may make
+    spreading disinformation. [See appendix B.]                        genetically modified viruses indistinguishable from
+                                                                       natural viruses, according to academic journal
+Most Analysts Assess SARS-CoV-2 Not                                    articles. For instance, a 2017 dissertation by a
+Genetically Engineered                                                 WIV student showed that reverse genetic cloning
+                                                                       techniques—which are standard techniques used in
+Most IC analysts assess with low confidence that SARS-                 advanced molecular laboratories—left no trace of
+CoV-2 was not genetically engineered. Their assessment                 genetic modification of SARS-like coronaviruses.
+is based on technical analysis of SARS-CoV-2 and the
+IC’s growing understanding of traits and the potential for            It will be difficult to increase our confidence that
+recombination in other coronaviruses. Two agencies                     the distinguishing features in SARS-CoV-2
+believe there is not sufficient evidence to make an                    emerged naturally without a better understanding
+assessment either way.                                                 of the diversity of coronaviruses in nature and how
+                                                                       often recombination occurs during co-infection of
+   As of August 2021, we still have not observed                      multiple coronaviruses within a particular host.
+    genetic signatures in SARS-CoV-2 that would be                     For example, academic literature has indicated that
+    diagnostic of genetic engineering, according to the                a FCS had previously been inserted into
+    IC’s understanding of the virus. Similarly, we have                SARS-CoV-1, the causative agent of SARS,
+    not identified any existing coronavirus strains that               complicating differentiation of how such a feature
+                                                                       may have appeared.
+
+
+
+
+                                                             [4]
+   The WIV previously created chimeras, or                     some features of SARS-CoV-2, according to publicly
+    combinations, of SARS-like coronaviruses, but               available information. However, it probably would take
+    this information does not provide insight into              years of laboratory adaptation using the appropriate cell
+    whether SARS-CoV-2 was genetically engineered               types and a virus that is more closely related to SARS-
+    by the WIV.                                                 CoV-2 than ones currently known to generate the number
+                                                                of mutations separating SARS-CoV-2 from any known
+No IC analysts assess that SARS-CoV-2 was the result of         coronavirus strains, judging from scientific journal
+laboratory adaptation, although some analysts do not            articles. Such processes would require differentiation and
+have enough information to make this determination.             maintenance of primary cells and the development of
+Repeated passage of a closely related virus through             appropriate animal models.
+animals or cell culture—which we consider laboratory
+adaptation and not genetic engineering—could result in
+
+
+
+
+                                                          [5]
+China’s Lack of Foreknowledge                                         Four IC elements, the National Intelligence Council,
+of SARS-CoV-2                                                         and some analysts at elements that are unable to
+                                                                      coalesce around either explanation are among this
+The IC assesses China’s officials probably did not have               group. Analysts at these agencies give weight to China’s
+foreknowledge that SARS-CoV-2 existed before WIV                      officials' lack of foreknowledge and highlight the
+researchers isolated it after public recognition of the virus         precedent of past novel infectious disease outbreaks
+in the general population. Accordingly, if the pandemic               having zoonotic origins, the wide diversity of animals
+originated from a laboratory-associated incident, they                that are susceptible to SARS-CoV-2 infection, and the
+probably were unaware in the initial months that such an              range of scenarios—to include animal trafficking,
+incident had occurred.                                                farming, sale, and rescue—in China that enable zoonotic
+                                                                      transmission. Although no confirmed animal source of
+   Early in the pandemic, the WIV identified that a                  SARS-CoV-2 has been identified, to include a reservoir or
+    new virus was responsible for the outbreak in                     intermediate species, analysts that assess the pandemic
+    Wuhan. It is therefore assessed that WIV                          was due to natural causes note that in many previous
+    researchers pivoted to COVID-19-related work to                   zoonotic outbreaks, the identification of animal sources
+    address the outbreak and characterize the virus.                  has taken years, and in some cases, animal sources have
+    These activities suggest that WIV personnel were                  not been identified.
+    unaware of the existence of SARS-CoV-2 until the
+    outbreak was underway.                                               These analysts assess that WIV’s activities in early
+                                                                          2020 related to SARS-CoV-2 are a strong indicator
+Two Plausible Hypotheses of                                               that the WIV lacked foreknowledge of the virus.
+Pandemic Origin
+                                                                         They also see the potential that a laboratory worker
+IC analysts assess that a natural origin and a laboratory-                inadvertently was infected while collecting
+associated incident are both plausible hypotheses for                     unknown animal specimens to be less likely than
+how SARS-CoV-2 first infected humans. Analysts,                           an infection occurring through numerous hunters,
+however, disagree on which is more likely, or whether                     farmers, merchants, and others who have frequent,
+an assessment can be made at all, given the lack of                       natural contact with animals.
+diagnosticity of the available information. Most
+agencies are unable to make higher than low confidence                   Given China’s poor public health infrastructure
+assessments for these reasons, and confidence levels are                  and the potential for asymptomatic infection,
+tempered by plausible arguments for the opposing                          some analysts that lean towards a natural origin
+hypothesis. For these hypotheses, IC analysts consider                    argue that China’s infectious disease surveillance
+an exposure that occurs during animal sampling activity                   system would not have been able to detect the
+that supports biological research to be a laboratory-                     SARS-CoV-2 exposure as quickly as a suspected
+associated incident and not natural contact. What                         exposure in a laboratory setting.
+follows is a look at the cases that can be made for these
+competing hypotheses.                                                 History of Zoonotic Pathogen Emergence,
+                                                                      Conditions in China Ripe for Zoonotic Spillover
+The Case for the Natural Origin Hypothesis
+                                                                      Analysts that find the natural zoonotic spillover
+Some IC analysts assess with low confidence that the                  hypothesis the most likely explanation for the pandemic
+first human COVID-19 infection most likely was caused                 also note the wide diversity of animals that are
+by natural exposure to an animal that carried SARS-                   susceptible to SARS-CoV-2 infection, range of
+CoV-2 or a close progenitor virus—a virus that would                  scenarios—to include animal trafficking, farming, sale,
+likely be more than 99 percent similar to SARS-CoV-2.                 and rescue—in China that would enable zoonotic
+
+
+
+
+                                                                [6]
+transmission, and precedent of novel human infectious                Academic literature has revealed Wuhan markets
+disease outbreaks originating from zoonotic                           sold live mammals and dozens of species—including
+transmission. Previous human coronavirus outbreaks, to                raccoon dogs, masked palm civets, and a variety of
+include SARS-CoV-1 and Middle East Respiratory                        other mammals, birds, and reptiles—often in poor
+Syndrome coronavirus (MERS-CoV), occurred naturally                   conditions where viruses can jump among species,
+and were linked to animal reservoirs with zoonotic                    facilitating recombination events and the acquisition
+transmission to humans, according to scientific literature.           of novel mutations. SARS-CoV-2 can infect a range
+                                                                      of mammals, including cats, dogs, pangolins, minks,
+   Extensive wildlife and livestock farming, wildlife                raccoon dogs, and a variety of wild and domestic
+    trafficking, and live animal markets in China and                 animals, according to academic literature.
+    historically lax government regulation—and even
+    promotion—of these activities increase the                       Wider Hubei Province has extensive farming and
+    probability that initial transmission occurred along              breeding of animals that are susceptible to
+    one of these routes.                                              SARS-CoV-2, including minks and raccoon dogs.
+
+
+
+
+                                                              [7]
+These analysts note that there is a precedent for viral
+vectors to travel long distances in China and cause                   WIV Illnesses in Fall 2019 Not Diagnostic
+infection elsewhere because of transportation and trade
+nodes, thereby widening and complicating the search for               The IC assesses that information indicating that
+the specific zoonotic spillover incident. For instance, the           several WIV researchers reported symptoms
+bat coronavirus that is currently the closest known                   consistent with COVID-19 in autumn 2019 is not
+relative to the original SARS-CoV-1 was identified in                 diagnostic of the pandemic’s origins. Even if
+Yunnan Province, even though the first SARS outbreak                  confirmed, hospital admission alone would not be
+detected in humans occurred in Guangdong Province,                    diagnostic of COVID-19 infection.
+hundreds of kilometers away.
+
+The Case for the Laboratory-Associated
+                                                                    that WIV research involved SARS-CoV-2 or a close
+Incident Hypothesis
+                                                                    progenitor virus, these analysts note that it is plausible
+One IC element assesses with moderate confidence that               that researchers may have unwittingly exposed
+COVID-19 most likely resulted from a laboratory-                    themselves to the virus without sequencing it during
+                                                                    experiments or sampling activities, possibly resulting in
+associated incident involving WIV or other
+researchers—either through exposure to the virus during             asymptomatic or mild infection. Academic literature
+experiments or through sampling. Some analysts at                   indicates that WIV researchers conducted research with
+                                                                    bat coronaviruses or collected samples from species that
+elements that are unable to coalesce around either
+explanation also assess a laboratory origin with low                are known to carry close relatives of SARS-CoV-2.
+confidence. These analysts place emphasis on academic
+                                                                       Based on currently available information, the closest
+articles authored by WIV employees indicating that WIV
+                                                                        known relatives to SARS-CoV-2 in bats have been
+scientists conducted research on other coronaviruses
+                                                                        identified in Yunnan Province, and researchers
+under what these analysts consider to be inadequate
+                                                                        bringing samples to laboratories provide a plausible
+biosafety conditions that could have led to opportunities
+                                                                        link between these habitats and the city.
+for a laboratory-associated incident. These analysts also
+take into account SARS-CoV-2’s genetic epidemiology
+                                                                       These analysts also note that China’s investigations
+and that the initial recorded COVID-19 clusters occurred
+                                                                        into the pandemic’s origin might not uncover
+only in Wuhan—and that WIV researchers who
+                                                                        evidence of a laboratory-associated incident if it
+conducted sampling activity throughout China provided
+                                                                        involved only a small number of researchers who
+a node for the virus to enter the city.
+                                                                        did not acknowledge or have knowledge of a
+                                                                        potential infection.
+WIV Research Includes Work With Animals That
+Carry Relatives of SARS-CoV-2                                       Biosafety Conditions for Specific Work Could
+                                                                    Have Led to an Incident
+The analysts that find the laboratory-associated origin
+theory most likely assess that WIV researchers’ inherently
+                                                                    The analysts that assess COVID-19 most likely
+risky work with coronaviruses provided numerous
+                                                                    originated from a laboratory-associated incident also
+opportunities for them to unwittingly become infected
+                                                                    place emphasis on information suggesting researchers in
+with SARS-CoV-2. Although the IC has no indications
+                                                                    China used biosafety practices that increased the risk of
+                                                                    exposure to viruses. Academic publications suggest that
+                                                                    WIV researchers did not use adequate biosafety
+                                                                    precautions at least some of the time, increasing the risk
+                                                                    of a laboratory-associated incident.
+
+
+
+
+                                                              [8]
+                                                                  the initial cases in Wuhan—or potentially elsewhere in
+  The Role of the Huanan Seafood                                  China—that would allow it to better understand
+  Wholesale Market                                                potential sources of infection or conduct phylogenetic
+                                                                  analysis that would help validate both hypotheses.
+  Some scientists and China’s public health officials
+  have shifted their view on the role of the Huanan               Information That Would Confirm Natural Outbreak:
+  Seafood Wholesale Market in the pandemic since                  Searching for a natural reservoir or potential
+  early 2020. Some now view the market as a                       intermediate host requires collecting, isolating, and
+  potential site of community spread rather than                  sequencing viruses from samples taken from potential
+  where the initial human infection may have occurred.            host species and environments to search for viruses
+                                                                  related to SARS-CoV-2, endeavors that require
+     On January 1, 2020, China’s security                        international collaboration, resources, and time.
+      authorities shut down the market after several
+      workers fell ill in late December 2019. China                  Information that the earliest confirmed COVID-19
+      focused early source tracing on the market and                  cases were in individuals or families who spent
+      Hubei Province; association with the market                     time in rural regions or who were involved in
+      was included as part of the early case definition.              animal trade or environments that facilitate close
+                                                                      human-to-animal interactions could indicate that
+     In January 2020, a scientific article that                      the virus was circulating within an animal reservoir
+      described clinical features of initial                          and a zoonotic spillover event caused the first
+      COVID-19 infections in China found that                         COVID-19 case in humans.
+      some COVID-19 patients did not have any
+      known association with the market.                             However, some transmission pathways are
+      Furthermore, there continues to be conflicting                  fleeting, meaning an animal acquires a virus and
+      data with some academic articles and preprints                  evidence of infection vanishes, particularly if the
+      noting that phylogenetic analysis of the                        animals are reared and harvested for agricultural
+      available data on the earliest cases suggests                   or commercial purposes.
+      that the progenitor virus may not have
+      originated from the market.                                 Information That Would Confirm Laboratory-
+                                                                  Associated Incident: China’s coronavirus research or
+                                                                  related information from origins investigations by
+                                                                  Beijing or international organizations could provide
+China’s Transparency Key to Determining                           clear indications of a laboratory-associated incident or at
+COVID-19 Origin                                                   least yield some new insights.
+
+The IC judges that closing persistent information gaps on
+the origins of COVID-19 is very likely to require greater
+transparency and collaboration from Beijing. The
+scientific community lacks technical data on a reservoir
+species, possible intermediate species, and closer
+relatives to SARS-CoV-2.
+
+Data and Samples From Initial Cases: The global
+scientific community does not know exactly where,
+when, or how the first human infection with
+SARS-CoV-2 occurred. It lacks a complete picture of
+
+
+
+
+                                                            [9]
+                                                                         saying Beijing would not allow the WHO to engage
+ WIV’s Publicly Available                                                in the “conspiracy theory.”
+ Coronavirus Research
+                                                                    China is also pushing its narrative that the virus originated
+ IC analysts are examining published research from                  outside China.
+ China for any indicators that would inform our
+ understanding of COVID-19’s origins. The WIV                          Public statements from China’s Government have
+ and other research groups in China published                           continued to claim the virus originated from
+ coronavirus articles in 2020 and 2021, including the                   imported frozen food, an extremely unlikely theory.
+ discovery of the closest known relative of
+                                                                       China’s Government continues to spread allegations
+ SARS-CoV-2, but at least some relevant data on
+                                                                        that the United States created or intentionally spread
+ coronaviruses of interest has either been unavailable
+                                                                        SARS-CoV-2 to divert attention away from Beijing.
+ or has not been published.
+
+ Although the WIV described the sampling trip to
+ the mineshaft in Mojiang in Yunnan Province
+ where it collected RaTG13 in 2016, it did not
+ explicitly state that RaTG13 was collected from
+ that mine until 2020. Similarly, the WIV collected
+ eight other coronaviruses from the same mine in
+ 2015 that it did not fully disclose until 2021. In
+ some of these instances, however, the WIV has
+ described unpublished work in webinars and
+ interviews prior to publishing.
+
+
+
+
+China Likely To Impede Investigation
+
+The IC judges they will be unable to provide a more
+definitive explanation for the origin of COVID-19 unless
+new information allows them to determine the specific
+pathway for initial natural contact with an animal or to
+determine that a laboratory in Wuhan was handling
+SARS-CoV-2 or a close progenitor virus before
+COVID-19 emerged.
+
+   For instance, Beijing limited the World Health
+    Organization (WHO) investigation team’s access
+    to sites.
+
+   In late July, China denounced a WHO plan for
+    future investigations into COVID-19 origins,
+    claiming that the proposal for future investigations
+    was politicized. China’s officials publicly rebuked
+    the WHO’s plans for a future study of labs in China,
+
+
+
+
+                                                           [ 10 ]
+Annex A: Definitions
+
+Antibody: A protein produced during an immune                           Epidemiology: The study of the distribution and
+response to a part of an infectious agent called an antigen.            determinants of health-related events in specified
+                                                                        populations, and the application of this study to prevent
+Backbone: A genetic sequence used as a chassis upon                     and control health problems.
+which to build synthetic constructs, such as those used
+for cloning, protein expression, and production.                        Furin cleavage site (FCS): A region in the spike protein
+                                                                        of SARS-CoV-2 that enhances infection.
+Biological weapon: A weapon that uses bacteria,
+viruses, toxins, fungi, and biochemical/biomolecule                     Gain-of-function: The IC considers this as a research
+agents that can cause death or injury to humans, plants,                method that involves manipulating an organism’s
+or animals or destroy materials.                                        genetic material to impart new biological functions that
+                                                                        could enhance virulence or transmissibility (e.g.,
+Biosafety: The application of knowledge, techniques,                    genetically modifying a virus to expand its host range,
+and equipment to prevent personal, laboratory, and                      transmissibility, or severity of illness). The IC assesses
+environmental exposure to potentially infectious agents                 that genetic engineering, genetic modification, and
+or biohazards. Four Biosafety levels (BSL) define the                   laboratory-adaptation can all be used for gain-of-function
+containment conditions under which biological agents                    experiments, but are not inherently so. We address both
+can be safely manipulated. These standards range from                   genetic engineering and laboratory-adaptation in the
+moderate safety requirements for low-risk agents                        body of this assessment; the IC is unaware of an agreed,
+(BSL-1), to the most stringent controls for high-risk                   international definition.
+agents (BSL-4). China’s standards range from P1–4.
+                                                                        Genetically engineered or genetically modified viruses
+Biosecurity: The protection, control of, and                            are intentionally altered, created, or edited using
+accountability for biological agents, toxins, and                       biotechnologies, such as Clustered Regularly Interspaced
+biological materials and information to prevent                         Short Palindromic Repeat (CRISPR), DNA
+unauthorized possession, loss, theft, misuse, diversion,                recombination, or reverse genetics. These viruses have
+and accidental or intentional release.                                  intentional, targeted edits to the genome designed to
+                                                                        achieve specific results, but unintentional genomic
+Coronavirus: A common type of virus that can infect                     changes may also occur.
+humans and/or animals. The human illness caused by
+most coronaviruses usually last a short time and presents               Genome: The genetic material of an organism. It
+symptoms consistent with the “common cold,” such as a                   consists of DNA (and sometimes RNA for viruses).
+runny nose, sore throat, cough, and a fever.
+                                                                        Genome sequencing: The process of determining the
+COVID-19: An infectious disease caused by the                           DNA or RNA sequence of an organism’s genome, or its
+SARS-CoV-2 virus, which is a betacoronavirus.                           “genetic code.” An organism’s genetic code is the order
+                                                                        in which the four nucleotide bases—adenine, cytosine,
+Diagnostic information: Information that allows IC                      guanine, and thymine—are arranged to direct the
+analysts to distinguish between hypotheses—in this case,                sequence of the 20 different amino acids in the proteins
+the laboratory origin and natural origin theories.                      that determine inherited traits.
+
+DNA (deoxyribonucleic acid): A molecule that carries                    Intermediate species/host: An organism that can be
+an organism’s genetic blueprint for growth,                             infected with a pathogen from a resevoir species and
+development, function, and reproduction.
+
+
+
+
+                                                               [ 11 ]
+passes the pathogen to another host species; infection is              Progenitor virus: A virus that is closely related
+not sustained in this population.                                      enough—probably more than 99 percent—to
+                                                                       SARS-CoV-2 to have been its direct ancestor or plausible
+Laboratory-adapted viruses have undergone natural,                     immediate origin of the outbreak. The closest known
+random mutations through human-enabled processes in                    relative to SARS-CoV-2 is only around 96 percent
+a laboratory—such as repeated passage through animals                  similar; to put this into context, humans and chimps are
+or cells—that put pressure on the virus to more rapidly                around 99 percent similar, demonstrating the signficant
+evolve. Specific changes to the viral genome are not                   differences even at this similarity.
+necessarily anticipated in these processes, though the
+virus can be expected to gain certain characteristics, like            RaTG13: A coronavirus with the closest known whole
+the ability to infect a new species. This is a common                  genome to SARS-CoV-2, although it is widely believed
+technique used in public health research of viruses. We                to not be a direct ancestor of SARS-CoV-2.
+consider directed evolution to be under laboratory
+adaptation.                                                            Resevoir species/host: An organism that harbors a
+                                                                       pathogen, which is endemic within the population.
+Laboratory-associated incidents include incidents that
+happen in biological research facilities or during                     RNA (ribonucleic acid): A molecule essential for gene
+research-related sampling activities.                                  coding, decoding, regulation, and expression. Certain
+                                                                       viruses use RNA as a genetic blueprint.
+Molecular biology: Study of the molecular basis of
+activities in and between cells. This includes techniques              Transmissibility: The measure of new infections
+to amplify or join genetic sequences.                                  initiated by an existing infection.
+
+Naturally occurring viruses have not been altered in a                 Virus: A replicating piece of genetic material—DNA or
+laboratory. Viruses commonly undergo random                            RNA—and associated proteins that use the cellular
+mutations as part of the evolutionary process and can                  machinery of a living cell to reproduce.
+continue to change over time; mutations may enable a
+virus to adapt to its environment, such as evading host                Wet market: A market where fresh food and live and
+immune responses and promoting viral replication.                      dead animals, including wildlife, are sold.
+
+
+Outbreak: A sudden increase in occurrences of a disease                Zoonosis: An infection or a disease that is transmissible
+in a particular time and place. Outbreaks include                      from animals to humans under natural conditions. A
+epidemics, which is a term that is reserved for infectious             zoonotic pathogen may be viral, bacterial, or parasitic,
+diseases that occur in a confined geographical area.                   and can sometimes be transmitted through insects, such
+Pandemics are near-global disease outbreaks.                           as mosquitoes.
+
+
+Pangolin: An African and Asian mammal that has a                       Zoonotic spillover: An initial infection or disease that is
+body covered in overlapping scales. Pangolins are a                    caused by contact between an animal and human under
+natural reservoir of coronaviruses and researchers are                 natural conditions.
+investigating their potential role as an intermediate host
+for SARS-CoV-2.
+
+Pathogen: A bacterium, virus, or other microorganism
+that can cause disease.
+
+Phylogenetics: The study of the evolutionary
+relationships among groups of organisms.
+
+
+
+
+                                                              [ 12 ]
+Annex B: IC Examination of Open-Source Theories
+
+IC analysts have examined a number of open-source                    Theory That SARS-CoV-2 Was
+articles from a variety of sources that have raised                  Genetically Engineered
+theories about SARS-CoV-2 and COVID-19’s origin.
+The IC assesses that these theories generally do not                 The IC assesses that public claims that some
+provide diagnostic information on COVID-19 origins,                  distinguishing features in SARS-CoV-2 are the result of
+and in some cases, are not supported by the information              genetic engineering are not diagnostic of genetic
+available to us. However, several have drawn on                      engineering. The IC has been evaluating how
+insightful methods or identified potential leads.                    SARS-CoV-2 could have developed these features and
+                                                                     notes that the furin cleavage site (FCS)—a region in the
+Theory of Abnormal Activity at the WIV in                            spike protein that enables infection and has been the
+Fall 2019                                                            topic of open-source debate—can also be consistent with
+                                                                     a natural origin of the virus.
+The IC assesses that an assessment about abnormal
+activity at the WIV in fall 2019 lacks support and does              We do not fully understand the diversity of natural
+not offer diagnostic insight. The Multi-Agency                       coronaviruses or how often they recombine, suggesting
+Collaboration Environment (MACE) published a report                  that there are plausible natural means by which these
+assessing that the pandemic began in October 2019                    features in SARS-CoV-2 could have emerged beyond
+because of a release at the WIV.                                     what we currently understand.
+
+   Although the methodology is insightful, the IC                      For example, the author of an article in April notes
+    has concerns with the small data set and analytic                    the SARS-CoV-2’s FCS is unique among known
+    rigor used to derive the group’s findings, and our                   betacoronaviruses. The author argues that such
+    review of information directly contradicts some of                   features are rare and so well-adapted for human
+    its findings.                                                        infection that they are more likely emerged from
+                                                                         laboratory work than from natural selection.
+Theory That SARS-CoV-2 Was a
+Biological Weapon                                                       Although an IC review of scientific literature has
+                                                                         indicated that no known betacoronaviruses in the
+The IC assesses that public claims from a Hong Kong                      same subgenus have this FCS in the same region of
+virologist that Beijing created SARS-CoV-2 as a                          the spike protein as SARS-CoV-2, similar FCSs are
+biological weapon are inconsistent with available                        present in the same region of the spike protein as
+technical information on coronaviruses. We assess that                   other naturally occurring coronaviruses, according
+the articles contain several technical inaccuracies and                  to scientific articles.
+omit key data points.
+                                                                     We also do not find credible a now-withdrawn preprint
+   Since September 2020, a virologist who worked in                 article from two Indian educational institutes posted in
+    a WHO-affiliated laboratory in Hong Kong has                     January 2020 that asserted SARS-CoV-2 was genetically
+    publicly stated that Beijing created SARS-CoV-2                  engineered using sequences from the human
+    from bat coronaviruses and that China’s                          immunodeficiency virus. We assess it is unlikely that
+    researchers intentionally released it. The scientific            scientists would have chosen to intentionally engineer
+    community did not peer review these articles and                 the specific sequences that were the focus of the
+    some publicly rejected the articles’ claims as                   scientific article.
+    scientifically unsound.
+
+
+
+
+                                                            [ 13 ]
+Theory That SARS-CoV-2 Originated
+Outside China
+
+We are aware of scientific studies claiming to have
+found SARS-CoV-2 viral fragments or antibodies in
+samples taken before November 2019 outside China.
+However, technical flaws in some of these studies,
+uncertainties in the methodologies, and in some cases,
+the lack of a credible review process make us skeptical of
+their utility in determining the pandemic’s origin.
+
+   We assess that the first cluster of confirmed
+    COVID-19 cases arose in Wuhan, China, in late
+    2019, but we lack insight—and may never have
+    it—on where the first SARS-CoV-2 infection
+    occurred. Although all of the earliest confirmed
+    cases of COVID-19 were documented in China’s
+    Hubei Province, where Wuhan is located,
+    according to Western and China’s press reports, it
+    is plausible that a traveler came in contact with the
+    virus elsewhere and then went to Wuhan.
+
+   We continue to monitor scientific publications and
+    discuss these issues with experts. Even if the virus
+    is found to have existed outside China before the
+    Wuhan outbreak, credible evidence of human
+    infection would also be necessary to determine if
+    the first COVID-19 outbreak began there.
+
+
+
+
+                                                             [ 14 ]
+Annex C: IC Approach to 90-Day Study
+
+The NIC collaborated closely with the National
+Counterproliferation Center (NCPC), the National
+Intelligence Management Council (NIMC), IC agencies,
+and other USG entities and departments on this
+assessment. The IC kicked off the 90-day study by
+outlining the core intelligence questions that would be
+addressed over lines of effort—collection and analysis.
+These questions included:
+
+   Did the outbreak begin through contact with
+    infected domestic or wild animals or was it the
+    result of a laboratory-associated incident?
+
+   Was the virus genetically engineered?
+
+   Is SARS-CoV-2 a biological weapon?
+
+Collection: At the kick-off meeting for the 90-day study,
+the IC discussed core intelligence gaps to drive collection
+moving forward.
+
+Analysis: The NIC had two separate structured analytic
+exercises to discuss both the underlying reporting and to
+strengthen argumentation moving into the drafting
+phase. Analysts at individual agencies also pursued
+various structured analytic techniques to build their own
+assessments.
+
+   During a two-day-long in-person IC-wide Analysis
+    of Competing Hypothesis (ACH) analytic exercise
+    in June, analysts determined whether existing
+    reporting was consistent or inconsistent with
+    information in individual reports. This exercise
+    allowed analysts to determine that most reporting
+    was consistent with both hypotheses and the
+    reporting that was inconsistent was deemed to be
+    not credible.
+
+   Before the start of drafting, the NIC hosted an IC-
+    wide Team A/Team B analytic exercise to explore
+    how the IC could strengthen either hypothesis
+    through a debate style format. Agencies pulled
+    from these conversations—along with the work
+    conducted during and before the study—to solidify
+    their consensus positions.
+
+
+
+
+                                                              [ 15 ]
+Annex D: Outside Review
+
+The NIC conducted four rounds of outside review of the
+draft assessment. These sessions provided valuable
+feedback that we incorporated into the assessment. The
+NIC made some organizational changes in response to
+comments; comments included:
+
+   Emphasize points of agreement.
+
+   Provide additional definitions in the lexicon and
+    ensure technical or intelligence jargon is explicitly
+    explained.
+
+
+
+
+                                                            [ 16 ]
+Annex E: Questions
+
+Answers to the following questions would help us better
+evaluate hypotheses related to the origins of COVID-19:
+
+What additional information—to include timing,
+location, relevant animal exposures, occupational
+information, and clinical samples—is there on the
+earliest cases of COVID-19?
+
+How were early cases investigated? What questions or
+tools were utilized for tracing contacts and contacts of
+those contacts?
+
+What direct or indirect indicators of COVID-19 clusters
+is China aware of from early in the outbreak? This may
+include things like hospital occupancy rates or efforts to
+triage medical care outside of hospital facilities.
+
+What insight can China provide on the search for the
+reservoir and potential intermediate species of the
+COVID-19 virus?
+
+What insight can China provide on the search for the
+identification of a progenitor virus? Have any leading
+candidates or regions for spillover been identified?
+
+What information, data, and/or samples does China
+have on wildlife or other animals present in the
+following markets in Wuhan:
+
+   Huanan Seafood Wholesale Market
+
+   Qiyimen Live Animal Market
+
+   Baishazhou Market
+
+   Dijiao Outdoor Pet Market
+
+What information, data, and/or samples does China
+have on wildlife present in the other markets, wildlife
+rescue centers, and/or farms in Wuhan, across Hubei, in
+neighboring provinces, or in locations where live
+animals in Hubei Province are sourced from?
+
+
+
+
+                                                             [ 17 ]
+
