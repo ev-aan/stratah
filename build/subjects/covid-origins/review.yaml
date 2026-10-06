@@ -1,0 +1,219 @@
+# Publish-gate review record (docs/PUBLISH_GATE.md). status: pending | revisions_requested | passed | passed_with_open_items | grandfathered | failed (rounds: see docs/PUBLISH_GATE.md)
+subject: covid-origins
+status: passed_with_open_items
+checks:
+- check: 'conformance: no errors for this subject'
+  result: pass
+  detail: ''
+- check: headline present, 70-95 characters
+  result: pass
+  detail: 92 characters
+- check: headline claim is established/refuted at high confidence with a primary check, or status is draft
+  result: pass
+  detail: 'co-origin-not-established: searched_gap, provisional, anchor_checked secondary; headline_status draft'
+- check: headline_status is draft or review before the gate passes
+  result: pass
+  detail: draft
+- check: assessment present with question, answer, headline, text, basis, would_settle
+  result: pass
+  detail: ''
+- check: assessment has exactly three key_points
+  result: pass
+  detail: '3'
+- check: assessment states no percentage
+  result: pass
+  detail: ''
+- check: taxonomy entry (area and question types)
+  result: FAIL
+  detail: ''
+- check: every claim has statement_kind
+  result: pass
+  detail: ''
+- check: every searched gap names its next step
+  result: pass
+  detail: ''
+- check: sources manifest exists
+  result: pass
+  detail: ''
+- check: every source has an authenticity block
+  result: pass
+  detail: ''
+- check: log has entries
+  result: pass
+  detail: ''
+- check: timeline present (dates exist, so a timeline is required)
+  result: pass
+  detail: ''
+open_items:
+- build/taxonomy.yaml (owner-only) has no covid-origins entry; log L-08 proposes the line. Until the owner adds it, conformance
+  warns.
+- Key point 3 of the assessment is 205 characters, over the 170-character guide (conformance warning).
+- The content of both Science errata was not read; the reduced Bayes factor for two introductions rests on two critics who
+  disagree in the second digit (co-pekar-erratum-bf, provisional). The page must show this as a limit.
+- 'The FBI, DOE, CIA and BND positions, and the January 2025 CIA statement, are known only through the US June 2023 report
+  or press reports (co-fbi-position, co-doe-position, co-cia-2025, co-bnd-2025, co-sq-agency-documents): secondary, provisional.'
+- 'In co-lab-origin-proven the ''Yes'' position lists the CIA among holders of a laboratory-origin lean; the anchor sources
+  of that claim do not support it (ODNI 2023 puts the CIA as unable to determine) and the support is the press-reported January
+  2025 statement at co-cia-2025. Non-blocking: the assessment states the CIA position correctly.'
+- That the ODNI 2023 confidence levels are 'redacted' is read off blank space in the bullets rather than a redaction marking;
+  I confirmed the gaps in the govinfo PDF with layout extraction.
+- co-origin-not-established and co-no-progenitor-public quote named documents in the anchor description but carry no `sources`
+  list (optional under SCHEMA N25), so those quotes are not machine-resolvable to the manifest.
+- Several ew>=4 claims rest on a single document (co-odni-2023-agencies, co-odni-2023-wiv-findings, co-defuse-text-fcs-plan,
+  co-who-china-early-cases). Each is a claim about what that document says, so this is appropriate rather than citation insularity,
+  but it is a limit.
+- The House Oversight press release of 2 Dec 2024, which carries the wording refuted at co-fcs-not-found-in-nature, is not
+  a manifest source; I opened it and the wording matches. Adding it to the manifest would close the gap.
+needs_manual_check:
+- 'quote not matched in stored sources (OCR noise possible): co-origin-not-established (match 0.66): "no confirmed animal
+  source of SARS-CoV-2 has been identified..."'
+- 'quote not matched in stored sources (OCR noise possible): co-assessments-say-open (match 0.45): "all hypotheses remain
+  on the table ... We have not yet found the sourc..."'
+- 'quote not matched in stored sources (OCR noise possible): co-assessments-say-open (match 0.00): "SAGO cannot conclude with
+  certainty where and when this occurred..."'
+- 'quote not matched in stored sources (OCR noise possible): co-assessments-say-open (match 0.00): "is not in a position to
+  rule this out as a possibility..."'
+- 'quote not matched in stored sources (OCR noise possible): co-zoonosis-hypothesis (match 0.44): "it is not conclusive that
+  the HSM was where the virus first spilled ov..."'
+- 'quote not matched in stored sources (OCR noise possible): co-who-china-early-cases (match 0.37): "No firm conclusion therefore
+  about the role of the Huanan market in th..."'
+- 'quote not matched in stored sources (OCR noise possible): co-who-china-early-cases (match 0.49): "no history of exposure
+  to the Huanan market..."'
+- 'quote not matched in stored sources (OCR noise possible): co-who-china-early-cases (match 0.47): "A similar number of cases
+  were associated with other markets..."'
+- 'quote not matched in stored sources (OCR noise possible): co-earliest-case-date-disputed (match 0.51): "The symptom onset
+  date of the first patient identified was Dec 1, 2019..."'
+- 'quote not matched in stored sources (OCR noise possible): co-earliest-case-date-disputed (match 0.47): "No epidemiological
+  link was found between the first patient and later ..."'
+- 'quote not matched in stored sources (OCR noise possible): co-earliest-case-date-disputed (match 0.40): "the earliest onset
+  date reported to the NNDRS became ill on 8 December..."'
+- 'quote not matched in stored sources (OCR noise possible): co-earliest-case-date-disputed (match 0.44): "since the first
+  patient was hospitalized on 12 December 2019..."'
+- 'quote not matched in stored sources (OCR noise possible): co-earliest-case-date-disputed (match 0.50): "around 18 November
+  2019 (23 October-8 December)..."'
+- 'quote not matched in stored sources (OCR noise possible): co-market-samples (match 0.47): "cannot be determined from the
+  analyses available..."'
+- 'quote not matched in stored sources (OCR noise possible): co-market-animals-untested (match 0.51): "more detailed information
+  on the sources, locations, sampling and test..."'
+- 'dates, names, patent or document numbers: verify each against the source'
+- every refuted claim names its target and rests on material or primary-text evidence (Rule 9)
+- no claim goes beyond what was read; anything not read is marked not read
+conformance_warnings: 2
+established_or_refuted_without_primary_check: []
+quotes:
+  found_in_stored_sources: 23
+  not_found_in_stored_sources: 111
+  no_stored_source_to_check_against: 0
+reviewed_by: independent review agent (Claude Opus 5.5), independent of the author; worked in worktree at head 94aa29f and
+  edited only this file
+reviewed_on: '2026-10-06'
+notes: 'Mechanical pass: python3 build/tools/review_dig.py covid-origins --write. Every check passes except the taxonomy entry,
+  which lives in build/taxonomy.yaml, an owner-only file the author correctly did not edit (log L-08 proposes the line). Conformance
+  on the merge result (branch merged with origin/main, no commit): 0 errors overall; for this subject two warnings only (a
+  key point is 205 characters, over the 170 guide; no taxonomy entry).
+
+  Sources opened and read by me (not by the author''s report): Andersen et al. 2020 (Europe PMC full text: ''not a laboratory
+  construct'', ''no laboratory-based scenario is plausible'', ''impossible to prove or disprove'', the HKU1 sentence); Coutard
+  2020 (OC43/MERS/HKU1 cleaved at S1/S2); Wu and Zhao 2021 (''occurred independently for multiple times''); Worobey et al.
+  2022 (the full ''emergence ... via the live wildlife trade'' sentence, 155 of 164 cases, 1% contour, medians 4.28 / 5.74
+  / 4.00 / 16.11 km, p=0.029); Pekar et al. 2022 (BF 61.6 and 60.0, 787 genomes, 18 Nov 2019 (23 Oct-8 Dec), the 10 December
+  seafood vendor with no published genome); Huang et al. 2020 (1 Dec onset, no epidemiological link); Wu et al. 2020 (hospitalised
+  12 Dec 2019); Liu et al. 2023 (publisher HTML: 923 and 457 samples, 188 animals / 18 species, 74 = 70 + 4, 87.5% (56/64)
+  West Zone, 134/678 shops, three isolates with Ct<30, ''cannot be determined from the analyses available'', ''cannot yet
+  be ruled out'', note added in proof); Crits-Christoph 2024; Temmam 2022 (96.8% BANAL-52, 96.1% RaTG13, no furin site); Chan
+  and Zhan 2022 (both the ''no known sarbecovirus'' and the ''consistent with natural evolution'' sentences); GenBank MN996532.1
+  (submitted 27-JAN-2020, collection 24-Jul-2013, replaced 13 Oct 2020); ODNI 2021 unclassified summary and Updated Assessment
+  (stored copies: four elements and the NIC at low confidence, one element at moderate confidence, three unable to coalesce,
+  ''no confirmed animal source'', the genetic-engineering line); ODNI June 2023 (stored copy and the govinfo PDF, read with
+  layout: the three agency bullets, ''no indication ... nor any direct evidence'', 96.2 / 96.8 / above 99 percent, BSL-2 as
+  of January 2019, ''probably did not use adequate biosafety precautions'', ''consistent with but not diagnostic'', the non-respiratory
+  hospitalisation, ''does not address the merits''); WHO-China joint report (6 Apr 2021 PDF: 174 = 100 + 74, earliest onset
+  8 Dec with no Huanan exposure, 55.4 / 28.0 / 22.6 / 4.8 / 44.6 percent of 168, ''a similar number of cases were associated
+  with other markets'', ''No firm conclusion therefore ...'', the Likert scale and ''extremely unlikely'', the laboratory-representative
+  statements, the 1 Dec / 26 Dec patient, the case definition until mid-January 2020); WHO Director-General''s remarks of
+  30 Mar 2021 (all four quoted passages); SAGO 2025 (the weight-of-evidence sentence, ''cannot conclude with certainty'',
+  ''not in a position to rule this out'', ''did not have access to original raw data'', ''no evidence has been presented,
+  other than speculation'', ''not conclusive that the HSM was where the virus first spilled over'', ''this has been refused'',
+  the two sentences on the US reports and the House majority); SAGO news item of 27 Jun 2025; House SSCP majority report (govinfo
+  PDF: the finding heading, ''weight of the evidence increasingly supports'', ''could have created and released'', ''initially
+  hid the most dangerous aspect'', and that the ''single introduction'' point is sourced to a quoted commentator); House SSCP
+  Democrats'' report (''largely circumstantial but cannot be dismissed out of hand'', ''impossible to draw any conclusions
+  without reviewing additional lab records from WIV'', the two section headings); Senate HELP minority staff report (''not
+  intended to be dispositive''); ASM statement of 28 Oct 2022; DEFUSE main volume (Internet Archive OCR: USD 14,209,245, the
+  proteolytic/furin cleavage-site sentences, the human-specific cleavage-site sentence, cover letter 24 March and form field
+  3/27/18); Baric transcribed interview (Senate PDF: "We''ve never dropped a furin cleavage site into a coronavirus like that");
+  HHS stored records (suspension effective 15 May 2024, EHA ineligible through 14 May 2029, Daszak notice of 21 May 2024 and
+  ineligible through 20 May 2029, the WIV 17 Jul 2023 suspension and 19 Sep 2023 ten-year debarment in the ARM); House Oversight
+  debarment release; State Department fact sheet of 15 Jan 2021 (stored copy: the ''reason to believe'' sentence); White House
+  page (stored copy and the live page: ''A lab-related incident involving gain-of-function research is the most likely origin
+  of COVID-19'', the five numbered items, metadata datePublished 2025-04-18 and dateModified 2025-08-15); House Oversight
+  press release of 2 Dec 2024 (''The FIVE strongest arguments'', ''a biological characteristic that is not found in nature''),
+  which is the actual holder of the refuted wording and is attributed as such; China''s white paper (all six pages: ''the
+  study on the origins of SARS-CoV-2 conducted in China has ended'', the cold-chain sentence, ''Evidence Pointing to the US
+  as the Origin of Covid-19'', 457 / 74 of 923, the Los Alamos/NIH/ODNI biosecurity sentence); NHC news item; McCowan 2025
+  (''the Bayes factor dropped to 4''); Weissman EJW 2026 (''a less compelling ~4.3''); Stoyan and Chiu 2023; Andersen written
+  testimony 2023 (''If convincing new evidence were to be discovered ...''). That is 33 sources opened; every anchor source
+  of every refuted claim, of every evidential_weight 5 claim and of the headline claim was opened, except as listed under
+  what I could not check. Every quotation, figure, date and document number I checked matched the dig''s text, including the
+  three quotations the mechanical quote check could not match because no stored copy exists.
+
+  Judgment checks (REVIEW.md A to F). A: anchors say what the claims say; the one place the dig states a stronger source sentence
+  than a summary would (Worobey''s ''occurred via the live wildlife trade'') is quoted in full and answered in the same claim.
+  B: every absence claim (co-origin-not-established, co-no-progenitor-public, co-market-animals-untested, co-sq-market-supply-chain,
+  co-sq-wiv-records, co-sq-early-sequences) carries absence_anchor: true and sits at provisional; I found no unmarked absence
+  claim above provisional. anchor_checked: primary appears only where the primary document was read; the headline claim is
+  honestly marked secondary and the headline is therefore draft. Each refuted claim uses narrative_drift, the weakest class,
+  and refutes only the words ''proven'', ''shows'' or ''not found in nature''; no claim uses fabrication or institutional_propaganda.
+  C: no claim draws weight from how many people or institutions hold a view; the agency, committee, WHO and white-paper claims
+  are filed as adoption records of what a document says and the threads file carries confers_weight: false with explicit firewalls.
+  D: both sides are held to the same bar: the ''proven'' claim is refuted on each side (co-market-origin-proven, co-lab-origin-proven),
+  both hypotheses are contested at low confidence, and the strongest item on each side is stated with its own counter-evidence.
+  E: the headline, search summary and assessment state no more than the claims support, carry no hype, and say plainly that
+  the question is open; quotations are short and attributed. F: the log is append-only, records the discrepancies found (L-04,
+  L-05), what could not be read (L-06), the filing decisions (L-07) and the author-side independent check and its nine fixes
+  (L-10).
+
+  Not checked by me, and why: the two Science errata (Worobey 2024, Pekar 2023) are paywalled, so the Bayes-factor change
+  rests on two critics, as the dig says; the CIA, FBI, DOE and BND primary documents (not public); the Los Alamos and NIH
+  reports China''s white paper names; the published JRSSA versions of the two Worobey critiques; the 2023 Bloom correction
+  (an image); the WHO-China annexes; the HHS notice to WIV; the HSGAC Slack volumes, the FOIA DEFUSE drafts, the Johnson letter,
+  the Marshall summary, the Biden and joint statements, the NIH 2020 letter, the OIG audit, the ODNI 2026 page and the CNN,
+  NPR, CBS, Tagesspiegel, NOS and Scientific American pages (each already filed as secondary, unchecked or a searched gap
+  at provisional confidence). Every one of these is marked not read in the dig itself.
+
+  Verdict posted on PR #13: APPROVE, escalated to the owner because review.yaml is an owner-only path; I did not merge, did
+  not touch build/site.yaml, and changed no other file.'
+rounds:
+- round: 1
+  reviewed_on: '2026-10-06'
+  head: 94aa29f
+  requests:
+  - id: R1-1
+    target: co-lab-origin-proven
+    severity: non_blocking
+    finding: The 'Yes' position names the CIA as a holder of a laboratory-origin lean. The claim's own anchors (ODNI 2023,
+      ODNI 2021, SAGO, House Democrats, Senate HELP) do not support that; ODNI 2023 puts the CIA among the agencies unable
+      to determine.
+    evidence: 'ODNI June 2023 (govinfo PDF, read by me): ''The Central Intelligence Agency and another agency remain unable
+      to determine the precise origin of the COVID-19 pandemic''. The January 2025 CIA lean is press-reported only (co-cia-2025,
+      provisional).'
+  - id: R1-2
+    target: assessment.key_points[2]
+    severity: non_blocking
+    finding: Key point 3 is 205 characters, over the 170-character guide; conformance warns.
+    evidence: 'python3 build/conformance.py --base origin/main: WARNING covid-origins: a key point is over 170 characters.'
+  - id: R1-3
+    target: co-fcs-not-found-in-nature
+    severity: non_blocking
+    finding: The refuted wording is attributed in adoption_note to a House Oversight press release that is not a manifest
+      source.
+    evidence: 'I opened the release (oversight.house.gov, 2 Dec 2024): "The FIVE strongest arguments in favor of the “lab
+      leak” theory include: The virus possesses a biological characteristic that is not found in nature." The wording matches;
+      only the manifest entry is missing.'
+  - id: R1-4
+    target: co-origin-not-established, co-no-progenitor-public
+    severity: non_blocking
+    finding: Both anchor descriptions quote named documents (ODNI 2021/2023, Temmam, Zhou) but carry no `sources` list, so
+      the quotes cannot be resolved to the manifest mechanically.
+    evidence: SCHEMA N25 makes `sources` optional, so this is not a conformance error; I checked each quoted passage by hand
+      in the stored ODNI copies and in Temmam 2022 and Zhou 2020, and all matched.
