@@ -1,0 +1,268 @@
+# Publish-gate review record (docs/PUBLISH_GATE.md). status: pending | revisions_requested | passed | passed_with_open_items | grandfathered | failed (rounds: see docs/PUBLISH_GATE.md)
+subject: fluoride-iq
+status: passed_with_open_items
+checks:
+- check: 'conformance: no errors for this subject'
+  result: pass
+  detail: ''
+- check: headline present, 70-95 characters
+  result: pass
+  detail: 90 characters
+- check: headline claim is established/refuted at high confidence with a primary check, or status is draft
+  result: pass
+  detail: 'fl-high-exposure-lower-iq: established, moderate, anchor_checked primary; headline_status draft'
+- check: headline_status is draft or review before the gate passes
+  result: pass
+  detail: draft
+- check: assessment present with question, answer, headline, text, basis, would_settle
+  result: pass
+  detail: ''
+- check: assessment has exactly three key_points
+  result: pass
+  detail: '3'
+- check: assessment states no percentage
+  result: pass
+  detail: ''
+- check: taxonomy entry (area and question types)
+  result: FAIL
+  detail: ''
+- check: every claim has statement_kind
+  result: pass
+  detail: ''
+- check: every searched gap names its next step
+  result: pass
+  detail: ''
+- check: sources manifest exists
+  result: pass
+  detail: ''
+- check: every source has an authenticity block
+  result: pass
+  detail: ''
+- check: log has entries
+  result: pass
+  detail: ''
+- check: timeline present (dates exist, so a timeline is required)
+  result: pass
+  detail: ''
+open_items:
+- 'taxonomy entry (area and question types): missing; build/taxonomy.yaml is owner-only. The author proposed an entry in log L-08 for the owner to add.'
+- 'fl-exposure-levels and fl-dental-benefit-smaller-now are established on secondary anchors (fetch tool; Cochrane abstracts). Flag for re-anchoring, not downgrading (REVIEW.md B). Show as a limit on the page.'
+- 'fl-water-07-no-lower-iq / fl-small-effect-not-excludable: Sweden (Aggeborn & Ohman 2021) was read in a third-party copy (gwern.net, sha256 7f51eec2... matches the manifest, compared_with_holder_copy: no). Show as a limit.'
+- 'fl-additives-toxic-waste: the CDC 2011 fact sheet was read in a mirror hosted by a pro-fluoridation group (americanfluoridationsociety.org), and the deciding contaminant data are the certifier''s own (NSF). The claim says so; keep it shown as a limit.'
+- 'fl-harvard-study-applies-to-us: the authors'' 2012 statement is read only in a repost on fluoridealert.org (an anti-fluoridation site). The refutation stands on Choi 2012''s own text without it.'
+- 'R1-4 (non-blocking, not answered by the author in round 1): short_answer.summary still leads with "more than 150,000 people"; 139,736 of the 151,402 are Swedish conscripts on natural fluoride and US achievement tests. Give the outcome mix next to the number.'
+- 'fl-echo-2026-change-point is read as an abstract only and is the one contrary residence-based report; fl-water-07-no-lower-iq and the surface lines depend on it staying described as abstract-only. Reading the full text is the next step (R2-1).'
+- 'R2-1, R2-2 (non-blocking, round 2): see rounds.'
+needs_manual_check:
+- '2 established/refuted claims anchored below primary: fl-exposure-levels, fl-dental-benefit-smaller-now'
+- 'quote not matched in stored sources (OCR noise possible): fl-ntp-silent-on-07 (match 0.85): "do not address whether the
+  sole exposure to fluoride added to drinking..."'
+- 'quote not matched in stored sources (OCR noise possible): fl-nasem-reviews (match 0.42): "the committee does not find that
+  NTP has adequately supported its conc..."'
+- 'quote not matched in stored sources (OCR noise possible): fl-nasem-reviews (match 0.53): "substantially increases the support..."'
+- 'quote not matched in stored sources (OCR noise possible): fl-nasem-reviews (match 0.51): "cannot be used to draw any conclusions
+  regarding low fluoride exposure..."'
+- 'quote not matched in stored sources (OCR noise possible): fl-formula-signal (match 0.00): "must be interpreted with caution..."'
+- 'quote not matched in stored sources (OCR noise possible): fl-court-ruling-is-not-a-finding (match 0.84): "poses an unreasonable
+  risk of reduced IQ in children..."'
+- 'quote not matched in stored sources (OCR noise possible): fl-court-ruling-is-not-a-finding (match 0.82): "This order does
+  not dictate precisely what that response must be..."'
+- 'quote not matched in stored sources (OCR noise possible): fl-court-ruling-vacated (match 0.83): "we vacate the district
+  court''s decision and remand..."'
+- 'quote not matched in stored sources (OCR noise possible): fl-state-bans-2025 (match 0.50): "A person may not add fluoride
+  to water..."'
+- 'quote not matched in stored sources (OCR noise possible): fl-epa-review-open (match 0.76): "Without prejudging any outcomes..."'
+- 'quote not matched in stored sources (OCR noise possible): fl-epa-review-open (match 0.83): "does not contain conclusions
+  regarding harmful human health effects..."'
+- 'quote not matched in stored sources (OCR noise possible): fl-cdc-still-recommends (match 0.68): "CDC continues to recommend
+  community water fluoridation..."'
+- 'quote not matched in stored sources (OCR noise possible): fl-dental-benefit-smaller-now (match 0.49): "approximately one-quarter
+  of a tooth..."'
+- 'quote not matched in stored sources (OCR noise possible): fl-fluorosis-known-cost (match 0.41): "best balance of protection
+  from dental caries while limiting the risk ..."'
+- 'quote not matched in stored sources (OCR noise possible): fl-harvard-study-applies-to-us (match 0.49): "Our review cannot
+  be used to derive an exposure limit..."'
+- 'dates, names, patent or document numbers: verify each against the source'
+- every refuted claim names its target and rests on material or primary-text evidence (Rule 9)
+- no claim goes beyond what was read; anything not read is marked not read
+conformance_warnings: 3
+established_or_refuted_without_primary_check:
+- fl-exposure-levels
+- fl-dental-benefit-smaller-now
+quotes:
+  found_in_stored_sources: 5
+  not_found_in_stored_sources: 16
+  no_stored_source_to_check_against: 0
+reviewed_by: 'independent review agent (Claude Opus 5.5), round 2 (a second reviewer, not the author and not the round-1 reviewer); PR #15, branch head bb939f4'
+reviewed_on: 2026-10-06
+notes: >
+  Publish-gate review of PR #15 (head 0f60029). Conformance on the merge with origin/main: 0 errors,
+  3 warnings for this subject (two established claims on secondary anchors; no taxonomy entry).
+  Sources opened by the reviewer: 26 of the 67 cited in claims.yaml, fetched live and text-searched.
+  The court documents and the NTP monograph were downloaded and their sha256 hashes match the manifest
+  (Ninth Circuit 559ecd6d..., Doc. 445 c6330290..., NTP 4d156ef6...). Wording, dates and numbers
+  that matched: NTP p. ii scope sentence, the moderate-confidence conclusion, 72 studies, 19 low risk
+  of bias (3 cohort, 16 cross-sectional), 18 inverse, the countries, 0.59% (about 1.9 million),
+  "appeared less consistent", "primarily on studies with estimated fluoride exposures higher than",
+  "uncertainty remains", and the state-of-the-science retitling. Doc. 445 (filed 09/24/24): p. 2
+  "unreasonable risk of reduced IQ in children", "does not conclude with certainty", "does not
+  dictate precisely"; p. 6 4 mg/L / 10 = 0.4 mg/L; paras 121-122 on pp. 79-80. Ninth Circuit No.
+  25-384 (filed 21 May 2026, not for publication): vacate and remand; "abused its discretion after
+  the first bench trial by commandeering the case"; remand "to rule based solely on the first trial
+  record"; standing remanded. It is a procedural ruling and did not reach the science, as the dig
+  says. The court rulings are stated as what they are and are not. Also matched: the ADA misquote
+  ("with any certainty"); Taylor 2025 Table 2 (all figures cited); Choi 2012 (27 studies, 2 Iran,
+  SMD -0.45, 11.5 mg/L, "in many cases", "cannot be used to derive an exposure limit"); the HSPH
+  release of 25 Jul 2012; EFSA 2025 (>1.5 mg/L); NASEM 2020 ch. 2 and 2021 ch. 2 quotes and FAN as a
+  literature source; FDA 13 May 2025; 90 FR 25329 "not conclusive" (govinfo copy); FDA CDER
+  evaluation "equivocal" (pdf p. 13), "hypothesis-generating" (p. 15); EPA releases of 7 Apr 2025,
+  22 Jan 2026 and 3 Aug 2026; 91 FR 3722 (citation and date from the FR API; quote from the stored
+  copy); Florida bill history (presented 15 May, approved 20 May 2025, Ch. 2025-22); NSF 2019 (328
+  samples, arsenic 52%, mean 0.16, max 0.9, "none ... exceeded 1/10th"); CDC 2011 additives (95%
+  FSA, phosphorite); the RFK Jr. post ("industrial waste", "IQ loss"; no arsenic); Green 2019
+  (512 pairs, 0.69 vs 0.40, boys -4.49); Do 2024 (357, 1.07, margin 3.75); Warren 2025 (57,960,
+  about 7% of an SD higher); Aggeborn & Ohman (0.14 SD bound, 81,776, mean .3533); Simon 2026
+  abstract. Not opened by the reviewer: the CDC recommendations page (403), Grandjean 2024 Odense
+  (Europe PMC 500), Utah H.B. 81 live (TLS failure; the stored enrolled text has "A person may not
+  add fluoride to water" and effective 7 May 2025), eCFR 141.62 (blocked), the Choi-Grandjean
+  statement repost (403), the Florida chapter-law text, the FDA 31 Oct 2025 release ("4 companies"),
+  and the remaining 41 cited sources. Refuted claims: Rule 9 is met for fl-court-proved-harm,
+  fl-harvard-study-applies-to-us and fl-additives-toxic-waste (each names a target and rests on
+  primary text or test data). The narrative_drift class fits all three. Absence claims are marked
+  and capped (fl-nazi-camps and the searched gaps). Nothing borrows weight from adoption, and
+  threads.yaml sets confers_weight: false. Two blocking findings are in round 1: the NTP's scope is
+  paraphrased more narrowly than the monograph states it (R1-1), and the surface text and
+  fl-water-07-no-lower-iq say residence-based studies at community levels find no lower IQ, while the
+  dig itself holds a 2026 US study (ECHO, exposure assigned by residential address) that reports
+  lower fluid cognition above about 0.675 mg/L, which the assessment never mentions (R1-2). Not added
+  to build/site.yaml.
+  Round 2 (second reviewer, head bb939f4; diff 61ef6d1..bb939f4; edited only this file). Conformance on
+  the merge with origin/main: 0 errors, the same 3 warnings for this subject. Sources opened by the
+  round-2 reviewer: the NTP monograph (downloaded live, sha256 4d156ef6... matches; p. ii and printed p. 84
+  read), the Simon 2026 ECHO abstract (Europe PMC REST; no open full text), the Florida SB 700 enrolled
+  text (downloaded live, sha256 ff5be8e5... matches; ss. 31-32 on p. 51; Chapter 2025-22 on the bill
+  page) and the stored Utah H.B. 81 enrolled text (live le.utah.gov failed TLS). R1-1, R1-2 and R1-3 are
+  verified fixed and resolved. R1-4 and R1-5 (non-blocking) were not answered and stay open items. The
+  revised surface lines (headline, search summary, assessment, key points, short answer, divergence
+  note) say no more than the claims: "unsettled" / "not established, evidence divided" matches
+  fl-fluoridation-lowers-iq (contested, low), and ECHO is labelled abstract-only everywhere it appears.
+  Adoption still carries no evidential weight (the ADA/AAP note on fl-water-07 is adoption_note only).
+  Log: L-10 added; L-01 to L-09 unchanged (the diff has no removed lines). Two new non-blocking requests
+  (R2-1: ECHO's spline result above 1107 micrograms/L is omitted; R2-2: three places still state the
+  residence-based result without the ECHO exception). Every blocking request is answered and resolved
+  by a reviewer who did not write the work, so the status is passed_with_open_items. review.yaml is
+  owner-only: the verdict is posted on PR #15 and escalated to the owner. Not merged; not added to
+  build/site.yaml.
+rounds:
+- round: 1
+  reviewed_on: 2026-10-06
+  head: 0f60029
+  requests:
+  - id: R1-1
+    target: fl-ntp-silent-on-07; assessment.text; short_answer.except[fl-high-exposure-lower-iq].what_it_is_not
+    severity: blocking
+    finding: >
+      The statement says the NTP "does not address whether fluoride added to drinking water at 0.7
+      mg/L ... has a measurable effect on IQ". The monograph says it does not address whether "the
+      sole exposure to fluoride added to drinking water" is associated with a measurable effect. The
+      dig drops "sole", which is the qualifier that matters. The same section of the monograph (p. 84,
+      the paragraph after the 1.9 million figure) also says the moderate-confidence conclusions "may
+      also be relevant to people living in optimally fluoridated areas of the United States depending
+      on the extent of their additional exposures to fluoride from sources other than drinking
+      water", and that targeted US research is needed. The assessment ("The NTP itself says its
+      review does not address 0.7 mg/L") and the short answer ("Not a finding about 0.7 mg/L: the NTP
+      says so in its own words") leave a reader thinking the NTP is silent on fluoridated areas, when
+      it states a conditional relevance. Keep "sole exposure" in the statement and surface lines, and
+      add the p. 84 qualification.
+    evidence: "NTP Monograph 08 (Aug 2024), sha256 4d156ef6... (matches manifest): p. ii 'What This Monograph Does Not Do'; p. 84 (pdf p. 104), opened and read by the reviewer."
+    author_response: {action: fixed, note: 'fl-ntp-silent-on-07 statement and anchor keep "the sole exposure to fluoride added to drinking water" and add the p. 84 qualification (may also be relevant in optimally fluoridated US areas depending on other sources; targeted US research needed). Assessment text, short-answer basis and what_it_is_not, divergence note and timeline b01 updated. Log L-10.', commit: bb939f4}
+    resolved: true
+    resolved_in_round: 2
+    reviewer_note: "Round-2 reviewer downloaded the monograph from the manifest URL (ntp.niehs.nih.gov fluoride_final_508.pdf, 19,714,134 bytes, sha256 4d156ef6... matches the manifest). p. ii: 'do not address whether the sole exposure to fluoride added to drinking water in some countries (i.e., fluoridation, at 0.7 mg/L in the United States and Canada) is associated with a measurable effect on IQ'. Printed p. 84 (pdf p. 104): 'may also be relevant to people living in optimally fluoridated areas of the United States depending on the extent of their additional exposures to fluoride from sources other than drinking water', and targeted US research 'is needed'. The statement, anchor, assessment, short answer, divergence note and timeline (yaml and html) now say this. No remaining 'does not address 0.7 mg/L' wording in the subject. Resolved."
+  - id: R1-2
+    target: fl-water-07-no-lower-iq; assessment.text and key_points[1]; short_answer.answer and summary; headline (draft); fl-echo-2026-change-point
+    severity: blocking
+    finding: >
+      fl-water-07-no-lower-iq (established, moderate, weight 4) and the surface text say that studies
+      comparing people by the fluoride level of the community water they lived on, at community
+      levels, find no lower scores, and that "at 0.7 mg/L ... no effect has been shown". The dig also
+      files fl-echo-2026-change-point. Its abstract (read by the reviewer) is a US cohort of 2,514
+      children in which each child's prenatal water fluoride was assigned by linking census-tract
+      levels to residential addresses, the same residence-based design. It reports fluid cognition
+      0.67 points lower per 100 micrograms/L above a change point of 675 micrograms/L, and calls this
+      "below current WHO and U.S. EPA thresholds". Its abstract-only status justifies keeping it
+      proposed, but not leaving it out. It is missing from fl-water-07-no-lower-iq's positions, from
+      the assessment basis and text, from the key points and from the short answer. A reader is told
+      residence-based studies are uniformly null at community levels when the dig holds one, unread
+      in full, that is not. Fix: narrow the claim to the five cohorts, name ECHO 2026 as a contrary
+      report (abstract only, proposed), and make the surface lines say so ("no effect has been shown"
+      should not stand unqualified while this is open). Reading the full paper is the stronger fix.
+    evidence: "Simon et al. 2026, Am J Epidemiol, doi 10.1093/aje/kwag186, PMID 42596505; abstract opened by the reviewer through the Europe PMC REST API on 2026-10-06."
+    author_response: {action: fixed, note: 'fl-water-07-no-lower-iq narrowed to five cohorts; ECHO 2026 named in its statement, a new position and the basis (abstract only, proposed). Assessment headline/text, key point 2, short answer answer and summary name it. Headline "Not Shown" -> "Unsettled"; search summary "no effect has been established and the evidence is divided"; headline stays draft. Full text still unread. Log L-10.', commit: bb939f4}
+    resolved: true
+    resolved_in_round: 2
+    reviewer_note: "Round-2 reviewer opened the Simon 2026 abstract (Europe PMC REST, PMID 42596505; not open access, no PMC full text). Matches the dig: 2,514 children, 17 sites, census-tract water fluoride linked to residential addresses across pregnancy, mean 396.9 micrograms/L, change point 675 micrograms/L, -0.67 (-0.92, -0.42) per 100 micrograms/L, 'below current WHO and U.S. EPA thresholds'. The statement, positions, basis, assessment, key points and short answer now name it as abstract-only and contrary; the claim keeps moderate confidence for the five cohorts with the basis saying reading ECHO could lower it. 'Unsettled' and 'not established ... divided' say no more than fl-fluoridation-lowers-iq (contested, low) supports. Headline 90 characters, still draft. Resolved. Residue that does not mislead a reader on its own is R2-1 and R2-2 (non-blocking)."
+  - id: R1-3
+    target: fl-state-bans-2025
+    severity: non_blocking
+    finding: >
+      "Became the first US states to prohibit" is not supported by any cited anchor (the statutes
+      show what Utah and Florida enacted, not that no state did so earlier), and the related gap
+      fl-sq-other-state-bans is still open. Either anchor "first" or drop it. The Florida chapter
+      law text (sections 31-32, p. 51) was not opened by the reviewer; only the bill history was.
+    evidence: "Florida Senate bill history for SB 700 (2025) opened; Utah H.B. 81 stored enrolled text read; neither says 'first'."
+    author_response: {action: fixed, note: '"first US states" removed; the statement now says each enacted a prohibition and that whether any state acted earlier is not checked (fl-sq-other-state-bans). Log L-10.', commit: bb939f4}
+    resolved: true
+    resolved_in_round: 2
+    reviewer_note: "Verified in claims.yaml; no other 'first' about the bans in the subject. Round-2 reviewer also opened the Florida enrolled text (flsenate.gov BillText/er/PDF, sha256 ff5be8e5... matches the manifest): section 31 defines 'Water quality additive' (s. 403.852(19)) and section 32 adds s. 403.859(8) barring any additive that does not meet it, on p. 51; the bill page shows Chapter 2025-22. Utah stored enrolled text: s. 19-4-111(2) 'A person may not add fluoride to water', effective May 7, 2025 (live le.utah.gov still fails TLS, not checked live). Resolved."
+  - id: R1-4
+    target: short_answer.summary ("more than 150,000 people")
+    severity: non_blocking
+    finding: >
+      The summed figure is mostly two studies that are not childhood IQ at 0.7 mg/L: Swedish
+      conscripts on natural fluoride, mean about 0.35 mg/L, and US High School and Beyond achievement
+      tests. Those two make up 139,736 of the 151,402. The summary figure's detail says this, but the
+      short-answer sentence leads with the total. Consider giving the outcome mix next to the number,
+      so the size does not carry more weight than the design supports.
+    evidence: "Aggeborn & Ohman 2021 (gwern copy, hash matches) and Warren 2025 (Europe PMC full text) opened by the reviewer."
+    author_response: null
+    resolved: false
+    reviewer_note: "Round 2: the author's round-1 response and L-10 do not answer R1-4; the short-answer summary still leads with the total. Non-blocking; carried as an open item."
+  - id: R1-5
+    target: fl-harvard-study-applies-to-us; fl-additives-toxic-waste; fl-water-07-no-lower-iq
+    severity: non_blocking
+    finding: >
+      Three anchors are third-party copies held as anchor_checked primary: the Choi-Grandjean
+      statement (fluoridealert.org repost), the CDC 2011 additives fact sheet (pro-fluoridation
+      group's mirror) and Aggeborn & Ohman (gwern.net). The dig discloses each one. Keep them listed
+      as limits on the page. None of the three decides its claim on its own.
+    evidence: "Manifest entries; CDC mirror and gwern copy opened by the reviewer; fluoridealert.org returned 403."
+    author_response: null
+    resolved: false
+    reviewer_note: "Round 2: not answered by the author (L-10 says the open items are unchanged). The request asks only that the three copies stay shown as limits; they remain in open_items. Non-blocking."
+- round: 2
+  reviewed_on: 2026-10-06
+  head: bb939f4
+  requests:
+  - id: R2-1
+    target: fl-echo-2026-change-point; fl-water-07-no-lower-iq positions; assessment.text; short_answer.answer and summary
+    severity: non_blocking
+    finding: >
+      The surface lines give ECHO's result as "lower fluid cognition above about 0.675 mg/L". The
+      abstract gives 675 micrograms/L as the best-fitting change point of a linear change-point model,
+      and also reports that the cubic spline models showed significant inverse associations only above
+      1107.0 micrograms/L. The dig records the first and not the second, so 0.675 reads as firmer than
+      the abstract makes it. Add the spline result to the anchor of fl-echo-2026-change-point and say
+      "best-fitting change point" where the number is given. Reading the full paper remains the stronger fix.
+    evidence: "Simon et al. 2026 abstract, Europe PMC REST API, PMID 42596505, opened by the round-2 reviewer on 2026-10-06."
+  - id: R2-2
+    target: 'short_answer.summary_figures ("Residence-based cohorts at community levels: no lower IQ"); fl-fluoridation-lowers-iq confidence_reasons and "No" position; tests.yaml result'
+    severity: non_blocking
+    finding: >
+      R1-2 was fixed in the claim and the surface prose, but three places still state the
+      residence-based result without the ECHO exception: the summary figure label (its detail lists
+      the five cohorts), fl-fluoridation-lowers-iq ("Residence-based cohorts are null"; "No lower IQ
+      where children are compared by community fluoridation") and the residence test result. Each
+      lists the five cohorts and none is wrong about them, so this is not blocking. Say "five
+      residence-based cohorts" and add the ECHO exception or a pointer to fl-echo-2026-change-point.
+    evidence: "claims.yaml and tests.yaml at bb939f4, read by the round-2 reviewer."

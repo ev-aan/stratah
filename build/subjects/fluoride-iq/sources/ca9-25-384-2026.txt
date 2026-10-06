@@ -1,0 +1,204 @@
+NOT FOR PUBLICATION
+UNITED STATES COURT OF APPEALS
+
+FILED
+MAY 21 2026
+MOLLY C. DWYER, CLERK
+
+FOR THE NINTH CIRCUIT
+FOOD & WATER WATCH; FLUORIDE
+ACTION NETWORK; MOMS AGAINST
+FLUORIDATION; AUDREY ADAMS,
+individually and on behalf of KYLE
+ADAMS; KYLE ADAMS; KRISTIN
+LAVELLE, individually and on behalf of
+NEAL LAVELLE; NEAL LAVELLE;
+BRENDA STAUDENMAIER, individually
+and on behalf of KO STAUDENMAIER
+and HAYDEN STAUDENMAIER; KO
+STAUDENMAIER; HAYDEN
+STAUDENMAIER,
+
+U.S. COURT OF APPEALS
+
+No. 25-384
+D.C. No.
+3:17-cv-02162-EMC
+
+MEMORANDUM*
+
+Plaintiffs - Appellees,
+v.
+UNITED STATES ENVIRONMENTAL
+PROTECTION AGENCY, an agency of the
+United States; LEE ZELDIN, in his official
+capacity as Administrator of the U.S.
+Environmental Protection Agency,
+Defendants - Appellants.
+Appeal from the United States District Court
+for the Northern District of California
+Edward M. Chen, District Judge, Presiding
+
+*
+
+This disposition is not appropriate for publication and is not precedent
+except as provided by Ninth Circuit Rule 36-3.
+
+Argued and Submitted March 3, 2026
+San Francisco, California
+Before: S.R. THOMAS and GOULD, Circuit Judges, and MORRIS, Chief District
+Judge.**
+Defendant-Appellant United States Environmental Protection Agency
+(“EPA”) appeals the district court’s finding that adding fluoride to drinking water at
+a concentration of 0.7 mg/L presents an unreasonable risk to human health and
+ordering EPA to manage the risks in accordance with the Toxic Substances Control
+Act (“TSCA”). Plaintiffs-Appellees Food & Water Watch, et al. (“Plaintiffs”)
+petitioned EPA in 2016 seeking EPA to issue a rule banning the addition of fluoride
+to drinking water pursuant to Section 21 of TSCA. EPA denied Plaintiffs’ petition.
+Plaintiffs subsequently filed suit under Section 21’s judicial review provision. 15
+U.S.C. § 2620(b)(4)(A).
+The district court conducted two bench trials. Following the second bench
+trial, the district court held that the addition of fluoride to drinking water at a
+concentration of 0.7 mg/L presents an unreasonable risk to human health and ordered
+that EPA manage the risks associated with adding fluoride to drinking water in
+accordance with TSCA. EPA appealed. EPA argues that the district court erred by
+(1) taking over the case and holding a second bench trial in violation of the party
+
+**
+
+The Honorable Brian M. Morris, United States Chief District Judge
+for the District of Montana, sitting by designation.
+
+2
+
+presentation principle; (2) reviewing an evidentiary record that differed from the
+record presented to EPA in the Plaintiffs’ original 2016 petition; and (3) ruling that
+Plaintiffs had Article III standing to bring their claim. Because the parties are
+familiar with the facts of this case, we do not recount the facts in full here except as
+necessary to provide context for our ruling. We have jurisdiction under 28 U.S.C.
+§ 1291, and we vacate the district court’s decision and remand.
+1. The district court abused its discretion after the first bench trial by
+commandeering the case. We review for abuse of discretion a district court’s
+adherence to the party presentation principle. United States v. Sineneng-Smith, 590
+U.S. 371, 375 (2020). “In our adversarial system of adjudication, we follow the
+principle of party presentation.” Id. Under this principle, we “rely on the parties to
+frame the issues for decision and assign to courts the role of neutral arbiter of matters
+the parties present.” Id. (quoting Greenlaw v. United States, 554 U.S. 237, 243
+(2008)). EPA argues that the district court violated the party presentation principle
+in its handling of the case after the close of the first trial.1 We agree.
+Although the party presentation principle is “not ironclad,” and “[t]here are
+no doubt circumstances in which a modest initiating role for a court is appropriate,”
+
+1
+
+Although Plaintiffs contend that EPA waived this issue by failing to raise it to the
+district court, we have previously ruled on party presentation challenges first raised
+in our Court. See, e.g., Trader Joe’s Co. v. Trader Joe’s United, 150 F.4th 1040,
+1054–55 (9th Cir. 2025).
+3
+
+Sineneng-Smith, 590 U.S. at 376, we must determine whether the district court
+“departed so drastically from the principle of party presentation as to constitute an
+abuse of discretion.” Id. at 375. Here, we hold that it did.
+We begin with guidance from the U.S. Supreme Court. The Supreme Court in
+Sineneng-Smith concluded that the Ninth Circuit had violated the party presentation
+principle when it moved the appeal “onto a different track,” rather than relying on
+the arguments presented by the parties. Id. at 374–75. There, the Ninth Circuit
+“named three amici and invited them to brief and argue issues framed by the panel,
+including a question [the defendant] herself never raised earlier[.]” Id. at 374. The
+Ninth Circuit permitted, but did not require, counsel for the parties to file
+supplemental briefs “limited to responding to any and all amicus/amici briefs.” Id.
+at 379 (emphasis in original). And the Ninth Circuit “gave invited amici 20 minutes
+for argument [but] allocated only 10 minutes to [the defendant’s] counsel.” Id. The
+Ninth Circuit ultimately agreed with the arguments presented by amici and resolved
+the appeal under a theory not originally presented by the parties. Id. at 375, 379.
+The Supreme Court determined that the Ninth Circuit had abused its discretion and
+had let the defendant’s arguments “f[a]ll by the wayside.” Id. at 379. The Supreme
+Court in Sineneng-Smith acknowledged that “a court is not hidebound by the precise
+arguments of counsel,” but concluded that the “Ninth Circuit’s radical
+transformation of this case [went] well beyond the pale.” Id. at 380.
+
+4
+
+The district court’s decision to invite amendment on standing did not violate
+the party presentation principle. See Cottonwood Env’t L. Ctr. v. Edwards, 86 F.4th
+1255, 1265 (9th Cir. 2023) (holding that “[w]hile other district courts may have
+taken a more passive approach,” the district court did not violate the party
+presentation principle through its “‘modest initiating role’ in suggesting that [the
+plaintiff] join [the proper defendant] to the litigation” (quoting Sineneng-Smith, 590
+U.S. at 376)).
+However, the district court’s remaining actions here clearly violate the party
+presentation principle. The district court abused its discretion when it refused to rule
+on the first trial record, despite the parties’ assertions that it should, and when it held
+the case in abeyance to wait for the completion of an additional study to which the
+parties had already stipulated not to present at trial. Plaintiffs argue that the party
+presentation principle only limits a court’s authority to raise new legal issues and
+does not limit a court’s authority to resolve the issues that the parties have raised.
+Plaintiffs suggest that no party presentation principle violation occurred because the
+district court never raised new legal issues and instead established its own procedure
+to resolve the case that the parties had shaped. EPA argues that the party presentation
+principle applies more broadly and limits a court’s ability to introduce new issues,
+of a legal or factual nature, to the proceedings. We agree with EPA’s position.
+
+5
+
+Our judicial system “is designed around the premise that [parties represented
+by competent counsel] know what is best for them and are responsible for advancing
+the facts and argument entitling them to relief.” Sineneng-Smith, 590 U.S. at 375–
+76 (quoting Castro v. United States, 540 U.S. 375, 386 (2003) (Scalia, J., concurring
+in part and concurring in judgment)) (emphasis added) (alteration in original). “What
+makes a system adversarial rather than inquisitorial is . . . the presence of a judge
+who does not (as an inquisitor does) conduct the factual and legal investigation
+himself, but instead decides on the basis of facts and arguments pro and con adduced
+by the parties.” McNeil v. Wisconsin, 501 U.S. 171, 181 n.2 (1991)) (emphasis
+added).
+Concern over judicial development of the factual record can also present a
+party presentation issue. Cf. Duncan v. Bonta, 133 F.4th 852, 886–90 (9th Cir. 2025)
+(Berzon, J., concurring) (“[The Court’s] job is not to provide the facts that support
+[the Court’s] conclusions but to apply the law to the facts as presented by the
+parties.”). Here, the district court effectively provided its own factual presentation.
+The district court held the case in abeyance for a year and a half, awaiting new
+studies and the final NTP monograph. Both parties subsequently agreed that the
+district court should lift the abeyance and that it would be appropriate to decide the
+merits of the case based only on the first trial record. The district court lifted the
+abeyance but declined to decide the case on the first trial record. Instead, the district
+
+6
+
+court repeatedly expressed its belief that new evidence was necessary and insisted
+on seeing the NTP monograph that the parties had agreed not to present at the first
+trial. The district court rejected the parties’ presentation of the case and determined,
+on its own, that the NTP monograph was relevant and important.
+This case no longer “bear[s] a fair resemblance to the case shaped by the
+parties.” Sineneng-Smith, 590 U.S. at 380. The district court’s “takeover” of the
+evidentiary presentation, in combination with its repeated refusal to respect the
+decisions made by the parties in the case, violated the party presentation principle
+and constitute an abuse of discretion. Id. at 379. The district court’s “radical
+transformation” of the case by holding the case in abeyance for a year and a half and
+declining to rule on the first trial record as requested by both parties went “well
+beyond the pale.” Id. at 380. We accordingly vacate and remand to the district court
+to rule based solely on the first trial record.
+2. Because, against EPA’s initial objection, both parties introduced new
+evidence to the district court during the first trial that went beyond the evidence
+presented in the 2016 petition to EPA, we hold that, in these circumstances, the
+district court did not err in relying on evidence not included in Plaintiffs’ 2016
+petition in the first trial. Cf. Independence Min. Co., Inc. v. Babbit, 105 F.3d 502,
+511–12 (9th Cir. 1997) (holding that district court did not err in considering
+supplemental evidence when it “permitted both sides to submit supplemental
+
+7
+
+evidence”). However, we decline to address whether Section 21 of TSCA would
+allow the introduction of evidence beyond that contained in the initial petition under
+different circumstances.
+3. We remand the issue of standing to the district court for consideration of
+EPA’s judicial notice request in the first instance. The district court as the trier of
+fact sits in the best position to determine whether to take judicial notice of EPA’s
+proffered facts and whether these facts affect Plaintiffs’ standing. Because we
+remand this issue to the district court, EPA’s motion for judicial notice (Dkt. 23) is
+denied as moot.
+VACATED AND REMANDED.
+
+8
+
+

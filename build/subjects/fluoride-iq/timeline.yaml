@@ -1,0 +1,195 @@
+timeline:
+  id: fluoride-iq
+  title: "Fluoride and children's IQ: the studies, the courts and the institutions (1945 to 2026)"
+  as_of: "2026-10-03"
+  note: >
+    Times are UTC; every event here is known to the day, month or year only. Publication dates
+    are online or issue dates as given in the cited record. Events marked "single" rest on one
+    source. Panel B enlarges August 2024 to October 2026, when the US institutional position
+    split. Policy events are adoption, not evidence.
+panels:
+  - id: years
+    title: "Panel A: 1945 to July 2024 (one tick per ten years)"
+    start: "1945-01-01T00:00:00Z"
+    end:   "2024-07-31T00:00:00Z"
+    tick_years: 10
+    lanes: [history, research, legal, institutions]
+  - id: recent
+    title: "Panel B: August 2024 to October 2026 (one tick per two months)"
+    start: "2024-08-01T00:00:00Z"
+    end:   "2026-10-15T00:00:00Z"
+    tick_hours: 1464
+    lanes: [research, legal, institutions, media]
+lanes:
+  history:      {label: "Fluoridation and its opponents"}
+  research:     {label: "Studies and reviews"}
+  legal:        {label: "Courts and laws"}
+  institutions: {label: "Agencies and cities"}
+  media:        {label: "Statements and opinion"}
+people:
+  - {who: "Edward M. Chen", detail: "US District Judge (N.D. Cal.) who issued the 24 Sep 2024 findings in Food & Water Watch v. EPA; vacated on appeal 21 May 2026."}
+  - {who: "Robert F. Kennedy Jr.", detail: "US Secretary of Health and Human Services from 2025; posted on 2 Nov 2024 that fluoride is 'an industrial waste' associated with IQ loss; said in Apr 2025 he would tell the CDC to stop recommending fluoridation (AP)."}
+  - {who: "Lee Zeldin", detail: "EPA Administrator; announced the EPA's review of fluoride on 7 Apr 2025."}
+  - {who: "Philippe Grandjean", detail: "Senior author of Choi et al. 2012 (the 'Harvard study') and of later benchmark-dose analyses."}
+  - {who: "Christine Till", detail: "Senior author of the Canadian MIREC fluoride studies (2019, 2020)."}
+sources:
+  src-hicks-2011:            {title: "Hicks, Pipe Dreams, Science History Institute (2011)", url: "https://www.sciencehistory.org/stories/magazine/pipe-dreams-americas-fluoride-controversy/", authenticity: "institutional history (secondary)"}
+  src-ecfr-fluoride-mcl:     {title: "40 CFR 141.62 (eCFR)", url: "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-D/part-141/subpart-G/section-141.62", authenticity: "authenticated, strong"}
+  src-phs-2015:              {title: "US PHS recommendation, Federal Register 1 May 2015", url: "https://www.federalregister.gov/d/2015-10201", authenticity: "authenticated, strong"}
+  src-nrc-2006:              {title: "NRC, Fluoride in Drinking Water (2006)", url: "https://nap.nationalacademies.org/read/11571/chapter/2", authenticity: "authenticated, strong"}
+  src-cdc-mmwr-1999:         {title: "CDC MMWR 22 Oct 1999, Fluoridation of drinking water", url: "https://www.cdc.gov/mmwr/preview/mmwrhtml/mm4841a1.htm", authenticity: "authenticated, strong"}
+  src-scher-2011:            {title: "EU SCHER opinion on fluoride (16 May 2011)", url: "https://ec.europa.eu/health/scientific_committees/environmental_risks/docs/scher_o_139.pdf", authenticity: "authenticated, moderate"}
+  src-calgary:               {title: "City of Calgary, fluoride page", url: "https://www.calgary.ca/water/drinking-water/fluoride.html", authenticity: "authenticated, moderate"}
+  src-choi-2012:             {title: "Choi et al., Environ Health Perspect 2012", url: "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC3491930/fullTextXML", authenticity: "authenticated, moderate"}
+  src-broadbent-2015:        {title: "Broadbent et al., Am J Public Health 2015", url: "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4265943/", authenticity: "authenticated, moderate"}
+  src-cochrane-2015:         {title: "Cochrane review 2015, CD010856.pub2", url: "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC6953324/fullTextXML", authenticity: "authenticated, moderate"}
+  src-fww-v-epa-2024:        {title: "Food & Water Watch v. EPA, N.D. Cal., Doc. 445 (24 Sep 2024)", url: "https://www.govinfo.gov/content/pkg/USCOURTS-cand-3_17-cv-02162/pdf/USCOURTS-cand-3_17-cv-02162-15.pdf", authenticity: "authenticated, strong"}
+  src-bashash-2017:          {title: "Bashash et al., Environ Health Perspect 2017", url: "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC5915186/fullTextXML", authenticity: "authenticated, moderate"}
+  src-green-2019:            {title: "Green et al., JAMA Pediatr 2019", url: "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC6704756/fullTextXML", authenticity: "authenticated, moderate"}
+  src-nasem-2020:            {title: "NASEM review of the 2019 NTP draft (2020)", url: "https://nap.nationalacademies.org/read/25715/chapter/1", authenticity: "authenticated, strong"}
+  src-nasem-2021:            {title: "NASEM letter on the 2020 NTP draft (2021)", url: "https://nap.nationalacademies.org/read/26030/chapter/1", authenticity: "authenticated, strong"}
+  src-aggeborn-ohman-2021:   {title: "Aggeborn & Öhman, J Polit Econ 2021", url: "https://www.journals.uchicago.edu/doi/10.1086/711915", authenticity: "authenticated, moderate (third-party copy read)"}
+  src-mclaren-2022:          {title: "McLaren et al., Community Dent Oral Epidemiol (online 26 Jul 2021)", url: "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC9542152/fullTextXML", authenticity: "authenticated, moderate"}
+  src-grandjean-2024-odense: {title: "Grandjean et al., Eur J Public Health (online 5 Oct 2023)", url: "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10843960/", authenticity: "authenticated, moderate"}
+  src-ntp-2024:              {title: "NTP Monograph 08 (Aug 2024)", url: "https://ntp.niehs.nih.gov/sites/default/files/2024-08/fluoride_final_508.pdf", authenticity: "authenticated, strong"}
+  src-cochrane-2024:         {title: "Cochrane review 2024, CD010856.pub3", url: "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC11449566/fullTextXML", authenticity: "authenticated, moderate"}
+  src-rfk-x-2024:            {title: "Kennedy post on X, 2 Nov 2024", url: "https://x.com/RobertKennedyJr/status/1852812012478398923", authenticity: "authenticated, moderate (platform record)"}
+  src-do-2024:               {title: "Do et al., J Dent Res (online 18 Dec 2024)", url: "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC11843800/fullTextXML", authenticity: "authenticated, moderate"}
+  src-taylor-2025:           {title: "Taylor et al., JAMA Pediatr (online 6 Jan 2025)", url: "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC11877182/fullTextXML", authenticity: "authenticated, moderate"}
+  src-utah-hb81:             {title: "Utah H.B. 81 (2025)", url: "https://le.utah.gov/~2025/bills/static/HB0081.html", authenticity: "authenticated, strong"}
+  src-epa-2025-04-07:        {title: "EPA release, 7 Apr 2025", url: "https://www.epa.gov/newsreleases/epa-will-expeditiously-review-new-science-fluoride-drinking-water", authenticity: "authenticated, strong"}
+  src-pbs-2025-04-07:        {title: "AP via PBS, 7 Apr 2025", url: "https://www.pbs.org/newshour/health/rfk-jr-will-tell-cdc-to-stop-recommending-fluoride-in-drinking-water", authenticity: "news report"}
+  src-fda-2025-05-13:        {title: "FDA release, 13 May 2025", url: "https://www.fda.gov/news-events/press-announcements/fda-begins-action-remove-ingestible-fluoride-prescription-drug-products-children-market", authenticity: "authenticated, strong"}
+  src-florida-sb700:         {title: "Florida SB 700, Chapter 2025-22", url: "https://www.flsenate.gov/Session/Bill/2025/700", authenticity: "authenticated, strong"}
+  src-efsa-2025:             {title: "EFSA opinion on fluoride (published 22 Jul 2025)", url: "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12280829/fullTextXML", authenticity: "authenticated, moderate"}
+  src-fda-2025-10-31:        {title: "FDA release and CDER evaluation, 31 Oct 2025", url: "https://www.fda.gov/media/189421/download", authenticity: "authenticated, strong"}
+  src-warren-2025:           {title: "Warren et al., Sci Adv (19 Nov 2025)", url: "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12629170/fullTextXML", authenticity: "authenticated, moderate"}
+  src-fr-2026-01657:         {title: "EPA assessment plan, 91 FR 3722 (28 Jan 2026)", url: "https://www.federalregister.gov/d/2026-01657", authenticity: "authenticated, strong"}
+  src-warren-2026:           {title: "Warren et al., PNAS (13 Apr 2026)", url: "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC13099618/fullTextXML", authenticity: "authenticated, moderate"}
+  src-ca9-2026:              {title: "Ninth Circuit memorandum, No. 25-384 (21 May 2026)", url: "https://cdn.ca9.uscourts.gov/datastore/memoranda/2026/05/21/25-384.pdf", authenticity: "authenticated, strong"}
+  src-annenberg-2026:        {title: "Annenberg survey release, 11 Jun 2026 (EurekAlert)", url: "https://www.eurekalert.org/news-releases/1131772", authenticity: "authenticated, moderate"}
+  src-epa-2026-08-protocol:  {title: "EPA release and protocol, 3 Aug 2026", url: "https://www.epa.gov/newsreleases/epa-hits-key-milestone-expedited-review-fluoride-under-safe-drinking-water-act", authenticity: "authenticated, strong"}
+  src-simon-2026:            {title: "Simon et al., Am J Epidemiol (14 Aug 2026), abstract", url: "https://doi.org/10.1093/aje/kwag186", authenticity: "authenticated, moderate (abstract read)"}
+events:
+  # ---------------- Panel A ----------------
+  - {id: a01, panel: years, lane: history, time: "1945-01-25T12:00:00Z", precision: day, kind: document, status: single, sources: [src-hicks-2011],
+     label: "25 Jan 1945: Grand Rapids becomes the first city to fluoridate its water",
+     detail: "The exact day is from one history source; NIDCR gives only the year [read]."}
+  - {id: a02, panel: years, lane: institutions, time: "1962-06-30T12:00:00Z", precision: year, kind: official, status: reported, sources: [src-phs-2015],
+     label: "1962: US Public Health Service sets 0.7-1.2 mg/L, by temperature",
+     detail: "As described in the 2015 recommendation that replaced it [read]."}
+  - {id: a03, panel: years, lane: institutions, time: "1986-06-30T12:00:00Z", precision: year, kind: official, status: reported, sources: [src-nrc-2006, src-ecfr-fluoride-mcl],
+     label: "1986: EPA sets the legal maximum at 4 mg/L (secondary standard 2 mg/L)",
+     detail: "Still 4.0 mg/L in the eCFR as of 1 Sep 2026 [read]."}
+  - {id: a04, panel: years, lane: institutions, time: "1999-10-22T12:00:00Z", precision: day, kind: official, status: reported, sources: [src-cdc-mmwr-1999],
+     label: "22 Oct 1999: CDC lists fluoridation among ten great public health achievements",
+     detail: "Says opponents had claimed links to 'low intelligence' and that no credible evidence supports them [read]."}
+  - {id: a05, panel: years, lane: research, time: "2006-06-30T12:00:00Z", precision: year, kind: analysis, status: reported, sources: [src-nrc-2006],
+     label: "2006: National Research Council says the 4 mg/L limit should be lowered",
+     detail: "Severe enamel fluorosis in about 10% of children at or near 4 mg/L [read]."}
+  - {id: a06, panel: years, lane: institutions, time: "2011-05-16T12:00:00Z", precision: day, kind: official, status: reported, sources: [src-scher-2011],
+     label: "16 May 2011: EU scientific committee finds not enough evidence of IQ harm at EU levels",
+     detail: "SCHER opinion [read]."}
+  - {id: a07, panel: years, lane: institutions, time: "2011-05-19T12:00:00Z", precision: day, kind: official, status: reported, sources: [src-calgary],
+     label: "19 May 2011: Calgary council stops fluoridation",
+     detail: "Edmonton continues; the two cities become a natural comparison [read]."}
+  - {id: a08, panel: years, lane: research, time: "2012-07-20T12:00:00Z", precision: day, kind: analysis, status: reported, sources: [src-choi-2012],
+     label: "20 Jul 2012: Choi et al. meta-analysis (27 studies, China and Iran)",
+     detail: "Labelled 'the Harvard study' after the school's 25 Jul press release; the authors say it cannot set a US limit [read]."}
+  - {id: a09, panel: years, lane: research, time: "2015-01-15T12:00:00Z", precision: month, kind: analysis, status: reported, sources: [src-broadbent-2015],
+     label: "Jan 2015: Dunedin cohort finds no IQ difference by fluoridation",
+     detail: "992 children; exposure by residence [read]."}
+  - {id: a10, panel: years, lane: institutions, time: "2015-05-01T12:00:00Z", precision: day, kind: official, status: reported, sources: [src-phs-2015],
+     label: "1 May 2015: US recommended level lowered to 0.7 mg/L",
+     detail: "To balance cavity protection against dental fluorosis [read]."}
+  - {id: a11, panel: years, lane: research, time: "2015-06-18T12:00:00Z", precision: day, kind: analysis, status: reported, sources: [src-cochrane-2015],
+     label: "18 Jun 2015: Cochrane review: 35% fewer decayed baby teeth, mostly pre-1975 studies",
+     detail: "Over 97% of studies at high risk of bias [abstract]."}
+  - {id: a12, panel: years, lane: legal, time: "2017-06-30T12:00:00Z", precision: year, kind: official, status: reported, sources: [src-fww-v-epa-2024],
+     label: "2017: Food & Water Watch sues EPA under the toxics law (TSCA)",
+     detail: "Year taken from the case number 3:17-cv-02162 [read]."}
+  - {id: a13, panel: years, lane: research, time: "2017-09-19T12:00:00Z", precision: day, kind: analysis, status: reported, sources: [src-bashash-2017],
+     label: "19 Sep 2017: Mexico City pregnancy cohort links maternal fluoride to lower child IQ",
+     detail: "Exposure from fluoridated salt [read]."}
+  - {id: a14, panel: years, lane: research, time: "2019-08-19T12:00:00Z", precision: day, kind: analysis, status: reported, sources: [src-green-2019],
+     label: "19 Aug 2019: Canadian MIREC study: lower IQ in boys with higher maternal fluoride",
+     detail: "Girls no significant change [read]."}
+  - {id: a15, panel: years, lane: research, time: "2020-03-05T12:00:00Z", precision: day, kind: analysis, status: reported, sources: [src-nasem-2020],
+     label: "5 Mar 2020: National Academies: NTP draft's conclusion not adequately supported",
+     detail: "'That finding does not mean that the conclusion is incorrect' [read]."}
+  - {id: a16, panel: years, lane: research, time: "2021-01-13T12:00:00Z", precision: day, kind: analysis, status: reported, sources: [src-aggeborn-ohman-2021],
+     label: "13 Jan 2021: Swedish register study: no effect on cognitive ability",
+     detail: "81,776 conscripts [read, third-party copy]."}
+  - {id: a17, panel: years, lane: research, time: "2021-02-15T12:00:00Z", precision: month, kind: analysis, status: reported, sources: [src-nasem-2021],
+     label: "Feb 2021: National Academies: no conclusions possible for low exposures",
+     detail: "Meta-analysis 'substantially increases the support' for the main conclusion [read]."}
+  - {id: a18, panel: years, lane: research, time: "2021-07-26T12:00:00Z", precision: day, kind: analysis, status: reported, sources: [src-mclaren-2022],
+     label: "26 Jul 2021: Calgary vs Edmonton: more baby-tooth decay after Calgary stopped",
+     detail: "64.8% vs 55.1% in 2018/19 [read]."}
+  - {id: a19, panel: years, lane: institutions, time: "2021-11-15T12:00:00Z", precision: day, kind: official, status: reported, sources: [src-calgary],
+     label: "15 Nov 2021: Calgary council directs fluoride's return after a plebiscite",
+     detail: "62% in favour [read]."}
+  - {id: a20, panel: years, lane: research, time: "2023-10-05T12:00:00Z", precision: day, kind: analysis, status: reported, sources: [src-grandjean-2024-odense],
+     label: "5 Oct 2023: Danish pregnancy cohort finds no association with IQ",
+     detail: "837 children [read]."}
+  # ---------------- Panel B ----------------
+  - {id: b01, panel: recent, lane: research, time: "2024-08-21T12:00:00Z", precision: month, kind: document, status: reported, sources: [src-ntp-2024],
+     label: "Aug 2024: NTP monograph: moderate confidence of lower IQ above 1.5 mg/L",
+     detail: "Says its findings do not address whether the sole exposure to fluoride added to drinking water has a measurable effect; may also be relevant in fluoridated US areas depending on other sources (p. 84) [read]."}
+  - {id: b02, panel: recent, lane: legal, time: "2024-09-24T12:00:00Z", precision: day, kind: official, status: reported, sources: [src-fww-v-epa-2024],
+     label: "24 Sep 2024: court finds 'unreasonable risk' under TSCA at 0.7 mg/L",
+     detail: "Does not conclude harm with certainty; orders EPA rulemaking, not an end to fluoridation [read]."}
+  - {id: b03, panel: recent, lane: research, time: "2024-10-04T12:00:00Z", precision: day, kind: analysis, status: reported, sources: [src-cochrane-2024],
+     label: "4 Oct 2024: Cochrane update: modern dental benefit small and uncertain",
+     detail: "About a quarter of a tooth; interval includes no benefit [abstract]."}
+  - {id: b04, panel: recent, lane: media, time: "2024-11-02T20:36:00Z", precision: day, kind: witness, status: reported, sources: [src-rfk-x-2024],
+     label: "2 Nov 2024: Kennedy posts that fluoride is 'an industrial waste' linked to IQ loss",
+     detail: "Platform record read; reported by NBC News the same day."}
+  - {id: b05, panel: recent, lane: research, time: "2024-12-18T12:00:00Z", precision: day, kind: analysis, status: reported, sources: [src-do-2024],
+     label: "18 Dec 2024: Australian cohort: no IQ difference by early fluoridated water",
+     detail: "357 young adults [read]."}
+  - {id: b06, panel: recent, lane: research, time: "2025-01-06T12:00:00Z", precision: day, kind: analysis, status: reported, sources: [src-taylor-2025],
+     label: "6 Jan 2025: NTP meta-analysis: water studies below 1.5 mg/L show no association",
+     detail: "Urine studies below 1.5 mg/L show a small inverse one [read]."}
+  - {id: b07, panel: recent, lane: legal, time: "2025-03-27T12:00:00Z", precision: day, kind: official, status: reported, sources: [src-utah-hb81],
+     label: "27 Mar 2025: Utah bans fluoridation (in force 7 May 2025)",
+     detail: "H.B. 81 [read]."}
+  - {id: b08, panel: recent, lane: institutions, time: "2025-04-07T12:00:00Z", precision: day, kind: official, status: reported, sources: [src-epa-2025-04-07, src-pbs-2025-04-07],
+     label: "7 Apr 2025: EPA announces review; Kennedy says he will tell CDC to stop recommending fluoridation",
+     detail: "EPA: 'Without prejudging any outcomes' [read]; Kennedy's intent reported by AP [read]."}
+  - {id: b09, panel: recent, lane: institutions, time: "2025-05-13T12:00:00Z", precision: day, kind: official, status: reported, sources: [src-fda-2025-05-13],
+     label: "13 May 2025: FDA begins action on children's fluoride drops and tablets",
+     detail: "Not about water [read]."}
+  - {id: b10, panel: recent, lane: legal, time: "2025-05-20T12:00:00Z", precision: day, kind: official, status: reported, sources: [src-florida-sb700],
+     label: "20 May 2025: Florida bans additives that are not 'water quality additives' (in force 1 Jul)",
+     detail: "The law does not use the word fluoride [read]."}
+  - {id: b11, panel: recent, lane: institutions, time: "2025-06-30T12:00:00Z", precision: day, kind: official, status: reported, sources: [src-calgary],
+     label: "30 Jun 2025: Calgary resumes fluoridation at 0.7 mg/L",
+     detail: "After 14 years without [read]."}
+  - {id: b12, panel: recent, lane: institutions, time: "2025-07-22T12:00:00Z", precision: day, kind: official, status: reported, sources: [src-efsa-2025],
+     label: "22 Jul 2025: EU food safety agency: brain effects above 1.5 mg/L",
+     detail: "Below 1.5 mg/L not consistent enough to conclude [summary read]."}
+  - {id: b13, panel: recent, lane: institutions, time: "2025-10-31T12:00:00Z", precision: day, kind: official, status: reported, sources: [src-fda-2025-10-31],
+     label: "31 Oct 2025: FDA restricts fluoride drops for under-3s; calls US IQ evidence 'equivocal'",
+     detail: "Notices to 4 companies [read]."}
+  - {id: b14, panel: recent, lane: research, time: "2025-11-19T12:00:00Z", precision: day, kind: analysis, status: reported, sources: [src-warren-2025],
+     label: "19 Nov 2025: US cohort of 57,960: fluoridated adolescents scored slightly higher",
+     detail: "High School and Beyond [read]."}
+  - {id: b15, panel: recent, lane: institutions, time: "2026-01-28T12:00:00Z", precision: day, kind: official, status: reported, sources: [src-fr-2026-01657],
+     label: "28 Jan 2026: EPA publishes its assessment plan; no health conclusions",
+     detail: "Review under the Safe Drinking Water Act [read]."}
+  - {id: b16, panel: recent, lane: research, time: "2026-04-13T12:00:00Z", precision: day, kind: analysis, status: reported, sources: [src-warren-2026],
+     label: "13 Apr 2026: Wisconsin cohort (10,317): no negative association",
+     detail: "[read]"}
+  - {id: b17, panel: recent, lane: legal, time: "2026-05-21T12:00:00Z", precision: day, kind: official, status: reported, sources: [src-ca9-2026],
+     label: "21 May 2026: Ninth Circuit vacates the 2024 ruling on procedural grounds",
+     detail: "Remanded; no ruling on the science [read]."}
+  - {id: b18, panel: recent, lane: media, time: "2026-06-11T12:00:00Z", precision: day, kind: data, status: reported, sources: [src-annenberg-2026],
+     label: "11 Jun 2026: survey: 43% of US adults favor fluoridation, 26% oppose",
+     detail: "Fielded 14-28 Apr 2026 [read]."}
+  - {id: b19, panel: recent, lane: institutions, time: "2026-08-03T12:00:00Z", precision: day, kind: official, status: reported, sources: [src-epa-2026-08-protocol],
+     label: "3 Aug 2026: EPA releases its assessment protocol; draft not yet out",
+     detail: "Covers neurodevelopment and dental fluorosis [read]."}
+  - {id: b20, panel: recent, lane: research, time: "2026-08-14T12:00:00Z", precision: day, kind: analysis, status: single, sources: [src-simon-2026],
+     label: "14 Aug 2026: US ECHO analysis reports a change point near 0.675 mg/L",
+     detail: "Abstract only; filed as proposed [abstract]."}
