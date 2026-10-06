@@ -58,7 +58,7 @@ assessment:
   key_points:
     - "Animal-market case: early cases centred on the Huanan market and market samples carried the virus, but no infected animal was found and critics dispute the statistics."
     - "Lab case: circumstantial (location, biosafety, a 2018 proposal); no document read shows a lab held, made or released it. No progenitor is public on either side."
-    - "Institutions differ (adoption, not evidence): US agencies split at low or moderate confidence, WHO's SAGO says zoonotic is better supported, a House report says lab."
+    - "Institutions differ (adoption, not evidence): US agencies split (public confidence levels are mostly redacted or only press-reported), WHO's SAGO says zoonotic is better supported, a House report says lab."
   basis: [co-origin-not-established, co-no-progenitor-public, co-zoonosis-hypothesis, co-market-pattern, co-market-samples, co-lab-hypothesis, co-odni-2023-wiv-findings, co-fcs-unique-among-sarbecoviruses, co-defuse-shows-engineered, co-assessments-say-open]
   rated_claim: co-origin-not-established
   would_settle: >
@@ -94,8 +94,9 @@ short_answer:
         Joint WHO-China report (2021): 174 cases with onset in December 2019 (100 laboratory-confirmed,
         74 clinically diagnosed). Of the 168 with an exposure history, 28.0% were exposed to the Huanan market
         only, 22.6% to other markets only and 4.8% to both. The report says a similar number of cases were
-        associated with other markets as with Huanan and that "No firm conclusion therefore about the role
-        of the Huanan Market can be drawn." Exposure to the Huanan market was part of the case definition for a
+        associated with other markets as with Huanan and that "No firm conclusion therefore
+        about the role of the Huanan market in the origin of the outbreak, or how the infection was introduced into the
+        market, can currently be drawn." Exposure to the Huanan market was part of the case definition for a
         short period until mid-January 2020.
       source: [src-who-china-2021]
       checked: full
@@ -229,8 +230,8 @@ divergence_note: >
   available evidence suggests zoonotic spillover, while its own report says the market's role is not conclusive,
   that it was given no raw data, and that it cannot rule a laboratory route out; a 2021 WHO-China report called a
   laboratory incident "extremely unlikely" on the strength of statements from laboratory representatives, and
-  WHO's Director-General said that assessment "was not extensive enough". Meanwhile each side's strongest
-  scientific paper has a published critique or a correction: the case-geography analysis (statisticians'
+  WHO's Director-General said that assessment "was not extensive enough". Meanwhile the natural-origin side's three main
+  scientific papers each have a published critique or a correction: the case-geography analysis (statisticians'
   objections), the two-lineage analysis (a 2023 erratum that two critics say cut its Bayes factor to about 4) and the
   market-sample interpretation (a 2023 reanalysis of the sequencing data). The direct evidence that would settle
   it is, on both accounts, held by China: early sequences and case data, market animal and supply-chain data, and
@@ -449,8 +450,7 @@ claims:
     statement: >
       The joint WHO-China report (2021) counted 174 cases with onset in December 2019 (100 laboratory-confirmed, 74
       clinically diagnosed). Of 168 with an exposure history, 55.4 percent had any market exposure (28.0 Huanan only,
-      22.6 other markets only, 4.8 both) and 44.6 percent had none. The report says "No firm conclusion therefore about
-      the role of the Huanan Market can be drawn."
+      22.6 other markets only, 4.8 both) and 44.6 percent had none. The report says "No firm conclusion therefore about the role of the Huanan market in the origin of the outbreak, or how the infection was introduced into the market, can currently be drawn."
     evidence_class: primary_text
     confidence: moderate
     confidence_reasons:
@@ -732,7 +732,7 @@ claims:
     evidential_weight: 4   # of 5, for the refutation of the literal wording
     anchor_checked: primary
     adoption_weight: 3   # of 5
-    adoption_note: "Stated as one of five 'strongest arguments' on a US government page (2025); not measured among the public."
+    adoption_note: "Stated as one of the 'FIVE strongest arguments' in the House Oversight Committee press release of 2 Dec 2024 on the Select Subcommittee's final report (a research copy was read; it is not among this dig's manifest sources); not measured among the public."
     would_change_if: the claim is restated as not found in any other sarbecovirus, which co-fcs-unique-among-sarbecoviruses records as established
     anchor:
       type: papers
@@ -806,9 +806,10 @@ claims:
     anchor:
       type: papers-and-reports
       description: >
-        Worobey et al.: "insufficient evidence to define upstream events". Liu et al.: origin "cannot be determined from
-        the analyses available". WHO-China: "No firm conclusion therefore about the role of the Huanan Market can be
-        drawn." SAGO 2025: "it is not conclusive that the HSM was where the virus first spilled over" [read].
+        Worobey et al.: "While there is insufficient evidence to define upstream events, and exact circumstances remain
+        obscure, our analyses indicate that the emergence of SARS-CoV-2 occurred via the live wildlife trade in China, and
+        show that the Huanan market was the epicenter of the COVID-19 pandemic." Liu et al.: origin "cannot be determined from
+        the analyses available". WHO-China: "No firm conclusion therefore about the role of the Huanan market in the origin of the outbreak, or how the infection was introduced into the market, can currently be drawn." SAGO 2025: "it is not conclusive that the HSM was where the virus first spilled over" [read].
       accessible: true
       sources: [src-worobey-2022, src-liu-2023, src-who-china-2021, src-sago-2025]
     positions:
@@ -817,7 +818,10 @@ claims:
         ground: "The market was a site of early amplification and the evidence is consistent with market emergence."
       - label: "No"
         holder: "The studies' own concluding statements"
-        ground: "None says the spillover is shown; each says the data do not settle it."
+        ground: >
+          Liu et al. and the WHO-China report say the data do not settle it; Worobey et al. state a stronger conclusion
+          (emergence "via the live wildlife trade") while acknowledging insufficient evidence on upstream events; SAGO says
+          it is not conclusive. None reports an infected animal or progenitor.
     basis: >
       Refuted as to "proven" only. The hypothesis is weighed at co-zoonosis-hypothesis. The same test is applied to the
       other side at co-lab-origin-proven.
@@ -905,9 +909,9 @@ claims:
       a laboratory record, sample or sequence shows SARS-CoV-2 or a progenitor was held there, or an infected laboratory
       worker is documented, or a natural progenitor and host are found
     disputed_by:
-      - {who: "Democratic staff of the House Select Subcommittee", kind: institution, position: "Arguments for a lab origin are largely circumstantial but cannot be dismissed out of hand; impossible to draw conclusions without WIV records", source_read: src-house-dem-2024}
+      - {who: "Democratic staff of the House Select Subcommittee", kind: institution, position: "Arguments for a lab origin are largely circumstantial but cannot be dismissed out of hand; on DEFUSE, impossible to draw any conclusions without additional WIV lab records", source_read: src-house-dem-2024}
       - {who: "WHO SAGO", kind: institution, position: "No evidence other than speculation supports a laboratory-related incident; it cannot be ruled out without the requested information", source_read: src-sago-2025}
-      - {who: "American Society for Microbiology", kind: institution, position: "Not enough available evidence to support the HELP staff report's overarching conclusion", source_read: src-asm-2022}
+      - {who: "American Society for Microbiology", kind: institution, position: "ASM does not believe there is enough available evidence to support the conclusion in the Senate's interim report", source_read: src-asm-2022}
     anchor:
       type: official-reports-and-documents
       description: >
@@ -998,8 +1002,9 @@ claims:
       accessible: true
       sources: [src-defuse]
     basis: >
-      What is not in the public text: "inserted at S1/S2", any SARS-CoV-2 sequence, and "BSL-2" (which appears only in
-      drafts, see co-defuse-drafts). The final proposal was public from Sept 2021; the drafts were released by FOIA in
+      What is not in the public text: "inserted at S1/S2", any SARS-CoV-2 sequence, and the draft sentence about "the BSL-2
+      nature of work on SARSr-CoVs" (that sentence appears only in drafts, see co-defuse-drafts; the final text's only
+      BSL-2 mention found in the copy checked is a facilities description, "includes BSL2, BSL-3, and BSL-4 laboratories"). The final proposal was public from Sept 2021; the drafts were released by FOIA in
       Dec 2023 to Jan 2024.
 
   - id: co-help-defuse-location-claim
@@ -1299,7 +1304,9 @@ claims:
     adoption_weight: 3   # of 5
     adoption_note: >
       A White House page (2025) says researchers "were sick with COVID-like symptoms in the fall of 2019"; the House
-      majority lists it among its five strongest arguments. Adoption, not evidence.
+      Oversight Committee's press release of 2 Dec 2024 lists "WIV researchers were sick with a COVID-like virus in the fall
+      of 2019" among its "FIVE strongest arguments" (a research copy was read; it is not a manifest source). Adoption, not
+      evidence.
     would_change_if: sera, health records or test results from the researchers are independently reviewed
     anchor:
       type: official-statements
@@ -1395,10 +1402,11 @@ claims:
     anchor:
       type: search-record
       description: >
-        SAGO 2025 (read): WHO's requests for staff health records and biosafety documentation "have been refused" and
-        "all of the required information had not been provided". The HHS record (read): NIH asked in Nov 2021 and Jan 2022
+        SAGO 2025 (read): WHO wrote to China to request "further investigations, audits and other relevant documentation and
+        interviews with staff at the WIV and Wuhan CDC laboratory"; "this has been refused"; and, on its data requests to
+        Member States, "all of the required information had not been provided to WHO". The HHS record (read): NIH asked in Nov 2021 and Jan 2022
         for original notebook entries and electronic files, and "as of October 2024 ... NIH had yet to receive any
-        records". ODNI 2023 says WIV "maintains blood samples and health records of all of their laboratory personnel".
+        records". ODNI 2023 says the IC "assesses that the WIV maintains blood samples and health records of all of their laboratory personnel" (an assessment, not a document seen).
       accessible: false
       sources: [src-sago-2025, src-hhs-eha-arm-2025, src-odni-2023-wiv]
     basis: Not evidence for either hypothesis.
@@ -1425,12 +1433,13 @@ claims:
       type: search-record
       description: >
         SAGO 2025 (read) lists among data not provided "the sharing of more than 500 sequences from individuals with
-        COVID-19 early in the pandemic". Bloom 2021 (read; a 2023 correction was not read) recovered a deleted dataset of 45
+        COVID-19 early in the pandemic". Worobey et al. (read) say "no line list of early COVID-19 cases is available". Bloom 2021 (read; a 2023 correction was not read) recovered a deleted dataset of 45
         early outpatient swabs and reconstructed partial sequences for 13, concluding that "the progenitor of currently
-        known SARS-CoV-2 sequences likely contained three mutations relative to the market viruses"; he says his data
-        do not distinguish a market from a laboratory origin.
+        known SARS-CoV-2 sequences likely contained three mutations relative to the market viruses"; the paper calls
+        the proximal origin "unclear (i.e., zoonosis versus lab accident)" and concludes that market sequences "are not
+        fully representative"; it does not claim its data decide between the two.
       accessible: false
-      sources: [src-sago-2025, src-bloom-2021]
+      sources: [src-sago-2025, src-worobey-2022, src-bloom-2021]
     flagged_sources: [src-bloom-2021]
     basis: Not evidence for either hypothesis.
 
@@ -1551,19 +1560,22 @@ claims:
     confidence_reasons:
       start: moderate
       steps:
-        - {domain: inconsistency, effect: down1, reason: "The House majority says so; the lead author's sworn account says otherwise; the original January-February 2020 messages were not read."}
+        - {domain: inconsistency, effect: down1, reason: "The House majority says so; the lead author's testimony disputes the motive (while confirming Fauci, Collins and Farrar prompted the work); the original January-February 2020 messages were not read."}
     evidential_weight: 2   # of 5
     anchor_checked: secondary
     adoption_weight: 3   # of 5
     adoption_note: "Stated on a White House page and as Finding I.B of the House majority report; not measured among the public."
     would_change_if: the original January to February 2020 messages and emails are read and show who asked for the paper and what changed
     disputed_by:
-      - {who: "Kristian Andersen", kind: person, position: "No edits were requested by Dr Fauci or Dr Collins; the sole suggested edit came from another reviewer; 'crackpot theories' meant a bioweapon", source_read: src-andersen-testimony-2023}
+      - {who: "Kristian Andersen", kind: person, position: "The paper was not directed to disprove a lab origin: on a 31 Jan 2020 call Dr Fauci said (Andersen's paraphrase) 'if you think this virus came from a lab, you should write a scientific paper on it'; Drs Fauci and Collins had no questions or comments on the paper beyond congratulations; the only suggested edit came from Dr Farrar; 'crackpot' referred to bioweapon-type engineering with intent. His own 12 Feb 2020 email to Nature says the work was 'Prompted by Jeremy Farrah [sic], Tony Fauci, and Francis Collins'", source_read: src-andersen-testimony-2023}
     anchor:
       type: testimony-and-quotations
       description: >
         Andersen's written testimony (read): the paper was posted 17 Feb 2020 and published 17 Mar 2020, 45 days after the
-        1 February call; the single suggested edit changed "unlikely" to "improbable". The hearing transcript (read) holds
+        1 February call; the single suggested edit (from Dr Farrar) changed "unlikely" to "improbable". He also quotes his own 12 Feb 2020 email to Nature
+        ("Prompted by Jeremy Farrah [sic], Tony Fauci, and Francis Collins ...") and recalls Dr Fauci telling him on 31 Jan 2020 to
+        write a paper if he thought the virus came from a lab; the call of 1 Feb 2020 was, he says, organized and convened by
+        Dr Farrar. The hearing transcript (read) holds
         members' quotations of a 31 January 2020 email and the "crackpot theory" email; the original messages were not
         read (co-sq-proximal-origin-records).
       accessible: true
@@ -1574,7 +1586,11 @@ claims:
         ground: "It was prompted to push a preferred narrative that COVID-19 originated naturally."
       - label: "No"
         holder: "Andersen (testimony)"
-        ground: "The authors' own account and the dates show no direction from Dr Fauci."
+        ground: >
+          Andersen's testimony is that Dr Fauci suggested writing a paper on the lab hypothesis, not disproving it, and
+          that no edits came from Drs Fauci or Collins. His own February 2020 email does say the work was "prompted by"
+          Farrar, Fauci and Collins; so "prompted" is not in dispute, "in order to disprove" is. Both rest on one
+          witness's account of private messages the dig has not read.
     basis: Rests on witnesses' accounts and quotations; the primary messages are not read.
 
   - id: co-sq-proximal-origin-records
@@ -1873,7 +1889,8 @@ claims:
       The House Select Subcommittee majority's final report (4 December 2024) finds that SARS-CoV-2 "likely emerged because
       of a laboratory or research related accident" and that "the weight of the evidence increasingly supports the lab leak
       hypothesis"; its Democrats' report says "Arguments for a lab origin are largely circumstantial but cannot be dismissed
-      out of hand" and that a lab accident is plausible but conclusions are impossible without WIV records.
+      out of hand" and, on whether DEFUSE and SARS-CoV-2 are linked, that "it is unfortunately impossible to draw any
+      conclusions without reviewing additional lab records from WIV".
     evidence_class: primary_text
     confidence: high
     confidence_reasons:
@@ -1894,8 +1911,9 @@ claims:
         claims are scientific points sourced to opinion pieces, not to the underlying papers (see co-fcs-not-found-in-nature
         and co-two-lineages). The report concludes DEFUSE "could have created and released a virus like COVID-19" and that Dr
         Daszak "initially hid the most dangerous aspect"; the support for the second is a program manager's recollection. The
-        Democrats' report (pp. 8-9) adds "Fauci did not organize a lab leak suppression campaign" and "EHA did not create
-        SARS-CoV-2", both disputed by the majority [read].
+        Democrats' report has sections headed "EcoHealth Alliance Did Not Create COVID-19" and "Dr. Fauci Did Not Create
+        COVID-19", and says the Proximal Origin authors confirmed Drs. Fauci and Collins did not lead, oversee or influence
+        the drafting; the majority disputes these [read].
       accessible: true
       sources: [src-house-sscp-2024, src-house-dem-2024]
     basis: >
@@ -1908,7 +1926,8 @@ claims:
     statement: >
       Senate HELP minority staff (October 2022) concluded that the pandemic was "more likely than not, the result of a
       research-related incident", while saying "This conclusion is not intended to be dispositive"; the American Society for
-      Microbiology replied that there was not enough evidence to support the overarching conclusion. A 2023 executive summary by
+      Microbiology replied that it does not believe there is enough available evidence
+      to support the conclusion in the report. A 2023 executive summary by
       Sen. Marshall's office says "Both hypotheses are plausible".
     evidence_class: primary_text
     confidence: high

@@ -46,7 +46,7 @@ discriminating_tests:
     resolves: >
       Tests the case-geography claim (co-market-pattern) and the two-lineage claim (co-two-lineages) against the data they
       were built from instead of digitised maps. It would not show where the virus came from before the market.
-    note: Both the Worobey authors and their critics ask for this list.
+    note: Worobey et al. state that no line list of early cases is available, and SAGO lists the early sequences among data it asked for and did not receive.
 
   - id: dt-market-animals
     question: >

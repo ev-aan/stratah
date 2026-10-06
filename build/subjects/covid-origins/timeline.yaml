@@ -393,8 +393,8 @@ events:
   status: reported
   sources:
   - src-cdc-mmwr-sars-2003
-  label: '16 Nov 2002: earliest SARS onset in the counts, Guangdong'
-  detail: 'The CDC bulletin says 31 deaths occurred in Guangdong province between 16 November 2002 and 28 February 2003. Background: a different virus.'
+  label: '16 Nov 2002: start of the period for which CDC counts 31 SARS deaths in Guangdong'
+  detail: 'The CDC bulletin says 31 deaths occurred in Guangdong province between 16 November 2002 and 28 February 2003; it is the start of that counting window, not stated as the first onset. Background: a different virus.'
 - id: ev-sars-don
   panel: early
   lane: institutions
@@ -601,7 +601,7 @@ events:
   - src-state-wiv-factsheet-2021
   - src-odni-2023-wiv
   label: 'Autumn 2019: several WIV researchers reported ill (official wording)'
-  detail: 'State Department 2021: symptoms "consistent with both COVID-19 and common seasonal illnesses"; ODNI 2023: "neither supports nor refutes either hypothesis". No names, no month.'
+  detail: 'State Department 2021: symptoms "consistent with both COVID-19 and common seasonal illnesses"; ODNI 2023: "neither supports nor refutes either hypothesis". No names, no month. The range drawn (mid-Oct to end Nov 2019) is only a placeholder for "autumn"; the sources give no dates.'
 - id: ev-wiv-db
   panel: early
   lane: institutions
@@ -764,8 +764,8 @@ events:
   status: single
   sources:
   - src-genbank-ratg13
-  label: '27 Jan 2020: RaTG13 genome submitted to GenBank by WIV'
-  detail: Record released 24 Mar 2020; replaced by a second version 13 Oct 2020.
+  label: '27 Jan 2020: RaTG13 genome submitted to GenBank (submitter listed: CAS Key Laboratory of Special Pathogens, Wuhan Institute of Virology)'
+  detail: The GenBank record for version 1 is dated 24 Mar 2020; its comment says version 2 replaced it on 13 Oct 2020.
 - id: ev-pheic
   panel: dec2019
   lane: institutions
@@ -960,14 +960,14 @@ events:
 - id: ev-bloom-2021
   panel: after
   lane: science
-  time: '2021-12-01T12:00:00Z'
-  precision: month
+  time: '2021-08-16T12:00:00Z'
+  precision: day
   kind: analysis
   status: reported
   sources:
   - src-bloom-2021
-  label: 'Dec 2021: Bloom recovers deleted early Wuhan sequencing data'
-  detail: Mol Biol Evol 38(12). A 2023 correction exists and was not read.
+  label: '16 Aug 2021: Bloom recovers deleted early Wuhan sequencing data (online; print issue Dec 2021)'
+  detail: Mol Biol Evol 38(12), epub 16 Aug 2021. A 2023 correction exists and was not read.
 - id: ev-temmam
   panel: after
   lane: science

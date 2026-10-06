@@ -111,3 +111,42 @@ log:
       was pushed. The headline is a draft: its claim is an absence anchor, capped at provisional confidence. SCHEMA.md,
       conformance.py, taxonomy.yaml, site.yaml, docs/ and .github/ were not edited. Four discriminating tests are filed as design
       only (tests.yaml); none has been run.
+  - id: L-10
+    date: 2026-10-06
+    entry: >
+      INDEPENDENT CHECK (a separate agent that had not seen the drafting re-opened the saved source files and checked numbers,
+      dates, quotes and attributions in claims, timeline, tests and threads; this is an author-side check, not the publish-gate
+      review). Nine blocking findings, all fixed. (1) co-market-origin-proven gave only Worobey's "insufficient evidence to
+      define upstream events" and a "No" ground that said no study says the spillover is shown; Worobey et al. also write that
+      their analyses "indicate that the emergence of SARS-CoV-2 occurred via the live wildlife trade in China" and "show that
+      the Huanan market was the epicenter", so the full sentence is now given and the ground reworded. (2) co-defuse-text-fcs-plan
+      said "BSL-2" appears only in the drafts; the final proposal's facilities description says "includes BSL2, BSL-3, and BSL-4
+      laboratories", so only the draft cost-effectiveness sentence is draft-only. (3) Bloom 2021 was said to state that his data
+      do not distinguish market from laboratory origin; the paper says the proximal origin "remains unclear (i.e., zoonosis
+      versus lab accident)" and that market sequences are not fully representative; it was published online 16 Aug 2021 (print
+      issue Dec 2021), and the timeline event now says so. (4) The House Democrats' report was credited with two quotations it does
+      not contain ("Fauci did not organize a lab leak suppression campaign", "EHA did not create SARS-CoV-2") and with a lab-origin
+      statement that is about DEFUSE; replaced by its actual section headings and sentences. (5) Andersen's testimony was recorded as
+      showing no direction from Dr Fauci; the testimony itself quotes his 12 Feb 2020 email to Nature ("Prompted by Jeremy Farrah
+      [sic], Tony Fauci, and Francis Collins") and recalls Dr Fauci telling him to write a paper if he thought the virus came from a
+      lab, and names Dr Farrar as the author of the only suggested edit and the convener of the 1 Feb 2020 call; the position now
+      separates "prompted" (not in dispute) from "in order to disprove" (disputed). (6) and (7) The "five strongest arguments"
+      were attributed to a US government page and to the House majority's report; they are in the House Oversight Committee press
+      release of 2 Dec 2024 (not a manifest source in this dig; read in the research copy). (8) Quotations that were altered or
+      truncated were replaced with the exact text: the WHO-China "No firm conclusion therefore about the role of the Huanan market
+      in the origin of the outbreak, or how the infection was introduced into the market, can currently be drawn" (three places);
+      the ASM statement (it does not believe there is enough available evidence to support the conclusion in the Senate's
+      interim report); and SAGO's "this has been refused" (a request for audits, documentation and staff interviews, not
+      specifically health records). (9) The timeline labelled 16 Nov 2002 as the earliest SARS onset; the CDC bulletin only gives
+      it as the start of the window for 31 deaths in Guangdong. Non-blocking, fixed: the assessment said "each side's strongest
+      scientific paper" had a critique when the three listed are all natural-side papers; the key point on US agencies now says
+      confidence levels are mostly redacted or press-reported; the RaTG13 GenBank dates and submitter are stated as the record
+      gives them; the autumn 2019 WIV illness interval on the timeline is marked as a placeholder; the early-sequence gap now
+      cites Worobey et al. for the missing line list; ODNI's WIV blood-sample line is marked as an assessment; the
+      early-sequences test note no longer says critics ask for the list; the threads overlay no longer lists a January 2021
+      statement under 2020 and says the 14 governments expressed concerns. Checked and unchanged: the sha256 and URL of every manifest
+      source match the ALL_SHA256.txt files; no government, committee or WHO statement carries evidential weight beyond a record of
+      what it says; the CIA, FBI, DOE, BND, WIV database, Pekar and Worobey errata contents and the June 2026 ODNI release are
+      not presented as read. Not verified: the content of the CIA, FBI, DOE and BND documents, the WIV database claim, the errata
+      numbers beyond what two critics say, the Pekar and Worobey errata, press reports not saved in the source folder, and the
+      CNN, NPR and CBS pages beyond the passages quoted.
