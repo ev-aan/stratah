@@ -1,0 +1,152 @@
+subject: covid-origins
+# Append-only excavation log. Corrections are new entries; earlier entries are never edited.
+
+log:
+  - id: L-01
+    date: 2026-10-06
+    entry: >
+      Owner's standing rule applied before opening a dig: check the repository, its branches and past chats first. Done on
+      2026-10-06. The repository (origin/main) has no covid-origins subject and no file with covid in its path; the branches
+      are dig/covid-origins (this one, from origin/main), dig/covid-vaccine-cancer, dig/fluoride-iq and main, and no branch
+      holds an earlier covid-origins dig; a search of past chats found only the Stratah build conversations (git and
+      validator work, the website, nomenclature, the vaccines-autism dig and a dig-selection chat) and none on the origin of
+      SARS-CoV-2. Dig opened on the launching agent's brief.
+  - id: L-02
+    date: 2026-10-06
+    entry: >
+      SCOPE. Question: where did SARS-CoV-2 come from? The dig is genuinely unresolved and is filed that way: the headline
+      claim is an absence (co-origin-not-established), so the headline stays a draft. Both hypotheses (animal spillover,
+      laboratory-related incident) are filed as contested at low confidence and weighed at the same standard: the natural side
+      has direct measurements at its putative site (market samples, case maps) that are all disputed or corrected, and the
+      laboratory side is circumstantial. Neither is called refuted or established. Three popular "proven" claims are tested in
+      plain words with Yes and No positions: that the market origin is proven, that a laboratory origin is proven, and that the
+      DEFUSE proposal shows engineering. Each is refuted only as to "proven" or "shows" on primary text (Rule 9), and a
+      claim that the furin site "is not found in nature" is refuted on the papers' own text. Government assessments, committee
+      and WHO statements are adoption records (section H) and give no evidential weight to any claim about the virus. Templates:
+      vaccines-autism (format) and fluoride-iq (read-only: "No, except" form, what_it_is, confidence_reasons).
+  - id: L-03
+    date: 2026-10-06
+    entry: >
+      SOURCE PASS. Four reading streams (market and zoonosis papers; laboratory-related documents; government and WHO
+      assessments; a dated chronology), run 2026-10-05, saved with sha256 in the research set. 98 sources are described in
+      sources/MANIFEST.yaml with exact URL, access date 2026-10-05, the sha256 of the file read (cross-checked against each
+      stream's hash list) and what was read in full, in part, as abstract or only through another document. Twelve small
+      US-government or public-record texts are stored in sources/ as plain text (stored_as). Wikipedia is not used as an
+      anchor or as a source. Where two streams disagreed about whether a document was read, the stream that read it is
+      used (the WHO-China report was read by two streams and recorded as not read by a third; Liu et al. and China's white
+      paper were read by two streams and recorded as not read by the chronology).
+  - id: L-04
+    date: 2026-10-06
+    entry: >
+      DISCREPANCY WITH THE BRIEF, DEFUSE DATES. The brief said the DEFUSE drafts were released in 2021. The sources read show
+      the final proposal was public from September 2021 (posted by a volunteer group; Internet Archive item dated 2021-09-26)
+      and the early drafts were obtained by FOIA and published between December 2023 and January 2024 (Internet Archive item
+      for the USGS release dated 2024-01-17). The dig uses the sourced dates (timeline events ev-defuse-public and
+      ev-defuse-draft; co-defuse-text-fcs-plan). The proposal's own dates also differ: cover letter 24 March 2018, form field
+      27 March 2018 (shown as a disputed date).
+  - id: L-05
+    date: 2026-10-06
+    entry: >
+      OTHER DISCREPANCIES FOUND IN THE SOURCES AND HOW THEY ARE SHOWN. (1) The State Department fact sheet is dated 15 January
+      2021, not 2020. (2) Earliest case: 1 Dec (Lancet first patient onset), 8 Dec (WHO-China earliest onset), 10 Dec (Pekar
+      et al. vendor onset), 12 Dec (hospitalisation, Wu et al.), about 18 Nov (modelled lineage B): shown as a dispute, no single
+      date (co-earliest-case-date-disputed). (3) Genome public date: 5, 10, 11, 12 and 14 January 2020 each name a different
+      event. (4) RaTG13: 96.2 percent (Zhou 2020, ODNI) against 96.1 percent (Temmam 2022, probably another alignment, not
+      recomputed); collection year 2013 (GenBank) against 2012 sera (addendum); SAGO's "ID4991 / 2018 renaming" chronology is not
+      in the addendum text and is not used. (5) BANAL-52 collection year is 2018 in one place and 2020 in another in the SAGO
+      report; the discovery paper says July 2020 to January 2021. (6) BND figure: 80 to 90 (a journalist at a press conference)
+      against 80 to 95 (Tagesspiegel, NOS). (7) Pekar erratum: critics say Bayes factor "4" (McCowan) and "about 4.3" (Weissman);
+      the erratum was not read. (8) Grant R01AI110964 has four different end dates across the NIH RePORTER records and the HHS
+      memorandum; peripheral, not reconciled. (9) Two different WHO-China report PDFs exist; the 6 April file was read; the
+      Liu paper's "73" became "70 plus 4 = 74" in a note added in proof while the WHO-China report still carries 73. (10) The
+      Senate committee press release attributes a "my spy" quote to a Proximal Origin author; it was searched for in both Slack
+      PDFs and not found, so it is not used. (11) The White House page read is the modified (15 Aug 2025) version. (12) Date of
+      the 14-government statement: 30 March (State, Canada) and 31 March 2021 (Japan). (13) The longer ODNI "Updated Assessment"
+      carries no printed date; its file metadata is 29 Oct 2021 and SAGO says October 2021.
+  - id: L-06
+    date: 2026-10-06
+    entry: >
+      WHAT COULD NOT BE READ, AND HOW IT IS FILED (nothing was filled from memory). Filed as searched gaps (co-sq-...) or as
+      proposed or secondary at provisional confidence: the CIA January 2025 statement (only CBS/AP quoting a spokesperson,
+      co-cia-2025); the FBI and DOE positions (only the US June 2023 report, CNN and NPR, co-fbi-position, co-doe-position,
+      co-sq-agency-documents); the German BND assessment (press only, co-bnd-2025); the claim that WIV's database was taken
+      offline in September 2019 (resting on a volunteer-group report and a newspaper editorial that were not opened,
+      co-sq-wiv-database); sick WIV researchers (only what the State Department and ODNI said, exactly, with no names,
+      co-wiv-illness-official-record); both Science errata (co-sq-science-errata, co-pekar-erratum-bf from critics only); the
+      DARPA decision record (co-sq-darpa-decision); the original January and February 2020 Proximal Origin messages
+      (co-sq-proximal-origin-records); the documents the DNI released on 18 June 2026 (only the page introduction was read,
+      co-sq-odni-2026-release); the Missouri judgment (co-sq-missouri); the WIV records, the early sequences and the market
+      supply-chain data, which are held in China (structural gaps). Also not read: the published JRSSA versions of two critiques
+      (arXiv versions were), the 2023 Bloom correction (an image), the Los Alamos and NIH reports cited by China's white paper,
+      the annexes to the WHO-China report, and the HHS notice to WIV.
+  - id: L-07
+    date: 2026-10-06
+    entry: >
+      FILING DECISIONS. (1) The Slack messages released by a Senate committee chairman in 2026 and the FOIA-released DEFUSE
+      drafts are `unchecked` sources (no independent capture; selected or unvetted releases), so claims resting on them are
+      proposed at provisional confidence. (2) The DEFUSE final proposal was read in a third-party Internet Archive OCR copy of a
+      file first posted by a volunteer group; it is authenticated at moderate strength because its key sentence matches the
+      House report's quotation, and is not compared with a DARPA or EcoHealth file. (3) The HELP staff claim that DEFUSE would
+      insert furin sites "at the same location" as SARS-CoV-2 was searched for in three public copies and not found; it is filed
+      as proposed, not refuted, because the report cites a copy "on file with staff". (4) The committee majority's "Key Findings"
+      cover page for the Baric transcript is not used; the transcript is. (5) A document in the research set that was labelled a DARPA
+      rejection letter is a summary by an advocacy group and was not used. (6) The HHS debarment documents are filed as
+      grant-compliance records and say in their own text nothing about origin; the House majority's press-release sentence
+      linking them to a lab-related origin is attributed to the Chairman. (7) The unaltered public HHS documents name private
+      attorneys; the dig does not name them. Patients, a military officer and other private individuals are not named. (8) SAGO's
+      "weight of available evidence suggests zoonotic spillover" and the House majority's "likely emerged because of a laboratory
+      or research related accident" are recorded as adoption and given no evidential weight. (9) No claim carries a likelihood
+      term or a percentage for either hypothesis; none of the sources read supplies one that is evidence.
+  - id: L-08
+    date: 2026-10-06
+    entry: >
+      PROPOSED TAXONOMY LINE FOR THE OWNER (taxonomy.yaml is owner-only and was not edited; conformance reports its absence as a
+      warning). The valid names were checked against build/taxonomy.yaml: science_nature, law_justice, media_misinformation,
+      origin and is_claim_true all exist. Proposed entry: `covid-origins: {area: science_nature, areas: [law_justice,
+      media_misinformation], types: [origin, is_claim_true], popular_claims: true}`.
+  - id: L-09
+    date: 2026-10-06
+    entry: >
+      NOT DONE, BY RULE. The dig is not added to build/site.yaml; no review.yaml is written (the author never writes one); nothing
+      was pushed. The headline is a draft: its claim is an absence anchor, capped at provisional confidence. SCHEMA.md,
+      conformance.py, taxonomy.yaml, site.yaml, docs/ and .github/ were not edited. Four discriminating tests are filed as design
+      only (tests.yaml); none has been run.
+  - id: L-10
+    date: 2026-10-06
+    entry: >
+      INDEPENDENT CHECK (a separate agent that had not seen the drafting re-opened the saved source files and checked numbers,
+      dates, quotes and attributions in claims, timeline, tests and threads; this is an author-side check, not the publish-gate
+      review). Nine blocking findings, all fixed. (1) co-market-origin-proven gave only Worobey's "insufficient evidence to
+      define upstream events" and a "No" ground that said no study says the spillover is shown; Worobey et al. also write that
+      their analyses "indicate that the emergence of SARS-CoV-2 occurred via the live wildlife trade in China" and "show that
+      the Huanan market was the epicenter", so the full sentence is now given and the ground reworded. (2) co-defuse-text-fcs-plan
+      said "BSL-2" appears only in the drafts; the final proposal's facilities description says "includes BSL2, BSL-3, and BSL-4
+      laboratories", so only the draft cost-effectiveness sentence is draft-only. (3) Bloom 2021 was said to state that his data
+      do not distinguish market from laboratory origin; the paper says the proximal origin "remains unclear (i.e., zoonosis
+      versus lab accident)" and that market sequences are not fully representative; it was published online 16 Aug 2021 (print
+      issue Dec 2021), and the timeline event now says so. (4) The House Democrats' report was credited with two quotations it does
+      not contain ("Fauci did not organize a lab leak suppression campaign", "EHA did not create SARS-CoV-2") and with a lab-origin
+      statement that is about DEFUSE; replaced by its actual section headings and sentences. (5) Andersen's testimony was recorded as
+      showing no direction from Dr Fauci; the testimony itself quotes his 12 Feb 2020 email to Nature ("Prompted by Jeremy Farrah
+      [sic], Tony Fauci, and Francis Collins") and recalls Dr Fauci telling him to write a paper if he thought the virus came from a
+      lab, and names Dr Farrar as the author of the only suggested edit and the convener of the 1 Feb 2020 call; the position now
+      separates "prompted" (not in dispute) from "in order to disprove" (disputed). (6) and (7) The "five strongest arguments"
+      were attributed to a US government page and to the House majority's report; they are in the House Oversight Committee press
+      release of 2 Dec 2024 (not a manifest source in this dig; read in the research copy). (8) Quotations that were altered or
+      truncated were replaced with the exact text: the WHO-China "No firm conclusion therefore about the role of the Huanan market
+      in the origin of the outbreak, or how the infection was introduced into the market, can currently be drawn" (three places);
+      the ASM statement (it does not believe there is enough available evidence to support the conclusion in the Senate's
+      interim report); and SAGO's "this has been refused" (a request for audits, documentation and staff interviews, not
+      specifically health records). (9) The timeline labelled 16 Nov 2002 as the earliest SARS onset; the CDC bulletin only gives
+      it as the start of the window for 31 deaths in Guangdong. Non-blocking, fixed: the assessment said "each side's strongest
+      scientific paper" had a critique when the three listed are all natural-side papers; the key point on US agencies now says
+      confidence levels are mostly redacted or press-reported; the RaTG13 GenBank dates and submitter are stated as the record
+      gives them; the autumn 2019 WIV illness interval on the timeline is marked as a placeholder; the early-sequence gap now
+      cites Worobey et al. for the missing line list; ODNI's WIV blood-sample line is marked as an assessment; the
+      early-sequences test note no longer says critics ask for the list; the threads overlay no longer lists a January 2021
+      statement under 2020 and says the 14 governments expressed concerns. Checked and unchanged: the sha256 and URL of every manifest
+      source match the ALL_SHA256.txt files; no government, committee or WHO statement carries evidential weight beyond a record of
+      what it says; the CIA, FBI, DOE, BND, WIV database, Pekar and Worobey errata contents and the June 2026 ODNI release are
+      not presented as read. Not verified: the content of the CIA, FBI, DOE and BND documents, the WIV database claim, the errata
+      numbers beyond what two critics say, the Pekar and Worobey errata, press reports not saved in the source folder, and the
+      CNN, NPR and CBS pages beyond the passages quoted.

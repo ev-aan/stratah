@@ -1,0 +1,2064 @@
+# ---------------------------------------------------------------------------
+# SEARCH HEADLINE: rules as in gulf-of-tonkin/claims.yaml (1-7).
+# It may only state a claim that is established or refuted at HIGH confidence with
+# anchor_checked: primary. The headline claim (co-origin-not-established) is a searched gap
+# (an absence, capped at provisional confidence), so the headline stays DRAFT by rule.
+# The headline states the open question; it does not call either hypothesis refuted or established.
+# ---------------------------------------------------------------------------
+headline: "Where Did COVID-19 Come From? Not Settled: Market Evidence Disputed, Lab Case Circumstantial"
+headline_claim: co-origin-not-established
+headline_status: draft          # draft: the headline claim is an absence anchor, provisional by rule
+search_summary: >
+  Where did COVID-19 come from? Not settled. Early cases cluster around a Wuhan market, which critics
+  dispute; the lab-origin case rests on circumstance; no progenitor virus is public on either side.
+url_slug: where-did-covid-19-come-from
+
+# ---------------------------------------------------------------------------
+# ASSESSMENT (SCHEMA N23): the "Where it stands" box the site shows first. No percentages.
+# ---------------------------------------------------------------------------
+assessment:
+  question: "Where did SARS-CoV-2, the virus that causes COVID-19, come from?"
+  answer: "unsettled"
+  headline: "Not settled. Neither a natural spillover nor a laboratory-related incident has been shown: the market evidence is disputed, the lab case is circumstantial, no progenitor is public."
+  text: >
+    Two hypotheses remain open, and each lacks its decisive piece. Natural spillover from animals
+    (directly from bats or through an intermediate host) is supported by the clustering of the
+    earliest recorded cases around the Huanan Seafood Wholesale Market in Wuhan, by SARS-CoV-2
+    found in 74 of 923 environmental samples taken at the market after it closed, and by the sale
+    of live mammals that can be infected. Against it: no infected animal has been found (457
+    animal samples, all negative, were taken after closure), statisticians have published
+    objections to the case-geography analysis, the genetic argument for two separate spillovers
+    lost most of its stated strength in a 2023 erratum according to two critics (the erratum itself
+    was not read), and the 2021 WHO-China report itself says no firm conclusion about the market's
+    role can be drawn. A laboratory-related incident is argued from circumstance: the outbreak began in the city
+    where the Wuhan Institute of Virology works on coronaviruses; the US Intelligence Community
+    says WIV researchers performed SARS-like coronavirus experiments in BSL-2 laboratories as of
+    January 2019 and probably did not always use adequate biosafety precautions; the virus has a
+    furin cleavage site that no other known sarbecovirus has; and a 2018 grant proposal (DEFUSE,
+    never funded by DARPA according to the sources read) described introducing furin sites into
+    bat coronaviruses. Against it: the same US report says it has no indication that WIV's
+    holdings included SARS-CoV-2 or a close progenitor and no direct evidence of a specific
+    incident; the proposal is a plan, not a record of work done; and the furin site is not unique
+    to SARS-CoV-2 among coronaviruses. Neither side has a progenitor virus: the closest known
+    relatives score 96.8 (BANAL-52) and 96.2 (RaTG13) on the identity scale on which the US report puts a close
+    progenitor above 99. What institutions say is shown separately because it is
+    adoption, not evidence. Five US intelligence elements (with the National Intelligence
+    Council) lean natural, the FBI and the Department of Energy lean lab and the CIA and one other
+    could not decide (ODNI, 2023; confidence levels are redacted in the public text); the CIA said
+    in January 2025, at low confidence, that a research-related origin is more likely (as
+    quoted by CBS and AP; the CIA document was not read); WHO's advisory group SAGO (2025) says the
+    weight of available evidence suggests zoonotic spillover but that it could not assess a laboratory
+    route because data were not provided; the House Select Subcommittee majority (2024) calls a
+    laboratory or research-related accident likely, and its Democrats say the arguments are largely
+    circumstantial. None of these is an anchor. An HHS debarment of EcoHealth Alliance and its former president is
+    about grant compliance, not about where the virus came from. Several items could not be read and are
+    filed as searched gaps: the Science errata for two key papers, the CIA, FBI and DOE
+    primary documents, the German intelligence service's assessment, the Wuhan database
+    claim, the original early-2020 Proximal Origin messages and the documents ODNI released in June 2026.
+  key_points:
+    - "Animal-market case: early cases centred on the Huanan market and market samples carried the virus, but no infected animal was found and critics dispute the statistics."
+    - "Lab case: circumstantial (location, biosafety, a 2018 proposal); no document read shows a lab held, made or released it. No progenitor is public on either side."
+    - "Institutions differ (adoption, not evidence): US agencies split (public confidence levels are mostly redacted or only press-reported), WHO's SAGO says zoonotic is better supported, a House report says lab."
+  basis: [co-origin-not-established, co-no-progenitor-public, co-zoonosis-hypothesis, co-market-pattern, co-market-samples, co-lab-hypothesis, co-odni-2023-wiv-findings, co-fcs-unique-among-sarbecoviruses, co-defuse-shows-engineered, co-assessments-say-open]
+  rated_claim: co-origin-not-established
+  would_settle: >
+    A progenitor virus (above 99 on that identity scale) found in an animal population, or in a
+    laboratory's records and freezers, would move the weight most. Next: the more than 500
+    early-pandemic sequences SAGO says were not shared; the early-case line list with onset dates and
+    coordinates; sampling data for the animals sold at the market and its supply chain; and WIV's
+    laboratory notebooks, sequence archives and staff health records, which WHO and NIH requested and
+    did not receive. Not yet read, and listed as sub-questions (claims co-sq-...): both Science
+    errata, the CIA, FBI and DOE primary statements, the BND assessment, the DARPA decision record, the
+    WIV database record, the original January-February 2020 Proximal Origin messages and the June 2026
+    ODNI release.
+
+# ---------------------------------------------------------------------------
+# SHORT ANSWER (owner rule, vaccines-autism log L-02): answer and name the exceptions where
+# they exist, each pointing to the claim that carries its weight. The honest form for an open
+# question is "Not settled", with what points each way and what is missing.
+# ---------------------------------------------------------------------------
+short_answer:
+  question: "Where did SARS-CoV-2, the virus that causes COVID-19, come from?"
+  answer: "Not settled, to the best of our knowledge. No infected animal, intermediate host or progenitor virus has been found, and no document read shows that a laboratory held, made or released the virus; except that two bodies of evidence point in opposite directions and each is disputed."
+  summary: >
+    The earliest recorded cases in Wuhan clustered around the Huanan Seafood Wholesale Market and the
+    virus was found in market environmental samples; critics say how cases were found can explain
+    the clustering and that the statistics do not show a market origin. The lab-related case rests
+    on circumstance (the city, WIV's work, biosafety statements, the furin cleavage site and a 2018
+    proposal); no record read shows an incident. Neither side has the virus's direct ancestor.
+    The figures below are what the documents report; what institutions conclude is adoption and is
+    shown separately.
+  summary_figures:
+    - figure: "174 December 2019 cases; of 168 with an exposure history, 55.4% had any market exposure and 44.6% none"
+      detail: >
+        Joint WHO-China report (2021): 174 cases with onset in December 2019 (100 laboratory-confirmed,
+        74 clinically diagnosed). Of the 168 with an exposure history, 28.0% were exposed to the Huanan market
+        only, 22.6% to other markets only and 4.8% to both. The report says a similar number of cases were
+        associated with other markets as with Huanan and that "No firm conclusion therefore
+        about the role of the Huanan market in the origin of the outbreak, or how the infection was introduced into the
+        market, can currently be drawn." Exposure to the Huanan market was part of the case definition for a
+        short period until mid-January 2020.
+      source: [src-who-china-2021]
+      checked: full
+    - figure: "74 of 923 market environmental samples positive; 0 of 457 animal samples"
+      detail: >
+        Liu et al. (China CDC, Nature 2023/2024): 70 positives by RT-qPCR and 4 by sequencing, from samples taken
+        after the market closed on 1 January 2020; 457 samples from 188 animals of 18 species (collected from 18
+        January, unsold freezer and refrigerator contents, stray animals, a fish tank) were all negative. The
+        authors say the origin "cannot be determined from the analyses available".
+      source: [src-liu-2023]
+      checked: full
+    - figure: "Closest known relatives 96.8% and 96.2% similar; a close progenitor would be more than 99 percent"
+      detail: >
+        BANAL-52 (Laos bat virus, 96.8%) and RaTG13 (Yunnan bat virus, 96.2% in the discovery paper and in the
+        US report; 96.1% in a 2022 paper that may have used a different alignment; not recomputed). ODNI's 2023
+        report says neither is close enough to be a direct progenitor.
+      source: [src-odni-2023-wiv, src-temmam-2022, src-zhou-2020-ratg13]
+      checked: full
+    - figure: "US agencies, 2023: 5 natural (with the NIC), 2 lab, 2 undecided; confidence levels redacted"
+      detail: >
+        ODNI's June 2023 public text names the National Intelligence Council and four other agencies (natural), the
+        Department of Energy and the FBI (laboratory-associated, "for different reasons") and the CIA and one other
+        (unable to determine). Each statement begins with a redaction box, so the confidence levels are not legible; the
+        2021 summary gave low confidence for natural and moderate for lab with agencies unnamed. The two are not
+        merged.
+      source: [src-odni-2023-wiv, src-odni-2021-summary]
+      checked: full
+    - figure: "What is and is not summed"
+      detail: >
+        Nothing here is added across sources. The 174 and 168 are different denominators from one report; the
+        agency counts are positions, not evidence; the market samples and the case geography are different kinds of
+        data from the same market and are not independent of each other (both come from China's early records).
+  basis: >
+    Open question: co-origin-not-established. Natural side: co-zoonosis-hypothesis, co-market-pattern,
+    co-market-samples. Lab side: co-lab-hypothesis, co-odni-2023-wiv-findings. Missing on both sides:
+    co-no-progenitor-public. Institutions are adoption: co-odni-2021, co-odni-2023-agencies, co-sago-2025,
+    co-house-sscp-2024.
+  except:
+    - claim: co-market-pattern
+      text: >
+        The strongest published case for a natural origin: December 2019 cases cluster around the Huanan market
+        in a way the authors say case-finding cannot explain.
+      scale: >
+        155 of the 164 Wuhan-resident December cases were located by digitising the WHO report's maps; the market
+        lies inside the densest 1% contour (Worobey et al., as published).
+      scale_sources: [src-worobey-2022, src-who-china-2021]
+      what_it_is:
+        - "A spatial analysis of early cases, published in Science in 2022, with an erratum in 2024 that was not read."
+        - "Backed by market environmental samples and the sale of live mammals at the market."
+      what_it_is_not:
+        - "Not an identified infected animal: none has been found, and no market animal was tested before closure."
+        - "Not undisputed: two statisticians' papers and a letter in a statistics journal dispute the analysis; the authors replied on arXiv."
+    - claim: co-lab-hypothesis
+      text: >
+        The strongest case for a laboratory-related origin is circumstantial: location, WIV's coronavirus work
+        and biosafety practice, the furin cleavage site and the 2018 DEFUSE proposal.
+      scale: >
+        The US report says WIV researchers performed SARS-like coronavirus experiments in BSL-2 laboratories as of
+        January 2019; the DEFUSE proposal asked for USD 14,209,245 and was not funded according to the sources read.
+      scale_sources: [src-odni-2023-wiv, src-defuse]
+      what_it_is:
+        - "A set of documented circumstances, adopted at stated low or moderate confidence by some agencies."
+      what_it_is_not:
+        - "Not a record of an incident: the same US report has no indication WIV held SARS-CoV-2 or a close progenitor."
+        - "Not shown by the DEFUSE proposal, which is a 2018 plan and contains no SARS-CoV-2 sequence."
+  also_true:
+    - claim: co-hhs-debarment
+      text: >
+        HHS debarred EcoHealth Alliance (five years), its former president (five years) and the Wuhan
+        Institute of Virology (ten years). The grounds are grant reporting and responsibility failures, not an
+        origin finding.
+      scale_sources: [src-hhs-eha-notice-2025, src-hhs-eha-arm-2025]
+    - claim: co-assessments-say-open
+      text: >
+        The US Intelligence Community, WHO's Director-General and WHO's SAGO each state that the origin has
+        not been established.
+      scale_sources: [src-odni-2021-summary, src-odni-2023-wiv, src-who-dg-remarks-2021, src-sago-2025]
+
+source_notices:
+  - source: src-worobey-2022
+    notice: >
+      CORRECTED. Science published an erratum on 14 Mar 2024 (383(6688):eadp1133). Its content was not read; the
+      figures from this paper in this dig are from the original text and may differ from the corrected version.
+  - source: src-pekar-2022
+    notice: >
+      CORRECTED. Science published an erratum on 13 Oct 2023 (382(6667):eadl0585). Its content was not read. Two
+      critics say it reduced the paper's Bayes factor for two introductions from about 60 to about 4 (see
+      co-pekar-erratum-bf); the figures from this paper in this dig are as originally published.
+  - source: src-liu-2023
+    notice: >
+      CORRECTED IN THE ARTICLE. A note added in proof says the early online version reported 73 positives by
+      RT-qPCR out of 923 and that the final count is 70 by RT-qPCR plus 4 by sequencing, 74 in all. The joint WHO-China
+      report (2021) still carries 73.
+  - source: src-who-china-2021
+    notice: >
+      UPDATED. WHO's page says the report was updated on 6 April 2021 to remove a working note on page 13 and fix a
+      name in the acknowledgements. Two different PDFs exist under WHO URLs; the 6 April file was read for this dig.
+  - source: src-bloom-2021
+    notice: >
+      CORRECTED. A 2023 correction to this paper exists (Mol Biol Evol, msad201). Its text is an image in the PMC
+      record and was not read.
+
+subject: covid-origins
+title: "Where Did SARS-CoV-2 Come From? (2002 to 2026)"
+description: >
+  A dig on the origin of COVID-19. It is filed as a set of claims about what is known, with the market-origin
+  and laboratory-related hypotheses each tested in plain words at the same standard. The dig keeps apart (1) what
+  studies and samples show, filed as synthetic or primary text; (2) what the primary documents say (the
+  intelligence reports, the proposal, the grant records, the debarment notices); (3) the popular claims built on
+  these, stated in plain words with Yes and No positions; and (4) the institutional record (agencies, WHO, a
+  House report, a Senate staff report, China's white paper), filed as adoption, never as evidence. No claim says
+  either hypothesis is refuted or established.
+
+# ---------------------------------------------------------------------------
+# VERIFICATION LEVELS (as in vaccines-autism and fluoride-iq):
+#   anchor_checked: primary    the full document was fetched and read directly (sha256 in sources/MANIFEST.yaml)
+#   anchor_checked: secondary  read only as an abstract, quoted by others, or reported by a news source
+#   anchor_checked: no         not read
+# Evidential weight is capped at 4 unless anchor_checked is primary.
+# Statistics and reconstructions are filed as `synthetic`.
+# Government assessments, congressional reports and WHO statements are ADOPTION. A claim that records what they say
+# has evidential weight for the record only; none of them raises the weight of a claim about the virus.
+# ---------------------------------------------------------------------------
+
+divergence_note: >
+  The gap here runs both ways, and it is visible in the sources. Institutions have said more than the evidence
+  they publish. Parts of the US government and the House majority call a laboratory-related accident likely, while
+  the US report they rely on says it has no indication that WIV held SARS-CoV-2 or a close progenitor and no direct
+  evidence of a specific incident; a White House page states that a lab-related incident "is the most likely
+  origin" without citing evidence on the page. In the other direction, WHO's advisory group says the weight of
+  available evidence suggests zoonotic spillover, while its own report says the market's role is not conclusive,
+  that it was given no raw data, and that it cannot rule a laboratory route out; a 2021 WHO-China report called a
+  laboratory incident "extremely unlikely" on the strength of statements from laboratory representatives, and
+  WHO's Director-General said that assessment "was not extensive enough". Meanwhile the natural-origin side's three main
+  scientific papers each have a published critique or a correction: the case-geography analysis (statisticians'
+  objections), the two-lineage analysis (a 2023 erratum that two critics say cut its Bayes factor to about 4) and the
+  market-sample interpretation (a 2023 reanalysis of the sequencing data). The direct evidence that would settle
+  it is, on both accounts, held by China: early sequences and case data, market animal and supply-chain data, and
+  laboratory records. Stratah records all of this and gives none of the institutional positions evidential weight.
+
+claims:
+
+  # =====================================================================
+  # A. THE CORE QUESTION
+  # =====================================================================
+
+  - id: co-origin-not-established
+    state: searched_gap
+    statement_kind: search_result
+    statement: >
+      The origin of SARS-CoV-2 has not been established: no document or sample read for this dig shows an
+      infected animal, an intermediate host, a progenitor virus, or a laboratory that held, made or released the
+      virus.
+    absence_anchor: true
+    evidence_class: primary_text
+    confidence: provisional
+    evidential_weight: 3   # of 5, for the existence of the gap
+    anchor_checked: secondary
+    adoption_weight: 4   # of 5, shown separately
+    adoption_note: >
+      Stated by the US Intelligence Community (2021, 2023), WHO's Director-General (2021) and WHO's SAGO (2025); see
+      co-assessments-say-open. A statement by institutions is adoption, not evidence.
+    would_change_if: >
+      a virus more than 99 percent similar to SARS-CoV-2 is found in an animal population or in a laboratory's records
+      or freezers, or an infected market animal or its supplier is identified
+    next_step: >
+      Obtain the items listed in the discriminating tests: early sequences, market-animal and supply-chain sampling
+      data, and laboratory records (dt-progenitor-search, dt-early-sequences, dt-market-animals, dt-wiv-records).
+    anchor:
+      type: search-record
+      description: >
+        Read in full or in the passages used (2026-10-05): ODNI 2021 and 2023 ("no confirmed animal source of SARS-CoV-2
+        has been identified" and "no indication that the WIV's pre-pandemic research holdings included SARS-CoV-2 or a
+        close progenitor"), the WHO-China report 2021, SAGO 2025, both House reports, both Senate staff products, the
+        DEFUSE proposal and drafts, and the Baric transcript. None presents an infected animal, intermediate host or
+        progenitor, or a laboratory record of one. This is a search of the documents we could open; the classified
+        annex to the US report, China's laboratory records and its early data were not available to us.
+      accessible: true
+    basis: >
+      Not settled does not mean equally weighted. The two hypotheses are weighed at their own claims
+      (co-zoonosis-hypothesis, co-lab-hypothesis). A gap is not evidence for either.
+
+  - id: co-assessments-say-open
+    state: established
+    statement_kind: reported
+    statement: >
+      The US Intelligence Community (2021 and 2023), WHO's Director-General (2021) and WHO's advisory group SAGO (2025)
+      each say in their own documents that the origin of SARS-CoV-2 has not been established. The 2023 US report says
+      both a natural and a laboratory-associated origin remain plausible.
+    evidence_class: primary_text
+    confidence: high
+    confidence_reasons:
+      start: high
+      steps:
+        - {domain: primary_anchor_read, effect: none, reason: "All four documents read at the passages quoted; hosts are official."}
+    evidential_weight: 5   # of 5, for the record of what was said
+    anchor_checked: primary
+    adoption_weight: 4   # of 5
+    adoption_note: "A record of what institutions say; adoption is information, not evidence about the virus."
+    would_change_if: not applicable (a record of what documents say); it would change only if one of the institutions publishes a finding
+    anchor:
+      type: official-statements
+      description: >
+        ODNI 2021: "the IC remains divided on the most likely origin of COVID-19. All agencies assess that two
+        hypotheses are plausible: natural exposure to an infected animal and a laboratory-associated incident."
+        ODNI 2023: "All agencies continue to assess that both a natural and laboratory-associated origin remain
+        plausible hypotheses to explain the first human infection." WHO Director-General, 30 Mar 2021: "all hypotheses
+        remain on the table ... We have not yet found the source of the virus". SAGO 2025: "SAGO cannot conclude with
+        certainty where and when this occurred" and "is not in a position to rule this out as a possibility" (the
+        laboratory route) [read].
+      accessible: true
+      sources: [src-odni-2021-summary, src-odni-2023-wiv, src-who-dg-remarks-2021, src-sago-2025]
+    basis: A record of statements, with the quotations above. It says nothing about which hypothesis is more likely.
+
+  - id: co-no-progenitor-public
+    state: searched_gap
+    statement_kind: search_result
+    statement: >
+      No virus more than 99 percent similar to SARS-CoV-2 (the figure the US report uses for a close progenitor) has
+      been published from any animal or any laboratory. The closest known relatives are 96.8 percent (BANAL-52) and 96.2
+      percent (RaTG13) similar.
+    absence_anchor: true
+    evidence_class: primary_text
+    confidence: provisional
+    evidential_weight: 3   # of 5
+    anchor_checked: secondary
+    adoption_weight: 3   # of 5
+    adoption_note: "The US report and SAGO both state the absence; adoption, not evidence."
+    would_change_if: a virus more than 99 percent similar to SARS-CoV-2 is published from any source
+    next_step: >
+      Sample bats, other wildlife and market supply chains in and around Hubei and Yunnan and Laos, and release WIV's
+      sequence archives for independent review (dt-progenitor-search, dt-wiv-records).
+    anchor:
+      type: search-record
+      description: >
+        ODNI 2023 (read) gives RaTG13 as 96.2 percent and BANAL-52 as 96.8 percent similar and says "Neither of these
+        viruses is close enough to SARS-CoV-2 to be a direct progenitor", and defines a close progenitor as "a virus that
+        probably would be more than 99 percent similar". Temmam et al. 2022 (read) report the Laos viruses; Zhou et al.
+        2020 (read) report RaTG13 at 96.2 percent. Searched in the documents listed in co-origin-not-established; no
+        record of a more similar virus was found. Not shown: that none exists in closed records. A Dec 2024 conference
+        talk by a WIV scientist reported no new sequence closer to SARS-CoV-1 or SARS-CoV-2 (co-shi-2024-sequences;
+        secondary).
+      accessible: true
+    basis: "The figure of 96.1 percent for RaTG13 in Temmam 2022 versus 96.2 percent elsewhere probably reflects a different alignment; it was not recomputed."
+
+  # =====================================================================
+  # B. THE ANIMAL-MARKET (ZOONOSIS) SIDE
+  # =====================================================================
+
+  - id: co-zoonosis-hypothesis
+    state: contested
+    statement_kind: judgment
+    statement: >
+      SARS-CoV-2 emerged through natural spillover from animals, either directly from bats or through an intermediate
+      host, most likely through the live-animal trade in Wuhan.
+    evidence_class: synthetic
+    confidence: low
+    confidence_reasons:
+      start: high
+      steps:
+        - {domain: inconsistency, effect: down1, reason: "Each analysis cited for it (case geography, two lineages, sample co-occurrence) has a published critique or correction."}
+        - {domain: indirectness, effect: down1, reason: "No infected animal, intermediate host or progenitor has been found; market samples were taken after closure and say where the virus was, not where it came from."}
+    evidential_weight: 3   # of 5; measurements at the putative site, but not independent of each other and all disputed
+    anchor_checked: primary
+    adoption_weight: 4   # of 5
+    adoption_note: >
+      SAGO (2025): "The weight of available evidence reviewed by SAGO suggests zoonotic spillover"; NIC and four
+      agencies lean natural at low confidence (2021; 2023 levels redacted); a commentary signed by virologists (J Virol
+      2024). Not measured among the public. Adoption is information, not evidence.
+    would_change_if: >
+      an infected animal or a progenitor virus is found in the market's supply chain, or a bias-free case series
+      shows the December clustering came from how cases were found
+    disputed_by:
+      - {who: "Stoyan and Chiu", kind: work, position: "The statistical conclusion that the market was the centre of the early cases is invalid; this does not reject zoonosis", source_read: src-stoyan-chiu-2023}
+      - {who: "Weissman", kind: work, position: "Unlinked cases lying closer to the market than linked cases points to ascertainment bias, not a market origin", source_read: src-weissman-2024}
+      - {who: "House Select Subcommittee majority", kind: institution, position: "SARS-CoV-2 likely emerged because of a laboratory or research-related accident", source_read: src-house-sscp-2024}
+    anchor:
+      type: papers-and-report
+      description: >
+        Worobey 2022 (as published), Liu 2023, Crits-Christoph 2024, Bloom 2023, Pekar 2022 and the WHO-China report
+        2021, all read; see co-market-pattern, co-market-samples, co-wildlife-dna-co-occurrence, co-two-lineages and
+        co-who-china-early-cases. SAGO: "it is not conclusive that the HSM was where the virus first spilled over."
+      accessible: true
+      sources: [src-worobey-2022, src-pekar-2022, src-liu-2023, src-crits-christoph-2024, src-bloom-2023, src-who-china-2021, src-sago-2025]
+    flagged_sources: [src-worobey-2022, src-pekar-2022, src-liu-2023, src-who-china-2021]
+    positions:
+      - label: "Yes (what exists)"
+        holder: "Worobey et al.; Pekar et al.; Crits-Christoph et al.; SAGO 2025"
+        ground: >
+          Early cases cluster around the market, the virus was in market samples (74 of 923), live mammals were sold
+          there, and two lineages appear in early genomes.
+      - label: "Not shown"
+        holder: "Stoyan and Chiu; Weissman; Bloom 2023; Liu et al.'s own conclusion"
+        ground: >
+          No infected animal; the case statistics may reflect case-finding; samples were taken after closure; the Liu
+          authors say the origin "cannot be determined from the analyses available".
+    basis: >
+      Filed as contested at low confidence. Weight 3 and not 4 because the measurements are at the putative site but
+      every one is disputed or corrected and none is independent of China's early records. The lab hypothesis is
+      weighed at the same standard in co-lab-hypothesis.
+
+  - id: co-market-pattern
+    state: contested
+    statement_kind: judgment
+    statement: >
+      As published in 2022, the earliest December 2019 cases, including those with no known market link, were
+      geographically centred on the Huanan market in a way that case-finding does not explain.
+    evidence_class: synthetic
+    confidence: low
+    confidence_reasons:
+      start: high
+      steps:
+        - {domain: inconsistency, effect: down1, reason: "Two statisticians' papers dispute the centre estimate and the test; the authors replied on arXiv."}
+        - {domain: risk_of_bias, effect: down1, reason: "The WHO-China report says market exposure was part of the case definition until mid-January 2020; coordinates came from digitised maps, not a line list; the 2024 Science erratum was not read."}
+    evidential_weight: 3   # of 5
+    anchor_checked: primary   # original text read in full; the erratum was not (flagged)
+    adoption_weight: 4   # of 5
+    adoption_note: "Adopted by SAGO as showing the market played a significant role in early transmission and amplification; not measured among the public."
+    would_change_if: >
+      the case line list with onset dates and coordinates shows market-linked case-finding drove the clustering, or the
+      corrected 2024 version of the paper changes its central result
+    disputed_by:
+      - {who: "Stoyan and Chiu", kind: work, position: "The centre of the case cloud is not shown to mark the origin; the Monte Carlo test is flawed; data quality is poor", source_read: src-stoyan-chiu-2023}
+      - {who: "Weissman", kind: work, position: "Unlinked cases closer than linked cases (4.00 versus 5.74 km) is a collider-bias signature", source_read: src-weissman-2024}
+    anchor:
+      type: paper-and-critiques
+      description: >
+        Worobey et al. 2022 (pre-erratum text, read): coordinates for 155 of 164 Wuhan-resident December cases digitised
+        from the WHO-China report's maps; the market lies inside the highest-density 1 percent contour; median distance
+        to the market 4.28 km for all cases against a null median of 16.11 km; 4.00 km for cases without a known market
+        link and 5.74 km for linked cases (unlinked closer, p=0.029). Reply: Debarre and Worobey 2024 (arXiv, read) say
+        linked cases are mainly workers and unlinked cases lying closer is expected. The published JRSSA versions of
+        the two critiques and the Science erratum were not read.
+      accessible: true
+      sources: [src-worobey-2022, src-stoyan-chiu-2023, src-weissman-2024, src-debarre-worobey-2024, src-who-china-2021]
+    flagged_sources: [src-worobey-2022]
+    positions:
+      - label: "Yes"
+        holder: "Worobey et al.; Debarre and Worobey (reply)"
+        ground: "The market sits at the densest part of the early case map, and cases without a market link lie close to it."
+      - label: "Not shown"
+        holder: "Stoyan and Chiu; Weissman"
+        ground: "The statistics do not show a market origin; case-finding or data limits can produce the pattern."
+    basis: >
+      The strongest published case on the natural side, and the most directly disputed. The authors themselves state
+      that "insufficient evidence" exists "to define upstream events".
+
+  - id: co-who-china-early-cases
+    state: established
+    statement_kind: reported
+    statement: >
+      The joint WHO-China report (2021) counted 174 cases with onset in December 2019 (100 laboratory-confirmed, 74
+      clinically diagnosed). Of 168 with an exposure history, 55.4 percent had any market exposure (28.0 Huanan only,
+      22.6 other markets only, 4.8 both) and 44.6 percent had none. The report says "No firm conclusion therefore about the role of the Huanan market in the origin of the outbreak, or how the infection was introduced into the market, can currently be drawn."
+    evidence_class: primary_text
+    confidence: moderate
+    confidence_reasons:
+      start: high
+      steps:
+        - {domain: indirectness, effect: down1, reason: "A report of case data supplied by Chinese authorities; the WHO team says it had difficulty accessing raw data and had limited time; Huanan exposure was part of the case definition until mid-January 2020."}
+    evidential_weight: 4   # of 5, for the record of what the report says
+    anchor_checked: primary
+    adoption_weight: 3   # of 5
+    adoption_note: "Joint WHO-China report; its lab-incident scoring is recorded separately in co-who-china-2021-assessment."
+    would_change_if: >
+      the Annex E4 case data, the line list and the discarded case records are reviewed jointly, as the report itself
+      recommends, and the counts change
+    anchor:
+      type: official-report
+      description: >
+        WHO-China joint report, 6 Apr 2021 file, read: 174 cases reported to the national surveillance system with
+        onset in December 2019; earliest onset 8 December 2019, "no history of exposure to the Huanan market"; 164
+        resident in Wuhan; other exposures included cold-chain products 26.4 percent and live animals 11.8 percent; seven
+        clusters (15 cases); three suspected cases with onset 1, 2 and 7 December were excluded by the Chinese team.
+        "A similar number of cases were associated with other markets" [read].
+      accessible: true
+      sources: [src-who-china-2021]
+    flagged_sources: [src-who-china-2021]
+    basis: >
+      A different dataset from the Lancet and NEJM series (66 percent of 41, 49 percent of 99, 55 percent of cases
+      before 1 January): shares linked to the market differ by dataset and are not combined here.
+
+  - id: co-earliest-case-date-disputed
+    state: established
+    statement_kind: reported
+    statement: >
+      Published sources give different dates for the earliest known COVID-19 case in Wuhan, and they measure different
+      things: onset on 1 December (the first patient in a Lancet series), onset on 8 December (earliest onset reported in
+      the WHO-China report, no Huanan exposure), hospitalisation on 12 December (a Nature paper), and a modelled
+      lineage-B infection on about 18 November (Pekar et al.). No single earliest-case date is established.
+    evidence_class: primary_text
+    confidence: high
+    confidence_reasons:
+      start: high
+      steps:
+        - {domain: primary_anchor_read, effect: none, reason: "All four texts read; the claim is that they differ, which the texts show."}
+    evidential_weight: 5   # of 5, for the record that they differ
+    anchor_checked: primary
+    adoption_weight: 2   # of 5
+    adoption_note: "Not measured."
+    would_change_if: not applicable (a record that sources differ); the dispute closes only if the early line list is released
+    anchor:
+      type: record-of-sources
+      description: >
+        Huang et al. 2020: "The symptom onset date of the first patient identified was Dec 1, 2019" and "No
+        epidemiological link was found between the first patient and later cases". WHO-China report: "the earliest onset
+        date reported to the NNDRS became ill on 8 December 2019". Wu et al. 2020: "since the first patient was
+        hospitalized on 12 December 2019". Pekar et al. 2022: lineage B primary infection "around 18 November 2019 (23
+        October-8 December)" and an unambiguous earliest case with onset 10 December (a seafood vendor, no published
+        genome) [read]. The WHO report also records a 1 December onset in a man whose further illness began on 26
+        December. Whether the 1 December patient is the same person across papers is not stated.
+      accessible: true
+      sources: [src-huang-2020, src-who-china-2021, src-wu-2020, src-pekar-2022]
+    flagged_sources: [src-who-china-2021, src-pekar-2022]
+    basis: Shown as a dispute on the timeline (timeline.yaml, event ev-earliest-case).
+
+  - id: co-market-samples
+    state: established
+    statement_kind: reported
+    statement: >
+      China CDC reports that after the Huanan market closed on 1 January 2020, 74 of 923 environmental samples (70 by
+      RT-qPCR and 4 by sequencing) were positive for SARS-CoV-2, and none of 457 animal samples (188 animals, 18 species,
+      collected from 18 January) was positive.
+    evidence_class: material
+    confidence: moderate
+    confidence_reasons:
+      start: high
+      steps:
+        - {domain: risk_of_bias, effect: down1, reason: "Authors state the assay was not formally verified, sampling was biased toward wildlife shops and early-case shops, and collection began after closure."}
+    evidential_weight: 4   # of 5
+    anchor_checked: primary
+    adoption_weight: 3   # of 5
+    adoption_note: "Cited by both sides; China's white paper cites the same counts."
+    would_change_if: an independent re-analysis of the raw sequencing data changes the positive count
+    disputed_by:
+      - {who: "Bloom", kind: work, position: "Positives not classified consistently (sample Q61 called positive on one read in about 200 million, and RT-qPCR negative)", source_read: src-bloom-2023}
+    anchor:
+      type: paper
+      description: >
+        Liu et al., Nature (read, publisher HTML): positivity 8.0 percent overall; 87.5 percent (56 of 64) of in-market
+        positives in the West Zone; positives in 21 of 134 sampled shops; live virus isolated from three samples with Ct
+        below 30; origin "cannot be determined from the analyses available"; human introduction to the market or the
+        cold chain "cannot yet be ruled out". Note added in proof: the preview's "73" became 70 plus 4.
+      accessible: true
+      sources: [src-liu-2023, src-bloom-2023]
+    flagged_sources: [src-liu-2023]
+    basis: >
+      What it shows is that the virus was widespread in the market in January 2020. It does not show an infected
+      animal, and the authors say so.
+
+  - id: co-wildlife-dna-co-occurrence
+    state: contested
+    statement_kind: judgment
+    statement: >
+      In market samples from one wildlife stall, SARS-CoV-2 RNA was found together with DNA of raccoon dog, civet,
+      bamboo rat and other mammals, which makes those species candidate intermediate hosts.
+    evidence_class: material
+    confidence: low
+    confidence_reasons:
+      start: high
+      steps:
+        - {domain: inconsistency, effect: down1, reason: "A separate analysis of the same data finds little SARS-CoV-2 in raccoon-dog-rich samples and says co-mingling is unlikely to indicate infection."}
+        - {domain: indirectness, effect: down1, reason: "Metagenomic DNA cannot link a virus to a host in mixed samples; the authors call the result a shortlist."}
+    evidential_weight: 2   # of 5
+    anchor_checked: primary
+    adoption_weight: 2   # of 5
+    adoption_note: "Widely reported in the press in 2023; not measured."
+    would_change_if: >
+      serology or virus sequencing from the live animals or their farms, or unbiased re-sequencing of all January 2020
+      samples
+    disputed_by:
+      - {who: "Bloom", kind: work, position: "Only 1 of 14 samples with a fifth or more raccoon-dog mitochondrial DNA contains any SARS-CoV-2 reads (1 of about 200,000,000); co-mingling is unlikely to reliably indicate infection", source_read: src-bloom-2023}
+    anchor:
+      type: paper
+      description: >
+        Crits-Christoph et al. (NIH author manuscript, read): five SARS-CoV-2-positive stall-A samples contained
+        mitochondrial DNA of raccoon dog, hoary bamboo rat, dog and European rabbit; all five also contained human DNA;
+        no bat or pangolin material. Authors' limits: cannot say which species shed the virus. Bloom 2023 (read): only
+        21 of 176 samples have more than ten SARS-CoV-2 reads.
+      accessible: true
+      sources: [src-crits-christoph-2024, src-bloom-2023]
+    positions:
+      - label: "Yes (shortlist)"
+        holder: "Crits-Christoph et al."
+        ground: "Wildlife DNA was in all SARS-CoV-2-positive samples from that stall; genotypes prioritise hosts to test."
+      - label: "Not shown"
+        holder: "Bloom"
+        ground: "Samples with the most viral reads are not the ones rich in non-human mammal DNA."
+    basis: "A shortlist, not an identification, by the authors' own description."
+
+  - id: co-market-animals-untested
+    state: searched_gap
+    statement_kind: search_result
+    statement: >
+      No SARS-CoV-2 test result exists for any of the live mammals sold at the Huanan market in late 2019; the 457
+      animal samples were taken after closure from carcasses, freezer and refrigerator contents, stray animals and a
+      fish tank, and were all negative.
+    absence_anchor: true
+    evidence_class: primary_text
+    confidence: provisional
+    evidential_weight: 3   # of 5
+    anchor_checked: secondary
+    adoption_weight: 2   # of 5
+    adoption_note: "Not measured."
+    would_change_if: test results from the market's live animals or their suppliers are produced
+    next_step: >
+      Release the sources, locations, sampling and testing data for animals sold at the market and wet markets in
+      Wuhan, including upstream farms and trade (dt-market-animals).
+    anchor:
+      type: search-record
+      description: >
+        Worobey et al. (read) list live mammals seen at the market in late 2019 and state that no SARS-CoV-2 test
+        results for any of these animals exist; Liu et al. (read) report the 457 samples collected from 18 January 2020.
+        SAGO lists "more detailed information on the sources, locations, sampling and testing methods of animals sold at
+        the HSM" among data not provided. A search of the documents read; absence in them is not proof of none held.
+      accessible: true
+    basis: Not an evidence of infection in either direction.
+
+  - id: co-two-lineages
+    state: contested
+    statement_kind: judgment
+    statement: >
+      Early SARS-CoV-2 genomes fall into two lineages (A and B) whose pattern implies at least two separate
+      cross-species transmissions into humans.
+    evidence_class: synthetic
+    confidence: low
+    confidence_reasons:
+      start: moderate
+      steps:
+        - {domain: inconsistency, effect: down1, reason: "Two critics say a 2023 erratum cut the Bayes factor from about 60 to about 4, and that the comparison models were treated unequally; the erratum was not read."}
+    evidential_weight: 2   # of 5
+    anchor_checked: secondary   # original read; the corrected analysis only through critics
+    adoption_weight: 3   # of 5
+    adoption_note: "Cited in the House Democrats' and SAGO's weighing of natural origin; the House majority says all cases stem from a single introduction (see co-house-sscp-2024)."
+    would_change_if: the Pekar authors' corrected analysis or an independent re-analysis is read and the support for two introductions rises or falls
+    disputed_by:
+      - {who: "McCowan", kind: work, position: "Even at a Bayes factor of about 4, the single-introduction model was tested against stricter conditions; when equalised the support disappears", source_read: src-mccowan-2025}
+      - {who: "Weissman", kind: work, position: "A 0.162 correction factor drops 4.3 to 0.70", source_read: src-weissman-ejw-2026}
+    anchor:
+      type: paper-and-critics
+      description: >
+        Pekar et al. 2022 as originally published (read): 787 lineage A/B genomes to 14 Feb 2020; Bayes factor 61.6
+        (recCA rooting) and 60.0 (unconstrained); lineage B introduction about 18 Nov 2019 (23 Oct-8 Dec). The authors
+        list limits: possible lineage-assignment errors and no direct evidence of a related virus in market animals. The
+        erratum (Science 382:eadl0585) was NOT read.
+      accessible: true
+      sources: [src-pekar-2022, src-mccowan-2025, src-weissman-ejw-2026]
+    flagged_sources: [src-pekar-2022]
+    positions:
+      - label: "Yes (as published)"
+        holder: "Pekar et al. 2022"
+        ground: "Two lineages with no intermediate genomes, rooting analysis and epidemic simulations favour two introductions."
+      - label: "Not shown"
+        holder: "McCowan; Weissman"
+        ground: "After corrections the support is about 4 (or 4.3) and disappears under equal conditions."
+    basis: See co-pekar-erratum-bf for the reported size of the correction.
+
+  - id: co-pekar-erratum-bf
+    state: proposed
+    statement_kind: reported
+    statement: >
+      The October 2023 Science erratum to Pekar et al. reduced the Bayes factor for two introductions against one from
+      about 60 to about 4 (McCowan) or about 4.3 (Weissman).
+    evidence_class: interpretive
+    confidence: provisional
+    evidential_weight: 2   # of 5
+    anchor_checked: secondary
+    adoption_weight: 1   # of 5
+    adoption_note: "Not measured."
+    would_change_if: the erratum text, once read, gives a different figure
+    next_step: Read the erratum (Science 382:eadl0585) and the corrected online paper; see co-sq-science-errata.
+    anchor:
+      type: critics-describing-erratum
+      description: >
+        Two critics, both disputing the paper, describe the erratum: McCowan (arXiv v3, read) "the Bayes factor dropped
+        to 4" after three coding errors; Weissman (EJW 2026, read) "a less compelling ~4.3". They disagree in the
+        second digit; neither is the erratum. PubMed and Crossref confirm that an erratum exists, not its content.
+      accessible: true
+      sources: [src-mccowan-2025, src-weissman-ejw-2026, src-pekar-erratum-record]
+    flagged_sources: [src-pekar-2022]
+    basis: Filed as proposed at provisional confidence because it rests only on critics.
+
+  - id: co-fcs-unique-among-sarbecoviruses
+    state: established
+    statement_kind: reported
+    statement: >
+      Published analyses state that no known sarbecovirus other than SARS-CoV-2 has a furin cleavage site at the S1/S2
+      junction of its spike. In experiments the site matters: removing it weakens SARS-CoV-2 in human airway cells,
+      hamsters, mice and ferret transmission. Furin cleavage sites do occur in other coronavirus groups, and bats are
+      heavily under-sampled.
+    evidence_class: synthetic
+    confidence: moderate
+    confidence_reasons:
+      start: high
+      steps:
+        - {domain: indirectness, effect: down1, reason: "The uniqueness statement is the papers' own and rests on the sequences known when they were written; this dig did not survey GenBank."}
+    evidential_weight: 4   # of 5
+    anchor_checked: primary
+    adoption_weight: 3   # of 5
+    adoption_note: "Used by both sides: as a sign of engineering by some, as consistent with natural evolution by others. Adoption, not evidence."
+    would_change_if: a sarbecovirus with a natural S1/S2 furin site is found in a pre-2019 sample, or a construct carrying it is found in a laboratory
+    anchor:
+      type: papers
+      description: >
+        Chan and Zhan 2022 (read): "no known sarbecovirus except SARS-CoV-2 has an FCS insertion at the S1/S2 junction";
+        they also say "an S1/S2 FCS emerging in a sarbecovirus is consistent with natural evolution". Temmam et al. 2022:
+        "None of these bat viruses contains a furin cleavage site in the spike protein." Andersen 2020: polybasic sites
+        "have not been observed in related 'lineage B' betacoronaviruses, although other human betacoronaviruses,
+        including HKU1 (lineage A), have those sites". Johnson 2021, Peacock 2021 and Hoffmann 2020 show the site's role
+        in experiments. Wu and Zhao 2021: furin sites "occurred independently for multiple times in the evolution of the
+        coronavirus family". SAGO: elements "similar but not identical" are common in several other coronavirus groups.
+      accessible: true
+      sources: [src-chan-zhan-2022, src-temmam-2022, src-andersen-2020, src-johnson-2021-fcs, src-peacock-2021, src-hoffmann-2020, src-wu-zhao-2021, src-sago-2025]
+    basis: >
+      The site is unusual among its closest relatives. This fact does not by itself show whether it arose in nature or
+      in a laboratory; the papers say so (SAGO's summary of the Lancet Commission: it "does not by itself identify the
+      proximal origin of the virus, whether natural or laboratory").
+
+  - id: co-fcs-not-found-in-nature
+    state: refuted
+    statement_kind: judgment
+    refutes_target: >
+      The claim on the White House page and in the House Select Subcommittee's press material that "The virus possesses a
+      biological characteristic that is not found in nature" (the furin cleavage site)
+    refutation_class: narrative_drift
+    statement: The furin cleavage site of SARS-CoV-2 is a feature that does not occur in nature.
+    evidence_class: primary_text
+    confidence: high
+    confidence_reasons:
+      start: high
+      steps:
+        - {domain: primary_anchor_read, effect: none, reason: "The papers' own texts read."}
+    evidential_weight: 4   # of 5, for the refutation of the literal wording
+    anchor_checked: primary
+    adoption_weight: 3   # of 5
+    adoption_note: "Stated as one of the 'FIVE strongest arguments' in the House Oversight Committee press release of 2 Dec 2024 on the Select Subcommittee's final report (a research copy was read; it is not among this dig's manifest sources); not measured among the public."
+    would_change_if: the claim is restated as not found in any other sarbecovirus, which co-fcs-unique-among-sarbecoviruses records as established
+    anchor:
+      type: papers
+      description: >
+        Furin cleavage sites occur naturally in other coronaviruses: Andersen 2020 ("other human betacoronaviruses,
+        including HKU1 (lineage A), have those sites"); Coutard 2020 (present in other coronavirus groups); Wu and Zhao
+        2021 ("occurred independently for multiple times in the evolution of the coronavirus family"). What is true is
+        narrower: no known sarbecovirus has one at that location (co-fcs-unique-among-sarbecoviruses) [read].
+      accessible: true
+      sources: [src-andersen-2020, src-coutard-2020, src-wu-zhao-2021, src-whitehouse-lableak]
+    positions:
+      - label: "Yes (what is real)"
+        holder: "White House page; House majority"
+        ground: "No known sarbecovirus has a furin site at S1/S2."
+      - label: "No"
+        holder: "The papers' own texts"
+        ground: "Furin sites are common in other coronaviruses; their independent appearance is documented."
+    basis: >
+      Refuted on primary text: the literal wording. This does not show a natural origin; it removes one wording of the
+      lab-side case and leaves the narrower fact standing.
+
+  - id: co-ratg13-records
+    state: established
+    statement_kind: reported
+    statement: >
+      RaTG13, the bat virus then closest to SARS-CoV-2, is 96.2 percent identical to it (Zhou et al., Nature, Feb 2020).
+      GenBank records it as submitted by WIV on 27 January 2020 with a collection date of 24 July 2013 and released on
+      24 March 2020, and replaced by a second version on 13 October 2020. The Nature paper gives no collection year, and
+      WIV's November 2020 addendum discusses sera from four 2012 miners without linking them to RaTG13.
+    evidence_class: primary_text
+    confidence: moderate
+    confidence_reasons:
+      start: high
+      steps:
+        - {domain: indirectness, effect: down1, reason: "The collection date is the submitter's entry; the SAGO chronology (ID4991, a 2018 renaming) is not in the addendum text and is not used."}
+    evidential_weight: 4   # of 5
+    anchor_checked: primary
+    adoption_weight: 2   # of 5
+    adoption_note: "Disputed dates are shown on the timeline; not measured."
+    would_change_if: WIV releases the sample records and sequencing dates for RaTG13
+    anchor:
+      type: records
+      description: >
+        GenBank MN996532.1 (read): "Submitted (27-JAN-2020)", "/collection_date="24-Jul-2013"", "On Oct 13, 2020 this
+        sequence was replaced by MN996532.2." Zhou et al. 2020: "overall genome sequence identity of 96.2%" and RaTG13
+        "previously detected in Rhinolophus affinis from Yunnan province" [read]. The addendum (read) has 13 serum
+        samples from 4 patients received 1 July to 1 October 2012 and confirmed not infected by SARS-CoV-2.
+      accessible: true
+      sources: [src-genbank-ratg13, src-zhou-2020-ratg13, src-zhou-2020-addendum]
+    basis: A record of dates and what the documents do and do not connect.
+
+  - id: co-market-origin-proven
+    state: refuted
+    statement_kind: judgment
+    refutes_target: >
+      The popular claim that scientific studies have proven that SARS-CoV-2 spilled over from an animal at the Huanan
+      market
+    refutation_class: narrative_drift
+    statement: Studies have proven that SARS-CoV-2 spilled over from animals at the Huanan market.
+    evidence_class: primary_text
+    confidence: high
+    confidence_reasons:
+      start: high
+      steps:
+        - {domain: primary_anchor_read, effect: none, reason: "The studies' own concluding statements read."}
+    evidential_weight: 5   # of 5, for the refutation of "proven"
+    anchor_checked: primary
+    adoption_weight: 3   # of 5
+    adoption_note: "The strong form appears in public discussion; not measured."
+    would_change_if: an infected animal or progenitor is found in the market's supply chain
+    anchor:
+      type: papers-and-reports
+      description: >
+        Worobey et al.: "While there is insufficient evidence to define upstream events, and exact circumstances remain
+        obscure, our analyses indicate that the emergence of SARS-CoV-2 occurred via the live wildlife trade in China, and
+        show that the Huanan market was the epicenter of the COVID-19 pandemic." Liu et al.: origin "cannot be determined from
+        the analyses available". WHO-China: "No firm conclusion therefore about the role of the Huanan market in the origin of the outbreak, or how the infection was introduced into the market, can currently be drawn." SAGO 2025: "it is not conclusive that the HSM was where the virus first spilled over" [read].
+      accessible: true
+      sources: [src-worobey-2022, src-liu-2023, src-who-china-2021, src-sago-2025]
+    positions:
+      - label: "Yes (what is real)"
+        holder: "Worobey et al.; SAGO"
+        ground: "The market was a site of early amplification and the evidence is consistent with market emergence."
+      - label: "No"
+        holder: "The studies' own concluding statements"
+        ground: >
+          Liu et al. and the WHO-China report say the data do not settle it; Worobey et al. state a stronger conclusion
+          (emergence "via the live wildlife trade") while acknowledging insufficient evidence on upstream events; SAGO says
+          it is not conclusive. None reports an infected animal or progenitor.
+    basis: >
+      Refuted as to "proven" only. The hypothesis is weighed at co-zoonosis-hypothesis. The same test is applied to the
+      other side at co-lab-origin-proven.
+
+  - id: co-sq-science-errata
+    state: searched_gap
+    statement_kind: search_result
+    statement: >
+      What the two Science errata (Worobey et al., 14 Mar 2024; Pekar et al., 13 Oct 2023) changed has not been read for
+      this dig.
+    evidence_class: primary_text
+    confidence: provisional
+    evidential_weight: 2   # of 5
+    anchor_checked: no
+    adoption_weight: 1   # of 5
+    adoption_note: "Not measured."
+    would_change_if: the errata are read and figures quoted in this dig differ from the corrected versions
+    next_step: >
+      Read both errata and the corrected papers at science.org (refused this environment, HTTP 403; Europe PMC withholds
+      the erratum full text), then re-check co-market-pattern and co-two-lineages.
+    anchor:
+      type: search-record
+      description: >
+        Tried 2026-10-05: science.org (403), Europe PMC and NCBI full-text XML (500 or not permitted), Crossref
+        (metadata only, confirming an update of type correction for both). No secondary source for the Worobey erratum
+        was found; the Pekar erratum is described only by two critics (co-pekar-erratum-bf).
+      accessible: false
+      sources: [src-worobey-erratum-record, src-pekar-erratum-record]
+    basis: A named limit on this dig, not evidence about the virus.
+    flagged_sources: [src-worobey-2022, src-pekar-2022]
+
+  - id: co-sq-market-supply-chain
+    state: searched_gap
+    statement_kind: search_result
+    gap_type: structural
+    gap_reason: >
+      The sampling and testing data for animals sold at the market and its upstream farms are held in China; SAGO lists
+      them among information not provided to WHO.
+    statement: >
+      Sampling, testing and supply-chain records for the animals sold at the Huanan market and other Wuhan wet markets
+      have not been made available to outside reviewers.
+    evidence_class: primary_text
+    confidence: provisional
+    absence_anchor: true
+    evidential_weight: 3   # of 5
+    anchor_checked: secondary
+    adoption_weight: 2   # of 5
+    adoption_note: "Stated by SAGO and by the Joint report's own recommendations; not measured."
+    would_change_if: the records are released
+    next_step: Release or independently audit the supplier, farm and sampling records (dt-market-animals).
+    anchor:
+      type: search-record
+      description: >
+        SAGO 2025 (read) lists "more detailed information on the sources, locations, sampling and testing methods of
+        animals sold at the HSM and other wet markets in Wuhan, including upstream farming or illegal trade" among
+        information not provided; the WHO-China report recommends supply-chain trace-back with farm sampling. No such
+        data were found in any document read.
+      accessible: false
+    basis: Not evidence for either hypothesis.
+
+  # =====================================================================
+  # C. THE LABORATORY-RELATED SIDE
+  # =====================================================================
+
+  - id: co-lab-hypothesis
+    state: contested
+    statement_kind: judgment
+    statement: >
+      The first human infection with SARS-CoV-2 was the result of a laboratory-associated incident (experimentation,
+      animal handling or sampling) connected with the Wuhan Institute of Virology.
+    evidence_class: interpretive
+    confidence: low
+    confidence_reasons:
+      start: high
+      steps:
+        - {domain: indirectness, effect: down2, reason: "No document read shows that a laboratory held, made or released SARS-CoV-2 or a progenitor; the case rests on location, practice, a 2018 proposal and a sequence feature."}
+    evidential_weight: 2   # of 5; circumstantial; weighed at the same standard as co-zoonosis-hypothesis, which has direct measurements at its putative site
+    anchor_checked: primary
+    adoption_weight: 4   # of 5
+    adoption_note: >
+      FBI (moderate, per press), DOE (low, per press) and, per a CIA spokesperson in Jan 2025, the CIA (low), the House
+      Select Subcommittee majority (2024), Senate HELP minority staff (2022) and a White House page (2025) favour it;
+      the confidence levels in the 2023 US text are redacted. Adoption, not evidence.
+    would_change_if: >
+      a laboratory record, sample or sequence shows SARS-CoV-2 or a progenitor was held there, or an infected laboratory
+      worker is documented, or a natural progenitor and host are found
+    disputed_by:
+      - {who: "Democratic staff of the House Select Subcommittee", kind: institution, position: "Arguments for a lab origin are largely circumstantial but cannot be dismissed out of hand; on DEFUSE, impossible to draw any conclusions without additional WIV lab records", source_read: src-house-dem-2024}
+      - {who: "WHO SAGO", kind: institution, position: "No evidence other than speculation supports a laboratory-related incident; it cannot be ruled out without the requested information", source_read: src-sago-2025}
+      - {who: "American Society for Microbiology", kind: institution, position: "ASM does not believe there is enough available evidence to support the conclusion in the Senate's interim report", source_read: src-asm-2022}
+    anchor:
+      type: official-reports-and-documents
+      description: >
+        ODNI June 2023 (read): "no indication that the WIV's pre-pandemic research holdings included SARS-CoV-2 or a
+        close progenitor, nor any direct evidence that a specific research-related incident occurred"; "Some WIV
+        researchers probably did not use adequate biosafety precautions at least some of the time"; as of January 2019
+        WIV researchers performed SARS-like coronavirus experiments in BSL-2 laboratories. DEFUSE proposal text (read):
+        co-defuse-text-fcs-plan. Furin site: co-fcs-unique-among-sarbecoviruses.
+      accessible: true
+      sources: [src-odni-2023-wiv, src-defuse, src-sago-2025, src-house-dem-2024, src-asm-2022]
+    positions:
+      - label: "Yes (what exists)"
+        holder: "FBI; DOE; CIA (2025); House majority; HELP minority staff"
+        ground: "Wuhan has the coronavirus laboratory; biosafety practice was not always adequate; the furin site is unusual; a 2018 proposal planned furin-site work."
+      - label: "Not shown"
+        holder: "SAGO; House Democrats; ASM; most US agencies (low confidence)"
+        ground: "No record of a held progenitor or an incident; the records that could show it are closed."
+    basis: >
+      Filed as contested at low confidence, at the same standard as the natural hypothesis. Weight 2 and not 3 because
+      the case is circumstantial: it measures the setting, not the virus.
+
+  - id: co-odni-2023-wiv-findings
+    state: established
+    statement_kind: reported
+    statement: >
+      The US Intelligence Community's June 2023 report on the Wuhan Institute of Virology states that, as of January
+      2019, WIV researchers performed SARS-like coronavirus experiments in BSL-2 laboratories; that some researchers
+      probably did not always use adequate biosafety precautions; that it has no indication WIV's pre-pandemic holdings
+      included SARS-CoV-2 or a close progenitor, no direct evidence of a specific research-related incident and no
+      knowledge of a specific biosafety incident that spurred the pandemic; and that WIV scientists have genetically
+      engineered coronaviruses with common laboratory practices, with no information that this involved SARS-CoV-2, a
+      close progenitor or a backbone close enough to be the source.
+    evidence_class: primary_text
+    confidence: moderate
+    confidence_reasons:
+      start: high
+      steps:
+        - {domain: indirectness, effect: down1, reason: "The text records what the Intelligence Community states; the intelligence behind it is unpublished and its first words in each paragraph are redacted."}
+    evidential_weight: 3   # of 5, for the underlying facts; the record of what it says is complete
+    anchor_checked: primary
+    adoption_weight: 4   # of 5
+    adoption_note: "An official assessment; adoption is information, not evidence about the virus."
+    would_change_if: the classified annex or the underlying reporting is released, or WIV records are reviewed
+    anchor:
+      type: official-report
+      description: >
+        ODNI report declassified 23 June 2023 (read): "We continue to have no indication that the WIV's pre-pandemic
+        research holdings included SARS-CoV-2 or a close progenitor, nor any direct evidence that a specific
+        research-related incident occurred involving WIV personnel before the pandemic that could have caused the COVID
+        pandemic." "We do not know of a specific biosafety incident at the WIV that spurred the pandemic." "Some WIV
+        researchers probably did not use adequate biosafety precautions at least some of the time prior to the pandemic
+        in handling SARS-like coronaviruses". The report also says it "does not address the merits of the two most likely
+        pandemic origins hypotheses" and that a classified annex is "consistent with the unclassified assessments".
+      accessible: true
+      sources: [src-odni-2023-wiv]
+    basis: >
+      These sentences are cited by both sides: the first and fourth against the lab hypothesis as proven, the second and
+      third for its plausibility. Shown whole here.
+
+  - id: co-defuse-text-fcs-plan
+    state: established
+    statement_kind: reported
+    statement: >
+      The 2018 DEFUSE proposal (EcoHealth Alliance to DARPA, requesting USD 14,209,245, with WIV and UNC Chapel Hill as
+      partners) says that, where spike sequences lack cleavage sites, "we will introduce appropriate human-specific
+      cleavage sites and evaluate growth potential in Vero cells and HAE cultures". The public text names no S1/S2
+      position, gives no sequence, contains no SARS-CoV-2 sequence, and says the chimeric backbone work would be BSL-3.
+    evidence_class: primary_text
+    confidence: moderate
+    confidence_reasons:
+      start: high
+      steps:
+        - {domain: risk_of_bias, effect: down1, reason: "Read in a third-party OCR copy of a file posted by a volunteer group; the key sentence matches the House report's quotation, but the DARPA or EcoHealth file was not compared."}
+    evidential_weight: 4   # of 5
+    anchor_checked: primary
+    adoption_weight: 4   # of 5
+    adoption_note: "Cited by both sides; the proposal's meaning is disputed (see co-defuse-shows-engineered)."
+    would_change_if: the DARPA or EcoHealth holder copy differs from the third-party copy
+    anchor:
+      type: grant-proposal
+      description: >
+        DEFUSE main volume (read, OCR): "We will analyze all SARSr-CoV S gene sequences for appropriately conserved
+        proteolytic cleavage sites in S2 and for the presence of potential furin cleavage sites. ... Where clear
+        mismatches occur, we will introduce appropriate human-specific cleavage sites and evaluate growth potential in
+        Vero cells and HAE cultures." Synthesised spike genes "designed for insertion into SHC014 or WIV16 molecular clone
+        backbones ... These are BSL-3". Cover letter dated 24 March 2018; form field "Date proposal submitted: 3/27/18".
+        Budget line: subcontract to Prof. Baric "to oversee reverse engineering of SARSr-CoVs".
+      accessible: true
+      sources: [src-defuse]
+    basis: >
+      What is not in the public text: "inserted at S1/S2", any SARS-CoV-2 sequence, and the draft sentence about "the BSL-2
+      nature of work on SARSr-CoVs" (that sentence appears only in drafts, see co-defuse-drafts; the final text's only
+      BSL-2 mention found in the copy checked is a facilities description, "includes BSL2, BSL-3, and BSL-4 laboratories"). The final proposal was public from Sept 2021; the drafts were released by FOIA in
+      Dec 2023 to Jan 2024.
+
+  - id: co-help-defuse-location-claim
+    state: proposed
+    statement_kind: reported
+    statement: >
+      The DEFUSE proposal says it would insert furin cleavage sites "at the same location where one appears in
+      SARS-CoV-2" (Senate HELP minority staff, 2022).
+    evidence_class: primary_text
+    confidence: provisional
+    evidential_weight: 1   # of 5
+    anchor_checked: secondary
+    adoption_weight: 2   # of 5
+    adoption_note: "Repeated in congressional and press material; not measured."
+    would_change_if: the staff copy of the proposal that the report cites ("on file with staff") is shown to contain it
+    anchor:
+      type: search-record
+      description: >
+        The HELP report (read, p.15) states it. The location statement was searched for in three copies of the public
+        proposal (the OCR text, a second OCR copy and the PDF text) and not found; the report's footnotes cite a copy
+        "on file with staff", which may be a different version. Absent from the public text; not shown absent from every
+        version.
+      accessible: true
+      sources: [src-senate-help-2022, src-defuse]
+    basis: >
+      Filed as proposed, not refuted: Rule 9 needs a refuting text, and an absence from the public copies does not refute
+      a claim about another copy.
+
+  - id: co-defuse-shows-engineered
+    state: refuted
+    statement_kind: judgment
+    refutes_target: >
+      The popular claim that the DEFUSE proposal shows, or amounts to proof, that SARS-CoV-2 was engineered or made in a
+      laboratory
+    refutation_class: narrative_drift
+    statement: The DEFUSE proposal shows that SARS-CoV-2 was engineered in a laboratory.
+    evidence_class: primary_text
+    confidence: high
+    confidence_reasons:
+      start: high
+      steps:
+        - {domain: primary_anchor_read, effect: none, reason: "The proposal text and the reports' own wording read."}
+    evidential_weight: 4   # of 5, for the refutation of "shows"
+    anchor_checked: primary
+    adoption_weight: 3   # of 5
+    adoption_note: "Common in public discussion; not measured."
+    would_change_if: a record shows work matching the plan was carried out and produced a virus matching SARS-CoV-2
+    anchor:
+      type: proposal-and-reports
+      description: >
+        The proposal is a plan dated March 2018 that contains no SARS-CoV-2 sequence (the virus had not been described).
+        DARPA did not fund it according to the House majority, the House Democrats and SAGO (no DARPA document was read,
+        co-sq-darpa-decision). ODNI 2023: "no information ... indicating that any WIV genetic engineering work has
+        involved SARS-CoV-2, a close progenitor, or a backbone virus that is closely-related enough". House Democrats:
+        "it is unfortunately impossible to draw any conclusions without reviewing additional lab records from WIV".
+        Baric (2026): asked whether any such work had been done before the application, "No. We've never dropped a
+        furin cleavage site into a coronavirus like that" [read].
+      accessible: true
+      sources: [src-defuse, src-odni-2023-wiv, src-house-dem-2024, src-baric-ti-2026]
+    positions:
+      - label: "Yes (what is real)"
+        holder: "House majority; HELP minority staff; Chan and Zhan 2022"
+        ground: "The proposal planned to introduce human-specific cleavage sites into SARS-related viruses at partner laboratories, which makes an artificial origin hard to rule out."
+      - label: "No"
+        holder: "The proposal's own text; ODNI 2023; House Democrats"
+        ground: "A 2018 plan, unfunded per the sources read, with no SARS-CoV-2 sequence and no record that the work was done."
+    basis: >
+      Refuted as to "shows" only: the plan is real and relevant to plausibility, which co-lab-hypothesis carries. It is a
+      plan, not a record of work.
+
+  - id: co-defuse-drafts
+    state: proposed
+    statement_kind: reported
+    statement: >
+      Draft DEFUSE documents released by FOIA contain a draft sentence that "The BSL-2 nature of work on SARSr-CoVs makes
+      our system highly cost-effective", and a comment tagged [BRS17] that in the US these recombinant viruses are studied
+      at BSL3 and that "In china, might be growin these virus under bs12. US reseachers will likely freak out."
+    evidence_class: primary_text
+    confidence: provisional
+    evidential_weight: 2   # of 5
+    anchor_checked: secondary
+    adoption_weight: 2   # of 5
+    adoption_note: "Reported in congressional and press material; not measured."
+    would_change_if: the USGS FOIA release itself is compared and the text or tags differ
+    next_step: Compare with the USGS release or the first pages posted by the news organisation that received them.
+    anchor:
+      type: foia-drafts-ocr
+      description: >
+        USGS FOIA release 2021-006245, OCR text read at the passages quoted (draft email of 8 Feb 2018): the [BRS17]
+        tag's initials are consistent with Ralph S. Baric but the OCR does not state the commenter's name, so the
+        identity is inferred. The uploader says the file was not vetted. The spelling is the OCR text's.
+      accessible: true
+      sources: [src-defuse-drafts]
+    basis: >
+      What the drafts do not show: that any such work was done, or that anything resembling SARS-CoV-2 was made. The
+      final text says BSL-3 for the chimeric backbones.
+
+  - id: co-sq-darpa-decision
+    state: searched_gap
+    statement_kind: search_result
+    statement: >
+      DARPA's own decision record on DEFUSE (the letter, the grading and its reasons) has not been read; the sources
+      differ on why it was not funded.
+    evidence_class: primary_text
+    confidence: provisional
+    evidential_weight: 2   # of 5
+    anchor_checked: no
+    adoption_weight: 2   # of 5
+    adoption_note: "Not measured."
+    would_change_if: the DARPA letter or evaluation record is released
+    next_step: >
+      Obtain the DARPA letter that the House report cites as "on file with staff" and the program manager's
+      evaluation record.
+    anchor:
+      type: search-record
+      description: >
+        The House report (read, pp.116-119) says the proposal was graded "selectable, but not recommended" and that the
+        program manager said the lack of a gain-of-function plan affected the decision; Daszak (as quoted there) says
+        biosafety "never once did ... come up" and that it was too much money; Baric (2026 transcript, read) says the
+        reason given to him concerned in-cave intervention studies. A file named as a DARPA rejection letter in the
+        research set was not a DARPA letter (it is a summary by an advocacy group) and was not used.
+      accessible: false
+      sources: [src-house-sscp-2024, src-baric-ti-2026]
+    basis: Not evidence for either hypothesis.
+
+  - id: co-defuse-carried-out-allegation
+    state: proposed
+    statement_kind: reported
+    statement: >
+      EcoHealth Alliance carried out the DEFUSE proposal until April 2020 through NIH funding, as alleged in a 2022
+      Senate letter relaying a disclosure by a military officer.
+    evidence_class: interpretive
+    confidence: provisional
+    evidential_weight: 1   # of 5
+    anchor_checked: secondary
+    adoption_weight: 1   # of 5
+    adoption_note: "Not measured."
+    would_change_if: documents are produced that show the DEFUSE work, as opposed to the separately funded NIH grant, was done
+    anchor:
+      type: allegation
+      description: >
+        Sen. Ron Johnson's letter to the Department of Defense of 11 Jan 2022 (OCR text, read) says "the disclosure
+        alleges" this. No document read supports it. The HHS records document work under a different grant (R01AI110964).
+        SAGO and the House Democrats say DEFUSE was not funded. The officer is not named here.
+      accessible: true
+      sources: [src-johnson-letter-2022]
+    basis: An allegation attributed to its source, unverified.
+
+  - id: co-baric-account
+    state: established
+    statement_kind: reported
+    statement: >
+      In a 2026 Senate interview Dr Ralph Baric said the DEFUSE furin plan was "loss-of-function first" (remove an existing
+      site, then consider putting one into a null backbone), that "we've never dropped a furin cleavage site into a
+      coronavirus like that" before the application, that one cannot "ever conclusively say that there was not a
+      laboratory leak", and that he was "100 percent certain" he was not involved in creating the virus.
+    evidence_class: primary_text
+    confidence: moderate
+    confidence_reasons:
+      start: high
+      steps:
+        - {domain: indirectness, effect: down1, reason: "A witness's own account of his work and of what was done elsewhere; the committee's cover-page summary differs in wording and is not used."}
+    evidential_weight: 2   # of 5
+    anchor_checked: primary
+    adoption_weight: 1   # of 5
+    adoption_note: "Not measured."
+    would_change_if: laboratory records of the work he describes are produced
+    anchor:
+      type: interview-transcript
+      description: >
+        Senate HSGAC transcribed interview, 10 April 2026 (read at the passages on the furin plan and BSL-2). He also said
+        that, as written, "That part would be done by me" and that whether it would have happened "is a fair question,
+        because if the Chinese discovered the virus ... whether they would share it with me."
+      accessible: true
+      sources: [src-baric-ti-2026]
+    basis: The committee majority's "Key Findings" cover page compresses these statements; the transcript is used here.
+
+  - id: co-engineered-in-lab
+    state: proposed
+    statement_kind: judgment
+    statement: SARS-CoV-2 was genetically engineered in a laboratory.
+    evidence_class: interpretive
+    confidence: provisional
+    evidential_weight: 1   # of 5
+    anchor_checked: secondary
+    adoption_weight: 2   # of 5
+    adoption_note: >
+      The US report: "Almost all IC agencies assess that SARS-CoV-2 was not genetically engineered"; SAGO says deliberate
+      manipulation "are not supported by accurate science". Some commentators and the lab-side authors say engineering
+      cannot be ruled out. Adoption, not evidence.
+    would_change_if: a construct, record or sequence of work that produced the virus is found
+    retired_by: dt-wiv-records
+    anchor:
+      type: sequence-analyses
+      description: >
+        Andersen 2020 (read): "Our analyses clearly show that SARS-CoV-2 is not a laboratory construct" (see
+        co-proximal-origin-text; criticised as stated too strongly). Chan and Zhan 2022 (read): a workflow existed that
+        would make a recombinant virus "practically indistinguishable from a rare SARSr-CoV with a naturally emerging
+        FCS". Neither side has the laboratory records that would settle it.
+      accessible: true
+      sources: [src-andersen-2020, src-chan-zhan-2022, src-odni-2023-wiv]
+    positions:
+      - label: "Yes"
+        holder: "Some proponents of a laboratory origin"
+        ground: "The furin site and the 2018 proposal fit a designed insertion."
+      - label: "No"
+        holder: "Most US agencies (low confidence); SAGO; Andersen et al."
+        ground: "No sign of a known backbone or design signature in the genome; furin sites occur in nature."
+    basis: >
+      Filed as proposed: no direct evidence for it, and no material that refutes it. A laboratory accident with an
+      unmodified virus (co-lab-hypothesis) is a different claim from engineering.
+
+  - id: co-lab-origin-proven
+    state: refuted
+    statement_kind: judgment
+    refutes_target: >
+      The popular claim that a laboratory origin of SARS-CoV-2 has been proven or established
+    refutation_class: narrative_drift
+    statement: A laboratory origin of SARS-CoV-2 has been proven.
+    evidence_class: primary_text
+    confidence: high
+    confidence_reasons:
+      start: high
+      steps:
+        - {domain: primary_anchor_read, effect: none, reason: "The assessments' own text read."}
+    evidential_weight: 5   # of 5, for the refutation of "proven"
+    anchor_checked: primary
+    adoption_weight: 3   # of 5
+    adoption_note: "The strong form appears in public discussion; not measured."
+    would_change_if: laboratory records or samples show the virus or a progenitor was held there
+    anchor:
+      type: official-reports
+      description: >
+        ODNI 2023: "no indication ... nor any direct evidence"; ODNI 2021 and 2023 say both hypotheses remain plausible;
+        SAGO: "no evidence has been presented, other than speculation from scientific or intelligence reports, that
+        supports a laboratory-related incident"; House Democrats: "largely circumstantial"; Senate HELP minority staff
+        say their conclusion "is not intended to be dispositive" [read].
+      accessible: true
+      sources: [src-odni-2023-wiv, src-odni-2021-summary, src-sago-2025, src-house-dem-2024, src-senate-help-2022]
+    positions:
+      - label: "Yes (what is real)"
+        holder: "House majority; FBI; DOE; CIA"
+        ground: "Several institutions judge a laboratory-related origin most likely."
+      - label: "No"
+        holder: "The same reports' own wording"
+        ground: "They state the evidence is circumstantial or absent, and the records needed are closed."
+    basis: >
+      Refuted as to "proven" only; the hypothesis is weighed at co-lab-hypothesis. The same test is applied to the
+      other side at co-market-origin-proven.
+
+  - id: co-wiv-illness-official-record
+    state: established
+    statement_kind: reported
+    statement: >
+      Official US statements on sick WIV researchers narrowed over time. The State Department (15 Jan 2021) said it had
+      "reason to believe that several researchers inside the WIV became sick in autumn 2019 ... with symptoms consistent
+      with both COVID-19 and common seasonal illnesses". ODNI 2021 called this "not diagnostic". ODNI 2023 said "We have
+      no indications that any of these researchers were hospitalized because of the symptoms consistent with COVID-19",
+      that some symptoms were not consistent with COVID-19, and that the information "neither supports nor refutes
+      either hypothesis".
+    evidence_class: primary_text
+    confidence: moderate
+    confidence_reasons:
+      start: high
+      steps:
+        - {domain: indirectness, effect: down1, reason: "These are official characterisations of unpublished intelligence; no names, dates or records are given."}
+    evidential_weight: 3   # of 5
+    anchor_checked: primary
+    adoption_weight: 4   # of 5
+    adoption_note: "The claim is on a White House page (2025) and in the House majority report; see co-wiv-researchers-infected-2019."
+    would_change_if: WIV occupational-health records or stored sera are independently reviewed
+    anchor:
+      type: official-statements
+      description: >
+        State Department fact sheet, 15 Jan 2021 (Wayback copy); ODNI Updated Assessment ("not diagnostic of the
+        pandemic's origins. Even if confirmed, hospital admission alone would not be diagnostic of COVID-19
+        infection"); ODNI June 2023 ("One researcher may have been hospitalized in this timeframe for treatment of a
+        non-respiratory medical condition"). WIV side: the WHO-China report records, from lab representatives, a staff
+        health monitoring programme "with no reporting of COVID-19 compatible respiratory illness" and no serological
+        evidence of infection; SAGO says no occupational health records, audits or absenteeism reports were provided
+        [read].
+      accessible: true
+      sources: [src-state-wiv-factsheet-2021, src-odni-2021-updated, src-odni-2023-wiv, src-who-china-2021, src-sago-2025]
+    basis: >
+      Names and diagnoses appear only in press reports that were not verified and are not repeated here. The same
+      fact sheet also says: "We have not determined whether the outbreak began through contact with infected animals or
+      was the result of an accident at a laboratory in Wuhan."
+
+  - id: co-wiv-researchers-infected-2019
+    state: proposed
+    statement_kind: judgment
+    statement: WIV researchers were infected with COVID-19 in autumn 2019, before the first identified case.
+    evidence_class: interpretive
+    confidence: provisional
+    evidential_weight: 1   # of 5
+    anchor_checked: secondary
+    adoption_weight: 3   # of 5
+    adoption_note: >
+      A White House page (2025) says researchers "were sick with COVID-like symptoms in the fall of 2019"; the House
+      Oversight Committee's press release of 2 Dec 2024 lists "WIV researchers were sick with a COVID-like virus in the fall
+      of 2019" among its "FIVE strongest arguments" (a research copy was read; it is not a manifest source). Adoption, not
+      evidence.
+    would_change_if: sera, health records or test results from the researchers are independently reviewed
+    anchor:
+      type: official-statements
+      description: >
+        No test result or diagnosis is public. ODNI 2023: symptoms "consistent with but not diagnostic of COVID-19", "a
+        range of symptoms consistent with colds or allergies", and "some of them were confirmed to have been sick with
+        other illnesses unrelated to COVID-19". China's national security commission is said by ODNI to have taken blood
+        samples in early 2020 that WIV officials say were negative for antibodies.
+      accessible: true
+      sources: [src-odni-2023-wiv, src-whitehouse-lableak]
+    positions:
+      - label: "Yes"
+        holder: "House majority; White House page (as 'COVID-like symptoms')"
+        ground: "Several researchers were ill with respiratory-type symptoms in autumn 2019."
+      - label: "No"
+        holder: "ODNI 2023; WIV (via the WHO-China report)"
+        ground: "Symptoms not diagnostic; some confirmed to be other illnesses; no recorded antibody evidence."
+    basis: Not shown; see co-wiv-illness-official-record for what the official record says.
+
+  - id: co-sq-wiv-database
+    state: searched_gap
+    statement_kind: search_result
+    statement: >
+      Whether WIV's online Wildlife-Borne Viral Pathogen Database was taken offline on 12 September 2019, and what it held,
+      has not been verified for this dig.
+    evidence_class: interpretive
+    confidence: provisional
+    evidential_weight: 2   # of 5
+    anchor_checked: no
+    adoption_weight: 2   # of 5
+    adoption_note: "Stated in two Senate Republican products with different counts; not measured among the public."
+    would_change_if: dated archive captures of the database, or its contents, are produced, or WIV explains the removal
+    next_step: >
+      Find dated archive captures of batvirus.whiov.ac.cn, and the volunteer-group report the Senate documents cite; ask WIV
+      for its server logs.
+    anchor:
+      type: search-record
+      description: >
+        Claim as written (HELP minority staff 2022, read): the database was taken down on 12 September 2019 "between the
+        hours of 2:00 and 3:00 a.m. local time" and held more than 15,000 samples and more than 1,400 bat viruses; staff
+        attempts to reach it on 18 Oct 2022 "were unsuccessful". The Marshall 2023 summary (read) says "approximately
+        20,000" samples and "more than 2,000 entries". Both cite one volunteer-group report and a newspaper editorial,
+        which were not opened (zenodo and researchgate refused). No archive capture was found. The ODNI, WHO-China and SAGO
+        texts searched contain no statement about this database.
+      accessible: false
+      sources: [src-senate-help-2022, src-marshall-2023]
+    basis: >
+      Even if verified it would show data were removed from public view, not that they held a progenitor. China's state
+      restrictions on COVID data began in 2020, after the date claimed.
+
+  - id: co-shi-2024-sequences
+    state: proposed
+    statement_kind: reported
+    statement: >
+      A WIV scientist said in a December 2024 conference talk that WIV holds whole genomes of 56 new betacoronaviruses
+      collected 2004 to 2021, and that none is more closely related to SARS-CoV-1 or SARS-CoV-2 than those already known.
+    evidence_class: interpretive
+    confidence: provisional
+    evidential_weight: 2   # of 5
+    anchor_checked: secondary
+    adoption_weight: 2   # of 5
+    adoption_note: "Not measured."
+    would_change_if: the sequences are published and independently checked
+    next_step: Obtain the sequence set and the collection records for independent analysis (dt-wiv-records).
+    anchor:
+      type: news-report
+      description: >
+        Nature news reposted by Scientific American, 6 Dec 2024 (read): "We didn't find any new sequences which are more
+        closely related to SARS-CoV-1 and SARS-CoV-2"; the analysis "has not been peer reviewed". A limited search of
+        Europe PMC found no later peer-reviewed paper with the data. The talk itself was not seen.
+      accessible: true
+      sources: [src-sciam-shi-2024]
+    basis: A statement by the party whose records are in question; unverified.
+
+  - id: co-sq-wiv-records
+    state: searched_gap
+    statement_kind: search_result
+    gap_type: structural
+    gap_reason: >
+      WIV's laboratory notebooks, sequence archives, staff health records, stored sera and audits are held in China; WHO,
+      NIH and others have asked for them and they have not been provided.
+    statement: >
+      WIV's laboratory records and staff health records have not been made available to outside reviewers.
+    evidence_class: primary_text
+    confidence: provisional
+    absence_anchor: true
+    evidential_weight: 3   # of 5
+    anchor_checked: secondary
+    adoption_weight: 3   # of 5
+    adoption_note: "Stated by SAGO and by HHS in the debarment record."
+    would_change_if: the records are released or independently audited
+    next_step: Independent audit of WIV records and stored sera (dt-wiv-records).
+    anchor:
+      type: search-record
+      description: >
+        SAGO 2025 (read): WHO wrote to China to request "further investigations, audits and other relevant documentation and
+        interviews with staff at the WIV and Wuhan CDC laboratory"; "this has been refused"; and, on its data requests to
+        Member States, "all of the required information had not been provided to WHO". The HHS record (read): NIH asked in Nov 2021 and Jan 2022
+        for original notebook entries and electronic files, and "as of October 2024 ... NIH had yet to receive any
+        records". ODNI 2023 says the IC "assesses that the WIV maintains blood samples and health records of all of their laboratory personnel" (an assessment, not a document seen).
+      accessible: false
+      sources: [src-sago-2025, src-hhs-eha-arm-2025, src-odni-2023-wiv]
+    basis: Not evidence for either hypothesis.
+
+  - id: co-sq-early-sequences
+    state: searched_gap
+    statement_kind: search_result
+    gap_type: structural
+    gap_reason: >
+      More than 500 early-pandemic sequences and the early-case line list are held by China and have not been shared with
+      outside analysts.
+    statement: >
+      More than 500 sequences from early COVID-19 patients and the early-case line list have not been shared outside China.
+    evidence_class: primary_text
+    confidence: provisional
+    absence_anchor: true
+    evidential_weight: 3   # of 5
+    anchor_checked: secondary
+    adoption_weight: 3   # of 5
+    adoption_note: "Stated by SAGO."
+    would_change_if: the sequences and the line list are released
+    next_step: Release or audit the early sequences and the line list with onset dates and coordinates (dt-early-sequences).
+    anchor:
+      type: search-record
+      description: >
+        SAGO 2025 (read) lists among data not provided "the sharing of more than 500 sequences from individuals with
+        COVID-19 early in the pandemic". Worobey et al. (read) say "no line list of early COVID-19 cases is available". Bloom 2021 (read; a 2023 correction was not read) recovered a deleted dataset of 45
+        early outpatient swabs and reconstructed partial sequences for 13, concluding that "the progenitor of currently
+        known SARS-CoV-2 sequences likely contained three mutations relative to the market viruses"; the paper calls
+        the proximal origin "unclear (i.e., zoonosis versus lab accident)" and concludes that market sequences "are not
+        fully representative"; it does not claim its data decide between the two.
+      accessible: false
+      sources: [src-sago-2025, src-worobey-2022, src-bloom-2021]
+    flagged_sources: [src-bloom-2021]
+    basis: Not evidence for either hypothesis.
+
+  - id: co-hhs-debarment
+    state: established
+    statement_kind: reported
+    statement: >
+      HHS suspended and proposed to debar EcoHealth Alliance on 15 May 2024 and debarred it for five years in January 2025
+      (ineligible through 14 May 2029); it suspended Dr Daszak on 21 May 2024 and debarred him for five years (ineligible
+      through 20 May 2029). The grounds are grant reporting and responsibility failures, not a finding about where the
+      virus came from.
+    evidence_class: primary_text
+    confidence: high
+    confidence_reasons:
+      start: high
+      steps:
+        - {domain: primary_anchor_read, effect: none, reason: "The notices and memoranda read in full; copies hosted by House Oversight, hhs.gov refused."}
+    evidential_weight: 5   # of 5, for the record of the action
+    anchor_checked: primary
+    adoption_weight: 4   # of 5
+    adoption_note: "An administrative action; the House majority's press release calls it a consequence of 'pandemic-era wrongdoing'."
+    would_change_if: not applicable (a record of an action)
+    what_it_is:
+      - "An administrative finding under 2 C.F.R. 180 that EcoHealth was not presently responsible as a grant recipient."
+      - "Grounds stated in the memorandum: a Year 5 progress report for grant R01AI110964 submitted 3 Aug 2021, nearly two years late; an experiment not reported immediately under the grant's 1-log rule; original notebook entries and files requested in Nov 2021 and Jan 2022 not supplied; and the leadership's tone."
+    what_it_is_not:
+      - "Not a finding about the origin of SARS-CoV-2: the debarment documents say nothing on whether the pandemic began in a laboratory."
+      - "Not a court judgment, and not a finding that EcoHealth created the virus."
+    anchor:
+      type: administrative-record
+      description: >
+        Notice of suspension 15 May 2024; final notices and memoranda dated by the House release as 17 Jan 2025 ("EHA will
+        remain ineligible through May 14, 2029"; Daszak "ineligible through May 20, 2029"). The EHA memorandum summarises a
+        WIV suspension on 17 Jul 2023 and a ten-year WIV debarment on 19 Sep 2023; the WIV notice itself was not read. The
+        public documents name private attorneys; they are not named here [read].
+      accessible: true
+      sources: [src-hhs-eha-suspension-2024, src-hhs-eha-arm-2025, src-hhs-eha-notice-2025, src-hhs-daszak-notice-2025, src-house-release-2025-eha]
+    basis: >
+      The House Democrats' report title says "EcoHealth Alliance Did Not Cause the COVID-19 Pandemic"; the majority says the
+      opposite in its press release. Neither is an HHS finding.
+
+  - id: co-proximal-origin-text
+    state: established
+    statement_kind: reported
+    statement: >
+      The March 2020 Nature Medicine correspondence "The proximal origin of SARS-CoV-2" says "Our analyses clearly show that
+      SARS-CoV-2 is not a laboratory construct or a purposefully manipulated virus", that "we do not believe that any type
+      of laboratory-based scenario is plausible", and in the same section that "it is currently impossible to prove or
+      disprove the other theories of its origin described here".
+    evidence_class: primary_text
+    confidence: high
+    confidence_reasons:
+      start: high
+      steps:
+        - {domain: primary_anchor_read, effect: none, reason: "Article text read in full; no correction or retraction found in the metadata checked."}
+    evidential_weight: 5   # of 5, for the record of what it says
+    anchor_checked: primary
+    adoption_weight: 3   # of 5
+    adoption_note: "Cited by both sides; the House majority says it was prompted by Dr Fauci (co-proximal-origin-prompted)."
+    would_change_if: not applicable (a record of what the paper says)
+    what_it_is:
+      - "A correspondence ('To the Editor'), data cut-off 11 March 2020, arguing from the spike's receptor-binding domain and the furin site."
+    what_it_is_not:
+      - "Not shown to prove no laboratory origin: its own text says the other theories cannot be proved or disproved, and the House Democrats' staff say it was stated too strongly, as some authors have since said."
+    anchor:
+      type: journal-article
+      description: >
+        Andersen et al. 2020 (read in full): the two features argued are the receptor-binding domain ("not ideal" and
+        different from computationally predicted optimal) and the polybasic site (no known backbone). The paper's own
+        authors' conditions for revising the conclusion include sequences of related viruses from animals and an
+        intermediate host; Andersen's 2023 written testimony says "If convincing new evidence were to be discovered that
+        suggests the virus emerged from a lab, we would, of course, revise our conclusions."
+      accessible: true
+      sources: [src-andersen-2020, src-andersen-testimony-2023, src-house-dem-2024]
+    basis: >
+      The paper is not itself evidence of a natural origin by design; its argument is from sequence features, which the
+      lab-side authors (Chan and Zhan) dispute (co-engineered-in-lab).
+
+  - id: co-proximal-origin-private-messages
+    state: proposed
+    statement_kind: reported
+    statement: >
+      Private Slack messages among the Proximal Origin authors, released by the Senate committee chairman in 2026, show
+      on 11 June 2020 one author writing that the paper "was pretty strong in saying" there was no way, but "I have less
+      confidence in that statement at this stage", and the same author writing later that day "still believe this is a
+      natural virus".
+    evidence_class: primary_text
+    confidence: provisional
+    evidential_weight: 2   # of 5
+    anchor_checked: secondary
+    adoption_weight: 3   # of 5
+    adoption_note: "Promoted in the chairman's press release; framing partisan; not measured."
+    would_change_if: the originals are compared with the released set and differ
+    next_step: Compare with originals released elsewhere or the authors' own copies.
+    anchor:
+      type: released-messages
+      description: >
+        HSGAC release of 22 July 2026, volume 1 (read, SLACK_000283-287): "we really don't have any hard evidence one way
+        or the other ... we also can't rule out that somebody actually put it in there. That's obviously not to say that
+        somebody"; "given no data, I find both scenarios to be equally probable"; another author writes "To me, there
+        is more evidence against lab escape than when we wrote the paper". Numbers exchanged later that day ("80/20",
+        "70/30", "90/10") do not state which hypothesis each refers to; the press release reads them as lab-origin
+        odds, which is a reading. Unchecked source: no independent capture; the file is chairman-selected and does not
+        cover January and February 2020.
+      accessible: true
+      sources: [src-hsgac-slack-2026]
+    basis: >
+      A statement about what the authors wrote privately. It is not evidence about the virus. A 21 to 22 September 2021
+      exchange about DEFUSE is in the same file (read) and is not used here.
+
+  - id: co-proximal-origin-prompted
+    state: contested
+    statement_kind: judgment
+    statement: >
+      The Proximal Origin paper was prompted by Dr Anthony Fauci in order to disprove the laboratory hypothesis.
+    evidence_class: interpretive
+    confidence: low
+    confidence_reasons:
+      start: moderate
+      steps:
+        - {domain: inconsistency, effect: down1, reason: "The House majority says so; the lead author's testimony disputes the motive (while confirming Fauci, Collins and Farrar prompted the work); the original January-February 2020 messages were not read."}
+    evidential_weight: 2   # of 5
+    anchor_checked: secondary
+    adoption_weight: 3   # of 5
+    adoption_note: "Stated on a White House page and as Finding I.B of the House majority report; not measured among the public."
+    would_change_if: the original January to February 2020 messages and emails are read and show who asked for the paper and what changed
+    disputed_by:
+      - {who: "Kristian Andersen", kind: person, position: "The paper was not directed to disprove a lab origin: on a 31 Jan 2020 call Dr Fauci said (Andersen's paraphrase) 'if you think this virus came from a lab, you should write a scientific paper on it'; Drs Fauci and Collins had no questions or comments on the paper beyond congratulations; the only suggested edit came from Dr Farrar; 'crackpot' referred to bioweapon-type engineering with intent. His own 12 Feb 2020 email to Nature says the work was 'Prompted by Jeremy Farrah [sic], Tony Fauci, and Francis Collins'", source_read: src-andersen-testimony-2023}
+    anchor:
+      type: testimony-and-quotations
+      description: >
+        Andersen's written testimony (read): the paper was posted 17 Feb 2020 and published 17 Mar 2020, 45 days after the
+        1 February call; the single suggested edit (from Dr Farrar) changed "unlikely" to "improbable". He also quotes his own 12 Feb 2020 email to Nature
+        ("Prompted by Jeremy Farrah [sic], Tony Fauci, and Francis Collins ...") and recalls Dr Fauci telling him on 31 Jan 2020 to
+        write a paper if he thought the virus came from a lab; the call of 1 Feb 2020 was, he says, organized and convened by
+        Dr Farrar. The hearing transcript (read) holds
+        members' quotations of a 31 January 2020 email and the "crackpot theory" email; the original messages were not
+        read (co-sq-proximal-origin-records).
+      accessible: true
+      sources: [src-andersen-testimony-2023, src-house-proximal-hearing-2023, src-whitehouse-lableak, src-house-sscp-2024]
+    positions:
+      - label: "Yes"
+        holder: "House Select Subcommittee majority; White House page"
+        ground: "It was prompted to push a preferred narrative that COVID-19 originated naturally."
+      - label: "No"
+        holder: "Andersen (testimony)"
+        ground: >
+          Andersen's testimony is that Dr Fauci suggested writing a paper on the lab hypothesis, not disproving it, and
+          that no edits came from Drs Fauci or Collins. His own February 2020 email does say the work was "prompted by"
+          Farrar, Fauci and Collins; so "prompted" is not in dispute, "in order to disprove" is. Both rest on one
+          witness's account of private messages the dig has not read.
+    basis: Rests on witnesses' accounts and quotations; the primary messages are not read.
+
+  - id: co-sq-proximal-origin-records
+    state: searched_gap
+    statement_kind: search_result
+    statement: >
+      The original January and February 2020 messages and emails behind the Proximal Origin paper have not been read for this
+      dig; only quotations in a hearing transcript and a witness's testimony were.
+    evidence_class: primary_text
+    confidence: provisional
+    evidential_weight: 2   # of 5
+    anchor_checked: no
+    adoption_weight: 2   # of 5
+    adoption_note: "Not measured."
+    would_change_if: the original messages are read
+    next_step: Read the originals as released by the House Select Subcommittee; compare the testimony's email images.
+    anchor:
+      type: search-record
+      description: >
+        The released Slack files read begin in April 2020. The testimony's email images (8 and 12 Feb 2020) were not
+        extracted. Press and social-media postings of the early messages surfaced in search and were not fetched.
+      accessible: false
+      sources: [src-hsgac-slack-2026, src-andersen-testimony-2023]
+    basis: A named limit on this dig.
+
+  - id: co-sq-missouri
+    state: searched_gap
+    statement_kind: search_result
+    statement: >
+      A March 2025 US court judgment against China (a default judgment of about USD 24.49 billion, per China's white paper)
+      has not been read; the only source read for it is China's white paper, which rejects it.
+    evidence_class: primary_text
+    confidence: provisional
+    evidential_weight: 1   # of 5
+    anchor_checked: no
+    adoption_weight: 1   # of 5
+    adoption_note: "Not measured."
+    would_change_if: the judgment is read
+    next_step: Read the court's judgment and say what it does and does not find about origin.
+    anchor:
+      type: search-record
+      description: >
+        China's white paper (read) says a US court default judgment of 7 March 2025 awarded USD 24.49 billion and calls it a
+        "politically motivated farce". The document itself was not read, so what the judgment does and does not find about origin is not stated here.
+      accessible: false
+      sources: [src-china-whitepaper-2025]
+    basis: Noted so the record is not silent on it; it is not an origin finding on anything read.
+
+  # =====================================================================
+  # H. WHAT INSTITUTIONS HAVE SAID (ADOPTION RECORDS)
+  # Each claim records a statement with its stated confidence and basis. None raises the weight of a claim about the
+  # virus. The evidential weight here is only the accuracy of the record.
+  # =====================================================================
+
+  - id: co-odni-2021
+    state: established
+    statement_kind: reported
+    statement: >
+      In 2021 the US Intelligence Community said that four elements and the National Intelligence Council assess with low
+      confidence that natural exposure was most likely, one element assesses with moderate confidence that a laboratory
+      incident was most likely, and three elements could not decide; most agencies assess with low confidence that the
+      virus probably was not genetically engineered, and two could not say. The stated basis is "all available
+      intelligence reporting and other information".
+    evidence_class: primary_text
+    confidence: high
+    confidence_reasons:
+      start: high
+      steps:
+        - {domain: primary_anchor_read, effect: none, reason: "Both ODNI documents read in full; agencies are not named in them."}
+    evidential_weight: 5   # of 5, for the record
+    anchor_checked: primary
+    adoption_weight: 4   # of 5
+    adoption_note: "This claim is an adoption record: counting agencies adds nothing to evidence."
+    would_change_if: not applicable (a record); the agencies' positions changed in 2023 (co-odni-2023-agencies)
+    anchor:
+      type: official-assessment
+      description: >
+        ODNI Unclassified Summary (print date 27 Aug 2021) and Updated Assessment (information through August 2021): "Four
+        IC elements and the National Intelligence Council assess with low confidence that the initial SARS-CoV-2 infection
+        was most likely caused by natural exposure to an animal infected with it or a close progenitor virus"; "One IC
+        element assesses with moderate confidence that the first human infection with SARS-CoV-2 most likely was the result
+        of a laboratory-associated incident"; "Analysts at three IC elements remain unable to coalesce around either
+        explanation without additional information"; "The IC—and the global scientific community—lacks clinical samples or a
+        complete understanding of epidemiological data from the earliest COVID-19 cases." The documents do not publish the
+        underlying intelligence [read].
+      accessible: true
+      sources: [src-odni-2021-summary, src-odni-2021-updated]
+    basis: >
+      Not merged with the 2023 positions: the 2021 text shows confidence levels and hides agencies; the 2023 text names
+      agencies and hides levels. The date of the longer assessment is not printed (the 27 Aug 2021 summary; the longer file
+      carries October 2021 metadata).
+
+  - id: co-odni-2023-agencies
+    state: established
+    statement_kind: reported
+    statement: >
+      In June 2023 the US report said that the National Intelligence Council and four other agencies assess that natural
+      exposure was most likely, that the Department of Energy and the FBI assess that a laboratory-associated incident was
+      most likely "although for different reasons", and that the CIA and one other agency remain unable to determine. The
+      confidence level of each position is redacted in the public text.
+    evidence_class: primary_text
+    confidence: high
+    confidence_reasons:
+      start: high
+      steps:
+        - {domain: primary_anchor_read, effect: none, reason: "Read in full; page 4 rasterised to confirm the redaction boxes."}
+    evidential_weight: 5   # of 5, for the record
+    anchor_checked: primary
+    adoption_weight: 4   # of 5
+    adoption_note: "An adoption record. The levels low (DOE) and moderate (FBI) come only from press reports (co-doe-position, co-fbi-position)."
+    would_change_if: not applicable (a record); the 2025 CIA statement changed one position (co-cia-2025)
+    anchor:
+      type: official-assessment
+      description: >
+        ODNI June 2023 (read): "The Central Intelligence Agency and another agency remain unable to determine the precise
+        origin of the COVID-19 pandemic, as both hypotheses rely on significant assumptions or face challenges with
+        conflicting reporting." "Almost all IC agencies assess that SARS-CoV-2 was not genetically engineered. Most
+        agencies assess that SARS-CoV-2 was not laboratory-adapted; some are unable to make a determination."
+      accessible: true
+      sources: [src-odni-2023-wiv]
+    basis: >
+      The House majority report says the other elements assess natural "albeit all with low confidence", citing this
+      report; the redacted public text cannot confirm that.
+
+  - id: co-fbi-position
+    state: proposed
+    statement_kind: reported
+    statement: >
+      The FBI assesses that a laboratory-associated incident was the most likely cause (named in the US June 2023 report;
+      its Director said in February 2023 that "the FBI has for quite some time now assessed that the origins of the pandemic
+      are most likely a potential lab incident in Wuhan"). Its "moderate confidence" is reported only by press; its basis
+      is unpublished.
+    evidence_class: primary_text
+    confidence: provisional
+    evidential_weight: 3   # of 5
+    anchor_checked: secondary
+    adoption_weight: 4   # of 5
+    adoption_note: "An adoption record; no FBI document was read."
+    would_change_if: an FBI document with its confidence and basis is published
+    anchor:
+      type: official-text-and-news
+      description: >
+        ODNI 2023 (read) names the FBI. The Director's words are as quoted by CNN of 28 Feb 2023 (read), which adds that CNN
+        reported in 2021, citing two sources familiar with the matter, "moderate confidence". fbi.gov refused this
+        environment; see co-sq-agency-documents.
+      accessible: true
+      sources: [src-odni-2023-wiv, src-cnn-wray-2023]
+    basis: Basis not published; the Director gave no evidence in what was read.
+
+  - id: co-doe-position
+    state: proposed
+    statement_kind: reported
+    statement: >
+      The Department of Energy assesses that a laboratory-associated incident was the most likely cause (named in the US
+      June 2023 report). Its "low confidence" is reported by NPR relaying the Wall Street Journal; the report and its
+      reasons are classified.
+    evidence_class: primary_text
+    confidence: provisional
+    evidential_weight: 3   # of 5
+    anchor_checked: secondary
+    adoption_weight: 3   # of 5
+    adoption_note: "An adoption record; no DOE document was read."
+    would_change_if: a DOE document with its confidence and basis is published
+    anchor:
+      type: official-text-and-news
+      description: >
+        ODNI 2023 (read) names DOE. NPR of 28 Feb 2023 (read): "the intelligence in it is classified"; DOE "with low
+        confidence". The Wall Street Journal article (26 Feb 2023 per NPR) was not read.
+      accessible: true
+      sources: [src-odni-2023-wiv, src-npr-doe-2023]
+    basis: Basis not published.
+
+  - id: co-cia-2025
+    state: proposed
+    statement_kind: reported
+    statement: >
+      A CIA spokesperson was quoted in January 2025 as saying "CIA assesses with low confidence that a research-related
+      origin of the COVID-19 pandemic is more likely than a natural origin based on the available body of reporting", and
+      that both scenarios "remain plausible". CBS and AP say the finding was not the result of new intelligence.
+    evidence_class: primary_text
+    confidence: provisional
+    evidential_weight: 2   # of 5
+    anchor_checked: secondary
+    adoption_weight: 4   # of 5
+    adoption_note: "An adoption record from a news report; the CIA document was not read and SAGO says it was not public."
+    would_change_if: the CIA's own release is read and differs from the quotation
+    next_step: Locate the CIA's declassified document (see co-sq-agency-documents).
+    anchor:
+      type: news-report
+      description: >
+        CBS News with AP (page published 26 Jan 2025, updated 27 Jan 2025; read): released Saturday 25 Jan 2025 on the orders
+        of the new Director; "no new 'smoking gun'" according to two officials. About ten cia.gov addresses tried in the
+        research stream returned 404. In the 2023 US report the CIA was "unable to determine"; SAGO (June 2025) says a CIA
+        report "is not publicly available and thus has not been reviewed".
+      accessible: true
+      sources: [src-cbs-cia-2025, src-sago-2025]
+    basis: Filed as proposed at provisional confidence because only a news report was read.
+
+  - id: co-bnd-2025
+    state: proposed
+    statement_kind: reported
+    statement: >
+      German press reported in March 2025 that the German foreign intelligence service (BND) had judged a laboratory
+      accident probable since 2020, with a probability reported as 80 to 95 percent (Tagesspiegel and NOS) or 80 to 90
+      percent (as put by a journalist at a government press conference). The German government declined to comment.
+    evidence_class: primary_text
+    confidence: provisional
+    evidential_weight: 2   # of 5
+    anchor_checked: secondary
+    adoption_weight: 3   # of 5
+    adoption_note: "An adoption record from press reports; the BND document was not read and its basis is unverified."
+    would_change_if: the BND assessment is released or confirmed
+    next_step: Read the Zeit and Süddeutsche originals and any government reply to Bundestag question 20/15143.
+    anchor:
+      type: press-reports-and-transcript
+      description: >
+        Tagesspiegel, 12 Mar 2025 (lead only, read): "80 bis 95 Prozent"; NOS 15 Mar 2025 (read) relays it, with a
+        project name and unpublished Chinese documents, and "Onomstotelijk bewijs is er niet". Government press conference,
+        12 Mar 2025 (read): the journalist said "80 bis 90 Prozent"; the spokesperson said the government cannot comment on
+        intelligence activities. The Bundestag question of 21 Mar 2025 (read) recounts the report; no reply was found.
+      accessible: true
+      sources: [src-tagesspiegel-bnd-2025, src-nos-bnd-2025, src-bpk-2025, src-bt-drucksache-2025]
+    basis: The figure differs between the reports; neither is a primary document.
+
+  - id: co-who-china-2021-assessment
+    state: established
+    statement_kind: reported
+    statement: >
+      The joint WHO-China report (2021) rated on an "arbitrary Likert opinion scale" direct zoonotic spillover "possible to
+      likely", spillover through an intermediate host "likely to very likely", cold or food chain "possible", and a
+      laboratory incident "extremely unlikely". On the day the report was presented, WHO's Director-General said of the laboratory assessment "I do
+      not believe that this assessment was extensive enough."
+    evidence_class: primary_text
+    confidence: high
+    confidence_reasons:
+      start: high
+      steps:
+        - {domain: primary_anchor_read, effect: none, reason: "Report main text and the Director-General's remarks read."}
+    evidential_weight: 5   # of 5, for the record
+    anchor_checked: primary
+    adoption_weight: 4   # of 5
+    adoption_note: "An adoption record. China's white paper (2025) and its foreign ministry still cite 'extremely unlikely'."
+    would_change_if: not applicable (a record)
+    anchor:
+      type: official-report-and-remarks
+      description: >
+        The report's lab-incident conclusion rests on statements from the laboratories' representatives (health monitoring
+        with no reports of compatible illness; "no record of viruses closely related to SARS-CoV-2 in any laboratory before
+        December 2019"). The Director-General, 30 Mar 2021: "Although the team has concluded that a laboratory leak is the
+        least likely hypothesis, this requires further investigation"; the team had "difficulties ... accessing raw data";
+        "all hypotheses remain on the table". SAGO 2025 notes verbal assurances rather than physical inspections [read].
+      accessible: true
+      sources: [src-who-china-2021, src-who-dg-remarks-2021, src-sago-2025]
+    flagged_sources: [src-who-china-2021]
+    basis: >
+      The Director-General says the team "visited several laboratories in Wuhan"; SAGO says no physical inspections were done.
+      These may describe different things (visits against inspections) and are not reconciled here.
+
+  - id: co-sago-2025
+    state: established
+    statement_kind: reported
+    statement: >
+      WHO's advisory group SAGO (27 June 2025) said "The weight of available evidence reviewed by SAGO suggests zoonotic
+      spillover of SARS-CoV-2 into the human population", could not say where or when, and said information to assess a
+      laboratory origin was "either ... not available or has not been provided", so it "is not in a position to rule this
+      out". It says it had no raw data and that requested information from China, Germany and the United States was not
+      provided.
+    evidence_class: primary_text
+    confidence: high
+    confidence_reasons:
+      start: high
+      steps:
+        - {domain: primary_anchor_read, effect: none, reason: "Conclusions, executive text and the section on government reports read; host official."}
+    evidential_weight: 5   # of 5, for the record
+    anchor_checked: primary
+    adoption_weight: 4   # of 5
+    adoption_note: "An adoption record: a judgment by an advisory group; three members asked not to be listed as authors and one resigned before publication (stated in the report)."
+    would_change_if: not applicable (a record)
+    anchor:
+      type: advisory-report
+      description: >
+        SAGO 2025 (read): "It is important to note that SAGO did not have access to original raw data from any source";
+        "no evidence has been presented, other than speculation from scientific or intelligence reports, that supports a
+        laboratory-related incident causing the spread of SARS-CoV-2 into the human population. Without the requested
+        information, this hypothesis can however not be ruled out." On the US reports: neither "presented any new or
+        conclusive evidence to support either zoonotic or laboratory origins". On the House majority: claims "without
+        providing any new evidence or factual scientific evidence".
+      accessible: true
+      sources: [src-sago-2025, src-sago-news-2025]
+    basis: "SAGO's weighting is its judgment from the published literature; it is shown beside, not in place of, the evidence claims."
+
+  - id: co-house-sscp-2024
+    state: established
+    statement_kind: reported
+    statement: >
+      The House Select Subcommittee majority's final report (4 December 2024) finds that SARS-CoV-2 "likely emerged because
+      of a laboratory or research related accident" and that "the weight of the evidence increasingly supports the lab leak
+      hypothesis"; its Democrats' report says "Arguments for a lab origin are largely circumstantial but cannot be dismissed
+      out of hand" and, on whether DEFUSE and SARS-CoV-2 are linked, that "it is unfortunately impossible to draw any
+      conclusions without reviewing additional lab records from WIV".
+    evidence_class: primary_text
+    confidence: high
+    confidence_reasons:
+      start: high
+      steps:
+        - {domain: primary_anchor_read, effect: none, reason: "The origin findings and the Democrats' pages read; the full 520-page report was not."}
+    evidential_weight: 5   # of 5, for the record
+    anchor_checked: primary
+    adoption_weight: 4   # of 5
+    adoption_note: "An adoption record: a committee majority report and a minority report, not a court or agency finding."
+    would_change_if: not applicable (a record)
+    anchor:
+      type: committee-reports
+      description: >
+        The majority's origin pages (1-5) rely mainly on quoted officials, the DOE, FBI and ODNI assessments and several
+        opinion essays (including one by a journalist and one by a scientist who publicly favours the laboratory hypothesis) for the claims
+        that the virus has a feature "not found in nature" and that all cases stem from a single introduction; these two
+        claims are scientific points sourced to opinion pieces, not to the underlying papers (see co-fcs-not-found-in-nature
+        and co-two-lineages). The report concludes DEFUSE "could have created and released a virus like COVID-19" and that Dr
+        Daszak "initially hid the most dangerous aspect"; the support for the second is a program manager's recollection. The
+        Democrats' report has sections headed "EcoHealth Alliance Did Not Create COVID-19" and "Dr. Fauci Did Not Create
+        COVID-19", and says the Proximal Origin authors confirmed Drs. Fauci and Collins did not lead, oversee or influence
+        the drafting; the majority disputes these [read].
+      accessible: true
+      sources: [src-house-sscp-2024, src-house-dem-2024]
+    basis: >
+      What the report does not do: present sequence evidence of engineering, an infected-worker record, or a WIV document
+      showing a progenitor.
+
+  - id: co-senate-products-2022-2023
+    state: established
+    statement_kind: reported
+    statement: >
+      Senate HELP minority staff (October 2022) concluded that the pandemic was "more likely than not, the result of a
+      research-related incident", while saying "This conclusion is not intended to be dispositive"; the American Society for
+      Microbiology replied that it does not believe there is enough available evidence
+      to support the conclusion in the report. A 2023 executive summary by
+      Sen. Marshall's office says "Both hypotheses are plausible".
+    evidence_class: primary_text
+    confidence: high
+    confidence_reasons:
+      start: high
+      steps:
+        - {domain: primary_anchor_read, effect: none, reason: "The staff report's conclusions and the executive summary read."}
+    evidential_weight: 4   # of 5, for the record
+    anchor_checked: primary
+    adoption_weight: 3   # of 5
+    adoption_note: "An adoption record: a minority staff product with no classified access claimed, and a senator's office summary."
+    would_change_if: not applicable (a record)
+    anchor:
+      type: staff-reports
+      description: >
+        HELP staff (read): "the hypothesis of a natural zoonotic origin no longer deserves the benefit of the doubt"; also
+        that precedent "favors the hypothesis that a natural zoonotic spillover" and that PRC non-transparency "prevents
+        reaching a more definitive conclusion". Marshall 2023 (read, executive summary only): "The preponderance of
+        circumstantial evidence supports an unintentional research-related incident." ASM (28 Oct 2022): "ASM does not
+        believe there is enough available evidence about the origins of SARS-CoV-2 to support the report's overarching
+        conclusion". Weaknesses visible in the documents: the database claim rests on one volunteer-group report
+        (co-sq-wiv-database); the DEFUSE location claim is unsupported by the public text (co-help-defuse-location-claim); one
+        footnote cites a paper that does not match its claim.
+      accessible: true
+      sources: [src-senate-help-2022, src-marshall-2023, src-asm-2022]
+    basis: Burden-of-proof wording in the staff report ("clear and convincing evidence") is a position, not a finding.
+
+  - id: co-china-whitepaper-2025
+    state: established
+    statement_kind: reported
+    statement: >
+      China's State Council Information Office white paper (April 2025) says "It is fair to say that the study on the
+      origins of SARS-CoV-2 conducted in China has ended", that the virus may have entered China by cold-chain transport,
+      and that a section of "Evidence Pointing to the US as the Origin of Covid-19" shows the US needs to be investigated. It
+      cites no new evidence for the US claims beyond US sources it names.
+    evidence_class: primary_text
+    confidence: high
+    confidence_reasons:
+      start: high
+      steps:
+        - {domain: primary_anchor_read, effect: none, reason: "Full English text read."}
+    evidential_weight: 5   # of 5, for the record
+    anchor_checked: primary
+    adoption_weight: 3   # of 5
+    adoption_note: "An adoption record from a party whose records are in question."
+    would_change_if: not applicable (a record)
+    anchor:
+      type: government-white-paper
+      description: >
+        White paper (read): "To date, no findings have contradicted the conclusions of the 'Joint WHO-China Study'";
+        "there is a possibility that the outbreak in the market at the end of 2019 was introduced to China from abroad via
+        cold-chain transportation"; it says "all 457 animal samples ... tested negative ... while 74 out of 923 environmental
+        samples from the market were positive"; and that three US entities (Los Alamos, NIH, ODNI) concluded that WIV had
+        "strict biosecurity protocols". The ODNI text read says some WIV researchers "probably did not use adequate
+        biosafety precautions at least some of the time"; the Los Alamos and NIH reports were not read. SAGO notes the paper
+        gives no new evidence for SAGO to review.
+      accessible: true
+      sources: [src-china-whitepaper-2025, src-odni-2023-wiv, src-nhc-whitepaper-news-2025]
+    basis: "The US-origin claims are a government's allegations, recorded and not weighted."
+
+  - id: co-white-house-page-2025
+    state: established
+    statement_kind: reported
+    statement: >
+      A White House web page (published 18 April 2025, modified 15 August 2025) states "A lab-related incident involving
+      gain-of-function research is the most likely origin of COVID-19" and lists five arguments, citing no evidence on the page
+      and drawing its content from the House majority report.
+    evidence_class: primary_text
+    confidence: high
+    confidence_reasons:
+      start: high
+      steps:
+        - {domain: primary_anchor_read, effect: none, reason: "Page text read; dates are from page metadata."}
+    evidential_weight: 5   # of 5, for the record
+    anchor_checked: primary
+    adoption_weight: 4   # of 5
+    adoption_note: "An adoption record; the page states no confidence level."
+    would_change_if: not applicable (a record)
+    anchor:
+      type: official-web-page
+      description: >
+        Page (read) item 4: "Wuhan Institute of Virology (WIV) researchers were sick with COVID-like symptoms in the fall of
+        2019"; the US report says the symptoms were "consistent with but not diagnostic of COVID-19" (co-wiv-illness-official-record).
+        Item 1 ("a biological characteristic that is not found in nature") is addressed at co-fcs-not-found-in-nature, item 2
+        ("all COVID-19 cases stem from a single introduction") at co-two-lineages.
+      accessible: true
+      sources: [src-whitehouse-lableak, src-odni-2023-wiv]
+    basis: The version read is the August 2025 one; the April wording may differ.
+
+  - id: co-sq-agency-documents
+    state: searched_gap
+    statement_kind: search_result
+    statement: >
+      The primary documents of the FBI, DOE, CIA and German BND assessments have not been read; each position is known only
+      through the US June 2023 report or news reports.
+    evidence_class: primary_text
+    confidence: provisional
+    evidential_weight: 2   # of 5
+    anchor_checked: no
+    adoption_weight: 3   # of 5
+    adoption_note: "Not measured."
+    would_change_if: the documents are published and read
+    next_step: Obtain the FBI, DOE, CIA and BND documents, or their classified annexes if released.
+    anchor:
+      type: search-record
+      description: >
+        fbi.gov returned 403; no DOE publication was found; about ten cia.gov addresses returned 404; the BND document is not
+        public. Tried 2026-10-05 in the research stream.
+      accessible: false
+    basis: A named limit on this dig.
+
+  - id: co-sq-odni-2026-release
+    state: searched_gap
+    statement_kind: search_result
+    statement: >
+      The documents the Director of National Intelligence released on 18 June 2026 (four parts and an index) have not been
+      read; only the introduction on ODNI's page was.
+    evidence_class: primary_text
+    confidence: provisional
+    evidential_weight: 2   # of 5
+    anchor_checked: no
+    adoption_weight: 3   # of 5
+    adoption_note: "Not measured."
+    would_change_if: the release is read; it may bear on how agency assessments were produced
+    next_step: Read the four release parts and the index and record what they show, separately from the page's framing.
+    anchor:
+      type: search-record
+      description: >
+        ODNI's page (read, dated 18 June 2026) says the Director is releasing "never-before-seen communications and documents"
+        and alleges that a named public official influenced IC assessments and misled Congress. These are the page's
+        allegations; no release document was opened, so nothing is stated here about what they show.
+      accessible: false
+      sources: [src-odni-gabbard-2026]
+    basis: Allegations on an official page are recorded and not weighted.

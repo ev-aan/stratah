@@ -1,0 +1,1335 @@
+timeline:
+  id: covid-origins
+  title: Where did SARS-CoV-2 come from? Studies, records and assessments (2002 to 2026)
+  as_of: '2026-10-06'
+  note: Times are UTC; most events are known to the day, month or year only. Disputed dates are drawn with a ring at the other date and tagged disputed; they are not resolved here. Government, committee and WHO statements are adoption, not evidence. Events marked single rest on one source; several rest on press reports or documents that were not read and say so. SARS events (2002 to 2005) are orienting background only and lend no weight to any claim about SARS-CoV-2.
+panels:
+- id: early
+  title: 'Panel A: Nov 2002 to Nov 2019 (one tick per two years)'
+  start: '2002-07-01T00:00:00Z'
+  end: '2019-12-01T00:00:00Z'
+  tick_years: 2
+  lanes:
+  - science
+  - institutions
+- id: dec2019
+  title: 'Panel B: Dec 2019 to Mar 2020 (one tick per two weeks)'
+  start: '2019-12-01T00:00:00Z'
+  end: '2020-03-31T00:00:00Z'
+  tick_hours: 336
+  lanes:
+  - science
+  - institutions
+- id: after
+  title: 'Panel C: Apr 2020 to Oct 2026 (one tick per year)'
+  start: '2020-04-01T00:00:00Z'
+  end: '2026-10-31T00:00:00Z'
+  tick_years: 1
+  lanes:
+  - science
+  - institutions
+  - assessments
+  - media
+lanes:
+  science:
+    label: Studies, data and papers
+  institutions:
+    label: Institutions, grants and WHO
+  assessments:
+    label: Government and committee assessments (adoption)
+  media:
+    label: Testimony, releases and messages
+people:
+- who: Peter Daszak
+  detail: Former president of EcoHealth Alliance; principal investigator of the DEFUSE proposal; suspended 21 May 2024 and debarred by HHS for five years (grant-compliance grounds).
+- who: Ralph Baric
+  detail: UNC Chapel Hill virologist; named subcontractor in DEFUSE; gave a transcribed interview to Senate HSGAC on 10 Apr 2026.
+- who: Shi Zhengli
+  detail: Wuhan Institute of Virology scientist; partner in DEFUSE; said in a Dec 2024 talk that new sequences were not closer to SARS-CoV-1 or SARS-CoV-2.
+- who: Kristian Andersen
+  detail: Lead author of "The proximal origin of SARS-CoV-2" (2020) and corresponding author of Worobey et al. 2022 (co-author of Pekar et al. 2022); testified to the House in 2023.
+- who: Tedros Adhanom Ghebreyesus
+  detail: WHO Director-General; said on 30 Mar 2021 that the laboratory-incident assessment "was not extensive enough" and that all hypotheses remain on the table.
+sources:
+  src-andersen-2020:
+    title: Andersen KG, Rambaut A, Lipkin WI, Holmes EC, Garry RF. The proximal origin of SARS-CoV-2. Nature Medicine 26(4):450-452 (17 Mar 2020). DOI 10.1038/s41591-020-0
+    url: https://www.ebi.ac.uk/europepmc/webservices/rest/PMC7095063/fullTextXML
+    authenticity: authenticated, moderate
+  src-andersen-testimony-2023:
+    title: Dr Kristian Andersen, written testimony to the House Select Subcommittee on the Coronavirus Pandemic (corrected version; hearing of 11 July 2023)
+    url: https://oversight.house.gov/wp-content/uploads/2023/07/Dr.-Kristian-Andersen-Written-Testimony-Corrected-Version-1.pdf
+    authenticity: authenticated, moderate
+  src-asm-2022:
+    title: American Society for Microbiology. ASM responds to Senate HELP report on COVID origin (28 October 2022)
+    url: https://asm.org/Press-Releases/2022/October/ASM-Responds-to-Senate-HELP-Report-on-COVID-Origin
+    authenticity: authenticated, moderate
+  src-baric-ti-2026:
+    title: 'Senate HSGAC (Chairman Paul): transcribed interview of Dr Ralph Baric, 10 April 2026 (released July 2026; cover page "Key Findings" is written by the committee '
+    url: https://www.paul.senate.gov/wp-content/uploads/2026/07/2026.07.23_UPDATED-FINAL-FINAL_BARIC-TI_Redacted.pdf
+    authenticity: authenticated, moderate
+  src-biden-2021-05-26:
+    title: President Biden. Statement on the investigation into the origins of COVID-19, 26 May 2021
+    url: https://bidenwhitehouse.archives.gov/briefing-room/statements-releases/2021/05/26/statement-by-president-joe-biden-on-the-investigation-into-the-origins-of-covid-19/
+    authenticity: authenticated, strong
+  src-bloom-2021:
+    title: Bloom JD. Recovery of deleted deep sequencing data sheds more light on the early Wuhan SARS-CoV-2 epidemic. Mol Biol Evol 38(12):5211-5224 (2021). DOI 10.1093/m
+    url: https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=8436388&retmode=xml
+    authenticity: authenticated, moderate
+  src-bloom-2023:
+    title: Bloom JD. Association between SARS-CoV-2 and metagenomic content of samples from the Huanan Seafood Market. Virus Evolution 9(2):vead050 (24 Aug 2023). DOI 10.1
+    url: https://www.ebi.ac.uk/europepmc/webservices/rest/PMC11314060/fullTextXML
+    authenticity: authenticated, moderate
+  src-bpk-2025:
+    title: Regierungspressekonferenz of 12 March 2025 (German federal government press conference), transcript
+    url: https://www.bundesregierung.de/breg-de/suche/regierungspressekonferenz-vom-12-maerz-2025-2337700
+    authenticity: authenticated, moderate
+  src-cbs-cia-2025:
+    title: 'CBS News (with AP). CIA says COVID likely originated in lab, low-confidence assessment (page datePublished 2025-01-26, updated 27 Jan 2025; release "Saturday", '
+    url: https://www.cbsnews.com/news/cia-covid-likely-originated-lab-low-confidence-assessment/
+    authenticity: not_applicable
+  src-cdc-mmwr-sars-2003:
+    title: 'CDC. MMWR 52(12): Update, severe acute respiratory syndrome (March 2003; issue date not read; states 31 deaths in Guangdong during November 16, 2002 to February'
+    url: https://www.cdc.gov/mmwr/preview/mmwrhtml/mm5212a1.htm
+    authenticity: authenticated, moderate
+  src-china-whitepaper-2025:
+    title: 'State Council Information Office of the PRC. Covid-19 Prevention, Control and Origins Tracing: China''s Actions and Stance (white paper, April 2025; English text'
+    url: http://english.scio.gov.cn/whitepapers/2025-04/30/content_117854036.html
+    authenticity: authenticated, moderate
+  src-cnn-wray-2023:
+    title: CNN. FBI director says COVID-19 pandemic most likely caused by a potential lab incident in Wuhan (28 Feb 2023; reports a Fox News interview)
+    url: https://www.cnn.com/2023/02/28/politics/wray-fbi-covid-origins-lab-china/index.html
+    authenticity: not_applicable
+  src-crits-christoph-2024:
+    title: Crits-Christoph A et al. Genetic tracing of market wildlife and viruses at the epicenter of the COVID-19 pandemic. Cell 187(19):5468-5482.e11 (2024). DOI 10.101
+    url: https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=PMC11427129&retmode=xml
+    authenticity: authenticated, moderate
+  src-debarre-worobey-2024:
+    title: Debarre F, Worobey M. Reply to Weissman. arXiv 2405.08040 v1 (13 May 2024)
+    url: https://arxiv.org/html/2405.08040v1
+    authenticity: authenticated, moderate
+  src-defuse:
+    title: 'EcoHealth Alliance. Project DEFUSE: Defusing the Threat of Bat-borne Coronaviruses (proposal to DARPA PREEMPT HR001118S0017; cover letter 24 Mar 2018; form fiel'
+    url: https://archive.org/download/project-defuse-defusing-the-threat-of-bat-borne-coronaviruses/main-document-preempt-volume-1-no-ess-hr00118s0017-ecohealth-alliance_djvu.txt
+    authenticity: authenticated, moderate
+  src-defuse-drafts:
+    title: USGS FOIA release 2021-006245, "EcoHealth DEFUSE Proposal drafts" (1,412 pages; Internet Archive upload of Jan 2024 with the uploader's statement that the docum
+    url: https://archive.org/download/2021-006245-combined-records-redacted/2021-006245%20-%20Combined%20Records_Redacted_djvu.txt
+    authenticity: unchecked
+  src-epmc-sars-abstracts:
+    title: Europe PMC records (abstracts) for Peiris et al. Lancet 2003, Drosten et al. NEJM 2003, Guan et al. Science 2003 and Li et al. Science 2005 (SARS coronavirus an
+    url: https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI:%2210.1056/NEJMoa030747%22&format=json&resultType=core
+    authenticity: authenticated, moderate
+  src-ge-2013:
+    title: Ge XY et al. Isolation and characterization of a bat SARS-like coronavirus that uses the ACE2 receptor. Nature 503:535-538 (30 Oct 2013)
+    url: https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=5389864&rettype=xml
+    authenticity: authenticated, moderate
+  src-genbank-ratg13:
+    title: 'GenBank MN996532.1 (and .2): Bat coronavirus RaTG13, complete genome; submitted 27 Jan 2020 by WIV; collection_date 24-Jul-2013; version 2 replaced version 1'
+    url: https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=nuccore&id=MN996532.1&rettype=gb&retmode=text
+    authenticity: authenticated, moderate
+  src-genbank-wh1:
+    title: 'GenBank MN908947.1 (.2 and .3 also read): Wuhan-Hu-1; submitted 05-JAN-2020; LOCUS dates 12-JAN-2020 (v1), 14-JAN-2020 (v2), 18-MAR-2020 (v3)'
+    url: https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=nuccore&id=MN908947.1&rettype=gb&retmode=text
+    authenticity: authenticated, moderate
+  src-hhs-daszak-notice-2025:
+    title: HHS. Notice of Debarment, Dr Peter Daszak (Jan 2025; date per House Oversight release 17 Jan 2025)
+    url: https://oversight.house.gov/wp-content/uploads/2025/01/Dr.-Peter-Daszak-HHS-Notice_Jan-17-2025_Redacted.pdf
+    authenticity: authenticated, moderate
+  src-hhs-eha-arm-2025:
+    title: HHS. Action Referral Memorandum, debarment of EcoHealth Alliance (Jan 2025; undated in the extracted text, "the same date as this Notice"; House Oversight relea
+    url: https://oversight.house.gov/wp-content/uploads/2025/01/ARM_EHA_1.17.2025_Redacted.pdf
+    authenticity: authenticated, moderate
+  src-hhs-eha-notice-2025:
+    title: HHS. Notice of Debarment, EcoHealth Alliance (Jan 2025; date per House Oversight release 17 Jan 2025)
+    url: https://oversight.house.gov/wp-content/uploads/2025/01/Notice-_EHA_1.17.2025_Redacted.pdf
+    authenticity: authenticated, moderate
+  src-hhs-eha-suspension-2024:
+    title: HHS. Action Referral Memorandum and Notice of Suspension and Proposed Debarment, EcoHealth Alliance, 15 May 2024 (copy hosted by House Oversight)
+    url: https://oversight.house.gov/wp-content/uploads/2024/05/Tab-2-EHA-SUSP4D-ARM_05.15.2024_signed.pdf
+    authenticity: authenticated, moderate
+  src-house-dem-2024:
+    title: House Select Subcommittee Democrats. Final report (3 December 2024)
+    url: https://oversightdemocrats.house.gov/imo/media/doc/SSCP%20Democratic%20Final%20Report.pdf
+    authenticity: authenticated, moderate
+  src-house-proximal-hearing-2023:
+    title: House Select Subcommittee on the Coronavirus Pandemic, hearing transcript, 11 July 2023 (Proximal Origin)
+    url: https://docs.house.gov/meetings/VC/VC00/20230711/116185/HHRG-118-VC00-Transcript-20230711.pdf
+    authenticity: authenticated, strong
+  src-house-release-2025-eha:
+    title: 'House Oversight (majority) press release, "BREAKING: HHS formally debars EcoHealth Alliance, Dr. Peter Daszak" (17 January 2025)'
+    url: https://oversight.house.gov/release/breaking-hhs-formally-debars-ecohealth-alliance-dr-peter-daszak-after-covid-select-reveals-pandemic-era-wrongdoing/
+    authenticity: authenticated, moderate
+  src-house-sscp-2024:
+    title: 'House Select Subcommittee on the Coronavirus Pandemic (majority). After Action Review of the COVID-19 Pandemic: The Lessons Learned and a Path Forward. Final Re'
+    url: https://www.govinfo.gov/content/pkg/GOVPUB-Y4_OV2-PURL-gpo236122/pdf/GOVPUB-Y4_OV2-PURL-gpo236122.pdf
+    authenticity: authenticated, strong
+  src-hsgac-slack-2026:
+    title: 'Senate HSGAC (Chairman Rand Paul) release of Slack messages among Proximal Origin authors, volume 1 (Bates SLACK_000249 and SLACK_001213 onward); volume 2 file '
+    url: https://www.hsgac.senate.gov/wp-content/uploads/slack-drop-AM.pdf
+    authenticity: unchecked
+  src-hu-2017:
+    title: Hu B et al. Discovery of a rich gene pool of bat SARS-related coronaviruses provides new insights into the origin of SARS coronavirus. PLoS Pathog 13(11):e10066
+    url: https://www.ebi.ac.uk/europepmc/webservices/rest/PMC5708621/fullTextXML
+    authenticity: authenticated, moderate
+  src-huang-2020:
+    title: Huang C et al. Clinical features of patients infected with 2019 novel coronavirus in Wuhan, China. Lancet 395(10223):497-506 (24 Jan 2020). DOI 10.1016/s0140-67
+    url: https://www.ebi.ac.uk/europepmc/webservices/rest/PMC7159299/fullTextXML
+    authenticity: authenticated, moderate
+  src-joint-statement-canada-2021:
+    title: Global Affairs Canada, Joint statement on the WHO-convened COVID-19 origins study, 30 March 2021 (Wayback snapshot)
+    url: https://web.archive.org/web/20210401000000/https://www.canada.ca/en/global-affairs/news/2021/03/joint-statement-on-the-who-convened-covid-19-origins-study.html
+    authenticity: authenticated, moderate
+  src-joint-statement-japan-2021:
+    title: Japan MOFA, Statement on the WHO-convened COVID-19 origins study (31 March 2021; Wayback snapshot)
+    url: https://web.archive.org/web/20210401000000/https://www.mofa.go.jp/press/release/press4e_002990.html
+    authenticity: authenticated, moderate
+  src-lau-2005:
+    title: Lau SKP et al. Severe acute respiratory syndrome coronavirus-like virus in Chinese horseshoe bats. PNAS 2005 (print date 27 Sep 2005)
+    url: https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=1236580&rettype=xml
+    authenticity: authenticated, moderate
+  src-liu-2023:
+    title: Liu WJ et al. (China CDC). Surveillance of SARS-CoV-2 at the Huanan Seafood Market. Nature 631:402-408 (accelerated preview 5 Apr 2023; version of record 12 Jun
+    url: https://www.nature.com/articles/s41586-023-06043-2
+    authenticity: authenticated, moderate
+  src-marshall-2023:
+    title: 'Sen. Roger Marshall (with former HELP minority staff). Muddy Waters: The Origins of COVID-19, Executive Summary (17 April 2023; 21 pages)'
+    url: https://www.marshall.senate.gov/wp-content/uploads/MWG-EXECUTIVE-SUMMARY-4.17-Final-Version.pdf
+    authenticity: authenticated, moderate
+  src-mccowan-2025:
+    title: McCowan. Critique of the Pekar et al. Bayes factor. arXiv 2502.20076 v3 (4 Apr 2026)
+    url: https://arxiv.org/html/2502.20076
+    authenticity: authenticated, moderate
+  src-menachery-2015:
+    title: Menachery VD et al. A SARS-like cluster of circulating bat coronaviruses shows potential for human emergence. Nat Med 21:1508-1513 (9 Nov 2015)
+    url: https://www.ebi.ac.uk/europepmc/webservices/rest/PMC4797993/fullTextXML
+    authenticity: authenticated, moderate
+  src-nhc-whitepaper-news-2025:
+    title: National Health Commission (China). News report on the white paper release, 30 April 2025
+    url: https://en.nhc.gov.cn/2025-04/30/c_86427.htm
+    authenticity: authenticated, moderate
+  src-nih-eha-2022-08-19:
+    title: 'NIH letter to EcoHealth Alliance, 19 August 2022: termination of the WIV subaward for material non-compliance (copy in a House Oversight production)'
+    url: https://oversight.house.gov/wp-content/uploads/2022/08/NIH-EHA-Production-8.19.22.pdf
+    authenticity: authenticated, moderate
+  src-nih-letter-2020-07-08:
+    title: 'NIH (Principal Deputy Director) to EcoHealth Alliance, 8 July 2020: withdrawal of termination of grant R01AI110964 and suspension of its activities (copy hosted'
+    url: https://oversight.house.gov/wp-content/uploads/2021/05/Eco-Health-Lab-letter-July-8.pdf
+    authenticity: authenticated, moderate
+  src-npr-doe-2023:
+    title: NPR. U.S. Dept. of Energy says, with low confidence, that COVID may have leaked from a lab (28 Feb 2023; relays a Wall Street Journal report of 26 Feb 2023)
+    url: https://www.npr.org/2023/02/28/1160157977/u-s-dept-of-energy-says-with-low-confidence-that-covid-may-have-leaked-from-a-la
+    authenticity: not_applicable
+  src-odni-2021-summary:
+    title: ODNI. Unclassified Summary of Assessment on COVID-19 Origins (2 pages; print date 27 Aug 2021 per ODNI page; the PDF text carries no date)
+    url: https://www.dni.gov/files/ODNI/documents/assessments/Unclassified-Summary-of-Assessment-on-COVID-19-Origins.pdf
+    authenticity: authenticated, strong
+  src-odni-2021-updated:
+    title: ODNI. Updated Assessment on COVID-19 Origins (declassified; information through August 2021; 18 pages; no printed date; PDF metadata 29 Oct 2021; SAGO 2025 date
+    url: https://www.dni.gov/files/ODNI/documents/assessments/Declassified-Assessment-on-COVID-19-Origins.pdf
+    authenticity: authenticated, strong
+  src-odni-2023-wiv:
+    title: ODNI. Potential Links Between the Wuhan Institute of Virology and the Origin of the COVID-19 Pandemic (declassified by DNI Haines 23 Jun 2023; 10 pages; respond
+    url: https://www.dni.gov/files/ODNI/documents/assessments/Report-on-Potential-Links-Between-the-Wuhan-Institute-of-Virology-and-the-Origins-of-COVID-19-20230623.pdf
+    authenticity: authenticated, strong
+  src-odni-gabbard-2026:
+    title: ODNI. "Fauci Funded Wuhan Lab Research That Sparked COVID" (ODNI Reports page dated 18 June 2026; introduction and links to four release parts and an index)
+    url: https://www.odni.gov/13668/fauci-funded-wuhan-lab-research-that-sparked-covid/
+    authenticity: authenticated, moderate
+  src-oig-2023:
+    title: HHS Office of Inspector General. National Institutes of Health and EcoHealth Alliance Did Not Effectively Monitor Awards and Subawards (A-05-21-00025; dated Jan
+    url: https://oig.hhs.gov/documents/audit/7905/A-05-21-00025-Complete%20Report.pdf
+    authenticity: authenticated, strong
+  src-pekar-2022:
+    title: Pekar JE et al. The molecular epidemiology of multiple zoonotic origins of SARS-CoV-2. Science 377(6609):960-966 (26 Jul 2022 online). DOI 10.1126/science.abp83
+    url: https://www.ebi.ac.uk/europepmc/webservices/rest/PMC9348752/fullTextXML
+    authenticity: authenticated, moderate
+  src-pekar-erratum-record:
+    title: 'PubMed record 37824677: Erratum for Pekar et al., Science 382(6667):eadl0585 (13 Oct 2023)'
+    url: https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&id=37824677&retmode=xml
+    authenticity: authenticated, moderate
+  src-sago-2025:
+    title: WHO Scientific Advisory Group for the Origins of Novel Pathogens (SAGO). Independent assessment of the origins of SARS-CoV-2 (78 pages; cover date 27 June 2025)
+    url: https://cdn.who.int/media/docs/default-source/documents/epp/sago/independent-assessment-of-the-origins-of-sars-cov-2-by-sago.pdf?sfvrsn=b0f90ad4_4
+    authenticity: authenticated, strong
+  src-sago-news-2025:
+    title: WHO. WHO Scientific Advisory Group issues report on origins of COVID-19, news release, 27 June 2025
+    url: https://www.who.int/news/item/27-06-2025-who-scientific-advisory-group-issues-report-on-origins-of-covid-19
+    authenticity: authenticated, moderate
+  src-sago-statement-2023:
+    title: WHO. SAGO statement on newly released SARS-CoV-2 metagenomics data from China CDC on GISAID, 18 March 2023
+    url: https://www.who.int/news/item/18-03-2023-sago-statement-on-newly-released-sars-cov-2-metagenomics-data-from-china-cdc-on-gisaid
+    authenticity: authenticated, moderate
+  src-sciam-shi-2024:
+    title: 'Scientific American, reposting Nature news (S. Mallapaty), 6 December 2024: Shi Zhengli''s conference talk on 56 new betacoronavirus genomes'
+    url: https://www.scientificamerican.com/article/wuhan-lab-sequences-reveal-no-close-covid-relatives-virologist-says/
+    authenticity: not_applicable
+  src-senate-help-2022:
+    title: 'Senate HELP Committee Minority Oversight Staff. An Analysis of the Origins of the COVID-19 Pandemic: Interim Report (October 2022; 35 pages)'
+    url: https://www.help.senate.gov/imo/media/doc/report_an_analysis_of_the_origins_of_covid-19_102722.pdf
+    authenticity: authenticated, moderate
+  src-state-joint-statement-2021:
+    title: Joint Statement on the WHO-Convened COVID-19 Origins Study, US Department of State media note, 30 March 2021 (Wayback snapshot 20210401002824)
+    url: https://web.archive.org/web/20210401000000/https://www.state.gov/joint-statement-on-the-who-convened-covid-19-origins-study/
+    authenticity: authenticated, moderate
+  src-state-wiv-factsheet-2021:
+    title: 'US Department of State, Office of the Spokesperson. Fact Sheet: Activity at the Wuhan Institute of Virology, 15 January 2021 (Wayback snapshot of 6 Jan 2022)'
+    url: https://web.archive.org/web/2021/https://2017-2021.state.gov/fact-sheet-activity-at-the-wuhan-institute-of-virology/
+    authenticity: authenticated, moderate
+  src-stoyan-chiu-2023:
+    title: 'Stoyan D, Chiu SN. Statistical review of "The Huanan Seafood Wholesale Market in Wuhan was the early epicenter..." arXiv 2208.10106 v2 (22 Nov 2023); published '
+    url: https://arxiv.org/pdf/2208.10106
+    authenticity: authenticated, moderate
+  src-tagesspiegel-bnd-2025:
+    title: 'Tagesspiegel, 12 March 2025: report on the BND assessment (paywalled; only the lead was readable)'
+    url: https://www.tagesspiegel.de/politik/brisante-bewertung-bisher-geheim-gehalten-bnd-halt-laborunfall-als-ausloser-fur-corona-pandemie-fur-wahrscheinlich-13353190.html
+    authenticity: not_applicable
+  src-temmam-2022:
+    title: Temmam S et al. Bats from Laos harbour SARS-CoV-2-related viruses with receptor-binding domains close to SARS-CoV-2. Nature (16 Feb 2022). DOI 10.1038/s41586-02
+    url: https://www.nature.com/articles/s41586-022-04532-4
+    authenticity: authenticated, moderate
+  src-virological-319:
+    title: Virological.org thread "Novel 2019 coronavirus genome" (text dated 10 January 2020; post created 2020-01-11T01:05:33Z)
+    url: https://virological.org/t/novel-2019-coronavirus-genome/319.json
+    authenticity: authenticated, moderate
+  src-virological-398:
+    title: Virological.org thread "The proximal origin of SARS-CoV-2" (post timestamp 2020-02-16T23:46:02Z; the text says it has now been published)
+    url: https://virological.org/t/the-proximal-origin-of-sars-cov-2/398.json
+    authenticity: authenticated, moderate
+  src-weissman-2024:
+    title: Weissman MB. Letter on the Worobey et al. spatial analysis. arXiv 2401.08680 v5 (20 May 2024), including an addendum not in the published letter; published as J
+    url: https://arxiv.org/pdf/2401.08680
+    authenticity: authenticated, moderate
+  src-weissman-ejw-2026:
+    title: Weissman MB. Economic Journal Watch 23(1):46-68 (March 2026) on the Pekar et al. analysis
+    url: https://econjwatch.org/file_download/1405/WeissmanMarch2026.pdf?mimetype=pdf
+    authenticity: authenticated, moderate
+  src-whc-notice-2019-12-31:
+    title: Wuhan Municipal Health Commission notice on pneumonia cases (page timestamp 2019-12-31 13:38:05; Wayback snapshot of 6 Jan 2020; Chinese original)
+    url: https://web.archive.org/web/20200101000000/http://wjw.wuhan.gov.cn/front/web/showDetail/2019123108989
+    authenticity: authenticated, moderate
+  src-whitehouse-lableak:
+    title: 'White House. Lab Leak: The True Origins of Covid-19 (web page; metadata datePublished 2025-04-18, dateModified 2025-08-15; fetched 5 Oct 2026)'
+    url: https://www.whitehouse.gov/lab-leak-true-origins-of-covid-19/
+    authenticity: authenticated, moderate
+  src-who-china-2021:
+    title: 'WHO-convened Global Study of Origins of SARS-CoV-2: China Part. Joint WHO-China Study, 14 January-10 February 2021. Joint Report (120 pages; main report, annexe'
+    url: https://www.who.int/docs/default-source/coronaviruse/final-joint-report_origins-studies-6-april-201.pdf?sfvrsn=4f5e5196_1&download=true
+    authenticity: authenticated, moderate
+  src-who-china-mission-2020:
+    title: Report of the WHO-China Joint Mission on Coronavirus Disease 2019 (COVID-19), 16-24 February 2020
+    url: https://www.who.int/docs/default-source/coronaviruse/who-china-joint-mission-on-covid-19-final-report.pdf
+    authenticity: authenticated, moderate
+  src-who-dg-2020-pandemic:
+    title: WHO Director-General. Opening remarks at the media briefing on COVID-19, 11 March 2020
+    url: https://www.who.int/news-room/speeches/item/who-director-general-s-opening-remarks-at-the-media-briefing-on-covid-19---11-march-2020
+    authenticity: authenticated, moderate
+  src-who-dg-remarks-2021:
+    title: WHO Director-General. Remarks at the Member State briefing on the report of the international team studying the origins of SARS-CoV-2, 30 March 2021
+    url: https://www.who.int/news-room/speeches/item/who-director-general-s-remarks-at-the-member-state-briefing-on-the-report-of-the-international-team-studying-the-origins-of-sars-cov-2
+    authenticity: authenticated, moderate
+  src-who-don-2003-02-11:
+    title: 'WHO. Disease Outbreak News: Acute respiratory syndrome in China, 11 February 2003'
+    url: https://www.who.int/emergencies/disease-outbreak-news/item/2003_02_11-en
+    authenticity: authenticated, moderate
+  src-who-don-2020-01-05:
+    title: 'WHO. Disease Outbreak News: Pneumonia of unknown cause - China, 5 January 2020'
+    url: https://www.who.int/emergencies/disease-outbreak-news/item/2020-DON229
+    authenticity: authenticated, moderate
+  src-who-don-2020-01-12:
+    title: 'WHO. Disease Outbreak News: Novel Coronavirus - China, 12 January 2020'
+    url: https://www.who.int/emergencies/disease-outbreak-news/item/2020-DON233
+    authenticity: authenticated, moderate
+  src-who-pheic-2020:
+    title: WHO. Statement on the second meeting of the IHR Emergency Committee regarding the outbreak of novel coronavirus (2019-nCoV), 30 January 2020
+    url: https://www.who.int/news/item/30-01-2020-statement-on-the-second-meeting-of-the-international-health-regulations-(2005)-emergency-committee-regarding-the-outbreak-of-novel-coronavirus-(2019-ncov)
+    authenticity: authenticated, moderate
+  src-who-sars-alert-2003:
+    title: WHO. WHO issues a global alert about cases of atypical pneumonia, 12 March 2003
+    url: https://www.who.int/news/item/12-03-2003-who-issues-a-global-alert-about-cases-of-atypical-pneumonia
+    authenticity: authenticated, moderate
+  src-who-sars-contained-2003:
+    title: WHO. SARS outbreak contained worldwide, 5 July 2003
+    url: https://www.who.int/news/item/05-07-2003-sars-outbreak-contained-worldwide
+    authenticity: authenticated, moderate
+  src-who-sars-mission-2003:
+    title: WHO. Joint mission on SARS animal reservoir and necessary next steps, 21 August 2003
+    url: https://www.who.int/news/item/21-08-2003-joint-mission-on-sars-animal-reservoir-and-necessary-next-steps
+    authenticity: authenticated, moderate
+  src-who-stmt-2020-01-09:
+    title: WHO. Statement regarding cluster of pneumonia cases in Wuhan, China, 9 January 2020
+    url: https://www.who.int/china/news/detail/09-01-2020-who-statement-regarding-cluster-of-pneumonia-cases-in-wuhan-china
+    authenticity: authenticated, moderate
+  src-who-thailand-2020:
+    title: WHO. Statement on novel coronavirus in Thailand (URL slug dated 12 January 2020; page title and canonical link 13 January 2020)
+    url: https://www.who.int/news/item/12-01-2020-who-statement-on-novel-coronavirus-in-thailand
+    authenticity: authenticated, moderate
+  src-worobey-2022:
+    title: 'Worobey M et al. The Huanan Seafood Wholesale Market in Wuhan was the early epicenter of the COVID-19 pandemic. Science 377(6609):951-959 (26 Jul 2022 online). '
+    url: https://www.ebi.ac.uk/europepmc/webservices/rest/PMC9348750/fullTextXML
+    authenticity: authenticated, moderate
+  src-worobey-erratum-record:
+    title: 'PubMed record 38484083: Erratum for Worobey et al., Science 383(6688):eadp1133 (14 Mar 2024)'
+    url: https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&id=38484083&retmode=xml
+    authenticity: authenticated, moderate
+  src-wu-2020:
+    title: Wu F et al. A new coronavirus associated with human respiratory disease in China. Nature (3 Feb 2020)
+    url: https://www.ebi.ac.uk/europepmc/webservices/rest/PMC7094943/fullTextXML
+    authenticity: authenticated, moderate
+  src-zhou-2020-addendum:
+    title: 'Zhou P et al. Addendum: A pneumonia outbreak associated with a new coronavirus of probable bat origin. Nature (17 Nov 2020)'
+    url: https://www.nature.com/articles/s41586-020-2951-z
+    authenticity: authenticated, moderate
+  src-zhou-2020-ratg13:
+    title: Zhou P et al. A pneumonia outbreak associated with a new coronavirus of probable bat origin. Nature (3 Feb 2020; received 20 Jan, accepted 29 Jan 2020). DOI 10.
+    url: https://www.ebi.ac.uk/europepmc/webservices/rest/PMC7095418/fullTextXML
+    authenticity: authenticated, moderate
+events:
+- id: ev-sars-onset
+  panel: early
+  lane: institutions
+  time: '2002-11-16T12:00:00Z'
+  precision: day
+  kind: data
+  status: reported
+  sources:
+  - src-cdc-mmwr-sars-2003
+  label: '16 Nov 2002: start of the period for which CDC counts 31 SARS deaths in Guangdong'
+  detail: 'The CDC bulletin says 31 deaths occurred in Guangdong province between 16 November 2002 and 28 February 2003; it is the start of that counting window, not stated as the first onset. Background: a different virus.'
+- id: ev-sars-don
+  panel: early
+  lane: institutions
+  time: '2003-02-11T12:00:00Z'
+  precision: day
+  kind: official
+  status: reported
+  sources:
+  - src-who-don-2003-02-11
+  label: '11 Feb 2003: WHO receives reports of an outbreak in Guangdong'
+  detail: '"an outbreak of acute respiratory syndrome with 300 cases and 5 deaths in Guangdong Province".'
+- id: ev-sars-alert
+  panel: early
+  lane: institutions
+  time: '2003-03-12T12:00:00Z'
+  precision: day
+  kind: official
+  status: reported
+  sources:
+  - src-who-sars-alert-2003
+  label: '12 Mar 2003: WHO global alert on atypical pneumonia'
+  detail: Reports of a severe pneumonia in Viet Nam, Hong Kong and Guangdong.
+- id: ev-sars-agent
+  panel: early
+  lane: science
+  time: '2003-04-01T12:00:00Z'
+  precision: day
+  kind: analysis
+  status: disputed
+  sources:
+  - src-epmc-sars-abstracts
+  label: 'Apr 2003: first papers name a novel coronavirus as the SARS agent'
+  detail: 'Europe PMC first-publication dates: 1 Apr 2003 (Peiris et al., Lancet) and 10 Apr 2003 (Drosten et al. and Ksiazek et al., NEJM). Different papers, not a conflict over one date.'
+  alt_time: '2003-04-10T12:00:00Z'
+  alt_note: '10 Apr 2003: NEJM papers (Europe PMC first-publication date)'
+- id: ev-sars-contained
+  panel: early
+  lane: institutions
+  time: '2003-07-05T12:00:00Z'
+  precision: day
+  kind: official
+  status: reported
+  sources:
+  - src-who-sars-contained-2003
+  label: '5 Jul 2003: WHO says SARS outbreak contained worldwide'
+  detail: '"the human chains of SARS virus transmission appear to have been broken everywhere in the world".'
+- id: ev-sars-reservoir
+  panel: early
+  lane: institutions
+  time: '2003-08-21T12:00:00Z'
+  precision: day
+  kind: official
+  status: reported
+  sources:
+  - src-who-sars-mission-2003
+  label: '21 Aug 2003: WHO, China and FAO mission on the SARS animal reservoir'
+  detail: '"Finding its origin will most likely take years".'
+- id: ev-sars-civets
+  panel: early
+  lane: science
+  time: '2003-09-04T12:00:00Z'
+  precision: day
+  kind: analysis
+  status: reported
+  sources:
+  - src-epmc-sars-abstracts
+  label: '4 Sep 2003: SARS-like viruses isolated from civets in a Guangdong live-animal market'
+  detail: Europe PMC first-publication date of the Science paper. Background only; this is a different virus and lends no weight to the SARS-CoV-2 claims (thread-sars-2003-background).
+- id: ev-bats-2005
+  panel: early
+  lane: science
+  time: '2005-09-27T12:00:00Z'
+  precision: day
+  kind: analysis
+  status: reported
+  sources:
+  - src-lau-2005
+  - src-epmc-sars-abstracts
+  label: 'Sep 2005: bats identified as SARS-like coronavirus reservoirs'
+  detail: PNAS print date 27 Sep 2005 and Science 29 Sep 2005. Background only.
+- id: ev-mojiang
+  panel: early
+  lane: science
+  time: '2012-04-26T12:00:00Z'
+  precision: day
+  kind: witness
+  status: reported
+  sources:
+  - src-zhou-2020-addendum
+  label: '26-27 Apr 2012: four miners admitted to a Kunming hospital (as described in WIV''s 2020 addendum)'
+  detail: WIV says it received 13 serum samples from four patients between 1 July and 1 October 2012 and retested them in 2020, confirming they were not infected by SARS-CoV-2. The addendum does not link this to RaTG13.
+- id: ev-ratg13-sample
+  panel: early
+  lane: science
+  time: '2013-07-24T12:00:00Z'
+  precision: day
+  kind: data
+  status: disputed
+  sources:
+  - src-genbank-ratg13
+  - src-zhou-2020-addendum
+  - src-sago-2025
+  label: '24 Jul 2013 (GenBank collection date): bat coronavirus RaTG13 sample, Yunnan'
+  detail: Collection date is the submitter's GenBank entry; the Nature paper gives no collection year; the addendum discusses 2012 sera and does not name RaTG13; SAGO gives 2013 in one place and another chronology that is not in the addendum text. Dispute shown, not resolved.
+- id: ev-ge-2013
+  panel: early
+  lane: science
+  time: '2013-10-30T12:00:00Z'
+  precision: day
+  kind: analysis
+  status: reported
+  sources:
+  - src-ge-2013
+  label: '30 Oct 2013: WIV-led team isolates a bat SARS-like coronavirus that uses human ACE2'
+  detail: Nature; with EcoHealth Alliance authors.
+- id: ev-r01-award
+  panel: early
+  lane: institutions
+  time: '2014-05-27T12:00:00Z'
+  precision: day
+  kind: official
+  status: reported
+  sources:
+  - src-hhs-eha-suspension-2024
+  label: '27 May 2014: NIH/NIAID awards grant R01AI110964 to EcoHealth Alliance'
+  detail: '"Understanding the Risk of Bat Coronavirus Emergence"; start 1 Jun 2014; WIV a participant. HHS 2024 memorandum. Several different end dates appear across the records.'
+- id: ev-gof-pause
+  panel: early
+  lane: institutions
+  time: '2014-10-17T12:00:00Z'
+  precision: day
+  kind: official
+  status: reported
+  sources:
+  - src-hhs-eha-suspension-2024
+  label: '17 Oct 2014: US funding pause on gain-of-function research (as described by HHS in 2024)'
+  detail: Described in the 2024 memorandum; the pause document itself was not read.
+- id: ev-menachery
+  panel: early
+  lane: science
+  time: '2015-11-09T12:00:00Z'
+  precision: day
+  kind: analysis
+  status: reported
+  sources:
+  - src-menachery-2015
+  label: '9 Nov 2015: chimeric SHC014-spike virus in a mouse-adapted SARS-CoV backbone (UNC)'
+  detail: A UNC paper, not a WIV paper.
+- id: ev-niaid-letter
+  panel: early
+  lane: institutions
+  time: '2016-05-28T12:00:00Z'
+  precision: day
+  kind: official
+  status: single
+  sources:
+  - src-hhs-eha-suspension-2024
+  label: '28 May 2016: NIAID writes to EcoHealth about possible gain-of-function research under the grant (as recorded by HHS)'
+  detail: The 2016 letter itself was not read.
+- id: ev-hu-2017
+  panel: early
+  lane: science
+  time: '2017-11-30T12:00:00Z'
+  precision: day
+  kind: analysis
+  status: reported
+  sources:
+  - src-hu-2017
+  label: '30 Nov 2017: WIV paper on bat SARS-related coronaviruses and chimeric viruses'
+  detail: Received 10 Feb, accepted 17 Oct 2017.
+- id: ev-defuse-draft
+  panel: early
+  lane: institutions
+  time: '2018-02-08T12:00:00Z'
+  precision: day
+  kind: document
+  status: single
+  sources:
+  - src-defuse-drafts
+  label: '8 Feb 2018: first rough draft of the DEFUSE abstract emailed (FOIA release; unvetted)'
+  detail: From USGS FOIA release 2021-006245, OCR text; released publicly Dec 2023 to Jan 2024.
+- id: ev-defuse
+  panel: early
+  lane: institutions
+  time: '2018-03-24T12:00:00Z'
+  precision: day
+  kind: document
+  status: disputed
+  sources:
+  - src-defuse
+  label: '24 Mar 2018: EcoHealth Alliance submits the DEFUSE proposal to DARPA'
+  detail: 'Cover letter dated 24 March 2018; the form field says "Date proposal submitted: 3/27/18". The final proposal was public from Sept 2021. Not funded according to the sources read; DARPA''s record not read.'
+  alt_time: '2018-03-27T12:00:00Z'
+  alt_note: 'Form field "Date proposal submitted: 3/27/18"'
+- id: ev-wiv-illness
+  panel: early
+  lane: institutions
+  time: '2019-10-15T12:00:00Z'
+  precision: range
+  end: '2019-11-30T00:00:00Z'
+  kind: official
+  status: reported
+  sources:
+  - src-state-wiv-factsheet-2021
+  - src-odni-2023-wiv
+  label: 'Autumn 2019: several WIV researchers reported ill (official wording)'
+  detail: 'State Department 2021: symptoms "consistent with both COVID-19 and common seasonal illnesses"; ODNI 2023: "neither supports nor refutes either hypothesis". No names, no month. The range drawn (mid-Oct to end Nov 2019) is only a placeholder for "autumn"; the sources give no dates.'
+- id: ev-wiv-db
+  panel: early
+  lane: institutions
+  time: '2019-09-12T12:00:00Z'
+  precision: day
+  kind: witness
+  status: single
+  sources:
+  - src-senate-help-2022
+  label: '12 Sep 2019 (claimed): WIV online database taken offline. NOT VERIFIED'
+  detail: Claim in the HELP minority staff report, resting on a volunteer-group report and a newspaper editorial that were not opened; no archive capture found (co-sq-wiv-database).
+- id: ev-lineage-b
+  panel: early
+  lane: science
+  time: '2019-11-18T12:00:00Z'
+  precision: approx
+  kind: analysis
+  status: inferred
+  sources:
+  - src-pekar-2022
+  label: 'about 18 Nov 2019 (modelled): lineage B primary infection, 95 percent range 23 Oct to 8 Dec (as published)'
+  detail: A model output, not an observed date. The 2023 erratum was not read; two critics say it changed the support for two introductions.
+- id: ev-earliest-case
+  panel: dec2019
+  lane: science
+  time: '2019-12-01T12:00:00Z'
+  precision: day
+  kind: data
+  status: disputed
+  sources:
+  - src-huang-2020
+  - src-who-china-2021
+  label: 'Earliest known case: 1 Dec or 8 Dec 2019 onset (sources differ)'
+  detail: '1 Dec: onset of the first patient in a Lancet series, "No epidemiological link was found between the first patient and later cases". 8 Dec: earliest onset reported in the WHO-China report, with no Huanan exposure. They may or may not be one person; the sources do not say.'
+  alt_time: '2019-12-08T12:00:00Z'
+  alt_note: '8 Dec 2019: earliest onset reported to the national surveillance system (WHO-China report)'
+- id: ev-earliest-vendor
+  panel: dec2019
+  lane: science
+  time: '2019-12-10T12:00:00Z'
+  precision: day
+  kind: data
+  status: single
+  sources:
+  - src-pekar-2022
+  label: '10 Dec 2019: onset of the earliest "unambiguous" case in Pekar et al., a seafood vendor'
+  detail: No published genome. Differs from the 1 and 8 Dec dates above because it is a different case definition.
+- id: ev-first-hosp
+  panel: dec2019
+  lane: science
+  time: '2019-12-12T12:00:00Z'
+  precision: day
+  kind: data
+  status: reported
+  sources:
+  - src-wu-2020
+  label: '12 Dec 2019: "the first patient was hospitalized" (Wu et al., Nature)'
+  detail: A hospitalisation date, not an onset date.
+- id: ev-wuhan-notice
+  panel: dec2019
+  lane: institutions
+  time: '2019-12-31T12:00:00Z'
+  precision: day
+  kind: official
+  status: reported
+  sources:
+  - src-whc-notice-2019-12-31
+  label: '31 Dec 2019: Wuhan Municipal Health Commission notice on pneumonia cases'
+  detail: 'Page timestamp 13:38:05; the time zone is not stated. Gloss: 27 cases found, 7 severe, no obvious human-to-human transmission found (Chinese original read).'
+- id: ev-who-informed
+  panel: dec2019
+  lane: institutions
+  time: '2019-12-31T12:00:00Z'
+  precision: day
+  kind: official
+  status: disputed
+  sources:
+  - src-who-don-2020-01-05
+  - src-who-don-2020-01-12
+  label: '31 Dec 2019: WHO China office informed of pneumonia of unknown cause'
+  detail: WHO says its China Country Office "was informed"; the Worobey paper says the Chinese government notified WHO. A local public notice is not a notification to WHO.
+- id: ev-market-closed
+  panel: dec2019
+  lane: institutions
+  time: '2020-01-01T12:00:00Z'
+  precision: day
+  kind: official
+  status: reported
+  sources:
+  - src-who-don-2020-01-05
+  label: '1 Jan 2020: Huanan market closed (per media reports cited by WHO)'
+  detail: No Chinese government closure notice was read.
+- id: ev-don-5jan
+  panel: dec2019
+  lane: institutions
+  time: '2020-01-05T12:00:00Z'
+  precision: day
+  kind: official
+  status: reported
+  sources:
+  - src-who-don-2020-01-05
+  label: '5 Jan 2020: WHO Disease Outbreak News, 44 patients as of 3 Jan'
+  detail: '"no evidence of significant human-to-human transmission and no health care worker infections have been reported".'
+- id: ev-wh1-submitted
+  panel: dec2019
+  lane: science
+  time: '2020-01-05T12:00:00Z'
+  precision: day
+  kind: data
+  status: single
+  sources:
+  - src-genbank-wh1
+  label: '5 Jan 2020: genome MN908947 submitted to GenBank by China CDC'
+  detail: The record shows submission 5 Jan, release 12 Jan (v1), a revision 14 Jan and a later version listing a Shanghai centre as submitter.
+- id: ev-who-9jan
+  panel: dec2019
+  lane: institutions
+  time: '2020-01-09T12:00:00Z'
+  precision: day
+  kind: official
+  status: reported
+  sources:
+  - src-who-stmt-2020-01-09
+  label: '9 Jan 2020: WHO says Chinese authorities report a preliminary novel coronavirus'
+  detail: '"a preliminary determination of a novel (or new) coronavirus".'
+- id: ev-genome-public
+  panel: dec2019
+  lane: science
+  time: '2020-01-10T12:00:00Z'
+  precision: day
+  kind: data
+  status: disputed
+  sources:
+  - src-virological-319
+  - src-genbank-wh1
+  - src-who-don-2020-01-12
+  label: 'When the genome became public: 5, 10, 11, 12 or 14 Jan 2020 (different events)'
+  detail: 5 Jan submission; 10 Jan text of the Virological post (timestamp 11 Jan 01:05 UTC); 12 Jan WHO says China shared the sequence and GenBank v1 release; 14 Jan GenBank v2. Each source dates a different event.
+  alt_time: '2020-01-12T12:00:00Z'
+  alt_note: '12 Jan 2020: WHO DON and GenBank v1 release date'
+- id: ev-who-thailand
+  panel: dec2019
+  lane: institutions
+  time: '2020-01-12T12:00:00Z'
+  precision: day
+  kind: official
+  status: disputed
+  sources:
+  - src-who-thailand-2020
+  label: 'WHO statement on novel coronavirus in Thailand: 12 or 13 Jan 2020'
+  detail: URL slug says 12 Jan; page title and canonical link say 13 Jan.
+  alt_time: '2020-01-13T12:00:00Z'
+  alt_note: '13 Jan 2020: page title and canonical link'
+- id: ev-ratg13-genbank
+  panel: dec2019
+  lane: science
+  time: '2020-01-27T12:00:00Z'
+  precision: day
+  kind: data
+  status: single
+  sources:
+  - src-genbank-ratg13
+  label: '27 Jan 2020: RaTG13 genome submitted to GenBank (submitter listed: CAS Key Laboratory of Special Pathogens, Wuhan Institute of Virology)'
+  detail: The GenBank record for version 1 is dated 24 Mar 2020; its comment says version 2 replaced it on 13 Oct 2020.
+- id: ev-pheic
+  panel: dec2019
+  lane: institutions
+  time: '2020-01-30T12:00:00Z'
+  precision: day
+  kind: official
+  status: reported
+  sources:
+  - src-who-pheic-2020
+  label: '30 Jan 2020: WHO declares a public health emergency of international concern'
+  detail: '"the outbreak now meets the criteria for a Public Health Emergency of International Concern".'
+- id: ev-zhou-2020
+  panel: dec2019
+  lane: science
+  time: '2020-02-03T12:00:00Z'
+  precision: day
+  kind: analysis
+  status: reported
+  sources:
+  - src-zhou-2020-ratg13
+  label: '3 Feb 2020: Zhou et al. report RaTG13, 96.2 percent identical to SARS-CoV-2'
+  detail: Received 20 Jan, accepted 29 Jan 2020. The text gives no collection year for RaTG13.
+- id: ev-who-china-mission
+  panel: dec2019
+  lane: institutions
+  time: '2020-02-20T12:00:00Z'
+  precision: range
+  end: '2020-02-24T23:59:00Z'
+  kind: official
+  status: reported
+  sources:
+  - src-who-china-mission-2020
+  label: '16-24 Feb 2020: WHO-China joint mission on COVID-19'
+  detail: 'Report: bats appear to be the reservoir; the intermediate host had not been identified.'
+- id: ev-proximal
+  panel: dec2019
+  lane: science
+  time: '2020-03-17T12:00:00Z'
+  precision: day
+  kind: analysis
+  status: disputed
+  sources:
+  - src-andersen-2020
+  - src-virological-398
+  label: 'The proximal origin of SARS-CoV-2: published 17 Mar 2020 (preprint post stamped 16 Feb)'
+  detail: The Virological post carries a 16 Feb 2020 timestamp but links the published paper, so it was edited after posting or the stamp is that of the first post.
+  alt_time: '2020-02-16T12:00:00Z'
+  alt_note: '16 Feb 2020: Virological post timestamp'
+- id: ev-pandemic
+  panel: dec2019
+  lane: institutions
+  time: '2020-03-11T12:00:00Z'
+  precision: day
+  kind: official
+  status: reported
+  sources:
+  - src-who-dg-2020-pandemic
+  label: '11 Mar 2020: WHO characterises COVID-19 as a pandemic'
+  detail: Director-General remarks.
+- id: ev-nih-terminate
+  panel: after
+  lane: institutions
+  time: '2020-04-24T12:00:00Z'
+  precision: day
+  kind: official
+  status: single
+  sources:
+  - src-hhs-eha-suspension-2024
+  label: '24 Apr 2020: NIH notifies EcoHealth it is terminating grant R01AI110964'
+  detail: As described in the HHS 2024 memorandum; the letter was not read. The HHS-OIG audit later called the termination improper (src-oig-2023).
+- id: ev-slack-2020
+  panel: after
+  lane: media
+  time: '2020-06-11T12:00:00Z'
+  precision: day
+  kind: document
+  status: single
+  sources:
+  - src-hsgac-slack-2026
+  label: '11 Jun 2020: private Slack messages among Proximal Origin authors (released July 2026)'
+  detail: 'Unchecked source: chairman-selected release, no independent capture. See co-proximal-origin-private-messages.'
+- id: ev-nih-letter
+  panel: after
+  lane: institutions
+  time: '2020-07-08T12:00:00Z'
+  precision: day
+  kind: official
+  status: reported
+  sources:
+  - src-nih-letter-2020-07-08
+  label: '8 Jul 2020: NIH withdraws the termination and suspends the grant'
+  detail: '"effective the date of this letter, July 8, 2020, NIH is suspending all activities related to R01AI110964".'
+- id: ev-addendum
+  panel: after
+  lane: science
+  time: '2020-11-17T12:00:00Z'
+  precision: day
+  kind: analysis
+  status: reported
+  sources:
+  - src-zhou-2020-addendum
+  label: '17 Nov 2020: WIV addendum on four Mojiang miners'' sera'
+  detail: Retested sera were not infected by SARS-CoV-2.
+- id: ev-who-team
+  panel: after
+  lane: institutions
+  time: '2021-01-14T12:00:00Z'
+  precision: range
+  end: '2021-02-10T23:59:00Z'
+  kind: official
+  status: reported
+  sources:
+  - src-who-china-2021
+  label: '14 Jan-10 Feb 2021: WHO-convened team in China'
+  detail: Joint WHO-China study.
+- id: ev-factsheet
+  panel: after
+  lane: assessments
+  time: '2021-01-15T12:00:00Z'
+  precision: day
+  kind: official
+  status: reported
+  sources:
+  - src-state-wiv-factsheet-2021
+  label: '15 Jan 2021: US State Department fact sheet on activity at the Wuhan Institute of Virology'
+  detail: Says the US "does not know exactly where, when, or how" the virus was transmitted to humans and has "not determined" whether it began through animals or a laboratory accident; also the autumn 2019 illness statement.
+- id: ev-who-report
+  panel: after
+  lane: institutions
+  time: '2021-03-30T12:00:00Z'
+  precision: day
+  kind: official
+  status: disputed
+  sources:
+  - src-who-china-2021
+  - src-who-dg-remarks-2021
+  label: '30 Mar 2021: WHO-China joint report released; updated 6 Apr 2021'
+  detail: Two different PDFs exist under WHO URLs. The Director-General said the laboratory assessment "was not extensive enough".
+  alt_time: '2021-04-06T12:00:00Z'
+  alt_note: '6 Apr 2021: updated report (working note removed, a name corrected)'
+- id: ev-joint-statement
+  panel: after
+  lane: institutions
+  time: '2021-03-30T12:00:00Z'
+  precision: day
+  kind: official
+  status: disputed
+  sources:
+  - src-state-joint-statement-2021
+  - src-joint-statement-canada-2021
+  - src-joint-statement-japan-2021
+  label: '30 or 31 Mar 2021: 14 governments express concern about the WHO-convened study'
+  detail: State and Canada copies are dated 30 March; the Japan copy 31 March (time zone or posting date).
+  alt_time: '2021-03-31T12:00:00Z'
+  alt_note: '31 Mar 2021: Japan MOFA copy'
+- id: ev-biden
+  panel: after
+  lane: assessments
+  time: '2021-05-26T12:00:00Z'
+  precision: day
+  kind: official
+  status: reported
+  sources:
+  - src-biden-2021-05-26
+  label: '26 May 2021: President orders a 90-day Intelligence Community review'
+  detail: '"report back to me in 90 days".'
+- id: ev-odni-2021
+  panel: after
+  lane: assessments
+  time: '2021-08-27T12:00:00Z'
+  precision: day
+  kind: official
+  status: disputed
+  sources:
+  - src-odni-2021-summary
+  - src-odni-2021-updated
+  label: '27 Aug 2021: ODNI unclassified summary; longer Updated Assessment (October 2021 per file metadata)'
+  detail: The IC "remains divided". The longer assessment has no printed date; file metadata gives 29 Oct 2021 and SAGO also says October 2021.
+  alt_time: '2021-10-29T12:00:00Z'
+  alt_note: '29 Oct 2021: PDF metadata of the longer assessment (not a printed date)'
+- id: ev-defuse-public
+  panel: after
+  lane: institutions
+  time: '2021-09-26T12:00:00Z'
+  precision: day
+  kind: document
+  status: reported
+  sources:
+  - src-defuse
+  label: 'Sep 2021: final DEFUSE proposal made public (posted by a volunteer group; Internet Archive item dated 26 Sep 2021)'
+  detail: The drafts were released later, by FOIA, in Dec 2023 to Jan 2024.
+- id: ev-bloom-2021
+  panel: after
+  lane: science
+  time: '2021-08-16T12:00:00Z'
+  precision: day
+  kind: analysis
+  status: reported
+  sources:
+  - src-bloom-2021
+  label: '16 Aug 2021: Bloom recovers deleted early Wuhan sequencing data (online; print issue Dec 2021)'
+  detail: Mol Biol Evol 38(12), epub 16 Aug 2021. A 2023 correction exists and was not read.
+- id: ev-temmam
+  panel: after
+  lane: science
+  time: '2022-02-16T12:00:00Z'
+  precision: day
+  kind: analysis
+  status: reported
+  sources:
+  - src-temmam-2022
+  label: '16 Feb 2022: Laos bat viruses with RBDs close to SARS-CoV-2 (BANAL-52, 96.8 percent)'
+  detail: '"None of these bat viruses contains a furin cleavage site".'
+- id: ev-worobey-pekar
+  panel: after
+  lane: science
+  time: '2022-07-26T12:00:00Z'
+  precision: day
+  kind: analysis
+  status: reported
+  sources:
+  - src-worobey-2022
+  - src-pekar-2022
+  label: '26 Jul 2022: Science publishes Worobey et al. (market epicentre) and Pekar et al. (two lineages)'
+  detail: Both later corrected (14 Mar 2024 and 13 Oct 2023); the errata were not read.
+- id: ev-nih-subaward
+  panel: after
+  lane: institutions
+  time: '2022-08-19T12:00:00Z'
+  precision: day
+  kind: official
+  status: reported
+  sources:
+  - src-nih-eha-2022-08-19
+  label: '19 Aug 2022: NIH terminates the WIV subaward for material non-compliance'
+  detail: Letter in a House Oversight production.
+- id: ev-help-2022
+  panel: after
+  lane: assessments
+  time: '2022-10-15T12:00:00Z'
+  precision: month
+  kind: official
+  status: reported
+  sources:
+  - src-senate-help-2022
+  - src-asm-2022
+  label: 'Oct 2022: Senate HELP minority staff interim report; ASM replies 28 Oct'
+  detail: '"more likely than not, the result of a research-related incident"; "not intended to be dispositive".'
+- id: ev-oig
+  panel: after
+  lane: institutions
+  time: '2023-01-15T12:00:00Z'
+  precision: month
+  kind: official
+  status: reported
+  sources:
+  - src-oig-2023
+  label: 'Jan 2023: HHS Office of Inspector General audit A-05-21-00025'
+  detail: Dated January 2023; read for the date and a phrase only.
+- id: ev-fbi-doe
+  panel: after
+  lane: assessments
+  time: '2023-02-28T12:00:00Z'
+  precision: day
+  kind: official
+  status: reported
+  sources:
+  - src-cnn-wray-2023
+  - src-npr-doe-2023
+  label: 'Feb 2023: FBI Director and a DOE report make lab-incident assessments public (by press)'
+  detail: FBI Director quoted 28 Feb 2023; DOE report reported by the Wall Street Journal on 26 Feb (via NPR). The House report says February and March 2023. No FBI or DOE document was read.
+- id: ev-sago-2023
+  panel: after
+  lane: institutions
+  time: '2023-03-18T12:00:00Z'
+  precision: day
+  kind: official
+  status: reported
+  sources:
+  - src-sago-statement-2023
+  label: '18 Mar 2023: SAGO statement on China CDC market data briefly on GISAID (posted 12 Mar)'
+  detail: Data were available "for a short period of time".
+- id: ev-liu
+  panel: after
+  lane: science
+  time: '2023-04-05T12:00:00Z'
+  precision: day
+  kind: analysis
+  status: reported
+  sources:
+  - src-liu-2023
+  label: '5 Apr 2023: China CDC market surveillance paper (74 of 923 samples positive)'
+  detail: Version of record 12 Jun 2024; the preview said 73.
+- id: ev-marshall
+  panel: after
+  lane: assessments
+  time: '2023-04-17T12:00:00Z'
+  precision: day
+  kind: official
+  status: reported
+  sources:
+  - src-marshall-2023
+  label: '17 Apr 2023: Sen. Marshall office releases "Muddy Waters" executive summary'
+  detail: An office product, not a committee report.
+- id: ev-odni-2023
+  panel: after
+  lane: assessments
+  time: '2023-06-23T12:00:00Z'
+  precision: day
+  kind: official
+  status: reported
+  sources:
+  - src-odni-2023-wiv
+  label: '23 Jun 2023: ODNI declassifies report on the WIV and the origins of COVID-19'
+  detail: No indication WIV held SARS-CoV-2 or a close progenitor; agencies split; confidence levels redacted.
+- id: ev-hearing
+  panel: after
+  lane: media
+  time: '2023-07-11T12:00:00Z'
+  precision: day
+  kind: witness
+  status: reported
+  sources:
+  - src-house-proximal-hearing-2023
+  - src-andersen-testimony-2023
+  label: '11 Jul 2023: House hearing on the Proximal Origin paper'
+  detail: Written testimony and transcript read; members' quotations of Jan-Feb 2020 messages not compared with originals.
+- id: ev-bloom-2023
+  panel: after
+  lane: science
+  time: '2023-08-24T12:00:00Z'
+  precision: day
+  kind: analysis
+  status: reported
+  sources:
+  - src-bloom-2023
+  label: '24 Aug 2023: Bloom analysis of market sample metagenomics'
+  detail: Co-mingling of animal and viral material "is unlikely to reliably indicate whether any animals were infected".
+- id: ev-wiv-debar
+  panel: after
+  lane: institutions
+  time: '2023-09-19T12:00:00Z'
+  precision: day
+  kind: official
+  status: single
+  sources:
+  - src-hhs-eha-arm-2025
+  label: '19 Sep 2023: HHS debars the Wuhan Institute of Virology for ten years (as summarised in the EHA memorandum)'
+  detail: The WIV notice itself was not read.
+- id: ev-pekar-erratum
+  panel: after
+  lane: science
+  time: '2023-10-13T12:00:00Z'
+  precision: day
+  kind: analysis
+  status: reported
+  sources:
+  - src-pekar-erratum-record
+  - src-mccowan-2025
+  label: '13 Oct 2023: Science erratum to Pekar et al.'
+  detail: Content not read; two critics say the Bayes factor fell from about 60 to about 4 (McCowan) or 4.3 (Weissman).
+- id: ev-stoyan
+  panel: after
+  lane: science
+  time: '2024-01-16T12:00:00Z'
+  precision: day
+  kind: analysis
+  status: reported
+  sources:
+  - src-stoyan-chiu-2023
+  label: '16 Jan 2024: Stoyan and Chiu critique of the Worobey spatial analysis (JRSSA)'
+  detail: Published version not read; arXiv v2 read.
+- id: ev-worobey-erratum
+  panel: after
+  lane: science
+  time: '2024-03-14T12:00:00Z'
+  precision: day
+  kind: analysis
+  status: reported
+  sources:
+  - src-worobey-erratum-record
+  label: '14 Mar 2024: Science erratum to Worobey et al.'
+  detail: Content not read.
+- id: ev-weissman
+  panel: after
+  lane: science
+  time: '2024-03-20T12:00:00Z'
+  precision: day
+  kind: analysis
+  status: reported
+  sources:
+  - src-weissman-2024
+  - src-debarre-worobey-2024
+  label: '20 Mar 2024: Weissman letter in JRSSA; authors reply on arXiv 13 May 2024'
+  detail: Published letter not read; arXiv v5 read.
+- id: ev-hhs-suspend
+  panel: after
+  lane: institutions
+  time: '2024-05-15T12:00:00Z'
+  precision: day
+  kind: official
+  status: reported
+  sources:
+  - src-hhs-eha-suspension-2024
+  label: '15 May 2024: HHS suspends EcoHealth Alliance and proposes debarment'
+  detail: Dr Daszak suspended 21 May 2024. Grant-compliance grounds, not an origin finding.
+- id: ev-crits
+  panel: after
+  lane: science
+  time: '2024-09-19T12:00:00Z'
+  precision: day
+  kind: analysis
+  status: reported
+  sources:
+  - src-crits-christoph-2024
+  label: 'Sep 2024: Crits-Christoph et al. in Cell on market wildlife genetics'
+  detail: Issue date per the NIH manuscript record.
+- id: ev-shi-talk
+  panel: after
+  lane: science
+  time: '2024-12-04T12:00:00Z'
+  precision: day
+  kind: witness
+  status: single
+  sources:
+  - src-sciam-shi-2024
+  label: '4 Dec 2024: WIV scientist reports 56 new betacoronavirus genomes in a conference talk'
+  detail: Not peer reviewed; reported by Nature news.
+- id: ev-house-final
+  panel: after
+  lane: assessments
+  time: '2024-12-04T12:00:00Z'
+  precision: day
+  kind: official
+  status: reported
+  sources:
+  - src-house-sscp-2024
+  - src-house-dem-2024
+  label: '4 Dec 2024: House Select Subcommittee final report (Democrats'' report 3 Dec)'
+  detail: 'Majority: likely a laboratory or research related accident; Democrats: largely circumstantial.'
+- id: ev-hhs-debar
+  panel: after
+  lane: institutions
+  time: '2025-01-17T12:00:00Z'
+  precision: day
+  kind: official
+  status: reported
+  sources:
+  - src-house-release-2025-eha
+  - src-hhs-eha-notice-2025
+  - src-hhs-daszak-notice-2025
+  label: 'Jan 2025: HHS debars EcoHealth Alliance and Dr Daszak for five years'
+  detail: Date per the House release of 17 Jan 2025; the notices are undated in the extracted text.
+- id: ev-cia
+  panel: after
+  lane: assessments
+  time: '2025-01-25T12:00:00Z'
+  precision: day
+  kind: official
+  status: single
+  sources:
+  - src-cbs-cia-2025
+  label: '25 Jan 2025: CIA statement, low confidence that a research-related origin is more likely (as quoted by CBS and AP)'
+  detail: The CIA document was not read.
+- id: ev-bnd
+  panel: after
+  lane: assessments
+  time: '2025-03-12T12:00:00Z'
+  precision: day
+  kind: official
+  status: single
+  sources:
+  - src-tagesspiegel-bnd-2025
+  - src-bpk-2025
+  label: '12 Mar 2025: German press reports a BND assessment favouring a laboratory accident'
+  detail: The government declined to comment; the BND document was not read.
+- id: ev-missouri
+  panel: after
+  lane: institutions
+  time: '2025-03-07T12:00:00Z'
+  precision: day
+  kind: official
+  status: single
+  sources:
+  - src-china-whitepaper-2025
+  label: '7 Mar 2025: US court default judgment against China (per China''s white paper)'
+  detail: The judgment was not read (co-sq-missouri).
+- id: ev-wh-page
+  panel: after
+  lane: assessments
+  time: '2025-04-18T12:00:00Z'
+  precision: day
+  kind: official
+  status: reported
+  sources:
+  - src-whitehouse-lableak
+  label: '18 Apr 2025: White House page "Lab Leak: The True Origins of Covid-19" (modified 15 Aug 2025)'
+  detail: States a lab-related incident is "the most likely origin"; cites no evidence on the page.
+- id: ev-china-wp
+  panel: after
+  lane: assessments
+  time: '2025-04-30T12:00:00Z'
+  precision: day
+  kind: official
+  status: reported
+  sources:
+  - src-china-whitepaper-2025
+  - src-nhc-whitepaper-news-2025
+  label: '30 Apr 2025: China''s State Council white paper on Covid-19 origins tracing'
+  detail: Says China's origin study has ended and points to the United States.
+- id: ev-sago
+  panel: after
+  lane: assessments
+  time: '2025-06-27T12:00:00Z'
+  precision: day
+  kind: official
+  status: reported
+  sources:
+  - src-sago-2025
+  - src-sago-news-2025
+  label: '27 Jun 2025: WHO SAGO independent assessment'
+  detail: '"The weight of available evidence ... suggests zoonotic spillover"; laboratory route cannot be assessed without data.'
+- id: ev-baric
+  panel: after
+  lane: media
+  time: '2026-04-10T12:00:00Z'
+  precision: day
+  kind: witness
+  status: reported
+  sources:
+  - src-baric-ti-2026
+  label: '10 Apr 2026: Senate HSGAC transcribed interview of Dr Ralph Baric'
+  detail: Released July 2026.
+- id: ev-mccowan
+  panel: after
+  lane: science
+  time: '2026-04-04T12:00:00Z'
+  precision: day
+  kind: analysis
+  status: reported
+  sources:
+  - src-mccowan-2025
+  - src-weissman-ejw-2026
+  label: 'Mar-Apr 2026: critics of the Pekar analysis (Weissman, EJW March 2026; McCowan arXiv v3 4 Apr 2026)'
+  detail: Secondary for the erratum.
+- id: ev-odni-2026
+  panel: after
+  lane: assessments
+  time: '2026-06-18T12:00:00Z'
+  precision: day
+  kind: official
+  status: single
+  sources:
+  - src-odni-gabbard-2026
+  label: '18 Jun 2026: ODNI page announces release of COVID-19 documents (not read)'
+  detail: Only the page introduction was read; it contains allegations; nothing is stated here about the documents (co-sq-odni-2026-release).
+- id: ev-slack-release
+  panel: after
+  lane: media
+  time: '2026-07-22T12:00:00Z'
+  precision: day
+  kind: document
+  status: single
+  sources:
+  - src-hsgac-slack-2026
+  label: '22 Jul 2026: Senate HSGAC chairman releases Slack messages of Proximal Origin authors'
+  detail: Chairman-selected; framing partisan.

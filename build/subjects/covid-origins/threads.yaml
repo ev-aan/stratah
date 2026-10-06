@@ -1,0 +1,41 @@
+subject: covid-origins
+
+threads:
+
+  - id: thread-origin-narratives
+    type: reception-overlay
+    title: "How the two origin narratives spread (2020 to 2026)"
+    confers_weight: false   # T4: required for reception overlays
+    description: >
+      The route each narrative took through governments, journals, committees and the press, recorded as transmission so
+      that reach is never read as support. Each step is dated in timeline.yaml.
+    overlay_notes:
+      - >
+        2020 to 2021: a statement by scientists that the virus is not a laboratory construct (co-proximal-origin-text); the US
+        government's laboratory-related statements follow, including a State Department fact sheet in January 2021
+        (co-wiv-illness-official-record).
+      - >
+        2021: the WHO-China joint report rates a laboratory incident "extremely unlikely"; 14 governments express shared
+        concerns about the study and WHO's Director-General says the laboratory assessment was not extensive enough; the US Intelligence Community reports split views.
+      - >
+        2022 to 2025: scientific papers on the market (co-market-pattern, co-two-lineages) draw published critiques; Senate
+        and House committees issue laboratory-leaning reports; HHS debars EcoHealth for grant failures (co-hhs-debarment);
+        the FBI, DOE and CIA positions become public; a White House page adopts the House majority's conclusion.
+      - >
+        2025: WHO's SAGO says the weight of published evidence suggests zoonotic spillover and that a laboratory route cannot
+        be assessed without data; China's white paper says its origin study has ended and points to the United States.
+    firewall: >
+      Reach, repetition and official endorsement are adoption. None of the steps above lends evidential weight to any claim
+      in this dig. A government, committee or agency adopting a position is recorded at the claim as an adoption record.
+
+  - id: thread-sars-2003-background
+    type: background
+    title: "SARS (2002 to 2005): what happened the first time"
+    confers_weight: false
+    description: >
+      The first SARS outbreak had an animal-market link (civets in a Guangdong market, 2003) and a bat reservoir (2005). This is
+      orienting background, shown on the timeline from 2002. It is a true history of a different virus.
+    firewall: >
+      A true story lends no weight to a neighbouring claim. That SARS-CoV-1 was traced to animals is not evidence about
+      SARS-CoV-2; the two are weighed only on their own records. Likewise a laboratory-related accident with an earlier SARS
+      virus, if one were cited, would carry no weight here.

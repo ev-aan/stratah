@@ -1,0 +1,1655 @@
+# Sources for the covid-origins dig, with authenticity entries (rules A1-A10, build/SCHEMA.md).
+# Research files are in the research set (the notes of streams o1 to o4); 'file_in_research_set' names the file read and
+# 'sha256' is that file's hash, cross-checked against the stream's ALL_SHA256.txt when this manifest was generated.
+# Only US-government and public-record texts that are small are stored in this repository (stored_as). No journal article text is stored.
+# read: full = opened and read directly; partial = opened, read for the passages used; abstract = record or abstract only;
+# secondary = known only through another document or a news report; not read = not opened.
+# Access date for every source: 2026-10-05. Nothing was filled from memory: where a document could not be opened it is recorded as not read.
+# Two WHO-China report PDFs exist under WHO URLs (6 April file read: e1ca927a2e3c373445022370e96264cb0febbfd3539ad72da2bc244230ba93a9; the earlier file is 837b2065456379582949282cc70a336081847b1ad5e1326146272efae6bffc25). The earlier file is in the research set (o4/src/WHO_joint_report_pre6Apr_version.pdf) and was not text-compared.
+retrieved: '2026-10-05'
+sources:
+- id: src-odni-2021-summary
+  title: ODNI. Unclassified Summary of Assessment on COVID-19 Origins (2 pages; print date 27 Aug 2021 per ODNI page; the PDF text carries no date)
+  url: https://www.dni.gov/files/ODNI/documents/assessments/Unclassified-Summary-of-Assessment-on-COVID-19-Origins.pdf (redirects to https://archive.dni.gov/files/ODNI/documents/assessments/Unclassified-Summary-of-Assessment-on-COVID-19-Origins.pdf)
+  document_class: primary_text (official assessment)
+  read: full
+  sha256: 51b0e98fddadc3dbf5c763363d9914da806a66eb1e0bc54be13ab00491eb4a24
+  file_in_research_set: o3/raw/odni_2021_aug.pdf
+  stored_as: sources/odni-2021-08-unclassified-summary.txt
+  authenticity:
+    status: authenticated
+    strength: strong
+    provenance: ODNI's own archive host (archive.dni.gov), reached by redirect from dni.gov; the ODNI publication page lists the same title with print date 27 Aug 2021.
+    tests:
+    - Official host and title match the ODNI publication page [read]
+    - Key-takeaway wording is identical to the longer Updated Assessment (src-odni-2021-updated) [read]
+    tested_by: Strata session, 2026-10-05
+    gaps:
+    - The PDF text carries no date; the 27 Aug 2021 print date is from ODNI's page, and PDF metadata gives 27 Aug 2021.
+    checked: '2026-10-05'
+- id: src-odni-2021-updated
+  title: ODNI. Updated Assessment on COVID-19 Origins (declassified; information through August 2021; 18 pages; no printed date; PDF metadata 29 Oct 2021; SAGO 2025 dates it October 2021)
+  url: https://www.dni.gov/files/ODNI/documents/assessments/Declassified-Assessment-on-COVID-19-Origins.pdf (redirects to archive.dni.gov, same path)
+  document_class: primary_text (official assessment)
+  read: full
+  sha256: a46456bb362705dd9e5c8f23ee1a4c8432a787b95f46cef957fc3907e083e933
+  file_in_research_set: o3/raw/odni_2023_declassified.pdf
+  stored_as: sources/odni-2021-10-updated-assessment.txt
+  authenticity:
+    status: authenticated
+    strength: strong
+    provenance: ODNI's own archive host (archive.dni.gov), reached by redirect from dni.gov.
+    tests:
+    - Official host [read]
+    - Key-takeaway wording matches the 2-page summary word for word [read]
+    - SAGO 2025 independently refers to an October 2021 ODNI report [read]
+    tested_by: Strata session, 2026-10-05
+    gaps:
+    - No release date is printed; PDF metadata gives 29 Oct 2021, which is not a statement by ODNI.
+    checked: '2026-10-05'
+- id: src-odni-2023-wiv
+  title: ODNI. Potential Links Between the Wuhan Institute of Virology and the Origin of the COVID-19 Pandemic (declassified by DNI Haines 23 Jun 2023; 10 pages; responds to the COVID-19 Origin Act of 2023 per its own text; the statute was not read)
+  url: 'https://www.dni.gov/files/ODNI/documents/assessments/Report-on-Potential-Links-Between-the-Wuhan-Institute-of-Virology-and-the-Origins-of-COVID-19-20230623.pdf (redirects to archive.dni.gov, same path). A second copy (identical text per the research notes) is on govinfo.gov: https://www.govinfo.gov/content/pkg/GOVPUB-PREX28-PURL-gpo219705/pdf/GOVPUB-PREX28-PURL-gpo219705.pdf'
+  document_class: primary_text (official assessment)
+  read: full. The first words of each agency-position paragraph are blacked out in the public text (page 4 rasterised and checked), so the agencies' confidence levels are not legible.
+  sha256: 5d3837ef89229659ed4d38cbf7dd3e66c70b516630d57c9abec6e4acf07f384d
+  file_in_research_set: o3/raw/odni_2023_06_wiv_report.pdf
+  stored_as: sources/odni-2023-06-wiv-report.txt
+  authenticity:
+    status: authenticated
+    strength: strong
+    provenance: ODNI's own archive host (archive.dni.gov) and a second copy on govinfo.gov (GPO).
+    tests:
+    - Header "DECLASSIFIED by DNI Haines on 23 June 2023" present [read]
+    - Two copies from two official hosts have identical text [read]
+    - Page 4 rasterised to confirm redaction boxes begin each agency-position paragraph [read]
+    tested_by: Strata session, 2026-10-05
+    gaps:
+    - Confidence levels and some sentence openings are redacted in the public text; the classified annex was not seen.
+    checked: '2026-10-05'
+- id: src-whitehouse-lableak
+  title: 'White House. Lab Leak: The True Origins of Covid-19 (web page; metadata datePublished 2025-04-18, dateModified 2025-08-15; fetched 5 Oct 2026)'
+  url: https://www.whitehouse.gov/lab-leak-true-origins-of-covid-19/ (covid.gov and covid.gov/origins redirect here)
+  document_class: primary_text (official web page; adoption)
+  read: full (page text). The version read is the modified one (15 Aug 2025); the April 2025 wording may differ.
+  sha256: d323c7ffbbff2a60396bdb5e498903a9e74f8affe33c115232f5ef873aee9e5b
+  file_in_research_set: o3/raw/whitehouse_lableak_20261005.html
+  stored_as: sources/whitehouse-lab-leak-page.txt
+  authenticity:
+    status: authenticated
+    strength: moderate
+    provenance: Served from whitehouse.gov (covid.gov and covid.gov/origins redirect to it).
+    tests:
+    - Official host and page title [read]
+    - Page metadata gives published and modified dates [read]
+    tested_by: Strata session, 2026-10-05
+    gaps:
+    - A live page that has been modified since first publication; no archive capture of the April 2025 version was compared.
+    checked: '2026-10-05'
+- id: src-state-wiv-factsheet-2021
+  title: 'US Department of State, Office of the Spokesperson. Fact Sheet: Activity at the Wuhan Institute of Virology, 15 January 2021 (Wayback snapshot of 6 Jan 2022)'
+  url: https://web.archive.org/web/2021/https://2017-2021.state.gov/fact-sheet-activity-at-the-wuhan-institute-of-virology/ (resolved to snapshot 20220106021524)
+  document_class: primary_text (official statement)
+  read: full
+  sha256: ad2eb9eda7600999bff898a864f48d071e775c4395f8fc6b8569de10f1d49c5f
+  file_in_research_set: o4/src/STATE_factsheet_15Jan2021_wayback.html
+  stored_as: sources/state-dept-wiv-fact-sheet-2021-01-15.txt
+  authenticity:
+    status: authenticated
+    strength: moderate
+    provenance: Wayback Machine snapshot (6 Jan 2022) of the official 2017-2021.state.gov page; the live page returned an error body.
+    tests:
+    - Snapshot URL is the official State Department path [read]
+    - The House Select Subcommittee report quotes the same sentence (with "illness" singular) [read]
+    - Page text gives its own date, 15 January 2021 [read]
+    tested_by: Strata session, 2026-10-05
+    gaps:
+    - The live page could not be reached; the snapshot was not compared with a State Department file.
+    checked: '2026-10-05'
+- id: src-biden-2021-05-26
+  title: President Biden. Statement on the investigation into the origins of COVID-19, 26 May 2021
+  url: https://bidenwhitehouse.archives.gov/briefing-room/statements-releases/2021/05/26/statement-by-president-joe-biden-on-the-investigation-into-the-origins-of-covid-19/
+  document_class: primary_text (official statement)
+  read: full
+  sha256: 9106f3484eab9fdb5ef0763e7c96eb3dee00ae5034f58c4b9e9c879230835c5a
+  file_in_research_set: o3/raw/biden_2021_05_26.html
+  stored_as: sources/biden-statement-2021-05-26.txt
+  authenticity:
+    status: authenticated
+    strength: strong
+    provenance: Biden White House archive host (bidenwhitehouse.archives.gov).
+    tests:
+    - Official archive host [read]
+    - The 90-day review it orders matches the ODNI summary of Aug 2021 [read]
+    tested_by: Strata session, 2026-10-05
+    gaps: []
+    checked: '2026-10-05'
+- id: src-nih-letter-2020-07-08
+  title: 'NIH (Principal Deputy Director) to EcoHealth Alliance, 8 July 2020: withdrawal of termination of grant R01AI110964 and suspension of its activities (copy hosted by House Oversight)'
+  url: https://oversight.house.gov/wp-content/uploads/2021/05/Eco-Health-Lab-letter-July-8.pdf
+  document_class: primary_text (official letter)
+  read: full
+  sha256: 4369e81d2a52156210876559f86ad1d27a9846c5c123e1da736ee6d87e53ec13
+  file_in_research_set: o4/src/HOUSE_NIH_letter_8Jul2020.pdf
+  stored_as: sources/nih-letter-2020-07-08.txt
+  authenticity:
+    status: authenticated
+    strength: moderate
+    provenance: Copy hosted by the House Oversight Committee.
+    tests:
+    - The HHS 2024 memorandum describes the same letter (withdrawal of termination and suspension, 8 July 2020) [read]
+    tested_by: Strata session, 2026-10-05
+    gaps:
+    - Not compared with an NIH-held file (nih.gov refused this environment). Names of NIH staff and any private persons are not used in the dig.
+    checked: '2026-10-05'
+- id: src-hhs-eha-suspension-2024
+  title: HHS. Action Referral Memorandum and Notice of Suspension and Proposed Debarment, EcoHealth Alliance, 15 May 2024 (copy hosted by House Oversight)
+  url: https://oversight.house.gov/wp-content/uploads/2024/05/Tab-2-EHA-SUSP4D-ARM_05.15.2024_signed.pdf
+  document_class: primary_text (official administrative record)
+  read: full
+  sha256: 2a4c006d10b5a68438fe5cc677e4da1aa4c89817ffa13fcfb47b1aa3044681ca
+  file_in_research_set: o4/src/HHS_EHA_suspension_15May2024.pdf
+  stored_as: sources/hhs-eha-suspension-2024-05-15.txt
+  authenticity:
+    status: authenticated
+    strength: moderate
+    provenance: Copy hosted by the House Oversight Committee; hhs.gov refused this environment.
+    tests:
+    - The final 2025 notices repeat the 15 May 2024 suspension date and the period [read]
+    tested_by: Strata session, 2026-10-05
+    gaps:
+    - Not compared with an HHS-held file. The unaltered public document names private attorneys; they are not named in the dig.
+    checked: '2026-10-05'
+- id: src-hhs-eha-arm-2025
+  title: HHS. Action Referral Memorandum, debarment of EcoHealth Alliance (Jan 2025; undated in the extracted text, "the same date as this Notice"; House Oversight release dated 17 Jan 2025)
+  url: https://oversight.house.gov/wp-content/uploads/2025/01/ARM_EHA_1.17.2025_Redacted.pdf
+  document_class: primary_text (official administrative record)
+  read: full
+  sha256: 4872d9698de1fbddc00b5b8732875518300ab0b8fabb879a2b5399a9bf5a9224
+  file_in_research_set: o2/raw/hhs_eha_arm.pdf
+  stored_as: sources/hhs-eha-arm-2025-01-17.txt
+  authenticity:
+    status: authenticated
+    strength: moderate
+    provenance: Copy hosted by the House Oversight Committee (release dated 17 Jan 2025); hhs.gov refused this environment.
+    tests:
+    - Findings repeat facts from the 2024 suspension memorandum and the HHS-OIG audit [read]
+    tested_by: Strata session, 2026-10-05
+    gaps:
+    - Undated in the extracted text; date from the House release. Redacted copy. Not compared with an HHS-held file. The unaltered public document names private attorneys; they are not named in the dig.
+    checked: '2026-10-05'
+- id: src-hhs-eha-notice-2025
+  title: HHS. Notice of Debarment, EcoHealth Alliance (Jan 2025; date per House Oversight release 17 Jan 2025)
+  url: https://oversight.house.gov/wp-content/uploads/2025/01/Notice-_EHA_1.17.2025_Redacted.pdf
+  document_class: primary_text (official administrative record)
+  read: full
+  sha256: e45398b3c0d731178b543b7a11a1d30e0cd0f74516ea9370d070843e829d4072
+  file_in_research_set: o2/raw/hhs_eha_notice.pdf
+  stored_as: sources/hhs-eha-notice-2025-01-17.txt
+  authenticity:
+    status: authenticated
+    strength: moderate
+    provenance: Copy hosted by the House Oversight Committee (release dated 17 Jan 2025).
+    tests:
+    - Debarment term and "ineligible through May 14, 2029" are consistent with the 15 May 2024 suspension date [read]
+    tested_by: Strata session, 2026-10-05
+    gaps:
+    - Undated in the extracted text; date from the House release. Not compared with an HHS-held file. The unaltered public document names private attorneys; they are not named in the dig.
+    checked: '2026-10-05'
+- id: src-hhs-daszak-notice-2025
+  title: HHS. Notice of Debarment, Dr Peter Daszak (Jan 2025; date per House Oversight release 17 Jan 2025)
+  url: https://oversight.house.gov/wp-content/uploads/2025/01/Dr.-Peter-Daszak-HHS-Notice_Jan-17-2025_Redacted.pdf
+  document_class: primary_text (official administrative record)
+  read: full
+  sha256: 847d2ecf9540fc61eba3700cadec6b3c5b31bfbcb541490710d880285c0ef399
+  file_in_research_set: o2/raw/hhs_daszak_notice.pdf
+  stored_as: sources/hhs-daszak-notice-2025-01-17.txt
+  authenticity:
+    status: authenticated
+    strength: moderate
+    provenance: Copy hosted by the House Oversight Committee (release dated 17 Jan 2025).
+    tests:
+    - Debarment term and "ineligible through May 20, 2029" are consistent with the 21 May 2024 suspension date [read]
+    tested_by: Strata session, 2026-10-05
+    gaps:
+    - Undated in the extracted text; date from the House release. Not compared with an HHS-held file. The unaltered public document names private attorneys; they are not named in the dig.
+    checked: '2026-10-05'
+- id: src-state-joint-statement-2021
+  title: Joint Statement on the WHO-Convened COVID-19 Origins Study, US Department of State media note, 30 March 2021 (Wayback snapshot 20210401002824)
+  url: https://web.archive.org/web/20210401000000/https://www.state.gov/joint-statement-on-the-who-convened-covid-19-origins-study/
+  document_class: primary_text (joint government statement)
+  read: full
+  sha256: e84ff1628d7fe869be9cf52a513e4593e5a52e3eaed13594410c3ce9a92f0783
+  file_in_research_set: o4/src/JOINTSTMT_StateDept_wayback.html
+  stored_as: sources/state-dept-joint-statement-2021-03-30.txt
+  authenticity:
+    status: authenticated
+    strength: moderate
+    provenance: Wayback snapshot of the State Department media note; Canada and Japan copies carry the same text.
+    tests:
+    - Snapshots of Canada and Japan versions agree with the State text [read]
+    tested_by: Strata session, 2026-10-05
+    gaps:
+    - 'Date differs across versions: 30 March (State, Canada) and 31 March 2021 (Japan MOFA).'
+    checked: '2026-10-05'
+- id: src-who-china-2021
+  title: 'WHO-convened Global Study of Origins of SARS-CoV-2: China Part. Joint WHO-China Study, 14 January-10 February 2021. Joint Report (120 pages; main report, annexes not opened; page dated 30 Mar 2021, updated 6 Apr 2021)'
+  url: 'https://www.who.int/docs/default-source/coronaviruse/final-joint-report_origins-studies-6-april-201.pdf?sfvrsn=4f5e5196_1&download=true (publication page: https://www.who.int/publications/i/item/who-convened-global-study-of-origins-of-sars-cov-2-china-part)'
+  document_class: primary_text (joint report)
+  read: full (main report text). A second, different PDF exists under another WHO URL (see the header note of this manifest) and was not compared.
+  sha256: e1ca927a2e3c373445022370e96264cb0febbfd3539ad72da2bc244230ba93a9
+  file_in_research_set: o4/src/WHO_joint_report_6Apr2021.pdf
+  publication:
+    status: corrected
+    checked: '2026-10-05'
+    date: '2021-04-06'
+    notice: 'WHO publication page: "This report was updated on 6 April 2021 to remove a working note that was inadvertently included on page 13, and to correct the spelling of a name in the acknowledgements section."'
+    reason: Minor edit stated by WHO; the removed working note was not seen.
+  authenticity:
+    status: authenticated
+    strength: moderate
+    provenance: WHO publication host; the WHO page states the report was updated on 6 April 2021 to remove a working note and fix a name.
+    tests:
+    - Official host and title [read]
+    - Figures (174 cases, 55.4%, 44.6%) match the quotation of the same report in Worobey et al. (src-worobey-2022) [read]
+    tested_by: Strata session, 2026-10-05
+    gaps:
+    - Two different PDFs exist under WHO URLs (both 120 pages; different file sizes and creation dates); they were not text-compared. The 6 April file was read. Annexes (including Annex E4 case data) not opened.
+    checked: '2026-10-05'
+- id: src-who-dg-remarks-2021
+  title: WHO Director-General. Remarks at the Member State briefing on the report of the international team studying the origins of SARS-CoV-2, 30 March 2021
+  url: https://www.who.int/news-room/speeches/item/who-director-general-s-remarks-at-the-member-state-briefing-on-the-report-of-the-international-team-studying-the-origins-of-sars-cov-2
+  document_class: primary_text (official remarks)
+  read: full
+  sha256: f293481d612b0048a48f10fe5fca7f3e2363c7cd417d7e96c7024a0c2180e427
+  file_in_research_set: o3/raw/who_dg_30mar2021_remarks.html
+  authenticity:
+    status: authenticated
+    strength: moderate
+    provenance: WHO speeches host.
+    tests:
+    - Official host and date [read]
+    - Quoted sentences also found in the WHO news release of the same date [read]
+    tested_by: Strata session, 2026-10-05
+    gaps: []
+    checked: '2026-10-05'
+- id: src-sago-2025
+  title: WHO Scientific Advisory Group for the Origins of Novel Pathogens (SAGO). Independent assessment of the origins of SARS-CoV-2 (78 pages; cover date 27 June 2025)
+  url: https://cdn.who.int/media/docs/default-source/documents/epp/sago/independent-assessment-of-the-origins-of-sars-cov-2-by-sago.pdf?sfvrsn=b0f90ad4_4 (a second download with sfvrsn=b0f90ad4_6 was used by another stream; text compared only by quotation)
+  document_class: primary_text (advisory-group report; adoption)
+  read: full for the conclusions and the sections on government reports (pp. 38-52); not every section was read line by line
+  sha256: 2adb7806dffff08be58e200b1480936ad2e11de40555d68daf8703136d06a75f
+  file_in_research_set: o3/raw/who_sago_2025.pdf
+  authenticity:
+    status: authenticated
+    strength: strong
+    provenance: WHO host (cdn.who.int); WHO news release of 27 Jun 2025 announces the same report.
+    tests:
+    - Official host [read]
+    - The conclusion sentences quoted in the dig also appear in the WHO news release and the Director-General remarks of 27 Jun 2025 [read]
+    tested_by: Strata session, 2026-10-05
+    gaps:
+    - Another reader found internal inconsistencies (BANAL-52 collection year 2018 in one place and 2020 in another; the "ID4991" chronology not present in the Nature addendum it cites). Those passages are not relied on.
+    checked: '2026-10-05'
+- id: src-sago-news-2025
+  title: WHO. WHO Scientific Advisory Group issues report on origins of COVID-19, news release, 27 June 2025
+  url: https://www.who.int/news/item/27-06-2025-who-scientific-advisory-group-issues-report-on-origins-of-covid-19
+  document_class: primary_text (official news release)
+  read: full
+  sha256: b0b9c90266ab687304bd44b149dcce6faec888b117747b4c3718145abe7bbc0d
+  file_in_research_set: o4/src/WHO_SAGO_news_27Jun2025.html
+  authenticity:
+    status: authenticated
+    strength: moderate
+    provenance: WHO news host.
+    tests:
+    - Official host and date [read]
+    tested_by: Strata session, 2026-10-05
+    gaps: []
+    checked: '2026-10-05'
+- id: src-sago-statement-2023
+  title: WHO. SAGO statement on newly released SARS-CoV-2 metagenomics data from China CDC on GISAID, 18 March 2023
+  url: https://www.who.int/news/item/18-03-2023-sago-statement-on-newly-released-sars-cov-2-metagenomics-data-from-china-cdc-on-gisaid
+  document_class: primary_text (official statement)
+  read: full
+  sha256: 8e821c77c1e514f2a8cb02154c8d4c75fb0490418dea8cf64d8dbd5b3bb25361
+  file_in_research_set: o4/src/WHO_SAGO_18Mar2023.html
+  authenticity:
+    status: authenticated
+    strength: moderate
+    provenance: WHO news host.
+    tests:
+    - Official host and date [read]
+    tested_by: Strata session, 2026-10-05
+    gaps: []
+    checked: '2026-10-05'
+- id: src-who-dg-2020-pandemic
+  title: WHO Director-General. Opening remarks at the media briefing on COVID-19, 11 March 2020
+  url: https://www.who.int/news-room/speeches/item/who-director-general-s-opening-remarks-at-the-media-briefing-on-covid-19---11-march-2020
+  document_class: primary_text (official remarks)
+  read: full
+  sha256: 899e76b7f3061b975fa754486916e841b1bc4897dc96ae5a63d459912de604be
+  file_in_research_set: o4/src/WHO_DG_11Mar2020b.html
+  authenticity:
+    status: authenticated
+    strength: moderate
+    provenance: WHO speeches host.
+    tests:
+    - Official host and date [read]
+    tested_by: Strata session, 2026-10-05
+    gaps: []
+    checked: '2026-10-05'
+- id: src-who-pheic-2020
+  title: WHO. Statement on the second meeting of the IHR Emergency Committee regarding the outbreak of novel coronavirus (2019-nCoV), 30 January 2020
+  url: https://www.who.int/news/item/30-01-2020-statement-on-the-second-meeting-of-the-international-health-regulations-(2005)-emergency-committee-regarding-the-outbreak-of-novel-coronavirus-(2019-ncov)
+  document_class: primary_text (official statement)
+  read: full
+  sha256: 9f72a8209e5ad7142ac2aad0f29ba7105819d3606799e394f1060e749eb94681
+  file_in_research_set: o4/src/WHO_PHEIC_30Jan2020.html
+  authenticity:
+    status: authenticated
+    strength: moderate
+    provenance: WHO news host.
+    tests:
+    - Official host and date [read]
+    tested_by: Strata session, 2026-10-05
+    gaps: []
+    checked: '2026-10-05'
+- id: src-who-stmt-2020-01-09
+  title: WHO. Statement regarding cluster of pneumonia cases in Wuhan, China, 9 January 2020
+  url: https://www.who.int/china/news/detail/09-01-2020-who-statement-regarding-cluster-of-pneumonia-cases-in-wuhan-china
+  document_class: primary_text (official statement)
+  read: full
+  sha256: 1c2bd250d59cf9d74ce1083851934a8fd0302d66f56a73b64c328d3e2dbc07be
+  file_in_research_set: o4/src/WHO_stmt_9Jan2020.html
+  authenticity:
+    status: authenticated
+    strength: moderate
+    provenance: WHO host.
+    tests:
+    - Official host and date [read]
+    tested_by: Strata session, 2026-10-05
+    gaps: []
+    checked: '2026-10-05'
+- id: src-who-thailand-2020
+  title: WHO. Statement on novel coronavirus in Thailand (URL slug dated 12 January 2020; page title and canonical link 13 January 2020)
+  url: 'https://www.who.int/news/item/12-01-2020-who-statement-on-novel-coronavirus-in-thailand (canonical: https://www.who.int/news/item/13-01-2020-who-statement-on-novel-coronavirus-in-thailand)'
+  document_class: primary_text (official statement)
+  read: full
+  sha256: 1ed98ae4183b5c5a301a3e9f4eb99c01940a95ef2d221e7fb98d38dc08e48649
+  file_in_research_set: o4/src/WHO_Thailand_13Jan2020_urldated12.html
+  authenticity:
+    status: authenticated
+    strength: moderate
+    provenance: WHO host.
+    tests:
+    - Official host [read]
+    tested_by: Strata session, 2026-10-05
+    gaps:
+    - The slug says 12 January and the page says 13 January; the dispute is shown on the timeline.
+    checked: '2026-10-05'
+- id: src-who-don-2020-01-05
+  title: 'WHO. Disease Outbreak News: Pneumonia of unknown cause - China, 5 January 2020'
+  url: https://www.who.int/emergencies/disease-outbreak-news/item/2020-DON229
+  document_class: primary_text (official notice)
+  read: full
+  sha256: 6a2076adc7fa51c95ede04ffa8686de45ee44fe3cd59231ec35529d50565f500
+  file_in_research_set: o4/src/WHO_DON229.html
+  authenticity:
+    status: authenticated
+    strength: moderate
+    provenance: WHO host.
+    tests:
+    - Official host and date [read]
+    tested_by: Strata session, 2026-10-05
+    gaps: []
+    checked: '2026-10-05'
+- id: src-who-don-2020-01-12
+  title: 'WHO. Disease Outbreak News: Novel Coronavirus - China, 12 January 2020'
+  url: https://www.who.int/emergencies/disease-outbreak-news/item/2020-DON233
+  document_class: primary_text (official notice)
+  read: full
+  sha256: 79cac48a2235b1971141288bf1a570752f5307059c62b0ff7975b30171d0ca11
+  file_in_research_set: o4/src/WHO_DON_12Jan2020_2020-DON233.html
+  authenticity:
+    status: authenticated
+    strength: moderate
+    provenance: WHO host.
+    tests:
+    - Official host and date [read]
+    tested_by: Strata session, 2026-10-05
+    gaps: []
+    checked: '2026-10-05'
+- id: src-who-china-mission-2020
+  title: Report of the WHO-China Joint Mission on Coronavirus Disease 2019 (COVID-19), 16-24 February 2020
+  url: https://www.who.int/docs/default-source/coronaviruse/who-china-joint-mission-on-covid-19-final-report.pdf
+  document_class: primary_text (joint report)
+  read: partial (searched and read for the sentence on bats and the intermediate host)
+  sha256: b17766a85d47888878c0c2e8486dc4343980449f49e0a1a581bde532093f6750
+  file_in_research_set: o4/src/WHO_China_joint_mission_Feb2020.pdf
+  authenticity:
+    status: authenticated
+    strength: moderate
+    provenance: WHO host.
+    tests:
+    - Official host and title [read]
+    tested_by: Strata session, 2026-10-05
+    gaps:
+    - Read for one passage only.
+    checked: '2026-10-05'
+- id: src-who-don-2003-02-11
+  title: 'WHO. Disease Outbreak News: Acute respiratory syndrome in China, 11 February 2003'
+  url: https://www.who.int/emergencies/disease-outbreak-news/item/2003_02_11-en
+  document_class: primary_text (official notice)
+  read: full
+  sha256: 1dc5caeb43c1ee00c0b2a8ea55ff0c56b2239dfce81b53771abc50c4c8d28191
+  file_in_research_set: o4/src/WHO_DON_2003_02_11.html
+  authenticity:
+    status: authenticated
+    strength: moderate
+    provenance: WHO host.
+    tests:
+    - Official host and date [read]
+    tested_by: Strata session, 2026-10-05
+    gaps: []
+    checked: '2026-10-05'
+- id: src-who-sars-alert-2003
+  title: WHO. WHO issues a global alert about cases of atypical pneumonia, 12 March 2003
+  url: https://www.who.int/news/item/12-03-2003-who-issues-a-global-alert-about-cases-of-atypical-pneumonia
+  document_class: primary_text (official notice)
+  read: full
+  sha256: d51a86642f6b411b45631a0c80fa6bb43d6ceb636c3e99300e8a3886e2c4a13e
+  file_in_research_set: o4/src/WHO_SARS_12Mar2003.html
+  authenticity:
+    status: authenticated
+    strength: moderate
+    provenance: WHO host.
+    tests:
+    - Official host and date [read]
+    tested_by: Strata session, 2026-10-05
+    gaps: []
+    checked: '2026-10-05'
+- id: src-who-sars-contained-2003
+  title: WHO. SARS outbreak contained worldwide, 5 July 2003
+  url: https://www.who.int/news/item/05-07-2003-sars-outbreak-contained-worldwide
+  document_class: primary_text (official notice)
+  read: full
+  sha256: 4e1ca7cb0c973073639a151a11ec325ca66ae7e80cdce43dad78dfd3c3daf154
+  file_in_research_set: o4/src/WHO_SARS_5Jul2003.html
+  authenticity:
+    status: authenticated
+    strength: moderate
+    provenance: WHO host.
+    tests:
+    - Official host and date [read]
+    tested_by: Strata session, 2026-10-05
+    gaps: []
+    checked: '2026-10-05'
+- id: src-who-sars-mission-2003
+  title: WHO. Joint mission on SARS animal reservoir and necessary next steps, 21 August 2003
+  url: https://www.who.int/news/item/21-08-2003-joint-mission-on-sars-animal-reservoir-and-necessary-next-steps
+  document_class: primary_text (official notice)
+  read: full
+  sha256: 47c4509d1608078009adaae84eef49e129e06263838dbb7e196a01f7bc8998a9
+  file_in_research_set: o4/src/WHO_SARS_21Aug2003.html
+  authenticity:
+    status: authenticated
+    strength: moderate
+    provenance: WHO host.
+    tests:
+    - Official host and date [read]
+    tested_by: Strata session, 2026-10-05
+    gaps: []
+    checked: '2026-10-05'
+- id: src-cdc-mmwr-sars-2003
+  title: 'CDC. MMWR 52(12): Update, severe acute respiratory syndrome (March 2003; issue date not read; states 31 deaths in Guangdong during November 16, 2002 to February 28, 2003)'
+  url: https://www.cdc.gov/mmwr/preview/mmwrhtml/mm5212a1.htm
+  document_class: primary_text (official bulletin)
+  read: partial (the sentence on Guangdong onset dates read)
+  sha256: 340e9027d52d5aa33d403b3dfc7a9a4b4883d84ed7c7f2c0b29ac92aaedf32cd
+  file_in_research_set: o4/src/CDC_MMWR_SARS_mm5212a1.html
+  authenticity:
+    status: authenticated
+    strength: moderate
+    provenance: CDC host.
+    tests:
+    - Official host [read]
+    tested_by: Strata session, 2026-10-05
+    gaps:
+    - MMWR issue date was not read; the document is from March 2003 per its volume and issue.
+    checked: '2026-10-05'
+- id: src-epmc-sars-abstracts
+  title: Europe PMC records (abstracts) for Peiris et al. Lancet 2003, Drosten et al. NEJM 2003, Guan et al. Science 2003 and Li et al. Science 2005 (SARS coronavirus and horseshoe bats), queried by DOI
+  url: https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI:%2210.1056/NEJMoa030747%22&format=json&resultType=core (one query per DOI)
+  document_class: primary_text (journal records, abstracts only)
+  read: abstract
+  sha256: 879052f4a053a28d247ef35c0e86d7f5ff0d6fd4690d1122d8e3c6ca706f4423
+  file_in_research_set: o4/src/EuropePMC_abstracts_SARS_bats.txt
+  authenticity:
+    status: authenticated
+    strength: moderate
+    provenance: Full-text record from Europe PMC or NCBI; matches the DOI, journal, authors and dates quoted in the dig.
+    tests:
+    - 'Standard journal-record test: record matches DOI, journal, authors and date; correction and retraction links checked in PubMed and Crossref metadata [read]'
+    tested_by: Strata session, 2026-10-05
+    gaps:
+    - Abstracts only.
+    checked: '2026-10-05'
+- id: src-lau-2005
+  title: Lau SKP et al. Severe acute respiratory syndrome coronavirus-like virus in Chinese horseshoe bats. PNAS 2005 (print date 27 Sep 2005)
+  url: https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=1236580&rettype=xml
+  document_class: primary_text (journal article)
+  read: abstract text only
+  sha256: a20cf5e766baf44d8c4532ffebaeeccf14966bba4101c3a7276eb590a440e6ed
+  file_in_research_set: o4/src/PMC1236580_ncbi.xml
+  authenticity:
+    status: authenticated
+    strength: moderate
+    provenance: Full-text record from Europe PMC or NCBI; matches the DOI, journal, authors and dates quoted in the dig.
+    tests:
+    - 'Standard journal-record test: record matches DOI, journal, authors and date; correction and retraction links checked in PubMed and Crossref metadata [read]'
+    tested_by: Strata session, 2026-10-05
+    gaps:
+    - Only the abstract text was used.
+    checked: '2026-10-05'
+- id: src-worobey-2022
+  title: Worobey M et al. The Huanan Seafood Wholesale Market in Wuhan was the early epicenter of the COVID-19 pandemic. Science 377(6609):951-959 (26 Jul 2022 online). DOI 10.1126/science.abp8715. PRE-erratum text
+  url: https://www.ebi.ac.uk/europepmc/webservices/rest/PMC9348750/fullTextXML
+  document_class: primary_text (journal article)
+  read: full (main text, pre-erratum Europe PMC XML). Supplementary tables S1-S18 not read. The 2024 erratum was NOT read.
+  sha256: acf97d477488d00198e6a2766b28d78a0feb6fee4a34f93f614e6e7b520397c7
+  file_in_research_set: o1/src/PMC9348750.xml
+  publication:
+    status: corrected
+    checked: '2026-10-05'
+    date: '2024-03-14'
+    notice: Erratum. Science 383(6688):eadp1133, 14 Mar 2024 (PubMed 38484083; Crossref update type "correction"). The PMC page carries "This article has been corrected."
+    reason: Content of the erratum not read; check before quoting figures.
+  authenticity:
+    status: authenticated
+    strength: moderate
+    provenance: Full-text record from Europe PMC or NCBI; matches the DOI, journal, authors and dates quoted in the dig.
+    tests:
+    - 'Standard journal-record test: record matches DOI, journal, authors and date; correction and retraction links checked in PubMed and Crossref metadata [read]'
+    tested_by: Strata session, 2026-10-05
+    gaps:
+    - 'The Science erratum (383(6688):eadp1133, 14 Mar 2024) was not read: science.org returned 403 and Europe PMC suppresses the erratum full text. Figures may differ in the corrected version.'
+    checked: '2026-10-05'
+- id: src-pekar-2022
+  title: Pekar JE et al. The molecular epidemiology of multiple zoonotic origins of SARS-CoV-2. Science 377(6609):960-966 (26 Jul 2022 online). DOI 10.1126/science.abp8337. PRE-erratum text
+  url: https://www.ebi.ac.uk/europepmc/webservices/rest/PMC9348752/fullTextXML
+  document_class: primary_text (journal article)
+  read: full (main text, pre-erratum Europe PMC XML). Supplement not read. The 2023 erratum was NOT read.
+  sha256: 3cc59311af7e94b6cb6198c0905cefdafaef5d4be5c748d90763f3a65db24b85
+  file_in_research_set: o1/src/PMC9348752.xml
+  publication:
+    status: corrected
+    checked: '2026-10-05'
+    date: '2023-10-13'
+    notice: Erratum. Science 382(6667):eadl0585, 13 Oct 2023 (PubMed 37824677; Crossref "correction").
+    reason: Erratum text not read. Two critics (McCowan; Weissman) say it corrected three coding errors and reduced the Bayes factor for two introductions from about 60 to about 4 (4 and 4.3 respectively).
+  authenticity:
+    status: authenticated
+    strength: moderate
+    provenance: Full-text record from Europe PMC or NCBI; matches the DOI, journal, authors and dates quoted in the dig.
+    tests:
+    - 'Standard journal-record test: record matches DOI, journal, authors and date; correction and retraction links checked in PubMed and Crossref metadata [read]'
+    tested_by: Strata session, 2026-10-05
+    gaps:
+    - The Science erratum (382(6667):eadl0585, 13 Oct 2023) was not read; what it changed is known only from two critics (src-mccowan-2025, src-weissman-ejw-2026).
+    checked: '2026-10-05'
+- id: src-worobey-erratum-record
+  title: 'PubMed record 38484083: Erratum for Worobey et al., Science 383(6688):eadp1133 (14 Mar 2024)'
+  url: https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&id=38484083&retmode=xml
+  document_class: primary_text (journal record only)
+  read: abstract (metadata only; the erratum text was not available)
+  sha256: 91b597bc476e86f2f94f5c69d6eff893751242580444fd5b4ae62aa38cb8d04e
+  file_in_research_set: o1/src/pm38484083.xml
+  authenticity:
+    status: authenticated
+    strength: moderate
+    provenance: Full-text record from Europe PMC or NCBI; matches the DOI, journal, authors and dates quoted in the dig.
+    tests:
+    - 'Standard journal-record test: record matches DOI, journal, authors and date; correction and retraction links checked in PubMed and Crossref metadata [read]'
+    tested_by: Strata session, 2026-10-05
+    gaps:
+    - Metadata only.
+    checked: '2026-10-05'
+- id: src-pekar-erratum-record
+  title: 'PubMed record 37824677: Erratum for Pekar et al., Science 382(6667):eadl0585 (13 Oct 2023)'
+  url: https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&id=37824677&retmode=xml
+  document_class: primary_text (journal record only)
+  read: abstract (metadata only; the erratum text was not available)
+  sha256: 03b915be2b8d80ac0f5984766ee435b7ca3e5d9b5af800419bb866e2efa2b2d4
+  file_in_research_set: o1/src/pm37824677.xml
+  authenticity:
+    status: authenticated
+    strength: moderate
+    provenance: Full-text record from Europe PMC or NCBI; matches the DOI, journal, authors and dates quoted in the dig.
+    tests:
+    - 'Standard journal-record test: record matches DOI, journal, authors and date; correction and retraction links checked in PubMed and Crossref metadata [read]'
+    tested_by: Strata session, 2026-10-05
+    gaps:
+    - Metadata only.
+    checked: '2026-10-05'
+- id: src-liu-2023
+  title: Liu WJ et al. (China CDC). Surveillance of SARS-CoV-2 at the Huanan Seafood Market. Nature 631:402-408 (accelerated preview 5 Apr 2023; version of record 12 Jun 2024). DOI 10.1038/s41586-023-06043-2
+  url: https://www.nature.com/articles/s41586-023-06043-2
+  document_class: primary_text (journal article)
+  read: full (publisher HTML)
+  sha256: f1a15dac76b47b6eab374bb1feb463c71b922880a93ccebeae7ecd30f82267a1
+  file_in_research_set: o1/src/liu_nature.html
+  publication:
+    status: corrected
+    checked: '2026-10-05'
+    date: '2024-06-12'
+    notice: 'Note added in proof inside the article: the accelerated preview reported 73 of 923 samples positive by RT-PCR; the final count is 70 by RT-PCR plus 4 by sequencing (74).'
+    reason: Stated in the article itself. No separate correction, retraction or expression of concern in PubMed or Crossref metadata. The WHO-China report (2021) still carries 73.
+  authenticity:
+    status: authenticated
+    strength: moderate
+    provenance: Publisher page (nature.com) matching DOI, journal and authors; PubMed record 37019149 agrees.
+    tests:
+    - 'Standard journal-record test: record matches DOI, journal, authors and date; correction and retraction links checked in PubMed and Crossref metadata [read]'
+    tested_by: Strata session, 2026-10-05
+    gaps:
+    - Authors state the RT-qPCR assay was not formally verified and that sampling was biased toward wildlife shops and early-case shops.
+    checked: '2026-10-05'
+- id: src-crits-christoph-2024
+  title: Crits-Christoph A et al. Genetic tracing of market wildlife and viruses at the epicenter of the COVID-19 pandemic. Cell 187(19):5468-5482.e11 (2024). DOI 10.1016/j.cell.2024.08.010. NIH author manuscript
+  url: https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=PMC11427129&retmode=xml
+  document_class: primary_text (journal article, author manuscript)
+  read: full (NIH author manuscript; the publisher version was not read, cell.com refused)
+  sha256: 5570c6b54c99d4002654c4ec8112d9d6d8273677adfd28494d5a403860b7bd1c
+  file_in_research_set: o1/src/PMC11427129_efetch.xml
+  authenticity:
+    status: authenticated
+    strength: moderate
+    provenance: Full-text record from Europe PMC or NCBI; matches the DOI, journal, authors and dates quoted in the dig.
+    tests:
+    - 'Standard journal-record test: record matches DOI, journal, authors and date; correction and retraction links checked in PubMed and Crossref metadata [read]'
+    tested_by: Strata session, 2026-10-05
+    gaps:
+    - Author manuscript, not the publisher version of record; wording could differ.
+    checked: '2026-10-05'
+- id: src-bloom-2023
+  title: Bloom JD. Association between SARS-CoV-2 and metagenomic content of samples from the Huanan Seafood Market. Virus Evolution 9(2):vead050 (24 Aug 2023). DOI 10.1093/ve/vead050
+  url: https://www.ebi.ac.uk/europepmc/webservices/rest/PMC11314060/fullTextXML
+  document_class: primary_text (journal article)
+  read: full
+  sha256: 1528dde4ee79b30952c56b2d7cf07f729fc76de0fc7036b5638e951df9f7760e
+  file_in_research_set: o1/src/PMC11314060.xml
+  authenticity:
+    status: authenticated
+    strength: moderate
+    provenance: Full-text record from Europe PMC or NCBI; matches the DOI, journal, authors and dates quoted in the dig.
+    tests:
+    - 'Standard journal-record test: record matches DOI, journal, authors and date; correction and retraction links checked in PubMed and Crossref metadata [read]'
+    tested_by: Strata session, 2026-10-05
+    gaps: []
+    checked: '2026-10-05'
+- id: src-bloom-2021
+  title: Bloom JD. Recovery of deleted deep sequencing data sheds more light on the early Wuhan SARS-CoV-2 epidemic. Mol Biol Evol 38(12):5211-5224 (2021). DOI 10.1093/molbev/msab246
+  url: https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=8436388&retmode=xml
+  document_class: primary_text (journal article)
+  read: full
+  sha256: 415b431258ec17aa73584cfbfac0c8439f813bfb1f66b79c383a5f09c71447ee
+  file_in_research_set: o2/papers/Bloom2021_MBE_PMC8436388.xml
+  publication:
+    status: corrected
+    checked: '2026-10-05'
+    date: '2023'
+    notice: 'Correction to: Recovery of deleted deep sequencing data... Mol Biol Evol, msad201 (PMID 37772800).'
+    reason: Correction text is an image in the PMC record and was not read; figures from the paper are as originally published.
+  authenticity:
+    status: authenticated
+    strength: moderate
+    provenance: Full-text record from Europe PMC or NCBI; matches the DOI, journal, authors and dates quoted in the dig.
+    tests:
+    - 'Standard journal-record test: record matches DOI, journal, authors and date; correction and retraction links checked in PubMed and Crossref metadata [read]'
+    tested_by: Strata session, 2026-10-05
+    gaps:
+    - A 2023 correction exists (Mol Biol Evol msad201); it is an image in the PMC record and was not read.
+    checked: '2026-10-05'
+- id: src-bloom-2021-correction
+  title: 'Correction to: Bloom JD (2021), Mol Biol Evol, msad201 (PMC10540883)'
+  url: https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=10540883&retmode=xml
+  document_class: primary_text (journal correction notice)
+  read: not read (the text is an image in the record; only the metadata was read)
+  sha256: dab7aa1d1173d30c6873f52ca9bef8fb38cfee15b426ed1b550eabf338f63ea4
+  file_in_research_set: o2/papers/Bloom2023_Correction_PMC10540883.xml
+  authenticity:
+    status: authenticated
+    strength: moderate
+    provenance: Full-text record from Europe PMC or NCBI; matches the DOI, journal, authors and dates quoted in the dig.
+    tests:
+    - 'Standard journal-record test: record matches DOI, journal, authors and date; correction and retraction links checked in PubMed and Crossref metadata [read]'
+    tested_by: Strata session, 2026-10-05
+    gaps:
+    - Text not read.
+    checked: '2026-10-05'
+- id: src-stoyan-chiu-2023
+  title: Stoyan D, Chiu SN. Statistical review of "The Huanan Seafood Wholesale Market in Wuhan was the early epicenter..." arXiv 2208.10106 v2 (22 Nov 2023); published as J R Stat Soc A 187(3):710-719 (2024), DOI 10.1093/jrsssa/qnad139
+  url: https://arxiv.org/pdf/2208.10106
+  document_class: primary_text (preprint of a published critique)
+  read: full (arXiv v2); the published JRSSA version was NOT read (academic.oup.com refused)
+  sha256: 0bfa8c7aa76ca628a1667f7d5ea2bd9d5fe945c39e9ede32c608b5aa98d9ca83
+  file_in_research_set: o1/src/arxiv_2208.10106.pdf
+  authenticity:
+    status: authenticated
+    strength: moderate
+    provenance: arXiv record; the published version is listed in Crossref (DOI 10.1093/jrsssa/qnad139) with an abstract that matches the preprint abstract.
+    tests:
+    - Crossref abstract of the published version matches the arXiv v2 conclusions [read]
+    tested_by: Strata session, 2026-10-05
+    gaps:
+    - Published version not read; wording may differ from the preprint.
+    checked: '2026-10-05'
+- id: src-weissman-2024
+  title: Weissman MB. Letter on the Worobey et al. spatial analysis. arXiv 2401.08680 v5 (20 May 2024), including an addendum not in the published letter; published as J R Stat Soc A 187(3):720-722 (2024), DOI 10.1093/jrsssa/qnae021
+  url: https://arxiv.org/pdf/2401.08680
+  document_class: primary_text (preprint of a published critique)
+  read: full (arXiv v5); the published JRSSA letter was NOT read
+  sha256: 96235ca22f6132b11195da051a1ab8f25d9a82d71971a863cb071f2e673fab66
+  file_in_research_set: o1/src/arxiv_2401.08680.pdf
+  authenticity:
+    status: authenticated
+    strength: moderate
+    provenance: arXiv record; the published letter is listed in Crossref with an abstract that matches the preprint.
+    tests:
+    - Crossref abstract of the published letter matches the arXiv text [read]
+    tested_by: Strata session, 2026-10-05
+    gaps:
+    - Published letter not read; v5 has an addendum the published letter lacks.
+    checked: '2026-10-05'
+- id: src-debarre-worobey-2024
+  title: Debarre F, Worobey M. Reply to Weissman. arXiv 2405.08040 v1 (13 May 2024)
+  url: https://arxiv.org/html/2405.08040v1
+  document_class: primary_text (preprint, authors' reply)
+  read: full
+  sha256: 1b3b23fa570d1cb4fc7833f76116ed409ef824d40b543b9756bf2358a9ae259f
+  file_in_research_set: o1/src/arxiv_2405.08040v1.html
+  authenticity:
+    status: authenticated
+    strength: moderate
+    provenance: arXiv record by the authors criticised.
+    tests:
+    - arXiv record and authors match those named in the dig [read]
+    tested_by: Strata session, 2026-10-05
+    gaps:
+    - Whether it was published in a journal was not verified.
+    checked: '2026-10-05'
+- id: src-mccowan-2025
+  title: McCowan. Critique of the Pekar et al. Bayes factor. arXiv 2502.20076 v3 (4 Apr 2026)
+  url: https://arxiv.org/html/2502.20076
+  document_class: primary_text (preprint; critic; secondary for the erratum)
+  read: full (arXiv v3). It describes the 2023 erratum; it is a critic, not the erratum.
+  sha256: a2ac86f3d3bf8daedacc57cf1c446c3844f6690c8d07087cf9bf8a54490d6e1b
+  file_in_research_set: o1/src/arxiv_2502.20076.html
+  authenticity:
+    status: authenticated
+    strength: moderate
+    provenance: arXiv record.
+    tests:
+    - arXiv record and version date match [read]
+    tested_by: Strata session, 2026-10-05
+    gaps:
+    - A preprint by a critic. No reply by the Pekar authors was found (search not exhaustive).
+    checked: '2026-10-05'
+- id: src-weissman-ejw-2026
+  title: Weissman MB. Economic Journal Watch 23(1):46-68 (March 2026) on the Pekar et al. analysis
+  url: https://econjwatch.org/file_download/1405/WeissmanMarch2026.pdf?mimetype=pdf
+  document_class: primary_text (journal article; critic; secondary for the erratum)
+  read: full
+  sha256: 67354e866d7260a5a2dbb3b3ea29c505751351930cb5ed27c1faab70dcdd6e1d
+  file_in_research_set: o1/src/weissman_ejw2026.pdf
+  authenticity:
+    status: authenticated
+    strength: moderate
+    provenance: Journal host (econjwatch.org).
+    tests:
+    - Journal host, volume and date match the citation [read]
+    tested_by: Strata session, 2026-10-05
+    gaps:
+    - A critic; the erratum itself was not read. Reports a Bayes factor of about 4.3 where McCowan reports 4.
+    checked: '2026-10-05'
+- id: src-andersen-2020
+  title: Andersen KG, Rambaut A, Lipkin WI, Holmes EC, Garry RF. The proximal origin of SARS-CoV-2. Nature Medicine 26(4):450-452 (17 Mar 2020). DOI 10.1038/s41591-020-0820-9
+  url: https://www.ebi.ac.uk/europepmc/webservices/rest/PMC7095063/fullTextXML
+  document_class: primary_text (journal correspondence)
+  read: full
+  sha256: a899ea0d03d01aef85c1c4d60cd8b76b05e8bbadb5b241d4f042ba898ca005b1
+  file_in_research_set: o1/src/PMC7095063.xml
+  authenticity:
+    status: authenticated
+    strength: moderate
+    provenance: Full-text record from Europe PMC or NCBI; matches the DOI, journal, authors and dates quoted in the dig.
+    tests:
+    - 'Standard journal-record test: record matches DOI, journal, authors and date; correction and retraction links checked in PubMed and Crossref metadata [read]'
+    tested_by: Strata session, 2026-10-05
+    gaps:
+    - No correction, retraction or expression of concern found in PubMed or Crossref metadata (absence in those sources only).
+    checked: '2026-10-05'
+- id: src-virological-398
+  title: Virological.org thread "The proximal origin of SARS-CoV-2" (post timestamp 2020-02-16T23:46:02Z; the text says it has now been published)
+  url: https://virological.org/t/the-proximal-origin-of-sars-cov-2/398.json
+  document_class: primary_text (preprint post)
+  read: full
+  sha256: b13096aa7bd6e85594e7f9683b1bc95479a6945168ea89f480633903bc2025e9
+  file_in_research_set: o4/src/virological_398.json
+  authenticity:
+    status: authenticated
+    strength: moderate
+    provenance: Site JSON API, post and timestamps.
+    tests:
+    - Post text links the published Nature Medicine DOI [read]
+    tested_by: Strata session, 2026-10-05
+    gaps:
+    - The 16 Feb timestamp predates the published version the post mentions; the post may have been edited.
+    checked: '2026-10-05'
+- id: src-virological-319
+  title: Virological.org thread "Novel 2019 coronavirus genome" (text dated 10 January 2020; post created 2020-01-11T01:05:33Z)
+  url: https://virological.org/t/novel-2019-coronavirus-genome/319.json
+  document_class: primary_text (genome release post)
+  read: full
+  sha256: 72143afb4e2cdddf1800aad060e6ee4cc0753e3549a1c5b593ed61c0a5467037
+  file_in_research_set: o4/src/virological_319.json
+  authenticity:
+    status: authenticated
+    strength: moderate
+    provenance: Site JSON API.
+    tests:
+    - Post text names GenBank MN908947 [read]
+    tested_by: Strata session, 2026-10-05
+    gaps:
+    - Text date 10 Jan and timestamp 11 Jan differ (time zone not established).
+    checked: '2026-10-05'
+- id: src-andersen-testimony-2023
+  title: Dr Kristian Andersen, written testimony to the House Select Subcommittee on the Coronavirus Pandemic (corrected version; hearing of 11 July 2023)
+  url: https://oversight.house.gov/wp-content/uploads/2023/07/Dr.-Kristian-Andersen-Written-Testimony-Corrected-Version-1.pdf
+  document_class: primary_text (sworn testimony text; witness's own account)
+  read: full text; embedded images of emails (8 and 12 Feb 2020) not extracted
+  sha256: bf6970be7189270a11e7071bb7229b610ad7b07aba14ed93491970d71d24357b
+  file_in_research_set: o1/src/andersen_written_testimony_2023.pdf
+  authenticity:
+    status: authenticated
+    strength: moderate
+    provenance: House Oversight host.
+    tests:
+    - Official host [read]
+    tested_by: Strata session, 2026-10-05
+    gaps:
+    - The witness's own account of his messages; email images not read.
+    checked: '2026-10-05'
+- id: src-house-proximal-hearing-2023
+  title: House Select Subcommittee on the Coronavirus Pandemic, hearing transcript, 11 July 2023 (Proximal Origin)
+  url: https://docs.house.gov/meetings/VC/VC00/20230711/116185/HHRG-118-VC00-Transcript-20230711.pdf
+  document_class: primary_text (hearing transcript)
+  read: full text; searched and read for the quoted exchanges
+  sha256: c454802b2e60b1b2dcfcea1b67f096b66f9bf6084f0b634b7b4e1f516ffd3785
+  file_in_research_set: o1/src/house_proximal_hearing_transcript.pdf
+  authenticity:
+    status: authenticated
+    strength: strong
+    provenance: docs.house.gov, the House's own document host.
+    tests:
+    - Official host and event id [read]
+    tested_by: Strata session, 2026-10-05
+    gaps:
+    - Members' quotations of the early-2020 messages were not compared with the original messages.
+    checked: '2026-10-05'
+- id: src-hsgac-slack-2026
+  title: Senate HSGAC (Chairman Rand Paul) release of Slack messages among Proximal Origin authors, volume 1 (Bates SLACK_000249 and SLACK_001213 onward); volume 2 file hsgac_slack-drop-pm.pdf (about 62,000 text lines, 2020-04 to 2022-06) was searched, not read in full. Release page dated 22 July 2026
+  url: 'https://www.hsgac.senate.gov/wp-content/uploads/slack-drop-AM.pdf (volume 2: https://www.hsgac.senate.gov/wp-content/uploads/slack-drop-pm.pdf; release page: https://www.hsgac.senate.gov/media/reps/new-doc-drop-slack-messages-reveal-proximal-origin-authors-privately-doubted-the-science-behind-their-own-paper-coordinated-with-intelligence-community-and-nih/)'
+  document_class: primary_text (released messages; chairman-selected)
+  read: 'partial: the messages quoted in the dig were read; volume 2 searched by keyword only'
+  sha256: d19363233e3659550dd2037f5b86e48ce0e86b7d5047a28fece6f0a986edeb48
+  file_in_research_set: o1/src/hsgac_slack-drop-AM.pdf
+  authenticity:
+    status: unchecked
+    provenance: Released by a committee chairman's office; selection and completeness unknown. No capture by a party independent of the releasing office.
+    gaps:
+    - No independent capture or platform record.
+    - The earliest message in these files is April 2020, so the January-February 2020 drafting period is not covered.
+    - The press release framing is partisan and is not relied on.
+    next_step: Compare with the originals in the House Select Subcommittee release or in litigation records, or with the authors' own copies.
+    checked: '2026-10-05'
+- id: src-huang-2020
+  title: Huang C et al. Clinical features of patients infected with 2019 novel coronavirus in Wuhan, China. Lancet 395(10223):497-506 (24 Jan 2020). DOI 10.1016/s0140-6736(20)30183-5
+  url: https://www.ebi.ac.uk/europepmc/webservices/rest/PMC7159299/fullTextXML
+  document_class: primary_text (journal article)
+  read: full
+  sha256: a9312bac9d699021879a9d169c91fceddece0ebbdc823fe671503889da5449bf
+  file_in_research_set: o1/src/PMC7159299.xml
+  authenticity:
+    status: authenticated
+    strength: moderate
+    provenance: Full-text record from Europe PMC or NCBI; matches the DOI, journal, authors and dates quoted in the dig.
+    tests:
+    - 'Standard journal-record test: record matches DOI, journal, authors and date; correction and retraction links checked in PubMed and Crossref metadata [read]'
+    tested_by: Strata session, 2026-10-05
+    gaps:
+    - The paper gives 30 Dec in Results and 31 Dec in Methods for the epidemiological alert (internal inconsistency).
+    checked: '2026-10-05'
+- id: src-chen-2020
+  title: Chen N et al. Epidemiological and clinical characteristics of 99 cases of 2019 novel coronavirus pneumonia in Wuhan, China. Lancet 395(10223):507-513 (30 Jan 2020). DOI 10.1016/s0140-6736(20)30211-7
+  url: https://www.ebi.ac.uk/europepmc/webservices/rest/PMC7135076/fullTextXML
+  document_class: primary_text (journal article)
+  read: full
+  sha256: e6c26dc1e603116d401279e1ad5801d7dae1484281d12df74beff31f692415c0
+  file_in_research_set: o1/src/PMC7135076.xml
+  authenticity:
+    status: authenticated
+    strength: moderate
+    provenance: Full-text record from Europe PMC or NCBI; matches the DOI, journal, authors and dates quoted in the dig.
+    tests:
+    - 'Standard journal-record test: record matches DOI, journal, authors and date; correction and retraction links checked in PubMed and Crossref metadata [read]'
+    tested_by: Strata session, 2026-10-05
+    gaps: []
+    checked: '2026-10-05'
+- id: src-li-2020
+  title: Li Q et al. Early transmission dynamics in Wuhan, China, of novel coronavirus-infected pneumonia. N Engl J Med 382:1199-1207 (2020). DOI 10.1056/nejmoa2001316
+  url: https://www.ebi.ac.uk/europepmc/webservices/rest/PMC7121484/fullTextXML
+  document_class: primary_text (journal article)
+  read: full
+  sha256: 1712c1aec45306fd0062696d8c5c6ccf2a31b41e73be40d6b5c4932a80f9043c
+  file_in_research_set: o1/src/PMC7121484.xml
+  authenticity:
+    status: authenticated
+    strength: moderate
+    provenance: Full-text record from Europe PMC or NCBI; matches the DOI, journal, authors and dates quoted in the dig.
+    tests:
+    - 'Standard journal-record test: record matches DOI, journal, authors and date; correction and retraction links checked in PubMed and Crossref metadata [read]'
+    tested_by: Strata session, 2026-10-05
+    gaps: []
+    checked: '2026-10-05'
+- id: src-wu-2020
+  title: Wu F et al. A new coronavirus associated with human respiratory disease in China. Nature (3 Feb 2020)
+  url: https://www.ebi.ac.uk/europepmc/webservices/rest/PMC7094943/fullTextXML
+  document_class: primary_text (journal article)
+  read: full
+  sha256: b944128b4b49178824b25f484a99dc2957007100a56190fd5f2e030ee1942469
+  file_in_research_set: o4/src/PMC7094943.xml
+  authenticity:
+    status: authenticated
+    strength: moderate
+    provenance: Full-text record from Europe PMC or NCBI; matches the DOI, journal, authors and dates quoted in the dig.
+    tests:
+    - 'Standard journal-record test: record matches DOI, journal, authors and date; correction and retraction links checked in PubMed and Crossref metadata [read]'
+    tested_by: Strata session, 2026-10-05
+    gaps: []
+    checked: '2026-10-05'
+- id: src-zhou-2020-ratg13
+  title: Zhou P et al. A pneumonia outbreak associated with a new coronavirus of probable bat origin. Nature (3 Feb 2020; received 20 Jan, accepted 29 Jan 2020). DOI 10.1038/s41586-020-2012-7
+  url: https://www.ebi.ac.uk/europepmc/webservices/rest/PMC7095418/fullTextXML
+  document_class: primary_text (journal article)
+  read: full
+  sha256: b82a679b0dbce6b4861c0ffb55370fe40428f9fe17948a21cb92f0ed246ea667
+  file_in_research_set: o2/papers/Zhou2020_Nature_RaTG13_PMC7095418.xml
+  authenticity:
+    status: authenticated
+    strength: moderate
+    provenance: Full-text record from Europe PMC or NCBI; matches the DOI, journal, authors and dates quoted in the dig.
+    tests:
+    - 'Standard journal-record test: record matches DOI, journal, authors and date; correction and retraction links checked in PubMed and Crossref metadata [read]'
+    tested_by: Strata session, 2026-10-05
+    gaps:
+    - The text gives no collection year for RaTG13.
+    checked: '2026-10-05'
+- id: src-zhou-2020-addendum
+  title: 'Zhou P et al. Addendum: A pneumonia outbreak associated with a new coronavirus of probable bat origin. Nature (17 Nov 2020)'
+  url: 'https://www.nature.com/articles/s41586-020-2951-z (text read via Europe PMC/NCBI: https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=9744119&retmode=xml)'
+  document_class: primary_text (journal addendum)
+  read: full
+  sha256: 265530413cc1a42bf47c9a3bda0cee4e6f20d3386199efbebd47641bd73fb59f
+  file_in_research_set: o2/papers/Zhou2020_Addendum_PMC9744119.xml
+  authenticity:
+    status: authenticated
+    strength: moderate
+    provenance: Full-text record from Europe PMC or NCBI; matches the DOI, journal, authors and dates quoted in the dig.
+    tests:
+    - 'Standard journal-record test: record matches DOI, journal, authors and date; correction and retraction links checked in PubMed and Crossref metadata [read]'
+    tested_by: Strata session, 2026-10-05
+    gaps:
+    - The addendum text does not mention "4991", "2013" or a link between the 2012 miners' sera and the RaTG13 sample.
+    checked: '2026-10-05'
+- id: src-temmam-2022
+  title: Temmam S et al. Bats from Laos harbour SARS-CoV-2-related viruses with receptor-binding domains close to SARS-CoV-2. Nature (16 Feb 2022). DOI 10.1038/s41586-022-04532-4
+  url: https://www.nature.com/articles/s41586-022-04532-4
+  document_class: primary_text (journal article)
+  read: full (publisher HTML)
+  sha256: e1be2417dce1e6a024730b38e428a0156163e11bb01638065a05e0e0902b319e
+  file_in_research_set: o2/papers/Temmam2022_Nature_BANAL.html
+  authenticity:
+    status: authenticated
+    strength: moderate
+    provenance: Publisher page matching DOI, journal and authors.
+    tests:
+    - 'Standard journal-record test: record matches DOI, journal, authors and date; correction and retraction links checked in PubMed and Crossref metadata [read]'
+    tested_by: Strata session, 2026-10-05
+    gaps:
+    - Publisher HTML; sampling July 2020 to January 2021 per the paper. The 96.1% RaTG13 figure differs from the 96.2% in Zhou 2020 (not recomputed).
+    checked: '2026-10-05'
+- id: src-genbank-ratg13
+  title: 'GenBank MN996532.1 (and .2): Bat coronavirus RaTG13, complete genome; submitted 27 Jan 2020 by WIV; collection_date 24-Jul-2013; version 2 replaced version 1'
+  url: https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=nuccore&id=MN996532.1&rettype=gb&retmode=text
+  document_class: primary_text (sequence database record)
+  read: full (record)
+  sha256: 33f52d37cf7504bc3b95663822cb1f3bb67fbbb2f62bc221311cb73682990224
+  file_in_research_set: o4/src/MN996532.1.gb
+  authenticity:
+    status: authenticated
+    strength: moderate
+    provenance: NCBI GenBank record from the NCBI efetch service.
+    tests:
+    - Accession, submitter and dates are internally consistent across versions .1 and .2 [read]
+    tested_by: Strata session, 2026-10-05
+    gaps:
+    - Collection date is the submitter's entry; not independently checked.
+    checked: '2026-10-05'
+- id: src-genbank-wh1
+  title: 'GenBank MN908947.1 (.2 and .3 also read): Wuhan-Hu-1; submitted 05-JAN-2020; LOCUS dates 12-JAN-2020 (v1), 14-JAN-2020 (v2), 18-MAR-2020 (v3)'
+  url: https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=nuccore&id=MN908947.1&rettype=gb&retmode=text
+  document_class: primary_text (sequence database record)
+  read: full (record versions 1, 2 and 3)
+  sha256: dd32bc27ad125d02529c82faf4ece0c6840d75ba92ed65388a3fb922a2d8f013
+  file_in_research_set: o4/src/MN908947.1.gb
+  authenticity:
+    status: authenticated
+    strength: moderate
+    provenance: NCBI GenBank records from the NCBI efetch service.
+    tests:
+    - Version history and submitter changes are internally consistent [read]
+    tested_by: Strata session, 2026-10-05
+    gaps:
+    - The submission date is the submitter's entry.
+    checked: '2026-10-05'
+- id: src-whc-notice-2019-12-31
+  title: Wuhan Municipal Health Commission notice on pneumonia cases (page timestamp 2019-12-31 13:38:05; Wayback snapshot of 6 Jan 2020; Chinese original)
+  url: https://web.archive.org/web/20200101000000/http://wjw.wuhan.gov.cn/front/web/showDetail/2019123108989
+  document_class: primary_text (official local notice, Chinese)
+  read: full (Chinese original; glosses are the notes' own)
+  sha256: 29e62d1be822615f2de209286e3e87e5bd49c7cde8b7392a395c5a18534e1f71
+  file_in_research_set: o4/src/WHC_notice_31Dec2019_wayback.html
+  authenticity:
+    status: authenticated
+    strength: moderate
+    provenance: Wayback snapshot of the Wuhan health commission page.
+    tests:
+    - Page timestamp read in the snapshot [read]
+    tested_by: Strata session, 2026-10-05
+    gaps:
+    - Not compared with a copy held by the health commission; the 30 Dec 2019 urgent notice was not read.
+    checked: '2026-10-05'
+- id: src-defuse
+  title: 'EcoHealth Alliance. Project DEFUSE: Defusing the Threat of Bat-borne Coronaviruses (proposal to DARPA PREEMPT HR001118S0017; cover letter 24 Mar 2018; form field "3/27/18"; total requested USD 14,209,245). Internet Archive OCR copy of a file posted by DRASTIC in Sept 2021 (IA item publicdate 2021-09-26)'
+  url: 'https://archive.org/download/project-defuse-defusing-the-threat-of-bat-borne-coronaviruses/main-document-preempt-volume-1-no-ess-hr00118s0017-ecohealth-alliance_djvu.txt (PDF text copy: https://ia801402.us.archive.org/34/items/main-document-preempt-volume-1-no-ess-hr00118s0017-ecohealth-alliance/main-document-preempt-volume-1-no-ess-hr00118s0017-ecohealth-alliance_text.pdf)'
+  document_class: primary_text (grant proposal, third-party copy)
+  read: full for the passages quoted (searched the OCR text; the furin passage was checked in three OCR copies); OCR errors present
+  sha256: 187fb4415399a735550d12603965319b9a2e4939764f6c50e666c86b7b74f7d1
+  file_in_research_set: o2/raw/defuse_ia_main_djvu.txt
+  authenticity:
+    status: authenticated
+    strength: moderate
+    provenance: Third-party copy on the Internet Archive of a file first posted by a volunteer group (DRASTIC) in Sept 2021; not a DARPA or EcoHealth file.
+    tests:
+    - The furin-site sentence is identical in the OCR text, a second OCR copy (watermarked, redacted) and the House Select Subcommittee final report p.113, which quotes it [read]
+    - Partners, budget total and dates match the House report's description of the proposal [read]
+    tested_by: Strata session, 2026-10-05
+    gaps:
+    - Not compared with a DARPA-held or EcoHealth-held file.
+    - OCR text, not the PDF image; a separate OCR entry is the same file here.
+    next_step: Compare with the DARPA or EcoHealth holder copy if released.
+    checked: '2026-10-05'
+- id: src-defuse-drafts
+  title: USGS FOIA release 2021-006245, "EcoHealth DEFUSE Proposal drafts" (1,412 pages; Internet Archive upload of Jan 2024 with the uploader's statement that the document was not vetted; OCR text of 72,293 lines)
+  url: 'https://archive.org/download/2021-006245-combined-records-redacted/2021-006245%20-%20Combined%20Records_Redacted_djvu.txt (metadata: https://archive.org/metadata/2021-006245-combined-records-redacted)'
+  document_class: primary_text (FOIA-released drafts and emails; unvetted)
+  read: 'partial: searched by keyword and the quoted passages read in context; not read in full'
+  sha256: 239bae43f49ee3cf146bbb9b618686335e9b84912c2b13d42ebcd9558f6bab77
+  file_in_research_set: o2/raw/usgs_drafts_djvu.txt
+  authenticity:
+    status: unchecked
+    provenance: Obtained by an X user through FOIA and given to a journalist (per the uploader's description); posted on the Internet Archive. No capture by a party independent of the uploader was compared.
+    gaps:
+    - OCR text only.
+    - Draft comment tags such as [BRS17] are initials; the identity of the commenter is inferred, not stated.
+    - The uploader states the file was not vetted.
+    next_step: Compare with USGS's own FOIA release or the first 235 pages posted by the news organisation that received them.
+    checked: '2026-10-05'
+- id: src-baric-ti-2026
+  title: 'Senate HSGAC (Chairman Paul): transcribed interview of Dr Ralph Baric, 10 April 2026 (released July 2026; cover page "Key Findings" is written by the committee majority and is not used)'
+  url: https://www.paul.senate.gov/wp-content/uploads/2026/07/2026.07.23_UPDATED-FINAL-FINAL_BARIC-TI_Redacted.pdf
+  document_class: primary_text (interview transcript; witness's own account)
+  read: 'partial: pages on the furin cleavage site and BSL-2 read; not read in full'
+  sha256: 1c92d71aa0ab489da09c84a5c31f8684d8d98c2b3610519e336bb5422e647214
+  file_in_research_set: o2/raw/baric_TI.pdf
+  authenticity:
+    status: authenticated
+    strength: moderate
+    provenance: Senate member website hosting the transcript.
+    tests:
+    - Transcript pagination and question-answer format internally consistent [read]
+    tested_by: Strata session, 2026-10-05
+    gaps:
+    - Witness's own account. The committee "Key Findings" cover page is a majority editorial and conflicts in wording with the transcript; the transcript is used.
+    checked: '2026-10-05'
+- id: src-johnson-letter-2022
+  title: Sen. Ron Johnson letter to the Department of Defense, 11 January 2022 (OCR text), relaying a Marine Corps officer's disclosure
+  url: https://archive.org/download/darpa-defuse-proposal-daszak-ecohealth/Ron_Johnson_Letter_01-11-22_djvu.txt
+  document_class: primary_text (congressional letter; allegation)
+  read: full
+  sha256: 9139a9c064e20b5e8df4cb11ada2cd0eadb68d2bdf36203119891c046dea8466
+  file_in_research_set: o2/raw/johnson_letter_djvu.txt
+  authenticity:
+    status: unchecked
+    provenance: Internet Archive OCR copy of a letter; not compared with the Senate file.
+    gaps:
+    - The letter relays a disclosure ("the disclosure alleges"); nothing it alleges was verified.
+    - OCR text.
+    next_step: Obtain the DoD response, if any, and the underlying disclosure.
+    checked: '2026-10-05'
+- id: src-house-sscp-2024
+  title: 'House Select Subcommittee on the Coronavirus Pandemic (majority). After Action Review of the COVID-19 Pandemic: The Lessons Learned and a Path Forward. Final Report, 4 December 2024 (520 numbered pages; 557 PDF pages)'
+  url: https://www.govinfo.gov/content/pkg/GOVPUB-Y4_OV2-PURL-gpo236122/pdf/GOVPUB-Y4_OV2-PURL-gpo236122.pdf (also http://docs.house.gov/meetings/VC/VC00/20241204/117748/HRPT-118-SSCPReport.pdf)
+  document_class: primary_text (committee majority report; adoption)
+  read: 'partial: the origin findings (pp. 1-5), the DEFUSE section (pp. 108-119) and the passages on agency positions were read; the report was not read in full'
+  sha256: 5f816e73a6f0f2f4678fe1854e1a9b62290a169d3882045a1e7a9318012a309f
+  file_in_research_set: o2/raw/house_final_govinfo.pdf
+  authenticity:
+    status: authenticated
+    strength: strong
+    provenance: GPO govinfo and docs.house.gov, official hosts; two copies.
+    tests:
+    - Cover date, title and hearing notice agree across the two House sources [read]
+    tested_by: Strata session, 2026-10-05
+    gaps:
+    - A majority report; not an agency or court finding. Many origin points are sourced to opinion articles (see the dig's claims).
+    checked: '2026-10-05'
+- id: src-house-dem-2024
+  title: House Select Subcommittee Democrats. Final report (3 December 2024)
+  url: https://oversightdemocrats.house.gov/imo/media/doc/SSCP%20Democratic%20Final%20Report.pdf
+  document_class: primary_text (minority report; adoption)
+  read: 'partial: pp. 8-9 on origins and its footnotes read'
+  sha256: c73150f9f955bb9601cc526314c22ecc921851e7d8bdffeee7145c6eef87efb2
+  file_in_research_set: o2/raw/dem_final_report.pdf
+  authenticity:
+    status: authenticated
+    strength: moderate
+    provenance: House Oversight Democrats host.
+    tests:
+    - Official host [read]
+    tested_by: Strata session, 2026-10-05
+    gaps:
+    - A minority staff product.
+    checked: '2026-10-05'
+- id: src-house-release-2025-eha
+  title: 'House Oversight (majority) press release, "BREAKING: HHS formally debars EcoHealth Alliance, Dr. Peter Daszak" (17 January 2025)'
+  url: https://oversight.house.gov/release/breaking-hhs-formally-debars-ecohealth-alliance-dr-peter-daszak-after-covid-select-reveals-pandemic-era-wrongdoing/
+  document_class: primary_text (committee press release)
+  read: full
+  sha256: 2b7c8e763974d416a3da004b15c91e7a3c3850fcc40884ed5df71b36dbe15bda
+  file_in_research_set: o2/raw/oversight_debar_release.html
+  authenticity:
+    status: authenticated
+    strength: moderate
+    provenance: House Oversight host.
+    tests:
+    - Official host and date [read]
+    tested_by: Strata session, 2026-10-05
+    gaps:
+    - A partisan press release; used for the date of the HHS notices and for its own framing sentence, attributed.
+    checked: '2026-10-05'
+- id: src-senate-help-2022
+  title: 'Senate HELP Committee Minority Oversight Staff. An Analysis of the Origins of the COVID-19 Pandemic: Interim Report (October 2022; 35 pages)'
+  url: https://www.help.senate.gov/imo/media/doc/report_an_analysis_of_the_origins_of_covid-19_102722.pdf
+  document_class: primary_text (minority staff report; adoption)
+  read: 'partial: foreword, conclusions (pp. 4, 26), the sections on DEFUSE and the database (pp. 15-19) read'
+  sha256: 6fff3a46d703ded81738b96f3cd061522f21a6273dfe586e5317efe344a48b05
+  file_in_research_set: o2/raw/senate_help_2022.pdf
+  authenticity:
+    status: authenticated
+    strength: moderate
+    provenance: Senate HELP Committee host.
+    tests:
+    - Official host and date in the file [read]
+    tested_by: Strata session, 2026-10-05
+    gaps:
+    - A minority staff interim report, no classified access claimed.
+    checked: '2026-10-05'
+- id: src-marshall-2023
+  title: 'Sen. Roger Marshall (with former HELP minority staff). Muddy Waters: The Origins of COVID-19, Executive Summary (17 April 2023; 21 pages)'
+  url: https://www.marshall.senate.gov/wp-content/uploads/MWG-EXECUTIVE-SUMMARY-4.17-Final-Version.pdf
+  document_class: primary_text (senator's office report; adoption)
+  read: full (executive summary only; the longer Source Reference Document was not opened)
+  sha256: efc7133b78de4afd4b61a96fbbf9bb6536deb56bbbc25964ef6c13c4a5dba688
+  file_in_research_set: o2/raw/muddy_waters_exec.pdf
+  authenticity:
+    status: authenticated
+    strength: moderate
+    provenance: Senator's website.
+    tests:
+    - Official host [read]
+    tested_by: Strata session, 2026-10-05
+    gaps:
+    - An office product, not a committee report.
+    checked: '2026-10-05'
+- id: src-asm-2022
+  title: American Society for Microbiology. ASM responds to Senate HELP report on COVID origin (28 October 2022)
+  url: https://asm.org/Press-Releases/2022/October/ASM-Responds-to-Senate-HELP-Report-on-COVID-Origin
+  document_class: primary_text (society statement; adoption)
+  read: full
+  sha256: 07cb67a0f3804238dd631ec2672fe2a748db7fd44f9b28c47552d34345870c41
+  file_in_research_set: o2/raw/asm_response_help.html
+  authenticity:
+    status: authenticated
+    strength: moderate
+    provenance: Society website.
+    tests:
+    - Official host [read]
+    tested_by: Strata session, 2026-10-05
+    gaps: []
+    checked: '2026-10-05'
+- id: src-china-whitepaper-2025
+  title: 'State Council Information Office of the PRC. Covid-19 Prevention, Control and Origins Tracing: China''s Actions and Stance (white paper, April 2025; English text, six web pages combined)'
+  url: http://english.scio.gov.cn/whitepapers/2025-04/30/content_117854036.html (pages _2 to _6 also read)
+  document_class: primary_text (government white paper; adoption)
+  read: full (English text)
+  sha256: 8d746855d2ffec884cce94abd7a08a45b531412815df67d0978b42e5c85f5a33
+  file_in_research_set: o3/raw/china_whitepaper.txt
+  authenticity:
+    status: authenticated
+    strength: moderate
+    provenance: SCIO English site.
+    tests:
+    - Official host and date (30 April 2025 page date) [read]
+    - The NHC news report of the release (src-nhc-whitepaper-news-2025) quotes the same title and release [read]
+    tested_by: Strata session, 2026-10-05
+    gaps:
+    - Another reader (stream o4) recorded the full text as not read; stream o3 read it. The text file was used here.
+    checked: '2026-10-05'
+- id: src-nhc-whitepaper-news-2025
+  title: National Health Commission (China). News report on the white paper release, 30 April 2025
+  url: https://en.nhc.gov.cn/2025-04/30/c_86427.htm
+  document_class: secondary (official news report)
+  read: full
+  sha256: c917cfbf96bf60dbcbed974094450ed719f017641a085fed2c7cf3b566c24287
+  file_in_research_set: o4/src/CN_NHC_whitepaper_news_30Apr2025.html
+  authenticity:
+    status: authenticated
+    strength: moderate
+    provenance: NHC host.
+    tests:
+    - Official host and date [read]
+    tested_by: Strata session, 2026-10-05
+    gaps: []
+    checked: '2026-10-05'
+- id: src-odni-gabbard-2026
+  title: ODNI. "Fauci Funded Wuhan Lab Research That Sparked COVID" (ODNI Reports page dated 18 June 2026; introduction and links to four release parts and an index)
+  url: https://www.odni.gov/13668/fauci-funded-wuhan-lab-research-that-sparked-covid/
+  document_class: primary_text (official web page; allegations)
+  read: page introduction only. The four release parts and the index were NOT opened.
+  sha256: 1c1e3298dadc7f0cc6b5766b04aa13da64b5c94685167da6cd026b6406416dde
+  file_in_research_set: o4/src/ODNI_Gabbard_page.html
+  authenticity:
+    status: authenticated
+    strength: moderate
+    provenance: ODNI host.
+    tests:
+    - Official host and date [read]
+    tested_by: Strata session, 2026-10-05
+    gaps:
+    - Only the introductory paragraph was read; it contains allegations by the Director of National Intelligence that no document read supports or refutes.
+    checked: '2026-10-05'
+- id: src-cbs-cia-2025
+  title: CBS News (with AP). CIA says COVID likely originated in lab, low-confidence assessment (page datePublished 2025-01-26, updated 27 Jan 2025; release "Saturday", 25 Jan 2025)
+  url: https://www.cbsnews.com/news/cia-covid-likely-originated-lab-low-confidence-assessment/
+  document_class: secondary (news report quoting a CIA spokesperson)
+  read: full (news page); the CIA document was not found or read
+  sha256: 6960883236fd646d7946af21bd988f6e2d50786251ff695695f73f06d2f99231
+  file_in_research_set: o3/raw/secondary_cbs_cia_20250125.html
+  authenticity:
+    status: not_applicable
+    basis: A news report quoting a CIA spokesperson. It is not a CIA document; cia.gov pages guessed in the research stream returned 404.
+- id: src-cnn-wray-2023
+  title: CNN. FBI director says COVID-19 pandemic most likely caused by a potential lab incident in Wuhan (28 Feb 2023; reports a Fox News interview)
+  url: https://www.cnn.com/2023/02/28/politics/wray-fbi-covid-origins-lab-china/index.html
+  document_class: secondary (news report)
+  read: full (news page); the Fox interview and any FBI document were not read
+  sha256: 61a0e73fb78c94d045d5a546a7cc75546ee4e1ced4b335dbea7635a10916b547
+  file_in_research_set: o3/raw/secondary_cnn_wray_20230228.html
+  authenticity:
+    status: not_applicable
+    basis: A news report of an interview. fbi.gov refused this environment. The "moderate confidence" label comes from CNN's 2021 anonymous-source reporting.
+- id: src-npr-doe-2023
+  title: NPR. U.S. Dept. of Energy says, with low confidence, that COVID may have leaked from a lab (28 Feb 2023; relays a Wall Street Journal report of 26 Feb 2023)
+  url: https://www.npr.org/2023/02/28/1160157977/u-s-dept-of-energy-says-with-low-confidence-that-covid-may-have-leaked-from-a-la
+  document_class: secondary (news report)
+  read: full (news page); the Wall Street Journal article and the DOE report were not read
+  sha256: 02192970c44386507e364ec631d909ba80c47babf241a36f1ee00827cb83ae15
+  file_in_research_set: o3/raw/secondary_npr_doe_20230228.html
+  authenticity:
+    status: not_applicable
+    basis: A news report relaying another outlet. The DOE document is classified and was not published.
+- id: src-bpk-2025
+  title: Regierungspressekonferenz of 12 March 2025 (German federal government press conference), transcript
+  url: https://www.bundesregierung.de/breg-de/suche/regierungspressekonferenz-vom-12-maerz-2025-2337700
+  document_class: primary_text (official transcript)
+  read: full for the passage on the BND report (German)
+  sha256: a895b78d0eb946bc471dcd3de3eb034c3543c93e14e5e530bfb681316072db9d
+  file_in_research_set: o3/raw/bpk_20250312.html
+  authenticity:
+    status: authenticated
+    strength: moderate
+    provenance: Federal government host.
+    tests:
+    - Official host and date [read]
+    tested_by: Strata session, 2026-10-05
+    gaps:
+    - Only the passage on the press reports about the BND was used.
+    checked: '2026-10-05'
+- id: src-bt-drucksache-2025
+  title: 'Deutscher Bundestag, Drucksache 20/15143 (21 March 2025): Kleine Anfrage on the supposed findings of the BND on COVID-19 origins'
+  url: https://dserver.bundestag.de/btd/20/151/2015143.pdf
+  document_class: primary_text (parliamentary question)
+  read: full
+  sha256: bdcf064d2900576a705d0aec31a9079ecc901ea1f4a1c6fde2c7169a04f1478d
+  file_in_research_set: o3/raw/bt_drucksache_20_15143.pdf
+  authenticity:
+    status: authenticated
+    strength: moderate
+    provenance: Bundestag host.
+    tests:
+    - Official host and document number [read]
+    tested_by: Strata session, 2026-10-05
+    gaps:
+    - A question, not an answer; it recounts a press report. No government reply was found.
+    checked: '2026-10-05'
+- id: src-tagesspiegel-bnd-2025
+  title: 'Tagesspiegel, 12 March 2025: report on the BND assessment (paywalled; only the lead was readable)'
+  url: https://www.tagesspiegel.de/politik/brisante-bewertung-bisher-geheim-gehalten-bnd-halt-laborunfall-als-ausloser-fur-corona-pandemie-fur-wahrscheinlich-13353190.html
+  document_class: secondary (news report of a press report)
+  read: partial (lead paragraph only)
+  sha256: 078f8d14ea58c3617086c7a2e4800ea3f06e34f9ee2de9ebd50aea10692e563f
+  file_in_research_set: o3/raw/sec_brisante-bewertung-bisher-gehe.html
+  authenticity:
+    status: not_applicable
+    basis: A news report relaying Die Zeit and Suddeutsche Zeitung; the BND document was not read.
+- id: src-nos-bnd-2025
+  title: 'NOS (Dutch public broadcaster), 15 March 2025: report on the BND assessment'
+  url: https://nos.nl/artikel/2559742-ook-duitse-geheime-dienst-denkt-dat-covid-uit-lab-ontsnapte-regering-hield-dat-stil
+  document_class: secondary (tertiary relay of a press report)
+  read: full (news page)
+  sha256: d7e32418723cb817b980aff34a7f20f1893607a0bbeea1ee7833212cbbd0efeb
+  file_in_research_set: o3/raw/sec_2559742-ook-duitse-geheime-die.html
+  authenticity:
+    status: not_applicable
+    basis: A relay of the German reports; not relied on for any claim about the WHO document it mentions.
+- id: src-sciam-shi-2024
+  title: 'Scientific American, reposting Nature news (S. Mallapaty), 6 December 2024: Shi Zhengli''s conference talk on 56 new betacoronavirus genomes'
+  url: https://www.scientificamerican.com/article/wuhan-lab-sequences-reveal-no-close-covid-relatives-virologist-says/
+  document_class: secondary (news report of a talk)
+  read: full (news page); the talk and any paper were not seen
+  sha256: a8efa13982bd1e0c0720ac17a45e32cb8ade2869c271077ff834e7129cfe1950
+  file_in_research_set: o2/raw/sciam_shi_dec2024.html
+  authenticity:
+    status: not_applicable
+    basis: A news report of a pre-recorded conference talk that "has not been peer reviewed"; no peer-reviewed paper with the data was found (limited search).
+- id: src-shi-qa-2020
+  title: IDSA Science Speaks blog quoting Shi Zhengli's answers in Science (31 July 2020)
+  url: https://www.idsociety.org/science-speaks-blog/2020/covid-19-eight-key-factual-statements-from-wuhan-institute-of-virologys-dr.-zhengli-shi
+  document_class: secondary (blog quoting an interview)
+  read: full (blog page); the Science Q&A was not read (science.org refused)
+  sha256: b8ea0c4325eec934f45450153148ee3ce5e9999ebb2732c80ae04cc7340f552c
+  file_in_research_set: o2/raw/sciencespeaks_shi.html
+  authenticity:
+    status: not_applicable
+    basis: A blog quoting an interview; the original in Science was not read.
+- id: src-chan-zhan-2022
+  title: Chan YA, Zhan SH. The emergence of the spike furin cleavage site in SARS-CoV-2. Mol Biol Evol 39(1):msab327 (2022; Perspective). DOI 10.1093/molbev/msab327
+  url: https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=8689951&retmode=xml
+  document_class: interpretive (journal Perspective by authors who publicly favour a lab-related origin)
+  read: full
+  sha256: 56f54e894d5fa0b7a0d7280d92b93a56836ac2bc12b048d97c99aef8892e94a8
+  file_in_research_set: o2/papers/ChanZhan2022_MBE_PMC8689951.xml
+  authenticity:
+    status: authenticated
+    strength: moderate
+    provenance: Full-text record from Europe PMC or NCBI; matches the DOI, journal, authors and dates quoted in the dig.
+    tests:
+    - 'Standard journal-record test: record matches DOI, journal, authors and date; correction and retraction links checked in PubMed and Crossref metadata [read]'
+    tested_by: Strata session, 2026-10-05
+    gaps:
+    - A Perspective by authors who are public proponents of the lab-related hypothesis.
+    checked: '2026-10-05'
+- id: src-coutard-2020
+  title: Coutard B et al. The spike glycoprotein of the new coronavirus 2019-nCoV contains a furin-like cleavage site absent in CoV of the same clade. Antiviral Res 176:104742 (2020)
+  url: https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=7114094&retmode=xml
+  document_class: primary_text (journal article)
+  read: full
+  sha256: 5ca8aa122a5547a1df5fb00db299862bff4dbdc400d985f6fed87f280b25a879
+  file_in_research_set: o2/papers/Coutard2020_AntiviralRes_PMC7114094.xml
+  authenticity:
+    status: authenticated
+    strength: moderate
+    provenance: Full-text record from Europe PMC or NCBI; matches the DOI, journal, authors and dates quoted in the dig.
+    tests:
+    - 'Standard journal-record test: record matches DOI, journal, authors and date; correction and retraction links checked in PubMed and Crossref metadata [read]'
+    tested_by: Strata session, 2026-10-05
+    gaps: []
+    checked: '2026-10-05'
+- id: src-hoffmann-2020
+  title: Hoffmann M et al. A multibasic cleavage site in the spike protein of SARS-CoV-2 is essential for infection of human lung cells. Mol Cell 78:779-784 (2020)
+  url: https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=7194065&retmode=xml
+  document_class: primary_text (journal article)
+  read: full
+  sha256: 6a4904da3392a315b9d5af6f9c0966f181acce4e639a6209450512a44fbd65af
+  file_in_research_set: o2/papers/Hoffmann2020_MolCell_PMC7194065.xml
+  authenticity:
+    status: authenticated
+    strength: moderate
+    provenance: Full-text record from Europe PMC or NCBI; matches the DOI, journal, authors and dates quoted in the dig.
+    tests:
+    - 'Standard journal-record test: record matches DOI, journal, authors and date; correction and retraction links checked in PubMed and Crossref metadata [read]'
+    tested_by: Strata session, 2026-10-05
+    gaps: []
+    checked: '2026-10-05'
+- id: src-johnson-2021-fcs
+  title: Johnson BA et al. Loss of furin cleavage site attenuates SARS-CoV-2 pathogenesis. Nature 591:293-299 (2021)
+  url: https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=8175039&retmode=xml
+  document_class: primary_text (journal article)
+  read: full
+  sha256: 3ddc20e88fa033df7a2cd9d3de9b5dc50fea7de750214532cb96390895888dd5
+  file_in_research_set: o2/papers/Johnson2021_Nature_PMC8175039.xml
+  authenticity:
+    status: authenticated
+    strength: moderate
+    provenance: Full-text record from Europe PMC or NCBI; matches the DOI, journal, authors and dates quoted in the dig.
+    tests:
+    - 'Standard journal-record test: record matches DOI, journal, authors and date; correction and retraction links checked in PubMed and Crossref metadata [read]'
+    tested_by: Strata session, 2026-10-05
+    gaps: []
+    checked: '2026-10-05'
+- id: src-peacock-2021
+  title: Peacock TP et al. The furin cleavage site in the SARS-CoV-2 spike protein is required for transmission in ferrets. Nat Microbiol 6:899-909 (2021)
+  url: https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=7619196&retmode=xml
+  document_class: primary_text (journal article)
+  read: full
+  sha256: ff0d2f0a3831ef5733da188579e31a3c03f032f87a01551ce93efdef9257179c
+  file_in_research_set: o2/papers/Peacock2021_NatMicro_PMC7619196.xml
+  authenticity:
+    status: authenticated
+    strength: moderate
+    provenance: Full-text record from Europe PMC or NCBI; matches the DOI, journal, authors and dates quoted in the dig.
+    tests:
+    - 'Standard journal-record test: record matches DOI, journal, authors and date; correction and retraction links checked in PubMed and Crossref metadata [read]'
+    tested_by: Strata session, 2026-10-05
+    gaps: []
+    checked: '2026-10-05'
+- id: src-wu-zhao-2021
+  title: Wu Y, Zhao S. Furin cleavage sites naturally occur in coronaviruses. Stem Cell Res 50:102115 (2021)
+  url: https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=7836551&retmode=xml
+  document_class: primary_text (journal article)
+  read: full
+  sha256: ad0ba087dd3eb2af8b716995d437d521d085f944b8e364b19d3c87374e2b73af
+  file_in_research_set: o2/papers/WuZhao2021_StemCellRes_PMC7836551.xml
+  authenticity:
+    status: authenticated
+    strength: moderate
+    provenance: Full-text record from Europe PMC or NCBI; matches the DOI, journal, authors and dates quoted in the dig.
+    tests:
+    - 'Standard journal-record test: record matches DOI, journal, authors and date; correction and retraction links checked in PubMed and Crossref metadata [read]'
+    tested_by: Strata session, 2026-10-05
+    gaps: []
+    checked: '2026-10-05'
+- id: src-zhou-2020-rmyn02
+  title: Zhou H et al. A novel bat coronavirus closely related to SARS-CoV-2 contains natural insertions at the S1/S2 cleavage site of the spike protein. Curr Biol 30:2196-2203 (2020)
+  url: https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=7211627&retmode=xml
+  document_class: primary_text (journal article)
+  read: full
+  sha256: 1a18084ebff2fce0cb12ecf39a52727f6df417cb2b65903b59dde4e691943b0d
+  file_in_research_set: o2/papers/Zhou2020_RmYN02_CurrBiol_PMC7211627.xml
+  authenticity:
+    status: authenticated
+    strength: moderate
+    provenance: Full-text record from Europe PMC or NCBI; matches the DOI, journal, authors and dates quoted in the dig.
+    tests:
+    - 'Standard journal-record test: record matches DOI, journal, authors and date; correction and retraction links checked in PubMed and Crossref metadata [read]'
+    tested_by: Strata session, 2026-10-05
+    gaps: []
+    checked: '2026-10-05'
+- id: src-alwine-2024
+  title: Alwine J, Goodrum F, et al. The harms of promoting the lab leak hypothesis for SARS-CoV-2 origins without evidence. J Virol (2024; commentary). DOI 10.1128/jvi.01240-24
+  url: https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=11406950&retmode=xml
+  document_class: interpretive (journal commentary)
+  read: full
+  sha256: d1594b28ab8bdf2de17f145cbf9a8c6ceffc1c562210ee6e9d647b35b22d44b2
+  file_in_research_set: o2/papers/Bloom2024_JVI_harms_PMC11406950.xml
+  authenticity:
+    status: authenticated
+    strength: moderate
+    provenance: Full-text record from Europe PMC or NCBI; matches the DOI, journal, authors and dates quoted in the dig.
+    tests:
+    - 'Standard journal-record test: record matches DOI, journal, authors and date; correction and retraction links checked in PubMed and Crossref metadata [read]'
+    tested_by: Strata session, 2026-10-05
+    gaps:
+    - A commentary signed by a group of virologists; not a data paper. File name in the research set says Bloom2024 but the article is by Alwine, Goodrum et al.
+    checked: '2026-10-05'
+- id: src-menachery-2015
+  title: Menachery VD et al. A SARS-like cluster of circulating bat coronaviruses shows potential for human emergence. Nat Med 21:1508-1513 (9 Nov 2015)
+  url: https://www.ebi.ac.uk/europepmc/webservices/rest/PMC4797993/fullTextXML
+  document_class: primary_text (journal article)
+  read: abstract text only
+  sha256: d5180a0e07413b21729aeba5c357cc8253629ae5ebd040066fdeee673278216d
+  file_in_research_set: o4/src/PMC4797993.xml
+  authenticity:
+    status: authenticated
+    strength: moderate
+    provenance: Full-text record from Europe PMC or NCBI; matches the DOI, journal, authors and dates quoted in the dig.
+    tests:
+    - 'Standard journal-record test: record matches DOI, journal, authors and date; correction and retraction links checked in PubMed and Crossref metadata [read]'
+    tested_by: Strata session, 2026-10-05
+    gaps:
+    - Abstract text only.
+    checked: '2026-10-05'
+- id: src-hu-2017
+  title: Hu B et al. Discovery of a rich gene pool of bat SARS-related coronaviruses provides new insights into the origin of SARS coronavirus. PLoS Pathog 13(11):e1006698 (30 Nov 2017; received 10 Feb, accepted 17 Oct 2017)
+  url: https://www.ebi.ac.uk/europepmc/webservices/rest/PMC5708621/fullTextXML
+  document_class: primary_text (journal article)
+  read: abstract text only
+  sha256: 8d0d4c5d501c3fb73ceb444fa0f0d42cf693b1427ca77f4aa5a290a37e734257
+  file_in_research_set: o4/src/PMC5708621.xml
+  authenticity:
+    status: authenticated
+    strength: moderate
+    provenance: Full-text record from Europe PMC or NCBI; matches the DOI, journal, authors and dates quoted in the dig.
+    tests:
+    - 'Standard journal-record test: record matches DOI, journal, authors and date; correction and retraction links checked in PubMed and Crossref metadata [read]'
+    tested_by: Strata session, 2026-10-05
+    gaps:
+    - Abstract text only.
+    checked: '2026-10-05'
+- id: src-ge-2013
+  title: Ge XY et al. Isolation and characterization of a bat SARS-like coronavirus that uses the ACE2 receptor. Nature 503:535-538 (30 Oct 2013)
+  url: https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=5389864&rettype=xml
+  document_class: primary_text (journal article)
+  read: summary text only
+  sha256: 5648bd614e44f2b16677936c064fe5fea730d5410a1769be169ac787fcf73dec
+  file_in_research_set: o4/src/PMC5389864_ncbi.xml
+  authenticity:
+    status: authenticated
+    strength: moderate
+    provenance: Full-text record from Europe PMC or NCBI; matches the DOI, journal, authors and dates quoted in the dig.
+    tests:
+    - 'Standard journal-record test: record matches DOI, journal, authors and date; correction and retraction links checked in PubMed and Crossref metadata [read]'
+    tested_by: Strata session, 2026-10-05
+    gaps:
+    - Summary text only.
+    checked: '2026-10-05'
+- id: src-oig-2023
+  title: HHS Office of Inspector General. National Institutes of Health and EcoHealth Alliance Did Not Effectively Monitor Awards and Subawards (A-05-21-00025; dated January 2023)
+  url: https://oig.hhs.gov/documents/audit/7905/A-05-21-00025-Complete%20Report.pdf
+  document_class: primary_text (official audit)
+  read: partial (title page, date and summary read)
+  sha256: 47d3f4c08cd53a1c74601a4c9ec6d68da0bf80d4b53f8ac3ca1bad3470b4ef3a
+  file_in_research_set: o4/src/OIG_A-05-21-00025.pdf
+  authenticity:
+    status: authenticated
+    strength: strong
+    provenance: HHS-OIG host.
+    tests:
+    - Official host and report number [read]
+    tested_by: Strata session, 2026-10-05
+    gaps:
+    - Read for the date and the phrase about the grant termination only.
+    checked: '2026-10-05'
+- id: src-nih-eha-2022-08-19
+  title: 'NIH letter to EcoHealth Alliance, 19 August 2022: termination of the WIV subaward for material non-compliance (copy in a House Oversight production)'
+  url: https://oversight.house.gov/wp-content/uploads/2022/08/NIH-EHA-Production-8.19.22.pdf
+  document_class: primary_text (official letter)
+  read: partial (date and the termination sentence read)
+  sha256: 40700de81fc85902aa9e9b1952afcebb09e378b0bafecb32781e2b344e58dc23
+  file_in_research_set: o4/src/NIH_EHA_production_19Aug2022.pdf
+  authenticity:
+    status: authenticated
+    strength: moderate
+    provenance: House Oversight host.
+    tests:
+    - Official host [read]
+    tested_by: Strata session, 2026-10-05
+    gaps:
+    - Not compared with an NIH-held file.
+    checked: '2026-10-05'
+- id: src-joint-statement-canada-2021
+  title: Global Affairs Canada, Joint statement on the WHO-convened COVID-19 origins study, 30 March 2021 (Wayback snapshot)
+  url: https://web.archive.org/web/20210401000000/https://www.canada.ca/en/global-affairs/news/2021/03/joint-statement-on-the-who-convened-covid-19-origins-study.html
+  document_class: primary_text (joint government statement)
+  read: full
+  sha256: a43fc2e50c161f736526d7e5246bc20a405d047146d3310f3e4d171bee3ee763
+  file_in_research_set: o4/src/JOINTSTMT_Canada_30Mar2021_wayback.html
+  authenticity:
+    status: authenticated
+    strength: moderate
+    provenance: Wayback snapshot of the Canadian government page.
+    tests:
+    - Text matches the State Department version [read]
+    tested_by: Strata session, 2026-10-05
+    gaps: []
+    checked: '2026-10-05'
+- id: src-joint-statement-japan-2021
+  title: Japan MOFA, Statement on the WHO-convened COVID-19 origins study (31 March 2021; Wayback snapshot)
+  url: https://web.archive.org/web/20210401000000/https://www.mofa.go.jp/press/release/press4e_002990.html
+  document_class: primary_text (joint government statement)
+  read: full
+  sha256: b834dac09e1f5ef077d7c631e69359dd980427a09601c8651c709d08218f8762
+  file_in_research_set: o4/src/JOINTSTMT_Japan_MOFA_31Mar2021_wayback.html
+  authenticity:
+    status: authenticated
+    strength: moderate
+    provenance: Wayback snapshot of the Japanese ministry page.
+    tests:
+    - Text matches the State Department version [read]
+    tested_by: Strata session, 2026-10-05
+    gaps:
+    - Dated 31 March where the State and Canada copies say 30 March.
+    checked: '2026-10-05'

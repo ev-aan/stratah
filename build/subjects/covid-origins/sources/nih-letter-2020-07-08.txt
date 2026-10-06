@@ -1,0 +1,115 @@
+                                                                                        8 July 2020
+
+
+Drs. Aleksei Chmura and Peter Daszak
+EcoHealth Alliance, Inc.
+460 W 34th St
+Suite 1701
+New York, NY 10001
+
+Re: NIH Grant R01AI110964
+
+Dear Drs. Chmura and Daszak:
+
+In follow-up to my previous letter of April 24, 2020, I am writing to notify you that the National
+Institute of Allergy and Infectious Diseases (NIAID), an Institute within the National Institutes
+of Health (NIH), under the Department of Health and Human Services (HHS), has withdrawn its
+termination of grant R01AI110964, which supports the project Understanding the Risk of Bat
+Coronavirus Emergence. Accordingly, the grant is reinstated.
+
+However, as you are aware, the NIH has received reports that the Wuhan Institute of Virology
+(WIV), a subrecipient of EcoHealth Alliance under R01AI110964, has been conducting research
+at its facilities in China that pose serious bio-safety concerns and, as a result, create health and
+welfare threats to the public in China and other countries, including the United States. Grant
+award R01AI110964 is subject to biosafety requirements set forth in the NIH Grants Policy
+Statement (e.g., NIH GPS, Section 4.1.24 “Public Health Security”) and the Notice of Award
+(e.g., requiring that “Research funded under this grant must adhere to the [CDC/NIH Biosafety
+in Microbiological and Biomedical Laboratories (BMBL)].”). Moreover, NIH grant recipients
+are expected to provide safe working conditions for their employees and foster work
+environments conducive to high-quality research. NIH GPS, Section 4. The terms and conditions
+of the grant award flow down to subawards to subrecipients. 45 C.F.R. § 75.101.
+
+As the grantee, EcoHealth Alliance was required to “monitor the activities of the subrecipient as
+necessary to ensure that the subaward is used for authorized purposes, in compliance with
+Federal statutes, regulations, and the terms and conditions of the subaward . . .” 45 C.F.R. §
+75.352(d). We have concerns that WIV has not satisfied safety requirements under the award,
+and that EcoHealth Alliance has not satisfied its obligations to monitor the activities of its
+subrecipient to ensure compliance.
+
+Moreover, as we have informed you through prior Notices of Award, this award is subject to the
+Transparency Act subaward and executive compensation reporting requirement of 2 C.F.R. Part
+170. To date you have not reported any subawards in the Federal Subaward Reporting System.
+
+Therefore, effective the date of this letter, July 8, 2020, NIH is suspending all activities related to
+R01AI110964, until such time as these concerns have been addressed to NIH’s satisfaction. This
+suspension is taken in accordance with 45 C.F.R. § 75.371, Remedies for Noncompliance, which
+permits suspension of award activities in cases of non-compliance, and the NIH GPS, Section
+8.5.2, which permits NIH to take immediate action to suspend a grant when necessary to protect
+the public health and welfare. This action is not appealable in accordance with 42 C.F.R. §
+50.404 and the NIH GPS Section 8.7, Grant Appeals Procedures. However, EcoHealth Alliance
+has the opportunity to provide information and documentation demonstrating that WIV and
+EcoHealth Alliance have satisfied the above-mentioned requirements.
+
+Specifically, to address the NIH’s concerns, EcoHealth must provide the NIH with the following
+information and materials, which must be complete and accurate:
+
+   1. Provide an aliquot of the actual SARS-CoV-2 virus that WIV used to determine the viral
+      sequence.
+   2. Explain the apparent disappearance of Huang Yanling, a scientist / technician who
+      worked in the WIV lab but whose lab web presence has been deleted.
+   3. Provide the NIH with WIV’s responses to the 2018 U.S. Department of State cables
+      regarding safety concerns.
+   4. Disclose and explain out-of-ordinary restrictions on laboratory facilities, as suggested, for
+      example, by diminished cell-phone traffic in October 2019, and the evidence that there
+      may have been roadblocks surrounding the facility from October 14-19, 2019.
+   5. Explain why WIV failed to note that the RaTG13 virus, the bat-derived coronavirus in its
+      collection with the greatest similarity to SARS-CoV-2, was actually isolated from an
+      abandoned mine where three men died in 2012 with an illness remarkably similar to
+      COVID-19, and explain why this was not followed up.
+   6. Additionally, EcoHealth Alliance must arrange for WIV to submit to an outside
+      inspection team charged to review the lab facilities and lab records, with specific
+      attention to addressing the question of whether WIV staff had SARS-CoV-2 in their
+      possession prior to December 2019. The inspection team should be granted full access to
+      review the processes and safety of procedures of all of the WIV field work (including but
+      not limited to collection of animals and biospecimens in caves, abandoned man-made
+      underground cavities, or outdoor sites). The inspection team could be organized by
+      NIAID, or, if preferred, by the U.S. National Academy of Sciences.
+   7. Lastly, EcoHealth Alliance must ensure that all of its subawards are fully reported in the
+      Federal Subaward Reporting System
+
+During this period of suspension, NIH will continue to review the activities under this award,
+taking into consideration information provided by EcoHealth Alliance, to further asses
+compliance by EcoHealth Alliance and WIV, including compliance with other terms and
+conditions of award that may be implicated. Additionally, during the period of suspension,
+EcoHealth Alliance may not allow research under this project to be conducted. Further, no funds
+from grant R01AI110964 may be provided to or expended by EcoHealth Alliance or any
+subrecipients; all such charges are unallowable. It is EcoHealth Alliance’s responsibility as the
+recipient of this grant award to ensure that the terms of this suspension are communicated to and
+understood by all subrecipients. EcoHealth Alliance must provide adequate oversight to ensure
+compliance with the terms of the suspension. Any noncompliance of the terms of this
+suspension must be immediately reported to NIH. Once the original award is reinstated, NIH
+will take additional steps to restrict all funding in the HHS Payment Management System in the
+amount of $369,819. EcoHealth Alliance will receive a revised Notice of Award from NIAID
+indicating the suspension of these research activities and funding restrictions as a specific
+condition of award.
+
+Please note that this action does not preclude NIH from taking additional corrective or
+enforcement actions pursuant to 45 CFR Part 75, including, but not limited to, terminating the
+grant award. NIH may also take other remedies that may be legally available if NIH discovers
+other violations of terms and conditions of award on the part of EcoHealth Alliance or WIV.
+
+.
+
+                                     Sincerely,
+                                                                Digitally signed by Michael S.
+                                        Michael S. Lauer -S Lauer -S
+                                                                Date: 2020.07.08 21:43:41 -04'00'
+
+                                     Michael S Lauer, MD
+                                     NIH Deputy Director for Extramural Research
+                                     Email: Michael.Lauer@nih.gov
+
+
+cc:    Dr. Erik Stemmy
+       Ms. Emily Linde
+
