@@ -6,8 +6,8 @@ label: '31 Dec 2019: Wuhan Municipal Health Commission notice on pneumonia cases
 time: '2019-12-31T12:00:00Z'
 precision: day
 kind: official
-status: reported
-what: The Wuhan Municipal Health Commission's notice (page timestamp 13:38:05, time zone not stated) reports 27 cases of viral pneumonia,
+status: single
+what: The Wuhan Municipal Health Commission's notice (page timestamp 13:38:05, time zone not stated) reports 27 cases of pneumonia,
   7 severe, and says no obvious human-to-human transmission had been found (Chinese original read). A map pin marks where this source
   says something was observed, sampled or reported. It is not a claim about where the virus originated.
 sources:

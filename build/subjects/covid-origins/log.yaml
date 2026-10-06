@@ -182,3 +182,17 @@ log:
       ev-wuhan-notice and ev-market-closed carry status `reported` with one source each, as they did before;
       conformance now warns on this through the nodes, and the status was not changed here. No claim, weight,
       state or assessment changed. Earlier entries are untouched.
+  - id: L-13
+    date: 2026-10-06
+    entry: >
+      CORRECTIONS AFTER REVIEW OF PR #18 (round 1). Blocking: the market-sampling node said environmental and
+      animal sampling ran from 1 January to 2 March 2020; Liu et al. give those dates for environmental sampling
+      only, with animal sampling from 18 January and some stray animals to 30 March. The node now says so.
+      Non-blocking, also fixed: the Thailand node no longer says "confirmed 12 Jan"; WHO says samples tested
+      positive for coronaviruses by RT-PCR on 12 January and gives no date for identifying the novel virus.
+      "Viral" was removed from the Wuhan notice node, because it could not be re-checked against the notice.
+      Map uncertainty widened to 1,700 km for Japan and 400 km for Washington State, so each circle covers the
+      whole country or state. Status corrected from `reported` (2+ sources agree) to `single` for
+      ev-wuhan-notice and ev-market-closed, which each rest on one source; this was inherited from the original
+      events, and the closure itself rests on media reports quoted by WHO. No claim, weight or state changed.
+      Earlier entries are untouched.

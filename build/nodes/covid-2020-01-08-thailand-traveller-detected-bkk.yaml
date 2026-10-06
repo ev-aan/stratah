@@ -2,16 +2,17 @@
 id: covid-2020-01-08-thailand-traveller-detected-bkk
 rev: 1
 type: event
-label: '8 Jan 2020: traveller from Wuhan detected by thermal screening at Bangkok''s Suvarnabhumi Airport (confirmed 12 Jan)'
+label: '8 Jan 2020: traveller from Wuhan detected by thermal screening at Bangkok''s Suvarnabhumi Airport (positive for coronaviruses
+  by RT-PCR 12 Jan)'
 time: '2020-01-08T12:00:00Z'
 precision: day
 kind: official
 status: single
 what: 'WHO''s Disease Outbreak News of 14 Jan 2020: a 61-year-old woman living in Wuhan, with fever from 5 January, flew directly from
   Wuhan to Thailand on 8 January, was detected the same day by thermal surveillance at Suvarnabhumi Airport and hospitalized; samples
-  tested positive by RT-PCR on 12 January. First case confirmed outside China. A first detection partly shows where screening and testing
-  were in place. A map pin marks where this source says something was observed, sampled or reported. It is not a claim about where the
-  virus originated.'
+  tested positive for coronaviruses by RT-PCR on 12 January (the notice gives no date for identifying the novel virus). The first case
+  reported outside China. A first detection partly shows where screening and testing were in place. A map pin marks where this source
+  says something was observed, sampled or reported. It is not a claim about where the virus originated.'
 sources:
 - title: 'WHO. Disease Outbreak News: Novel Coronavirus - Thailand (ex-China), 14 January 2020'
   url: https://www.who.int/emergencies/disease-outbreak-news/item/2020-DON234

@@ -22,7 +22,7 @@ place:
   lat: 47.2868352
   lon: -120.212613
   precision: region
-  uncertainty_km: 300
+  uncertainty_km: 400
   source: OpenStreetMap Nominatim lookup, retrieved 2026-10-06 (a gazetteer, orientation only; not a source for the event); OSM relation
     165479 (Washington, United States).
   note: State-level only; the release gives no county or city.

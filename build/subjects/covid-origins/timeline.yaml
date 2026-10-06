@@ -1324,7 +1324,7 @@ events:
   lane: institutions
   node: covid-2020-01-08-thailand-traveller-detected-bkk
   rev: 1
-  note: "First case confirmed outside China. Different from ev-who-thailand, which is WHO's statement about it."
+  note: "The first case reported outside China. Different from ev-who-thailand, which is WHO's statement about it."
 - id: ev-japan-reported
   panel: dec2019
   lane: institutions

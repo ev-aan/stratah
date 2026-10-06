@@ -6,7 +6,7 @@ label: '1 Jan 2020: Huanan market closed (per media reports cited by WHO)'
 time: '2020-01-01T12:00:00Z'
 precision: day
 kind: official
-status: reported
+status: single
 what: WHO's Disease Outbreak News of 5 Jan 2020 says, citing media reports, that the market was closed on 1 January 2020. No Chinese
   government closure notice was read. A map pin marks where this source says something was observed, sampled or reported. It is not
   a claim about where the virus originated.
