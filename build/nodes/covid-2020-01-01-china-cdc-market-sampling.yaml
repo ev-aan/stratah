@@ -1,0 +1,40 @@
+# Shared node. Append-only: a change is a new `rev` plus a `history` entry, never an overwrite. See build/SCHEMA.md, Nodes.
+id: covid-2020-01-01-china-cdc-market-sampling
+rev: 1
+type: event
+label: '1 Jan to 2 Mar 2020: China CDC samples the Huanan market (74 of 923 environmental samples positive)'
+time: '2020-01-01T12:00:00Z'
+end: '2020-03-02T23:59:00Z'
+precision: range
+kind: data
+status: single
+what: Liu et al. (China CDC, Nature 2023) report environmental sampling in and around the market from 1 January to 2 March 2020; animal
+  sampling began on 18 January, and some stray animals were sampled until 30 March; 74 of 923 environmental samples tested positive
+  for SARS-CoV-2, and of the 64 positives collected inside the market, 56 were in its West Zone. What this pattern means for the origin
+  is disputed in this dig; this node records only where and when the samples were taken. A map pin marks where this source says something
+  was observed, sampled or reported. It is not a claim about where the virus originated.
+sources:
+- title: Liu WJ et al. (China CDC). Surveillance of SARS-CoV-2 at the Huanan Seafood Market. Nature 631:402-408 (accelerated preview
+    5 Apr 2023; version of record 12 Jun 2024). DOI 10.1038/s41586-023-06043-2
+  url: https://www.nature.com/articles/s41586-023-06043-2
+  authenticity: authenticated, moderate (see the dig's sources manifest)
+  origin: src-liu-2023
+  source_type: scholarly
+  access: read
+place:
+  name: Huanan Seafood Wholesale Market, Jianghan District, Wuhan
+  lat: 30.6198794
+  lon: 114.2573779
+  precision: site
+  source: OpenStreetMap Nominatim lookup, retrieved 2026-10-06 (a gazetteer, orientation only; not a source for the event); OSM way
+    764859133 (华南海鲜批发市场, Huanan Seafood Wholesale Market).
+  note: Market centre; the West Zone is not mapped separately because no source read gives its coordinates.
+manifest:
+  subject: covid-origins
+  source: src-liu-2023
+created: '2026-10-06'
+date_basis: stated
+history:
+- rev: 1
+  date: '2026-10-06'
+  change: Created for the covid-origins dig (early-origin Atlas places, owner decision 2026-10-06).

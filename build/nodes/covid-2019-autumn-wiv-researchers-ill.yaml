@@ -1,0 +1,44 @@
+# Shared node. Append-only: a change is a new `rev` plus a `history` entry, never an overwrite. See build/SCHEMA.md, Nodes.
+id: covid-2019-autumn-wiv-researchers-ill
+rev: 1
+type: event
+label: 'Autumn 2019: several WIV researchers reported ill (official wording)'
+time: '2019-10-15T12:00:00Z'
+end: '2019-11-30T00:00:00Z'
+precision: range
+kind: official
+status: reported
+what: The US State Department fact sheet of 15 Jan 2021 says several researchers inside the Wuhan Institute of Virology became sick
+  in autumn 2019 with symptoms consistent with both COVID-19 and common seasonal illnesses; the ODNI report of June 2023 says this information
+  neither supports nor refutes either hypothesis. Neither gives names or dates; the range drawn is a placeholder for 'autumn'. A map
+  pin marks where this source says something was observed, sampled or reported. It is not a claim about where the virus originated.
+sources:
+- title: 'US Department of State, Office of the Spokesperson. Fact Sheet: Activity at the Wuhan Institute of Virology, 15 January 2021
+    (Wayback snapshot of 6 Jan 2022)'
+  url: https://web.archive.org/web/2021/https://2017-2021.state.gov/fact-sheet-activity-at-the-wuhan-institute-of-virology/
+  authenticity: authenticated, moderate (see the dig's sources manifest)
+  origin: src-state-wiv-factsheet-2021
+  source_type: official_record
+  access: read
+- title: ODNI. Potential Links Between the Wuhan Institute of Virology and the Origin of the COVID-19 Pandemic (declassified by DNI
+    Haines 23 Jun 2023; 10 pages; responds to the COVID-19 Origin Act of 2023 per its own text; the statute was not read)
+  url: https://www.dni.gov/files/ODNI/documents/assessments/Report-on-Potential-Links-Between-the-Wuhan-Institute-of-Virology-and-the-Origins-of-COVID-19-20230623.pdf
+  authenticity: authenticated, strong (see the dig's sources manifest)
+  origin: src-odni-2023-wiv
+  source_type: official_record
+  access: read
+place:
+  name: Wuhan Institute of Virology (campus not stated; placed at city level)
+  lat: 30.578891
+  lon: 114.2921197
+  precision: city
+  uncertainty_km: 30
+  source: OpenStreetMap Nominatim lookup, retrieved 2026-10-06 (a gazetteer, orientation only; not a source for the event); OSM relation
+    3076268 (Wuhan city).
+  note: The institute has more than one campus in Wuhan and the sources do not say which, so the pin is the city, not a building.
+created: '2026-10-06'
+date_basis: stated
+history:
+- rev: 1
+  date: '2026-10-06'
+  change: Created for the covid-origins dig from timeline event ev-wiv-illness (same date, kind, status and sources); place added.

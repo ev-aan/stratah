@@ -159,3 +159,40 @@ log:
       is set from this dig's MANIFEST `read` field: true where the manifest records the source as
       read in full or in part (all 13 here), false otherwise. Statements, weights, states and
       positions are unchanged. Earlier entries are untouched.
+  - id: L-12
+    date: 2026-10-06
+    entry: >
+      ATLAS PLACES, EARLY ORIGIN ONLY (owner decision 2026-10-06: early origin period, dots only, no lines
+      between places; variants out of scope). Eight shared nodes added in build/nodes/ (prefix covid-), each with a
+      place whose coordinates come from an OpenStreetMap Nominatim lookup with its OSM id (orientation only, not
+      evidence). Converted to nodes with no change of date, kind, status or sources: ev-wiv-illness (placed at
+      Wuhan city level, because the sources do not say which campus), ev-wuhan-notice (city) and ev-market-closed
+      (market site). Added: ev-market-sampling (Liu et al.: 1 Jan to 2 Mar 2020, 74 of 923 environmental samples
+      positive, 56 of 64 inside positives in the West Zone; the West Zone is not mapped separately), and the first
+      cases reported outside China from official records read on 2026-10-06: Thailand (WHO DON 14 Jan 2020;
+      detected 8 Jan at Suvarnabhumi Airport, confirmed 12 Jan), Japan (WHO DON 16 Jan 2020; the notice names the
+      country only, so the pin is country level), Republic of Korea (WHO DON 21 Jan 2020; detected 19 Jan at
+      Incheon International Airport) and the United States (CDC release 21 Jan 2020; Washington State only). Four
+      new manifest entries; read through a fetch tool, no copies stored and no hashes recorded. Every node says that
+      a pin marks where a source says something was observed, sampled or reported, never where the virus
+      originated, and that first detections partly reflect where screening and testing were in place. Left out on
+      purpose: early-case residence points and any case-density layer (their spatial pattern is disputed in this
+      dig: co-market-pattern), the earliest-vendor case (derived from case locations), the first-hospitalisation
+      event (no source read names the hospital), and anything about laboratory work. Flag for the reviewer:
+      ev-wuhan-notice and ev-market-closed carry status `reported` with one source each, as they did before;
+      conformance now warns on this through the nodes, and the status was not changed here. No claim, weight,
+      state or assessment changed. Earlier entries are untouched.
+  - id: L-13
+    date: 2026-10-06
+    entry: >
+      CORRECTIONS AFTER REVIEW OF PR #18 (round 1). Blocking: the market-sampling node said environmental and
+      animal sampling ran from 1 January to 2 March 2020; Liu et al. give those dates for environmental sampling
+      only, with animal sampling from 18 January and some stray animals to 30 March. The node now says so.
+      Non-blocking, also fixed: the Thailand node no longer says "confirmed 12 Jan"; WHO says samples tested
+      positive for coronaviruses by RT-PCR on 12 January and gives no date for identifying the novel virus.
+      "Viral" was removed from the Wuhan notice node, because it could not be re-checked against the notice.
+      Map uncertainty widened to 1,700 km for Japan and 400 km for Washington State, so each circle covers the
+      whole country or state. Status corrected from `reported` (2+ sources agree) to `single` for
+      ev-wuhan-notice and ev-market-closed, which each rest on one source; this was inherited from the original
+      events, and the closure itself rests on media reports quoted by WHO. No claim, weight or state changed.
+      Earlier entries are untouched.

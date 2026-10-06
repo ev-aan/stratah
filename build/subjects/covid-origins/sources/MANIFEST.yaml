@@ -1653,3 +1653,65 @@ sources:
     gaps:
     - Dated 31 March where the State and Canada copies say 30 March.
     checked: '2026-10-05'
+- id: src-who-don-2020-01-14-thailand
+  title: 'WHO. Disease Outbreak News: Novel Coronavirus - Thailand (ex-China), 14 January 2020'
+  url: https://www.who.int/emergencies/disease-outbreak-news/item/2020-DON234
+  document_class: primary_text (official notice)
+  read: full
+  authenticity:
+    status: authenticated
+    strength: moderate
+    provenance: WHO host.
+    tests:
+    - Official host [read]
+    tested_by: Strata session, 2026-10-06
+    gaps:
+    - Read through a fetch tool on 2026-10-06; no copy is stored and no sha256 was recorded.
+    checked: '2026-10-06'
+- id: src-who-don-2020-01-16-japan
+  title: 'WHO. Disease Outbreak News: Novel Coronavirus - Japan (ex-China), 16 January 2020'
+  url: https://www.who.int/emergencies/disease-outbreak-news/item/2020-DON236
+  document_class: primary_text (official notice)
+  read: full
+  authenticity:
+    status: authenticated
+    strength: moderate
+    provenance: WHO host.
+    tests:
+    - Official host [read]
+    tested_by: Strata session, 2026-10-06
+    gaps:
+    - Read through a fetch tool on 2026-10-06; no copy is stored and no sha256 was recorded.
+    - The notice does not say where in Japan the case was found or lives.
+    checked: '2026-10-06'
+- id: src-who-don-2020-01-21-korea
+  title: 'WHO. Disease Outbreak News: Novel Coronavirus - Republic of Korea (ex-China), 21 January 2020'
+  url: https://www.who.int/emergencies/disease-outbreak-news/item/2020-DON238
+  document_class: primary_text (official notice)
+  read: full
+  authenticity:
+    status: authenticated
+    strength: moderate
+    provenance: WHO host.
+    tests:
+    - Official host [read]
+    tested_by: Strata session, 2026-10-06
+    gaps:
+    - Read through a fetch tool on 2026-10-06; no copy is stored and no sha256 was recorded.
+    checked: '2026-10-06'
+- id: src-cdc-release-2020-01-21
+  title: CDC. First Travel-related Case of 2019 Novel Coronavirus Detected in United States (press release, 21 January 2020; CDC archive)
+  url: https://archive.cdc.gov/www_cdc_gov/media/releases/2020/p0121-novel-coronavirus-travel-case.html
+  document_class: primary_text (official release)
+  read: full
+  authenticity:
+    status: authenticated
+    strength: moderate
+    provenance: CDC's own archive host.
+    tests:
+    - Official host [read]
+    tested_by: Strata session, 2026-10-06
+    gaps:
+    - Read through a fetch tool on 2026-10-06; no copy is stored and no sha256 was recorded.
+    - The release names the state of Washington only; no county or city.
+    checked: '2026-10-06'

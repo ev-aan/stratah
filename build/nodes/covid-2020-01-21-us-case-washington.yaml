@@ -1,0 +1,37 @@
+# Shared node. Append-only: a change is a new `rev` plus a `history` entry, never an overwrite. See build/SCHEMA.md, Nodes.
+id: covid-2020-01-21-us-case-washington
+rev: 1
+type: event
+label: '21 Jan 2020: CDC announces the first US case, in Washington State (returned from Wuhan 15 Jan)'
+time: '2020-01-21T12:00:00Z'
+precision: day
+kind: official
+status: single
+what: 'CDC press release of 21 Jan 2020: a patient in the state of Washington, who returned from Wuhan on 15 January, has confirmed
+  infection. The release names the state only. A first detection partly shows where screening and testing were in place. A map pin marks
+  where this source says something was observed, sampled or reported. It is not a claim about where the virus originated.'
+sources:
+- title: CDC. First Travel-related Case of 2019 Novel Coronavirus Detected in United States (press release, 21 January 2020; CDC archive)
+  url: https://archive.cdc.gov/www_cdc_gov/media/releases/2020/p0121-novel-coronavirus-travel-case.html
+  authenticity: authenticated, moderate (see the dig's sources manifest)
+  origin: src-cdc-release-2020-01-21
+  source_type: official_record
+  access: read
+place:
+  name: Washington State, United States (county not stated in the source)
+  lat: 47.2868352
+  lon: -120.212613
+  precision: region
+  uncertainty_km: 400
+  source: OpenStreetMap Nominatim lookup, retrieved 2026-10-06 (a gazetteer, orientation only; not a source for the event); OSM relation
+    165479 (Washington, United States).
+  note: State-level only; the release gives no county or city.
+manifest:
+  subject: covid-origins
+  source: src-cdc-release-2020-01-21
+created: '2026-10-06'
+date_basis: stated
+history:
+- rev: 1
+  date: '2026-10-06'
+  change: Created for the covid-origins dig (early-origin Atlas places, owner decision 2026-10-06).
