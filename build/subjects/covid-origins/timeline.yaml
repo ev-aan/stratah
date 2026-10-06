@@ -2,7 +2,7 @@ timeline:
   id: covid-origins
   title: Where did SARS-CoV-2 come from? Studies, records and assessments (2002 to 2026)
   as_of: '2026-10-06'
-  note: Times are UTC; most events are known to the day, month or year only. Disputed dates are drawn with a ring at the other date and tagged disputed; they are not resolved here. Government, committee and WHO statements are adoption, not evidence. Events marked single rest on one source; several rest on press reports or documents that were not read and say so. SARS events (2002 to 2005) are orienting background only and lend no weight to any claim about SARS-CoV-2.
+  note: Times are UTC; most events are known to the day, month or year only. Disputed dates are drawn with a ring at the other date and tagged disputed; they are not resolved here. Government, committee and WHO statements are adoption, not evidence. Events marked single rest on one source; several rest on press reports or documents that were not read and say so. SARS events (2002 to 2005) are orienting background only and lend no weight to any claim about SARS-CoV-2. On the map, events with a place are shown on the Atlas map as dots only. A pin marks where a source says something was observed, sampled or reported, never where the virus originated; first detections outside China partly show where screening and testing were in place; the locations of early cases are disputed and are not mapped.
 panels:
 - id: early
   title: 'Panel A: Nov 2002 to Nov 2019 (one tick per two years)'
@@ -592,16 +592,8 @@ events:
 - id: ev-wiv-illness
   panel: early
   lane: institutions
-  time: '2019-10-15T12:00:00Z'
-  precision: range
-  end: '2019-11-30T00:00:00Z'
-  kind: official
-  status: reported
-  sources:
-  - src-state-wiv-factsheet-2021
-  - src-odni-2023-wiv
-  label: 'Autumn 2019: several WIV researchers reported ill (official wording)'
-  detail: 'State Department 2021: symptoms "consistent with both COVID-19 and common seasonal illnesses"; ODNI 2023: "neither supports nor refutes either hypothesis". No names, no month. The range drawn (mid-Oct to end Nov 2019) is only a placeholder for "autumn"; the sources give no dates.'
+  node: covid-2019-autumn-wiv-researchers-ill
+  rev: 1
 - id: ev-wiv-db
   panel: early
   lane: institutions
@@ -663,14 +655,8 @@ events:
 - id: ev-wuhan-notice
   panel: dec2019
   lane: institutions
-  time: '2019-12-31T12:00:00Z'
-  precision: day
-  kind: official
-  status: reported
-  sources:
-  - src-whc-notice-2019-12-31
-  label: '31 Dec 2019: Wuhan Municipal Health Commission notice on pneumonia cases'
-  detail: 'Page timestamp 13:38:05; the time zone is not stated. Gloss: 27 cases found, 7 severe, no obvious human-to-human transmission found (Chinese original read).'
+  node: covid-2019-12-31-wuhan-health-commission-notice
+  rev: 1
 - id: ev-who-informed
   panel: dec2019
   lane: institutions
@@ -686,14 +672,8 @@ events:
 - id: ev-market-closed
   panel: dec2019
   lane: institutions
-  time: '2020-01-01T12:00:00Z'
-  precision: day
-  kind: official
-  status: reported
-  sources:
-  - src-who-don-2020-01-05
-  label: '1 Jan 2020: Huanan market closed (per media reports cited by WHO)'
-  detail: No Chinese government closure notice was read.
+  node: covid-2020-01-01-huanan-market-closed
+  rev: 1
 - id: ev-don-5jan
   panel: dec2019
   lane: institutions
@@ -1333,3 +1313,30 @@ events:
   - src-hsgac-slack-2026
   label: '22 Jul 2026: Senate HSGAC chairman releases Slack messages of Proximal Origin authors'
   detail: Chairman-selected; framing partisan.
+- id: ev-market-sampling
+  panel: dec2019
+  lane: science
+  node: covid-2020-01-01-china-cdc-market-sampling
+  rev: 1
+  note: "Sampling dates and counts from Liu et al. (China CDC). Whether the West Zone pattern points to an animal source or to where infected people went is argued in co-market-samples and co-wildlife-dna-co-occurrence; the map shows only where samples were taken."
+- id: ev-thailand-detected
+  panel: dec2019
+  lane: institutions
+  node: covid-2020-01-08-thailand-traveller-detected-bkk
+  rev: 1
+  note: "First case confirmed outside China. Different from ev-who-thailand, which is WHO's statement about it."
+- id: ev-japan-reported
+  panel: dec2019
+  lane: institutions
+  node: covid-2020-01-16-japan-case-reported
+  rev: 1
+- id: ev-korea-detected
+  panel: dec2019
+  lane: institutions
+  node: covid-2020-01-19-korea-traveller-detected-icn
+  rev: 1
+- id: ev-us-washington
+  panel: dec2019
+  lane: institutions
+  node: covid-2020-01-21-us-case-washington
+  rev: 1
