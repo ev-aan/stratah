@@ -55,7 +55,7 @@ assessment:
   key_points:
     - "No study has measured 'turbo cancer' by vaccination status; US and Japanese registries show a 2020 dip and then no surge, but cannot see a small subgroup."
     - "Two cohorts report more cancer after vaccination (Seoul 1.27, Pescara 1.23); both disputed, their authors stop short of cause, and the Seoul letter has a concern notice."
-    - "Adoption is not evidence: a retracted 2024 Japan paper and a mouse case report whose authors rejected the "turbo cancer" reading circulated widely; NCI, EMA, ASCO and a Senate hearing took opposite sides."
+    - "Adoption is not evidence: a retracted 2024 Japan paper and a mouse case report whose authors rejected the turbo-cancer reading circulated widely; NCI, EMA, ASCO and a Senate hearing took opposite sides."
   basis: [cvc-rapid-progression-gap, cvc-no-registry-surge, cvc-cancer-incidence-higher-after-vaccination, cvc-korea-cohort-bias-concerns, cvc-italy-cohort-lag, cvc-case-reports-no-denominator, cvc-gibo-paper-retracted, cvc-mechanism-spike-p53]
   rated_claim: cvc-turbo-cancer-vaccine-caused
   lean:
