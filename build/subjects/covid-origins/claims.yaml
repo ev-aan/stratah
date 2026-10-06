@@ -370,9 +370,9 @@ claims:
       an infected animal or a progenitor virus is found in the market's supply chain, or a bias-free case series
       shows the December clustering came from how cases were found
     disputed_by:
-      - {who: "Stoyan and Chiu", kind: work, position: "The statistical conclusion that the market was the centre of the early cases is invalid; this does not reject zoonosis", source_read: src-stoyan-chiu-2023}
-      - {who: "Weissman", kind: work, position: "Unlinked cases lying closer to the market than linked cases points to ascertainment bias, not a market origin", source_read: src-weissman-2024}
-      - {who: "House Select Subcommittee majority", kind: institution, position: "SARS-CoV-2 likely emerged because of a laboratory or research-related accident", source_read: src-house-sscp-2024}
+      - {who: "Stoyan and Chiu", kind: work, position: "The statistical conclusion that the market was the centre of the early cases is invalid; this does not reject zoonosis", source_read: true, via: src-stoyan-chiu-2023}
+      - {who: "Weissman", kind: work, position: "Unlinked cases lying closer to the market than linked cases points to ascertainment bias, not a market origin", source_read: true, via: src-weissman-2024}
+      - {who: "House Select Subcommittee majority", kind: institution, position: "SARS-CoV-2 likely emerged because of a laboratory or research-related accident", source_read: true, via: src-house-sscp-2024}
     anchor:
       type: papers-and-report
       description: >
@@ -419,8 +419,8 @@ claims:
       the case line list with onset dates and coordinates shows market-linked case-finding drove the clustering, or the
       corrected 2024 version of the paper changes its central result
     disputed_by:
-      - {who: "Stoyan and Chiu", kind: work, position: "The centre of the case cloud is not shown to mark the origin; the Monte Carlo test is flawed; data quality is poor", source_read: src-stoyan-chiu-2023}
-      - {who: "Weissman", kind: work, position: "Unlinked cases closer than linked cases (4.00 versus 5.74 km) is a collider-bias signature", source_read: src-weissman-2024}
+      - {who: "Stoyan and Chiu", kind: work, position: "The centre of the case cloud is not shown to mark the origin; the Monte Carlo test is flawed; data quality is poor", source_read: true, via: src-stoyan-chiu-2023}
+      - {who: "Weissman", kind: work, position: "Unlinked cases closer than linked cases (4.00 versus 5.74 km) is a collider-bias signature", source_read: true, via: src-weissman-2024}
     anchor:
       type: paper-and-critiques
       description: >
@@ -532,7 +532,7 @@ claims:
     adoption_note: "Cited by both sides; China's white paper cites the same counts."
     would_change_if: an independent re-analysis of the raw sequencing data changes the positive count
     disputed_by:
-      - {who: "Bloom", kind: work, position: "Positives not classified consistently (sample Q61 called positive on one read in about 200 million, and RT-qPCR negative)", source_read: src-bloom-2023}
+      - {who: "Bloom", kind: work, position: "Positives not classified consistently (sample Q61 called positive on one read in about 200 million, and RT-qPCR negative)", source_read: true, via: src-bloom-2023}
     anchor:
       type: paper
       description: >
@@ -568,7 +568,7 @@ claims:
       serology or virus sequencing from the live animals or their farms, or unbiased re-sequencing of all January 2020
       samples
     disputed_by:
-      - {who: "Bloom", kind: work, position: "Only 1 of 14 samples with a fifth or more raccoon-dog mitochondrial DNA contains any SARS-CoV-2 reads (1 of about 200,000,000); co-mingling is unlikely to reliably indicate infection", source_read: src-bloom-2023}
+      - {who: "Bloom", kind: work, position: "Only 1 of 14 samples with a fifth or more raccoon-dog mitochondrial DNA contains any SARS-CoV-2 reads (1 of about 200,000,000); co-mingling is unlikely to reliably indicate infection", source_read: true, via: src-bloom-2023}
     anchor:
       type: paper
       description: >
@@ -633,8 +633,8 @@ claims:
     adoption_note: "Cited in the House Democrats' and SAGO's weighing of natural origin; the House majority says all cases stem from a single introduction (see co-house-sscp-2024)."
     would_change_if: the Pekar authors' corrected analysis or an independent re-analysis is read and the support for two introductions rises or falls
     disputed_by:
-      - {who: "McCowan", kind: work, position: "Even at a Bayes factor of about 4, the single-introduction model was tested against stricter conditions; when equalised the support disappears", source_read: src-mccowan-2025}
-      - {who: "Weissman", kind: work, position: "A 0.162 correction factor drops 4.3 to 0.70", source_read: src-weissman-ejw-2026}
+      - {who: "McCowan", kind: work, position: "Even at a Bayes factor of about 4, the single-introduction model was tested against stricter conditions; when equalised the support disappears", source_read: true, via: src-mccowan-2025}
+      - {who: "Weissman", kind: work, position: "A 0.162 correction factor drops 4.3 to 0.70", source_read: true, via: src-weissman-ejw-2026}
     anchor:
       type: paper-and-critics
       description: >
@@ -909,9 +909,9 @@ claims:
       a laboratory record, sample or sequence shows SARS-CoV-2 or a progenitor was held there, or an infected laboratory
       worker is documented, or a natural progenitor and host are found
     disputed_by:
-      - {who: "Democratic staff of the House Select Subcommittee", kind: institution, position: "Arguments for a lab origin are largely circumstantial but cannot be dismissed out of hand; on DEFUSE, impossible to draw any conclusions without additional WIV lab records", source_read: src-house-dem-2024}
-      - {who: "WHO SAGO", kind: institution, position: "No evidence other than speculation supports a laboratory-related incident; it cannot be ruled out without the requested information", source_read: src-sago-2025}
-      - {who: "American Society for Microbiology", kind: institution, position: "ASM does not believe there is enough available evidence to support the conclusion in the Senate's interim report", source_read: src-asm-2022}
+      - {who: "Democratic staff of the House Select Subcommittee", kind: institution, position: "Arguments for a lab origin are largely circumstantial but cannot be dismissed out of hand; on DEFUSE, impossible to draw any conclusions without additional WIV lab records", source_read: true, via: src-house-dem-2024}
+      - {who: "WHO SAGO", kind: institution, position: "No evidence other than speculation supports a laboratory-related incident; it cannot be ruled out without the requested information", source_read: true, via: src-sago-2025}
+      - {who: "American Society for Microbiology", kind: institution, position: "ASM does not believe there is enough available evidence to support the conclusion in the Senate's interim report", source_read: true, via: src-asm-2022}
     anchor:
       type: official-reports-and-documents
       description: >
@@ -1567,7 +1567,7 @@ claims:
     adoption_note: "Stated on a White House page and as Finding I.B of the House majority report; not measured among the public."
     would_change_if: the original January to February 2020 messages and emails are read and show who asked for the paper and what changed
     disputed_by:
-      - {who: "Kristian Andersen", kind: person, position: "The paper was not directed to disprove a lab origin: on a 31 Jan 2020 call Dr Fauci said (Andersen's paraphrase) 'if you think this virus came from a lab, you should write a scientific paper on it'; Drs Fauci and Collins had no questions or comments on the paper beyond congratulations; the only suggested edit came from Dr Farrar; 'crackpot' referred to bioweapon-type engineering with intent. His own 12 Feb 2020 email to Nature says the work was 'Prompted by Jeremy Farrah [sic], Tony Fauci, and Francis Collins'", source_read: src-andersen-testimony-2023}
+      - {who: "Kristian Andersen", kind: person, position: "The paper was not directed to disprove a lab origin: on a 31 Jan 2020 call Dr Fauci said (Andersen's paraphrase) 'if you think this virus came from a lab, you should write a scientific paper on it'; Drs Fauci and Collins had no questions or comments on the paper beyond congratulations; the only suggested edit came from Dr Farrar; 'crackpot' referred to bioweapon-type engineering with intent. His own 12 Feb 2020 email to Nature says the work was 'Prompted by Jeremy Farrah [sic], Tony Fauci, and Francis Collins'", source_read: true, via: src-andersen-testimony-2023}
     anchor:
       type: testimony-and-quotations
       description: >

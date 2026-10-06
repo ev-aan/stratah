@@ -372,8 +372,8 @@ claims:
       a large cohort in a fluoridated population with repeated individual exposure measures
       reproduces the pregnancy-urine result, or several such cohorts find none
     disputed_by:
-      - {who: "Taylor et al. (NTP authors)", kind: work, position: "Inverse associations still observed below 1.5 mg/L in high-quality studies, by urinary and drinking-water measures", source_read: src-taylor-2025-aogh}
-      - {who: "Kumar et al.", kind: work, position: "No association in non-endemic (low-fluoride) studies", source_read: src-kumar-2023}
+      - {who: "Taylor et al. (NTP authors)", kind: work, position: "Inverse associations still observed below 1.5 mg/L in high-quality studies, by urinary and drinking-water measures", source_read: true, via: src-taylor-2025-aogh}
+      - {who: "Kumar et al.", kind: work, position: "No association in non-endemic (low-fluoride) studies", source_read: false, via: src-kumar-2023}
     anchor:
       type: cohort-and-meta-analysis
       description: >
@@ -485,8 +485,8 @@ claims:
       a further cohort with repeated urine samples and maternal IQ reproduces or fails to
       reproduce the association; or the MIREC exposure measurements are shown to be invalid
     disputed_by:
-      - {who: "Guichon et al. 2024", kind: work, position: "MIREC measurements are invalid", source_read: src-guichon-2024}
-      - {who: "Kumar et al. 2025", kind: work, position: "All four maternal-urine studies fail EPA data-quality criteria; pooled slope not significant", source_read: src-kumar-2025}
+      - {who: "Guichon et al. 2024", kind: work, position: "MIREC measurements are invalid", source_read: false, via: src-guichon-2024}
+      - {who: "Kumar et al. 2025", kind: work, position: "All four maternal-urine studies fail EPA data-quality criteria; pooled slope not significant", source_read: false, via: src-kumar-2025}
     anchor:
       type: prospective-cohorts
       description: >

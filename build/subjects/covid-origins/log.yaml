@@ -150,3 +150,12 @@ log:
       not presented as read. Not verified: the content of the CIA, FBI, DOE and BND documents, the WIV database claim, the errata
       numbers beyond what two critics say, the Pekar and Worobey errata, press reports not saved in the source folder, and the
       CNN, NPR and CBS pages beyond the passages quoted.
+  - id: L-11
+    date: 2026-10-06
+    entry: >
+      FORMAT FIX (SCHEMA N21), no change to any finding. In 13 `disputed_by` entries the source id
+      had been put in `source_read`, and the required `via` field was missing, which stopped the
+      site build (build_site.py needs `via`). Each source id is moved to `via`, and `source_read`
+      is set from this dig's MANIFEST `read` field: true where the manifest records the source as
+      read in full or in part (all 13 here), false otherwise. Statements, weights, states and
+      positions are unchanged. Earlier entries are untouched.
