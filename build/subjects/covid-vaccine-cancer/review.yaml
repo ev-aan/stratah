@@ -1,6 +1,6 @@
 # Publish-gate review record (docs/PUBLISH_GATE.md). status: pending | revisions_requested | passed | passed_with_open_items | grandfathered | failed (rounds: see docs/PUBLISH_GATE.md)
 subject: covid-vaccine-cancer
-status: revisions_requested
+status: passed_with_open_items
 checks:
 - check: 'conformance: no errors for this subject'
   result: pass
@@ -80,15 +80,35 @@ needs_manual_check:
 - 'dates, names, patent or document numbers: verify each against the source'
 - every refuted claim names its target and rests on material or primary-text evidence (Rule 9)
 - no claim goes beyond what was read; anything not read is marked not read
-conformance_warnings: 1
+conformance_warnings: 2
 established_or_refuted_without_primary_check: []
 quotes:
   found_in_stored_sources: 10
-  not_found_in_stored_sources: 47
+  not_found_in_stored_sources: 49
   no_stored_source_to_check_against: 0
-reviewed_by: independent review agent (Claude Opus 5.5), not the author; given only the PR, the repository and docs/REVIEW.md
+reviewed_by: round 2, a fresh independent review agent (Claude Opus 5.5), not the author and not the round-1 reviewer; given only the PR, the repository and docs/REVIEW.md
 reviewed_on: 2026-10-06
 notes: >
+  Round 2, PR #14, head 2e92135 (author commits 5e846c7 and 2e92135 since round 1 at 427ee22). Fresh
+  independent reviewer; read docs/REVIEW.md, docs/PUBLISH_GATE.md, the round-1 record and verdict,
+  the author's response and git diff 427ee22..HEAD. The author changed only claims.yaml and log.yaml;
+  the log gains L-13 and earlier entries are untouched (no removed lines in the log diff). Conformance
+  on the merge with origin/main (merge --no-commit, then aborted): 0 errors; 2 warnings for this
+  subject (no taxonomy entry; a key point over 170 characters, new in this round). review_dig.py:
+  every mechanical check passes except the taxonomy entry. Sources re-opened by me this round:
+  Acuti Martellucci 2025 (Europe PMC XML PMC12381369: "not significant anymore", HR 0.90, breast
+  and bladder sentence, "inevitably preliminary"), Malatesta et al. 2025 (PMC12853024: "could also be
+  due to factors unrelated to actual increases"), Eens addendum (PMC10622962: "unequivocally
+  disassociate ourselves from this term") and the CDC release of 22 Sep 2026 (src-cdc-arn-2026-release,
+  opened through WebFetch; curl returned 403; the "driven by increases in breast cancer among women and
+  prostate cancer among men" sentence is on the page), which round 1 could not open. All seven round-1
+  requests are answered; the three blocking ones are fixed and verified against the sources, so each
+  is resolved: true (author responses transcribed from the PR comment and L-13, since the author did
+  not edit this owner-only file). Surface lines re-read against the claims: the headline is unchanged;
+  search_summary, the assessment, short answer and key points say no more than the claims; adoption
+  is not in the basis. Three non-blocking requests are added as round 2. Status passed_with_open_items;
+  the owner publishes (site.yaml untouched by me).
+  Round 1 notes follow, unchanged.
   Round 1, PR #14, head 3e2bb7a. The reviewer edited only this file and did not add the subject to
   build/site.yaml. Conformance on the merge with origin/main (git merge --no-commit, then aborted):
   0 errors; 1 warning for this subject (no taxonomy entry). review_dig.py: every mechanical check
@@ -136,10 +156,12 @@ notes: >
   Three blocking requests and four non-blocking ones are in round 1 below. All blocking items are
   wording fixes; no weight or state needs to move.
 open_items:
-- 'Taxonomy: covid-vaccine-cancer has no entry in build/taxonomy.yaml (owner-only path; log L-10 proposes one).'
-- 'src-cdc-arn-2026-release not checked by the reviewer (cdc.gov 403; Wayback unreachable); the quoted wording attributed to the 2026 report in cvc-no-registry-surge needs a manual check.'
-- 'The headline claim is established at moderate confidence (2026 US report read as an abstract only; English registry not read); headline stays draft, as the author set it.'
-- 'Kim et al. notice of concern unresolved as of 2026-10-05; the journal article page could not be opened by the reviewer (blocked); the notice was confirmed in the Europe PMC Change history.'
+- 'Taxonomy: covid-vaccine-cancer has no entry in build/taxonomy.yaml (owner-only path; log L-10 proposes one). R1-7, deferred.'
+- 'The headline claim is established at moderate confidence (2026 US report read as an abstract and CDC release only; English registry not read); headline stays draft, as the author set it.'
+- 'Kim et al. notice of concern unresolved as of 2026-10-05; the journal article page could not be opened by the reviewers (blocked); the notice was confirmed in the Europe PMC Change history.'
+- 'R2-1 (non-blocking): key point 3 is 202 characters (conformance warning, over 170).'
+- 'R2-2 (non-blocking): assessment.text and timeline b01 give the Pescara 365-day result without the breast and bladder exception now in the claim, lean and scale line.'
+- 'R2-3 (non-blocking): cvc-no-registry-surge anchor says the CDC release "was not opened by the independent reviewer"; the round-2 reviewer opened it and the wording matches.'
 rounds:
 - round: 1
   reviewed_on: 2026-10-06
@@ -160,6 +182,12 @@ rounds:
       stayed raised" in the claim, the lean and the scale line; do not use "reverses" or "gone" for
       the one-dose result.
     evidence: 'Acuti Martellucci et al., EXCLI J 2025;24:690 (Europe PMC PMC12381369), Results, "Cancer hospitalizations by site": "Importantly, when a minimum time of 365 days was set, while breast and bladder cancer hospitalizations maintained their positive association with >=1 dose, the individuals who received >=3 doses showed a significantly lower likelihood of hospitalization for lung or prostate cancer (Table S4)." claims.yaml lines 68, 155, 689-735; tests.yaml line 49.'
+    author_response:
+      action: fixed
+      note: 'The Pescara 365-day result no longer reads as reversing or gone: the claim, the lean and the scale line say the one-dose association was not significant overall, the three-dose hazard ratio was 0.90, and breast and bladder admissions stayed raised with at least one dose (the paper''s own sentence). (Author response transcribed by the round-2 reviewer from the author''s PR #14 comment and log L-13.)'
+      commit: 5e846c7, 2e92135
+    resolved: true
+    reviewer_note: 'Verified against Acuti Martellucci et al. (Europe PMC PMC12381369, re-opened by me): Results say at 365 days the >=1-dose association "was not significant anymore", >=3 doses HR 0.90 (0.83-0.98), and "breast and bladder cancer hospitalizations maintained their positive association with >=1 dose". The claim statement quotes that sentence; lean.because and the short-answer scale line now say the same. grep: no "reverses" or "gone" left for this result in claims, tests or timeline. The assessment text ("no longer significant, and the three-dose hazard ratio below 1") and timeline b01 are accurate but omit breast and bladder (R2-2, non-blocking).'
   - id: R1-2
     target: assessment.text; assessment.key_points[2]; short_answer.basis; description; threads.yaml (thread on the Eens report)
     severity: blocking
@@ -173,6 +201,12 @@ rounds:
       whose authors rejected the 'turbo cancer' reading"); threads.yaml line 23 ("its authors disown
       the term") is accurate and can stay.
     evidence: 'Eens et al. addendum (Europe PMC PMC10622962, 20 Oct 2023): "we wish to unequivocally disassociate ourselves from this term. In our case report, there is not a single reference to a condition called ''turbo cancer''"; the paper (PMC10183601) stands with the addendum banner. claims.yaml lines 48, 58, 143, 272.'
+    author_response:
+      action: fixed
+      note: '"disowned" removed from the assessment text, key point 3, short_answer.basis and description; the Eens authors are said to reject the "turbo cancer" reading in an addendum, and the report is not retracted. (Author response transcribed by the round-2 reviewer from the author''s PR #14 comment and log L-13.)'
+      commit: 5e846c7, 2e92135
+    resolved: true
+    reviewer_note: 'Verified against the Eens addendum (PMC10622962, re-opened): "we wish to unequivocally disassociate ourselves from this term" and "nor do we recognize it as a legitimate medical term". The new wording (authors reject the "turbo cancer" reading) matches. grep finds no "disown" left except threads.yaml line 23 ("disown the term"), which round 1 said could stay. The reworded key point 3 is now 202 characters (conformance warning, R2-1, non-blocking).'
   - id: R1-3
     target: assessment.basis (cvc-health-bodies-no-evidence)
     severity: blocking
@@ -186,6 +220,12 @@ rounds:
       bodies "is labelled adoption, is not in basis"). Fix: remove cvc-health-bodies-no-evidence from
       assessment.basis; key point 3 may keep naming them, as it labels them adoption.
     evidence: 'claims.yaml line 59 (basis list) against the claim cvc-health-bodies-no-evidence basis ("The statements are filed as adoption"); origin/main build/subjects/vaccines-autism/review.yaml notes, round 4.'
+    author_response:
+      action: fixed
+      note: 'cvc-health-bodies-no-evidence removed from assessment.basis; key point 3 still names the bodies and labels them adoption. (Author response transcribed by the round-2 reviewer from the author''s PR #14 comment and log L-13.)'
+      commit: 5e846c7, 2e92135
+    resolved: true
+    reviewer_note: 'Verified: assessment.basis now lists eight claims and none is an adoption claim; the health-body statements appear only in the text and key point 3, each labelled adoption, not evidence.'
   - id: R1-4
     target: cvc-italy-cohort-lag (anchor description and basis)
     severity: non_blocking
@@ -199,6 +239,12 @@ rounds:
       in this claim's anchor sources but is marked "metadata only" in the manifest; either drop it
       from the anchor or say it was not read.
     evidence: 'Malatesta et al., EXCLI J 2025 (Europe PMC PMC12853024), paragraphs 1-2. MANIFEST src-excli-exchange-2026 read: metadata only.'
+    author_response:
+      action: fixed
+      note: 'Malatesta''s remark that the cancer excess may be unrelated to a real increase is recorded in the anchor and basis; src-excli-exchange-2026 (metadata only) dropped from the anchor sources. (Author response transcribed by the round-2 reviewer from the author''s PR #14 comment and log L-13.)'
+      commit: 5e846c7, 2e92135
+    resolved: true
+    reviewer_note: 'Verified against Malatesta et al. (PMC12853024, re-opened): "the increase in tumors found by the authors could also be due to factors unrelated to actual increases" is quoted correctly; the anchor sources no longer include src-excli-exchange-2026.'
   - id: R1-5
     target: search_summary
     severity: non_blocking
@@ -207,6 +253,12 @@ rounds:
       Japanese series only (the English registry was blocked). Key point 1 already says "US and
       Japanese registries"; use the same words in search_summary.
     evidence: 'claims.yaml line 12 against cvc-no-registry-surge basis ("the English registry ... and Danish data were not read").'
+    author_response:
+      action: fixed
+      note: 'search_summary now says "the US and Japanese registries". (Author response transcribed by the round-2 reviewer from the author''s PR #14 comment and log L-13.)'
+      commit: 5e846c7, 2e92135
+    resolved: true
+    reviewer_note: 'Verified in claims.yaml line 12.'
   - id: R1-6
     target: cvc-no-registry-surge (anchor description)
     severity: non_blocking
@@ -216,8 +268,39 @@ rounds:
       CDC release, which the reviewer could not open. Name the source of the quotation in the
       description so a reader can find it.
     evidence: 'PubMed 42770880 abstract (read in full); SEER statistics page (read).'
+    author_response:
+      action: fixed
+      note: 'The CDC-release wording is attributed to the release, not the abstract. (Author response transcribed by the round-2 reviewer from the author''s PR #14 comment and log L-13.)'
+      commit: 5e846c7, 2e92135
+    resolved: true
+    reviewer_note: 'Verified. I also opened the CDC release myself this round (WebFetch; curl got 403): dated 22 Sep 2026, it reads "Overall rates of new cancer cases rose slightly each year from 2018 to 2022, driven by increases in breast cancer among women and prostate cancer among men." The quoted words match. The parenthesis "not opened by the independent reviewer" is now out of date (R2-3, non-blocking).'
   - id: R1-7
     target: build/taxonomy.yaml
     severity: non_blocking
     finding: 'No taxonomy entry for this subject (conformance warning; review_dig check fails). Owner-only path; log L-10 proposes the line. For the owner.'
     evidence: 'python3 build/conformance.py --base origin/main on the merge result; review_dig.py output.'
+    author_response:
+      action: deferred
+      note: 'Taxonomy entry is an owner-only path; left for the owner (log L-10 proposes it). (Author response transcribed by the round-2 reviewer from the author''s PR #14 comment and log L-13.)'
+      commit: none
+    resolved: true
+    reviewer_note: 'Accepted as deferred; stays an open item for the owner. Conformance still warns.'
+- round: 2
+  reviewed_on: 2026-10-06
+  head: 2e92135
+  requests:
+  - id: R2-1
+    target: assessment.key_points[2]
+    severity: non_blocking
+    finding: 'The R1-2 rewording made key point 3 202 characters long; conformance warns over 170. Shorten (for example "a mouse report whose authors rejected the turbo-cancer label").'
+    evidence: 'python3 build/conformance.py --base origin/main on the merge result: "covid-vaccine-cancer: a key point is over 170 characters".'
+  - id: R2-2
+    target: assessment.text (Pescara sentence); timeline.yaml b01 detail
+    severity: non_blocking
+    finding: 'Both still give the 365-day result as "one-dose not significant; three doses 0.90" without the exception the paper states and the claim now quotes: breast and bladder admissions kept a positive association with at least one dose. Not false, but add the clause for consistency with cvc-italy-cohort-lag and the lean.'
+    evidence: 'Acuti Martellucci et al. 2025 (PMC12381369), Results, "Cancer hospitalizations by site": "while breast and bladder cancer hospitalizations maintained their positive association with >=1 dose". claims.yaml lines 39-41; timeline.yaml line 161.'
+  - id: R2-3
+    target: cvc-no-registry-surge (anchor description)
+    severity: non_blocking
+    finding: 'The added parenthesis says the CDC release "was not opened by the independent reviewer". The round-2 reviewer opened it and the quoted wording is on the page; update the note so it does not understate what was checked.'
+    evidence: 'CDC Newsroom release, 22 Sep 2026 (src-cdc-arn-2026-release): "Overall rates of new cancer cases rose slightly each year from 2018 to 2022, driven by increases in breast cancer among women and prostate cancer among men."'
