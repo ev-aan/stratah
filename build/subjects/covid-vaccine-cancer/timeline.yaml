@@ -1,0 +1,209 @@
+timeline:
+  id: covid-vaccine-cancer
+  title: "COVID-19 vaccines and cancer: the 'turbo cancer' claim, the tests and the institutions (2020 to 2026)"
+  as_of: "2026-10-06"
+  note: >
+    Times are UTC; most events are known to the day, month or year only. Publication dates are issue or
+    online dates as given in the cited record. Events marked "single" rest on one source; "disputed" marks a
+    finding whose meaning is contested; media and institution events are adoption, not evidence. Panel B
+    enlarges June 2025 to October 2026.
+panels:
+  - id: years
+    title: "Panel A: October 2020 to May 2025 (one tick per year)"
+    start: "2020-10-01T00:00:00Z"
+    end:   "2025-06-01T00:00:00Z"
+    tick_years: 1
+    lanes: [research, journals, institutions, media]
+  - id: recent
+    title: "Panel B: June 2025 to October 2026 (one tick per two months)"
+    start: "2025-06-01T00:00:00Z"
+    end:   "2026-10-15T00:00:00Z"
+    tick_hours: 1464
+    lanes: [research, journals, institutions, media]
+lanes:
+  research:     {label: "Studies and data"}
+  journals:     {label: "Journals and editorial actions"}
+  institutions: {label: "Agencies, officials and hearings"}
+  media:        {label: "Media and online posts"}
+people:
+  - {who: "Ute Kruger", detail: "Swedish pathologist whose interview was summarised in the 4 Aug 2022 post; whether she used the term herself is not verified."}
+  - {who: "Etana Hecht", detail: "Substack author of the 4 Aug 2022 post."}
+  - {who: "Wafik El-Deiry", detail: "Oncotarget editor-in-chief and co-author of the Kuperwasser review and the spike-p53 paper; ACIP workgroup presenter; Senate witness."}
+  - {who: "Joseph Ladapo", detail: "Florida State Surgeon General."}
+  - {who: "Peter Marks", detail: "Director of FDA CBER at the time of the 14 Dec 2023 letter."}
+sources:
+  src-sbm-turbo-2022: {title: "Gorski D. \"Do COVID-19 vaccines cause 'turbo cancer'?\" Science-Based Medicine, 19 Dec 2022 (Wayback copy of 2025-12-27)", url: "https://web.archive.org/web/20251227031708/https://sciencebasedmedicine.org/do-covid-19-vaccines-cause-turbo-cancer/", authenticity: "not_applicable"}
+  src-polack-2020: {title: "Polack FP et al. Safety and Efficacy of the BNT162b2 mRNA Covid-19 Vaccine. N Engl J Med 2020 (online 10 Dec 2020; PMID 33301246)", url: "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC7745181/fullTextXML", authenticity: "authenticated"}
+  src-rair-kruger-2022: {title: "RAIR Foundation. \"Senior physician warns aggressive and unusual cancers following COVID vaccination are on the rise in Sweden (video)\" (published 2022", url: "https://rairfoundation.com/senior-physician-warns-aggressive-and-unusual-cancers-following-covid-vaccination-are-on-the-rise-in-sweden-video/", authenticity: "unchecked"}
+  src-mymedfreedom-kruger-2022: {title: "myMedicalFreedom. Same title as src-rair-kruger-2022 (published 2022-07-28)", url: "https://mymedicalfreedom.org/senior-physician-warns-aggressive-and-unusual-cancers-following-covid-vaccination-are-on-the-rise-in-sweden-video/", authenticity: "unchecked"}
+  src-hecht-turbo-2022: {title: "Etana Hecht. \"Turbo-Cancer\" (Substack \"Clown World - Honk\"), dated \"Aug 04, 2022\" (Wayback capture of 2026-01-08)", url: "https://web.archive.org/web/20260108072452/https://etana.substack.com/p/turbo-cancer", authenticity: "authenticated"}
+  src-globalresearch-2022: {title: "Global Research. \"Covid Vaccination and Turbo-Cancer. 'Multiple Tumors in Multiple Organs'. Dr. Ute Kruger\" by Etana Hecht (page metadata datePublishe", url: "https://www.globalresearch.ca/turbo-cancer-we-have-problem/5789172", authenticity: "unchecked"}
+  src-leadstories-2022: {title: "Lead Stories, Nov 2022: Fact check: the movie \"Died Suddenly\" does not demonstrate that COVID vaccines cause sudden death", url: "https://leadstories.com/hoax-alert/2022/11/fact-check-movie-died-suddenly-does-not-demonstrate-that-covid-vaccines-cause-sudden-death.html", authenticity: "not_applicable"}
+  src-died-suddenly-film: {title: "\"Died Suddenly\" (Stew Peters Network), 68-minute video; copy held on the Internet Archive item \"died-suddenly\" (uploaded 2022-11-22 per the item metad", url: "https://archive.org/details/died-suddenly", authenticity: "unchecked"}
+  src-dailyclout-61: {title: "DailyClout. \"Report 61: Histopathology Series Part 3 - Ute Kr\u00fcger MD, breast cancer specialist reveals increase in cancers and occurrences of 'turbo c", url: "https://dailyclout.io/report-61-ute-kruger-md-breast-cancer-specialist-reveals-increase-in-cancers-and-occurrences-of-turbo-cancers-following-genetic-therapy-vaccines/", authenticity: "unchecked"}
+  src-eens-2023: {title: "Eens S et al. B-cell lymphoblastic lymphoma following intravenous BNT162b2 mRNA booster in a BALB/c mouse: A case report. Front Oncol 2023;13:1158124 ", url: "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC10183601/fullTextXML", authenticity: "authenticated"}
+  src-makis-epoch-post-2023: {title: "\"Makis World First: my new Epoch Times article\" (Substack repost excerpting an Epoch Times article by Megan Redshaw of 2023-07-28 and a Makis post of ", url: "https://palexander.substack.com/p/makis-world-first-my-new-epoch-times", authenticity: "unchecked"}
+  src-factcheck-2023: {title: "FactCheck.org, 31 Aug 2023: COVID-19 vaccines have not been shown to cause \"turbo cancer\"", url: "https://www.factcheck.org/2023/08/covid-19-vaccines-have-not-been-shown-to-cause-turbo-cancer/", authenticity: "not_applicable"}
+  src-nci-2023: {title: "National Cancer Institute. COVID-19 Vaccines and People with Cancer (page stamped \"Updated: October 10, 2023\"; fetched 2026-10-05)", url: "https://www.cancer.gov/about-cancer/coronavirus/covid-19-vaccines-people-with-cancer", authenticity: "authenticated"}
+  src-eens-addendum-2023: {title: "Addendum: B-cell lymphoblastic lymphoma following intravenous BNT162b2 mRNA booster in a BALB/c mouse: A case report. Front Oncol 2023. doi:10.3389/fo", url: "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC10622962/fullTextXML", authenticity: "authenticated"}
+  src-fl-ladapo-letter-2023: {title: "Florida Department of Health, State Surgeon General Joseph Ladapo. Letter to FDA Commissioner Califf (cc CDC Director Cohen), 6 December 2023", url: "https://web.archive.org/web/2024/https://www.floridahealth.gov/about/_documents/12-06-2023-DOH-Letter-to-FDA-RFI-on-COVID-19-Vaccines.pdf", authenticity: "authenticated"}
+  src-fda-marks-2023: {title: "FDA (Peter Marks, Director, CBER). Letter to Joseph A. Ladapo, 14 December 2023", url: "https://www.fda.gov/media/174875/download", authenticity: "authenticated"}
+  src-fl-halt-release-2024: {title: "Florida Department of Health. Florida State Surgeon General Calls for Halt in the Use of COVID-19 mRNA Vaccines (press release, 3 January 2024)", url: "https://web.archive.org/web/2024/https://www.floridahealth.gov/newsroom/2024/01/20240103-halt-use-covid19-mrna-vaccines.pr.html", authenticity: "authenticated"}
+  src-cbs-ladapo-2024: {title: "CBS News, 4 Jan 2024: Florida surgeon general's claims on COVID vaccines are misleading (outside physician quoted)", url: "https://www.cbsnews.com/news/florida-surgeon-general-covid-vaccines-fda-claims-misleading/", authenticity: "not_applicable"}
+  src-gibo-2024: {title: "Gibo M, Kojima S, Fujisawa A, Kikuchi T, Fukushima M. Increased Age-Adjusted Cancer Mortality After the Third mRNA-Lipid Nanoparticle Vaccine Dose Dur", url: "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC11077472/fullTextXML", authenticity: "authenticated"}
+  src-zhang-2024: {title: "Zhang S, El-Deiry WS. Transfected SARS-CoV-2 spike DNA for mammalian cell expression inhibits p53 activation of p21(WAF1), TRAIL Death Receptor DR5 an", url: "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC11073320/fullTextXML", authenticity: "authenticated"}
+  src-gibo-eoc-2024: {title: "Expression of Concern: Increased Age-Adjusted Cancer Mortality After the Third mRNA-Lipid Nanoparticle Vaccine Dose... Cureus 2024 (12 Jun 2024). doi:", url: "https://pubmed.ncbi.nlm.nih.gov/38873395/", authenticity: "authenticated"}
+  src-gibo-retraction-2024: {title: "Retraction: Increased Age-Adjusted Cancer Mortality After the Third mRNA-Lipid Nanoparticle Vaccine Dose During the COVID-19 Pandemic in Japan. Cureus", url: "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC11204115/fullTextXML", authenticity: "authenticated"}
+  src-acs-2024: {title: "American Cancer Society. COVID-19 Vaccines in People with Cancer (Wayback capture of 2024-12-26; \"Last Revised: September 9, 2024\")", url: "https://web.archive.org/web/20241226012539id_/https://www.cancer.org/cancer/managing-cancer/coronavirus-covid-19-and-cancer/covid-19-vaccines-in-people-with-cancer.html", authenticity: "authenticated"}
+  src-contagion-2025: {title: "Contagion Live / Infodemiology.com. \"mRNA COVID-19 vaccines and turbo cancer: the latest myth that won't disappear\" (9 Jan 2025)", url: "https://www.contagionlive.com/view/mrna-covid-19-vaccines-and-turbo-cancer-the-latest-myth-that-won-t-disappear", authenticity: "not_applicable"}
+  src-msmr-nhl-2025: {title: "Non-Hodgkin lymphoma incidence in active component U.S. service members, 2017-2023. MSMR 2025 Feb 20 (PMID 40019944)", url: "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC11933234/fullTextXML", authenticity: "authenticated"}
+  src-arn-2025: {title: "Sherman RL et al. Annual Report to the Nation on the Status of Cancer, featuring state-level statistics after the first year of the COVID-19 pandemic.", url: "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12010951/fullTextXML", authenticity: "authenticated"}
+  src-acuti-martellucci-2025: {title: "Acuti Martellucci C et al. COVID-19 vaccination, all-cause mortality, and hospitalization for cancer: 30-month cohort study in an Italian province. EX", url: "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12381369/fullTextXML", authenticity: "authenticated"}
+  src-acip-slides-2025: {title: "CDC ACIP meeting 18-19 Sep 2025, COVID workgroup presentation \"Workgroup Safety Uncertainties of mRNA COVID Vaccines\" (W. El-Deiry and C. Kuperwasser;", url: "https://web.archive.org/web/2025/https://www.cdc.gov/acip/downloads/slides-2025-09-18-19/06-el-deiry-kuperwasser-covid-508.pdf", authenticity: "authenticated"}
+  src-factcheck-acip-2025: {title: "FactCheck.org, 7 Nov 2025: CDC vaccine panel presentation distorts research on safety of mRNA COVID-19 vaccines", url: "https://www.factcheck.org/2025/11/cdc-vaccine-panel-presentation-distorts-research-on-safety-of-mrna-covid-19-vaccines/", authenticity: "not_applicable"}
+  src-kim-2025: {title: "Kim HJ, Kim MH, Choi MG, Chun EM. 1-year risks of cancers associated with COVID-19 vaccination: a large population-based cohort study in South Korea. ", url: "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12465339/fullTextXML", authenticity: "authenticated"}
+  src-grippin-2025: {title: "Grippin AJ et al. SARS-CoV-2 mRNA vaccines sensitize tumours to immune checkpoint blockade. Nature 2025;647:488-497 (online 2025-10-22). doi:10.1038/s", url: "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12611756/fullTextXML", authenticity: "authenticated"}
+  src-kim-2025-page: {title: "Biomarker Research article page for Kim et al. 2025 (notice of concern of 22 Oct 2025)", url: "https://biomarkerres.biomedcentral.com/articles/10.1186/s40364-025-00831-w", authenticity: "authenticated"}
+  src-semenzato-2025: {title: "Semenzato et al. French cohort of adults 18-59, 4-year all-cause mortality. JAMA Netw Open 2025-12-01 (PMID 41343214)", url: "https://pubmed.ncbi.nlm.nih.gov/41343214/", authenticity: "unchecked"}
+  src-kuperwasser-2026: {title: "Kuperwasser C, El-Deiry WS. COVID vaccination and post-infection cancer signals: Evaluating patterns and potential biological mechanisms. Oncotarget 2", url: "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12893478/fullTextXML", authenticity: "authenticated"}
+  src-kakeya-reply-2026: {title: "Kakeya H et al. The Imperative of Data Transparency for Pursuing Scientific Truth about COVID-19 Vaccines (reply to Kutsuna and Suzuki). JMA J 2026 (online 2026-04-24; PMID 42577312)", url: "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC13453932/fullTextXML", authenticity: "authenticated"}
+  src-kutsuna-2026: {title: "Kutsuna S, Suzuki T. Concerns about Methodological Flaws and Use of Retracted Evidence in the Opinion Paper... JMA J 2026 Jan (online 14 Nov 2025). do", url: "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12888968/fullTextXML", authenticity: "authenticated"}
+  src-locquet-2026: {title: "Locquet M et al. Commentary: 1-year risks of cancers associated with COVID-19 vaccination: a large population-based cohort study in South Korea. Front", url: "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC13076561/fullTextXML", authenticity: "authenticated"}
+  src-ema-key-facts: {title: "EMA. COVID-19 vaccines: key facts (page metadata og:updated_time 2026-04-08)", url: "https://www.ema.europa.eu/en/human-regulatory-overview/public-health-threats/coronavirus-disease-covid-19/covid-19-medicines/covid-19-vaccines-key-facts", authenticity: "authenticated"}
+  src-psi-hearing-page: {title: "US Senate Permanent Subcommittee on Investigations (HSGAC), hearing page: Plausible Mechanisms of COVID-19 Injections Causing Cancer and Attacks on Sc", url: "https://www.hsgac.senate.gov/subcommittees/investigations/hearings/plausible-mechanisms-of-covid-19-injections-causing-cancer-and-attacks-on-scientific-publications/", authenticity: "authenticated"}
+  src-psi-gralow: {title: "Written testimony of Julie Gralow (ASCO), PSI hearing of 3 Jun 2026", url: "https://www.hsgac.senate.gov/subcommittees/investigations/hearings/plausible-mechanisms-of-covid-19-injections-causing-cancer-and-attacks-on-scientific-publications/", authenticity: "authenticated"}
+  src-psi-blumenthal: {title: "Opening statement of Ranking Member Richard Blumenthal, PSI hearing of 3 Jun 2026", url: "https://www.hsgac.senate.gov/subcommittees/investigations/hearings/plausible-mechanisms-of-covid-19-injections-causing-cancer-and-attacks-on-scientific-publications/", authenticity: "authenticated"}
+  src-johnson-release-2026: {title: "Sen. Ron Johnson press release, 5 Jun 2026: video release of the hearing on the mechanisms of the COVID-19 injections causing cancer", url: "https://www.ronjohnson.senate.gov/2026/06/05/video-release-sen-johnson-holds-hearing-on-the-mechanisms-of-the-covid-19-injections-causing-cancer-and-attacks-on-scientific-publications-and-research/", authenticity: "authenticated"}
+  src-comirnaty-pi: {title: "FDA. Prescribing information for COMIRNATY (COVID-19 Vaccine, mRNA), 2026-2027 Formula, Revised 8/2026", url: "https://www.fda.gov/media/151707/download", authenticity: "authenticated"}
+  src-natmed-2026: {title: "COVID-19 vaccination around immune checkpoint inhibitor start and survival in a French nationwide cohort. Nat Med 2026 (published 2026-09-10 per PubMe", url: "https://pubmed.ncbi.nlm.nih.gov/42722885/", authenticity: "authenticated"}
+  src-cdc-arn-2026-release: {title: "CDC Newsroom, Annual Report to the Nation: Progress Against Lung Cancer Drives Down Cancer Mortality (22 Sep 2026)", url: "https://www.cdc.gov/media/releases/2026/annual-report-to-the-nation-progress-against-lung-cancer-drives-down-cancer-mortality.html", authenticity: "authenticated"}
+events:
+  - {id: a01, panel: years, lane: research, time: "2020-11-30T12:00:00Z", precision: day, kind: witness, status: single, sources: ["src-sbm-turbo-2022"],
+     label: "30 Nov 2020: an ar15.com forum comment reportedly reads 'I can't wait for the turbo cancer'",
+     detail: "Reported by Gorski (Science-Based Medicine, 2022), who calls the commenter sarcastic and says the thread was about the impending Pfizer vaccine authorisation; we could not open the page (403, also via Wayback), so the date and wording are unverified."}
+  - {id: a02, panel: years, lane: research, time: "2020-12-10T12:00:00Z", precision: day, kind: data, status: reported, sources: ["src-polack-2020"],
+     label: "10 Dec 2020: Polack et al. report the Pfizer-BioNTech trial in NEJM",
+     detail: "Our text search of the main text found no cancer outcome; the trial ran about 6 months [abstract and text search]."}
+  - {id: a03, panel: years, lane: media, time: "2022-07-27T12:00:00Z", precision: day, kind: media, status: single, sources: ["src-rair-kruger-2022"],
+     label: "27 Jul 2022: RAIR Foundation writes up an interview with Ute Kruger: 'aggressive and unusual cancers'",
+     detail: "The text has no 'turbo'. The interview video was not watched."}
+  - {id: a04, panel: years, lane: media, time: "2022-07-28T12:00:00Z", precision: day, kind: media, status: single, sources: ["src-mymedfreedom-kruger-2022"],
+     label: "28 Jul 2022: myMedicalFreedom publishes the same write-up",
+     detail: "Text-searched: no 'turbo'."}
+  - {id: a05, panel: years, lane: media, time: "2022-08-04T12:00:00Z", precision: day, kind: document, status: single, sources: ["src-hecht-turbo-2022"],
+     label: "4 Aug 2022: Etana Hecht's post 'Turbo-Cancer' attributes the term to Kruger",
+     detail: "Earliest document we read using the phrase about COVID-19 vaccines (via Wayback); Hecht calls the testimony 'by nature anecdotal'."}
+  - {id: a06, panel: years, lane: media, time: "2022-08-08T12:00:00Z", precision: day, kind: document, status: single, sources: ["src-globalresearch-2022"],
+     label: "8 Aug 2022: Global Research republishes the post",
+     detail: "Page metadata date; the byline line reads 5 Aug 2022."}
+  - {id: a07, panel: years, lane: media, time: "2022-11-21T12:00:00Z", precision: day, kind: media, status: single, sources: ["src-leadstories-2022", "src-died-suddenly-film"],
+     label: "21 Nov 2022: the film 'Died Suddenly' is posted to Rumble",
+     detail: "Our automated transcript has cancer statements at about 22:08 and 25:34 and no 'turbo' (error-prone; a human check is needed)."}
+  - {id: a08, panel: years, lane: media, time: "2022-12-19T12:00:00Z", precision: day, kind: analysis, status: single, sources: ["src-sbm-turbo-2022"],
+     label: "19 Dec 2022: David Gorski rebuts the claim in Science-Based Medicine",
+     detail: "He says he could not find who coined the term and that use took off in summer and fall 2022 [Wayback copy]."}
+  - {id: a09, panel: years, lane: media, time: "2023-03-10T12:00:00Z", precision: day, kind: media, status: single, sources: ["src-dailyclout-61"],
+     label: "10 Mar 2023: DailyClout Report 61 carries Kruger's observations under a 'Turbo Cancers' title",
+     detail: "Title and date only; the report was not analysed."}
+  - {id: a10, panel: years, lane: journals, time: "2023-05-01T12:00:00Z", precision: day, kind: document, status: reported, sources: ["src-eens-2023"], flagged_sources: ["src-eens-2023"],
+     label: "1 May 2023: Eens et al. publish a one-mouse lymphoma case report",
+     detail: "One of 14 high-dose intravenous mice; 'a demonstration of direct causality remains difficult'. Not retracted."}
+  - {id: a11, panel: years, lane: media, time: "2023-08-04T12:00:00Z", precision: day, kind: media, status: single, sources: ["src-makis-epoch-post-2023"],
+     label: "4 Aug 2023: William Makis announces an Epoch Times article on 'turbo cancers' in young people",
+     detail: "The Epoch Times article (28 Jul 2023) was not opened; excerpts via a Substack repost."}
+  - {id: a12, panel: years, lane: media, time: "2023-08-31T12:00:00Z", precision: day, kind: analysis, status: single, sources: ["src-factcheck-2023"],
+     label: "31 Aug 2023: FactCheck.org reports that the Eens paper does not show vaccines cause cancer",
+     detail: "It quotes a post reading 'SHOCKING: New Study proves Pfizer mRNA induced turbo cancer'."}
+  - {id: a13, panel: years, lane: institutions, time: "2023-10-10T12:00:00Z", precision: day, kind: official, status: reported, sources: ["src-nci-2023"],
+     label: "10 Oct 2023: NCI page stamped updated: 'no evidence that COVID-19 vaccines cause cancer'",
+     detail: "Same sentence read into the Senate record on 3 Jun 2026."}
+  - {id: a14, panel: years, lane: journals, time: "2023-10-20T12:00:00Z", precision: day, kind: document, status: reported, sources: ["src-eens-addendum-2023"],
+     label: "20 Oct 2023: Eens et al. publish an addendum disassociating themselves from 'turbo cancer'",
+     detail: "'We wish to unequivocally disassociate ourselves from this term.'"}
+  - {id: a15, panel: years, lane: institutions, time: "2023-12-06T12:00:00Z", precision: day, kind: official, status: reported, sources: ["src-fl-ladapo-letter-2023"],
+     label: "6 Dec 2023: Florida's Ladapo writes to the FDA about DNA integration and oncogenes",
+     detail: "The letter asks questions and reports no cancer cases."}
+  - {id: a16, panel: years, lane: institutions, time: "2023-12-14T12:00:00Z", precision: day, kind: official, status: reported, sources: ["src-fda-marks-2023"],
+     label: "14 Dec 2023: FDA's Peter Marks replies: 'nothing to indicate harm to the genome, such as increased rates of cancers'",
+     detail: "A position statement based on surveillance; no new analysis."}
+  - {id: a17, panel: years, lane: institutions, time: "2024-01-03T12:00:00Z", precision: day, kind: official, status: reported, sources: ["src-fl-halt-release-2024"],
+     label: "3 Jan 2024: Florida's surgeon general calls for a halt to mRNA COVID-19 vaccine use",
+     detail: "A recommendation to providers, not a ban."}
+  - {id: a18, panel: years, lane: media, time: "2024-01-04T12:00:00Z", precision: day, kind: media, status: single, sources: ["src-cbs-ladapo-2024"],
+     label: "4 Jan 2024: CBS quotes a physician linking the Florida argument to the 'turbo cancer' idea",
+     detail: "The link is CBS's and the physician's characterisation."}
+  - {id: a19, panel: years, lane: journals, time: "2024-04-08T12:00:00Z", precision: day, kind: document, status: reported, sources: ["src-gibo-2024"], flagged_sources: ["src-gibo-2024"],
+     label: "8 Apr 2024: Cureus publishes Gibo et al. on Japanese cancer mortality after the third dose",
+     detail: "RETRACTED on 26 Jun 2024. An ecological extrapolation with no individual vaccination status."}
+  - {id: a20, panel: years, lane: research, time: "2024-05-03T12:00:00Z", precision: day, kind: data, status: reported, sources: ["src-zhang-2024"],
+     label: "3 May 2024: Zhang and El-Deiry report spike lowering p53 activity in two cell lines",
+     detail: "Plasmid-expressed spike; authors call it preliminary."}
+  - {id: a21, panel: years, lane: journals, time: "2024-06-12T12:00:00Z", precision: day, kind: official, status: reported, sources: ["src-gibo-eoc-2024"], flagged_sources: ["src-gibo-2024"],
+     label: "12 Jun 2024: Cureus issues an expression of concern on the Gibo paper",
+     detail: "Notice text not read (PubMed record only)."}
+  - {id: a22, panel: years, lane: journals, time: "2024-06-26T12:00:00Z", precision: day, kind: official, status: reported, sources: ["src-gibo-retraction-2024"], flagged_sources: ["src-gibo-2024"],
+     label: "26 Jun 2024: Cureus retracts the Gibo paper",
+     detail: "The correlation between mortality rates and vaccination status 'cannot be proven with the data presented'; the authors disagree."}
+  - {id: a23, panel: years, lane: institutions, time: "2024-09-09T12:00:00Z", precision: day, kind: official, status: reported, sources: ["src-acs-2024"],
+     label: "9 Sep 2024: American Cancer Society page revised: 'no information that suggests' vaccines cause cancer",
+     detail: "The live page revised 24 Sep 2025 no longer has this section; why is not known."}
+  - {id: a24, panel: years, lane: media, time: "2025-01-09T12:00:00Z", precision: day, kind: analysis, status: single, sources: ["src-contagion-2025"],
+     label: "9 Jan 2025: Contagion Live reports a vendor count of 1.6 million posts using the term",
+     detail: "Nov 2022 to Nov 2024; about 22 billion impressions; vendor data, not audited."}
+  - {id: a25, panel: years, lane: research, time: "2025-02-20T12:00:00Z", precision: day, kind: data, status: reported, sources: ["src-msmr-nhl-2025"],
+     label: "20 Feb 2025: US military report counts non-Hodgkin lymphoma 2017 to 2023",
+     detail: "40, 34, 30, 29, 30, 38, 43 cases; no vaccination analysis."}
+  - {id: a26, panel: years, lane: research, time: "2025-05-01T12:00:00Z", precision: month, kind: data, status: reported, sources: ["src-arn-2025"],
+     label: "May 2025: Annual Report to the Nation: 2020 incidence dip, 2021 back to prepandemic levels",
+     detail: "Incidence 425.6 in 2020 against 461.3 in other years per 100,000."}
+  - {id: b01, panel: recent, lane: research, time: "2025-07-01T12:00:00Z", precision: day, kind: analysis, status: disputed, sources: ["src-acuti-martellucci-2025"],
+     label: "1 Jul 2025: Pescara cohort: cancer hospital admission hazard ratio 1.23 after one dose",
+     detail: "At a 365-day lag the one-dose association is not significant; three or more doses 0.90."}
+  - {id: b02, panel: recent, lane: institutions, time: "2025-09-19T12:00:00Z", precision: day, kind: official, status: reported, sources: ["src-acip-slides-2025", "src-factcheck-acip-2025"],
+     label: "19 Sep 2025: ACIP workgroup slides list cancer case reports 'in temporal association'",
+     detail: "Presented by two workgroup participants; not a vote or a CDC finding."}
+  - {id: b03, panel: recent, lane: research, time: "2025-09-26T12:00:00Z", precision: day, kind: analysis, status: disputed, sources: ["src-kim-2025"], flagged_sources: ["src-kim-2025"],
+     label: "26 Sep 2025: Kim et al. report Seoul cohort hazard ratio 1.27 for any cancer",
+     detail: "A Letter; the authors say findings do not establish cause."}
+  - {id: b04, panel: recent, lane: research, time: "2025-10-22T12:00:00Z", precision: day, kind: data, status: reported, sources: ["src-grippin-2025"],
+     label: "22 Oct 2025: Nature paper: COVID mRNA vaccination near immunotherapy start linked to longer survival",
+     detail: "Retrospective, one institution; mice and healthy volunteers show a type I interferon rise."}
+  - {id: b05, panel: recent, lane: journals, time: "2025-10-22T12:00:00Z", precision: day, kind: official, status: reported, sources: ["src-kim-2025-page"], flagged_sources: ["src-kim-2025"],
+     label: "22 Oct 2025: Biomarker Research adds a notice of concern to the Seoul letter",
+     detail: "No outcome by 5 Oct 2026."}
+  - {id: b06, panel: recent, lane: media, time: "2025-11-07T12:00:00Z", precision: day, kind: analysis, status: single, sources: ["src-factcheck-acip-2025"],
+     label: "7 Nov 2025: FactCheck.org says experts found the ACIP slide claims flawed",
+     detail: "Secondary."}
+  - {id: b07, panel: recent, lane: research, time: "2025-12-01T12:00:00Z", precision: day, kind: analysis, status: single, sources: ["src-semenzato-2025"],
+     label: "1 Dec 2025: French cohort of 28.7 million adults: all-cause mortality hazard ratio 0.75",
+     detail: "Abstract only; a cancer-specific result was not read."}
+  - {id: b08, panel: recent, lane: journals, time: "2025-12-12T12:00:00Z", precision: day, kind: document, status: single, sources: ["src-kuperwasser-2026"],
+     label: "12 Dec 2025: the Oncotarget editor-in-chief emails the NCI Director the Kuperwasser review manuscript",
+     detail: "Stated in the paper's editorial note; he is also an author and was not involved in peer review."}
+  - {id: b09, panel: recent, lane: journals, time: "2026-01-03T12:00:00Z", precision: day, kind: analysis, status: reported, sources: ["src-kuperwasser-2026"],
+     label: "3 Jan 2026: Kuperwasser and El-Deiry review of 66 reports and 333 patients",
+     detail: "The authors say it cannot estimate risk or draw causal inferences."}
+  - {id: b10, panel: recent, lane: journals, time: "2026-01-15T12:00:00Z", precision: month, kind: analysis, status: reported, sources: ["src-kutsuna-2026", "src-kakeya-reply-2026"],
+     label: "Jan 2026: Kutsuna and Suzuki criticise a Japanese opinion paper on excess deaths, including a source that reflects the retracted Japan paper",
+     detail: "A JMA Journal letter (online 14 Nov 2025). The authors' reply (online 24 Apr 2026) says their paper did not assume causality, cites the Seoul letter and says they cannot rule out vaccination worsening pre-existing cancers."}
+  - {id: b11, panel: recent, lane: journals, time: "2026-03-31T12:00:00Z", precision: day, kind: analysis, status: reported, sources: ["src-locquet-2026"],
+     label: "31 Mar 2026: Locquet et al. publish a commentary on the Seoul cohort",
+     detail: "Different start dates, surveillance bias and multiplicity."}
+  - {id: b12, panel: recent, lane: institutions, time: "2026-04-08T12:00:00Z", precision: day, kind: official, status: reported, sources: ["src-ema-key-facts"],
+     label: "8 Apr 2026: EMA key facts page: no evidence vaccines cause cancer in the long term",
+     detail: "Page metadata date."}
+  - {id: b13, panel: recent, lane: institutions, time: "2026-06-03T12:00:00Z", precision: day, kind: official, status: reported, sources: ["src-psi-hearing-page", "src-psi-gralow", "src-psi-blumenthal"],
+     label: "3 Jun 2026: Senate subcommittee hearing on 'Plausible Mechanisms of COVID-19 Injections Causing Cancer'",
+     detail: "Written statements only read; no new cancer data."}
+  - {id: b14, panel: recent, lane: media, time: "2026-06-05T12:00:00Z", precision: day, kind: media, status: single, sources: ["src-johnson-release-2026"],
+     label: "5 Jun 2026: Sen. Johnson's release says the hearing exposed corruption and cites '39,000 deaths'",
+     detail: "The 39,000 figure is not sourced in what we read."}
+  - {id: b15, panel: recent, lane: institutions, time: "2026-08-15T12:00:00Z", precision: month, kind: official, status: reported, sources: ["src-comirnaty-pi"],
+     label: "Aug 2026: Comirnaty label revised; section 13.1: 'has not been evaluated' for carcinogenicity",
+     detail: "A statement that a test was not run."}
+  - {id: b16, panel: recent, lane: research, time: "2026-09-10T12:00:00Z", precision: day, kind: analysis, status: reported, sources: ["src-natmed-2026"],
+     label: "10 Sep 2026: Nature Medicine French cohort of 95,015 immunotherapy patients",
+     detail: "Early survival association gone by 12 months; attributed to transient or healthy-vaccinee effects (abstract only)."}
+  - {id: b17, panel: recent, lane: institutions, time: "2026-09-22T12:00:00Z", precision: day, kind: official, status: reported, sources: ["src-cdc-arn-2026-release"],
+     label: "22 Sep 2026: CDC release on the Annual Report to the Nation",
+     detail: "Incidence rose slightly 2018 to 2022 driven by breast and prostate; mortality fell."}

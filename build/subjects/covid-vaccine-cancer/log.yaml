@@ -1,0 +1,155 @@
+subject: covid-vaccine-cancer
+# Append-only excavation log. Corrections are new entries; earlier entries are never edited.
+
+log:
+  - id: L-01
+    date: 2026-10-05
+    entry: >
+      Dig opened at the owner's request on "COVID-19 vaccines cause cancer". Owner's standing rule
+      applied before starting: the repository, its branches and past chats were checked and no
+      such dig existed. Templates used: build/subjects/vaccines-autism and the fluoride-iq dig.
+  - id: L-02
+    date: 2026-10-05
+    entry: >
+      SCOPE DECISION (owner). Scoped to the popular claim of rapidly progressing, aggressive
+      cancers after vaccination ("turbo cancer"), with a timeline. The general claim "vaccines
+      cause cancer" is carried as a second claim because the direct tests (two cohorts) address it.
+  - id: L-03
+    date: 2026-10-05
+    entry: >
+      Two parallel research streams (c1: evidence tests, registries, cohorts, case reports,
+      mechanisms; c2: origin and spread of the term, official and journal responses), each with
+      raw copies and sha256 hashes. sources/MANIFEST.yaml lists 93 sources, with sha256 checked
+      against the raw files; the Semenzato abstract has no sha256 because no copy was retained.
+      Six texts are stored under sources/ for the quote check (NCI excerpt, FDA reply, Ladapo
+      letter, Florida release, Comirnaty section 13.1, Blumenthal statement). Copyright-uncertain
+      texts (ACIP slides, Gralow and Dalgleish testimony, journal notices) were not stored, so
+      quotations from them show as manual-check items.
+  - id: L-04
+    date: 2026-10-05
+    entry: >
+      VERIFICATION RULE used in this dig. anchor_checked: primary only where the full document
+      was downloaded and read directly (Wayback and Europe PMC copies count as direct copies where
+      the original host refused us). Abstracts, summaries and secondary reports are secondary.
+      The headline claim is established at moderate confidence, so the headline stays draft.
+  - id: L-05
+    date: 2026-10-05
+    entry: >
+      CORRECTIONS TO THE BRIEF. (1) The Japanese cancer-mortality paper is from 2024, not 2025, and
+      was retracted on 26 Jun 2024. (2) The Korean study is not a "national cohort": it is Seoul
+      residents in the national insurance database, and it is a Letter. (3) No cohort of cancer after
+      vaccination was found from Kaiser, the Vaccine Safety Datalink, Israel, the Netherlands, the
+      Nordic countries or the UK. (4) "Turbo cancer" appears in the peer-reviewed literature we read
+      only in review papers, not in an epidemiological study.
+  - id: L-06
+    date: 2026-10-05
+    entry: >
+      FILING DECISIONS. (a) Population statistics cannot formally refute a claim (Rule 9; the
+      vaccines-autism owner decision L-19): the registry series and the cohorts are filed as
+      synthetic evidence, so "vaccines cause cancer" and "vaccines cause turbo cancer" are
+      `proposed` and the incidence difference is `contested`, none refuted by statistics. (b) The
+      claim that the Eens mouse report proved turbo cancer is `refuted` on primary text, the
+      authors' own addendum, with refutation_class narrative_drift. (c) The assessment answer is
+      leans_no at moderate strength, not no, because the measurement has not been done.
+  - id: L-07
+    date: 2026-10-05
+    entry: >
+      BLOCKED OR NOT READ (from our proxy): cdc.gov, floridahealth.gov, congress.gov, hhs.gov,
+      cureus.com, oncotarget.com, europepmc.org web pages, digital.nhs.uk, ar15.com, rumble.com,
+      the live Science-Based Medicine site and X. Wayback and archive.cdc.gov copies were used where
+      they worked. Not read: the Kruger interview video, the Epoch Times article, oral Senate
+      testimony, the 2026 US Annual Report in full, the Nature Medicine, Eur J Cancer and JITC
+      papers beyond abstracts, the Cureus expression-of-concern text, supplementary RCT tables.
+  - id: L-08
+    date: 2026-10-05
+    entry: >
+      SCOPED OUT. Residual-DNA contamination (cvc-sq-dna-contamination); a re-run of the retracted
+      Japan paper's regression (cvc-sq-japan-mortality-rerun); the retraction of Mead et al., Cureus
+      2024 (26 Feb 2024; read in the c2 stream, not in this manifest); the Int J Biol Macromol review
+      on N1-methylpseudouridine, whose mouse-study author told FactCheck.org the study did not show tumour
+      promotion (review not opened).
+  - id: L-09
+    date: 2026-10-05
+    entry: >
+      DISCREPANCIES RECORDED. (1) Europe PMC phrase hits for "turbo cancer": 5 in c1, 6 in c2; both
+      said none is an epidemiological study. (2) The scoping review: c1 notes 50 case reports plus 5
+      series, 3 reviews and 8 population items; the paper's text says 55 of 69 (81 percent) are
+      single-patient reports or small series; the review also covers infection. (3) The Korea
+      "about 8.4 million" is the screened population; the analysed matched cohort is 2,975,035. (4)
+      The ACS live page's canonical URL differs from the URL requested. (5) Some dates (Cureus expression
+      of concern, Pescara epub) were taken from raw PubMed records where the notes lacked them.
+      (6) The military report's units are inconsistent inside the document.
+  - id: L-10
+    date: 2026-10-05
+    entry: >
+      PROPOSED TAXONOMY LINE for the owner (build/taxonomy.yaml is outside this dig's folder and was
+      not edited): covid-vaccine-cancer needs an area (health or medicine, as for vaccines-autism)
+      and question types matching a causal question that is resolvable in principle; conformance
+      warns until the entry exists.
+  - id: L-11
+    date: 2026-10-06
+    entry: >
+      Work resumed after a rate-limit cutoff. Raw files were used again to check dates and quotes.
+      The assessment headline was shortened and the short answer cites only non-flagged source ids so
+      that publication-status rule PS3 is satisfied (flagged ids appear only on the claims that carry
+      their notice). Thread ids are prefixed thread-cvc- because thread ids are unique across subjects.
+  - id: L-12
+    date: 2026-10-06
+    entry: >
+      INDEPENDENT CHECK (a separate agent that had not seen the drafting re-opened the raw source
+      files and the stored texts; this is an author-side check, not the publish-gate review).
+      All 92 manifest sha256 values match ALL_SHA256.txt and the files on disk; PMC and PMID
+      identifiers match the raw file names. Numbers re-checked against the files: Seoul (Letter,
+      additional files 1 to 3), Pescara, the US Annual Report 2025, the Japanese national
+      mortality and incidence files, Gibo and its notices, Eens and its addendum, Goldman, Zhang,
+      the military report, the immunotherapy cohorts, the NCI, EMA, ACS, FDA, Florida and Senate
+      texts. Blocking findings, fixed in the assessment, short answer, claims and timeline: (1)
+      the Pescara authors do not write that their results "do not establish cause"; that is the
+      Seoul authors' wording, and the Pescara authors call their findings "inevitably
+      preliminary", so both statements now say that separately; (2) the assessment said published
+      critiques point to the way a 12-month lag changes the Italian result, but the lag analysis
+      is the Pescara authors' own sensitivity run and no critique of it was found, so the text now
+      says so; (3) the divergence note said the idea moved in 2025 and 2026 into a "Florida health
+      order"; the Florida documents are a letter of 6 Dec 2023 and a recommendation of 3 Jan 2024,
+      not an order, and neither uses the term; (4) the Kutsuna and Suzuki letter was described as
+      criticising an opinion paper that cites the Seoul study; the letter does not mention the
+      Seoul study, and what cites it is the opinion paper's authors' reply (Kakeya et al.), which
+      says it did not assume causality and cannot rule out a contribution, not that causality is
+      "conceded to be not shown"; the Kutsuna letter is now cited for Japanese cancer deaths only,
+      and the retracted Gibo paper is reached through a book that "reflects the same arguments", not
+      cited directly. Non-blocking, fixed: Hecht's Wayback URL carried the capture stamp of the
+      Science-Based Medicine copy (the saved file is the capture of 2026-01-08); Gorski does give a
+      context for the 30 Nov 2020 comment (sarcastic, thread on the impending Pfizer authorisation);
+      Gibo's excess is 2.1 percent, not "2.1"; a 24.4 percent screening figure taken from the
+      retracted paper's discussion removed from the pandemic-disruption claim; Pescara is residents
+      aged 11 and over, not adults, the raised risk was in men only, the follow-up start differs by
+      comparison; the Kuperwasser search is described as the authors describe it; Dalgleish's "no
+      doubt" sentence is quoted with its context; Goldman's authors do postulate the booster as the
+      trigger; Grippin also reports melanoma cohorts; Zhang and El-Deiry frame their cell-line result
+      around infection. Checked and unchanged: no retracted paper's finding is used as support
+      (Gibo and Mead appear only with their notices); statistics are not used to refute (the one
+      refuted claim, cvc-eens-proved-turbo-cancer, rests on the authors' addendum); official
+      statements, hearing, film and posts are filed as adoption; no private patients or minors are
+      named. Verified against a PubMed record at this check: Semenzato et al. (28.7 million adults,
+      all-cause hazard ratio 0.75, 0.75 to 0.76; no cancer-specific result in the abstract). Could
+      not be verified by the checker: the Kruger interview, the ar15.com comment, the Epoch Times
+      article, the Died Suddenly film (machine transcript only), oral Senate testimony, the ACIP
+      slide quotations beyond the Wayback copy, the Cureus expression-of-concern text, the
+      Oncotarget and Cureus pages, and the Table S3 and S4 supplements of the Pescara paper.
+  - id: L-13
+    date: 2026-10-06
+    entry: >
+      REVISIONS after publish-gate review round 1 (independent review agent, PR head 3e2bb7a).
+      R1-1 (blocking): the Pescara 365-day result is no longer described as reversing or gone; the
+      claim, the lean and the scale line now say the one-dose association was not significant
+      overall, the three-dose hazard ratio was below 1, and breast and bladder admissions stayed
+      raised with at least one dose (the paper's own sentence, checked in the saved text).
+      R1-2 (blocking): "disowned" removed from the surface text, description and key point; the
+      Eens authors reject the "turbo cancer" reading in an addendum, the report is not retracted.
+      R1-3 (blocking): cvc-health-bodies-no-evidence removed from assessment.basis, since it is an
+      adoption claim; key point 3 still names the bodies and labels them adoption. R1-4: the
+      Malatesta letter's remark that the cancer excess may be unrelated to a real increase is
+      recorded, and src-excli-exchange-2026 (metadata only) is dropped from the anchor sources.
+      R1-5: search_summary now says "US and Japanese registries". R1-6: the CDC-release wording
+      quoted for the 2026 report is named as coming from the release, not the abstract. R1-7
+      (taxonomy entry) is for the owner and unchanged. Earlier entries are untouched.

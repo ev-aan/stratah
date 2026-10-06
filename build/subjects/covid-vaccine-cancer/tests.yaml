@@ -1,0 +1,96 @@
+subject: covid-vaccine-cancer
+
+discriminating_tests:
+
+  - id: dt-registry-surge
+    question: >
+      If COVID-19 vaccination caused a population-wide rise in cancer, would age-standardised
+      all-cancer incidence or mortality rise after the 2021 rollout beyond earlier trends?
+    retires: null
+    predicts:
+      population-wide-effect: >
+        IF vaccination raised cancer risk across the vaccinated population, all-cancer rates should
+        rise after 2021 beyond the pre-2020 trend, with a visible break at the rollout.
+      no-population-wide-effect: >
+        IF not, rates should follow earlier trends after the 2020 diagnosis dip.
+    result:
+      type: synthetic
+      finding: >
+        US (Annual Report to the Nation 2025): incidence 2020 425.6, other years 461.3 per 100,000,
+        joinpoint 2012-2021 annual change 0.1 (-0.1 to 0.3); mortality 2018-2022 falling 1.5 per year.
+        Japan (National Cancer Center): mortality 278.9 (2019) to 266.7 (2024); incidence 282.1, 263.6,
+        275.7, 271.9, 272.5 for 2019-2023. No surge; some site rises (US breast and prostate incidence,
+        Japanese female breast mortality in 2022, Japanese leukaemia in 2022) are in series that
+        pre-date or briefly deviate from the vaccines.
+      accessible: true
+    resolves: >
+      Fails to find a population-wide effect. It cannot see a rise in a small subgroup, a lag longer
+      than the series, or any individual-level effect, and it has no vaccination status.
+    note: >
+      Ecological statistics, class synthetic. Under Rule 9 it does not refute (owner decision,
+      vaccines-autism log L-19). The 2026 US report was read as an abstract only.
+
+  - id: dt-lag-analysis
+    question: >
+      Does the excess cancer among vaccinated adults in observational cohorts survive a lag period and a common start date?
+    retires: null
+    predicts:
+      real-effect: >
+        IF vaccination raised cancer risk, the hazard ratio should stay above 1 after excluding the
+        first 6 to 12 months and when both groups start follow-up on the same calendar date.
+      bias: >
+        IF the excess comes from different start dates, surveillance or healthy-vaccinee effects, it
+        should shrink or reverse with a lag and a common start.
+    result:
+      type: synthetic
+      finding: >
+        Run in part by the Pescara authors: with a 180-day minimum lag, at least one dose 1.23 (1.11 to
+        1.37) and three or more 1.09 (1.02 to 1.16); with a 365-day lag, one dose not significant and
+        three or more 0.90 (0.83 to 0.98); breast and bladder stayed elevated. Not run for the Seoul
+        cohort, whose groups have different start dates; its critics ask for a 6 to 12 month lag.
+      accessible: true
+    resolves: >
+      Partly. The Italian result leans toward bias or a short-lived effect and does not exclude a small
+      effect at specific sites. The Seoul question is open.
+    note: "Hospital admission is a proxy for new cancer. Authors call their findings preliminary."
+    flagged_sources: [src-kim-2025]
+
+  - id: dt-rapid-progression-cohort
+    question: >
+      Among adults with the same cancer type and stage at diagnosis, is rapid progression (defined
+      in advance) more common in those vaccinated against COVID-19 than in those who were not?
+    retires: cvc-turbo-cancer-vaccine-caused
+    predicts:
+      turbo-cancer: >
+        IF vaccination caused unusually rapid cancers, matched vaccinated patients should progress
+        faster or present at later stage more often, with the gap growing with doses or recency.
+      no-effect: >
+        IF not, progression and stage at diagnosis should match after adjusting for screening and healthcare use.
+    result:
+      type: not_run
+      finding: >
+        Not run. No study we found has this design; the nearest are survival comparisons in
+        patients starting immunotherapy (cvc-ici-patients-no-worse-survival).
+      accessible: true
+    resolves: >
+      Would test the claim as proponents state it. A negative result in a registry-linked cohort
+      would still be statistics (Rule 9) and would show that no evidence supports the claim.
+    note: "Design only. See cvc-rapid-progression-gap."
+
+  - id: dt-registry-linked-incidence
+    question: >
+      With individual vaccination status linked to a national cancer registry, is cancer incidence
+      higher in vaccinated than unvaccinated people after matching, a lag and a common start date?
+    retires: cvc-vaccines-cause-cancer
+    predicts:
+      risk-raised: "IF vaccination raised cancer risk, incidence by cancer type should be higher in vaccinated people after a lag, in more than one country."
+      no-risk: "IF not, hazard ratios should sit near 1, with no pattern by dose count or vaccine type."
+    result:
+      type: not_run
+      finding: >
+        Not run. The Seoul and Pescara cohorts use claims and hospital records, not registry
+        incidence, and no Nordic, UK, Israeli or Vaccine Safety Datalink analysis was found
+        (cvc-sq-other-cohorts).
+      accessible: true
+    resolves: "Would give an independent, registry-based estimate and a test of replication."
+    note: "Design only."

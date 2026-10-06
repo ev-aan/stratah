@@ -1,0 +1,71 @@
+subject: covid-vaccine-cancer
+
+threads:
+
+  - id: thread-cvc-turbo-cancer-transmission
+    type: reception-overlay
+    title: "How the 'turbo cancer' claim spread (2022 to 2026)"
+    confers_weight: false
+    description: >
+      The route the claim took, recorded as transmission so that its reach is never read as
+      support. Each step is dated in timeline.yaml.
+    overlay_notes:
+      - >
+        July to August 2022: write-ups of a Swedish pathologist's interview say "aggressive and
+        unusual cancers"; a Substack post of 4 August 2022 uses "turbo cancers", republished by
+        Global Research (cvc-term-first-use).
+      - >
+        November 2022: the film "Died Suddenly" carries a general vaccine-cancer claim; our automated
+        transcript has no "turbo" (cvc-sq-died-suddenly-term). A monitoring vendor (not audited)
+        counted about 1.6 million English-language posts and 22 billion impressions with the term
+        from November 2022 to November 2024.
+      - >
+        2023: a one-mouse case report is shared as proof and its authors disown the term
+        (cvc-eens-proved-turbo-cancer); Florida's surgeon general raises DNA integration and the
+        FDA replies (cvc-florida-surgeon-general, cvc-fda-marks-letter).
+      - >
+        2024: a Japanese cancer-mortality paper is retracted and is still cited
+        (cvc-gibo-paper-retracted).
+      - >
+        2025 to 2026: ACIP workgroup slides (cvc-acip-slides), a Seoul cohort letter with a notice of
+        concern, a Senate subcommittee hearing (cvc-senate-hearing) and NCI, EMA and ASCO
+        statements that there is no evidence (cvc-health-bodies-no-evidence).
+    firewall: >
+      Reach, repetition and official endorsement are adoption. None of the steps above lends
+      evidential weight to any claim in this dig, including the proposed and the established ones.
+      Figures from the monitoring vendor are unaudited.
+
+  - id: thread-cvc-real-pieces
+    type: reception-overlay
+    title: "Real facts carrying a conclusion they do not support"
+    confers_weight: false
+    description: >
+      Much of the strongest-sounding material for the claim starts from something true. This
+      thread records the true part and the added conclusion.
+    overlay_notes:
+      - >
+        Eens mouse report (cvc-eens-mouse-case-report). True: one mouse died of lymphoma after a
+        high-dose intravenous booster. Added: that it proves "turbo cancer"; the authors say it
+        does not and that 70 other mice did not develop lymphoma.
+      - >
+        Seoul cohort (cvc-korea-cohort-reports-excess). True: hazard ratio 1.27 is what the letter
+        reports. Added: that vaccination caused it; the authors say causality is not established.
+      - >
+        Case reports (cvc-case-reports-no-denominator). True: patients whose cancers progressed
+        after vaccination exist. Added: that the order of events shows cause; there is no comparison group.
+      - >
+        FDA label (cvc-fda-label-not-evaluated). True: the label says "not evaluated". Added: an
+        admission of harm; it is a statement that a test was not run.
+      - >
+        Military lymphoma counts (cvc-military-nhl-counts). True: counts rose from 2021 to 2023.
+        Added: a 50 percent increase caused by vaccines; 2023 is 10 percent above 2017, in counts of tens,
+        and the report mentions no vaccination.
+      - >
+        Registry totals (cvc-no-registry-surge). True: no surge. Added, from the other side:
+        "so vaccines do not cause cancer"; totals cannot see a small subgroup.
+      - >
+        Residual DNA (cvc-sq-dna-contamination). True: the 2007 guidance exists and DNA fragments are
+        in the vaccine. Added: that this causes cancer; the FDA says the guidance does not apply and EMA says tests behind the high figures are unvalidated.
+    firewall: >
+      The true part of each item stands on its own claim and weight. The added conclusion gains
+      nothing from being attached to a true fact, whichever side adds it.

@@ -1,0 +1,93 @@
+FDA (CBER Director Peter Marks) letter to Florida State Surgeon General Joseph Ladapo, December 14, 2023.
+URL: https://www.fda.gov/media/174875/download
+Text extracted with pdftotext from the PDF read in research stream C2 (raw/fda_ladapo_reply_20231214.pdf). US government work, public domain.
+
+December 14, 2023
+Joseph A. Ladapo, MD, PhD
+State Surgeon General
+Florida Department of Health
+4052 Bald Cypress Way, Bin A-00
+Tallahassee, FL 32399-1710
+Dear Dr. Ladapo,
+This is in response to your letter of December 6, 2023, regarding the mRNA COVID-19 vaccines. In your letter, you
+raise the concern that SV40 promoter/enhancer DNA is present in these vaccines and that this raises safety
+concerns. 1 We would like to make clear that based on a thorough assessment of the entire manufacturing
+process, FDA is confident in the quality, safety, and effectiveness of the COVID-19 vaccines. The agency’s benefitrisk assessment and ongoing safety surveillance demonstrate that the benefits of their use outweigh their risks.
+Additionally, with over a billion doses of the mRNA vaccines administered, no safety concerns related to residual
+DNA have been identified. Responses to each of your three specific questions follow below:
+1. In response to the question regarding potential genotoxicity of the mRNA COVID-19 vaccines: No SV40
+proteins are encoded for or are present in the vaccines. On first principle, it is quite implausible that the
+residual small DNA fragments located in the cytosol could find their way into the nucleus through the
+nuclear membrane present in intact cells and then be incorporated into chromosomal DNA. 2 Additionally,
+studies have been conducted in animals using the modified mRNA and lipid nanoparticle together that
+constitute the vaccine, including the minute quantities of residual DNA fragments left over after DNAse
+treatment during manufacturing, and demonstrate no evidence for genotoxicity from the vaccine. 3
+Pharmacovigilance data in hundreds of millions of individuals also indicate no evidence indicative of
+genotoxicity.
+2. Regarding whether FDA considers the lipid nanoparticle delivery system in setting the safe levels of DNA
+in the mRNA vaccine: The agency has taken into account the totality of the mRNA COVID-19 vaccine
+product, including the lipid nanoparticles, as it reviewed the manufacturers’ specifications for residual DNA
+fragments present. Any contamination with residual DNA fragments is monitored routinely as a product
+specification.
+3. Regarding concern for possible integration of the residual DNA fragments into reproductive cells: Please
+see the response to the first question above regarding the implausibility that the minute amounts of small
+DNA fragments present could find their way into the nucleus of these cells. Additionally, reproductive
+toxicology studies have been conducted to evaluate the mRNA COVID-19 vaccines and have found no
+concerns.
+In your letter, you raise questions, citing to the 2007 Guidance for Industry: Considerations for Plasmid DNA Vaccines for
+Infectious Disease Indications. This guidance was developed for DNA vaccines themselves, not for DNA as a contaminant in
+other vaccines, and is not applicable to the mRNA COVID-19 vaccines.
+2
+The Nuclear Envelope and Traffic between the Nucleus and Cytoplasm - The Cell - NCBI Bookshelf (nih.gov);
+3
+https://www.fda.gov/media/151733/download?attachment; https://www.fda.gov/media/155931/download?attachment
+1
+
+U.S. Food & Drug Administration
+10903 New Hampshire Avenue
+Silver Spring, MD 20993
+w ww.fda.gov
+
+Perpetuating references to this information about residual DNA without placing it within the context of the
+manufacturing process is misleading. Therefore, we hope the following general explanation of the manufacturing
+process for these vaccines will be helpful.
+The starting material for the manufacture of the mRNA portion is a DNA template. As part of the purification
+process during production, the mRNA is treated with DNAse to digest residual DNA. There are internationally
+agreed upon recommendations for the quantity of residual DNA present in all biological products, including the
+mRNA vaccines. 4 The specification for the COVID-19 mRNA vaccines for residual DNA following DNAse treatment
+results in the presence of DNA fragments at a quantity that is less than three orders of magnitude lower than the
+quantity of the RNA dose by weight. This has been determined (and continues to be determined during production
+of lots) with a validated quantitative PCR assay.
+No SV40 proteins are encoded by the nucleotide sequences present in the mRNA vaccines. The treatment of the
+products with DNAase also fragments any residual DNA template that might be present after other manufacturing
+steps. Thus, as noted above, following manufacture of the mRNA COVID-19 vaccines, no DNA encoding SV40
+proteins is present in the residual DNA remaining in the products.
+Additionally, animal studies with the mRNA delivery technology done over the past decade show no evidence of
+genotoxicity. Moreover, we now have access to global surveillance data on over one billion doses of the mRNA
+vaccines that have been given, and there is nothing to indicate harm to the genome, such as increased rates of
+cancers.
+FDA takes its responsibility for ensuring the safety, effectiveness and manufacturing quality of all vaccines licensed
+in the U.S., including the mRNA COVID-19 vaccines, very seriously. We stand firmly behind our regulatory decision
+making with the authorizations and approvals of the COVID-19 vaccines, which have a highly favorable safety
+profile, and which have saved, and continue to save, many lives.
+The challenge we continue to face is the ongoing proliferation of misinformation and disinformation about these
+vaccines which results in vaccine hesitancy that lowers vaccine uptake. Given the dramatic reduction in the risk of
+death, hospitalization and serious illness afforded by the vaccines, lower vaccine uptake is contributing to the
+continued death and serious illness toll of COVID-19.
+We hope the information provided addresses your concerns and those of your constituents.
+Sincerely,
+Peter Marks, M.D., Ph.D.
+Director
+Center for Biologics Evaluation and Research
+WHO (World Health Organization) Meeting Report Study group on cell substrates for production of biologicals. June 11 and
+12, 2007; 1–30; FDA Guidance for Industry: Characterization and Qualification of Cell Substrates and Other Biological Materials
+Used in the Production of Viral Vaccines for Infectious Disease Indications | FDA. U.S. Department of Health and Human
+Services, Food and Drug Administration Center for Biologics Evaluation and Research, February, 2010.
+4
+
+U.S. Food & Drug Administration
+10903 New Hampshire Avenue
+Silver Spring, MD 20993
+w ww.fda.gov
+
+
