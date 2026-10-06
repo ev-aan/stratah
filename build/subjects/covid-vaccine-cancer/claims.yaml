@@ -9,7 +9,7 @@ headline: "Do COVID Vaccines Cause 'Turbo Cancer'? Not Shown; Two Disputed Studi
 headline_claim: cvc-no-registry-surge
 headline_status: draft          # draft until the headline claim reaches high confidence with a primary check
 search_summary: >
-  Do COVID vaccines cause "turbo cancer"? Not shown: no controlled study measured it, and national registries show no surge. Two cohort studies report more cancer after vaccination; both are disputed and one carries an editor's notice of concern.
+  Do COVID vaccines cause "turbo cancer"? Not shown: no controlled study measured it, and the US and Japanese registries show no surge. Two cohort studies report more cancer after vaccination; both are disputed and one carries an editor's notice of concern.
 url_slug: do-covid-vaccines-cause-turbo-cancer
 
 # ---------------------------------------------------------------------------
@@ -45,7 +45,7 @@ assessment:
     vaccination, but they have no comparison group and their compilers say they cannot show how
     often this happens. Laboratory work shows a spike-protein effect on p53 in two engineered
     cell lines, which its authors call preliminary. A mouse case report that was widely shared
-    as proof was disowned in its authors' own addendum. Statistics cannot prove a general claim false, so
+    as proof carries an addendum in which its authors reject the "turbo cancer" reading. Statistics cannot prove a general claim false, so
     "vaccines cause cancer" and "vaccines cause turbo cancer" are filed as proposed, not refuted.
     What health bodies and politicians say, in both directions, is shown separately as adoption,
     not evidence: NCI, EMA, the American Cancer Society and ASCO say there is no evidence of a
@@ -55,8 +55,8 @@ assessment:
   key_points:
     - "No study has measured 'turbo cancer' by vaccination status; US and Japanese registries show a 2020 dip and then no surge, but cannot see a small subgroup."
     - "Two cohorts report more cancer after vaccination (Seoul 1.27, Pescara 1.23); both disputed, their authors stop short of cause, and the Seoul letter has a concern notice."
-    - "Adoption is not evidence: a retracted 2024 Japan paper and a disowned mouse report circulated widely; NCI, EMA, ASCO and a Senate hearing took opposite sides."
-  basis: [cvc-rapid-progression-gap, cvc-no-registry-surge, cvc-cancer-incidence-higher-after-vaccination, cvc-korea-cohort-bias-concerns, cvc-italy-cohort-lag, cvc-case-reports-no-denominator, cvc-gibo-paper-retracted, cvc-mechanism-spike-p53, cvc-health-bodies-no-evidence]
+    - "Adoption is not evidence: a retracted 2024 Japan paper and a mouse case report whose authors rejected the "turbo cancer" reading circulated widely; NCI, EMA, ASCO and a Senate hearing took opposite sides."
+  basis: [cvc-rapid-progression-gap, cvc-no-registry-surge, cvc-cancer-incidence-higher-after-vaccination, cvc-korea-cohort-bias-concerns, cvc-italy-cohort-lag, cvc-case-reports-no-denominator, cvc-gibo-paper-retracted, cvc-mechanism-spike-p53]
   rated_claim: cvc-turbo-cancer-vaccine-caused
   lean:
     toward: "no"
@@ -65,7 +65,7 @@ assessment:
     because: >
       Registries show no surge in all-cancer rates after the rollout, no controlled study has found
       rapid progression after vaccination, the two cohorts that report more cancer have documented
-      design problems and one reverses at a 12-month lag, and the mechanism work is in cell lines.
+      design problems and in one the one-dose association is no longer significant at a 12-month lag (breast and bladder stay raised), and the mechanism work is in cell lines.
     caveats: >
       Population totals cannot see a rise in a small group. No study has tested the claim as its
       proponents state it. The two cohorts cannot be set aside as noise, and the Seoul letter's
@@ -140,8 +140,8 @@ short_answer:
     ecological (cvc-no-registry-surge). The two cohorts that report more cancer are observational,
     carry design problems and are disputed (cvc-cancer-incidence-higher-after-vaccination,
     cvc-korea-cohort-bias-concerns, cvc-italy-cohort-lag). A 2024 Japanese paper was retracted
-    (cvc-gibo-paper-retracted) and a widely shared mouse report was disowned by its authors
-    (cvc-eens-proved-turbo-cancer).
+    (cvc-gibo-paper-retracted) and a widely shared mouse case report carries an addendum in which its authors reject the
+    "turbo cancer" reading (cvc-eens-proved-turbo-cancer).
   except:
     - claim: cvc-cancer-incidence-higher-after-vaccination
       text: >
@@ -151,8 +151,9 @@ short_answer:
         say these are bias, and we cannot say they are not.
       scale: >
         Two studies in two populations. The Seoul cohort followed adults for one year, and its
-        authors and critics agree that solid tumours rarely arise that fast. In Pescara the
-        association is gone at a 12-month lag for at least one dose, and below 1 for three doses.
+        authors and critics agree that solid tumours rarely arise that fast. In Pescara, at a
+        12-month lag the one-dose association is not significant overall and the three-dose hazard
+        ratio is below 1, but breast and bladder cancer admissions stay raised with at least one dose.
       scale_sources: [src-kim-2025-page, src-kim-2025-supp, src-acuti-martellucci-2025, src-locquet-2026]
       what_it_is:
         - "Two published observational comparisons of vaccinated with unvaccinated people (Seoul: adults 20 and over; Pescara: residents 11 and over), each reporting a hazard ratio above 1 for cancer."
@@ -269,7 +270,7 @@ description: >
   two cohort studies, filed as `synthetic` evidence with their disputes; (2) the population
   registry series, which are ecological and cannot see individual exposure; (3) case reports and
   laboratory work, which are filed with what they cannot show; (4) a retracted paper and a
-  disowned case report that circulated as proof; and (5) the institutional record, filed as
+  mouse case report, whose authors reject the "turbo cancer" reading, that circulated as proof; and (5) the institutional record, filed as
   adoption in both directions, never as evidence. Scope was set by the owner to the popular
   claim of rapidly progressing cancers after vaccination ("turbo cancer"), with a timeline.
 
@@ -484,7 +485,8 @@ claims:
         change -1.5; joinpoint 2016-2019 -2.1 and 2019-2022 -1.3, "slowing" but not reversing; the
         2026 report (abstract and CDC release only) reports mortality 2019-2023 falling 1.6 per year
         in men and 1.1 in women and incidence rising slightly 2018 to 2022, "driven by increases in
-        breast cancer among women and prostate cancer among men". Japan: National Cancer Center
+        breast cancer among women and prostate cancer among men" (wording as recorded from the CDC
+        release, which was not opened by the independent reviewer; it is not in the abstract). Japan: National Cancer Center
         files read directly: age-standardised all-cancer mortality, both sexes, 278.9 (2019), 276.8
         (2020), 275.0, 273.9, 268.4, 266.7 (2024); registry incidence 282.1 (2019), 263.6 (2020),
         275.7, 271.9, 272.5 (2023). Not flat at every site: Japanese female breast cancer mortality
@@ -694,7 +696,9 @@ claims:
       Pescara province aged 11 and over, first hospital admission with cancer was more frequent
       after at least one dose (hazard ratio 1.23, 1.11 to 1.37) and three or more doses (1.09,
       1.02 to 1.16) than with none, and that with a 365-day minimum lag the one-dose association was
-      no longer significant and the three-dose hazard ratio was 0.90 (0.83 to 0.98).
+      not significant overall and the three-dose hazard ratio was 0.90 (0.83 to 0.98); the paper
+      adds that at 365 days "breast and bladder cancer hospitalizations maintained their positive
+      association with ≥1 dose".
     evidence_class: primary_text
     confidence: high
     evidential_weight: 4   # of 5, for what the paper reports
@@ -722,17 +726,19 @@ claims:
         write: "Given that it was not possible to quantify the potential impact of the healthy
         vaccinee bias and unmeasured confounders, these findings are inevitably preliminary."
         Letters: Malatesta et al. argue the mortality result reflects immortal-time bias; Manzoli
-        et al. reply that age-adjusted models align time zero. Those exchanges are about
-        mortality, not the cancer outcome.
+        et al. reply that age-adjusted models align time zero. Their main argument is about
+        mortality; Malatesta et al. also note that the excess of tumours "could also be due to
+        factors unrelated to actual increases".
       accessible: true
-      sources: [src-acuti-martellucci-2025, src-malatesta-2025, src-manzoli-reply-2025, src-excli-exchange-2026]
+      sources: [src-acuti-martellucci-2025, src-malatesta-2025, src-manzoli-reply-2025]
     basis: >
-      Reported, with the lag result alongside: an association that vanishes or reverses when the
+      Reported, with the lag result alongside: an association that weakens or loses significance when the
       early months and then a full year are excluded is the pattern the critics of cohort designs
       predict for bias, and the pattern an effect that takes years to arise would also show for a
       one-year lag. We do not adjudicate; the authors' own words are that the results are
-      preliminary. The critics of the Italian paper are not on the reassurance side: they argue
-      its mortality benefit is an artefact.
+      preliminary. The critics of the Italian paper are not mainly on the reassurance side: their main argument
+      is that its mortality benefit is an artefact, though one of them also says the cancer excess
+      may be unrelated to a real increase.
 
   - id: cvc-cohort-limits
     state: established

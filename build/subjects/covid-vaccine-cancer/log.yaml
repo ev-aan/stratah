@@ -136,3 +136,20 @@ log:
       article, the Died Suddenly film (machine transcript only), oral Senate testimony, the ACIP
       slide quotations beyond the Wayback copy, the Cureus expression-of-concern text, the
       Oncotarget and Cureus pages, and the Table S3 and S4 supplements of the Pescara paper.
+  - id: L-13
+    date: 2026-10-06
+    entry: >
+      REVISIONS after publish-gate review round 1 (independent review agent, PR head 3e2bb7a).
+      R1-1 (blocking): the Pescara 365-day result is no longer described as reversing or gone; the
+      claim, the lean and the scale line now say the one-dose association was not significant
+      overall, the three-dose hazard ratio was below 1, and breast and bladder admissions stayed
+      raised with at least one dose (the paper's own sentence, checked in the saved text).
+      R1-2 (blocking): "disowned" removed from the surface text, description and key point; the
+      Eens authors reject the "turbo cancer" reading in an addendum, the report is not retracted.
+      R1-3 (blocking): cvc-health-bodies-no-evidence removed from assessment.basis, since it is an
+      adoption claim; key point 3 still names the bodies and labels them adoption. R1-4: the
+      Malatesta letter's remark that the cancer excess may be unrelated to a real increase is
+      recorded, and src-excli-exchange-2026 (metadata only) is dropped from the anchor sources.
+      R1-5: search_summary now says "US and Japanese registries". R1-6: the CDC-release wording
+      quoted for the 2026 report is named as coming from the release, not the abstract. R1-7
+      (taxonomy entry) is for the owner and unchanged. Earlier entries are untouched.
