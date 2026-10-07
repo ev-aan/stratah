@@ -134,3 +134,10 @@ log:
       totals re-checked against the ProPublica organization API (IRS data); all match the research notes.
       Central Fund of Israel's fiscal year ends in January, so its figures are now labelled by the month the
       fiscal year ends.
+  - id: L-14
+    date: 2026-10-07
+    entry: >
+      OWNER DECISION: start date is the Oslo accords (1993) for now. Earlier periods (Fatah 1959, Arafat as
+      PLO chairman from 1969) are out of scope until the owner extends it. Within 1993-2026 the thinnest part
+      is money from 1993 to 2015: PA finances and donor aid from 1994, the IMF's 2003 review of PA accounts,
+      Paris Protocol clearance revenues, and annual US aid figures.
