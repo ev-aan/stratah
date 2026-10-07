@@ -579,3 +579,75 @@ sources:
     document_class: primary_text
     read: tool
     authenticity: {status: authenticated, strength: moderate, provenance: "auswaertiges-amt.de.", tests: ["Official-domain test [x]"], tested_by: "Strata session, 2026-10-07", gaps: ["Read through a summarizing tool; no 2026 German government statement found."], checked: 2026-10-07}
+
+  # ---------------- Israeli government payments to US media and content firms (FARA) ----------------
+  - id: src-fara-bulk-2026-10-07
+    title: "US DOJ FARA eFile bulk data: all foreign principals, registrants and registrant documents (downloaded 7 Oct 2026)"
+    url: https://efile.fara.gov/bulk/zip/FARA_All_ForeignPrincipals.csv.zip
+    document_class: dataset (official register)
+    read: "full (downloaded; filtered to Country = ISRAEL: 314 foreign-principal rows, 1942-2026)"
+    sha256: 9db085c56c5af1e7e3d0e063576b160cdf8bbca11551a143a14815549cabadb8
+    authenticity: {status: authenticated, strength: strong, provenance: "Justice Department FARA eFile bulk download.", tests: ["Registration numbers and dates match the individual filings opened below [x]"], tested_by: "Strata session, 2026-10-07", gaps: ["A register of who filed; it does not capture unregistered activity."], checked: 2026-10-07}
+  - id: src-fara-7732-piro
+    title: "Piro, Inc. (FARA 7732): Exhibits A/B with Havas work order 'Digital Storytelling Pilot' dated 30 Apr 2026 (filed 2 Jun 2026) and amendment with work order 'Fact-Based Content Initiative' dated 20 Jul 2026 (filed 29 Jul 2026)"
+    url: https://efile.fara.gov/docs/7732-Exhibit-AB-20260602-0.pdf
+    document_class: primary_text
+    read: "full (PDFs downloaded from efile.fara.gov and text extracted; also 7732-Exhibit-AB-20260729-1 and 7732-Amendment-20260729-1)"
+    sha256: c29da95a2610142a29724ff8c105a76ae25204706d52c1f708a7a0e64e9f4b09
+    authenticity: {status: authenticated, strength: strong, provenance: "Filed with the US Justice Department under penalty of perjury; served from efile.fara.gov.", tests: ["Official-domain test; registration number, dates and signatory consistent across three filings [x]"], tested_by: "Strata session, 2026-10-07", gaps: ["Contract values only; the first six-month supplemental statement (receipts) is not yet due/filed."], checked: 2026-10-07}
+  - id: src-fara-7649-clocktowerx
+    title: "Clock Tower X LLC (FARA 7649): Exhibit B 8 Sep 2025; First Amendment raising the budget to $9,000,000 (filed 26 Dec 2025); work order of 6 Feb 2026 (filed 7 Jun 2026); supplemental statement for the six months ending 31 Mar 2026 (filed 18 May 2026)"
+    url: https://efile.fara.gov/docs/7649-Supplemental-Statement-20260518-1.pdf
+    document_class: primary_text
+    read: "full (PDFs downloaded and text extracted: 7649-Exhibit-AB-20250918-1, 7649-Exhibit-AB-20251226-3, 7649-Exhibit-AB-20260607-4, 7649-Supplemental-Statement-20260518-1)"
+    sha256: d033e5771d7d8d7be3cc6efec79f90f7eb683b29180b0023d56193be289afc6f
+    authenticity: {status: authenticated, strength: strong, provenance: "efile.fara.gov.", tests: ["Receipt lines sum to the stated total of $15,000,000 [x]", "Disbursement lines parsed sum to $13,056,802.50 against a stated $13,061,802.50; $5,000 not parsed from the scan [x]"], tested_by: "Strata session, 2026-10-07", gaps: ["One $5,000 disbursement line not parsed."], checked: 2026-10-07}
+  - id: src-fara-7553-targeted
+    title: "Targeted Communications Global LLC (FARA 7553, SKDKnickerbocker affiliate): supplemental statement for the six months ending 31 Mar 2026 (filed 30 Jun 2026)"
+    url: https://efile.fara.gov/docs/7553-Supplemental-Statement-20260630-2.pdf
+    document_class: primary_text
+    read: "full (PDF downloaded and text extracted)"
+    sha256: eefcb2208b1326cc0981a00dcb826ea25953705b017abcc6a0bb96941d47e013
+    authenticity: {status: authenticated, strength: strong, provenance: "efile.fara.gov.", tests: ["Disbursement lines parsed sum exactly to the stated total of $3,584,196.40 [x]"], tested_by: "Strata session, 2026-10-07", gaps: [], checked: 2026-10-07}
+  - id: src-fara-7552-skdk
+    title: "SKDKnickerbocker LLC (FARA 7552): supplemental statement for the six months ending 31 Aug 2025"
+    url: https://efile.fara.gov/docs/7552-Supplemental-Statement-20250926-1.pdf
+    document_class: primary_text
+    read: full
+    authenticity: {status: authenticated, strength: strong, provenance: "efile.fara.gov.", tests: ["Three receipt lines sum to the stated $150,000 [x]"], tested_by: "Strata session, 2026-10-07", gaps: [], checked: 2026-10-07}
+  - id: src-fara-7653-showfaith
+    title: "Show Faith by Works, LLC (FARA 7653): Exhibit B dated 18 Sep 2025 and supplemental statement for the six months ending 31 Mar 2026"
+    url: https://efile.fara.gov/docs/7653-Supplemental-Statement-20260501-1.pdf
+    document_class: primary_text
+    read: full
+    authenticity: {status: authenticated, strength: strong, provenance: "efile.fara.gov.", tests: ["Receipt lines sum to the stated $2,313,791.50 [x]"], tested_by: "Strata session, 2026-10-07", gaps: [], checked: 2026-10-07}
+  - id: src-fara-7652-bridges
+    title: "Bridges Partners LLC (FARA 7652): Exhibit B (contract 16 Jun 2025) and supplemental statement for the six months ending 31 Mar 2026"
+    url: https://efile.fara.gov/docs/7652-Supplemental-Statement-20260430-1.pdf
+    document_class: primary_text
+    read: full
+    authenticity: {status: authenticated, strength: strong, provenance: "efile.fara.gov.", tests: ["Disbursement lines sum to the stated $197,960 [x]"], tested_by: "Strata session, 2026-10-07", gaps: [], checked: 2026-10-07}
+  - id: src-fara-7662-davis
+    title: "Davis Media NY LLC (FARA 7662): Exhibit B with Havas order (contract 16 Jan 2024, $8,000, hostage-awareness influencer content)"
+    url: https://efile.fara.gov/docs/7662-Exhibit-AB-20251012-1.pdf
+    document_class: primary_text
+    read: tool
+    authenticity: {status: authenticated, strength: moderate, provenance: "efile.fara.gov.", tests: ["Official-domain test [x]"], tested_by: "Strata session, 2026-10-07", gaps: ["Read through a summarizing tool."], checked: 2026-10-07}
+  - id: src-fara-7234-merchanthouse
+    title: "Merchant House Films, LLC (FARA 7234): Exhibit B dated 27 Feb 2023 (Israel Ministry of Foreign Affairs)"
+    url: https://efile.fara.gov/docs/7234-Exhibit-AB-20230304-3.pdf
+    document_class: primary_text
+    read: full
+    authenticity: {status: authenticated, strength: strong, provenance: "efile.fara.gov.", tests: ["Official-domain test [x]"], tested_by: "Strata session, 2026-10-07", gaps: [], checked: 2026-10-07}
+  - id: src-npr-stoic-2024
+    title: "NPR, How Israel tried to use AI to covertly sway Americans about Gaza, 5 Jun 2024 (KUNC copy; reports NYT, Meta, OpenAI and FakeReporter findings)"
+    url: https://www.kunc.org/npr-news/2024-06-05/how-israel-tried-to-use-ai-to-covertly-sway-americans-about-gaza
+    document_class: secondary (news)
+    read: tool
+    authenticity: {status: not_applicable, basis: "News report; the NYT article, Meta and OpenAI reports were not opened."}
+  - id: src-poulson-diaspora-2024
+    title: "Jack Poulson, Israeli documents show expansive covert U.S. influence campaign (June 2024), citing Knesset transcripts and Israeli budget documents"
+    url: https://jackpoulson.substack.com/p/israeli-documents-show-expansive
+    document_class: secondary (independent reporting citing primary documents)
+    read: tool
+    authenticity: {status: not_applicable, basis: "Secondary; the Knesset transcripts it cites were not opened."}

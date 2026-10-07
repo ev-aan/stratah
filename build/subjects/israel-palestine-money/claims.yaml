@@ -791,30 +791,105 @@ claims:
       description: "Not searched in this pilot; the scope was agreed with the owner on 2026-10-07 and deferred (log L-01)."
       accessible: false
 
+  - id: ipm-israel-us-media-fara
+    state: established
+    statement_kind: reported
+    statement: >
+      US Justice Department FARA filings show Israel's government paying US media and content firms
+      through Havas Media Germany (acting for the Israel Government Advertising Agency, LaPam) and
+      directly through its Foreign Ministry. Amounts reported as received: Clock Tower X LLC (Brad
+      Parscale) $15,000,000 from Oct 2025 to Mar 2026; Targeted Communications Global (an
+      SKDKnickerbocker affiliate) $9,892,335.58 from Oct to Dec 2025; Show Faith by Works $2,313,791.50
+      from Sep 2025 to Mar 2026; SKDKnickerbocker $150,000 from Jun to Jul 2025. Contracted but not yet
+      reported as received: Clock Tower X $4,500,000 a month for Apr to Oct 2026 ($31,500,000), and
+      Piro, Inc. $1,000,000 ($900,000 dated 30 Apr 2026 including $400,000 for video production with
+      director, crew and on-camera talent, plus $100,000 dated 20 Jul 2026).
+    evidence_class: primary_text
+    confidence: high
+    evidential_weight: 5
+    anchor_checked: primary
+    adoption_weight: 2
+    adoption_note: "Adoption is information, not evidence."
+    would_change_if: "an amended filing changes the amounts; or later supplemental statements report different receipts"
+    payments_onward:
+      - {from: "Clock Tower X", to: "Sparkfire (direct engagement)", amount: 6500000.00, period: "Nov 2025 - Feb 2026", source: src-fara-7649-clocktowerx}
+      - {from: "Clock Tower X", to: "Portman Road (media placement, consulting, polling)", amount: 4947000.00, period: "Oct 2025 - Feb 2026", source: src-fara-7649-clocktowerx}
+      - {from: "Clock Tower X", to: "Salem Media (advertising)", amount: 566002.50, period: "Oct 2025 - Jan 2026", source: src-fara-7649-clocktowerx}
+      - {from: "Clock Tower X", to: "Three Tech (managed content creation)", amount: 466800.00, period: "Oct - Dec 2025", source: src-fara-7649-clocktowerx}
+      - {from: "Targeted Communications Global", to: "X Corp. (advertising)", amount: 1976014.31, period: "Oct 2025 - Mar 2026", source: src-fara-7553-targeted}
+      - {from: "Targeted Communications Global", to: "Breakpoint Media (production)", amount: 480978.08, period: "Oct - Nov 2025", source: src-fara-7553-targeted}
+      - {from: "Targeted Communications Global", to: "Breitbart News (advertising)", amount: 40000.00, period: "Nov 2025", source: src-fara-7553-targeted}
+      - {from: "Targeted Communications Global", to: "Casbah Pictures (production)", amount: 25137.00, period: "Nov 2025", source: src-fara-7553-targeted}
+      - {from: "Targeted Communications Global", to: "The Daily Caller (advertising)", amount: 7500.00, period: "Oct 2025", source: src-fara-7553-targeted}
+    anchor:
+      type: primary_text
+      description: >
+        FARA bulk register downloaded and filtered to Israel (314 foreign-principal rows, 1942-2026).
+        Exhibits, amendments and six-month supplemental statements downloaded from efile.fara.gov and
+        read. Receipt totals are the registrants' own stated totals and match the itemized lines. Clock
+        Tower X disbursements total $13,061,802.50 as stated; the top payees are listed above. Targeted
+        Communications disbursements total $3,584,196.40 and the itemized lines match exactly. Piro's
+        figures are contract values; its first supplemental statement is not yet filed.
+      sources: [src-fara-bulk-2026-10-07, src-fara-7649-clocktowerx, src-fara-7553-targeted, src-fara-7653-showfaith, src-fara-7552-skdk, src-fara-7732-piro, src-fara-7652-bridges, src-fara-7662-davis, src-fara-7234-merchanthouse]
+      accessible: true
+    basis: >
+      Other registrations for Israel in the register: Bridges Partners (contract 16 Jun 2025, disbursed
+      $197,960 to Mar 2026, including $75,000 to D3 Entertainment); Davis Media NY ($8,000, Jan 2024,
+      influencer content); Genesis 21 Consulting (Aug 2025, terms not yet set); Sniper Advertising
+      (Jun 2026, fees by volume); Merchant House Films (2023, registered for unpaid advocacy on the
+      Abraham Accords, no compensation, not film financing); Noa Tishby (2022-2023, Foreign Ministry;
+      her agreement is a scanned image, terms not machine-read). Historical registrations include US
+      film distributors for Israeli consulates and the Tourist Office, for example Alden Films
+      (1969-1996), Tribune Films (1964-1971) and Guggenheim Productions (1972-1977). Searched the
+      Israel-related filings read here for state financing of a Hollywood studio feature film: none
+      found in the register.
+
+  - id: ipm-israel-non-fara-channels
+    state: contested
+    statement_kind: reported
+    statement: >
+      Reported Israeli government spending to influence US audiences outside FARA registration: the
+      New York Times reported in June 2024 that Israel's Ministry of Diaspora Affairs paid the Israeli
+      firm STOIC about $2 million for a campaign aimed at US lawmakers, which Meta and OpenAI said used
+      fake accounts; the ministry denied it. Knesset testimony in March 2024 stated the government would
+      invest NIS 48 million in Mosaic United, which supports Jewish campus groups including in the US.
+    evidence_class: interpretive
+    confidence: moderate
+    evidential_weight: 3
+    anchor_checked: secondary
+    adoption_weight: 2
+    adoption_note: "Adoption is information, not evidence."
+    would_change_if: "the Israeli ministry's budget or contract records are read; or the ministry's denial is supported by records"
+    disputed_by:
+      - {who: "Israel Ministry of Diaspora Affairs (Minister Amichai Chikli)", kind: institution, position: "Denied the STOIC allegations.", source_read: "as reported by NPR", via: src-npr-stoic-2024}
+    anchor:
+      type: secondary
+      description: "NPR report (read through a summarizing tool) relaying NYT, Meta, OpenAI and FakeReporter; Poulson's reporting citing Knesset transcripts. Primary records not opened."
+      sources: [src-npr-stoic-2024, src-poulson-diaspora-2024]
+      accessible: true
+
   - id: ipm-state-media-funding-gap
     state: searched_gap
     statement_kind: search_result
     statement: >
-      Israel's government funds film, media and public diplomacy through its own budgets and laws (for
-      example its film funds and public-diplomacy programs). The amounts, recipients and years are not
-      yet recorded in this dig. The same thread covers the other governments in the dig: Qatar (Al
-      Jazeera, Doha Film Institute), Saudi Arabia and the UAE (sovereign-fund stakes in entertainment),
-      Türkiye (TRT), Iran (Press TV) and Western media grants in the region.
+      Still to record: Israel's domestic film-funding and public-diplomacy budgets by year, the Ministry
+      of Diaspora Affairs' grants to US organizations from its own budget documents, and receipts from
+      registrants whose first supplemental statements are not yet filed (Piro, Sniper, Genesis 21).
     evidence_class: synthetic
     confidence: provisional
     evidential_weight: 1
     anchor_checked: "no"
     adoption_weight: 2
     adoption_note: "Adoption is information, not evidence."
-    would_change_if: "the thread is dug and the budget and filing records are read"
+    would_change_if: "the records are read"
     next_step: >
-      Read Israel's film funding law and the yearly budgets and annual reports of its film funds and
-      public-diplomacy programs; record each payment by year, payer, recipient and amount. Then FARA
-      filings by Israel, Qatar, Saudi Arabia and the UAE for media and film contracts, and the budgets
-      and annual reports of the other governments' broadcasters and film bodies, by the same method.
+      Read Israeli budget documents for the Ministry of Diaspora Affairs and Foreign Ministry public-
+      diplomacy lines (Ministry of Finance budget site), the Knesset transcripts cited in
+      src-poulson-diaspora-2024, and the next FARA supplemental statements for Piro (7732), Clock Tower X
+      (7649) and Targeted Communications (7553).
     anchor:
       type: search-record
-      description: "Raised by the owner on 2026-10-07 (log L-01); not searched in this pilot."
+      description: "FARA register searched 2026-10-07 (claim ipm-israel-us-media-fara); Israeli budget records not yet opened."
       accessible: false
 
   - id: ipm-palestinian-aid-gap
