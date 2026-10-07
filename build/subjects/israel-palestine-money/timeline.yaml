@@ -27,11 +27,12 @@ panels:
     start: "2023-10-01T00:00:00Z"
     end:   "2026-10-15T00:00:00Z"
     tick_years: 1
-    lanes: [charities, ngos, money, sanctions, un]
+    lanes: [charities, ngos, money, media, sanctions, un]
 lanes:
   charities: {label: "Charities: designations and courts"}
   ngos:      {label: "NGOs and UNRWA"}
   money:     {label: "Aid, grants and seizures"}
+  media:     {label: "Israel: payments to US media firms (FARA)"}
   sanctions: {label: "Settler sanctions"}
   un:        {label: "UN votes and recognition"}
 people:
@@ -110,6 +111,13 @@ sources:
   src-fr-recognition-2025:     {title: "Élysée, 22 Sep 2025", url: "https://www.elysee.fr/emmanuel-macron/2025/09/22/80e-session-de-lassemblee-generale-des-nations-unies-a-new-york-premiere-journee", authenticity: "authenticated, moderate"}
   src-unispal-res-80-78:       {title: "UNISPAL, A/RES/80/78 (UNRWA mandate), 5 Dec 2025", url: "https://www.un.org/unispal/wp-json/wp/v2/document/314157", authenticity: "authenticated, moderate"}
   src-uk-settlers-2026-06:     {title: "UK and allies sanction settler networks, 9 Jun 2026", url: "https://www.gov.uk/government/news/uk-and-allies-sanction-networks-enabling-settler-violence-in-the-west-bank", authenticity: "authenticated, moderate"}
+
+  src-fara-7552-skdk:          {title: "SKDKnickerbocker FARA supplemental (to 31 Aug 2025)", url: "https://efile.fara.gov/docs/7552-Supplemental-Statement-20250926-1.pdf", authenticity: "authenticated, strong"}
+  src-fara-7649-clocktowerx:   {title: "Clock Tower X FARA supplemental (to 31 Mar 2026)", url: "https://efile.fara.gov/docs/7649-Supplemental-Statement-20260518-1.pdf", authenticity: "authenticated, strong"}
+  src-fara-7653-showfaith:     {title: "Show Faith by Works FARA supplemental (to 31 Mar 2026)", url: "https://efile.fara.gov/docs/7653-Supplemental-Statement-20260501-1.pdf", authenticity: "authenticated, strong"}
+  src-fara-7553-targeted:      {title: "Targeted Communications Global FARA supplemental (to 31 Mar 2026)", url: "https://efile.fara.gov/docs/7553-Supplemental-Statement-20260630-2.pdf", authenticity: "authenticated, strong"}
+  src-fara-7732-piro:          {title: "Piro, Inc. FARA Exhibit B with work order (30 Apr 2026)", url: "https://efile.fara.gov/docs/7732-Exhibit-AB-20260602-0.pdf", authenticity: "authenticated, strong"}
+  src-npr-stoic-2024:          {title: "NPR, 5 Jun 2024 (STOIC campaign)", url: "https://www.kunc.org/npr-news/2024-06-05/how-israel-tried-to-use-ai-to-covertly-sway-americans-about-gaza", authenticity: "news report"}
 
 events:
   # ---------------- Panel A: 1993 to Sep 2023 ----------------
@@ -286,3 +294,26 @@ events:
   - {id: b29, panel: recent, lane: sanctions, time: "2026-06-09T12:00:00Z", precision: day, kind: official, status: single, sources: [src-uk-settlers-2026-06],
      label: "9 Jun 2026: UK sanctions targets the US had delisted",
      detail: "A company and an individual removed from the US list in Jan 2025."}
+
+  # ---------------- Israel: payments to US media and content firms ----------------
+  - {id: m01, panel: recent, lane: media, time: "2024-06-05T12:00:00Z", precision: day, kind: media, status: disputed, sources: [src-npr-stoic-2024],
+     label: "Jun 2024: NYT reports Israel's Diaspora Ministry paid STOIC about $2M to target US lawmakers",
+     detail: "Meta and OpenAI removed STOIC-linked accounts; the ministry denied involvement. Not a FARA filing."}
+  - {id: m02, panel: recent, lane: media, time: "2025-06-03T00:00:00Z", end: "2025-07-08T23:59:00Z", precision: range, kind: document, status: single, sources: [src-fara-7552-skdk],
+     label: "Jun-Jul 2025: SKDKnickerbocker receives $150,000 from Israel's Foreign Ministry",
+     detail: "Earned-media services (FARA 7552)."}
+  - {id: m03, panel: recent, lane: media, time: "2025-09-27T00:00:00Z", end: "2026-03-10T23:59:00Z", precision: range, kind: document, status: single, sources: [src-fara-7653-showfaith],
+     label: "Sep 2025-Mar 2026: Show Faith by Works receives $2,313,791.50",
+     detail: "From Israel's Foreign Ministry, for Christian outreach in the western US including a mobile museum (FARA 7653)."}
+  - {id: m04, panel: recent, lane: media, time: "2025-10-24T00:00:00Z", end: "2026-03-03T23:59:00Z", precision: range, kind: document, status: single, sources: [src-fara-7649-clocktowerx],
+     label: "Oct 2025-Mar 2026: Clock Tower X (Brad Parscale) receives $15,000,000",
+     detail: "Via Havas Media Germany for the State of Israel. Paid on: Sparkfire $6.5M, Portman Road $4.95M, Salem Media $566,002.50, Three Tech $466,800 (FARA 7649)."}
+  - {id: m05, panel: recent, lane: media, time: "2025-10-28T00:00:00Z", end: "2025-12-30T23:59:00Z", precision: range, kind: document, status: single, sources: [src-fara-7553-targeted],
+     label: "Oct-Dec 2025: Targeted Communications (SKDK affiliate) receives $9,892,335.58",
+     detail: "Via Havas for the Government of Israel. Paid on: X Corp. ads $1.98M, Breakpoint Media production $480,978, Breitbart $40,000, Casbah Pictures $25,137, Daily Caller $7,500 (FARA 7553)."}
+  - {id: m06, panel: recent, lane: media, time: "2026-04-01T00:00:00Z", end: "2026-10-31T23:59:00Z", precision: range, kind: document, status: single, sources: [src-fara-7649-clocktowerx],
+     label: "Apr-Oct 2026: Clock Tower X work order, $4.5M a month ($31.5M)",
+     detail: "Digital advertising; contracted, receipts not yet reported (work order dated 6 Feb 2026)."}
+  - {id: m07, panel: recent, lane: media, time: "2026-04-30T12:00:00Z", precision: day, kind: document, status: single, sources: [src-fara-7732-piro],
+     label: "30 Apr 2026: Piro, Inc. contracted for $900,000, incl. $400,000 video production",
+     detail: "For Israel's Government Advertising Agency via Havas; plus $100,000 dated 20 Jul 2026. Receipts not yet reported (FARA 7732)."}
