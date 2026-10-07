@@ -903,6 +903,83 @@ claims:
       sources: [src-fara-7652-bridges-order, src-fara-7653-showfaith-budget, src-fara-7552-skdk-contract, src-fara-7662-davis-contract, src-fara-7631-genesis21, src-public-citizen-fara-complaint]
       accessible: true
 
+  - id: ipm-fara-staff-political-donations
+    state: established
+    statement_kind: reported
+    statement: >
+      FARA statements filed since 2023 by firms working for Israel's government list 17 political
+      donations by their staff, totalling about $18,800. The largest is $10,000 from Brad Parscale of
+      Clock Tower X to "Max Miller Victory" on 22 Dec 2025; the others are $1 to $2,000, to candidates of
+      both parties (for example Torres for Congress, Mark Warner, Kamala Harris, McCarthy for Congress).
+      These are the staff's own donations, which FARA requires them to disclose; the filings do not
+      show Israeli government money passed to a campaign.
+    evidence_class: primary_text
+    confidence: high
+    evidential_weight: 4
+    anchor_checked: primary
+    adoption_weight: 1
+    adoption_note: "Adoption is information, not evidence."
+    would_change_if: "FEC records show the donations differently; or a filing shows foreign-principal money passed to a campaign"
+    anchor:
+      type: primary_text
+      description: >
+        Political-contribution sections of all 149 supplemental statements extracted
+        (data/fara-israel-registrants-political-contributions-2023-2026.csv, 185 lines in all). The 17
+        counted here are from the six registrants whose foreign principal is Israel's government or its
+        agencies (7553, 7552, 7649, 7653, 7394, 7234). Donations by staff of multi-client law firms are in
+        the data file but not counted, because they are not tied to the Israel client.
+      sources: [src-fara-israel-supplementals-2023-2026]
+      accessible: true
+
+  - id: ipm-fara-payees-not-nonprofits
+    state: established
+    statement_kind: search_result
+    statement: >
+      None of the 21 firms and contractors named as payees in the FARA filings read (for example
+      Sparkfire, Portman Road, Breakpoint Media, D3 Entertainment), nor the registrants themselves,
+      matched a registered US nonprofit in IRS exempt-organization data. They appear as companies.
+    evidence_class: primary_text
+    confidence: low
+    evidential_weight: 2
+    anchor_checked: secondary
+    absence_anchor: true
+    adoption_weight: 1
+    adoption_note: "Adoption is information, not evidence."
+    would_change_if: "a payee is found registered under a different legal name"
+    anchor:
+      type: search-record
+      description: "ProPublica Nonprofit Explorer API, exact-name search for each payee and registrant, 7 Oct 2026; results saved. No match except an unrelated Mississippi homeowners' association."
+      sources: [src-propublica-nonprofit-search]
+      accessible: true
+
+  - id: ipm-settlement-property-expos
+    state: established
+    statement_kind: reported
+    statement: >
+      Israeli real-estate firms held sales events in North America and the UK in 2024 and 2025, including
+      at synagogues, that marketed homes in West Bank settlements and East Jerusalem: Thornhill near
+      Toronto (March 2024; listed Neve Daniel, Efrat and Ma'ale Adumim), Adas Torah in Los Angeles (June
+      2024), Teaneck, Montreal, Baltimore, Brooklyn, and Edgware United Synagogue in London (14 June). The
+      Intercept named the firms Israel Home, Noam Homes, the Meny Group and My Home in Israel, and listings
+      from $500,000 to $1.2 million. No Gaza property listings were found in the reports read. The UK
+      Charity Commission issued guidance to the Edgware synagogue's trustees, closed the case, then
+      opened a formal decision review.
+    evidence_class: interpretive
+    confidence: moderate
+    evidential_weight: 3
+    anchor_checked: secondary
+    adoption_weight: 3
+    adoption_note: "Adoption is information, not evidence."
+    would_change_if: "the firms' listings or the developers of the marketed projects are read directly; or the Charity Commission's review changes its decision"
+    anchor:
+      type: secondary
+      description: "Three news reports read through a summarizing tool. The buyers' payments are private transactions with no public record; the developers of the listed projects were not named in the reports read."
+      sources: [src-intercept-expos-2024, src-ctv-thornhill-2024, src-jewishnews-edgware-2025]
+      accessible: true
+    basis: >
+      Next step: identify the developer of each listed project and check it against the settler
+      sanctions lists in ipm-settler-sanctions-split (Amana is sanctioned by Canada and the UK).
+
   - id: ipm-state-media-funding-gap
     state: searched_gap
     statement_kind: search_result

@@ -687,3 +687,33 @@ sources:
     document_class: secondary (advocacy group's complaint)
     read: snippet
     authenticity: {status: not_applicable, basis: "A complaint, not a finding; the complaint text was not opened."}
+  - id: src-fara-israel-supplementals-2023-2026
+    title: "All 149 FARA supplemental statements filed since 2023 by the 42 registrants with an Israel foreign principal active since 2023; political-contribution sections extracted to data/fara-israel-registrants-political-contributions-2023-2026.csv"
+    url: https://efile.fara.gov/bulk/zip/FARA_All_RegistrantDocs.csv.zip
+    document_class: primary_text
+    read: "full (all 149 PDFs downloaded from efile.fara.gov and text extracted; contribution lines parsed by date and dollar amount)"
+    authenticity: {status: authenticated, strength: strong, provenance: "efile.fara.gov.", tests: ["Lines for registrant 7553 match the statement read by hand [x]"], tested_by: "Strata session, 2026-10-07", gaps: ["Scanned pages with poor text may have lost lines; multi-client law firms' staff donations are not tied to their Israel clients."], checked: 2026-10-07}
+  - id: src-propublica-nonprofit-search
+    title: "ProPublica Nonprofit Explorer API (IRS exempt-organization data), searched 7 Oct 2026 for the payees named in the FARA filings"
+    url: https://projects.propublica.org/nonprofits/api/v2/search.json
+    document_class: dataset
+    read: "full (search results saved)"
+    authenticity: {status: authenticated, strength: moderate, provenance: "ProPublica's copy of IRS exempt-organization records.", tests: ["Known nonprofits returned as expected (e.g. Proclaiming Justice to the Nations, EIN 20-3144206) [x]"], tested_by: "Strata session, 2026-10-07", gaps: ["Exact-name search; a nonprofit under a different legal name would be missed."], checked: 2026-10-07}
+  - id: src-intercept-expos-2024
+    title: "The Intercept, West Bank settlement real estate sold at US expos, 9 Jul 2024"
+    url: https://theintercept.com/2024/07/09/west-bank-settlement-israel-real-estate/
+    document_class: secondary (news)
+    read: tool
+    authenticity: {status: not_applicable, basis: "News report."}
+  - id: src-ctv-thornhill-2024
+    title: "CTV News Toronto, Israeli event near Toronto promoting West Bank property draws critics (March 2024)"
+    url: https://toronto.ctvnews.ca/palestine-is-not-for-sale-israeli-event-near-toronto-promoting-west-bank-property-draws-critics-1.6797992
+    document_class: secondary (news)
+    read: tool
+    authenticity: {status: not_applicable, basis: "News report."}
+  - id: src-jewishnews-edgware-2025
+    title: "Jewish News, Charity Commission confirms formal decision review of Edgware United Synagogue case"
+    url: https://www.jewishnews.co.uk/charity-commission-confirms-formal-decision-review-of-edgware-united-synagogue-case/
+    document_class: secondary (news)
+    read: tool
+    authenticity: {status: not_applicable, basis: "News report; the Commission's own decision was not opened."}
