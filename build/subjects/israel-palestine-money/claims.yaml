@@ -980,6 +980,97 @@ claims:
       Next step: identify the developer of each listed project and check it against the settler
       sanctions lists in ipm-settler-sanctions-split (Amana is sanctioned by Canada and the UK).
 
+  - id: ipm-us-charities-settlement-funding
+    state: established
+    statement_kind: reported
+    statement: >
+      US tax-exempt organizations report sending money to Israel and the West Bank that funds
+      settlement institutions. In their latest returns: Central Fund of Israel $83.9 million (fiscal year ending January 2025) in grants to
+      foreign organizations (recipients in an attached list not opened); Friends of Ir David $16.4
+      million to Elad for City of David excavations in East Jerusalem; American Friends of Bet El Yeshiva
+      Center $3.97 million to Bet El Yeshiva; One Israel Fund $3.39 million (mostly security support);
+      the Hebron Fund $3.18 million; Christian Friends of Israeli Communities $1.13 million to named
+      outposts and settlements including Havat Gilad; American Friends of Ateret Cohanim $1.16 million.
+      Named funders of those organizations in 2024 foundation and charity returns include the Cherna
+      Moskowitz Foundation ($5.25 million across four of them), the Adelson Family Foundation ($10.85
+      million to American Friends of Ariel University and $1 million to Friends of Ir David), the Murray
+      and Sydell Rosenberg Foundation ($3.35 million to Central Fund of Israel) and the Irving I.
+      Moskowitz Foundation ($1.6 million to Central Fund of Israel). Fidelity Charitable, a donor-advised
+      fund, gave $5 million to Friends of Ir David in 2024; its underlying donors are not named.
+    evidence_class: primary_text
+    confidence: high
+    evidential_weight: 4
+    anchor_checked: primary
+    adoption_weight: 2
+    adoption_note: "Adoption is information, not evidence."
+    would_change_if: "the attached recipient lists are read and show different recipients; or amended returns change the totals"
+    anchor:
+      type: primary_text
+      description: >
+        Form 990 and 990-PF schedules read as rendered by ProPublica from IRS e-filed returns (PDF
+        downloads were blocked). Every transfer is a separate entry in data/ledger.yaml with its source.
+        Not verified: the Kushner foundation's 2013-2014 grant statement (a PDF not opened), so no grant to
+        Bet El is recorded for it.
+      sources: [src-990-central-fund, src-990-ir-david, src-990-bet-el, src-990-one-israel-fund, src-990-hebron-fund, src-990-cfic, src-990-ateret-cohanim, src-990-jnf-us, src-990pf-foundations]
+      accessible: true
+    basis: >
+      None of these US organizations is on the current OFAC sanctions list. Their Israeli recipients
+      named in the returns (Elad, Bet El Yeshiva, Ateret Cohanim, Gush Etzion Foundation, Ariel University,
+      Binyamin Fund) are on no sanctions list read. The filings do not call Ariel University a settlement
+      institution; it is located in the settlement of Ariel.
+
+  - id: ipm-canada-charities-revoked
+    state: established
+    statement_kind: reported
+    statement: >
+      Canada's revenue agency revoked the charity status of several charities that sent money to Israel,
+      including to military-related and settlement-area recipients: Jewish National Fund of Canada and
+      the Ne'eman Foundation Canada (both 10 Aug 2024) and the Canadian Zionist Cultural Association (21
+      Feb 2026). Grounds stated in court for JNF Canada include lack of direction and control over
+      activities in Israel and funding non-qualified recipients. Ne'eman reported CAD 9.13 million spent
+      outside Canada in 2023; CZCA reported CAD 2.45 million in 2024, its largest recipient the AIS (former
+      LIBI) fund. The settlement group Regavim, sanctioned by Canada in June 2026, received CAD 8,460 from
+      the Mizrachi Organization of Canada in 2023, before the listing.
+    evidence_class: primary_text
+    confidence: moderate
+    evidential_weight: 4
+    anchor_checked: secondary
+    adoption_weight: 2
+    adoption_note: "Adoption is information, not evidence."
+    would_change_if: "the CRA revocation letters or Gazette notices give different dates or reasons"
+    anchor:
+      type: dataset
+      description: >
+        CRA T3010 open data parsed in full (amounts and recipients, coded by country only). The JNF Canada
+        grounds are from Federal Court of Appeal decisions read through a summarizing tool; revocation
+        dates are from news reports. Held at secondary until the revocation notices are read.
+      sources: [src-cra-t3010, src-fca-jnf-canada-2025, src-cjn-charity-revocations, src-canada-sor-2024-91]
+      accessible: true
+
+  - id: ipm-israel-state-settlement-spending
+    state: established
+    statement_kind: reported
+    statement: >
+      Israel's open budget data show the Settlement and National Missions Ministry spending NIS 337.1
+      million in 2023, 288.6 million in 2024 and 508.4 million in 2025, and its contracts with the World
+      Zionist Organization's Settlement Division rising from NIS 20.5 million (2021) to 244.2 million
+      (2025). Lines labelled Judea and Samaria include bypass roads (NIS 189.4 million in 2023) and
+      security grants to local and regional councils. The ministry and division also work inside Israel,
+      so these are not West-Bank-only totals. Peace Now, an advocacy group, puts total state funding for
+      settlements at NIS 19.33 billion (March 2026); that figure was not checked against primary records.
+    evidence_class: primary_text
+    confidence: moderate
+    evidential_weight: 4
+    anchor_checked: secondary
+    adoption_weight: 2
+    adoption_note: "Adoption is information, not evidence."
+    would_change_if: "the Ministry of Finance budget books or a State Comptroller report give different figures"
+    anchor:
+      type: dataset
+      description: "next.obudget.org API queried (a civic mirror of Ministry of Finance data); Ministry of Finance books themselves returned 403. Peace Now report read in full as secondary."
+      sources: [src-obudget-israel, src-peacenow-2026]
+      accessible: true
+
   - id: ipm-state-media-funding-gap
     state: searched_gap
     statement_kind: search_result

@@ -21,18 +21,19 @@ panels:
     start: "2017-01-01T00:00:00Z"
     end:   "2023-09-30T00:00:00Z"
     tick_years: 1
-    lanes: [charities, ngos, money]
+    lanes: [charities, ngos, money, settle]
   - id: recent
     title: "Panel C: October 2023 to October 2026 (one tick per year)"
     start: "2023-10-01T00:00:00Z"
     end:   "2026-10-15T00:00:00Z"
     tick_years: 1
-    lanes: [charities, ngos, money, media, sanctions, un]
+    lanes: [charities, ngos, money, media, settle, sanctions, un]
 lanes:
   charities: {label: "Charities: designations and courts"}
   ngos:      {label: "NGOs and UNRWA"}
   money:     {label: "Aid, grants and seizures"}
   media:     {label: "Israel: payments to US media firms (FARA)"}
+  settle:    {label: "Settlement funding: charities, foundations, state"}
   sanctions: {label: "Settler sanctions"}
   un:        {label: "UN votes and recognition"}
 people:
@@ -120,6 +121,12 @@ sources:
   src-npr-stoic-2024:          {title: "NPR, 5 Jun 2024 (STOIC campaign)", url: "https://www.kunc.org/npr-news/2024-06-05/how-israel-tried-to-use-ai-to-covertly-sway-americans-about-gaza", authenticity: "news report"}
   src-fara-7652-bridges-order: {title: "Bridges Partners, Havas 'Influencer Campaign' order (16 Jun 2025)", url: "https://efile.fara.gov/docs/7652-Exhibit-AB-20250926-1.pdf", authenticity: "authenticated, strong"}
   src-fara-7653-showfaith-budget: {title: "Show Faith by Works, staffing budget (Exhibit B p.14)", url: "https://efile.fara.gov/docs/7653-Exhibit-AB-20250927-1.pdf", authenticity: "authenticated, strong"}
+  src-990-central-fund:        {title: "Central Fund of Israel, Form 990", url: "https://projects.propublica.org/nonprofits/organizations/132992985", authenticity: "authenticated, moderate"}
+  src-990-ir-david:            {title: "Friends of Ir David, Form 990", url: "https://projects.propublica.org/nonprofits/organizations/113466176", authenticity: "authenticated, moderate"}
+  src-990pf-foundations:       {title: "Foundation returns (Form 990-PF / 990 Schedule I)", url: "https://projects.propublica.org/nonprofits/full_text_search", authenticity: "authenticated, moderate"}
+  src-cra-t3010:               {title: "CRA T3010 charity data (open.canada.ca)", url: "https://open.canada.ca/data/dataset/05b3abd0-e70f-4b3b-a9c5-acc436bd15b6", authenticity: "authenticated, strong"}
+  src-cjn-charity-revocations: {title: "The CJN on CRA charity revocations", url: "https://thecjn.ca/?p=273674", authenticity: "news report"}
+  src-obudget-israel:          {title: "Israel open budget: Settlement Division contracts", url: "https://next.obudget.org/i/budget/0004521315/2025", authenticity: "authenticated, moderate"}
 
 events:
   # ---------------- Panel A: 1993 to Sep 2023 ----------------
@@ -325,3 +332,19 @@ events:
   - {id: m09, panel: recent, lane: media, time: "2025-09-18T12:00:00Z", precision: day, kind: document, status: single, sources: [src-fara-7653-showfaith-budget],
      label: "18 Sep 2025: Show Faith budget includes a $50,000 'Hollywood Coordinator'",
      detail: "To book Christian celebrities and athletes for pro-Israel messaging and build an October 7 experience trailer; $75,000 for evangelical influencer and op-ed outreach; staffing total $1,549,000 (FARA 7653)."}
+  # ---------------- Settlement funding ----------------
+  - {id: s01, panel: middle, lane: settle, time: "2022-07-01T00:00:00Z", precision: year, kind: data, status: single, sources: [src-990-central-fund],
+     label: "FY to Jan 2023: Central Fund of Israel grants $72.0M abroad",
+     detail: "Form 990 Schedule F; fiscal year to Jan 2024: $92.8M. Recipient list attached, not opened."}
+  - {id: s02, panel: recent, lane: settle, time: "2024-07-01T00:00:00Z", precision: year, kind: data, status: single, sources: [src-990-central-fund],
+     label: "2024: US charities report grants abroad incl. Central Fund of Israel $83.9M (FY to Jan 2025), Friends of Ir David $16.4M to Elad",
+     detail: "Also Bet El Yeshiva $3.97M, One Israel Fund $3.39M, Hebron Fund $3.18M, Christian Friends of Israeli Communities $1.13M (Form 990s)."}
+  - {id: s03, panel: recent, lane: settle, time: "2024-07-02T00:00:00Z", precision: year, kind: data, status: single, sources: [src-990pf-foundations],
+     label: "2024: named foundations fund those charities",
+     detail: "Adelson Family Foundation $10.85M to Am. Friends of Ariel University, $1M to Ir David; Cherna Moskowitz $5.25M; Rosenberg $3.35M; Irving Moskowitz $1.6M; Fidelity Charitable $5M to Ir David."}
+  - {id: s04, panel: recent, lane: settle, time: "2024-08-10T12:00:00Z", precision: day, kind: media, status: single, sources: [src-cjn-charity-revocations],
+     label: "10 Aug 2024: Canada revokes JNF Canada and Ne'eman Foundation as charities",
+     detail: "Reported revocation date; grounds in court include lack of control over activities in Israel. CZCA revoked 21 Feb 2026."}
+  - {id: s05, panel: recent, lane: settle, time: "2025-07-01T00:00:00Z", precision: year, kind: data, status: single, sources: [src-obudget-israel],
+     label: "2025: Israel's ministry contracts with WZO Settlement Division reach NIS 244.2M",
+     detail: "Up from NIS 84.8M in 2024 and 20.5M in 2021; ministry total spending NIS 508.4M in 2025. Not West-Bank-only."}

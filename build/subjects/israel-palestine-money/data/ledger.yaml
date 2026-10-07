@@ -1,0 +1,908 @@
+note: 'Graph-ready ledger for the israel-palestine-money dig. entities = organizations, agencies and committees; flows = one dated transfer each,
+  with its source id in sources/MANIFEST.yaml. status: filed (a document filed by a party), convicted, contracted, pledged, estimate, reported_disputed,
+  inferred. Amounts are as the source states them, in the stated currency. An unnamed recipient means the filing does not name it.'
+entities:
+- id: gov-il
+  name: Government of Israel
+  type: government
+  country: IL
+- id: il-lapam
+  name: Israel Government Advertising Agency (LaPam)
+  type: government_agency
+  country: IL
+- id: il-mfa
+  name: Israel Ministry of Foreign Affairs
+  type: government_agency
+  country: IL
+- id: il-diaspora
+  name: Israel Ministry of Diaspora Affairs
+  type: government_agency
+  country: IL
+- id: il-settlement-ministry
+  name: Israel Settlement and National Missions Ministry
+  type: government_agency
+  country: IL
+  ids:
+    budget_code: '00045213'
+- id: wzo-settlement-division
+  name: World Zionist Organization Settlement Division
+  type: quasi_government
+  country: IL
+  ids:
+    budget_code: '0004521315'
+- id: gov-us
+  name: Government of the United States
+  type: government
+  country: US
+- id: gov-qa
+  name: Government of Qatar
+  type: government
+  country: QA
+- id: gov-ir
+  name: Government of Iran
+  type: government
+  country: IR
+- id: gov-ca
+  name: Government of Canada
+  type: government
+  country: CA
+- id: pa
+  name: Palestinian Authority
+  type: government
+  country: PS
+- id: hamas
+  name: Hamas
+  type: armed_group
+  country: PS
+- id: hamas-investment-office
+  name: Hamas Investment Office (as designated by US Treasury)
+  type: designated_network
+  country: multiple
+- id: pij
+  name: Palestinian Islamic Jihad
+  type: armed_group
+  country: PS
+- id: gaza-authorities
+  name: Gaza ministries and recipients (as named by Qatar MOFA)
+  type: government
+  country: PS
+- id: havas-de
+  name: Havas Media Germany GmbH
+  type: company
+  country: DE
+  note: Media agency contracting US firms for the Government of Israel
+- id: clock-tower-x
+  name: Clock Tower X LLC
+  type: company
+  country: US
+  ids:
+    fara_registration: '7649'
+- id: targeted-comms
+  name: Targeted Communications Global LLC
+  type: company
+  country: US
+  ids:
+    fara_registration: '7553'
+- id: skdk
+  name: SKDKnickerbocker LLC
+  type: company
+  country: US
+  ids:
+    fara_registration: '7552'
+- id: show-faith-by-works
+  name: Show Faith by Works, LLC
+  type: company
+  country: US
+  ids:
+    fara_registration: '7653'
+- id: bridges-partners
+  name: Bridges Partners LLC
+  type: company
+  country: US
+  ids:
+    fara_registration: '7652'
+- id: piro
+  name: Piro, Inc.
+  type: company
+  country: US
+  ids:
+    fara_registration: '7732'
+- id: davis-media
+  name: Davis Media NY LLC
+  type: company
+  country: US
+  ids:
+    fara_registration: '7662'
+- id: genesis-21
+  name: Genesis 21 Consulting LLC
+  type: company
+  country: US
+  ids:
+    fara_registration: '7631'
+- id: sparkfire
+  name: Sparkfire
+  type: company
+  country: US
+- id: portman-road
+  name: Portman Road
+  type: company
+  country: US
+- id: salem-media
+  name: Salem Media
+  type: company
+  country: US
+- id: three-tech
+  name: Three Tech
+  type: company
+  country: US
+- id: x-corp
+  name: X Corp.
+  type: company
+  country: US
+- id: breakpoint-media
+  name: Breakpoint Media
+  type: company
+  country: US
+- id: breitbart
+  name: Breitbart News
+  type: company
+  country: US
+- id: casbah-pictures
+  name: Casbah Pictures
+  type: company
+  country: US
+- id: daily-caller
+  name: The Daily Caller
+  type: company
+  country: US
+- id: d3-entertainment
+  name: D3 Entertainment
+  type: company
+  country: US
+- id: stoic
+  name: STOIC (Israeli firm)
+  type: company
+  country: IL
+- id: max-miller-victory
+  name: Max Miller Victory (campaign committee)
+  type: political_committee
+  country: US
+- id: hlf
+  name: Holy Land Foundation for Relief and Development
+  type: charity
+  country: US
+  ids:
+    status: designated 2001; convicted 2008
+- id: interpal
+  name: Interpal (Palestinians Relief and Development Fund)
+  type: charity
+  country: GB
+  ids:
+    uk_charity: '1040094'
+- id: irfan-canada
+  name: IRFAN-Canada
+  type: charity
+  country: CA
+  ids:
+    status: revoked 2011; listed 2014
+- id: samidoun
+  name: Samidoun
+  type: organization
+  country: multiple
+- id: unrwa
+  name: UNRWA
+  type: un_agency
+  country: multiple
+- id: central-fund-of-israel
+  name: Central Fund of Israel
+  type: charity
+  country: US
+  ids:
+    ein: 13-2992985
+- id: one-israel-fund
+  name: One Israel Fund
+  type: charity
+  country: US
+  ids:
+    ein: 11-3195338
+- id: hebron-fund
+  name: The Hebron Fund
+  type: charity
+  country: US
+  ids:
+    ein: 11-2623719
+- id: hayovel
+  name: HaYovel
+  type: charity
+  country: US
+  ids:
+    ein: 20-4318425
+- id: af-ateret-cohanim
+  name: American Friends of Ateret Cohanim
+  type: charity
+  country: US
+  ids:
+    ein: 11-2706563
+- id: friends-of-ir-david
+  name: Friends of Ir David
+  type: charity
+  country: US
+  ids:
+    ein: 11-3466176
+- id: af-bet-el
+  name: American Friends of Bet El Yeshiva Center
+  type: charity
+  country: US
+  ids:
+    ein: 11-2586564
+- id: cfic
+  name: Christian Friends of Israeli Communities
+  type: charity
+  country: US
+  ids:
+    ein: 41-2020104
+- id: jnf-kkl-us
+  name: Jewish National Fund (US filer)
+  type: charity
+  country: US
+  ids:
+    ein: 13-1659627
+- id: af-ariel
+  name: American Friends of Ariel University
+  type: charity
+  country: US
+- id: moskowitz-irving
+  name: Irving I. Moskowitz Foundation
+  type: foundation
+  country: US
+  ids:
+    ein: 95-6201346
+- id: moskowitz-cherna
+  name: Cherna Moskowitz Foundation
+  type: foundation
+  country: US
+  ids:
+    ein: 26-2547583
+- id: adelson-ff
+  name: Adelson Family Foundation
+  type: foundation
+  country: US
+  ids:
+    ein: 04-7024330
+- id: rosenberg-ms
+  name: Murray & Sydell Rosenberg Foundation
+  type: foundation
+  country: US
+  ids:
+    ein: 58-1947342
+- id: mz-foundation
+  name: MZ Foundation
+  type: foundation
+  country: US
+  ids:
+    ein: 94-3316088
+- id: conduit
+  name: Conduit Foundation
+  type: foundation
+  country: US
+  ids:
+    ein: 04-3684566
+- id: ner-tzion
+  name: Ner Tzion Foundation
+  type: foundation
+  country: US
+  ids:
+    ein: 02-0613293
+- id: koum
+  name: Koum Family Foundation
+  type: foundation
+  country: US
+  ids:
+    ein: 47-5446562
+- id: samueli
+  name: Samueli Foundation
+  type: foundation
+  country: US
+  ids:
+    ein: 33-0758237
+- id: mandel
+  name: Mandel Family Foundation
+  type: foundation
+  country: US
+  ids:
+    ein: 83-0987549
+- id: goldring
+  name: Goldring Family Foundation
+  type: foundation
+  country: US
+  ids:
+    ein: 72-6022666
+- id: falic
+  name: Falic Family Foundation
+  type: foundation
+  country: US
+  ids:
+    ein: 20-2734770
+- id: fidelity-charitable
+  name: Fidelity Charitable (donor-advised fund)
+  type: donor_advised_fund
+  country: US
+- id: elad
+  name: Elad (Ir David Foundation)
+  type: organization
+  country: IL/WB
+- id: bet-el-yeshiva
+  name: Bet El Yeshiva
+  type: organization
+  country: IL/WB
+- id: ariel-university
+  name: Ariel University
+  type: organization
+  country: IL/WB
+- id: gush-etzion-fdn
+  name: Gush Etzion Foundation
+  type: organization
+  country: IL/WB
+- id: binyamin-fund
+  name: Binyamin Fund
+  type: organization
+  country: IL/WB
+- id: regavim
+  name: Regavim
+  type: organization
+  country: IL/WB
+- id: amana
+  name: Amana
+  type: organization
+  country: IL/WB
+- id: israel-settlements-unnamed
+  name: Settlement-area recipients (unnamed in filings)
+  type: organization
+  country: IL/WB
+- id: jnf-canada
+  name: Jewish National Fund of Canada
+  type: charity
+  country: CA
+  ids:
+    cra_bn: 107534877RR0001
+    status: revoked 10 Aug 2024
+- id: neeman-canada
+  name: Ne'eman Foundation Canada
+  type: charity
+  country: CA
+  ids:
+    cra_bn: 810956565RR0001
+    status: revoked 10 Aug 2024
+- id: czca
+  name: Canadian Zionist Cultural Association
+  type: charity
+  country: CA
+  ids:
+    cra_bn: 108075748RR0001
+    status: revoked 21 Feb 2026
+- id: mizrachi-canada
+  name: Mizrachi Organization of Canada
+  type: charity
+  country: CA
+  ids:
+    cra_bn: 119043891RR0001
+    status: registered
+flows:
+- from: havas-de
+  to: clock-tower-x
+  amount: 15000000
+  currency: USD
+  date: '2025-10-24'
+  kind: payment_received
+  status: filed
+  source: src-fara-7649-clocktowerx
+  end: '2026-03-03'
+  note: For the State of Israel; six payments
+- from: havas-de
+  to: clock-tower-x
+  amount: 31500000
+  currency: USD
+  date: '2026-04-01'
+  kind: contracted
+  status: contracted
+  source: src-fara-7649-clocktowerx
+  end: '2026-10-31'
+- from: clock-tower-x
+  to: sparkfire
+  amount: 6500000
+  currency: USD
+  date: '2025-10-29'
+  kind: payment_made
+  status: filed
+  source: src-fara-7649-clocktowerx
+  end: '2026-02-05'
+- from: clock-tower-x
+  to: portman-road
+  amount: 4947000
+  currency: USD
+  date: '2025-10-29'
+  kind: payment_made
+  status: filed
+  source: src-fara-7649-clocktowerx
+  end: '2026-02-05'
+- from: clock-tower-x
+  to: salem-media
+  amount: 566002.5
+  currency: USD
+  date: '2025-10-29'
+  kind: payment_made
+  status: filed
+  source: src-fara-7649-clocktowerx
+  end: '2026-02-05'
+- from: clock-tower-x
+  to: three-tech
+  amount: 466800
+  currency: USD
+  date: '2025-10-29'
+  kind: payment_made
+  status: filed
+  source: src-fara-7649-clocktowerx
+  end: '2026-02-05'
+- from: havas-de
+  to: targeted-comms
+  amount: 9892335.58
+  currency: USD
+  date: '2025-10-28'
+  kind: payment_received
+  status: filed
+  source: src-fara-7553-targeted
+  end: '2025-12-30'
+  note: For the Government of Israel
+- from: targeted-comms
+  to: x-corp
+  amount: 1976014.31
+  currency: USD
+  date: '2025-10-03'
+  kind: payment_made
+  status: filed
+  source: src-fara-7553-targeted
+  end: '2026-03-31'
+- from: targeted-comms
+  to: breakpoint-media
+  amount: 480978.08
+  currency: USD
+  date: '2025-10-03'
+  kind: payment_made
+  status: filed
+  source: src-fara-7553-targeted
+  end: '2026-03-31'
+- from: targeted-comms
+  to: breitbart
+  amount: 40000
+  currency: USD
+  date: '2025-10-03'
+  kind: payment_made
+  status: filed
+  source: src-fara-7553-targeted
+  end: '2026-03-31'
+- from: targeted-comms
+  to: casbah-pictures
+  amount: 25137
+  currency: USD
+  date: '2025-10-03'
+  kind: payment_made
+  status: filed
+  source: src-fara-7553-targeted
+  end: '2026-03-31'
+- from: targeted-comms
+  to: daily-caller
+  amount: 7500
+  currency: USD
+  date: '2025-10-03'
+  kind: payment_made
+  status: filed
+  source: src-fara-7553-targeted
+  end: '2026-03-31'
+- from: il-mfa
+  to: skdk
+  amount: 150000
+  currency: USD
+  date: '2025-06-03'
+  kind: payment_received
+  status: filed
+  source: src-fara-7552-skdk
+  end: '2025-07-08'
+- from: il-mfa
+  to: show-faith-by-works
+  amount: 2313791.5
+  currency: USD
+  date: '2025-09-27'
+  kind: payment_received
+  status: filed
+  source: src-fara-7653-showfaith
+  end: '2026-03-10'
+- from: havas-de
+  to: bridges-partners
+  amount: 199985
+  currency: USD
+  date: '2025-07-03'
+  kind: payment_received
+  status: filed
+  source: src-fara-7652-bridges-order
+  note: Influencer campaign advance
+- from: bridges-partners
+  to: d3-entertainment
+  amount: 75000
+  currency: USD
+  date: '2025-10-03'
+  kind: payment_made
+  status: filed
+  source: src-fara-7652-bridges
+  end: '2025-11-25'
+- from: il-lapam
+  to: piro
+  amount: 1000000
+  currency: USD
+  date: '2026-04-30'
+  kind: contracted
+  status: contracted
+  source: src-fara-7732-piro
+  note: Via Havas; $900,000 + $100,000
+- from: il-lapam
+  to: havas-de
+  amount: null
+  currency: USD
+  date: '2024-01-16'
+  kind: agency_relationship
+  status: filed
+  source: src-fara-7662-davis
+  note: Havas acts for LaPam / Government of Israel in every Havas contract read
+- from: clock-tower-x
+  to: max-miller-victory
+  amount: 10000
+  currency: USD
+  date: '2025-12-22'
+  kind: political_donation
+  status: filed
+  source: src-fara-israel-supplementals-2023-2026
+  note: Brad Parscale's personal donation, disclosed under FARA
+- from: il-diaspora
+  to: stoic
+  amount: 2000000
+  currency: USD
+  date: '2024-06-05'
+  kind: reported_payment
+  status: reported_disputed
+  source: src-npr-stoic-2024
+  note: NYT report; ministry denied
+- from: gov-us
+  to: gov-il
+  amount: 8700000000
+  currency: USD
+  date: '2024-04-24'
+  kind: appropriation
+  status: filed
+  source: src-plaw-118-50
+  note: P.L. 118-50 Div. A
+- from: gov-us
+  to: gov-il
+  amount: 38000000000
+  currency: USD
+  date: '2019-10-01'
+  kind: mou_pledge
+  status: pledged
+  source: src-crs-rl33222-2025
+  end: '2028-09-30'
+  note: 2016 MOU, FY2019-2028
+- from: gov-qa
+  to: gaza-authorities
+  amount: 150000000
+  currency: USD
+  date: '2020-03-24'
+  kind: grant_announced
+  status: filed
+  source: src-qatar-mofa-2020-03-24
+- from: gov-qa
+  to: gaza-authorities
+  amount: 360000000
+  currency: USD
+  date: '2021-01-31'
+  kind: grant_announced
+  status: filed
+  source: src-qatar-mofa-2021-02-02
+- from: gov-qa
+  to: gaza-authorities
+  amount: 500000000
+  currency: USD
+  date: '2021-05-26'
+  kind: grant_announced
+  status: filed
+  source: src-qatar-mofa-2021-05-26
+- from: gov-ir
+  to: hamas
+  amount: 100000000
+  currency: USD
+  date: '2021-01-01'
+  kind: government_estimate
+  status: estimate
+  source: src-state-crt-2023
+  note: 'US State Dept: up to $100M a year combined to Hamas, PIJ, PFLP-GC'
+- from: hlf
+  to: hamas
+  amount: 12400000
+  currency: USD
+  date: '2008-11-24'
+  kind: court_finding
+  status: convicted
+  source: src-doj-hlf-2008
+  note: To Hamas-controlled zakat committees
+- from: central-fund-of-israel
+  to: israel-settlements-unnamed
+  amount: 83900000
+  currency: USD
+  date: '2024'
+  kind: grant_abroad
+  status: filed
+  source: src-990-central-fund
+  note: Fiscal year total from Form 990
+- from: one-israel-fund
+  to: israel-settlements-unnamed
+  amount: 3390000
+  currency: USD
+  date: '2024'
+  kind: grant_abroad
+  status: filed
+  source: src-990-one-israel-fund
+  note: Fiscal year total from Form 990
+- from: hebron-fund
+  to: israel-settlements-unnamed
+  amount: 3180000
+  currency: USD
+  date: '2024'
+  kind: grant_abroad
+  status: filed
+  source: src-990-hebron-fund
+  note: Fiscal year total from Form 990
+- from: af-ateret-cohanim
+  to: israel-settlements-unnamed
+  amount: 1160000
+  currency: USD
+  date: '2024'
+  kind: grant_abroad
+  status: filed
+  source: src-990-ateret-cohanim
+  note: Fiscal year total from Form 990
+- from: friends-of-ir-david
+  to: elad
+  amount: 16410000
+  currency: USD
+  date: '2024'
+  kind: grant_abroad
+  status: filed
+  source: src-990-ir-david
+  note: Fiscal year total from Form 990
+- from: af-bet-el
+  to: bet-el-yeshiva
+  amount: 3970000
+  currency: USD
+  date: '2024'
+  kind: grant_abroad
+  status: filed
+  source: src-990-bet-el
+  note: Fiscal year total from Form 990
+- from: cfic
+  to: israel-settlements-unnamed
+  amount: 1130000
+  currency: USD
+  date: '2024'
+  kind: grant_abroad
+  status: filed
+  source: src-990-cfic
+  note: Fiscal year total from Form 990
+- from: jnf-kkl-us
+  to: gush-etzion-fdn
+  amount: 160000
+  currency: USD
+  date: '2024'
+  kind: grant_abroad
+  status: filed
+  source: src-990-jnf-us
+  note: Fiscal year total from Form 990
+- from: moskowitz-cherna
+  to: central-fund-of-israel
+  amount: 3447000
+  currency: USD
+  date: '2024'
+  kind: foundation_grant
+  status: filed
+  source: src-990pf-foundations
+- from: moskowitz-cherna
+  to: friends-of-ir-david
+  amount: 1000000
+  currency: USD
+  date: '2024'
+  kind: foundation_grant
+  status: filed
+  source: src-990pf-foundations
+- from: moskowitz-cherna
+  to: af-bet-el
+  amount: 600000
+  currency: USD
+  date: '2024'
+  kind: foundation_grant
+  status: filed
+  source: src-990pf-foundations
+- from: moskowitz-cherna
+  to: af-ateret-cohanim
+  amount: 200000
+  currency: USD
+  date: '2024'
+  kind: foundation_grant
+  status: filed
+  source: src-990pf-foundations
+- from: moskowitz-irving
+  to: central-fund-of-israel
+  amount: 1596000
+  currency: USD
+  date: '2024'
+  kind: foundation_grant
+  status: filed
+  source: src-990pf-foundations
+- from: moskowitz-irving
+  to: central-fund-of-israel
+  amount: 2086500
+  currency: USD
+  date: '2023'
+  kind: foundation_grant
+  status: filed
+  source: src-990pf-foundations
+- from: adelson-ff
+  to: af-ariel
+  amount: 10850000
+  currency: USD
+  date: '2024'
+  kind: foundation_grant
+  status: filed
+  source: src-990pf-foundations
+- from: adelson-ff
+  to: friends-of-ir-david
+  amount: 1000000
+  currency: USD
+  date: '2024'
+  kind: foundation_grant
+  status: filed
+  source: src-990pf-foundations
+- from: adelson-ff
+  to: central-fund-of-israel
+  amount: 592200
+  currency: USD
+  date: '2023'
+  kind: foundation_grant
+  status: filed
+  source: src-990pf-foundations
+- from: rosenberg-ms
+  to: central-fund-of-israel
+  amount: 3350000
+  currency: USD
+  date: '2024'
+  kind: foundation_grant
+  status: filed
+  source: src-990pf-foundations
+- from: rosenberg-ms
+  to: central-fund-of-israel
+  amount: 5390000
+  currency: USD
+  date: '2023'
+  kind: foundation_grant
+  status: filed
+  source: src-990pf-foundations
+- from: koum
+  to: friends-of-ir-david
+  amount: 1000000
+  currency: USD
+  date: '2024'
+  kind: foundation_grant
+  status: filed
+  source: src-990pf-foundations
+- from: samueli
+  to: friends-of-ir-david
+  amount: 1500000
+  currency: USD
+  date: '2024'
+  kind: foundation_grant
+  status: filed
+  source: src-990pf-foundations
+- from: mandel
+  to: friends-of-ir-david
+  amount: 750000
+  currency: USD
+  date: '2024'
+  kind: foundation_grant
+  status: filed
+  source: src-990pf-foundations
+- from: goldring
+  to: friends-of-ir-david
+  amount: 500000
+  currency: USD
+  date: '2024'
+  kind: foundation_grant
+  status: filed
+  source: src-990pf-foundations
+- from: falic
+  to: central-fund-of-israel
+  amount: 10000
+  currency: USD
+  date: '2023'
+  kind: foundation_grant
+  status: filed
+  source: src-990pf-foundations
+- from: conduit
+  to: central-fund-of-israel
+  amount: 2020000
+  currency: USD
+  date: '2024'
+  kind: foundation_grant
+  status: filed
+  source: src-990pf-foundations
+- from: fidelity-charitable
+  to: friends-of-ir-david
+  amount: 5000000
+  currency: USD
+  date: '2024'
+  kind: foundation_grant
+  status: filed
+  source: src-990pf-foundations
+- from: af-ariel
+  to: ariel-university
+  amount: null
+  currency: USD
+  date: '2024'
+  kind: pass_through
+  status: inferred
+  source: src-990pf-foundations
+  note: Recipient name implies pass-through; not read in a filing
+- from: neeman-canada
+  to: israel-settlements-unnamed
+  amount: 9132361
+  currency: CAD
+  date: '2023'
+  kind: spent_outside_canada
+  status: filed
+  source: src-cra-t3010
+  note: Coded Israel; recipient names include Binyamin Fund
+- from: czca
+  to: israel-settlements-unnamed
+  amount: 2452879
+  currency: CAD
+  date: '2024'
+  kind: spent_outside_canada
+  status: filed
+  source: src-cra-t3010
+  note: Coded Israel; largest recipient AIS (formerly LIBI Fund)
+- from: mizrachi-canada
+  to: regavim
+  amount: 8460
+  currency: CAD
+  date: '2023'
+  kind: grant_abroad
+  status: filed
+  source: src-cra-t3010
+- from: il-settlement-ministry
+  to: wzo-settlement-division
+  amount: 244200000
+  currency: ILS
+  date: '2025'
+  kind: state_transfer
+  status: filed
+  source: src-obudget-israel
+- from: il-settlement-ministry
+  to: wzo-settlement-division
+  amount: 84800000
+  currency: ILS
+  date: '2024'
+  kind: state_transfer
+  status: filed
+  source: src-obudget-israel
+- from: gov-il
+  to: il-settlement-ministry
+  amount: 508400000
+  currency: ILS
+  date: '2025'
+  kind: state_budget_spent
+  status: filed
+  source: src-obudget-israel

@@ -717,3 +717,202 @@ sources:
     document_class: secondary (news)
     read: tool
     authenticity: {status: not_applicable, basis: "News report; the Commission's own decision was not opened."}
+
+  # ---------------- Settlement funding: US charities and foundations, Canada, Israeli state ----------------
+  - id: src-990-central-fund
+    title: Central Fund of Israel, Form 990 FY2022-FY2024 (Schedule F)
+    url: https://projects.propublica.org/nonprofits/organizations/132992985
+    document_class: primary_text
+    read: full (e-filed return schedules read as rendered by ProPublica; PDF downloads blocked)
+    authenticity:
+      status: authenticated
+      strength: moderate
+      provenance: IRS e-filed return as rendered by ProPublica Nonprofit Explorer.
+      tests:
+      - EIN, fiscal year and totals consistent across the return's parts [x]
+      tested_by: Strata session, 2026-10-07
+      gaps:
+      - Schedule F Part II recipient listing ("See attached", 442 organizations) not opened.
+      checked: '2026-10-07'
+  - id: src-990-one-israel-fund
+    title: One Israel Fund, Form 990 2022-2024 (Schedule F)
+    url: https://projects.propublica.org/nonprofits/organizations/113195338
+    document_class: primary_text
+    read: full (e-filed return schedules read as rendered by ProPublica; PDF downloads blocked)
+    authenticity:
+      status: authenticated
+      strength: moderate
+      provenance: IRS e-filed return as rendered by ProPublica Nonprofit Explorer.
+      tests:
+      - EIN, fiscal year and totals consistent across the return's parts [x]
+      tested_by: Strata session, 2026-10-07
+      gaps:
+      - Foreign recipients unnamed.
+      checked: '2026-10-07'
+  - id: src-990-hebron-fund
+    title: The Hebron Fund, Form 990 2022-2024 (Schedule F)
+    url: https://projects.propublica.org/nonprofits/organizations/112623719
+    document_class: primary_text
+    read: full (e-filed return schedules read as rendered by ProPublica; PDF downloads blocked)
+    authenticity:
+      status: authenticated
+      strength: moderate
+      provenance: IRS e-filed return as rendered by ProPublica Nonprofit Explorer.
+      tests:
+      - EIN, fiscal year and totals consistent across the return's parts [x]
+      tested_by: Strata session, 2026-10-07
+      gaps:
+      - One unnamed row, purpose general funds.
+      checked: '2026-10-07'
+  - id: src-990-ateret-cohanim
+    title: American Friends of Ateret Cohanem, Form 990 FY2022-FY2024
+    url: https://projects.propublica.org/nonprofits/organizations/112706563
+    document_class: primary_text
+    read: full (e-filed return schedules read as rendered by ProPublica; PDF downloads blocked)
+    authenticity:
+      status: authenticated
+      strength: moderate
+      provenance: IRS e-filed return as rendered by ProPublica Nonprofit Explorer.
+      tests:
+      - EIN, fiscal year and totals consistent across the return's parts [x]
+      tested_by: Strata session, 2026-10-07
+      gaps:
+      - Region given as Jerusalem; whether beyond the Green Line is not stated.
+      checked: '2026-10-07'
+  - id: src-990-ir-david
+    title: Friends of Ir David, Form 990 2022-2024 (program text names Elad)
+    url: https://projects.propublica.org/nonprofits/organizations/113466176
+    document_class: primary_text
+    read: full (e-filed return schedules read as rendered by ProPublica; PDF downloads blocked)
+    authenticity:
+      status: authenticated
+      strength: moderate
+      provenance: IRS e-filed return as rendered by ProPublica Nonprofit Explorer.
+      tests:
+      - EIN, fiscal year and totals consistent across the return's parts [x]
+      tested_by: Strata session, 2026-10-07
+      gaps: []
+      checked: '2026-10-07'
+  - id: src-990-bet-el
+    title: American Friends of Bet El Yeshiva Center, Form 990 2022-2024
+    url: https://projects.propublica.org/nonprofits/organizations/112586564
+    document_class: primary_text
+    read: full (e-filed return schedules read as rendered by ProPublica; PDF downloads blocked)
+    authenticity:
+      status: authenticated
+      strength: moderate
+      provenance: IRS e-filed return as rendered by ProPublica Nonprofit Explorer.
+      tests:
+      - EIN, fiscal year and totals consistent across the return's parts [x]
+      tested_by: Strata session, 2026-10-07
+      gaps:
+      - No Schedule F attached for FY2023-2024.
+      checked: '2026-10-07'
+  - id: src-990-cfic
+    title: Christian Friends of Israeli Communities, Form 990 2023-2025
+    url: https://projects.propublica.org/nonprofits/organizations/412020104
+    document_class: primary_text
+    read: full (e-filed return schedules read as rendered by ProPublica; PDF downloads blocked)
+    authenticity:
+      status: authenticated
+      strength: moderate
+      provenance: IRS e-filed return as rendered by ProPublica Nonprofit Explorer.
+      tests:
+      - EIN, fiscal year and totals consistent across the return's parts [x]
+      tested_by: Strata session, 2026-10-07
+      gaps: []
+      checked: '2026-10-07'
+  - id: src-990-jnf-us
+    title: 'Jewish National Fund (KKL), Form 990 FY2023-FY2024 (Schedule F: Gush Etzion Foundation)'
+    url: https://projects.propublica.org/nonprofits/organizations/131659627
+    document_class: primary_text
+    read: full (e-filed return schedules read as rendered by ProPublica; PDF downloads blocked)
+    authenticity:
+      status: authenticated
+      strength: moderate
+      provenance: IRS e-filed return as rendered by ProPublica Nonprofit Explorer.
+      tests:
+      - EIN, fiscal year and totals consistent across the return's parts [x]
+      tested_by: Strata session, 2026-10-07
+      gaps:
+      - The rest of the grant list was not reviewed.
+      checked: '2026-10-07'
+  - id: src-990pf-foundations
+    title: Private foundation and charity returns (Form 990-PF and Form 990 Schedule I) of the funders listed in data/ledger.yaml, 2022-2024, located through
+      ProPublica full-text search
+    url: https://projects.propublica.org/nonprofits/full_text_search
+    document_class: primary_text
+    read: full (e-filed return schedules read as rendered by ProPublica; PDF downloads blocked)
+    authenticity:
+      status: authenticated
+      strength: moderate
+      provenance: IRS e-filed return as rendered by ProPublica Nonprofit Explorer.
+      tests:
+      - EIN, fiscal year and totals consistent across the return's parts [x]
+      tested_by: Strata session, 2026-10-07
+      gaps:
+      - Grants found by full-text search of e-filed returns; paper filers missed. Kushner foundation 2013-2014 grant statement (PDF) not opened, so no Bet
+        El grant is recorded for it.
+      checked: '2026-10-07'
+  - id: src-cra-t3010
+    title: 'CRA T3010 registered-charity information return data (open.canada.ca), 2019-2024: qualified donees and activities outside Canada'
+    url: https://open.canada.ca/data/dataset/05b3abd0-e70f-4b3b-a9c5-acc436bd15b6
+    document_class: dataset (official)
+    read: full (yearly tables downloaded and parsed)
+    authenticity:
+      status: authenticated
+      strength: strong
+      provenance: Government of Canada open data, from charities' filed returns.
+      tests:
+      - Charity numbers and revocation dates consistent with court records [x]
+      tested_by: Strata session, 2026-10-07
+      gaps:
+      - Recipients coded by country only; a West Bank location is inferred from a recipient name, not stated. JNF Canada's own return rows were not found.
+      checked: '2026-10-07'
+  - id: src-fca-jnf-canada-2025
+    title: Federal Court of Appeal, Jewish National Fund of Canada v. Canada (National Revenue), 2025 FCA 75 (31 Mar 2025) and 2025 FCA 110 (2 Jun 2025)
+    url: https://decisions.fca-caf.gc.ca/fca-caf/decisions/en/521596/1/document.do
+    document_class: primary_text
+    read: tool
+    authenticity:
+      status: authenticated
+      strength: moderate
+      provenance: Federal Court of Appeal decisions site.
+      tests:
+      - Official-domain test [x]
+      tested_by: Strata session, 2026-10-07
+      gaps:
+      - Read through a summarizing tool; the final outcome of the main appeal not found.
+      checked: '2026-10-07'
+  - id: src-cjn-charity-revocations
+    title: The Canadian Jewish News, reports on CRA revocations of JNF Canada, Ne'eman Foundation and Canadian Zionist Cultural Association (2024-2026)
+    url: https://thecjn.ca/?p=273674
+    document_class: secondary (news)
+    read: tool
+    authenticity:
+      status: not_applicable
+      basis: News reports; CRA revocation letters and Gazette notices not opened.
+  - id: src-obudget-israel
+    title: 'Israel open budget database (next.obudget.org, from Ministry of Finance data): Settlement and National Missions Ministry (00045213), WZO Settlement
+      Division contracts (0004521315), Judea and Samaria lines, 2018-2026'
+    url: https://next.obudget.org/i/budget/0004521315/2025
+    document_class: dataset (official data, civic mirror)
+    read: full (API queried)
+    authenticity:
+      status: authenticated
+      strength: moderate
+      provenance: Civic open-budget project built from Israel Ministry of Finance data.
+      tests:
+      - Codes and years consistent across queries [x]
+      tested_by: Strata session, 2026-10-07
+      gaps:
+      - Ministry of Finance budget books not opened (gov.il returned 403). Lines are not West-Bank-only unless labelled.
+      checked: '2026-10-07'
+  - id: src-peacenow-2026
+    title: Peace Now, 19 Billions to the Settlements (March 2026)
+    url: https://peacenow.org.il/wp-content/uploads/2026/03/19-Billions-to-settlements.pdf
+    document_class: secondary (advocacy group analysis)
+    read: full
+    authenticity:
+      status: not_applicable
+      basis: Advocacy group analysis; its totals were not checked against primary budget documents.

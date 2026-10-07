@@ -114,3 +114,23 @@ log:
       (ipm-fara-payees-not-nonprofits). Owner then asked about real-estate events at synagogues marketing
       property; recorded as ipm-settlement-property-expos from news reports, with the buyers' payments
       noted as private records.
+  - id: L-12
+    date: 2026-10-07
+    entry: >
+      Owner: continue the mission, capital in and out of the war and the layers of people and
+      organizations; save the organizations; the goal is a large time map. Added data/ledger.yaml, a
+      graph-ready record of 76 entities (governments, agencies, companies, charities, foundations, armed
+      groups, committees) with registry ids (EIN, CRA BN, FARA number) and 60 dated transfers, each with
+      its source. Two research passes: US charity and foundation returns (Form 990 / 990-PF), and Canadian
+      charity data plus Israeli state settlement spending. Added three claims
+      (ipm-us-charities-settlement-funding, ipm-canada-charities-revoked,
+      ipm-israel-state-settlement-spending) and a settlement-funding lane on the timeline. Private
+      individual donors are not named unless a public filing names them; donor-advised funds are recorded
+      as the payer.
+  - id: L-13
+    date: 2026-10-07
+    entry: >
+      Check before push: Central Fund of Israel, Friends of Ir David and American Friends of Bet El revenue
+      totals re-checked against the ProPublica organization API (IRS data); all match the research notes.
+      Central Fund of Israel's fiscal year ends in January, so its figures are now labelled by the month the
+      fiscal year ends.
