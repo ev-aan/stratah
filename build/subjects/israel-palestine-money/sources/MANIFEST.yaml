@@ -1,0 +1,581 @@
+# Sources for the israel-palestine-money dig, with authenticity entries (rules A1-A10, build/SCHEMA.md).
+# No article text is stored in this repository.
+# read: full = downloaded and the text read directly; tool = read through a summarizing fetch tool
+# (figures reliable but not read verbatim; re-open before quoting); snippet = search result only;
+# blocked = could not be opened (reason given); quoted = known only as quoted in another source.
+# Standard test for an official web page ("official-domain test"): the page is served over HTTPS from the
+# issuing body's own domain, and its date, names and figures match at least one other record named in
+# the entry. It is a weak test: it shows where the page came from, not that its content is true.
+# Heads of government named in claims and the timeline come from general knowledge unless a source is
+# given; each such use is marked [HoG not sourced].
+retrieved: 2026-10-07
+sources:
+
+  # ---------------- Charities: Holy Land Foundation (US) ----------------
+  - id: src-treasury-po841-2001
+    title: "US Treasury, Shutting Down the Terrorist Financial Network (PO-841), 4 Dec 2001"
+    url: https://home.treasury.gov/news/press-releases/po841
+    document_class: primary_text
+    read: full
+    authenticity: {status: authenticated, strength: moderate, provenance: "Treasury press-release archive on home.treasury.gov.", tests: ["Official-domain test; matches the White House release of the same day (src-whitehouse-2001-12-04) [x]"], tested_by: "Strata session, 2026-10-07 (not independent of the dig)", gaps: ["The classified administrative record behind the designation is not public."], next_step: "None for authenticity; the evidence gap is recorded on the claim.", checked: 2026-10-07}
+  - id: src-whitehouse-2001-12-04
+    title: "The White House (archived), President Announces Progress on Financial Fight Against Terror, 4 Dec 2001"
+    url: https://georgewbush-whitehouse.archives.gov/news/releases/2001/12/20011204-8.html
+    document_class: primary_text
+    read: full
+    authenticity: {status: authenticated, strength: moderate, provenance: "National Archives' archived Bush White House site.", tests: ["Official-domain test; matches src-treasury-po841-2001 [x]"], tested_by: "Strata session, 2026-10-07", gaps: [], checked: 2026-10-07}
+  - id: src-hlf-v-ashcroft-2003
+    title: "Holy Land Foundation v. Ashcroft, 333 F.3d 156 (D.C. Cir. 20 Jun 2003)"
+    url: https://media.cadc.uscourts.gov/opinions/docs/2003/06/02-5307a.pdf
+    document_class: primary_text
+    read: "full (relevant sections: designation, redesignation of May 2002, in-camera review of classified record)"
+    authenticity: {status: authenticated, strength: strong, provenance: "Court's own opinion server.", tests: ["Official-domain test; citation matches the Fifth Circuit's account in src-el-mezain-2011 [x]"], tested_by: "Strata session, 2026-10-07", gaps: [], checked: 2026-10-07}
+  - id: src-doj-hlf-2008
+    title: "US DOJ, Federal Jury in Dallas Convicts Holy Land Foundation and Its Leaders..., 24 Nov 2008"
+    url: https://www.justice.gov/archive/opa/pr/2008/November/08-nsd-1046.html
+    document_class: primary_text
+    read: full
+    authenticity: {status: authenticated, strength: moderate, provenance: "DOJ press archive.", tests: ["Official-domain test; the verdict is recorded in the appellate opinion src-el-mezain-2011 [x]"], tested_by: "Strata session, 2026-10-07", gaps: ["The trial record itself was not opened."], checked: 2026-10-07}
+  - id: src-el-mezain-2011
+    title: "United States v. El-Mezain et al., No. 09-10560, 664 F.3d 467 (5th Cir. 7 Dec 2011, revised 13 Jan 2012)"
+    url: https://www.ca5.uscourts.gov/Opinions/pub/09/09-10560-CR0.wpd.pdf
+    document_class: primary_text
+    read: "full (introduction, background, the zakat-committee evidence, the OFAC lay-testimony issue, conclusion)"
+    authenticity: {status: authenticated, strength: strong, provenance: "Court's own opinion server.", tests: ["Official-domain test; parties, docket and dates match src-doj-hlf-2008 [x]"], tested_by: "Strata session, 2026-10-07", gaps: ["Not every section was read."], checked: 2026-10-07}
+
+  # ---------------- Charities: Interpal (UK) ----------------
+  - id: src-treasury-js672-2003
+    title: "US Treasury, U.S. Designates Five Charities Funding Hamas and Six Senior Hamas Leaders as Terrorist Entities (JS-672), 22 Aug 2003"
+    url: https://home.treasury.gov/news/press-releases/js672
+    document_class: primary_text
+    read: full
+    authenticity: {status: authenticated, strength: moderate, provenance: "Treasury press-release archive.", tests: ["Official-domain test; Interpal's SDN entry 7917 is present in the current OFAC list (src-ofac-sdn-2026) [x]"], tested_by: "Strata session, 2026-10-07", gaps: ["The release cites 'reporting' and publishes no underlying documents."], checked: 2026-10-07}
+  - id: src-hansard-lords-2003-10-06
+    title: "Hansard, House of Lords, 'Interpal: Charitable Status', 6 Oct 2003 (ministerial answer)"
+    url: https://hansard-api.parliament.uk/search/contributions/Spoken.json?queryParameters.searchTerm=Interpal
+    document_class: primary_text
+    read: "full (contribution text through the official Hansard API; the hansard.parliament.uk page returned 403)"
+    authenticity: {status: authenticated, strength: moderate, provenance: "UK Parliament's Hansard API.", tests: ["Official-domain test; date and speakers match the Hansard index [x]"], tested_by: "Strata session, 2026-10-07", gaps: ["The Charity Commission's 2003 report itself was not opened; this is a minister's account of it."], next_step: "Open the 2003 report in the UK Government Web Archive from a browser.", checked: 2026-10-07}
+  - id: src-cc-interpal-2003
+    title: "Charity Commission, Inquiry report: Interpal (2003), archived copy"
+    url: http://web.archive.org/web/20081007010209/http://www.charity-commission.gov.uk/investigations/inquiryreports/interpal.asp
+    document_class: primary_text
+    read: "blocked (archive.org refused this environment)"
+    authenticity: {status: unchecked, gaps: ["Not opened."], next_step: "Open from a browser and compare with the Hansard account.", checked: 2026-10-07}
+  - id: src-cc-interpal-2009
+    title: "Charity Commission, Interpal inquiry (2009) supplementary report, UK Government Web Archive"
+    url: http://webarchive.nationalarchives.gov.uk/20120816224444/http://www.charity-commission.gov.uk/Library/interpal_supplementary.pdf
+    document_class: primary_text
+    read: "blocked (403, human-verification wall)"
+    authenticity: {status: unchecked, gaps: ["Not opened."], next_step: "Open from a browser; record the Commission's own conclusion on terrorism links and on the Union of Good.", checked: 2026-10-07}
+  - id: src-csn-interpal-2009
+    title: "Charity & Security Network, summary of the Charity Commission's 2009 Interpal report"
+    url: https://charityandsecurity.org/?p=5979
+    document_class: secondary (advocacy NGO summary)
+    read: tool
+    authenticity: {status: not_applicable, basis: "Secondary summary by an advocacy group for charities; used only until the Commission's report is read."}
+  - id: src-cc-register-1040094
+    title: "Charity Commission register, Palestinians Relief and Development Fund (1040094)"
+    url: https://register-of-charities.charitycommission.gov.uk/en/charity-search/-/charity-details/1040094
+    document_class: primary_text (official register)
+    read: full
+    authenticity: {status: authenticated, strength: moderate, provenance: "Charity Commission's live register.", tests: ["Official-domain test; charity number matches the SDN entry note [x]"], tested_by: "Strata session, 2026-10-07", gaps: [], checked: 2026-10-07}
+
+  # ---------------- Charities: IRFAN-Canada ----------------
+  - id: src-cra-irfan
+    title: "Canada Revenue Agency, Revoked Canadian charity listed under the Criminal Code as terrorist entity (2014)"
+    url: https://www.canada.ca/en/revenue-agency/services/charities-giving/charities/whats-new/revoked-canadian-charity-listed-under-criminal-code-terrorist-entity.html
+    document_class: primary_text
+    read: tool
+    authenticity: {status: authenticated, strength: moderate, provenance: "canada.ca, CRA section.", tests: ["Official-domain test; the $14.6 million figure matches the Public Safety listing text (src-ps-listed-entities) [x]"], tested_by: "Strata session, 2026-10-07", gaps: ["Read through a summarizing tool; the 2011 revocation letter was not opened."], next_step: "Open the page directly and the 2011 revocation notice.", checked: 2026-10-07}
+  - id: src-gazette-sor-2014-97
+    title: "Canada Gazette Part II, SOR/2014-97 (P.C. 2014-466), listing IRFAN-Canada, 24 Apr 2014"
+    url: https://gazette.gc.ca/rp-pr/p2/2014/2014-04-29-x1/html/sor-dors97-eng.html
+    document_class: primary_text
+    read: full
+    authenticity: {status: authenticated, strength: strong, provenance: "Official Gazette of Canada.", tests: ["Official-domain test; listed on the Public Safety page [x]"], tested_by: "Strata session, 2026-10-07", gaps: [], checked: 2026-10-07}
+  - id: src-ps-listed-entities
+    title: "Public Safety Canada, Currently listed entities (modified 29 Sep 2025)"
+    url: https://www.publicsafety.gc.ca/cnt/ntnl-scrt/cntr-trrrsm/lstd-ntts/crrnt-lstd-ntts-en.aspx
+    document_class: primary_text
+    read: full
+    authenticity: {status: authenticated, strength: moderate, provenance: "Public Safety Canada's own list page.", tests: ["Official-domain test; listings match SOR/2014-97 and SOR/2024-204 [x]"], tested_by: "Strata session, 2026-10-07", gaps: ["Listings rest on security reports that are not public."], checked: 2026-10-07}
+  - id: src-ps-qp-2019
+    title: "Public Safety Canada, Question Period Note PS-2019-QP-00031 (IRFAN judicial review abandoned)"
+    url: https://search.open.canada.ca/qpnotes/record/ps-sp%2CPS-2019-QP-00031
+    document_class: primary_text
+    read: tool
+    authenticity: {status: authenticated, strength: weak, provenance: "Open Government portal.", tests: ["Official-domain test [x]"], tested_by: "Strata session, 2026-10-07", gaps: ["Read through a summarizing tool."], checked: 2026-10-07}
+
+  # ---------------- Charities: Samidoun ----------------
+  - id: src-nbctf-samidoun-2021
+    title: "Israel Ministry of Defense / NBCTF, statement on the Samidoun designation (28 Feb 2021)"
+    url: https://nbctf.mod.gov.il/en/Pages/SamidounEN.aspx
+    document_class: primary_text
+    read: tool
+    authenticity: {status: authenticated, strength: weak, provenance: "Israel Ministry of Defense counter-terror financing bureau site.", tests: ["Official-domain test [x]"], tested_by: "Strata session, 2026-10-07", gaps: ["Read through a summarizing tool; the OpenSanctions copy of Israel's list gives the order date as 21 Feb 2021, a week earlier."], next_step: "Open the order itself on the NBCTF list.", checked: 2026-10-07}
+  - id: src-bmi-samidoun-2023
+    title: "German Federal Ministry of the Interior, HAMAS and Samidoun banned in Germany, 2 Nov 2023"
+    url: https://www.bmi.bund.de/SharedDocs/pressemitteilungen/EN/2023/11/banned-hamas-samidoun.html
+    document_class: primary_text
+    read: tool
+    authenticity: {status: authenticated, strength: moderate, provenance: "bmi.bund.de.", tests: ["Official-domain test [x]"], tested_by: "Strata session, 2026-10-07", gaps: ["Read through a summarizing tool."], checked: 2026-10-07}
+  - id: src-gazette-sor-2024-204
+    title: "Canada Gazette Part II, SOR/2024-204 (P.C. 2024-1111), listing Samidoun, 11 Oct 2024"
+    url: https://gazette.gc.ca/rp-pr/p2/2024/2024-10-15-x1/html/sor-dors204-eng.html
+    document_class: primary_text
+    read: full
+    authenticity: {status: authenticated, strength: strong, provenance: "Official Gazette of Canada.", tests: ["Official-domain test; matches the joint US release src-treasury-jy2646-2024 [x]"], tested_by: "Strata session, 2026-10-07", gaps: [], checked: 2026-10-07}
+  - id: src-treasury-jy2646-2024
+    title: "US Treasury, United States and Canada Target Key International Fundraiser for Foreign Terrorist Organization PFLP (JY-2646), 15 Oct 2024"
+    url: https://home.treasury.gov/news/press-releases/jy2646
+    document_class: primary_text
+    read: full
+    authenticity: {status: authenticated, strength: moderate, provenance: "Treasury press archive.", tests: ["Official-domain test; Samidoun SDN entry present (src-ofac-sdn-2026) [x]"], tested_by: "Strata session, 2026-10-07", gaps: ["States conclusions; no underlying evidence published."], checked: 2026-10-07}
+
+  # ---------------- Charities: IHH ----------------
+  - id: src-opensanctions-il-mod
+    title: "OpenSanctions mirror of Israel's NBCTF terrorist-organization and unauthorized-association lists (last change 6 Oct 2026)"
+    url: https://data.opensanctions.org/datasets/latest/il_mod_terrorists/targets.simple.csv
+    document_class: dataset (copy of an official list)
+    read: "full (downloaded and searched); the NBCTF original CSV redirected to a bot wall"
+    copy_of: "https://nbctf.mod.gov.il/he/Announcements/Documents/NBCTFIsrael%20-%20Terror%20Organization%20Designation%20List_CSV.csv"
+    compared_with_holder_copy: no
+    authenticity: {status: authenticated, strength: weak, provenance: "Third-party mirror maintained by OpenSanctions of the Israeli list.", tests: ["Entries for Samidoun and the six NGOs match dates reported by other sources within days [x]"], tested_by: "Strata session, 2026-10-07", gaps: ["Not compared with the NBCTF original; dates for IHH, Interpal, HLF and IRFAN rest on this copy."], next_step: "Download the NBCTF CSV from a browser and compare.", checked: 2026-10-07}
+  - id: src-ynet-union-of-good-2008
+    title: "Ynet, Israel versus Hamas' 'Union of Good', 7 Jul 2008"
+    url: https://www.ynetnews.com/article/3565068
+    document_class: secondary (news)
+    read: tool
+    authenticity: {status: not_applicable, basis: "News report; used for the date the 2008 order was made public."}
+  - id: src-bverwg-ihh-2012
+    title: "Bundesverwaltungsgericht, press release 34/2012: ban on Internationale Humanitäre Hilfsorganisation e.V. is lawful (BVerwG 6 A 2.10), 18 Apr 2012"
+    url: https://www.bverwg.de/pm/2012/34
+    document_class: primary_text
+    read: "full (German)"
+    authenticity: {status: authenticated, strength: strong, provenance: "Federal Administrative Court's own site.", tests: ["Official-domain test; case number and dates match the 2011 interim ruling [x]"], tested_by: "Strata session, 2026-10-07", gaps: ["Press release, not the full judgment."], next_step: "Read the judgment BVerwG 6 A 2.10.", checked: 2026-10-07}
+  - id: src-ofac-sdn-2026
+    title: "US Treasury OFAC, SDN list and alias list (CSV exports, last modified 5 Oct 2026)"
+    url: https://sanctionslistservice.ofac.treas.gov/api/PublicationPreview/exports/SDN.CSV
+    document_class: dataset (official list)
+    read: "full (downloaded and searched: HLF 7116, Interpal 7917, Union of Good 11256, Samidoun present; no IHH or IRFAN entry)"
+    authenticity: {status: authenticated, strength: strong, provenance: "OFAC's sanctions list service.", tests: ["Official-domain test; entries match designation releases [x]"], tested_by: "Strata session, 2026-10-07", gaps: ["A name search can miss a transliteration; IHH was searched under INSANI, IHH, YARDIM and HURRIYETLERI."], checked: 2026-10-07}
+  - id: src-eu-consolidated-2026
+    title: "European Commission, EU financial sanctions consolidated list (CSV, generated 22 Sep 2026)"
+    url: https://webgate.ec.europa.eu/fsd/fsf/public/files/csvFullSanctionsList_1_1/content?token=dG9rZW4tMjAxNw
+    document_class: dataset (official list)
+    read: "full (downloaded and searched for Interpal, Samidoun, HLF, IRFAN, IHH; none present)"
+    authenticity: {status: authenticated, strength: strong, provenance: "European Commission financial sanctions files.", tests: ["Official-domain test; Hamas and PFLP present as expected [x]"], tested_by: "Strata session, 2026-10-07", gaps: ["Not searched for the settler listings."], checked: 2026-10-07}
+  - id: src-uk-sanctions-list-2026
+    title: "UK FCDO, UK Sanctions List (CSV, 7 Oct 2026)"
+    url: https://sanctionslist.fcdo.gov.uk/docs/UK-Sanctions-List.csv
+    document_class: dataset (official list)
+    read: "full (searched for the five charities; none present)"
+    authenticity: {status: authenticated, strength: strong, provenance: "FCDO sanctions list service.", tests: ["Official-domain test [x]"], tested_by: "Strata session, 2026-10-07", gaps: ["Not searched for the settler listings."], checked: 2026-10-07}
+
+  # ---------------- The six Palestinian NGOs ----------------
+  - id: src-nbctf-six-ngos-2021
+    title: "Israel Ministry of Defense / NBCTF, announcement of the designation of six organizations as PFLP affiliates (Oct 2021; page stamped 1 Mar 2022)"
+    url: https://nbctf.mod.gov.il/en/Pages/211021EN.aspx
+    document_class: primary_text
+    read: tool
+    authenticity: {status: authenticated, strength: weak, provenance: "NBCTF site; the page was edited after the announcement (stamp 1/3/2022).", tests: ["Official-domain test; names match the nine-state statement [x]"], tested_by: "Strata session, 2026-10-07", gaps: ["Read through a summarizing tool; the signed declaration was not found, so the signing date (19 or 22 Oct) is open."], next_step: "Find the signed declaration or its Official Gazette (Reshumot) entry.", checked: 2026-10-07}
+  - id: src-toi-six-ngos-2021
+    title: "Times of Israel, Gantz declares six Palestinian human rights groups terrorist organizations, 22 Oct 2021"
+    url: https://www.timesofisrael.com/gantz-declares-six-palestinian-human-rights-groups-terrorist-organizations/
+    document_class: secondary (news)
+    read: full
+    authenticity: {status: not_applicable, basis: "News report."}
+  - id: src-nl-kamerstuk-23432-486
+    title: "Netherlands, letter to parliament Kamerstuk 23432 nr. 486 (ends UAWC funding; findings of the external review), 5 Jan 2022"
+    url: https://zoek.officielebekendmakingen.nl/kst-23432-486.html
+    document_class: primary_text
+    read: "full (Dutch)"
+    authenticity: {status: authenticated, strength: strong, provenance: "Official publications site of the Dutch government.", tests: ["Official-domain test; numbering continues from Kamerstuk 23432-480 (26 Jan 2021) which names the reviewer [x]"], tested_by: "Strata session, 2026-10-07", gaps: ["The review itself was shared with MPs confidentially and is not public."], checked: 2026-10-07}
+  - id: src-gov-ie-nine-states-2022
+    title: "Joint statement by Belgium, Denmark, France, Germany, Ireland, Italy, the Netherlands, Spain and Sweden on six Palestinian civil society organisations, 12 Jul 2022 (gov.ie copy)"
+    url: https://www.gov.ie/en/press-release/3ddfb-joint-statement-on-six-palestinian-civil-society-organisations
+    document_class: primary_text
+    read: full
+    authenticity: {status: authenticated, strength: strong, provenance: "Irish government site; a second government copy was read (src-aa-nine-states-2022).", tests: ["Two governments' copies agree on text and date [x]"], tested_by: "Strata session, 2026-10-07", gaps: [], checked: 2026-10-07}
+  - id: src-aa-nine-states-2022
+    title: "Auswärtiges Amt copy of the same nine-state joint statement, 12 Jul 2022"
+    url: https://www.auswaertiges-amt.de/en/newsroom/news/2542052-2542052
+    document_class: primary_text
+    read: full
+    authenticity: {status: authenticated, strength: strong, provenance: "German Foreign Office site.", tests: ["Matches the gov.ie copy [x]"], tested_by: "Strata session, 2026-10-07", gaps: [], checked: 2026-10-07}
+  - id: src-aljazeera-olaf-2022
+    title: "Al Jazeera, 'No suspicions': EU resumes funding of Palestinian NGOs, 30 Jun 2022"
+    url: https://www.aljazeera.com/news/2022/6/30/no-suspicions-eu-resumes-funding-of-palestinian-ngos
+    document_class: secondary (news)
+    read: full
+    authenticity: {status: not_applicable, basis: "News report; the OLAF finding and the Commission's answer were not opened."}
+
+  # ---------------- UNRWA ----------------
+  - id: src-un-sg-unrwa-2024-01-28
+    title: "Statement by the UN Secretary-General on UNRWA, 28 Jan 2024"
+    url: https://www.un.org/unispal/document/statement-by-the-secretary-general-on-unrwa-28jan-2024
+    document_class: primary_text
+    read: full
+    authenticity: {status: authenticated, strength: moderate, provenance: "UN UNISPAL documents collection.", tests: ["Official-domain test; consistent with UNRWA's 26 Jan statement [x]"], tested_by: "Strata session, 2026-10-07", gaps: ["Israel's dossier on the 12 staff is not public; no Israeli primary source for the figure was found."], checked: 2026-10-07}
+  - id: src-canada-unrwa-pause-2024
+    title: "Global Affairs Canada, Statement by Minister Hussen on allegations against staff of UNRWA, 26 Jan 2024"
+    url: https://www.canada.ca/en/global-affairs/news/2024/01/statement-by-minister-hussen-on-allegations-against-staff-of-united-nations-relief-and-works-agency-for-palestine-refugees-in-the-near-east.html
+    document_class: primary_text
+    read: full
+    authenticity: {status: authenticated, strength: moderate, provenance: "canada.ca.", tests: ["Official-domain test [x]"], tested_by: "Strata session, 2026-10-07", gaps: [], checked: 2026-10-07}
+  - id: src-uk-unrwa-pause-2024
+    title: "UK FCDO, Statement on allegations about UNRWA staff and 7 October attacks, 27 Jan 2024"
+    url: https://www.gov.uk/government/news/statement-on-allegations-about-unrwa-staff-and-7-october-attacks
+    document_class: primary_text
+    read: full
+    authenticity: {status: authenticated, strength: moderate, provenance: "gov.uk; page labelled as published under the 2022-2024 Conservative government.", tests: ["Official-domain test [x]"], tested_by: "Strata session, 2026-10-07", gaps: [], checked: 2026-10-07}
+  - id: src-de-unrwa-pause-2024
+    title: "German Foreign Office and BMZ, joint statement pausing new UNRWA funding in Gaza, 27 Jan 2024"
+    url: https://www.auswaertiges-amt.de/en/newsroom/news/2641762-2641762
+    document_class: primary_text
+    read: full
+    authenticity: {status: authenticated, strength: moderate, provenance: "auswaertiges-amt.de.", tests: ["Official-domain test [x]"], tested_by: "Strata session, 2026-10-07", gaps: [], checked: 2026-10-07}
+  - id: src-jp-unrwa-pause-2024
+    title: "Japan MOFA, Press Secretary statement suspending additional UNRWA funding, 28 Jan 2024"
+    url: https://www.mofa.go.jp/press/release/pressite_000001_00122.html
+    document_class: primary_text
+    read: full
+    authenticity: {status: authenticated, strength: moderate, provenance: "mofa.go.jp.", tests: ["Official-domain test [x]"], tested_by: "Strata session, 2026-10-07", gaps: [], checked: 2026-10-07}
+  - id: src-us-unrwa-pause-2024
+    title: "US State Department, Statement on UNRWA allegations, 26 Jan 2024 (blocked; reported by ABC7/AP)"
+    url: https://abc7.com/united-nations-relief-and-works-agency-israel-october-7-attack/14362932/
+    document_class: secondary (news)
+    read: "full for the news report; the State Department page (2021-2025.state.gov/statement-on-unrwa-allegations/) returned 403"
+    authenticity: {status: not_applicable, basis: "News report standing in for a blocked official statement."}
+  - id: src-no-unrwa-2024
+    title: "Norway, Statement on UNRWA (decision not to pause), 28 Jan 2024"
+    url: https://www.regjeringen.no/en/whats-new/statement-on-unrwa/id3023172
+    document_class: primary_text
+    read: full
+    authenticity: {status: authenticated, strength: moderate, provenance: "regjeringen.no.", tests: ["Official-domain test [x]"], tested_by: "Strata session, 2026-10-07", gaps: [], checked: 2026-10-07}
+  - id: src-crs-if12863
+    title: "Congressional Research Service, IF12863 (UNRWA funding pauses), EveryCRSReport mirror"
+    url: https://www.everycrsreport.com/reports/IF12863.html
+    document_class: secondary (government research service, read in a third-party mirror)
+    read: full
+    copy_of: "https://crsreports.congress.gov/product/pdf/IF/IF12863"
+    compared_with_holder_copy: no
+    authenticity: {status: authenticated, strength: weak, provenance: "Third-party mirror of a CRS product; the official host refused this environment.", tests: ["Report number and dates consistent with other CRS products [x]"], tested_by: "Strata session, 2026-10-07", gaps: ["Not compared with the official CRS copy."], checked: 2026-10-07}
+  - id: src-ec-unrwa-resume-2024
+    title: "European Commission, Commission will proceed with paying €50 million to UNRWA..., 1 Mar 2024"
+    url: https://civil-protection-humanitarian-aid.ec.europa.eu/news-stories/news/commission-will-proceed-paying-eu50-million-unrwa-and-increase-emergency-support-palestinians-eu68-2024-03-01_en
+    document_class: primary_text
+    read: full
+    authenticity: {status: authenticated, strength: moderate, provenance: "European Commission site.", tests: ["Official-domain test [x]"], tested_by: "Strata session, 2026-10-07", gaps: [], checked: 2026-10-07}
+  - id: src-canada-unrwa-resume-2024
+    title: "Global Affairs Canada, Canada announces continued assistance for people in Gaza (lifts pause), 8 Mar 2024"
+    url: https://www.canada.ca/en/global-affairs/news/2024/03/canada-announces-continued-assistance-for-people-in-gaza.html
+    document_class: primary_text
+    read: full
+    authenticity: {status: authenticated, strength: moderate, provenance: "canada.ca.", tests: ["Official-domain test [x]"], tested_by: "Strata session, 2026-10-07", gaps: [], checked: 2026-10-07}
+  - id: src-se-unrwa-2024-06
+    title: "Swedish Government, The government pays out SEK 100 million to UNRWA, 27 Jun 2024 (records the SEK 200m disbursement of 9 Mar 2024)"
+    url: https://regeringen.se/pressmeddelanden/2024/06/regeringen-betalar-ut-hundra-miljoner-kronor-till-unrwa/
+    document_class: primary_text
+    read: "full (Swedish)"
+    authenticity: {status: authenticated, strength: moderate, provenance: "regeringen.se.", tests: ["Official-domain test [x]"], tested_by: "Strata session, 2026-10-07", gaps: ["The 9 Mar 2024 release itself was not opened."], checked: 2026-10-07}
+  - id: src-au-unrwa-resume-2024
+    title: "Australian Government, Funding to UNRWA and additional support to Gaza, 15 Mar 2024"
+    url: https://www.minister.defence.gov.au/media-releases/2024-03-15/funding-united-nations-relief-and-works-agency-and-additional-support-gaza
+    document_class: primary_text
+    read: full
+    authenticity: {status: authenticated, strength: moderate, provenance: "Joint ministerial release on minister.defence.gov.au.", tests: ["Official-domain test [x]"], tested_by: "Strata session, 2026-10-07", gaps: [], checked: 2026-10-07}
+  - id: src-jp-unrwa-resume-2024
+    title: "Japan MOFA, lifting of the suspension of contributions to UNRWA (release of 4 Apr 2024 citing the 2 Apr decision)"
+    url: https://www.mofa.go.jp/press/release/pressite_000001_00268.html
+    document_class: primary_text
+    read: full
+    authenticity: {status: authenticated, strength: moderate, provenance: "mofa.go.jp.", tests: ["Official-domain test [x]"], tested_by: "Strata session, 2026-10-07", gaps: [], checked: 2026-10-07}
+  - id: src-de-unrwa-resume-2024
+    title: "German Foreign Office and BMZ, Germany will shortly resume cooperation with UNRWA in Gaza, 24 Apr 2024"
+    url: https://www.auswaertiges-amt.de/en/newsroom/news/2654390-2654390
+    document_class: primary_text
+    read: full
+    authenticity: {status: authenticated, strength: moderate, provenance: "auswaertiges-amt.de.", tests: ["Official-domain test [x]"], tested_by: "Strata session, 2026-10-07", gaps: [], checked: 2026-10-07}
+  - id: src-uk-unrwa-resume-2024
+    title: "UK FCDO, UK to restart funding to UNRWA, 19 Jul 2024"
+    url: https://www.gov.uk/government/news/uk-to-restart-funding-to-unrwa
+    document_class: primary_text
+    read: full
+    authenticity: {status: authenticated, strength: moderate, provenance: "gov.uk.", tests: ["Official-domain test [x]"], tested_by: "Strata session, 2026-10-07", gaps: [], checked: 2026-10-07}
+  - id: src-colonna-2024
+    title: "Independent Review of Mechanisms and Procedures to Ensure Adherence by UNRWA to the Humanitarian Principle of Neutrality (Colonna review), 20 Apr 2024"
+    url: https://www.un.org/unispal/wp-content/uploads/2024/04/unrwa_independent_review_on_neutrality.pdf
+    document_class: primary_text
+    read: tool
+    authenticity: {status: authenticated, strength: moderate, provenance: "UNISPAL; UN Digital Library record 4044686 matches.", tests: ["Official-domain test; UNDL record matches [x]"], tested_by: "Strata session, 2026-10-07", gaps: ["The PDF was read through a summarizing tool (direct download refused)."], next_step: "Read the PDF directly and confirm the quoted sentence on supporting evidence.", checked: 2026-10-07}
+  - id: src-un-oios-2024-08-05
+    title: "UN, statement on the outcome of the OIOS investigation into UNRWA staff, 5 Aug 2024"
+    url: https://www.un.org/unispal/document/unrwa-investigation-statement-05aug24
+    document_class: primary_text
+    read: full
+    authenticity: {status: authenticated, strength: moderate, provenance: "UNISPAL.", tests: ["Official-domain test [x]"], tested_by: "Strata session, 2026-10-07", gaps: ["Only the outcome was published; the OIOS report and its evidence are not public."], checked: 2026-10-07}
+  - id: src-plaw-118-47
+    title: "Public Law 118-47, Further Consolidated Appropriations Act, 2024 (Div. G, Title III, Sec. 301 on UNRWA), enacted 23 Mar 2024"
+    url: https://www.govinfo.gov/content/pkg/PLAW-118publ47/html/PLAW-118publ47.htm
+    document_class: primary_text
+    read: "full (downloaded and searched)"
+    authenticity: {status: authenticated, strength: strong, provenance: "GPO govinfo, official text.", tests: ["Official-domain test [x]"], tested_by: "Strata session, 2026-10-07", gaps: [], checked: 2026-10-07}
+  - id: src-un-sg-letter-2024-12-09
+    title: "UN Secretary-General, letter to the General Assembly and Security Council quoting Israel's translations of the two UNRWA laws, 9 Dec 2024"
+    url: https://www.un.org/unispal/document/sg-letter-ga-sc-09dec24/
+    document_class: primary_text
+    read: full
+    authenticity: {status: authenticated, strength: moderate, provenance: "UNISPAL.", tests: ["Official-domain test [x]"], tested_by: "Strata session, 2026-10-07", gaps: ["knesset.gov.il refused this environment; the law texts are read as quoted in this letter."], next_step: "Read the laws on the Knesset site or in Reshumot.", checked: 2026-10-07}
+  - id: src-eo-14199-2025
+    title: "Executive Order 14199 (4 Feb 2025), Federal Register doc 2025-02504, Sec. 3(a) on UNRWA"
+    url: https://www.govinfo.gov/content/pkg/FR-2025-02-10/html/2025-02504.htm
+    document_class: primary_text
+    read: full
+    authenticity: {status: authenticated, strength: strong, provenance: "Federal Register via GPO govinfo.", tests: ["Official-domain test [x]"], tested_by: "Strata session, 2026-10-07", gaps: [], checked: 2026-10-07}
+  - id: src-riksdag-unrwa-2024
+    title: "Riksdag, interpellation 'Situationen efter UNRWA' (records Sweden's 20 Dec 2024 decision to end UNRWA funding)"
+    url: https://www.riksdagen.se/sv/dokument-och-lagar/dokument/interpellation/situationen-efter-unrwa_hc10305/
+    document_class: primary_text
+    read: "full (Swedish)"
+    authenticity: {status: authenticated, strength: moderate, provenance: "riksdagen.se.", tests: ["Official-domain test [x]"], tested_by: "Strata session, 2026-10-07", gaps: ["The government's own 20 Dec 2024 release was not opened."], checked: 2026-10-07}
+  - id: src-unispal-res-80-78
+    title: "UNISPAL record of A/RES/80/78 (UNRWA mandate to 30 Jun 2029), 5 Dec 2025, with voting record"
+    url: https://www.un.org/unispal/wp-json/wp/v2/document/314157
+    document_class: primary_text
+    read: full
+    authenticity: {status: authenticated, strength: moderate, provenance: "UNISPAL document API.", tests: ["Tally matches the UN meetings coverage of 5 Dec 2025 [x]"], tested_by: "Strata session, 2026-10-07", gaps: ["UN Digital Library voting page not readable from here."], checked: 2026-10-07}
+
+  # ---------------- Hamas finance, Iran, Qatar, crypto ----------------
+  - id: src-treasury-jy0798-2022
+    title: "US Treasury, Treasury Targets Secret Hamas Investment Network and Hamas Official Facilitating Iranian Support (JY-0798), 24 May 2022"
+    url: https://home.treasury.gov/news/press-releases/jy0798
+    document_class: primary_text
+    read: full
+    authenticity: {status: authenticated, strength: moderate, provenance: "Treasury press archive.", tests: ["Official-domain test [x]"], tested_by: "Strata session, 2026-10-07", gaps: ["Assertions only; no underlying documents published."], checked: 2026-10-07}
+  - id: src-state-crt-2023
+    title: "US State Department, Country Reports on Terrorism 2023 (FTO chapter, IRGC entry)"
+    url: https://www.state.gov/reports/country-reports-on-terrorism-2023/
+    document_class: primary_text
+    read: full
+    authenticity: {status: authenticated, strength: moderate, provenance: "state.gov.", tests: ["Official-domain test; same wording in CRT 2021 and 2022 [x]"], tested_by: "Strata session, 2026-10-07", gaps: ["No method or evidence is published for the figure."], checked: 2026-10-07}
+  - id: src-state-crt-2021
+    title: "US State Department, Country Reports on Terrorism 2021"
+    url: https://www.state.gov/reports/country-reports-on-terrorism-2021/
+    document_class: primary_text
+    read: full
+    authenticity: {status: authenticated, strength: moderate, provenance: "state.gov.", tests: ["Official-domain test [x]"], tested_by: "Strata session, 2026-10-07", gaps: [], checked: 2026-10-07}
+  - id: src-qatar-mofa-2020-03-24
+    title: "Qatar MOFA, Qatar starts providing assistance to Palestinians in Gaza ($150 million over six months), 24 Mar 2020"
+    url: https://mofa.gov.qa/en/qatar/latest-articles/latest-news/details/1441/07/29/qatar-starts-providing-assistance-to-palestinians-in-gaza-in-line-with-hh-the-amir's-directives
+    document_class: primary_text
+    read: full
+    authenticity: {status: authenticated, strength: moderate, provenance: "mofa.gov.qa.", tests: ["Official-domain test [x]"], tested_by: "Strata session, 2026-10-07", gaps: [], checked: 2026-10-07}
+  - id: src-qatar-mofa-2021-02-02
+    title: "Qatar MOFA, Hamas in Gaza Strip thanks HH the Amir for Qatar's support (the $360 million grant for 2021), 2 Feb 2021"
+    url: https://www.mofa.gov.qa/en/all-mofa-news/details/1442/06/20/hamas-in-gaza-strip-thanks-hh-the-amir-for-qatar's-generous-support-to-palestinian-people
+    document_class: primary_text
+    read: full
+    authenticity: {status: authenticated, strength: moderate, provenance: "mofa.gov.qa.", tests: ["Official-domain test; the grant was carried by QNA in Gulf Times on 31 Jan 2021 [x]"], tested_by: "Strata session, 2026-10-07", gaps: [], checked: 2026-10-07}
+  - id: src-qatar-mofa-2021-05-26
+    title: "Qatar MOFA, HH the Amir directs allocation of financial grant for the reconstruction of Gaza Strip ($500 million), 26 May 2021"
+    url: https://mofa.gov.qa/en/qatar/latest-articles/latest-news/details/1442/10/14/hh-the-amir-directs-allocation-of-financial-grant-for-the-reconstruction-of-gaza-strip
+    document_class: primary_text
+    read: full
+    authenticity: {status: authenticated, strength: moderate, provenance: "mofa.gov.qa.", tests: ["Official-domain test [x]"], tested_by: "Strata session, 2026-10-07", gaps: [], checked: 2026-10-07}
+  - id: src-arabnews-qatar-cash-2018
+    title: "Arab News / AFP, Netanyahu defends allowing Qatari cash into Gaza, 11 Nov 2018"
+    url: https://www.arabnews.pk/node/1402896
+    document_class: secondary (news)
+    read: full
+    authenticity: {status: not_applicable, basis: "News report; no Israeli government document on the 2018 approval was found."}
+  - id: src-doj-crypto-2020
+    title: "US DOJ, Global Disruption of Three Terror Finance Cyber-Enabled Campaigns, 13 Aug 2020"
+    url: https://www.justice.gov/opa/pr/global-disruption-three-terror-finance-cyber-enabled-campaigns
+    document_class: primary_text
+    read: tool
+    authenticity: {status: authenticated, strength: moderate, provenance: "justice.gov.", tests: ["Official-domain test [x]"], tested_by: "Strata session, 2026-10-07", gaps: ["Read through a summarizing tool (direct download refused)."], next_step: "Read directly and confirm the 150-account figure.", checked: 2026-10-07}
+  - id: src-doj-crypto-2025
+    title: "US Attorney's Office (D.C.), Justice Department Disrupts Hamas Terrorist Financing Scheme Through Seizure of Cryptocurrency, 27 Mar 2025"
+    url: https://www.justice.gov/usao-dc/pr/justice-department-disrupts-hamas-terrorist-financing-scheme-through-seizure
+    document_class: primary_text
+    read: tool
+    authenticity: {status: authenticated, strength: moderate, provenance: "justice.gov.", tests: ["Official-domain test [x]"], tested_by: "Strata session, 2026-10-07", gaps: ["Read through a summarizing tool."], next_step: "Read directly and confirm $201,400.", checked: 2026-10-07}
+  - id: src-theblock-crypto-2021
+    title: "The Block, Israeli counter-terror authority seizes 84 crypto addresses it says belong to Hamas, 7 Jul 2021 (with correction)"
+    url: https://www.theblock.co/post/110725/israeli-counterterror-authority-seizes-84-crypto-addresses-it-says-belong-to-hamas
+    document_class: secondary (news)
+    read: tool
+    authenticity: {status: not_applicable, basis: "News report; the NBCTF order page returned 404 and the site refused this environment."}
+
+  # ---------------- Settler sanctions ----------------
+  - id: src-eo-14115
+    title: "Executive Order 14115 (1 Feb 2024), Federal Register doc 2024-02354, 89 FR 7605"
+    url: https://www.govinfo.gov/content/pkg/FR-2024-02-05/html/2024-02354.htm
+    document_class: primary_text
+    read: full
+    authenticity: {status: authenticated, strength: strong, provenance: "Federal Register via govinfo.", tests: ["Official-domain test [x]"], tested_by: "Strata session, 2026-10-07", gaps: [], checked: 2026-10-07}
+  - id: src-eo-14148
+    title: "Executive Order 14148 (20 Jan 2025), Initial Rescissions of Harmful Executive Orders and Actions, Federal Register doc 2025-01901, Sec. 2(hhh)"
+    url: https://www.govinfo.gov/content/pkg/FR-2025-01-28/html/2025-01901.htm
+    document_class: primary_text
+    read: full
+    authenticity: {status: authenticated, strength: strong, provenance: "Federal Register via govinfo.", tests: ["Official-domain test [x]"], tested_by: "Strata session, 2026-10-07", gaps: [], checked: 2026-10-07}
+  - id: src-ofac-20250124
+    title: "OFAC Recent Actions, 24 Jan 2025 (removal of all persons designated under E.O. 14115)"
+    url: https://ofac.treasury.gov/recent-actions/20250124
+    document_class: primary_text
+    read: full
+    authenticity: {status: authenticated, strength: strong, provenance: "ofac.treasury.gov; Federal Register notice 2025-01888 matches.", tests: ["Official-domain test [x]"], tested_by: "Strata session, 2026-10-07", gaps: [], checked: 2026-10-07}
+  - id: src-ofac-eo14115-actions
+    title: "OFAC Recent Actions pages for E.O. 14115 designations (1 Feb, 14 Mar, 19 Apr, 6 Jun, 14 Jun, 11 Jul, 28 Aug, 1 Oct, 18 Nov 2024)"
+    url: https://ofac.treasury.gov/recent-actions/20241118
+    document_class: primary_text
+    read: "full (each dated page ofac.treasury.gov/recent-actions/YYYYMMDD)"
+    authenticity: {status: authenticated, strength: strong, provenance: "ofac.treasury.gov.", tests: ["Official-domain test [x]"], tested_by: "Strata session, 2026-10-07", gaps: [], checked: 2026-10-07}
+  - id: src-uk-settlers-2024-02
+    title: "UK FCDO, UK sanctions extremist settlers in the West Bank, 12 Feb 2024"
+    url: https://www.gov.uk/government/news/uk-sanctions-extremist-settlers-in-the-west-bank
+    document_class: primary_text
+    read: full
+    authenticity: {status: authenticated, strength: moderate, provenance: "gov.uk.", tests: ["Official-domain test [x]"], tested_by: "Strata session, 2026-10-07", gaps: [], checked: 2026-10-07}
+  - id: src-uk-settlers-2024-10
+    title: "UK FCDO, New UK sanctions target illegal outposts and organisations supporting extremist Israeli settlers in the West Bank (incl. Amana), 15 Oct 2024"
+    url: https://www.gov.uk/government/news/new-uk-sanctions-target-illegal-outposts-and-organisations-supporting-extremist-israeli-settlers-in-the-west-bank
+    document_class: primary_text
+    read: full
+    authenticity: {status: authenticated, strength: moderate, provenance: "gov.uk.", tests: ["Official-domain test [x]"], tested_by: "Strata session, 2026-10-07", gaps: [], checked: 2026-10-07}
+  - id: src-uk-ministers-2025-06
+    title: "UK FCDO, UK and partners unite to sanction ministers inciting West Bank violence, 10 Jun 2025"
+    url: https://www.gov.uk/government/news/uk-and-partners-unite-to-sanction-ministers-inciting-west-bank-violence
+    document_class: primary_text
+    read: full
+    authenticity: {status: authenticated, strength: moderate, provenance: "gov.uk.", tests: ["Official-domain test; matches Canada's SOR/2025-137 additions [x]"], tested_by: "Strata session, 2026-10-07", gaps: [], checked: 2026-10-07}
+  - id: src-uk-settlers-2026-06
+    title: "UK FCDO, UK and allies sanction networks enabling settler violence in the West Bank, 9 Jun 2026"
+    url: https://www.gov.uk/government/news/uk-and-allies-sanction-networks-enabling-settler-violence-in-the-west-bank
+    document_class: primary_text
+    read: full
+    authenticity: {status: authenticated, strength: moderate, provenance: "gov.uk.", tests: ["Official-domain test [x]"], tested_by: "Strata session, 2026-10-07", gaps: [], checked: 2026-10-07}
+  - id: src-canada-sor-2024-91
+    title: "Canada, Special Economic Measures (Extremist Settler Violence) Regulations, SOR/2024-91, consolidated text current to 21 Sep 2026, with point-in-time versions"
+    url: https://laws-lois.justice.gc.ca/eng/regulations/SOR-2024-91/FullText.html
+    document_class: primary_text
+    read: full
+    authenticity: {status: authenticated, strength: strong, provenance: "Justice Laws website (official consolidation).", tests: ["Official-domain test; amendment numbers match the Gazette [x]"], tested_by: "Strata session, 2026-10-07", gaps: [], checked: 2026-10-07}
+  - id: src-eu-2024-1172
+    title: "Council Implementing Regulation (EU) 2024/1172 (settler listings), 19 Apr 2024"
+    url: https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=OJ:L_202401172
+    document_class: primary_text
+    read: full
+    authenticity: {status: authenticated, strength: strong, provenance: "EUR-Lex Official Journal.", tests: ["Official-domain test [x]"], tested_by: "Strata session, 2026-10-07", gaps: ["Later EU acts not checked."], checked: 2026-10-07}
+  - id: src-eu-2024-1960
+    title: "Council Implementing Regulation (EU) 2024/1960 (settler listings), 15 Jul 2024"
+    url: https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=OJ:L_202401960
+    document_class: primary_text
+    read: full
+    authenticity: {status: authenticated, strength: strong, provenance: "EUR-Lex Official Journal.", tests: ["Official-domain test [x]"], tested_by: "Strata session, 2026-10-07", gaps: [], checked: 2026-10-07}
+
+  # ---------------- US aid to Israel ----------------
+  - id: src-crs-rl33222-2025
+    title: "Congressional Research Service, RL33222, U.S. Foreign Aid to Israel: Overview and Developments since October 7, 2023 (updated 28 May 2025), EveryCRSReport mirror"
+    url: https://www.everycrsreport.com/reports/RL33222.html
+    document_class: secondary (government research service, third-party mirror)
+    read: full
+    copy_of: "https://crsreports.congress.gov/product/pdf/RL/RL33222"
+    compared_with_holder_copy: no
+    authenticity: {status: authenticated, strength: weak, provenance: "Third-party mirror; the official host refused this environment.", tests: ["The FY2024 figure ($8.7 billion) matches the enacted law src-plaw-118-50 [x]"], tested_by: "Strata session, 2026-10-07", gaps: ["Not compared with the official copy."], next_step: "Open on crsreports.congress.gov from a browser.", checked: 2026-10-07}
+  - id: src-plaw-118-50
+    title: "Public Law 118-50, Division A (Israel Security Supplemental Appropriations Act, 2024), enacted 24 Apr 2024"
+    url: https://www.govinfo.gov/content/pkg/PLAW-118publ50/html/PLAW-118publ50.htm
+    document_class: primary_text
+    read: full
+    authenticity: {status: authenticated, strength: strong, provenance: "GPO govinfo.", tests: ["Official-domain test [x]"], tested_by: "Strata session, 2026-10-07", gaps: ["Division A was not summed in full."], checked: 2026-10-07}
+
+  # ---------------- UN votes, vetoes, recognition ----------------
+  - id: src-voeten-unvotes-v33
+    title: "Voeten, Strezhnev and Bailey, United Nations General Assembly Voting Data, Harvard Dataverse doi:10.7910/DVN/LEJUQZ, version 33 (UNVotes-1.RData; last vote 4 Jun 2024)"
+    url: https://dataverse.harvard.edu/api/access/datafile/10295576
+    document_class: dataset (academic compilation of official roll calls)
+    read: "full (downloaded; sha256 987f89d810542158c1e843b645daa20efd063ca2d3578c9bd4a30e1659f14168; processed by data/analyze.py under data/SELECTION_RULE.md)"
+    sha256: 987f89d810542158c1e843b645daa20efd063ca2d3578c9bd4a30e1659f14168
+    authenticity: {status: authenticated, strength: moderate, provenance: "Harvard Dataverse, deposited by the authors.", tests: ["Agrees with the un-project.org compilation on 4,235 of 4,236 overlapping country votes [x]", "Landmark tallies match UN Digital Library records 4025940 and 4088073 [x]"], tested_by: "Strata session, 2026-10-07", gaps: ["A dataset built from official records; per N13 it is the same origin as the UN record, not independent corroboration. Five data defects were corrected in analyze.py (listed in log L-03)."], checked: 2026-10-07}
+  - id: src-unproject-votes
+    title: "un-project.org, per-country General Assembly and Security Council votes (API), used for 2024-2025 and landmark votes"
+    url: https://un-project.org/votes/resolution/A-RES-ES-10-21/
+    document_class: dataset (third-party compilation)
+    read: "full (JSON downloaded for the 12 countries)"
+    authenticity: {status: authenticated, strength: weak, provenance: "Independent third-party aggregator of UN records.", tests: ["Agreement with Voeten on 4,235 of 4,236 overlapping votes [x]"], tested_by: "Strata session, 2026-10-07", gaps: ["The UN Digital Library voting pages, the official source, could not be read from here; 2024-2025 rests on this compilation alone."], next_step: "Read the UN Digital Library voting record for each 2024-2025 resolution.", checked: 2026-10-07}
+  - id: src-undl-dec-80-506
+    title: "UN Digital Library, A/DEC/80/506 (endorsement of the New York Declaration), 12 Sep 2025"
+    url: https://digitallibrary.un.org/record/4088073
+    document_class: primary_text
+    read: tool
+    authenticity: {status: authenticated, strength: moderate, provenance: "UN Digital Library.", tests: ["Symbol, date and tally match UN meetings coverage [x]"], tested_by: "Strata session, 2026-10-07", gaps: ["The page read shows the tally only, not each country's vote."], checked: 2026-10-07}
+  - id: src-dppa-vetoes
+    title: "UN Department of Political and Peacebuilding Affairs, Security Council vetoes dataset (JSON)"
+    url: https://api.psdata.un.org/public/data/DPPA-SCVETOES/json
+    document_class: dataset (official)
+    read: "full (downloaded; filtered to Israel-Palestine drafts from 1993 in data/sc-vetoes-1993-2025.json)"
+    authenticity: {status: authenticated, strength: strong, provenance: "UN DPPA open data API, linked from the Dag Hammarskjöld Library veto guide.", tests: ["Draft symbols match meeting records S/PV.* [x]"], tested_by: "Strata session, 2026-10-07", gaps: ["Tallies were read from un-project.org copies of the meeting records; the 4 Jun 2025 tally is from a delegate's speech only."], checked: 2026-10-07}
+  - id: src-un-a-78-846
+    title: "UN document A/78/846-S/2024/283, annex listing states recognizing the State of Palestine (compiled by the Arab Group, OIC and Non-Aligned Movement)"
+    url: https://www.un.org/unispal/wp-content/uploads/2024/08/n2409767.pdf
+    document_class: primary_text (a letter circulated as a UN document; the list is the senders', not the Secretariat's)
+    read: "full (PDF downloaded, text extracted)"
+    authenticity: {status: authenticated, strength: moderate, provenance: "UNISPAL copy of a circulated UN document.", tests: ["Türkiye and Qatar dates match their own governments' records [x]"], tested_by: "Strata session, 2026-10-07", gaps: ["Iran's listed date (4 Feb 1988) predates the 15 Nov 1988 declaration; Egypt's date has no Egyptian source."], checked: 2026-10-07}
+  - id: src-ie-recognition-2024
+    title: "Government of Ireland, Ireland recognises the State of Palestine (announced 22 May, effective 28 May 2024)"
+    url: https://www.gov.ie/en/press-release/1b086-ireland-recognises-the-state-of-palestine
+    document_class: primary_text
+    read: tool
+    authenticity: {status: authenticated, strength: moderate, provenance: "gov.ie.", tests: ["Official-domain test; same date as Norway and Spain [x]"], tested_by: "Strata session, 2026-10-07", gaps: ["Read through a summarizing tool (direct download 403)."], checked: 2026-10-07}
+  - id: src-no-recognition-2024
+    title: "Government of Norway, Norway recognises Palestine today, 28 May 2024"
+    url: https://regjeringen.no/en/aktuelt/norway-recognises-palestine-today/id3040890
+    document_class: primary_text
+    read: tool
+    authenticity: {status: authenticated, strength: moderate, provenance: "regjeringen.no.", tests: ["Official-domain test [x]"], tested_by: "Strata session, 2026-10-07", gaps: ["Read through a summarizing tool."], checked: 2026-10-07}
+  - id: src-es-recognition-2024
+    title: "La Moncloa, Council of Ministers summary, 28 May 2024 (recognition of Palestine)"
+    url: https://www.lamoncloa.gob.es/consejodeministros/resumenes/Paginas/2024/280524-rueda-de-prensa-ministros.aspx
+    document_class: primary_text
+    read: "full (Spanish)"
+    authenticity: {status: authenticated, strength: moderate, provenance: "lamoncloa.gob.es.", tests: ["Official-domain test [x]"], tested_by: "Strata session, 2026-10-07", gaps: [], checked: 2026-10-07}
+  - id: src-uk-recognition-2025
+    title: "UK Prime Minister, statement on the recognition of Palestine, 21 Sep 2025"
+    url: https://www.gov.uk/government/speeches/pm-statement-on-the-recognition-of-palestine-21-september-2025
+    document_class: primary_text
+    read: full
+    authenticity: {status: authenticated, strength: moderate, provenance: "gov.uk.", tests: ["Official-domain test [x]"], tested_by: "Strata session, 2026-10-07", gaps: [], checked: 2026-10-07}
+  - id: src-ca-recognition-2025
+    title: "Prime Minister of Canada, statement on Canada's recognition of the State of Palestine, 21 Sep 2025"
+    url: https://www.pm.gc.ca/en/news/statements/2025/09/21/statement-prime-minister-carney-on-canada-recognition-state-palestine
+    document_class: primary_text
+    read: full
+    authenticity: {status: authenticated, strength: moderate, provenance: "pm.gc.ca.", tests: ["Official-domain test [x]"], tested_by: "Strata session, 2026-10-07", gaps: [], checked: 2026-10-07}
+  - id: src-fr-recognition-2025
+    title: "Élysée, President Macron at the UN two-state conference, 22 Sep 2025 (recognition by France)"
+    url: https://www.elysee.fr/emmanuel-macron/2025/09/22/80e-session-de-lassemblee-generale-des-nations-unies-a-new-york-premiere-journee
+    document_class: primary_text
+    read: "full (French)"
+    authenticity: {status: authenticated, strength: moderate, provenance: "elysee.fr; a diplomatie.gouv.fr explainer agrees.", tests: ["Two French government pages agree [x]"], tested_by: "Strata session, 2026-10-07", gaps: [], checked: 2026-10-07}
+  - id: src-tr-mfa-palestine
+    title: "Türkiye MFA, Türkiye's political relations with the Palestinian National Authority (recognition 15 Nov 1988)"
+    url: https://mfa.gov.tr/turkiye_s-political-relations-with-the-palestinian-national-authority.en.mfa
+    document_class: primary_text
+    read: tool
+    authenticity: {status: authenticated, strength: moderate, provenance: "mfa.gov.tr.", tests: ["Matches A/78/846 [x]"], tested_by: "Strata session, 2026-10-07", gaps: ["Read through a summarizing tool."], checked: 2026-10-07}
+  - id: src-qatar-a-43-971
+    title: "UN document A/43/971-S/20332, letter from Qatar transmitting its Council of Ministers statement of 16 Nov 1988"
+    url: https://www.un.org/unispal/document/auto-insert-184814
+    document_class: primary_text
+    read: tool
+    authenticity: {status: authenticated, strength: moderate, provenance: "UNISPAL.", tests: ["Matches A/78/846 [x]"], tested_by: "Strata session, 2026-10-07", gaps: ["Read through a summarizing tool."], checked: 2026-10-07}
+  - id: src-aa-regpk-2025-09-22
+    title: "Auswärtiges Amt, government press conference, 22 Sep 2025 (Germany: recognition one of the concluding steps)"
+    url: https://www.auswaertiges-amt.de/de/newsroom/regierungspressekonferenz-2736006
+    document_class: primary_text
+    read: tool
+    authenticity: {status: authenticated, strength: moderate, provenance: "auswaertiges-amt.de.", tests: ["Official-domain test [x]"], tested_by: "Strata session, 2026-10-07", gaps: ["Read through a summarizing tool; no 2026 German government statement found."], checked: 2026-10-07}

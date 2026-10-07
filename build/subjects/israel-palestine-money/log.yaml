@@ -1,0 +1,81 @@
+subject: israel-palestine-money
+# Append-only excavation log. Corrections are new entries; earlier entries are never edited.
+
+log:
+  - id: L-01
+    date: 2026-10-07
+    entry: >
+      Dig opened at the owner's request: a comprehensive dig on Israel and Palestine from the Arafat era
+      to today, "all details, money flows, everything that can be verified". OWNER DECISIONS, in order:
+      (1) follow the money first; (2) include who was behind money flowing in and out, and who was
+      politically tied or influenced; (3) not only a US view: all countries, and including groups that
+      fund nonprofits said to fund the fighting; (4) record not only whether something was illegal but
+      who decided it, since "politics drives much of this"; (5) connect to each country's voting record;
+      (6) some cases will tie into the planned Netanyahu profile; (7) the owner also raised capital flows
+      into film and media, "it's a web". Scope agreed for this pilot: about ten money and designation
+      cases from 1993 to today, plus the UN voting and recognition record of twelve countries (US,
+      Canada, UK, France, Germany, Ireland, Norway, Spain, Qatar, Türkiye, Iran, Egypt). Deferred and
+      filed as searched gaps: the influence ledger (campaign money, lobbying, FARA, university gifts),
+      state media and film funding, aid to the PA and Gaza, settlement funding. For the media thread the
+      owner was told it would be scoped to state budgets and filed transactions on every side, with a
+      selection rule written before reading amounts, and that nationality or religion is never treated
+      as a link (the "who funds Hollywood" framing is an antisemitic trope; see ipm-state-media-funding-gap).
+      Checked first (standing rule): no money or voting dig existed on any branch; the oct7-warnings dig
+      exists and is linked, not duplicated; the Netanyahu profile has not been started.
+  - id: L-02
+    date: 2026-10-07
+    entry: >
+      Research done in four parallel passes (charities; NGOs and UNRWA; sanctions and money; UN votes,
+      vetoes and recognition), each told to open sources directly, keep quotes under 15 words, and record
+      for every source whether it was read in full, through a summarizing fetch tool, or not at all.
+      Blocked in this environment: the UK Charity Commission's Interpal reports (archive.org and the UK
+      Government Web Archive), Israel's NBCTF list and Knesset site, state.gov's 2024 UNRWA statement,
+      the official CRS host, press.un.org and the UN Digital Library voting pages. Where blocked, the
+      claim says so and is held at secondary.
+  - id: L-03
+    date: 2026-10-07
+    entry: >
+      UN voting method. Selection rule written before results were seen (data/SELECTION_RULE.md): whole-
+      resolution General Assembly roll calls from 1993 with Voeten's Palestinian-conflict flag or a title
+      match on a fixed word list. 572 roll calls selected for 1993-2023 from Voeten version 33 (the current
+      Dataverse release no longer carries vote-level data; version 33 ends 4 Jun 2024). Five data defects
+      were corrected in data/analyze.py without changing the rule: blank flags before 2020, vote IDs
+      reused in 2023-2024, country codes written as names in 2019, Türkiye rows unlabelled from Sep 2023
+      (11 rows filled, all matching the second source), and duplicated votes. 2024-2025 counts come from
+      un-project.org only (title match only, so not exactly the same rule); it agrees with Voeten on
+      4,235 of 4,236 overlapping country votes. The one disagreement (Canada, A/RES/60/106, 2005) is open.
+  - id: L-04
+    date: 2026-10-07
+    entry: >
+      Heads of government are given beside every decision, as the owner asked, but almost all come from
+      general knowledge, not from a source read in this pass. Each is marked [HoG not sourced]. The
+      exception is the UK in January 2024, which the gov.uk page itself labels. Closing this is a
+      next step before the reversal count (ipm-reversals-and-government-change) can leave `proposed`.
+  - id: L-05
+    date: 2026-10-07
+    entry: >
+      Corrections made while drafting, before any review: the State Department's Iranian-support figure is
+      "up to $100 million annually", not "approximately"; Canada's General Assembly record shows no Yes
+      votes from 2012 to 2018 (first draft said to 2015); Germany's 2010 IHH ban concerned a separate
+      German association, not Turkey's IHH; Samidoun's designations name the PFLP, not Hamas. Not used as
+      fact because only memory supported it: the sponsor of the 18 Oct 2023 Security Council draft.
+  - id: L-06
+    date: 2026-10-07
+    entry: >
+      Status: pilot draft for the owner. Not yet run through an independent review (docs/REVIEW.md). No
+      review.yaml exists; the author does not write one. The subject has no taxonomy entry yet; that file
+      is owner-only. Suggested entry: area Politics and Government, extra areas Current Events and
+      Economics and Business; types "Is a widely shared claim true?" and "What did people know, and when?".
+  - id: L-07
+    date: 2026-10-07
+    entry: >
+      Check before hand-in (DIG_AGENT section 10). Re-opened twelve anchors directly and confirmed each
+      cited figure or phrase is in the document: DOJ HLF verdict ($12.4 million); Treasury JY-0798 (more
+      than $500 million); P.L. 118-50 ($1,200,000,000 for Iron Beam); E.O. 14148 Sec. 2(hhh) (revokes
+      E.O. 14115); OFAC 24 Jan 2025 (E.O. 14115 removals); UN 5 Aug 2024 ("may have been involved");
+      Canada SOR/2024-91 (Amana); nine-state statement, Auswärtiges Amt copy ("No substantial
+      information..."; the gov.ie copy returned a short redirect page this time); Qatar MOFA ($360
+      million); Treasury JS-672 (Interpal as a principal charity); P.L. 118-47 (until March 25, 2025);
+      State Department CRT 2023 ("up to $100 million annually"), confirmed in the copy saved during
+      research because state.gov returned a "Technical Difficulties" page on re-check. Not re-checked:
+      sources read only through a summarizing tool (marked in the manifest).

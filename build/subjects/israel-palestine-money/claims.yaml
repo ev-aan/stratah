@@ -1,0 +1,862 @@
+# israel-palestine-money: who paid, designated, sanctioned and voted, and when it changed (pilot, 1993-2026)
+# Opened 2026-10-07 at the owner's request (log L-01). Pilot scope: ten money/designation cases and the
+# UN voting and recognition record of twelve countries. Everything else is filed as searched gaps.
+#
+# How to read the extra fields used here (they add to, never replace, the schema fields):
+#   decisions: one entry per decision about a case. `decider` is the body that acted; `in_power` is the
+#     head of government on that date, from general knowledge unless a source is named ([HoG not
+#     sourced]); `evidence_published` says whether the evidence behind the decision is public.
+#   evidence_tier: the strongest kind of decision on record for the case, in this order:
+#     conviction > regulator_finding > designation > investigative_report > allegation.
+#     A designation is a legal and political act; its evidence is usually not public.
+#   Rule P5 (build/SCHEMA.md): timing beside money or a change of government shows timing only. It does
+#   not show cause unless a source documents the link. Rule P6/P11: motive is not assessed.
+# ---------------------------------------------------------------------------
+
+subject:
+  id: israel-palestine-money
+  title: "Israel-Palestine: who paid, designated, sanctioned and voted, and when it changed (pilot, 1993 to 2026)"
+
+headline: "Israel-Palestine money trail: of 10 reversals found, 2 came with a change of government"
+headline_claim: ipm-reversals-and-government-change
+headline_status: draft          # draft: the headline claim is proposed, not established
+search_summary: >
+  Who funded, designated, sanctioned and voted on Israel-Palestine since 1993, which governments disagreed, and whether reversals followed elections.
+url_slug: israel-palestine-money-trail
+dig_status: pilot_draft
+
+assessment:
+  question: "Who paid, designated, sanctioned and voted on what in the Israel-Palestine conflict since 1993, and do those decisions follow who is in power?"
+  answer: "partly"
+  headline: "Partly. Governments often disagree about the same group and rarely publish their evidence, but most reversals found here came within one government."
+  text: >
+    The pilot covers ten cases where money is said to have reached an armed party, or where a
+    government acted to stop it, plus the UN voting and recognition record of twelve countries.
+    Three things stand out. First, the strength of the record varies enormously. One case ended in
+    criminal convictions upheld on appeal (Holy Land Foundation, US, 2008 and 2011). Most of the
+    rest are designations: legal acts by a government whose evidence is classified or not
+    published. Second, governments disagree often and on the record. The US designated Interpal in
+    2003 while the UK charity regulator found no evidence to substantiate links; Israel designated
+    six Palestinian NGOs in 2021 while nine EU governments said they had received no substantial
+    information to justify changing policy; only Israel has designated Turkey's IHH; the UK and
+    Canada sanction Israeli ministers and settler groups the US does not, and kept settler
+    sanctions the US revoked. Third, on the user's question of whether politics drives it: of ten
+    reversals recorded in the pilot, two came with a change of government (the US settler
+    sanctions revoked on 20 January 2025; the UK's UNRWA funding restored in July 2024, which also
+    cited an independent review). The other eight happened within the same government, mostly
+    after an investigation, a review or new conditions. US Security Council vetoes run the other
+    way: 23 since 1993, cast under every US president of both parties in that period. This is a
+    small, non-random set of cases, so it does not settle the question; it shows how to test it.
+    Money totals (US aid, Qatari grants, Iranian support) are recorded as each government states
+    them; an "up to $100 million a year" Iranian figure is a US government estimate with no
+    published method.
+  key_points:
+    - "One case ended in convictions upheld on appeal (Holy Land Foundation); most others are designations whose evidence is not published."
+    - "Governments often disagree on the same group: US vs UK regulator (Interpal), Israel vs nine EU states (six NGOs), UK/Canada vs US (settlers)."
+    - "Of 10 reversals found, 2 came with a change of government; 8 came within one government, mostly after a review. US vetoes span both parties."
+  basis: [ipm-reversals-and-government-change, ipm-hlf-convicted, ipm-interpal-passed-money-to-hamas, ipm-six-ngos-pflp-arms, ipm-settler-sanctions-split, ipm-sc-vetoes]
+  rated_claim: ipm-reversals-and-government-change
+  would_settle: >
+    A larger, rule-selected set of reversals (every designation, delisting and funding pause by the
+    twelve countries since 1993, chosen by a written rule before reading outcomes), each coded for
+    change of government and for any published new evidence; and the release of the evidence behind
+    designations (court records, regulator reports, declassified files), which is what would let a
+    reader tell an evidence-led decision from a political one.
+
+divergence_note: >
+  What is commonly said: "this charity funds terrorists", or "these designations are political". What
+  the record shows: most designations rest on evidence the public cannot see, so neither statement can
+  usually be checked. Where evidence was tested in public (the Holy Land Foundation trial, the Dutch
+  government's own review of UAWC, the UN's internal investigation of UNRWA staff, the UK regulator's
+  Interpal inquiries), the results were specific and often narrower than either side's claim: a
+  conviction for about $12.4 million to Hamas-controlled committees; personal ties between UAWC staff
+  and the PFLP but no money flow found; nine UNRWA staff who "may have been involved" out of 19
+  investigated; and no substantiated Hamas link at Interpal by the UK regulator. The gap between a
+  designation and a tested finding is the product of this dig.
+
+leads_to:
+  - {subject: oct7-warnings, why: "Several funding decisions here (UNRWA pauses, Qatari transfers approved by Israel's security cabinet in 2018) bear on what governments knew and did before 7 October 2023."}
+  - {subject: netanyahu-profile, why: "Not yet dug. Decisions taken under Netanyahu governments that this dig records: the 2018 approval of Qatari cash into Gaza (reported), the 1997 Israeli designations of HLF and Interpal, and Samidoun's 2021 designation. The profile should cite these claims rather than copy them."}
+  - {subject: israel-palestine-influence, why: "Not yet dug: money aimed at the politics (FEC, lobbying disclosures, FARA, university foreign-gift filings, Canada's lobbyist registry). See ipm-influence-ledger-gap."}
+
+claims:
+
+  # =======================================================================
+  # CHARITIES AND NONPROFITS
+  # =======================================================================
+  - id: ipm-hlf-convicted
+    state: established
+    statement_kind: reported
+    statement: >
+      A US federal jury convicted the Holy Land Foundation and five of its leaders in November 2008
+      of giving material support to Hamas, and the Fifth Circuit affirmed in December 2011. The
+      Justice Department put the money at about $12.4 million, sent through zakat (charity)
+      committees in the West Bank and Gaza that the appeals court described as Hamas social institutions.
+    evidence_tier: conviction
+    evidence_class: primary_text
+    confidence: high
+    evidential_weight: 5
+    anchor_checked: primary
+    adoption_weight: 3
+    adoption_note: >
+      Widely cited in US terror-finance literature; also widely cited by critics as an example of a
+      prosecution resting partly on undesignated committees and on testimony by Israeli agents under
+      pseudonyms. Adoption is information, not evidence.
+    would_change_if: >
+      a later court vacated the convictions, or the trial record shows the $12.4 million figure
+      describes something other than transfers to the committees
+    decisions:
+      - {date: 2001-12-04, decider: "US Treasury OFAC (E.O. 13224)", what: "assets blocked; designated SDGT", evidence_published: "partly: fact sheet public, classified record reviewed only by the court", in_power: "US: George W. Bush, Republican [HoG not sourced]", sources: [src-treasury-po841-2001, src-whitehouse-2001-12-04]}
+      - {date: 2003-06-20, decider: "US Court of Appeals, D.C. Circuit", what: "designation upheld after in-camera review of classified evidence", evidence_published: "no (reviewed ex parte)", in_power: "Bush [HoG not sourced]", sources: [src-hlf-v-ashcroft-2003]}
+      - {date: 2008-11-24, decider: "federal jury, N.D. Texas (retrial after a 2007 mistrial)", what: "HLF and five leaders convicted", evidence_published: "yes, public trial (some witnesses under pseudonym)", in_power: "Bush [HoG not sourced]", sources: [src-doj-hlf-2008]}
+      - {date: 2011-12-07, decider: "US Court of Appeals, Fifth Circuit", what: "convictions affirmed", evidence_published: "yes, published opinion", in_power: "US: Barack Obama, Democrat [HoG not sourced]", sources: [src-el-mezain-2011]}
+      - {date: 1997-05-06, decider: "Israel, Defence (Emergency) Regulations 1945", what: "declared an unauthorized association", evidence_published: "no", in_power: "Israel: Benjamin Netanyahu, Likud [HoG not sourced]", sources: [src-opensanctions-il-mod]}
+    anchor:
+      type: primary_text
+      description: >
+        DOJ release of 24 Nov 2008 read in full (the verdict and the $12.4 million figure). Fifth
+        Circuit opinion in United States v. El-Mezain, 664 F.3d 467, read in its introduction,
+        background, evidence and conclusion sections: it affirmed the individual convictions, called the
+        zakat committees "Hamas social institutions", and accepted that none of the committees had
+        itself been designated, finding error in an OFAC witness's lay testimony on that point but not
+        reversing. The 2001 designation and the 2003 D.C. Circuit ruling were read in Treasury's release
+        and the court's opinion. The 1997 Israeli date rests on the OpenSanctions copy of Israel's list.
+      sources: [src-doj-hlf-2008, src-el-mezain-2011, src-treasury-po841-2001, src-hlf-v-ashcroft-2003, src-opensanctions-il-mod]
+      accessible: true
+    basis: >
+      The strongest case in the pilot because the evidence was tested at a public trial and on appeal.
+      Two limits travel with it: the money went to committees, not to Hamas's armed wing directly, and
+      the court accepted that link from evidence including testimony by Israeli security officers.
+      No government or regulator reached a different conclusion about HLF; the only divergence is the
+      first trial, which ended in a mistrial in 2007 (date not verified).
+
+  - id: ipm-interpal-passed-money-to-hamas
+    state: contested
+    statement_kind: judgment
+    statement: >
+      Interpal, a UK charity, passed money to Hamas.
+    evidence_tier: designation
+    evidence_class: interpretive
+    confidence: low
+    evidential_weight: 2
+    anchor_checked: secondary
+    adoption_weight: 2
+    adoption_note: >
+      Repeated in US government material since 2003; disputed by the UK regulator's findings as reported
+      to Parliament. Adoption is information, not evidence.
+    would_change_if: >
+      the Charity Commission's own 2003 and 2009 reports, once read, say something different from the
+      minister's and the NGO's accounts; or the US releases the evidence behind the 2003 designation;
+      or a court rules on the question
+    decisions:
+      - {date: 1997-05-06, decider: "Israel, Defence (Emergency) Regulations 1945", what: "declared an unauthorized association", evidence_published: "no", in_power: "Israel: Netanyahu, Likud [HoG not sourced]", sources: [src-opensanctions-il-mod]}
+      - {date: 2003-08-22, decider: "US Treasury OFAC (E.O. 13224)", what: "designated SDGT as 'a principal charity' hiding money flows to Hamas", evidence_published: "no; the release relies on unnamed 'reporting'", in_power: "US: George W. Bush, Republican [HoG not sourced]", sources: [src-treasury-js672-2003]}
+      - {date: 2003-09-24, decider: "UK Charity Commission", what: "closed its inquiry and lifted restrictions; a minister told the Lords it found no evidence to substantiate links to Hamas's political or militant activities", evidence_published: "report exists but was not opened here", in_power: "UK: Tony Blair, Labour [HoG not sourced]", sources: [src-hansard-lords-2003-10-06, src-cc-interpal-2003]}
+      - {date: 2008-07-07, decider: "Israel, Defense Minister Ehud Barak", what: "order against 36 Union of Good funds, reported to include Interpal", evidence_published: "no", in_power: "Israel: Ehud Olmert, Kadima [HoG not sourced]", sources: [src-ynet-union-of-good-2008]}
+      - {date: 2009-02-27, decider: "UK Charity Commission", what: "per an NGO summary: insufficient evidence that partners promoted terrorism; weak partner checks; told to leave the US-designated Union of Good", evidence_published: "report exists but was blocked here", in_power: "UK: Gordon Brown, Labour [HoG not sourced]", sources: [src-csn-interpal-2009, src-cc-interpal-2009]}
+    positions:
+      - label: "Yes"
+        holder: "US Treasury (2003); Israel (1997, 2008)"
+        ground: "Designations stating that Interpal hid money flows to Hamas; evidence not published."
+      - label: "No (not substantiated)"
+        holder: "UK Charity Commission (2003, and as summarized for 2009)"
+        ground: "Inquiries found no evidence to substantiate a Hamas link, while criticising partner checks."
+    disputed_by:
+      - {who: "UK Charity Commission", kind: institution, position: "No evidence found to substantiate links to Hamas's political or militant activities (2003, as reported to the House of Lords).", source_read: "Hansard, 6 Oct 2003 (read); the Commission's report itself blocked", via: src-hansard-lords-2003-10-06}
+    anchor:
+      type: primary_text
+      description: >
+        Treasury's 2003 release read in full: it calls Interpal a principal charity hiding money flows
+        to Hamas and rests on "reporting indicates". Hansard (Lords, 6 Oct 2003) read through the
+        official API: the minister's account of the Commission's 2003 finding. The Commission's own 2003
+        and 2009 reports were blocked; the 2009 findings are from an advocacy group's summary. Current
+        status checked in the OFAC list (still designated, entry 7917), the UK and EU lists (not
+        listed) and the charity register (still registered; income for 2024 was £55,167).
+      sources: [src-treasury-js672-2003, src-hansard-lords-2003-10-06, src-cc-interpal-2003, src-cc-interpal-2009, src-csn-interpal-2009, src-ofac-sdn-2026, src-uk-sanctions-list-2026, src-eu-consolidated-2026, src-cc-register-1040094]
+      accessible: true
+    basis: >
+      The clearest case in the pilot of a regulator reaching a different conclusion from a designating
+      government. The UK has never listed Interpal; the US has never delisted it. Neither side's
+      underlying evidence was read here: the US evidence is not public, and the Commission's reports
+      were blocked. Hence contested at low confidence, not settled either way.
+
+  - id: ipm-irfan-canada-hamas-support
+    state: established
+    statement_kind: reported
+    statement: >
+      Canada revoked IRFAN-Canada's charity status in 2011 and listed it as a terrorist entity in April
+      2014, stating it gave about $14.6 million in resources to organizations run by or linked to
+      Hamas between 2005 and 2009. The evidence behind the listing has not been published, and
+      IRFAN's court challenge was abandoned without a ruling on the merits.
+    evidence_tier: regulator_finding
+    evidence_class: primary_text
+    confidence: moderate
+    evidential_weight: 4
+    anchor_checked: primary
+    adoption_weight: 2
+    adoption_note: "Little public debate outside Canada. Adoption is information, not evidence."
+    would_change_if: "the CRA's 2011 revocation letter shows different grounds; or a court reviews the listing on its merits"
+    decisions:
+      - {date: 2004-12-30, decider: "Israel, Defence (Emergency) Regulations 1945", what: "declared an unauthorized association", evidence_published: "no", in_power: "Israel: Ariel Sharon, Likud [HoG not sourced]", sources: [src-opensanctions-il-mod]}
+      - {date: 2011-04-09, decider: "Canada Revenue Agency", what: "charity registration revoked, 'based in part' on support to Hamas", evidence_published: "summary only", in_power: "Canada: Stephen Harper, Conservative [HoG not sourced]", sources: [src-cra-irfan]}
+      - {date: 2014-04-24, decider: "Canada, Governor in Council (Criminal Code s.83.05)", what: "listed as a terrorist entity (SOR/2014-97)", evidence_published: "no", in_power: "Harper [HoG not sourced]", sources: [src-gazette-sor-2014-97, src-ps-listed-entities]}
+      - {date: 2019-08, decider: "IRFAN (applicant)", what: "abandoned its Federal Court judicial review; no merits ruling", evidence_published: "n/a", in_power: "Canada: Justin Trudeau, Liberal [HoG not sourced]", sources: [src-ps-qp-2019]}
+      - {date: 2024-06-07, decider: "Canada, statutory review", what: "listing maintained", evidence_published: "no", in_power: "Trudeau [HoG not sourced]", sources: [src-ps-listed-entities]}
+    anchor:
+      type: primary_text
+      description: >
+        Canada Gazette SOR/2014-97 read in full (the listing; no evidence given). Public Safety's list
+        page read in full (stated basis, the $14.6 million figure, review date 7 Jun 2024). CRA page and
+        the 2019 Question Period note read through a summarizing tool. Searched the OFAC, EU and UK
+        lists: IRFAN-Canada is on none of them.
+      sources: [src-gazette-sor-2014-97, src-ps-listed-entities, src-cra-irfan, src-ps-qp-2019, src-ofac-sdn-2026, src-eu-consolidated-2026, src-uk-sanctions-list-2026]
+      accessible: true
+    basis: >
+      Established as a record of what Canada decided and said, not as a finding that the money reached
+      Hamas: that statement rests on evidence that is not public. The listing was kept by governments of
+      both main parties (Conservative 2014, Liberal 2024).
+
+  - id: ipm-samidoun-designations
+    state: established
+    statement_kind: reported
+    statement: >
+      Samidoun was designated by Israel (February 2021) as a front for the PFLP abroad, banned in
+      Germany (November 2023, for incitement and propaganda rather than for money transfers), listed by
+      Canada (11 October 2024) and designated by the US (15 October 2024) as a fundraiser for the PFLP.
+      The EU and UK have not listed it. None of the four governments published its evidence.
+    evidence_tier: designation
+    evidence_class: primary_text
+    confidence: moderate
+    evidential_weight: 4
+    anchor_checked: primary
+    adoption_weight: 2
+    adoption_note: "Contested by the group and its supporters as a political designation. Adoption is information, not evidence."
+    would_change_if: "any of the four governments publishes the evidence, or a court reviews a designation on its merits"
+    decisions:
+      - {date: 2021-02-28, decider: "Israel, Defense Minister Benny Gantz", what: "designated a terrorist organization (order dated 21 Feb in the list copy)", evidence_published: "no", in_power: "Israel: Benjamin Netanyahu, Likud [HoG not sourced]", sources: [src-nbctf-samidoun-2021, src-opensanctions-il-mod]}
+      - {date: 2023-11-02, decider: "Germany, Federal Interior Ministry", what: "activity ban; Samidoun Deutschland dissolved", evidence_published: "reasons stated, not evidence", in_power: "Germany: Olaf Scholz, SPD [HoG not sourced]", sources: [src-bmi-samidoun-2023]}
+      - {date: 2024-10-11, decider: "Canada, Governor in Council (s.83.05)", what: "listed (SOR/2024-204)", evidence_published: "no; description relies on 'open sources'", in_power: "Canada: Justin Trudeau, Liberal [HoG not sourced]", sources: [src-gazette-sor-2024-204, src-ps-listed-entities]}
+      - {date: 2024-10-15, decider: "US Treasury OFAC (jointly with Canada)", what: "designated SDGT as 'a sham charity' raising money for the PFLP", evidence_published: "no", in_power: "US: Joe Biden, Democrat [HoG not sourced]", sources: [src-treasury-jy2646-2024]}
+    anchor:
+      type: primary_text
+      description: >
+        Treasury release (15 Oct 2024) and Canada Gazette SOR/2024-204 read in full. Israel's statement
+        and Germany's release read through a summarizing tool. EU and UK lists searched: no entry.
+      sources: [src-treasury-jy2646-2024, src-gazette-sor-2024-204, src-ps-listed-entities, src-nbctf-samidoun-2021, src-bmi-samidoun-2023, src-eu-consolidated-2026, src-uk-sanctions-list-2026]
+      accessible: true
+    basis: >
+      The armed group named here is the PFLP, not Hamas. Germany's reasons concern advocacy and
+      violence, so its ban is not a finding about money. Recorded as what each government did and said.
+
+  - id: ipm-ihh-designated-only-by-israel
+    state: established
+    statement_kind: search_result
+    statement: >
+      Among the governments checked, only Israel has designated Turkey's IHH (in 2008, as one of 36
+      Union of Good funds). Germany's 2010 ban, upheld in 2012, was of a separate Frankfurt
+      association with a similar name. The US, EU and UK lists checked on 5-7 October 2026 have no
+      IHH entry.
+    evidence_tier: designation
+    evidence_class: primary_text
+    confidence: moderate
+    evidential_weight: 3
+    anchor_checked: secondary
+    adoption_weight: 2
+    adoption_note: "IHH is widely described in Israeli and some US commentary as a Hamas supporter; Turkey treats it as a lawful foundation (official Turkish source not read). Adoption is information, not evidence."
+    would_change_if: "an official list shows another government designating IHH; or Israel's original order shows a different date or entity"
+    absence_anchor: false
+    decisions:
+      - {date: 2008-05-26, decider: "Israel, Defense Minister Ehud Barak (as reported)", what: "declared an unauthorized association (made public about 7 Jul 2008)", evidence_published: "no", in_power: "Israel: Ehud Olmert, Kadima [HoG not sourced]", sources: [src-opensanctions-il-mod, src-ynet-union-of-good-2008]}
+      - {date: 2010-06-23, decider: "Germany, Federal Interior Ministry", what: "banned IHH e.V., a separate German association, for donations to Hamas-linked Gaza associations", evidence_published: "tested in court", in_power: "Germany: Angela Merkel, CDU [HoG not sourced]", sources: [src-bverwg-ihh-2012]}
+      - {date: 2012-04-18, decider: "German Federal Administrative Court", what: "upheld the ban on IHH e.V.; funding of groups in Pakistan, Yemen, Sudan and Turkey did not meet the threshold", evidence_published: "yes (judgment)", in_power: "Merkel [HoG not sourced]", sources: [src-bverwg-ihh-2012]}
+    anchor:
+      type: dataset
+      description: >
+        OFAC SDN and alias files (5 Oct 2026), EU consolidated list (22 Sep 2026) and UK list (7 Oct
+        2026) downloaded and searched for IHH, Insani Yardim, Yardim and Hurriyetleri: no IHH entry.
+        The Israeli date rests on the OpenSanctions copy (not compared with the original). The German
+        court's press release was read in full in German.
+      sources: [src-ofac-sdn-2026, src-eu-consolidated-2026, src-uk-sanctions-list-2026, src-opensanctions-il-mod, src-bverwg-ihh-2012, src-ynet-union-of-good-2008]
+      accessible: true
+    basis: >
+      The "only Israel" half is a search result against three Western lists; other countries' lists
+      were not searched. Held at secondary because Israel's original record was not read.
+
+  # =======================================================================
+  # THE SIX PALESTINIAN NGOS
+  # =======================================================================
+  - id: ipm-six-ngos-pflp-arms
+    state: contested
+    statement_kind: judgment
+    statement: >
+      The six Palestinian NGOs Israel designated in October 2021 (Al-Haq, Addameer, DCI-Palestine,
+      Bisan, UAWC, UPWC) are arms of the PFLP that divert European aid money to it.
+    evidence_tier: designation
+    evidence_class: interpretive
+    confidence: low
+    evidential_weight: 2
+    anchor_checked: secondary
+    adoption_weight: 2
+    adoption_note: "Asserted by Israel's government; rejected by nine EU governments and many human-rights groups. Adoption is information, not evidence."
+    would_change_if: "Israel publishes the evidence, or a European government's review finds money moving to the PFLP"
+    decisions:
+      - {date: 2021-10-22, decider: "Israel, Defense Minister Benny Gantz (signing date 19 or 22 Oct not resolved)", what: "designated the six as terrorist organizations", evidence_published: "no", in_power: "Israel: Naftali Bennett, Yamina [HoG not sourced]", sources: [src-nbctf-six-ngos-2021, src-toi-six-ngos-2021]}
+      - {date: 2022-01-05, decider: "Netherlands, ministers De Bruijn and Knapen", what: "ended funding to UAWC after its own external review: no money flow to the PFLP and no PFLP control found, but 34 people with personal PFLP ties; Israel's material called not concrete enough", evidence_published: "letter public; review shared with MPs confidentially", in_power: "Netherlands: Mark Rutte, VVD [HoG not sourced]", sources: [src-nl-kamerstuk-23432-486]}
+      - {date: 2022-06-30, decider: "European Commission (reported)", what: "lifted its suspension of funding to Al-Haq after the anti-fraud office found no suspicion of irregularities", evidence_published: "not found", in_power: "n/a (Commission)", sources: [src-aljazeera-olaf-2022]}
+      - {date: 2022-07-12, decider: "Belgium, Denmark, France, Germany, Ireland, Italy, Netherlands, Spain, Sweden", what: "joint statement: no substantial information received from Israel that would justify changing policy", evidence_published: "n/a", in_power: "nine governments of differing parties", sources: [src-gov-ie-nine-states-2022, src-aa-nine-states-2022]}
+    positions:
+      - label: "Yes"
+        holder: "Israel's Defense Ministry (2021, 2022)"
+        ground: "Describes a covert PFLP network raising European money through deceit; evidence not published."
+      - label: "Not shown"
+        holder: "Nine EU governments (2022); the Netherlands' own review of UAWC"
+        ground: "No substantial information received; the Dutch review found personal ties but no money flow."
+    disputed_by:
+      - {who: "Nine EU member-state governments", kind: institution, position: "No substantial information received from Israel to justify reviewing policy.", source_read: "joint statement, two government copies read in full", via: src-gov-ie-nine-states-2022}
+    anchor:
+      type: primary_text
+      description: >
+        Dutch letter to parliament (Kamerstuk 23432-486) read in full in Dutch: the review found no
+        financial flows between UAWC and the PFLP and no PFLP control, and listed 34 people with PFLP
+        ties (28 board members, 12 holding posts in both at once). Nine-state statement read in two
+        government copies. Israel's announcement read through a summarizing tool; the signed
+        declaration was not found. The Commission's Al-Haq decision is known only from a news report.
+      sources: [src-nl-kamerstuk-23432-486, src-gov-ie-nine-states-2022, src-aa-nine-states-2022, src-nbctf-six-ngos-2021, src-toi-six-ngos-2021, src-aljazeera-olaf-2022]
+      accessible: true
+    basis: >
+      Contested at low confidence. The one review whose findings are public (the Dutch one) supports
+      neither the full Israeli claim nor a clean bill: personal ties, no money flow found.
+
+  # =======================================================================
+  # UNRWA
+  # =======================================================================
+  - id: ipm-unrwa-staff-involvement
+    state: established
+    statement_kind: reported
+    statement: >
+      After Israel alleged in January 2024 that UNRWA staff took part in the 7 October 2023 attack, the
+      UN's internal oversight office investigated 19 staff and reported in August 2024 that 9 "may have
+      been involved" (they were dismissed), 9 cases had insufficient evidence and 1 had none. The
+      evidence was not published.
+    evidence_tier: regulator_finding
+    evidence_class: primary_text
+    confidence: moderate
+    evidential_weight: 4
+    anchor_checked: primary
+    adoption_weight: 4
+    adoption_note: "Very widely reported, often in stronger forms on both sides (all of UNRWA implicated; or no evidence at all). Adoption is information, not evidence."
+    would_change_if: "the OIOS report or Israel's dossier is published; or a court or later inquiry reaches a different count"
+    decisions:
+      - {date: 2024-01-28, decider: "UN Secretary-General", what: "12 staff implicated by Israel: 9 identified and dismissed, 1 dead, 2 being clarified", evidence_published: "no (Israel's dossier not public)", in_power: "n/a", sources: [src-un-sg-unrwa-2024-01-28]}
+      - {date: 2024-04-20, decider: "Independent review led by Catherine Colonna", what: "found UNRWA's neutrality systems more developed than comparable bodies', with gaps; noted Israel had not yet provided evidence for a separate claim about staff membership of armed groups", evidence_published: "report public", in_power: "n/a", sources: [src-colonna-2024]}
+      - {date: 2024-08-05, decider: "UN Office of Internal Oversight Services", what: "of 19 staff: 9 may have been involved, 9 insufficient evidence, 1 no evidence", evidence_published: "outcome only", in_power: "n/a", sources: [src-un-oios-2024-08-05]}
+    anchor:
+      type: primary_text
+      description: >
+        UN statements of 28 Jan and 5 Aug 2024 read in full on UNISPAL. The Colonna review was read
+        through a summarizing tool (direct download refused); its sentence on missing Israeli evidence
+        concerns Israel's March 2024 claim about staff membership, not the 7 October allegations, which
+        it left to OIOS.
+      sources: [src-un-sg-unrwa-2024-01-28, src-un-oios-2024-08-05, src-colonna-2024]
+      accessible: true
+    basis: "Recorded as the UN's own finding. Two of the 19 had died; the statement does not say which group they fall in."
+
+  - id: ipm-unrwa-funding-reversals
+    state: established
+    statement_kind: reported
+    statement: >
+      In January 2024 the US, Canada, the UK, Germany, Japan, Australia and others paused new funding
+      to UNRWA; Norway did not. Between March and July 2024 the European Commission, Canada, Sweden,
+      Australia, Japan, Germany and the UK resumed. The US instead ended funding by law (March 2024)
+      and executive order (February 2025). Sweden resumed in March 2024 and then ended all funding in
+      December 2024. In December 2025 the General Assembly extended UNRWA's mandate to June 2029 by
+      151 to 10 (the US and Israel against).
+    evidence_class: primary_text
+    confidence: high
+    evidential_weight: 4
+    anchor_checked: primary
+    adoption_weight: 3
+    adoption_note: "Widely reported. Adoption is information, not evidence."
+    would_change_if: "an official record shows a different date or decision for any listed government"
+    decisions:
+      - {date: 2024-01-26, decider: "US State Department", what: "paused additional funding", evidence_published: "n/a", in_power: "US: Biden, Democrat [HoG not sourced]", sources: [src-us-unrwa-pause-2024]}
+      - {date: 2024-01-26, decider: "Canada, Minister Hussen", what: "paused", in_power: "Canada: Trudeau, Liberal [HoG not sourced]", sources: [src-canada-unrwa-pause-2024]}
+      - {date: 2024-01-27, decider: "UK FCDO", what: "paused", in_power: "UK: Rishi Sunak, Conservative (page labels the government)", sources: [src-uk-unrwa-pause-2024]}
+      - {date: 2024-01-27, decider: "Germany, AA and BMZ", what: "paused new approvals for Gaza", in_power: "Germany: Scholz, SPD [HoG not sourced]", sources: [src-de-unrwa-pause-2024]}
+      - {date: 2024-01-28, decider: "Japan MOFA", what: "suspended additional funding", in_power: "Japan: Fumio Kishida, LDP [HoG not sourced]", sources: [src-jp-unrwa-pause-2024]}
+      - {date: 2024-01-28, decider: "Norway", what: "did not pause", in_power: "Norway: Jonas Gahr Støre, Labour [HoG not sourced]", sources: [src-no-unrwa-2024]}
+      - {date: 2024-03-01, decider: "European Commission", what: "resumed: €50m with conditions (screening, audit)", in_power: "n/a", sources: [src-ec-unrwa-resume-2024]}
+      - {date: 2024-03-08, decider: "Canada", what: "lifted its pause", in_power: "Trudeau [HoG not sourced]", sources: [src-canada-unrwa-resume-2024]}
+      - {date: 2024-03-09, decider: "Sweden", what: "resumed: SEK 200m with conditions", in_power: "Sweden: Ulf Kristersson, Moderates [HoG not sourced]", sources: [src-se-unrwa-2024-06]}
+      - {date: 2024-03-15, decider: "Australia", what: "released the paused A$6m", in_power: "Australia: Anthony Albanese, Labor [HoG not sourced]", sources: [src-au-unrwa-resume-2024]}
+      - {date: 2024-03-23, decider: "US Congress and President (P.L. 118-47 Sec. 301)", what: "barred UNRWA funding through 25 Mar 2025", in_power: "Biden [HoG not sourced]", sources: [src-plaw-118-47]}
+      - {date: 2024-04-02, decider: "Japan", what: "lifted its suspension", in_power: "Kishida [HoG not sourced]", sources: [src-jp-unrwa-resume-2024]}
+      - {date: 2024-04-24, decider: "Germany", what: "will resume cooperation in Gaza", in_power: "Scholz [HoG not sourced]", sources: [src-de-unrwa-resume-2024]}
+      - {date: 2024-07-19, decider: "UK, Foreign Secretary Lammy", what: "restored £21m, citing the Colonna review", in_power: "UK: Keir Starmer, Labour (government changed 5 Jul 2024) [HoG not sourced]", sources: [src-uk-unrwa-resume-2024]}
+      - {date: 2024-10-28, decider: "Knesset", what: "two laws ending Israel's cooperation with UNRWA and its operations in Israeli sovereign territory (in force 30 Jan 2025)", in_power: "Israel: Netanyahu, Likud [HoG not sourced]", sources: [src-un-sg-letter-2024-12-09]}
+      - {date: 2024-12-20, decider: "Sweden", what: "ended all UNRWA funding", in_power: "Kristersson [HoG not sourced]", sources: [src-riksdag-unrwa-2024]}
+      - {date: 2025-02-04, decider: "US President (E.O. 14199 Sec. 3(a))", what: "no funds to UNRWA", in_power: "US: Donald Trump, Republican [HoG not sourced]", sources: [src-eo-14199-2025]}
+      - {date: 2025-12-05, decider: "UN General Assembly (A/RES/80/78)", what: "mandate extended to 30 Jun 2029, 151-10-14", in_power: "n/a", sources: [src-unispal-res-80-78]}
+    anchor:
+      type: primary_text
+      description: >
+        Each government's own statement read in full except the US (State Department page refused;
+        an AP-based news report read) and Sweden's two releases (the decisions are recorded in a later
+        government release and a Riksdag interpellation, both read). The US law and executive order read
+        on govinfo. The Knesset laws are read as quoted in the Secretary-General's letter of 9 Dec 2024.
+      sources: [src-canada-unrwa-pause-2024, src-uk-unrwa-pause-2024, src-de-unrwa-pause-2024, src-jp-unrwa-pause-2024, src-no-unrwa-2024, src-us-unrwa-pause-2024, src-ec-unrwa-resume-2024, src-canada-unrwa-resume-2024, src-se-unrwa-2024-06, src-au-unrwa-resume-2024, src-jp-unrwa-resume-2024, src-de-unrwa-resume-2024, src-uk-unrwa-resume-2024, src-plaw-118-47, src-eo-14199-2025, src-riksdag-unrwa-2024, src-un-sg-letter-2024-12-09, src-unispal-res-80-78, src-crs-if12863]
+      accessible: true
+    basis: >
+      Pause and resume dates for the Netherlands, Finland, Switzerland, Austria and Italy were found only
+      in news reports and are left out of the count. The US position ran through two administrations of
+      different parties without reversing: a Democratic pause, a law passed by a divided Congress, then a
+      Republican executive order.
+
+  # =======================================================================
+  # MONEY: HAMAS FINANCE, IRAN, QATAR, CRYPTO, US AID
+  # =======================================================================
+  - id: ipm-hamas-portfolio-estimate
+    state: established
+    statement_kind: reported
+    statement: >
+      On 24 May 2022 the US Treasury sanctioned four people and six companies in Sudan, Turkey, Saudi
+      Arabia, Algeria and the UAE as part of what it called Hamas's secret investment portfolio, which
+      it estimated held assets worth more than $500 million. That is Treasury's estimate of total
+      assets, not an amount seized; no supporting documents were published.
+    evidence_tier: designation
+    evidence_class: primary_text
+    confidence: moderate
+    evidential_weight: 3
+    anchor_checked: primary
+    adoption_weight: 3
+    adoption_note: "The $500 million figure is widely repeated, often without the word 'estimated'. Adoption is information, not evidence."
+    would_change_if: "company records or court filings in the named countries show different ownership or values"
+    decisions:
+      - {date: 2022-05-24, decider: "US Treasury OFAC", what: "designations", evidence_published: "no", in_power: "US: Biden, Democrat [HoG not sourced]", sources: [src-treasury-jy0798-2022]}
+    anchor:
+      type: primary_text
+      description: "Treasury release JY-0798 read in full: names, companies, the 'more than $500 million' estimate and the statement that funds came 'from Iran and Saudi Arabia' through one facilitator."
+      sources: [src-treasury-jy0798-2022]
+      accessible: true
+    basis: "Weight 3 because the figure is a single government's estimate with no published method."
+
+  - id: ipm-iran-support-estimate
+    state: established
+    statement_kind: reported
+    statement: >
+      The US State Department's Country Reports on Terrorism (2021, 2022 and 2023) say Iran provides
+      "up to $100 million annually" in combined support to Palestinian armed groups including Hamas,
+      Palestinian Islamic Jihad and the PFLP-GC. It is a US government estimate with no published
+      method; the same 2023 report says there is no evidence Iran knew in advance of 7 October.
+    evidence_tier: allegation
+    evidence_class: primary_text
+    confidence: moderate
+    evidential_weight: 2
+    anchor_checked: primary
+    adoption_weight: 3
+    adoption_note: "Often repeated as 'about $100 million a year' or higher figures from other sources. Adoption is information, not evidence."
+    would_change_if: "a published accounting (court record, captured ledger, Iranian budget line) gives a figure"
+    anchor:
+      type: primary_text
+      description: "CRT 2023 (FTO chapter, IRGC entry) and CRT 2021 read in full; wording 'up to', not 'approximately'. The Iran country chapters for 2019-2021 give no dollar figure."
+      sources: [src-state-crt-2023, src-state-crt-2021]
+      accessible: true
+    basis: >
+      Established only as what the State Department says. The weight of the figure itself is 2: one
+      government's estimate, no method, stated by a government in conflict with the payer.
+
+  - id: ipm-qatar-gaza-payments
+    state: established
+    statement_kind: reported
+    statement: >
+      Qatar's foreign ministry announced grants to Gaza including $150 million over six months (March
+      2020), a $360 million grant for 2021 for salaries, needy families and power stations (January
+      2021) and $500 million for reconstruction (May 2021). In 2018 Netanyahu publicly defended letting
+      Qatar bring $15 million into Gaza for salaries, approved, he said, by his security cabinet; no
+      Israeli government document on that approval was found.
+    evidence_class: primary_text
+    confidence: moderate
+    evidential_weight: 4
+    anchor_checked: primary
+    adoption_weight: 3
+    adoption_note: "Often described as 'Qatar funds Hamas' or as 'Netanyahu let cash into Gaza'; both compress a mix of humanitarian grants, salary payments and approvals. Adoption is information, not evidence."
+    would_change_if: "the Israeli cabinet decision is read; or Qatar Fund for Development disbursement records show different amounts"
+    decisions:
+      - {date: 2018-11-11, decider: "Israel, security cabinet (as described by the PM, reported)", what: "allowed $15m in Qatari cash into Gaza for salaries", evidence_published: "no document found", in_power: "Israel: Netanyahu, Likud (named in the report)", sources: [src-arabnews-qatar-cash-2018]}
+      - {date: 2020-03-24, decider: "Qatar (Emir's directive)", what: "$150m over six months", in_power: "Qatar: Emir Tamim bin Hamad Al Thani [HoG not sourced]", sources: [src-qatar-mofa-2020-03-24]}
+      - {date: 2021-01-31, decider: "Qatar", what: "$360m grant for 2021", in_power: "Tamim [HoG not sourced]", sources: [src-qatar-mofa-2021-02-02]}
+      - {date: 2021-05-26, decider: "Qatar", what: "$500m for reconstruction", in_power: "Tamim [HoG not sourced]", sources: [src-qatar-mofa-2021-05-26]}
+    anchor:
+      type: primary_text
+      description: "Three Qatar MOFA pages read in full. The 2018 Israeli approval is from an AFP report (read) quoting the prime minister; the often-cited figure of $30 million a month was not found in any official source."
+      sources: [src-qatar-mofa-2020-03-24, src-qatar-mofa-2021-02-02, src-qatar-mofa-2021-05-26, src-arabnews-qatar-cash-2018]
+      accessible: true
+    basis: "Ties into the planned Netanyahu profile and the oct7-warnings dig (see leads_to)."
+
+  - id: ipm-crypto-seizures
+    state: established
+    statement_kind: reported
+    statement: >
+      The US Justice Department announced in August 2020 the seizure of more than 300 cryptocurrency
+      accounts tied to al-Qassam Brigades (Hamas), al-Qaeda and ISIS, 150 of them al-Qassam's, and in
+      March 2025 the seizure of about $201,400 in stablecoins said to be meant for Hamas. A 2021 Israeli
+      order against 84 addresses is known only from news reports, which later said the funds were not
+      actually seized.
+    evidence_class: primary_text
+    confidence: moderate
+    evidential_weight: 3
+    anchor_checked: secondary
+    adoption_weight: 2
+    adoption_note: "Often cited as proof that crypto is a major Hamas funding channel; the sums recorded here are small and partly unstated. Adoption is information, not evidence."
+    would_change_if: "the forfeiture complaints or Israel's orders are read and give different figures"
+    anchor:
+      type: primary_text
+      description: "Both DOJ releases read through a summarizing tool (direct downloads refused). The Israeli order is from The Block (read through a summarizing tool), whose $7.7 million figure came from a private analytics firm."
+      sources: [src-doj-crypto-2020, src-doj-crypto-2025, src-theblock-crypto-2021]
+      accessible: true
+    basis: "Held at secondary until the DOJ pages and court filings are read directly."
+
+  - id: ipm-us-aid-to-israel
+    state: established
+    statement_kind: reported
+    statement: >
+      The Congressional Research Service (May 2025) puts total US aid to Israel at $174 billion in
+      current dollars. The 2016 memorandum of understanding pledged $38 billion for fiscal years 2019 to
+      2028 ($33 billion in military grants and $5 billion for missile defense), subject to yearly
+      appropriation. The April 2024 supplemental law gave Israel $8.7 billion more ($3.5 billion in
+      military grants, $4 billion for Iron Dome and David's Sling, $1.2 billion for Iron Beam).
+    evidence_class: primary_text
+    confidence: high
+    evidential_weight: 4
+    anchor_checked: primary
+    adoption_weight: 4
+    adoption_note: "Widely reported; figures are often quoted without saying they are not inflation-adjusted. Adoption is information, not evidence."
+    would_change_if: "the official CRS copy differs from the mirror; or later appropriations change the totals"
+    decisions:
+      - {date: 2024-04-24, decider: "US Congress and President (P.L. 118-50 Div. A)", what: "$8.7bn to Israel in three lines", in_power: "US: Biden, Democrat [HoG not sourced]", sources: [src-plaw-118-50]}
+    anchor:
+      type: primary_text
+      description: "P.L. 118-50 read on govinfo; the three lines add to $8.7 billion, matching CRS. CRS RL33222 read in a third-party mirror (official host refused), the source of the $174 billion and MOU figures."
+      sources: [src-plaw-118-50, src-crs-rl33222-2025]
+      accessible: true
+    basis: >
+      The enacted law anchors the 2024 figures directly; the cumulative and MOU figures rest on the CRS
+      mirror. The same law also carried humanitarian lines partly for Gaza and barred UNRWA funding.
+      Aid to Palestinians from the US, EU and Gulf states is not yet dug (ipm-palestinian-aid-gap).
+
+  # =======================================================================
+  # SANCTIONS ON SETTLERS
+  # =======================================================================
+  - id: ipm-settler-sanctions-split
+    state: established
+    statement_kind: reported
+    statement: >
+      The US sanctioned violent settlers and settler groups under Executive Order 14115 (1 February
+      2024), adding Amana, Hilltop Youth, Lehava and Hashomer Yosh among others by November 2024.
+      President Trump revoked the order on 20 January 2025 without giving a reason, and on 24 January
+      Treasury unblocked everyone listed under it, including a Palestinian armed group (Lions' Den).
+      The UK and Canada kept their own settler sanctions, extended them to Amana (Canada June 2024,
+      UK October 2024) and in June 2025 sanctioned Israeli ministers Ben-Gvir and Smotrich, whom the US
+      has not sanctioned.
+    evidence_tier: designation
+    evidence_class: primary_text
+    confidence: high
+    evidential_weight: 4
+    anchor_checked: primary
+    adoption_weight: 2
+    adoption_note: "Less widely known than the charity cases. Adoption is information, not evidence."
+    would_change_if: "an official list shows a different date, name or reinstatement"
+    decisions:
+      - {date: 2024-02-01, decider: "US President (E.O. 14115)", what: "settler-violence sanctions program created", evidence_published: "no per-person evidence", in_power: "US: Biden, Democrat [HoG not sourced]", sources: [src-eo-14115, src-ofac-eo14115-actions]}
+      - {date: 2024-02-12, decider: "UK, Foreign Secretary Cameron", what: "first settler sanctions", in_power: "UK: Sunak, Conservative [HoG not sourced]", sources: [src-uk-settlers-2024-02]}
+      - {date: 2024-04-19, decider: "EU Council (2024/1172)", what: "Lehava, Hilltop Youth and four people", in_power: "n/a", sources: [src-eu-2024-1172]}
+      - {date: 2024-06-26, decider: "Canada (SOR/2024-155)", what: "added Amana, Lehava, Hilltop Youth and others", in_power: "Canada: Trudeau, Liberal [HoG not sourced]", sources: [src-canada-sor-2024-91]}
+      - {date: 2024-07-15, decider: "EU Council (2024/1960)", what: "five people and three entities", in_power: "n/a", sources: [src-eu-2024-1960]}
+      - {date: 2024-10-15, decider: "UK, Foreign Secretary Lammy", what: "added Amana, Hashomer Yosh and others", in_power: "UK: Starmer, Labour [HoG not sourced]", sources: [src-uk-settlers-2024-10]}
+      - {date: 2024-11-18, decider: "US Treasury OFAC", what: "added Amana and a subsidiary", in_power: "Biden [HoG not sourced]", sources: [src-ofac-eo14115-actions]}
+      - {date: 2025-01-20, decider: "US President (E.O. 14148 Sec. 2(hhh))", what: "revoked E.O. 14115; no reason stated for this item", in_power: "US: Trump, Republican [HoG not sourced]", sources: [src-eo-14148]}
+      - {date: 2025-01-24, decider: "US Treasury OFAC", what: "unblocked everyone designated under E.O. 14115, including Lions' Den", in_power: "Trump [HoG not sourced]", sources: [src-ofac-20250124]}
+      - {date: 2025-06-10, decider: "UK with Australia, Canada, New Zealand and Norway", what: "sanctioned ministers Ben-Gvir and Smotrich", in_power: "UK: Starmer; Canada: Mark Carney, Liberal [HoG not sourced]", sources: [src-uk-ministers-2025-06, src-canada-sor-2024-91]}
+      - {date: 2026-06-09, decider: "UK and allies", what: "sanctioned a company and person the US had delisted", in_power: "Starmer [HoG not sourced]", sources: [src-uk-settlers-2026-06]}
+    anchor:
+      type: primary_text
+      description: >
+        E.O. 14115 and E.O. 14148 read on govinfo; OFAC's dated action pages read for every US addition
+        and the 24 Jan 2025 removal; four UK releases read via the gov.uk content API; Canada's
+        consolidated regulation and its point-in-time versions read; two EU acts read on EUR-Lex. The
+        current EU list was not checked for later settler listings.
+      sources: [src-eo-14115, src-eo-14148, src-ofac-20250124, src-ofac-eo14115-actions, src-uk-settlers-2024-02, src-uk-settlers-2024-10, src-uk-ministers-2025-06, src-uk-settlers-2026-06, src-canada-sor-2024-91, src-eu-2024-1172, src-eu-2024-1960]
+      accessible: true
+    basis: >
+      The clearest example in the pilot of a reversal that came with a change of government and no
+      stated new evidence. It is also the clearest case of allies diverging from the US afterwards.
+
+  # =======================================================================
+  # UN VOTES, VETOES AND RECOGNITION
+  # =======================================================================
+  - id: ipm-unga-voting-patterns
+    state: established
+    statement_kind: reported
+    statement: >
+      On 572 General Assembly roll calls about Palestine and the Middle East from 1993 to 2023
+      (selection rule in data/SELECTION_RULE.md), the US voted No on almost all (489 No, 16 Yes, 66
+      abstentions); Egypt, Qatar, Türkiye and Iran voted Yes on almost all; the UK, France, Germany,
+      Ireland, Norway and Spain mostly voted Yes or abstained. Canada is the one country of the twelve
+      whose pattern reversed twice: mostly Yes until 2003, mostly No from 2009 (no Yes votes at all from
+      2012 to 2018), and more Yes than No again in 2024 and 2025.
+    evidence_class: synthetic
+    confidence: moderate
+    evidential_weight: 3
+    anchor_checked: secondary
+    adoption_weight: 2
+    adoption_note: "Country voting records are rarely cited as a whole; single landmark votes are. Adoption is information, not evidence."
+    would_change_if: "the official UN voting records differ from the dataset for these resolutions; or a different written selection rule changes the pattern"
+    anchor:
+      type: dataset
+      description: >
+        Voeten UNGA voting data version 33 (sha256 recorded) processed by data/analyze.py under a
+        selection rule written before results were seen; output in data/unga-country-year-1993-2023.csv.
+        2024-2025 from un-project.org (data/unga-country-year-2024-2025-unproject.csv), which agrees with
+        Voeten on 4,235 of 4,236 overlapping votes; the one disagreement (Canada on A/RES/60/106, 2005)
+        is unresolved. Official UN Digital Library voting pages could not be read from here, so the
+        claim is held at secondary (rule P3).
+      sources: [src-voeten-unvotes-v33, src-unproject-votes]
+      accessible: true
+    basis: >
+      Canada's shifts and who governed: the move toward No began in 2004 to 2005 under Paul Martin
+      (Liberal) and deepened from 2006 under Stephen Harper (Conservative); it stayed mostly No for
+      eight years after Justin Trudeau (Liberal) took office in November 2015, and turned to more Yes
+      than No in 2024, after 7 October 2023 [HoG not sourced]. So Canada's change of government in 2015 did not
+      by itself change the votes. Synthetic (our computation), capped at weight 3 (rule P10).
+
+  - id: ipm-sc-vetoes
+    state: established
+    statement_kind: reported
+    statement: >
+      From 1993 to September 2025 there were 25 Security Council vetoes of draft resolutions on Israel
+      and Palestine: 23 by the United States, including Palestine's UN admission on 18 April 2024, and
+      2 by China and Russia jointly, both of US-drafted texts in October 2023 and March 2024. The US
+      vetoes were cast under each US president in that period, of both parties.
+    evidence_class: primary_text
+    confidence: moderate
+    evidential_weight: 4
+    anchor_checked: secondary
+    adoption_weight: 3
+    adoption_note: "The US veto pattern is widely cited; the China-Russia vetoes less so. Adoption is information, not evidence."
+    would_change_if: "the official meeting records give a different count or tally"
+    anchor:
+      type: dataset
+      description: >
+        UN DPPA veto dataset downloaded and filtered (data/sc-vetoes-1993-2025.json); tallies read from
+        un-project.org copies of the meeting records S/PV.*. The 4 Jun 2025 tally (14-1-0) is known only
+        from a delegate's speech. Presidents by date are from general knowledge [HoG not sourced]:
+        Clinton (1995, 1997), Bush (2001-2006), Obama (2011), Trump (2017-2018, 2025), Biden (2023-2024).
+      sources: [src-dppa-vetoes, src-unproject-votes]
+      accessible: true
+    basis: "Held at secondary until the meeting records are read on the UN's own site."
+
+  - id: ipm-recognition-dates
+    state: established
+    statement_kind: reported
+    statement: >
+      Of the twelve countries, Türkiye (15 November 1988), Qatar (16 November 1988), Egypt (18 November
+      1988) and Iran (date unresolved) recognized the State of Palestine in 1988; Ireland, Norway and
+      Spain on 28 May 2024; the UK and Canada on 21 September 2025; France on 22 September 2025.
+      Germany and the US had not recognized it as of the latest statements found.
+    evidence_class: primary_text
+    confidence: moderate
+    evidential_weight: 4
+    anchor_checked: primary
+    adoption_weight: 3
+    adoption_note: "Widely reported. Adoption is information, not evidence."
+    would_change_if: "an official record gives a different date; or Germany or the US announce recognition"
+    anchor:
+      type: primary_text
+      description: >
+        Recognition statements read on the UK, Canadian, Spanish and French government sites; Ireland,
+        Norway and Türkiye read through a summarizing tool; Qatar through its 1988 letter to the UN.
+        Egypt's and Iran's dates rest on a list circulated by the Arab Group, OIC and NAM (A/78/846),
+        which gives Iran 4 Feb 1988, before the 15 Nov 1988 declaration, so Iran's date is left open.
+        "Not recognized" for Germany and the US rests on the latest statements found plus votes, not on
+        a 2026 statement.
+      sources: [src-uk-recognition-2025, src-ca-recognition-2025, src-es-recognition-2024, src-fr-recognition-2025, src-ie-recognition-2024, src-no-recognition-2024, src-tr-mfa-palestine, src-qatar-a-43-971, src-un-a-78-846, src-aa-regpk-2025-09-22]
+      accessible: true
+    basis: "In 2024-2025 recognition came from governments of both left and right (Spain's Socialist-led government, the UK's Labour, Canada's Liberals, France's centrist president)."
+
+  # =======================================================================
+  # THE OWNER'S QUESTION: DOES POLITICS DRIVE IT?
+  # =======================================================================
+  - id: ipm-reversals-and-government-change
+    state: proposed
+    statement_kind: judgment
+    statement: >
+      In this pilot, decisions about funding and designations reversed mostly within the same
+      government after a review or new conditions, not after a change of government: of 10 reversals
+      recorded, 2 came with a change of government and 8 did not.
+    evidence_class: synthetic
+    confidence: provisional
+    evidential_weight: 2
+    anchor_checked: secondary
+    adoption_weight: 2
+    adoption_note: "The common view, expressed by the owner and widely, is that politics drives these decisions. This claim tests a narrow version of it. Adoption is information, not evidence."
+    would_change_if: >
+      a rule-selected, complete set of reversals by the twelve countries since 1993 gives a different
+      split; or reversals coded here as review-led turn out to have followed a change of minister or
+      coalition rather than of head of government
+    reversals_counted:
+      - {case: "US settler sanctions (E.O. 14115 revoked)", date: 2025-01-20, change_of_government: yes, stated_reason: "none for this item", claim: ipm-settler-sanctions-split}
+      - {case: "UK UNRWA funding restored", date: 2024-07-19, change_of_government: yes, stated_reason: "Colonna review and UNRWA action plan", claim: ipm-unrwa-funding-reversals}
+      - {case: "European Commission UNRWA funding resumed", date: 2024-03-01, change_of_government: no, stated_reason: "conditions: screening, audit", claim: ipm-unrwa-funding-reversals}
+      - {case: "Canada UNRWA pause lifted", date: 2024-03-08, change_of_government: no, stated_reason: "investigations under way, oversight, humanitarian need", claim: ipm-unrwa-funding-reversals}
+      - {case: "Sweden UNRWA resumed", date: 2024-03-09, change_of_government: no, stated_reason: "written UNRWA assurances", claim: ipm-unrwa-funding-reversals}
+      - {case: "Australia UNRWA resumed", date: 2024-03-15, change_of_government: no, stated_reason: "updated agreement with conditions", claim: ipm-unrwa-funding-reversals}
+      - {case: "Japan UNRWA resumed", date: 2024-04-02, change_of_government: no, stated_reason: "humanitarian situation; UNRWA governance measures", claim: ipm-unrwa-funding-reversals}
+      - {case: "Germany UNRWA resumed", date: 2024-04-24, change_of_government: no, stated_reason: "UNRWA's role; Colonna recommendations", claim: ipm-unrwa-funding-reversals}
+      - {case: "Sweden ended UNRWA funding", date: 2024-12-20, change_of_government: no, stated_reason: "'crisis of trust'; Israeli laws", claim: ipm-unrwa-funding-reversals}
+      - {case: "European Commission lifted Al-Haq suspension", date: 2022-06-30, change_of_government: no, stated_reason: "anti-fraud office found no irregularities (news report only)", claim: ipm-six-ngos-pflp-arms}
+    not_counted: >
+      Canada's General Assembly votes (a drift over years, not a single decision: see
+      ipm-unga-voting-patterns) and continuations that are not reversals (the Netherlands moving from a
+      suspension to ending UAWC funding; the US moving from a pause to a law to an executive order).
+    anchor:
+      type: synthetic
+      description: >
+        Our coding of the reversals recorded in the claims named in reversals_counted. A reversal is a
+        government undoing its own earlier decision on the same organization or program. Change of
+        government means a different head of government on the reversal date than on the original
+        decision date (heads of government from general knowledge except the UK in 2024, which the
+        gov.uk pages label).
+      sources: [src-eo-14148, src-ofac-20250124, src-uk-unrwa-pause-2024, src-uk-unrwa-resume-2024, src-ec-unrwa-resume-2024, src-canada-unrwa-resume-2024, src-se-unrwa-2024-06, src-au-unrwa-resume-2024, src-jp-unrwa-resume-2024, src-de-unrwa-resume-2024, src-riksdag-unrwa-2024, src-aljazeera-olaf-2022]
+      accessible: true
+    assumptions:
+      - {text: "The ten reversals found are not a biased sample of all reversals.", if_wrong: "They are not random: eight come from the single UNRWA episode of 2024. A complete, rule-selected list could split differently."}
+      - {text: "A government's stated reason is recorded as stated, not as its real motive.", if_wrong: "Rule P6/P11: motive is not assessed; the count says what changed and when, not why."}
+    alternatives:
+      - {text: "Politics drives these decisions, but through the same government reacting to domestic pressure, not through elections.", why_not_preferred: "Not testable from the public record collected here; it would need polling, parliamentary records and donor data by date."}
+    basis: >
+      Proposed and provisional: a computed count on a small, non-random set, eight of the ten from one
+      episode (UNRWA in 2024). It answers a narrow version of the owner's question and shows the method.
+      A second, separate test points the same way: US Security Council vetoes (ipm-sc-vetoes) were
+      cast under presidents of both parties. A third points the other way: designations almost never
+      come with published evidence, so for most of them one cannot tell from the record whether
+      evidence or politics drove the decision (ipm-designation-evidence-gap).
+
+  # =======================================================================
+  # SEARCHED GAPS: what the pilot did not reach
+  # =======================================================================
+  - id: ipm-designation-evidence-gap
+    state: searched_gap
+    statement_kind: search_result
+    statement: >
+      For most designations in this pilot, whether the decision followed evidence or politics cannot be
+      told from the public record, because the evidence was not published.
+    evidence_class: synthetic
+    confidence: provisional
+    evidential_weight: 1
+    anchor_checked: secondary
+    adoption_weight: 1
+    adoption_note: "Rarely stated. Adoption is information, not evidence."
+    would_change_if: "governments publish or courts release the evidence behind designations"
+    gap_type: structural
+    gap_reason: "Designation evidence is classified or withheld by law in the US, Canada and Israel; only court proceedings or declassification can release it, which this method cannot cause."
+    absence_anchor: true
+    anchor:
+      type: search-record
+      description: "Every designation release read for this pilot (US, Canada, Israel, Germany) was checked for published evidence; only the Holy Land Foundation trial, the German IHH e.V. judgment and the Dutch UAWC letter put evidence or findings in public."
+      sources: [src-treasury-js672-2003, src-treasury-jy2646-2024, src-gazette-sor-2014-97, src-gazette-sor-2024-204, src-nbctf-six-ngos-2021, src-el-mezain-2011, src-bverwg-ihh-2012, src-nl-kamerstuk-23432-486]
+      accessible: true
+
+  - id: ipm-influence-ledger-gap
+    state: searched_gap
+    statement_kind: search_result
+    statement: >
+      Money spent to influence governments' policy on the conflict (campaign money, lobbying,
+      registered foreign agents, foreign gifts to universities) is not yet dug.
+    evidence_class: synthetic
+    confidence: provisional
+    evidential_weight: 1
+    anchor_checked: "no"
+    adoption_weight: 3
+    adoption_note: "Much discussed, often with figures that are not sourced. Adoption is information, not evidence."
+    would_change_if: "the ledger is built"
+    next_step: >
+      Write the selection rule first (all groups on every side that file under each system, fixed before
+      reading amounts). Then pull: US FEC data (PACs and super PACs active on the issue, 2000-2026); US
+      Lobbying Disclosure Act filings naming Israel, Palestine, Gaza or UNRWA; FARA registrations for
+      Israel, Qatar, Saudi Arabia, the UAE, Türkiye and the PLO mission; Department of Education Section
+      117 foreign-gift data by country; Canada's Registry of Lobbyists and Elections Canada; UK
+      Electoral Commission donations. Rules P5 and P9 apply: timing beside a vote is context, never cause.
+    anchor:
+      type: search-record
+      description: "Not searched in this pilot; the scope was agreed with the owner on 2026-10-07 and deferred (log L-01)."
+      accessible: false
+
+  - id: ipm-state-media-funding-gap
+    state: searched_gap
+    statement_kind: search_result
+    statement: >
+      State spending on film, media and public diplomacy by the governments in this dig (for example
+      Israel's public-diplomacy budgets and film funds, Qatar's funding of Al Jazeera and the Doha Film
+      Institute, Saudi and Emirati sovereign-fund stakes in entertainment, Türkiye's TRT, Iran's Press
+      TV, Western media grants in the region) is not yet dug.
+    evidence_class: synthetic
+    confidence: provisional
+    evidential_weight: 1
+    anchor_checked: "no"
+    adoption_weight: 2
+    adoption_note: "Claims about who 'funds the media' circulate widely, often as conspiracy theories about Jews and Hollywood. This gap is scoped to state budgets and filed transactions only. Adoption is information, not evidence."
+    would_change_if: "the thread is dug"
+    next_step: >
+      Selection rule, written before reading amounts: only payments by a named government body or
+      state-owned fund, to a named recipient, shown in a budget, annual report, company registry, FARA
+      filing or court record; the same search for every government in the dig. A person's nationality,
+      religion or ancestry is never treated as a link to a government. Start with FARA filings by
+      Israel, Qatar, Saudi Arabia and the UAE for media and film-related contracts.
+    anchor:
+      type: search-record
+      description: "Raised by the owner on 2026-10-07 (log L-01); not searched in this pilot."
+      accessible: false
+
+  - id: ipm-palestinian-aid-gap
+    state: searched_gap
+    statement_kind: search_result
+    statement: >
+      Aid to the Palestinian Authority and to Gaza from the US, EU, Gulf states and others since 1993,
+      the PA's own budgets and the tax revenues Israel collects for the PA, are not yet dug.
+    evidence_class: synthetic
+    confidence: provisional
+    evidential_weight: 1
+    anchor_checked: "no"
+    adoption_weight: 2
+    adoption_note: "Adoption is information, not evidence."
+    would_change_if: "the thread is dug"
+    next_step: >
+      Pull OECD-DAC creditor reporting data for aid to the West Bank and Gaza by donor and year; PA
+      Ministry of Finance budget and execution reports; IMF and World Bank reports on clearance revenues
+      and deductions; US Taylor Force Act (2018) text and CRS reports on PA prisoner payments.
+    anchor:
+      type: search-record
+      description: "Deferred from this pilot (log L-01)."
+      accessible: false
+
+  - id: ipm-settlement-funding-gap
+    state: searched_gap
+    statement_kind: search_result
+    statement: >
+      Israeli state spending on settlements and tax-exempt donations from abroad to settlement groups
+      are not yet dug.
+    evidence_class: synthetic
+    confidence: provisional
+    evidential_weight: 1
+    anchor_checked: "no"
+    adoption_weight: 2
+    adoption_note: "Adoption is information, not evidence."
+    would_change_if: "the thread is dug"
+    next_step: >
+      Israeli state budget lines and Ministry of Finance reports; State Comptroller reports; US IRS Form
+      990 filings of US charities that grant to settlement organizations (selection by a written rule);
+      Canada CRA charity filings; Amana's own reports.
+    anchor:
+      type: search-record
+      description: "Deferred from this pilot (log L-01)."
+      accessible: false
