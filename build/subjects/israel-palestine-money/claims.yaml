@@ -795,23 +795,23 @@ claims:
     state: searched_gap
     statement_kind: search_result
     statement: >
-      State spending on film, media and public diplomacy by the governments in this dig (for example
-      Israel's public-diplomacy budgets and film funds, Qatar's funding of Al Jazeera and the Doha Film
-      Institute, Saudi and Emirati sovereign-fund stakes in entertainment, Türkiye's TRT, Iran's Press
-      TV, Western media grants in the region) is not yet dug.
+      Israel's government funds film, media and public diplomacy through its own budgets and laws (for
+      example its film funds and public-diplomacy programs). The amounts, recipients and years are not
+      yet recorded in this dig. The same thread covers the other governments in the dig: Qatar (Al
+      Jazeera, Doha Film Institute), Saudi Arabia and the UAE (sovereign-fund stakes in entertainment),
+      Türkiye (TRT), Iran (Press TV) and Western media grants in the region.
     evidence_class: synthetic
     confidence: provisional
     evidential_weight: 1
     anchor_checked: "no"
     adoption_weight: 2
-    adoption_note: "Claims about who 'funds the media' circulate widely, often as conspiracy theories about Jews and Hollywood. This gap is scoped to state budgets and filed transactions only. Adoption is information, not evidence."
-    would_change_if: "the thread is dug"
+    adoption_note: "Adoption is information, not evidence."
+    would_change_if: "the thread is dug and the budget and filing records are read"
     next_step: >
-      Selection rule, written before reading amounts: only payments by a named government body or
-      state-owned fund, to a named recipient, shown in a budget, annual report, company registry, FARA
-      filing or court record; the same search for every government in the dig. A person's nationality,
-      religion or ancestry is never treated as a link to a government. Start with FARA filings by
-      Israel, Qatar, Saudi Arabia and the UAE for media and film-related contracts.
+      Read Israel's film funding law and the yearly budgets and annual reports of its film funds and
+      public-diplomacy programs; record each payment by year, payer, recipient and amount. Then FARA
+      filings by Israel, Qatar, Saudi Arabia and the UAE for media and film contracts, and the budgets
+      and annual reports of the other governments' broadcasters and film bodies, by the same method.
     anchor:
       type: search-record
       description: "Raised by the owner on 2026-10-07 (log L-01); not searched in this pilot."
