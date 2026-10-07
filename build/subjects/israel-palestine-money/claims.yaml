@@ -868,6 +868,41 @@ claims:
       sources: [src-npr-stoic-2024, src-poulson-diaspora-2024]
       accessible: true
 
+  - id: ipm-israel-influencer-payment-chain
+    state: established
+    statement_kind: reported
+    statement: >
+      In the FARA filings read, Israel's government pays for influencer content through intermediaries,
+      not directly: the Israel Government Advertising Agency (LaPam) or Foreign Ministry pays Havas
+      Media Germany, which pays a US registered firm, which pays production staff and influencers.
+      Bridges Partners' Havas order of 16 Jun 2025, titled "Influencer Campaign", budgets $60,000 for June
+      2025 (initial payments for production and influencers) and $140,000 for July 2025 (5 to 6
+      influencers, about 25 to 30 posts); Bridges received $199,985 from Havas on 3 Jul 2025. Show Faith
+      by Works' staffing budget ($1,549,000 in total) includes a $50,000 Los Angeles "Hollywood
+      Coordinator" to book Christian celebrities and athletes for pro-Israel messaging and to use
+      Hollywood connections to build an October 7 experience trailer, and a $75,000 coordinator to
+      recruit pastors and evangelical influencers to write op-eds. No filing read names an individual
+      influencer or a per-post fee, and none shows payment through an investment fund.
+    evidence_class: primary_text
+    confidence: high
+    evidential_weight: 5
+    anchor_checked: primary
+    adoption_weight: 2
+    adoption_note: "Per-post figures circulate in news reports; they were not found in the filings read. Adoption is information, not evidence."
+    would_change_if: "later supplemental statements itemize payments to named influencers; or the order's later monthly lines differ"
+    anchor:
+      type: primary_text
+      description: >
+        Bridges Partners Exhibit B with the Havas order (16 Jun 2025) and registration statement read;
+        Show Faith by Works Exhibit B page 14 read as an image at high resolution (the salary column and
+        the $1,549,000 total); SKDKnickerbocker's services agreement ("testing the efficacy of using
+        influencers"); Davis Media's contractor agreement (weekly calls with the "Moovers" influencer
+        management team; paid through the Israeli firm L.D.R.S Group); Genesis 21's Exhibit B (proposed
+        content creation and influencer outreach, fees not yet set). Public Citizen's complaint that some
+        influencers should have registered themselves is a complaint, not a finding, and was not opened.
+      sources: [src-fara-7652-bridges-order, src-fara-7653-showfaith-budget, src-fara-7552-skdk-contract, src-fara-7662-davis-contract, src-fara-7631-genesis21, src-public-citizen-fara-complaint]
+      accessible: true
+
   - id: ipm-state-media-funding-gap
     state: searched_gap
     statement_kind: search_result

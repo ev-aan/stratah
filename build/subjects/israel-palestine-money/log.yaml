@@ -98,3 +98,10 @@ log:
       ipm-israel-us-media-fara (established, primary). Owner then asked how Israel funds US companies
       outside FARA; reported cases recorded as ipm-israel-non-fara-channels (contested, secondary).
       ipm-state-media-funding-gap narrowed to what remains.
+  - id: L-10
+    date: 2026-10-07
+    entry: >
+      Owner asked whether influencers are paid directly or through funds, then asked to add the answer to
+      the dig. Added ipm-israel-influencer-payment-chain (established, primary) and two timeline events.
+      Show Faith by Works' budget page was read as a high-resolution image because text extraction garbled
+      its figures; the "Hollywood" line is a $50,000 salary line, not a production budget.

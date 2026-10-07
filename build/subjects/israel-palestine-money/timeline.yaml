@@ -118,6 +118,8 @@ sources:
   src-fara-7553-targeted:      {title: "Targeted Communications Global FARA supplemental (to 31 Mar 2026)", url: "https://efile.fara.gov/docs/7553-Supplemental-Statement-20260630-2.pdf", authenticity: "authenticated, strong"}
   src-fara-7732-piro:          {title: "Piro, Inc. FARA Exhibit B with work order (30 Apr 2026)", url: "https://efile.fara.gov/docs/7732-Exhibit-AB-20260602-0.pdf", authenticity: "authenticated, strong"}
   src-npr-stoic-2024:          {title: "NPR, 5 Jun 2024 (STOIC campaign)", url: "https://www.kunc.org/npr-news/2024-06-05/how-israel-tried-to-use-ai-to-covertly-sway-americans-about-gaza", authenticity: "news report"}
+  src-fara-7652-bridges-order: {title: "Bridges Partners, Havas 'Influencer Campaign' order (16 Jun 2025)", url: "https://efile.fara.gov/docs/7652-Exhibit-AB-20250926-1.pdf", authenticity: "authenticated, strong"}
+  src-fara-7653-showfaith-budget: {title: "Show Faith by Works, staffing budget (Exhibit B p.14)", url: "https://efile.fara.gov/docs/7653-Exhibit-AB-20250927-1.pdf", authenticity: "authenticated, strong"}
 
 events:
   # ---------------- Panel A: 1993 to Sep 2023 ----------------
@@ -317,3 +319,9 @@ events:
   - {id: m07, panel: recent, lane: media, time: "2026-04-30T12:00:00Z", precision: day, kind: document, status: single, sources: [src-fara-7732-piro],
      label: "30 Apr 2026: Piro, Inc. contracted for $900,000, incl. $400,000 video production",
      detail: "For Israel's Government Advertising Agency via Havas; plus $100,000 dated 20 Jul 2026. Receipts not yet reported (FARA 7732)."}
+  - {id: m08, panel: recent, lane: media, time: "2025-06-16T00:00:00Z", end: "2025-07-31T23:59:00Z", precision: range, kind: document, status: single, sources: [src-fara-7652-bridges-order],
+     label: "Jun-Jul 2025: Bridges Partners 'Influencer Campaign', $200,000 budgeted",
+     detail: "Via Havas for LaPam: $60,000 June (initial payments for production and influencers), $140,000 July (5-6 influencers, 25-30 posts). $199,985 received 3 Jul 2025. Influencers not named (FARA 7652)."}
+  - {id: m09, panel: recent, lane: media, time: "2025-09-18T12:00:00Z", precision: day, kind: document, status: single, sources: [src-fara-7653-showfaith-budget],
+     label: "18 Sep 2025: Show Faith budget includes a $50,000 'Hollywood Coordinator'",
+     detail: "To book Christian celebrities and athletes for pro-Israel messaging and build an October 7 experience trailer; $75,000 for evangelical influencer and op-ed outreach; staffing total $1,549,000 (FARA 7653)."}

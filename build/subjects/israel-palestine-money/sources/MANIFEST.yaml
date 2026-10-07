@@ -651,3 +651,39 @@ sources:
     document_class: secondary (independent reporting citing primary documents)
     read: tool
     authenticity: {status: not_applicable, basis: "Secondary; the Knesset transcripts it cites were not opened."}
+  - id: src-fara-7652-bridges-order
+    title: "Bridges Partners LLC (FARA 7652): Havas order 'Influencer Campaign (USD)' dated 16 Jun 2025, in Exhibit B filed 26 Sep 2025"
+    url: https://efile.fara.gov/docs/7652-Exhibit-AB-20250926-1.pdf
+    document_class: primary_text
+    read: "full (PDF downloaded, text extracted)"
+    authenticity: {status: authenticated, strength: strong, provenance: "efile.fara.gov.", tests: ["Receipt of $199,985 on 3 Jul 2025 matches the registration statement [x]"], tested_by: "Strata session, 2026-10-07", gaps: ["Later monthly lines of the order not all read; influencers not named."], checked: 2026-10-07}
+  - id: src-fara-7653-showfaith-budget
+    title: "Show Faith by Works, LLC (FARA 7653): Exhibit B filed 27 Sep 2025, staffing budget table (page 14)"
+    url: https://efile.fara.gov/docs/7653-Exhibit-AB-20250927-1.pdf
+    document_class: primary_text
+    read: "full (page 14 rendered as an image and read at high resolution, because text extraction garbled the figures)"
+    authenticity: {status: authenticated, strength: strong, provenance: "efile.fara.gov.", tests: ["Official-domain test; registrant and dates match the supplemental statement [x]"], tested_by: "Strata session, 2026-10-07", gaps: [], checked: 2026-10-07}
+  - id: src-fara-7552-skdk-contract
+    title: "SKDKnickerbocker LLC (FARA 7552): Exhibit B with services agreement, filed 29 Aug 2025"
+    url: https://efile.fara.gov/docs/7552-Exhibit-AB-20250829-2.pdf
+    document_class: primary_text
+    read: full
+    authenticity: {status: authenticated, strength: strong, provenance: "efile.fara.gov.", tests: ["Official-domain test [x]"], tested_by: "Strata session, 2026-10-07", gaps: [], checked: 2026-10-07}
+  - id: src-fara-7662-davis-contract
+    title: "Davis Media NY LLC (FARA 7662): contractor agreement in Exhibit B filed 12 Oct 2025 (Moovers influencer management team)"
+    url: https://efile.fara.gov/docs/7662-Exhibit-AB-20251012-3.pdf
+    document_class: primary_text
+    read: full
+    authenticity: {status: authenticated, strength: strong, provenance: "efile.fara.gov.", tests: ["Official-domain test [x]"], tested_by: "Strata session, 2026-10-07", gaps: [], checked: 2026-10-07}
+  - id: src-fara-7631-genesis21
+    title: "Genesis 21 Consulting LLC (FARA 7631): Exhibit B filed 11 Aug 2025"
+    url: https://efile.fara.gov/docs/7631-Exhibit-AB-20250811-1.pdf
+    document_class: primary_text
+    read: full
+    authenticity: {status: authenticated, strength: strong, provenance: "efile.fara.gov.", tests: ["Official-domain test [x]"], tested_by: "Strata session, 2026-10-07", gaps: [], checked: 2026-10-07}
+  - id: src-public-citizen-fara-complaint
+    title: "Public Citizen, FARA complaint alleging US-based social media influencers are acting as agents of Israel"
+    url: https://www.citizen.org/article/fara-complaint-alleges-us-based-social-media-influencers-are-acting-as-agents-of-israel/
+    document_class: secondary (advocacy group's complaint)
+    read: snippet
+    authenticity: {status: not_applicable, basis: "A complaint, not a finding; the complaint text was not opened."}
