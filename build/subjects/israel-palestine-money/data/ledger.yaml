@@ -387,6 +387,44 @@ entities:
   ids:
     cra_bn: 119043891RR0001
     status: registered
+- id: external-donors
+  name: External donors to the PA (aggregate)
+  type: aggregate
+  country: multiple
+  note: IMF tables give totals, not every donor
+- id: eu
+  name: European Union
+  type: government
+  country: EU
+- id: gov-sa
+  name: Government of Saudi Arabia
+  type: government
+  country: SA
+- id: arab-league-states
+  name: Arab League states (Cairo 2001 / Beirut 2002 pledges)
+  type: aggregate
+  country: multiple
+- id: pa-off-budget
+  name: PA off-budget commercial holdings (PCSC)
+  type: government_holding
+  country: PS
+  note: Palestine Commercial Services Company; consolidated into the Palestine Investment Fund
+- id: pif
+  name: Palestine Investment Fund
+  type: government_fund
+  country: PS
+- id: arab-bank
+  name: Arab Bank PLC
+  type: bank
+  country: JO
+- id: hamas-controlled-charities
+  name: Hamas-controlled charities (as found by the Linde jury)
+  type: organization
+  country: PS
+- id: saudi-committee
+  name: Saudi Committee for the Support of the Intifada Al-Quds (as named in Linde)
+  type: government_committee
+  country: SA
 flows:
 - from: havas-de
   to: clock-tower-x
@@ -906,3 +944,521 @@ flows:
   kind: state_budget_spent
   status: filed
   source: src-obudget-israel
+- from: external-donors
+  to: pa
+  amount: 532000000
+  currency: USD
+  date: '2001'
+  kind: budget_support
+  status: filed
+  source: src-imf-2003-pa
+  note: External budget support, IMF table
+- from: external-donors
+  to: pa
+  amount: 467000000
+  currency: USD
+  date: '2002'
+  kind: budget_support
+  status: filed
+  source: src-imf-2003-pa
+  note: External budget support, IMF table
+- from: external-donors
+  to: pa
+  amount: 1764000000
+  currency: USD
+  date: '2008'
+  kind: budget_support
+  status: filed
+  source: src-imf-ahlc-reports
+  note: External budget support, IMF table
+- from: external-donors
+  to: pa
+  amount: 1355000000
+  currency: USD
+  date: '2009'
+  kind: budget_support
+  status: filed
+  source: src-imf-ahlc-reports
+  note: External budget support, IMF table
+- from: external-donors
+  to: pa
+  amount: 1147000000
+  currency: USD
+  date: '2010'
+  kind: budget_support
+  status: filed
+  source: src-imf-ahlc-reports
+  note: External budget support, IMF table
+- from: external-donors
+  to: pa
+  amount: 815000000
+  currency: USD
+  date: '2011'
+  kind: budget_support
+  status: filed
+  source: src-imf-ahlc-reports
+  note: External budget support, IMF table
+- from: external-donors
+  to: pa
+  amount: 774000000
+  currency: USD
+  date: '2012'
+  kind: budget_support
+  status: filed
+  source: src-imf-ahlc-reports
+  note: External budget support, IMF table
+- from: external-donors
+  to: pa
+  amount: 1255000000
+  currency: USD
+  date: '2013'
+  kind: budget_support
+  status: filed
+  source: src-imf-ahlc-reports
+  note: External budget support, IMF table
+- from: external-donors
+  to: pa
+  amount: 1027000000
+  currency: USD
+  date: '2014'
+  kind: budget_support
+  status: filed
+  source: src-imf-ahlc-reports
+  note: External budget support, IMF table
+- from: external-donors
+  to: pa
+  amount: 709000000
+  currency: USD
+  date: '2015'
+  kind: budget_support
+  status: filed
+  source: src-imf-ahlc-reports
+  note: External budget support, IMF table
+- from: external-donors
+  to: pa
+  amount: 2000000000
+  currency: USD
+  date: '1993-10-01'
+  kind: pledge
+  status: pledged
+  source: src-wb-2004-pa
+  note: 'Washington donors conference: "over US$2 billion" (World Bank)'
+- from: external-donors
+  to: pa
+  amount: 7400000000
+  currency: USD
+  date: '2007-12-17'
+  kind: pledge
+  status: pledged
+  source: src-paris-2007-statement
+  note: Paris conference, three years; a 2008 follow-up says $7.7bn
+- from: external-donors
+  to: pa
+  amount: 5400000000
+  currency: USD
+  date: '2014-10-12'
+  kind: pledge
+  status: pledged
+  source: src-cairo-2014-chair
+  note: Cairo Gaza reconstruction conference, about half for Gaza
+- from: gov-us
+  to: pa
+  amount: 414500000
+  currency: USD
+  date: '2008'
+  kind: aid_appropriation
+  status: filed
+  source: src-crs-rs22967
+  note: US aid to the Palestinians (not all to the PA itself); FY2015 a request
+- from: gov-us
+  to: pa
+  amount: 960000000
+  currency: USD
+  date: '2009'
+  kind: aid_appropriation
+  status: filed
+  source: src-crs-rs22967
+  note: US aid to the Palestinians (not all to the PA itself); FY2015 a request
+- from: gov-us
+  to: pa
+  amount: 500400000
+  currency: USD
+  date: '2010'
+  kind: aid_appropriation
+  status: filed
+  source: src-crs-rs22967
+  note: US aid to the Palestinians (not all to the PA itself); FY2015 a request
+- from: gov-us
+  to: pa
+  amount: 545700000
+  currency: USD
+  date: '2011'
+  kind: aid_appropriation
+  status: filed
+  source: src-crs-rs22967
+  note: US aid to the Palestinians (not all to the PA itself); FY2015 a request
+- from: gov-us
+  to: pa
+  amount: 495700000
+  currency: USD
+  date: '2012'
+  kind: aid_appropriation
+  status: filed
+  source: src-crs-rs22967
+  note: US aid to the Palestinians (not all to the PA itself); FY2015 a request
+- from: gov-us
+  to: pa
+  amount: 437200000
+  currency: USD
+  date: '2013'
+  kind: aid_appropriation
+  status: filed
+  source: src-crs-rs22967
+  note: US aid to the Palestinians (not all to the PA itself); FY2015 a request
+- from: gov-us
+  to: pa
+  amount: 440000000
+  currency: USD
+  date: '2014'
+  kind: aid_appropriation
+  status: filed
+  source: src-crs-rs22967
+  note: US aid to the Palestinians (not all to the PA itself); FY2015 a request
+- from: gov-us
+  to: pa
+  amount: 441000000
+  currency: USD
+  date: '2015'
+  kind: aid_appropriation
+  status: filed
+  source: src-crs-rs22967
+  note: US aid to the Palestinians (not all to the PA itself); FY2015 a request
+- from: eu
+  to: pa
+  amount: 2941000000
+  currency: EUR
+  date: '2007'
+  kind: aid
+  status: filed
+  source: src-eca-2013-pegase
+  end: '2012'
+  note: EU budget support 2007-2012; PEGASE direct support €939M of it (2008-2012)
+- from: gov-il
+  to: pa
+  amount: 2049000000
+  currency: USD
+  date: '2014'
+  kind: clearance_revenue_transfer
+  status: filed
+  source: src-imf-ahlc-reports
+  note: Taxes collected by Israel for the PA under the Paris Protocol, less 3% fee
+- from: gov-il
+  to: pa
+  amount: 2055000000
+  currency: USD
+  date: '2015'
+  kind: clearance_revenue_transfer
+  status: filed
+  source: src-imf-ahlc-reports
+  note: Withheld Dec 2014 - Mar 2015 after the PA joined the ICC; released April 2015
+- from: pa
+  to: pa-off-budget
+  amount: 897600000
+  currency: USD
+  date: '1995'
+  kind: diverted_revenue
+  status: estimate
+  source: src-imf-2003-pa
+  end: 2000-04
+  note: IMF estimate of revenue kept outside the budget (excise $590.6M + company profits $307M)
+- from: pa-off-budget
+  to: pif
+  amount: 633000000
+  currency: USD
+  date: '2003-01-01'
+  kind: consolidation
+  status: filed
+  source: src-imf-2003-pa
+  note: PIF assets valued $633M as of 1 Jan 2003 (IMF citing S&P); World Bank cites audited 2003 total assets $799M
+- from: arab-league-states
+  to: pa
+  amount: 45000000
+  currency: USD
+  date: '2001'
+  kind: monthly_pledge_paid
+  status: filed
+  source: src-imf-2003-pa
+  note: Cairo 2001 pledge of $45M a month, paid in full per IMF; Beirut 2002 $55M a month about half met
+- from: gov-sa
+  to: pa
+  amount: 120000000
+  currency: USD
+  date: 2013-01
+  kind: budget_support
+  status: filed
+  source: src-imf-ahlc-reports
+  end: 2013-06
+  note: First half of 2013 (World Bank/IMF)
+- from: gov-us
+  to: gov-il
+  amount: 3103400000
+  currency: USD
+  date: '1993'
+  kind: aid_appropriation
+  status: filed
+  source: src-crs-rl33222-2016
+  note: FMF + ESF + refugee aid, nominal (CRS table)
+- from: gov-us
+  to: gov-il
+  amount: 3097200000
+  currency: USD
+  date: '1994'
+  kind: aid_appropriation
+  status: filed
+  source: src-crs-rl33222-2016
+  note: FMF + ESF + refugee aid, nominal (CRS table)
+- from: gov-us
+  to: gov-il
+  amount: 3102400000
+  currency: USD
+  date: '1995'
+  kind: aid_appropriation
+  status: filed
+  source: src-crs-rl33222-2016
+  note: FMF + ESF + refugee aid, nominal (CRS table)
+- from: gov-us
+  to: gov-il
+  amount: 3144000000
+  currency: USD
+  date: '1996'
+  kind: aid_appropriation
+  status: filed
+  source: src-crs-rl33222-2016
+  note: FMF + ESF + refugee aid, nominal (CRS table)
+- from: gov-us
+  to: gov-il
+  amount: 3132100000
+  currency: USD
+  date: '1997'
+  kind: aid_appropriation
+  status: filed
+  source: src-crs-rl33222-2016
+  note: FMF + ESF + refugee aid, nominal (CRS table)
+- from: gov-us
+  to: gov-il
+  amount: 3080000000
+  currency: USD
+  date: '1998'
+  kind: aid_appropriation
+  status: filed
+  source: src-crs-rl33222-2016
+  note: FMF + ESF + refugee aid, nominal (CRS table)
+- from: gov-us
+  to: gov-il
+  amount: 3010000000
+  currency: USD
+  date: '1999'
+  kind: aid_appropriation
+  status: filed
+  source: src-crs-rl33222-2016
+  note: FMF + ESF + refugee aid, nominal (CRS table)
+- from: gov-us
+  to: gov-il
+  amount: 4131850000
+  currency: USD
+  date: '2000'
+  kind: aid_appropriation
+  status: filed
+  source: src-crs-rl33222-2016
+  note: FMF + ESF + refugee aid, nominal (CRS table)
+- from: gov-us
+  to: gov-il
+  amount: 2876050000
+  currency: USD
+  date: '2001'
+  kind: aid_appropriation
+  status: filed
+  source: src-crs-rl33222-2016
+  note: FMF + ESF + refugee aid, nominal (CRS table)
+- from: gov-us
+  to: gov-il
+  amount: 2850650000
+  currency: USD
+  date: '2002'
+  kind: aid_appropriation
+  status: filed
+  source: src-crs-rl33222-2016
+  note: FMF + ESF + refugee aid, nominal (CRS table)
+- from: gov-us
+  to: gov-il
+  amount: 3745150000
+  currency: USD
+  date: '2003'
+  kind: aid_appropriation
+  status: filed
+  source: src-crs-rl33222-2016
+  note: FMF + ESF + refugee aid, nominal (CRS table)
+- from: gov-us
+  to: gov-il
+  amount: 2687250000
+  currency: USD
+  date: '2004'
+  kind: aid_appropriation
+  status: filed
+  source: src-crs-rl33222-2016
+  note: FMF + ESF + refugee aid, nominal (CRS table)
+- from: gov-us
+  to: gov-il
+  amount: 2612150000
+  currency: USD
+  date: '2005'
+  kind: aid_appropriation
+  status: filed
+  source: src-crs-rl33222-2016
+  note: FMF + ESF + refugee aid, nominal (CRS table)
+- from: gov-us
+  to: gov-il
+  amount: 2534500000
+  currency: USD
+  date: '2006'
+  kind: aid_appropriation
+  status: filed
+  source: src-crs-rl33222-2016
+  note: FMF + ESF + refugee aid, nominal (CRS table)
+- from: gov-us
+  to: gov-il
+  amount: 2503150000
+  currency: USD
+  date: '2007'
+  kind: aid_appropriation
+  status: filed
+  source: src-crs-rl33222-2016
+  note: FMF + ESF + refugee aid, nominal (CRS table)
+- from: gov-us
+  to: gov-il
+  amount: 2423900000
+  currency: USD
+  date: '2008'
+  kind: aid_appropriation
+  status: filed
+  source: src-crs-rl33222-2016
+  note: FMF + ESF + refugee aid, nominal (CRS table)
+- from: gov-us
+  to: gov-il
+  amount: 2583900000
+  currency: USD
+  date: '2009'
+  kind: aid_appropriation
+  status: filed
+  source: src-crs-rl33222-2016
+  note: FMF + ESF + refugee aid, nominal (CRS table)
+- from: gov-us
+  to: gov-il
+  amount: 2803800000
+  currency: USD
+  date: '2010'
+  kind: aid_appropriation
+  status: filed
+  source: src-crs-rl33222-2016
+  note: FMF + ESF + refugee aid, nominal (CRS table)
+- from: gov-us
+  to: gov-il
+  amount: 3029220000
+  currency: USD
+  date: '2011'
+  kind: aid_appropriation
+  status: filed
+  source: src-crs-rl33222-2016
+  note: FMF + ESF + refugee aid, nominal (CRS table)
+- from: gov-us
+  to: gov-il
+  amount: 3098000000
+  currency: USD
+  date: '2012'
+  kind: aid_appropriation
+  status: filed
+  source: src-crs-rl33222-2016
+  note: FMF + ESF + refugee aid, nominal (CRS table)
+- from: gov-us
+  to: gov-il
+  amount: 2943234000
+  currency: USD
+  date: '2013'
+  kind: aid_appropriation
+  status: filed
+  source: src-crs-rl33222-2016
+  note: FMF + ESF + refugee aid, nominal (CRS table)
+- from: gov-us
+  to: gov-il
+  amount: 3115000000
+  currency: USD
+  date: '2014'
+  kind: aid_appropriation
+  status: filed
+  source: src-crs-rl33222-2016
+  note: FMF + ESF + refugee aid, nominal (CRS table)
+- from: gov-us
+  to: gov-il
+  amount: 3110000000
+  currency: USD
+  date: '2015'
+  kind: aid_appropriation
+  status: filed
+  source: src-crs-rl33222-2016
+  note: FMF + ESF + refugee aid, nominal (CRS table)
+- from: gov-us
+  to: gov-il
+  amount: 30000000000
+  currency: USD
+  date: '2007-08-16'
+  kind: mou_pledge
+  status: pledged
+  source: src-crs-rl33222-2016
+  end: '2018'
+  note: 2007 MOU, FY2009-2018
+- from: gov-us
+  to: gov-il
+  amount: 10000000000
+  currency: USD
+  date: '1992'
+  kind: loan_guarantee
+  status: guarantee
+  source: src-crs-rl33222-2006
+  end: '1997'
+  note: Reduced by $773.8M net for settlement spending; about $6.6B drawn
+- from: gov-qa
+  to: gaza-authorities
+  amount: 407000000
+  currency: USD
+  date: '2012-10-23'
+  kind: grant_announced
+  status: sources_differ
+  source: src-gaza-moi-2012
+  note: 'Gaza MOI: $254M; QNA: raised from $264M to $415M; later Qatar MOFA: $407M'
+- from: gov-qa
+  to: gaza-authorities
+  amount: 1000000000
+  currency: USD
+  date: '2014-10-12'
+  kind: pledge
+  status: pledged
+  source: src-qatar-mofa-2014-10-12
+- from: arab-bank
+  to: hamas-controlled-charities
+  amount: 32000000
+  currency: USD
+  date: '1999'
+  kind: jury_finding
+  status: verdict_vacated
+  source: src-linde-arab-bank-2015
+  end: '2004'
+  note: About $32M into 11 Hamas-controlled charities (about $15M from the Saudi Committee); verdict vacated 2018
+- from: hlf
+  to: hamas
+  amount: 156000000
+  currency: USD
+  date: '2004'
+  kind: civil_judgment
+  status: judgment
+  source: src-boim-2017
+  note: Boim civil judgment against defendants incl. HLF (amount is damages, not a transfer)

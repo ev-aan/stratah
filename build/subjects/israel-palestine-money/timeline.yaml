@@ -127,6 +127,16 @@ sources:
   src-cra-t3010:               {title: "CRA T3010 charity data (open.canada.ca)", url: "https://open.canada.ca/data/dataset/05b3abd0-e70f-4b3b-a9c5-acc436bd15b6", authenticity: "authenticated, strong"}
   src-cjn-charity-revocations: {title: "The CJN on CRA charity revocations", url: "https://thecjn.ca/?p=273674", authenticity: "news report"}
   src-obudget-israel:          {title: "Israel open budget: Settlement Division contracts", url: "https://next.obudget.org/i/budget/0004521315/2025", authenticity: "authenticated, moderate"}
+  src-wb-2004-pa:              {title: "World Bank report 28990-GZ (2004)", url: "https://unispal.un.org/pdfs/WB_28990GZ.pdf", authenticity: "authenticated, moderate"}
+  src-imf-2003-pa:             {title: "IMF 2003 report on PA finances", url: "https://www.imf.org/external/pubs/ft/med/2003/eng/wbg/wbg.pdf", authenticity: "authenticated, strong"}
+  src-imf-ahlc-reports:        {title: "IMF reports to the AHLC (UNISPAL copies)", url: "https://unispal.un.org/pdfs/IMF_ALCRpt180915.pdf", authenticity: "authenticated, moderate"}
+  src-paris-2007-statement:    {title: "Paris donors conference statement (Dec 2007)", url: "https://content.ecf.org.il/files/M00839_ParisConference2007FinalStatementEnglish.pdf", authenticity: "authenticated, weak (copy)"}
+  src-cairo-2014-chair:        {title: "Cairo conference chair's conclusions (Oct 2014)", url: "https://www.un.org/unispal/document/auto-insert-207357", authenticity: "authenticated, moderate"}
+  src-clinton-barak-1999:      {title: "Clinton-Barak joint statement (Jul 1999)", url: "https://www.govinfo.gov/content/pkg/PPP-1999-book2/html/PPP-1999-book2-doc-pg1252.htm", authenticity: "authenticated, strong"}
+  src-crs-rl33222-2016:        {title: "CRS RL33222 (2016, mirror)", url: "https://www.everycrsreport.com/files/20161222_RL33222_38d8a59f2caabdc9af8a6cdabfabb963ae8b63ae.pdf", authenticity: "authenticated, weak (mirror)"}
+  src-gaza-moi-2012:           {title: "Gaza Ministry of Interior (Oct 2012)", url: "https://www.moi.gov.ps/Home/Post/35547", authenticity: "authenticated, weak"}
+  src-linde-arab-bank-2015:    {title: "Linde v. Arab Bank, E.D.N.Y. (Apr 2015)", url: "https://www.govinfo.gov/content/pkg/USCOURTS-nyed-1_04-cv-02799/pdf/USCOURTS-nyed-1_04-cv-02799-21.pdf", authenticity: "authenticated, strong"}
+  src-sokolow-2016:            {title: "Sokolow v. PLO, 2d Cir. (Aug 2016)", url: "https://www.courtlistener.com/opinion/4252876/sokolow-v-palestine-liberation-organization/", authenticity: "authenticated, moderate"}
 
 events:
   # ---------------- Panel A: 1993 to Sep 2023 ----------------
@@ -348,3 +358,35 @@ events:
   - {id: s05, panel: recent, lane: settle, time: "2025-07-01T00:00:00Z", precision: year, kind: data, status: single, sources: [src-obudget-israel],
      label: "2025: Israel's ministry contracts with WZO Settlement Division reach NIS 244.2M",
      detail: "Up from NIS 84.8M in 2024 and 20.5M in 2021; ministry total spending NIS 508.4M in 2025. Not West-Bank-only."}
+
+  # ---------------- 1993-2016 money ----------------
+  - {id: p01, panel: years, lane: money, time: "1993-10-01T12:00:00Z", precision: day, kind: official, status: single, sources: [src-wb-2004-pa],
+     label: "1 Oct 1993: donors pledge over $2 billion to the new PA",
+     detail: "Washington donors conference (World Bank). Pledge, not disbursement."}
+  - {id: p02, panel: years, lane: money, time: "1995-01-01T00:00:00Z", end: "2000-04-30T23:59:00Z", precision: range, kind: analysis, status: single, sources: [src-imf-2003-pa],
+     label: "1995-2000: IMF estimates $897.6M of PA revenue kept outside the budget",
+     detail: "Mostly invested in PA-owned companies, later the Palestine Investment Fund ($633M on 1 Jan 2003). An IMF estimate."}
+  - {id: p03, panel: years, lane: money, time: "1999-07-19T12:00:00Z", precision: day, kind: official, status: single, sources: [src-clinton-barak-1999],
+     label: "19 Jul 1999: US to phase out economic aid to Israel, raise military aid to $2.4B",
+     detail: "Clinton-Barak statement; US aid ran about $2.4-3.1B a year 1993-2015 (CRS)."}
+  - {id: p04, panel: years, lane: money, time: "2006-02-19T12:00:00Z", end: "2007-06-30T23:59:00Z", precision: range, kind: official, status: single, sources: [src-imf-ahlc-reports],
+     label: "Feb 2006 - Jun 2007: Israel withholds PA tax revenues",
+     detail: "After the Hamas election win (IMF/World Bank reporting). Amount withheld not found in official records."}
+  - {id: p05, panel: years, lane: money, time: "2007-12-17T12:00:00Z", precision: day, kind: official, status: single, sources: [src-paris-2007-statement],
+     label: "17 Dec 2007: Paris donors pledge $7.4 billion to the PA",
+     detail: "Over three years. Also 16 Aug 2007: US-Israel MOU pledges $30 billion for FY2009-2018 (CRS)."}
+  - {id: p06, panel: years, lane: money, time: "2012-10-23T12:00:00Z", precision: day, kind: official, status: disputed, sources: [src-gaza-moi-2012],
+     label: "23 Oct 2012: Qatar's Emir visits Gaza; pledge figures differ ($254M-$415M)",
+     detail: "Gaza interior ministry $254M; Qatar's news agency $264M raised to $415M; later Qatar MOFA $407M."}
+  - {id: p07, panel: years, lane: charities, time: "2014-07-01T00:00:00Z", precision: year, kind: document, status: single, sources: [src-linde-arab-bank-2015],
+     label: "2014: jury finds Arab Bank knowingly served Hamas (civil case)",
+     detail: "About $32M to 11 Hamas-controlled charities 1999-2004 cited; verdict vacated on appeal in 2018."}
+  - {id: p08, panel: years, lane: money, time: "2014-10-12T12:00:00Z", precision: day, kind: official, status: single, sources: [src-cairo-2014-chair],
+     label: "12 Oct 2014: Cairo conference pledges about $5.4 billion, Qatar $1 billion",
+     detail: "Half for Gaza reconstruction; about 40% of Gaza pledges paid by March 2016 (World Bank)."}
+  - {id: p09, panel: years, lane: money, time: "2014-12-01T00:00:00Z", end: "2015-03-31T23:59:00Z", precision: range, kind: official, status: single, sources: [src-imf-ahlc-reports],
+     label: "Dec 2014 - Mar 2015: Israel withholds PA tax revenues after the PA joins the ICC",
+     detail: "Released April 2015. Clearance revenues were $2.05 billion in 2015."}
+  - {id: p10, panel: years, lane: charities, time: "2016-08-31T12:00:00Z", precision: day, kind: document, status: single, sources: [src-sokolow-2016],
+     label: "31 Aug 2016: $655.5M verdict against the PLO dismissed for lack of jurisdiction",
+     detail: "Sokolow v. PLO, Second Circuit."}

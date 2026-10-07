@@ -458,7 +458,7 @@ claims:
     would_change_if: "a published accounting (court record, captured ledger, Iranian budget line) gives a figure"
     anchor:
       type: primary_text
-      description: "CRT 2023 (FTO chapter, IRGC entry) and CRT 2021 read in full; wording 'up to', not 'approximately'. The Iran country chapters for 2019-2021 give no dollar figure."
+      description: "CRT 2023 (FTO chapter, IRGC entry) and CRT 2021 read in full; wording 'up to', not 'approximately'. The Iran country chapters for 2019-2021 give no dollar figure, and no report from 2004 to 2015 gives a dollar figure for Hamas or PIJ (copies read; state.gov originals blocked)."
       sources: [src-state-crt-2023, src-state-crt-2021]
       accessible: true
     basis: >
@@ -1069,6 +1069,113 @@ claims:
       type: dataset
       description: "next.obudget.org API queried (a civic mirror of Ministry of Finance data); Ministry of Finance books themselves returned 403. Peace Now report read in full as secondary."
       sources: [src-obudget-israel, src-peacenow-2026]
+      accessible: true
+
+  - id: ipm-pa-finances-1993-2015
+    state: established
+    statement_kind: reported
+    statement: >
+      From Oslo to 2015, the Palestinian Authority was funded mainly by donor aid and by taxes Israel
+      collects for it. Donors pledged over $2 billion in October 1993, $7.4 billion in Paris in December
+      2007 and about $5.4 billion in Cairo in October 2014. IMF tables show external budget support of
+      $1.76 billion in 2008, falling to $709 million in 2015. Clearance revenues collected by Israel under
+      the 1994 Paris Protocol reached $2.05 billion in 2014 and 2015; Israel withheld them in 2001, from
+      February 2006 to June 2007, in late 2012, and from December 2014 to March 2015 after the PA joined the
+      ICC. The IMF estimated in 2003 that revenue diverted outside the PA budget from 1995 to April 2000 may
+      have exceeded $898 million, mostly invested in PA-owned commercial companies later consolidated into
+      the Palestine Investment Fund (valued at $633 million on 1 Jan 2003).
+    evidence_class: primary_text
+    confidence: moderate
+    evidential_weight: 4
+    anchor_checked: primary
+    adoption_weight: 3
+    adoption_note: "The '$900 million' Arafat-era figure is widely cited, often as personal theft; the IMF describes revenue kept outside the budget and invested in PA-owned companies. Adoption is information, not evidence."
+    would_change_if: "IMF or World Bank originals differ from the UNISPAL copies; or the amounts withheld in each episode are found in official records"
+    anchor:
+      type: primary_text
+      description: >
+        IMF 2003 report read in full on imf.org (Table 5.2). World Bank report 28990-GZ and IMF reports to
+        the Ad Hoc Liaison Committee read in full as UNISPAL copies (imf.org originals return 404). Paris
+        2007 statement read in a third-party copy; Cairo 2014 chair's conclusions read through a summarizing
+        tool. The amounts withheld in each episode were not found in official records.
+      sources: [src-imf-2003-pa, src-wb-2004-pa, src-imf-ahlc-reports, src-paris-2007-statement, src-cairo-2014-chair, src-crs-rs22967, src-eca-2013-pegase]
+      accessible: true
+    basis: >
+      US aid to the Palestinians was $414.5 million to $960 million a year from FY2008 to FY2015 (CRS),
+      of which direct transfers to the PA totalled about $1.2 billion through 2013. EU budget support was
+      EUR 2.94 billion over 2007 to 2012, EUR 939 million of it through PEGASE (European Court of Auditors).
+      Arab states paid the 2001 Cairo pledge of $45 million a month in full; the 2002 Beirut pledge of $55
+      million a month was about half met (IMF).
+
+  - id: ipm-us-aid-israel-1993-2015
+    state: established
+    statement_kind: reported
+    statement: >
+      US aid appropriations to Israel ran at about $2.4 billion to $3.1 billion a year from 1993 to 2015
+      (military grants, economic aid until 2007 and refugee aid), peaking at $4.13 billion in 2000 with
+      $1.2 billion added for the Wye accords. Economic aid was phased out from 1999 to 2008 while military
+      grants rose, following the 1999 Clinton-Barak statement; a 2007 memorandum pledged $30 billion for
+      FY2009 to FY2018. The US also guaranteed $10 billion of Israeli borrowing from 1992, reduced by $773.8
+      million net for settlement spending, and $9 billion from 2003, reduced for settlement and barrier
+      spending.
+    evidence_class: primary_text
+    confidence: moderate
+    evidential_weight: 4
+    anchor_checked: secondary
+    adoption_weight: 3
+    adoption_note: "Adoption is information, not evidence."
+    would_change_if: "the official CRS copies or appropriation acts give different figures"
+    anchor:
+      type: primary_text
+      description: "CRS RL33222 (2016 and 2006 versions) read in full in a third-party mirror; the 1999 Clinton-Barak statement read on govinfo. Year-by-year totals are in data/ledger.yaml. Two CRS inconsistencies noted in the manifest."
+      sources: [src-crs-rl33222-2016, src-crs-rl33222-2006, src-clinton-barak-1999]
+      accessible: true
+
+  - id: ipm-civil-terror-finance-cases
+    state: established
+    statement_kind: reported
+    statement: >
+      Three US civil cases sought damages for terror financing. In Boim, a 2004 judgment of $156 million
+      against defendants including the Holy Land Foundation was affirmed in 2008. In Linde v. Arab Bank, a
+      2014 jury found the bank knowingly provided financial services to Hamas, citing about $32 million
+      sent to 11 Hamas-controlled charities between 1999 and 2004 (about $15 million from a Saudi
+      committee); the Second Circuit vacated the verdict in 2018. In Sokolow v. PLO, a 2015 verdict of $218.5
+      million, trebled to $655.5 million, was dismissed in 2016 for lack of jurisdiction.
+    evidence_class: primary_text
+    confidence: moderate
+    evidential_weight: 4
+    anchor_checked: secondary
+    adoption_weight: 2
+    adoption_note: "Adoption is information, not evidence."
+    would_change_if: "the 2018 Linde appeal or the Boim en banc opinion, once read, says something different"
+    anchor:
+      type: primary_text
+      description: "Linde district-court decision (8 Apr 2015) and Boim 2017 opinion read in full on govinfo; Sokolow appeal read through a summarizing tool; the 2018 Linde appeal known from a CRS Legal Sidebar."
+      sources: [src-linde-arab-bank-2015, src-crs-lsb10089, src-boim-2017, src-sokolow-2016]
+      accessible: true
+    basis: "Civil verdicts use a lower standard of proof than criminal convictions, and two of the three were vacated or dismissed. Recorded as what the courts did."
+
+  - id: ipm-qatar-gaza-2012-2014
+    state: contested
+    statement_kind: reported
+    statement: >
+      Qatar's Emir pledged money for Gaza projects during his October 2012 visit, but the official figures
+      differ: the Hamas-run Gaza interior ministry gave $254 million; Qatar's news agency said grants rose
+      from $264 million to $415 million; later Qatar foreign ministry items give $407 million. At the
+      October 2014 Cairo conference Qatar pledged $1 billion.
+    evidence_class: primary_text
+    confidence: moderate
+    evidential_weight: 3
+    anchor_checked: secondary
+    adoption_weight: 2
+    adoption_note: "Commonly reported as $400 million; that figure appears only in news headlines. Adoption is information, not evidence."
+    would_change_if: "a Qatar Fund for Development or Gaza Reconstruction Committee record gives the disbursed amount"
+    disputed_by:
+      - {who: "Gaza Ministry of Interior", kind: institution, position: "$254 million in Qatari projects (23 Oct 2012).", source_read: "tool summary", via: src-gaza-moi-2012}
+    anchor:
+      type: primary_text
+      description: "All three 2012 statements and the 2014 pledge read through a summarizing tool."
+      sources: [src-gaza-moi-2012, src-peninsula-2012, src-qatar-mofa-2014-10-12]
       accessible: true
 
   - id: ipm-state-media-funding-gap

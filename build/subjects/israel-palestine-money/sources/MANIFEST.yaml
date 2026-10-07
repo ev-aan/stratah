@@ -916,3 +916,252 @@ sources:
     authenticity:
       status: not_applicable
       basis: Advocacy group analysis; its totals were not checked against primary budget documents.
+
+  # ---------------- 1993-2015: PA finances, donor aid, US aid to Israel, civil terror-finance cases ----------------
+  - id: src-imf-2003-pa
+    title: 'IMF, West Bank and Gaza: Economic Performance and Reform under Conflict Conditions (Sept 2003), incl. Table 5.2 on revenue diverted outside the
+      budget 1995-2000'
+    url: https://www.imf.org/external/pubs/ft/med/2003/eng/wbg/wbg.pdf
+    document_class: primary_text
+    read: full
+    authenticity:
+      status: authenticated
+      strength: strong
+      provenance: imf.org.
+      tests:
+      - Official or institutional domain; figures consistent with at least one other report named in the dig [x]
+      tested_by: Strata session, 2026-10-07
+      gaps:
+      - The IMF calls the $897.6M an estimate ("may have exceeded").
+      checked: '2026-10-07'
+  - id: src-wb-2004-pa
+    title: 'World Bank, Report No. 28990-GZ (June 2004), PA public finances: PCSC holdings and Palestine Investment Fund 2003 statements'
+    url: https://unispal.un.org/pdfs/WB_28990GZ.pdf
+    document_class: primary_text
+    read: full
+    authenticity:
+      status: authenticated
+      strength: moderate
+      provenance: UNISPAL copy of a World Bank report.
+      tests:
+      - Official or institutional domain; figures consistent with at least one other report named in the dig [x]
+      tested_by: Strata session, 2026-10-07
+      gaps:
+      - Copy not compared with the World Bank file.
+      checked: '2026-10-07'
+  - id: src-imf-ahlc-reports
+    title: IMF reports to the Ad Hoc Liaison Committee (2011-2016), tables of external budget support and clearance revenue
+    url: https://unispal.un.org/pdfs/IMF_ALCRpt180915.pdf
+    document_class: primary_text
+    read: full (UNISPAL copies; imf.org originals return 404)
+    authenticity:
+      status: authenticated
+      strength: moderate
+      provenance: UNISPAL copies of IMF reports.
+      tests:
+      - Official or institutional domain; figures consistent with at least one other report named in the dig [x]
+      tested_by: Strata session, 2026-10-07
+      gaps:
+      - Not compared with IMF originals.
+      checked: '2026-10-07'
+  - id: src-paris-2007-statement
+    title: Paris donors conference for the Palestinian State, final statement (17 Dec 2007)
+    url: https://content.ecf.org.il/files/M00839_ParisConference2007FinalStatementEnglish.pdf
+    document_class: primary_text
+    read: full
+    authenticity:
+      status: authenticated
+      strength: weak
+      provenance: Third-party copy of the conference statement.
+      tests:
+      - Official or institutional domain; figures consistent with at least one other report named in the dig [x]
+      tested_by: Strata session, 2026-10-07
+      gaps:
+      - A July 2008 follow-up gives $7.7bn; not explained.
+      checked: '2026-10-07'
+  - id: src-cairo-2014-chair
+    title: 'Cairo Conference on Palestine: Reconstructing Gaza, Chair''s conclusions (12 Oct 2014)'
+    url: https://www.un.org/unispal/document/auto-insert-207357
+    document_class: primary_text
+    read: tool
+    authenticity:
+      status: authenticated
+      strength: moderate
+      provenance: UNISPAL.
+      tests:
+      - Official or institutional domain; figures consistent with at least one other report named in the dig [x]
+      tested_by: Strata session, 2026-10-07
+      gaps:
+      - Read through a summarizing tool.
+      checked: '2026-10-07'
+  - id: src-crs-rs22967
+    title: CRS RS22967, U.S. Foreign Aid to the Palestinians (2014 and 2016 versions), EveryCRSReport mirror
+    url: https://www.everycrsreport.com/reports/RS22967.html
+    document_class: secondary (government research service, mirror)
+    read: full
+    authenticity:
+      status: authenticated
+      strength: weak
+      provenance: Third-party mirror of CRS products.
+      tests:
+      - Official or institutional domain; figures consistent with at least one other report named in the dig [x]
+      tested_by: Strata session, 2026-10-07
+      gaps:
+      - Not compared with the official CRS copy; FY1994-2007 given only as averages.
+      checked: '2026-10-07'
+  - id: src-eca-2013-pegase
+    title: European Court of Auditors, Special Report 14/2013, EU direct financial support to the Palestinian Authority
+    url: https://www.eca.europa.eu/Lists/ECADocuments/SR13_14/SR13_14_EN.pdf
+    document_class: primary_text
+    read: full
+    authenticity:
+      status: authenticated
+      strength: strong
+      provenance: eca.europa.eu.
+      tests:
+      - Official or institutional domain; figures consistent with at least one other report named in the dig [x]
+      tested_by: Strata session, 2026-10-07
+      gaps: []
+      checked: '2026-10-07'
+  - id: src-crs-rl33222-2016
+    title: CRS RL33222, U.S. Foreign Aid to Israel (22 Dec 2016 version, year-by-year table FY1949-2017), EveryCRSReport mirror
+    url: https://www.everycrsreport.com/files/20161222_RL33222_38d8a59f2caabdc9af8a6cdabfabb963ae8b63ae.pdf
+    document_class: secondary (government research service, mirror)
+    read: full
+    authenticity:
+      status: authenticated
+      strength: weak
+      provenance: Third-party mirror of a CRS report.
+      tests:
+      - Official or institutional domain; figures consistent with at least one other report named in the dig [x]
+      tested_by: Strata session, 2026-10-07
+      gaps:
+      - Not compared with the official copy; the FY2004 loan-guarantee figure differs between table and footnote.
+      checked: '2026-10-07'
+  - id: src-crs-rl33222-2006
+    title: 'CRS RL33222, U.S. Foreign Aid to Israel (5 Jan 2006 version: economic-aid phase-out, loan guarantees and settlement deductions), EveryCRSReport
+      mirror'
+    url: https://www.everycrsreport.com/reports/RL33222.html
+    document_class: secondary (government research service, mirror)
+    read: full
+    authenticity:
+      status: authenticated
+      strength: weak
+      provenance: Third-party mirror of a CRS report.
+      tests:
+      - Official or institutional domain; figures consistent with at least one other report named in the dig [x]
+      tested_by: Strata session, 2026-10-07
+      gaps:
+      - Not compared with the official copy.
+      checked: '2026-10-07'
+  - id: src-clinton-barak-1999
+    title: Joint Statement by President Clinton and Prime Minister Barak, 19 Jul 1999 (Public Papers)
+    url: https://www.govinfo.gov/content/pkg/PPP-1999-book2/html/PPP-1999-book2-doc-pg1252.htm
+    document_class: primary_text
+    read: full
+    authenticity:
+      status: authenticated
+      strength: strong
+      provenance: GPO govinfo.
+      tests:
+      - Official or institutional domain; figures consistent with at least one other report named in the dig [x]
+      tested_by: Strata session, 2026-10-07
+      gaps: []
+      checked: '2026-10-07'
+  - id: src-qatar-mofa-2014-10-12
+    title: Qatar MOFA, Qatar provides $1 billion for Gaza reconstruction (12 Oct 2014)
+    url: https://www.mofa.gov.qa/en/all-mofa-news/details/2014/10/12/qatar-provides-$1-billion-for-gaza-reconstruction
+    document_class: primary_text
+    read: tool
+    authenticity:
+      status: authenticated
+      strength: moderate
+      provenance: mofa.gov.qa.
+      tests:
+      - Official or institutional domain; figures consistent with at least one other report named in the dig [x]
+      tested_by: Strata session, 2026-10-07
+      gaps:
+      - Read through a summarizing tool.
+      checked: '2026-10-07'
+  - id: src-gaza-moi-2012
+    title: Gaza Ministry of Interior (Hamas-run), on Qatari projects during the Emir's visit (23 Oct 2012)
+    url: https://www.moi.gov.ps/Home/Post/35547
+    document_class: primary_text (party statement)
+    read: tool
+    authenticity:
+      status: authenticated
+      strength: weak
+      provenance: moi.gov.ps (Gaza authorities).
+      tests:
+      - Official or institutional domain; figures consistent with at least one other report named in the dig [x]
+      tested_by: Strata session, 2026-10-07
+      gaps:
+      - Read through a summarizing tool.
+      checked: '2026-10-07'
+  - id: src-peninsula-2012
+    title: The Peninsula (credited to QNA), Emir initiates slew of Gaza projects (24 Oct 2012)
+    url: https://s.thepeninsula.qa/article/24/10/2012/emir-initiates-slew-of-gaza-projects
+    document_class: secondary (state news agency via newspaper)
+    read: tool
+    authenticity:
+      status: not_applicable
+      basis: Newspaper carrying the state news agency.
+  - id: src-linde-arab-bank-2015
+    title: Linde v. Arab Bank, PLC, E.D.N.Y. No. 04-cv-2799, Memorandum Decision and Order (8 Apr 2015)
+    url: https://www.govinfo.gov/content/pkg/USCOURTS-nyed-1_04-cv-02799/pdf/USCOURTS-nyed-1_04-cv-02799-21.pdf
+    document_class: primary_text
+    read: full
+    authenticity:
+      status: authenticated
+      strength: strong
+      provenance: GPO govinfo court opinions.
+      tests:
+      - Official or institutional domain; figures consistent with at least one other report named in the dig [x]
+      tested_by: Strata session, 2026-10-07
+      gaps:
+      - The 2018 Second Circuit opinion vacating the verdict was not opened (known from CRS LSB10089).
+      checked: '2026-10-07'
+  - id: src-crs-lsb10089
+    title: CRS Legal Sidebar LSB10089 on Linde v. Arab Bank (2018)
+    url: https://www.everycrsreport.com/reports/LSB10089.html
+    document_class: secondary (government research service)
+    read: full
+    authenticity:
+      status: authenticated
+      strength: weak
+      provenance: Mirror of a CRS product.
+      tests:
+      - Official or institutional domain; figures consistent with at least one other report named in the dig [x]
+      tested_by: Strata session, 2026-10-07
+      gaps: []
+      checked: '2026-10-07'
+  - id: src-boim-2017
+    title: Boim v. American Muslims for Palestine, N.D. Ill. No. 17-cv-3591, opinion of 18 Aug 2017 (recounts the 2004 $156M judgment and 2008 en banc affirmance)
+    url: https://www.govinfo.gov/content/pkg/USCOURTS-ilnd-1_17-cv-03591/pdf/USCOURTS-ilnd-1_17-cv-03591-0.pdf
+    document_class: primary_text
+    read: full
+    authenticity:
+      status: authenticated
+      strength: strong
+      provenance: GPO govinfo.
+      tests:
+      - Official or institutional domain; figures consistent with at least one other report named in the dig [x]
+      tested_by: Strata session, 2026-10-07
+      gaps:
+      - The 2004 judgment and the 2008 en banc opinion were not opened.
+      checked: '2026-10-07'
+  - id: src-sokolow-2016
+    title: Waldman (Sokolow) v. PLO, 835 F.3d 317 (2d Cir. 31 Aug 2016)
+    url: https://www.courtlistener.com/opinion/4252876/sokolow-v-palestine-liberation-organization/
+    document_class: primary_text
+    read: tool
+    authenticity:
+      status: authenticated
+      strength: moderate
+      provenance: CourtListener copy of the opinion.
+      tests:
+      - Official or institutional domain; figures consistent with at least one other report named in the dig [x]
+      tested_by: Strata session, 2026-10-07
+      gaps:
+      - Read through a summarizing tool.
+      checked: '2026-10-07'
