@@ -90,3 +90,9 @@ log:
     date: "2026-10-04"
     entry: >
       ROUND 5 REQUEST R4-1 (new entry; nothing earlier edited). (a) In afd-definitive-label-contested the unlabelled English rendering in quotation marks was relabelled 'our translation of the Dutch' (the Dutch words are in the NIOD editor's article). (b) sources/extracts/cidi-2000-extract.txt no longer repeats the Amsterdam defendant's surname: the second sentence now reads 'Het Hof verbiedt [the defendant] de brochure in Nederland te verspreiden.' and the manifest note for src-cidi-2000 records the one edit. The extract's first sentence is unchanged. This brings the files back inside the naming exception stated in L-08 (the surname appears only in the title and author fields of the cited party page).
+
+  - id: L-14
+    date: "2026-10-08"
+    entry: >
+      REQUEST R5-1 (new entry; nothing earlier edited). Owner ruling, 2026-10-08: the defendants in the Amsterdam case are adults and public parties to a court case, so they may be named; only a minor would be withheld. sources/extracts/af-authenticity-extract.txt line 6 (the Anne Frank House's own sentence naming Verbeke, Faurisson and Free Historical Research) is kept as quoted.
+      This corrects L-13, which said the Amsterdam defendant's surname appeared only in the title and author fields of the cited party page; it also appears in that extract. The [the defendant] edit to cidi-2000-extract.txt stays as recorded in L-13.
