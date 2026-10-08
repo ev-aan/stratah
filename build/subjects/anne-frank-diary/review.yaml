@@ -3,7 +3,7 @@ subject: anne-frank-diary
 status: passed_with_open_items
 reviewed_by: independent review agent
 reviewed_on: 2026-10-04
-reviewed_head: round 1 at c7c49cb; round 2 at 24f7a23; round 3 at 94b62d2; round 4 at d62a676 (origin/dig/anne-frank-diary); this reviewer edited only this file and did not edit claims, log, timeline, sources, build/site.yaml or build/taxonomy.yaml.
+reviewed_head: round 1 at c7c49cb; round 2 at 24f7a23; round 3 at 94b62d2; round 4 at d62a676 (origin/dig/anne-frank-diary); round 5 at 141e250 (main, after PR #19); this reviewer edited only this file and did not edit claims, log, timeline, sources, build/site.yaml or build/taxonomy.yaml.
 notes: >
   MECHANICAL. python3 build/conformance.py --base origin/main: 0 errors for this subject; 12 warnings for it (11 established claims anchored below primary,
   plus the missing taxonomy entry). python3 build/tools/review_dig.py anne-frank-diary: every check passes except the taxonomy entry. Only build/subjects/anne-frank-diary/
@@ -82,7 +82,7 @@ notes: >
 open_items:
   - "Every forensic and judicial finding rests on interested parties' accounts; the Critical Edition summary, the BKA report of 28 May 1980 and the judgments are unopened (claims afd-nl-forensic-conclusion, afd-hamburg-graphology-1960, afd-materials-nl-lab, afd-ballpoint-not-anne, afd-luebeck-1959-61, afd-frankfurt-roth-1976-79, afd-amsterdam-ban-upheld). Page must show this as a limit."
   - "headline_status stays draft until the Dutch forensic report or its Critical Edition summary is opened (rule: headline claim established at HIGH with a primary read)."
-  - "build/taxonomy.yaml has no entry for anne-frank-diary (owner-only file). The owner adds it before publishing; the author's suggestion in log L-07 is valid."
+  - "CLOSED in round 5 (2026-10-08): the owner added the entry in PR #19 (build/taxonomy.yaml line 46), matching log L-07. Original item, kept as history: build/taxonomy.yaml has no entry for anne-frank-diary (owner-only file). The owner adds it before publishing; the author's suggestion in log L-07 is valid."
   - "Provenance (afd-papers-found-after-arrest) has one origin, the helpers' account; absence of an anachronism (afd-no-anachronism-found) is capped at provisional."
   - "Q3, whether what the diary says is true, is not tested (afd-content-truth-not-tested)."
 rounds:
@@ -285,5 +285,25 @@ rounds:
           (a) The anchor still puts an unlabelled English translation in quotation marks ('by whom, not by Anne, at most by the Anne Frank Fonds', van der Stroom's Dutch); add 'our translation'. (b) The CIDI extract repeats the Amsterdam defendant's surname ('Het Hof verbiedt Verbeke ...'), while the manifest gap note says the surname is not repeated and L-08 states the naming exception only for the manifest author field and a claim id. Either cut the sentence to one that does not carry the name, or extend the L-08 exception in a new log entry. It is the same public litigant named in the judgment and in his own page, so I do not block.
         evidence: "grep of claims.yaml and sources/extracts; CIDI pdf line 'Het Hof verbiedt Verbeke de brochure ...'."
         author_response: "fixed: (a) the English rendering in afd-definitive-label-contested is now labelled 'our translation of the Dutch'; (b) cidi-2000-extract.txt now reads 'Het Hof verbiedt [the defendant] de brochure ...', so the surname is no longer repeated, and the manifest entry for src-cidi-2000 records the one edit (no hash or size is recorded for extracts). Recorded in log L-13."
+        resolved: true
+  - round: 5
+    reviewed_on: 2026-10-08
+    note: >
+      Follow-up to the review of PR #19 (merged as 141e250). A second independent reviewer, who did not write the dig, edited only this file.
+      TAXONOMY: build/taxonomy.yaml now has anne-frank-diary (area history; areas media_misinformation, law_justice; types is_genuine, who_wrote_it, is_claim_true; popular_claims true), exactly as log L-07 suggested.
+      The open item is marked CLOSED in place with its original text kept; the notes of rounds 1 to 4 that call the entry missing are history and are not edited.
+      R4-1 RESOLVED (true), checked against the files on main: (a) claims.yaml afd-definitive-label-contested anchor now reads "by whom? 'not by Anne, at most by the Anne Frank Fonds', our translation of the Dutch";
+      (b) sources/extracts/cidi-2000-extract.txt line 3 now reads 'Het Hof verbiedt [the defendant] de brochure in Nederland te verspreiden.'; MANIFEST.yaml src-cidi-2000 stored_as records the one edit, and its gap note ('neither is repeated here') is now true;
+      log L-13 is a new entry and L-08 is unchanged. I did not re-open the CIDI PDF; the edit is a redaction of the stored extract, not a change of wording, so no new source read was needed.
+      RESIDUAL (non-blocking, not part of R4-1): L-13 says the Amsterdam defendant's surname now appears only in the title and author fields of the cited party page. That is not quite so: sources/extracts/af-authenticity-extract.txt line 6 (the Anne Frank House's own sentence, unchanged since PR #12) names him and the 1978 report's author.
+      It is a public institution's sentence about public litigants, already read by four rounds, so it does not block; recorded as R5-1 for the author.
+    requests:
+      - id: R5-1
+        target: "sources/extracts/af-authenticity-extract.txt line 6; log L-08 naming exception; log L-13"
+        severity: non_blocking
+        finding: >
+          The extract quotes the Anne Frank House sentence that names the Amsterdam defendant ('civil proceedings against Verbeke, Faurisson and Free Historical Research'), outside the naming exception stated in L-08, and L-13 says the surname is no longer repeated outside the manifest title and author fields.
+          Either replace the names with [the defendants] in the extract and note the edit in the manifest, or state the exception in a new log entry. L-13 is history and is not edited.
+        evidence: "grep -rn Verbeke build/subjects/anne-frank-diary (excluding review.yaml): MANIFEST.yaml lines 457-458 and af-authenticity-extract.txt line 6."
+        author_response: ""
         resolved: ""
-
