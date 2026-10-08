@@ -1265,3 +1265,237 @@ sources:
     authenticity:
       status: not_applicable
       basis: News reports of pledges.
+
+  # ---------------- Israel Bonds, US arms sales, Palestinian-side charities, federations, campaign and lobbying money, Gulf/Turkey/Iran ----------------
+  - id: src-israel-bonds-18k
+    title: 'State of Israel annual reports on Form 18-K (SEC EDGAR, FY2001-FY2025): Israel Bonds funds raised worldwide and amounts outstanding; rows in data/israel-bonds-and-us-arms-sales.csv'
+    url: https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000052749&type=18-K
+    document_class: primary_text
+    read: full (exhibits downloaded and searched by keyword)
+    authenticity:
+      status: authenticated
+      strength: strong
+      provenance: SEC EDGAR filings by the State of Israel.
+      tests:
+      - Each row links its own document; totals spot-checked against source pages [x]
+      tested_by: Strata session, 2026-10-08
+      gaps:
+      - Worldwide totals only, not US-only; small conflicts between filings for 2008, 2010, 2012, 2016, 2019, 2020, 2024; no electronic 18-K before FY2001.
+      checked: '2026-10-08'
+  - id: src-dci-press
+    title: Development Corporation for Israel (Israel Bonds) press releases on sales after 7 Oct 2023
+    url: https://www.israelbonds.com/
+    document_class: secondary (interested party)
+    read: tool
+    authenticity:
+      status: not_applicable
+      basis: Self-reported by the seller; not audited.
+  - id: src-state-treasury-bonds
+    title: US state treasury and pension board releases on Israel Bonds purchases (Pennsylvania, Georgia, Florida, New York, Texas, Ohio), 2019-2025; rows
+      in data/israel-bonds-and-us-arms-sales.csv
+    url: https://www.patreasury.gov/
+    document_class: primary_text
+    read: full (each release; Florida via archived copies)
+    authenticity:
+      status: authenticated
+      strength: moderate
+      provenance: Official state government releases.
+      tests:
+      - Each row links its own document; totals spot-checked against source pages [x]
+      tested_by: Strata session, 2026-10-08
+      gaps:
+      - Illinois, Indiana and Palm Beach County purchases not confirmed from official sources; audited state reports not searched.
+      checked: '2026-10-08'
+  - id: src-dsca-israel
+    title: Defense Security Cooperation Agency major arms sales notifications for Israel (2009-2026) and Federal Register notices after Feb 2026; rows in
+      data/israel-bonds-and-us-arms-sales.csv
+    url: https://www.dsca.mil/press-media/major-arms-sales
+    document_class: primary_text
+    read: full (DSCA pages read in a browser; Federal Register notices downloaded)
+    authenticity:
+      status: authenticated
+      strength: strong
+      provenance: dsca.mil and federalregister.gov.
+      tests:
+      - Each row links its own document; totals spot-checked against source pages [x]
+      tested_by: Strata session, 2026-10-08
+      gaps:
+      - Notifications before 2009 mostly not found; one 2015 notice misdated in its own text.
+      checked: '2026-10-08'
+  - id: src-emergency-arms-2023-2025
+    title: Federal Register determinations for emergency arms sales to Israel without congressional review (Dec 2023; Feb-Mar 2025)
+    url: https://www.federalregister.gov/
+    document_class: primary_text
+    read: full
+    authenticity:
+      status: authenticated
+      strength: strong
+      provenance: federalregister.gov.
+      tests:
+      - Each row links its own document; totals spot-checked against source pages [x]
+      tested_by: Strata session, 2026-10-08
+      gaps: []
+      checked: '2026-10-08'
+  - id: src-sipri-israel
+    title: SIPRI Arms Transfers Database, Israel imports by supplier 1993-2025 (trend-indicator values, a volume measure, not prices); data/sipri-israel-arms-imports-1993-2025.csv
+    url: https://armstrade.sipri.org
+    document_class: dataset (research institute)
+    read: full (dataset query)
+    authenticity:
+      status: authenticated
+      strength: moderate
+      provenance: Stockholm International Peace Research Institute.
+      tests:
+      - Each row links its own document; totals spot-checked against source pages [x]
+      tested_by: Strata session, 2026-10-08
+      gaps:
+      - TIV measures volume of major weapons, not value paid.
+      checked: '2026-10-08'
+  - id: src-990-palestinian-side
+    title: 'Form 990s of US charities sending money to Palestinians: UNRWA USA (20-2714426), ANERA (52-0882226), Islamic Relief USA (95-4453134), PCRF (93-1057665),
+      MECA (94-3074600), United Palestinian Appeal (11-2494808), PAMA (47-2227058), Rebuilding Alliance (56-2392452); rows in data/charities-palestinian-side-and-federations.csv'
+    url: https://projects.propublica.org/nonprofits/organizations/202714426
+    document_class: primary_text
+    read: full (e-filed returns)
+    authenticity:
+      status: authenticated
+      strength: moderate
+      provenance: IRS e-filed returns rendered by ProPublica.
+      tests:
+      - Each row links its own document; totals spot-checked against source pages [x]
+      tested_by: Strata session, 2026-10-08
+      gaps:
+      - Region reported as Middle East and North Africa, not Gaza or West Bank; funder lists cover only the first pages of search results.
+      checked: '2026-10-08'
+  - id: src-990-federations
+    title: Form 990s of JFNA (13-1624240), United Israel Appeal, UJA-Federation of New York (51-0172429), JDC (13-1656634), Jewish Agency entities (23-0053483,
+      23-7254561), PEF Israel Endowment Funds (13-6104086); rows in data/charities-palestinian-side-and-federations.csv
+    url: https://projects.propublica.org/nonprofits/organizations/131624240
+    document_class: primary_text
+    read: full (e-filed returns)
+    authenticity:
+      status: authenticated
+      strength: moderate
+      provenance: IRS e-filed returns rendered by ProPublica.
+      tests:
+      - Each row links its own document; totals spot-checked against source pages [x]
+      tested_by: Strata session, 2026-10-08
+      gaps:
+      - PEF's 1,008 grantees in an attachment not shown online; no filing read says it funds settlements; one Jewish Agency filer repeats regional figures
+        across years.
+      checked: '2026-10-08'
+  - id: src-treasury-kindhearts-2006
+    title: US Treasury, KindHearts assets blocked pending investigation (19 Feb 2006)
+    url: https://home.treasury.gov/news/press-releases/js4058
+    document_class: primary_text
+    read: full
+    authenticity:
+      status: authenticated
+      strength: moderate
+      provenance: home.treasury.gov.
+      tests:
+      - Each row links its own document; totals spot-checked against source pages [x]
+      tested_by: Strata session, 2026-10-08
+      gaps:
+      - Later legal outcome not read.
+      checked: '2026-10-08'
+  - id: src-fec-bulk
+    title: FEC bulk data (committee summaries, itemized contributions, independent expenditures), 2020-2026 cycles; rows in data/campaign-lobbying-gulf-turkey-iran.csv
+    url: https://www.fec.gov/files/bulk-downloads/
+    document_class: dataset (official)
+    read: full (bulk files downloaded and parsed)
+    authenticity:
+      status: authenticated
+      strength: strong
+      provenance: Federal Election Commission bulk files.
+      tests:
+      - Each row links its own document; totals spot-checked against source pages [x]
+      tested_by: Strata session, 2026-10-08
+      gaps:
+      - 24/48-hour independent-expenditure reports can differ slightly from final reports; earmarked contributions to AIPAC PAC passed through to candidates
+        are reported separately.
+      checked: '2026-10-08'
+  - id: src-lda-lobbying
+    title: Lobbying Disclosure Act filings (lda.gov API), annual spend 2015-2025 for AIPAC, J Street, CUFI Action Fund, AJC, Embassy of Qatar accounts, CAIR
+    url: https://lda.gov/api/v1/filings/
+    document_class: dataset (official)
+    read: full (API)
+    authenticity:
+      status: authenticated
+      strength: strong
+      provenance: US Senate/House lobbying disclosure system.
+      tests:
+      - Each row links its own document; totals spot-checked against source pages [x]
+      tested_by: Strata session, 2026-10-08
+      gaps:
+      - No records found for Arab American Institute, American Muslims for Palestine, Emgage or UAE government clients.
+      checked: '2026-10-08'
+  - id: src-fara-qatar-plo
+    title: FARA supplemental statements of registrants for Qatar (25 firms) and the PLO Delegation (final filing, 2018); Squire Patton Boggs for the Palestine
+      Monetary Authority (2026)
+    url: https://efile.fara.gov/
+    document_class: primary_text
+    read: full (two scanned filings read by OCR)
+    authenticity:
+      status: authenticated
+      strength: strong
+      provenance: efile.fara.gov.
+      tests:
+      - Each row links its own document; totals spot-checked against source pages [x]
+      tested_by: Strata session, 2026-10-08
+      gaps:
+      - Qatar periods do not align, so no single total; PLO stated total does not add up from its lines; Saudi, UAE and Turkish receipts not compiled.
+      checked: '2026-10-08'
+  - id: src-sec117-qatar
+    title: US Department of Education Section 117 foreign gifts and contracts data, Qatar, 2015-2026 (foreignfundinghighered.gov)
+    url: https://foreignfundinghighered.gov/
+    document_class: dataset (official)
+    read: full (downloaded)
+    authenticity:
+      status: authenticated
+      strength: strong
+      provenance: US Department of Education.
+      tests:
+      - Each row links its own document; totals spot-checked against source pages [x]
+      tested_by: Strata session, 2026-10-08
+      gaps:
+      - Multi-year contracts are dated to their start year, causing spikes.
+      checked: '2026-10-08'
+  - id: src-ofac-iran-palestinian
+    title: US Treasury OFAC press releases on Iran-linked and other financing of Hamas and PIJ, 2015-2026 (12 releases read)
+    url: https://home.treasury.gov/news/press-releases
+    document_class: primary_text
+    read: full
+    authenticity:
+      status: authenticated
+      strength: moderate
+      provenance: home.treasury.gov.
+      tests:
+      - Each row links its own document; totals spot-checked against source pages [x]
+      tested_by: Strata session, 2026-10-08
+      gaps:
+      - Targeted set, not every release; most give no dollar figure.
+      checked: '2026-10-08'
+  - id: src-ksrelief-palestine
+    title: KSrelief (Saudi aid agency) projects for Palestine, all years
+    url: https://www.ksrelief.org/
+    document_class: dataset (official)
+    read: full
+    authenticity:
+      status: authenticated
+      strength: moderate
+      provenance: Saudi government aid agency.
+      tests:
+      - Each row links its own document; totals spot-checked against source pages [x]
+      tested_by: Strata session, 2026-10-08
+      gaps:
+      - Direct Saudi support to the PA budget not covered.
+      checked: '2026-10-08'
+  - id: src-wam-uae-gaza
+    title: UAE state news agency (WAM) figure for UAE aid to Gaza, as printed in Khaleej Times
+    url: https://www.khaleejtimes.com/
+    document_class: secondary (state news agency via newspaper)
+    read: tool
+    authenticity:
+      status: not_applicable
+      basis: WAM page itself did not load.

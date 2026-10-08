@@ -1239,6 +1239,152 @@ claims:
       sources: [src-fidf-funder-grants, src-990-dell-foundation, src-toi-fidf-2014, src-bloomberg-fidf-2014, src-israelhayom-fidf-2014, src-fidf-gala-reports]
       accessible: true
 
+  - id: ipm-israel-bonds
+    state: established
+    statement_kind: reported
+    statement: >
+      Israel raised $2.72 billion through Israel Bonds in 2023, $2.5 billion in 2024 and $2.4 billion in
+      2025, up from about $1.0 to $1.8 billion a year before 2023, and had $7.5 billion outstanding at the end
+      of 2025 (State of Israel annual reports to the SEC; worldwide totals, not US-only). US state treasuries
+      and pension funds bought bonds, for example Florida $120 million (31 Oct 2023), Texas $45 million (2 Nov
+      2023) and Pennsylvania $20 million (12 Oct 2023); Ohio held $262.5 million in 2024-2025. The seller,
+      Development Corporation for Israel, says US states and municipalities invested $1.7 billion in the six
+      months after 7 October 2023; that is the seller's own figure. It is not registered under FARA.
+    evidence_class: primary_text
+    confidence: high
+    evidential_weight: 4
+    anchor_checked: primary
+    adoption_weight: 2
+    adoption_note: "Adoption is information, not evidence."
+    would_change_if: "the US-only share is published; or audited state reports give different purchase amounts"
+    anchor:
+      type: primary_text
+      description: "Form 18-K exhibits on SEC EDGAR searched; state releases read (Florida via archived copies). Every row in data/israel-bonds-and-us-arms-sales.csv. Conflicts between filings (2008, 2019, 2020, 2024) and between Florida's release ($50M) and the seller's listing ($55M) are recorded there."
+      sources: [src-israel-bonds-18k, src-state-treasury-bonds, src-dci-press, src-fara-bulk-2026-10-07]
+      accessible: true
+
+  - id: ipm-us-arms-sales-israel
+    state: established
+    statement_kind: reported
+    statement: >
+      The US notified Congress of major arms sales to Israel including 25 to 75 F-35s ($15.2 billion, 2008),
+      up to 50 F-15IA fighters ($18.82 billion, 13 Aug 2024), munitions ($6.75 billion, Feb 2025) and 30
+      AH-64E Apache helicopters ($3.8 billion, 30 Jan 2026). Emergency determinations skipped congressional
+      review for tank cartridges ($106.5 million, 8 Dec 2023), 155mm shells ($147.5 million, 29 Dec 2023) and
+      about $4 billion in sales declared by the Secretary of State on 1 Mar 2025. SIPRI's volume measure puts
+      the US at 14,234 of Israel's 17,638 units of major arms imports from 1993 to 2025, and Germany at 3,061.
+    evidence_class: primary_text
+    confidence: high
+    evidential_weight: 4
+    anchor_checked: primary
+    adoption_weight: 3
+    adoption_note: "Adoption is information, not evidence."
+    would_change_if: "later notices amend values; or pre-2009 notifications are found"
+    anchor:
+      type: primary_text
+      description: "DSCA notices read in a browser and Federal Register determinations downloaded; SIPRI dataset queried (volume units, not prices). Notification values are estimates of maximum case value, not amounts paid. All rows in data/israel-bonds-and-us-arms-sales.csv."
+      sources: [src-dsca-israel, src-emergency-arms-2023-2025, src-sipri-israel]
+      accessible: true
+
+  - id: ipm-us-charities-palestinian-side
+    state: established
+    statement_kind: reported
+    statement: >
+      US charities sending money to Palestinians report, in 2024: UNRWA USA $51.5 million in grants abroad
+      to support UNRWA (up from $22.4 million in 2023); ANERA $204.3 million revenue (fiscal year to May 2024)
+      with Middle East grants of $95.9 to $169.0 million a year; United Palestinian Appeal $107.9 million
+      abroad, partly donated medicines; PCRF $42.7 million spent on its own Middle East operations; Islamic
+      Relief USA $34.5 million in the Middle East and North Africa, of which grant rows naming Palestine,
+      Gaza, the West Bank or Jerusalem add to $15.8 million (our sum). Their returns report by region, not
+      Gaza or West Bank separately. Earlier US actions on Hamas-linked charities: Holy Land Foundation
+      (convicted 2008) and KindHearts (assets blocked 19 Feb 2006).
+    evidence_class: primary_text
+    confidence: high
+    evidential_weight: 4
+    anchor_checked: primary
+    adoption_weight: 2
+    adoption_note: "Adoption is information, not evidence."
+    would_change_if: "the charities publish Gaza or West Bank totals; or amended returns change figures"
+    anchor:
+      type: primary_text
+      description: "Form 990s read as rendered from IRS e-files; rows in data/charities-palestinian-side-and-federations.csv. Treasury's KindHearts release read; its later legal outcome not read."
+      sources: [src-990-palestinian-side, src-treasury-kindhearts-2006]
+      accessible: true
+
+  - id: ipm-federations-to-israel
+    state: established
+    statement_kind: reported
+    statement: >
+      The Jewish Federations of North America passed $454.7 million (fiscal year to June 2024) and $344.5
+      million (to June 2025) to the Jewish Agency for Israel through United Israel Appeal, up from $145.8 to
+      $169.3 million a year in 2021-2023, and $43.1 to $60.6 million a year to the Joint Distribution
+      Committee. JFNA says its Israel Emergency Campaign raised $908 million by November 2025 (self-reported).
+      PEF Israel Endowment Funds sends about $260 to $280 million a year to organizations in Israel. None of the
+      returns read states that it funds West Bank settlements; recipient locations were not inferred.
+    evidence_class: primary_text
+    confidence: moderate
+    evidential_weight: 4
+    anchor_checked: primary
+    adoption_weight: 2
+    adoption_note: "Adoption is information, not evidence."
+    would_change_if: "PEF's grantee attachment or the Jewish Agency's spending by location is read"
+    anchor:
+      type: primary_text
+      description: "Form 990s read; the campaign totals come from federation reposts of JFNA statements because JFNA's own pages returned 404. Rows in data/charities-palestinian-side-and-federations.csv."
+      sources: [src-990-federations]
+      accessible: true
+
+  - id: ipm-campaign-lobbying-money
+    state: established
+    statement_kind: reported
+    statement: >
+      FEC records show the United Democracy Project, AIPAC's super PAC, taking in $35.9 million in the 2022
+      cycle, $87.2 million in 2024 and $109.7 million so far in 2026, its largest contributor each cycle being
+      AIPAC itself ($10.5 million, $11.0 million, $30.0 million). In the 2024 primaries it spent $9.87 million
+      against Jamaal Bowman (NY-16) and $5.24 million against Cori Bush (MO-1), and in 2026 $20.1 million
+      against Abdul El-Sayed (Michigan Senate). AIPAC PAC took in $57.9 million in 2024, $43.4 million of it
+      earmarked by donors for candidates. Lobbying disclosures show AIPAC spending about $2.7 to $3.8 million a
+      year on federal lobbying from 2015 to 2025. Committees on other sides are in the data file (J Street,
+      Justice Democrats, Emgage, Arab American and CAIR-linked PACs). Spending beside a vote shows timing only,
+      not cause.
+    evidence_class: primary_text
+    confidence: high
+    evidential_weight: 4
+    anchor_checked: primary
+    adoption_weight: 3
+    adoption_note: "Adoption is information, not evidence."
+    would_change_if: "amended FEC reports change totals"
+    anchor:
+      type: dataset
+      description: "FEC bulk files downloaded and parsed (the FEC API was rate-limited); lda.gov lobbying API queried. All rows in data/campaign-lobbying-gulf-turkey-iran.csv. Independent-expenditure figures use 24/48-hour reports, which can differ slightly from final reports."
+      sources: [src-fec-bulk, src-lda-lobbying]
+      accessible: true
+
+  - id: ipm-gulf-turkey-iran-channels
+    state: established
+    statement_kind: reported
+    statement: >
+      Official records of other states' money: Saudi Arabia's aid agency lists $548.1 million across 159
+      Palestine projects in all years; the UAE state news agency gives $3.89 billion to Gaza (read in a
+      newspaper copy); Turkey states aid to Gaza by tonnage (nearly 54,000 tons by May 2024), with no dollar
+      figure found. In the US, 25 firms registered for Qatari principals report payments in their latest
+      six-month FARA statements (about $6.54 million added, periods not aligned), and Qatar's gifts and
+      contracts to US universities are reported under Section 117 by year. The PLO Delegation's FARA
+      registration ended on 30 Sep 2018. US Treasury releases on Iran-linked financing of Hamas and PIJ from
+      2015 to 2026 mostly give no dollar figure.
+    evidence_class: primary_text
+    confidence: moderate
+    evidential_weight: 3
+    anchor_checked: secondary
+    adoption_weight: 2
+    adoption_note: "Adoption is information, not evidence."
+    would_change_if: "official UAE reports are read directly; Saudi, UAE and Turkish FARA receipts are compiled"
+    anchor:
+      type: dataset
+      description: "KSrelief data, Section 117 data and FARA statements read (two by OCR); UAE figure read in a newspaper copy of the state news agency; OFAC releases (12) read. Rows in data/campaign-lobbying-gulf-turkey-iran.csv."
+      sources: [src-ksrelief-palestine, src-wam-uae-gaza, src-fara-qatar-plo, src-sec117-qatar, src-ofac-iran-palestinian]
+      accessible: true
+
   - id: ipm-state-media-funding-gap
     state: searched_gap
     statement_kind: search_result

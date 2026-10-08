@@ -169,3 +169,14 @@ log:
       Check before push: the funder total was recomputed from the CSV (paid 990-PF and Schedule I rows, exact
       duplicates removed): 3,053 rows, $200,213,009, 1,253 funders, matching the research report. Gala pages not
       fully read: Algemeiner 2018 (rate-limited), JNS 2018 (metadata only), JNS 2020 (no body).
+  - id: L-18
+    date: 2026-10-08
+    entry: >
+      Owner: "Continue through the list." Three research passes run in parallel: (1) Israel Bonds and US arms
+      sales; (2) US charities on the Palestinian side and Jewish federation money to Israel; (3) campaign and
+      lobbying money on all sides, and Gulf, Turkish and Iranian channels. Their rows are kept whole in four
+      data files (israel-bonds-and-us-arms-sales.csv, charities-palestinian-side-and-federations.csv,
+      campaign-lobbying-gulf-turkey-iran.csv, sipri-israel-arms-imports-1993-2025.csv), each row with its own
+      source and read status. Added 16 sources, six claims, eight timeline events and the key transfers to the
+      ledger. Known limits are recorded on each claim; the largest are that charity returns report by region,
+      not Gaza or West Bank, and that Saudi, UAE and Turkish FARA receipts were not compiled.

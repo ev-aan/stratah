@@ -21,13 +21,13 @@ panels:
     start: "2017-01-01T00:00:00Z"
     end:   "2023-09-30T00:00:00Z"
     tick_years: 1
-    lanes: [charities, ngos, money, settle, military]
+    lanes: [charities, ngos, money, settle, military, arms]
   - id: recent
     title: "Panel C: October 2023 to October 2026 (one tick per year)"
     start: "2023-10-01T00:00:00Z"
     end:   "2026-10-15T00:00:00Z"
     tick_years: 1
-    lanes: [charities, ngos, money, media, settle, military, sanctions, un]
+    lanes: [charities, ngos, money, media, settle, military, arms, politics, sanctions, un]
 lanes:
   charities: {label: "Charities: designations and courts"}
   ngos:      {label: "NGOs and UNRWA"}
@@ -35,6 +35,8 @@ lanes:
   media:     {label: "Israel: payments to US media firms (FARA)"}
   settle:    {label: "Settlement funding: charities, foundations, state"}
   military:  {label: "US charities for Israeli soldiers (FIDF and others)"}
+  arms:      {label: "Israel Bonds and US arms sales"}
+  politics:  {label: "Campaign money, lobbying, other charities"}
   sanctions: {label: "Settler sanctions"}
   un:        {label: "UN votes and recognition"}
 people:
@@ -142,6 +144,13 @@ sources:
   src-fidf-funder-grants:      {title: "Grants to FIDF in foundation returns (full-text search)", url: "https://projects.propublica.org/nonprofits/full_text_search?q=%22Friends+of+the+Israel+Defense+Forces%22", authenticity: "authenticated, moderate"}
   src-toi-fidf-2014:           {title: "Times of Israel, 8 Nov 2014", url: "https://www.timesofisrael.com/hollywood-gala-raises-a-record-33-million-for-idf/amp/", authenticity: "news report"}
   src-fidf-gala-reports:       {title: "JTA, 5 Nov 2017 (FIDF gala)", url: "https://www.jta.org/2017/11/05/united-states/record-53-8-million-raised-for-idf-soldiers-at-beverly-hills-gala", authenticity: "news report"}
+  src-dsca-israel:             {title: "DSCA major arms sales notifications (Israel)", url: "https://www.dsca.mil/press-media/major-arms-sales", authenticity: "authenticated, strong"}
+  src-emergency-arms-2023-2025: {title: "Federal Register emergency arms-sale determinations", url: "https://www.federalregister.gov/", authenticity: "authenticated, strong"}
+  src-israel-bonds-18k:        {title: "State of Israel Form 18-K (SEC EDGAR)", url: "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000052749&type=18-K", authenticity: "authenticated, strong"}
+  src-state-treasury-bonds:    {title: "State treasury releases on Israel Bonds", url: "https://www.patreasury.gov/", authenticity: "authenticated, moderate"}
+  src-fec-bulk:                {title: "FEC bulk data", url: "https://www.fec.gov/files/bulk-downloads/", authenticity: "authenticated, strong"}
+  src-990-palestinian-side:    {title: "UNRWA USA Form 990s", url: "https://projects.propublica.org/nonprofits/organizations/202714426", authenticity: "authenticated, moderate"}
+  src-990-federations:         {title: "JFNA Form 990s", url: "https://projects.propublica.org/nonprofits/organizations/131624240", authenticity: "authenticated, moderate"}
 
 events:
   # ---------------- Panel A: 1993 to Sep 2023 ----------------
@@ -411,3 +420,28 @@ events:
   - {id: f05, panel: recent, lane: military, time: "2025-06-01T00:00:00Z", precision: year, kind: data, status: single, sources: [src-fidf-funder-grants],
      label: "2012-2025: 1,253 funders' returns show at least $200.2M granted to FIDF",
      detail: "Largest: Adelson FF $28.6M, IFCJ $15.5M, Saban FF $10.6M, Fidelity Charitable $7.3M, Jewish Communal Fund $6.8M, Koum FF $6.8M."}
+  # ---------------- Bonds, arms, campaign money, other charities ----------------
+  - {id: g01, panel: middle, lane: arms, time: "2018-01-01T00:00:00Z", end: "2022-12-31T23:59:00Z", precision: range, kind: data, status: single, sources: [src-israel-bonds-18k],
+     label: "2018-2022: Israel Bonds raise about $1.3-1.8B a year worldwide",
+     detail: "State of Israel 18-K reports; not US-only."}
+  - {id: g02, panel: recent, lane: arms, time: "2023-10-31T12:00:00Z", precision: day, kind: official, status: single, sources: [src-state-treasury-bonds],
+     label: "Oct-Nov 2023: US states buy Israel Bonds (Florida $120M, Texas $45M, Pennsylvania $20M)",
+     detail: "Official state releases; 2023 total raised worldwide $2.72B (18-K)."}
+  - {id: g03, panel: recent, lane: arms, time: "2023-12-08T12:00:00Z", end: "2023-12-29T23:59:00Z", precision: range, kind: official, status: single, sources: [src-emergency-arms-2023-2025],
+     label: "Dec 2023: emergency arms sales skip Congress ($106.5M tank rounds, $147.5M shells)",
+     detail: "Federal Register determinations."}
+  - {id: g04, panel: recent, lane: arms, time: "2024-08-13T12:00:00Z", precision: day, kind: official, status: single, sources: [src-dsca-israel],
+     label: "13 Aug 2024: US notifies sale of up to 50 F-15IA ($18.82B)",
+     detail: "Maximum estimated case value; FMF-funded."}
+  - {id: g05, panel: recent, lane: arms, time: "2025-03-01T12:00:00Z", precision: day, kind: official, status: single, sources: [src-emergency-arms-2023-2025],
+     label: "1 Mar 2025: emergency declaration expedites about $4B in arms to Israel",
+     detail: "Secretary of State Rubio."}
+  - {id: g06, panel: recent, lane: politics, time: "2024-06-25T12:00:00Z", precision: day, kind: data, status: single, sources: [src-fec-bulk],
+     label: "2024 primaries: UDP spends $9.87M against Bowman, $5.24M against Bush",
+     detail: "AIPAC's super PAC took in $87.2M in the 2024 cycle; AIPAC itself its largest contributor ($11.0M). Timing is context, not cause."}
+  - {id: g07, panel: recent, lane: politics, time: "2024-07-01T00:00:00Z", precision: year, kind: data, status: single, sources: [src-990-palestinian-side],
+     label: "2024: UNRWA USA grants $51.5M; United Palestinian Appeal $107.9M abroad",
+     detail: "Form 990s; region reported as Middle East, not Gaza or West Bank separately."}
+  - {id: g08, panel: recent, lane: politics, time: "2024-06-30T12:00:00Z", precision: month, kind: data, status: single, sources: [src-990-federations],
+     label: "FY to Jun 2024: JFNA passes $454.7M to the Jewish Agency via UIA",
+     detail: "Up from $145.8-169.3M a year in 2021-2023 (Form 990s)."}

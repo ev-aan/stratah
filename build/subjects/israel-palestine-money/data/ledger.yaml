@@ -515,6 +515,142 @@ entities:
   name: Sheba Medical Center
   type: hospital
   country: IL
+- id: israel-bonds-buyers
+  name: Israel Bonds purchasers (worldwide)
+  type: aggregate
+  country: multiple
+- id: dci
+  name: Development Corporation for Israel (Israel Bonds)
+  type: company
+  country: US
+- id: fl-treasury
+  name: Florida state treasury and pension board
+  type: government_agency
+  country: US
+- id: tx-treasury
+  name: Texas state treasury
+  type: government_agency
+  country: US
+- id: pa-treasury
+  name: Pennsylvania state treasury
+  type: government_agency
+  country: US
+- id: oh-treasury
+  name: Ohio state treasury
+  type: government_agency
+  country: US
+- id: us-dod-dsca
+  name: US Defense Security Cooperation Agency / State Department (arms sales)
+  type: government_agency
+  country: US
+- id: unrwa-usa
+  name: UNRWA USA National Committee
+  type: charity
+  country: US
+  ids:
+    ein: 20-2714426
+- id: anera
+  name: American Near East Refugee Aid (ANERA)
+  type: charity
+  country: US
+  ids:
+    ein: 52-0882226
+- id: upa
+  name: United Palestinian Appeal
+  type: charity
+  country: US
+  ids:
+    ein: 11-2494808
+- id: pcrf
+  name: Palestine Children's Relief Fund
+  type: charity
+  country: US
+  ids:
+    ein: 93-1057665
+- id: irusa
+  name: Islamic Relief USA
+  type: charity
+  country: US
+  ids:
+    ein: 95-4453134
+- id: palestinian-recipients
+  name: Recipients in the Middle East (unnamed or by region in filings)
+  type: aggregate
+  country: multiple
+- id: kindhearts
+  name: KindHearts for Charitable Humanitarian Development
+  type: charity
+  country: US
+- id: jfna
+  name: Jewish Federations of North America
+  type: charity
+  country: US
+  ids:
+    ein: 13-1624240
+- id: uia
+  name: United Israel Appeal
+  type: charity
+  country: US
+- id: jafi
+  name: Jewish Agency for Israel
+  type: organization
+  country: IL
+- id: jdc
+  name: American Jewish Joint Distribution Committee
+  type: charity
+  country: US
+  ids:
+    ein: 13-1656634
+- id: pef
+  name: PEF Israel Endowment Funds
+  type: charity
+  country: US
+  ids:
+    ein: 13-6104086
+- id: israel-nonprofits
+  name: Nonprofits in Israel (unnamed in filings)
+  type: aggregate
+  country: IL
+- id: aipac
+  name: AIPAC (organization)
+  type: organization
+  country: US
+- id: udp
+  name: United Democracy Project (super PAC)
+  type: political_committee
+  country: US
+- id: aipac-pac
+  name: AIPAC PAC
+  type: political_committee
+  country: US
+- id: ie-against-bowman
+  name: Independent expenditures against Jamaal Bowman (NY-16, 2024)
+  type: political_target
+  country: US
+- id: ie-against-bush
+  name: Independent expenditures against Cori Bush (MO-1, 2024)
+  type: political_target
+  country: US
+- id: ie-against-elsayed
+  name: Independent expenditures against Abdul El-Sayed (MI Senate, 2026)
+  type: political_target
+  country: US
+- id: lobbying-federal
+  name: Federal lobbying (LDA disclosures)
+  type: activity
+  country: US
+- id: ksrelief
+  name: KSrelief (Saudi aid agency)
+  type: government_agency
+  country: SA
+- id: gov-ae
+  name: Government of the UAE
+  type: government
+  country: AE
+- id: palestinians-gaza
+  name: Gaza (aid recipients)
+  type: aggregate
+  country: PS
 flows:
 - from: havas-de
   to: clock-tower-x
@@ -1787,3 +1923,310 @@ flows:
   status: filed
   source: src-990-dell-foundation
   note: Pediatric mental-health care after trauma (grant database citing the 2024 return)
+- from: israel-bonds-buyers
+  to: gov-il
+  amount: 2720000000
+  currency: USD
+  date: '2023'
+  kind: bond_sales
+  status: filed
+  source: src-israel-bonds-18k
+  note: Worldwide funds raised through Israel Bonds (18-K)
+- from: israel-bonds-buyers
+  to: gov-il
+  amount: 2500000000
+  currency: USD
+  date: '2024'
+  kind: bond_sales
+  status: filed
+  source: src-israel-bonds-18k
+  note: Worldwide funds raised through Israel Bonds (18-K)
+- from: israel-bonds-buyers
+  to: gov-il
+  amount: 2400000000
+  currency: USD
+  date: '2025'
+  kind: bond_sales
+  status: filed
+  source: src-israel-bonds-18k
+  note: Worldwide funds raised through Israel Bonds (18-K)
+- from: fl-treasury
+  to: gov-il
+  amount: 120000000
+  currency: USD
+  date: '2023-10-31'
+  kind: bond_purchase
+  status: filed
+  source: src-state-treasury-bonds
+- from: tx-treasury
+  to: gov-il
+  amount: 45000000
+  currency: USD
+  date: '2023-11-02'
+  kind: bond_purchase
+  status: filed
+  source: src-state-treasury-bonds
+- from: pa-treasury
+  to: gov-il
+  amount: 20000000
+  currency: USD
+  date: '2023-10-12'
+  kind: bond_purchase
+  status: filed
+  source: src-state-treasury-bonds
+- from: oh-treasury
+  to: gov-il
+  amount: 262500000
+  currency: USD
+  date: '2024'
+  kind: bond_holding
+  status: filed
+  source: src-state-treasury-bonds
+  note: Holding, not a single purchase
+- from: us-dod-dsca
+  to: gov-il
+  amount: 15200000000
+  currency: USD
+  date: '2008-09-26'
+  kind: arms_sale_notification
+  status: notified
+  source: src-dsca-israel
+  note: F-35 (value per 2024 amendment) (maximum estimated case value, not paid)
+- from: us-dod-dsca
+  to: gov-il
+  amount: 18820000000
+  currency: USD
+  date: '2024-08-13'
+  kind: arms_sale_notification
+  status: notified
+  source: src-dsca-israel
+  note: Up to 50 F-15IA (maximum estimated case value, not paid)
+- from: us-dod-dsca
+  to: gov-il
+  amount: 6750000000
+  currency: USD
+  date: 2025-02
+  kind: arms_sale_notification
+  status: notified
+  source: src-dsca-israel
+  note: Munitions; later raised to $6.959bn (maximum estimated case value, not paid)
+- from: us-dod-dsca
+  to: gov-il
+  amount: 3800000000
+  currency: USD
+  date: '2026-01-30'
+  kind: arms_sale_notification
+  status: notified
+  source: src-dsca-israel
+  note: 30 AH-64E (maximum estimated case value, not paid)
+- from: us-dod-dsca
+  to: gov-il
+  amount: 106500000
+  currency: USD
+  date: '2023-12-08'
+  kind: arms_sale_notification
+  status: notified
+  source: src-emergency-arms-2023-2025
+  note: Tank cartridges, emergency, no congressional review (maximum estimated case value, not paid)
+- from: us-dod-dsca
+  to: gov-il
+  amount: 147500000
+  currency: USD
+  date: '2023-12-29'
+  kind: arms_sale_notification
+  status: notified
+  source: src-emergency-arms-2023-2025
+  note: 155mm shells, emergency (maximum estimated case value, not paid)
+- from: us-dod-dsca
+  to: gov-il
+  amount: 4000000000
+  currency: USD
+  date: '2025-03-01'
+  kind: arms_sale_notification
+  status: notified
+  source: src-emergency-arms-2023-2025
+  note: Emergency declaration, about $4bn (maximum estimated case value, not paid)
+- from: unrwa-usa
+  to: unrwa
+  amount: 51500000
+  currency: USD
+  date: '2024'
+  kind: grant_abroad
+  status: filed
+  source: src-990-palestinian-side
+- from: unrwa-usa
+  to: unrwa
+  amount: 22400000
+  currency: USD
+  date: '2023'
+  kind: grant_abroad
+  status: filed
+  source: src-990-palestinian-side
+- from: upa
+  to: palestinian-recipients
+  amount: 107900000
+  currency: USD
+  date: '2024'
+  kind: grant_abroad
+  status: filed
+  source: src-990-palestinian-side
+  note: Includes donated medicines
+- from: pcrf
+  to: palestinian-recipients
+  amount: 42700000
+  currency: USD
+  date: '2024'
+  kind: program_abroad
+  status: filed
+  source: src-990-palestinian-side
+- from: irusa
+  to: palestinian-recipients
+  amount: 15800000
+  currency: USD
+  date: '2024'
+  kind: grant_abroad
+  status: filed
+  source: src-990-palestinian-side
+  note: Sum of rows naming Palestine, Gaza, West Bank or Jerusalem (our sum); $9.0M of it to ANERA
+- from: irusa
+  to: anera
+  amount: 9000000
+  currency: USD
+  date: '2024'
+  kind: grant
+  status: filed
+  source: src-990-palestinian-side
+- from: kindhearts
+  to: hamas
+  amount: null
+  currency: USD
+  date: '2006-02-19'
+  kind: assets_blocked
+  status: designation
+  source: src-treasury-kindhearts-2006
+  note: Treasury blocked assets pending investigation
+- from: jfna
+  to: uia
+  amount: 454700000
+  currency: USD
+  date: FY2024
+  kind: grant
+  status: filed
+  source: src-990-federations
+  note: For the Jewish Agency
+- from: jfna
+  to: uia
+  amount: 344500000
+  currency: USD
+  date: FY2025
+  kind: grant
+  status: filed
+  source: src-990-federations
+  note: For the Jewish Agency
+- from: uia
+  to: jafi
+  amount: null
+  currency: USD
+  date: FY2024
+  kind: pass_through
+  status: filed
+  source: src-990-federations
+  note: UIA names the Jewish Agency its overseas operating agent
+- from: jfna
+  to: jdc
+  amount: 60600000
+  currency: USD
+  date: 2021-2025
+  kind: grant
+  status: filed
+  source: src-990-federations
+  note: Range $43.1M-$60.6M a year; top of range shown
+- from: pef
+  to: israel-nonprofits
+  amount: 270000000
+  currency: USD
+  date: '2023'
+  kind: grant_abroad
+  status: filed
+  source: src-990-federations
+  note: About $261.6M-$281.1M a year; grantees in an attachment not shown
+- from: aipac
+  to: udp
+  amount: 10500000
+  currency: USD
+  date: '2022'
+  kind: contribution
+  status: filed
+  source: src-fec-bulk
+  note: Largest itemized contributor that cycle
+- from: aipac
+  to: udp
+  amount: 11000000
+  currency: USD
+  date: '2024'
+  kind: contribution
+  status: filed
+  source: src-fec-bulk
+  note: Largest itemized contributor that cycle
+- from: aipac
+  to: udp
+  amount: 30000000
+  currency: USD
+  date: '2026'
+  kind: contribution
+  status: filed
+  source: src-fec-bulk
+  note: Largest itemized contributor that cycle
+- from: udp
+  to: ie-against-bowman
+  amount: 9870000
+  currency: USD
+  date: '2024'
+  kind: independent_expenditure
+  status: filed
+  source: src-fec-bulk
+  note: Plus $4.68M supporting Latimer
+- from: udp
+  to: ie-against-bush
+  amount: 5240000
+  currency: USD
+  date: '2024'
+  kind: independent_expenditure
+  status: filed
+  source: src-fec-bulk
+  note: Plus $3.36M supporting Bell
+- from: udp
+  to: ie-against-elsayed
+  amount: 20100000
+  currency: USD
+  date: '2026'
+  kind: independent_expenditure
+  status: filed
+  source: src-fec-bulk
+- from: aipac
+  to: lobbying-federal
+  amount: 3800000
+  currency: USD
+  date: 2015-2025
+  kind: lobbying_spend
+  status: filed
+  source: src-lda-lobbying
+  note: About $2.7M-$3.8M a year; top of range shown
+- from: ksrelief
+  to: palestinians-gaza
+  amount: 548100000
+  currency: USD
+  date: all years
+  kind: aid
+  status: filed
+  source: src-ksrelief-palestine
+  note: 159 Palestine projects
+- from: gov-ae
+  to: palestinians-gaza
+  amount: 3890000000
+  currency: USD
+  date: 2023-2025
+  kind: aid
+  status: reported
+  source: src-wam-uae-gaza
+  note: State news agency figure via newspaper
