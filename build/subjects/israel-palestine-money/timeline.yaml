@@ -21,19 +21,20 @@ panels:
     start: "2017-01-01T00:00:00Z"
     end:   "2023-09-30T00:00:00Z"
     tick_years: 1
-    lanes: [charities, ngos, money, settle]
+    lanes: [charities, ngos, money, settle, military]
   - id: recent
     title: "Panel C: October 2023 to October 2026 (one tick per year)"
     start: "2023-10-01T00:00:00Z"
     end:   "2026-10-15T00:00:00Z"
     tick_years: 1
-    lanes: [charities, ngos, money, media, settle, sanctions, un]
+    lanes: [charities, ngos, money, media, settle, military, sanctions, un]
 lanes:
   charities: {label: "Charities: designations and courts"}
   ngos:      {label: "NGOs and UNRWA"}
   money:     {label: "Aid, grants and seizures"}
   media:     {label: "Israel: payments to US media firms (FARA)"}
   settle:    {label: "Settlement funding: charities, foundations, state"}
+  military:  {label: "US charities for Israeli soldiers (FIDF and others)"}
   sanctions: {label: "Settler sanctions"}
   un:        {label: "UN votes and recognition"}
 people:
@@ -137,6 +138,10 @@ sources:
   src-gaza-moi-2012:           {title: "Gaza Ministry of Interior (Oct 2012)", url: "https://www.moi.gov.ps/Home/Post/35547", authenticity: "authenticated, weak"}
   src-linde-arab-bank-2015:    {title: "Linde v. Arab Bank, E.D.N.Y. (Apr 2015)", url: "https://www.govinfo.gov/content/pkg/USCOURTS-nyed-1_04-cv-02799/pdf/USCOURTS-nyed-1_04-cv-02799-21.pdf", authenticity: "authenticated, strong"}
   src-sokolow-2016:            {title: "Sokolow v. PLO, 2d Cir. (Aug 2016)", url: "https://www.courtlistener.com/opinion/4252876/sokolow-v-palestine-liberation-organization/", authenticity: "authenticated, moderate"}
+  src-990-fidf:                {title: "FIDF Form 990s", url: "https://projects.propublica.org/nonprofits/organizations/133156445", authenticity: "authenticated, moderate"}
+  src-fidf-funder-grants:      {title: "Grants to FIDF in foundation returns (full-text search)", url: "https://projects.propublica.org/nonprofits/full_text_search?q=%22Friends+of+the+Israel+Defense+Forces%22", authenticity: "authenticated, moderate"}
+  src-toi-fidf-2014:           {title: "Times of Israel, 8 Nov 2014", url: "https://www.timesofisrael.com/hollywood-gala-raises-a-record-33-million-for-idf/amp/", authenticity: "news report"}
+  src-fidf-gala-reports:       {title: "JTA, 5 Nov 2017 (FIDF gala)", url: "https://www.jta.org/2017/11/05/united-states/record-53-8-million-raised-for-idf-soldiers-at-beverly-hills-gala", authenticity: "news report"}
 
 events:
   # ---------------- Panel A: 1993 to Sep 2023 ----------------
@@ -390,3 +395,19 @@ events:
   - {id: p10, panel: years, lane: charities, time: "2016-08-31T12:00:00Z", precision: day, kind: document, status: single, sources: [src-sokolow-2016],
      label: "31 Aug 2016: $655.5M verdict against the PLO dismissed for lack of jurisdiction",
      detail: "Sokolow v. PLO, Second Circuit."}
+  # ---------------- US charities for Israeli soldiers ----------------
+  - {id: f01, panel: middle, lane: military, time: "2018-07-01T00:00:00Z", precision: year, kind: data, status: single, sources: [src-990-fidf],
+     label: "2018: FIDF revenue $132.7M; Adelson Family Foundation grants it $10.58M",
+     detail: "FIDF grants paid $69.7M (Form 990). Adelson grant from the foundation's 990-PF."}
+  - {id: f02, panel: years, lane: military, time: "2014-11-06T12:00:00Z", precision: day, kind: media, status: reported, sources: [src-toi-fidf-2014],
+     label: "6 Nov 2014: FIDF gala pledges $33M+, incl. Dell $1.8M, Ellison $9-10M",
+     detail: "Reported pledges (Times of Israel, Bloomberg, Israel Hayom); Dell's for scholarships. No pledge matched to a filed payment."}
+  - {id: f03, panel: middle, lane: military, time: "2017-11-02T12:00:00Z", precision: day, kind: media, status: single, sources: [src-fidf-gala-reports],
+     label: "Nov 2017: FIDF gala reports $53.8M, Ellison $16.6M",
+     detail: "Reported pledge for facilities on an infantry training campus (JTA)."}
+  - {id: f04, panel: recent, lane: military, time: "2024-01-01T00:00:00Z", end: "2024-12-31T23:59:00Z", precision: range, kind: data, status: single, sources: [src-990-fidf],
+     label: "2023-2024: FIDF revenue $282.0M then $187.5M; grants $111.9M and $107.4M",
+     detail: "Recipients unnamed in its returns; 2023 Emergency Campaign $57.6M."}
+  - {id: f05, panel: recent, lane: military, time: "2025-06-01T00:00:00Z", precision: year, kind: data, status: single, sources: [src-fidf-funder-grants],
+     label: "2012-2025: 1,253 funders' returns show at least $200.2M granted to FIDF",
+     detail: "Largest: Adelson FF $28.6M, IFCJ $15.5M, Saban FF $10.6M, Fidelity Charitable $7.3M, Jewish Communal Fund $6.8M, Koum FF $6.8M."}

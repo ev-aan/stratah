@@ -425,6 +425,96 @@ entities:
   name: Saudi Committee for the Support of the Intifada Al-Quds (as named in Linde)
   type: government_committee
   country: SA
+- id: fidf
+  name: Friends of the Israel Defense Forces
+  type: charity
+  country: US
+  ids:
+    ein: 13-3156445
+- id: idf-programs
+  name: Israeli military welfare programs (recipients unnamed in FIDF filings)
+  type: organization
+  country: IL
+- id: af-libi
+  name: American Friends of LIBI
+  type: charity
+  country: US
+  ids:
+    ein: 32-0081620
+- id: libi-fund
+  name: LIBI Fund
+  type: organization
+  country: IL
+- id: brothers-for-life
+  name: Brothers for Life
+  type: charity
+  country: US
+  ids:
+    ein: 91-2105756
+- id: friends-idv
+  name: Friends of Israel Disabled Veterans
+  type: charity
+  country: US
+  ids:
+    ein: 13-3392711
+- id: zahal-dv-fund
+  name: Zahal Disabled Veterans Fund of Israel
+  type: organization
+  country: IL
+- id: ifcj
+  name: International Fellowship of Christians and Jews
+  type: charity
+  country: US
+  ids:
+    ein: 36-3256096
+- id: saban-ff
+  name: Saban Family Foundation
+  type: foundation
+  country: US
+  ids:
+    ein: 95-4769273
+- id: jcf
+  name: Jewish Communal Fund (donor-advised funds)
+  type: donor_advised_fund
+  country: US
+  ids:
+    ein: 23-7174183
+- id: marcus-foundation
+  name: Marcus Foundation
+  type: foundation
+  country: US
+  ids:
+    ein: 58-1815651
+- id: schecter-foundation
+  name: Leroy Schecter Foundation
+  type: foundation
+  country: US
+  ids:
+    ein: 30-0134495
+- id: crown-ff
+  name: Crown Family Foundation
+  type: foundation
+  country: US
+  ids:
+    ein: 36-3330462
+- id: dell-foundation
+  name: Michael & Susan Dell Foundation
+  type: foundation
+  country: US
+  ids:
+    ein: 36-4336415
+- id: dell-michael-susan
+  name: Michael and Susan Dell (as reported pledgers)
+  type: individual_public
+  country: US
+- id: ellison-larry
+  name: Larry Ellison (as reported pledger)
+  type: individual_public
+  country: US
+- id: sheba
+  name: Sheba Medical Center
+  type: hospital
+  country: IL
 flows:
 - from: havas-de
   to: clock-tower-x
@@ -1462,3 +1552,238 @@ flows:
   status: judgment
   source: src-boim-2017
   note: Boim civil judgment against defendants incl. HLF (amount is damages, not a transfer)
+- from: fidf
+  to: idf-programs
+  amount: 69700000
+  currency: USD
+  date: '2018'
+  kind: grant_abroad
+  status: filed
+  source: src-990-fidf
+  note: Grants paid (Form 990); recipients unnamed, "general support", Middle East
+- from: fidf
+  to: idf-programs
+  amount: 80700000
+  currency: USD
+  date: '2019'
+  kind: grant_abroad
+  status: filed
+  source: src-990-fidf
+  note: Grants paid (Form 990); recipients unnamed, "general support", Middle East
+- from: fidf
+  to: idf-programs
+  amount: 56300000
+  currency: USD
+  date: '2020'
+  kind: grant_abroad
+  status: filed
+  source: src-990-fidf
+  note: Grants paid (Form 990); recipients unnamed, "general support", Middle East
+- from: fidf
+  to: idf-programs
+  amount: 65200000
+  currency: USD
+  date: '2021'
+  kind: grant_abroad
+  status: filed
+  source: src-990-fidf
+  note: Grants paid (Form 990); recipients unnamed, "general support", Middle East
+- from: fidf
+  to: idf-programs
+  amount: 61100000
+  currency: USD
+  date: '2022'
+  kind: grant_abroad
+  status: filed
+  source: src-990-fidf
+  note: Grants paid (Form 990); recipients unnamed, "general support", Middle East
+- from: fidf
+  to: idf-programs
+  amount: 111900000
+  currency: USD
+  date: '2023'
+  kind: grant_abroad
+  status: filed
+  source: src-990-fidf
+  note: Grants paid (Form 990); recipients unnamed, "general support", Middle East
+- from: fidf
+  to: idf-programs
+  amount: 107400000
+  currency: USD
+  date: '2024'
+  kind: grant_abroad
+  status: filed
+  source: src-990-fidf
+  note: Grants paid (Form 990); recipients unnamed, "general support", Middle East
+- from: af-libi
+  to: libi-fund
+  amount: 9050000
+  currency: USD
+  date: '2024'
+  kind: grant_abroad
+  status: filed
+  source: src-990-military-charities
+- from: brothers-for-life
+  to: idf-programs
+  amount: 21000000
+  currency: USD
+  date: '2024'
+  kind: grant_abroad
+  status: filed
+  source: src-990-military-charities
+  note: One unnamed foreign grantee
+- from: friends-idv
+  to: zahal-dv-fund
+  amount: 10750000
+  currency: USD
+  date: '2024'
+  kind: grant_abroad
+  status: filed
+  source: src-990-military-charities
+- from: adelson-ff
+  to: fidf
+  amount: 10581000
+  currency: USD
+  date: '2018'
+  kind: foundation_grant
+  status: filed
+  source: src-fidf-funder-grants
+- from: adelson-ff
+  to: fidf
+  amount: 9216800
+  currency: USD
+  date: '2019'
+  kind: foundation_grant
+  status: filed
+  source: src-fidf-funder-grants
+- from: adelson-ff
+  to: fidf
+  amount: 4555975
+  currency: USD
+  date: '2020'
+  kind: foundation_grant
+  status: filed
+  source: src-fidf-funder-grants
+- from: adelson-ff
+  to: fidf
+  amount: 4292966
+  currency: USD
+  date: '2021'
+  kind: foundation_grant
+  status: filed
+  source: src-fidf-funder-grants
+- from: ifcj
+  to: fidf
+  amount: 10539300
+  currency: USD
+  date: '2017'
+  kind: foundation_grant
+  status: filed
+  source: src-fidf-funder-grants
+- from: ifcj
+  to: fidf
+  amount: 4999950
+  currency: USD
+  date: '2018'
+  kind: foundation_grant
+  status: filed
+  source: src-fidf-funder-grants
+- from: koum
+  to: fidf
+  amount: 5300000
+  currency: USD
+  date: '2018'
+  kind: foundation_grant
+  status: filed
+  source: src-fidf-funder-grants
+- from: saban-ff
+  to: fidf
+  amount: 10550000
+  currency: USD
+  date: 2012-2025
+  kind: foundation_grant
+  status: filed
+  source: src-fidf-funder-grants
+  note: Total 2019-2024
+- from: fidelity-charitable
+  to: fidf
+  amount: 7290000
+  currency: USD
+  date: 2012-2025
+  kind: foundation_grant
+  status: filed
+  source: src-fidf-funder-grants
+  note: Total over years found; donors not named
+- from: jcf
+  to: fidf
+  amount: 6850000
+  currency: USD
+  date: 2012-2025
+  kind: foundation_grant
+  status: filed
+  source: src-fidf-funder-grants
+  note: Total over years found; donors not named
+- from: marcus-foundation
+  to: fidf
+  amount: 4010000
+  currency: USD
+  date: 2012-2025
+  kind: foundation_grant
+  status: filed
+  source: src-fidf-funder-grants
+  note: Total over years found
+- from: schecter-foundation
+  to: fidf
+  amount: 4000000
+  currency: USD
+  date: 2012-2025
+  kind: foundation_grant
+  status: filed
+  source: src-fidf-funder-grants
+  note: Total over years found
+- from: crown-ff
+  to: fidf
+  amount: 4120000
+  currency: USD
+  date: 2012-2025
+  kind: foundation_grant
+  status: filed
+  source: src-fidf-funder-grants
+  note: Total over years found
+- from: dell-michael-susan
+  to: fidf
+  amount: 1800000
+  currency: USD
+  date: '2014-11-06'
+  kind: reported_pledge
+  status: pledged
+  source: src-toi-fidf-2014
+  note: Reported pledge at the FIDF Western Region gala, for soldiers' and veterans' scholarships; payment not found in a filing (2014 Dell foundation
+    return unread)
+- from: ellison-larry
+  to: fidf
+  amount: 9000000
+  currency: USD
+  date: '2014-11-06'
+  kind: reported_pledge
+  status: sources_differ
+  source: src-bloomberg-fidf-2014
+  note: Bloomberg and Israel Hayom $9M; Times of Israel $10M
+- from: ellison-larry
+  to: fidf
+  amount: 16600000
+  currency: USD
+  date: '2017-11-02'
+  kind: reported_pledge
+  status: pledged
+  source: src-fidf-gala-reports
+  note: Reported (JTA) for well-being facilities on an infantry training campus
+- from: dell-foundation
+  to: sheba
+  amount: 900000
+  currency: USD
+  date: '2024'
+  kind: foundation_grant
+  status: filed
+  source: src-990-dell-foundation
+  note: Pediatric mental-health care after trauma (grant database citing the 2024 return)

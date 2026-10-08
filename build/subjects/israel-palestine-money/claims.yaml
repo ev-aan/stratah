@@ -1178,6 +1178,67 @@ claims:
       sources: [src-gaza-moi-2012, src-peninsula-2012, src-qatar-mofa-2014-10-12]
       accessible: true
 
+  - id: ipm-us-charities-idf-funding
+    state: established
+    statement_kind: reported
+    statement: >
+      US charities send money to programs for Israeli soldiers and veterans. The largest, Friends of the
+      Israel Defense Forces (FIDF), reported revenue of $282.0 million in 2023 and $187.5 million in 2024,
+      and grants paid of $111.9 million and $107.4 million, all listed as general support in the Middle
+      East with the recipients unnamed. Its 2024 programs include about $41.5 million for mental-health
+      and PTSD construction and $14.2 million in scholarships to 3,431 recipients. Others include
+      Brothers for Life ($19.9 million revenue in 2024), American Friends of LIBI ($9.05 million to the
+      LIBI Fund in 2024) and Friends of Israel Disabled Veterans ($10.75 million to the Zahal Disabled
+      Veterans Fund in 2024).
+    evidence_class: primary_text
+    confidence: high
+    evidential_weight: 4
+    anchor_checked: primary
+    adoption_weight: 2
+    adoption_note: "Adoption is information, not evidence."
+    would_change_if: "amended returns change the figures; or FIDF's foreign grantees are named in a public record"
+    anchor:
+      type: primary_text
+      description: >
+        FIDF Form 990s for FY2013-2024 read as rendered from IRS e-files (FY2012 partly, FY2011 totals only;
+        earlier PDF-only returns blocked). FIDF's FY2023 Schedule F region total ($136.97M) does not match its
+        grants line ($111.9M); the return does not explain the gap. The other charities' returns read for
+        their latest years.
+      sources: [src-990-fidf, src-990-military-charities]
+      accessible: true
+
+  - id: ipm-fidf-funders
+    state: established
+    statement_kind: reported
+    statement: >
+      Foundation and charity tax returns filed from 2012 to 2025 show at least $200.2 million granted to
+      FIDF by 1,253 named funders (3,053 grant entries). The largest in the returns found: the Adelson Family
+      Foundation ($28.6 million, mostly 2018-2021), the International Fellowship of Christians and Jews
+      ($15.5 million), the Saban Family Foundation ($10.6 million), Fidelity Charitable ($7.3 million) and the
+      Jewish Communal Fund ($6.8 million), both donor-advised fund sponsors whose donors are not named, and
+      the Koum Family Foundation ($6.8 million). Pledges announced at FIDF galas are reported separately: in
+      November 2014 Michael and Susan Dell pledged $1.8 million for soldiers' and veterans' scholarships and
+      Larry Ellison $9 million or $10 million (sources differ); in 2017 Ellison pledged $16.6 million for
+      facilities on an infantry training campus.
+    evidence_class: primary_text
+    confidence: moderate
+    evidential_weight: 4
+    anchor_checked: primary
+    adoption_weight: 2
+    adoption_note: "Gala pledges are widely reported as donations; no reported pledge was matched to a filed payment. Adoption is information, not evidence."
+    would_change_if: "a full scan of all returns (beyond the search cap) raises the totals; or the Dell foundation's 2014 return shows whether the pledge was paid"
+    anchor:
+      type: primary_text
+      description: >
+        Grant rows in data/fidf-funder-grants-2012-2025.csv, found by full-text search of e-filed returns and
+        extracted by script; 22 funders and every row over $250,000 checked by hand. Lower bound: the search
+        is capped at 100 pages, 20 rows have no amount, and 7 may repeat a grant in an amended return.
+        Individual donors are not in any public FIDF filing (its donor schedule is not public). Gala pledges
+        come from news reports read through a summarizing tool. The Dell foundation's 2021-2024 returns list
+        no grant to FIDF; its 2014-2017 returns are PDF-only and were not read.
+      sources: [src-fidf-funder-grants, src-990-dell-foundation, src-toi-fidf-2014, src-bloomberg-fidf-2014, src-israelhayom-fidf-2014, src-fidf-gala-reports]
+      accessible: true
+
   - id: ipm-state-media-funding-gap
     state: searched_gap
     statement_kind: search_result

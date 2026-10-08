@@ -1165,3 +1165,103 @@ sources:
       gaps:
       - Read through a summarizing tool.
       checked: '2026-10-07'
+
+  # ---------------- US charities supporting the Israeli military, and their funders ----------------
+  - id: src-990-fidf
+    title: Friends of the Israel Defense Forces (EIN 13-3156445), Form 990 FY2011-FY2024 (Schedule F, Schedule O)
+    url: https://projects.propublica.org/nonprofits/organizations/133156445
+    document_class: primary_text
+    read: full (e-filed returns FY2013-2024; FY2012 partly; FY2011 API totals only)
+    authenticity:
+      status: authenticated
+      strength: moderate
+      provenance: IRS e-filed return as rendered by ProPublica Nonprofit Explorer.
+      tests:
+      - EIN, year and totals consistent across the return [x]
+      tested_by: Strata session, 2026-10-08
+      gaps:
+      - Foreign grantees unnamed in every e-filed Schedule F; FY2023 Schedule F region total does not reconcile with the grants line; returns before FY2011
+        are PDF-only and blocked.
+      checked: '2026-10-08'
+  - id: src-990-military-charities
+    title: 'Form 990s of US charities supporting Israeli soldiers and veterans: American Friends of LIBI (32-0081620), Brothers for Life (91-2105756), Belev
+      Echad (81-1569698), Friends of Israel Disabled Veterans (13-3392711), Friends of Yashar LaChayal (20-8021512), Michael Levin Lone Soldier Foundation
+      (47-3798721)'
+    url: https://projects.propublica.org/nonprofits/organizations/320081620
+    document_class: primary_text
+    read: full (e-filed returns, latest years)
+    authenticity:
+      status: authenticated
+      strength: moderate
+      provenance: IRS e-filed return as rendered by ProPublica Nonprofit Explorer.
+      tests:
+      - EIN, year and totals consistent across the return [x]
+      tested_by: Strata session, 2026-10-08
+      gaps:
+      - Some foreign grantees unnamed (e.g. Brothers for Life, $21M in FY2024).
+      checked: '2026-10-08'
+  - id: src-fidf-funder-grants
+    title: Grants to FIDF in foundation (990-PF Part XV) and charity (990 Schedule I) returns, TY2012-2025, found by ProPublica full-text search; rows in
+      data/fidf-funder-grants-2012-2025.csv
+    url: https://projects.propublica.org/nonprofits/full_text_search?q=%22Friends+of+the+Israel+Defense+Forces%22
+    document_class: primary_text
+    read: full (about 2,900 schedules; rows extracted by script, 22 funders and all rows over $250K checked by hand)
+    authenticity:
+      status: authenticated
+      strength: moderate
+      provenance: IRS e-filed return as rendered by ProPublica Nonprofit Explorer.
+      tests:
+      - EIN, year and totals consistent across the return [x]
+      tested_by: Strata session, 2026-10-08
+      gaps:
+      - Search capped at 100 pages, so totals are lower bounds; name variants ("Friends of Israel Defense Forces") were found only by opening funder returns;
+        donor-advised funds do not name their donors.
+      checked: '2026-10-08'
+  - id: src-990-dell-foundation
+    title: Michael & Susan Dell Foundation (EIN 36-4336415), Form 990-PF 2018-2024 (e-filed); 2014-2017 PDF-only
+    url: https://projects.propublica.org/nonprofits/organizations/364336415
+    document_class: primary_text
+    read: full for 2021-2024 itemized grants; 2018-2020 grant list in an attachment not in the e-file; 2014-2017 blocked (PDF, HTTP 403)
+    authenticity:
+      status: authenticated
+      strength: moderate
+      provenance: IRS e-filed return as rendered by ProPublica Nonprofit Explorer.
+      tests:
+      - EIN, year and totals consistent across the return [x]
+      tested_by: Strata session, 2026-10-08
+      gaps:
+      - The 2014 return, which would show any payment of the reported 2014 pledge, was not read.
+      checked: '2026-10-08'
+  - id: src-toi-fidf-2014
+    title: Times of Israel, Hollywood gala raises a record $33 million for IDF (8 Nov 2014)
+    url: https://www.timesofisrael.com/hollywood-gala-raises-a-record-33-million-for-idf/amp/
+    document_class: secondary (news)
+    read: tool
+    authenticity:
+      status: not_applicable
+      basis: News report of pledges announced at a fundraising event.
+  - id: src-bloomberg-fidf-2014
+    title: Bloomberg, Ellison, Adelson donate to Israeli soldiers (7 Nov 2014)
+    url: https://bloomberg.com/news/articles/2014-11-07/ellison-adelson-donate-to-israeli-soldiers
+    document_class: secondary (news)
+    read: tool
+    authenticity:
+      status: not_applicable
+      basis: News report.
+  - id: src-israelhayom-fidf-2014
+    title: Israel Hayom, FIDF Western Region gala report (9 Nov 2014)
+    url: https://www.israelhayom.co.il/article/232197
+    document_class: secondary (news)
+    read: tool
+    authenticity:
+      status: not_applicable
+      basis: News report; gives Ellison as $9M where Times of Israel gives $10M.
+  - id: src-fidf-gala-reports
+    title: 'Reports of FIDF galas 2010-2020: Jerusalem Post 2010, Algemeiner 2012, Times of Israel 2015, Ynetnews 2016, JTA 2017, JewishLink 2017 and 2018,
+      JNS 2018 and 2020'
+    url: https://www.jta.org/2017/11/05/united-states/record-53-8-million-raised-for-idf-soldiers-at-beverly-hills-gala
+    document_class: secondary (news)
+    read: tool (some pages blocked or metadata only; listed in log L-17)
+    authenticity:
+      status: not_applicable
+      basis: News reports of pledges.
