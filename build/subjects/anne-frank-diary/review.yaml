@@ -305,5 +305,5 @@ rounds:
           The extract quotes the Anne Frank House sentence that names the Amsterdam defendant ('civil proceedings against Verbeke, Faurisson and Free Historical Research'), outside the naming exception stated in L-08, and L-13 says the surname is no longer repeated outside the manifest title and author fields.
           Either replace the names with [the defendants] in the extract and note the edit in the manifest, or state the exception in a new log entry. L-13 is history and is not edited.
         evidence: "grep -rn Verbeke build/subjects/anne-frank-diary (excluding review.yaml): MANIFEST.yaml lines 457-458 and af-authenticity-extract.txt line 6."
-        author_response: ""
+        author_response: {action: fixed, note: "Owner ruling 2026-10-08: adults who are parties to a court case may be named; only minors are withheld. The Anne Frank House sentence in af-authenticity-extract.txt line 6 is kept unchanged. L-14 states the exception and corrects L-13; L-13 is not edited.", commit: ""}
         resolved: ""
