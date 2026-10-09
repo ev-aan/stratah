@@ -1385,6 +1385,111 @@ claims:
       sources: [src-ksrelief-palestine, src-wam-uae-gaza, src-fara-qatar-plo, src-sec117-qatar, src-ofac-iran-palestinian]
       accessible: true
 
+  - id: ipm-congress-sponsored-trips
+    state: established
+    statement_kind: reported
+    statement: >
+      Members of Congress and their staff reported 713 privately sponsored trips to Israel or the Palestinian
+      territories from 2019 to 2026 (649 House, 64 Senate). The American Israel Education Foundation, AIPAC's
+      affiliate, sponsored 412 of them (387 House trips by 154 distinct members, $5.84 million on the 372 with
+      complete costs, and 25 Senate trips, $419,000); the J Street Education Fund sponsored 121; JINSA 51;
+      Rebuilding Alliance 37, including five of the six trips that list a West Bank or Palestinian destination.
+      Trips rose from 6 in 2020 and 2021 to 157 in 2022 and 171 in 2025. The foundation's own returns show its
+      trip spending ranging from $87,000 (FY2021) to $7.7 million (FY2019), and grants to AIPAC of $8.4 to $13.9
+      million a year through FY2020.
+    evidence_class: primary_text
+    confidence: high
+    evidential_weight: 4
+    anchor_checked: primary
+    adoption_weight: 2
+    adoption_note: "Adoption is information, not evidence."
+    would_change_if: "pre-2019 House or pre-2022 Senate filings are found; or amended costs differ"
+    anchor:
+      type: primary_text
+      description: >
+        House Clerk gift-travel index downloaded and filtered by a rule written first (data/trips/filter_rule.txt);
+        costs read from scanned forms by eye or by three agreeing OCR reads. All Senate filings 2022-2026
+        screened. Each trip is a row in data/trips/trips.csv with its own filing link. Gap: no House filings
+        online before 2018 and no Senate filings before 2022; the destination field often says only "Israel".
+      sources: [src-house-gift-travel, src-senate-gift-travel, src-990-aief]
+      accessible: true
+
+  - id: ipm-votes-beside-money
+    state: established
+    statement_kind: reported
+    statement: >
+      On 34 House and Senate roll calls from 2019 to 2026 selected by a written rule (bills and resolutions on
+      Israel, Gaza, Hamas, UNRWA, Iron Dome, antisemitism or boycotts), 486 of 647 members received money from
+      pro-Israel committees in 2020-2026 (215 Democrats, 271 Republicans), 423 of them through AIPAC PAC
+      earmarked transfers; 186 Democrats received J Street PAC money; 18 Democrats received money from
+      Palestinian-advocacy or critical committees; 78 members received none from any listed committee. Votes
+      and money both divide mainly by party: on H.R. 8369 (2024), Republicans with pro-Israel money voted 202 to
+      0 in favour, Democrats with it 16 to 130, Democrats without it 0 to 54. This shows timing and
+      co-occurrence only; it does not show that money caused any vote.
+    evidence_class: synthetic
+    confidence: moderate
+    evidential_weight: 3
+    anchor_checked: secondary
+    adoption_weight: 3
+    adoption_note: "Claims that money buys votes, and that it does not, are both widely made; this records who received what and how they voted. Adoption is information, not evidence."
+    would_change_if: "the remaining 28 votes differ from official records; or a document shows a specific link between a payment and a vote (rule P9 decisive tier)"
+    anchor:
+      type: dataset
+      description: >
+        Voteview roll calls (6 of 34 checked member by member against official XML, zero mismatches) and FEC bulk
+        files (committee contributions, conduit reports, independent expenditures, de-duplicated). Group labels
+        are ours and are stated in the data files. Senate coverage is effectively two votes.
+      sources: [src-voteview-fec-votes, src-fec-bulk]
+      accessible: true
+    basis: "Rule P5 and P9 apply: money beside a vote is context; no inducement claim is made for any member."
+
+  - id: ipm-ocha-humanitarian-funding
+    state: established
+    statement_kind: reported
+    statement: >
+      Reported humanitarian funding to the occupied Palestinian territory, per the UN's Financial Tracking
+      Service, was $931.9 million in 2014, $980.9 million in 2022, $1.87 billion in 2023, $3.77 billion in 2024
+      and $4.44 billion in 2025 ($3.04 billion in 2026 to 8 October). The largest reported donors were Saudi
+      Arabia in 2000-2001, the United States in 2014 ($301.9 million), the Qatar Fund for Development in
+      2021-2022 ($291.0 million, $384.6 million) and the UAE government from 2023 ($1.61 billion in 2025, partly
+      reported to its own aid body), followed by the United States ($635.4 million in 2024, $568.0 million in
+      2025). The UN appeal was 84.8% funded in 2024 and 67.8% in 2025.
+    evidence_class: primary_text
+    confidence: moderate
+    evidential_weight: 4
+    anchor_checked: primary
+    adoption_weight: 2
+    adoption_note: "Adoption is information, not evidence."
+    would_change_if: "donors revise their reports; FTS totals are updated"
+    anchor:
+      type: dataset
+      description: "All 15,456 FTS flows downloaded through the public API and hashed; totals are FTS's own incoming paid and committed figures, pledges kept separate. Self-reported data. data/ocha-fts/."
+      sources: [src-ocha-fts]
+      accessible: true
+
+  - id: ipm-un-settlement-business-list
+    state: established
+    statement_kind: reported
+    statement: >
+      The UN human rights office listed 112 companies in February 2020 as involved in activities in Israeli
+      settlements, kept 97 in its June 2023 update and listed 158 in September 2025 (A/HRC/60/19); 182 companies
+      appear across the three editions, 155 of them Israeli, with others domiciled in the US, the Netherlands,
+      Spain, France and the UK. Norway's state fund has excluded 15 of the listed companies, and KLP excluded 16
+      in June 2021 with later decisions; ABP's June 2026 list includes none. A 2026 update reportedly lists 214
+      companies; it could not be opened.
+    evidence_class: primary_text
+    confidence: high
+    evidential_weight: 4
+    anchor_checked: primary
+    adoption_weight: 2
+    adoption_note: "Adoption is information, not evidence."
+    would_change_if: "the 2026 update is read; or the funds' individual recommendations give different reasons or dates"
+    anchor:
+      type: primary_text
+      description: "The three UN documents parsed in full; company rows with activity codes and removals in data/un-business-database/companies.csv; fund decisions in exclusions.csv. ohchr.org returned 403 throughout."
+      sources: [src-ohchr-business-db, src-fund-exclusions]
+      accessible: true
+
   - id: ipm-state-media-funding-gap
     state: searched_gap
     statement_kind: search_result

@@ -1499,3 +1499,114 @@ sources:
     authenticity:
       status: not_applicable
       basis: WAM page itself did not load.
+
+  # ---------------- Congressional trips, votes and money, OCHA aid flows, UN business database ----------------
+  - id: src-house-gift-travel
+    title: House Clerk privately sponsored travel filings 2018-2026, filtered to Israel and Palestinian destinations; rows in data/trips/trips.csv, filter
+      rule in data/trips/filter_rule.txt
+    url: https://disclosures-clerk.house.gov/
+    document_class: primary_text
+    read: full (index downloaded; costs read from scanned forms by eye or agreed across three OCR reads; 40/40 and 50/51 spot checks matched)
+    authenticity:
+      status: authenticated
+      strength: strong
+      provenance: Office of the Clerk, US House of Representatives.
+      tests:
+      - Rows link their own documents; totals checked against the source system [x]
+      tested_by: Strata session, 2026-10-09
+      gaps:
+      - Filings before 2018 no longer online; 13 filings not served; J Street House forms list "Other" costs as "See Attached", so no complete totals.
+      checked: '2026-10-09'
+  - id: src-senate-gift-travel
+    title: Senate privately sponsored travel filings 2022-2026 (all 1,955 screened), Israel and Palestinian destinations; rows in data/trips/trips.csv
+    url: https://efdsearch.senate.gov/
+    document_class: primary_text
+    read: full (74 relevant filings read by eye)
+    authenticity:
+      status: authenticated
+      strength: strong
+      provenance: Senate Office of Public Records.
+      tests:
+      - Rows link their own documents; totals checked against the source system [x]
+      tested_by: Strata session, 2026-10-09
+      gaps:
+      - Senate keeps filings four years only; 3 PDFs would not open; some amendments unread.
+      checked: '2026-10-09'
+  - id: src-990-aief
+    title: American Israel Education Foundation, Form 990 FY2013-FY2025 (trip expenses, grants to AIPAC)
+    url: https://projects.propublica.org/nonprofits/search?q=American+Israel+Education+Foundation
+    document_class: primary_text
+    read: full (e-filed returns)
+    authenticity:
+      status: authenticated
+      strength: moderate
+      provenance: IRS e-filed returns rendered by ProPublica.
+      tests:
+      - Rows link their own documents; totals checked against the source system [x]
+      tested_by: Strata session, 2026-10-09
+      gaps:
+      - The 990 does not separate congressional trips from other trips.
+      checked: '2026-10-09'
+  - id: src-voteview-fec-votes
+    title: House and Senate roll calls 2019-2026 selected by a written rule (data/votes-money/SELECTION_RULE.md), with FEC committee contributions, conduit
+      (earmarked) transfers and independent expenditures per member; data/votes-money/
+    url: https://voteview.com/data
+    document_class: dataset (Voteview, a secondary compilation of official roll calls; FEC bulk files, official)
+    read: full (6 of 34 votes checked member by member against official XML, zero mismatches)
+    authenticity:
+      status: authenticated
+      strength: moderate
+      provenance: Voteview (UCLA) and Federal Election Commission bulk files.
+      tests:
+      - Rows link their own documents; totals checked against the source system [x]
+      tested_by: Strata session, 2026-10-09
+      gaps:
+      - 28 votes not individually checked against official XML; member-to-FEC crosswalk from a secondary dataset; some AIPAC PAC conduit rows name no recipient.
+      checked: '2026-10-09'
+  - id: src-ocha-fts
+    title: UN OCHA Financial Tracking Service, all reported humanitarian funding flows to the occupied Palestinian territory (location 171), 2000-2026; data/ocha-fts/
+    url: https://fts.unocha.org/countries/171/summary/2025
+    document_class: dataset (official, self-reported by donors and agencies)
+    read: full (15,456 flows downloaded via the public API; raw files hashed)
+    authenticity:
+      status: authenticated
+      strength: strong
+      provenance: UN Office for the Coordination of Humanitarian Affairs.
+      tests:
+      - Rows link their own documents; totals checked against the source system [x]
+      tested_by: Strata session, 2026-10-09
+      gaps:
+      - Self-reported; from 2016 the sum of records differs from FTS totals by -8% to +6% (multi-country flows), so FTS totals are used; UAE reports partly
+        to its own aid body.
+      checked: '2026-10-09'
+  - id: src-ohchr-business-db
+    title: 'UN Human Rights Council database of business enterprises in settlement activities: A/HRC/43/71 (28 Feb 2020), OHCHR update (30 Jun 2023), A/HRC/60/19
+      (26 Sep 2025); data/un-business-database/companies.csv'
+    url: https://documents.un.org/api/symbol/access?s=A/HRC/60/19&l=en&t=pdf
+    document_class: primary_text
+    read: full (all three documents parsed)
+    authenticity:
+      status: authenticated
+      strength: strong
+      provenance: UN official documents.
+      tests:
+      - Rows link their own documents; totals checked against the source system [x]
+      tested_by: Strata session, 2026-10-09
+      gaps:
+      - The 2026 update A/HRC/63/20 could not be opened; its totals (214 companies) are known only from press reports.
+      checked: '2026-10-09'
+  - id: src-fund-exclusions
+    title: 'Investor exclusion decisions for companies on the UN list: Norway GPFG (NBIM), KLP, ABP; data/un-business-database/exclusions.csv'
+    url: https://www.nbim.no/en/responsible-investment/ethical-exclusions/exclusion-of-companies/
+    document_class: primary_text
+    read: full (fund pages and decision lists)
+    authenticity:
+      status: authenticated
+      strength: moderate
+      provenance: The funds' own published lists.
+      tests:
+      - Rows link their own documents; totals checked against the source system [x]
+      tested_by: Strata session, 2026-10-09
+      gaps:
+      - NBIM dates are publishing dates, reasons are the general criterion only; KLP gives months or quarters; PFZW and the Irish fund publish no names.
+      checked: '2026-10-09'

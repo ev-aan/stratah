@@ -651,6 +651,22 @@ entities:
   name: Gaza (aid recipients)
   type: aggregate
   country: PS
+- id: aief
+  name: American Israel Education Foundation
+  type: charity
+  country: US
+- id: jstreet-ef
+  name: J Street Education Fund
+  type: charity
+  country: US
+- id: us-congress-travelers
+  name: Members of Congress and staff (sponsored travel)
+  type: aggregate
+  country: US
+- id: ocha-opt-recipients
+  name: Humanitarian recipients in the occupied Palestinian territory (FTS)
+  type: aggregate
+  country: PS
 flows:
 - from: havas-de
   to: clock-tower-x
@@ -2230,3 +2246,90 @@ flows:
   status: reported
   source: src-wam-uae-gaza
   note: State news agency figure via newspaper
+- from: aief
+  to: us-congress-travelers
+  amount: 5840000
+  currency: USD
+  date: 2019-2026
+  kind: sponsored_travel
+  status: filed
+  source: src-house-gift-travel
+  note: 387 House trips by 154 members; total of the 372 with complete costs
+- from: aief
+  to: us-congress-travelers
+  amount: 419000
+  currency: USD
+  date: 2022-2026
+  kind: sponsored_travel
+  status: filed
+  source: src-senate-gift-travel
+  note: 25 Senate trips
+- from: jstreet-ef
+  to: us-congress-travelers
+  amount: 1180000
+  currency: USD
+  date: 2019-2026
+  kind: sponsored_travel
+  status: partial
+  source: src-house-gift-travel
+  note: 121 trips; legible cost fields only
+- from: aief
+  to: aipac
+  amount: 13900000
+  currency: USD
+  date: through FY2020
+  kind: grant
+  status: filed
+  source: src-990-aief
+  note: Range $8.4M-$13.9M a year through FY2020; top of range shown
+- from: gov-ae
+  to: ocha-opt-recipients
+  amount: 677535290
+  currency: USD
+  date: '2024'
+  kind: humanitarian_funding
+  status: filed
+  source: src-ocha-fts
+  note: FTS reported; partly to its own aid body
+- from: gov-ae
+  to: ocha-opt-recipients
+  amount: 1609440641
+  currency: USD
+  date: '2025'
+  kind: humanitarian_funding
+  status: filed
+  source: src-ocha-fts
+  note: FTS reported; partly to its own aid body
+- from: gov-us
+  to: ocha-opt-recipients
+  amount: 301906492
+  currency: USD
+  date: '2014'
+  kind: humanitarian_funding
+  status: filed
+  source: src-ocha-fts
+- from: gov-us
+  to: ocha-opt-recipients
+  amount: 635375238
+  currency: USD
+  date: '2024'
+  kind: humanitarian_funding
+  status: filed
+  source: src-ocha-fts
+- from: gov-us
+  to: ocha-opt-recipients
+  amount: 568045001
+  currency: USD
+  date: '2025'
+  kind: humanitarian_funding
+  status: filed
+  source: src-ocha-fts
+- from: gov-qa
+  to: ocha-opt-recipients
+  amount: 384621295
+  currency: USD
+  date: '2022'
+  kind: humanitarian_funding
+  status: filed
+  source: src-ocha-fts
+  note: Qatar Fund for Development

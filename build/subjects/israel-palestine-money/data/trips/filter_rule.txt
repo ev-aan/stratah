@@ -1,0 +1,10 @@
+FILTER RULE (recorded before filtering, 2026-10-08):
+Source: House Clerk Gift Travel Filings yearly bulk files {2018..2026}Travel.xml
+  (https://disclosures-clerk.house.gov/public_disc/gift-pdfs/{YEAR}Travel.zip), all rows, no sampling.
+Primary rule: keep a row if Destination, case-insensitive, contains any of:
+  "israel", "jerusalem", "tel aviv", "west bank", "ramallah", "gaza", "palestin"
+Sensitivity check (reported separately, NOT merged into primary): rows matching
+  "haifa","bethlehem","hebron","golan","nazareth","galilee","tiberias","negev","eilat","jordan valley","dead sea","jericho","nablus","beersheba","tel-aviv"
+  that the primary rule missed.
+No sponsor-based inclusion: sponsor matching is used only for per-sponsor tallies, identically for all sponsors.
+Dedup: Original vs Amendment filings for the same traveler+dates+sponsor are kept as separate rows in raw extract; trip counts use one row per (MemberName, FilerName, DepartureDate, ReturnDate, TravelSponsor), preferring the latest DocID.

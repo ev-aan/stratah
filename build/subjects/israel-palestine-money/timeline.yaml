@@ -151,6 +151,10 @@ sources:
   src-fec-bulk:                {title: "FEC bulk data", url: "https://www.fec.gov/files/bulk-downloads/", authenticity: "authenticated, strong"}
   src-990-palestinian-side:    {title: "UNRWA USA Form 990s", url: "https://projects.propublica.org/nonprofits/organizations/202714426", authenticity: "authenticated, moderate"}
   src-990-federations:         {title: "JFNA Form 990s", url: "https://projects.propublica.org/nonprofits/organizations/131624240", authenticity: "authenticated, moderate"}
+  src-house-gift-travel:       {title: "House Clerk sponsored travel filings", url: "https://disclosures-clerk.house.gov/", authenticity: "authenticated, strong"}
+  src-voteview-fec-votes:      {title: "Voteview roll calls with FEC money", url: "https://voteview.com/data", authenticity: "authenticated, moderate"}
+  src-ocha-fts:                {title: "UN OCHA Financial Tracking Service (oPt)", url: "https://fts.unocha.org/countries/171/summary/2025", authenticity: "authenticated, strong"}
+  src-ohchr-business-db:       {title: "UN database of businesses in settlements (A/HRC/60/19)", url: "https://documents.un.org/api/symbol/access?s=A/HRC/60/19&l=en&t=pdf", authenticity: "authenticated, strong"}
 
 events:
   # ---------------- Panel A: 1993 to Sep 2023 ----------------
@@ -445,3 +449,19 @@ events:
   - {id: g08, panel: recent, lane: politics, time: "2024-06-30T12:00:00Z", precision: month, kind: data, status: single, sources: [src-990-federations],
      label: "FY to Jun 2024: JFNA passes $454.7M to the Jewish Agency via UIA",
      detail: "Up from $145.8-169.3M a year in 2021-2023 (Form 990s)."}
+  # ---------------- Trips, votes and money, aid, companies ----------------
+  - {id: h01, panel: middle, lane: politics, time: "2020-02-28T12:00:00Z", precision: day, kind: official, status: single, sources: [src-ohchr-business-db],
+     label: "28 Feb 2020: UN lists 112 companies active in settlements",
+     detail: "A/HRC/43/71; 97 kept in the June 2023 update; 158 in September 2025."}
+  - {id: h02, panel: recent, lane: politics, time: "2022-07-01T00:00:00Z", precision: year, kind: data, status: single, sources: [src-house-gift-travel],
+     label: "2022: 157 sponsored congressional trips to Israel (from 6 in 2021)",
+     detail: "AIEF (AIPAC affiliate) sponsored 412 of 713 trips 2019-2026; J Street Education Fund 121; JINSA 51."}
+  - {id: h03, panel: recent, lane: politics, time: "2024-06-04T12:00:00Z", precision: day, kind: data, status: single, sources: [src-voteview-fec-votes],
+     label: "2024: House votes on Israel bills split mainly by party; money tabulated beside them",
+     detail: "486 of 647 members got pro-Israel committee money 2020-2026. Timing and co-occurrence only, not cause."}
+  - {id: h04, panel: recent, lane: money, time: "2024-07-01T00:00:00Z", precision: year, kind: data, status: single, sources: [src-ocha-fts],
+     label: "2024: reported humanitarian funding to Gaza and West Bank $3.77B",
+     detail: "UAE $677.5M and US $635.4M largest donors (FTS); 2025: $4.44B, UAE $1.61B."}
+  - {id: h05, panel: recent, lane: politics, time: "2025-09-26T12:00:00Z", precision: day, kind: official, status: single, sources: [src-ohchr-business-db],
+     label: "26 Sep 2025: UN settlement business list grows to 158 companies",
+     detail: "A/HRC/60/19; 2026 update reported at 214 (not read)."}

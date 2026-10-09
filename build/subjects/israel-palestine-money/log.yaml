@@ -180,3 +180,14 @@ log:
       source and read status. Added 16 sources, six claims, eight timeline events and the key transfers to the
       ledger. Known limits are recorded on each claim; the largest are that charity returns report by region,
       not Gaza or West Bank, and that Saudi, UAE and Turkish FARA receipts were not compiled.
+  - id: L-19
+    date: 2026-10-09
+    entry: >
+      Owner approved four more passes: sponsored congressional trips, member votes beside FEC money, the UN
+      OCHA aid database, and the UN business database with fund exclusions. Added data folders trips/,
+      votes-money/ (with a vote selection rule written before results), ocha-fts/ (flows compressed) and
+      un-business-database/; 7 sources; claims ipm-congress-sponsored-trips, ipm-votes-beside-money,
+      ipm-ocha-humanitarian-funding, ipm-un-settlement-business-list; five timeline events; ledger additions.
+      Members of Congress are named as public officials in their own disclosures. The votes-and-money claim
+      makes no inducement claim (P5, P9). Gaps: trips before 2019 (House) and 2022 (Senate) not online; 28 of
+      34 votes not checked against official XML; the 2026 UN business update (A/HRC/63/20) not opened.
