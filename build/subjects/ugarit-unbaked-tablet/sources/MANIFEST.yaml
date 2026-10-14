@@ -1,0 +1,133 @@
+# Sources for ugarit-unbaked-tablet (rules A1-A10, build/SCHEMA.md). Retrieved 2026-10-14 by a Stratah dig agent (not an independent review).
+# NOTHING here is primary data. No image, squeeze, plate or photograph of any tablet was seen; no cuneiform sign was read.
+# Everything read is a book, a catalogue entry or a handoff note (all CLAIMS). Nothing is stored in the repository; sources are cited by URL.
+# Funding/control of every author, publisher and excavation sponsor: not found in any page opened. Stated per source as UNRESEARCHED.
+retrieved: 2026-10-14
+sources:
+
+  - id: src-cline-2014
+    title: "E. H. Cline, 1177 B.C.: The Year Civilization Collapsed (Princeton University Press, 2014), Prologue, 'The Collapse of Civilizations: 1177 bc' (publisher's sample PDF, pp. 1-14ish)"
+    url: http://assets.press.princeton.edu/chapters/p10185.pdf
+    document_class: "secondary: popular-scholarly book chapter (a claim, not data). Author's and publisher's funding and control: UNRESEARCHED. Notes 24 and 25 (where the translation and the kiln statement are sourced) are NOT in the sample PDF, so Cline's own references were not read."
+    read: "yes, directly: the publisher's PDF downloaded and its text layer read (pdftotext). Pages read: the Prologue only. sha256 of the file read 6e072b21e7fe3fc695795fac19b2170cfe8944a90293c76baeea34901e1c7942 (not stored in the repository)."
+    authenticity:
+      status: authenticated
+      strength: moderate
+      provenance: "Served from assets.press.princeton.edu (the publisher's own asset host). PDF metadata: Title '1177 B.C.: The Year Civilization Collapsed - Prologue', Author Eric H. Cline, producer Adobe InDesign CS6, created 25 Feb 2014. Every page carries a Princeton University Press copyright notice. Holder of the original manuscript: not recorded."
+      tests:
+        - "PDF metadata (title, author, 2014 creation date) agrees with the printed running text and publisher copyright footer on every page (could have failed)"
+        - "Quoted letter text and the kiln sentence are in the text layer itself, not in a search snippet (could have failed)"
+      tested_by: "Stratah dig agent, 2026-10-14 (not independent of the claimant)"
+      gaps: ["Authenticates the file as the publisher's text, not that its statements are true", "Endnotes 24, 25 not in the sample", "Final printed edition not compared"]
+      next_step: "Read Cline's endnotes 24 and 25 in the printed book, then the works they cite."
+      checked: 2026-10-14
+
+  - id: src-caubet-sym
+    title: "A. Caubet, 'The Case of Ugarit and Carchemish: A Contrast', in the volume 'Symbiosis, Symbolism, and the Power of the Past: Canaan, Ancient Israel, and Their Neighbors from the Late Bronze Age through Roman Palaestina' (ISBN 9781575065458)"
+    url: https://dokumen.pub/symbiosis-symbolism-and-the-power-of-the-past-canaan-ancient-israel-and-their-neighbors-from-the-late-bronze-age-through-roman-palaestina-9781575065458.html
+    document_class: "secondary: scholarly chapter by a Louvre curator (a claim, not data). Editors, publisher, year and funding of the volume, and Caubet's funding: UNRESEARCHED (not read on the page opened). The chapter's own author line reads 'Annie Caubet, Departement des Antiquites Orientales, Musee du Louvre, Paris'."
+    read: "yes, directly: the full-text HTML of a third-party scan site (dokumen.pub) saved and the chapter's text read. sha256 of the HTML page read e513342652689ce995d48d30b44e3a9db3b219a1b91b618f382735c8bd30b48a (not stored). The page is a COPY of a copyrighted book posted by a third party; its licence status is unknown and only short quotes are used."
+    authenticity:
+      status: unchecked
+      provenance: "A third-party mirror of the book's text. Not compared with the print book or the publisher's copy. Authorship is taken from the byline inside the mirrored text only."
+      copy_of: "the printed volume (publisher not read)"
+      sha256: e513342652689ce995d48d30b44e3a9db3b219a1b91b618f382735c8bd30b48a
+      compared_with_holder_copy: "no"
+      tests: []
+      tested_by: "none"
+      gaps: ["Mirror not compared with the print volume", "Bibliography entries (Calvet 1990, Yon 1992, Millard 1995, Singer 1987, Nougayrol 1955/1956/1968) were seen only as citations"]
+      next_step: "Read the chapter in a library copy of the printed volume and then Yon 1992, Millard 1995 n. 2, Calvet 1990 and Singer 1987."
+      checked: 2026-10-14
+
+  - id: src-cdli-p282588
+    title: "CDLI artifact entry P282588, 'Nougayrol Ugaritica 5, no. 22' (Cuneiform Digital Library Initiative)"
+    url: https://cdli.earth/artifacts/282588
+    document_class: "catalogue record about an object (a database entry, not the object, not an image). Funders and controllers of CDLI: UNRESEARCHED."
+    read: "yes, directly: the page HTML saved and read; sha256 57bd43146d20e98e31cd25ca94a120044b0c6ae8ada1711f41d13a312f64ed09 (not stored). No transliteration, photograph or findspot appears on the entry."
+    authenticity:
+      status: unchecked
+      provenance: "Database entry; museum collection, museum number, findspot, stratigraphic level, dimensions and preservation fields are all blank on the page read. Excavation number field reads RS 20.0018."
+      capture: "Own capture only (2026-10-14). No independent web-archive capture sought."
+      tests: []
+      tested_by: "none"
+      gaps: ["Nothing links the entry to the tablet pleading for help; it is a letter from Ugarit, genre Letter, language Middle Babylonian peripheral, and that is all the page says"]
+      next_step: "Look in Nougayrol, Ugaritica V no. 22 (and the other ship-letter numbers) in a library copy and find the Louvre/Aleppo/Damascus inventory record."
+      checked: 2026-10-14
+
+  - id: src-nominatim-ras-shamra
+    title: "OpenStreetMap Nominatim search result 'Ras Shamra Ugarit' (node 572530384)"
+    url: "https://nominatim.openstreetmap.org/search?q=Ras+Shamra+Ugarit&format=json&limit=3"
+    document_class: "gazetteer: orientation for coordinates only, never evidence that anything happened there"
+    read: "yes, directly; JSON saved, sha256 d46345991282cbea3b4a48e80ba944b3f276d9d78a11db64fbc670ed0e78e81a (not stored). Data (c) OpenStreetMap contributors, ODbL."
+    authenticity:
+      status: unchecked
+      provenance: "Public API response retrieved 2026-10-14; a locality node named Ras Shamra at 35.6057226, 35.7819723."
+      tests: []
+      tested_by: "none"
+      gaps: ["Locality point only, not a surveyed site datum"]
+      next_step: "Use a published site coordinate from an excavation publication if precision matters."
+      checked: 2026-10-14
+
+  - id: src-handoff-dh-25
+    title: "Stratah handoff note ugarit-unbaked-tablet.yaml, speaker claim dh-oXit2KG1N1s-25 (Dead Hidden, video oXit2KG1N1s)"
+    url: ""
+    document_class: "speaker claim, extracted by another agent. The video was not opened or watched here and is never an anchor. The note's candidate identification (RS 18.147 / RS 20.18) is itself an unverified guess."
+    read: "yes, the handoff note's text; no for the video"
+    authenticity:
+      status: unchecked
+      provenance: "Staging file written by another agent on 2026-10-14; not in a public archive. Wording of the speaker's claim is reproduced as the note gives it."
+      tests: []
+      tested_by: "none"
+      gaps: ["The video was not watched; the claim line may not be a verbatim transcript"]
+      next_step: "Capture the video and its transcript with an independent web-archive capture and check the wording."
+      checked: 2026-10-14
+
+  - id: src-atwood-2021
+    title: "R. Atwood, 'The Ugarit Archives', Archaeology (Archaeological Institute of America), July/August 2021"
+    url: https://archaeology.org/issues/july-august-2021/features/ugarit-bronze-age-archive/
+    document_class: "secondary: magazine feature. Read ONLY as a summary produced by the fetch tool, not as raw text. No claim in this dig rests on it."
+    read: "partly: tool-generated summary only; the magazine states nothing about oven or kiln in that summary and nothing about who funded the excavations"
+    authenticity:
+      status: unchecked
+      provenance: "Page of the magazine's site; the summary names the Archaeological Institute of America as publisher."
+      tests: []
+      tested_by: "none"
+      gaps: ["Raw article text not read"]
+      next_step: "Read the page text directly."
+      checked: 2026-10-14
+
+  # ---- Located but BLOCKED or not opened. Listed so nobody thinks they were read. ----
+  - id: src-ugaritica-v
+    title: "J. Nougayrol et al., Ugaritica V (Paris: Imprimerie nationale / Geuthner, 1968), Internet Archive item ugariticav0005vari"
+    url: https://archive.org/details/ugariticav0005vari
+    document_class: "the editio princeps of the ship letters (as cited by Caubet and by search summaries); would be a book/hand copy, still a claim, but the closest edition to the signs. NOT OPENED: Internet Archive full text returned HTTP 401 (lending library). Not bypassed."
+    read: "no (blocked)"
+    authenticity: {status: unchecked, provenance: "Not opened.", tests: [], tested_by: "none", gaps: ["not read"], next_step: "Borrow the digital copy through a lending account or a library and read nos. 22-24 and the findspot notes.", checked: 2026-10-14}
+
+  - id: src-astour-last-days
+    title: "M. C. Astour, 'New Evidence on the Last Days of Ugarit' (scispace.com PDF mirror)"
+    url: https://scispace.com/pdf/new-evidence-on-the-last-days-of-ugarit-l0u8wwc2hp.pdf
+    document_class: "secondary article; NOT OPENED: scispace returned HTTP 403 to a plain download. Not bypassed. Journal and year not read."
+    read: "no (blocked)"
+    authenticity: {status: unchecked, provenance: "Not opened.", tests: [], tested_by: "none", gaps: ["not read"], next_step: "Find the journal version through a library.", checked: 2026-10-14}
+
+  - id: src-halayqa-uf42
+    title: "Halayqa, 'The Demise of Ugarit in the Light of its Connections with Hatti', Ugarit-Forschungen 42 (Birzeit repository PDF)"
+    url: https://fada.birzeit.edu/bitstream/20.500.11889/4717/1/Halayqa-%20UF-42%20%20the%20Demise%20of%20Ugarit.pdf
+    document_class: "secondary article; NOT OPENED: repository returned HTTP 403. Not bypassed."
+    read: "no (blocked)"
+    authenticity: {status: unchecked, provenance: "Not opened.", tests: [], tested_by: "none", gaps: ["not read"], next_step: "Request the article through the repository or a library.", checked: 2026-10-14}
+
+  - id: src-met-ugarit-essay
+    title: "Metropolitan Museum of Art, Heilbrunn Timeline essay 'Ugarit'"
+    url: https://www.metmuseum.org/essays/ugarit
+    document_class: "museum essay; NOT OPENED: the site returned HTTP 429 with a browser-verification script. Not bypassed."
+    read: "no (blocked)"
+    authenticity: {status: unchecked, provenance: "Not opened.", tests: [], tested_by: "none", gaps: ["not read"], next_step: "Open in a normal browser and read the essay's account of the excavation sponsors and the last texts.", checked: 2026-10-14}
+
+  - id: src-not-opened-literature
+    title: "Works named by Cline or Caubet and not located or opened: Yon 1992 (destruction level); Millard 1995, 'The Last Tablets of Ugarit' (Ras Shamra-Ougarit 11), n. 2; Calvet 1990, Syria 67:31-42; Singer 1987; Nougayrol 1955, 1956; Yon 1997"
+    url: ""
+    document_class: "secondary literature, cited only through Caubet; the oven correction rests on these and they were not read"
+    read: "no (not located)"
+    authenticity: {status: unchecked, provenance: "Not opened.", tests: [], tested_by: "none", gaps: ["not read"], next_step: "Locate Millard 1995 n. 2 first: Caubet calls it the English summary of the oven revision.", checked: 2026-10-14}

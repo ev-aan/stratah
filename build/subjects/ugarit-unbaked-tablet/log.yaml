@@ -1,0 +1,36 @@
+subject: ugarit-unbaked-tablet
+log:
+  - id: L-01
+    date: 2026-10-14
+    entry: >
+      START. Handoff (speaker claim dh-oXit2KG1N1s-25) split into six parts, wording unchanged: tablet pleading for help against ships; found unbaked in an oven at a destroyed city; showing the attack was so swift the tablet was not baked;
+      1150 BC; this is why science doubted the Bible's Hittites. The handoff's identification (RS 18.147 / RS 20.18) was treated as a guess. Rules applied: books, translations and videos are claims; no primary data (image, squeeze, plate) was
+      obtained, so no claim is primary or established and all are capped at weight 2.
+  - id: L-02
+    date: 2026-10-14
+    entry: >
+      WHAT WAS READ. (1) Cline, 1177 B.C. (Princeton UP, 2014), Prologue, publisher's sample PDF: text layer read; quotes the letter from the king of Ugarit to the king of Cyprus and says it was first reported found in a kiln with over seventy other tablets
+      but that 'scholars have now shown that the tablet was not found in a kiln'; his notes 24 and 25 are not in the sample. (2) Caubet, 'The Case of Ugarit and Carchemish: A Contrast', in Symbiosis, Symbolism, and the Power of the Past: read on a third-party
+      mirror (dokumen.pub): says the 'oven' in a royal-palace courtyard, with a letter of the 'Sun King' to Ammurapi, 'had to be revised' (citing Calvet 1990, Yon 1992, Millard 1995 n. 2), that the tablets do not date to the very end of the city,
+      and that the 'menacing boats' letters of the House of Rapanu (found 1956) lack names and may belong to the Amarna age on Singer's 1987 view. (3) CDLI P282588 (Ugaritica 5 no. 22, RS 20.0018): a catalogue entry with no museum, findspot or text.
+      (4) The handoff note. (5) Nominatim for coordinates. A magazine feature (Atwood, Archaeology 2021) was seen only as a tool-generated summary; nothing rests on it.
+  - id: L-03
+    date: 2026-10-14
+    entry: >
+      WHAT WAS BLOCKED OR NOT OPENED. Ugaritica V on the Internet Archive (HTTP 401, lending library): not bypassed. Astour, 'New Evidence on the Last Days of Ugarit' (scispace.com, HTTP 403). Halayqa, UF 42 (Birzeit repository, HTTP 403).
+      Met Museum Ugarit essay (HTTP 429, browser verification script). CDLI search for RS 18.147 returned one unrelated text (KTU3 2.46), and searches for RS 20.238 gave nothing readable; the CDLI JSON search API returned an unrelated record. The Ras Shamra Tablet Inventory (OCHRE) front page was opened;
+      its database was not queried. Not located or not opened: Yon 1992, Millard 1995, Calvet 1990, Singer 1987, Nougayrol 1955/1956, Yon 1997, Hawkins 1995. Wikipedia was never opened as a source. Several search-result summaries named RS 18.147, RS 20.238 and RS L.1 as the ship letters and gave a version of the oven story;
+      those are search snippets, not reads, and are NOT used in any claim. No image of any tablet was seen, no sign was read, no licence question for an image arose.
+  - id: L-04
+    date: 2026-10-14
+    entry: >
+      WHO FUNDED AND CONTROLLED THE WORK (tried, mostly not found). Cline: author named in the PDF metadata; his funding UNRESEARCHED. Princeton University Press: publisher named on every page; its ownership and funding UNRESEARCHED (not read). Caubet: byline gives the Musee du Louvre, Departement des Antiquites Orientales;
+      her funding UNRESEARCHED. The volume's editors, publisher and year: not read on the mirror page, UNRESEARCHED. CDLI: UNRESEARCHED. The Ras Shamra excavations (Mission archeologique de Ras Shamra): a search-result summary says Schaeffer's expedition from 1929 was supported by the Academie des Inscriptions et Belles-Lettres, a Ministry of Education,
+      the Louvre and the local government at Latakia, and that Marguerite Yon directed from 1978 to 1999; that page was not opened, so none of it is asserted here and the funding of the mission stays UNRESEARCHED. Caubet (read) says the Urtenu-house texts were found in 1973 by the military digging a blockhouse and excavated after 1986;
+      who paid for that dig is not stated. The speaker, Dead Hidden: UNRESEARCHED.
+  - id: L-05
+    date: 2026-10-14
+    entry: >
+      WHERE THE FACTS END. Not established from anything read: which tablet is meant; its RS number, museum and findspot; whether it was baked; the date of Ugarit's destruction; whether any ship letter is from the very end of the city. Held open as contested: (a) the oven findspot (original excavators' kiln; Cline: not a kiln; Caubet: palace-courtyard oven picture revised), and
+      the swift-attack inference; (b) the date of the 'menacing boats' letters (end of Ugarit under Ammurapi against Singer's Amarna-age reading, which was not read). Cline and Caubet describe different ovens and letters, so the speaker's single 'tablet' may merge more than one tablet. NEXT: Ugaritica V nos. 22-24 and the findspot notes; Yon 1992; Millard 1995 n. 2; Singer 1987;
+      the RSTI database; Louvre/Aleppo/Damascus inventory records and photographs.

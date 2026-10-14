@@ -1,0 +1,44 @@
+# How the oven / unbaked-tablet story spread. Spread is adoption, never evidence (X1).
+subject: ugarit-unbaked-tablet
+chains:
+  - id: tx-ugarit-oven-story
+    about: "ugarit-unbaked-tablet:ugarit-sp-found-unbaked-in-an-oven"
+    title: "The Ugarit oven / unbaked-tablet story: first report, textbook repetition, revision, speaker"
+    confers_weight: false
+    events:
+      - id: tx-ug-01
+        date: "unknown"
+        precision: unknown
+        step: origin
+        carrier: "original excavators, as described by Cline"
+        form: "The letter to Cyprus 'was originally reported to have been found in a kiln, along with more than seventy other tablets, where it had apparently been placed for baking'."
+        source: src-cline-2014
+        read: yes
+        note: "Second-hand: described by Cline; the excavators' own report was not read. Date of first report not given in the pages read."
+      - id: tx-ug-02
+        date: "unknown"
+        precision: unknown
+        step: repetition
+        carrier: "textbooks, per Cline; 'seminal works on the end of the Bronze Age' (Hawkins 1995), per Caubet"
+        form: "'repeated in textbooks for a generation of students' (Cline); 'still refer to \"the tablets from the oven\"' (Caubet)."
+        source: src-cline-2014
+        read: yes
+        note: "Cline and Caubet are read; the textbooks and Hawkins 1995 are not."
+      - id: tx-ug-03
+        date: "unknown"
+        precision: unknown
+        step: revision
+        carrier: "Calvet 1990; Yon 1992; Millard 1995 n. 2, as cited by Caubet"
+        form: "'This dramatic picture had to be revised' (Caubet)."
+        source: src-caubet-sym
+        read: no
+        note: "The revising works were not located or read."
+      - id: tx-ug-04
+        date: "2026-10-14"
+        precision: day
+        step: repetition
+        carrier: "Dead Hidden video oXit2KG1N1s, via the handoff note (date of the video not given)"
+        form: "The speaker's version, with 'unbaked', 'swift' and '1150 BC' (dh-oXit2KG1N1s-25)."
+        source: src-handoff-dh-25
+        read: no
+        note: "Only the extracted claim line was read; the date here is the date of the handoff note, not the video."

@@ -1,0 +1,219 @@
+subject: ugarit-unbaked-tablet
+title: "The Ugarit 'unbaked tablet in an oven' story: which tablet, which date, and what survives of the oven detail"
+question: "Was a cuneiform tablet pleading for help against ships found unbaked in an oven at a destroyed city in about 1150 BC, and does that show the attack was too swift to bake it?"
+dig_status: open
+headline_status: draft
+headline: "The Ugarit oven-and-unbaked-tablet story has been revised by the scholars read"
+search_summary: >
+  The story is usually tied to letters from the Bronze Age city of Ugarit (Ras Shamra, Syria) about enemy ships. Two scholars read here
+  say the 'found in an oven' detail has been revised: Cline says scholars have shown the ship letter was not found in a kiln; Caubet says the oven picture
+  'had to be revised' and the tablets from it do not date to the very end of the city. No tablet, image or excavation report was seen. Which tablet is meant, its date
+  and the Bible/Hittite part of the speaker's claim are unresolved.
+description: >
+  First dig on the speaker claim dh-oXit2KG1N1s-25. Read: Cline 2014 (publisher's sample PDF of the Prologue), Caubet (chapter in a 2003-era volume, third-party mirror), a CDLI catalogue
+  entry (P282588). Blocked or not opened: Ugaritica V (Internet Archive lending, 401), Astour (403), Halayqa (403), the Met essay (429 bot check), and the works Caubet cites for the oven revision
+  (Yon 1992, Millard 1995, Calvet 1990, Singer 1987). Nothing here is primary data. The handoff's guess (RS 18.147 / RS 20.18) is not confirmed or refuted.
+divergence_note: >
+  The speaker says a tablet pleading for help against ships was found unbaked in an oven, showing the attack was so swift the tablet was not even baked, at a destroyed city in 1150 BC.
+  Both authors read say the oven picture was a first impression that later work revised, and Caubet adds that the tablets cannot be dated to the very end of the city. The two authors
+  also describe the oven differently (Cline: a kiln with over seventy tablets, a letter to Cyprus; Caubet: an oven in a royal-palace courtyard, a letter from the Hittite king to Ammurapi),
+  so more than one tablet and findspot may be in play. The gap between the story and what the books now say is the product. The signs, images, inventory numbers and excavation
+  reports have not been seen.
+
+assessment:
+  question: "Was a cuneiform tablet pleading for help against ships found unbaked in an oven, showing the attack was too swift to bake it?"
+  answer: unsettled
+  headline: "Unsettled. The two scholars read say the oven detail was later revised, and no tablet or excavation report was seen."
+  text: >
+    Everything here comes from two books and one catalogue entry, all of which are claims, not the object. Cline (2014) says the ship letter was first reported found in a kiln with more than seventy other tablets, and that scholars have since shown it was not found in a kiln.
+    Caubet says the picture of the last batch of tablets in a palace oven had to be revised. They describe different findspots and letters, so the speaker's single tablet may combine more than one. The date 1150 BC is not supported by anything read; the Ugarit letters
+    are tied to the reign of its last king by Caubet, and one of her cited scholars (Singer 1987) places some ship letters much earlier. We keep these open.
+  key_points:
+    - "Both scholars read say the 'found in an oven' picture was revised; neither is the excavation report, which was not read."
+    - "The authors describe different ovens, findspots and letters, so which tablet the speaker means is not settled."
+    - "The date 1150 BC is not supported by the sources read, and at least one scholar dates the 'menacing boats' letters earlier."
+  basis: [ugarit-sp-found-unbaked-in-an-oven, ugarit-ship-letters-exist]
+  would_settle: "The excavation reports and Ugaritica V for the exact RS numbers, findspots and states of baking, plus Yon 1992 and Millard 1995 on the oven revision, and photographs of the tablets."
+
+claims:
+
+  # ---------- Speaker claim, split into parts and kept as stated ----------
+  - id: ugarit-sp-tablet-pleading-for-help-against-ships
+    state: searched_gap
+    statement: '"A cuneiform tablet pleading for help against ships" (speaker claim dh-oXit2KG1N1s-25, as stated).'
+    statement_kind: search_result
+    evidence_class: interpretive
+    confidence: low
+    evidential_weight: 1
+    anchor_checked: 'no'
+    adoption_weight: 4
+    adoption_note: "The wording of the speaker's video claim; adoption of the story was not measured here."
+    would_change_if: "the edition of the tablet (Ugaritica V or a PRU volume) or good photographs show which tablet is meant and what it asks of its recipient"
+    next_step: "Identify the tablet by RS number in Ugaritica V (nos. 22-24 and nearby) and read it; then read the translation against the signs."
+    anchor:
+      type: search-record
+      description: "The claim line comes from the handoff note. The one translation read (Cline, quoting a letter from the king of Ugarit to the king of Cyprus) reports enemy ships burning cities and asks the recipient to 'send me a report somehow'; it does not read as a request for troops. A different letter quoted in a magazine summary asks for forces, but that summary was not read as text. Nothing was read in the edition."
+      sources: [src-handoff-dh-25, src-cline-2014]
+    basis: "Search record. No tablet was identified by number from a source read."
+
+  - id: ugarit-sp-found-unbaked-in-an-oven
+    state: contested
+    statement: '"found unbaked in an oven at a destroyed city" (speaker claim dh-oXit2KG1N1s-25, as stated).'
+    statement_kind: judgment
+    evidence_class: interpretive
+    confidence: low
+    evidential_weight: 2
+    anchor_checked: secondary
+    adoption_weight: 4
+    adoption_note: "Cline says the oven story 'has since been repeated in textbooks for a generation of students'; Caubet says works still repeat 'the tablets from the oven'. That is adoption, not evidence."
+    would_change_if: "the excavation report (Schaeffer's / Nougayrol's, Ugaritica V) or Yon 1992 / Millard 1995 n. 2 is read and states the findspot and whether the tablets were baked; or photographs of the tablet show unbaked clay"
+    anchor:
+      type: scholarly-positions
+      description: "Cline 2014 Prologue (text layer read): the letter 'was originally reported to have been found in a kiln, along with more than seventy other tablets', but 'scholars have now shown that the tablet was not found in a kiln'. Caubet (mirror read): 'Until recently ... an oven in a courtyard of the royal palace containing the last batch of cuneiform tablets ... which was being baked when the city was destroyed. This dramatic picture had to be revised.' Neither says the clay was unbaked or baked from an examination of the tablet. Both rely on works not read."
+      sources: [src-cline-2014, src-caubet-sym]
+    positions:
+      - {label: "Found in a kiln, awaiting baking before dispatch (original report)", holder: "the original excavators, as described by Cline", ground: "The excavators' first reading of the findspot; the excavation report itself was not read."}
+      - {label: "Not found in a kiln; letter probably a copy of one dispatched", holder: "Eric H. Cline (2014)", ground: "States that 'scholars have now shown' this; his endnotes were not in the sample, so his basis is not seen."}
+      - {label: "Palace-courtyard oven picture revised; tablets not from the very end of the city", holder: "Annie Caubet", ground: "Cites Calvet 1990, Yon 1992 and Millard 1995 n. 2, none of which were read."}
+    disputed_by:
+      - {who: "Eric H. Cline", kind: person, position: "says the tablet was not found in a kiln", source_read: true, via: "Cline 2014 Prologue, text layer of the publisher's sample PDF"}
+      - {who: "Annie Caubet", kind: person, position: "says the oven picture 'had to be revised'", source_read: true, via: "chapter text on a third-party mirror"}
+      - {who: "the original excavators", kind: group, position: "first reported a kiln findspot", source_read: false, via: "described by Cline; not read in their own words"}
+    basis: >
+      # V: Cline and Caubet read directly, 2026-10-14. Two authors, both secondary, and Caubet and Cline may share the same underlying revision literature, so they are not fully independent.
+      The speaker's wording is kept unchanged. This is the claim most in need of Yon 1992 and Millard 1995.
+
+  - id: ugarit-sp-attack-so-swift-tablet-not-baked
+    state: contested
+    statement: '"showing the attack was so swift the tablet was not even baked" (speaker claim dh-oXit2KG1N1s-25, as stated).'
+    statement_kind: judgment
+    evidence_class: interpretive
+    confidence: low
+    evidential_weight: 1
+    anchor_checked: secondary
+    adoption_weight: 4
+    adoption_note: "Repeated 'in textbooks' per Cline; adoption only."
+    would_change_if: "the findspot is re-established from the excavation records as a working kiln with unbaked tablets in a destruction layer dated to the final attack"
+    anchor:
+      type: scholarly-positions
+      description: "Cline 2014: the excavators 'initially surmised that the enemy ships had returned and sacked the city before the urgent request for assistance could be dispatched', a view he says has been overtaken. Caubet: the tablets 'do not date to the very end of the city, although they cannot be dated much earlier'. This inference depends on the oven claim, which is itself contested."
+      sources: [src-cline-2014, src-caubet-sym]
+    positions:
+      - {label: "Swift attack; letter never sent", holder: "the original excavators and 'other scholars' as described by Cline", ground: "Inference from the supposed kiln findspot."}
+      - {label: "Letter was probably a copy of one sent; findspot not a kiln", holder: "Eric H. Cline (2014)", ground: "As above; basis not seen."}
+    disputed_by:
+      - {who: "Eric H. Cline", kind: person, position: "rejects the swift-attack inference for this tablet", source_read: true, via: "Cline 2014 Prologue"}
+    basis: "# V: read 2026-10-14. The inference stands or falls with the findspot. No examination of the clay is reported in what was read."
+
+  - id: ugarit-sp-date-1150-bc
+    state: searched_gap
+    statement: '"1150 BC" (speaker claim time_stated for dh-oXit2KG1N1s-25, as stated).'
+    statement_kind: search_result
+    evidence_class: interpretive
+    confidence: low
+    evidential_weight: 1
+    anchor_checked: 'no'
+    adoption_weight: 3
+    adoption_note: "Not measured."
+    would_change_if: "an absolute date for the destruction of Ugarit and for the tablet's letter is read in a dated excavation publication or a radiocarbon study"
+    next_step: "Read Yon 1992 and the current Ugarit chronology (Yon; the 2014 Cline book notes) for the destruction horizon and its date basis."
+    anchor:
+      type: search-record
+      description: "Searched in the two texts read for any date of the tablet or of Ugarit's destruction. Cline (Prologue) dates Ramses III's year 8 to 1177 BC and gives no date for Ugarit's end in the pages read. Caubet gives a relative frame (Merneptah to Beia, Talmi-Teshub, Suppiluliuma II, 'all ... within the reign of Ammurapi') and says one fragment is dated by Freu to 'Siptah's fifth year, 1193 b.c.e.'; she gives no figure for the destruction. The figure 1150 BC appears in her text only as the Carchemish 'Dark Ages, approximately 1150-1000'."
+      sources: [src-cline-2014, src-caubet-sym]
+    basis: "Not found in what was read. Absence of a date in two partial texts is not evidence against 1150."
+
+  - id: ugarit-ship-letters-dating-contested
+    state: contested
+    statement: "The 'menacing boats' letters from the House of Rapanu belong to the end of Ugarit under Ammurapi, not to an earlier period."
+    statement_kind: judgment
+    evidence_class: interpretive
+    confidence: low
+    evidential_weight: 1
+    anchor_checked: 'no'
+    adoption_weight: 4
+    adoption_note: "Placing the ship letters at the end of Ugarit is the widespread popular picture; not measured."
+    would_change_if: "the letters are dated by a named king, a stratified findspot with a dated destruction layer, or a prosopographical link to datable officials"
+    anchor:
+      type: scholarly-positions
+      description: "Caubet (mirror read): the 'Letter from the General' (discovered 1956 in the House of Rapanu) 'and other letters from the same archives mentioning \"menacing boats\" off the shore of Ugarit lack any names of officials or kings. They may not necessarily be dated to the end of the city and the reign of its last king, Ammurapi; Singer (1987), for instance, understands them as pertaining to the situation described by the Amarna letters during the reign of Amenophis III'. Singer 1987 was not read."
+      sources: [src-caubet-sym]
+      nodes: [{node: ugarit-1956-letter-from-the-general-found-house-of-rapanu, verb: qualifies}]
+    positions:
+      - {label: "End of Ugarit, reign of Ammurapi", holder: "the common popular and textbook placement (not a named holder in the sources read)", ground: "Association with the destruction; Caubet says the Urtenu-house letters, not these, are the ones datable to Ammurapi's early years."}
+      - {label: "Much earlier, Amarna age (Amenhotep III)", holder: "Itamar Singer (1987), as reported by Caubet", ground: "Singer's own argument was not read."}
+    disputed_by:
+      - {who: "Itamar Singer", kind: person, position: "dates the menacing-boats letters to the Amarna age", source_read: false, via: "reported by Caubet; not read"}
+    basis: "# V: Caubet read 2026-10-14; Singer 1987 not read. Whether any speaker-relevant tablet is among these letters is not established."
+
+  - id: ugarit-sp-modern-science-doubted-biblical-hittites
+    state: searched_gap
+    statement: '"this is why modern science doubted the Bible''s Hittites until they were dug up" (speaker claim dh-oXit2KG1N1s-25, as stated).'
+    statement_kind: search_result
+    evidence_class: interpretive
+    confidence: low
+    evidential_weight: 1
+    anchor_checked: 'no'
+    adoption_weight: 4
+    adoption_note: "Not measured."
+    would_change_if: "a history of Hittite discovery (Sayce 1880s; Winckler's excavation at Bogazkoy 1906) is read and either links or fails to link the Ugarit tablet to the doubt about the Hittites"
+    next_step: "Read a history of the rediscovery of the Hittites; note that the Ugarit letters were found in the 1950s onward, after the Hittite capital's tablets (a recalled point, not read here)."
+    anchor:
+      type: search-record
+      description: "Searched Cline and Caubet for a link between the Ugarit ship letters and doubts about the Bible's Hittites. None found: Cline's Prologue mentions the Hittites as a Late Bronze Age power and Caubet discusses Hatti and Carchemish politically. Neither mentions the Bible in that connection."
+      sources: [src-cline-2014, src-caubet-sym]
+    basis: "Absence of a link in two partial texts. Not tested against any history of Hittite archaeology."
+
+  # ---------- Object and text facts ----------
+  - id: ugarit-ship-letters-exist
+    state: proposed
+    statement: "Letters found at Ugarit and written to or by its king speak of enemy or 'menacing' ships off the Syrian coast. One, quoted by Cline, says: 'My father, now the ships of the enemy have come. They have been setting fire to my cities ... all of my ships are stationed in the land of Lukka'."
+    statement_kind: reported
+    evidence_class: interpretive
+    confidence: low
+    evidential_weight: 2
+    anchor_checked: secondary
+    adoption_weight: 5
+    adoption_note: "A staple of accounts of the end of the Bronze Age."
+    would_change_if: "the edition or the signs show a different text, sender or recipient; or the letter is shown to be a later composition"
+    anchor:
+      type: interpretive
+      description: "Cline 2014 Prologue prints the English translation of a letter 'from the king of Ugarit in northern Syria, addressed to the higher-ranking king on the island of Cyprus' (translation source in his note 24, not seen). Caubet independently mentions 'letters ... mentioning \"menacing boats\" off the shore of Ugarit' in the House of Rapanu. Two secondary sources agree that such letters exist; neither shows the signs."
+      sources: [src-cline-2014, src-caubet-sym]
+    basis: "# V: both read 2026-10-14. Not independent in the strict sense: both depend on Nougayrol's publication, which was not read."
+
+  - id: ugarit-tablet-identity-unresolved
+    state: searched_gap
+    statement: "Which tablet(s) the speaker means (inventory number, holder, findspot) is not established. The handoff's guess, RS 18.147 / RS 20.18, is neither confirmed nor refuted."
+    statement_kind: search_result
+    evidence_class: material
+    confidence: low
+    evidential_weight: 1
+    anchor_checked: 'no'
+    adoption_weight: 1
+    adoption_note: "Not applicable."
+    would_change_if: "Ugaritica V or the museum inventory (Louvre, Aleppo, Damascus) is read and gives the RS numbers, findspots and holders"
+    next_step: "Borrow Ugaritica V (Internet Archive lending, item ugariticav0005vari) and read nos. 22-24; check the Ras Shamra Tablet Inventory (OCHRE, University of Chicago) for RS 18.147, RS 20.18, RS 20.238."
+    absence_anchor: true
+    anchor:
+      type: search-record
+      description: "CDLI entry P282588 (read) is titled Nougayrol Ugaritica 5, no. 22, excavation number RS 20.0018, genre Letter, language Middle Babylonian peripheral; museum, findspot, stratigraphic level, dimensions and preservation are blank and there is no text. The CDLI search for RS 18.0147 returned a different text (KTU3 2.46), and a search for RS 20.0238 returned nothing readable. Ugaritica V was blocked (HTTP 401). No source read states which tablet the story concerns. Search-result summaries named RS 18.147, RS 20.238 and RS L.1 for ship letters; those summaries are not reads and are not used."
+      sources: [src-cdli-p282588, src-ugaritica-v, src-handoff-dh-25]
+    basis: "Absence of an identification. Capped at provisional."
+
+  - id: ugarit-cdli-record-for-rs-20-0018
+    state: proposed
+    statement: "A catalogue entry lists a letter tablet from Ugarit with excavation number RS 20.0018 as Ugaritica 5, no. 22, without museum, findspot or text."
+    statement_kind: reported
+    evidence_class: material
+    confidence: low
+    evidential_weight: 1
+    anchor_checked: 'no'
+    adoption_weight: 1
+    adoption_note: "Not applicable."
+    would_change_if: "the entry is corrected, or Ugaritica V no. 22 is read and differs"
+    anchor:
+      type: dataset
+      description: "CDLI P282588 page read 2026-10-14 (sha256 57bd4314...ed09). A database record, not an image or the object. Whether this letter concerns ships is not stated by the record."
+      sources: [src-cdli-p282588]
+    basis: "Catalogue metadata only. The first dig to note that CDLI's findspot field is empty for this number."
