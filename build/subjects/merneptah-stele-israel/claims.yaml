@@ -24,22 +24,22 @@ claims:
   # ------------------------- WHAT THE TEXT SAYS (translations read) -------------------------
 
   - id: merneptah-translations-name-israel
-    state: established
+    state: proposed
     statement: >
       In the concluding strophe of the hymn on the stele, two printed translations (Spiegelberg in Petrie 1897; Breasted 1906) name Israel in a list of places and
       peoples that Merneptah says he has defeated. Petrie/Spiegelberg: "The people of Israel is laid waste, - their crops are not". Breasted: "Israel is desolated, his seed is not".
     statement_kind: reported
     evidence_class: interpretive
-    confidence: moderate
-    evidential_weight: 4
-    anchor_checked: primary
+    confidence: low
+    evidential_weight: 2
+    anchor_checked: secondary
     adoption_weight: 5
     adoption_note: "The Israel reading is the standard one and is repeated everywhere; the weight here comes from the two printed translations, not from that."
     would_change_if: >
       the hieroglyphic text (Plate XIV, Kitchen's edition, the TLA record or the object) shows a different sign group, or a reading other than Israel is
       argued from the signs by a specialist, or the two translations turn out to rest on one faulty copy
     anchor:
-      type: primary_text
+      type: interpretive
       description: >
         Read in OCR: Petrie 1897, section 48 (Spiegelberg's translation, part II c, last lines) and Breasted 1906, section 617 (Concluding Strophe, with the
         note on "his seed is not" in sections 603-605). Both books say they used the squeezes and photographs of the stele; Breasted also collated the Karnak duplicate.
@@ -73,19 +73,19 @@ claims:
     basis: "Not read. Handoff and search summaries say most scholars read Israel; those are leads, not reads."
 
   - id: merneptah-text-canaan-seized-by-egypt
-    state: established
+    state: proposed
     statement: >
       In the same strophe the two translations say that Canaan was taken by Merneptah's side: Petrie/Spiegelberg "Seized is the Kanaan with every evil", Breasted "Plundered is Pekanan, with every evil". Askelon, Gezer and Yenoam are listed as taken or brought to nought beside it. The hymn presents Israel as one of those defeated, and Palestine "as a widow for Egypt".
     statement_kind: reported
     evidence_class: interpretive
-    confidence: moderate
-    evidential_weight: 4
-    anchor_checked: primary
+    confidence: low
+    evidential_weight: 2
+    anchor_checked: secondary
     adoption_weight: 2
     adoption_note: "Often not mentioned when the stele is used to speak of Israel in Canaan."
     would_change_if: "the signs show a different subject or verb for the Canaan line, or a reading of the verbs as describing Israel's action rather than Egypt's"
     anchor:
-      type: primary_text
+      type: interpretive
       description: "Petrie 1897 section 48, II c; Breasted 1906 section 617 with note b ('Lit., the Canaan') and note on 'widow' (section 617, notes). Read in OCR as translations."
       sources: [src-petrie-1897, src-spiegelberg-tr-in-petrie, src-breasted-are3]
     basis: >
@@ -100,7 +100,7 @@ claims:
     evidence_class: interpretive
     confidence: low
     evidential_weight: 2
-    anchor_checked: primary
+    anchor_checked: secondary
     absence_anchor: true
     adoption_weight: 1
     adoption_note: "Not stated in the popular summaries seen."
@@ -117,19 +117,19 @@ claims:
   # ------------------------- OBJECT FACTS -------------------------
 
   - id: merneptah-findspot-and-reuse
-    state: established
+    state: proposed
     statement: >
       Petrie found the stele in 1896 in the south-west corner of the first court of Merneptah's temple at Thebes, where it had stood against the south wall and fallen forwards. Merneptah's hymn is cut on the rough back of a stele of Amenhotep III, which had been moved from Amenhotep III's temple and set back outward.
     statement_kind: reported
-    evidence_class: primary_text
-    confidence: moderate
-    evidential_weight: 4
-    anchor_checked: primary
+    evidence_class: interpretive
+    confidence: low
+    evidential_weight: 2
+    anchor_checked: secondary
     adoption_weight: 3
     adoption_note: "Stated in most summaries; the reuse of an earlier king's stele is the part the speaker claims do not mention."
     would_change_if: "Petrie's field notes, the Egypt Exploration or Cairo records, or the object itself show a different findspot or that the back-reuse belongs to another stele"
     anchor:
-      type: primary_text
+      type: interpretive
       description: "Petrie 1897, sections 29 and 48 (the excavator's own account), and Breasted 1906 note d to section 602, read in OCR. Breasted's note draws on Petrie and Spiegelberg, so it is not an independent witness."
       sources: [src-petrie-1897, src-breasted-are3]
       nodes: [{node: merneptah-1896-petrie-finds-israel-stele, verb: supports}]
@@ -138,19 +138,19 @@ claims:
       One witness for the findspot (the excavator). The month of the find and the stele's present inventory number are not in the passages read.
 
   - id: merneptah-duplicate-at-karnak
-    state: established
+    state: proposed
     statement: >
       A duplicate of the inscription existed at Karnak, of which only a fragment survives, published by Duemichen. Petrie works out 34 lines for the Karnak copy and notes that it names Amen where the Thebes copy names Ptah as the speaker.
     statement_kind: reported
-    evidence_class: primary_text
-    confidence: moderate
-    evidential_weight: 3
-    anchor_checked: primary
+    evidence_class: interpretive
+    confidence: low
+    evidential_weight: 2
+    anchor_checked: secondary
     adoption_weight: 2
     adoption_note: "Search summaries disagreed on where the duplicate is; both books read say Karnak."
     would_change_if: "Duemichen's plate, Erman's study, or a Karnak record shows the fragment is from another monument or another part of the Theban temples"
     anchor:
-      type: primary_text
+      type: interpretive
       description: "Petrie 1897, note signed W. M. F. Petrie after section 51 (read in OCR); Breasted 1906 note d to section 602 ('a duplicate original in Karnak, of which only a fragment has survived', published by Duemichen and Erman). Duemichen's own plate was not opened."
       sources: [src-petrie-1897, src-breasted-are3, src-duemichen-1867]
     basis: >
@@ -178,18 +178,18 @@ claims:
   # ------------------------- DATE -------------------------
 
   - id: merneptah-regnal-date-year-5
-    state: established
+    state: proposed
     statement: "The hymn is dated in the fifth year of Merneptah, on day 3 of the third month of a season (translations differ on the season; see merneptah-date-season-discrepancy)."
     statement_kind: reported
     evidence_class: interpretive
-    confidence: moderate
-    evidential_weight: 4
-    anchor_checked: primary
+    confidence: low
+    evidential_weight: 2
+    anchor_checked: secondary
     adoption_weight: 3
     adoption_note: "The regnal year is rarely given in popular accounts, which jump to a BC date."
     would_change_if: "the signs of the date line give a different year or day"
     anchor:
-      type: primary_text
+      type: interpretive
       description: "Petrie 1897 section 48, I (Protocol: year V, third day of the third month); Breasted 1906 section 607 ('Year 5, third month of the third season (eleventh month), third day'). Read in OCR as translations."
       sources: [src-petrie-1897, src-spiegelberg-tr-in-petrie, src-breasted-are3]
     basis: "# V: both translations read 2026-10-14. Year 5 and day 3 agree."

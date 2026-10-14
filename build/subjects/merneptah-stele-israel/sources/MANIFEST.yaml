@@ -8,7 +8,7 @@ sources:
   - id: src-petrie-1897
     title: "W. M. F. Petrie, Six Temples at Thebes, 1896 (London: Bernard Quaritch, 1897), with a chapter by W. Spiegelberg"
     url: https://archive.org/details/sixtemplesattheb00petruoft
-    document_class: "primary_text (excavator's report: findspot, reuse, duplicate)"
+    document_class: "secondary: excavator report by the finder (testimony, not the object). Author and funders of the 1896 season and of the book: UNRESEARCHED"
     read: yes, directly (Internet Archive OCR text, sha256 4a98d46cd57194ea4ad45d560f8ff4440d31d9aa52afd62efa3c4d8006d23668; sections 29, 48, 51)
     authenticity:
       status: authenticated
@@ -43,7 +43,7 @@ sources:
   - id: src-breasted-are3
     title: "J. H. Breasted, Ancient Records of Egypt, vol. 3 (Chicago: University of Chicago Press, 1906), sections 602-617 (the Israel stela)"
     url: https://archive.org/details/ancientrecordsof03brea
-    document_class: interpretive (translation with commentary and collation notes)
+    document_class: "interpretive: translation with commentary. Author, publisher and funders of the work: UNRESEARCHED"
     read: yes, directly (Internet Archive OCR text, sha256 ed7d91750e03925004b5de21e05d2814d1e319f5f6cade0284a079feb0eeb958; sections 602-617)
     authenticity:
       status: authenticated
