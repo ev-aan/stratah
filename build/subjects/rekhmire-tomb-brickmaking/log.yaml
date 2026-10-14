@@ -1,0 +1,49 @@
+subject: rekhmire-tomb-brickmaking
+# Append-only. Corrections are new entries; earlier entries are never edited.
+log:
+  - id: L-01
+    date: 2026-10-14
+    entry: >
+      DIG OPENED from a handoff written by another agent (rekhmire-tomb-brickmaking.yaml, staging). Its object identification (Tomb of Rekhmire, brickmaking scene; Griffith/Davies 1943) was an unverified guess; the tomb and
+      scene are confirmed below from three books and a museum record, which are claims about the scene, not the scene. Six Dead Hidden speaker claims (dh-HN0wNVpfunM-01, -02, -03, -06, -19, -20) were split into 20 claims
+      with the speaker's wording kept exactly in `speaker_claim.as_stated`. The handoff names 'Griffith' with Davies; no work by Griffith on this tomb was found or read. No headline is published (headline_status draft).
+      Owner rules applied: books, translations and videos are all claims; none is called primary; every claim rests only on them and is therefore proposed, contested or searched_gap at low confidence and weight at most 2, with anchor_checked secondary or no.
+  - id: L-02
+    date: 2026-10-14
+    entry: >
+      WHAT WAS OPENED AND READ. (1) Newberry, The Life of Rekhmara (Constable, 1900), Internet Archive item TheLifeOfRekhmara, djvu OCR text (sha256 1d0fc09f...f817): title page, contents, preface, pp. 11-14, 20, 37-38 and the
+      brickmaker section; plus one plate page of the IA PDF (sha256 a59a5f39...ee3d, PDF page 107, the area of plate XXI) viewed as an image: an outline tracing, cropped by the fold-out, with columns of signs not read.
+      (2) Breasted, Ancient Records of Egypt II (University of Chicago Press, 1906), IA item ancientrecordsof02brea, OCR text (sha256 cfd690f1...eb11): title page, sections 663-664 and 755-759 with footnotes.
+      (3) Kitchen, 'From the Brickfields of Egypt', Tyndale Bulletin 27(1), pp. 137-147, PDF text (sha256 9f46ce81...2c96); year and volume from a search summary only. (4) Metropolitan Museum Open Access API record for accession 30.4.77
+      (object 544649): fields read; the web-size image (sha256 9f7824cf...1717, 599 x 427) fetched and viewed; not stored in the repository. All text is OCR or PDF text; no hieroglyph was read.
+      WHAT THE FACTS SHOW AND WHERE THEY END: a scene exists; three translations agree the label calls the workers captives/captivity/spoils brought by the king for the works of the temple of Amun; Breasted and Kitchen name peoples; no label read names Hyksos; no date for the scene itself was read.
+  - id: L-03
+    date: 2026-10-14
+    entry: >
+      WHAT WAS BLOCKED OR NOT OPENED. BLOCKED: Heidelberg University Library's copy of Newberry (digi.ub.uni-heidelberg.de/diglit/newberry1900/0011) returned an Anubis 'Access Denied' bot check; not retried, not bypassed (the Internet Archive scan was used instead).
+      The Met web page for object 544649 returned HTTP 429; not retried on that URL. The Met's Open Access API then also returned an Incapsula bot-check page on several rapid requests (a search script made too many calls); after a 20-second pause a single request
+      with an ordinary descriptive user agent returned the JSON record. The owner should know that this was done and may judge whether it counts as getting round a block. Only that one record and its one image were then fetched; the web page itself was never read.
+      NOT OPENED OR NOT LOCATED: Davies, The Tomb of Rekh-mi-Re at Thebes (1943) and Paintings from the Tomb (1935) (catalogue records only; no open scan found; rights not established); Virey 1889 (not found in an Internet Archive title search); Sethe, Urkunden IV; Porter and Moss, Topographical Bibliography I;
+      Internet Archive item RekhmireTomb (an individual's 2009 upload, language Arabic; metadata only, PDF not opened, rights unknown); search-result pages for egypt-museum.com, Biblical Archaeology Review and an import shop blog (snippets only). No Wikipedia page was used. No hieroglyphic sign was read anywhere.
+  - id: L-04
+    date: 2026-10-14
+    entry: >
+      FUNDING AND CONTROL OF THE WORKS RELIED ON (traced as far as sources opened allow). Newberry 1900: published by Archibald Constable and Co, Westminster, printed by Butler and Tanner (title page and imprint, read). The preface passages read name no funder and thank only W. Spiegelberg;
+      who paid for Newberry's three years at Thebes and the plates, and who controlled Constable's list: UNRESEARCHED. Breasted 1906: published by the University of Chicago Press in a series 'Ancient Records' under the general editorship of William Rainey Harper (title page, read);
+      funders of the series and of Breasted's work: UNRESEARCHED. Kitchen 1976: Tyndale Bulletin; the article's own text is written from the Exodus-background angle and cites Tyndale Press and IVF publications; the journal's publisher, its funders and any doctrinal control: UNRESEARCHED (nothing read states it).
+      Metropolitan Museum: credit line 'Rogers Fund, 1930' for the facsimile (read in the record); what the Rogers Fund is, and who funded and controlled the Metropolitan Museum Egyptian Expedition which produced Davies's tomb facsimiles and the 1935 and 1943 volumes: UNRESEARCHED.
+      Internet Archive scans: the Newberry scan is a Google scan of a Princeton copy; the Breasted scan was contributed by the BYU Harold B. Lee Library (item description and scan plate, read). Dead Hidden: not researched for funding.
+  - id: L-05
+    date: 2026-10-14
+    entry: >
+      POINTS WHERE SOURCES DIFFER OR LEAD ELSEWHERE. (1) Peoples: Newberry says only 'foreigners'; Breasted says Semitic; Kitchen says Syrians, Nubians and Egyptians (contested claim rekhmire-people-identification-basis; no basis given in the pages read).
+      (2) 'Slaves': the label translations say captives/captivity/spoils; Newberry's 'slaves (?)' is a different, doubtful line, while Breasted reads the start of that line differently (rekhmire-sp02d-slaves).
+      (3) Dates: Newberry 1471-1448, Kitchen c. 1450, Met 1479-1425 (career, not the painting); none gives about 1400 BC or 1470-1445 BC; no chronology scheme was read (rekhmire-absolute-chronology-gap, node object-rekhmire-tt100-brickmaking-scene).
+      (4) Breasted's 1906 note comparing the scene to the Hebrews' exactions is the earliest such link found in the works read; see transmission.yaml. It is a gloss and confers no weight. (5) A search snippet gave another translation, 'bought back', of the captive label; the page was not opened, so it is not used; it is the sort of variant a sign-level read would settle.
+      (6) The speaker's 'bas-relief': the sources read describe a painting on plaster. Kept in the speaker's wording. (7) Not researched: Hyksos history, Ramesside usurpation, the flood and the move of the Ramesside capital; those speaker claims are searched_gap.
+  - id: L-06
+    date: 2026-10-14
+    entry: >
+      NEXT STEPS, in order. (1) Read the label signs: Sethe Urk. IV and Davies 1943 pp. 54-56, plates 58-60, and Davies 1935 plates 16-17 (Kitchen's note 17 names these); see what Davies says of the workers' origins and what basis. (2) Open Heidelberg's Newberry scan in a browser for the plates at full size.
+      (3) Read a chronology authority for the two reigns and record the alternative schemes with named holders. (4) Read excavation literature on the Ramesside capital for speaker claims -20. (5) Trace funding for the Metropolitan Museum Egyptian Expedition, Constable, University of Chicago Press, Tyndale House and Dead Hidden.
+      Per docs/REVIEW.md this dig was not self-reviewed; no review.yaml was created.

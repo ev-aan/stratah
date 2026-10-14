@@ -1,0 +1,498 @@
+subject: rekhmire-tomb-brickmaking
+title: "The brickmaking scene in the Tomb of Rekhmire (TT 100, Thebes): what the labels say, who the workers are, and what Dead Hidden says it shows"
+question: "Does the Rekhmire brickmaking scene label its workers as captives or slaves, who are they (Nubian, Asiatic), and what dates the scene?"
+dig_status: open
+headline_status: draft
+search_summary: >
+  The tomb of the vizier Rekhmire at Thebes has a painted scene of brickmakers at work on a storehouse at Karnak. Two printed translations (Newberry 1900, Breasted 1906)
+  render a label as "captives" the king brought for the works of the temple of Amun. Breasted calls some of the workers "clearly Semitic foreigners"; a 1976 article
+  (Kitchen) says Syrians, Nubians and Egyptians. No label read names Hyksos, Hebrews or "slaves" for the brick workers, and the scene carries no date in the translations read.
+  The wall, its signs and Davies's 1943 publication were not read.
+description: >
+  First dig on this scene. Read: Newberry, Life of Rekhmara (1900), Breasted, Ancient Records of Egypt II (1906, sections 663-664, 755-759), Kitchen, From the Brickfields
+  of Egypt (Tyndale Bulletin, 1976), all as text (OCR or PDF text), and the Met's record and web image of a facsimile of the brickmakers panel (30.4.77). One page of Newberry's
+  outline tracing was viewed. Not read: the wall, any hieroglyphic edition (Urk. IV), Davies 1935/1943, Virey 1889. Blocked: Heidelberg's copy of Newberry (bot check), the Met web page (HTTP 429).
+  Six Dead Hidden speaker claims (dh-HN0wNVpfunM-01, -02, -03, -06, -19, -20) are split into separate parts and kept in the speaker's words. Books, translations and videos are all claims here,
+  none is primary data.
+divergence_note: >
+  The speaker's version: Nubian and Levantine slaves, enslaved in Egypt from 1550 BC to about 1450 BC, made mud bricks, Hyksos among them, and the tomb walls record it, dated 1470-1445 BC.
+  What the translations read say is narrower: a scene of the vizier inspecting temple works at Karnak, in which workers are labelled captives (or "captivity") brought by the king (Thutmose III per
+  Newberry) for the temple of Amun, with Egyptian overseers. Two commentators name peoples (Breasted: some clearly Semitic; Kitchen: Syrians, Nubians, Egyptians) without giving the basis in the pages read.
+  Breasted adds that this is "precisely what was afterward exacted of the Hebrews", which is his own comparison, not a label. The translations name no Hyksos, no 1550 BC and no date for the scene.
+  The gap between the speaker's wording and the printed translations is the product here. What the signs show and how the peoples were identified remain unread.
+
+assessment:
+  question: "Does the Rekhmire brickmaking scene label its workers as captives or slaves, who are they (Nubian, Asiatic), and what dates the scene?"
+  answer: partly
+  headline: "Translations read call the brick workers captives brought by the king; some commentators name Semitic, Syrian and Nubian workers; no date for the scene itself was found."
+  text: >
+    Three printed works (Newberry 1900, Breasted 1906, Kitchen 1976) agree that a label calls the workers captives brought by the king for the work of the temple of Amun at Karnak. None of the
+    three is the wall. Peoples are named by two of them (Semitic or Syrian; Nubian only by Kitchen) with no basis shown in the pages read. "Slaves" is the speaker's word; Newberry prints "slaves (?)" for a different line
+    that he marks as uncertain. The Hyksos, the date 1550 BC and the range 1470-1445 BC are not in any text read. The tomb is placed in the career of the vizier, which the works read date between about 1479 and 1425 BCE.
+  basis: [rekhmire-sp02d-slaves, rekhmire-captive-label-text, rekhmire-people-identification-basis]
+  key_points:
+    - "Three printed works read translate a label as captives (or spoils) brought by the king for the works of the temple of Amun; none is the wall, and no sign was read here."
+    - "Breasted calls some workers clearly Semitic and Kitchen says Syrians, Nubians and Egyptians; no basis is given in the pages read, and no label read names a people or the Hyksos."
+    - "No date for the scene itself was found; the works read date Rekhmire's career between about 1479 and 1425 BCE, not 1470-1445 or about 1400."
+  would_settle: "Reading the label signs on the wall, in Sethe's Urkunden IV or in Davies's 1935 and 1943 plates, and finding what Davies says about the workers' origins."
+
+claims:
+
+  # ------------------------- SPEAKER CLAIM dh-HN0wNVpfunM-01, split -------------------------
+
+  - id: rekhmire-sp01a-noble-18th-dynasty
+    state: proposed
+    statement: "Rekhmire was an ancient Egyptian noble and official of the 18th Dynasty"
+    speaker_claim: {id: dh-HN0wNVpfunM-01, as_stated: "Rekhmire was an ancient Egyptian noble and official of the 18th Dynasty who served as city governor and vizier during the reigns of Thutmose III and Amenhotep II, around 1400 BC.", cites: "tomb of Rekhmire"}
+    statement_kind: reported
+    evidence_class: interpretive
+    confidence: low
+    evidential_weight: 2
+    anchor_checked: secondary
+    adoption_weight: 5
+    adoption_note: "Standard in every summary seen; the weight here comes only from the three works and the museum record read, not from that."
+    would_change_if: "the tomb's own inscriptions (read from the wall, Urk. IV or Davies) give Rekhmire's titles and reign differently, or a chronology authority places Thutmose III outside the 18th Dynasty"
+    anchor:
+      type: interpretive
+      description: >
+        Read as text: Newberry 1900 (title page: 'Vezir of Upper Egypt under Thothmes III and Amenhetep II'; p. 11 'the tomb of the famous Rekhmara, the Governor of Thebes and Prime Minister');
+        Breasted 1906 section 663 ('prime minister, or vizier, of Egypt and governor of the residence city during the latter half of the reign of Thutmose III') under the heading 'Eighteenth Dynasty: Thutmose III';
+        Met record 544649 (dynasty 'Dynasty 18', reign 'reign of Thutmose III-early Amenhotep II').
+      sources: [src-newberry-1900, src-breasted-are2, src-met-facsimile-30-4-77]
+    basis: >
+      # V: read 2026-10-14 as text. All three are claims about the tomb. Breasted works from Newberry's plates, so the three are not fully independent.
+      They say what the authors and the museum record, not what the wall's own signs show.
+
+  - id: rekhmire-sp01b-governor-vizier-two-reigns
+    state: proposed
+    statement: "served as city governor and vizier during the reigns of Thutmose III and Amenhotep II"
+    speaker_claim: {id: dh-HN0wNVpfunM-01, as_stated: "Rekhmire was an ancient Egyptian noble and official of the 18th Dynasty who served as city governor and vizier during the reigns of Thutmose III and Amenhotep II, around 1400 BC.", cites: "tomb of Rekhmire"}
+    statement_kind: reported
+    evidence_class: interpretive
+    confidence: low
+    evidential_weight: 2
+    anchor_checked: secondary
+    adoption_weight: 4
+    adoption_note: "Widely repeated; not the source of the weight."
+    would_change_if: "the tomb texts or Urk. IV read from the signs show Rekhmire's term ending before the reign of Amenhotep II, or running beyond it"
+    anchor:
+      type: interpretive
+      description: >
+        Newberry 1900 pp. 13-14 ('Rekhmara himself bore these proud titles from the thirty-second year of that great sovereign [Thothmes III.] till his death early in the reign of Amenhetep II.'; note: the 32nd year date comes
+        from accounts in Louvre Papyrus 3326) and p. 20 (a scene of the vizier paying homage to the young king Amenhetep II; 'Very shortly after this event Rekhmara seems either to have died or been dismissed'); Breasted 1906 section 663 says only
+        'during the latter half of the reign of Thutmose III' in the passage read and names no Amenhotep II.
+      sources: [src-newberry-1900, src-breasted-are2]
+    basis: >
+      # V: read 2026-10-14 as text. The two-reign span rests on Newberry's reading of a scene (p. 20), not on a dated text read here. Newberry hedges ('seems either to have died or been dismissed').
+      Breasted's passage does not mention Amenhotep II, so the sources read differ in reach. Met's record says 'reign of Thutmose III-early Amenhotep II' (a catalogue field).
+
+  - id: rekhmire-sp01c-around-1400-bc
+    state: proposed
+    statement: "around 1400 BC."
+    speaker_claim: {id: dh-HN0wNVpfunM-01, as_stated: "Rekhmire was an ancient Egyptian noble and official of the 18th Dynasty who served as city governor and vizier during the reigns of Thutmose III and Amenhotep II, around 1400 BC.", cites: "tomb of Rekhmire", time_stated: "c. 1400 BC"}
+    statement_kind: reported
+    evidence_class: interpretive
+    confidence: low
+    evidential_weight: 1
+    anchor_checked: secondary
+    adoption_weight: 3
+    adoption_note: "A round figure given by the speaker; other dates are in circulation (see the next claim)."
+    would_change_if: "a chronology authority (read directly) places the reigns of Thutmose III and Amenhotep II around 1400 BC, or the dates read here are shown to rest on one superseded chronology"
+    anchor:
+      type: interpretive
+      description: >
+        Dates read: Newberry 1900 title page 'circa B.C. 1471-1448'; Kitchen 1976 p. 140 'Rekhmire c. 1450 BC'; Met record 544649 'ca. 1479-1425 BCE'. None of the three says about 1400 BC; all place the career earlier,
+        by roughly 25 to 70 years. These are the works' own conventional dates; no chronology authority was read, so how they were derived is not known here.
+      sources: [src-newberry-1900, src-kitchen-1976, src-met-facsimile-30-4-77]
+    basis: >
+      # V: dates read 2026-10-14. Not a refutation: 'around' is loose, and absolute Egyptian dates depend on a chronology scheme that was not read (see rekhmire-absolute-chronology-gap).
+    nodes_note: "Window and spread of the dates read: object-rekhmire-tt100-brickmaking-scene."
+
+  - id: rekhmire-absolute-chronology-gap
+    state: searched_gap
+    statement: "The absolute BCE dates of the reigns of Thutmose III and Amenhotep II, on which every date for Rekhmire depends, were not read from a chronology authority."
+    statement_kind: search_result
+    evidence_class: interpretive
+    confidence: low
+    evidential_weight: 1
+    anchor_checked: 'no'
+    adoption_weight: 2
+    adoption_note: "Not assessed."
+    would_change_if: "a chronology authority is read and gives dates for the two reigns, with the basis (regnal years, astronomical or radiocarbon anchors) and the alternative schemes"
+    next_step: "Read a published chronology of the 18th Dynasty (for example the Oxford History of Ancient Egypt chronology chapter or Hornung, Krauss and Warburton 2006) and record each scheme's dates for Thutmose III and Amenhotep II, with named holders of each scheme."
+    absence_anchor: true
+    anchor:
+      type: search-record
+      description: >
+        Searched: the three works read (Newberry, Kitchen, Met record) each give a date and none gives the chronological basis. Not opened: any chronology volume. Positions in the chronology debate are not recorded
+        because none was read; they are not guessed here.
+      sources: [src-newberry-1900, src-kitchen-1976, src-met-facsimile-30-4-77]
+    basis: "Not read. The reign dates are conventions that differ between schemes; that is general background not read for this dig."
+
+  # ------------------------- SPEAKER CLAIM dh-HN0wNVpfunM-02, split -------------------------
+
+  - id: rekhmire-sp02a-scene-shows-brickmaking
+    state: proposed
+    statement: "A scene on the wall of his tomb shows ... making brick blocks in Egypt."
+    speaker_claim: {id: dh-HN0wNVpfunM-02, as_stated: "A scene on the wall of his tomb shows Nubian slaves and Levantine slaves making brick blocks in Egypt.", cites: "tomb of Rekhmire"}
+    statement_kind: reported
+    evidence_class: interpretive
+    confidence: low
+    evidential_weight: 2
+    anchor_checked: secondary
+    adoption_weight: 5
+    adoption_note: "Famous and often reproduced (Kitchen: 'popular reproductions are legion'); the weight here is from the descriptions read and one facsimile image."
+    would_change_if: "the wall, the Davies plates or Urk. IV show the figures are doing something other than brickmaking"
+    anchor:
+      type: interpretive
+      description: >
+        Newberry 1900 p. 37 ('men ... engaged in making bricks ... digging up earth with hoes, mixing it with water, and pressing out bricks with wooden moulds') ; Breasted 1906 sections 756-759 (brickmakers, bricklayers, builders at work);
+        Kitchen 1976 p. 140 ('draw large jarfuls of water from a pool, mix water and clay with their hoes, and mould ... row upon row of bricks'). The Met facsimile image 30.4.77 was viewed: men carry and handle bricks and work with a hoe-like tool at a brick wall.
+        The scene is in the tomb at Thebes (Karnak temple works), not the Delta, as Kitchen notes (p. 140).
+      sources: [src-newberry-1900, src-breasted-are2, src-kitchen-1976, src-met-facsimile-30-4-77]
+    basis: >
+      # V: three descriptions read as text, one facsimile image viewed 2026-10-14 (a modern painted copy, not the wall). They are descriptions of the same panel by authors who knew each other's plates.
+      The scene is real and described alike; the speaker's wording about who the workers are and their status is taken up in the next claims.
+
+  - id: rekhmire-sp02b-nubian-workers
+    state: proposed
+    statement: "Nubian"
+    speaker_claim: {id: dh-HN0wNVpfunM-02, as_stated: "A scene on the wall of his tomb shows Nubian slaves and Levantine slaves making brick blocks in Egypt.", cites: "tomb of Rekhmire"}
+    statement_kind: reported
+    evidence_class: interpretive
+    confidence: low
+    evidential_weight: 1
+    anchor_checked: secondary
+    adoption_weight: 4
+    adoption_note: "Often repeated alongside the Levantine workers; the only source read that names Nubians among the brickmakers is one article."
+    would_change_if: "Davies 1943 or the wall's labels name the workers' origins, or Davies and others disagree that any are Nubian"
+    anchor:
+      type: interpretive
+      description: >
+        Kitchen 1976 p. 140: 'A mixed group of workers (Syrians, Nubians, Egyptians) draw large jarfuls of water from a pool...'. Newberry 1900 p. 37 says only 'many of whom are certainly foreigners'; Breasted 1906 section 756 and note g speak of
+        'Semitic foreigners' and say 'Some of these are clearly Semitic foreigners'. Neither says Nubian for this scene in the passages read. No label read names a people.
+      sources: [src-kitchen-1976, src-newberry-1900, src-breasted-are2]
+    basis: >
+      # V: read 2026-10-14 as text. One work names Nubians for the brick scene. Davies 1943, which Kitchen cites for the scene, was not opened, so the basis is unknown.
+      The Met facsimile image was viewed but its figures were not classified by the dig (no basis to do so here).
+
+  - id: rekhmire-sp02c-levantine-workers
+    state: proposed
+    statement: "Levantine"
+    speaker_claim: {id: dh-HN0wNVpfunM-02, as_stated: "A scene on the wall of his tomb shows Nubian slaves and Levantine slaves making brick blocks in Egypt.", cites: "tomb of Rekhmire"}
+    statement_kind: reported
+    evidence_class: interpretive
+    confidence: low
+    evidential_weight: 2
+    anchor_checked: secondary
+    adoption_weight: 5
+    adoption_note: "The best known feature of the scene in popular accounts."
+    would_change_if: "Davies 1943 or the labels read from the signs show the workers' origins differently"
+    anchor:
+      type: interpretive
+      description: >
+        Breasted 1906 section 756: 'Of particular interest are the Semitic foreigners, who appear among the brickmakers' and note g to section 758 'Some of these are clearly Semitic foreigners'; Kitchen 1976 p. 140 'Syrians' and 'foreigners from the Levant (like the Hebrews)',
+        with n. 19 'Or, over a Syrian, "Spoils (=captives) brought by His Majesty..."'; Newberry 1900 p. 37 'many of whom are certainly foreigners' (no region named).
+      sources: [src-breasted-are2, src-kitchen-1976, src-newberry-1900]
+    basis: >
+      # V: read 2026-10-14 as text. Two works name Semitic or Levantine workers and one says only foreigners. The basis (dress, features, label) is not stated in the pages read.
+      The speaker's term is 'Levantine'; Breasted's is 'Semitic', Kitchen's 'Syrians' and 'from the Levant'. These are different words and are not treated as the same claim.
+
+  - id: rekhmire-sp02d-slaves
+    state: proposed
+    statement: "slaves"
+    speaker_claim: {id: dh-HN0wNVpfunM-02, as_stated: "A scene on the wall of his tomb shows Nubian slaves and Levantine slaves making brick blocks in Egypt.", cites: "tomb of Rekhmire"}
+    statement_kind: reported
+    evidence_class: interpretive
+    confidence: low
+    evidential_weight: 1
+    anchor_checked: secondary
+    adoption_weight: 5
+    adoption_note: "'Slaves' is the dominant word in popular accounts."
+    would_change_if: "the label signs, read directly, use a word for 'slave' or 'servant' for these workers, or a specialist study of captive labour in the 18th Dynasty gives their legal status"
+    alternatives:
+      - {text: "The workers are captives of war put to work for the temple (the word the translators print)", why_not_preferred: "Not 'not preferred': it is what Newberry, Breasted and Kitchen print for the label; whether 'captive' amounts to 'slave' in the speaker's sense is not addressed in the pages read."}
+    anchor:
+      type: interpretive
+      description: >
+        The label is translated 'captives brought by his Majesty (i.e. Thothmes III.) for the works of the temple of Amen' (Newberry 1900 p. 37), 'Captivity which his majesty brought, for the works of the temple of Amon' (Breasted 1906 section 759),
+        and 'Spoils (=captives) brought by His Majesty (=Tuthmosis III) for the work of the temple of his father [Amun]' (Kitchen 1976 n. 19). Newberry also prints a different line as 'laying bricks brought from the fields by slaves (?) in very great numbers' (p. 37)
+        with his own question mark; Breasted renders the start of that line ('The layer of brick who brings the field, the very numerous ...') differently and notes 'The beginning of the inscription is very difficult and a little doubtful'.
+      sources: [src-newberry-1900, src-breasted-are2, src-kitchen-1976]
+    basis: >
+      # V: read 2026-10-14 as text. The only 'slaves' in the pages read is Newberry's marked-doubtful rendering of another line. The label text read says captives or spoils.
+      Whether captives of war working for a temple were slaves, and how an ancient Egyptian would have put it, is not addressed in the pages read.
+
+  - id: rekhmire-captive-label-text
+    state: proposed
+    statement: "A label over a group in the scene is translated as saying the workers are captives brought by the king for the works of the temple of Amun."
+    statement_kind: reported
+    evidence_class: interpretive
+    confidence: low
+    evidential_weight: 2
+    anchor_checked: secondary
+    adoption_weight: 2
+    adoption_note: "Rarely stated in popular accounts, which tend to go straight to 'slaves'."
+    would_change_if: "the signs of the label, read from the wall, Urk. IV or Davies, give a different sense or name a people"
+    anchor:
+      type: interpretive
+      description: >
+        Newberry 1900 p. 37: 'The horizontal lines of hieroglyphs over the next group to the right inform us that the workers are "captives brought by his Majesty (i.e. Thothmes III.) for the works of the temple of Amen."'
+        Breasted 1906 section 759 'By Brickmakers: Captivity which his majesty brought, for the works of the temple of Amon.' (with a footnote that these words are in Virey's copy but were lost before Newberry's was made).
+        Kitchen 1976 n. 19: 'Or, over a Syrian, "Spoils (=captives) brought by His Majesty (=Tuthmosis III) for the work of the temple of his father [Amun]"'.
+      sources: [src-newberry-1900, src-breasted-are2, src-kitchen-1976]
+    basis: >
+      # V: three translations read 2026-10-14; they agree in substance. Not independent: Breasted used Newberry's plates and Virey's copy. The signs were not read; the footnote shows part of the label was already damaged by 1900.
+      Kitchen's 'over a Syrian' attaches the label to a Syrian figure but does not give a source beyond note 17.
+
+  - id: rekhmire-people-identification-basis
+    state: contested
+    statement: "The identification of the brickmaking workers as particular peoples (Semitic or Levantine, Nubian) rests on how commentators read the figures, not on a label naming a people in the pages read."
+    statement_kind: judgment
+    evidence_class: interpretive
+    confidence: low
+    evidential_weight: 1
+    anchor_checked: secondary
+    adoption_weight: 4
+    adoption_note: "Peoples are named confidently in popular accounts."
+    would_change_if: "Davies 1943 gives his basis for naming the peoples, or a label naming a people is read from the signs, or a specialist study of the foreigner conventions in New Kingdom tomb painting is read"
+    disputed_by:
+      - {who: "P. E. Newberry, The Life of Rekhmara (1900)", kind: person, position: "Says only that 'many of whom are certainly foreigners' and gives no people; his plates are outline tracings with no colour.", source_read: src-newberry-1900, via: "p. 37 and the plate page viewed"}
+      - {who: "J. H. Breasted, Ancient Records of Egypt II (1906)", kind: person, position: "'Some of these are clearly Semitic foreigners' (note g to section 758); 'the Semitic foreigners, who appear among the brickmakers' (section 756).", source_read: src-breasted-are2, via: "sections 756-758"}
+      - {who: "K. A. Kitchen, Tyndale Bulletin (1976)", kind: person, position: "'A mixed group of workers (Syrians, Nubians, Egyptians)'; no basis stated beyond citing Davies 1943 and 1935 (n. 17).", source_read: src-kitchen-1976, via: "p. 140 and n. 17"}
+    anchor:
+      type: interpretive
+      description: >
+        Read as text: Newberry 1900 p. 37, Breasted 1906 sections 756-758 and note g, Kitchen 1976 p. 140 and nn. 17, 19. The one image viewed (Met facsimile 30.4.77) shows figures with different skin tones, hair and dress, but the dig did not classify them: it has no stated convention to apply.
+      sources: [src-newberry-1900, src-breasted-are2, src-kitchen-1976, src-met-facsimile-30-4-77]
+    basis: >
+      # V: read 2026-10-14. The three positions are not in conflict about whether foreigners are present; they differ in how far they name peoples and none gives the basis. This claim records that gap.
+      Not a finding that the identifications are wrong.
+
+  # ------------------------- SPEAKER CLAIM dh-HN0wNVpfunM-03 -------------------------
+
+  - id: rekhmire-sp03-scene-dated-1470-1445
+    state: proposed
+    statement: "The tomb scene dates the brick-making to 1470-1445 BC."
+    speaker_claim: {id: dh-HN0wNVpfunM-03, as_stated: "The tomb scene dates the brick-making to 1470-1445 BC.", cites: "tomb of Rekhmire", time_stated: "1470-1445 BC"}
+    statement_kind: reported
+    evidence_class: interpretive
+    confidence: low
+    evidential_weight: 1
+    anchor_checked: secondary
+    adoption_weight: 3
+    adoption_note: "Not assessed beyond the speaker's own wording; the figures resemble the span in the title of Newberry 1900 but are not the same."
+    would_change_if: "a dated inscription in the scene (a regnal year) is read, or a source that dates the painting itself (not the vizier's career) is read"
+    absence_anchor: true
+    anchor:
+      type: interpretive
+      description: >
+        The translations read of the scene's labels (Newberry p. 37; Breasted sections 756-759) contain no regnal year. The dates in the works read are for Rekhmire's career: Newberry 'circa B.C. 1471-1448', Kitchen 'c. 1450 BC', Met 'ca. 1479-1425 BCE'.
+        A career date bounds the painting only if the scene was painted within it, which the sources read assume but do not show. 1470-1445 matches none of the three ranges exactly.
+      sources: [src-newberry-1900, src-breasted-are2, src-kitchen-1976, src-met-facsimile-30-4-77]
+    basis: >
+      # V: read 2026-10-14 as text. Rests on the absence of a date in translations of the labels, so absence-anchored and held at low. The signs were not read, so a date in the untranslated part cannot be excluded.
+    nodes_note: "See object-rekhmire-tt100-brickmaking-scene for the spread of dates read."
+
+  # ------------------------- SPEAKER CLAIM dh-HN0wNVpfunM-06 -------------------------
+
+  - id: rekhmire-sp06-enslaved-1550-to-1450
+    state: searched_gap
+    statement: "Both peoples fell into slavery in Egypt in 1550 BC and remained until about 1450 BC."
+    speaker_claim: {id: dh-HN0wNVpfunM-06, as_stated: "Both peoples fell into slavery in Egypt in 1550 BC and remained until about 1450 BC.", cites: "tomb records", time_stated: "1550 BC to c. 1450 BC"}
+    statement_kind: search_result
+    evidence_class: interpretive
+    confidence: low
+    evidential_weight: 1
+    anchor_checked: 'no'
+    adoption_weight: 2
+    adoption_note: "Not assessed; appears only in the speaker's videos as far as this dig knows."
+    would_change_if: "a text read from the tomb or another record gives a date or duration for the captivity of these peoples in Egypt"
+    next_step: "Read Davies 1943 pp. 54-56 and Urk. IV for the whole brickmaking scene's inscriptions and for the tribute and foreigner scenes of the tomb, and look for any statement of when or how long the foreigners were held."
+    absence_anchor: true
+    anchor:
+      type: search-record
+      description: >
+        Searched in the translations read (Newberry p. 37; Breasted sections 755-759; Kitchen pp. 139-140): no 1550 BC, no duration, no 'both peoples'. What is read is that the captives were 'brought by his Majesty' (Thutmose III per Newberry) for temple works,
+        which concerns the king's bringing, not a date for earlier captivity. Breasted section 755 also names the king's 'victories in Retenu'. That bears on the king's campaigns, not on the speaker's 1550 BC. Not read: the tribute scenes of the tomb (Newberry says they are unpublished in his volume) and any text outside the brickmaking scene.
+      sources: [src-newberry-1900, src-breasted-are2, src-kitchen-1976]
+    basis: "Not found in the pages read; the 'tomb records' cited by the speaker were not located. The label text read puts the captives' bringing in the reign of Thutmose III; that is a hint, not a finding about 1550 BC."
+
+  # ------------------------- SPEAKER CLAIM dh-HN0wNVpfunM-19, split -------------------------
+
+  - id: rekhmire-sp19a-asians-nubians-bricks-for-temples
+    state: proposed
+    statement: "West Asians ... and the Nubians made mud bricks for temples"
+    speaker_claim: {id: dh-HN0wNVpfunM-19, as_stated: "West Asians, the Hyksos people, and the Nubians made mud bricks for temples and government building projects, written by the Egyptians on tomb walls.", cites: "tomb walls"}
+    statement_kind: reported
+    evidence_class: interpretive
+    confidence: low
+    evidential_weight: 2
+    anchor_checked: secondary
+    adoption_weight: 4
+    adoption_note: "Same standing as the two claims on the peoples, which this repeats."
+    would_change_if: "as for rekhmire-sp02b-nubian-workers and rekhmire-sp02c-levantine-workers"
+    anchor:
+      type: interpretive
+      description: >
+        The scene's inscription says the bricks are for 'a new drd or "storehouse" at Karnak' (Newberry p. 37), 'to build the storehouse anew, [in the temple of Amon] of Karnak' (Breasted section 759), 'to build workshop-stores anew for Karnak' (Kitchen n. 19);
+        the labelled captives are 'for the works of the temple of Amen'. Peoples: as in the two claims above.
+      sources: [src-newberry-1900, src-breasted-are2, src-kitchen-1976]
+    basis: >
+      # V: read 2026-10-14. The temple purpose is read in three translations. The Nubian and West Asian identification is as weak as in rekhmire-sp02b and -sp02c.
+      Newberry reads 'storehouse' and Kitchen 'workshop-stores', different renderings of one label.
+
+  - id: rekhmire-sp19b-hyksos-named
+    state: searched_gap
+    statement: "the Hyksos people"
+    speaker_claim: {id: dh-HN0wNVpfunM-19, as_stated: "West Asians, the Hyksos people, and the Nubians made mud bricks for temples and government building projects, written by the Egyptians on tomb walls.", cites: "tomb walls"}
+    statement_kind: search_result
+    evidence_class: interpretive
+    confidence: low
+    evidential_weight: 1
+    anchor_checked: 'no'
+    adoption_weight: 4
+    adoption_note: "Repeated in the speaker's chain Hyksos, Hapiru, Shasu, Israel; see the Merneptah dig."
+    would_change_if: "a label in the scene or elsewhere in the tomb, read from the signs, names the Hyksos (Hekau-khasut) or another people among the workers"
+    next_step: "Read the label signs of the brickmaking scene (Urk. IV, Davies 1943 pls. 58-60) and note whether any group name is written."
+    absence_anchor: true
+    anchor:
+      type: search-record
+      description: >
+        Searched in the translations read (Newberry, Breasted, Kitchen): none names the Hyksos for the brickmakers. Breasted says 'Semitic foreigners', Kitchen 'Syrians'. Not read: the signs and Davies. Absence in translations of labels is weak evidence of absence.
+      sources: [src-newberry-1900, src-breasted-are2, src-kitchen-1976]
+    basis: "Not found in the pages read. No claim is made here about whether the Hyksos existed or when they were expelled; that was not researched."
+
+  - id: rekhmire-sp19c-government-projects
+    state: searched_gap
+    statement: "government building projects"
+    speaker_claim: {id: dh-HN0wNVpfunM-19, as_stated: "West Asians, the Hyksos people, and the Nubians made mud bricks for temples and government building projects, written by the Egyptians on tomb walls.", cites: "tomb walls"}
+    statement_kind: search_result
+    evidence_class: interpretive
+    confidence: low
+    evidential_weight: 1
+    anchor_checked: 'no'
+    adoption_weight: 3
+    adoption_note: "Not assessed."
+    would_change_if: "labels or scenes in the tomb are read that name non-temple works, for example royal palaces or fortresses, as the bricks' purpose"
+    next_step: "Read the full tomb publication (Davies 1943) for any non-temple building scene and for the vizier's duties over state works."
+    absence_anchor: true
+    anchor:
+      type: search-record
+      description: >
+        Searched in the translations read: the brick purpose is the temple of Amun at Karnak (storehouse or workshop-stores). The vizier supervises 'all works of divine offerings of Amon in Karnak' (Breasted section 757) and is 'Regulator of all the work of Amen in Karnak' (Newberry, section on his duties in the introduction).
+        No non-temple building is named in the passages read, but the vizier was a state official and Newberry says the tomb has many other scenes that were not read.
+      sources: [src-newberry-1900, src-breasted-are2]
+    basis: "Not found in the pages read. The temple works were directed by a state official, so a 'government' framing is not excluded, but no label read says it."
+
+  - id: rekhmire-sp19d-written-by-egyptians
+    state: proposed
+    statement: "written by the Egyptians on tomb walls."
+    speaker_claim: {id: dh-HN0wNVpfunM-19, as_stated: "West Asians, the Hyksos people, and the Nubians made mud bricks for temples and government building projects, written by the Egyptians on tomb walls.", cites: "tomb walls"}
+    statement_kind: reported
+    evidence_class: interpretive
+    confidence: low
+    evidential_weight: 2
+    anchor_checked: secondary
+    adoption_weight: 3
+    adoption_note: "Not assessed."
+    would_change_if: "the wall's labels, read from the signs, turn out not to carry the sense the translations give"
+    anchor:
+      type: interpretive
+      description: >
+        Newberry 1900 p. 37 gives the labels as hieroglyphic lines and translates them; Breasted 1906 sections 757-759 translate the same labels; Kitchen n. 19 quotes them. All three describe labels on the wall in the tomb;
+        the translations are claims about those labels. The tracing (one cropped page of plate XXI viewed) shows columns of signs over the figures but they were not read.
+      sources: [src-newberry-1900, src-breasted-are2, src-kitchen-1976]
+    basis: >
+      # V: read 2026-10-14. Labels in Egyptian (hieroglyphs) are accompanied by figures; the claim that the labels exist is secure from the descriptions, but not read from the signs here.
+
+  # ------------------------- SPEAKER CLAIM dh-HN0wNVpfunM-20, split -------------------------
+
+  - id: rekhmire-sp20a-older-than-ramses
+    state: proposed
+    statement: "The bas-relief is much older than Ramses;"
+    speaker_claim: {id: dh-HN0wNVpfunM-20, as_stated: "The bas-relief is much older than Ramses; Ramses may have put his name on something already existing, as he is known to have done often, and the city was destroyed by a flood and moved; construction was underway in both his cities before him.", cites: "speaker's reasoning"}
+    statement_kind: reported
+    evidence_class: interpretive
+    confidence: low
+    evidential_weight: 2
+    anchor_checked: secondary
+    adoption_weight: 3
+    adoption_note: "Not assessed."
+    would_change_if: "a dated reading of the scene's painting puts it after the 18th Dynasty (it would then not be Rekhmire's), or a chronology read puts Ramesses II closer to Thutmose III than the works read do"
+    anchor:
+      type: interpretive
+      description: >
+        The scene is a painting on plaster, not a relief (Newberry 1900 p. 37 'a painting'; p. 38 'painted plaster'; Met 'Tempera on Paper' for its copy). 'Ramses' is not specified by the speaker; for Ramesses II, Kitchen 1976 dates Papyrus Anastasi III to the time of Merenptah, 'c. 1220 BC' (p. 140), and a year 22 of 'Ramesses II or III' to 'c. 1270 or c. 1180 BC' (p. 141), and Rekhmire 'c. 1450 BC' (p. 140).
+        On those dates the scene is some centuries before the 19th Dynasty kings.
+      sources: [src-newberry-1900, src-kitchen-1976, src-met-facsimile-30-4-77]
+    basis: >
+      # V: read 2026-10-14 as text. The speaker's word 'bas-relief' is kept; the sources read describe a painting. The speaker's 'Ramses' is not specified; the comparison above uses Ramesses II as the best-known and is an assumption.
+      The sequence rests on the dates of the works read, not on a chronology authority.
+    assumptions:
+      - {text: "'Ramses' means Ramesses II (or any 19th Dynasty Ramesses)", if_wrong: "If the speaker meant Ramesses III (20th Dynasty), the scene is older still; the claim holds."}
+
+  - id: rekhmire-sp20b-ramses-usurped-monuments
+    state: searched_gap
+    statement: "Ramses may have put his name on something already existing, as he is known to have done often,"
+    speaker_claim: {id: dh-HN0wNVpfunM-20, as_stated: "The bas-relief is much older than Ramses; Ramses may have put his name on something already existing, as he is known to have done often, and the city was destroyed by a flood and moved; construction was underway in both his cities before him.", cites: "speaker's reasoning"}
+    statement_kind: search_result
+    evidence_class: interpretive
+    confidence: low
+    evidential_weight: 1
+    anchor_checked: 'no'
+    adoption_weight: 3
+    adoption_note: "Not assessed."
+    would_change_if: "a source read documents Ramesses II (or another Ramesses) reinscribing earlier monuments, and whether this scene was so treated"
+    next_step: "Find a scholarly treatment of Ramesside usurpation of earlier monuments, read it, and check whether any record exists of Ramesside work in or on the Rekhmire tomb."
+    absence_anchor: true
+    anchor:
+      type: search-record
+      description: >
+        Searched in the three works read: nothing on Ramesside usurpation, and nothing links a Ramesses to the Rekhmire tomb. Not a statement about the tomb scene specifically, as the speaker's wording is general ('something already existing').
+      sources: [src-newberry-1900, src-breasted-are2, src-kitchen-1976]
+    basis: "Not read. General background on usurpation of monuments was not searched beyond the works above."
+
+  - id: rekhmire-sp20c-city-flooded-and-moved
+    state: searched_gap
+    statement: "the city was destroyed by a flood and moved;"
+    speaker_claim: {id: dh-HN0wNVpfunM-20, as_stated: "The bas-relief is much older than Ramses; Ramses may have put his name on something already existing, as he is known to have done often, and the city was destroyed by a flood and moved; construction was underway in both his cities before him.", cites: "speaker's reasoning"}
+    statement_kind: search_result
+    evidence_class: interpretive
+    confidence: low
+    evidential_weight: 1
+    anchor_checked: 'no'
+    adoption_weight: 2
+    adoption_note: "Not assessed."
+    would_change_if: "excavation reports or a survey of the site of the Ramesside capital (Qantir / Tell el-Dab'a region) are read and state a flood and move"
+    next_step: "Read the excavation literature on Pi-Ramesse and Avaris (Bietak; Pusch) for the relation of the sites and any river change. Open Kitchen's cited Papyrus Anastasi II 1:2-3."
+    absence_anchor: true
+    anchor:
+      type: search-record
+      description: >
+        Searched in the works read: Kitchen 1976 pp. 146-147 says only that Ra'amses 'is well recognised as the Delta capital Pi-Ramesse' and calls it 'this bustling new capital, intended to rival both Memphis and Thebes'; it says nothing about a flood or a move. The speaker does not name the city. Not read: any excavation report.
+      sources: [src-kitchen-1976]
+    basis: "Not found in the page read; not related to the Rekhmire tomb in any source read."
+
+  - id: rekhmire-sp20d-construction-before-ramses
+    state: contested
+    statement: "construction was underway in both his cities before him."
+    speaker_claim: {id: dh-HN0wNVpfunM-20, as_stated: "The bas-relief is much older than Ramses; Ramses may have put his name on something already existing, as he is known to have done often, and the city was destroyed by a flood and moved; construction was underway in both his cities before him.", cites: "speaker's reasoning"}
+    statement_kind: judgment
+    evidence_class: interpretive
+    confidence: low
+    evidential_weight: 1
+    anchor_checked: 'no'
+    adoption_weight: 2
+    adoption_note: "Not assessed."
+    would_change_if: "excavation reports for the Ramesside capital and for the second city (not named by the speaker) are read, and show building phases before and under Ramesses II"
+    disputed_by:
+      - {who: "K. A. Kitchen, Tyndale Bulletin (1976), pp. 146-147", kind: person, position: "Calls Pi-Ramesse 'this bustling new capital', with the Hebrews' employment at 'the command of Ramesses II'. Does not say whether the site was built on earlier work.", source_read: src-kitchen-1976, via: "pp. 146-147"}
+      - {who: "The Dead Hidden speaker", kind: person, position: "Says construction was already underway in both of Ramses's cities before him (the cities are not named in the claim line).", source_read: src-dh-claims, via: "the claim line in the handoff only; the video was not watched"}
+    anchor:
+      type: interpretive
+      description: >
+        Read: Kitchen 1976 pp. 146-147 only (Ra'amses as the new capital of Ramesses II). The two positions are not shown to be opposed: Kitchen's passage is about the Hebrews' building work and uses the word 'new capital', which may mean new under Ramesses II or newly founded; it does not exclude earlier building. Excavation reports were not opened.
+      sources: [src-kitchen-1976]
+    basis: >
+      # V: two pages read 2026-10-14. Kept contested because the one source read describes the capital as new, and the speaker says there was earlier work; neither has been checked against excavation evidence. Not about the Rekhmire tomb scene.

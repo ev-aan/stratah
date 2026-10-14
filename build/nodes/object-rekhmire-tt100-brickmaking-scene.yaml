@@ -1,0 +1,53 @@
+# Shared node. Append-only: a change is a new `rev` plus a `history` entry, never an overwrite. See build/SCHEMA.md, Nodes.
+id: object-rekhmire-tt100-brickmaking-scene
+rev: 1
+type: object
+label: 'Tomb of Rekhmire (TT 100), Thebes: painted scene of brickmakers, sculptors and masons at work (Karnak temple works)'
+time: '-1450-01-01'
+precision: year
+date_basis: derived
+kind: document
+status: disputed
+what: >-
+  A painted wall scene in the tomb-chapel of the vizier Rekhmire on the hill of Sheikh Abd el-Qurna, Thebes (tomb number 100 in
+  Porter and Moss, per Kitchen 1976 note 17). Newberry 1900 (p. 37) calls it "a painting" of the vizier inspecting brickmakers,
+  sculptors and masons at certain temple buildings at Karnak, with the two lower rows destroyed. Its labels, as translated by
+  Newberry and Breasted, say the brick workers are "captives brought by his Majesty (i.e. Thothmes III.) for the works of the temple of Amen" (Newberry) and "Captivity which his majesty brought, for the works of the temple of Amon" (Breasted) and that
+  bricks are being made to build a storehouse anew at Karnak. The scene carries no regnal year in the translations read.
+  The time shown is a single marker (Kitchen's "c. 1450 BC" for Rekhmire); the window is the spread across the dates read
+  (Newberry 1471-1448, Kitchen c. 1450, Met catalogue 1479-1425), which are dates of Rekhmire's career, not a date for the painting
+  itself. The wall and its signs were not seen; a copy (Nina de Garis Davies facsimile, Met 30.4.77) and Newberry's outline tracing were viewed.
+window:
+  earliest: -1479-01-01
+  latest: -1425-12-31
+  certainly_covers:
+    from: -1471-01-01
+    to: -1448-12-31
+  begin_note: >-
+    Earliest start 1479 BCE is the start of the Met's date range for the Davies facsimiles of this tomb ("ca. 1479-1425 BCE",
+    Met open-access record 544649); Newberry 1900 gives circa 1471 for the same period.
+  end_note: >-
+    Latest end 1425 BCE is the end of the Met range; Newberry gives 1448 and Kitchen c. 1450. Absolute dates of the reigns of
+    Thutmose III and Amenhotep II were not read from a chronology authority here, so the boundaries are those of the three works read.
+object:
+  class: "painted wall scene in a rock-cut tomb-chapel (TT 100)"
+  material: "painted plaster (Newberry 1900, p. 38: \"the painted plaster of the middle of the second row has fallen away\")"
+  museum: "none (in the tomb); a Met facsimile exists, see rekhmire-1930-met-accessions-brickmakers-facsimile"
+  accession: 'Tomb number 100 (Porter and Moss, as cited by Kitchen 1976 n. 17); scene 9 in Newberry 1900, plates XIX-XXI'
+  held_now: {status: not established, as_of: '2026-10-14', note: 'Newberry 1900 and Kitchen 1976 describe the scene in the tomb; its present condition and any restoration were not read.'}
+place:
+  name: 'Tomb of Rekhmire (TT 100), Sheikh Abd el-Qurna, Thebes'
+  note: 'Named by Newberry 1900 (p. 11, situation of the tomb) and the Met record (region Upper Egypt, Thebes; subregion Sheikh Abd el-Qurna). No coordinates given; none are guessed here.'
+sources:
+- title: 'P. E. Newberry, The Life of Rekhmara (Westminster: Constable, 1900), pp. 11-14, 20, 37-38, plates XIX-XXI, Internet Archive item TheLifeOfRekhmara, OCR read, one plate page viewed'
+  url: https://archive.org/details/TheLifeOfRekhmara
+  authenticity: authenticated edition, moderate; see the rekhmire-tomb-brickmaking manifest
+  origin: newberry-1900
+  source_type: scholarly
+  access: read
+manifest: {subject: rekhmire-tomb-brickmaking, source: src-newberry-1900}
+created: '2026-10-14'
+history:
+- rev: 1
+  date: '2026-10-14'
+  change: Created by the rekhmire-tomb-brickmaking dig. Window and marker rest on three works read; no chronology authority was read; the scene itself has no date read.

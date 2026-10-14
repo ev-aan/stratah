@@ -1,0 +1,32 @@
+# Shared node. Append-only: a change is a new `rev` plus a `history` entry, never an overwrite. See build/SCHEMA.md, Nodes.
+id: rekhmire-1930-met-accessions-brickmakers-facsimile
+rev: 1
+type: event
+label: '1930: Metropolitan Museum accession 30.4.77, Nina de Garis Davies facsimile "Brickmakers, Tomb of Rekhmire"'
+time: '1930-01-01'
+precision: year
+date_basis: stated
+kind: official
+status: single
+what: >-
+  The Met's open-access record 544649 lists a facsimile in tempera on paper (48 x 68.5 cm, scale 1:1), artist Nina de Garis Davies
+  (1881-1965), credit line Rogers Fund, 1930, accession year 1930, accession number 30.4.77, object name "Facsimile, Rekhmire (TT 100), brickmaking",
+  dated by the museum "ca. 1479-1425 BCE" and "reign of Thutmose III-early Amenhotep II", flagged isPublicDomain true.
+  It is a modern copy of part of the wall scene, not the wall. The year the facsimile was painted was not read.
+about: [object-rekhmire-tt100-brickmaking-scene]
+place:
+  name: 'Original from the Tomb of Rekhmire (TT 100), Sheikh Abd el-Qurna, Thebes (Met record: region Upper Egypt, Thebes)'
+  note: 'The facsimile is held by the Metropolitan Museum of Art, New York (credit line read). No coordinates given.'
+sources:
+- title: 'Metropolitan Museum of Art, Open Access API record, object 544649, fetched 2026-10-14'
+  url: https://collectionapi.metmuseum.org/public/collection/v1/objects/544649
+  authenticity: record read; see the rekhmire-tomb-brickmaking manifest (src-met-facsimile-30-4-77)
+  origin: met-544649
+  source_type: official_record
+  access: read
+manifest: {subject: rekhmire-tomb-brickmaking, source: src-met-facsimile-30-4-77}
+created: '2026-10-14'
+history:
+- rev: 1
+  date: '2026-10-14'
+  change: Created by the rekhmire-tomb-brickmaking dig from the Met API record and the image of the facsimile.
