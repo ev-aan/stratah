@@ -260,13 +260,13 @@ claims:
     statement_kind: reported
     evidence_class: interpretive
     confidence: low
-    evidential_weight: 3
+    evidential_weight: 2
     anchor_checked: secondary
     adoption_weight: 5
     adoption_note: "Dead Hidden, 'Rekhmire' (HN0wNVpfunM) and 'The Serpent The Judge' (gBGfqlL_FFQ); also standard in popular and scholarly summaries."
     would_change_if: "the signs are read and do not give Israel (then false), or the signs confirm it (then the naming part moves up; 'first mention' would still need a search for earlier records)"
     anchor:
-      type: primary_text
+      type: interpretive
       description: "Two printed translations (Petrie/Spiegelberg 1897, Breasted 1906) agree that Israel is named, so the naming part is supported at a secondary level. 'First mentioned' is an absence claim and was not searched; 'a distinct group ... in the land of Canaan' is not in the text read: the hymn places Israel in a list with Canaan, Askelon, Gezer and Yenoam and calls Palestine a widow for Egypt."
       sources: [src-petrie-1897, src-breasted-are3]
     basis: >
@@ -278,7 +278,7 @@ claims:
     statement_kind: judgment
     evidence_class: interpretive
     confidence: low
-    evidential_weight: 2
+    evidential_weight: 1
     anchor_checked: 'no'
     adoption_weight: 4
     adoption_note: "A round number used in all four speaker claims; common in popular summaries (1200 or 1208 BCE)."
@@ -302,7 +302,7 @@ claims:
     would_change_if: "the signs show a word for nation or a determinative read as a political unit, or a specialist reading is found that supports it"
     next_step: "Read the Israel line's determinative and compare with the neighbouring names."
     anchor:
-      type: primary_text
+      type: interpretive
       description: "Petrie/Spiegelberg render 'the people of Israel'; Breasted renders 'Israel' with the people-determinative not discussed in the passages read. The translations say nothing of union. The last couplet 'All lands are united, they are pacified' (Breasted) is about all lands."
       sources: [src-petrie-1897, src-breasted-are3]
     basis: "A people is not shown to be a nation or a unit. Unread: the signs."
@@ -339,7 +339,7 @@ claims:
     would_change_if: "a source other than the stele is found that shows an Israelite conquest (the video's own basis is not read), or the stele's verbs are read as Israel's actions"
     next_step: "Read the speaker's basis for 'conquered' (transcript) and any archaeological source named; see merneptah-text-canaan-seized-by-egypt."
     anchor:
-      type: primary_text
+      type: interpretive
       description: "The two translations read present the opposite: Canaan is seized or plundered (Merneptah's side) and Israel laid waste. The stele is not shown to say Israel conquered anything."
       sources: [src-petrie-1897, src-breasted-are3]
     basis: >

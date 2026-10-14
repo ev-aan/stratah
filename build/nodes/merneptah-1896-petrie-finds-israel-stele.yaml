@@ -21,7 +21,7 @@ sources:
   url: https://archive.org/details/sixtemplesattheb00petruoft
   authenticity: authenticated edition, moderate; the excavator's own report (see the merneptah-stele-israel manifest)
   origin: petrie-1897
-  source_type: primary_document
+  source_type: scholarly
   access: read
 manifest: {subject: merneptah-stele-israel, source: src-petrie-1897}
 created: '2026-10-14'

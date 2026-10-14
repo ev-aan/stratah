@@ -37,3 +37,9 @@ log:
       Applied: every claim that rested on those books alone, and was marked established with a primary anchor, is lowered to proposed, evidence class interpretive, anchor_checked secondary, confidence low, weight 2.
       An excavator's report is testimony by the finder; a translation is an interpretation. Neither is the object. Primary data for this subject is the stele itself or its images and squeezes (Plates XIII and XIV, Cairo record), still unread.
       OPEN, NOT YET RESEARCHED: who funded Petrie's 1896 season and his publication, who funded Breasted's Ancient Records and under what editorial control, and what each author stood to gain from the results. These are recorded as research tasks, not as findings. Earlier entries are unchanged.
+  - id: L-07
+    date: 2026-10-14
+    entry: >
+      REVIEW RESPONSE (PR #23, first review: request changes). Fixed: merneptah-sp-stele-records-israel lowered from weight 3 to 2 to match the claim it rests on and L-06; its anchor type changed to interpretive.
+      merneptah-sp-date-1200-bc lowered to weight 1 (no chronology read). Anchor types on merneptah-sp-single-nation and merneptah-sp-conquered-canaan changed from primary_text to interpretive, and the node source_type from primary_document to scholarly,
+      to match the owner's correction that the books are not primary data. The searched_gap claims that name the hieroglyphic text as the thing still to be read keep evidence_class primary_text, since they point at the unread object text, not at the books.
