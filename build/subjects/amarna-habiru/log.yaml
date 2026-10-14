@@ -1,0 +1,35 @@
+subject: amarna-habiru
+log:
+  - id: L-01
+    date: 2026-10-14
+    entry: >
+      START. Handoff (amarna-habiru.yaml, written by another agent) named the object as 'Amarna letters Habiru EA 286 etc' with Moran, CDLI and Knudtzon as candidates; that identification was an unverified guess.
+      Three speaker claims are tested, each split into parts and kept in the speaker's wording: dh-gBGfqlL_FFQ-08 (four parts), dh-APUenSDE2oM-08 (three parts), dh-HN0wNVpfunM-30 (two parts).
+      Rule applied from the owner: books, translations, commentaries and videos are all claims; the object (the clay tablets), its images, squeezes and plates are primary data. No claim here rests on anything but books, so none is above proposed or searched_gap, evidence class interpretive (or the unread-object class for gaps), anchor_checked secondary or no, confidence low, weight at most 2.
+  - id: L-02
+    date: 2026-10-14
+    entry: >
+      WHAT WAS OPENED AND READ. (1) Knudtzon, Die El-Amarna-Tafeln vol. 1 (1915), Internet Archive OCR (sha256 aec99303...a3f0): letters 285-288 in transliteration and German translation, introduction passages on the Habiru, the Sutu, the date of the letters (pp. 27, 38) and the discovery (about p. 14). Quoted verbatim in claims.
+      (2) Winckler and Abel, Der Thontafelfund von El Amarna Heft I (1889), Internet Archive OCR (sha256 40f07ee1...c7c): preface (find and acquisition) and the inventory line for VA Th. 1642 and 1644; plate pages 100, 101 and 176-181 were looked at as images (hand-copied autographs). Plate 102 (letter 286 in Winckler-Abel's numbering) was not reached; no sign was read from any plate, and I make no claim to read cuneiform from them.
+      (3) A web search, whose results (Wikipedia pages, a b-hebrew list post, others) are leads only and were not used as support.
+  - id: L-03
+    date: 2026-10-14
+    entry: >
+      WHAT WAS BLOCKED OR NOT OPENED. CDLI (cdli.mpiwg-berlin.mpg.de) redirected to cdli.earth, which returned HTTP 500 on two attempts; not bypassed. The Berlin Vorderasiatisches Museum record for VAT 1642 and 1644 was not located (search gave no museum page). No image of the tablets was opened. Moran, The Amarna Letters (1992): in copyright, not opened. Sayce's reports (Proc. SBA vol. 10): not opened, read only as quoted by Knudtzon. Any current chronology (Shaw 2000; Hornung, Krauss, Warburton 2006): not opened. Early habiru sources (Mari, Alalakh, Nuzi, Ugarit) and Egyptian Apiru texts: not opened. Tel Dan and Jerusalem excavation reports: not opened. Wikipedia: not used. Nothing was stored in the repository; sources are cited by URL with the sha256 of the OCR text.
+  - id: L-04
+    date: 2026-10-14
+    entry: >
+      FUNDING AND CONTROL, as far as read. Winckler 1889 preface: the tablets were found in winter 1887/88 and the larger part came to the Royal Museums in Berlin through Theodor Graf of Vienna (a dealer, described there as acting without self-interest); the acquisition was made possible by the generosity of Kommerzienrat J. Simon of Berlin, who gave the larger part of the collections Graf sent to the museums; copying of the Bulaq tablets was made possible by the Academy of Sciences and the Royal Prussian government. Knudtzon 1915: published by J. C. Hinrichs'sche Buchhandlung, Leipzig, in the series Vorderasiatische Bibliothek (VAB); the preface thanks the series editors and the publisher for allowing departures from series rules and thanks museums and private owners for access; preface dated Kristiania, June 1907.
+      UNRESEARCHED, recorded as tasks and not as findings: who funded Knudtzon's work and the VAB series; who owned or controlled Hinrichs; Graf's and Simon's financial dealings with the museums and what each stood to gain; who funded Winckler and Abel; who paid for the Prussian copying; the Egyptian, British and private buyers of the rest of the find and who profited. Sayce, Budge and Petrie also relied on in the literature: funding UNRESEARCHED.
+  - id: L-05
+    date: 2026-10-14
+    entry: >
+      WHAT THE TEXT READ SAYS. Letter 286 (Berlin VA Th. 1642, Abdi-Heba of Jerusalem to the king): Knudtzon's German 'Die Habiru pluendern alle Laender des Koenigs' (l.56) and the writer's quoted question 'Warum liebt ihr die Habiru, und die Regenten hasst ihr?' (l.19 by Knudtzon's own note). Letter 287 (VA Th. 1644): 'diese Tat ist die Tat Milkilis und die Tat der Soehne Labajas, welche gegeben haben das Land des Koenigs den Habiru'. The letters are sent to Egypt by an Asiatic ruler; they are not Egyptian records. They do not say Canaanite cities captured the Habiru. In the passages read, the letter writer is an interested party (Abdi-Heba defends his own loyalty and accuses rivals), so the letters are testimony, not neutral records.
+  - id: L-06
+    date: 2026-10-14
+    entry: >
+      WEIGHING AND WHERE THE FACTS END. Speaker parts: 'the Egyptians recorded' and 'captured by Canaanite cities' are filed proposed at weight 1, not refuted, because the object was not read, other letters were not read and the speaker's own basis is unknown. The 150-year, 1750, 1550 dates are filed searched_gap: no source with dated evidence was read for the Hyksos or a current Amarna date; the speaker's 1400 BC is within the range Knudtzon's 1915 reasoning gives, which is not a current chronology. The claim that the Habiru were the Hyksos is held contested with three named positions: the speaker (no source), Knudtzon (a people, equated with the Hebrews, dated by 1 Kings 6:1: a biblical frame that is his own, not a datum of the tablets) and a social-label view named from memory and not read. The facts end here: that two letters name the Habiru as plunderers is read in one editor's translation; that they were Hyksos, Hebrews, a class or something else is open; the tablets' signs and dates are unread. Nothing here is a finding about Israel: the letters read, searched in OCR, do not name Israel, which is an absence claim capped at low (absence_anchor).
+  - id: L-07
+    date: 2026-10-14
+    entry: >
+      NEXT STEPS. (1) Open plate 102 in the Winckler-Abel scan and a photograph of VAT 1642 (CDLI or the Berlin museum), check the licence, and transliterate lines 19 and 56 of letter 286 and lines 29-31 of 287. (2) Read Moran 1992 for the modern view of habiru and the funding of Johns Hopkins University Press's series, and a current chronology. (3) Read the early habiru texts and Egyptian Apiru texts, then test the Habiru = Hyksos equation. (4) Trace the funders listed UNRESEARCHED in L-04. The taxonomy entry for this subject (build/taxonomy.yaml) was not added because that file is owner-only; conformance warns about it.

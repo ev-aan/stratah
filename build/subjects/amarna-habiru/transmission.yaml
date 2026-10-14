@@ -1,0 +1,35 @@
+# How the speaker claims about the Habiru appeared. Spread is adoption, never evidence (X1).
+subject: amarna-habiru
+chains:
+  - id: tx-amarna-habiru-dead-hidden
+    about: "amarna-habiru:amarna-sp-khapiru-were-the-hyksos"
+    title: "Where the 'Habiru captured Canaanite cities, 150 years after the Hyksos expulsion, and were the Hyksos' wording appears in the Dead Hidden videos"
+    confers_weight: false
+    events:
+      - id: tx-ah-01
+        date: "2026-08-23"
+        precision: day
+        step: repetition
+        carrier: "Dead Hidden, 'The Habiru' (APUenSDE2oM), uploaded date per the claims file"
+        form: "Chronology: Hyksos came to Egypt in 1750 BC, went into exile in 1550 BC with their people captive; in 1400 BC Canaanite city-states capture Hapiru (dh-APUenSDE2oM-08)."
+        source: src-dh-claims
+        read: no
+        note: "Only the extracted claim line was read, not the video or transcript. Speaker cites 'Egyptian records'."
+      - id: tx-ah-02
+        date: "2026-08-25"
+        precision: day
+        step: repetition
+        carrier: "Dead Hidden, 'The Serpent The Judge' (gBGfqlL_FFQ)"
+        form: "150 years after the expulsion, the Egyptians recorded the Habira being captured by Canaanite cities as bands of robbers and raiders (dh-gBGfqlL_FFQ-08)."
+        source: src-dh-claims
+        read: no
+        note: "Claim line only. Dates are upload dates from the claims files, not first-use dates."
+      - id: tx-ah-03
+        date: "2026-09-14"
+        precision: day
+        step: repetition
+        carrier: "Dead Hidden, 'Rekhmire' (HN0wNVpfunM)"
+        form: "The Khapiru who captured Canaanite cities were the Hyksos (dh-HN0wNVpfunM-30)."
+        source: src-dh-claims
+        read: no
+        note: "Claim line only. The speaker's source for the identification is 'none given'."

@@ -1,0 +1,34 @@
+# Shared node. Append-only: a change is a new `rev` plus a `history` entry, never an overwrite. See build/SCHEMA.md, Nodes.
+id: amarna-ea-286-287-habiru-passages
+rev: 1
+type: document
+label: 'Amarna letters EA 286 and EA 287 (Abdi-Heba of Jerusalem to the king): passages naming the Habiru'
+time: '-1370-01-01'
+precision: range
+date_basis: inferred
+kind: document
+status: single
+what: >-
+  In Knudtzon's 1915 edition, letter 286 (Berlin tablet, VA Th. 1642) and letter 287 (VA Th. 1644), both sent from Jerusalem by Abdi-Heba,
+  name the Habiru. Knudtzon's German for 286 l.56: "Die Habiru plündern alle Länder des Königs". For 287 l.29-31: "diese Tat ist die Tat
+  Milkilis und die Tat der Söhne Labajas, welche gegeben haben das Land des Königs den Habiru." The letters give no year; the window is
+  built from Knudtzon's 1915 statement that the two reigns together (about 53 years; Amenophis III 36 years attested, IV 17) fall roughly one third or a little more before 1400 BCE
+  and the rest after, widened to 1330 to take in the lower chronology he cites from Lehmann. Later chronologies were not read.
+window:
+  earliest: '-1420-01-01'
+  latest: '-1330-12-31'
+  begin_note: 'Knudtzon 1915, p. 27: about one third or somewhat more of the two reigns (about 53 years together) falls before 1400 BCE; the window starts at 1420 as a round placeholder for about 53 years ending after 1400, not his exact start.'
+  end_note: 'Knudtzon 1915 cites Lehmann, who puts Amenophis III to 1318 BCE; the window stops at 1330 as a placeholder for the lower chronology. Modern absolute chronologies (not read) are outside what this node shows.'
+sources:
+- title: 'J. A. Knudtzon, Die El-Amarna-Tafeln, vol. 1 (Leipzig: Hinrichs, 1915), letters 286 and 287 with introduction pp. 27-52, Internet Archive OCR read'
+  url: https://archive.org/details/dieelamarnatafel01knud
+  authenticity: authenticated edition, moderate; a transliteration and translation, not the tablet (see the amarna-habiru manifest)
+  origin: knudtzon-1915
+  source_type: scholarly
+  access: read
+manifest: {subject: amarna-habiru, source: src-knudtzon-1915-v1}
+created: '2026-10-14'
+history:
+- rev: 1
+  date: '2026-10-14'
+  change: Created by the amarna-habiru dig from Knudtzon 1915 OCR. The date window is our reading of Knudtzon's own chronology and is a placeholder, not an established date.

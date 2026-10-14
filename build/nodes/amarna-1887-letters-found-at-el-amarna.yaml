@@ -1,0 +1,33 @@
+# Shared node. Append-only: a change is a new `rev` plus a `history` entry, never an overwrite. See build/SCHEMA.md, Nodes.
+id: amarna-1887-letters-found-at-el-amarna
+rev: 1
+type: event
+label: 'Winter 1887/88: clay tablets with cuneiform letters are found at el-Amarna, Middle Egypt, and sold to Berlin, London and Cairo'
+time: '1887-12-01'
+precision: month
+date_basis: stated
+kind: document
+status: single
+what: >-
+  Winckler (1889, preface) says the tablets, letters of Asiatic princes and governors to the Egyptian court, were found at the beginning
+  of winter 1887/88 at el-Amarna, the ruin site of the residence founded by Amenophis IV. Most went to the Royal Museums in Berlin through
+  Theodor Graf of Vienna, made possible by a gift of most of the Graf collection by Kommerzienrat J. Simon of Berlin; part went to the
+  British Museum and part to Bulaq. Knudtzon (1915) quotes Sayce as saying the discovery became known toward the end of summer 1887 and
+  that Sayce saw many tablets about mid December, and quotes a report that a peasant woman found them digging dust. The two accounts give
+  the find a few months apart; the exact month is not established from the passages read.
+place:
+  name: 'el-Amarna (Tell el-Amarna), Middle Egypt'
+  note: 'Named by Winckler 1889 and Knudtzon 1915. No coordinates given; none are guessed here. The exact find spot inside the site is not stated in the passages read.'
+sources:
+- title: 'H. Winckler (ed.), L. Abel (copyist), Der Thontafelfund von El Amarna, Heft I (Berlin: Spemann, 1889), preface, Internet Archive OCR read'
+  url: https://archive.org/details/derthontafelfund01wincuoft
+  authenticity: authenticated edition, moderate; an editor's account of the Berlin acquisition (see the amarna-habiru manifest)
+  origin: winckler-1889
+  source_type: scholarly
+  access: read
+manifest: {subject: amarna-habiru, source: src-winckler-abel-1889}
+created: '2026-10-14'
+history:
+- rev: 1
+  date: '2026-10-14'
+  change: Created by the amarna-habiru dig from Winckler 1889 preface and Knudtzon 1915 (quoting Sayce) in the Internet Archive OCR. Date is the editor's stated winter 1887/88; Sayce's differing statements are in the text above.

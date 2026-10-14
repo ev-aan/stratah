@@ -1,0 +1,81 @@
+# Sources for the amarna-habiru dig, with authenticity entries (rules A1-A10, build/SCHEMA.md).
+# Nothing is stored as a copy; sources are cited by URL. Tests were run in this session (2026-10-14); this is not an independent review.
+# PRIMARY DATA for this subject is the cuneiform tablets (Berlin VA Th. 1642 and 1644 for letters 286 and 287) or their photographs and squeezes.
+# None of that was read. Every book below (Knudtzon, Winckler and Abel) is a CLAIM about the tablets: a transliteration, translation and
+# commentary, or a hand copy. Winckler and Abel's autograph plates are drawings of the signs by one copyist, not the object.
+# Funding and control of each author, publisher and sponsor: what was read is recorded in provenance; the rest is marked UNRESEARCHED.
+retrieved: 2026-10-14
+sources:
+
+  - id: src-knudtzon-1915-v1
+    title: "J. A. Knudtzon, Die El-Amarna-Tafeln, mit Einleitung und Erlaeuterungen, vol. 1 (Leipzig: J. C. Hinrichs, 1915; Vorderasiatische Bibliothek 2); preface dated Kristiania, June 1907"
+    url: https://archive.org/details/dieelamarnatafel01knud
+    document_class: "interpretive: transliteration, German translation and introduction. Not primary data. Author funding: UNRESEARCHED. Publisher J. C. Hinrichs'sche Buchhandlung, Leipzig (title page, read): ownership and funding UNRESEARCHED. The series editors (VAB) are thanked in the preface for allowing departures from series rules; who funded the series was not found."
+    read: yes, directly (Internet Archive OCR text, sha256 aec993037828af99046207ba468a56b2b27cfd2819a8a8688ead9e771821a3f0; letters 285-288 translation and transliteration, introduction pp. 27-52 in part)
+    authenticity:
+      status: authenticated
+      strength: moderate
+      provenance: "Item dieelamarnatafel01knud on the Internet Archive, 1915 Hinrichs printing per the item metadata, title page and preface read in the OCR. Rights status field is empty in the item metadata (not stated). Holder of the scanned copy not recorded here."
+      tests:
+        - "Letter 286 is headed 'B 1642, WA 102, W 179' and Winckler and Abel 1889 plate 102 is captioned 'Berlin, VA. Th. 1642' (caption read in OCR; plate image not reached): the Berlin number agrees across the two books (could have failed)"
+        - "Letter 287 headed 'B 1644, WA 103' and the 1889 inventory list says 'Berlin VA. Th. 1644. Ardu-hi-ba an den Koenig': agrees (could have failed)"
+        - "The Habiru passage in letter 286 appears in both Knudtzon's cuneiform transliteration (amelutuha-bi-ru ha-bat gab-bi matat sarri) and his German translation (could have failed)"
+      tested_by: "Stratah dig session, 2026-10-14 (not an independent review)"
+      gaps: ["OCR only; page images not compared; OCR is noisy (signs, brackets and numbering damaged)", "Knudtzon prints transliteration, not cuneiform (his preface says so), so the signs of the tablet are not in this book", "His readings rest on the tablets and on Winckler and Abel's hand copies, which were not checked against the tablets here"]
+      next_step: "Compare the OCR of letters 286 and 287 with page images, then with the Berlin tablets' photographs (Vorderasiatisches Museum) or CDLI images."
+      checked: 2026-10-14
+    notes: "Knudtzon's own frame is biblical: he equates the Habiru with the Hebrews and times their entry from 1 Kings 6:1 (introduction, read). That is his reading, not a datum of the tablets."
+
+  - id: src-winckler-abel-1889
+    title: "H. Winckler (ed.), nach den Originalen autographirt von L. Abel, Der Thontafelfund von El Amarna, Heft I (Koenigliche Museen zu Berlin: Mittheilungen aus den Orientalischen Sammlungen; Berlin: W. Spemann, 1889)"
+    url: https://archive.org/details/derthontafelfund01wincuoft
+    document_class: "interpretive/hand copy: autograph drawings of the Berlin tablets by L. Abel, with an inventory. A copyist's drawing, not the object. Authors and funders: see provenance."
+    read: partly. Preface and inventory read in the Internet Archive OCR (sha256 40f07ee1f9ea496b7d8f2b3dcea1b21d53c2ad30063e14a05d009d5cea4b4c7c). Plate pages 100, 101 and 176-181 were looked at as images; the plate for tablet 102 (letter 286) was NOT reached and no sign was read.
+    authenticity:
+      status: authenticated
+      strength: moderate
+      provenance: "Preface (read): the tablets were found at the start of winter 1887/88 at el-Amarna; most were acquired for the Royal Museums in Berlin through the unselfish efforts of Theodor Graf of Vienna; the acquisition was made possible above all by the generosity of Kommerzienrat J. Simon of Berlin, who gave the larger part of the collections Graf brought to Berlin to the museums as a gift. Copies of the Bulaq tablets were made possible by the Academy of Sciences and the Royal Prussian government (preface, read). Copies of the Berlin tablets: Berlin Royal Museums. So the Berlin text was obtained by purchase from a dealer and a private donor, and the 1889 publication was a state museum's. Who paid for Graf's dealings and what Simon or the museums stood to gain: UNRESEARCHED. Internet Archive item derthontafelfund01wincuoft carries possible-copyright-status NOT_IN_COPYRIGHT in its metadata."
+      tests:
+        - "Preface acquisition account compared with Knudtzon 1915's account (Sayce quoted): both say winter 1887/88 and Berlin, London, Bulaq holdings; differ on month (could have failed)"
+        - "Inventory line 'Berlin VA. Th. 1642. Ardu-hi-ba an den Koenig' read in the OCR and agrees with Knudtzon's B 1642 for letter 286 (could have failed)"
+      tested_by: "Stratah dig session, 2026-10-14 (not an independent review)"
+      gaps: ["Plate 102 not viewed", "Hand copy not compared with the tablet or a photograph", "Not compared with a second printing"]
+      next_step: "Open plate 102 (two pages after printed page 103 in the scan) and the VAT 1642 photograph, and read lines 56-57 of letter 286."
+      checked: 2026-10-14
+
+  - id: src-sayce-via-knudtzon
+    title: "A. H. Sayce, on the discovery of the Amarna tablets (Proc. Soc. Biblical Archaeology vol. 10, 1888-89; History of Egypt, 1902), as quoted by Knudtzon 1915"
+    url: https://archive.org/details/dieelamarnatafel01knud
+    document_class: "interpretive: cited second hand. Funding of Sayce's work: UNRESEARCHED."
+    read: no. Quoted passages read only inside Knudtzon (cited_only).
+    authenticity: {status: unchecked, next_step: "Open Proc. SBA vol. 10, pp. 488-525 on the Internet Archive."}
+
+  - id: src-cdli-ea286
+    title: "CDLI record for the Berlin tablet VAT 1642 (Amarna letter EA 286), cdli.mpiwg-berlin.mpg.de"
+    url: https://cdli.mpiwg-berlin.mpg.de/search?simple-value=VAT+1642
+    read: no. The URL redirected to cdli.earth, which returned HTTP 500 (two attempts); not otherwise retried.
+    authenticity: {status: unchecked, next_step: "Open in a browser, find the P-number, check image licence."}
+
+  - id: src-smb-vam
+    title: "Vorderasiatisches Museum, Staatliche Museen zu Berlin, record for VAT 1642 and VAT 1644"
+    url: ""
+    read: no. A search returned no museum page; not located.
+    authenticity: {status: unchecked, next_step: "Search recherche.smb.museum for the inventory numbers; check image licence before any use."}
+
+  - id: src-moran-1992
+    title: "W. L. Moran, The Amarna Letters (Baltimore: Johns Hopkins University Press, 1992)"
+    url: ""
+    read: no. In copyright; not located. Named in the handoff as a candidate.
+    authenticity: {status: unchecked, next_step: "Library copy: read the notes to EA 286-290 and the modern view of habiru."}
+
+  - id: src-dh-claims
+    title: "Dead Hidden YouTube claims files, ids dh-gBGfqlL_FFQ-08, dh-APUenSDE2oM-08, dh-HN0wNVpfunM-30 (~/dead_hidden_claims/)"
+    url: ""
+    document_class: speaker claims (extracted captions). Never an anchor.
+    read: the claim lines only (statement, quote, speaker_cites); the videos and transcripts were not watched or read here
+    authenticity: {status: unchecked, next_step: "Not needed as evidence. Cited only so the transmission record can say where the claims were made."}
+
+not_accepted_as_anchors:
+  - "Wikipedia (including its pages on EA 286 and the Amarna letters): orientation only, not used as support"
+  - "Search-engine summaries and a Hebrew-language discussion list post on the reading of Abdi-Heba's name: leads, not reads"
+  - "The Dead Hidden videos themselves"

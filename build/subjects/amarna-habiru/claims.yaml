@@ -1,0 +1,493 @@
+# Built from a compact script in the author's scratchpad; edit by adding log entries and re-anchoring claims.
+subject: amarna-habiru
+title: 'The Amarna letters that name the Habiru: what two letters say, who wrote them, and what the speaker says they say'
+question: What do the Amarna letters say about the Habiru, who wrote them, and when, compared with the speaker's '150 years after the expulsion'?
+dig_status: open
+headline_status: draft
+search_summary: The Amarna letters are cuneiform letters sent to the Egyptian court by Asiatic rulers, found at el-Amarna in 1887/88. In Knudtzon's
+  1915 edition two letters from Abdi-Heba of Jerusalem (286, 287) name the Habiru as plunderers of the king's lands and as people the king's land
+  was given to by named rivals. Nothing read says Canaanite cities captured them, and the letters are not Egyptian records. The tablets, their
+  images and any modern edition were not read; the date and the Hyksos link are open.
+description: 'First dig on the Amarna Habiru passages. Sources actually read: Knudtzon 1915 (transliteration, translation and introduction, Internet
+  Archive OCR) and Winckler 1889 (preface and inventory, OCR; hand-copy plates for other tablets looked at). Not read: any image of tablet VA
+  Th. 1642 or 1644, CDLI (HTTP 500), the Berlin museum record, Moran 1992, any current chronology. Three Dead Hidden claims are split into parts
+  and weighed; the videos are never an anchor.'
+divergence_note: The speaker's version has Egyptians recording that Canaanite cities captured the Habira 150 years after the Hyksos expulsion,
+  with the Habiru the Hyksos. The two letters read say the Habiru plunder the king's lands and were given land by local rivals, written by a Jerusalem
+  ruler to the Egyptian king. The date match to 1400 BCE is within the range a 1915 edition gives and is untested against current chronology.
+  The identity of the Habiru is a live dispute between a people (Knudtzon, equating them with Hebrews) and a social label (named from memory,
+  not read). The gap between the speaker's wording and the text, and between a 1915 editor's biblical frame and the tablets, is the product here.
+  The tablets themselves were not seen.
+claims:
+- id: amarna-286-knudtzon-habiru-plunder
+  state: proposed
+  statement: In Knudtzon's 1915 edition of Amarna letter 286 (Abdi-Heba of Jerusalem to the king; Berlin VA Th. 1642), the transliteration at
+    line 56 reads amelutuha-bi-ru ha-bat gab-bi matat sarri, and his German translation reads 'Die Habiru pluendern alle Laender des Koenigs'
+    (The Habiru plunder all the lands of the king).
+  statement_kind: reported
+  evidence_class: interpretive
+  confidence: low
+  evidential_weight: 2
+  anchor_checked: secondary
+  adoption_weight: null
+  adoption_note: Not assessed.
+  would_change_if: the tablet (VA Th. 1642) or its photograph is read and line 56 shows a different sign group, or a specialist edition (Moran
+    1992, CDLI) reads the line differently
+  anchor:
+    type: interpretive
+    description: 'Read in the Internet Archive OCR of Knudtzon vol. 1: letter 286 translation and transliteration, the page that ends the letter
+      (the line is the 56th of the original per his own note in the introduction, ''Den Auslaut u hat der Name, wo er als Subjekt steht (286,
+      56 ...)''). It is Knudtzon''s reading of the tablet, not the tablet. The OCR is noisy; the Habiru sentence is clear in both transliteration
+      and translation.'
+    sources:
+    - src-knudtzon-1915-v1
+    nodes:
+    - &id001
+      node: amarna-ea-286-287-habiru-passages
+      verb: supports
+    accessible: true
+  basis: '# V: transliteration and translation both read in OCR 2026-10-14; signs of the tablet NOT read. Weight 2 because this is one editor''s
+    transliteration of a text whose object was not seen.'
+- id: amarna-287-knudtzon-cities-gave-land-to-habiru
+  state: proposed
+  statement: 'In Knudtzon''s 1915 edition of Amarna letter 287 (Abdi-Heba to the king; Berlin VA Th. 1644), lines 29-31, Abdi-Heba says ''this
+    deed is the deed of Milkilu and the deed of the sons of Labaya, who have given the land of the king to the Habiru'' (Knudtzon''s German: ''welche
+    gegeben haben das Land des Koenigs den Habiru''; transliteration sa na-ad-nu mat sarri amelutuha-bi-ri).'
+  statement_kind: reported
+  evidence_class: interpretive
+  confidence: low
+  evidential_weight: 2
+  anchor_checked: secondary
+  adoption_weight: null
+  adoption_note: Not assessed.
+  would_change_if: the tablet or a photograph shows a different reading, or a specialist edition translates the verb or the object differently
+  anchor:
+    type: interpretive
+    description: Read in the Internet Archive OCR of Knudtzon vol. 1, letter 287 transliteration (lines 29-31) and the German translation. Knudtzon's
+      reading, not the tablet.
+    sources:
+    - src-knudtzon-1915-v1
+    nodes:
+    - *id001
+    accessible: true
+  basis: '# V: both read in OCR 2026-10-14. Here the Habiru are given land by named local rulers (Milkilu, the sons of Labaya) who are accused
+    of it by the writer; that is Abdi-Heba''s accusation, a partisan statement in a letter by an interested party, not a neutral record.'
+- id: amarna-286-knudtzon-habiru-loved-by-officials
+  state: proposed
+  statement: 'In Knudtzon''s 1915 edition of Amarna letter 286 the writer reports saying to the king''s officer: ''Warum liebt ihr die Habiru,
+    und die Regenten hasst ihr?'' (Why do you love the Habiru and hate the rulers?). Knudtzon''s own note in the introduction lists the Habiru
+    name in the dependent case at 286 line 19, which fits this sentence''s position in the OCR page run (between the letter 286 heading and letter
+    287).'
+  statement_kind: reported
+  evidence_class: interpretive
+  confidence: low
+  evidential_weight: 2
+  anchor_checked: secondary
+  adoption_weight: null
+  adoption_note: Not assessed.
+  would_change_if: page images are compared and the line number is not 19, or the tablet shows a different reading
+  anchor:
+    type: interpretive
+    description: 'Read in OCR: Knudtzon vol. 1 letter 286 translation, and his introduction footnote ''Den Auslaut u hat der Name, wo er als Subjekt
+      steht (286, 56; ...); nur wo er in abhaengigem Verhaeltnis steht (286, 19; 287, 31; ...)''. The line number is inferred from that footnote
+      and the page order; the OCR line numbers are damaged. Knudtzon''s reading, not the tablet.'
+    sources:
+    - src-knudtzon-1915-v1
+    nodes:
+    - *id001
+    accessible: true
+  basis: '# V: German translation and the footnote read in OCR 2026-10-14. The writer, Abdi-Heba, is quoting himself, an interested party in a
+    letter accused of disloyalty.'
+- id: amarna-letters-are-from-asiatic-rulers-to-egypt
+  state: proposed
+  statement: The Berlin tablets of the Amarna find are letters sent by Asiatic princes and governors to the Egyptian court, written in cuneiform,
+    found in the ruins of Amenophis IV's residence at el-Amarna in winter 1887/88 (Winckler's preface, 1889). They are therefore not Egyptian-authored
+    records of the Habiru; they are Egyptian-held foreign correspondence.
+  statement_kind: reported
+  evidence_class: interpretive
+  confidence: low
+  evidential_weight: 2
+  anchor_checked: secondary
+  adoption_weight: null
+  adoption_note: Not assessed.
+  would_change_if: the tablets' own addresses and senders are read and some are found to be Egyptian-authored, or the preface description is shown
+    wrong
+  anchor:
+    type: interpretive
+    description: 'Read in OCR: Winckler 1889 preface (''Briefe asiatischer Fuersten und Statthalter an den aegyptischen Hof des XV. Jahrhunderts''),
+      and Knudtzon''s letter headings for 286 and 287 (''Abdihiba von Jerusalem an den Koenig''). Editors'' descriptions, not the tablets.'
+    sources:
+    - src-winckler-abel-1889
+    - src-knudtzon-1915-v1
+    nodes:
+    - node: amarna-1887-letters-found-at-el-amarna
+      verb: supports
+    accessible: true
+  basis: '# V: preface and headings read in OCR 2026-10-14. The tablets were not seen. Sender and direction are the editors'' statements.'
+- id: amarna-sp-150-years-after-expulsion
+  state: searched_gap
+  statement: 150 years after the expulsion, (speaker claim dh-gBGfqlL_FFQ-08, 'But 150 years after the expulsion of the Hyksos nobility'). (speaker
+    claim, kept as stated; the wording is the speaker's)
+  statement_kind: search_result
+  evidence_class: primary_text
+  confidence: low
+  evidential_weight: 1
+  anchor_checked: 'no'
+  adoption_weight: 2
+  adoption_note: Repeated in the Dead Hidden videos; the speaker cites 'Egyptian records' or nothing. How far it is held outside them was not
+    assessed.
+  would_change_if: the Amarna tablets are placed on a chronology read from a dated source and compared with a read date for the Hyksos expulsion
+  next_step: Read a chronology of the early 18th Dynasty (Ahmose) and of Amenhotep III/Akhenaten from a source that cites the dated evidence (for
+    example Shaw 2000, Hornung et al. 2006), then compare.
+  absence_anchor: false
+  anchor:
+    type: search-record
+    description: 'Searched: Knudtzon 1915 (read) puts Amosis''s expulsion of the Hyksos at the start of the Egyptian conquests in Asia but gives
+      no BCE year for it in the passage read, and puts the Amarna reigns at about 1420-1360 BCE by his reckoning with a lower alternative from
+      Lehmann; no modern chronology read. So 150 years cannot be tested.'
+    sources:
+    - src-knudtzon-1915-v1
+    nodes:
+    - *id001
+    accessible: true
+  basis: No date for the expulsion was read. Neither the expulsion date nor the letters' absolute date is settled here.
+- id: amarna-sp-egyptians-recorded
+  state: proposed
+  statement: the Egyptians recorded (speaker claim dh-gBGfqlL_FFQ-08, speaker_cites 'Egyptian records'). (speaker claim, kept as stated; the wording
+    is the speaker's)
+  statement_kind: judgment
+  evidence_class: interpretive
+  confidence: low
+  evidential_weight: 1
+  anchor_checked: secondary
+  adoption_weight: 2
+  adoption_note: Repeated in the Dead Hidden videos; the speaker cites 'Egyptian records' or nothing. How far it is held outside them was not
+    assessed.
+  would_change_if: an Egyptian-language record naming the Habiru or Apiru around the 15th to 14th century is read and matches the speaker's description,
+    or the speaker's source is identified
+  anchor:
+    type: interpretive
+    description: The Amarna letters, which the handoff suggests as the nearest object, are letters TO Egypt from Asiatic rulers (Winckler 1889
+      preface, read), not records made by Egyptians. Egyptian-language texts that mention the Apiru exist (recalled, not read here). The speaker's
+      source is not named.
+    sources:
+    - src-winckler-abel-1889
+    - src-knudtzon-1915-v1
+    accessible: true
+  basis: '# V: preface read. Held at weight 1: the claim as stated points at ''Egyptian records'' and the letters read are not that.'
+- id: amarna-sp-habira-captured-by-canaanite-cities
+  state: proposed
+  statement: the Habira being captured by Canaanite cities (speaker claim dh-gBGfqlL_FFQ-08). (speaker claim, kept as stated; the wording is the
+    speaker's)
+  statement_kind: judgment
+  evidence_class: interpretive
+  confidence: low
+  evidential_weight: 1
+  anchor_checked: secondary
+  adoption_weight: 2
+  adoption_note: Repeated in the Dead Hidden videos; the speaker cites 'Egyptian records' or nothing. How far it is held outside them was not
+    assessed.
+  would_change_if: a text is read in which Canaanite cities capture or seize Habiru people, or the speaker's source is identified
+  anchor:
+    type: interpretive
+    description: 'In the two letters read in Knudtzon''s edition the direction is the opposite: the Habiru plunder the lands of the king (286)
+      and local rulers give the king''s land to the Habiru (287). Neither passage says the cities captured them. Other letters were not read in
+      full.'
+    sources:
+    - src-knudtzon-1915-v1
+    nodes:
+    - *id001
+    accessible: true
+  basis: '# V: letters 286 and 287 read in translation. Not called refuted: the other letters, and the Egyptian-language sources, were not read,
+    and Knudtzon''s German could be mistranslated at points.'
+- id: amarna-sp-bands-of-robbers-and-raiders
+  state: contested
+  statement: as bands of robbers and raiders overrunning cities (speaker claim dh-gBGfqlL_FFQ-08). (speaker claim, kept as stated; the wording
+    is the speaker's)
+  statement_kind: judgment
+  evidence_class: interpretive
+  confidence: low
+  evidential_weight: 1
+  anchor_checked: secondary
+  adoption_weight: 2
+  adoption_note: Repeated in the Dead Hidden videos; the speaker cites 'Egyptian records' or nothing. How far it is held outside them was not
+    assessed.
+  would_change_if: the letters are read in a specialist edition and the usage of habiru is tested across all sources, or the sign GAZ/SA.GAZ is
+    shown to mean robbers, or shown to name a people
+  positions:
+  - label: Raiding bands; a social or occupational label
+    holder: 'Knudtzon rejects the ''robber'' reading of the logogram but reports that others take the names as common nouns; modern scholars on
+      this side: NOT READ'
+    ground: Habiru appear in the letters as plunderers (286 l.56) and as people localities side with (287); a common noun is possible
+  - label: A people or group of tribes (ethnic)
+    holder: J. A. Knudtzon 1915 (read)
+    ground: a place-determinative follows 'habiru' in letter 289 line 24 and 'SA.GAZ' elsewhere, which he takes to show a place-linked people;
+      the Habiru are set against the land's native population
+  disputed_by:
+  - who: Knudtzon 1915 against unnamed holders of the common-noun view
+    kind: work
+    position: people or tribes, not a word for robbers
+    source_read: yes (introduction, OCR)
+    via: the introduction names Winckler on identity and mentions an unnamed appellative view
+  note: 'Opposing positions are both kept. What would shift it: a specialist edition read for every place habiru occurs, and a count by context
+    of those that name a people, a place or an occupation.'
+  anchor:
+    type: interpretive
+    description: 'Knudtzon 1915 translates the Habiru as plundering (286: ha-bat, ''plunder'') but argues at length that the Habiru and the SA.GAZ
+      people are peoples or tribes, not a common noun ''robbers'', and rejects the reading of the logogram as ''habbatu, robber'' (introduction,
+      read). He mentions without naming that others hold the names are only common nouns.'
+    sources:
+    - src-knudtzon-1915-v1
+    nodes:
+    - *id001
+    accessible: true
+  basis: '# V: introduction passages read in OCR 2026-10-14. A modern social-class reading (raider bands or uprooted people) was NOT read; it
+    is named in the positions as not opened.'
+- id: amarna-sp-hyksos-came-1750-bc
+  state: searched_gap
+  statement: Hyksos came to Egypt in 1750 BC (speaker claim dh-APUenSDE2oM-08). (speaker claim, kept as stated; the wording is the speaker's)
+  statement_kind: search_result
+  evidence_class: primary_text
+  confidence: low
+  evidential_weight: 1
+  anchor_checked: 'no'
+  adoption_weight: 2
+  adoption_note: Repeated in the Dead Hidden videos; the speaker cites 'Egyptian records' or nothing. How far it is held outside them was not
+    assessed.
+  would_change_if: a chronology source that cites its dated evidence is read for the start of Hyksos rule or presence
+  next_step: Read Bietak or Ryholt on the Hyksos (Avaris dig), via the avaris-tell-el-dab-a dig on this repository, when it exists.
+  anchor:
+    type: search-record
+    description: 'Searched: the two books read (Knudtzon 1915, Winckler 1889) give no date for Hyksos arrival in the passages read; the introduction
+      mentions only that Amosis expelled them. Not tested here.'
+    sources:
+    - src-knudtzon-1915-v1
+    accessible: true
+  basis: Out of scope of the Amarna object; filed to record that the speaker's date was not tested.
+- id: amarna-sp-hyksos-exile-1550-captive
+  state: searched_gap
+  statement: went into exile in 1550 BC with their people captive (speaker claim dh-APUenSDE2oM-08). (speaker claim, kept as stated; the wording
+    is the speaker's)
+  statement_kind: search_result
+  evidence_class: primary_text
+  confidence: low
+  evidential_weight: 1
+  anchor_checked: 'no'
+  adoption_weight: 2
+  adoption_note: Repeated in the Dead Hidden videos; the speaker cites 'Egyptian records' or nothing. How far it is held outside them was not
+    assessed.
+  would_change_if: the Ahmose texts (Ahmose son of Ebana, Kamose) are read and chronology for Ahmose is read
+  next_step: Read the Ahmose son of Ebana biography and a chronology (see the ahmose-son-of-ebana dig) and compare.
+  anchor:
+    type: search-record
+    description: 'Searched: Knudtzon 1915 (read) says Amosis expelled the Hyksos and pursued them into southern Palestine, taking a city (his
+      phrasing, drawn from an Egyptian source he does not quote in the passage read). No year or ''people captive'' statement read.'
+    sources:
+    - src-knudtzon-1915-v1
+    accessible: true
+  basis: Not tested.
+- id: amarna-sp-canaanite-cities-capture-hapiru-1400-bc
+  state: proposed
+  statement: in 1400 BC Canaanite city-states capture Hapiru (speaker claim dh-APUenSDE2oM-08). (speaker claim, kept as stated; the wording is
+    the speaker's)
+  statement_kind: judgment
+  evidence_class: interpretive
+  confidence: low
+  evidential_weight: 1
+  anchor_checked: secondary
+  adoption_weight: 2
+  adoption_note: Repeated in the Dead Hidden videos; the speaker cites 'Egyptian records' or nothing. How far it is held outside them was not
+    assessed.
+  would_change_if: the date and the verb are checked against the letters in a specialist edition and a chronology read from dated sources
+  anchor:
+    type: interpretive
+    description: 'Date: Knudtzon 1915 (read) places the Amarna letters about 1400-1360 BCE by his own reckoning, with a lower alternative (Lehmann)
+      noted, so a date near 1400 is of the order his edition gives; modern chronologies were not read. Verb: the two letters read have the Habiru
+      plundering and being given land, not being captured by cities (see amarna-sp-habira-captured-by-canaanite-cities).'
+    sources:
+    - src-knudtzon-1915-v1
+    nodes:
+    - *id001
+    accessible: true
+  basis: '# V: Knudtzon pp. 27 and 38 read in OCR. The date match is to a 1907-1915 chronology, not a current one. Weight 1.'
+- id: amarna-sp-khapiru-were-the-hyksos
+  state: contested
+  statement: The Khapiru who captured Canaanite cities were the Hyksos (speaker claim dh-HN0wNVpfunM-30, 'Who were the Khapiru if not the Hyksos?';
+    speaker_cites 'none given'). (speaker claim, kept as stated; the wording is the speaker's)
+  statement_kind: judgment
+  evidence_class: interpretive
+  confidence: low
+  evidential_weight: 1
+  anchor_checked: secondary
+  adoption_weight: 2
+  adoption_note: Repeated in the Dead Hidden videos; the speaker cites 'Egyptian records' or nothing. How far it is held outside them was not
+    assessed.
+  would_change_if: texts naming habiru or apiru from dated contexts before and after the Hyksos period are read and set beside the Hyksos record
+  positions:
+  - label: Habiru = Hyksos
+    holder: the speaker (Dead Hidden, dh-HN0wNVpfunM-30); no source given
+    ground: none given in the claim line
+  - label: Habiru = Hebrews (an intruding people of unknown origin)
+    holder: J. A. Knudtzon 1915 (read), following Conder and Zimmern as he reports
+    ground: phonetic equation of habiru with 'ibri and a Babylonian attestation; he dates their arrival from 1 Kings 6:1
+  - label: Habiru a social class or label across the Near East, not one people
+    holder: modern specialists, NOT READ here (not named from a source opened)
+    ground: to be read
+  disputed_by:
+  - who: unnamed holders of the social-label view (not read)
+    kind: unnamed
+    position: habiru is a class term across the Near East
+    source_read: 'no'
+    via: named from memory; no source opened in this dig
+  note: 'Kept open. Would settle it: the early habiru texts (Mari, Alalakh, Nuzi, Ugarit) and the Egyptian Apiru texts read from the editions,
+    with dates.'
+  anchor:
+    type: interpretive
+    description: Knudtzon 1915 (read) treats the Habiru as foreign intruders of unknown origin ('wir wissen aber gar nicht, wo sie hergekommen
+      sind') and, following others, as the Hebrews; he does not equate them with the Hyksos, whom he mentions only as expelled by Amosis. That
+      is one 1915 editor's view, read second hand to the tablets. Habiru occur in Babylonia (he says so) and the habiru name is attested outside
+      Egypt in sources not read here.
+    sources:
+    - src-knudtzon-1915-v1
+    accessible: true
+  basis: '# V: introduction read in OCR 2026-10-14. The speaker names no source. The identification is neither supported nor refuted by what was
+    read; evidence on the early occurrences of habiru and on Hyksos identity was not opened.'
+- id: amarna-sp-israel-at-jerusalem-and-tel-dan-under-egyptian-control
+  state: searched_gap
+  statement: how Israel became established at Jerusalem and Tel Dan while Egypt controlled Canaan (speaker claim dh-HN0wNVpfunM-30; the speaker
+    asks it as a question). (speaker claim, kept as stated; the wording is the speaker's)
+  statement_kind: search_result
+  evidence_class: interpretive
+  confidence: low
+  evidential_weight: 1
+  anchor_checked: 'no'
+  adoption_weight: 2
+  adoption_note: Repeated in the Dead Hidden videos; the speaker cites 'Egyptian records' or nothing. How far it is held outside them was not
+    assessed.
+  would_change_if: texts and excavation reports for Jerusalem and Tel Dan are read; a source dating an Israelite presence at either place is opened
+  next_step: Open the Tel Dan and Jerusalem excavation reports and the stele or text evidence for Israel's earliest attestation (see the merneptah-stele-israel
+    dig).
+  anchor:
+    type: search-record
+    description: 'Searched: Knudtzon 1915 vol. 1, the letters'' translations and transliterations (OCR text searched for ''Israel''): the word
+      occurs only in his citations of modern authors, never as a name in a letter. The letters read show Jerusalem under its own ruler, Abdi-Heba,
+      writing to the Egyptian king (letter 287: ''the king has set his name in the land of Jerusalem forever''). Tel Dan and the archaeology are
+      not read.'
+    sources:
+    - src-knudtzon-1915-v1
+    nodes:
+    - *id001
+    accessible: true
+  basis: Presupposes that Israel existed in Canaan then; that is the speaker's premise and was not tested here. See also amarna-letters-do-not-name-israel.
+- id: amarna-letters-do-not-name-israel
+  state: searched_gap
+  statement: In the OCR text of Knudtzon's 1915 edition of the Amarna letters (volume 1, letters 1-358 in transliteration and translation) the
+    name Israel does not occur as a name in a letter.
+  statement_kind: search_result
+  evidence_class: interpretive
+  confidence: low
+  evidential_weight: 1
+  anchor_checked: 'no'
+  adoption_weight: null
+  adoption_note: Not assessed.
+  would_change_if: a letter with 'Israel' is found in a specialist edition, or the OCR is shown to have dropped it
+  next_step: Search the transliteration for Ysrjr, Israel, and Isra'il variants in an edition without OCR damage (CDLI text search, Moran 1992
+    index).
+  absence_anchor: true
+  anchor:
+    type: search-record
+    description: 'Searched: the whole OCR of Knudtzon vol. 1 for ''Israel''; four hits, all in the introduction citing modern books (e.g. ''Gesch.
+      Israels''). OCR may miss spellings and the search was for the German form only.'
+    sources:
+    - src-knudtzon-1915-v1
+    accessible: true
+  basis: Absence in OCR of one edition. It does not show the sign group is absent from the tablets, nor that no letter names a group later called
+    Israel.
+- id: amarna-habiru-before-1550-attestation
+  state: searched_gap
+  statement: Whether the name habiru (SA.GAZ, Egyptian Apiru) occurs in dated sources earlier than the Hyksos expulsion has not been checked here.
+  statement_kind: search_result
+  evidence_class: primary_text
+  confidence: low
+  evidential_weight: 1
+  anchor_checked: 'no'
+  adoption_weight: null
+  adoption_note: Not assessed.
+  would_change_if: dated early habiru texts (for example from Mari, Alalakh, Nuzi, Ugarit or Egyptian Apiru texts) are read
+  next_step: Open CDLI search for habiru or SA.GAZ with dates, and Egyptian Apiru texts in the Topographical Bibliography; read the tablets or
+    editions.
+  anchor:
+    type: search-record
+    description: 'Searched: Knudtzon 1915 (read) mentions Habiru in Babylonia but only as a Kassite-era border-stone attestation, which is later
+      than the Hyksos. No early text read.'
+    sources:
+    - src-knudtzon-1915-v1
+    accessible: true
+  basis: This bears directly on whether the Habiru can be the Hyksos. Not settled here.
+- id: amarna-ea-286-signs-not-read
+  state: searched_gap
+  statement: That the sign group in line 56 of tablet VA Th. 1642 (letter 286) reads habiru, and that the tablet is as Knudtzon prints it, has
+    not been checked against the tablet, a photograph or a squeeze.
+  statement_kind: search_result
+  evidence_class: material
+  confidence: low
+  evidential_weight: 1
+  anchor_checked: 'no'
+  adoption_weight: null
+  adoption_note: Not assessed.
+  would_change_if: the VAT 1642 photograph or the Winckler-Abel plate is read at line 56 and the signs are transliterated
+  next_step: Open plate 102 in the Internet Archive scan of Winckler and Abel (two scan pages after printed page 103), then the CDLI or museum
+    photograph for VAT 1642; check licences.
+  anchor:
+    type: search-record
+    description: 'Searched: Knudtzon 1915 (transliteration read in OCR); Winckler and Abel 1889 (inventory entry read; the autograph plates for
+      other tablets were looked at, plate 102 not reached); CDLI (HTTP 500); Berlin museum database (no page located). No image of VA Th. 1642
+      was opened and no sign was read.'
+    sources:
+    - src-knudtzon-1915-v1
+    - src-winckler-abel-1889
+    nodes:
+    - *id001
+    accessible: true
+  basis: Primary data for this dig is not yet in hand. A hand copy is a drawing, not the object.
+- id: amarna-letters-absolute-date
+  state: contested
+  statement: 'The Amarna letters belong to the reigns of Amenophis III and IV (Akhenaten) in the 14th century BCE; their absolute BCE dates are
+    not settled in the sources read: Knudtzon 1915 places about a third of the 53 combined years before 1400 BCE and notes Lehmann''s lower chronology
+    (Amenophis III to 1318 BCE).'
+  statement_kind: judgment
+  evidence_class: interpretive
+  confidence: low
+  evidential_weight: 2
+  anchor_checked: secondary
+  adoption_weight: null
+  adoption_note: Not assessed.
+  would_change_if: a current chronology (Shaw 2000; Hornung, Krauss, Warburton 2006) is read and the letters' synchronisms with Babylonian and
+    Hittite kings are checked
+  positions:
+  - label: 'Higher: letters start before 1400 BCE'
+    holder: J. A. Knudtzon 1915 (read)
+    ground: synchronism with Assyrian and Babylonian reigns he reckons, ending about 1375 for the accession of Amenophis IV (his earlier placing
+      reaches up to about 1395)
+  - label: 'Lower: Amenophis III to about 1318 BCE'
+    holder: Lehmann, as reported by Knudtzon 1915 (read second hand)
+    ground: Knudtzon gives it only as an opposing view
+  - label: Current absolute chronology
+    holder: NOT READ
+    ground: to be read from Shaw 2000 or Hornung et al. 2006
+  disputed_by:
+  - who: Knudtzon 1915 and Lehmann (as reported by him)
+    kind: person
+    position: different absolute years for the same reigns
+    source_read: yes (Knudtzon, OCR); no (Lehmann)
+    via: Knudtzon 1915, p. 27
+  anchor:
+    type: interpretive
+    description: 'Read in OCR: Knudtzon 1915 pp. 27 and 38 (the combined reigns, attested regnal years 36 and 17, his 1395-1375 reasoning, and
+      the Lehmann alternative). A 1915 scholar''s chronology, not a measurement. The attested regnal years themselves were not seen.'
+    sources:
+    - src-knudtzon-1915-v1
+    nodes:
+    - *id001
+    accessible: true
+  basis: '# V: pages read in OCR 2026-10-14. Modern chronologies not read, so the open question of the lower or higher date stays open.'
