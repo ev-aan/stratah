@@ -1,0 +1,17 @@
+# How the speaker claims about the Megiddo campaign appeared. Spread is adoption, never evidence (X1).
+subject: megiddo-campaign-1447
+chains:
+  - id: tx-megiddo-dead-hidden
+    about: "megiddo-campaign-1447:megiddo-sp-1447-recorded-armageddon"
+    title: "Where the '1447, Armageddon, Exodus, Amun-Ra' wording appears in the Dead Hidden videos"
+    confers_weight: false
+    events:
+      - id: tx-mg-01
+        date: "2026-10-14"
+        precision: day
+        step: repetition
+        carrier: "Dead Hidden videos MNeiRTK5MmE (dh-MNeiRTK5MmE-48), wbdnR9qs9MU (dh-wbdnR9qs9MU-60), MvDtwF6S2C4 (dh-MvDtwF6S2C4-12); video upload dates not known"
+        form: "1447 Battle of Armageddon recorded by the Egyptians, a vile prince gathered the armies of the north at Megiddo, then the Exodus around 1400 BC; in one video the battle is right after the Exodus and Egypt adds a new god Amun-Ra."
+        source: src-dh-claims
+        read: no
+        note: "Date shown is the date of this record, not a first-use date. Wording is from the handoff file; the claims files and videos were not opened. The speaker's own source is unknown."

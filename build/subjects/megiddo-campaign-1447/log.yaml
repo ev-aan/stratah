@@ -1,0 +1,37 @@
+subject: megiddo-campaign-1447
+# Append-only. Corrections are new entries; earlier entries are never edited.
+log:
+  - id: L-01
+    date: 2026-10-14
+    entry: >
+      DIG OPENED from a handoff (megiddo-campaign-1447.yaml, written by another agent). Its object identification ("Annals of Thutmose III Karnak Megiddo; Urk. IV; Lichtheim AEL II; Griffith Topographical Bibliography") was an unverified guess.
+      Three speaker claims (dh-MNeiRTK5MmE-48, dh-wbdnR9qs9MU-60, dh-MvDtwF6S2C4-12) are kept in the speaker's wording as given in the handoff and split into separate claims: date, recording, gathering of armies, Exodus, new god Amun-Ra, Amun-Ra as the god of Moses. No headline (headline_status draft).
+      Owner rules applied: books, translations, commentaries and videos are all claims; none is primary data; every claim resting on them alone is proposed or searched_gap, interpretive, anchor_checked secondary or no, confidence low, weight at most 2.
+  - id: L-02
+    date: 2026-10-14
+    entry: >
+      WHAT WAS OPENED AND READ. Breasted, Ancient Records of Egypt vol. 2 (Chicago: University of Chicago Press, 1906), Internet Archive item ancientrecordsof02brea, OCR text (sha256 cfd690f1...21e7eb11): sections 391-433 and notes, 755-756, table of contents.
+      Breasted vol. 1 (1906), item ancientrecordsof01brea, OCR (sha256 ed9d9888...b61cb370; full hash in the manifest): preface, section 67 and note (reign 3 May 1501 to 17 March 1447 BC), section 484 (Amenemhet I dedication naming Amon-Re).
+      Lepsius, Denkmaeler Abth. III Bl. 31 and 32, Internet Archive item dli.calcutta.09958, images n34 and n35 (sha256 3e196da5... and ddcd5f19...): VIEWED as images and their captions read; the signs were NOT transliterated. These are 1840s drawings, not the wall.
+      R. H. Barnhart web pages (The Battle and Siege of Megiddo; Annals_1-67 photomontage page): fetched through a summarising fetch tool, so read only as summaries, not line by line; the photomontage image was not viewed.
+  - id: L-03
+    date: 2026-10-14
+    entry: >
+      WHAT WAS BLOCKED OR NOT OPENED. Not located or not opened: Urkunden IV (Sethe), Faulkner JEA 1942, Lichtheim AEL II, Porter and Moss, Bissing's collation, any museum, excavation or Karnak documentation record for the Annals wall, any modern chronology (Kitchen, Shaw), any history of the Lepsius expedition or the Chicago series.
+      The Dead Hidden claims files (~/dead_hidden_claims) were NOT opened: the attempt to read them was denied by the session's permission classifier, so the speaker wording is taken from the handoff file only and was not compared with the claims files or the videos. The Wikipedia pages (Battle of Megiddo, Annals of Thutmose III) appeared in search results and were not opened or used.
+      The Lepsius Bl. 31/32 plates have no stated licence on the scan item; nothing was stored in the repository, only sha256 hashes recorded. The Barnhart photomontage states no licence ('used courtesy of Mark Vygus'); not stored. No block, bot check or paywall was met on archive.org; none was bypassed.
+  - id: L-04
+    date: 2026-10-14
+    entry: >
+      FINDINGS ON THE SPEAKER CLAIMS (all at translation level; none from the signs). (1) 1447 BC: Breasted 1906 gives 1447 BC as the END of Thutmose III's reign (17 March 1447), not the battle; his scheme puts year 23 at 1479 BC; a personal web page says 1457 BC. The speaker may be using the reign-end year; that is a hypothesis about the wording, carries no weight and is not stated as a finding.
+      (2) Gathering at Megiddo: the translation has the king say the chief of Kadesh had gathered chiefs of countries as far as Naharin at Megiddo; this is the Egyptian side's account only, and part of the speech is restored. (3) Exodus: no mention in sections 406-433; the speaker's three wordings differ on whether the battle comes before or after the Exodus. (4) Amun-Ra: the translated Megiddo account already has the king invoke 'my father Amon-Re'; an earlier translation (Twelfth Dynasty, Amenemhet I) has Amon-Re too. (5) The word 'Armageddon' does not occur in vol. 2. Nothing is called refuted because only translations were read.
+  - id: L-05
+    date: 2026-10-14
+    entry: >
+      WHO FUNDED AND CONTROLLED THE SOURCES (traced as far as read). Breasted: his preface says his copying of monuments in European museums was part of a mission for a commission of four German Royal Academies (Berlin, Leipzig, Goettingen, Munich) for an Egyptian Dictionary 'endowed by the German Emperor'; the Chicago volumes are in a series 'under the general editorship of William Rainey Harper' published by the University of Chicago Press. Who paid for the Chicago volumes: UNRESEARCHED (one web search found nothing; the Rockefeller connection found belongs to the later Oriental Institute, not to these volumes).
+      Lepsius: the scan's catalogued title says the expedition was sent by King Friedrich Wilhelm IV of Prussia (1842-1845); its financial control: UNRESEARCHED. Barnhart: the page states no funding or affiliation; the author is UNRESEARCHED. Dead Hidden: speaker's source and funding unknown.
+      What each author stood to gain from the results: UNRESEARCHED.
+  - id: L-06
+    date: 2026-10-14
+    entry: >
+      WHERE THE FACTS END, AND WHAT STAYS OPEN. Known only through translations: the regnal date, the gathering and the king's account. Not known here: the wording of the signs, the absolute year BC (1479, 1457 and 1447 each appear; the contested claim keeps them side by side with named holders), when the Annals were carved, whether any outside source (Canaanite, Hittite, excavated Megiddo) confirms the gathering, and whether any Exodus tradition is linked to this campaign by anyone with a stated reason. The Exodus question is filed as an open gap, not weighed. Next steps: read Urkunden IV 645ff. with an Egyptologist, compare Lepsius Bl. 31 and 32 and a wall photograph, and read a chronology with stated method.

@@ -1,0 +1,27 @@
+# Shared node. Append-only: a change is a new `rev` plus a `history` entry, never an overwrite. See build/SCHEMA.md, Nodes.
+id: megiddo-annals-variant-1457
+rev: 1
+type: event
+label: 'Year 23 of Thutmose III reckoned as 1457 BCE by a personal web page (variant of the Breasted 1479 date)'
+time: '-1457-01-01'
+precision: year
+date_basis: stated
+kind: document
+status: single
+derived_from: megiddo-annals-year-23-battle-of-megiddo
+variant_reason: 'A different absolute year for the same regnal date (year 23, I Shemu day 21). The page says "according to current scholarly calculations" and names no chronology, so this is a stated number, not a worked one.'
+what: >-
+  The page "The Battle and Siege of Megiddo" by Rhio H. Barnhart says: "The battle and siege of Megiddo took place, according to current scholarly calculations, in 1457 BC." The page gives no chronology, author affiliation, licence or funding statement. It cites Sethe's Urkunden, Breasted 1906, Lichtheim and Faulkner for the text.
+sources:
+- title: 'R. H. Barnhart, The Battle and Siege of Megiddo (personal web page, rhbarnhart.net)'
+  url: https://www.rhbarnhart.net/The_Battle_of_Megiddo.html
+  authenticity: personal web page; a claim; author and funding unknown (UNRESEARCHED)
+  origin: barnhart-web
+  source_type: secondary_report
+  access: read
+manifest: {subject: megiddo-campaign-1447, source: src-barnhart-web}
+created: '2026-10-14'
+history:
+- rev: 1
+  date: '2026-10-14'
+  change: Created as a variant (N4) of the Breasted-based node. Both stay; neither is the object.

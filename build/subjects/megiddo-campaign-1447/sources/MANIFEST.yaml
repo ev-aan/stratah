@@ -1,0 +1,106 @@
+# Sources for the megiddo-campaign-1447 dig, with authenticity entries (rules A1-A10, build/SCHEMA.md).
+# Nothing is stored in the repository; sources are cited by URL. Tests were run in this session (2026-10-14), which is not an independent review.
+# Books, translations and web pages are claims, not primary data. The only primary-adjacent item looked at is the 1840s Lepsius plate drawing of the
+# Annals (a 19th-century copy of the wall, not the wall). The signs were NOT transliterated, so no claim here rests on a reading of the hieroglyphs.
+retrieved: 2026-10-14
+sources:
+
+  - id: src-breasted-are2
+    title: "J. H. Breasted, Ancient Records of Egypt vol. 2, The Eighteenth Dynasty (Chicago: University of Chicago Press, 1906), sections 391-433 (the Annals, first campaign), 755-756"
+    url: https://archive.org/details/ancientrecordsof02brea
+    document_class: "interpretive: translation with commentary. A claim, not primary data. Author: James Henry Breasted. Publisher: University of Chicago Press, series 'Ancient Records under the general editorship of William Rainey Harper' (title page, read). Funders of the volume and of the series: UNRESEARCHED"
+    read: yes, directly (Internet Archive OCR text from the Brigham Young University copy, sha256 cfd690f1a1858e162bf9c67969f02f2e963fc6a71271cf3e481d421621e7eb11; sections 391-433, 755-756 and the table of contents)
+    authenticity:
+      status: authenticated
+      strength: moderate
+      provenance: "Item ancientrecordsof02brea on the Internet Archive, contributor Harold B. Lee Library, sponsor Brigham Young University (item metadata). Title page and copyright page in the OCR say Volume II, University of Chicago Press, published March 1906. Not compared with a holder copy."
+      tests:
+        - "Title page, volume number, publisher and 'Published March 1906' read in the OCR and agree with the Internet Archive metadata (could have failed)"
+        - "Breasted's citations of the Annals text to Lepsius, Denkmaeler III, 31 b and 32 (section 406) agree with the captions of the plates viewed in src-lepsius-denkmaeler-abth3 (Bl. 31 and Bl. 32 show Karnak inscriptions beside the Cella of Philippus) (could have failed)"
+      tested_by: "Stratah dig session, 2026-10-14 (not an independent review)"
+      gaps: ["OCR only; page images not compared (OCR garbles the calendar table at section 409)", "The translation was not checked against the signs", "Breasted says the complete text had never been edited together and that its upper parts are lost (section 391 note)"]
+      next_step: "Read the hieroglyphic text (Urkunden IV 645ff., or Bissing's collation named by Breasted) with an Egyptologist and compare lines 1-67 and 67-100 of the battle account."
+      checked: 2026-10-14
+    notes: "Breasted's own preface (vol. 1) says his copying for the Berlin Dictionary was done for a commission of the four Royal Academies of Germany, the Dictionary being 'endowed by the German Emperor'. It does not say who paid for the Chicago volumes."
+
+  - id: src-breasted-are1
+    title: "J. H. Breasted, Ancient Records of Egypt vol. 1, The First to the Seventeenth Dynasties (Chicago: University of Chicago Press, 1906), preface; chronology section 67; section 484 (Amenemhet I dedication)"
+    url: https://archive.org/details/ancientrecordsof01brea
+    document_class: "interpretive: translation with commentary. A claim, not primary data. Funders of the volume: UNRESEARCHED (the preface names only the German Emperor's endowment of the Berlin Dictionary mission)"
+    read: yes, directly (Internet Archive OCR text, sha256 ed9d9888de82a2a8ed635911b3adf0a7764b1f125efe4bfed1fe2673b61cb370; preface, section 67 and note, section 484)
+    authenticity:
+      status: authenticated
+      strength: moderate
+      provenance: "Item ancientrecordsof01brea on the Internet Archive; the same series and year as vol. 2. Holder and scan sponsor not recorded here."
+      tests:
+        - "Section 67's statement that the reign is 'May 3, 1501, to March 17, 1447 B. C.' is repeated in its own footnote and agrees with the new-moon dates it cites from vol. 2 section 430 (could have failed)"
+      tested_by: "Stratah dig session, 2026-10-14 (not an independent review)"
+      gaps: ["OCR only", "Hieroglyphs not read", "Breasted's chronology is a 1906 scheme (Meyer's lunar computation); later chronologies were not read"]
+      next_step: "Read a modern chronology of the Eighteenth Dynasty with stated method and compare year 23 of Thutmose III."
+      checked: 2026-10-14
+
+  - id: src-lepsius-denkmaeler-abth3
+    title: "C. R. Lepsius, Denkmaeler aus Aegypten und Aethiopien, Abtheilung III, Blatt 31 and 32 (Berlin: Nicolai, 1849-1859), Karnak inscriptions beside the Cella of Philippus. Scan: Internet Archive item dli.calcutta.09958 (Band 5), images n34 and n35"
+    url: https://archive.org/details/dli.calcutta.09958
+    document_class: "plate drawings of the wall made by a Prussian expedition (1842-1845); a 19th-century copy, not the wall. Title (as catalogued on the Internet Archive for a companion scan, item denkmaelerausaeg05leps): the expedition was 'von Seiner Majestaet dem koenige von Preussen Friedrich Wilhelm IV ... gesendeten', so the sponsor named in the title is the Prussian crown; its control of the work beyond that: UNRESEARCHED"
+    read: "viewed, not read. The two plate images were opened and their printed captions read (Bl. 31: 'Karnak. Inschriften. a. vor b. neben der Cella des Philippus'; Bl. 32: 'Karnak. Inschrift neben der Cella des Philippus'). The hieroglyphic lines were NOT transliterated or compared with any translation."
+    authenticity:
+      status: authenticated
+      strength: weak
+      provenance: "Digital Library of India scan on the Internet Archive; scan sponsor and rights status not given in the item metadata (rights unverified, so no image is stored in the repository). The plate numbers Bl. 31 and 32 and their subject match Breasted's citation of 'Lepsius, Denkmaeler III, 31 b and 32' for the Annals (src-breasted-are2 section 406)."
+      tests:
+        - "Plate captions say Karnak, beside the Cella of Philippus; Breasted's footnote to section 391 says the Annals walls surround the granite sanctuary that Philip Arrhidaeus inserted (could have failed)"
+      tested_by: "Stratah dig session, 2026-10-14 (not an independent review)"
+      gaps: ["Signs not read", "Not compared with the wall or with Urkunden IV or Bissing's collation", "Breasted says Lepsius's text of the Annals is not fully accurate (section 391 note: none of the editions is accurate except Bissing)"]
+      next_step: "An Egyptologist reads Bl. 31 b and Bl. 32 and the date line; compare with Urkunden IV and photographs of the wall."
+      checked: 2026-10-14
+      sha256: "3e196da5e1beddcb0e9106c668f075f2dace302275fb214f556153b9fd584f3f (n34.jpg, Bl. 31) and ddcd5f19a8757eaed4ca043da064de825ea1e713d38d9bf2cd19b129e20c88f0 (n35.jpg, Bl. 32), files downloaded to the session scratch area only"
+      copy_of: "Lepsius, Denkmaeler Abth. III Bl. 31, 32"
+      compared_with_holder_copy: "no"
+    notes: "Not stored. Cite by URL only until the licence of this scan is confirmed."
+
+  - id: src-barnhart-web
+    title: "Rhio H. Barnhart, The Battle and Siege of Megiddo (personal web page)"
+    url: https://www.rhbarnhart.net/The_Battle_of_Megiddo.html
+    document_class: "secondary: a personal web page with the author's own translation (started 20 April 2014, completed 11 March 2015, with 'the Glyphstudy Translation group', per the page). A claim. No funding, licence or affiliation statement on the page (as fetched): author's background and funders UNRESEARCHED"
+    read: "yes, fetched and summarised by the fetch tool's model; not read line by line. Reported: cites Sethe's Urkunden der 18. Dynastie, Breasted 1906, Lichtheim, Faulkner (1942 JEA 'The Battle of Megiddo'); says the battle 'took place, according to current scholarly calculations, in 1457 BC'."
+    authenticity:
+      status: unchecked
+      next_step: "Open in a browser, read the translation lines, and identify the author and any institutional backing."
+  - id: src-barnhart-photomontage
+    title: "Photomontage of the Battle of Megiddo inscription, lines 1-67 (rhbarnhart.net/Annals_1-67.html), credited 'Created by and used courtesy of Mark Vygus'"
+    url: https://rhbarnhart.net/Annals_1-67.html
+    document_class: "photograph of the wall (a photomontage by a third party). Not stored: no licence stated; used 'courtesy' only."
+    read: "page caption read. The image itself was NOT viewed and no signs were read."
+    authenticity:
+      status: unchecked
+      next_step: "Ask the creator for licence and a full-resolution image; view it and compare with Urkunden IV."
+
+  - id: src-dh-claims
+    title: "Dead Hidden YouTube claims dh-MNeiRTK5MmE-48, dh-wbdnR9qs9MU-60, dh-MvDtwF6S2C4-12"
+    url: ""
+    document_class: speaker claims (captions of videos). Never an anchor.
+    read: "NOT opened. The claim wording is taken from the handoff file handoff/megiddo-campaign-1447.yaml (as_stated), not from the claims files; access to the claims directory was denied in this session. The videos were not watched."
+    authenticity:
+      status: unchecked
+      next_step: "Not needed as evidence. Compare the handoff wording with the claims files when access is allowed."
+
+  - id: src-urk-iv
+    title: "K. Sethe, Urkunden der 18. Dynastie (Urk. IV), pp. 645ff. (hieroglyphic text of the Megiddo account); Lichtheim, Ancient Egyptian Literature II; Faulkner, JEA 28 (1942) 'The Battle of Megiddo'; Porter and Moss, Topographical Bibliography"
+    url: ""
+    document_class: hieroglyphic edition and translations; named in the handoff and by Barnhart, not located or opened
+    read: no. Not located; Urkunden IV is cited by Barnhart as the primary edition (per the fetched summary); page numbers are from memory of the standard citation and are unchecked.
+    authenticity: {status: unchecked, next_step: "Library copy of Urk. IV 645ff.; read the date and the speech of the king."}
+
+  - id: src-search-summaries
+    title: "Web search result summaries (including pages from Wikipedia, a podcast page, and tourism or reference sites)"
+    url: ""
+    document_class: leads only. Not anchors, not read.
+    read: no. Wikipedia pages appeared in results and were not opened. The summaries mention 1457 and 1482 as other proposed years; these are unread leads.
+    authenticity: {status: unchecked, next_step: "Replace with a chronology source actually read."}
+
+not_accepted_as_anchors:
+  - "Wikipedia: orientation only, and not used"
+  - "Search-engine summaries: leads, not reads"
+  - "The Dead Hidden videos"
+  - "Every book, translation and web page listed above: a claim that needs the object or its images"
