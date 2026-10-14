@@ -1,0 +1,135 @@
+# Sources for the sea-peoples-medinet-habu dig (rules A1-A10, build/SCHEMA.md).
+# Nothing is stored in the repository: OIP 8 is CC BY-NC-ND 4.0 per the ISAC catalogue page (images not stored, cited by URL); the Archive OCR texts and two articles were
+# downloaded to a scratch folder only, and their sha256 is recorded here. Tests were run by the dig session on 2026-10-14, which is not an independent review.
+# Primary data for this subject is the temple walls at Medinet Habu and the Karnak wall. The session saw only modern drawings and photographs of Medinet Habu (OIP 8 plates 44, 46, 53, 54) and
+# did NOT read the hieroglyphic signs, so no claim here is anchor_checked primary. Books and translations are claims, not data.
+retrieved: 2026-10-14
+sources:
+
+  - id: src-oip8
+    title: "The Epigraphic Survey (H. H. Nelson, field director), Medinet Habu Volume I: Earlier Historical Records of Ramses III, Oriental Institute Publications 8 (Chicago: University of Chicago Press, 1930), plates 1-54, with foreword and list of plates"
+    url: https://isac.uchicago.edu/publications/medinet-habu-volume-i-earlier-historical-records
+    pdf_url: "https://isac-assets.s3.amazonaws.com/isac-publications/oip8_0.pdf (VersionId LQPPP3ygR0LJrTXdvn44f14OYIGc7I9o); the older link isac.uchicago.edu/.../docs/oip8.pdf returned the catalogue HTML page, not the PDF"
+    document_class: "facsimile drawings and photographs of the wall (modern reproduction of the object, not the object); foreword by Breasted. Excavator and funders: see provenance"
+    read: "yes. Front matter and foreword read in the PDF text layer; list of plates read; plates 44 (pdf p.117), 46 (p.121), 53 (p.135) and 54 (p.137) opened as page images and looked at. The hieroglyphic signs on those plates were NOT read."
+    rights: "CC BY-NC-ND 4.0, copyright University of Chicago (ISAC catalogue page, read). Images not stored here (ND/NC); cited by URL and plate number."
+    authenticity:
+      status: authenticated
+      strength: moderate
+      provenance: >
+        Published by the University of Chicago Press, June 1930, as Oriental Institute Publications vol. VIII (title page and imprint read). Edited by James Henry Breasted. Field director Harold Hayden Nelson; epigraphers Edgerton, Williams, Wilson; artists Bollacher, Canziani, Chubb; photographers Morrison, Lind, Hartman (title page read).
+        Funding as printed in the foreword (read): the Oriental Institute was founded in 1919 'by contributions from Mr. John D. Rockefeller, Jr., since followed by additional support from the same generous donor, from the General Education Board, and from the International Education Board'; in 1926 Julius Rosenwald contributed funds for the Chicago House headquarters and library (library since endowed by the General Education Board); the internet publication was supported by Misty and Lewis Gruber (title page). Breasted, the editor, both directs the institute that publishes and wrote the foreword. What the donors stood to gain, and any editorial control by them: UNRESEARCHED.
+      tests:
+        - "Plate captions in the list of plates agree with the captions printed on the plate pages opened (54 A 'pile of lifeless hands ... detail from scene shown on plate 23'; 53 A and B 'detail from scene shown on plate 42'; plate 46 'The inscription of the year 8'); could have failed"
+        - "Publisher, year and series number on the title page agree with the ISAC catalogue record (Chicago 1930, 54 plates) read in the search result and catalogue page; could have failed"
+      tested_by: "Stratah dig session, 2026-10-14 (not independent of the claimant)"
+      gaps: ["Hieroglyphs not read by this session", "Drawings are an epigraphers' reproduction; collation against the wall or against Egyptian Antiquities Service records not possible here", "Plate 23 and plate 42 not opened", "OIP 9 (Later Historical Records) not opened"]
+      next_step: "Have a reader of Egyptian transliterate plate 46 columns and the caption columns over the prisoner rows of plates 42-44, and compare with Edgerton and Wilson 1936 and Kitchen RI V."
+      checked: 2026-10-14
+      capture: "ISAC catalogue page (isac.uchicago.edu), fetched 2026-10-14; PDF sha256 e0e6447afbad85d9ef2679324c19bc2038f5a4a5858dc8042524f651f8547880 (45,000,574 bytes, 138 pages, scratch copy only)"
+
+  - id: src-breasted-are4
+    title: "J. H. Breasted, Ancient Records of Egypt vol. IV: The Twentieth to the Twenty-Sixth Dynasties (Chicago: University of Chicago Press, 1906), sections 59-82 and 123 (Ramses III, Medinet Habu), 403 (Papyrus Harris) and the commentary on Wenamon"
+    url: https://archive.org/details/cu31924082479258
+    document_class: "interpretive: translation with commentary by one editor, who is also the foreword author of src-oip8. Author, publisher and funders of the 1906 work: the preface read for vol. I names only President Harper and the Trustees of the University of Chicago (see src-breasted-are1-preface); any funder beyond that UNRESEARCHED"
+    read: "yes, directly (Internet Archive OCR text of the Cornell copy, sha256 9eea5f3fc16308bd18118936341e8f1965962d9c85a7dd97d061b378ad387b4d); sections 59-82, 123 and 403 and the Wenamon commentary paragraph read"
+    authenticity:
+      status: authenticated
+      strength: moderate
+      provenance: "Cornell University Library copy digitised by the Internet Archive (item cu31924082479258); title page in the OCR reads 'Volume IV, The Twentieth to the Twenty-Sixth Dynasties, Chicago, 1906'. Archive metadata says no known US copyright restrictions."
+      tests:
+        - "Title page in the OCR names volume IV and 1906 (could have failed: another Archive item, ancientrecordsof04brea, was fetched first and turned out to be an unrelated German novel of 1820 despite its title)"
+        - "Names and counts in section 82 (Denyen and Peleset over captives) agree with the OIP 8 caption 'Ramses III presenting captives of the Sea Peoples' (plate 44) in subject, though not in signs (could have failed)"
+      tested_by: "Stratah dig session, 2026-10-14 (not independent)"
+      gaps: ["OCR only", "Not collated with OIP 8 plate 46 signs", "Dated translation; later translations (Edgerton and Wilson 1936, Kitchen) not opened"]
+      next_step: "Compare Breasted's section 64, 65 and 82 with plate 46 and with Edgerton and Wilson 1936."
+      checked: 2026-10-14
+
+  - id: src-breasted-are3
+    title: "J. H. Breasted, Ancient Records of Egypt vol. III: The Nineteenth Dynasty (Chicago: University of Chicago Press, 1906), sections 569-592 (Merneptah, Great Karnak Inscription, Year 5)"
+    url: https://archive.org/details/cu31924082479241
+    document_class: "interpretive: translation with commentary. Author, publisher and funders: as src-breasted-are4; UNRESEARCHED beyond the preface"
+    read: "yes, directly (Internet Archive OCR text of the Cornell copy, sha256 4fd049a4eed9ffb77978b30681da6773780ca640d5e3a66e86d18b61f8f28ae2); sections 569-574, 587-589 read"
+    authenticity:
+      status: authenticated
+      strength: moderate
+      provenance: "Cornell copy, Internet Archive item cu31924082479241; OCR title page names Volume III. The model Merneptah dig read the same work from another Archive item (ancientrecordsof03brea)."
+      tests:
+        - "Section numbers 569-592 and the four-document list in section 569 are present in the OCR as the same work cited by Breasted's own cross-references in vol. IV (e.g. 'See III, 604') (could have failed)"
+      tested_by: "Stratah dig session, 2026-10-14 (not independent)"
+      gaps: ["OCR only", "Hieroglyphs and the Karnak wall not seen", "Breasted's own note says the Karnak text lost the upper end of each line and earlier copies were inexact"]
+      next_step: "Read Kitchen RI IV for the Karnak inscription lines 52-56 and compare with Breasted's rendering of the Ekwesh passage."
+      checked: 2026-10-14
+
+  - id: src-breasted-are1-preface
+    title: "J. H. Breasted, Ancient Records of Egypt vol. I, Preface (Chicago, 1906), pp. vii-xvii"
+    url: https://archive.org/details/ancientrecordsof01brea
+    document_class: "interpretive (editor's preface); used only for who supported the work"
+    read: "yes, directly (Archive OCR text, sha256 ed9d9888de82a2a8ed635911b3adf0a7764b1f125efe4bfed1fe2673b61cb370); acknowledgements read"
+    authenticity:
+      status: authenticated
+      strength: weak
+      provenance: "Archive item ancientrecordsof01brea; OCR shows the series title page and the Preface"
+      tests: ["Series title page and Preface present in the OCR and name Breasted and President W. R. Harper (could have failed)"]
+      tested_by: "Stratah dig session, 2026-10-14 (not independent)"
+      gaps: ["The preface names no funder of the translation. It thanks Harper 'for his interest in this enterprise, and his unfailing support in arranging for my repeated absence in Europe' and the Board of Trustees of the University of Chicago. Where the university's money came from is not stated in this preface and was not researched."]
+      next_step: "Trace the University of Chicago and Breasted's 1890s-1900s research funding in a biography or archive finding aid."
+      checked: 2026-10-14
+
+  - id: src-moreu-2023
+    title: "Carlos J. Moreu, 'Their land was devastated': on the Ramesses III's inscription of his 5th regnal year (relating to the Sea Peoples) (2023), PDF hosted at ancientportsantiques.com"
+    url: https://ancientportsantiques.com/wp-content/uploads/Documents/AUTHORS/SeaPeoples/SeaPeoples-Moreu2023.pdf
+    document_class: "interpretive: self-published article by an author whose institution is not given in the pages read (ORCID only). Funding: no statement found in the text read; UNRESEARCHED"
+    read: "yes, directly (PDF text, sha256 610b2bc513dd66a4b0e323b73615074ee69a444591006272e34421066026f1d4, 9 pages)"
+    rights: "Author's copyright notice: permission to republish must be granted by the author. Not stored here."
+    authenticity:
+      status: unchecked
+      next_step: "Identify the author's affiliation and whether the argument was published after review."
+  - id: src-cline-2015
+    title: "Eric H. Cline, 'Raiders of the Lost Bronze Age?' (popular article, MHQ), PDF hosted at ancientportsantiques.com"
+    url: https://ancientportsantiques.com/wp-content/uploads/Documents/AUTHORS/SeaPeoples/SeaPeoples-Cline2015.pdf
+    document_class: "interpretive: popular-press article. Publisher and funders: UNRESEARCHED"
+    read: "partly: PDF text layer searched for dates and key words and the opening lines read; not read in full (sha256 4e81ac2abb7d479f340d1c70b5280e7902117856690d902591d3b4de5c559e46)"
+    rights: "Not stored; cited by URL."
+    authenticity:
+      status: unchecked
+      next_step: "Open the full article and Cline's 1177 B.C. (Princeton, 2014) for the dating argument."
+
+  - id: src-dh-claims
+    title: "Dead Hidden YouTube claims files, ids dh-wbdnR9qs9MU-39, -40, -41, -43 and dh-oXit2KG1N1s-15, -16, -18"
+    url: ""
+    document_class: speaker claims. Never an anchor.
+    read: "the claim lines only, as supplied in the handoff; videos not watched"
+    authenticity:
+      status: unchecked
+      next_step: "Not needed as evidence."
+
+  - id: src-edgerton-wilson-1936
+    title: "W. F. Edgerton and J. A. Wilson, Historical Records of Ramses III: The Texts in Medinet Habu Volumes I and II, SAOC 12 (Chicago, 1936)"
+    url: https://isac.uchicago.edu/sites/default/files/uploads/shared/docs/saoc12.pdf
+    read: "no. The search result gave this link; the ISAC page for it returned HTML without a PDF link and the PDF itself was not fetched"
+    authenticity: {status: unchecked, next_step: "Download the PDF from the ISAC page and read the Year 8 inscription translation and the Year 5 passage; compare with Breasted."}
+
+  - id: src-kitchen-ri
+    title: "K. A. Kitchen, Ramesside Inscriptions (RI IV Merneptah; RI V Ramesses III) and Translations"
+    url: ""
+    read: "no. Not located; in copyright. Named only in Moreu 2023 (as a translator of the Year 8 inscription)"
+    authenticity: {status: unchecked, next_step: "Library copy."}
+
+  - id: src-ben-dor-wuthrich
+    title: "S. Ben-Dor Evian (2015) and A. Wuthrich and U. Matic (2023, SIMA 154) translations of the Year 5 passage, as cited by Moreu 2023"
+    url: ""
+    read: "no. Known only from Moreu's quotations; Moreu's reading of them is a claim"
+    authenticity: {status: unchecked, next_step: "Read both articles."}
+
+  - id: src-nominatim
+    title: "OpenStreetMap Nominatim search 'Medinet Habu' (way 89828345), fetched 2026-10-14"
+    url: "https://nominatim.openstreetmap.org/search?q=Medinet+Habu&format=json&limit=2"
+    document_class: gazetteer (orientation for coordinates only, not evidence)
+    read: yes (JSON result read)
+    authenticity: {status: not_applicable}
+
+not_accepted_as_anchors:
+  - "Wikipedia (the search results listed Battle of Djahy, Sea Peoples, Peleset pages): not opened, not used"
+  - "Search-engine summaries: leads, not reads"
+  - "The Dead Hidden videos themselves"

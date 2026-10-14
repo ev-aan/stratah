@@ -1,0 +1,40 @@
+# Shared node. Append-only: a change is a new `rev` plus a `history` entry, never an overwrite. See build/SCHEMA.md, Nodes.
+id: medinet-habu-ramses-iii-year-8-inscription
+rev: 1
+type: document
+label: 'Ramses III, year 8: the great inscription and Sea Peoples reliefs at Medinet Habu, Thebes'
+time: '-1177-01-01'
+precision: year
+date_basis: inferred
+kind: document
+status: reported
+what: >-
+  A long inscription dated to year 8 of Ramses III, cut on the north tower of the second pylon of his temple at Medinet Habu, with relief scenes of a land and a naval battle and prisoners on the outside north wall.
+  The Epigraphic Survey published drawings and photographs of it in 1930 (OIP 8, plates 31-46, 53). The date 1177 BC is the single year given by Cline 2015 for regnal year 8; no chronology was read, so the year is a placeholder
+  for ordering and could differ by several years. Breasted's 1906 translation names Peleset, Thekel, Shekelesh, Denyen and Weshesh.
+place:
+  name: 'Mortuary temple of Ramses III, Medinet Habu, west bank, Luxor'
+  lat: 25.71997
+  lon: 32.60073
+  precision: site
+  source: 'OpenStreetMap Nominatim, way 89828345 (query Medinet Habu, 2026-10-14); orientation only'
+  note: 'Gazetteer point for the temple complex, not for a particular wall.'
+sources:
+- title: 'Epigraphic Survey, Medinet Habu Volume I, OIP 8 (Chicago, 1930), plates 44, 46, 53, 54 and foreword; ISAC free PDF'
+  url: https://isac.uchicago.edu/publications/medinet-habu-volume-i-earlier-historical-records
+  authenticity: authenticated edition, moderate (see the sea-peoples-medinet-habu manifest); drawings and photographs, signs not read
+  origin: oip8-1930
+  source_type: scholarly
+  access: read
+- title: 'J. H. Breasted, Ancient Records of Egypt vol. IV (1906), sections 59-82, Internet Archive OCR'
+  url: https://archive.org/details/cu31924082479258
+  authenticity: authenticated edition, moderate; a translation
+  origin: breasted-are4-1906
+  source_type: scholarly
+  access: read
+manifest: {subject: sea-peoples-medinet-habu, source: src-oip8}
+created: '2026-10-14'
+history:
+- rev: 1
+  date: '2026-10-14'
+  change: Created by the sea-peoples-medinet-habu dig. Time is a placeholder from Cline 2015's 1177 BC for year 8 (inferred); place from a gazetteer.

@@ -1,0 +1,33 @@
+subject: sea-peoples-medinet-habu
+# Append-only. Corrections are new entries; earlier entries are never edited.
+log:
+  - id: L-01
+    date: 2026-10-14
+    entry: >
+      DIG OPENED from a handoff (sea-peoples-medinet-habu.yaml). Its object identification (Medinet Habu reliefs, OIP 8 and 9, and the Karnak Great Inscription of Merneptah) was an unverified guess; it proved useful but the speaker's circumcision and hands story belongs to the Merneptah Karnak text, not Medinet Habu.
+      Seven speaker claims (dh-wbdnR9qs9MU-39, -40, -41, -43; dh-oXit2KG1N1s-15, -16, -18) were split by assertion and kept in the speaker's wording. No headline is published (headline_status draft).
+  - id: L-02
+    date: 2026-10-14
+    entry: >
+      WHAT WAS OPENED AND READ. (1) OIP 8 (Epigraphic Survey 1930), free PDF from ISAC (CC BY-NC-ND 4.0 per the catalogue page; the old docs/oip8.pdf link returned HTML, the real file came from the isac-assets link on the catalogue page; sha256 e0e6447a...; PDF is print-only-permissions: only page images and the text layer were used): foreword and front matter read; list of plates read; plates 44, 46, 53, 54 looked at as images. I did not read hieroglyphic signs. Nothing stored in the repository.
+      (2) Breasted, Ancient Records of Egypt vol. IV (1906), Internet Archive OCR of the Cornell copy cu31924082479258 (sha256 9eea5f3f...): sections 59-82, 123, 403 and the Wenamon commentary. The first Archive item tried (ancientrecordsof04brea) is labelled as Breasted vol. 4 but its text is an 1820 German novel; it was discarded.
+      (3) Breasted vol. III (1906), cu31924082479241 (sha256 4fd049a4...): sections 569-574 and 587-589. (4) Breasted vol. I preface (ancientrecordsof01brea, sha256 ed9d9888...) for who supported the work. (5) Moreu 2023 (sha256 610b2bc5...), read through. (6) Cline 2015 popular article (sha256 4e81ac2a...), searched and opening read only. (7) OpenStreetMap Nominatim for the temple's coordinates.
+  - id: L-03
+    date: 2026-10-14
+    entry: >
+      WHAT WAS BLOCKED OR NOT OPENED. Not opened: Edgerton and Wilson 1936 (SAOC 12; the ISAC catalogue page gave no PDF link and the PDF was not fetched), OIP 9, Kitchen's Ramesside Inscriptions, Porter and Moss, Muller 1888, Ben-Dor 2015, Wuthrich and Matic 2023 (known only from Moreu's quotation), any Egyptian chronology, plates 23 and 42 of OIP 8, the Karnak wall and the Medinet Habu wall. Nothing was blocked by a bot check or paywall; two Archive downloads returned server errors (HTTP 500/404) and were replaced by other Archive items. Wikipedia pages appeared in search results and were not opened.
+      The OIP 8 PDF has an encryption flag that forbids copying text. The text layer was read with a standard tool for the foreword and captions (printing allowed); no protection was bypassed beyond what the file allows, and nothing was stored.
+  - id: L-04
+    date: 2026-10-14
+    entry: >
+      FUNDING AND CONTROL, as far as read. OIP 8 foreword: the Oriental Institute was founded in 1919 by contributions from John D. Rockefeller Jr., with further support from him, the General Education Board and the International Education Board; Julius Rosenwald funded the Chicago House headquarters and library in 1926; the Grubers supported the internet publication. Breasted edits the series and wrote the foreword; Harold Hayden Nelson was field director. Breasted's own Ancient Records preface names only President Harper and the Trustees of the University of Chicago. Moreu 2023: no funding or institution stated in the text read. Cline 2015: not traced.
+      NOT TRACED (UNRESEARCHED): what the donors asked for, what control they had over what was published, how the University of Chicago was funded in the 1890s and 1900s, and what Breasted, Moreu and Cline stood to gain. Recorded as sp-sources-funding-trace, not as a finding.
+  - id: L-05
+    date: 2026-10-14
+    entry: >
+      WEIGHING. All claims rest on translations and captions, so each is proposed, contested or searched_gap at evidential weight 1 or 2, interpretive or material (captions of modern drawings), anchor_checked secondary or no. No claim is anchor_checked primary and none is called refuted: the signs were not read and the speaker's basis may lie outside these two texts.
+      What the translations say that differs from the speaker: the Nine Bows is a stock epithet, not a list of nine peoples; each text names five peoples; the Kheta are among the lands wasted by the Northerners in year 8 (while Breasted reads Merneptah's year 5 text as showing Hittite sympathy for the coalition); the circumcision passage is in Merneptah's Karnak text, concerns the Ekwesh, and is about the slain; Hebrews are not in it. What is not in the texts read: nine peoples, Hittites as the biggest force, Rome, castration of prisoners, Danaans or Dan, a return and a 200-mile devastation, three circumcised groups, a 1175 arrival of the Peleset in Canaan. Where Breasted (1906) and Moreu (2023) differ on whether the Peleset were aggressors or victims, both positions are kept open.
+  - id: L-06
+    date: 2026-10-14
+    entry: >
+      LEFT OPEN FOR THE NEXT DIG. The dating (1177 BC for year 8 rests on one popular article; Merneptah's year 5 has no absolute date here), the reading of the signs of plate 46 and of the Karnak lines 52-56, the Edgerton-Wilson and Kitchen translations, and the archaeology of Philistine and other settlement are not read. A node for Merneptah's Karnak inscription was not made because neither its date nor its place has a source read beyond the translation; the Karnak wall position (east wall to Pylon VII, per Breasted's note) is not coordinate-sourced.

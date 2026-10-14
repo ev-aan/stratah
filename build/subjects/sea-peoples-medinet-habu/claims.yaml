@@ -1,0 +1,368 @@
+subject: sea-peoples-medinet-habu
+title: "Sea Peoples at Medinet Habu and the Karnak inscription of Merneptah: what the texts and reliefs show, and what the speaker adds"
+question: "Which peoples do the Egyptian records name, what happened to the prisoners, and what do the Medinet Habu reliefs show?"
+dig_status: open
+headline_status: draft
+search_summary: >
+  Two Egyptian records are involved: Merneptah's Great Karnak Inscription (year 5, against Libyans and 'Northerners') and Ramses III's year 8 inscription and reliefs at Medinet Habu.
+  In Breasted's 1906 translations the Karnak text names Ekwesh, Teresh, Luka, Sherden and Shekelesh, and the Medinet Habu text names Peleset, Thekel, Shekelesh, Denyen and Weshesh.
+  These are translations, not the signs. The signs, the wall records and any current chronology were not read here. Speaker claims are split and weighed; the videos are never an anchor.
+description: >
+  Sources read: the Epigraphic Survey's OIP 8 (1930) front matter, list of plates and four plates (drawings and photographs; signs not read), Breasted's Ancient Records of Egypt vols. III and IV (1906) in Internet Archive OCR,
+  and two modern articles (Moreu 2023; Cline 2015 in part). Not read: Edgerton and Wilson 1936, Kitchen, the hieroglyphic text, any chronology. Funders traced only where a source opened named them.
+divergence_note: >
+  The speaker version joins two reigns (Merneptah year 5 and Ramses III year 8) into one 'confederation of nine peoples' organised by the Hittites, attributes to the Egyptian records
+  castration, circumcised prisoners and a second invasion '200 miles inland', and calls the circumcised Aegean group Hebrews. In Breasted's translations the Nine Bows is a stock epithet for Egypt's enemies, five named peoples are listed in each text,
+  the Kheta are listed among lands the Northerners wasted (Ramses III), and the circumcision passage belongs to Merneptah's Karnak text, where it concerns the Ekwesh, hands and phalli of slain men. None of this was checked against the signs. The Hebrew identification is not in the texts read.
+
+claims:
+
+  # ------------------------- THE OBJECTS AND WHAT WAS SEEN -------------------------
+
+  - id: sp-oip8-plates-seen
+    state: proposed
+    statement: >
+      OIP 8 prints facsimile drawings and photographs of Ramses III's Medinet Habu walls, including Sea Peoples scenes: plate 46 'The Inscription of the Year 8' (drawing), plate 44 'Ramses III presenting captives of the Sea Peoples to Amon and Mut', plate 53 A and B 'The branding of prisoners' and 'Egyptian scribes recording prisoners' (details from the scene on plate 42), and plate 54 A 'A pile of lifeless hands severed from the enemy' (detail from the scene on plate 23, which the list of plates titles 'Ramses III celebrating his victory over the Libyans').
+    statement_kind: reported
+    evidence_class: material
+    confidence: low
+    evidential_weight: 2
+    anchor_checked: secondary
+    adoption_weight: 1
+    adoption_note: "Not stated in popular accounts seen; the plates are cited here for their captions."
+    would_change_if: "the plates are compared with the wall or another recording and the captions or scene assignments are wrong, or plate 23 is opened and shows another subject"
+    anchor:
+      type: material
+      description: >
+        Opened and looked at in the OIP 8 PDF: plate 46 (pdf p.121), plate 44 (p.117), plate 53 (p.135), plate 54 (p.137), and read the printed captions and the list of plates. The images are modern drawings and photographs of the wall, not the wall.
+        On plate 54 A I saw a heap of carved hands; on plate 53 A and B I saw carved rows with vertical marks and, in B, figures and a framed block that the caption calls scribes. I could not independently confirm 'branding' or 'scribes' from the pictures; those words are the caption's. I did not read any hieroglyphic sign.
+      sources: [src-oip8]
+      nodes: [{node: medinet-habu-ramses-iii-year-8-inscription, verb: supports}]
+    basis: >
+      # V: plates 44, 46, 53, 54 viewed as images and captions read, 2026-10-14. Not anchor_checked primary: the object itself was not seen and no signs were read.
+      The editors' foreword (read) credits the artist Bollacher with 'discovery of prisoners being branded with a hot iron (Plate 53, A)'. That is the editors' own report about their drawing and photograph.
+
+  - id: sp-oip8-hands-in-libyan-scene
+    state: proposed
+    statement: >
+      The pile of severed hands photographed in OIP 8 plate 54 A is captioned as a detail from plate 23, the scene titled 'Ramses III celebrating his victory over the Libyans', not from a Sea Peoples scene. Separately, Breasted's description of the Sea Peoples scene with Peleset prisoners (section 76) says officials superintend the counting of hands severed from the fallen of the enemy, recorded by four scribes.
+    statement_kind: reported
+    evidence_class: interpretive
+    confidence: low
+    evidential_weight: 2
+    anchor_checked: secondary
+    adoption_weight: 1
+    adoption_note: "Not stated in popular accounts seen."
+    would_change_if: "plate 23 is opened and shows another subject, or the wall shows hands in both scenes, or Breasted's section 76 description is checked against plate 42 and does not match"
+    anchor:
+      type: interpretive
+      description: "OIP 8 list of plates (entries 23 and 54 A) and the caption on plate 54 (read); Breasted 1906 vol. IV section 76 (read in OCR). Plates 42 and 23 themselves were not opened."
+      sources: [src-oip8, src-breasted-are4]
+    basis: >
+      # V: caption and list read; Breasted section 76 read in OCR 2026-10-14. Hands appear in the Libyan scene by the caption and in the Sea Peoples scene by Breasted's description; the second is a book's description of a relief not opened here.
+
+  - id: sp-medinet-habu-location-year8
+    state: proposed
+    statement: >
+      The year 8 inscription is cut on the front of the north tower of the second pylon of Ramses III's temple at Medinet Habu on the west bank at Thebes (Luxor), and the naval scene is on the outside north wall (Breasted's notes); the inscription is dated by regnal year 8, with an absolute date of 1177 BC given by Cline 2015 and not established here.
+    statement_kind: reported
+    evidence_class: interpretive
+    confidence: low
+    evidential_weight: 2
+    anchor_checked: secondary
+    adoption_weight: 3
+    adoption_note: "1177 BC is widely repeated."
+    would_change_if: "a chronology of the Twentieth Dynasty is read and puts year 8 elsewhere, or the wall position differs in Porter and Moss or Kitchen"
+    anchor:
+      type: interpretive
+      description: "Breasted 1906 vol. IV footnote ('Occupying the entire front of the north tower of the second pylon in the Medinet Habu temple') and notes to sections 74-76 ('Outside north wall of second court'); OIP 8 plate 46 caption 'The Inscription of the Year 8'; Cline 2015 opening page ('in the eighth year of Ramses' reign, 1177 bc'). Coordinates from OpenStreetMap Nominatim (orientation only)."
+      sources: [src-breasted-are4, src-oip8, src-cline-2015, src-nominatim]
+      nodes: [{node: medinet-habu-ramses-iii-year-8-inscription, verb: supports}]
+    basis: "Two books and one popular article agree on the temple and year 8; they are not independent of each other's tradition. No chronology was read."
+
+  # ------------------------- NAMES IN THE TEXTS (as translated) -------------------------
+
+  - id: sp-year8-names-five-peoples
+    state: proposed
+    statement: >
+      In Breasted's 1906 translation of Ramses III's year 8 inscription the invaders' 'main support' is five named peoples: Peleset, Thekel, Shekelesh, Denyen and Weshesh (section 65 text), and the captives over the middle and lower lines of a prisoner scene are labelled 'the vanquished of Denyen' and 'the vanquished of Peleset' (section 82).
+    statement_kind: reported
+    evidence_class: interpretive
+    confidence: low
+    evidential_weight: 2
+    anchor_checked: secondary
+    adoption_weight: 4
+    adoption_note: "The five names are standard in popular accounts."
+    would_change_if: "the signs of plate 46 or the Edgerton-Wilson or Kitchen translations give other names or another count"
+    anchor:
+      type: interpretive
+      description: "Breasted 1906 vol. IV (OCR), sections 65 and 82 read; the plate 44 caption names 'captives of the Sea Peoples' (the phrase 'Sea Peoples' is the modern editors' title, not an Egyptian term). Signs not read."
+      sources: [src-breasted-are4, src-oip8]
+    basis: "# V: read 2026-10-14. Breasted's spellings: Peleset (Pw-r-s-ty), Thekel, Shekelesh, Denyen (D-y-n-yw, 'sic!'), Weshesh."
+
+  - id: sp-karnak-names-and-circumcision
+    state: proposed
+    statement: >
+      In Breasted's 1906 translation of Merneptah's Great Karnak Inscription (year 5) the title names Ekwesh, Teresh, Luka, Sherden and Shekelesh as 'Northerners coming from all lands'; the booty list says of the Ekwesh 'who had no foreskins, slain, whose hands were carried off, (for) they had no [foreskins]', and of others 'uncircumcised phalli' carried off, with 6,359 Libyans slain with phalli carried off.
+    statement_kind: reported
+    evidence_class: interpretive
+    confidence: low
+    evidential_weight: 2
+    anchor_checked: secondary
+    adoption_weight: 3
+    adoption_note: "Known in scholarship; the speaker places the circumcision story at Medinet Habu."
+    would_change_if: "the Karnak wall, Kitchen RI IV or a later translation reads the lines differently"
+    anchor:
+      type: interpretive
+      description: "Breasted 1906 vol. III (OCR) sections 574 and 587-589 and notes (read). Breasted notes the Karnak text lost the upper ends of lines, that earlier copies were inexact, and that 'why the number of hands cut off should exceed the number of men ... does not appear'. Signs not read."
+      sources: [src-breasted-are3]
+    basis: >
+      # V: read 2026-10-14. The translation says 'slain', not 'captive'. Breasted adds that Muller's objections 'do not take full account'; the word read as foreskin (krn't) is contested between Breasted and Muller.
+
+  # ------------------------- SPEAKER CLAIMS, SPLIT, WORDING UNCHANGED -------------------------
+
+  - id: sp-39a-nine-bows-confederation
+    state: proposed
+    statement: "The Egyptians recorded the Confederation of the Nine Bows, made up of nine peoples (dh-wbdnR9qs9MU-39)."
+    statement_kind: judgment
+    evidence_class: interpretive
+    confidence: low
+    evidential_weight: 1
+    anchor_checked: secondary
+    adoption_weight: 2
+    adoption_note: "Dead Hidden wbdnR9qs9MU; the 'nine peoples' wording was not found in the two texts read."
+    would_change_if: "the signs or another translation use 'Nine Bows' as a list of nine named peoples in one record of these wars"
+    anchor:
+      type: interpretive
+      description: "In Breasted vol. IV the Nine Bows appear many times as a stock phrase ('I expelled for her the Nine Bows', section 63; 'Repulser-of-the-Nine-Bows' as a horse's name, section 123) alongside a separate list of five named peoples (section 65). The Karnak translation of Merneptah lists five named peoples. No list of nine peoples under that name was found in the passages read."
+      sources: [src-breasted-are4, src-breasted-are3]
+    basis: "Translations only. In these passages as translated the Nine Bows reads as a conventional expression for Egypt's foes; that is a reading of a translation, not of the signs."
+
+  - id: sp-39b-defeated-prisoners-recorded
+    state: proposed
+    statement: "[The Confederation] fought Egypt and was defeated by Pharaoh, who took prisoners and recorded the names of the peoples (dh-wbdnR9qs9MU-39)."
+    statement_kind: reported
+    evidence_class: interpretive
+    confidence: low
+    evidential_weight: 2
+    anchor_checked: secondary
+    adoption_weight: 4
+    adoption_note: "Dead Hidden; also standard."
+    would_change_if: "the signs show the prisoner scenes or labels are not what the translations and captions say"
+    anchor:
+      type: interpretive
+      description: "Breasted vol. IV sections 65-82 (read) describe the defeat and prisoners with labels 'vanquished of Denyen', 'vanquished of Peleset'; OIP 8 plates 44 and 53 B show prisoner rows and (caption) scribes recording prisoners. Whether the labels are 'names of peoples' recorded as such is a translator's reading."
+      sources: [src-breasted-are4, src-oip8]
+    basis: "# V: read and viewed 2026-10-14. The defeat is the Egyptian king's own claim in a temple text; no outside record was read."
+
+  - id: sp-40-hittites-biggest-force
+    state: contested
+    statement: "The Hittites were the biggest force in the confederation, joined by peoples of modern Turkey, Greece and Rome, the isles and Crete, who came down to fight the Egyptians (dh-wbdnR9qs9MU-40)."
+    statement_kind: judgment
+    evidence_class: interpretive
+    confidence: low
+    evidential_weight: 1
+    anchor_checked: secondary
+    adoption_weight: 2
+    adoption_note: "Dead Hidden; dh-oXit2KG1N1s-15 says the confederation was 'organized by the Hittite Empire'."
+    would_change_if: "the signs place the Kheta among the attackers rather than the victims in year 8, or an outside record (Hittite, Ugaritic) is read"
+    anchor:
+      type: interpretive
+      description: >
+        Breasted vol. IV section 64: 'Not one stood before their hands, from Kheta, Kode, Carchemish, Arvad, Alasa, they were wasted' (the Kheta among lands the Northerners wasted). Breasted vol. III section 570: 'With the sympathy, if not the direct assistance of the Kheta, the Libyan king, Meryey, put himself at the head of these combined allies' (Merneptah, year 5). 'Rome' is not in any passage read; Breasted's note suggests the Teresh may be Etruscans.
+      sources: [src-breasted-are4, src-breasted-are3, src-moreu-2023]
+    positions:
+      - label: "Kheta among the victims of the Northerners (Ramses III, year 8)"
+        holder: "Breasted 1906, vol. IV section 64 (read); Moreu 2023 (read) argues the five peoples were refugees, not the aggressors"
+        ground: "translated line"
+      - label: "Kheta sympathetic to or part of the coalition (Merneptah, year 5)"
+        holder: "Breasted 1906, vol. III section 570 (read)"
+        ground: "Merneptah's text as Breasted reads it; a different reign from year 8"
+    disputed_by:
+      - {who: "Moreu 2023 (against the Kheta/Northerners-as-aggressors reading)", kind: person, position: "the five named peoples were victims of Aegean and Balkan invaders, not Hittite-led", source_read: true, via: src-moreu-2023}
+      - {who: "Breasted 1906 vol. III section 570", kind: work, position: "Kheta gave sympathy if not direct help to Merneptah's coalition", source_read: true, via: src-breasted-are3}
+    next_step: "Read the Kheta lines of the Karnak and year 8 inscriptions in Kitchen RI IV and V and in Edgerton-Wilson."
+    basis: "Two reigns, two readings, one editor. The speaker's 'biggest force' is in neither passage read. No claim is made here about the Hittite empire's real role."
+
+  - id: sp-41a-denyen-akeshi-captured
+    state: proposed
+    statement: "Among the captured were the Denyen (Danaans/Dan) and Akeshi (Ekwesh) (dh-wbdnR9qs9MU-41)."
+    statement_kind: reported
+    evidence_class: interpretive
+    confidence: low
+    evidential_weight: 2
+    anchor_checked: secondary
+    adoption_weight: 3
+    adoption_note: "Dead Hidden; Denyen and Ekwesh belong to different texts."
+    would_change_if: "the signs show Denyen and Ekwesh captive in one record, or an Ekwesh line in Ramses III is found"
+    anchor:
+      type: interpretive
+      description: "Denyen: 'vanquished of Denyen' over a line of captives (Breasted vol. IV section 82; Ramses III year 8). Ekwesh: in Merneptah's Karnak list, 'slain, whose hands were carried off' (vol. III section 588), and in the title as coming with the Libyans; Breasted's note 'the Ekwesh are not impossibly the Achaeans'. The Danaan and Dan equations are not in the texts: Breasted writes 'the Denyen or Danaoi' as an editorial guess (section 60)."
+      sources: [src-breasted-are4, src-breasted-are3]
+    basis: "# V: read 2026-10-14. Two peoples from two reigns, joined in the speaker's sentence. The tribe of Dan equation is not in anything read."
+
+  - id: sp-41b-castration-vs-hands
+    state: proposed
+    statement: "The Egyptians castrated male prisoners but one group from the Aegean was circumcised so they cut off their hands instead (dh-wbdnR9qs9MU-41)."
+    statement_kind: judgment
+    evidence_class: interpretive
+    confidence: low
+    evidential_weight: 1
+    anchor_checked: secondary
+    adoption_weight: 3
+    adoption_note: "Dead Hidden; a changed form of the Karnak passage."
+    would_change_if: "the signs of Merneptah's lines 52-56 or a later translation say the phalli were taken from living prisoners, or give another reason for the Ekwesh hands"
+    anchor:
+      type: interpretive
+      description: "Breasted vol. III section 588: 'Libyans, slain, whose uncircumcised phalli were carried off 6,359'; of the Ekwesh 'who had no foreskins, slain, whose hands were carried off'; 'Kehek, and Libyans, carried off as living prisoners' listed separately. Section 587: asses 'laden with the uncircumcised phalli of the country of Libya, together with the hands of every country that was with them'. Ramses III scenes: hands counted (Breasted section 76), a heap of hands in the Libyan scene (OIP 8 plate 54 A caption)."
+      sources: [src-breasted-are3, src-breasted-are4, src-oip8]
+    basis: >
+      # V: read 2026-10-14. In the translation the cutting is done on the slain, not on prisoners, and 'castrated' is not the word. The reason for the Ekwesh hands is given as their lack of foreskins, which fits that part of the speaker's claim.
+      Whether Breasted's 'foreskin' is right is disputed by Muller, as Breasted's note records.
+
+  - id: sp-41c-aegean-group-circumcised
+    state: contested
+    statement: "One group from the Aegean was circumcised (dh-wbdnR9qs9MU-41; also dh-wbdnR9qs9MU-43: 'at least three groups among them were circumcised')."
+    statement_kind: judgment
+    evidence_class: interpretive
+    confidence: low
+    evidential_weight: 1
+    anchor_checked: secondary
+    adoption_weight: 3
+    adoption_note: "Dead Hidden; the 'three groups' wording was not found."
+    would_change_if: "the signs show 'foreskin' at the Ekwesh line, or another body of text or excavated evidence on the practice of the named peoples is read"
+    anchor:
+      type: interpretive
+      description: "Breasted vol. III section 588 renders the Ekwesh as having no foreskins and gives other peoples as uncircumcised. The 'three groups' wording is not in any passage read. Whether the Ekwesh came from the Aegean is Breasted's guess ('not impossibly the Achaeans')."
+      sources: [src-breasted-are3, src-breasted-are4]
+    positions:
+      - label: "Ekwesh circumcised (no foreskin)"
+        holder: "Breasted 1906, section 588 and note (read)"
+        ground: "translation of the Karnak list"
+      - label: "The word read as foreskin is 'horn' (phallus)"
+        holder: "Muller, as reported in Breasted's note (Muller's own work not opened)"
+        ground: "a different reading of the word krn't"
+    disputed_by:
+      - {who: "Muller (as reported by Breasted)", kind: person, position: "krn't means horn/phallus, not foreskin", source_read: false, via: src-breasted-are3}
+    next_step: "Read Kitchen RI IV lines 52-56 and any study of the Karnak word; read Muller 1888."
+    basis: "Contested on the reading of one word. No claim is made here about the Aegean."
+
+  - id: sp-41d-only-israel-circumcised-hebrews
+    state: searched_gap
+    statement: "Only the 12 tribes of Israel were circumcised at that time, so these men from the Aegean are Hebrews (dh-wbdnR9qs9MU-41)."
+    statement_kind: search_result
+    evidence_class: interpretive
+    confidence: low
+    evidential_weight: 1
+    anchor_checked: 'no'
+    absence_anchor: true
+    adoption_weight: 1
+    adoption_note: "Dead Hidden; the speaker's inference."
+    would_change_if: "a source is read on circumcision practice in Egypt, Libya and the Near East in the late second millennium, or a text identifies the Ekwesh with an Israelite group"
+    next_step: "Find and read a source on circumcision in the Bronze Age Near East and Egypt."
+    anchor:
+      type: search-record
+      description: "Searched the Karnak passages (Breasted vol. III) and the year 8 and Papyrus Harris passages (vol. IV) read: no mention of Israel, Hebrews or tribes in the Ekwesh passage. The 'only Israel' premise is outside the Egyptian texts and was not researched."
+      sources: [src-breasted-are3, src-breasted-are4]
+    basis: "A claim that rests on a premise nothing here supports; the identification is not in the texts read."
+
+  - id: sp-43a-return-and-200-miles
+    state: searched_gap
+    statement: "The Sea Peoples came back after the confederation failed, laid waste to the coast of Egypt and all cities for about 200 miles inland (as recorded in Egyptian records) (dh-wbdnR9qs9MU-43)."
+    statement_kind: search_result
+    evidence_class: interpretive
+    confidence: low
+    evidential_weight: 1
+    anchor_checked: 'no'
+    absence_anchor: true
+    adoption_weight: 2
+    adoption_note: "Dead Hidden."
+    would_change_if: "a text is found saying the Northerners laid waste Egyptian coastal cities 200 miles inland, or a record of a later return is read"
+    next_step: "Read Kitchen RI V and Edgerton-Wilson; check Papyrus Harris and the year 11 Medinet Habu texts in full."
+    anchor:
+      type: search-record
+      description: "In Breasted vol. IV the Ramses III text says the Northerners wasted the lands from Kheta to Alasa, set up a camp in Amor, and were caught at the harbour mouths of Egypt (sections 64, 65, 82). The OCR of vol. IV was searched for 'miles': the only distances are about eleven miles in a Libyan pursuit and unrelated entries; no 200-mile passage found. Breasted's Wenamon commentary says the Peleset and Thekel 'settled along the eastern coast of the Mediterranean as subjects of the Pharaoh' after year 8."
+      sources: [src-breasted-are4]
+    basis: "Absence from one translation, not from the Egyptian record. Capped by the absence rule."
+
+  - id: sp-oxit15-nine-bows-hittite-1300-1150
+    state: proposed
+    statement: "Between 1300 and 1150 BC the Sea Peoples appear, in a confederation of 'Nine Bows' organized by the Hittite Empire, which attacked Egypt and lost (dh-oXit2KG1N1s-15)."
+    statement_kind: judgment
+    evidence_class: interpretive
+    confidence: low
+    evidential_weight: 1
+    anchor_checked: 'no'
+    adoption_weight: 3
+    adoption_note: "Dead Hidden oXit2KG1N1s."
+    would_change_if: "the Egyptian records read name the Hittite king as organiser, or a chronology gives the dates"
+    anchor:
+      type: search-record
+      description: "The two texts read date the events by regnal year only (Merneptah year 5, Ramses III year 8). Cline 2015 (opening read) gives 1177 BC for year 8; no chronology was read. 'Organized by the Hittite Empire' is not in any passage read; see sp-40-hittites-biggest-force."
+      sources: [src-breasted-are4, src-cline-2015, src-breasted-are3]
+    basis: "A bundled claim: date range, Nine Bows, Hittite organiser, attack and defeat. Only the last part has a basis in the texts read."
+
+  - id: sp-oxit16-denen-shardana
+    state: proposed
+    statement: "Two of the Sea Peoples groups of particular interest are the Denen and the Shardana; the Danaans are either Danaans or Denenians (dh-oXit2KG1N1s-16)."
+    statement_kind: judgment
+    evidence_class: interpretive
+    confidence: low
+    evidential_weight: 1
+    anchor_checked: secondary
+    adoption_weight: 2
+    adoption_note: "Dead Hidden."
+    would_change_if: "the signs or a later reading identify the Sherden or Denyen differently, or a Danaan-Denyen link is argued"
+    anchor:
+      type: interpretive
+      description: "Sherden appear in Merneptah's Karnak title among the Northerners (Breasted vol. III) and in the year 8 naval scene description ('manned by Peleset and Sherden', section 74); OIP 8 plate 47 C is captioned 'A Sherden warrior in action' on a scene list entry from plate 18 (caption read). Papyrus Harris section 403 lists the Sherden among those 'taken captive ... settled in strongholds'. Breasted writes 'the Denyen or Danaoi' as a possibility."
+      sources: [src-breasted-are4, src-breasted-are3, src-oip8]
+    basis: "The Sherden appear in more than one role in the sources as read. The Danaan equation is a book's guess."
+
+  - id: sp-oxit18-peleset-philistines
+    state: contested
+    statement: "The Peleset, one of the Sea Peoples, arrived in Canaan about 1175 BC after the defeat; they are the Philistines, not indigenous to Canaan (dh-oXit2KG1N1s-18)."
+    statement_kind: judgment
+    evidence_class: interpretive
+    confidence: low
+    evidential_weight: 1
+    anchor_checked: secondary
+    adoption_weight: 4
+    adoption_note: "Dead Hidden; the Peleset-Philistine link is the standard view in the sources seen."
+    would_change_if: "the signs, an archaeological dating of Philistine settlement, or Wuthrich-Matic and Ben-Dor are read and change the reading of the year 5 passage"
+    anchor:
+      type: interpretive
+      description: >
+        Breasted 1906 vol. IV section 59: 'the probably Cretan Peleset, a settlement of whom later became the biblical Philistines'; Papyrus Harris section 403: the Peleset 'were made ashes' and captives were 'settled in strongholds' (place not stated); Breasted's Wenamon commentary: Peleset and Thekel 'settled along the eastern coast of the Mediterranean as subjects of the Pharaoh'.
+        Moreu 2023 (read) says the Peleset were already in cities and argues they were victims who fled. '1175 BC' and 'arrived in Canaan' are not in the texts read.
+      sources: [src-breasted-are4, src-moreu-2023]
+    positions:
+      - label: "Peleset arrived after the year 8 defeat and were settled by Egypt on the coast"
+        holder: "Breasted 1906 (vol. IV, section 403 and commentary, read)"
+        ground: "Harris papyrus 'settled them in strongholds' plus later history"
+      - label: "Peleset were refugees from Anatolia, victims not aggressors, with some already in Canaanite cities"
+        holder: "Moreu 2023 (read), relying on Ben-Dor 2015 and Wuthrich-Matic 2023 (not read)"
+        ground: "a different translation of the year 5 line (passive: 'their land was devastated')"
+    disputed_by:
+      - {who: "Moreu 2023", kind: person, position: "Peleset were victims, some already in Canaanite cities", source_read: true, via: src-moreu-2023}
+    next_step: "Read Edgerton-Wilson 1936 and Kitchen for the year 8 and Harris passages; read an excavation report from a Philistine site for dating."
+    basis: "Date and 'arrived' rest on books. Opposing readings stay open."
+
+  - id: sp-sources-funding-trace
+    state: searched_gap
+    statement: "Who funded and controlled the Epigraphic Survey, Breasted's Ancient Records of Egypt, and Moreu's and Cline's articles is only partly traced."
+    statement_kind: search_result
+    evidence_class: interpretive
+    confidence: low
+    evidential_weight: 1
+    anchor_checked: 'no'
+    absence_anchor: true
+    adoption_weight: 1
+    adoption_note: "Not discussed in popular accounts."
+    would_change_if: "a funder's records, an annual report or a biography is read for each work"
+    next_step: "Read an Oriental Institute annual report and what its donors asked for; trace the University of Chicago's funding in Breasted's years; identify Moreu's affiliation and the publisher of Cline's article."
+    anchor:
+      type: search-record
+      description: "Read: OIP 8 foreword names Rockefeller (Oriental Institute 1919), the General Education Board, the International Education Board, Julius Rosenwald (1926 headquarters) and the Grubers (online publication). Breasted's ARE preface names President Harper's support and the Trustees only. Moreu 2023: no funding statement in the text. Cline 2015: not traced. What the donors wanted and what control they had was not found."
+      sources: [src-oip8, src-breasted-are1-preface, src-moreu-2023, src-cline-2015]
+    basis: "Recorded as research tasks, not findings."
