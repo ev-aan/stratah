@@ -1,0 +1,682 @@
+subject: khnumhotep-ii-aamu
+title: "The Aamu procession in the tomb of Khnumhotep II at Beni Hasan: what the caption says, and what the Dead Hidden videos say it says"
+question: "What does the Aamu scene in tomb BH 3 record, and does it say what the speaker says?"
+dig_status: open
+headline_status: draft
+search_summary: >-
+  The north wall of tomb BH 3 at Beni Hasan shows a group of Aamu led by a man with a title read as ruler of a foreign land, dated to year 6 of Senusret II.
+  A 1893 translation reads a count of 37 and eye-paint (stibium). Pages read agree on 37, but the wall itself was not read here. Nothing read says they were given land, settled or became rulers.
+description: >-
+  First dig on this scene. Read: Newberry 1893 (Beni Hasan Part I, two scans, p. 69 and Plates XXVIII to XXXI looked at), the Met API record and image for facsimile 33.8.17, the Egyptian Ministry page, the ABR article and the Kamrin abstract.
+  Blocked or not opened: the Met web page (HTTP 429), the journal page of Kamrin 2009 (bot page) and a PDF mirror (403), Lepsius, Hay, Newberry Part II. The speaker's claims are split into separate parts and kept in the speaker's wording; the videos are never an anchor.
+divergence_note: >-
+  The speaker says the wall records Abishai, a Hyksos, with 37 Aamu who came to trade in antimony and animals, that this is the earliest mention of the Hyksos, and that these people were given the best lands and later took the throne peacefully.
+  The sources read say less: a caption dated year 6 of Senusret II counts 37 Aamu of Shu bringing eye-paint, led by a man whose title is the root of the word Hyksos (two pages read) but whom a third page (ABR) says there is no reason to link to the later Hyksos.
+  Nothing read mentions land, Goshen, Avaris, a count of 40, three earlier residents, trade or a throne. The gap between the wall's wording and the speaker's story is the product. The signs themselves are unread.
+assessment:
+  question: "Does the Aamu scene in tomb BH 3 say what the speaker says?"
+  answer: partly
+  headline: "The count of 37 and the eye-paint match a 19th-century translation; the Hyksos, trade, land and throne parts are not in anything read."
+  key_points:
+    - "A 1893 translation reads 37 Aamu of Shu bringing eye-paint in year 6 of Senusret II; three pages read repeat the 37."
+    - "The leader's title is the root of the word Hyksos per two pages; a third says no link should be made with the later Hyksos."
+    - "Land grants, Goshen, Avaris, 40 in all and a peaceful accession appear in no source read."
+  text: >-
+    The count and the date rest on a translation by Newberry (1893) and on pages that repeat it. The signs on the wall were not read by this dig. Whether the title makes the leader a Hyksos in the dynastic sense is kept open with named positions.
+  basis: [khn-caption-aamu-of-shu-37, khn-sp-02d-leader-a-hyksos, khn-sp-03b-best-lands-goshen-avaris]
+  would_settle: "Reading the caption signs on a photograph or a full-size copy against a modern edition, reading Kamrin 2009 in full, and opening the Second Intermediate Period texts."
+
+claims:
+  - id: "khn-object-bh3-khnumhotep"
+    state: "proposed"
+    statement: "The Aamu scene is on the north wall of the main chamber of tomb No. 3 (BH 3) at Beni Hasan, the tomb of the nomarch Khnumhotep (II), a son of Nehera in Newberry's reading, and it is the scene the speaker means."
+    statement_kind: "reported"
+    evidence_class: "interpretive"
+    confidence: "low"
+    evidential_weight: 2
+    anchor_checked: "secondary"
+    adoption_weight: 2
+    adoption_note: "Tomb and wall are named alike by Newberry 1893, the Egyptian Ministry page, the Met record locale and the Kamrin abstract; none is the wall."
+    would_change_if: "the wall or a photograph of it is read and the scene is in another tomb, or the owner's name is read differently by a specialist"
+    anchor:
+      type: "interpretive"
+      description: "Newberry 1893 p. 69 heads the description 'North Wall' of Tomb No. 3 and gives the owner as 'Nehera's son Chnemhotep'; Met API locale 'Tomb of Khnumhotep (Tomb 3)'; Ministry page: 'on the north wall, to the left of the entrance'; Kamrin abstract: 'tomb of Khnumhotep II at Beni Hassan (tomb BH 3)'. All are claims about the wall. The handoff's identification (Beni Hasan tomb 3) is thereby matched, not verified."
+      sources:
+        - "src-newberry-1893"
+        - "src-met-33-8-17-api"
+        - "src-egymonuments"
+        - "src-kamrin-2009-abstract"
+      nodes:
+        - node: "khnumhotep-bh3-year6-senusret-ii-aamu-caption"
+          verb: "supports"
+    basis: "The identification is consistent across four independent-looking descriptions but they are all reports. Which Khnumhotep (I, II or III) the speaker and each source mean is taken from the tomb number, not checked."
+
+  - id: "khn-caption-aamu-of-shu-37"
+    state: "proposed"
+    statement: "Newberry (1893) reads the roll in the north-wall scene as: year 6 under Usertsen II, 'the number of Aamu brought by the son of the ha-prince, Chnemhotep, on account of the mesdemet (eye-paint, stibium or kohl), Aamu of Shu, number amounting to 37'; a second caption is read 'arrival bringing kohl which 37 Aamu bring to him'."
+    statement_kind: "reported"
+    evidence_class: "interpretive"
+    confidence: "low"
+    evidential_weight: 2
+    anchor_checked: "secondary"
+    adoption_weight: 3
+    adoption_note: "The 37 and the eye-paint are repeated by the Egyptian Ministry page and the ABR article; the repeats are not independent checks of the wall."
+    would_change_if: "the signs are read (Lepsius, Hay, the wall or its photographs) and the numeral, the phrase 'Aamu of Shu' or the verb differ from Newberry's reading, or a modern translation gives another sense"
+    anchor:
+      type: "interpretive"
+      description: "Newberry 1893 p. 69 (OCR in two scans, both read); Ministry page 'a delegation of 37 Amu'; ABR article 'thirty-seven Asiatics (Aamu)'. The Met facsimile 33.8.17 shows, at top left, a column of arch signs and strokes over a seated-man sign, which looks like a numeral caption; the signs were NOT read by this dig."
+      sources:
+        - "src-newberry-1893"
+        - "src-newberry-translation"
+        - "src-met-image-33-8-17"
+        - "src-egymonuments"
+        - "src-abr-byers-2009"
+      nodes:
+        - node: "khnumhotep-bh3-year6-senusret-ii-aamu-caption"
+          verb: "supports"
+    basis: "# V: p. 69 read in the Getty/Griffith scan and the Google scan, 2026-10-14. The OCR '87' in one scan is a misreading of '37' (the other scan and the roll's 'xxxvii' agree).\nSays what Newberry printed. A translation of a 19th-century copy; the signs themselves are unread here."
+
+  - id: "khn-leader-title-and-name"
+    state: "proposed"
+    statement: "The leader of the group has his own caption: Newberry reads it 'hak-prince of the desert, Abesha' (Ibsha in his transliteration; heading 'The Aamu Sheykh Absha' on his Plate XXVIII)."
+    statement_kind: "reported"
+    evidence_class: "interpretive"
+    confidence: "low"
+    evidential_weight: 2
+    anchor_checked: "secondary"
+    adoption_weight: 3
+    adoption_note: "Later pages vary the name and title wording; see khn-name-form and khn-title-translation."
+    would_change_if: "the signs of the caption are read and give another name or title"
+    anchor:
+      type: "interpretive"
+      description: "Newberry 1893 p. 69 and the heading of Plate XXVIII (page image n170 and OCR). The group on Plate XXXI is 'after Hay'."
+      sources:
+        - "src-newberry-1893"
+        - "src-newberry-translation"
+      nodes:
+        - node: "khnumhotep-bh3-year6-senusret-ii-aamu-caption"
+          verb: "supports"
+    basis: "Says what Newberry printed, not what the signs show."
+
+  - id: "khn-name-form"
+    state: "contested"
+    statement: "The leader's name is given as 'Abishai' by the speaker (dh-K3pw12lBcXM-02) but as Ibsha / Abesha / Absha by Newberry and Ibsha by the ABR article, and as Abisha(i) by the Ministry page; whether it is the same name as the Hebrew Abishai is not shown by anything read."
+    statement_kind: "reported"
+    evidence_class: "interpretive"
+    confidence: "low"
+    evidential_weight: 1
+    anchor_checked: "secondary"
+    adoption_weight: 3
+    adoption_note: "'Abisha(i)' appears on a state page; 'Abishai' with the speaker; Newberry's own spelling is Ibsha. The spread of spellings is not evidence of which is right."
+    would_change_if: "a specialist's transliteration of the signs, with the vocalisation argued, is read; or the speaker's source for 'Abishai' is found"
+    disputed_by:
+      - who: "Dead Hidden speaker (dh-K3pw12lBcXM-02)"
+        kind: "person"
+        position: "'Abishai'"
+        source_read: "no (claim line only)"
+        via: "handoff file"
+      - who: "P. E. Newberry 1893"
+        kind: "person"
+        position: "'Abesha' in English, 'Ibsha' in transliteration"
+        source_read: "yes"
+        via: "Internet Archive scan"
+      - who: "Egyptian Ministry of Tourism and Antiquities page"
+        kind: "institution"
+        position: "'Abisha(i)'"
+        source_read: "yes"
+        via: "raw HTML"
+    anchor:
+      type: "interpretive"
+      description: "Newberry 1893 p. 69 ('Ibsha', 'Abesha', 'Absha'); ABR article ('Ibsha'); Ministry page ('Abisha(i)'). Spelling is a modern vocalisation of a name written with signs not read here."
+      sources:
+        - "src-newberry-1893"
+        - "src-newberry-translation"
+        - "src-abr-byers-2009"
+        - "src-egymonuments"
+    basis: "Named positions are all renderings. The question of a Semitic etymology was not researched."
+
+  - id: "khn-title-translation"
+    state: "contested"
+    statement: "The leader's title is rendered 'hak-prince of the desert' by Newberry (1893), 'heqa khaset - ruler of a foreign land' by the Egyptian Ministry page and 'Ruler of a Foreign Land (heq setu)' by the ABR article."
+    statement_kind: "reported"
+    evidence_class: "interpretive"
+    confidence: "low"
+    evidential_weight: 1
+    anchor_checked: "secondary"
+    adoption_weight: 3
+    adoption_note: "The later renderings agree with each other; whether that is independent knowledge or repetition was not tested."
+    would_change_if: "the signs of the title are read and a grammar-level translation argued by a specialist (Kamrin full text and Egyptological lexica unread)"
+    disputed_by:
+      - who: "P. E. Newberry 1893"
+        kind: "person"
+        position: "'hak-prince of the desert'"
+        source_read: "yes"
+        via: "Internet Archive scan"
+      - who: "Egyptian Ministry of Tourism and Antiquities page"
+        kind: "institution"
+        position: "'ruler of a foreign land'"
+        source_read: "yes"
+        via: "raw HTML"
+      - who: "Gary Byers / Associates for Biblical Research"
+        kind: "group"
+        position: "'Ruler of a Foreign Land'"
+        source_read: "yes"
+        via: "raw HTML"
+    anchor:
+      type: "interpretive"
+      description: "Newberry 1893 p. 69 ('hak-prince of the desert'; the OCR shows 'hak-prince' in the Getty scan, 'Aa k-prince' in the Google scan); Ministry page ('heqa khaset - ruler of a foreign land'); ABR article ('Ruler of a Foreign Land (heq setu)'). The Egyptian word underlying the Hyksos name is said by the Ministry page and ABR to be this title; no lexicon was read."
+      sources:
+        - "src-newberry-1893"
+        - "src-newberry-translation"
+        - "src-egymonuments"
+        - "src-abr-byers-2009"
+    basis: "Three translations of one title, none from the signs."
+
+  - id: "khn-date-year6-bce"
+    state: "contested"
+    statement: "The caption is dated to year 6 of Senusret II (stated in the text as Newberry reads it); the absolute date in BCE differs by source: 1887 to 1878 BC (Met record), c. 1897 to 1878 BCE (Kamrin abstract), c. 1892 BC (ABR/Byers), and the Ministry page gives Senusret II as c. 1911 to 1870 BC."
+    statement_kind: "reported"
+    evidence_class: "interpretive"
+    confidence: "low"
+    evidential_weight: 2
+    anchor_checked: "secondary"
+    adoption_weight: 3
+    adoption_note: "The regnal year is the stated fact; each BCE year is a modern chronology that moves."
+    would_change_if: "an absolute date for Senusret II's year 6 is argued from astronomical or radiocarbon data in a source read, or the signs show a different regnal year"
+    disputed_by:
+      - who: "Metropolitan Museum of Art record"
+        kind: "institution"
+        position: "1887 to 1878 BC"
+        source_read: "yes"
+        via: "API JSON"
+      - who: "J. Kamrin 2009 (abstract)"
+        kind: "person"
+        position: "c. 1897 to 1878 BCE"
+        source_read: "abstract only"
+        via: "egyptianexpedition.org"
+      - who: "Gary Byers / ABR"
+        kind: "group"
+        position: "c. 1892 BC"
+        source_read: "yes"
+        via: "raw HTML"
+      - who: "Egyptian Ministry page"
+        kind: "institution"
+        position: "Senusret II c. 1911 to 1870 BC"
+        source_read: "yes"
+        via: "raw HTML"
+    anchor:
+      type: "interpretive"
+      description: "Regnal year from Newberry 1893 p. 69 ('The year vi ... Usertsen II'); BCE ranges from the Met API record (objectBeginDate -1887, objectEndDate -1878), the Kamrin abstract, the ABR article and the Ministry page. None dated the wall."
+      sources:
+        - "src-newberry-1893"
+        - "src-newberry-translation"
+        - "src-met-33-8-17-api"
+        - "src-kamrin-2009-abstract"
+        - "src-abr-byers-2009"
+        - "src-egymonuments"
+      nodes:
+        - node: "khnumhotep-bh3-year6-senusret-ii-aamu-caption"
+          verb: "supports"
+    basis: "Four modern ranges, none independent of the Egyptian chronology they assume. The window on the node shows the spread."
+
+  - id: "khn-count-vs-figures"
+    state: "proposed"
+    statement: "The caption number is 37 but the group drawn on Newberry's Plate XXXI (a copy after Hay) shows about 15 people by this dig's count: 8 men, 4 women and 3 children."
+    statement_kind: "reported"
+    evidence_class: "interpretive"
+    confidence: "low"
+    evidential_weight: 1
+    anchor_checked: "no"
+    adoption_weight: 2
+    adoption_note: "A mismatch between a stated number and the drawn figures is noted in the web summaries seen, which are not reads; here it rests on one count of one 1000-pixel page image."
+    would_change_if: "a high-resolution image of the wall or of Hay's copy is counted by a second person and differs, or a read source explains the difference (for example that the scene shows only part of the group)"
+    anchor:
+      type: "interpretive"
+      description: "Looked at Newberry 1893 Plate XXXI (Internet Archive page image n176, 1110 x 1500, sha256 9ba782efd7b7f7c590a5c3ca1f0d8a38f0c6c823a40f603d5e61f126fe0ab670). Counted the human figures in the two rows; one count, by the dig session, not repeated. The plate is 'after Hay', so it is a copy of a copy. The Met facsimile shows only two leaders. A web-search summary of Kamrin (not read) and of the Madain Project (not opened) also gave 15, which is a lead only."
+      sources:
+        - "src-newberry-1893"
+        - "src-met-image-33-8-17"
+    basis: "My count could be wrong by one or two. Note this does not show the 37 is wrong: the number and the drawing may differ for reasons not read."
+
+  - id: "khn-sp-02a-37-aamu-on-wall"
+    state: "proposed"
+    statement: "On a wall in Khnumhotep's tomb is recorded the story of Abishai, a foreign ruler, a Hyksos, and 37 Aamu who came to Egypt to trade in antimony and animals. [Part 1: a wall in Khnumhotep's tomb records 37 Aamu.] (dh-K3pw12lBcXM-02)"
+    statement_kind: "reported"
+    evidence_class: "interpretive"
+    confidence: "low"
+    evidential_weight: 2
+    anchor_checked: "secondary"
+    adoption_weight: 3
+    adoption_note: "Dead Hidden; the count and the wall are widely repeated on pages read."
+    would_change_if: "the wall's signs are read and do not give 37"
+    anchor:
+      type: "interpretive"
+      description: "See khn-caption-aamu-of-shu-37 and khn-object-bh3-khnumhotep. The wall records a count and a scene, not a 'story' with a narrative; a caption and a roll are what Newberry reads."
+      sources:
+        - "src-newberry-1893"
+        - "src-newberry-translation"
+        - "src-egymonuments"
+        - "src-abr-byers-2009"
+      nodes:
+        - node: "khnumhotep-bh3-year6-senusret-ii-aamu-caption"
+          verb: "supports"
+    basis: "The count and the wall hold at a secondary level. What the sources read describe is a caption and a roll; whether that amounts to a 'story' is the speaker's framing."
+
+  - id: "khn-sp-02b-leader-abishai"
+    state: "proposed"
+    statement: "On a wall in Khnumhotep's tomb is recorded the story of Abishai, a foreign ruler, a Hyksos, and 37 Aamu who came to Egypt to trade in antimony and animals. [Part 2: the leader is named Abishai.] (dh-K3pw12lBcXM-02)"
+    statement_kind: "reported"
+    evidence_class: "interpretive"
+    confidence: "low"
+    evidential_weight: 1
+    anchor_checked: "secondary"
+    adoption_weight: 3
+    adoption_note: "Dead Hidden; the Ministry page gives 'Abisha(i)'."
+    would_change_if: "see khn-name-form"
+    anchor:
+      type: "interpretive"
+      description: "See khn-name-form: the pages read give Ibsha, Abesha, Absha or Abisha(i); none gives 'Abishai' as the spelling."
+      sources:
+        - "src-newberry-1893"
+        - "src-newberry-translation"
+        - "src-egymonuments"
+        - "src-abr-byers-2009"
+    basis: "The speaker's form is not the spelling on any page read; whether it is a respelling of the same name is the open question in khn-name-form."
+
+  - id: "khn-sp-02c-leader-foreign-ruler"
+    state: "proposed"
+    statement: "On a wall in Khnumhotep's tomb is recorded the story of Abishai, a foreign ruler, a Hyksos, and 37 Aamu who came to Egypt to trade in antimony and animals. [Part 3: the leader is 'a foreign ruler'.] (dh-K3pw12lBcXM-02)"
+    statement_kind: "reported"
+    evidence_class: "interpretive"
+    confidence: "low"
+    evidential_weight: 2
+    anchor_checked: "secondary"
+    adoption_weight: 3
+    adoption_note: "Dead Hidden; two later pages give 'ruler of a foreign land'."
+    would_change_if: "see khn-title-translation"
+    anchor:
+      type: "interpretive"
+      description: "See khn-title-translation: 'ruler of a foreign land' (Ministry, ABR) or 'hak-prince of the desert' (Newberry). Both mean a chief from outside the Nile valley."
+      sources:
+        - "src-newberry-1893"
+        - "src-newberry-translation"
+        - "src-egymonuments"
+        - "src-abr-byers-2009"
+    basis: "Roughly matches all three renderings read."
+
+  - id: "khn-sp-02d-leader-a-hyksos"
+    state: "contested"
+    statement: "On a wall in Khnumhotep's tomb is recorded the story of Abishai, a foreign ruler, a Hyksos, and 37 Aamu who came to Egypt to trade in antimony and animals. [Part 4: the leader is 'a Hyksos'.] (dh-K3pw12lBcXM-02)"
+    statement_kind: "reported"
+    evidence_class: "interpretive"
+    confidence: "low"
+    evidential_weight: 1
+    anchor_checked: "secondary"
+    adoption_weight: 3
+    adoption_note: "Dead Hidden. Pages read split on whether the title makes him 'a Hyksos'."
+    would_change_if: "a specialist source (Kamrin full text; Ryholt, Bietak, Mourad) is read that argues whether the Middle Kingdom title and the later dynasty are the same people or only the same words"
+    disputed_by:
+      - who: "Egyptian Ministry page (unsigned)"
+        kind: "institution"
+        position: "the title is the oldest known example of the word Hyksos; does not say he belongs to the Hyksos dynasty"
+        source_read: "yes"
+        via: "raw HTML"
+      - who: "Gary Byers / Associates for Biblical Research"
+        kind: "group"
+        position: "no reason to connect this group with the later Hyksos"
+        source_read: "yes"
+        via: "raw HTML"
+      - who: "Dead Hidden speaker"
+        kind: "person"
+        position: "Abishai is 'a Hyksos'"
+        source_read: "no"
+        via: "handoff file"
+    anchor:
+      type: "interpretive"
+      description: "The Ministry page (read) says the title is 'the oldest known example of the word that is far better known today in its Greek form, Hyksos'; the ABR article (read) says 'There is no reason to connect this group with the later Hyksos, except that they were also Asiatics.' Both agree the title is the root of the word. Newberry 1893 does not mention Hyksos in the passages read (grep of the two scans for 'Hyksos': no hit)."
+      sources:
+        - "src-egymonuments"
+        - "src-abr-byers-2009"
+        - "src-newberry-1893"
+    basis: "A title shared with later rulers is not the same as being the later dynasty. The Beni Hasan leader holds a title of a kind; being 'a Hyksos' (a member of the 15th Dynasty people) is a separate claim, see khn-sp-07c-lineage-15th-dynasty."
+
+  - id: "khn-sp-02e-purpose-trade-antimony-animals"
+    state: "contested"
+    statement: "On a wall in Khnumhotep's tomb is recorded the story of Abishai, a foreign ruler, a Hyksos, and 37 Aamu who came to Egypt to trade in antimony and animals. [Part 5: they came to trade in antimony and animals.] (dh-K3pw12lBcXM-02)"
+    statement_kind: "reported"
+    evidence_class: "interpretive"
+    confidence: "low"
+    evidential_weight: 1
+    anchor_checked: "secondary"
+    adoption_weight: 2
+    adoption_note: "Dead Hidden; ABR says 'extended family of traders'."
+    would_change_if: "the signs are read, or Kamrin's full text is read, and say what the visit was for"
+    disputed_by:
+      - who: "Dead Hidden speaker"
+        kind: "person"
+        position: "they came to trade in antimony and animals"
+        source_read: "no"
+        via: "handoff file"
+      - who: "Gary Byers / ABR"
+        kind: "group"
+        position: "an extended family of traders (metal workers suggested by equipment)"
+        source_read: "yes"
+        via: "raw HTML"
+      - who: "P. E. Newberry 1893"
+        kind: "person"
+        position: "Aamu brought, on account of eye-paint, by the son of the ha-prince Chnemhotep"
+        source_read: "yes"
+        via: "Internet Archive scan"
+      - who: "J. Kamrin 2009"
+        kind: "person"
+        position: "reasons for the visit debated; scene also symbolic of controlled foreigners"
+        source_read: "abstract only"
+        via: "egyptianexpedition.org"
+    anchor:
+      type: "interpretive"
+      description: "Newberry 1893 p. 69 reads the caption 'on account of the mesdemet (eye-paint, stibium or kohl)' and 'arrival bringing kohl'; no word for trade is in the passage read. The Met facsimile and Plate XXXI show people leading a gazelle, an ibex and donkeys, but no caption says these are traded. The ABR article says the roll's phrase is 'a summary statement' and the group 'seems to be an extended family of traders'. The Kamrin abstract says scholars have reached 'a variety of conclusions' on 'the specific reason for their apparent visit' and that the scene also works as a symbol of controlled foreigners."
+      sources:
+        - "src-newberry-1893"
+        - "src-newberry-translation"
+        - "src-met-image-33-8-17"
+        - "src-abr-byers-2009"
+        - "src-kamrin-2009-abstract"
+    basis: "The eye-paint (stibium) part is in Newberry's reading. Trade, and animals as goods, are interpretations. Newberry's wording ('brought by the son of the ha-prince, Chnemhotep') also puts an Egyptian official as the one who brought them, which the speaker's 'came to Egypt' does not say."
+
+  - id: "khn-sp-03a-first-mention-hyksos"
+    state: "searched_gap"
+    statement: "This is the first mention of the Hyksos (Heka Hasut, foreign rulers) in Egypt (dh-K3pw12lBcXM-03)"
+    statement_kind: "search_result"
+    evidence_class: "interpretive"
+    confidence: "low"
+    evidential_weight: 1
+    anchor_checked: "no"
+    adoption_weight: 3
+    adoption_note: "Dead Hidden; the Ministry page says 'oldest known example of the word'."
+    would_change_if: "an earlier use of the title heqa khasut, or a source stating Beni Hasan is the earliest, is read in a specialist work"
+    absence_anchor: true
+    next_step: "Read a lexicon or specialist study of heqa khasut (Kamrin full text; Ryholt, Bietak, Mourad) for earlier attestations."
+    anchor:
+      type: "search-record"
+      description: "Searched Newberry 1893 (no mention of Hyksos), the Ministry page ('oldest known example of the word ... Hyksos'), ABR (title 'is the root of the word Hyksos'). A priority claim is an absence claim; no systematic search of earlier attestations was done. The Ministry statement is a page, not a survey."
+      sources:
+        - "src-newberry-1893"
+        - "src-newberry-translation"
+        - "src-egymonuments"
+        - "src-abr-byers-2009"
+    basis: "Absence of an earlier use in three sources is weak."
+
+  - id: "khn-sp-03b-best-lands-goshen-avaris"
+    state: "searched_gap"
+    statement: "they received the best lands in Egypt, Goshen, in particular the city of Avaris. (dh-K3pw12lBcXM-03)"
+    statement_kind: "search_result"
+    evidence_class: "interpretive"
+    confidence: "low"
+    evidential_weight: 1
+    anchor_checked: "no"
+    adoption_weight: 3
+    adoption_note: "Dead Hidden; the speaker cites nothing."
+    would_change_if: "a source is read that attests a land grant to these people, or to the Hyksos, with a place named"
+    absence_anchor: true
+    next_step: "Read the Tell el-Dab'a excavation reports (Bietak) for the earliest Asiatic settlement at Avaris and check if any text ties it to the Beni Hasan group."
+    anchor:
+      type: "search-record"
+      description: "Searched the Newberry p. 69 translation, the Ministry page, the ABR article and the Kamrin abstract: none mentions land, Goshen or Avaris. The scene shows people delivering goods; nothing read says they were settled. The Biblical name Goshen and the site Avaris (Tell el-Dab'a) are not in any caption read."
+      sources:
+        - "src-newberry-1893"
+        - "src-newberry-translation"
+        - "src-egymonuments"
+        - "src-abr-byers-2009"
+        - "src-kamrin-2009-abstract"
+    basis: "Silence of the sources read. The Avaris question belongs to Tell el-Dab'a, a separate dig."
+
+  - id: "khn-sp-07a-aamu-of-shu"
+    state: "proposed"
+    statement: "Khnumhotep II's tomb inscription tells of the Aamu of Shu (dh-qL1VmGF3BF8-07)"
+    statement_kind: "reported"
+    evidence_class: "interpretive"
+    confidence: "low"
+    evidential_weight: 2
+    anchor_checked: "secondary"
+    adoption_weight: 3
+    adoption_note: "Dead Hidden; the phrase is the name of Kamrin's article and in Newberry's translation."
+    would_change_if: "the signs are read and do not give a group name 'Shu', or Kamrin's full text argues another reading"
+    anchor:
+      type: "interpretive"
+      description: "Newberry 1893 p. 69: 'Aamu of Shu'; Kamrin 2009 title (abstract page read). Where Shu is was not read. The Wikipedia suggestion of Moab was not opened and is not used."
+      sources:
+        - "src-newberry-1893"
+        - "src-newberry-translation"
+        - "src-kamrin-2009-abstract"
+      nodes:
+        - node: "khnumhotep-bh3-year6-senusret-ii-aamu-caption"
+          verb: "supports"
+    basis: "The phrase is in the translation; the place is unknown from what was read."
+
+  - id: "khn-sp-07b-aamu-of-the-hyksos"
+    state: "searched_gap"
+    statement: "the Aamu of the Hyksos ('foreign kings') (dh-qL1VmGF3BF8-07)"
+    statement_kind: "search_result"
+    evidence_class: "interpretive"
+    confidence: "low"
+    evidential_weight: 1
+    anchor_checked: "no"
+    adoption_weight: 3
+    adoption_note: "Dead Hidden."
+    would_change_if: "a read source gives the phrase 'Aamu of the Hyksos' or equivalent for this scene"
+    absence_anchor: true
+    next_step: "Read the caption signs on Lepsius Denkmaeler II 133 or a photograph and see whether any group name other than Shu appears."
+    anchor:
+      type: "search-record"
+      description: "Newberry's rendering of the roll is 'Aamu of Shu' and of the leader's title 'hak-prince of the desert'; the Ministry and ABR pages give the title as 'ruler of a foreign land'. The title belongs to the leader. No page read has the people called 'Aamu of the Hyksos'."
+      sources:
+        - "src-newberry-1893"
+        - "src-newberry-translation"
+        - "src-egymonuments"
+        - "src-abr-byers-2009"
+    basis: "The speaker's sentence puts the title on the people. In the passages read, the people are 'Aamu of Shu' and the leader holds the title."
+
+  - id: "khn-sp-07c-earliest-mention-hyksos"
+    state: "searched_gap"
+    statement: "the earliest mention of the Hyksos (dh-qL1VmGF3BF8-07)"
+    statement_kind: "search_result"
+    evidence_class: "interpretive"
+    confidence: "low"
+    evidential_weight: 1
+    anchor_checked: "no"
+    adoption_weight: 3
+    adoption_note: "Dead Hidden; same wording of priority as dh-K3pw12lBcXM-03."
+    would_change_if: "see khn-sp-03a-first-mention-hyksos"
+    absence_anchor: true
+    next_step: "As khn-sp-03a-first-mention-hyksos."
+    anchor:
+      type: "search-record"
+      description: "Same search as khn-sp-03a-first-mention-hyksos; filed separately because the speaker's wording differs and is in a different video."
+      sources:
+        - "src-egymonuments"
+        - "src-abr-byers-2009"
+    basis: "Absence claim; weak."
+
+  - id: "khn-sp-07c-lineage-15th-dynasty"
+    state: "contested"
+    statement: "the Hyksos who later became the 15th dynasty (dh-qL1VmGF3BF8-07)"
+    statement_kind: "judgment"
+    evidence_class: "interpretive"
+    confidence: "low"
+    evidential_weight: 1
+    anchor_checked: "no"
+    adoption_weight: 3
+    adoption_note: "Dead Hidden. ABR (read) rejects the link for this group."
+    would_change_if: "a source is read that traces the Beni Hasan group, by text or by excavated material, to the 15th Dynasty rulers, or one that rules it out"
+    disputed_by:
+      - who: "Gary Byers / Associates for Biblical Research"
+        kind: "group"
+        position: "no reason to connect the Beni Hasan group with the later Hyksos"
+        source_read: "yes"
+        via: "raw HTML"
+      - who: "Dead Hidden speaker"
+        kind: "person"
+        position: "they are the Hyksos who later became the 15th dynasty"
+        source_read: "no"
+        via: "handoff file"
+      - who: "specialist literature (Kamrin; Ryholt; Bietak; Mourad)"
+        kind: "unnamed"
+        position: "not read"
+        source_read: "no"
+        via: "not opened"
+    next_step: "Read Kamrin 2009 in full and a specialist account of Hyksos origins; record each position in its own words."
+    anchor:
+      type: "search-record"
+      description: "The ABR article says 'There is no reason to connect this group with the later Hyksos, except that they were also Asiatics' and puts the Hyksos 'several centuries later'. The Ministry page ties only the word to the Hyksos. No source read links the persons. The 15th Dynasty dates and the Tell el-Dab'a material were not looked up in this dig."
+      sources:
+        - "src-abr-byers-2009"
+        - "src-egymonuments"
+    basis: "Two read pages, one against a link, one silent. Positions from the specialist literature are not yet read."
+
+  - id: "khn-sp-08a-37-with-leader"
+    state: "proposed"
+    statement: "37 Aamu came with their leader Abishai (dh-qL1VmGF3BF8-08)"
+    statement_kind: "reported"
+    evidence_class: "interpretive"
+    confidence: "low"
+    evidential_weight: 2
+    anchor_checked: "secondary"
+    adoption_weight: 3
+    adoption_note: "Dead Hidden; repeated 37 on pages read."
+    would_change_if: "the signs are read and the numeral differs, or the leader is not part of the 37"
+    anchor:
+      type: "interpretive"
+      description: "Newberry p. 69: the number 37; the leader heads the party of foreigners behind the scribe Neferhotep and the huntsman Cheti. Whether the leader is counted inside the 37 is not stated in the passage. 'Came' is the speaker's verb; Newberry's wording is 'brought by'. See khn-count-vs-figures and khn-name-form."
+      sources:
+        - "src-newberry-1893"
+        - "src-newberry-translation"
+        - "src-egymonuments"
+      nodes:
+        - node: "khnumhotep-bh3-year6-senusret-ii-aamu-caption"
+          verb: "supports"
+    basis: "The 37 holds at a secondary level; 'Abishai' is a spelling question; whether the leader is in the 37 is not read."
+
+  - id: "khn-sp-08b-forty-in-all-three-already-there"
+    state: "searched_gap"
+    statement: "there were 40 in all, but three were already there when the 37 arrived (dh-qL1VmGF3BF8-08)"
+    statement_kind: "search_result"
+    evidence_class: "interpretive"
+    confidence: "low"
+    evidential_weight: 1
+    anchor_checked: "no"
+    adoption_weight: 3
+    adoption_note: "Dead Hidden; no source for the 40 or the three."
+    would_change_if: "a source is read that gives 40, or three earlier residents, for this group"
+    absence_anchor: true
+    next_step: "Read the full caption and roll on the wall copy (Lepsius, Hay) for any other number; ask the speaker's source."
+    anchor:
+      type: "search-record"
+      description: "Searched the Newberry p. 69 translation, the Ministry page, the ABR article and the Kamrin abstract for 40, 'three' or earlier residents: none. The only count in the sources is 37. Plate XXXI shows about 15 figures by one count (khn-count-vs-figures)."
+      sources:
+        - "src-newberry-1893"
+        - "src-newberry-translation"
+        - "src-egymonuments"
+        - "src-abr-byers-2009"
+        - "src-kamrin-2009-abstract"
+    basis: "Absence in four sources, of which none is the signs."
+
+  - id: "khn-sp-09a-best-lands-settled"
+    state: "searched_gap"
+    statement: "These people were given the best lands in Egypt, settled, (dh-qL1VmGF3BF8-09)"
+    statement_kind: "search_result"
+    evidence_class: "interpretive"
+    confidence: "low"
+    evidential_weight: 1
+    anchor_checked: "no"
+    adoption_weight: 3
+    adoption_note: "Dead Hidden; 'tomb inscription (implied)' per the handoff."
+    would_change_if: "a source is read that says these people were granted land or settled"
+    absence_anchor: true
+    next_step: "As khn-sp-03b-best-lands-goshen-avaris."
+    anchor:
+      type: "search-record"
+      description: "Same search as khn-sp-03b-best-lands-goshen-avaris. Nothing read says the group was given land or stayed in Egypt; the scene shows a delivery under escort of Egyptian officials."
+      sources:
+        - "src-newberry-1893"
+        - "src-newberry-translation"
+        - "src-egymonuments"
+        - "src-abr-byers-2009"
+    basis: "Absence in sources read."
+
+  - id: "khn-sp-09b-multiplied-strong-wealthy"
+    state: "searched_gap"
+    statement: "multiplied, became strong and wealthy, (dh-qL1VmGF3BF8-09)"
+    statement_kind: "search_result"
+    evidence_class: "interpretive"
+    confidence: "low"
+    evidential_weight: 1
+    anchor_checked: "no"
+    adoption_weight: 2
+    adoption_note: "Dead Hidden; no source given."
+    would_change_if: "a read source documents the growth in numbers and wealth of a named group"
+    absence_anchor: true
+    next_step: "Ask whether the speaker is describing Genesis/Exodus wording or the Hyksos in Manetho/Josephus; those are separate sources, not opened here."
+    anchor:
+      type: "search-record"
+      description: "Nothing in the sources read about what became of the Aamu of Shu after the scene. The sources are silent on later history; no wording like 'multiplied' appears."
+      sources:
+        - "src-newberry-1893"
+        - "src-newberry-translation"
+        - "src-egymonuments"
+        - "src-abr-byers-2009"
+    basis: "Not tied to the tomb inscription in anything read."
+
+  - id: "khn-sp-09c-peaceful-ascent-no-wars"
+    state: "contested"
+    statement: "and peacefully ascended to the throne with no rebellions or wars. (dh-qL1VmGF3BF8-09)"
+    statement_kind: "judgment"
+    evidence_class: "interpretive"
+    confidence: "low"
+    evidential_weight: 1
+    anchor_checked: "no"
+    adoption_weight: 3
+    adoption_note: "Dead Hidden; a peaceful Hyksos takeover is one reading in the literature, a conquest another (positions not read)."
+    would_change_if: "primary texts of the Second Intermediate Period (for example the Kamose stelae, Manetho via Josephus) and specialist accounts are read, with the Tell el-Dab'a evidence"
+    disputed_by:
+      - who: "Dead Hidden speaker"
+        kind: "person"
+        position: "peaceful ascent, no rebellions or wars"
+        source_read: "no"
+        via: "handoff file"
+      - who: "positions in the Hyksos literature (conquest, infiltration, mixed)"
+        kind: "unnamed"
+        position: "not read"
+        source_read: "no"
+        via: "not opened"
+    next_step: "Open the Kamose stelae and a specialist account; record each position in its own words."
+    anchor:
+      type: "search-record"
+      description: "The Beni Hasan scene is dated to year 6 of Senusret II; nothing in the sources read speaks of an accession of any Asiatic to the throne, peaceful or violent. The claim rests on a source outside the tomb that this dig has not opened. The handoff context list names the Kamose texts as a possible separate dig."
+      sources:
+        - "src-newberry-1893"
+        - "src-egymonuments"
+        - "src-abr-byers-2009"
+    basis: "Outside the tomb text. Kept open: the positions (peaceful infiltration, conquest, mixed) are named as leads only until read."
+
+  - id: "khn-met-facsimile-exists"
+    state: "proposed"
+    statement: "The Metropolitan Museum of Art holds a public-domain full-size facsimile (33.8.17) of part of the scene, painted by Norman de Garis Davies in 1931, which shows two Aamu leading a gazelle and an ibex under a caption."
+    statement_kind: "reported"
+    evidence_class: "interpretive"
+    confidence: "low"
+    evidential_weight: 2
+    anchor_checked: "secondary"
+    adoption_weight: 1
+    adoption_note: "Open-access museum record; not widely cited by the speaker or the pages read."
+    would_change_if: "the Met web page or a photograph of the wall shows the facsimile differs from the wall"
+    anchor:
+      type: "interpretive"
+      description: "Met API record 544548 read (isPublicDomain true; Rogers Fund 1933; excavation 'MMA graphic expedition 1931'); stored image viewed: two men, a gazelle and an ibex, a numeral-like column and caption signs. It is an artist's copy. The signs were not read by this dig."
+      sources:
+        - "src-met-33-8-17-api"
+        - "src-met-image-33-8-17"
+      nodes:
+        - node: "khnumhotep-bh3-aamu-facsimile-met-1931"
+          verb: "supports"
+    basis: "A facsimile is a modern copy; it is the nearest to the wall that this dig opened, and it was only looked at."
+

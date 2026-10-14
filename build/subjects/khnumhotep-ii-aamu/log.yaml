@@ -1,0 +1,42 @@
+subject: khnumhotep-ii-aamu
+# Append-only. Corrections are new entries; earlier entries are never edited.
+log:
+  - id: L-01
+    date: 2026-10-14
+    entry: >
+      DIG OPENED from a handoff written by another agent (khnumhotep-ii-aamu.yaml). Its object identification (Beni Hasan tomb 3, Aamu procession, Newberry Beni Hasan I) was an unverified guess; it was matched, not verified (khn-object-bh3-khnumhotep, secondary).
+      Five Dead Hidden speaker claims (dh-K3pw12lBcXM-02, -03; dh-qL1VmGF3BF8-07, -08, -09) were split into separate parts, each carrying the speaker's wording unchanged, plus a bracketed label saying which part is tested. Wording was checked against ~/dead_hidden_claims/*.yaml.
+      No headline is published (headline_status draft). Owner rules applied from the start: books, translations, museum pages and videos are claims on the same footing; none is primary data; nothing here is anchor_checked: primary.
+  - id: L-02
+    date: 2026-10-14
+    entry: >
+      WHAT WAS OPENED AND READ. (1) Newberry, Beni Hasan Part I (1893): Internet Archive item gri_33125001148937 (Getty/Griffith copy), OCR text sha256 c591a436...; and a second scan, benihasan00grifgoog (Google scan), OCR sha256 e3c8fc87...:
+      p. 69 (the Aamu passage, in both scans), Editor's Preface and Newberry's Preface. Page images n171 to n176 of the first scan were looked at (n171, n173, n175 are blank tissue guards or faint plates; n172 is Plate XXIX, n174 Plate XXX with the north wall, n176 Plate XXXI 'The Aamu Group', after Hay); sha256 of n176 is 9ba782efd7b7f7c590a5c3ca1f0d8a38f0c6c823a40f603d5e61f126fe0ab670. The page images are cited by URL only and not stored.
+      (2) Metropolitan Museum of Art Open Access API object 544548 (JSON) and the image DT272586.jpg (stored; sha256 6f5645f9...; the record says isPublicDomain true). A second, larger image of the same object (33.8.17_EGDP012884.jpg) was downloaded and looked at but not stored. (3) The Egyptian Ministry of Tourism and Antiquities page on the tomb, raw HTML. (4) Gary Byers, Associates for Biblical Research, raw HTML. (5) The abstract page for Kamrin 2009 on egyptianexpedition.org, raw HTML.
+      The signs on the Met facsimile and on Newberry's plates were looked at as pictures; this dig did not read hieroglyphs, so no claim has anchor_checked: primary. The text-layer of the Newberry scans shows '87' for '37' in one scan (an OCR error; the other scan and the roll's numeral 'xxxvii' agree). Page views through the fetch tool are summaries by a small model; where a quotation is used it was checked against the raw HTML saved by curl.
+  - id: L-03
+    date: 2026-10-14
+    entry: >
+      WHAT WAS BLOCKED OR NOT OPENED. Met web page for 33.8.17 (https://www.metmuseum.org/art/collection/search/544548): HTTP 429 twice; not retried further, not bypassed; its description text was not read (a search summary quoted it, which is a lead only). The Met Archives page on Jacob S. Rogers: HTTP 429; seen only through a search summary.
+      Kamrin 2009 full text: the journal page (journals.librarypublishing.arizona.edu) returned an Anubis 'Access Denied' bot page; a scispace PDF mirror returned HTTP 403 (CloudFront); academia.edu copies were not opened (login wall expected). Not bypassed.
+      Not opened at all: Lepsius, Denkmaeler II (the 19th-century copy of the wall); Hay's manuscripts (British Library Add. MS 29813, 29847); Newberry Part II p. 21 (indexed 'Aamu, people of'); Beni Hasan Parts III to V; Madain Project page; Wikipedia and mirrors (never used); any Hyksos or Second Intermediate Period work (Ryholt, Bietak, Mourad); Manetho/Josephus; the Kamose stelae; Tell el-Dab'a reports; a modern hieroglyphic edition of the captions.
+      Web-search summaries were used only to find pages; nothing in them is cited as read.
+  - id: L-04
+    date: 2026-10-14
+    entry: >
+      WHO FUNDED AND CONTROLLED THE WORK (traced as far as read; the rest is stated as UNRESEARCHED). Newberry 1893: published 'under the auspices of the Egypt Exploration Fund'; the Survey party was 'sent out by the Committee of the Egypt Exploration Fund'; Newberry was on the Fund's staff; F. Ll. Griffith edited and was Superintendent of the Survey; Miss Amelia B. Edwards (late Honorary Secretary) and Prof. R. Stuart Poole are thanked; the preface mentions 'early support' for the Survey without naming supporters; the series list says 'to Subscribers'; permits came from the Director-General of the Administration of the Antiquities of Egypt. Publisher: Kegan Paul, Trench, Truebner and Co. NOT traced: individual subscribers or donors, control of the Fund's Committee, what the authors stood to gain, who paid the printing.
+      Met facsimile: credit line 'Rogers Fund, 1933' (read in the API). What that fund is came only from a search summary of an unopened page (a 1901 bequest by a locomotive manufacturer): a lead. Funding and control of the Met's 1931 Egyptian Expedition: UNRESEARCHED. Davies's own position: not researched.
+      Egyptian Ministry page: a state body; the page's author and sources are unnamed: UNRESEARCHED. ABR: the article's publisher is Associates for Biblical Research; its funders and governance were not read: UNRESEARCHED (the page returned no funding statement to the fetch tool). Kamrin 2009: author's institution, funders and the journal's publisher: UNRESEARCHED; the website egyptianexpedition.org: owner not established.
+  - id: L-05
+    date: 2026-10-14
+    entry: >
+      WEIGHING. Supported at a secondary level only (weight 2 or less): the wall and tomb (khn-object-bh3-khnumhotep); the roll's count of 37 Aamu of Shu bringing eye-paint in year 6 (khn-caption-aamu-of-shu-37, khn-sp-02a, -07a, -08a); the leader's title meaning a foreign ruler (khn-sp-02c).
+      Kept open as contested, with named positions: the leader's name spelling (khn-name-form), the title's translation (khn-title-translation), the date in BCE (khn-date-year6-bce), whether the leader is 'a Hyksos' (khn-sp-02d), the purpose of the visit (khn-sp-02e), the lineage to the 15th Dynasty (khn-sp-07c-lineage-15th-dynasty) and a peaceful accession (khn-sp-09c).
+      Searched gaps (absence in the sources read, not in the world): priority of the Hyksos mention (khn-sp-03a, -07c), land grants, Goshen and Avaris (khn-sp-03b, -09a), 'Aamu of the Hyksos' (khn-sp-07b), 40 in all with three already there (khn-sp-08b), growth in wealth (khn-sp-09b).
+      Nothing is called refuted: the signs were not read and the speaker's basis may lie outside the tomb. What the sources read do not contain is not the same as what the wall does not contain.
+      OBSERVATION: the caption counts 37, but Plate XXXI (after Hay) shows about 15 people by one count (khn-count-vs-figures); the difference is recorded, not explained. Newberry's 'brought by the son of the ha-prince, Chnemhotep' differs from the speaker's 'came to Egypt'.
+      Two read sources disagree on the Hyksos link: the Ministry page says the title is the oldest known example of the word Hyksos; the ABR article says it is the root of the word but that there is no reason to link this group to the later Hyksos. Neither is a specialist reading from the signs.
+  - id: L-06
+    date: 2026-10-14
+    entry: >
+      WHERE THE FACTS END (best of current knowledge, to the extent this dig read). Known from what was read: a printed translation of the wall's captions (Newberry 1893), repeated in part by two web pages, and a public-domain facsimile image of two leaders. Not known here: what the signs say; the exact title and its grammar; the name's vocalisation and meaning; where Shu was; the absolute date; why the group came; whether the 37 includes the leader; what became of them; any link to the 15th Dynasty. Next steps: Lepsius Denkmaeler II 133 and Hay for the signs; Kamrin 2009 in full; Newberry Part II p. 21; the Met description; a specialist treatment of heqa khasut; Tell el-Dab'a reports.

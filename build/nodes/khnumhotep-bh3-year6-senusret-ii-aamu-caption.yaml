@@ -1,0 +1,48 @@
+# Shared node. Append-only: a change is a new `rev` plus a `history` entry, never an overwrite. See build/SCHEMA.md, Nodes.
+id: khnumhotep-bh3-year6-senusret-ii-aamu-caption
+rev: 1
+type: event
+label: 'Year 6 of Senusret II: a caption in tomb BH 3 at Beni Hasan records "Aamu of Shu" arriving with eye-paint, number 37'
+time: '-1890-01-01'
+precision: year
+date_basis: derived
+kind: document
+status: reported
+what: >-
+  Newberry (1893) reads a roll held by the royal scribe Neferhotep in the north-wall scene of the main chamber of tomb No. 3
+  (Beni Hasan) as dated "The year vi" under King Usertsen II (Senusret II), and as counting "Aamu of Shu, number amounting to 37",
+  brought "on account of the mesdemet (eye-paint, stibium or kohl)". A second caption is read "arrival bringing kohl which 37 Aamu
+  bring to him". The leader of the group is read "hak-prince of the desert, Abesha" (Newberry's transliteration Ibsha).
+  The regnal year is stated by the source. The BCE year is not: modern authorities put the reign at different dates, so the
+  time given here is only a mid-point inside the window and carries no weight.
+window:
+  earliest: '-1911-01-01'
+  latest: '-1870-12-31'
+  begin_note: >-
+    Widest start among the dates read: the Egyptian Ministry page gives Senusret II as c.1911 to 1870 BC (the page ties this to
+    the period of Khnumhotep II's service; it is a reign range stated by a tourism-and-antiquities page, not a dated measurement).
+  end_note: >-
+    Latest end among the dates read: 1870 BC (same Ministry page). Narrower ranges read: Met record 1887 to 1878 BC; Kamrin 2009
+    abstract c.1897 to 1878 BCE; ABR/Byers c.1892 BC. None of these was derived from the wall; each is a modern chronology.
+place:
+  name: 'Tomb No. 3 (BH 3), Beni Hasan, north wall of the main chamber, left of the entrance'
+  note: 'Named by Newberry 1893 p. 69 and the Egyptian Ministry page. No coordinates are given or guessed here.'
+sources:
+- title: 'P. E. Newberry, Beni Hasan Part I (Archaeological Survey of Egypt, ed. F. Ll. Griffith; London, 1893), p. 69, Internet Archive scan gri_33125001148937, OCR read'
+  url: https://archive.org/details/gri_33125001148937
+  authenticity: authenticated edition, moderate (see the khnumhotep-ii-aamu manifest); a translation, not the wall
+  origin: newberry-1893
+  source_type: scholarly
+  access: read
+- title: 'Egyptian Ministry of Tourism and Antiquities, page "The Tomb of Khnumhotep II" (unsigned)'
+  url: https://egymonuments.gov.eg/en/monuments/the-tomb-of-khnumhotep-ii
+  authenticity: read raw HTML 2026-10-14; unsigned; may repeat the literature (origin not stated)
+  origin: egymonuments-page
+  source_type: official_history
+  access: read
+manifest: {subject: khnumhotep-ii-aamu, source: src-newberry-1893}
+created: '2026-10-14'
+history:
+- rev: 1
+  date: '2026-10-14'
+  change: Created by the khnumhotep-ii-aamu dig from Newberry 1893 p. 69 and the Ministry page. The year in `time` is a placeholder inside the window; only the regnal year 6 is stated. The signs were not read by the author of this node.

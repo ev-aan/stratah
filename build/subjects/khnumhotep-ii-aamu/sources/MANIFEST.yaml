@@ -1,0 +1,148 @@
+# Sources for the khnumhotep-ii-aamu dig, with authenticity entries (rules A1-A10, build/SCHEMA.md).
+# Books, translations, museum pages and videos are all claims here, on the same footing. The primary data is the wall of tomb BH 3 itself,
+# its photographs, squeezes and facsimiles. Nobody on this dig saw the wall. The signs on the Met facsimile and on Newberry's plates were looked at
+# as pictures but were NOT independently read, so no claim carries anchor_checked: primary.
+# Tests were run in this session (2026-10-14), which is not an independent review.
+# Only one image is stored (Met 33.8.17, marked public domain by the holder). Everything else is cited by URL.
+retrieved: 2026-10-14
+sources:
+
+  - id: src-newberry-1893
+    title: "P. E. Newberry, Beni Hasan, Part I (Archaeological Survey of Egypt, edited by F. Ll. Griffith; London: Kegan Paul, Trench, Truebner and Co., 1893), p. 69 and Plates XXVIII to XXXI"
+    url: https://archive.org/details/gri_33125001148937
+    document_class: "interpretive: a survey memoir with the author's own copies, transliteration and translation. Author, editor, publisher and funders: see provenance (partly traced, mostly UNRESEARCHED)"
+    read: "yes, directly: Internet Archive OCR text (sha256 c591a436a0b5f409730d6f538324950f16c85845bc2b9f5369bd4915bdf1ba93) lines for p. 69, the Editor's Preface and Newberry's Preface; page images n171 to n176 looked at (Plates XXVIII to XXXI). A second scan of the same work (benihasan00grifgoog, a Google scan, OCR sha256 e3c8fc87dc2a25d11d0c1dd24d1dcf5e52d819a54a217840761178398182d92a) was read for the same lines."
+    authenticity:
+      status: authenticated
+      strength: moderate
+      provenance: >-
+        Title page read in the OCR: "Published under the auspices of the Egypt Exploration Fund", London, sold by Kegan Paul, Trench, Truebner & Co. and at the Society's offices, 1893; edited by F. Ll. Griffith;
+        plans by G. Willoughby Fraser. Newberry's preface (read) says the Survey party was "sent out by the Committee of the Egypt Exploration Fund" and reached Beni Hasan on 25 November 1890,
+        and thanks the late Honorary Secretary Miss Amelia B. Edwards, Prof. R. Stuart Poole, H. A. Grueber, W. M. F. Petrie and F. Ll. Griffith. The Editor's Preface (read) thanks the Director-General of the Administration
+        of the Antiquities of Egypt for permits. The preface refers to "those through whose early support the Survey was made possible" without naming them. The scanned copy carries a Corcoran Gallery of Art
+        stamp and a Getty Center Library stamp (read in the OCR); the holder of the scan is not otherwise recorded here.
+      funding_and_control: >-
+        Traced as far as read: the work was issued under the Egypt Exploration Fund, whose Committee sent out the party (Newberry's preface); Griffith edited and was Superintendent of the Survey; Newberry was on the Fund's staff ("since his appointment on the staff of the Egypt Exploration Fund").
+        NOT traced: who paid the Fund's subscribers' money into the Survey, any individual donors, who controlled the Fund's Committee, what Newberry or Griffith stood to gain, and who funded the printing and the publisher. UNRESEARCHED.
+        The "Subscribers" in the series list (First Memoir "to Subscribers 1890-91") shows a subscription model; no list of subscribers was read.
+      tests:
+        - "Title page, year and publisher read in the OCR (could have failed)"
+        - "The Aamu passage (37, Aamu of Shu, Abesha) was read in two separate scans of the book and the two agree (OCR '87' in one scan is '37' in the other and in the roll's numeral 'xxxvii'; could have failed)"
+        - "Plate XXXI is headed 'The Aamu Group' and the contents list says '(P.E.N., after Hay)', so the group drawing is a copy of Hay's earlier copy, not Newberry's own tracing (read)"
+        - "The two leaders on Plate XXXI (a man with an ibex and a man with a gazelle) match the two men on the Met 1931 facsimile by a different artist (looked at; could have failed)"
+      tested_by: "Stratah dig session, 2026-10-14 (not an independent review)"
+      gaps: ["OCR: transliteration signs are mangled in the text layer; the hieroglyphic captions were not read from the plates", "Newberry's original tracings were unavailable even to the Editor (Editor's note)", "Part II p. 21, indexed under 'Aamu, people of', was not opened", "Hay's manuscripts (British Library Add. MS 29813, 29847) were not seen", "Lepsius Denkmaeler not opened"]
+      next_step: "Read the captions on Plates XXVIII and XXX at full resolution against Lepsius, Denkmaeler II, and a modern edition."
+      checked: 2026-10-14
+    notes: "The scan is a 1893 print of a 19th-century copy: a translation and a copy, not the wall."
+
+  - id: src-newberry-translation
+    title: "Newberry's transliteration and English rendering of the captions in the Aamu scene (p. 69)"
+    url: https://archive.org/details/gri_33125001148937
+    document_class: interpretive (translation)
+    derived_from: src-newberry-1893
+    read: yes, directly (OCR; signs of the transliteration are garbled in the OCR so only the English was relied on)
+    authenticity:
+      status: authenticated
+      strength: weak
+      provenance: "Printed in Newberry 1893 p. 69 as the author's own reading. Newberry says he copied the inscriptions on the spot and also drew on Hay and others."
+      tests: ["The English rendering (37; Aamu of Shu; hak-prince; Abesha/Ibsha; kohl) agrees in substance with what the Egyptian Ministry page and the ABR article say about the same caption (could have failed)"]
+      tested_by: "Stratah dig session, 2026-10-14 (not an independent review)"
+      gaps: ["No signs were read from the wall or a photograph by this dig", "'hak-prince of the desert' differs from 'ruler of a foreign land' in the two later pages: a translation difference, see khn-title-translation"]
+      next_step: "Compare against a hieroglyphic edition and a modern grammatical reading of the title."
+      checked: 2026-10-14
+
+  - id: src-met-33-8-17-api
+    title: "Metropolitan Museum of Art Open Access API, object 544548 (accession 33.8.17, 'Leaders of the Aamu of Shu', facsimile by Norman de Garis Davies)"
+    url: https://collectionapi.metmuseum.org/public/collection/v1/objects/544548
+    document_class: "museum record (holder's database). Not a reading of the signs. Record's own date range 1887-1878 BC is a modern chronology."
+    read: "yes, directly: the JSON (fields accessionNumber, isPublicDomain true, artist, medium, dimensions, creditLine 'Rogers Fund, 1933', excavation 'MMA graphic expedition 1931', locale 'Tomb of Khnumhotep (Tomb 3)', objectDate, image URLs). The object's web page https://www.metmuseum.org/art/collection/search/544548 returned HTTP 429 on two tries and was not read."
+    authenticity:
+      status: authenticated
+      strength: moderate
+      provenance: "Served by the holder's own API host (collectionapi.metmuseum.org); object held by the Metropolitan Museum of Art, New York, as of the record's metadataDate 2025-12-16."
+      funding_and_control: >-
+        Credit line read: Rogers Fund, 1933. What the Rogers Fund is, was seen only in a web-search summary of a Met Archives page ("This Weekend in Met History", about Jacob S. Rogers) that was not opened (HTTP 429): the summary says a locomotive manufacturer's 1901 bequest.
+        That is a lead, not a read. Who funded the Met's Egyptian Expedition in 1931 and who controlled it: UNRESEARCHED.
+      tests: ["The record's artist, accession and locale fields agree with the image content: two Aamu leading animals under a caption (looked at; could have failed)"]
+      tested_by: "Stratah dig session, 2026-10-14 (not an independent review)"
+      gaps: ["Description text on the web page not read", "Fidelity of the facsimile to the wall not tested", "Date range is the Met's own"]
+      next_step: "Open the web page in a browser for the description; compare the facsimile with a photograph of the wall."
+      checked: 2026-10-14
+
+  - id: src-met-image-33-8-17
+    title: "Met image DT272586.jpg ('web-large') of facsimile 33.8.17, stored copy"
+    url: https://images.metmuseum.org/CRDImages/eg/web-large/DT272586.jpg
+    document_class: "image of a modern artist's facsimile of part of the wall. Copy of the holder's image."
+    derived_from: src-met-33-8-17-api
+    read: "yes: viewed on 2026-10-14. Looked at as a picture: caption signs at top left and top and right, two men with animals. The signs were not independently read."
+    authenticity:
+      status: authenticated
+      strength: moderate
+      provenance: "Downloaded on 2026-10-14 from images.metmuseum.org, the holder's own image server, as named in the API record. Licence: the holder's record says isPublicDomain true (Met Open Access); stored here on that basis."
+      copy_of: "https://images.metmuseum.org/CRDImages/eg/web-large/DT272586.jpg"
+      sha256: 6f5645f9b4f2699941ed06068b3e23fa982df58300e14acd0dbd52c228d823bd
+      compared_with_holder_copy: "yes: the file was fetched from the holder's image server (not compared with the physical object)"
+      tests: ["File fetched from the holder's host named in the holder's own record; sha256 recorded (could have failed if the record named another host)"]
+      tested_by: "Stratah dig session, 2026-10-14 (not an independent review)"
+      gaps: ["The facsimile is an artist's copy; the wall was not compared"]
+      next_step: "Compare against a photograph of the north wall of BH 3."
+      checked: 2026-10-14
+
+  - id: src-egymonuments
+    title: "Egyptian Ministry of Tourism and Antiquities, 'The Tomb of Khnumhotep II' (egymonuments.gov.eg), unsigned"
+    url: https://egymonuments.gov.eg/en/monuments/the-tomb-of-khnumhotep-ii
+    document_class: "secondary: a state ministry's visitor page. Claim, not data."
+    read: "yes, directly: raw HTML fetched and searched 2026-10-14 (sha256 cc9269b3ed0e61704a587c803a5d6e0fc49350ca0be3dc2e60df86d1f5104ecb); not stored"
+    authenticity:
+      status: unchecked
+      next_step: "Find what the page relies on (it names no author or source)."
+      provenance: "Footer (read) credits the Ministry of Antiquities, Egypt, 2019, site developed by Link Development. Author of the text unnamed."
+      funding_and_control: "State body of Egypt. Who wrote the text and what it relied on: UNRESEARCHED."
+    notes: "Quoted in the claims: 'a delegation of 37 Amu ... consisting of men, women, and children ... bringing eye-paint to Khnumhotep'; 'his name, Abisha(i)'; 'heqa khaset - ruler of a foreign land'; 'This is the oldest known example of the word that is far better known today in its Greek form, Hyksos.'"
+
+  - id: src-abr-byers-2009
+    title: "Gary Byers, 'The Beni Hasan Asiatics and the Biblical Patriarchs', Associates for Biblical Research, 9 September 2009"
+    url: https://biblearchaeology.org/research-articles/the-beni-hasan-asiatics-and-the-biblical-patriarchs/
+    document_class: "secondary: an article by an advocacy-aligned organisation (the organisation's aims were not read). Claim, not data."
+    read: "yes, directly: raw HTML fetched and searched 2026-10-14 (sha256 1f8fcde99dc977b859667c5321844c1c5d4e181f1f89744623ad4d2888a2bdb3); not stored"
+    authenticity:
+      status: unchecked
+      next_step: "Read the article's cited sources; read the organisation's statement of purpose."
+      provenance: "Page footer (read): (c) Associates for Biblical Research; the article is filed under 'Patriarchal Era 2166-1876 BC'."
+      funding_and_control: "Publisher: Associates for Biblical Research. Its funders and governance were NOT read: UNRESEARCHED. The article says it is written to 'offer greater insights into the world of Biblical characters'; the page shows no funding statement."
+    notes: "Quoted: 'There is no reason to connect this group with the later Hyksos, except that they were also Asiatics.' and 'The group seems to be an extended family of traders.'"
+
+  - id: src-kamrin-2009-abstract
+    title: "Janice Kamrin, 'The Aamu of Shu in the Tomb of Khnumhotep II at Beni Hassan', Journal of Ancient Egyptian Interconnections (year given as 2009 in some web summaries and 2010 in another; not confirmed on the page read), abstract page on egyptianexpedition.org"
+    url: https://egyptianexpedition.org/articles/the-aamu-of-shu-in-the-tomb-of-khnumhotep-ii-at-beni-hassan/
+    document_class: "scholarly article, ABSTRACT ONLY read. Claim, not data."
+    read: "abstract and page metadata only (raw HTML sha256 00d8af4373176212fe5a5ef406d07377de39f59fa5a0a02a8ae551b7ba67bf22). The full text was NOT read: the journal's own page (journals.librarypublishing.arizona.edu/jaei/article/id/892/) returned an Anubis 'Access Denied' bot page, and a scispace PDF mirror returned HTTP 403 (CloudFront). Neither was bypassed."
+    authenticity:
+      status: unchecked
+      next_step: "Read the full text through a library."
+      provenance: "Page hosted at egyptianexpedition.org; whose site that is, was not established. The journal's host is, by its URL, University of Arizona Libraries (not verified from a read page)."
+      funding_and_control: "Author's institution and funders of the article: UNRESEARCHED. Publisher of the journal: UNRESEARCHED."
+    notes: "Abstract (read): 'an associated inscription dates to Year 6 of Senusret II (ca. 1897-1878 BCE)'; 'Many scholars have studied this scene and come to a variety of conclusions about the original home of the foreigners represented and the specific reason for their apparent visit to Egypt'; the foreigners 'function as symbols of controlled and pacified denizens of the chaotic realm'."
+
+  - id: src-dh-claims
+    title: "Dead Hidden YouTube claims files, ids dh-K3pw12lBcXM-02, dh-K3pw12lBcXM-03, dh-qL1VmGF3BF8-07, -08, -09 (~/dead_hidden_claims/)"
+    url: ""
+    document_class: speaker claims (captions of videos). Never an anchor.
+    read: "the claim lines as given in the handoff; the videos and transcripts were not watched or read here"
+    authenticity:
+      status: unchecked
+      next_step: "Not needed as evidence. Cited so the transmission record can say where the wording appears."
+      provenance: "Wording copied from the handoff file /Users/evan/ancient_writings_db/handoff/khnumhotep-ii-aamu.yaml. The speaker's own sources are not known."
+
+  - id: src-newberry-part2-lepsius-hay
+    title: "Not opened: Beni Hasan Part II p. 21 (index 'Aamu, people of'); Lepsius, Denkmaeler Abt. II Bl. 133; Hay MSS (British Library Add. MS 29813, 29847); Kamrin full text; Kitchen/Kamrin/Bietak/Ryholt/Mourad on heqa khasut and the Hyksos"
+    url: ""
+    document_class: leads
+    read: no. Named in sources read or surfaced by web search; none opened.
+    authenticity: {status: unchecked, next_step: "Open Lepsius Denkmaeler (digitised by the Berlin-Brandenburg Academy or on the Internet Archive) and Part II p. 21 and read the caption at the sign level."}
+
+not_accepted_as_anchors:
+  - "Wikipedia and its mirrors: not opened, not used"
+  - "Search-engine summaries, including the Madain Project snippet (15 figures; 'sometimes considered Hyksos') and the summary of the Met web page: leads, not reads"
+  - "The Dead Hidden videos themselves"

@@ -1,0 +1,36 @@
+# Shared node. Append-only: a change is a new `rev` plus a `history` entry, never an overwrite. See build/SCHEMA.md, Nodes.
+id: khnumhotep-bh3-aamu-facsimile-met-1931
+rev: 1
+type: image
+label: '1931: N. de Garis Davies paints a full-size facsimile of two Aamu leaders from tomb BH 3 (Met 33.8.17)'
+time: '1931-01-01'
+precision: year
+date_basis: stated
+kind: media
+status: single
+what: >-
+  The Metropolitan Museum of Art's open-access record 33.8.17, "Leaders of the Aamu of Shu" (tempera on paper, 63.5 x 81.5 cm,
+  scale 1:1, Rogers Fund 1933), by Norman de Garis Davies, field "excavation: MMA graphic expedition 1931", locale "Tomb of
+  Khnumhotep (Tomb 3)". The stored image shows two men in patterned garments each leading an animal (one a gazelle, one an ibex),
+  a column of strokes and arch signs at top left, and signs at top and right. It is a modern artist's copy of part of the wall,
+  not the wall. The record marks the image public domain (isPublicDomain true, read in the Met's collection API on 2026-10-14).
+media:
+  file: ../subjects/khnumhotep-ii-aamu/sources/met-33.8.17-leaders-of-the-aamu-of-shu.jpg
+  sha256: 6f5645f9b4f2699941ed06068b3e23fa982df58300e14acd0dbd52c228d823bd
+  rights: public_domain
+evidences: [khnumhotep-bh3-year6-senusret-ii-aamu-caption]
+place:
+  name: 'Tomb No. 3 (BH 3), Beni Hasan (the original); the facsimile is held by the Metropolitan Museum of Art, New York'
+  note: 'Holder as of 2026-10-14 per the Met API record; no coordinates given.'
+sources:
+- title: 'Metropolitan Museum of Art, Open Access collection API, object 544548 (accession 33.8.17); JSON read'
+  url: https://collectionapi.metmuseum.org/public/collection/v1/objects/544548
+  authenticity: holder's own record and image server; the facsimile's fidelity to the wall was not tested
+  origin: met-544548
+  source_type: official_record
+  access: read
+created: '2026-10-14'
+history:
+- rev: 1
+  date: '2026-10-14'
+  change: Created by the khnumhotep-ii-aamu dig. The Met object web page itself returned HTTP 429 twice and was not read; only the API JSON and the image were.
