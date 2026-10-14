@@ -1,0 +1,186 @@
+# Sources for the avaris-tell-el-dab-a dig, with authenticity entries (rules A1-A10, build/SCHEMA.md).
+# Nothing is stored in the repository; every source is cited by URL. sha256 values are of the copies fetched into a scratch directory on 2026-10-14.
+# NO source below is primary data. Primary data for this subject is the statue fragments, the tombs, the plans and the photographs/drawings
+# (Bietak 1991b; Bietak 1996; Schiestl 2009), none of which was viewed. Every book, article, translation and video here is a claim.
+# Tests were run in this session (2026-10-14), which is not an independent review.
+retrieved: 2026-10-14
+sources:
+
+  - id: src-schiestl-2006
+    title: "Robert Schiestl, 'The Statue of an Asiatic Man from Tell el-Dab'a, Egypt', Agypten und Levante 16 (2006), 173-185"
+    url: https://austriaca.at/0xc1aa5576_0x0016f30e.pdf
+    document_class: "interpretive: excavator-team article describing and reconstructing the statue fragments. Author affiliation not read in the text layer (UNRESEARCHED). Published in the journal series of the Austrian Academy of Sciences (the publisher's open platform austriaca.at); funding of the work: UNRESEARCHED. The excavation was directed by M. Bietak, who also edits the Untersuchungen der Zweigstelle Kairo series (see src-uzk-series-ad)."
+    read: yes, directly (PDF text layer, 14 pages, sha256 450afb4d9c4e6172f3e39ea20bc89a2da5c00954abac9d97d04cc82dd04dfdea). Photographs and drawings were NOT examined.
+    authenticity:
+      status: authenticated
+      strength: moderate
+      provenance: "Fetched from austriaca.at (the Austrian Academy of Sciences' open-access platform) on 2026-10-14. Journal, volume, year and pages printed in the PDF running heads (pp. 173-185) agree with the citation 'Agypten und Levante 16, 2006, 173-185' given independently on the auaris.at F/I page. Holder of the original print not recorded."
+      tests:
+        - "Running heads and page numbers in the PDF (173-185) match the citation on the auaris.at F/I page (could have failed)"
+        - "Stratum dates, tomb p/19 no. 1 and the statue description agree in substance with the auaris.at F/I page text by the same author (could have failed)"
+      tested_by: "Stratah dig session, 2026-10-14 (not an independent review)"
+      gaps: ["Text layer only; figures, photographs and drawings not viewed", "Not compared with the printed volume", "Peer-review status of the journal not checked"]
+      next_step: "Compare with the printed volume, then read Schiestl 2009 (Tell el-Dab'a XVIII) for the tomb and statue contexts."
+      checked: 2026-10-14
+
+  - id: src-auaris-f1
+    title: "auaris.at (Austrian Archaeological Institute Tell el-Dab'a site): 'Areal F/1', cemeteries of strata d/2 and d/1 by Robert Schiestl (English page)"
+    url: https://www.auaris.at/html/stratum_f1_en.html
+    document_class: "interpretive: excavation-team website text. Site owner and funders: UNRESEARCHED (page lists Home, Contact; not read further)."
+    read: yes, directly (HTML text, sha256 b69a79bf1c241a42715afdbc69bdae559556e1e161f5c91b43dae4233bc05389). Picture captions 'pic. 1-9' were not viewed.
+    authenticity:
+      status: unchecked
+      next_step: "Confirm the site's ownership from its imprint page and archive copies."
+    notes: "Includes the bibliography listing Eigner 1985 ('Der agyptische Palast eines asiatischen Konigs') and Schiestl 2009; only titles seen, not those works."
+
+  - id: src-bietak-2022-eah
+    title: "Manfred Bietak, 'Avaris/Tell el-Dab'a', in The Encyclopedia of Ancient History, ed. A. Erskine, D. B. Hollander, A. Papaconstantinou (John Wiley & Sons, 2022), DOI 10.1002/9781444338386.wwbeah15052.pub2"
+    url: https://www.ancientportsantiques.com/wp-content/uploads/Documents/PLACES/Egypt-Libya/NileDelta/Avaris-Bietak2022.pdf
+    document_class: "interpretive: summary by the excavation director. Copyright Wiley; the file read is a third-party-hosted copy and is NOT stored here. Author is also the excavator, so this is not independent of the dig. Publisher Wiley is a commercial publisher; its control of the entry and any funding of the author: UNRESEARCHED."
+    read: yes, directly (PDF text layer, 16 pages, copy sha256 b74049012e79c8da189f7ad4553cabf31a7ebe31b6f4d665f999ff9b56e5debe)
+    authenticity:
+      status: authenticated
+      strength: weak
+      provenance: "Third-party-hosted copy (ancientportsantiques.com). Page footer in the copy reads 'The Encyclopedia of Ancient History ... (c) 2022 John Wiley & Sons Ltd ... DOI: 10.1002/9781444338386.wwbeah15052.pub2'. Not compared with the Wiley original."
+      tests:
+        - "The copy's statements on phase H statue in a chapel on a big tomb, the garden cemetery and the Prince of Retjenu scarab agree with the FWF P 34601 preliminary report by the same team (could have failed)"
+      tested_by: "Stratah dig session, 2026-10-14 (not an independent review)"
+      gaps: ["Not compared with the Wiley original", "Same author as the excavation, not independent"]
+      next_step: "Open the Wiley original (DOI above) and compare."
+      checked: 2026-10-14
+      copy_of: "Wiley, DOI 10.1002/9781444338386.wwbeah15052.pub2"
+      sha256: b74049012e79c8da189f7ad4553cabf31a7ebe31b6f4d665f999ff9b56e5debe
+      compared_with_holder_copy: "no"
+
+  - id: src-fwf-p34601
+    title: "'FWF Project P 34601: Palatial Architecture in Egypt and its Spatial Semiotics: Hyksos and Egyptian Palaces at Avaris/Tell el-Dab'a - Preliminary Results' (PI Manfred Bietak, Univ. Innsbruck and Austrian Academy of Sciences)"
+    url: https://www.uibk.ac.at/media/filer_public/82/8e/828e8fc0-7dcc-48f2-8b55-0c68768a4417/preliminary_results_p-34601.pdf
+    document_class: "interpretive: project report by the excavation director's team. The document labels itself 'FWF Project P 34601'; what FWF stands for and who controls it was NOT read in the document (UNRESEARCHED). Hosted on the University of Innsbruck site. No author-level funding statement read."
+    read: yes, directly (PDF text layer, sha256 26a05c863768d0a6c6fba2656bd6143726e1fb101b214e9661579d6185fc2975). Figures not viewed. Undated in the text layer; it cites a 2023 monograph and expects a manuscript 'early 2026', so it was written c. 2024-2025 (inferred).
+    authenticity:
+      status: unchecked
+      next_step: "Find the FWF project record (P 34601) for the funder, amount and dates."
+
+  - id: src-td-report-2011
+    title: "I. Forstner-Muller, M. Bietak, M. Lehmann, C. Reali, 'Report on the Excavations at Tell el-Dab'a 2011' (to the Egyptian Supreme Council of Antiquities, ASAE)"
+    url: https://www.auaris.at/downloads/TD__Report_2011_ASAE.pdf
+    document_class: "interpretive: excavation report to the Egyptian antiquities authority. Funders of the 2011 season are not named in the passages read; thanks go to the Supreme Council of Antiquities, the Austrian Embassy and the director of the Austrian Archaeological Institute (read in the first paragraph)."
+    read: yes, directly (PDF text layer, sha256 018d4a83da294f960541ed5523f8aed8551d9cae5f87be35d24e47380e468164). Used for funding/permissions trace and the four-column building in area F/II only; area F/I is not covered.
+    authenticity:
+      status: unchecked
+      next_step: "Read the 2011 report's acknowledgements section in full for funders."
+
+  - id: src-uzk-series-ad
+    title: "Series advertisement page 'Untersuchungen der Zweigstelle Kairo des Osterreichischen Archaologischen Instituts' (from a 2011 volume), lists Tell el-Dab'a volumes"
+    url: https://austriaca.at/0xc1aa5576_0x00277dcb.pdf
+    document_class: "publisher front matter. Read only for the series editorship line: 'Herausgegeben in Verbindung mit der Kommission fur Agypten und Levante der Osterreichischen Akademie der Wissenschaften von MANFRED BIETAK'."
+    read: yes, directly (first page of the text layer; sha256 34916857399e1ecafd0635f9ec69751489d5991047c8c4650ab9b0cd58d1325a)
+    authenticity:
+      status: unchecked
+      next_step: "Not needed as evidence. Cited to show that the excavation director edits the series that publishes his team's reports (Tell el-Dab'a volumes, including XVIII)."
+
+  - id: src-bar-ron-2017
+    title: "Rabbi Michael S. Bar-Ron, 'The Seal of Joseph in His Palace at Tell ed-Daba' (Beth Midrash Ohel Moshe, Beit Shemesh; 29 Dec 2017), hosted on kankanjournal.com"
+    url: https://kankanjournal.com/wp-content/uploads/2020/12/The_Seal_of_Joseph_in_His_Palace_at_Tell.pdf
+    document_class: "interpretive: advocacy paper that identifies the palace with Joseph's. The author states he thanks 'my mentor ... David Rohl' and relies on Rohl's books. Publisher/host (Kankan Journal) and funders of author and host: UNRESEARCHED. Self-published or journal status: UNKNOWN."
+    read: yes, directly (PDF text layer, ~9,000 words, sha256 416dc6eb7da03e877cfa6945b379e4e45eca8a6a06b684a7cfe93f4e7f37c954); seal section not analysed
+    authenticity:
+      status: unchecked
+      next_step: "Identify the host journal and its editorial control; read Rohl's cited books."
+
+  - id: src-billington-abr-2022
+    title: "Clyde E. Billington, review of Douglas Petrovich, Origins of the Hebrews (New Creation, 2021), Associates for Biblical Research, 21 Nov 2022"
+    url: https://biblearchaeology.org/?p=72553
+    document_class: "interpretive: book review on an apologetics ministry's site. Publisher is Associates for Biblical Research (ABR). Funding of ABR and of Billington: UNRESEARCHED. The About page (src-abr-about) states its stance."
+    read: yes, directly (HTML text, sha256 8e813d110be1bc75e7d2d9334bd98cf25d97daa32fba1a6dbe14aa8cbca13b8e); Petrovich's book itself NOT opened
+    authenticity:
+      status: unchecked
+      next_step: "Open the book itself (a claim); do not rely on the review for what it says."
+
+  - id: src-abr-about
+    title: "Associates for Biblical Research, 'About - Who We Are'"
+    url: https://biblearchaeology.org/about/
+    document_class: "self-description of a publisher. Read for stance only."
+    read: yes, directly (HTML, sha256 bce18c1bab692d68bceb63cbd9a9be04de9f412c79d00c92a455c3005dc0881f)
+    authenticity:
+      status: unchecked
+      next_step: "Look for donors, board and financial statements (not looked for here: UNRESEARCHED)."
+    notes: "Quoted self-description: 'a Christian Apologetics Ministry Dedicated to Demonstrating the Historical Reliability of the Bible through Archaeological and Biblical Research'."
+
+  - id: src-kjv-bible-api
+    title: "King James Version text of Genesis 50:22-26, Exodus 13:19, Joshua 24:32 as served by bible-api.com"
+    url: https://bible-api.com/genesis+50:22-26?translation=kjv
+    document_class: "interpretive: an English translation (1611/1769 text). A translation is a claim, not the Hebrew. Translators' commission and funders: UNRESEARCHED. The web service operator and its source: UNRESEARCHED."
+    read: yes, directly (three JSON responses; sha256 Genesis ba07c22cf52e2a01d69d40769b05d5f81be5755fe39f3a6d8809fb50ee72825b, Exodus 838bfaa8be00c6fee2354c6eda990581c826fa48901c2aa56a15bade939d36d6, Joshua 15f460e22a1e2028d2ea180467a15b88085e9e2e92679f191e6a91cf33cf8dc6)
+    authenticity:
+      status: unchecked
+      next_step: "Compare with a printed KJV and the Hebrew text."
+
+  - id: src-dh-claims
+    title: "Dead Hidden YouTube claims files KNhzmEKodZg (uploaded 2026-09-12) and qL1VmGF3BF8 (uploaded 2026-09-08) (~/dead_hidden_claims/)"
+    url: ""
+    document_class: speaker claims (captions of videos). Never an anchor.
+    read: the claim lines (statement, quote, speaker_cites) for nine ids only; the videos and transcripts were not watched or read here. Files sha256 KNhzmEKodZg.yaml 7999078ca678b1c7d70dad714cf6dea149f54c19da5dfeeb4700d7f1a8c56d45; qL1VmGF3BF8.yaml f94cb5bb475b0c7c0ebd1573d7afd3c5127c50fa3b5f8fd2e3a33890064919c9
+    authenticity:
+      status: unchecked
+      next_step: "Not needed as evidence. Cited so the transmission record can say where the claims were made."
+
+  - id: src-jacobovici-toi
+    title: "Simcha Jacobovici, Times of Israel blog: 'Statue of biblical Joseph found, story covered up'"
+    url: https://blogs.timesofisrael.com/statue-of-biblical-joseph-found-story-covered-up
+    read: no. BLOCKED, HTTP 403 on fetch (not retried, not bypassed). Known only from a search-result summary.
+    authenticity: {status: unchecked, next_step: "Open in a browser; it is an advocacy source and a claim, not evidence."}
+
+  - id: src-biblicalarchaeology-library
+    title: "Biblical Archaeology Society library page (library.biblicalarchaeology.org/?p=47345), surfaced by search for Bietak's 2003 BAR article"
+    url: https://library.biblicalarchaeology.org/?p=47345
+    read: no. BLOCKED, HTTP 403 with a Cloudflare 'Attention Required' page (not retried, not bypassed).
+    authenticity: {status: unchecked, next_step: "Open in a browser. Bietak's BAR 29:5 (2003) article is about Medinet Habu per a search summary, so may be irrelevant."}
+
+  - id: src-madain
+    title: "Madain Project 'Avaris statue' page"
+    url: https://madainproject.com/avaris_statue
+    read: no. Fetched (HTTP 200) but returned no readable text (about 37 characters after stripping scripts); nothing read. Encyclopedic secondary page.
+    authenticity: {status: unchecked, next_step: "Not needed."}
+
+  - id: src-bietak-1991b
+    title: "M. Bietak, 'Der Friedhof in einem Palastgarten aus der Zeit des spaten Mittleren Reiches und andere Forschungsergebnisse aus dem ostlichen Nildelta (Tell el-Dab'a 1984-1987)', Agypten und Levante 2 (1991), 47-75"
+    url: ""
+    read: no. Not located as an open PDF (search surfaced only bibliographic listings). This is the likely excavation report for the palace-garden cemetery.
+    authenticity: {status: unchecked, next_step: "Locate on austriaca.at or a library; read for tomb counts, pyramid/superstructure, plan and columns."}
+
+  - id: src-bietak-1996
+    title: "M. Bietak, Avaris, the Capital of the Hyksos: Recent Excavations at Tell el-Dab'a (London: British Museum Press, 1996), p. 28 fig. 25"
+    url: ""
+    read: no. Not opened (cited by Bar-Ron 2017). Publisher and funders UNRESEARCHED.
+    authenticity: {status: unchecked, next_step: "Library copy: read p. 28, fig. 25 and the F/I plan."}
+
+  - id: src-schiestl-2009-td18
+    title: "R. Schiestl, Tell el-Dab'a XVIII: Die Palastnekropole von Tell el-Dab'a. Die Graber des Areals F/I der Straten d/2 und d/1 (Vienna: OeAW, 2009)"
+    url: https://verlag.oeaw.ac.at/en/product/tell-el-dab-a-xviii/30158
+    read: no. A publisher page was listed by search but not opened.
+    authenticity: {status: unchecked, next_step: "Open the monograph; it is the primary publication of the tombs (tomb catalogue, bones, plans)."}
+
+  - id: src-eigner-1985
+    title: "D. Eigner, 'Der agyptische Palast eines asiatischen Konigs', Jahreshefte des Osterreichischen Archaologischen Institutes in Wien 56 (1985), 19-25"
+    url: ""
+    read: no. Title only, from the auaris.at bibliography.
+    authenticity: {status: unchecked, next_step: "Locate and read for the plan and the 'Asiatic king' wording."}
+
+  - id: src-rohl-works
+    title: "D. Rohl, Exodus: Myth or History? (2015); Lords of Avaris (2008); Pharaohs and Kings (1995), as cited by Bar-Ron 2017"
+    url: ""
+    read: no. Known only from Bar-Ron's footnotes. Publisher/funding UNRESEARCHED.
+    authenticity: {status: unchecked, next_step: "Open the cited pages (Exodus: Myth or History pp. 71-118; Lords of Avaris pp. 38-39 and 118)."}
+
+  - id: src-petrovich-2021
+    title: "D. Petrovich, Origins of the Hebrews (Nashville: New Creation, 2021)"
+    url: ""
+    read: no. Known only from Billington's review.
+    authenticity: {status: unchecked, next_step: "Open the book; check who published it and the evidence for Jacob."}
+
+not_accepted_as_anchors:
+  - "Wikipedia: orientation only, and not used"
+  - "Search-engine summaries: leads, not reads"
+  - "The Dead Hidden videos themselves"
+  - "Books, articles and translations in this manifest: all are claims awaiting the object, plans and photographs"

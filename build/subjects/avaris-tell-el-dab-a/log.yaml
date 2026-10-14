@@ -1,0 +1,48 @@
+subject: avaris-tell-el-dab-a
+# Append-only. Corrections are new entries; earlier entries are never edited.
+log:
+  - id: L-01
+    date: 2026-10-14
+    entry: >
+      DIG OPENED from a handoff written by another agent (avaris-tell-el-dab-a.yaml). Its object identification ("Tell el-Daba Avaris excavations Bietak palace tombs statue; excavation reports")
+      was an unverified guess. Nine Dead Hidden claim lines (dh-KNhzmEKodZg-19, -23; dh-qL1VmGF3BF8-02, -03, -04, -05, -29, -30, -37; dh-qL1VmGF3BF8-01 added for the 12-columns wording) were read in the
+      claims files and split into 15 separate speaker claims (prefix avaris-sp-), each with the speaker's own wording kept. No headline is published (headline_status draft).
+      The speaker's claims have no plain time or find numbers; the object is identified here as the area F/I mansion, garden cemetery and the statue of an Asiatic man at Tell el-Dab'a, which is the excavators' own reading of the find, not a certainty about what the speaker means.
+  - id: L-02
+    date: 2026-10-14
+    entry: >
+      WHAT WAS OPENED AND READ (all secondary to the object). (1) R. Schiestl, The Statue of an Asiatic Man from Tell el-Dab'a, Egypt, Agypten und Levante 16 (2006) 173-185, open PDF on austriaca.at, text layer, 14 pages, sha256 450afb4d...
+      (2) auaris.at, Areal F/1 page, Schiestl text, sha256 b69a79bf... (3) FWF P 34601 preliminary results (Bietak's team), uibk.ac.at PDF, sha256 26a05c86... (4) Bietak, Avaris/Tell el-Dab'a, Encyclopedia of Ancient History (Wiley, 2022),
+      third-party-hosted copy, sha256 b7404901... (5) Report on the Excavations at Tell el-Dab'a 2011 (ASAE), sha256 018d4a83..., read for acknowledgements and the four-column building in area F/II only. (6) M. S. Bar-Ron, The Seal of Joseph in His Palace at Tell ed-Daba (2017),
+      sha256 416dc6eb... (7) C. E. Billington, review of Petrovich 2021, ABR, sha256 8e813d11..., and ABR's About page, sha256 bce18c1b... (8) KJV text of Genesis 50:22-26, Exodus 13:19, Joshua 24:32 via bible-api.com.
+      (9) Page 1 of a 2011 series front-matter PDF (austriaca.at, sha256 34916857...) for the series editorship line. No hieroglyph, plan, photograph or drawing was examined for its signs or detail: the PDFs' figures were not viewed. Passages quoted in claims are verbatim from the text layers.
+  - id: L-03
+    date: 2026-10-14
+    entry: >
+      WHAT WAS BLOCKED OR NOT OPENED. BLOCKED: Times of Israel blog by Simcha Jacobovici (HTTP 403; not retried, not bypassed); library.biblicalarchaeology.org page (Cloudflare 'Attention Required', HTTP 403; not retried, not bypassed).
+      FETCHED BUT NOTHING READ: Madain Project 'Avaris statue' page (about 37 characters of text after stripping scripts). NOT LOCATED OR NOT OPENED: M. Bietak 1991b (Agypten und Levante 2), the likely excavation report of the palace-garden cemetery;
+      M. Bietak 1996, Avaris, the Capital of the Hyksos (British Museum Press), p. 28 fig. 25; R. Schiestl 2009 (Tell el-Dab'a XVIII, publisher page listed by search, not opened); D. Eigner 1985 (title seen on auaris.at only);
+      D. Rohl's books (Exodus: Myth or History; Lords of Avaris; Pharaohs and Kings), known only from Bar-Ron's footnotes; D. Petrovich 2021 (known only from Billington's review); K. A. Kitchen 2003 pp. 345-346 (cited by Bar-Ron);
+      the Munich statue ÄS 7171 and its record; the Egyptian Museum or other holder record of the statue fragments (holder and inventory numbers of the fragments are NOT established here). Wikipedia was surfaced by search and not used.
+  - id: L-04
+    date: 2026-10-14
+    entry: >
+      WHO FUNDED AND CONTROLLED THE WORK (traced as far as sources opened allow; the rest is UNRESEARCHED). Excavation: directed by Manfred Bietak, described in the texts read as University of Vienna (Bietak 2022), University of Innsbruck and the Austrian Academy of Sciences (FWF page);
+      the 2011 report is from the Austrian Archaeological Institute Cairo, which thanks the Egyptian Supreme Council of Antiquities, the Austrian Embassy and the Institute's director. The Tell el-Dab'a volumes appear in a series that Bietak himself edits (Untersuchungen der Zweigstelle Kairo, 'Herausgegeben ... von MANFRED BIETAK', page 1 of src-uzk-series-ad),
+      so the excavation director also edited the publication of his team's reports. The 2022 entry is in a Wiley encyclopedia (a commercial publisher). A current project is labelled 'FWF Project P 34601'; the document does not expand FWF or name its funders in the text read, and Bietak 2022's bibliography mentions an 'ERC advanced grant The enigma of the Hyksos' (seen in a reference list only).
+      Who funded the 1979-1989 F/I seasons that found the statue: UNRESEARCHED. Schiestl: affiliation and funding UNRESEARCHED. Advocacy side: Bar-Ron is a rabbi at Beth Midrash Ohel Moshe (Beit Shemesh) who thanks David Rohl as mentor; host Kankan Journal, funders of Bar-Ron, Rohl and the host: UNRESEARCHED.
+      ABR (publisher of Billington's review) describes itself on its About page as 'a Christian Apologetics Ministry Dedicated to Demonstrating the Historical Reliability of the Bible through Archaeological and Biblical Research' and states it leads a licensed excavation in Israel; its donors and finances: UNRESEARCHED. Petrovich's publisher New Creation (as printed in the review) and Rohl's publishers: UNRESEARCHED.
+      Nothing is asserted about funding beyond what is quoted above.
+  - id: L-05
+    date: 2026-10-14
+    entry: >
+      WEIGHING AND WHERE THE FACTS END. Established in the texts read, at a secondary level only: a mansion, a garden and a later elite cemetery at F/I; a smashed, larger-than-life statue of an Asiatic man with a mushroom coiffure, found 1986-1988; strata dates of roughly 1850-1750 BCE.
+      Not found in what was read: twelve columns, twelve tombs, a pyramid, a name for the statue, or any text tying tombs or statue to Joseph, Jacob or the Fifteenth Dynasty. One text read (Schiestl 2006) says the leading candidate tomb p/19 no. 1 yielded bone fragments of two individuals; the speaker and the advocacy paper say the largest tomb had no bones; which tomb is meant is not stated.
+      Opposing readings are kept as contested claims with named positions: (a) Rohl via Bar-Ron: Joseph (as the vizier Ankhu), pyramid tomb, no bones; (b) Petrovich via Billington: Jacob; (c) Bietak, Schiestl: an unnamed Asiatic dignitary, possibly a Prince of Retjenu. None is closed. The two advocacy positions contradict each other on who the statue is.
+      The speaker claims are filed contested, proposed or searched_gap at weight 1; none is called refuted because the plans, the 1991 report and the 2009 monograph were not read, and the excavators' texts read are summaries. The descent claims (12 tribes; Fifteenth Dynasty) are searched gaps of the structural type.
+      Dating: the excavators' own strata dates differ by about 30 years between 2006 and the FWF page; the reasons were not read. The speaker's 'about 1900 BC' is outside both.
+  - id: L-06
+    date: 2026-10-14
+    entry: >
+      OWNER RULES APPLIED. All books, articles, translations and videos are filed as claims on the same footing; none is labelled primary_text or primary_document; no claim carries anchor_checked primary; no weight above 2 is used. Claims that rest only on these texts are proposed, contested or searched_gap, with interpretive evidence class (or primary_text only for the searched gaps that name the unread signs as the thing to read).
+      Third-party-hosted Wiley copy and the open PDFs are not stored in the repository; they are cited by URL with sha256 of the scratch copies. The Kankan Journal and ABR texts are cited by URL only. Earlier entries are unchanged.

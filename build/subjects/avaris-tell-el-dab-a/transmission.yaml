@@ -1,0 +1,62 @@
+# How the Joseph-at-Avaris reading appeared and reached the speaker. Spread is adoption, never evidence (X1).
+subject: avaris-tell-el-dab-a
+chains:
+  - id: tx-avaris-joseph-reading
+    about: "avaris-tell-el-dab-a:avaris-sp-statue-joseph-or-jacob-foreign-king"
+    title: "From an excavated cemetery and statue to 'Joseph or Jacob' and '12 tombs, 12 columns'"
+    confers_weight: false
+    events:
+      - id: tx-av-01
+        date: "1986/1988"
+        precision: year
+        step: origin
+        carrier: "Austrian Archaeological Institute team under M. Bietak finds the statue fragments (Schiestl 2006)"
+        form: "Fragments of a smashed statue of an Asiatic man in cemetery F/I; no name read."
+        source: src-schiestl-2006
+        read: yes
+        note: "The find itself, as the excavators report it."
+      - id: tx-av-02
+        date: "1997"
+        precision: year
+        step: reinterpretation
+        carrier: "David Rohl (per Bar-Ron 2017: 'In 1997, David Rohl brought to global attention')"
+        form: "Palace, 12 pillars, 12 prominent tombs, a pyramid tomb with a missing body, and a statue read as the biblical Joseph (as the vizier Ankhu) in a lowered chronology."
+        source: src-rohl-works
+        read: no
+        note: "Rohl's own text was not opened; the 1997 date is Bar-Ron's statement."
+      - id: tx-av-03
+        date: "2017-12-29"
+        precision: day
+        step: repetition
+        carrier: "M. S. Bar-Ron, The Seal of Joseph in His Palace at Tell ed-Daba"
+        form: "Repeats the 12 pillars, 12 tombs, pyramid tomb and removed body, citing Rohl and Kitchen."
+        source: src-bar-ron-2017
+        read: yes
+        note: "Node avaris-2017-12-29-bar-ron-joseph-palace-paper."
+      - id: tx-av-04
+        date: "2021"
+        precision: year
+        step: variant
+        carrier: "Douglas Petrovich, Origins of the Hebrews (New Creation), as reviewed by C. E. Billington (ABR, 2022-11-21)"
+        form: "Statue read as Jacob, not Joseph; the palace built by Ephraim and Manasseh."
+        source: src-billington-abr-2022
+        read: yes
+        note: "Review read; the book was not."
+      - id: tx-av-05
+        date: "2026-09-08"
+        precision: day
+        step: repetition
+        carrier: "Dead Hidden, 'The Aamu of Shu | The Hyksos' (qL1VmGF3BF8)"
+        form: "12 columns, 12 tombs in the garden, pyramid, no bones, about 1900 BC, Joseph's tomb, 15th dynasty descent (dh-qL1VmGF3BF8-02 to -05, -29, -30, -37)."
+        source: src-dh-claims
+        read: no
+        note: "Only the claim lines were read. The speaker's source is unknown; the claims cite 'archaeology' or nothing. Date is the upload date in the claims file."
+      - id: tx-av-06
+        date: "2026-09-12"
+        precision: day
+        step: repetition
+        carrier: "Dead Hidden, 'Japheth dwelling in the tents of Shem' (KNhzmEKodZg)"
+        form: "Palace with 12 columns and 12 tombs of the patriarchs; statue most likely Joseph (dh-KNhzmEKodZg-19, -23)."
+        source: src-dh-claims
+        read: no
+        note: "Claim lines only. Upload date from the claims file."
