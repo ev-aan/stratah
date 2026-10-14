@@ -1,0 +1,44 @@
+# Shared node. Append-only: a change is a new `rev` plus a `history` entry, never an overwrite. See build/SCHEMA.md, Nodes.
+id: serabit-1905-petrie-finds-foreign-inscriptions
+rev: 1
+type: event
+label: '1905: Petrie''s Sinai expedition finds inscriptions in an unknown script at Serabit el-Khadim (temple and mine L)'
+time: '1905-01-01'
+precision: year
+date_basis: derived
+kind: document
+status: reported
+what: >-
+  Petrie's 1906 book says inscriptions "in unknown characters" were found on figures in the Hathor temple at Serabit el-Khadim,
+  and that his wife noticed a fragment with unrecognised signs near the mine marked L on his Map 3, where he then found
+  remains of "about eight tablets, roughly cut". Gardiner and Peet (1917) number eleven such monuments, Sinai 345 to 355, as
+  copied by the Egypt Exploration Fund expedition of 1904-5. The year is derived: Gardiner and Peet say "winter of 1904-5" and
+  Albright says "early 1905"; Haring (2019) says "winter campaign of 1905-1906"; Petrie's own preface, printed May 1906, says only
+  "last winter". The sources read disagree on the season, so only the year 1905 is given and the month is not known here.
+place:
+  name: 'Serabit el-Khadim, Sinai (Hathor temple and mine L)'
+  lat: 29.037
+  lon: 33.460
+  precision: site
+  uncertainty_km: 2
+  source: 'OpenStreetMap Nominatim, node 5557995940 (locality "Serabit el-Khadim"), queried 2026-10-14. A gazetteer point for orientation, not evidence of where any inscription lay.'
+  note: 'Findspots inside the site are named by Petrie (temple; mine L) and by Gardiner and Peet 1917 (a table column "Exact Provenance"); no coordinates are given for them.'
+sources:
+- title: 'W. M. F. Petrie (and C. T. Currelly), Researches in Sinai (London: John Murray, 1906), pp. 128-132, Internet Archive scan researchesinsin00currgoog, OCR read'
+  url: https://archive.org/details/researchesinsin00currgoog
+  authenticity: edition checked in part; the finder's own report, so testimony (see the dig's manifest)
+  origin: petrie-1906
+  source_type: scholarly
+  access: read
+- title: 'A. H. Gardiner and T. E. Peet, The Inscriptions of Sinai, Part I (Egypt Exploration Fund Memoir 36, 1917), introduction and table V, Internet Archive scan EXCMEM36, OCR read'
+  url: https://archive.org/details/EXCMEM36
+  authenticity: edition checked in part (see the dig's manifest)
+  origin: gardiner-peet-1917
+  source_type: scholarly
+  access: read
+manifest: {subject: serabit-el-khadim-inscriptions, source: src-petrie-1906}
+created: '2026-10-14'
+history:
+- rev: 1
+  date: '2026-10-14'
+  change: Created by the serabit-el-khadim-inscriptions dig. Year only, because the sources read disagree on the season (see log L-03).

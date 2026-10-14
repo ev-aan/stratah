@@ -1,0 +1,51 @@
+subject: serabit-el-khadim-inscriptions
+log:
+  - id: L-01
+    date: 2026-10-14
+    entry: >
+      START. Handoff read (/Users/evan/ancient_writings_db/handoff/serabit-el-khadim-inscriptions.yaml). Its object identification, "Serabit el-Khadim proto-Sinaitic inscriptions; Sinai Expedition publications", is
+      an unverified guess; it is confirmed here only in the sense that the Serabit el-Khadim texts exist and are catalogued as Sinai 345 onward (Gardiner and Peet 1917 table V; read). One speaker sentence, dh-KNhzmEKodZg-22,
+      "The earliest written example was scratched on the walls of cave mines by slaves who remembered their god Yahweh.", is split into five claims (sk-sp-*), each kept in the speaker's words. The speaker's own basis was not read (only the claim line).
+      Rules applied (owner, 2026-10-14): books, translations, commentaries and videos are claims on the same footing; primary data is the object, images, squeezes and plates; a claim resting only on books is proposed or searched_gap, interpretive,
+      anchor_checked secondary or no, confidence low, weight at most 2.
+  - id: L-02
+    date: 2026-10-14
+    entry: >
+      WHAT WAS OPENED AND READ. (1) Petrie, Researches in Sinai (1906), Internet Archive OCR of the Google scan researchesinsin00currgoog: preface and pp. 128-132 read; Yahweh, Jehovah and slave searched over the whole text (no Yahweh or Jehovah; the one 'slaves'
+      is in Currelly's account of hiring workmen, p. ~190, not about the inscriptions' makers). (2) Gardiner and Peet, The Inscriptions of Sinai Part I (1917), Internet Archive EXCMEM36: introduction (aim and scope) and table V read in OCR; Plates LXXXII (Sinai 345, 346),
+      LXXXIII (347 to 355), LXXXV and LXXXVI (maps) VIEWED as page images of the PDF. The plates are the editors' hand copies of the Fund expedition's copies, not photographs of the objects. Part II (1955, EXCMEM45) was downloaded as OCR and searched for 'proto-Sinait' and
+      'new alphabet': no useful hit; not read. (3) Albright, The Proto-Sinaitic Inscriptions and Their Decipherment (Harvard Theological Studies 22, 1966, second printing), Internet Archive PDF with text layer: chapters I and II read, Location lines of chapter III read, whole text searched for Yahweh/YHWH
+      (hits only in notes and references). (4) B. J. J. Haring (2019), Leiden repository PDF, pp. 53-60 read. (5) A. M. Wilson-Wright (2019), Bible and Interpretation PDF, section I and parts of II and III read. (6) A USC Dornsife PDF list of early alphabetic inscriptions and holders (Lundberg, 2023), read in full.
+      Files used were not stored in the repository; sha256 of the local copies is in sources/MANIFEST.yaml. Reading was done through extracted text (pdftotext and the Internet Archive OCR), so any OCR error is mine to carry; page images of the books themselves (other than the four plate pages) were not compared.
+  - id: L-03
+    date: 2026-10-14
+    entry: >
+      DISCREPANCIES FOUND IN THE SOURCES. (a) Season of the find: Gardiner and Peet 1917 say 'the winter of 1904-5'; Albright says 'early 1905'; Haring 2019 says 'winter campaign of 1905-1906'; Petrie's preface (printed May 1906, no preface date seen) says 'last winter'. The node gives the year 1905 only.
+      (b) Haring cites 'Gardiner and Peet 1952, pl. lxxxii' for Sinai 345; the Internet Archive item viewed is the 1917 Part I and its Plate LXXXII does show Sinai 345. A 1952 edition was not seen. (c) Albright's No. 347 is a 'sphinx head' in Brussels; the 1917 table lists 347 as 'Bust'.
+      (d) Albright calls Sinai 345 a 'female sphinx'; Petrie calls it a small sphinx and reads a Horus-name of Sneferu between the paws; Haring says the object is 'nowadays commonly dated to the late Middle Kingdom' and that Petrie's red-sandstone argument 'can be discarded'. These are noted, not resolved.
+  - id: L-04
+    date: 2026-10-14
+    entry: >
+      FUNDING AND CONTROL TRACED (only what a source opened here states). Petrie 1906 (preface, read): the cost of the main expedition 'was borne by the Egypt Exploration Fund', plus the expenses of three workers; two other workers were from private means. The book is 'a separate publication apart from the Fund' (published by John Murray, London).
+      Currelly's expedition was 'undertaken for the Egyptian Research Account'. Petrie also says the Fund had stopped providing for his researches. Gardiner and Peet 1917: published as an Egypt Exploration Fund Memoir; the work was 'entrusted by the Egypt Exploration Fund'. Albright 1966: Harvard University Press, Harvard Theological Studies; the note read thanks two research assistants and names no funder.
+      Haring 2019: Oxbow Books; volume editors Boyes and Steele; no funder in the pages read. Wilson-Wright 2019: author at Radboud University; posted on Bible and Interpretation (host domain University of Arizona). Lundberg list: USC Dornsife site (path 'wsrp-temp').
+      A search for the Egypt Exploration Fund (snippets only, no page opened) said it was founded in 1882, took subscriptions in England and America and sent Petrie out in 1883: this is a search snippet, not read from a source, and is NOT recorded as fact. UNRESEARCHED for every one: who funded the Fund's subscribers or sat on its committee in 1905; John Murray's ownership;
+      who funded Albright, Haring's volume, Bible and Interpretation and the USC listing; what each author stood to gain. Petrie's and Albright's stakes are visible in the text they wrote (Petrie links the finding to whether Israelites could write; Albright links it to Biblical tradition and the Exodus) and are recorded as such, not as findings about motive.
+  - id: L-05
+    date: 2026-10-14
+    entry: >
+      WHAT WAS BLOCKED OR NOT OPENED. BLOCKED: British Museum collection record EA 41748 (HTTP 403, not retried, not bypassed); PhilArchive record of Wilson-Wright 2016 on Sinai 357 (HTTP 403, same). READ ONLY AS A TOOL SUMMARY, not as page text: the National Geographic article by Candida Moss, 7 August 2025
+      (the fetch tool returned a model-written summary; its Bar-Ron, Schneider and Feldman statements are NOT verified against the page and are recorded with that label). NOT OPENED, only named in sources read: Gardiner 1916 (JEA 3), Eisler 1919, Butin 1928, 1932 and 1936, Albright 1948, Sass 1988 and 2004-5, Hamilton 2006, Darnell et al. 2005, Goldwasser's papers,
+      Briquel-Chatonnet 1998, Holmstedt 2019, Petrovich 2016, LeBlanc 2017, Krahmalkov 2017 and Bar-Ron's paper; the Wadi el-Hol texts. NOT FOUND: any open photograph, squeeze or high-resolution image of the alphabetic inscriptions (a search returned only snippets about the British Library's 1868-69 photographs of hieroglyphic stelae, a Tel Aviv University photograph archive and a 1930 Harvard expedition report; none opened).
+      NOT CHECKED: InscriptiFact, the Cairo, Brussels and Harvard museum registers, the Egypt Exploration Society's archive. The Wikipedia pages that came up in searches were not opened and are never anchors. No image from any source is stored here; the 1917 plates are cited by URL only (licence of the Internet Archive item not stated).
+  - id: L-06
+    date: 2026-10-14
+    entry: >
+      WHERE THE FACTS END (best of current knowledge, from the sources read). That a small body of short texts in an early alphabetic script exists at Serabit el-Khadim, that they sit beside Egyptian inscriptions of the Hathor temple and mines, and that one reading ("the Lady", paired with Hathor) is widely accepted, are reported by all the later sources read, none of whom is the object.
+      Open and held open as contested claims with named positions: the date (Middle Kingdom to about 1300 BCE), who made them (Semitic-speaking workers or officials, elite, Hyksos captives, Syrians, Israelites), whether the corpus is deciphered, whether Serabit or Wadi el-Hol is earlier, and the Moses reading of 357 and 361. Not found: any source read that shows Yahweh in the inscriptions
+      (filed as a searched gap, not as absence from the corpus). Not testable by the method: 'remembered their god'. What would settle the main questions: independent transliteration of the signs from photographs or squeezes; a stratified or dated context for the texts; a corpus edition.
+  - id: L-07
+    date: 2026-10-14
+    entry: >
+      PROCESS NOTES. Weights follow the owner's rules: every claim rests on books or translations only, so none is above weight 2, none is established, anchor_checked is secondary or no, confidence low. A claim that says the signs are unread (sk-claim-primary-signs-unread) is a searched gap with absence_anchor true.
+      I looked at Plates LXXXII and LXXXIII but did not read the signs, so no claim carries anchor_checked primary. This log was written by the dig agent; it is not a review.

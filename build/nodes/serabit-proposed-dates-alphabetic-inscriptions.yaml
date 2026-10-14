@@ -1,0 +1,49 @@
+# Shared node. Append-only: a change is a new `rev` plus a `history` entry, never an overwrite. See build/SCHEMA.md, Nodes.
+id: serabit-proposed-dates-alphabetic-inscriptions
+rev: 1
+type: event
+label: 'Serabit el-Khadim alphabetic inscriptions: proposed dates range from the Egyptian Middle Kingdom (about 1830 BCE) to about 1300 BCE; no single date is established'
+time: -1831-01-01T00:00:00Z
+end: -1300-12-31T00:00:00Z
+precision: range
+date_basis: inferred
+kind: analysis
+status: disputed
+what: >-
+  This node records a spread of proposals, not a date. As reported by Haring (2019) and Wilson-Wright (2019), both read:
+  Wilson-Wright 1831 to 1777 BCE (reigns of Amenemhat III and IV; also Darnell and others); Hamilton c. 1850 to 1500 BCE
+  in stages; Briquel-Chatonnet the Second Intermediate Period (c. 1650 to 1550); Albright c. 1550 to 1450 BCE (1966, read);
+  Petrie about 1500 BCE (1906, read); Sass about 1300 BCE in his later work. The bar is the full span of those proposals; the
+  start of the bar is the earliest of them and is not a best estimate. The `time` field is that earliest proposal only because
+  a node needs one.
+window:
+  earliest: -1850-01-01
+  latest: -1300-12-31
+  begin_note: 'Earliest start proposed in the sources read: Hamilton c. 1850 BCE (as reported by Haring 2019); Wilson-Wright 1831 BCE.'
+  end_note: 'Latest end proposed in the sources read: Sass about 1300 BCE (as reported by Haring 2019, citing Sass 2004-5, 157); Hamilton assigns one text c. 1250 BCE to the later corpus.'
+sources:
+- title: 'B. J. J. Haring, "Ancient Egypt and the earliest known stages of alphabetic writing" (Oxbow, 2019), pp. 56-58, "Dating the Proto-Sinaitic script"'
+  url: https://hdl.handle.net/1887/3295773
+  authenticity: published chapter, text read (see the dig's manifest)
+  origin: haring-2019
+  source_type: scholarly
+  access: read
+- title: 'A. M. Wilson-Wright, "On the Origin of Alphabetic Writing" (Bible and Interpretation, November 2019), section I'
+  url: https://bibleinterp.arizona.edu/sites/bibleinterp.arizona.edu/files/images/On%20the%20Origin%20of%20Alphabetic%20Writing.pdf
+  authenticity: published article, text read (see the dig's manifest)
+  origin: wilson-wright-2019
+  source_type: scholarly
+  access: read
+- title: 'W. F. Albright, The Proto-Sinaitic Inscriptions and Their Decipherment (Harvard Theological Studies 22, 1966), pp. 6-7'
+  url: https://archive.org/details/AlbrightTheProtoSinaiticInscriptionsAndTheirDecipherment1969
+  authenticity: copy uploaded by a third party; in copyright; read, not stored (see the dig's manifest)
+  origin: albright-1966
+  source_type: scholarly
+  access: read
+manifest: {subject: serabit-el-khadim-inscriptions, source: src-haring-2019}
+related: []
+created: '2026-10-14'
+history:
+- rev: 1
+  date: '2026-10-14'
+  change: Created by the serabit-el-khadim-inscriptions dig to hold the spread of proposed dates without choosing one.

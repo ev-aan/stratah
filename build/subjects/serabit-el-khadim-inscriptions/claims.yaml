@@ -1,0 +1,480 @@
+subject: serabit-el-khadim-inscriptions
+title: "The Serabit el-Khadim inscriptions (Proto-Sinaitic): what they are, when, who made them, and whether Yahweh is in them"
+question: "What do the Serabit el-Khadim inscriptions say, when were they made, and does the name Yahweh appear in them?"
+dig_status: open
+headline_status: draft
+search_summary: >-
+  The Serabit el-Khadim inscriptions are a few dozen short texts in an early alphabetic script, found at an Egyptian turquoise-mining
+  site in Sinai from 1905 on, on small temple objects, rock panels at mines and cairn slabs. A specialist review (Haring 2019) says
+  they are largely undeciphered and their dates controversial; proposed dates run from about 1830 BCE to about 1300 BCE. The readings
+  that most scholars accept in the sources read name a goddess "the Lady" (Baalat), not Yahweh. No source read here shows Yahweh in them.
+  No photograph, squeeze or object was seen; only the editors' hand-copy plates.
+description: >-
+  First dig. Read: Petrie 1906, Gardiner and Peet 1917 (text and two hand-copy plates, viewed), Albright 1966, Haring 2019 and Wilson-Wright 2019.
+  Not read or blocked: the British Museum record (HTTP 403), Wilson-Wright 2016 on Sinai 357 (HTTP 403), Gardiner 1916, Sass 1988, Hamilton 2006,
+  Darnell et al. 2005, Petrovich 2016, and Bar-Ron's paper. The National Geographic article was seen only as a tool-written summary.
+  One speaker sentence (dh-KNhzmEKodZg-22) is split into five claims and weighed. The video is never an anchor.
+divergence_note: >-
+  The speaker sentence is "The earliest written example was scratched on the walls of cave mines by slaves who remembered their god Yahweh." (dh-KNhzmEKodZg-22).
+  The sources read say something narrower and more divided. Some texts are cut on rock panels at the entrances of mines and a few on mine walls, but others are on small
+  objects from the Hathor temple. Who made them is open: Petrie, in 1906, calls the makers probably Aamu or Retennu "Syrians" working for the Egyptians and
+  suggests the writing bears on whether Israelites could write; Albright, in 1966, calls them Hyksos-era Semites and speaks of captives made to mine; Wilson-Wright, in 2019, says
+  lower-ranking Semitic-speaking members of Egyptian expeditions, with texts naming a "miner" and a "chief of miners". Nobody read here calls them slaves in the texts, and the word "remembered" has
+  nothing in any source to attach to. The divine names scholars read are El and Baalat ("the Lady", paired with the Egyptian goddess Hathor). Yahweh is not found
+  in the sources read, but those cover only a part of the literature, so that is a search result, not a finding about the corpus. The gap between the speaker's wording and the sources, and the gap between
+  scholars on the date and the readers' decipherments, is the product here. What the signs themselves show remains unread by this dig.
+
+claims:
+
+  # ------------------------- THE SPEAKER SENTENCE, SPLIT INTO ITS PARTS -------------------------
+
+  - id: sk-sp-earliest-written-example
+    state: contested
+    statement: >-
+      "The earliest written example" (dh-KNhzmEKodZg-22; part 1 of 5 of the sentence "The earliest written example was scratched on the walls of cave mines by slaves who remembered their god Yahweh.")
+    statement_kind: judgment
+    evidence_class: interpretive
+    confidence: low
+    evidential_weight: 1
+    anchor_checked: secondary
+    adoption_weight: 3
+    adoption_note: "Dead Hidden; the phrase does not say earliest of what (writing, alphabet or a script). A popular framing of these inscriptions as the first alphabet is common; no count of adopters was made."
+    would_change_if: >-
+      the speaker's meaning is read from the transcript and a defined object (for example earliest alphabetic text) is tested; the Wadi el-Hol texts or another find are securely dated before the Serabit texts; or a dating method fixes the Serabit texts with an independent date
+    disputed_by:
+      - who: "Darnell et al. 2005, as reported by Haring 2019"
+        kind: work
+        position: "The two Wadi el-Hol texts 'would be among the earliest (if not the earliest) specimen of alphabetic writing discovered to date', placing them on a par with or before the Serabit texts."
+        source_read: "Haring 2019, p. 57 (quotation of Darnell et al. 2005, 90); Darnell et al. not read"
+        via: "Haring 2019"
+      - who: "Haring 2019"
+        kind: work
+        position: "'the earliest evidence for alphabetic writing remains a topic shrouded in mystery and controversy'; the date of both the Sinai and Wadi el-Hol texts is controversial."
+        source_read: "Haring 2019, p. 53"
+        via: "direct"
+    anchor:
+      type: interpretive
+      description: >-
+        Haring 2019 pp. 53, 56-58 and Wilson-Wright 2019 section I, read as text. Both say the Serabit and Wadi el-Hol texts are the earliest known alphabetic inscriptions in their
+        framing, but give different date ranges for them and say the question is open. Egyptian hieroglyphic writing and Mesopotamian cuneiform are far older; the speaker's phrase may mean earliest alphabetic, which is not stated.
+      sources: [src-haring-2019, src-wilson-wright-2019, src-dh-claims]
+      nodes:
+        - {node: serabit-proposed-dates-alphabetic-inscriptions, verb: qualifies}
+    basis: >-
+      # V: Haring 2019 and Wilson-Wright 2019 read in extracted text, 2026-10-14. Both are the authors' claims, not data.
+      The wording "earliest written example" is kept as the speaker's. What it means is not read. Not filed as refuted or established: the earliest-alphabet question is itself open in the sources read.
+
+  - id: sk-sp-scratched-on-walls-of-cave-mines
+    state: proposed
+    statement: >-
+      "was scratched on the walls of cave mines" (dh-KNhzmEKodZg-22; part 2 of 5)
+    statement_kind: reported
+    evidence_class: interpretive
+    confidence: low
+    evidential_weight: 2
+    anchor_checked: secondary
+    adoption_weight: 3
+    adoption_note: "Dead Hidden. The picture of scratches in mine caves is in popular accounts; not counted."
+    would_change_if: >-
+      photographs, squeezes or the objects show the texts' tool marks and findspots differ from what the catalogues say, or the speaker's own basis shows which texts were meant
+    anchor:
+      type: interpretive
+      description: >-
+        Read: Petrie 1906 pp. 129-131 (texts carved "over the mine at L", about eight tablets "roughly cut", also on figures and a sphinx in the Hathor temple); Albright 1966 chapter III
+        (a "Location:" line for each text: for example No. 357 "carved on rock wall", "Mine L (in situ)", No. 358 "Inside Mine M (in situ)", Nos. 349 to 356 steliform rock panels at or near the entrance to Mine L,
+        Nos. 374 and 375 "in debris inside Mine M", Nos. 345 to 347 "Hathor temple", Nos. 360 to 367 on cairns or in a camp); Gardiner and Peet 1917 table V (Sinai 345 and 346 with "Temple" provenance, 349 onward "Mine L" by ditto marks,
+        which are hard to read in the OCR).
+      sources: [src-petrie-1906, src-albright-1966, src-gardiner-peet-1917]
+      nodes:
+        - {node: serabit-1905-petrie-finds-foreign-inscriptions, verb: qualifies}
+    basis: >-
+      # V: Petrie pp. 129-131 and Albright's Location lines read, 2026-10-14. These are the finders' and a later scholar's words, not the objects.
+      Several texts are at or in mines; some are cut or carved rather than scratched; others are on temple objects or cairn slabs. "Walls of cave mines" fits two texts in situ (357 and 358) and
+      the mine-entrance panels loosely. It does not fit the temple objects (345, 346, 347). Whether the mines are caves is not read.
+
+  - id: sk-sp-by-slaves
+    state: contested
+    statement: >-
+      "by slaves" (dh-KNhzmEKodZg-22; part 3 of 5)
+    statement_kind: judgment
+    evidence_class: interpretive
+    confidence: low
+    evidential_weight: 1
+    anchor_checked: secondary
+    adoption_weight: 3
+    adoption_note: "Dead Hidden. Compare the older view of enslaved Hebrews; not counted here."
+    would_change_if: >-
+      an Egyptian or Semitic text from the site calls the writers captives or slaves; a legal or administrative record of the labour at Serabit is read; Albright's "state slaves" step is checked against texts Nos. 350, 352, 356 and 374; or the transcript shows what the speaker means by slaves
+    disputed_by:
+      - who: "W. F. Albright (1966)"
+        kind: person
+        position: "The miners belonged to 'the recently conquered Hyksos elements of the population'; 'the Semitic miners can scarcely have been sent to Nubia as state slaves before' the occupation of Wawat; Texts 350, 352, 356 and 374 'clearly or probably allude to the sufferings of the miners'; 'Captured Hyksos prisoners may well have been forced to work in the mines'."
+        source_read: "Albright 1966, chapters I and II, read"
+        via: "direct"
+      - who: "A. M. Wilson-Wright (2019)"
+        kind: person
+        position: "Writers were members of the entourage of an Egyptian expedition: 'several texts identify their author as either a miner (nqb in Sinai 350) or a chief of miners (rb nqbn in Sinai 346 and 349)'; a 'chief of miners' oversaw nine other workers; they were of the 'bottom of the socio-economic order' but not called slaves."
+        source_read: "Wilson-Wright 2019, section II, read"
+        via: "direct"
+      - who: "O. Goldwasser and C. Rollston (as reported by Haring 2019)"
+        kind: person
+        position: "Goldwasser: the inventors were 'the illiterate workers in the Sinai turquoise mines'; Rollston: the Canaanite elite. Neither is described as arguing the writers were slaves."
+        source_read: "Haring 2019, p. 56 (report only); Goldwasser and Rollston not read"
+        via: "Haring 2019"
+      - who: "W. M. F. Petrie (1906)"
+        kind: person
+        position: "'Common Syrian workmen' of the Egyptians, 'probably the Aamu or Retennu - Syrians'; he does not call them slaves. He draws the inference that the writing 'finally disproves the hypothesis that the Israelites ... could not have used writing'."
+        source_read: "Petrie 1906, pp. 131-132, read"
+        via: "direct"
+    anchor:
+      type: interpretive
+      description: >-
+        Read: Albright 1966 chapters I and II; Wilson-Wright 2019 section II; Haring 2019 pp. 56-57; Petrie 1906 pp. 131-132. All four are interpretations. Slavery is Albright's inference for part of the labour,
+        with Hyksos captives as the proposed group; the other three do not use it. The inscriptions are not read here for any term meaning slave.
+      sources: [src-albright-1966, src-wilson-wright-2019, src-haring-2019, src-petrie-1906]
+    basis: >-
+      # V: the four passages read, 2026-10-14. Not filed as refuted: Albright's view is that part of the labour was forced.
+      The speaker's "slaves" and Albright's "state slaves ... captured Hyksos" are close but Albright's date and group differ from what the speaker goes on to say (Yahweh). Each scholar named is held to the same bar: all are interpretations.
+
+  - id: sk-sp-who-remembered-their-god
+    state: searched_gap
+    statement: >-
+      "who remembered their god" (dh-KNhzmEKodZg-22; part 4 of 5)
+    statement_kind: search_result
+    evidence_class: interpretive
+    confidence: low
+    evidential_weight: 1
+    anchor_checked: 'no'
+    adoption_weight: 2
+    adoption_note: "Dead Hidden only, as far as seen."
+    would_change_if: >-
+      a text read from the site shows an appeal to an ancestral god or to a god of the writers' own people, with a source that dates and reads it
+    gap_type: structural
+    gap_reason: >-
+      Remembering is a mental state. No inscription, translation or commentary can show what a writer remembered. At most a text could show a god the writers invoked and a scholar's
+      argument about its origin, which is a different claim (see sk-sp-god-yahweh).
+    anchor:
+      type: search-record
+      description: >-
+        Searched: the five sources read (Petrie 1906, Gardiner and Peet 1917, Albright 1966, Haring 2019, Wilson-Wright 2019). None uses the idea of remembering a god. Albright 1966 reads El and Baalat as invoked
+        and ties them to patriarchal religion (chapter II, citing F. M. Cross); that is his claim, not something the writers are shown to have remembered.
+      sources: [src-albright-1966, src-haring-2019, src-wilson-wright-2019, src-petrie-1906]
+    absence_anchor: true
+    basis: "Not testable by the method. Kept as a gap so the speaker's wording is not dropped."
+
+  - id: sk-sp-god-yahweh
+    state: searched_gap
+    statement: >-
+      "Yahweh" (dh-KNhzmEKodZg-22; part 5 of 5, the god named in "their god Yahweh")
+    statement_kind: search_result
+    evidence_class: interpretive
+    confidence: low
+    evidential_weight: 1
+    anchor_checked: 'no'
+    adoption_weight: 3
+    adoption_note: "Dead Hidden; popular accounts link the Sinai texts to Moses or Israel. Not counted."
+    would_change_if: >-
+      a specialist's transliteration of an inscription, checked against a photograph or squeeze, shows a name read as Yahweh (YHWH) with the argument for the reading; the unread sources listed in next_step show one; or the speaker's own basis names a text
+    next_step: >-
+      Open Albright 1948 (BASOR 110), Butin 1928 and 1932, Sass 1988, Hamilton 2006, Petrovich 2016 (reported by Wilson-Wright 2019 as arguing the Israelites invented the alphabet), Krahmalkov 2017, Bar-Ron's paper and Wilson-Wright 2016 (Sinai 357),
+      and search each divine name read for Yahweh or YHWH; then look at Sinai 345 to 375 in InscriptiFact or museum images.
+    anchor:
+      type: search-record
+      description: >-
+        Searched for Yahweh, YHWH and Jehovah in the text of Petrie 1906 (no hit in the whole OCR) and in Albright 1966 (hits only in his footnotes and references to Cross's article on Yahweh and the God of the Patriarchs, and on an
+        Old Testament verse; none as a name he reads in a Sinai text). Read Albright's divine names: El, Baalat (Hathor), Dhu ginti and others. Wilson-Wright 2019 and Haring 2019 read Baalat and a Semitic
+        language, and say nothing of Yahweh. The National Geographic summary (not the page) says it does not mention Yahweh, and mentions El and Baalat. Searched the extracted text of Haring 2019 and Wilson-Wright 2019 for Yahweh, YHWH and Yahu: no hit (only parts of each were read in full). Not searched: Gardiner and Peet 1917 Part I or Part II for these names, and none of the unread works.
+      sources: [src-petrie-1906, src-albright-1966, src-haring-2019, src-wilson-wright-2019, src-natgeo-moss-2025, src-petrovich-2016]
+    absence_anchor: true
+    basis: >-
+      # V: keyword searches run over the extracted text of Petrie 1906 and Albright 1966, 2026-10-14. Absence in a few secondary sources is not absence in the corpus (Haring: the texts are 'largely undeciphered').
+      Filed as a gap, not as "not there". The reading of Yahweh would need the signs, which were not read.
+
+  # ------------------------- THE OBJECTS AND WHAT THE SOURCES SAY ABOUT THEM -------------------------
+
+  - id: sk-claim-found-1905
+    state: proposed
+    statement: >-
+      Inscriptions in a script unknown at the time were found at Serabit el-Khadim by Petrie's Sinai expedition in 1905 (the season is reported differently), on objects in the Hathor temple and on rock tablets near the mine marked L.
+    statement_kind: reported
+    evidence_class: interpretive
+    confidence: low
+    evidential_weight: 2
+    anchor_checked: secondary
+    adoption_weight: 4
+    adoption_note: "Standard in every account seen."
+    would_change_if: "Petrie's field notes, the Egypt Exploration Fund records or the Cairo and British Museum registers give a different date or findspot"
+    anchor:
+      type: interpretive
+      description: >-
+        Petrie 1906 pp. 129-131 ("inscriptions in unknown characters", about eight tablets near mine L); Gardiner and Peet 1917 introduction ("eleven monuments exhibiting the new script", the expedition of "the winter of 1904-5");
+        Albright 1966 ("early 1905", "eleven inscriptions"). Haring 2019 says "winter campaign of 1905-1906". The season disagrees; the year 1905 is common to the sources read except Haring.
+      sources: [src-petrie-1906, src-gardiner-peet-1917, src-albright-1966, src-haring-2019]
+      nodes:
+        - {node: serabit-1905-petrie-finds-foreign-inscriptions, verb: supports}
+    basis: >-
+      # V: read 2026-10-14. All four rest in the end on the Fund expedition's own account. Not independent witnesses.
+
+  - id: sk-claim-sphinx-345-two-scripts
+    state: proposed
+    statement: >-
+      The small sandstone sphinx Sinai 345 carries lines in Egyptian hieroglyphs and lines in the new linear signs; the hieroglyphic line is a dedication to Hathor, "Mistress of Turquoise" (Petrie) or "beloved of Hathor, [Lady] of Turquoise" (Wilson-Wright 2019), and a linear line is read by Wilson-Wright and Haring as a Semitic equivalent, m'hb'lt "beloved of the Lady".
+    statement_kind: reported
+    evidence_class: interpretive
+    confidence: low
+    evidential_weight: 2
+    anchor_checked: secondary
+    adoption_weight: 4
+    adoption_note: "Widely repeated; the equivalence is the basis for reading the corpus as Semitic."
+    would_change_if: >-
+      a photograph or the object shows the signs differ from the hand-copy plate (Haring notes one discrepancy), or the Hathor line and the linear line are not read as equivalents by an independent reader
+    anchor:
+      type: interpretive
+      description: >-
+        Viewed: Gardiner and Peet 1917 Plate LXXXII (hand copy of Sinai 345: a square on the shoulder with a bird sign and hieroglyphs, a small panel between the paws, linear signs on the right and left sides) next to 346. Read: Petrie 1906 p. 129
+        (dedication to Hathor "in ordinary Egyptian hieroglyphs"), Haring 2019 pp. 54-56, Wilson-Wright 2019 pp. 2-3. I looked at the plate and can describe the layout; I cannot read the signs and did not test the readings.
+      sources: [src-petrie-1906, src-gardiner-peet-1917, src-gardiner-peet-1917-plates, src-haring-2019, src-wilson-wright-2019]
+      nodes:
+        - {node: object-serabit-sinai-345-sphinx, verb: supports}
+    basis: >-
+      # V: Plate LXXXII viewed as an image and the three texts read, 2026-10-14. The plate is the editors' hand copy; Haring says it differs from the object in one sign.
+      Not primary: no photograph or object seen, and the reading is the authors' claim.
+
+  - id: sk-claim-baalat-reading
+    state: proposed
+    statement: >-
+      The most widely accepted reading in the sources read is a short string b-'-l-t, read as Semitic "lady" (Baalat), identified with the goddess Hathor of the Egyptian inscriptions; it occurs in several of the inscriptions, and the same sources do not read Yahweh.
+    statement_kind: reported
+    evidence_class: interpretive
+    confidence: low
+    evidential_weight: 2
+    anchor_checked: secondary
+    adoption_weight: 4
+    adoption_note: "The standard reading since Gardiner 1916 and Eisler 1919 in the sources read."
+    would_change_if: "an independent reading of the signs on a photograph or squeeze reads the group differently; or Gardiner 1916, Eisler 1919 and Hamilton 2006 are read and the sign values differ from what Haring reports"
+    alternatives:
+      - text: "Holmstedt (2019), as described by Wilson-Wright, says the Lady is the Lady of Byblos."
+        why_not_preferred: "Wilson-Wright answers that the Semitic title 'the Lady' is a translation and abbreviation of the Egyptian title for Hathor and does not necessarily identify her with a Semitic goddess. Holmstedt's article was not read."
+    anchor:
+      type: interpretive
+      description: >-
+        Read: Haring 2019 pp. 54-56 ("The most convincing of these clusters is the string b-'-l-t ... Gardiner suggested that it should be read as Semitic b'lt 'lady'", "no consensus on the interpretation ... apart from a few clusters of signs");
+        Wilson-Wright 2019 pp. 2-3 and 6-7; Albright 1966 chapter I and II ("Hathor = Ba'lat"). Gardiner 1916 and Eisler 1919 not read.
+      sources: [src-haring-2019, src-wilson-wright-2019, src-albright-1966]
+      nodes:
+        - {node: object-serabit-sinai-345-sphinx, verb: supports}
+    basis: >-
+      # V: the passages read, 2026-10-14. Haring says even the number of signs is unclear and the corpus largely undeciphered: the string is a cluster, not a decipherment of the whole.
+
+  - id: sk-claim-decipherment-status
+    state: contested
+    statement: >-
+      Whether the Serabit inscriptions are deciphered: one scholar (Albright, 1966) published a full decipherment and translations; a specialist review (Haring, 2019) says they have "largely remained undeciphered" and that there is no consensus beyond a few clusters of signs.
+    statement_kind: judgment
+    evidence_class: interpretive
+    confidence: low
+    evidential_weight: 1
+    anchor_checked: secondary
+    adoption_weight: 3
+    adoption_note: "Albright's readings are widely cited but, per a search summary not opened, have not won wide acceptance; not counted."
+    would_change_if: "an independent decipherment is tested on a photograph and squeeze against a control, or a corpus edition with a consensus reading appears"
+    disputed_by:
+      - who: "W. F. Albright"
+        kind: person
+        position: "A decipherment into a Northwest Semitic dialect with El, Baalat, sacrificial terms and prayers by miners; Chapter III gives texts and translations of Nos. 345-375 and others."
+        source_read: "Albright 1966, chapters I-V (parts), read"
+        via: "direct"
+      - who: "B. J. J. Haring"
+        kind: person
+        position: "'the Proto-Sinaitic inscriptions have largely remained undeciphered, the Wadi el-Hol texts entirely so'; 'there is no consensus on the interpretation of the Sinai inscriptions apart from a few clusters of signs'."
+        source_read: "Haring 2019, pp. 53 and 54, read"
+        via: "direct"
+    anchor:
+      type: interpretive
+      description: "Albright 1966 (the decipherment) and Haring 2019 (the review) read as text. Two authors' claims, neither the signs."
+      sources: [src-albright-1966, src-haring-2019]
+    basis: >-
+      # V: read 2026-10-14. Both are claims on the same footing. The decipherment was not tested here. Wilson-Wright 2019 says the inscriptions can be read in part as Semitic and cites Albright for words such as nqb 'mine, miner' and rb nqbm 'chief of miners', which suggests a partial acceptance; not tested.
+
+  - id: sk-claim-date-range
+    state: contested
+    statement: >-
+      The date of the Serabit alphabetic inscriptions is disputed in the sources read, from the Egyptian Middle Kingdom (about 1830 to 1777 BCE) to about 1300 BCE; no single date is established here.
+    statement_kind: judgment
+    evidence_class: interpretive
+    confidence: low
+    evidential_weight: 2
+    anchor_checked: secondary
+    adoption_weight: 3
+    adoption_note: "A Middle Kingdom date is the one most often given in the recent sources read (Haring: 'many Egyptologists and some Semitists'). Adoption is not evidence."
+    would_change_if: >-
+      a stratified, dated find (pottery, radiocarbon on associated organic material or a dated inscription in the same context) ties a text to a period; the unread works (Sass 1988, Hamilton 2006, Darnell et al. 2005) show the palaeographic or contextual arguments fail; or the sphinx's date is fixed by art-historical or museum analysis
+    disputed_by:
+      - who: "A. M. Wilson-Wright (2019), following Sass 1988, Darnell et al. 2005 and Goldwasser"
+        kind: person
+        position: "'they most likely date to the reigns of Pharaohs Amenemhat III and Amenemhat IV (1831-1777 BCE)'."
+        source_read: "Wilson-Wright 2019, p. 2 and p. 4, read"
+        via: "direct"
+      - who: "W. M. F. Petrie (1906)"
+        kind: person
+        position: "'we are bound to accept this writing as being of about 1500 b.c'; reasons: buff pottery with red and black stripe at mine L, the red sandstone sphinx, the veneration of Sneferu."
+        source_read: "Petrie 1906, p. 131, read"
+        via: "direct"
+      - who: "W. F. Albright (1966)"
+        kind: person
+        position: "'we may tentatively date them between ca. 1550 and 1450 B.C.-probably between ca. 1525 and ca. 1475', on palaeography and on the formulation of the texts and the reference to the 'mines of Wawat'."
+        source_read: "Albright 1966, pp. 6-12, read"
+        via: "direct"
+      - who: "B. Sass (as reported by Haring 2019)"
+        kind: person
+        position: "In his 1988 book still favoured the Twelfth Dynasty; later (2004-5) 'suggested a date around 1300 BCE'."
+        source_read: "Haring 2019, p. 58, read; Sass not read"
+        via: "Haring 2019"
+      - who: "G. J. Hamilton (as reported by Haring 2019)"
+        kind: person
+        position: "A development between c. 1850 and 1500 BCE, with an early group c. 1850-1700 and a later group c. 1700-1500, and one text c. 1250 BCE."
+        source_read: "Haring 2019, p. 58, read; Hamilton not read"
+        via: "Haring 2019"
+      - who: "F. Briquel-Chatonnet (as reported by Haring 2019)"
+        kind: person
+        position: "The Second Intermediate Period (c. 1650-1550 BCE), because over half the texts are near Mine L, where she says there is no sign of Egyptian presence."
+        source_read: "Haring 2019, p. 58, read; Briquel-Chatonnet not read"
+        via: "Haring 2019"
+    anchor:
+      type: interpretive
+      description: >-
+        Read: Petrie 1906 p. 131; Albright 1966 pp. 6-12 (palaeographic argument, 'Lachish prism', Wawat); Haring 2019 pp. 56-59 (the full spread of proposals and the statement that Petrie's sphinx argument 'can be discarded - ... the sphinx is nowadays commonly dated to the late Middle Kingdom');
+        Wilson-Wright 2019 pp. 2-4 (and the account of Leibovitch's redating to the New Kingdom, 1963). Gardiner and Peet 1917 table V dates Sinai 345 "Middle Kingdom ?" (the query is theirs). None of the dating works was opened.
+      sources: [src-petrie-1906, src-albright-1966, src-haring-2019, src-wilson-wright-2019, src-gardiner-peet-1917]
+      nodes:
+        - {node: serabit-proposed-dates-alphabetic-inscriptions, verb: qualifies}
+    basis: >-
+      # V: all passages read 2026-10-14. These are the authors' arguments; the dating evidence (pottery context, palaeography) was not seen. Each side is held to the same bar: interpretive claims at weight 2. The range covers every proposal found; none is preferred here.
+
+  - id: sk-claim-writers-identity
+    state: contested
+    statement: >-
+      Who made the inscriptions is not settled in the sources read: proposals include Semitic-speaking workers or minor officials in Egyptian expeditions (Wilson-Wright, Goldwasser), Canaanite elite (Rollston), Hyksos-era Semitic captives (Albright), Syrian labourers (Petrie), and Israelites (Petrovich and LeBlanc, as described by Wilson-Wright).
+    statement_kind: judgment
+    evidence_class: interpretive
+    confidence: low
+    evidential_weight: 1
+    anchor_checked: secondary
+    adoption_weight: 3
+    adoption_note: "A Semitic-speaking group in Egyptian service is the common position in the recent sources read; the Israelite and Moses readings are minority positions per those sources. Adoption is not evidence."
+    would_change_if: >-
+      a text names an author with an ethnic or social label that is read and tested; or an excavation shows the living and working conditions and material culture of the writers; or the unread proponents' arguments (Petrovich 2016, LeBlanc 2017) are read and tested on the signs
+    disputed_by:
+      - who: "W. M. F. Petrie (1906)"
+        kind: person
+        position: "'common Syrian workmen' and 'probably the Aamu or Retennu - Syrians'; the finding 'disproves the hypothesis that the Israelites ... could not have used writing'."
+        source_read: "Petrie 1906, pp. 131-132, read"
+        via: "direct"
+      - who: "W. F. Albright (1966)"
+        kind: person
+        position: "'the recently conquered Hyksos elements of the population'; the texts bear indirectly on Biblical tradition."
+        source_read: "Albright 1966, pp. 12-15, read"
+        via: "direct"
+      - who: "A. M. Wilson-Wright (2019)"
+        kind: person
+        position: "Upper-class Semitic-speakers like Habidadum could pay for hieroglyphs; the men under his command, as 'Asiatics' and 'men of Retjenu', 'opted for cheaper, DIY-alphabetic inscriptions'."
+        source_read: "Wilson-Wright 2019, p. 6, read"
+        via: "direct"
+      - who: "O. Goldwasser and C. Rollston (as reported by Haring 2019)"
+        kind: person
+        position: "Goldwasser: the illiterate mine workers; Rollston: the Canaanite elite."
+        source_read: "Haring 2019, p. 56, read; neither author read"
+        via: "Haring 2019"
+      - who: "D. Petrovich and P. LeBlanc (as described by Wilson-Wright 2019)"
+        kind: person
+        position: "'the ancient Israelites invented the alphabet during their sojourn in Egypt'."
+        source_read: "Wilson-Wright 2019, p. 1, read; Petrovich and LeBlanc not read"
+        via: "Wilson-Wright 2019"
+    anchor:
+      type: interpretive
+      description: "Petrie 1906 pp. 131-132, Albright 1966 pp. 12-15, Haring 2019 p. 56 and Wilson-Wright 2019 pp. 1 and 6, all read as text. Authors' arguments, not objects."
+      sources: [src-petrie-1906, src-albright-1966, src-haring-2019, src-wilson-wright-2019]
+    basis: >-
+      # V: read 2026-10-14. Each named position is listed without preferring one. The Petrovich and LeBlanc position is known only through Wilson-Wright, who reviews Petrovich critically; his reply and the book were not read.
+
+  - id: sk-claim-bar-ron-moses
+    state: contested
+    statement: >-
+      A 2025 reading by M. S. Bar-Ron takes Sinai 357 and 361 as "zot mi'Moshe" ("This is Moses") and "ne'um Moshe" ("A saying of Moses") and proposes that Moses may have written them; as reported in a National Geographic article through a tool-written summary.
+    statement_kind: reported
+    evidence_class: interpretive
+    confidence: low
+    evidential_weight: 1
+    anchor_checked: 'no'
+    adoption_weight: 2
+    adoption_note: "News coverage in 2025; reaction by named scholars was critical in the summary; not counted."
+    would_change_if: "Bar-Ron's paper is opened and its sign identifications are tested on photographs against an independent reading; or a peer-reviewed assessment is read"
+    disputed_by:
+      - who: "Thomas Schneider (Egyptologist, University of British Columbia)"
+        kind: person
+        position: "Called the interpretation 'completely unproven and misleading' (as given in the tool summary of the National Geographic article, which attributes it via The Daily Mail)."
+        source_read: "NOT read in the page itself; tool summary only"
+        via: "src-natgeo-moss-2025 (summary)"
+      - who: "Liane Feldman (Princeton)"
+        kind: person
+        position: "Moses may be an Egyptian name and so common in Egyptian mining inscriptions; even if the readings are right they do not necessarily point to the biblical Moses (summary)."
+        source_read: "NOT read in the page itself; tool summary only"
+        via: "src-natgeo-moss-2025 (summary)"
+      - who: "A. M. Wilson-Wright (2016, JAOS)"
+        kind: work
+        position: "Reads Sinai 357 as a votive inscription to the deity Tessob (title only, from a search result; the record was blocked, HTTP 403)."
+        source_read: "NOT read: PhilArchive record blocked"
+        via: "search-result title"
+    anchor:
+      type: search-record
+      description: >-
+        Searched: the National Geographic article (read only through a tool that returned a summary, not the page text), Bar-Ron's paper (not located), Wilson-Wright 2016 (blocked HTTP 403). No reading of the signs was possible here.
+      sources: [src-natgeo-moss-2025, src-philarchive-sinai-357]
+    basis: >-
+      Reported, not read. Listed so the Moses reading is on record beside the Yahweh claim; it is a different claim and is not the speaker's. The summary says the article does not mention Yahweh.
+
+  - id: sk-claim-holders
+    state: proposed
+    statement: >-
+      The sphinx Sinai 345 is in the British Museum as EA 41748; most other texts of the Petrie and later finds are in the Cairo Museum; Sinai 347 is in Brussels and a few fragments are at the Harvard Semitic Museum; Sinai 357 and 358 are cut in the rock at Mines L and M.
+    statement_kind: reported
+    evidence_class: interpretive
+    confidence: low
+    evidential_weight: 2
+    anchor_checked: secondary
+    adoption_weight: 2
+    adoption_note: "Catalogue information; no controversy seen."
+    would_change_if: "the museum registers (British Museum, Cairo, Brussels, Harvard Semitic Museum) are read and give different holders or numbers"
+    anchor:
+      type: interpretive
+      description: >-
+        Albright 1966 "Location:" lines (Sinai 345 "now British Museum, 41748"; 346 "now Cairo Museum, 38268"; 347 "now Brussels"; 357 "in situ" at Mine L; 358 "Inside Mine M (in situ)"); Haring 2019 Figure 4.1 caption (BM EA 41748);
+        the Lundberg list (Location of Original: Cairo Museum for most of 346 to 375, Brussels for 347, Harvard Semitic Museum for 375a to 375c). The British Museum record was blocked (HTTP 403). Dates of the holdings: Albright 1966, Haring 2019 and the 2023 list; none from a museum.
+      sources: [src-albright-1966, src-haring-2019, src-isf-lundberg-list, src-bm-ea41748]
+      nodes:
+        - {node: object-serabit-sinai-345-sphinx, verb: supports}
+    basis: >-
+      # V: read 2026-10-14. Albright and Haring agree on BM EA 41748 independently of each other (one gives 41748 from 1966, the other EA 41748 from 2019); that is the one holder claim with two witnesses. None is the register.
+
+  - id: sk-claim-primary-signs-unread
+    state: searched_gap
+    statement: >-
+      The signs themselves have not been read in this dig: no photograph, squeeze or object of any Serabit alphabetic inscription was viewed, only the editors' hand-copy facsimile plates for Sinai 345 to 355.
+    statement_kind: search_result
+    evidence_class: primary_text
+    confidence: low
+    evidential_weight: 1
+    anchor_checked: 'no'
+    adoption_weight: 1
+    adoption_note: "Not a belief; a statement of what this dig did not examine."
+    would_change_if: "photographs or squeezes are opened (InscriptiFact, the British Museum, the Cairo Museum, Harvard Semitic Museum or the Tel Aviv University Serabit el-Khadim photograph archive) and the signs are transliterated independently"
+    next_step: >-
+      Open the InscriptiFact record for Sinai 345 (and 346, 349, 351, 357), the British Museum record for EA 41748 in a browser, and Butin's 1928 and 1932 plates; for Sinai 357 the Tel Aviv University photograph archive (described in a search result, not opened); then check each licence before storing anything.
+    anchor:
+      type: search-record
+      description: >-
+        Searched: British Museum (HTTP 403), PhilArchive (HTTP 403), Internet Archive (Petrie 1906, Gardiner and Peet 1917 Plates LXXXII and LXXXIII viewed as hand-copy drawings), a USC list of holders (no images).
+        Search-result snippets (not opened) mention a British Library collection of 1868-69 photographs of Serabit stelae (hieroglyphic, not the alphabetic texts), a Tel Aviv University photograph archive of the 1968-1978 expeditions, and a 1930 Harvard expedition report; none was opened.
+      sources: [src-gardiner-peet-1917-plates, src-bm-ea41748, src-isf-lundberg-list]
+    absence_anchor: true
+    basis: "Primary data was not seen. Every other claim in this dig rests on authors' accounts."
