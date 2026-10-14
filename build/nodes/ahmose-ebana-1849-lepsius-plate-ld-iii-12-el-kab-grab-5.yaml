@@ -1,0 +1,39 @@
+# Shared node. Append-only: a change is a new `rev` plus a `history` entry, never an overwrite. See build/SCHEMA.md, Nodes.
+id: ahmose-ebana-1849-lepsius-plate-ld-iii-12-el-kab-grab-5
+rev: 1
+type: document
+label: 'Lepsius, Denkmaeler Abth. III Bl. 12: drawn copy of the inscriptions of El Kab tomb 5 (the Ahmose son of Ebana autobiography), made by the 1842-1845 Prussian expedition'
+time: '1849-01-01'
+end: '1859-12-31'
+precision: year
+date_basis: publication_proxy
+kind: document
+status: single
+what: >-
+  A plate in the Internet Archive scan of Lepsius's Denkmaeler (Berlin, Nicolaische Buchhandlung, listed by the item as 1849-1859; the plate's own year is not
+  printed in the part viewed) shows four panels captioned 'El Kab Grab 5': a seated pair and a standing offerant, two blocks of columns, and a large block of long vertical
+  columns of hieroglyphs beside a standing figure with a staff. The volume index text lists it as Blatt 12, Dynasty XVIII, El Kab Grab 5. Breasted (1906) and Davies (2009) both cite
+  it as the first publication of the autobiography (Breasted, 'Lepsius, Denkmaeler, III, 12, a and d'; Davies, 'LD iii: 12b-d'). The plate was looked at; its signs were NOT read.
+  It is a nineteenth-century drawn copy, which Davies says he corrects in places.
+place:
+  name: 'Elkab (Nekheb), tomb no. 5, Egypt'
+  lat: 25.1202789
+  lon: 32.7982639
+  precision: site
+  uncertainty_km: 1
+  source: 'OpenStreetMap Nominatim lookup for "El Kab Egypt", retrieved 2026-10-14 (a gazetteer, orientation only). The plate caption names El Kab and tomb 5.'
+  note: 'Site-level point. The date is the printed span of the set, a proxy for publication, not the date of copying (the expedition worked in 1842-1845 per the set title).'
+sources:
+- title: 'R. Lepsius, Denkmaeler aus Aegypten und Aethiopien, Abth. III, Blatt 12 (Internet Archive item denkmaler-aus-aegypten-und-aethiopien, file denkmaeler-5.pdf, page 15), viewed 2026-10-14'
+  url: https://archive.org/details/denkmaler-aus-aegypten-und-aethiopien
+  authenticity: authenticated, weak (a copy; see the ahmose-son-of-ebana manifest)
+  origin: lepsius-denkmaeler-iii-12
+  source_type: scholarly
+  access: read
+manifest: {subject: ahmose-son-of-ebana, source: src-lepsius-ld3-bl12}
+related: []
+created: '2026-10-14'
+history:
+- rev: 1
+  date: '2026-10-14'
+  change: Created by the ahmose-son-of-ebana dig after viewing the plate. Image not stored here (rights not verified on the item page); cited by URL only.

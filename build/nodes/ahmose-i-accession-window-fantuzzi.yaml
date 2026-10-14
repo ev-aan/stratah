@@ -1,0 +1,35 @@
+# Shared node. Append-only: a change is a new `rev` plus a `history` entry, never an overwrite. See build/SCHEMA.md, Nodes.
+id: ahmose-i-accession-window-fantuzzi
+rev: 1
+type: event
+label: 'Accession of Ahmose I (the king whom Ahmose son of Ebana first served): one scholar gives 1550 to 1540 BCE; older proposals reach back to 1580'
+time: -1545-01-01T00:00:00Z
+precision: year
+date_basis: derived
+kind: analysis
+status: disputed
+what: >-
+  Fantuzzi (a modern chronology article) says the absolute date for the beginning of the New Kingdom was fixed by different authors between 1580 and 1567 Cal BC
+  and between 1575 and 1550 BC, and concludes that 'the only likely time-span for the beginning of Ahmose reign is to be fixed at 1550-1540 Cal BC'. He reports that
+  Kitchen's method gives 1540 Cal BC for the accession, with a low possibility of 1550. The node's single `time` (1545 BCE) is the middle of Fantuzzi's own range and is
+  a drawing aid, not a finding. Davies (2009, note 6) cites a maximum of about 60 years for the combined reigns of Ahmose I, Amenhotep I, Thutmose I and Thutmose II.
+  The node says what the sources print; it does not decide the date. The autobiography itself carries no absolute date.
+window:
+  earliest: -1580-01-01
+  latest: -1540-12-31
+  begin_note: 'Earliest bound 1580 BCE: the low end of the range ''between 1580 and 1567 Cal BC'' that Fantuzzi reports for earlier twentieth-century authors (his introduction).'
+  end_note: 'Latest bound 1540 BCE: the end of Fantuzzi''s own range 1550-1540 Cal BC, and the date he reports for the accession by Kitchen''s method. Later proposals exist in the literature (not read here).'
+sources:
+- title: 'T. Fantuzzi, The absolute chronology of the Egyptian S.I.P.-New Kingdom transition and its implications for Late Minoan Crete (PDF, 24 pp.), introduction and section The problem, read 2026-10-14'
+  url: https://arca.unive.it/retrieve/e4239ddc-dd75-7180-e053-3705fe0a3322/The_Absolute_Chronology_of_the_Egyptian.pdf
+  authenticity: unchecked (see the ahmose-son-of-ebana manifest)
+  origin: fantuzzi-chronology
+  source_type: scholarly
+  access: read
+manifest: {subject: ahmose-son-of-ebana, source: src-fantuzzi-chronology}
+related: []
+created: '2026-10-14'
+history:
+- rev: 1
+  date: '2026-10-14'
+  change: Created by the ahmose-son-of-ebana dig. Window and time assigned from the one article read; other chronologies (Hornung and others, as cited by Davies) not read.

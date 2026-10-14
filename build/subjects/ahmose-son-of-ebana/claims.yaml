@@ -1,0 +1,419 @@
+subject: ahmose-son-of-ebana
+title: "The autobiography of Ahmose son of Ebana (El Kab): what it says about captives, slaves, Hyksos and Nubians, and what the speaker says it says"
+question: "What does the autobiography of Ahmose son of Ebana say about captives (Hyksos, Nubians) received as slaves?"
+dig_status: open
+headline_status: draft
+search_summary: >
+  Ahmose son of Ebana, a naval officer of El Kab, left a long autobiography on the wall of his tomb (Elkab no. 5). Two translations read (Breasted 1906; a web page
+  reproducing Lichtheim) say he was given captives as slaves after the fall of Avaris (one man and three women), after Sharuhen and on Nubian campaigns. Neither
+  translation puts the word Hyksos in his mouth, and the hieroglyphs were not read here.
+description: >
+  First dig on this text. Read: Breasted, Ancient Records of Egypt II (1906) and the preface of vol. 1; a web page that reproduces a translation credited to Lichtheim;
+  W. V. Davies's 2009 epigraphic report on the tomb; one chronology article (Fantuzzi); and one plate of Lepsius's Denkmaeler (viewed, signs not read).
+  Not read: the signs, Urk. IV 1-11, the Thesaurus Linguae Aegyptiae (blocked), the Sohag translation (not reached) and the Lichtheim book itself. Eight speaker claims from two
+  Dead Hidden videos are split into separate parts and weighed here. The videos are never an anchor and the translations are claims, not primary data.
+divergence_note: >
+  The speaker version is that Ahmose son of Ebana rose to admiral, and that his tomb autobiography records that he and his men received Nubians and Hyksos as slaves, including
+  campaigns against the Hyksos and Nubians. The two translations read say something narrower and different in wording: Ahmose is given captives and "male and female slaves"
+  after named sieges and campaigns (Avaris, Sharuhen, Nubia); the word Hyksos is not in the speech as printed (it is in Breasted's commentary and a section heading); the people
+  taken at Avaris are one man and three women; and the title is rendered "chief of the sailors" or "crew commander", while Davies, who studied the wall, reports "commander of a ship's contingent".
+  Nobody read says "admiral". Translators differ on details (the length of the Sharuhen siege), and Davies has corrected readings in the published text. The gap between the speaker's
+  wording and the text as translated, and between the translations and the signs, is the product here. The signs themselves, the date of the events and who exactly the captives were remain unread or open.
+
+claims:
+
+  # ------------------------- WHAT THE TEXT SAYS (translations read; the signs were not read) -------------------------
+
+  - id: ahmose-translations-avaris-captives-given-as-slaves
+    state: proposed
+    statement: >
+      Two translations say that after Avaris was taken Ahmose captured one man and three women, four persons, and the king gave them to him as slaves.
+      Breasted (1906, section 12): "I took captive there one man and three women, total four heads, his majesty gave them to me for slaves."
+      The web page reproducing Lichtheim: "Then Avaris was despoiled, and I brought spoil from there: one man, three women; total, four persons. His majesty gave them to me as slaves."
+    statement_kind: reported
+    evidence_class: interpretive
+    confidence: low
+    evidential_weight: 2
+    anchor_checked: secondary
+    adoption_weight: 3
+    adoption_note: "Widely repeated in popular accounts (a PBS page credits the same four captives to a Tyldesley excerpt; seen only as a summary). The weight here comes from two printed translations, not from how often it is repeated."
+    would_change_if: >
+      the signs on Lepsius Bl. 12 / Urk. IV 1-11 (or the wall itself, Davies's full record) read differently for the captives' number or the word rendered "slaves", or the Lichtheim book differs from the web page
+    anchor:
+      type: interpretive
+      description: >
+        Read: Breasted 1906, section 12 (OCR) and the translation on the Ancient Egypt Online page (raw HTML, credited there to Lichtheim, AEL II). Both agree on one man and three women and on the king giving them
+        to Ahmose as slaves. This is a read of two translations, not of the signs. The two are not fully independent (the same text, and later translators read earlier ones).
+      sources: [src-breasted-are2, src-breasted-tr-ahmose, src-aeo-lichtheim-page]
+      nodes:
+        - {node: ahmose-ebana-2009-davies-documents-tomb-ek5-at-el-kab, verb: qualifies}
+    basis: >
+      # V: both passages read 2026-10-14. Breasted's note b to section 6 says the tomb elsewhere lists a total of 9 men and 10 women for the gifts, and that his narrative sums differently; the totals were not recomputed here.
+      Says what the translators printed. It does not by itself show what the signs say.
+
+  - id: ahmose-translations-sharuhen-and-nubia-captives
+    state: proposed
+    statement: >
+      The translations also give Ahmose captives and slaves on later campaigns: after Sharuhen "two women and one hand" (Breasted section 13: "giving me the captives for slaves"); on the Nubian campaign of the first king "two living men, and three hands" and "two female slaves" (section 14); under Amenhotep I "two female slaves" more (section 39); and in a rebellion episode "five heads" and land, with "It was done to all the sailors likewise" (section 15).
+      The web page's rendering of the same passages says "my captives were given to me as slaves" (Sharuhen) and "two female slaves were given to me" (Nubia).
+    statement_kind: reported
+    evidence_class: interpretive
+    confidence: low
+    evidential_weight: 2
+    anchor_checked: secondary
+    adoption_weight: 2
+    adoption_note: "The Sharuhen and Nubian grants are less often cited in popular accounts than Avaris."
+    would_change_if: "the signs read differently for these passages, or Davies's full record of the inscription corrects them (he has already corrected other readings in the later columns)"
+    anchor:
+      type: interpretive
+      description: >
+        Read: Breasted 1906 sections 13, 14, 15 and 39 (OCR), and the corresponding passages of the translation on the Ancient Egypt Online page.
+        Breasted's note d to section 14 says the two female slaves are not the two captives just taken, against earlier translators (Renouf, Petrie), which is itself a point on which translators differ.
+      sources: [src-breasted-are2, src-breasted-tr-ahmose, src-aeo-lichtheim-page]
+    basis: >
+      # V: read 2026-10-14. The count of "heads", "hands" and "slaves" depends on how each translator reads the nouns; compare claim ahmose-sharuhen-duration-and-title-renderings-differ.
+
+  - id: ahmose-text-hyksos-word-not-in-the-speech
+    state: proposed
+    statement: >
+      In the speech as printed in the two translations read, the word "Hyksos" does not occur. The people besieged at Avaris are not called Hyksos; Sharuhen is a city in Palestine whose siege is rendered "for 6 years" (Breasted) or "for three years" (web page); the foes slain before the Nubian campaign are "Asiatics" (Breasted) or "nomads of Asia" (web page).
+      Breasted identifies Avaris with the Hyksos stronghold in his commentary (section 4: "This can be no other than the city called Avaris by Manetho") and his section heading reads "Campaign against the Hyksos; Siege of Avaris".
+    statement_kind: search_result
+    evidence_class: interpretive
+    confidence: low
+    evidential_weight: 2
+    anchor_checked: secondary
+    absence_anchor: true
+    adoption_weight: 1
+    adoption_note: "Not stated in the popular accounts seen; the Hyksos link is standard in scholarly commentary."
+    would_change_if: "the signs of the passages show a word the translators rendered as 'Asiatics' or left out that is read as Hyksos (hq3 h3swt), or Urk. IV 1-11 is read and differs from the translations"
+    anchor:
+      type: search-record
+      description: >
+        Searched the English text of the speech in Breasted 1906 sections 6-16, 39 and 80-82 and the full translation on the Ancient Egypt Online page for the word Hyksos: no hit in the speech; the hits in Breasted are his heading before section 8 and his commentary and notes.
+        The Egyptian text was not searched.
+      sources: [src-breasted-are2, src-breasted-tr-ahmose, src-aeo-lichtheim-page]
+    basis: >
+      Absence of a word from two translations. It does not show the signs lack the idea. Capped at provisional (absence_anchor). The Avaris-Hyksos identification rests on Breasted's reading of Manetho and Josephus (the commentary, read), not on the speech.
+
+  - id: ahmose-text-nubians-as-targets
+    state: proposed
+    statement: >
+      The translations present the Nubian campaigns as campaigns against "Nubian Troglodytes" (Breasted, sections 14, 39, 80, 81) or "Nubian Bowmen" (the web page), with named places Khenthennofer and Kush, under Ahmose I, Amenhotep I and Thutmose I; captives and "female slaves" are taken (see ahmose-translations-sharuhen-and-nubia-captives).
+      Breasted section 80 and section 81 also describe a Nubian leader hung head downward at the prow of the royal ship.
+    statement_kind: reported
+    evidence_class: interpretive
+    confidence: low
+    evidential_weight: 2
+    anchor_checked: secondary
+    adoption_weight: 3
+    adoption_note: "The 'campaigns against Nubians' part is standard; the ethnic term differs by translator."
+    would_change_if: "the signs of the people-name are read and the two terms (Troglodytes, Bowmen) turn out to render different words or one word with a different sense"
+    anchor:
+      type: interpretive
+      description: "Read: Breasted 1906 sections 14, 39, 80, 81 (OCR) and the web page's translation. Davies 2009 (col. 35) confirms from the wall a hanging figure of 'the Nubian leader' with the king's arrow in his chest, as a determinative. The ethnonym itself was not read from the signs."
+      sources: [src-breasted-are2, src-aeo-lichtheim-page, src-davies-2009]
+    basis: "# V: read 2026-10-14. Davies's note on column 35 is about a determinative; he does not discuss the ethnonym in the pages read."
+
+  - id: ahmose-title-translations-differ-no-admiral
+    state: contested
+    statement: >
+      The title of Ahmose son of Ebana is rendered differently: "chief of the sailors" (Breasted, section 80: "One appointed me chief of the sailors"), "crew commander" (the web page's Lichtheim text: "Thereupon I was made crew commander"),
+      and, from the wall, "commander of a ship's contingent" (Davies 2009: the principal figure is identified in the first column as "commander of a ship's contingent, Ahmose Son-of-Ibana, justified").
+      None of the three renders it "admiral".
+    statement_kind: reported
+    evidence_class: interpretive
+    confidence: low
+    evidential_weight: 2
+    anchor_checked: secondary
+    adoption_weight: 4
+    adoption_note: "'Admiral' is a common modern gloss in popular accounts; its source was not found."
+    would_change_if: "the Egyptian title (which Davies transliterates hry-hnt, as read from the wall) is studied in a title-lexicon such as Schulman 1964 or Gnirs 1996 (both cited by Davies, not read) and shown to be the highest naval rank, or a source that uses 'admiral' is opened and its basis read"
+    anchor:
+      type: interpretive
+      description: >
+        Read: Breasted 1906 section 80 (OCR); the web page's translation; Davies 2009, section on the east and south walls (first column) and note 10 (which lists the literature on the title, not read).
+        These are three scholars' renderings of one title; the signs were not read here.
+      sources: [src-breasted-are2, src-aeo-lichtheim-page, src-davies-2009]
+    disputed_by:
+      - {who: "J. H. Breasted", kind: person, position: "'chief of the sailors' (section 80), a naval officer who 'served with distinction' (section 1)", source_read: true, via: "Ancient Records of Egypt II, 1906 (OCR)"}
+      - {who: "M. Lichtheim, as reproduced on the Ancient Egypt Online page", kind: work, position: "'crew commander'", source_read: "the web page only, not Lichtheim's book", via: "the page, credited there to Lichtheim"}
+      - {who: "W. V. Davies (British Museum epigraphic survey)", kind: person, position: "'commander of a ship's contingent' for the title written on the wall", source_read: true, via: "Davies 2009 (PDF)"}
+    basis: >
+      # V: read 2026-10-14. The renderings may differ in emphasis rather than in fact. What would close it: the rank in the Egyptian navy structure from a title-lexicon, read. 'Admiral' is left open as a claim about the speaker's wording (see ahmose-sp-rose-to-admiral).
+
+  - id: ahmose-sharuhen-duration-and-title-renderings-differ
+    state: contested
+    statement: >
+      The translations disagree about the length of the siege of Sharuhen: Breasted renders "for 6 years" and says Lepsius had "5", Champollion's text and Brugsch had "6", and that his own check of the Berlin squeeze "has a clear '6'";
+      the web page's text says "Then Sharahen was besieged for three years".
+    statement_kind: reported
+    evidence_class: interpretive
+    confidence: low
+    evidential_weight: 1
+    anchor_checked: secondary
+    adoption_weight: 1
+    adoption_note: "A detail rarely mentioned; included because it shows that the translations read here do not agree with each other on a number."
+    would_change_if: "the signs of the Sharuhen line are read on the Lepsius plate, the squeeze or Davies's full record, or Lichtheim's book is read and either matches the web page or not"
+    anchor:
+      type: interpretive
+      description: >
+        Read: Breasted 1906 section 13 and its note b (OCR); the web page translation. Not read: the signs on Lepsius Bl. 12 (the plate was viewed but not transliterated), the Berlin squeeze, Lichtheim's book.
+        Whether the web page reproduces Lichtheim faithfully is unchecked.
+      sources: [src-breasted-are2, src-aeo-lichtheim-page, src-lepsius-ld3-bl12]
+      nodes:
+        - {node: ahmose-ebana-1849-lepsius-plate-ld-iii-12-el-kab-grab-5, verb: qualifies}
+    disputed_by:
+      - {who: "J. H. Breasted", kind: person, position: "6 years, from the squeeze, noting that Lepsius gave 5", source_read: true, via: "Ancient Records of Egypt II, 1906, note b to section 13 (OCR)"}
+      - {who: "The translation on the Ancient Egypt Online page (credited there to Lichtheim)", kind: work, position: "three years", source_read: "the web page only", via: "the page"}
+    basis: "# V: both read 2026-10-14. The disagreement is unresolved here. It does not bear on whether slaves were taken."
+
+  - id: ahmose-davies-reading-two-days-not-one-slave
+    state: contested
+    statement: >
+      A published reading of column 27 of the inscription is disputed. The usual reading is "I brought his majesty back to Egypt in two days". An alternative, "I brought back one slave", has been proposed (Schulz 1995, as cited by Davies). Davies, who examined the wall, says the vertical sign is not 'slave' but 's' and reads "I brought them in two days to Egypt", with 'them' the people, cattle and prisoner of the preceding passage.
+    statement_kind: reported
+    evidence_class: interpretive
+    confidence: low
+    evidential_weight: 2
+    anchor_checked: secondary
+    adoption_weight: 1
+    adoption_note: "A technical point not found in popular accounts."
+    would_change_if: "Davies's full record of the column, a photograph of the wall at that column, or a collated edition, is read and the sign is identified independently"
+    anchor:
+      type: interpretive
+      description: "Read: Davies 2009, section 'The biographical inscription', entry for column 27 (Urk. iv: 7, 15). Davies cites Lichtheim 1976, Vandersleyen 1971 and others for the usual reading and Schulz 1995 and Beylage 2002 for the alternative; those were not opened. The Breasted translation (section 39) reads 'I brought his majesty in two days to Egypt'."
+      sources: [src-davies-2009, src-breasted-are2]
+    disputed_by:
+      - {who: "W. V. Davies", kind: person, position: "reads 'them in two days', not 'one slave', from the signs on the wall", source_read: true, via: "Davies 2009 (PDF)"}
+      - {who: "R. Schulz (1995), as cited by Davies; also Beylage 2002 cf.", kind: person, position: "'I brought back one slave' as an alternative reading", source_read: false, via: "Davies 2009 (cited_only; Schulz 1995 not opened)"}
+    basis: "# V: Davies read 2026-10-14. This is the only place in the pages read where a published reading of the autobiography involves the word 'slave' as a disputed reading; it is an alternative reading of one column, not a statement on the slave grants."
+
+  # ------------------------- THE OBJECT AND ITS DATE -------------------------
+
+  - id: ahmose-object-tomb-ek5-wall-inscription
+    state: proposed
+    statement: >
+      The autobiography is carved on the walls of the rock-cut tomb of Ahmose son of Ebana at El Kab (Nekheb), Elkab no. 5: 31 columns on the east wall and 8 on the south wall, followed by an unfinished concluding section in horizontal lines.
+      Lepsius's Denkmaeler (Abth. III Bl. 12, 'El Kab Grab 5') is the first copy and Davies's British Museum survey is a modern one.
+    statement_kind: reported
+    evidence_class: interpretive
+    confidence: low
+    evidential_weight: 2
+    anchor_checked: secondary
+    adoption_weight: 4
+    adoption_note: "Stated in every account seen."
+    would_change_if: "the wall itself, a squeeze or a modern photograph is examined and shows a different layout, or Davies's final publication gives different counts"
+    anchor:
+      type: interpretive
+      description: >
+        Read: Davies 2009 (introduction and east/south wall description, pp. 139-146 of the book); Breasted 1906 note a to section 1; the Lepsius plate caption 'El Kab Grab 5' (viewed). Three works agree on the tomb and on 31 + 8 columns; the object itself, its images and squeezes were not examined by us.
+      sources: [src-davies-2009, src-breasted-are2, src-lepsius-ld3-bl12]
+      nodes:
+        - {node: ahmose-ebana-2009-davies-documents-tomb-ek5-at-el-kab, verb: supports}
+        - {node: ahmose-ebana-1849-lepsius-plate-ld-iii-12-el-kab-grab-5, verb: supports}
+    basis: >
+      # V: Davies and Breasted read; Lepsius plate viewed 2026-10-14 (signs not read). Davies calls the tomb 'still incompletely published' and notes decoration unfinished. Holder: in situ at Elkab, access and permissions: Davies thanks the Supreme Council of Antiquities; current condition not checked.
+
+  - id: ahmose-composition-by-grandson-and-late-carving
+    state: proposed
+    statement: >
+      The autobiography was set up by Ahmose's grandson Pahri (Pahery), not by Ahmose himself, and the tomb decoration is dated on stylistic grounds to the reign of Thutmose III, so the narrative was carved some decades after the campaigns it tells.
+      Breasted (section 3): "The long inscription was therefore executed by Ahmose's grandson, Pahri". Davies: the scene shows work on the tomb "directed by his grandson, Pahery", and both tombs "may be dated on stylistic and other grounds to the reign of Thutmose III"; "A more precise dating remains to be established".
+    statement_kind: judgment
+    evidence_class: interpretive
+    confidence: low
+    evidential_weight: 2
+    anchor_checked: secondary
+    adoption_weight: 2
+    adoption_note: "Not stressed in popular accounts, which treat the text as Ahmose's own words."
+    would_change_if: "a precise date for the tomb decoration is established, or the text is read in a way that shows Ahmose speaking in his own lifetime (the text closes with 'a tomb, which I myself made', which Davies takes to imply he lived to see it)"
+    anchor:
+      type: interpretive
+      description: >
+        Read: Breasted 1906 section 3 and Davies 2009 (introduction, pp. 140-141, and footnote 6). The caption naming Pahri is on the wall per Davies's reading of the facade and east wall. Breasted's and Davies's reasoning are both a scholar's inference from the scene captions.
+      sources: [src-breasted-are2, src-davies-2009]
+    alternatives:
+      - {text: "Ahmose composed or dictated the text himself in old age, the tomb being finished by his grandson", why_not_preferred: "Davies himself takes the closing words 'I made the tomb myself' to imply that Ahmose lived to see the tomb finished; the two readings are not exclusive and were not weighed against each other here"}
+    basis: "# V: both read 2026-10-14. Positions: Breasted and Davies agree the grandson directed the work; whether the narrative is Ahmose's own words or his grandson's composition is not decided in the pages read."
+
+  - id: ahmose-date-of-events-not-fixed
+    state: contested
+    statement: >
+      The absolute date of the campaigns and of the reign of Ahmose I is not fixed. In the one chronology article read, earlier authors give the beginning of the New Kingdom between 1580 and 1567 Cal BC and between 1575 and 1550 BC, and the article's own range for the accession of Ahmose I is 1550 to 1540 Cal BC. The autobiography itself carries no BCE date.
+    statement_kind: reported
+    evidence_class: interpretive
+    confidence: low
+    evidential_weight: 1
+    anchor_checked: secondary
+    adoption_weight: 3
+    adoption_note: "Popular accounts give a reign of about 1550 to 1525 BCE as if fixed; the dispute over the Sirius observations and the radiocarbon dates is not mentioned there."
+    would_change_if: "a chronology with a stated method (Hornung, Krauss and Warburton 2006, Kitchen, or a radiocarbon series) is read and one range is shown to follow from independent data"
+    anchor:
+      type: interpretive
+      description: "Read: Fantuzzi's article, introduction and section 'The problem'. The range is one author's; Hornung and others were cited by Davies (note 6) and not read. No absolute date is given by the speaker (time_stated is nil in the handoff)."
+      sources: [src-fantuzzi-chronology, src-davies-2009]
+      nodes:
+        - {node: ahmose-i-accession-window-fantuzzi, verb: qualifies}
+    disputed_by:
+      - {who: "T. Fantuzzi", kind: person, position: "accession of Ahmose I about 1550 to 1540 Cal BC; the beginning of the New Kingdom in his year 11 about 1539 to 1529 Cal BC", source_read: true, via: "Fantuzzi article (PDF), introduction and conclusion of 'The problem'"}
+      - {who: "K. A. Kitchen, as reported by Fantuzzi", kind: person, position: "accession 1540 Cal BC, low possibility of 1550", source_read: false, via: "Fantuzzi (cited_only)"}
+      - {who: "Earlier authors, as reported by Fantuzzi (unnamed here)", kind: unnamed, position: "beginning of the New Kingdom between 1580 and 1567 Cal BC, and between 1575 and 1550 BC", source_read: false, via: "Fantuzzi, introduction (cited_only)"}
+    basis: "# V: Fantuzzi read 2026-10-14. Open: which method (astronomy, radiocarbon, archaeology) is more reliable. The positions are kept side by side, none preferred."
+
+  - id: ahmose-hieroglyphic-text-not-read
+    state: searched_gap
+    statement: >
+      What the Egyptian signs say for the captive and slave passages (the words rendered "captive", "slave", "head", "hand", "spoil", the people-names rendered Asiatics and Nubian Troglodytes/Bowmen) was not read here.
+    statement_kind: search_result
+    evidence_class: primary_text
+    confidence: low
+    evidential_weight: 1
+    anchor_checked: 'no'
+    adoption_weight: 1
+    adoption_note: "No popular account seen quotes the Egyptian."
+    would_change_if: "Lepsius Bl. 12, Urk. IV 1-11, the TLA text or Davies's final record is transliterated and compared with the translations"
+    next_step: >
+      Transliterate columns 12-19 and 26-28 from the Lepsius plate (Internet Archive item denkmaler-aus-aegypten-und-aethiopien, denkmaeler-5.pdf page 15, Abth. III Bl. 12) and check each against Urk. IV 1-11 and Davies's corrections;
+      open the TLA record in a browser, and look for Davies's final publication of the tomb.
+    anchor:
+      type: search-record
+      description: >
+        Searched: Breasted 1906 and the web page (translations, no signs in the text layer); Davies 2009 (some corrected readings, no full text); TLA (blocked by a bot-verification page); the Sohag PDF (connection refused); Urk. IV (no scan found).
+        Viewed: the Lepsius plate image, but the signs were not transliterated.
+      sources: [src-breasted-are2, src-davies-2009, src-lepsius-ld3-bl12, src-tla, src-sohag-translation, src-urk-iv]
+    basis: "Not read. The plate was viewed as an image only, so anchor_checked stays no."
+
+  # ------------------------- THE SPEAKER CLAIMS (kept as stated; split into parts) -------------------------
+
+  - id: ahmose-sp-served-in-the-navy
+    state: proposed
+    statement: "Ahmose son of Ebana served in the Egyptian navy (dh-HN0wNVpfunM-07)."
+    statement_kind: reported
+    evidence_class: interpretive
+    confidence: low
+    evidential_weight: 2
+    anchor_checked: secondary
+    adoption_weight: 4
+    adoption_note: "Dead Hidden, 'Rekhmire' (HN0wNVpfunM); standard in popular summaries."
+    would_change_if: "the signs are read and the ship-service terms do not mean what the translations say, or 'navy' as an institution is shown to be a misleading frame for royal ships and crews"
+    anchor:
+      type: interpretive
+      description: "Breasted 1906 sections 7-8 and 80 (ship 'The Offering', 'the northern fleet', 'Shining-in-Memphis', 'chief of the sailors') and the web page's translation (ships 'The Wild Bull', 'Northern', 'Rising in Memphis'): both place him on royal ships; Breasted calls him 'a naval officer' in his introduction. 'The Egyptian navy' as a standing institution is a modern frame."
+      sources: [src-breasted-are2, src-aeo-lichtheim-page]
+    basis: "# V: read 2026-10-14. The ship service is clear in both translations; the word 'navy' is the speaker's."
+
+  - id: ahmose-sp-rose-to-admiral
+    state: contested
+    statement: "Ahmose son of Ebana rose to admiral (dh-HN0wNVpfunM-07); 'later became admiral of the Egyptian fleet' (dh-K3pw12lBcXM-12)."
+    statement_kind: reported
+    evidence_class: interpretive
+    confidence: low
+    evidential_weight: 1
+    anchor_checked: secondary
+    adoption_weight: 4
+    adoption_note: "Dead Hidden, 'Rekhmire' (HN0wNVpfunM) and 'Aamu, Hyksos, Habiru, Shasu' (K3pw12lBcXM); 'admiral' is common in popular summaries."
+    would_change_if: "a title-lexicon (Schulman 1964, Gnirs 1996, cited by Davies) read shows the title as the supreme naval command, or the title is read as lower"
+    anchor:
+      type: interpretive
+      description: "Three renderings of the title were read (see ahmose-title-translations-differ-no-admiral): chief of the sailors; crew commander; commander of a ship's contingent. None says admiral and none says he commanded the whole fleet; the speaker's rank is a modern gloss not found in any source read."
+      sources: [src-breasted-are2, src-aeo-lichtheim-page, src-davies-2009]
+    disputed_by:
+      - {who: "Dead Hidden (speaker)", kind: person, position: "admiral of the Egyptian fleet", source_read: "claim line only", via: "dh-HN0wNVpfunM-07, dh-K3pw12lBcXM-12 (claims files; videos not watched)"}
+      - {who: "W. V. Davies", kind: person, position: "'commander of a ship's contingent' (as written on the wall)", source_read: true, via: "Davies 2009 (PDF)"}
+    basis: "# V: three titles read 2026-10-14. Not refuted: the signs were not read and 'admiral' might be a defensible gloss for the rank; kept contested."
+
+  - id: ahmose-sp-autobiography-on-tomb-wall
+    state: proposed
+    statement: "His autobiography on his tomb wall records ... (dh-HN0wNVpfunM-07); 'recorded in his autobiography his career as a war hero' (dh-K3pw12lBcXM-12)."
+    statement_kind: reported
+    evidence_class: interpretive
+    confidence: low
+    evidential_weight: 2
+    anchor_checked: secondary
+    adoption_weight: 5
+    adoption_note: "Dead Hidden; stated in every account seen."
+    would_change_if: "see ahmose-object-tomb-ek5-wall-inscription"
+    anchor:
+      type: interpretive
+      description: "The text is on the tomb wall at El Kab per Davies 2009, Breasted 1906 and the Lepsius plate caption (see ahmose-object-tomb-ek5-wall-inscription); it is a retrospective narrative of his campaigns and rewards, executed by his grandson per Breasted, and carved some time in the reign of Thutmose III per Davies's stylistic dating (see ahmose-composition-by-grandson-and-late-carving). 'War hero' is the speaker's word; the text lists valour rewards ('the gold of valour')."
+      sources: [src-davies-2009, src-breasted-are2, src-lepsius-ld3-bl12]
+    basis: "# V: read 2026-10-14. Place stated in -12 as 'Memphis' is a separate claim (ahmose-sp-place-memphis)."
+
+  - id: ahmose-sp-he-and-his-men-received-slaves
+    state: proposed
+    statement: "He and his men received slaves (dh-HN0wNVpfunM-07: 'his autobiography on his tomb wall records that he and his men received slaves')."
+    statement_kind: reported
+    evidence_class: interpretive
+    confidence: low
+    evidential_weight: 2
+    anchor_checked: secondary
+    adoption_weight: 2
+    adoption_note: "Dead Hidden, 'Rekhmire' (HN0wNVpfunM)."
+    would_change_if: "the signs of the line 'It was done to all the sailors likewise' are read and show a different referent, or the grants to the crew are read as land only"
+    anchor:
+      type: interpretive
+      description: "Ahmose's own receipt of slaves is in the translations (see ahmose-translations-avaris-captives-given-as-slaves and ahmose-translations-sharuhen-and-nubia-captives). For his men: after the Aata episode Breasted writes 'It was done to all the sailors likewise' (section 15) and the web page 'The same was done for the whole crew'; the lines before it list five persons and five arurae of land given to Ahmose, so the thing done likewise is the gift of persons and land, as translated. No translation says what each sailor received."
+      sources: [src-breasted-are2, src-aeo-lichtheim-page]
+    basis: "# V: read 2026-10-14. The 'men' part rests on one short sentence in two translations."
+
+  - id: ahmose-sp-slaves-were-nubians-and-hyksos
+    state: contested
+    statement: "The slaves he received were Nubians and Hyksos (dh-HN0wNVpfunM-07: 'received slaves, Nubians and Hyksos'); 'campaigns against the Hyksos and Nubians' (dh-K3pw12lBcXM-12)."
+    statement_kind: reported
+    evidence_class: interpretive
+    confidence: low
+    evidential_weight: 1
+    anchor_checked: secondary
+    adoption_weight: 3
+    adoption_note: "Dead Hidden, 'Rekhmire' (HN0wNVpfunM) and 'Aamu, Hyksos, Habiru, Shasu' (K3pw12lBcXM). The Avaris and Hyksos link is standard in scholarly commentary."
+    would_change_if: "the signs show the captives' origin named as Asiatics or Hyksos at Avaris, or show the Avaris captives' origin unstated; or the origin of the 'one man and three women' is discussed in a source read"
+    anchor:
+      type: interpretive
+      description: "Translations say Ahmose took captives at Avaris (one man, three women, given as slaves), at Sharuhen (two women, captives given as slaves) and in Nubia (two men, two female slaves, etc.). They do not name the origin of the Avaris captives, and the word Hyksos is not in the speech (see ahmose-text-hyksos-word-not-in-the-speech). Avaris is identified as the Hyksos stronghold by Breasted's commentary (Manetho, Josephus) and not by the speech. The Nubian captives are from campaigns the translations describe as against Nubian Troglodytes or Bowmen, and 'campaigns against the Hyksos and Nubians' is consistent with the translations' places (Avaris, Sharuhen, Nubia)."
+      sources: [src-breasted-are2, src-aeo-lichtheim-page]
+    disputed_by:
+      - {who: "J. H. Breasted", kind: person, position: "Avaris was the Hyksos stronghold and the siege of Sharuhen 'an extension of the campaign against the Hyksos'; his translation does not say the captives were Hyksos", source_read: true, via: "Ancient Records of Egypt II, sections 4 and 13 note b (OCR)"}
+      - {who: "Dead Hidden (speaker)", kind: person, position: "the slaves were Nubians and Hyksos", source_read: "claim lines only", via: "dh-HN0wNVpfunM-07 (claims file; video not watched)"}
+    basis: "# V: read 2026-10-14. The 'campaigns against Hyksos and Nubians' part is consistent with the places in the translations. 'The slaves were Hyksos' is not stated in either translation read. Not filed refuted: the signs were not read."
+
+  - id: ahmose-sp-place-memphis
+    state: proposed
+    statement: "The speaker places the autobiography at 'Memphis' (place_stated for dh-K3pw12lBcXM-12; the handoff gives no wording)."
+    statement_kind: reported
+    evidence_class: interpretive
+    confidence: low
+    evidential_weight: 1
+    anchor_checked: secondary
+    adoption_weight: 1
+    adoption_note: "Only the handoff's place field; the speaker's wording was not read."
+    would_change_if: "the speaker's wording is read and means the ship 'Shining-in-Memphis' or Ahmose's naval service, not the place of the inscription"
+    anchor:
+      type: interpretive
+      description: "Memphis appears in the translations only in a ship's name ('Shining-in-Memphis' in Breasted section 8, 'Rising in Memphis' on the web page). Ahmose's home town and tomb are at Nekheb (El Kab), 25.12 N 32.80 E by the OSM gazetteer (orientation only), far south of Memphis. The inscription is not at Memphis."
+      sources: [src-breasted-are2, src-aeo-lichtheim-page, src-davies-2009]
+      nodes:
+        - {node: ahmose-ebana-2009-davies-documents-tomb-ek5-at-el-kab, verb: disputes}
+    basis: "# V: read 2026-10-14. If the speaker meant where the war service was based, the ship's name gives a weak link only. Not enough read to say what was meant."
+
+  # ------------------------- WHO CAN BE TRUSTED (the chain of copies) -------------------------
+
+  - id: ahmose-chain-of-copies-and-funders
+    state: searched_gap
+    statement: >
+      Every account of the text read here is at least a copy of a copy: Lepsius's expedition copied the wall (commissioned by the King of Prussia, per the work's title), Breasted collated the Berlin squeeze and translated (with support from the Chicago leadership and a Berlin dictionary commission funded by the German Emperor, per his Preface),
+      Davies's British Museum survey re-studied the wall (funder not stated), and the web page and the PBS page reproduce translations. Who funded and controlled each is only partly recorded and was not independently checked.
+    statement_kind: search_result
+    evidence_class: interpretive
+    confidence: low
+    evidential_weight: 1
+    anchor_checked: 'no'
+    adoption_weight: 1
+    adoption_note: "Not discussed in popular accounts."
+    would_change_if: "funding statements for the Lepsius expedition, the University of Chicago series, the British Museum Elkab programme, Peeters and the Lichtheim book are read"
+    next_step: "Read the University of Chicago Press series prospectus and any donor records for Ancient Records; the British Museum project page or annual report for the Elkab epigraphic programme; the Prussian court records for Lepsius's expedition."
+    anchor:
+      type: search-record
+      description: "Searched the pages opened for statements of funding: Breasted Preface (vol. 1), the Lepsius volume title pages (OCR), Davies 2009 (permission and encouragement named, no funder), the web page (copyright line only). Nothing about donors beyond those statements was read."
+      sources: [src-breasted-are1-preface, src-lepsius-ld3-bl12, src-davies-2009, src-aeo-lichtheim-page]
+    basis: "Funding not asserted beyond what a page says. UNRESEARCHED for every other link."

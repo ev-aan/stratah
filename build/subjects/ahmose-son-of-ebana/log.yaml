@@ -1,0 +1,42 @@
+subject: ahmose-son-of-ebana
+# Append-only. Corrections are new entries; earlier entries are never edited.
+log:
+  - id: L-01
+    date: 2026-10-14
+    entry: >
+      DIG OPENED from a handoff written by another agent (ahmose-son-of-ebana.yaml). Its identification (El Kab tomb autobiography; Urk. IV; Lichtheim AEL II) was an unverified guess; it was tested, and the tomb (Elkab no. 5) and the citations
+      LD III 12 and Urk. IV 1-11 were confirmed only through Davies 2009 and Breasted 1906 (both read). Two Dead Hidden speaker claims (dh-HN0wNVpfunM-07, dh-K3pw12lBcXM-12) were split into
+      separate claims and kept in the speaker's wording. No headline is published (headline_status draft). Owner rules applied from the start: books, translations and videos are all claims; none is primary data.
+  - id: L-02
+    date: 2026-10-14
+    entry: >
+      WHAT WAS OPENED AND READ. (1) Breasted, Ancient Records of Egypt II (1906), Internet Archive item ancient-records-of-egypt-vol-2-breasted, OCR text (sha256 656c1837...): sections 1-16, 38-39, 78-82 and notes.
+      (2) Breasted vol. 1 (item ancient-records-of-egypt-vol-1-breasted, OCR sha256 52db64cf...): the Preface only, for who supported the work. (3) Ancient Egypt Online page 'Ahmose son of Ebana', raw HTML (sha256 7a60f40b...), translation text read in full; the page credits it to M. Lichtheim, AEL II (2006), and carries 'copyright J Hill 2010'.
+      The wording was not compared with Lichtheim's book (not opened). (4) W. V. Davies 2009, OLA 191 chapter (PDF sha256 8c462f29...): introduction, facade and east/south wall, the autobiography description, the corrected readings; the north and west wall genealogy not read in full.
+      (5) Fantuzzi's chronology article (PDF sha256 d4c103ec...): introduction and 'The problem'. (6) Lepsius, Denkmaeler Abth. III (Internet Archive item denkmaler-aus-aegypten-und-aethiopien, denkmaeler-5.pdf, sha256 04d9beee...): the plate Bl. 12 'El Kab Grab 5' was rendered to an image and LOOKED AT; the hieroglyphic signs were NOT transliterated or read, so no claim has anchor_checked primary.
+      (7) OpenStreetMap Nominatim JSON for El Kab (orientation only). Nothing was stored in the repository; no image licence question arose because no image is stored.
+  - id: L-03
+    date: 2026-10-14
+    entry: >
+      WHAT WAS BLOCKED OR NOT OPENED. TLA (thesaurus-linguae-aegyptiae.de): a bot-verification page ('Verifikation erforderlich') came back; not retried, not bypassed. Sohag University PDF of a translation: connection refused on one attempt (not retried, not worked around).
+      PBS Empires 'Ahmose and the Hyksos' page: only a summary from the fetch tool's small model was received, not a verbatim read, so nothing from it is quoted or relied on. Not opened: Wikipedia (never an anchor), Sethe Urk. IV 1-11 (no scan found), Lichtheim's book (in copyright), Vandersleyen 1971, Kammerzell 1988, Schulz 1995, Beylage 2002, Hornung and others on chronology,
+      the Berlin squeeze no. 172, any museum or Griffith Institute record, any photograph of the wall. A Wayback availability check for the Ancient Egypt Online page returned no snapshot, so the page has no independent capture (rule A8).
+  - id: L-04
+    date: 2026-10-14
+    entry: >
+      FUNDING AND CONTROL, as far as read. Breasted's Preface (vol. 1) says his mission to copy European museum monuments was made for a commission of four Royal Academies of Germany for an Egyptian Dictionary 'endowed by the German Emperor', and thanks President Harper and the Chicago Trustees for supporting his absences in Europe and the University of Chicago Press staff. Whether any outside donor funded the series or press run: UNRESEARCHED.
+      Lepsius's Denkmaeler: the title pages (OCR) say the expedition of 1842-1845 was sent by order of King Friedrich Wilhelm IV of Prussia; the details of who paid and who controlled the selection of what was copied: UNRESEARCHED. Davies 2009: the British Museum's epigraphic programme at Elkab was carried out 'with the kind permission of the Supreme Council of Antiquities of Egypt and the generous encouragement of the Belgian archaeological mission'; the funder of the programme is not stated in the pages read: UNRESEARCHED.
+      Peeters / Leuven Oriental Studies, the University of California Press (Lichtheim), the Ancient Egypt Online site (J Hill), Fantuzzi's article and the University of Venice repository: funding UNRESEARCHED. No funding is asserted for any of these.
+  - id: L-05
+    date: 2026-10-14
+    entry: >
+      WEIGHING. The two translations read agree that Ahmose was given captives and slaves after Avaris (one man, three women), Sharuhen and Nubian campaigns, and disagree on the Sharuhen siege (6 years vs three) and on the title.
+      They do not put the word Hyksos in his speech; the Hyksos reading of Avaris is Breasted's commentary. Nobody read says admiral. Davies corrects some published readings from the wall and notes that the tomb is still incompletely published.
+      All claims resting on translations are filed proposed or contested, evidence class interpretive, anchor_checked secondary, confidence low, weight at most 2. The speaker claims are kept in his wording. 'The slaves were Nubians and Hyksos' is not called refuted: the signs were not read and Avaris is commonly tied to the Hyksos in the commentary; it is filed contested at weight 1.
+      Hypotheses kept open with named positions: the title and rank (Breasted, the Lichtheim page, Davies), the siege length, the reading of column 27 (Davies vs Schulz as cited), the date of Ahmose I (Fantuzzi, Kitchen as reported, earlier authors unnamed), and who composed the text (Ahmose or his grandson Pahri).
+  - id: L-06
+    date: 2026-10-14
+    entry: >
+      WHERE THE FACTS END. Known only through books and a modern survey report: the existence and place of the tomb (Elkab no. 5), the layout (31 + 8 columns), the narrative as translated. Not established: the exact Egyptian words, the date of the carving beyond 'reign of Thutmose III' on stylistic grounds (Davies), the absolute date of the campaigns,
+      who the captives were by origin, whether the 'slaves' were what the later term means (the Egyptian word was not read), and the finding-state of the wall today. What would move claims: a transliteration from the Lepsius plate or Urk. IV compared with the translations, Davies's final record of the tomb, a photograph or squeeze of the wall, a title-lexicon on the naval rank, a chronology with independent data.
+      NEXT STEPS in order: (1) transliterate Lepsius Bl. 12 columns 12-19 and 26-28; (2) open the TLA text in a browser; (3) read Lichtheim's book and compare the web page; (4) trace funding of the British Museum Elkab programme and the University of Chicago series.
