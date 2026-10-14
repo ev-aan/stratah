@@ -1,0 +1,32 @@
+subject: merneptah-stele-israel
+# Append-only. Corrections are new entries; earlier entries are never edited.
+log:
+  - id: L-01
+    date: 2026-10-14
+    entry: >
+      DIG OPENED from a handoff written by another agent (merneptah-stele.yaml). Its object facts (JE 31408, Petrie 1896, reuse of an Amenhotep III stele, duplicate, line 27,
+      date c. 1208 BCE) were search-summary leads, not facts. Four Dead Hidden speaker claims (dh-HN0wNVpfunM-26, dh-K3pw12lBcXM-29, dh-K3pw12lBcXM-30, dh-gBGfqlL_FFQ-09)
+      were split into separate claims, kept in the speaker's wording. No headline is published (headline_status draft).
+  - id: L-02
+    date: 2026-10-14
+    entry: >
+      WHAT WAS OPENED AND READ. Petrie, Six Temples at Thebes (1897), Internet Archive item sixtemplesattheb00petruoft, OCR text (sha256 4a98d46c...): sections 29, 48 (Spiegelberg's translation of the stele) and 51 (Petrie's note on the Israel line and the duplicate).
+      Breasted, Ancient Records of Egypt vol. 3 (1906), Internet Archive item ancientrecordsof03brea, OCR text (sha256 ed7d9175...): sections 602-617 and notes. A 1962 reprint item (ancientrecordsof0003jame) was access-restricted and was not used.
+      Both are OCR of translations; no hieroglyph was read and no plate image was looked at.
+  - id: L-03
+    date: 2026-10-14
+    entry: >
+      WHAT WAS BLOCKED OR NOT OPENED. TLA record (bot-verification page, per the handoff; not retried, not bypassed). UCL Digital Egypt (HTTP 403 per the handoff). Not located or not opened: Kitchen RI IV, the Cairo museum record,
+      Lacau's catalogue, Porter and Moss, Duemichen's plate (an Internet Archive item exists, bub_gb_54xCAAAAcAAJ, but was not opened), Spiegelberg ZAeS 34, the Commons photo and its licence. A web search for a forgery allegation found none.
+  - id: L-04
+    date: 2026-10-14
+    entry: >
+      OPEN QUESTIONS RESOLVED OR RECORDED. (1) Duplicate: both books read say Karnak (a surviving fragment published by Duemichen); the "another part of the Theban temple" version is not supported; see merneptah-duplicate-at-karnak.
+      (2) Reuse: Petrie says the hymn is cut on the back of a stele of Amenhotep III moved from his temple; see merneptah-findspot-and-reuse. (3) Findspot and date basis: first court of Merneptah's temple, south-west corner, season 1896; the regnal date is year 5; the BCE date is not established (merneptah-absolute-date-bce).
+      (4) NEW: the two translations disagree on the season of the date (inundation versus third season); see merneptah-date-season-discrepancy. (5) Forgery allegation: source not found; kept as a gap (merneptah-forgery-allegation). (6) Cairo number: not found in either book (merneptah-cairo-accession-jE31408).
+  - id: L-05
+    date: 2026-10-14
+    entry: >
+      WEIGHING. The text as translated places Israel among the defeated and says Canaan was seized on Merneptah's side; it does not say Israel conquered Canaan, was a nation, had or lacked a king, or had earlier names.
+      The speaker claims on those points are filed proposed or searched_gap at weight 1 and are not called refuted because the signs were not read and the speaker's basis may lie outside the stele. A possible source of the speaker's 'united into a nation' wording
+      is a line in the last couplet about 'all lands' being united and pacified; that is a hypothesis about the wording, not a finding, and carries no weight.

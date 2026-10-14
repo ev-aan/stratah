@@ -1,0 +1,108 @@
+# Sources for the merneptah-stele-israel dig, with authenticity entries (rules A1-A10, build/SCHEMA.md).
+# Nothing is stored as a copy; sources are cited by URL. Tests were run in this session (2026-10-14), which is not an independent review.
+# The two books below are OCR of public-domain scans (Petrie 1897, Breasted 1906). Neither shows the hieroglyphs in text form: the glyph plates
+# were NOT looked at, so no claim here rests on a reading of the signs. The object itself and its museum record were not seen.
+retrieved: 2026-10-14
+sources:
+
+  - id: src-petrie-1897
+    title: "W. M. F. Petrie, Six Temples at Thebes, 1896 (London: Bernard Quaritch, 1897), with a chapter by W. Spiegelberg"
+    url: https://archive.org/details/sixtemplesattheb00petruoft
+    document_class: "primary_text (excavator's report: findspot, reuse, duplicate)"
+    read: yes, directly (Internet Archive OCR text, sha256 4a98d46cd57194ea4ad45d560f8ff4440d31d9aa52afd62efa3c4d8006d23668; sections 29, 48, 51)
+    authenticity:
+      status: authenticated
+      strength: moderate
+      provenance: "Printed 1897 by Clowes for Quaritch (title page, read in the OCR). Internet Archive scan item sixtemplesattheb00petruoft, rights status NOT_IN_COPYRIGHT in the item metadata. Holder of the scanned copy not recorded here."
+      tests:
+        - "Title page, year and publisher read in the OCR and agree with the Internet Archive metadata (could have failed)"
+        - "Petrie's statement that a duplicate existed at Karnak, published by Duemichen, agrees with Breasted's independent note (could have failed)"
+        - "Date, protocol and the Israel line of Spiegelberg's translation agree in substance with Breasted's separately collated translation (could have failed)"
+      tested_by: "Stratah dig session, 2026-10-14 (not an independent review)"
+      gaps: ["OCR only; page images not compared", "Plates XIII (photograph) and XIV (facsimile) not viewed", "Not compared with a second printing or holder copy"]
+      next_step: "View Plates XIII and XIV in the scan and read the signs of the Israel line against a hieroglyphic edition."
+      checked: 2026-10-14
+    notes: "Title says 1896 (the dig season); publication 1897."
+
+  - id: src-spiegelberg-tr-in-petrie
+    title: "W. Spiegelberg's English rendering of the Merneptah hymn, in Petrie 1897, section 48 (Plates XIII, XIV)"
+    url: https://archive.org/details/sixtemplesattheb00petruoft
+    document_class: interpretive (translation)
+    derived_from: src-petrie-1897
+    read: yes, directly (OCR of the printed translation)
+    authenticity:
+      status: authenticated
+      strength: moderate
+      provenance: "Printed in Petrie 1897 as Spiegelberg's translation; Spiegelberg says he worked from a hand copy, Petrie's paper squeeze and E. Brugsch Bey's photographs, and had published the Egyptian text in Zeitschrift fuer Aegyptische Sprache 1896 (so section 48 gives translation only)."
+      tests: ["Israel line compared with Breasted 1906 section 617: both put Israel in a list of defeated places, with Canaan, Askelon, Gezer and Yenoam named beside it (could have failed)"]
+      tested_by: "Stratah dig session, 2026-10-14 (not an independent review)"
+      gaps: ["The Egyptian text was not read; question marks in the translation mark Spiegelberg's own doubts", "Authenticity of the stele itself is a separate question (claim merneptah-forgery-allegation)"]
+      next_step: "Read Spiegelberg's text in ZAeS 34 (1896) and Plate XIV."
+      checked: 2026-10-14
+
+  - id: src-breasted-are3
+    title: "J. H. Breasted, Ancient Records of Egypt, vol. 3 (Chicago: University of Chicago Press, 1906), sections 602-617 (the Israel stela)"
+    url: https://archive.org/details/ancientrecordsof03brea
+    document_class: interpretive (translation with commentary and collation notes)
+    read: yes, directly (Internet Archive OCR text, sha256 ed7d91750e03925004b5de21e05d2814d1e319f5f6cade0284a079feb0eeb958; sections 602-617)
+    authenticity:
+      status: authenticated
+      strength: moderate
+      provenance: "Item ancientrecordsof03brea on the Internet Archive, a 1906 printing. A 1962 Russell and Russell reprint (ancientrecordsof0003jame) is access-restricted and was not used."
+      tests:
+        - "Breasted's footnote d gives the same findspot facts as Petrie (found by Petrie 1896 in the ruins of Merneptah's temple, text on the back of Amenhotep III's stela), but Breasted says he also had Brugsch's photographs and collated the Karnak duplicate (could have failed)"
+        - "Section 607 date (year 5, day 3) agrees with Petrie's translation on year and day; the season differs (see claim merneptah-date-season-discrepancy)"
+      tested_by: "Stratah dig session, 2026-10-14 (not an independent review)"
+      gaps: ["OCR only", "Hieroglyphs not read", "Breasted's findspot note draws on Petrie and Spiegelberg, so it is not an independent witness to the find"]
+      next_step: "Compare the OCR with the page images for sections 603-617."
+      checked: 2026-10-14
+
+  - id: src-dh-claims
+    title: "Dead Hidden YouTube claims files, ids dh-HN0wNVpfunM-26, dh-K3pw12lBcXM-29, dh-K3pw12lBcXM-30, dh-gBGfqlL_FFQ-09 (~/dead_hidden_claims/)"
+    url: ""
+    document_class: speaker claims (captions of videos). Never an anchor.
+    read: the claim lines only; the videos and transcripts were not watched or read here
+    authenticity:
+      status: unchecked
+      next_step: "Not needed as evidence. Cited only so the transmission record can say where the claims were made."
+
+  - id: src-tla
+    title: "Thesaurus Linguae Aegyptiae record of the Israel stela"
+    url: https://thesaurus-linguae-aegyptiae.de/text/GUZM3ED3AJAIPLUEJ6C34RG4DU
+    read: no. BLOCKED by a bot-verification page (reported by the handoff; not retried or bypassed)
+    authenticity: {status: unchecked, next_step: "Open in a browser, or use the TLA's published data if its licence allows. Footer shows all rights reserved."}
+
+  - id: src-ucl-digital-egypt
+    title: "UCL Digital Egypt, Merenptah stela page"
+    url: https://www.ucl.ac.uk/museums-static/digitalegypt/thebes/merenptah/stela.html
+    read: no. BLOCKED, HTTP 403 (reported by the handoff; not retried or bypassed)
+    authenticity: {status: unchecked, next_step: "Open in a browser or find an archived copy."}
+
+  - id: src-kri-iv
+    title: "K. A. Kitchen, Ramesside Inscriptions IV (hieroglyphic edition; Merneptah)"
+    url: ""
+    read: no. Not located; in copyright.
+    authenticity: {status: unchecked, next_step: "Library copy: read the hieroglyphs of the Israel line and the date line."}
+
+  - id: src-cairo-record
+    title: "Egyptian Museum, Cairo: record or catalogue entry for the stele (JE 31408 per search summaries; one summary gave Cairo 34025)"
+    url: ""
+    read: no. Not located. Neither book read gives an accession number.
+    authenticity: {status: unchecked, next_step: "Museum record, Lacau's 1909 Cairo General Catalogue volume (Steles du Nouvel Empire), or Porter and Moss Topographical Bibliography II."}
+
+  - id: src-duemichen-1867
+    title: "J. Duemichen, Historische Inschriften altaegyptischer Denkmaeler, vol. 1 (the Karnak fragment of the duplicate)"
+    url: https://archive.org/details/bub_gb_54xCAAAAcAAJ
+    read: no. Located on the Internet Archive by search; not opened.
+    authenticity: {status: unchecked, next_step: "Open the plate cited as Hist. Inschr. I, 1 (Breasted gives 'I, I'; Petrie 'I c.') and confirm the fragment's lines."}
+
+  - id: src-commons-photo
+    title: "Photograph credited by a secondary article to Olaf Tausch on Wikimedia Commons"
+    url: ""
+    read: no. Licence unverified. A photo may be shown as a picture; it would not anchor a reading.
+    authenticity: {status: unchecked, next_step: "Confirm the file page licence before storing or showing it."}
+
+not_accepted_as_anchors:
+  - "Wikipedia: orientation only, and not used"
+  - "Search-engine summaries (including the claim that the stele is JE 31408 and that a forgery is alleged): leads, not reads"
+  - "The Dead Hidden videos themselves"
