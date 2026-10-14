@@ -1,0 +1,33 @@
+# Shared node. Append-only: a change is a new `rev` plus a `history` entry, never an overwrite. See build/SCHEMA.md, Nodes.
+id: kamose-1908-carnarvon-tablet-found
+rev: 1
+type: event
+label: '1908: Carnarvon and Carter find the writing-board now called Carnarvon Tablet I at the Birabi site, Thebes'
+time: '1908-01-01'
+precision: year
+date_basis: stated
+kind: document
+status: single
+what: >-
+  The excavators' report (published 1912) says the Birabi site was examined in 1908, that it produced a Seventeenth Dynasty tomb (No. 9), and that among the pottery and mutilated
+  mummies in its courtyard, on a rock ledge, 'the important historical tablet referring to the expulsion of the Hyksos by the General Kamosi' and a second broken tablet were
+  recovered. Carter's text places the site 'about one hundred and fifty metres north-east of the mouth of the Dêr el Bahari valley', 'between the native house Beit el Meleitên and the
+  village mosque'. The month and day are not given in the passages read. The report's description of the text is the excavator's, not a reading of the board.
+place:
+  name: 'Birabi site, courtyard of tomb No. 9, near the mouth of the Deir el-Bahari valley, Theban necropolis'
+  note: 'Named by Carter in Carnarvon and Carter 1912, chapter V. No coordinates given; none are guessed here.'
+sources:
+- title: 'Earl of Carnarvon and Howard Carter, Five Years'' Explorations at Thebes (1912), chapter V, Project Gutenberg #48382, text read'
+  url: https://www.gutenberg.org/ebooks/48382
+  authenticity: excavators' own report; see the kamose-texts manifest
+  origin: carnarvon-carter-1912
+  source_type: testimony
+  access: read
+about:
+- object-carnarvon-tablet-i
+manifest: {subject: kamose-texts, source: src-carnarvon-carter-1912}
+created: '2026-10-14'
+history:
+- rev: 1
+  date: '2026-10-14'
+  change: Created by the kamose-texts dig from Carter in Carnarvon and Carter 1912, chapter V, and the report's introductory paragraph. One witness (the excavators); no independent record of the find was read.

@@ -1,0 +1,381 @@
+subject: kamose-texts
+title: "Kamose's texts against Avaris: what the Carnarvon Tablet says, what is not read, and what Dead Hidden says"
+question: "Does Kamose enslave peoples, and what are the dates?"
+dig_status: open
+headline_status: draft
+search_summary: >
+  The Carnarvon Tablet I, a hieratic writing-board found in 1908 at Thebes, carries a text of the Theban king Kamose. In the two printed translations read (Gardiner 1916; Griffith 1912), his soldiers carry off
+  'slaves, cattle, fat and honey' after he overthrows a man named Teti son of Pepi at Nefrusi; Avaris and Kush are named in his speech as the seats of two rival princes. Neither translation says he defeated the king of Avaris
+  or a Nubian king, or enslaved their peoples. No object, plate or hieratic sign was read, and no BCE date is fixed here.
+description: >
+  First dig on the Kamose texts. Read in full: Gardiner's 1916 article (OCR of the Journal of Egyptian Archaeology volume 3) and the excavators' report of 1912 with Griffith's chapter (Project Gutenberg text). Read in part: two web
+  object records, a Rutgers transliteration of the second stela (no translation), the abstract of a 2010 radiocarbon chronology. Blocked: the TLA (bot verification). Not located: the second stela's edition (Habachi 1972), the first stela, the Cairo
+  record. Two Dead Hidden speaker claims are split into six parts and kept in the speaker's words.
+divergence_note: >
+  The speaker's version is a clean sequence: in 1550 BC Kamose, king of Middle Egypt (and Thebes), rebelled against the king of Avaris (the Hyksos) and the Nubian king, defeated both, and enslaved their people. The text that was read is narrower and different in
+  kind. It is the speech and boast of a Theban king on a copied commemorative text; it names one prince in Avaris and another in Kush as the problem; it narrates one raid, on Nefrusi, in which soldiers take slaves as booty; it does not narrate a defeat of either named
+  ruler or a campaign against Nubia. Whether Kamose reached Avaris, fought Nubia, or how long he ruled are open and partly rest on stelae that were not read (Stela I fragments, the second stela). The gap between the clean sequence and the one-raid text is the product here.
+
+assessment:
+  question: "Does Kamose enslave peoples, and what are the dates?"
+  answer: partly
+  headline: "One printed reading says Kamose's soldiers took slaves in one raid; his people-wide enslavement of Avaris or Nubia is not in what was read, and the BCE date is not fixed."
+  key_points:
+    - "Two translations of Carnarvon Tablet I have his soldiers 'carrying off slaves, cattle, fat and honey' at Nefrusi; the hieratic word was not seen."
+    - "The tablet names Avaris and Kush only in his speech; it does not report a defeat of either ruler or any action against Nubia."
+    - "The tablet's regnal year is 3 in one reading and 7 in another; the BCE date (speaker: 1550) is not fixed by anything read."
+  text: >
+    What was read is two printed translations of one copied text (Gardiner 1916, Griffith 1912), which are not primary data and are not independent of each other. On that footing, the one raid described at Nefrusi includes booty of slaves and the wife of the enemy led to the river-bank
+    (Gardiner takes this to mean she was appropriated). That is enslavement by Kamose's soldiers in one episode, not of 'their people' of Avaris and Nubia. The two stelae that may say more were not read. The dates: a regnal year, three or seven, is the only date in the tablet; reign figures of about 1555 to 1550 BCE
+    appear on two web pages without a stated authority; a radiocarbon range for the start of the following dynasty bounds the period from the other side.
+  basis: [kamose-tablet-text-booty-slaves, kamose-tablet-text-no-defeat-of-rulers, kamose-tablet-regnal-year, kamose-absolute-date-bce]
+  would_settle: "Reading the hieratic of the booty line and the regnal date on Plate XIII or the board in Cairo, reading the second stela's edition (Habachi 1972) for its booty and Kush passages, and reading a named chronology for the Seventeenth Dynasty."
+
+claims:
+
+  # ------------------------- THE OBJECTS -------------------------
+
+  - id: kamose-objects-identification
+    state: searched_gap
+    statement: >
+      The handoff's 'Kamose Stele (Karnak) and Carnarvon Tablet' is more than two objects: a hieratic writing-board (Carnarvon Tablet I), at least one more writing-board (Tablet II, a different text), and, per sources not opened here, two commemorative stelae
+      of Kamose found at Karnak (a first whose fragments were found in the 1930s and a second found in the 1950s, Luxor Museum J.43). How these relate (whether the tablet copies one of the stelae) has not been checked against the objects.
+    statement_kind: search_result
+    evidence_class: material
+    confidence: low
+    evidential_weight: 1
+    anchor_checked: 'no'
+    adoption_weight: 3
+    adoption_note: "Repeated in summaries; the fragments and the second stela were not opened here."
+    would_change_if: "the Luxor Museum record, Habachi 1972, Porter and Moss or the TLA records are read and say which stelae exist, where they were found and what each preserves"
+    next_step: "Read the TLA records (in a browser), Habachi 1972 and Porter and Moss, Topographical Bibliography II, for each object's findspot, holder and text; then read whether the tablet copies the first stela."
+    anchor:
+      type: search-record
+      description: >
+        Read: Gardiner 1916 (who says it is 'by no means unlikely that the text of the tablet is a direct copy from a stele set up by Kamose in one of the Theban temples', conjecture in 1916); Digital Karnak's page for a 'Victory Stela of Kamose' (Luxor Museum; 'Found in fragments in the foundation of the 2nd Pylon and the fill of 3rd Pylon'; the page does not say which stela it is);
+        the Rutgers transliteration of 'The Second Stela of Kamose'; the Minot reader (fragments found 1932 and 1935, unsourced). Blocked: TLA. A search summary gave a different findspot for the second stela (foundation of a statue of Ramesses II, 1954); it was not opened and the two findspot statements differ.
+      sources: [src-gardiner-1916-jea3, src-digital-karnak-victory-stela, src-rutgers-kamose-2013, src-minot-oer, src-tla-kamose, src-habachi-1972]
+    basis: "Not read at the objects. Two findspot statements for the second stela differ; neither is settled."
+
+  - id: kamose-tablet-findspot-1908
+    state: proposed
+    statement: >
+      Carnarvon Tablet I was found in 1908 by the Carnarvon-Carter excavation, on a rock ledge among pottery and mutilated mummies in the courtyard of a Seventeenth Dynasty tomb (No. 9) at the Birabi site near the mouth of the Deir el-Bahari valley, Thebes.
+    statement_kind: reported
+    evidence_class: interpretive
+    confidence: low
+    evidential_weight: 2
+    anchor_checked: secondary
+    adoption_weight: 3
+    adoption_note: "Stated in summaries as 'found by Lord Carnarvon in 1908'; the tomb number and the ledge are from the report."
+    would_change_if: "field notes, Service des Antiquites records or the tomb itself show a different findspot, or the board is shown not to come from this deposit"
+    anchor:
+      type: interpretive
+      description: >
+        Carnarvon and Carter 1912, introduction and chapter V (Carter): 'During the work of 1908 the courtyard was found to contain great masses of pottery and mutilated mummies, and it was among these, on a rock ledge, that the important historical tablet referring to the expulsion
+        of the Hyksos by the General Kamosi ... and the second broken tablet were recovered.' Gardiner 1916, p. 95, repeats the findspot from that book. Read in text; the excavators are the one witness.
+      sources: [src-carnarvon-carter-1912, src-gardiner-1916-jea3]
+      nodes: [{node: kamose-1908-carnarvon-tablet-found, verb: supports}]
+    basis: >
+      # V: both read 2026-10-14. One witness (the finders). Gardiner is a repeat of the same report, not corroboration. The excavators' own words on the text ('expulsion of the Hyksos', 'General Kamosi') are their reading, not the board.
+
+  - id: kamose-tablet-holder-cairo
+    state: searched_gap
+    statement: "Carnarvon Tablet I is in the Egyptian Museum, Cairo, as JE 41790 (a search-result title); no record read here gives its present holder or number."
+    statement_kind: search_result
+    evidence_class: material
+    confidence: low
+    evidential_weight: 1
+    anchor_checked: 'no'
+    adoption_weight: 2
+    adoption_note: "Not widely stated in the popular material seen."
+    would_change_if: "a museum record, the Cairo General Catalogue or the TLA record gives the number and holder"
+    next_step: "Open the TLA record for Carnarvon Tablet I rto. in a browser, and look for the Cairo Museum entry or Porter and Moss."
+    anchor:
+      type: search-record
+      description: >
+        Searched. Read: Gardiner 1916 ('the larger fragment in the Cairo Museum' for Tablet II; Tablet I's holder not stated in the passages read); Griffith in Carnarvon and Carter 1912 cites 'Tablette Carnarvon au Caire' for Jequier 1910. The TLA record (blocked) is where the number JE 41790 was seen in a search-result title.
+      sources: [src-gardiner-1916-jea3, src-carnarvon-carter-1912, src-tla-kamose]
+      nodes: [{node: object-carnarvon-tablet-i, verb: qualifies}]
+    basis: "Not read."
+
+  # ------------------------- WHAT THE TABLET TEXT SAYS (translations read) -------------------------
+
+  - id: kamose-tablet-text-avaris-kush
+    state: proposed
+    statement: >
+      In two printed translations of Carnarvon Tablet I, the king speaks of two rival princes and says he sits between them: Gardiner 1916, 'when one prince is in Avaris and another is in Kush, and I sit united with an 'A'am and a Negro - each man holding his slice of the Black Land';
+      Griffith 1912, 'One prince is in Avaris, another in Ethiopia!'. Gardiner: 'My desire is to deliver Egypt, and to smite (?) the 'A'amu.'
+    statement_kind: reported
+    evidence_class: interpretive
+    confidence: low
+    evidential_weight: 2
+    anchor_checked: secondary
+    adoption_weight: 4
+    adoption_note: "The Avaris and Kush lines are what summaries mean by Kamose facing the Hyksos in the north and Nubia in the south."
+    would_change_if: "the hieratic of the lines is read and differs, or the second stela's text shows a different relation to Avaris and Kush"
+    anchor:
+      type: interpretive
+      description: >
+        Gardiner 1916, Text, translation and commentary and 'Consecutive Translation' (OCR read; Gardiner marks doubtful words with question marks and identifies Avaris as 'the stronghold and capital of the Hyksos'); Griffith, chapter VI of Carnarvon and Carter 1912.
+        These are translations; the hieratic was not read. Griffith had Gardiner's help with readings, so the two are not independent.
+      sources: [src-gardiner-translation, src-griffith-translation]
+    basis: >
+      # V: read 2026-10-14. The text is a king's speech to his council, reported in the first person; the council replies that Elephantine is strong and 'the middle part is with us as far as Cusae', and counsels waiting.
+
+  - id: kamose-tablet-text-booty-slaves
+    state: proposed
+    statement: >
+      In the same two translations, in the one raid the text narrates, at Nefrusi against 'Teti the son of Piopi', the king's soldiers carry off slaves as booty. Gardiner: 'I overthrew him, I destroyed his wall, I slew his folk, I caused his wife to go down to the river-bank. My soldiers were like lions with their prey,
+      carrying off slaves, cattle, fat and honey, and dividing up their possessions, their hearts rejoicing.' Griffith: 'I slew his people, I caused my soldiers to embark like wolves with their prey, with slaves, cattle ... honey, dividing their property'. Gardiner's commentary: the sending of Teti's wife to the river-bank 'must signify that she was appropriated by the conqueror'.
+    statement_kind: reported
+    evidence_class: interpretive
+    confidence: low
+    evidential_weight: 2
+    anchor_checked: secondary
+    adoption_weight: 3
+    adoption_note: "The booty line is rarely quoted in summaries; 'enslaved the people' is."
+    would_change_if: "the hieratic word rendered 'slaves' is read and means something else (for example captives, servants or Asiatic workers), or a reading of the line shows the booty belongs to another episode"
+    anchor:
+      type: interpretive
+      description: >
+        Gardiner 1916, 'Consecutive Translation' and the note on the Nefrusi passage (OCR read; Gardiner says the passage 'teems with difficulties' and that 'my conjectural renderings make very free with both vocabulary and grammar' for the final sentences, but the booty line itself carries no question mark in the translation);
+        Griffith in Carnarvon and Carter 1912, chapter VI. Translations only; the sign for 'slaves' was not seen.
+      sources: [src-gardiner-translation, src-griffith-translation]
+    basis: >
+      # V: both read 2026-10-14. Two renderings that agree on 'slaves', not independent of each other. The text states booty taken by his soldiers at one place; it does not give the numbers, the origin of the people, or a policy.
+
+  - id: kamose-tablet-text-no-defeat-of-rulers
+    state: proposed
+    statement: >
+      Neither translation of the tablet says Kamose defeated the king of Avaris or a Nubian king, took Avaris, or fought in Nubia. The only victory narrated is over Teti son of Pepi at Nefrusi. Griffith says Ahmose, Kamose's successor, completed the overthrow of the Hyksos 'by the capture of Avaris'
+      and that a rival in Nubia 'was likewise crushed by Ahmosi'. Gardiner finds in the text no sign the writer knew of the taking of Avaris.
+    statement_kind: search_result
+    evidence_class: interpretive
+    confidence: low
+    evidential_weight: 2
+    anchor_checked: secondary
+    absence_anchor: true
+    adoption_weight: 2
+    adoption_note: "Against the common summary; not stated in the popular material seen."
+    would_change_if: "the lost lines of the tablet, the first or second stela, or another source shows a defeat of the Avaris ruler or a Nubian ruler by Kamose"
+    anchor:
+      type: search-record
+      description: >
+        Searched both translations (Gardiner's consecutive translation; Griffith's summary) for: capture of Avaris, defeat of 'the prince in Avaris' or 'the prince in Kush', any action in Kush. None. Gardiner notes missing lines and a lacuna ('the flaking of the stucco about the fracture has robbed us of one line and of the greater part of two more', Griffith). The Conclusions of Gardiner 1916:
+        'I am unable to discover any word or phrase which indicates or implies that the writer was aware of the subsequent taking of Avaris'. The second stela and the first stela were not read.
+      sources: [src-gardiner-translation, src-griffith-translation, src-gardiner-1916-jea3, src-carnarvon-carter-1912]
+    basis: "Absence from a fragmentary tablet is weak. It is capped at provisional (absence_anchor)."
+
+  - id: kamose-tablet-regnal-year
+    state: contested
+    statement: "The regnal year of the tablet's text is year 3 (Gardiner 1916) or year 7 (Griffith 1912, followed by Newberry)."
+    statement_kind: reported
+    evidence_class: interpretive
+    confidence: low
+    evidential_weight: 1
+    anchor_checked: 'no'
+    adoption_weight: 3
+    adoption_note: "Summaries repeat 'year 3'; the 'year 7' reading is rarely mentioned."
+    would_change_if: "Plate XIII or the board's date sign is read, or a second stela's date (read in the stone) agrees with one of them"
+    disputed_by:
+      - {who: "A. H. Gardiner (1916)", kind: person, position: "year 3; says Griffith 'wrongly reads year 7' and notes the date stands unusually before the titulary", source_read: "Gardiner 1916, commentary on the first line, read in OCR", via: direct}
+      - {who: "F. Ll. Griffith (1912), followed by P. E. Newberry (1913)", kind: person, position: "year 7", source_read: "Griffith read directly in Carnarvon and Carter 1912; Newberry only through Gardiner's note", via: "direct for Griffith; through Gardiner for Newberry"}
+    positions:
+      - {label: "year 3", holder: "Gardiner 1916", ground: "reading of the hieratic numeral, with a stated parallel in Sethe's Untersuchungen"}
+      - {label: "year 7", holder: "Griffith 1912; Newberry 1913", ground: "reading of the numeral (grounds not read)"}
+    anchor:
+      type: search-record
+      description: "Read Gardiner 1916 (year 3; his note that Griffith and Newberry read year 7) and Griffith 1912 ('The text is dated in the seventh year of King Kamosi'). The numeral was not seen; Plate XIII was not viewed."
+      sources: [src-gardiner-translation, src-griffith-translation]
+    basis: "Two readings of one number by two scholars, one of whom says the other was wrong. Not settled here. It matters for how long Kamose had reigned when the text was made."
+    next_step: "View Plate XIII and the Cairo board's date line; read Newberry 1913 and the TLA entry's transliteration."
+
+  - id: kamose-tablet-date-of-writing
+    state: contested
+    statement: "Carnarvon Tablet I was written within a few decades of the events it reports (Gardiner, Griffith, Newberry), or much later and not as contemporary history (Maspero, Weill)."
+    statement_kind: judgment
+    evidence_class: interpretive
+    confidence: low
+    evidential_weight: 1
+    anchor_checked: 'no'
+    adoption_weight: 3
+    adoption_note: "The 1916 dating is the usual one in summaries; the doubters' view is rarely mentioned."
+    would_change_if: "a palaeographical study of the hand by a specialist independent of both camps, or a dated parallel found with the same hand, or the tablet's first-stela parallel is read"
+    disputed_by:
+      - {who: "A. H. Gardiner (1916), with F. Ll. Griffith and P. E. Newberry", kind: person, position: "hand of the end of the Seventeenth Dynasty or very early Eighteenth; 'in no case can it have been written more than fifty years later'; a copy of a commemorative stela, with no reason to doubt its historical value", source_read: "Gardiner 1916, read in OCR; Griffith ('written within a few years of the events') in Carnarvon and Carter 1912, read", via: direct}
+      - {who: "G. Maspero (1909)", kind: person, position: "scribe of about the Twentieth Dynasty; the text the beginning of a half-historical tale set in the third year of King Kamosis", source_read: "not opened; Gardiner's account, p. 96", via: "Gardiner 1916"}
+      - {who: "R. Weill (1910-1913)", kind: person, position: "doubts the historical character; text composed after the final Theban victory over the northerners, its references to Avaris and the Asiatics conventional", source_read: "not opened; Gardiner's account, p. 96 and Conclusions", via: "Gardiner 1916"}
+    positions:
+      - {label: "near-contemporary copy of a commemorative stela", holder: "Gardiner 1916; Griffith 1912; Newberry 1913", ground: "palaeography (comparison with Moller's hieratic forms, Rhind and Ebers papyri) and the form of Egyptian commemorative stelae"}
+      - {label: "later scribe, text partly or wholly tale", holder: "Maspero 1909; Weill 1910-1913", ground: "Maspero: the hand resembles Twentieth Dynasty cursive; Weill: the content (as Gardiner reports them)"}
+    anchor:
+      type: search-record
+      description: "Gardiner 1916 (read start to end) sets out all of these positions and argues for the earlier date; the opposing works (Maspero, Weill, Newberry) were not opened; the hand was not seen. The first-stela fragments said by a summary to have been found in the 1930s were not read, so Gardiner's 'a direct copy from a stele' remains his conjecture here."
+      sources: [src-gardiner-1916-jea3, src-maspero-weill-newberry]
+    basis: "Gardiner is both the main source and a party; the other side is known only through him. Not closed."
+    next_step: "Open Maspero 1909, Weill 1913 and Newberry 1913; view the board's hand; read what a modern palaeographer says."
+
+  # ------------------------- DATE -------------------------
+
+  - id: kamose-absolute-date-bce
+    state: searched_gap
+    statement: "Kamose's campaign year in BCE is not fixed by anything read. Two web pages give his reign as about 1555 to 1550 BCE without a stated authority; the speaker says 1550 BC."
+    statement_kind: search_result
+    evidence_class: interpretive
+    confidence: low
+    evidential_weight: 1
+    anchor_checked: 'no'
+    adoption_weight: 4
+    adoption_note: "1555 to 1550 is the usual summary figure; chronologies of the Seventeenth Dynasty differ by years and its length is itself argued."
+    would_change_if: "a named chronology (for example the radiocarbon-informed one) is read and gives Ahmose's accession and Kamose's reign length (a coregency or a longer reign would move the window)"
+    anchor:
+      type: search-record
+      description: >
+        Read: Digital Karnak's page ('1555-1550 BCE', no authority given); Minot reader ('around 1555-1550 BCE', no authority); the abstract of Bronk Ramsey et al. 2010 (New Kingdom start 1570-1544 BCE; paper not opened). The tablet gives a regnal year only. No chronology of the Seventeenth Dynasty was read.
+        Wikipedia (orientation only, not an anchor) mentions a view that Kamose reigned about five years, with a coregency with Ahmose; it was not checked.
+      sources: [src-digital-karnak-victory-stela, src-minot-oer, src-bronk-ramsey-2010]
+      nodes: [{node: kamose-regnal-year-date-window, verb: qualifies}]
+    basis: "The window node shows the inference and its limits; it is our inference from the New Kingdom start range, not a read date."
+    next_step: "Read the Bronk Ramsey paper and a chronology that dates Kamose (Ryholt's work on the Second Intermediate Period, a Cambridge Ancient History chapter) and compute a window with reasons."
+
+  # ------------------------- NUBIA -------------------------
+
+  - id: kamose-nubian-campaign
+    state: searched_gap
+    statement: "Kamose fought a Nubian (Kushite) king in the south."
+    statement_kind: search_result
+    evidence_class: primary_text
+    confidence: low
+    evidential_weight: 1
+    anchor_checked: 'no'
+    adoption_weight: 3
+    adoption_note: "Repeated in summaries; the speaker has it as a rebellion against 'the Nubian king to the south'."
+    would_change_if: "the Nubian inscriptions said to carry his name, or the first or second stela, are read and describe an action against a Kushite ruler"
+    next_step: "Read Habachi 1972 and Smith and Smith 1976 for the passages on Kush; locate and read the Nubian rock inscriptions of Kamose (a summary named Arminna and Toshka) in their publications."
+    anchor:
+      type: search-record
+      description: >
+        Read: the Carnarvon Tablet translations (Kush is named only in the king's speech, with no action there); Digital Karnak (an intercepted letter from Apophis to the king of Kush; no action by Kamose in Nubia). Not read: any text recording a campaign in Nubia. A summary page (not an anchor) names Nubian inscriptions; not opened.
+      sources: [src-gardiner-translation, src-griffith-translation, src-digital-karnak-victory-stela]
+    basis: "The tablet speaks of a Kushite rival; it does not report an attack on one."
+
+  # ------------------------- SPEAKER CLAIMS (kept as stated; split by assertion) -------------------------
+  # Full wording, unchanged. dh-HN0wNVpfunM-18: "In 1550 BC Kamose, king of Middle Egypt, rebelled against the king of Avaris and the Nubian king to the south, defeated both and took their people into slavery (speaker misspeaks '1st century BC')."
+  # dh-qL1VmGF3BF8-16: "Kamose, king of Middle Egypt and Thebes, rebelled against the Hyksos in the north and the Nubians in the south in 1550 BC."
+  # Speaker cites "Egyptian records". Each part is filed separately below; the speaker's wording is not changed.
+
+  - id: kamose-sp-date-1550-bc
+    state: proposed
+    statement: "'In 1550 BC' (dh-HN0wNVpfunM-18) / 'in 1550 BC' (dh-qL1VmGF3BF8-16)."
+    statement_kind: judgment
+    evidence_class: interpretive
+    confidence: low
+    evidential_weight: 1
+    anchor_checked: 'no'
+    adoption_weight: 4
+    adoption_note: "Dead Hidden; 1550 BC is also the end of the 1555-1550 BCE reign figure on two web pages."
+    would_change_if: "a chronology read puts the campaign outside about 1575 to 1544 BCE, or the regnal year reading (3 or 7) and a reign start are read and give a different year"
+    anchor:
+      type: search-record
+      description: "See kamose-absolute-date-bce: no source read gives the BCE year of the campaign; 1550 is the end of two unsourced page figures."
+      sources: [src-digital-karnak-victory-stela, src-minot-oer, src-bronk-ramsey-2010]
+      nodes: [{node: kamose-regnal-year-date-window, verb: qualifies}]
+    basis: "A round year at the end of an unsourced range. The speaker's own slip ('1st century BC') is recorded in the handoff and not corrected here."
+
+  - id: kamose-sp-king-of-middle-egypt-and-thebes
+    state: proposed
+    statement: "'Kamose, king of Middle Egypt' (dh-HN0wNVpfunM-18) / 'Kamose, king of Middle Egypt and Thebes' (dh-qL1VmGF3BF8-16)."
+    statement_kind: judgment
+    evidence_class: interpretive
+    confidence: low
+    evidential_weight: 2
+    anchor_checked: secondary
+    adoption_weight: 3
+    adoption_note: "Dead Hidden. Summaries usually call him a king of Thebes."
+    would_change_if: "the signs of the titulary and the speech are read and give a different territory, or another source shows Middle Egypt under his rule at the time"
+    anchor:
+      type: interpretive
+      description: >
+        The translations read give his titulary as 'King of Upper and Lower Egypt' with 'The victorious king within Thebes' (Gardiner) and have the king's council say 'Elephantine is strong, and the middle part (?) is with us as far as Cusae'. Gardiner reads this as Kamose holding Egypt from Elephantine to Cusae. 'Middle Egypt' is not a title in the texts read; 'Thebes' is. The speaker's 'and Thebes' is supported; 'king of Middle Egypt' is the speaker's description of the territory.
+      sources: [src-gardiner-translation, src-griffith-translation]
+    basis: "# V: Gardiner read 2026-10-14. 'Middle part' is marked uncertain in the translation."
+
+  - id: kamose-sp-rebelled-against-avaris-hyksos
+    state: contested
+    statement: "'rebelled against the king of Avaris' (dh-HN0wNVpfunM-18) / 'rebelled against the Hyksos in the north' (dh-qL1VmGF3BF8-16)."
+    statement_kind: judgment
+    evidence_class: interpretive
+    confidence: low
+    evidential_weight: 1
+    anchor_checked: 'no'
+    adoption_weight: 4
+    adoption_note: "Dead Hidden; the 'rebellion' framing is also common in popular accounts."
+    would_change_if: "a text read shows Kamose or his father as a vassal of the Avaris king in this period (rebellion), or shows the Thebans as an independent rival kingdom (war, not rebellion)"
+    disputed_by:
+      - {who: "Dead Hidden (speaker)", kind: work, position: "Kamose rebelled against the Hyksos king of Avaris", source_read: "claim line only; video not watched", via: "handoff"}
+      - {who: "The tablet's own framing as translated by Gardiner 1916", kind: work, position: "the king is a Theban ruler who wants 'to deliver Egypt' and 'smite the A'amu'; one prince in Avaris and another in Kush share the land with him; no text read calls the Hyksos his overlord", source_read: "Gardiner 1916, read in OCR", via: direct}
+      - {who: "A. H. Gardiner (1916)", kind: person, position: "in the Sallier papyrus tale Seqenenre is 'a more or less obedient vassal' of Apophis; Kamose was probably his successor (so vassalage earlier, war later)", source_read: "Gardiner 1916, read in OCR", via: direct}
+    positions:
+      - {label: "rebellion against an overlord", holder: "speaker", ground: "not stated in the claim; may rest on vassalage in the Sallier tale (a story, not read)"}
+      - {label: "war between a Theban kingdom and the Avaris kingdom", holder: "the tablet's framing (as translated)", ground: "the king's speech names two princes sharing the land; no overlord is named in the lines read"}
+    anchor:
+      type: search-record
+      description: "Read: Gardiner's translation (the king's speech; his conclusion citing the Sallier papyrus). The Sallier tale and the second stela were not read. Whether Thebes owed submission to Avaris at Kamose's accession is an open question here."
+      sources: [src-gardiner-translation, src-gardiner-1916-jea3]
+    basis: "The tablet reports a war, not an act of rebellion; 'rebelled' needs a source showing subjection. Not filed refuted because the second stela and the Sallier tale were not read."
+    next_step: "Read the second stela's opening (Habachi 1972; Smith and Smith 1976) and the Sallier tale in a named edition; look for any statement of subjection."
+
+  - id: kamose-sp-rebelled-against-nubia-south
+    state: searched_gap
+    statement: "'and the Nubian king to the south' (dh-HN0wNVpfunM-18) / 'and the Nubians in the south' (dh-qL1VmGF3BF8-16): that Kamose rebelled against a Nubian ruler."
+    statement_kind: search_result
+    evidence_class: interpretive
+    confidence: low
+    evidential_weight: 1
+    anchor_checked: 'no'
+    adoption_weight: 3
+    adoption_note: "Dead Hidden."
+    would_change_if: "a text read shows Kamose in subjection to a Nubian king (rebellion) or acting against one"
+    next_step: "As for kamose-nubian-campaign; also read whether any text calls Kush his overlord."
+    anchor:
+      type: search-record
+      description: "See kamose-nubian-campaign. The tablet's translations name 'a prince ... in Kush' beside the one in Avaris; they do not say Kamose was subject to him or acted against him."
+      sources: [src-gardiner-translation, src-griffith-translation]
+    basis: "Not read beyond the tablet."
+
+  - id: kamose-sp-defeated-both
+    state: proposed
+    statement: "'defeated both' (dh-HN0wNVpfunM-18): that Kamose defeated the king of Avaris and the Nubian king."
+    statement_kind: judgment
+    evidence_class: interpretive
+    confidence: low
+    evidential_weight: 1
+    anchor_checked: 'no'
+    adoption_weight: 4
+    adoption_note: "Dead Hidden; a common simplification of the war."
+    would_change_if: "a text read narrates a defeat of the king of Avaris or a Kushite king by Kamose (the second stela, the first stela or a Nubian rock inscription)"
+    anchor:
+      type: interpretive
+      description: "The tablet translations (kamose-tablet-text-no-defeat-of-rulers) narrate one victory, over Teti son of Pepi at Nefrusi. Griffith 1912 says Ahmose captured Avaris and crushed the Nubian rival. As translated, neither named ruler is shown defeated by Kamose."
+      sources: [src-gardiner-translation, src-griffith-translation]
+    basis: "Against the speaker's wording as far as the tablet goes; the stelae were not read, so not refuted."
+    next_step: "Read the second stela's account of the raid on the Avaris side and the intercepted letter (Habachi 1972)."
+
+  - id: kamose-sp-took-their-people-into-slavery
+    state: proposed
+    statement: "'took their people into slavery' (dh-HN0wNVpfunM-18)."
+    statement_kind: judgment
+    evidence_class: interpretive
+    confidence: low
+    evidential_weight: 1
+    anchor_checked: 'no'
+    adoption_weight: 3
+    adoption_note: "Dead Hidden; the booty line is the likely basis but is narrower."
+    would_change_if: "the hieratic word for the booty is read and means enslaved people, and a text read shows their number or origin as Avaris or Nubia, or the second stela's booty passages say so"
+    anchor:
+      type: interpretive
+      description: "The translations say his soldiers carried off 'slaves, cattle, fat and honey' at Nefrusi (kamose-tablet-text-booty-slaves). That is booty at one place from Teti's town; the people are not said to be of Avaris or Nubia, and no policy of enslaving a people is stated. The sign for 'slaves' was not seen."
+      sources: [src-gardiner-translation, src-griffith-translation]
+    basis: "Partly supported at weight 1 by two related translations; the wider claim ('their people') is not in what was read. Not filed refuted: the stelae and the hieratic were not read."
+    next_step: "Read the booty passages of the second stela and the Habachi and Smith translations of the tablet's booty line."

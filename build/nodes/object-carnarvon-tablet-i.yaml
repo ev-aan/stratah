@@ -1,0 +1,46 @@
+# Shared node. Append-only: a change is a new `rev` plus a `history` entry, never an overwrite. See build/SCHEMA.md, Nodes.
+id: object-carnarvon-tablet-i
+rev: 1
+type: object
+label: 'Carnarvon Tablet I: a hieratic writing-board whose obverse (per Gardiner 1916 and Griffith 1912) carries a text about Kamose'
+time: '1908-01-01'
+precision: year
+date_basis: stated
+kind: document
+status: single
+what: >-
+  A wooden writing-board covered with stucco, found in 1908 on a rock ledge among pottery and mutilated mummies in the courtyard of a Seventeenth Dynasty tomb
+  (No. 9) at the Birabi site, near the mouth of the Deir el-Bahari valley (Carter, in Carnarvon and Carter 1912). Gardiner 1916 describes it as one of a pair of
+  hieratic boards; Tablet I bears the historical text on one face and, on the other, a copy of the beginning of the Proverbs of Ptahhotpe and the lines of a draughtsboard.
+  The text of the historical face is written, in Gardiner's reading, in a hand of the end of the Seventeenth Dynasty. The date of the writing and the regnal year in the text are
+  disputed (see the dig's claims). Gardiner says a missing corner of Tablet II was bought by Petrie and was in his own hands in 1916, with the larger fragment in the Cairo Museum.
+  Where Tablet I is now was not read in a source opened here (a search-result title gave Cairo JE 41790; not opened).
+object:
+  class: hieratic writing-board, stuccoed wood
+  material: wood with stucco (fine plaster) writing surface (Griffith, chapter VI note 19, in Carnarvon and Carter 1912)
+  museum: 'not established here (lead only: Egyptian Museum, Cairo)'
+  accession: 'not established here (lead only: JE 41790, from a search-result title for a TLA record that was blocked)'
+  held_now:
+    status: not established
+    as_of: '2026-10-14'
+    note: >-
+      Gardiner 1916 says part of Tablet II is in the Cairo Museum; Jequier 1911 (cited by Griffith) calls it 'Tablette Carnarvon au Caire'. No museum record was opened.
+sources:
+- title: 'Earl of Carnarvon and Howard Carter, Five Years'' Explorations at Thebes (Oxford: Henry Frowde / OUP, 1912), chapter V (Carter) and chapter VI (Griffith), Project Gutenberg #48382, text read'
+  url: https://www.gutenberg.org/ebooks/48382
+  authenticity: unchecked as an object record; excavator's own report (see the kamose-texts manifest)
+  origin: carnarvon-carter-1912
+  source_type: testimony
+  access: read
+- title: 'A. H. Gardiner, The Defeat of the Hyksos by Kamose: the Carnarvon Tablet No. I, Journal of Egyptian Archaeology 3 (1916) 95-110, Internet Archive scan in.ernet.dli.2015.70975, OCR read'
+  url: https://archive.org/details/in.ernet.dli.2015.70975
+  authenticity: edition with named tests (see the kamose-texts manifest); OCR only, hieratic plate not read
+  origin: gardiner-1916
+  source_type: scholarly
+  access: read
+manifest: {subject: kamose-texts, source: src-carnarvon-carter-1912}
+created: '2026-10-14'
+history:
+- rev: 1
+  date: '2026-10-14'
+  change: Created by the kamose-texts dig as the object that the find event points at. Present holder not established; no coordinates given because no source read gives any.

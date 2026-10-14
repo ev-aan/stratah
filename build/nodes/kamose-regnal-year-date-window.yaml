@@ -1,0 +1,52 @@
+# Shared node. Append-only: a change is a new `rev` plus a `history` entry, never an overwrite. See build/SCHEMA.md, Nodes.
+id: kamose-regnal-year-date-window
+rev: 1
+type: event
+label: 'Kamose''s campaign year in BCE: not fixed by anything read; sources give about 1555 to 1550 BCE, and a radiocarbon range for the start of the next dynasty bounds it'
+time: -1550-01-01T00:00:00Z
+precision: year
+date_basis: inferred
+kind: analysis
+status: disputed
+what: >-
+  The speaker's date is 1550 BC. Two web pages read (Digital Karnak, a project record; Minot State University's HIST 105 reader) give Kamose's reign as about 1555 to 1550 BCE, with no
+  stated authority for the figures. Bronk Ramsey and colleagues (Science, 2010; abstract read) report a radiocarbon-based range of 1570 to 1544 BCE for the START of the New Kingdom,
+  the dynasty after Kamose's. Kamose's last years fall shortly before that start. That link, and its size, is our inference and was not read in any source; it is the basis of the window below.
+  The Carnarvon Tablet itself gives only a regnal year (year 3 in Gardiner 1916; year 7 in Griffith 1912), so no BCE date is read from it.
+window:
+  earliest: -1575-01-01
+  latest: -1544-12-31
+  certainly_covers:
+    from: -1550-01-01
+    to: -1550-12-31
+  begin_note: >-
+    Inferred lower bound: the earliest end of the radiocarbon range for the start of the New Kingdom (1570 BCE, Bronk Ramsey et al. 2010) plus a few years for a reign that ends as that dynasty begins. The size of the allowance is our guess; no source read states it.
+  end_note: >-
+    Latest end of the same radiocarbon range (1544 BCE). The page figures of 1555 to 1550 BCE sit inside the window. Whether Kamose's reign ended exactly where the New Kingdom begins, or overlapped Ahmose's, is not settled by anything read here.
+sources:
+- title: 'Digital Karnak (UCSC), Victory Stela of Kamose: page gives Dynasty 17, 1555-1550 BCE (no stated authority)'
+  url: https://digitalkarnak.ucsc.edu/victory-stela-of-kamose/
+  authenticity: project web page, read 2026-10-14; authority for the date not given
+  origin: digital-karnak
+  source_type: scholarly
+  access: read
+- title: 'Minot State University, HIST 105 source reader, The Kamose Texts: reign about 1555-1550 BCE (no stated authority)'
+  url: https://oer.minotstateu.edu/projects/105SourceReader/the-kamose-texts-3.html
+  authenticity: student reader, read 2026-10-14; authority for the date not given
+  origin: minot-oer
+  source_type: secondary_report
+  access: read
+- title: 'C. Bronk Ramsey et al., Radiocarbon-based chronology for dynastic Egypt, Science 328 (2010) 1554-1557, abstract page (Haifa repository), abstract only read'
+  url: https://cris.haifa.ac.il/en/publications/radiocarbon-based-chronology-for-dynastic-egypt-2/
+  authenticity: abstract only; paper not opened; funding of the study not stated on the page read
+  origin: bronk-ramsey-2010
+  source_type: scholarly
+  access: read
+manifest: {subject: kamose-texts, source: src-bronk-ramsey-2010}
+created: '2026-10-14'
+history:
+- rev: 1
+  date: '2026-10-14'
+  change: >-
+    Created by the kamose-texts dig. A window, not a date: the single time (1550 BCE) is the speaker's and Digital Karnak's end date, not a result. No chronology of the Seventeenth Dynasty was opened;
+    the window rests on our inference from the New Kingdom start range.
