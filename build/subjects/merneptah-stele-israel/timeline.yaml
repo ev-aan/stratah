@@ -1,0 +1,89 @@
+timeline:
+  id: merneptah-stele-israel
+  title: "The Merneptah (Israel) Stele: finds, publications and readings of the text (1867 to 2016)"
+  as_of: "2026-10-15"
+  note: >
+    Times are UTC. Every dot on this page is a modern date (a find, a publication, a catalogue): each is known to the year or month only, so dots are drawn as approximate, and each says how its date was arrived at
+    (stated, derived or inferred). The dates inside the ancient texts are regnal dates (year 5 of Merneptah, day 3 of the third month of a season). They are NOT converted to a BCE year here: no chronology of the Nineteenth Dynasty
+    was read, and the round figures seen (1200 BC, about 1209 BCE) are statements, not a computed range (claim merneptah-absolute-date-bce). They are listed in the YAML under `undated_events` and are not drawn.
+    A dot is a record of what a source says, not proof of the event. Dates for the Duemichen fragment, Spiegelberg's article and Petrie's 1896 notice come from other books' statements or item metadata, not from the works themselves.
+panels:
+  - id: modern-a
+    title: "Panel A: 1860 to 1912, the Karnak fragment, the find, the first publications and the Cairo catalogue (one tick per five years)"
+    start: "1860-01-01T00:00:00Z"
+    end:   "1912-01-01T00:00:00Z"
+    tick_years: 5
+    lanes: [object, text]
+  - id: modern-b
+    title: "Panel B: 2008 to 2018, later papers on the name (one tick per year)"
+    start: "2008-01-01T00:00:00Z"
+    end:   "2018-01-01T00:00:00Z"
+    tick_years: 1
+    lanes: [later]
+lanes:
+  object: {label: "The object: find and museum"}
+  text:   {label: "The text: copies, translations, studies"}
+  later:  {label: "Later papers on the reading of the name"}
+people:
+  - {who: "W. M. Flinders Petrie", detail: "Excavator of the temple of Merneptah at Thebes in 1896; author of Six Temples at Thebes (1897)."}
+  - {who: "Wilhelm Spiegelberg", detail: "Published the text and a commentary in Zeitschrift fuer aegyptische Sprache 34 (1896) and the translation in Petrie 1897."}
+  - {who: "James Henry Breasted", detail: "Translated the stele and the Karnak and Athribis texts in Ancient Records of Egypt, vol. 3 (1906)."}
+  - {who: "Pierre Lacau", detail: "Wrote the 1909 Cairo Museum catalogue entry (Catalogue general 34025)."}
+  - {who: "Johannes Duemichen", detail: "Published the Karnak fragment of a duplicate in Historische Inschriften I (1867)."}
+  - {who: "Peter van der Veen, Christoffer Theis, Manfred Goerg", detail: "Authors of the 2010 article proposing an earlier writing of the name on a Berlin relief."}
+  - {who: "Ingrid Hjelm", detail: "Author of the 2016 chapter that says scholars have disagreed about how the hieroglyphs of the name should be read."}
+sources:
+  src-duemichen-1867:   {title: "Duemichen, Historische Inschriften altaegyptischer Denkmaeler I (1867), Taf. I (Internet Archive)", url: "https://archive.org/details/bub_gb_54xCAAAAcAAJ", authenticity: "authenticated, weak; plate opened, signs not read"}
+  src-petrie-1897:      {title: "Petrie, Six Temples at Thebes (1897), sections 29 and 48 and Plates XIII-XIV (Internet Archive)", url: "https://archive.org/details/sixtemplesattheb00petruoft", authenticity: "authenticated, moderate; the excavator's own report"}
+  src-lacau-1909:       {title: "Lacau, Catalogue general du Musee du Caire, Steles du Nouvel Empire 1 (1909), entry 34025 (Internet Archive)", url: "https://archive.org/details/LacauSteles1Fasc1", authenticity: "authenticated, moderate; the museum's own catalogue"}
+  src-breasted-are3:    {title: "Breasted, Ancient Records of Egypt vol. 3 (1906), sections 570-617 (Internet Archive)", url: "https://archive.org/details/ancientrecordsof03brea", authenticity: "authenticated, moderate; a translation"}
+  src-jaei-2010:        {title: "van der Veen, Theis, Goerg, JAEI 2:4 (2010) 15-25 (open-access PDF)", url: "https://journals.librarypublishing.arizona.edu/jaei/article/937/galley/932/download/", authenticity: "authenticated, weak; read in part"}
+  src-hjelm-2016:       {title: "Hjelm, 'Lost and Found?' (2016), author's copy", url: "https://bibleinterp.arizona.edu/sites/bibleinterp.arizona.edu/files/images/CP%206-%2007%20Hjelm.pdf", authenticity: "unchecked; pages 1-3 read"}
+events:
+  # ---------------- Panel A ----------------
+  - {id: m01, panel: modern-a, lane: text, time: "1867-07-01T12:00:00Z", precision: year, date_basis: stated, kind: document, status: single, sources: [src-duemichen-1867],
+     label: "1867: Duemichen publishes the Karnak fragment of a duplicate of the inscription",
+     detail: "Year from the Internet Archive item record (publisher Hinrichs); the printed year was not read on the title page. Taf. I, fragment c, has 19 numbered lines (viewed 2026-10-15). By Petrie's concordance it ends about a third of the way along line 27 of the Thebes text."}
+  - {id: m02, panel: modern-a, lane: object, time: "1896-01-01T00:00:00Z", precision: year, date_basis: stated, kind: document, status: single, sources: [src-petrie-1897],
+     label: "1896: Petrie finds the stele in the first court of Merneptah's temple, Thebes (the excavator's report)",
+     detail: "Year from the report's title ('Six Temples at Thebes, 1896') and its statement that this was the greatest discovery of the temple. The month and day are not in the passages read. Same event as shared node merneptah-1896-petrie-finds-israel-stele (rev 1)."}
+  - {id: m03, panel: modern-a, lane: text, time: "1896-05-01T12:00:00Z", precision: month, date_basis: stated, kind: analysis, status: single, sources: [src-lacau-1909],
+     label: "May 1896: Petrie's notice in the Contemporary Review (listed in Lacau's bibliography; not read)",
+     detail: "Lacau's bibliography line gives 'Contemporary Review, May 1896'. Derived from that listing: the find was reported in print by May 1896. The article itself was not read."}
+  - {id: m04, panel: modern-a, lane: text, time: "1896-07-01T12:00:00Z", precision: year, date_basis: stated, kind: analysis, status: reported, sources: [src-petrie-1897, src-lacau-1909],
+     label: "1896: Spiegelberg publishes the text and a commentary in Zeitschrift fuer aegyptische Sprache 34",
+     detail: "Petrie's section 48 and Lacau's bibliography both give 1896 (ZAeS XXXIV, pp. 1-25 per Lacau). The article was not found and not read."}
+  - {id: m05, panel: modern-a, lane: text, time: "1897-07-01T12:00:00Z", precision: year, date_basis: stated, kind: document, status: single, sources: [src-petrie-1897],
+     label: "1897: Petrie publishes Six Temples at Thebes, with Spiegelberg's translation and Plates XIII-XIV",
+     detail: "Year from the title page (read in the OCR). Section 48 says the translation was made from a hand copy, a squeeze and photographs; Plate XIV is a facsimile of lines 1 to 28."}
+  - {id: m06, panel: modern-a, lane: text, time: "1906-07-01T12:00:00Z", precision: year, date_basis: stated, kind: analysis, status: single, sources: [src-breasted-are3],
+     label: "1906: Breasted publishes a translation of the stele and of the Karnak and Athribis texts",
+     detail: "Ancient Records of Egypt vol. 3, sections 570-617. He says he also had Brugsch's photographs and collated the Karnak fragment."}
+  - {id: m07, panel: modern-a, lane: object, time: "1909-07-01T12:00:00Z", precision: year, date_basis: stated, kind: official, status: single, sources: [src-lacau-1909],
+     label: "1909: Lacau's Cairo catalogue lists the stele as 34025 (Journal d'entree 31408)",
+     detail: "Entry read as page images, 2026-10-15; the catalogue is dated 1909 in the Internet Archive record. It does not show where the stele is now."}
+  # ---------------- Panel B ----------------
+  - {id: m08, panel: modern-b, lane: later, time: "2010-07-01T12:00:00Z", precision: year, date_basis: stated, kind: analysis, status: single, sources: [src-jaei-2010],
+     label: "2010: an article proposes an earlier writing of the name on a Berlin relief",
+     detail: "Journal of Ancient Egyptian Interconnections 2:4; it quotes James Hoffmeier as rejecting the reading (claim merneptah-israel-earlier-reading-proposal)."}
+  - {id: m09, panel: modern-b, lane: later, time: "2016-07-01T12:00:00Z", precision: year, date_basis: stated, kind: analysis, status: single, sources: [src-hjelm-2016],
+     label: "2016: a chapter says scholars have disagreed about how the hieroglyphs of the name should be read",
+     detail: "Hjelm, 'Lost and Found?' (claim merneptah-reading-israel-disputed). Year from the document's own header; the printed chapter was not compared."}
+
+# Dates inside the ancient texts. These are regnal dates and are NOT converted to years BCE (no chronology was read; see claim merneptah-absolute-date-bce). Not drawn on the diagram.
+undated_events:
+  - id: u01
+    label: "Date line of the hymn on the stele: year 5 of Merneptah, day 3 of the third month of a season"
+    date_basis: stated
+    detail: "As printed in two translations: Petrie/Spiegelberg 'third month of the period of inundation'; Breasted 'third month of the third season (eleventh month)'. The signs of the date line were not transliterated (claims merneptah-regnal-date-year-5 and merneptah-date-season-discrepancy)."
+    sources: [src-petrie-1897, src-breasted-are3]
+  - id: u02
+    label: "Libyan battle in Merneptah's year 5, day 3 of the third month of the third season (eleventh month), per Breasted's translations of the Athribis stela (section 598) and the Great Karnak Inscription (section 583)"
+    date_basis: stated
+    detail: "One translator's renderings of two texts whose originals were not read (claim merneptah-libyan-war-year-5-parallels). Breasted also gives the report of the invasion reaching the king in the tenth month of that year (sections 570 and 595)."
+    sources: [src-breasted-are3]
+  - id: u03
+    label: "Calendar year BCE of year 5 of Merneptah"
+    date_basis: not_established
+    detail: "Not computed. The speaker says 1200 BC; Hjelm 2016 says 'around 1209 BCE' for the campaign; neither is a chronology. Gap: merneptah-absolute-date-bce."
+    sources: [src-hjelm-2016]

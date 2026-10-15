@@ -43,3 +43,51 @@ log:
       REVIEW RESPONSE (PR #23, first review: request changes). Fixed: merneptah-sp-stele-records-israel lowered from weight 3 to 2 to match the claim it rests on and L-06; its anchor type changed to interpretive.
       merneptah-sp-date-1200-bc lowered to weight 1 (no chronology read). Anchor types on merneptah-sp-single-nation and merneptah-sp-conquered-canaan changed from primary_text to interpretive, and the node source_type from primary_document to scholarly,
       to match the owner's correction that the books are not primary data. The searched_gap claims that name the hieroglyphic text as the thing still to be read keep evidence_class primary_text, since they point at the unread object text, not at the books.
+  - id: L-08
+    date: 2026-10-15
+    entry: >
+      DIG TAKEN OVER. A new author took the dig after the first pass was judged thin ("first pass, primary data unread") and stopped, following the round-1 revision requests R1-1 to R1-8 on PR #23. Work is on branch
+      fix/merneptah-stele-israel from origin/main. No review.yaml is written, no owner-only file is edited (taxonomy, site.yaml, docs, SCHEMA, conformance), and nothing is merged or opened as a PR by the author.
+      Earlier entries L-01 to L-07 are unchanged; where this pass corrects them, the correction is a new entry below (L-10 and L-11 correct L-02, L-03 and L-04).
+  - id: L-09
+    date: 2026-10-15
+    entry: >
+      OPENED AND READ AS TEXT (downloads with curl, UTC 2026-10-14 to 2026-10-15). (1) Petrie, Six Temples at Thebes (1897), Internet Archive OCR text, sha256 4a98d46cd57194ea4ad45d560f8ff4440d31d9aa52afd62efa3c4d8006d23668 (identical to the file in L-02);
+      sections 29, 48 and the note after 51 re-read. (2) Breasted, Ancient Records of Egypt vol. 3 (1906), OCR text, sha256 ed7d91750e03925004b5de21e05d2814d1e319f5f6cade0284a079feb0eeb958 (identical to L-02); sections 570-617 read, now including the Great Karnak Inscription
+      (sections 572-592, for dates and for the parallel) and the Athribis stela (596-601). (3) van der Veen, Theis and Goerg, Journal of Ancient Egyptian Interconnections 2:4 (2010) 15-25, open-access PDF, sha256 72e4031899268a0e83cb3bd75e68a10e9d757e8a69fb348f19d190cca516a5f4; read in part (abstract, relief description,
+      the discussion of the broken name, dating passage, notes 2 to 16 and 49 to 50); its hieroglyph characters are garbled in the text layer. (4) Hjelm, "Lost and Found?" (2016), author's copy on bibleinterp.arizona.edu, sha256 f7e0c4514692426f6e4cef90ac9cf7ab339d866e1d6d6d861567ca831bcd9d2d;
+      pages 1 to 3 read. (5) The TLA open data set (Hugging Face thesaurus-linguae-aegyptiae/tla-late_egyptian-v19-premium, CC BY-SA 4.0), train.jsonl sha256 dfded75c7d34bc1f2f12e18af6936394dc0c5cadacd1229dc28d46751d6389df, searched for Israel, Askelon, Gezer, Yenoam, Kanaan and Merenptah in its
+      3,606 intact sentences: no sentence from the stele (a search with no hit, not a read of the stele). Short excerpts are in sources/extracts/.
+  - id: L-10
+    date: 2026-10-15
+    entry: >
+      OPENED AND LOOKED AT AS IMAGES (correcting L-02, which said no plate image was looked at, and L-03, which said Duemichen's plate was not opened). (1) Petrie 1897 scan PDF, sha256 8bfa1289c1b7a1317c6f01f26665e08127523cb85654e4d23717e2d608047f91: Plate XIII (PDF page 69) and Plate XIV
+      (PDF page 71, the facsimile, rendered at 200 and 400 dpi). Plate XIV shows 28 numbered lines (marks at every fifth line); the king's two cartouches stand in lines 26 and 28 and not in line 27. (2) Lacau, Catalogue general du Musee du Caire, Steles du Nouvel Empire vol. 1 fasc. 1 (1909), Internet Archive item
+      LacauSteles1Fasc1, PDF sha256 f0e8d51d466c5d58cf570e25c0f2243c13fd7ce5898152a755bd0e2bd83ea378: printed pages 47, 52, 54, 55, 57 and 58 (the entry for 34025, with the typeset hieroglyphic text of the verso numbered to 28; line 27 begins at the marker "27" on page 58 and ends at "28") and Plate XIX (photograph).
+      (3) Duemichen, Historische Inschriften I (1867), Google digitisation on the Internet Archive (bub_gb_54xCAAAAcAAJ), PDF sha256 4dcd7e7e0944a2f84b41aca7880de15635788b734a2968953e1cde1efd3dc77c: Taf. I (PDF page 9), fragments a, b and c; c shows 19 numbered lines.
+      WHAT WAS NOT DONE: no sign was transliterated. The author is not an Egyptologist, no sign list or hieroglyphic edition was used, and the two copies were not compared sign by sign. So merneptah-hieroglyphic-israel-reading and merneptah-date-season-discrepancy stay searched_gap: the signs were looked at, not read.
+      The OCR layer of Lacau's book is unreliable (it gave "n° 3 tl108" where the page image reads "n° 31408"), so every Lacau fact in the claims was taken from the images and transcribed in sources/extracts/lacau-1909-extract.txt.
+  - id: L-11
+    date: 2026-10-15
+    entry: >
+      WHAT THE READING FOUND. (1) Cairo record (R1-7; corrects L-04 item 6): Lacau 1909 lists the stele as Catalogue general 34025 (recto and verso, one slab) with Journal d'entree n° 31408, grey granite, 3 m 18 by 1 m 63 by 0 m 31, from Thebes, the funerary temple of Merneptah. The two numbers in the earlier search summaries are
+      two registers of one object. The claim merneptah-cairo-accession-jE31408, filed as searched_gap in L-04 with the text "The stele is Cairo Egyptian Museum JE 31408 (one search summary gave Cairo 34025); neither book read gives an inventory number.", is now established on the 1909 catalogue (read as images) and says only what that
+      catalogue says; the museum's current record was not opened. (2) Petrie calls the stone "black granite", Lacau "Granit gris": new claim merneptah-material-description-differs, a note on two descriptions, no test read. (3) Lacau says the Amenophis side was hammered by Amenophis IV and re-engraved by Seti I (added to merneptah-findspot-and-reuse). (4) Karnak duplicate:
+      Duemichen's plate exists with 19 lines, as Petrie says; by Petrie's concordance its last line ends about a third of the way along line 27, so it is not shown to contain the Israel line (added to merneptah-duplicate-at-karnak and merneptah-forgery-allegation; the alignment itself was not checked). (5) Breasted's translations of the Karnak inscription (section 583) and the Athribis stela (section 598) give the
+      same year, season and day as his section 607: new claim merneptah-libyan-war-year-5-parallels, one translator's three renderings, not an independent check of the Israel stele's date line; the Petrie/Spiegelberg season still differs and the gap stays open. (6) JAEI 2010 proposes an earlier writing of the name on a Berlin relief and quotes Hoffmeier's objection: new contested claim
+      merneptah-israel-earlier-reading-proposal; it bears on "first mention" and is noted in merneptah-sp-stele-records-israel. (7) Hjelm 2016 says scholars have disagreed about how the hieroglyphs should be read and names other proposals: new contested claim merneptah-reading-israel-disputed; the 2002 article it cites was not opened. (8) No BCE year was found in Breasted's Merneptah sections (searched);
+      Hjelm gives "around 1209 BCE" without a chronology. The absolute date stays a searched_gap and no regnal year is converted to a BCE year anywhere in this dig, including the timeline.
+  - id: L-12
+    date: 2026-10-15
+    entry: >
+      BLOCKED OR NOT OPENED (none bypassed). TLA record page (bot-verification page, tried again). UCL Digital Egypt (HTTP 403, tried again). Heidelberg digitisation of the Egypt Exploration Fund Archaeological Report 1896-97 (an Anubis bot-check page). A web page by Davidovits that a search result says argues Lacau's line 27 was altered (HTTP 403; known only from a search-result summary, which is not a read).
+      A 2025 Studia Antiqua article on the determinative (Cloudflare challenge) and a 2020 JETS article (HTTP 403). Not located or not opened: Kitchen, Ramesside Inscriptions IV; Spiegelberg, ZAeS 34 (1896); Manassa 2003; the Athribis and Karnak originals; Hasel, Rainey, Stager, Yurco, Hoffmeier, Hjelm and Thompson 2002, Kitchen 2004; any chronology of the Nineteenth Dynasty
+      (the Brill volume is not open access; a Scribd copy was not used); the Cairo Museum's current record. Plates XVII and XVIII of Lacau were not individually viewed. The OCR of Petrie sections 29, 48 and 51 and of Breasted was not compared with page images beyond the plates and pages listed in L-10.
+  - id: L-13
+    date: 2026-10-15
+    entry: >
+      CHANGES TO CLAIMS, AND WHY. Weights were not raised except merneptah-cairo-accession-jE31408 (searched_gap to established, evidential weight 4, confidence high, anchor_checked primary), because the 1909 catalogue entry was read as images and the claim is limited to what that entry says. All translation-based claims stay proposed, interpretive, secondary, weight 2 or lower.
+      Reworded: merneptah-hieroglyphic-israel-reading and merneptah-date-season-discrepancy (say what was looked at and that nothing was transliterated); merneptah-absolute-date-bce (adds the Hjelm figure, as a statement, not a range); merneptah-forgery-allegation (the allegation page was tried and is blocked; adds what the 1867 fragment does and does not show);
+      merneptah-findspot-and-reuse (adoption_note rewritten, R1-5: it now says the four speaker claim lines read do not mention the reuse; adds Lacau); merneptah-duplicate-at-karnak and merneptah-text-silent-on-nation-king-hyksos (plate viewed, not transliterated); the speaker claims merneptah-sp-stele-records-israel, merneptah-sp-date-1200-bc and merneptah-sp-single-nation (later sources added).
+      New claims: merneptah-reading-israel-disputed, merneptah-israel-earlier-reading-proposal, merneptah-libyan-war-year-5-parallels, merneptah-material-description-differs. Added headline, headline_claim (headline_status stays draft: no claim on the stele's text is above secondary), assessment (answer "partly"), timeline.yaml, extracts and new manifest entries.
+      The manifest's two phrases that restated the L-06 research task were removed so that L-06 is the only place it is recorded (R1-6). Nothing here makes a claim about the motives of any author or editor.

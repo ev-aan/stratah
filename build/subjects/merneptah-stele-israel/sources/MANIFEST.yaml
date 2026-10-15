@@ -1,62 +1,208 @@
 # Sources for the merneptah-stele-israel dig, with authenticity entries (rules A1-A10, build/SCHEMA.md).
-# Nothing is stored as a copy; sources are cited by URL. Tests were run in this session (2026-10-14), which is not an independent review.
-# The two books below are OCR of public-domain scans (Petrie 1897, Breasted 1906). Neither shows the hieroglyphs in text form: the glyph plates
-# were NOT looked at, so no claim here rests on a reading of the signs. The object itself and its museum record were not seen.
-retrieved: 2026-10-14
+#
+# What "authenticity" means here: whether each SOURCE is what it says it is. It is not the answer to the dig's question.
+# Tests were run by the dig author (2026-10-14 to 2026-10-15, UTC), which is not an independent review.
+#
+# Storage: nothing is stored as a full copy. sources/extracts/*.txt keep only the short passages that claims cite. Downloads were made with curl from the
+# Internet Archive, an open-access journal site and a university-hosted PDF; the sha256 of each file as downloaded is recorded in the entry and in log L-09.
+#
+# How each source was read (the `read:` field):
+#   text      = the printed text (OCR text layer of a scan, or a PDF text layer) was read
+#   images    = page images (including hieroglyphic text and plates) were opened and looked at
+#   not read  = not opened, or blocked
+# Looking at hieroglyphs is not the same as transliterating them. No entry below says the signs were transliterated or checked against a hieroglyphic
+# edition by a specialist: they were not (claim merneptah-hieroglyphic-israel-reading).
+retrieved: 2026-10-15
 sources:
 
+  # ------------------------------------------------------------------ the 1897 excavation report and its plates
   - id: src-petrie-1897
     title: "W. M. F. Petrie, Six Temples at Thebes, 1896 (London: Bernard Quaritch, 1897), with a chapter by W. Spiegelberg"
     url: https://archive.org/details/sixtemplesattheb00petruoft
-    document_class: "secondary: excavator report by the finder (testimony, not the object). Author and funders of the 1896 season and of the book: UNRESEARCHED"
-    read: yes, directly (Internet Archive OCR text, sha256 4a98d46cd57194ea4ad45d560f8ff4440d31d9aa52afd62efa3c4d8006d23668; sections 29, 48, 51)
+    document_class: "secondary: excavator report by the finder (testimony, not the object)"
+    read: "text (Internet Archive OCR, sha256 4a98d46cd57194ea4ad45d560f8ff4440d31d9aa52afd62efa3c4d8006d23668; sections 29, 48 and the note after 51; re-read 2026-10-15) and images (the 106-page scan PDF, sha256 8bfa1289c1b7a1317c6f01f26665e08127523cb85654e4d23717e2d608047f91; Plates XIII and XIV, PDF pages 69 and 71)"
+    sha256: 4a98d46cd57194ea4ad45d560f8ff4440d31d9aa52afd62efa3c4d8006d23668   # OCR text as downloaded
+    stored_as: "sources/extracts/petrie-1897-extract.txt"
     authenticity:
       status: authenticated
       strength: moderate
       provenance: "Printed 1897 by Clowes for Quaritch (title page, read in the OCR). Internet Archive scan item sixtemplesattheb00petruoft, rights status NOT_IN_COPYRIGHT in the item metadata. Holder of the scanned copy not recorded here."
       tests:
         - "Title page, year and publisher read in the OCR and agree with the Internet Archive metadata (could have failed)"
-        - "Petrie's statement that a duplicate existed at Karnak, published by Duemichen, agrees with Breasted's independent note (could have failed)"
+        - "Petrie's statement that a duplicate existed at Karnak, published by Duemichen, agrees with Breasted's separate note and with Duemichen's plate, which was opened (could have failed; see src-duemichen-1867)"
+        - "Petrie's and Spiegelberg's statement that the text was published in Zeitschrift fuer aegyptische Sprache 1896 agrees with the bibliography line in Lacau's 1909 catalogue entry, which lists Spiegelberg, Aeg. Zeits. XXXIV (1896) and Petrie's Plates XIII and XIV (could have failed; see src-lacau-1909)"
         - "Date, protocol and the Israel line of Spiegelberg's translation agree in substance with Breasted's separately collated translation (could have failed)"
-      tested_by: "Stratah dig session, 2026-10-14 (not an independent review)"
-      gaps: ["OCR only; page images not compared", "Plates XIII (photograph) and XIV (facsimile) not viewed", "Not compared with a second printing or holder copy"]
-      next_step: "View Plates XIII and XIV in the scan and read the signs of the Israel line against a hieroglyphic edition."
-      checked: 2026-10-14
+      tested_by: "Stratah dig author session (not an independent review)"
+      gaps: ["OCR text compared with page images only for Plates XIII and XIV, the imprint and the last strophe of section 48 (PDF page 38, where three OCR faults were found and corrected in the extract), not for the rest of sections 29, 48 and 51", "Not compared with a second printing or a holder copy"]
+      next_step: "Compare the OCR of sections 29, 48 and 51 with the page images."
+      checked: 2026-10-15
     notes: "Title says 1896 (the dig season); publication 1897."
+
+  - id: src-petrie-pl-xiv
+    title: "Petrie 1897, Plate XIV: facsimile copy of the inscription on the Merneptah stele (lines 1 to 28), 1:8, from the Internet Archive scan"
+    url: https://archive.org/details/sixtemplesattheb00petruoft
+    document_class: "interpretive: a hand facsimile of the signs, made from Spiegelberg's hand copy, Petrie's paper squeeze and photographs, not the object"
+    derived_from: src-petrie-1897
+    read: "images (PDF page 71 of the scan, rendered at 200 and 400 dpi and viewed; lines 1 to 28 are visible and numbered at every fifth line). The signs were NOT transliterated."
+    authenticity:
+      status: authenticated
+      strength: moderate
+      provenance: "Plate in Petrie 1897; section 48 says it was made with a hand copy, a squeeze and E. Brugsch Bey's photographs; section 29 calls it the facsimile copy."
+      tests:
+        - "Line count and layout: the plate shows 28 lines, and Lacau's 1909 typeset text of the verso (src-lacau-1909-text) is numbered to 28; the two cartouche pairs stand in lines 26 and 28 in both (could have failed)"
+      tested_by: "Stratah dig author session (not an independent review)"
+      gaps: ["No sign-by-sign comparison with Lacau's text or with the object", "The plate is a copy made under the conditions Spiegelberg describes: the stele 'lay face downward' when he copied it"]
+      next_step: "Transliterate lines 26 to 28 with a hieroglyphic edition (Kitchen RI IV, TLA) and compare the two copies sign by sign."
+      checked: 2026-10-15
 
   - id: src-spiegelberg-tr-in-petrie
     title: "W. Spiegelberg's English rendering of the Merneptah hymn, in Petrie 1897, section 48 (Plates XIII, XIV)"
     url: https://archive.org/details/sixtemplesattheb00petruoft
     document_class: interpretive (translation)
     derived_from: src-petrie-1897
-    read: yes, directly (OCR of the printed translation)
+    read: "text (OCR of the printed translation)"
+    stored_as: "sources/extracts/petrie-1897-extract.txt"
     authenticity:
       status: authenticated
       strength: moderate
       provenance: "Printed in Petrie 1897 as Spiegelberg's translation; Spiegelberg says he worked from a hand copy, Petrie's paper squeeze and E. Brugsch Bey's photographs, and had published the Egyptian text in Zeitschrift fuer Aegyptische Sprache 1896 (so section 48 gives translation only)."
       tests: ["Israel line compared with Breasted 1906 section 617: both put Israel in a list of defeated places, with Canaan, Askelon, Gezer and Yenoam named beside it (could have failed)"]
-      tested_by: "Stratah dig session, 2026-10-14 (not an independent review)"
-      gaps: ["The Egyptian text was not read; question marks in the translation mark Spiegelberg's own doubts", "Authenticity of the stele itself is a separate question (claim merneptah-forgery-allegation)"]
-      next_step: "Read Spiegelberg's text in ZAeS 34 (1896) and Plate XIV."
-      checked: 2026-10-14
+      tested_by: "Stratah dig author session (not an independent review)"
+      gaps: ["Spiegelberg's Egyptian text (ZAeS 34) was not found and not read; question marks in the translation mark his own doubts", "Authenticity of the stele itself is a separate question (claim merneptah-forgery-allegation)"]
+      next_step: "Read Spiegelberg's text in ZAeS 34 (1896)."
+      checked: 2026-10-15
 
+  # ------------------------------------------------------------------ Breasted 1906
   - id: src-breasted-are3
-    title: "J. H. Breasted, Ancient Records of Egypt, vol. 3 (Chicago: University of Chicago Press, 1906), sections 602-617 (the Israel stela)"
+    title: "J. H. Breasted, Ancient Records of Egypt, vol. 3 (Chicago: University of Chicago Press, 1906), sections 570-617 (the Libyan war, the Great Karnak Inscription, the Athribis stela and the Israel stela)"
     url: https://archive.org/details/ancientrecordsof03brea
-    document_class: "interpretive: translation with commentary. Author, publisher and funders of the work: UNRESEARCHED"
-    read: yes, directly (Internet Archive OCR text, sha256 ed7d91750e03925004b5de21e05d2814d1e319f5f6cade0284a079feb0eeb958; sections 602-617)
+    document_class: "interpretive: translation with commentary"
+    read: "text (Internet Archive OCR, sha256 ed7d91750e03925004b5de21e05d2814d1e319f5f6cade0284a079feb0eeb958; sections 570-571, 572-592 (read for dates and for the parallel with the Israel hymn), 596-601 and 602-617; re-read 2026-10-15)"
+    sha256: ed7d91750e03925004b5de21e05d2814d1e319f5f6cade0284a079feb0eeb958   # OCR text as downloaded
+    stored_as: "sources/extracts/breasted-1906-extract.txt"
     authenticity:
       status: authenticated
       strength: moderate
       provenance: "Item ancientrecordsof03brea on the Internet Archive, a 1906 printing. A 1962 Russell and Russell reprint (ancientrecordsof0003jame) is access-restricted and was not used."
       tests:
-        - "Breasted's footnote d gives the same findspot facts as Petrie (found by Petrie 1896 in the ruins of Merneptah's temple, text on the back of Amenhotep III's stela), but Breasted says he also had Brugsch's photographs and collated the Karnak duplicate (could have failed)"
+        - "Footnote d to section 602 gives the same findspot facts as Petrie (found by Petrie 1896 in the ruins of Merneptah's temple, text on the back of Amenhotep III's stela), but Breasted says he also had Brugsch's photographs and collated the Karnak duplicate (could have failed)"
         - "Section 607 date (year 5, day 3) agrees with Petrie's translation on year and day; the season differs (see claim merneptah-date-season-discrepancy)"
-      tested_by: "Stratah dig session, 2026-10-14 (not an independent review)"
-      gaps: ["OCR only", "Hieroglyphs not read", "Breasted's findspot note draws on Petrie and Spiegelberg, so it is not an independent witness to the find"]
-      next_step: "Compare the OCR with the page images for sections 603-617."
-      checked: 2026-10-14
+        - "Section 598 (Athribis stela) and section 583 (Karnak) give the same year, season and day as section 607 (see claim merneptah-libyan-war-year-5-parallels)"
+      tested_by: "Stratah dig author session (not an independent review)"
+      gaps: ["OCR only: page images not compared except as noted in log L-10", "Hieroglyphs of the Israel line not read by Breasted in the text layer: his transliteration of the name is damaged in the OCR", "Breasted's findspot note draws on Petrie and Spiegelberg, so it is not an independent witness to the find", "The Athribis and Karnak texts were read only as Breasted's translations"]
+      next_step: "Compare the OCR with the page images for sections 603-617 and 583-598."
+      checked: 2026-10-15
 
+  # ------------------------------------------------------------------ the Cairo catalogue (holder's own record)
+  - id: src-lacau-1909
+    title: "P. Lacau, Catalogue general des antiquites egyptiennes du Musee du Caire, Steles du Nouvel Empire, vol. 1 fasc. 1, Nos. 34001-34064 (Cairo: Service des Antiquites de l'Egypte, 1909), entry 34025, printed pages 47 to 58"
+    url: https://archive.org/details/LacauSteles1Fasc1
+    document_class: "official_record: the museum's own printed catalogue entry (recto, a stele of 'Amenophis'; verso, Merneptah), with the registration number, material, size, find place and bibliography"
+    read: "images (187-page PDF, sha256 f0e8d51d466c5d58cf570e25c0f2243c13fd7ce5898152a755bd0e2bd83ea378; printed pages 47, 52, 54, 55, 57 and 58 viewed; the French lines cited were transcribed from the images; the OCR text layer is unreliable for this book)"
+    sha256: f0e8d51d466c5d58cf570e25c0f2243c13fd7ce5898152a755bd0e2bd83ea378   # PDF as downloaded
+    stored_as: "sources/extracts/lacau-1909-extract.txt (the author's transcription of the French lines cited)"
+    authenticity:
+      status: authenticated
+      strength: moderate
+      provenance: "Printed catalogue of the Egyptian Antiquities Service for the Cairo Museum, 1909 (title page, 'Service des Antiquites de l'Egypte, Catalogue general'). Scan on the Internet Archive item LacauSteles1Fasc1, uploaded 2015-10-31. The scan's holder copy is not recorded."
+      tests:
+        - "The catalogue number 34025 lies in the volume's stated range 34001-34064 and the plate captions ('34.025 (verso)', Pl. XVII-XIX) agree with the text entry (could have failed)"
+        - "An independent author team (van der Veen, Theis, Goerg, JAEI 2010, note 16) cites this catalogue for the stele as 'CG 34025', pages 52-59 (esp. 58) and Plates XVII-XIX; the line-numbered hieroglyphic text with markers 25 to 28 was found on printed page 58 (could have failed; see src-jaei-2010)"
+        - "The bibliography line lists Petrie 1897 Plates XIII-XIV and Spiegelberg ZAeS XXXIV (1896), the publications Petrie's own text names (could have failed)"
+      tested_by: "Stratah dig author session; the second test uses a source by other authors, still not an independent review of this dig"
+      gaps: ["The museum's current record or database entry was not opened (src-cairo-record)", "Catalogue is dated 1909: it does not show where the stele is now", "Only entry 34025 was read, not the rest of the volume"]
+      next_step: "Open the Egyptian Museum's own current record or a later inventory (Porter and Moss, Topographical Bibliography II; Sourouzian 1989) and confirm the number and where the stele is held."
+      checked: 2026-10-15
+    notes: "'JE' (Journal d'entree) and 'CG' (Catalogue general) are two different registers. Lacau gives the Journal d'entree as n° 31408 in the bibliography line and the Catalogue general number as 34025."
+
+  - id: src-lacau-1909-text
+    title: "Lacau 1909, typeset hieroglyphic text of the verso of 34025 (Merneptah), printed pages 53 to 58, lines numbered 1 to 28"
+    url: https://archive.org/details/LacauSteles1Fasc1
+    document_class: "interpretive: a typeset transcription of the signs, made by the catalogue's author from the object; not the object"
+    derived_from: src-lacau-1909
+    read: "images (PDF pages 56, 57, 59 and 60, printed pages 54, 55, 57 and 58, viewed; line markers 3 to 11 and 19 to 28 were seen; the page with lines 12 to 18 was not viewed). The signs were NOT transliterated."
+    authenticity:
+      status: authenticated
+      strength: moderate
+      provenance: "Printed in Lacau 1909 as the text of the verso; 'sic' marks Lacau's own notes on the signs."
+      tests: ["Line numbering runs to 28 and the cartouche pairs fall in lines 26 and 28, as on Petrie's Plate XIV (could have failed; see src-petrie-pl-xiv)"]
+      tested_by: "Stratah dig author session (not an independent review)"
+      gaps: ["No sign-by-sign comparison with the object, Petrie's plate or any hieroglyphic edition"]
+      next_step: "Transliterate line 27 and compare with Petrie's Plate XIV and Kitchen RI IV."
+      checked: 2026-10-15
+
+  - id: src-lacau-1909-plates
+    title: "Lacau 1909, Plates XVII to XIX: photographs of the verso of 34025"
+    url: https://archive.org/details/LacauSteles1Fasc1
+    document_class: "material (image of the object, 1909 photographic plate)"
+    derived_from: src-lacau-1909
+    read: "images (Plate XIX, caption '34.025 (verso 2)', viewed; Plates XVII and XVIII not individually viewed)"
+    authenticity:
+      status: authenticated
+      strength: moderate
+      provenance: "Photographic plates in the 1909 catalogue."
+      tests: ["Plate XIX shows a slab with rows of incised signs, a long diagonal crack and the lower left corner broken away, which matches Lacau's text: 'Un eclat manque a l'angle inferieur gauche' (could have failed)"]
+      tested_by: "Stratah dig author session (not an independent review)"
+      gaps: ["The halftone is too small to read the signs", "Not compared with the object or with Petrie's Plate XIII"]
+      next_step: "Compare with Petrie's Plate XIII photograph and a modern photograph or the object."
+      checked: 2026-10-15
+
+  # ------------------------------------------------------------------ the Karnak parallel
+  - id: src-duemichen-1867
+    title: "J. Duemichen, Historische Inschriften altaegyptischer Denkmaeler, vol. 1 (Hinrichs, 1867), Taf. I: the Karnak fragment (a, b, c)"
+    url: https://archive.org/details/bub_gb_54xCAAAAcAAJ
+    document_class: "interpretive: a hand copy of the signs of a damaged wall inscription, published as a plate"
+    read: "images (63-page Google-digitised PDF from the Internet Archive, sha256 4dcd7e7e0944a2f84b41aca7880de15635788b734a2968953e1cde1efd3dc77c; PDF page 9, 'Hist. I. 1', viewed at 130 dpi). The signs were NOT transliterated and the plate was not aligned with the Thebes text."
+    authenticity:
+      status: authenticated
+      strength: weak
+      provenance: "Item bub_gb_54xCAAAAcAAJ, a Google Books digitisation, Hinrichs 1867 per the item metadata (title page read: 'In den Jahren 1863-1865 an Ort und Stelle gesammelt')."
+      tests: ["Taf. I shows fragment c with 19 numbered lines, which agrees with Petrie's statement that Duemichen's last line is '19' (could have failed; Petrie 1897, note after section 51)"]
+      tested_by: "Stratah dig author session (not an independent review)"
+      gaps: ["Signs not read; the fragment was not matched to the Thebes text", "That the Karnak copy names Amen where the Thebes copy names Ptah was not checked", "Only Taf. I was viewed"]
+      next_step: "Transliterate fragment c, line 19, and align it with line 27 of the Thebes text."
+      checked: 2026-10-15
+
+  # ------------------------------------------------------------------ post-1906 scholarship
+  - id: src-jaei-2010
+    title: "P. van der Veen, C. Theis, M. Goerg, 'Israel in Canaan (Long) Before Pharaoh Merenptah? A Fresh Look at Berlin Statue Pedestal Relief 21687', Journal of Ancient Egyptian Interconnections 2:4 (2010), 15-25"
+    url: https://journals.librarypublishing.arizona.edu/jaei/article/937/galley/932/download/
+    document_class: "scholarly: a journal article (open access) proposing a reading; it quotes the objections of another scholar"
+    read: "text (6-page PDF, sha256 72e4031899268a0e83cb3bd75e68a10e9d757e8a69fb348f19d190cca516a5f4; read in part: the abstract, the description of the relief, the name-ring discussion, the dating passage and notes 2 to 16 and 49 to 50; the hieroglyph and transliteration characters are garbled in the text layer, so only its plain-English statements are used)"
+    sha256: 72e4031899268a0e83cb3bd75e68a10e9d757e8a69fb348f19d190cca516a5f4
+    stored_as: "sources/extracts/jaei-2010-extract.txt"
+    authenticity:
+      status: authenticated
+      strength: weak
+      provenance: "Open-access galley served by the University of Arizona's journal platform; the PDF's own footer names the journal, 'Vol. 2:4, 2010 | 15-25'. The journal's landing page lists the same article."
+      tests: ["The article's note 16 cites Lacau 1909 for the stele (CG 34025, pp. 52-59, esp. 58), which agreed with the catalogue when opened (could have failed; see src-lacau-1909)"]
+      tested_by: "Stratah dig author session (not an independent review)"
+      gaps: ["Argues one side of the Berlin-relief question; the other side (Hoffmeier) is read only as the authors quote it", "Hoffmeier's own text, Goerg 2001 and Hasel were not opened", "Publication status (any correction) not looked up"]
+      next_step: "Read Hoffmeier's published objection and Goerg 2001 (Biblische Notizen 106) directly."
+      checked: 2026-10-15
+
+  - id: src-hjelm-2016
+    title: "I. Hjelm, 'Lost and Found? A Non-Jewish Israel from the Merneptah Stele to the Byzantine Period', in History, Archaeology and The Bible Forty Years After 'Historicity' (Routledge, 2016); author's copy hosted at bibleinterp.arizona.edu"
+    url: https://bibleinterp.arizona.edu/sites/bibleinterp.arizona.edu/files/images/CP%206-%2007%20Hjelm.pdf
+    document_class: "scholarly: a book chapter; the author's copy, which may differ from the printed chapter"
+    read: "text (20-page PDF, sha256 f7e0c4514692426f6e4cef90ac9cf7ab339d866e1d6d6d861567ca831bcd9d2d; pages 1 to 3 read for the Merneptah passages; the rest concerns later periods and was not used)"
+    sha256: f7e0c4514692426f6e4cef90ac9cf7ab339d866e1d6d6d861567ca831bcd9d2d
+    stored_as: "sources/extracts/hjelm-2016-extract.txt"
+    authenticity:
+      status: unchecked
+      next_step: "Compare with the printed Routledge chapter. The PDF's header names the volume and year, but that is the document's own statement."
+    notes: "Cites Hjelm and Thompson 2002 (JSOT 27) and Kitchen 2003 for what it says; neither was opened."
+
+  # ------------------------------------------------------------------ open data searched, not an anchor
+  - id: src-tla-open-data
+    title: "Thesaurus Linguae Aegyptiae, Late Egyptian sentences, corpus v19 premium (Hugging Face dataset thesaurus-linguae-aegyptiae/tla-late_egyptian-v19-premium, CC BY-SA 4.0)"
+    url: https://huggingface.co/datasets/thesaurus-linguae-aegyptiae/tla-late_egyptian-v19-premium
+    document_class: "dataset: 3,606 fully intact, unambiguous Late Egyptian sentences (of 12,361), without text identifiers"
+    read: "searched (train.jsonl, sha256 dfded75c7d34bc1f2f12e18af6936394dc0c5cadacd1229dc28d46751d6389df): the German translations and transliterations were searched for Israel, Askelon, Gezer, Yenoam, Kanaan and Merenptah. No sentence from the stele was found in this subset."
+    sha256: dfded75c7d34bc1f2f12e18af6936394dc0c5cadacd1229dc28d46751d6389df
+    authenticity: {status: not_applicable, next_step: "Not an anchor. A search with no hit says only that the intact-sentence subset does not include the stele's sentences."}
+
+  # ------------------------------------------------------------------ blocked or not opened
   - id: src-dh-claims
     title: "Dead Hidden YouTube claims files, ids dh-HN0wNVpfunM-26, dh-K3pw12lBcXM-29, dh-K3pw12lBcXM-30, dh-gBGfqlL_FFQ-09 (~/dead_hidden_claims/)"
     url: ""
@@ -69,40 +215,52 @@ sources:
   - id: src-tla
     title: "Thesaurus Linguae Aegyptiae record of the Israel stela"
     url: https://thesaurus-linguae-aegyptiae.de/text/GUZM3ED3AJAIPLUEJ6C34RG4DU
-    read: no. BLOCKED by a bot-verification page (reported by the handoff; not retried or bypassed)
-    authenticity: {status: unchecked, next_step: "Open in a browser, or use the TLA's published data if its licence allows. Footer shows all rights reserved."}
+    read: "not read. BLOCKED: the address returns a bot-verification page (fetched again 2026-10-15; not bypassed)"
+    authenticity: {status: unchecked, next_step: "Open in a browser, or use the TLA's published raw data for this text if the project releases it. Footer shows all rights reserved."}
 
   - id: src-ucl-digital-egypt
     title: "UCL Digital Egypt, Merenptah stela page"
     url: https://www.ucl.ac.uk/museums-static/digitalegypt/thebes/merenptah/stela.html
-    read: no. BLOCKED, HTTP 403 (reported by the handoff; not retried or bypassed)
+    read: "not read. BLOCKED: HTTP 403 (fetched again 2026-10-15; not bypassed)"
     authenticity: {status: unchecked, next_step: "Open in a browser or find an archived copy."}
+
+  - id: src-heidelberg-eef-report
+    title: "Egypt Exploration Fund, Archaeological Report 1896-1897, digitised at Heidelberg University Library (page 0042, OCR text)"
+    url: https://digi.ub.uni-heidelberg.de/diglit/archaeological_report1896_1897/0042/text_ocr
+    read: "not read. BLOCKED: an Anubis bot-check page (fetched 2026-10-15; not bypassed)"
+    authenticity: {status: unchecked, next_step: "Open in a browser; it may give a contemporary account of the find."}
+
+  - id: src-davidovits
+    title: "A web page by Davidovits (davidovits.info/?p=496) that a search result describes as arguing that the line-27 transliteration published by Lacau was altered"
+    url: https://www.davidovits.info/?p=496
+    read: "not read. BLOCKED: HTTP 403 (2026-10-15). Known only from a search-result summary, which is not a read."
+    authenticity: {status: unchecked, next_step: "Open in a browser. If it gives a reason (a sign form, a find record), test it against Plate XIV and Lacau p. 58."}
 
   - id: src-kri-iv
     title: "K. A. Kitchen, Ramesside Inscriptions IV (hieroglyphic edition; Merneptah)"
     url: ""
-    read: no. Not located; in copyright.
+    read: "not read. Not located; in copyright. JAEI 2010 (note 16) cites Kitchen's Ramesside Inscriptions for the stele."
     authenticity: {status: unchecked, next_step: "Library copy: read the hieroglyphs of the Israel line and the date line."}
 
   - id: src-cairo-record
-    title: "Egyptian Museum, Cairo: record or catalogue entry for the stele (JE 31408 per search summaries; one summary gave Cairo 34025)"
+    title: "Egyptian Museum, Cairo: the museum's current record or database entry for the stele"
     url: ""
-    read: no. Not located. Neither book read gives an accession number.
-    authenticity: {status: unchecked, next_step: "Museum record, Lacau's 1909 Cairo General Catalogue volume (Steles du Nouvel Empire), or Porter and Moss Topographical Bibliography II."}
-
-  - id: src-duemichen-1867
-    title: "J. Duemichen, Historische Inschriften altaegyptischer Denkmaeler, vol. 1 (the Karnak fragment of the duplicate)"
-    url: https://archive.org/details/bub_gb_54xCAAAAcAAJ
-    read: no. Located on the Internet Archive by search; not opened.
-    authenticity: {status: unchecked, next_step: "Open the plate cited as Hist. Inschr. I, 1 (Breasted gives 'I, I'; Petrie 'I c.') and confirm the fragment's lines."}
+    read: "not read. Not located. (The 1909 catalogue entry was read: src-lacau-1909.)"
+    authenticity: {status: unchecked, next_step: "Museum record, Porter and Moss Topographical Bibliography II, or Sourouzian, Les monuments du roi Merenptah (1989): current number and where the stele is held."}
 
   - id: src-commons-photo
     title: "Photograph credited by a secondary article to Olaf Tausch on Wikimedia Commons"
     url: ""
-    read: no. Licence unverified. A photo may be shown as a picture; it would not anchor a reading.
+    read: "not read. Licence unverified. A photo may be shown as a picture; it would not anchor a reading."
     authenticity: {status: unchecked, next_step: "Confirm the file page licence before storing or showing it."}
+
+not_read:
+  - "Spiegelberg, Zeitschrift fuer aegyptische Sprache 34 (1896) 1-25 and Pl. I: not found on the Internet Archive; the text and commentary were not read"
+  - "The Karnak Great Inscription and the Athribis stela themselves; Manassa, The Great Karnak Inscription of Merneptah (2003); Kitchen's editions; read only as Breasted's 1906 translations"
+  - "Hasel (BASOR 296, 1994, and later), Rainey (IEJ 51, 2001), Stager (BASOR 260, 1985), Yurco (JARCE 23, 1986), Hoffmeier, Hjelm and Thompson (JSOT 27, 2002), Kitchen (JSOT 28, 2004): not opened (paywalled or not located); a 2025 Studia Antiqua article and a 2020 JETS article were blocked (bot check, HTTP 403)"
+  - "A chronology of the Nineteenth Dynasty (Kitchen, Hornung/Krauss/Warburton, Shaw): not opened; the Brill volume is not open access"
 
 not_accepted_as_anchors:
   - "Wikipedia: orientation only, and not used"
-  - "Search-engine summaries (including the claim that the stele is JE 31408 and that a forgery is alleged): leads, not reads"
+  - "Search-engine summaries (including the claim that a forgery or an altered transliteration is alleged): leads, not reads"
   - "The Dead Hidden videos themselves"

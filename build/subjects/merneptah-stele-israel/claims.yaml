@@ -1,23 +1,57 @@
+# ---------------------------------------------------------------------------
+# SEARCH HEADLINE (rules as in the other digs). DRAFT: the headline claim rests on two printed translations (anchor_checked: secondary), not on a transliteration
+# of the signs, so no claim here is established on the stele's text and the headline stays draft.
+# ---------------------------------------------------------------------------
 subject: merneptah-stele-israel
 title: "The Merneptah (Israel) Stele: what it says, where it was found, and what Dead Hidden says it says"
 question: "What does the Merneptah Stele actually record about Israel?"
 dig_status: open
+headline: "Merneptah Stele: two printed translations list Israel among peoples it says Merneptah defeated"
+headline_claim: merneptah-translations-name-israel
 headline_status: draft
+
+assessment:
+  question: "What does the Merneptah Stele actually record about Israel?"
+  answer: partly
+  headline: "The two printed translations read here name Israel once, in a closing list of defeated places and peoples; the signs were looked at but not transliterated, and the BCE date is not established."
+  text: >
+    What was read. The text of the stele rests here on two printed English translations: Spiegelberg's, in Petrie's excavation report of 1897, and Breasted's of 1906.
+    Both put Israel in the closing strophe of a hymn about Merneptah's victory, in a list with Canaan, Askelon, Gezer and Yenoam. Breasted translates "Israel is desolated, his seed is not"; Spiegelberg
+    "The people of Israel is laid waste,—their crops are not". Both say Canaan was seized or plundered on Merneptah's side. Neither says Israel conquered Canaan, was a nation or a united people, lacked a king,
+    or came from the Hyksos, Hapiru or Shasu; that is an absence from two translations, so it is held at provisional confidence.
+    What was looked at but not read. Two copies of the signs were opened as images: Petrie's facsimile (Plate XIV) and the typeset hieroglyphic text in the Cairo Museum catalogue of 1909 (Lacau),
+    where line 27 is numbered. The signs were not transliterated by this author, so the reading "Israel" and the kind of sign that follows the name are not checked against the signs.
+    What else was read. Lacau's catalogue gives the stele's museum numbers (Catalogue general 34025; Journal d'entree 31408), the only claim here that is established. A published fragment of a duplicate
+    at Karnak (Duemichen 1867) was viewed as a plate. Two later scholarly papers were read in part: a 2010 article that proposes an earlier writing of the name on a Berlin relief (disputed in the article's own account),
+    and a 2016 chapter that says scholars have disagreed about how the hieroglyphs should be read.
+    The date. The hymn is dated year 5 of Merneptah in both translations. They give different seasons (inundation in Spiegelberg; third season, the eleventh month, in Breasted, who prints the same date for the
+    Athribis stela and for the Karnak battle). The year is not converted to a BCE year here: no chronology of the Nineteenth Dynasty was read, and the round figures seen (1200 BC, about 1209 BCE) are statements, not a computed range.
+    Coverage limits. Not read: the Egyptian text in an edition (Kitchen, Ramesside Inscriptions IV; the TLA record, blocked by a bot check), Spiegelberg's 1896 article, the Karnak and Athribis originals, the Cairo
+    Museum's current record, and most post-1906 literature (several papers are paywalled or blocked). No claim here is rated above what that supports. The Dead Hidden videos were not watched and are not evidence.
+  key_points:
+    - "Both translations read (1897, 1906) name Israel once, in a closing list of defeated places and peoples with Canaan, Askelon, Gezer and Yenoam."
+    - "Neither translation says Israel conquered Canaan, was a nation, lacked a king or came from the Hyksos, Hapiru or Shasu; this rests on two translations, not on the signs."
+    - "The signs were viewed in two copies but not transliterated, and no BCE year is established; the Cairo numbers (CG 34025, JE 31408) come from the 1909 catalogue."
+  basis: [merneptah-translations-name-israel, merneptah-text-canaan-seized-by-egypt, merneptah-text-silent-on-nation-king-hyksos, merneptah-hieroglyphic-israel-reading, merneptah-reading-israel-disputed, merneptah-cairo-accession-jE31408, merneptah-regnal-date-year-5, merneptah-absolute-date-bce]
+  would_settle: >
+    A transliteration of line 27 (and of the date line) from a hieroglyphic edition or the object, by someone who can read the signs: Kitchen's Ramesside Inscriptions IV, the TLA record (blocked here by a bot check),
+    or the stele or its squeezes in Cairo. Also the Karnak and Athribis originals, Spiegelberg's 1896 article, the museum's current record, a chronology of the Nineteenth Dynasty read for its stated range, and the
+    post-1906 literature on the name and its determinative (Hasel, Rainey, Yurco, Stager, Kitchen, Hoffmeier, Hjelm and Thompson), which was not opened here. This is a statement of coverage, not a conclusion.
+
 search_summary: >
-  The Merneptah Stele, a granite stele of Pharaoh Merneptah found by Flinders Petrie at Thebes in 1896, has a hymn that lists Israel among
-  places and peoples Merneptah says he defeated. Two printed translations (1897 and 1906) read it that way. The hieroglyphs, the museum record and the
-  absolute date were not read here. The hymn text read does not say Israel conquered Canaan, was a nation or lacked a king, and does not mention the Hyksos,
-  Hapiru or Shasu.
+  The Merneptah Stele, a granite stele of Pharaoh Merneptah found by Flinders Petrie at Thebes in 1896, has a hymn that lists Israel among places and peoples Merneptah says he defeated. Two printed translations
+  (1897 and 1906) read it that way. The signs were looked at in two copies (Petrie's facsimile and a 1909 Cairo catalogue) but not transliterated, and the absolute date was not established. The hymn text read does not say
+  Israel conquered Canaan, was a nation or lacked a king, and does not mention the Hyksos, Hapiru or Shasu.
 description: >
-  First dig on the Merneptah Stele. Sources actually read: Petrie, Six Temples at Thebes (1897, excavation report with Spiegelberg's translation) and Breasted,
-  Ancient Records of Egypt vol. 3 (1906, translation with notes), both as Internet Archive OCR. Not read: the hieroglyphs (Plates XIII and XIV, Kitchen's
-  edition), the Cairo museum record, the TLA record (blocked) and the UCL page (blocked). Four Dead Hidden speaker claims are split into separate parts and
-  weighed here; the videos are never an anchor.
+  Second pass on the Merneptah Stele. Read as text: Petrie, Six Temples at Thebes (1897, excavation report with Spiegelberg's translation); Breasted, Ancient Records of Egypt vol. 3 (1906, translation with notes,
+  including the Karnak and Athribis parallels); a 2010 journal article (van der Veen, Theis, Goerg) and a 2016 chapter (Hjelm). Looked at as images: Petrie's Plates XIII and XIV, the Cairo Museum catalogue entry of 1909
+  (Lacau: record, typeset hieroglyphic text, plate), and Duemichen's 1867 plate of the Karnak fragment. Not read: any hieroglyphic edition (Kitchen RI IV), the TLA record (blocked), the UCL page (blocked), Spiegelberg's
+  1896 article, the Cairo Museum's current record, a chronology, and most post-1906 literature. Four Dead Hidden speaker claims are split into separate parts and weighed here; the videos are never an anchor.
 divergence_note: >
   The popular and speaker version is that the stele shows Israel as a single nation in Canaan, with no king, having conquered Canaan, in 1200 BC, as the end of a chain
   from Hyksos to Hapiru to Shasu. The two translations read say something narrower: a closing list of defeated places and peoples in which Israel is one, desolated by
   Merneptah, with "his seed is not". They say Merneptah (Egypt) seized Canaan. They say nothing about Israel's government, its unity, a conquest by Israel, or any
-  earlier names. The gap between the speaker's wording and the text is the product here. What the signs themselves show, and the absolute date, remain unread.
+  earlier names. The gap between the speaker's wording and the text is the product here. The signs themselves were looked at but not transliterated, and the absolute date is not established.
 
 claims:
 
@@ -27,7 +61,7 @@ claims:
     state: proposed
     statement: >
       In the concluding strophe of the hymn on the stele, two printed translations (Spiegelberg in Petrie 1897; Breasted 1906) name Israel in a list of places and
-      peoples that Merneptah says he has defeated. Petrie/Spiegelberg: "The people of Israel is laid waste, - their crops are not". Breasted: "Israel is desolated, his seed is not".
+      peoples that Merneptah says he has defeated. Petrie/Spiegelberg: "The people of Israel is laid waste,—their crops are not". Breasted: "Israel is desolated, his seed is not".
     statement_kind: reported
     evidence_class: interpretive
     confidence: low
@@ -36,41 +70,75 @@ claims:
     adoption_weight: 5
     adoption_note: "The Israel reading is the standard one and is repeated everywhere; the weight here comes from the two printed translations, not from that."
     would_change_if: >
-      the hieroglyphic text (Plate XIV, Kitchen's edition, the TLA record or the object) shows a different sign group, or a reading other than Israel is
-      argued from the signs by a specialist, or the two translations turn out to rest on one faulty copy
+      the hieroglyphic text (Plate XIV, Lacau's text, Kitchen's edition, the TLA record or the object) is transliterated and shows a different sign group, or a reading other than Israel is
+      argued from the signs by a specialist (see merneptah-reading-israel-disputed), or the two translations turn out to rest on one faulty copy
     anchor:
       type: interpretive
       description: >
-        Read in OCR: Petrie 1897, section 48 (Spiegelberg's translation, part II c, last lines) and Breasted 1906, section 617 (Concluding Strophe, with the
+        Read in OCR text, again on 2026-10-15: Petrie 1897, section 48 (Spiegelberg's translation, part II c, last lines) and Breasted 1906, section 617 (Concluding Strophe, with the
         note on "his seed is not" in sections 603-605). Both books say they used the squeezes and photographs of the stele; Breasted also collated the Karnak duplicate.
-        This is a read of translations, not of the signs.
+        This is a read of translations, not of the signs. The signs of line 27 were looked at in Petrie's Plate XIV and in Lacau's 1909 typeset text but were not transliterated (see merneptah-hieroglyphic-israel-reading).
       sources: [src-petrie-1897, src-spiegelberg-tr-in-petrie, src-breasted-are3]
     basis: >
-      # V: both translations read in OCR, 2026-10-14. The two are not fully independent (Breasted used Spiegelberg's published text and the same squeeze photographs)
+      # V: both translations read in OCR, 2026-10-14 and again 2026-10-15. The two are not fully independent (Breasted used Spiegelberg's published text and the same squeeze photographs)
       #    but Breasted collated the Karnak duplicate himself.
       Says what the translators printed. It does not by itself show the signs read "Israel".
 
   - id: merneptah-hieroglyphic-israel-reading
     state: searched_gap
     statement: >
-      That the sign group in the Israel line (line 27 in the usual numbering) reads "Israel", with the determinative that marks a people rather than a land, has not been checked here against the signs.
+      That the sign group in the Israel line (line 27 in the usual numbering) reads "Israel", with the kind of determinative that marks a people rather than a land, has not been checked here against the signs.
+      The signs of line 27 were looked at in two copies (Petrie's facsimile, Plate XIV, and Lacau's 1909 typeset text, printed page 58) but were not transliterated by this author.
     statement_kind: search_result
     evidence_class: primary_text
     confidence: low
     evidential_weight: 1
     anchor_checked: 'no'
     adoption_weight: 5
-    adoption_note: "Universally stated as settled in the popular and scholarly summaries seen; not read here."
-    would_change_if: "Plate XIV, Kitchen's Ramesside Inscriptions IV or the TLA record is read and the signs are transliterated"
+    adoption_note: "Universally stated as settled in the popular and scholarly summaries seen; not checked here against the signs."
+    would_change_if: "Line 27 is transliterated from Plate XIV, Lacau's text, Kitchen's Ramesside Inscriptions IV or the TLA record, or the object, and the sign group and its determinative are compared with the readings in the translations"
     next_step: >
-      Open Plate XIV (facsimile) in the Internet Archive scan of Petrie 1897, then Kitchen RI IV or the TLA record in a browser, and transcribe the sign group and its determinative.
+      Transliterate line 27 (and the date line, line 1) from the two copies already opened (Petrie Plate XIV, PDF page 71 of the scan; Lacau 1909, printed pages 54 and 58) with a sign list, or ask an Egyptologist to;
+      then compare with Kitchen RI IV or the TLA record once either can be opened.
     anchor:
       type: search-record
       description: >
-        Searched: Petrie 1897 and Breasted 1906 (OCR; no hieroglyphs in the text layer), TLA (blocked by a bot check), UCL Digital Egypt (HTTP 403). Not read: the plates, Kitchen RI IV.
-        Breasted prints the transliteration of the name in the OCR as damaged signs and does not give a readable sign group. Line number 27: Breasted's OCR places the line marker 27 before "Askalon" in the same strophe; not confirmed against the signs.
-      sources: [src-petrie-1897, src-breasted-are3, src-tla, src-ucl-digital-egypt, src-kri-iv]
-    basis: "Not read. Handoff and search summaries say most scholars read Israel; those are leads, not reads."
+        Opened and looked at: Petrie 1897, Plate XIV (28 numbered lines; line 27 is the second from last; the last line carries the king's two cartouches); Lacau 1909, printed pages 54 to 58 (typeset text, lines numbered
+        to 28; line 27 begins at the marker "27" on page 58 and ends at "28"), and Plate XIX (photograph). An independent author team (JAEI 2010, note 16) cites Lacau pages 52-59, "esp. 58", for the names of this strophe,
+        which matches the page where line 27 was found. The signs were not transliterated: no sign list or hieroglyphic edition was used and the author is not an Egyptologist.
+        Breasted prints the name with a transliteration whose characters are damaged in the OCR (only "-s-r-" and "-r" survive) and no sign group.
+        Searched and not opened: the TLA record (bot-verification page), UCL Digital Egypt (HTTP 403), Kitchen RI IV (not located), a web page said by a search result to argue that Lacau's line 27 was altered (HTTP 403).
+        Searched with no hit: the TLA open data set of 3,606 intact Late Egyptian sentences (Hugging Face, v19), which has no sentence from this stele.
+      sources: [src-petrie-pl-xiv, src-lacau-1909-text, src-lacau-1909-plates, src-breasted-are3, src-jaei-2010, src-tla-open-data, src-tla, src-ucl-digital-egypt, src-kri-iv, src-davidovits]
+    basis: "Looked at, not read. Search summaries say most scholars read Israel; those are leads, not reads."
+
+  - id: merneptah-reading-israel-disputed
+    state: contested
+    statement: >
+      A 2016 scholarly chapter (Hjelm) says that scholars have disagreed about how the hieroglyphs of the name should be read and names other proposed readings (Sharon, Jizreel, Jeshurun, 'Asher); it reads the entry as a people of the land of Hurru
+      listed with Gezer, Ashkelon and Yeno'am, and calls the determinative of a people rather than a land "exceptional in Egyptian epigraphy". The two translations read here print "Israel".
+    statement_kind: reported
+    evidence_class: interpretive
+    confidence: low
+    evidential_weight: 1
+    anchor_checked: secondary
+    adoption_weight: 2
+    adoption_note: "The Israel reading is the one printed in both translations and used in the 2010 article read; the 2016 chapter says it is not the only one proposed. Neither count is evidence."
+    would_change_if: >
+      line 27 is transliterated and compared with the proposals, or the papers Hjelm cites (Hjelm and Thompson 2002) are read and show what signs each reading rests on
+    disputed_by:
+      - who: "Ingrid Hjelm (with Thomas L. Thompson, 2002)"
+        kind: person
+        position: "Says there are several possible readings of the hieroglyphs of the name; reads the entry as a people of the land of Hurru, in a list with Gezer, Ashkelon and Yeno'am."
+        source_read: src-hjelm-2016
+        via: "Pages 1 to 3 of the author's copy of the 2016 chapter, read directly. The 2002 article it cites for the proposed readings was not opened."
+    anchor:
+      type: interpretive
+      description: >
+        Read directly: Hjelm 2016, pages 1 to 3 of the author's copy (extract in sources/extracts/hjelm-2016-extract.txt). She cites Hjelm and Thompson 2002, pp. 13-14, for the readings; that article was not opened,
+        so what each proposal rests on in the signs is not known here. Translations: Petrie 1897 and Breasted 1906.
+      sources: [src-hjelm-2016, src-petrie-1897, src-breasted-are3]
+    basis: "A report of what one later author says. It does not show the signs allow another reading."
 
   - id: merneptah-text-canaan-seized-by-egypt
     state: proposed
@@ -86,10 +154,10 @@ claims:
     would_change_if: "the signs show a different subject or verb for the Canaan line, or a reading of the verbs as describing Israel's action rather than Egypt's"
     anchor:
       type: interpretive
-      description: "Petrie 1897 section 48, II c; Breasted 1906 section 617 with note b ('Lit., the Canaan') and note on 'widow' (section 617, notes). Read in OCR as translations."
+      description: "Petrie 1897 section 48, II c; Breasted 1906 section 617 with note b ('Lit., the Canaan') and note on 'widow' (section 617, notes). Read in OCR as translations, 2026-10-14 and 2026-10-15."
       sources: [src-petrie-1897, src-spiegelberg-tr-in-petrie, src-breasted-are3]
     basis: >
-      # V: read 2026-10-14. Breasted section 605: "Israel ... was defeated and plundered by Merneptah"; section 608 reads the stele together with Merneptah's title "Binder of Gezer".
+      # V: read 2026-10-14 and 2026-10-15. Breasted section 605: "Israel ... was defeated and plundered by Merneptah"; section 608 reads the stele together with Merneptah's title "Binder of Gezer".
       Passive verbs throughout; the hymn is an Egyptian victory poem. It does not name who held Canaan.
 
   - id: merneptah-text-silent-on-nation-king-hyksos
@@ -109,8 +177,9 @@ claims:
       type: search-record
       description: >
         Searched the full English text of the hymn in both translations for: Hyksos, Shasu, Hapiru, Habiru, Apiru, nation, king (other than Egyptian kings and the general 'kings are overthrown'), conquer. No hit about Israel.
-        Only Breasted's footnote uses 'nation', about a title ('a specific town, or even nation') and not about Israel. The Karnak duplicate was not read (Duemichen's plate not opened).
-      sources: [src-petrie-1897, src-spiegelberg-tr-in-petrie, src-breasted-are3]
+        Only Breasted's footnote uses 'nation', about a title ('a specific town, or even nation') and not about Israel. The Karnak duplicate was viewed as Duemichen's plate (fragment c, 19 lines) but not transliterated,
+        and by Petrie's own concordance its last line ends about a third of the way along line 27, so it was not searched for these words.
+      sources: [src-petrie-1897, src-spiegelberg-tr-in-petrie, src-breasted-are3, src-duemichen-1867]
     basis: >
       Absence from two translations. It does not show the signs lack these ideas. Capped at provisional (absence_anchor).
 
@@ -120,27 +189,31 @@ claims:
     state: proposed
     statement: >
       Petrie found the stele in 1896 in the south-west corner of the first court of Merneptah's temple at Thebes, where it had stood against the south wall and fallen forwards. Merneptah's hymn is cut on the rough back of a stele of Amenhotep III, which had been moved from Amenhotep III's temple and set back outward.
+      Lacau's 1909 Cairo catalogue gives the find place as "Thebes, temple funeraire de Meneptah", says Merneptah had carried the stele of "Amenophis" to his funerary temple and used its back, and adds that the recto was almost entirely hammered out by Amenophis IV and re-engraved by Seti I.
     statement_kind: reported
     evidence_class: interpretive
     confidence: low
     evidential_weight: 2
     anchor_checked: secondary
     adoption_weight: 3
-    adoption_note: "Stated in most summaries; the reuse of an earlier king's stele is the part the speaker claims do not mention."
+    adoption_note: "Stated in most summaries. The four speaker claim lines read do not mention that the hymn is cut on the back of an earlier king's stele (the videos themselves were not read)."
     would_change_if: "Petrie's field notes, the Egypt Exploration or Cairo records, or the object itself show a different findspot or that the back-reuse belongs to another stele"
     anchor:
       type: interpretive
-      description: "Petrie 1897, sections 29 and 48 (the excavator's own account), and Breasted 1906 note d to section 602, read in OCR. Breasted's note draws on Petrie and Spiegelberg, so it is not an independent witness."
-      sources: [src-petrie-1897, src-breasted-are3]
+      description: >
+        Petrie 1897, sections 29 and 48 (the excavator's own account), Breasted 1906 note d to section 602, and Lacau 1909 printed pages 47 and 52, entries "34025 (recto)" and "34025 (verso)" (read as page images).
+        Breasted's note draws on Petrie and Spiegelberg, and Lacau's bibliography lists Petrie, so neither is shown to be an independent witness to the find.
+      sources: [src-petrie-1897, src-breasted-are3, src-lacau-1909]
       nodes: [{node: merneptah-1896-petrie-finds-israel-stele, verb: supports}]
     basis: >
-      # V: read 2026-10-14. Petrie: "engraved on the back of the stele of Amenhotep III"; the front carries Amenhotep III's text (Plates X to XII are Amenhotep III stelae).
-      One witness for the findspot (the excavator). The month of the find and the stele's present inventory number are not in the passages read.
+      # V: read 2026-10-14 and 2026-10-15. Petrie: "engraved on the back of the stele of Amenhotep III"; the front carries Amenhotep III's text (Plates X to XII are Amenhotep III stelae).
+      One witness for the findspot (the excavator). The month of the find is not in the passages read. Lacau's catalogue number is in merneptah-cairo-accession-jE31408.
 
   - id: merneptah-duplicate-at-karnak
     state: proposed
     statement: >
       A duplicate of the inscription existed at Karnak, of which only a fragment survives, published by Duemichen. Petrie works out 34 lines for the Karnak copy and notes that it names Amen where the Thebes copy names Ptah as the speaker.
+      By Petrie's concordance the last line of the fragment (Duemichen's line 19) ends about a third of the way along line 27 of the Thebes text.
     statement_kind: reported
     evidence_class: interpretive
     confidence: low
@@ -148,32 +221,90 @@ claims:
     anchor_checked: secondary
     adoption_weight: 2
     adoption_note: "Search summaries disagreed on where the duplicate is; both books read say Karnak."
-    would_change_if: "Duemichen's plate, Erman's study, or a Karnak record shows the fragment is from another monument or another part of the Theban temples"
+    would_change_if: "the fragment's signs are read and aligned with the Thebes text and differ from Petrie's concordance, or Erman's study or a Karnak record shows the fragment is from another monument or another part of the Theban temples"
     anchor:
       type: interpretive
-      description: "Petrie 1897, note signed W. M. F. Petrie after section 51 (read in OCR); Breasted 1906 note d to section 602 ('a duplicate original in Karnak, of which only a fragment has survived', published by Duemichen and Erman). Duemichen's own plate was not opened."
+      description: >
+        Petrie 1897, note signed W. M. F. Petrie after section 51 (read in OCR); Breasted 1906 note d to section 602 ('a duplicate original in Karnak, of which only a fragment has survived', published by Duemichen and Erman).
+        Duemichen's plate (Historische Inschriften I, Taf. I) was opened and viewed on 2026-10-15: fragment c shows 19 numbered lines, which matches Petrie's "19". The signs were not transliterated, the fragment was not aligned
+        with the Thebes text, and the Amen-for-Ptah point and the 34-line estimate were not checked.
       sources: [src-petrie-1897, src-breasted-are3, src-duemichen-1867]
     basis: >
       # V: Petrie and Breasted agree. Breasted collated the fragment and cites Duemichen and Erman, so this is two descriptions of the same published fragment, not two finds.
-      Resolves the Karnak-versus-elsewhere question as far as these books go: Karnak.
+      The plate confirms that a published fragment with 19 lines exists. Resolves the Karnak-versus-elsewhere question as far as these books go: Karnak.
 
   - id: merneptah-cairo-accession-jE31408
-    state: searched_gap
-    statement: "The stele is Cairo Egyptian Museum JE 31408 (one search summary gave Cairo 34025); neither book read gives an inventory number."
-    statement_kind: search_result
-    evidence_class: material
+    state: established
+    statement: >
+      Lacau's 1909 catalogue of the Cairo Museum lists the stele as Catalogue general no. 34025 (recto: a stele of "Amenophis", Amenhotep III per Petrie; verso: Merneptah) and gives its Journal d'entree number as 31408: grey granite, 3 m 18 high, 1 m 63 wide, 0 m 31 thick,
+      from Thebes, the funerary temple of Merneptah. The two numbers are two different registers of the same object in that record. Where the stele is now, and under which number, was not checked.
+    statement_kind: reported
+    evidence_class: primary_text
+    confidence: high
+    evidential_weight: 4
+    anchor_checked: primary
+    adoption_weight: 3
+    adoption_note: "Repeated in encyclopedic summaries (JE 31408; CG 34025); here read at the museum's own 1909 catalogue."
+    would_change_if: "the museum's own current record, Porter and Moss or Sourouzian give a different number for this object, or Lacau's page is shown to describe another stele"
+    anchor:
+      type: primary_text
+      description: >
+        Lacau 1909, printed page 47 (head of entry "34025 (recto)": material, height, width, thickness, find place) and printed page 52 (bibliography line "Journal d'entree du Musee, n° 31408"; start of entry "34025 (verso)"),
+        read as page images on 2026-10-15 (PDF pages 49 and 54; extract transcribed in sources/extracts/lacau-1909-extract.txt). The plate captions ("34.025 (recto)" Pl. XVI; "34.025 (verso)" Pl. XVII-XIX) agree with the text.
+        Cross-check, not an anchor: an independent author team (JAEI 2010, note 16) cites the same catalogue for the stele as "CG 34025", pages 52-59 and Plates XVII-XIX.
+      sources: [src-lacau-1909]
+    basis: >
+      # V: Lacau 1909 pp. 47 and 52 read as images, 2026-10-15. This is what the 1909 catalogue says. The museum's current record was not opened (src-cairo-record) and no claim here says where the stele is held now.
+      Earlier versions of this claim (searched_gap, with the number from a search summary) are in the log: L-04 and L-11.
+
+  - id: merneptah-material-description-differs
+    state: proposed
+    statement: >
+      Petrie (1897) calls the stele "black granite"; Lacau's 1909 catalogue records "Granit gris" (grey granite). No stone identification or colour measurement was read.
+    statement_kind: reported
+    evidence_class: interpretive
     confidence: low
     evidential_weight: 1
-    anchor_checked: 'no'
-    adoption_weight: 3
-    adoption_note: "Repeated in encyclopedic summaries; not read at the holder."
-    would_change_if: "the museum record, Lacau's Cairo General Catalogue entry or Porter and Moss gives the numbers and says which is which"
-    next_step: "Find the Cairo museum entry or Lacau 1909 (Steles du Nouvel Empire, Catalogue General) and Porter and Moss, Topographical Bibliography II, and note which number is the JE and which the Catalogue General number."
+    anchor_checked: secondary
+    adoption_weight: 1
+    adoption_note: "Not noticed in the summaries seen."
+    would_change_if: "the museum record or a stone identification names the rock and its colour"
+    next_step: "Look for a stone identification in the museum's current record, Porter and Moss, or Sourouzian (1989)."
     anchor:
-      type: search-record
-      description: "Searched: Petrie 1897 and Breasted 1906 (no number for the stele; Petrie gives only a statue sent to Cairo). Not located: Cairo's own record, Lacau, Porter and Moss. Search summaries gave JE 31408 and Cairo 34025 and are not reads."
-      sources: [src-petrie-1897, src-breasted-are3, src-cairo-record]
-    basis: "Not read."
+      type: interpretive
+      description: "Petrie 1897 section 29 ('the black granite stele of Merenptah', read in OCR) and the contents list ('Black granite stele of Merenptah'); Lacau 1909 printed page 47 ('Granit gris', read as an image). Both are descriptions by people who saw the stone; neither reports a test."
+      sources: [src-petrie-1897, src-lacau-1909]
+    basis: "Two descriptions that differ in the colour word. This is a note on the sources, not a finding about the stone."
+
+  # ------------------------- A PROPOSED EARLIER WRITING OF THE NAME (post-1906) -------------------------
+
+  - id: merneptah-israel-earlier-reading-proposal
+    state: contested
+    statement: >
+      A broken name on a Berlin pedestal relief (no. 21687) has been proposed (Goerg 2001; van der Veen, Theis and Goerg 2010) to be an archaic writing of "Israel", which the authors tentatively date to the reign of Ramesses II, earlier than Merneptah's stele.
+      James Hoffmeier is quoted in that article as rejecting the reading on linguistic and orthographic grounds. The article's authors say the Ramesside date is "by no means certain".
+    statement_kind: reported
+    evidence_class: interpretive
+    confidence: low
+    evidential_weight: 1
+    anchor_checked: secondary
+    adoption_weight: 1
+    adoption_note: "A proposal in one open-access article; the translations and the 2016 chapter read treat the Merneptah Stele as the earliest mention."
+    would_change_if: "the relief's signs are read by a specialist and the proposed reading is accepted or rejected, or Hoffmeier's and Goerg's own texts are read"
+    disputed_by:
+      - who: "James Hoffmeier"
+        kind: person
+        position: "Rejects the reading: says it 'is plagued by serious linguistic and orthographic problems that preclude it from being Israel' (as quoted by the article's authors, who answer him)."
+        source_read: src-jaei-2010
+        via: "Quoted in JAEI 2010 (notes 5 and 49-50). Hoffmeier's own text was not opened."
+    anchor:
+      type: interpretive
+      description: >
+        JAEI 2010 (van der Veen, Theis, Goerg), read in part: abstract, description of the relief, the discussion of whether the broken name can read Israel, the dating passage and notes 2 to 16 and 49 to 50
+        (extract in sources/extracts/jaei-2010-extract.txt). The sign-level argument could not be checked: the hieroglyph characters are garbled in the text layer and the relief was not seen.
+        The article is written by the proposers, so the other side is known only as they quote it.
+      sources: [src-jaei-2010]
+    basis: "A report of a published proposal and a stated objection. It does not show either side is right, and it bears on the 'earliest mention' wording, not on what the stele says."
 
   # ------------------------- DATE -------------------------
 
@@ -190,13 +321,13 @@ claims:
     would_change_if: "the signs of the date line give a different year or day"
     anchor:
       type: interpretive
-      description: "Petrie 1897 section 48, I (Protocol: year V, third day of the third month); Breasted 1906 section 607 ('Year 5, third month of the third season (eleventh month), third day'). Read in OCR as translations."
+      description: "Petrie 1897 section 48, I (Protocol: year V, third day of the third month); Breasted 1906 section 607 ('Year 5, third month of the third season (eleventh month), third day'). Read in OCR as translations, 2026-10-14 and 2026-10-15. The date line of Petrie's Plate XIV and Lacau's text was looked at but not transliterated."
       sources: [src-petrie-1897, src-spiegelberg-tr-in-petrie, src-breasted-are3]
-    basis: "# V: both translations read 2026-10-14. Year 5 and day 3 agree."
+    basis: "# V: both translations read. Year 5 and day 3 agree. Breasted's translations of the Karnak and Athribis texts also give year 5 (merneptah-libyan-war-year-5-parallels)."
 
   - id: merneptah-date-season-discrepancy
     state: searched_gap
-    statement: "Petrie/Spiegelberg render the month as 'third month of the period of inundation'; Breasted renders it 'third month of the third season (eleventh month)'. These are different months of the Egyptian year; the date line has not been read."
+    statement: "Petrie/Spiegelberg render the month as 'third month of the period of inundation'; Breasted renders it 'third month of the third season (eleventh month)'. These are different months of the Egyptian year; the date line has not been transliterated."
     statement_kind: search_result
     evidence_class: primary_text
     confidence: low
@@ -204,17 +335,40 @@ claims:
     anchor_checked: 'no'
     adoption_weight: 1
     adoption_note: "Not noticed in the sources seen."
-    would_change_if: "the signs of the date line are read, or Kitchen RI IV gives the month"
-    next_step: "Read the date line in Plate XIV or Kitchen RI IV and the TLA record; settle the season (akhet or shemu)."
+    would_change_if: "the signs of the date line are transliterated, or Kitchen RI IV gives the month"
+    next_step: "Transliterate the date line (line 1) from Petrie Plate XIV and Lacau 1909 printed page 54, and compare with Kitchen RI IV and the TLA record; settle the season (akhet or shemu)."
     anchor:
       type: search-record
-      description: "Compared the two translations' date lines in OCR (Petrie 1897 section 48 I; Breasted 1906 section 607). Not read: the signs."
-      sources: [src-petrie-1897, src-breasted-are3]
+      description: >
+        Compared the two translations' date lines in OCR (Petrie 1897 section 48 I; Breasted 1906 section 607). Breasted's translations of the Athribis stela (section 598) and the Karnak battle (section 583) print the same
+        season and day as his section 607, which is a fact about his three renderings and not a reading of any date line. The signs of the date line were not transliterated.
+      sources: [src-petrie-1897, src-breasted-are3, src-petrie-pl-xiv, src-lacau-1909-text]
     basis: "The difference is plain on the page; which is right is not known here. It may be a misprint in either book or a different reading."
+
+  - id: merneptah-libyan-war-year-5-parallels
+    state: proposed
+    statement: >
+      Breasted's 1906 translations of the Great Karnak Inscription (section 583) and the Athribis stela (section 598) put the Libyan battle in year 5 of Merneptah, on day 3 of the third month of the third season (eleventh month).
+      His translation of the Israel hymn (section 607) gives the same year, season and day, and he describes the hymn as celebrating that victory (section 602).
+    statement_kind: reported
+    evidence_class: interpretive
+    confidence: low
+    evidential_weight: 2
+    anchor_checked: secondary
+    adoption_weight: 1
+    adoption_note: "Not stated in the popular summaries seen."
+    would_change_if: "the Karnak or Athribis originals (Manassa 2003; Kitchen) or the Israel stele's own date line give a different year, season or day"
+    anchor:
+      type: interpretive
+      description: >
+        Breasted 1906, sections 570-571 (summary), 583 (Great Karnak Inscription), 598 (Athribis stela), 602 and 607, read in OCR text on 2026-10-15 (extract in sources/extracts/breasted-1906-extract.txt).
+        These are one translator's renderings of three texts, so they are not three independent dates. The Karnak and Athribis originals were not read.
+      sources: [src-breasted-are3]
+    basis: "Records what Breasted printed. The Israel stele's own date line is not checked against this; Petrie/Spiegelberg's season differs (merneptah-date-season-discrepancy)."
 
   - id: merneptah-absolute-date-bce
     state: searched_gap
-    statement: "The absolute date of the stele in years BCE (the speaker says 1200 BC; one secondary summary says about 1208 BCE) is not established by anything read here."
+    statement: "The absolute date of the stele in years BCE is not established by anything read here. The speaker says 1200 BC; one scholarly chapter read (Hjelm 2016) says the campaign was 'around 1209 BCE' without giving a chronology; one search summary said about 1208 BCE (a lead, not read)."
     statement_kind: search_result
     evidence_class: interpretive
     confidence: low
@@ -226,15 +380,18 @@ claims:
     next_step: "Read a chronology with stated authority (for example the PeriodO/definitions record for the New Kingdom, Kitchen, or Shaw 2000) and compute year 5 of Merneptah as a window with reasons."
     anchor:
       type: search-record
-      description: "Searched: Petrie 1897 (a table of temple orientations lists 'Merenptah about 1200 B.C.', a rough round date given for the temple, not for the stele); Breasted 1906 sections read (regnal year only). No chronology was read."
-      sources: [src-petrie-1897, src-breasted-are3]
-    basis: "Petrie's round number is a 1897 orientation, not a dated chronology."
+      description: >
+        Searched: Petrie 1897 (a table of temple orientations lists 'Merenptah about 1200 B.C.', a rough round date given for the temple, not for the stele); Breasted 1906 sections 570-617 (the OCR was searched for "B. C." and
+        century: none; he gives regnal year, month and day, and converts only to months, not years); Hjelm 2016 pages 1 to 3 ('around 1209 BCE', no source for the figure beyond a citation to Pritchard 1969); the JAEI 2010 article (no date for the stele).
+        No chronology was read.
+      sources: [src-petrie-1897, src-breasted-are3, src-hjelm-2016, src-jaei-2010]
+    basis: "Petrie's round number is a 1897 orientation, not a dated chronology. One later author's round figure is a statement, not a range."
 
   # ------------------------- AUTHENTICITY -------------------------
 
   - id: merneptah-forgery-allegation
     state: searched_gap
-    statement: "A fringe source is said (in the handoff, from a search summary) to allege that the 'Israel' line or the stele is a forgery. No such source was found and none is accepted."
+    statement: "A fringe source is said (in the handoff, from a search summary) to allege that the 'Israel' line or the stele is a forgery, and a later search result describes a web page that argues the line-27 transliteration in Lacau's catalogue was altered. Neither page was opened here, so no reason for doubt has been read and none is accepted."
     statement_kind: search_result
     evidence_class: interpretive
     confidence: low
@@ -244,13 +401,16 @@ claims:
     adoption_weight: 1
     adoption_note: "Not seen in any scholarly source read. Treated as an allegation to examine."
     would_change_if: "a source is found that gives a reason for doubt (a decisive anachronism, a sign form, a find record), or the Karnak duplicate and early copies are read and differ"
-    next_step: "Find the allegation's source and its stated reason. Then open Duemichen's plate (Karnak duplicate, published decades before 1896) and Spiegelberg ZAeS 34 to check the composition was independently known."
+    next_step: "Open the allegation page (blocked here by HTTP 403) and read its stated reason. Then test it against Petrie's Plate XIV, Lacau printed page 58 and Spiegelberg ZAeS 34 (1896), which are the earlier and later copies of line 27."
     anchor:
       type: search-record
       description: >
-        Searched: Petrie 1897 and Breasted 1906 (nothing about forgery). A web search for a forgery claim found none. Bearing on authenticity, as read: the stele was dug up by Petrie in place in a documented court, was copied by Spiegelberg, squeezed by Petrie and photographed by Brugsch, and a duplicate fragment at Karnak was published earlier by Duemichen, per both books; Duemichen was not opened.
-      sources: [src-petrie-1897, src-breasted-are3, src-duemichen-1867]
-    basis: "Absence of a recorded forgery claim in sources read is weak. The allegation is not an argument until its source is known."
+        Searched: Petrie 1897 and Breasted 1906 (nothing about forgery). Web searches found no forgery claim in the open scholarly sources; one result described a page that argues Lacau's line 27 was altered; fetching it returned HTTP 403.
+        Bearing on authenticity, as read: the stele was dug up by Petrie in place in a documented court, was copied by Spiegelberg, squeezed by Petrie and photographed by Brugsch, and was catalogued in Cairo by 1909 (Lacau,
+        who gives the Journal d'entree number and plates of the object). A fragment of a duplicate at Karnak was published in 1867 (Duemichen, plate viewed 2026-10-15, 19 lines), but by Petrie's concordance it ends about a third of the way
+        along line 27, so it is not shown to contain the Israel line. Nothing in these is a test that could have shown a forgery to be absent.
+      sources: [src-petrie-1897, src-breasted-are3, src-duemichen-1867, src-lacau-1909, src-davidovits]
+    basis: "Absence of a recorded forgery claim in sources read is weak. The allegation is not an argument until its source is read."
 
   # ------------------------- SPEAKER CLAIMS (kept as stated; split by assertion) -------------------------
 
@@ -267,8 +427,11 @@ claims:
     would_change_if: "the signs are read and do not give Israel (then false), or the signs confirm it (then the naming part moves up; 'first mention' would still need a search for earlier records)"
     anchor:
       type: interpretive
-      description: "Two printed translations (Petrie/Spiegelberg 1897, Breasted 1906) agree that Israel is named, so the naming part is supported at a secondary level. 'First mentioned' is an absence claim and was not searched; 'a distinct group ... in the land of Canaan' is not in the text read: the hymn places Israel in a list with Canaan, Askelon, Gezer and Yenoam and calls Palestine a widow for Egypt."
-      sources: [src-petrie-1897, src-breasted-are3]
+      description: >
+        Two printed translations (Petrie/Spiegelberg 1897, Breasted 1906) agree that Israel is named, so the naming part is supported at a secondary level. 'First mentioned' is an absence claim: Breasted (1906, section 603) and Hjelm (2016)
+        both state it for the stele, but no search for earlier records was made, and one open-access article read (JAEI 2010) proposes an earlier writing of the name on a Berlin relief, which another scholar is quoted as rejecting
+        (merneptah-israel-earlier-reading-proposal). 'A distinct group ... in the land of Canaan' is not in the text read: the hymn places Israel in a list with Canaan, Askelon, Gezer and Yenoam and calls Palestine a widow for Egypt.
+      sources: [src-petrie-1897, src-breasted-are3, src-hjelm-2016, src-jaei-2010]
     basis: >
       The naming is supported by the finding merneptah-translations-name-israel. Breasted (section 603) says this is the earliest mention of Israel known to him in 1906, which is a 1906 statement, not a current search. Kept proposed because the speaker's wording is wider than the text.
 
@@ -285,8 +448,8 @@ claims:
     would_change_if: "a chronology read gives year 5 of Merneptah; a window of a few years around 1208 BCE would make 1200 'about' right, a window not containing 1200 would not"
     anchor:
       type: search-record
-      description: "Only Petrie's 1897 round figure 'about 1200 B.C.' for Merneptah's temple was read. See merneptah-absolute-date-bce."
-      sources: [src-petrie-1897]
+      description: "Only Petrie's 1897 round figure 'about 1200 B.C.' for Merneptah's temple and Hjelm's 2016 'around 1209 BCE' were read; neither is a chronology. See merneptah-absolute-date-bce."
+      sources: [src-petrie-1897, src-hjelm-2016]
     basis: "The speaker's number is a round approximation. What the stele states is a regnal year (merneptah-regnal-date-year-5)."
 
   - id: merneptah-sp-single-nation
@@ -300,12 +463,14 @@ claims:
     adoption_weight: 3
     adoption_note: "Dead Hidden. The popular summaries seen call Israel a people or group, not a nation."
     would_change_if: "the signs show a word for nation or a determinative read as a political unit, or a specialist reading is found that supports it"
-    next_step: "Read the Israel line's determinative and compare with the neighbouring names."
+    next_step: "Transliterate the Israel line's determinative and compare with the neighbouring names."
     anchor:
       type: interpretive
-      description: "Petrie/Spiegelberg render 'the people of Israel'; Breasted renders 'Israel' with the people-determinative not discussed in the passages read. The translations say nothing of union. The last couplet 'All lands are united, they are pacified' (Breasted) is about all lands."
-      sources: [src-petrie-1897, src-breasted-are3]
-    basis: "A people is not shown to be a nation or a unit. Unread: the signs."
+      description: >
+        Petrie/Spiegelberg render 'the people of Israel'; Breasted renders 'Israel' and does not discuss the determinative in the passages read. The translations say nothing of union. The last couplet 'All lands are united, they are pacified' (Breasted) is about all lands.
+        Hjelm 2016 (read, pages 1 to 3) says the name is written with the determinative of a people rather than a land; she does not call it a nation.
+      sources: [src-petrie-1897, src-breasted-are3, src-hjelm-2016]
+    basis: "A people is not shown to be a nation or a unit. The signs were looked at but not transliterated."
 
   - id: merneptah-sp-no-king
     state: searched_gap
@@ -319,7 +484,7 @@ claims:
     adoption_weight: 3
     adoption_note: "Dead Hidden. The speaker infers a lack of king from silence."
     would_change_if: "a source is found that says Israel had no king or had one; or the stele's signs contain a word for ruler near the Israel line"
-    next_step: "Read the Israel line in the signs; then identify the scholarly source for the 'no king' inference and read it."
+    next_step: "Transliterate the Israel line and its neighbours for a word for ruler; then identify the scholarly source for the 'no king' inference and read it."
     anchor:
       type: search-record
       description: "Searched both translations: no ruler, king or chief of Israel is named. Silence in an Egyptian victory hymn does not show Israel lacked a king."
@@ -343,7 +508,7 @@ claims:
       description: "The two translations read present the opposite: Canaan is seized or plundered (Merneptah's side) and Israel laid waste. The stele is not shown to say Israel conquered anything."
       sources: [src-petrie-1897, src-breasted-are3]
     basis: >
-      As attributed to the stele, contradicted in both translations read; hence not carried above weight 1. The wording 'only well-organized people' is unsourced here. Not filed as refuted because the signs were not read and the speaker may be drawing on non-stele evidence.
+      As attributed to the stele, contradicted in both translations read; hence not carried above weight 1. The wording 'only well-organized people' is unsourced here. Not filed as refuted because the signs were not transliterated and the speaker may be drawing on non-stele evidence.
 
   - id: merneptah-sp-hyksos-hapiru-shasu-chain
     state: proposed
