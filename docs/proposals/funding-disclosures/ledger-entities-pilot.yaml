@@ -1,0 +1,369 @@
+# Worked example: each distinct funder named in fluoride-iq-funding.yaml as a candidate Ledger entity
+# (docs/proposals/ledger.md, LG entity fields). Ids are draft slugs. LG5: entities are NOT merged on name;
+# near-duplicates below (for example several NIEHS spellings) stay separate until a registry identifier
+# or an owner-approved history entry joins them. No flows are created: the papers state no amounts.
+- id: intramural-research-program-national-institute-of-environmen
+  name: Intramural Research Program, National Institute of Environmental Health Sciences, National Institutes of
+    Health
+  type: government
+  country: US
+  funded_sources:
+  - src-ntp-2024
+  - src-taylor-2025
+- id: us-department-of-health-and-human-services-contract-gs00q14o
+  name: US Department of Health and Human Services (contract GS00Q14OADU417)
+  type: government
+  country: US
+  funded_sources:
+  - src-ntp-2024
+- id: us-department-of-health-and-human-services
+  name: US Department of Health and Human Services
+  type: government
+  country: US
+  funded_sources:
+  - src-nasem-2020
+- id: national-institute-of-environmental-health-sciences
+  name: National Institute of Environmental Health Sciences
+  type: government
+  country: US
+  funded_sources:
+  - src-nasem-2021
+- id: us-environmental-protection-agency
+  name: US Environmental Protection Agency
+  type: government
+  country: US
+  funded_sources:
+  - src-nrc-2006
+  - src-malin-2024
+- id: european-commission-requestor-mandate-under-art-29-1-of-regu
+  name: European Commission (requestor, mandate under Art. 29(1) of Regulation (EC) No 178/2002)
+  type: intergovernmental
+  country: multiple
+  funded_sources:
+  - src-efsa-2025
+- id: european-commission-dg-health-consumers
+  name: European Commission, DG Health & Consumers
+  type: intergovernmental
+  country: multiple
+  funded_sources:
+  - src-scher-2011
+- id: internal-institutional-funds
+  name: Internal institutional funds
+  type: university
+  country: multiple
+  funded_sources:
+  - src-choi-2012
+- id: niehs-superfund-research-program
+  name: NIEHS Superfund Research Program
+  type: government
+  country: US
+  funded_sources:
+  - src-grandjean-2019-review
+  - src-grandjean-2024-odense
+- id: the-university-of-manchester
+  name: The University of Manchester
+  type: university
+  country: GB
+  funded_sources:
+  - src-cochrane-2024
+  - src-cochrane-2015
+- id: manchester-academic-health-sciences-centre-mahsc
+  name: Manchester Academic Health Sciences Centre (MAHSC)
+  type: university
+  country: GB
+  funded_sources:
+  - src-cochrane-2024
+  - src-cochrane-2015
+- id: nihr-manchester-biomedical-research-centre
+  name: NIHR Manchester Biomedical Research Centre
+  type: government
+  country: GB
+  funded_sources:
+  - src-cochrane-2024
+  - src-cochrane-2015
+- id: the-university-of-pennsylvania
+  name: The University of Pennsylvania
+  type: university
+  country: US
+  funded_sources:
+  - src-cochrane-2024
+- id: cochrane-oral-health-group-global-alliance-british-associati
+  name: Cochrane Oral Health Group Global Alliance (British Association of Oral Surgeons; British Orthodontic Society;
+    British Society of Paediatric Dentistry; British Society of Periodontology; Canadian Dental Hygienists Association;
+    National Center for Dental Hygiene Research & Practice; Mayo Clinic; New York University College of Dentistry;
+    Royal College of Surgeons of Edinburgh)
+  type: professional_body
+  country: multiple
+  funded_sources:
+  - src-cochrane-2024
+  - src-cochrane-2015
+- id: national-institute-for-health-research-nihr
+  name: National Institute for Health Research (NIHR)
+  type: government
+  country: GB
+  funded_sources:
+  - src-cochrane-2024
+  - src-cochrane-2015
+- id: national-institute-of-environmental-health-science
+  name: National Institute of Environmental Health Science
+  type: government
+  country: US
+  funded_sources:
+  - src-green-2019
+- id: chemicals-management-plan-at-health-canada
+  name: Chemicals Management Plan at Health Canada
+  type: government
+  country: CA
+  funded_sources:
+  - src-green-2019
+  - src-till-2020-formula
+- id: ontario-ministry-of-the-environment
+  name: Ontario Ministry of the Environment
+  type: government
+  country: CA
+  funded_sources:
+  - src-green-2019
+  - src-till-2020-formula
+- id: canadian-institutes-for-health-research
+  name: Canadian Institutes for Health Research
+  type: government
+  country: CA
+  funded_sources:
+  - src-green-2019
+  - src-till-2020-formula
+- id: national-institute-of-environmental-health-science-niehs
+  name: National Institute of Environmental Health Science (NIEHS)
+  type: government
+  country: US
+  funded_sources:
+  - src-till-2020-formula
+- id: u-s-national-institutes-of-health-nih
+  name: U.S. National Institutes of Health (NIH)
+  type: government
+  country: US
+  funded_sources:
+  - src-bashash-2017
+- id: national-institute-of-environmental-health-sciences-u-s-envi
+  name: National Institute of Environmental Health Sciences / U.S. Environmental Protection Agency (NIEHS/EPA)
+  type: government
+  country: US
+  funded_sources:
+  - src-bashash-2017
+- id: niehs
+  name: NIEHS
+  type: government
+  country: US
+  funded_sources:
+  - src-bashash-2017
+  - src-grandjean-2024-odense
+- id: national-institute-of-public-health-ministry-of-health-of-me
+  name: National Institute of Public Health / Ministry of Health of Mexico
+  type: government
+  country: MX
+  funded_sources:
+  - src-bashash-2017
+- id: american-british-cowdray-hospital
+  name: American British Cowdray Hospital
+  type: other
+  country: MX
+  funded_sources:
+  - src-bashash-2017
+- id: danish-council-for-independent-research-medical-sciences
+  name: Danish Council for Independent Research, Medical Sciences
+  type: government
+  country: DK
+  funded_sources:
+  - src-grandjean-2024-odense
+- id: novo-nordisk-foundation
+  name: Novo Nordisk Foundation
+  type: foundation
+  country: DK
+  funded_sources:
+  - src-grandjean-2024-odense
+- id: flora-l-thornton-endowed-chair-university-of-southern-califo
+  name: Flora L. Thornton Endowed Chair, University of Southern California
+  type: university
+  country: US
+  funded_sources:
+  - src-grandjean-2024-odense
+- id: odense-university-hospital-region-of-southern-denmark
+  name: Odense University Hospital, Region of Southern Denmark
+  type: government
+  country: DK
+  funded_sources:
+  - src-grandjean-2024-odense
+- id: municipality-of-odense
+  name: Municipality of Odense
+  type: government
+  country: DK
+  funded_sources:
+  - src-grandjean-2024-odense
+- id: odense-university-hospital-research-foundation
+  name: Odense University Hospital Research Foundation
+  type: foundation
+  country: DK
+  funded_sources:
+  - src-grandjean-2024-odense
+- id: odense-patient-data-exploratory-network-open
+  name: Odense Patient data Exploratory Network (OPEN)
+  type: other
+  country: DK
+  funded_sources:
+  - src-grandjean-2024-odense
+- id: helsefonden
+  name: Helsefonden
+  type: foundation
+  country: DK
+  funded_sources:
+  - src-grandjean-2024-odense
+- id: hbm4eu
+  name: HBM4EU
+  type: intergovernmental
+  country: multiple
+  funded_sources:
+  - src-grandjean-2024-odense
+- id: new-zealand-department-of-education
+  name: New Zealand Department of Education
+  type: government
+  country: NZ
+  funded_sources:
+  - src-broadbent-2015
+- id: new-zealand-department-of-health
+  name: New Zealand Department of Health
+  type: government
+  country: NZ
+  funded_sources:
+  - src-broadbent-2015
+- id: new-zealand-national-children-s-health-research-foundation
+  name: New Zealand National Children's Health Research Foundation
+  type: charity
+  country: NZ
+  funded_sources:
+  - src-broadbent-2015
+- id: us-national-institute-of-dental-and-craniofacial-research
+  name: US National Institute of Dental and Craniofacial Research
+  type: government
+  country: US
+  funded_sources:
+  - src-broadbent-2015
+- id: uk-medical-research-council
+  name: UK Medical Research Council
+  type: government
+  country: GB
+  funded_sources:
+  - src-broadbent-2015
+- id: us-national-institute-on-aging
+  name: US National Institute on Aging
+  type: government
+  country: US
+  funded_sources:
+  - src-broadbent-2015
+- id: health-research-council-of-new-zealand
+  name: Health Research Council of New Zealand
+  type: government
+  country: NZ
+  funded_sources:
+  - src-broadbent-2015
+- id: u-care
+  name: U-CARE
+  type: university
+  country: SE
+  funded_sources:
+  - src-aggeborn-ohman-2021
+- id: european-research-council
+  name: European Research Council
+  type: intergovernmental
+  country: multiple
+  funded_sources:
+  - src-aggeborn-ohman-2021
+- id: forte-swedish-research-council-for-health-working-life-and-w
+  name: FORTE (Swedish Research Council for Health, Working Life and Welfare)
+  type: government
+  country: SE
+  funded_sources:
+  - src-aggeborn-ohman-2021
+- id: national-health-and-medical-research-council-australia
+  name: National Health and Medical Research Council (Australia)
+  type: government
+  country: AU
+  funded_sources:
+  - src-do-2024
+- id: national-institutes-of-health-national-institute-on-aging
+  name: National Institutes of Health - National Institute on Aging
+  type: government
+  country: US
+  funded_sources:
+  - src-warren-2025
+- id: national-institutes-of-health-national-institute-of-child-he
+  name: National Institutes of Health - National Institute of Child Health and Human Development
+  type: government
+  country: US
+  funded_sources:
+  - src-warren-2025
+- id: alzheimer-s-association
+  name: Alzheimer's Association
+  type: charity
+  country: US
+  funded_sources:
+  - src-warren-2025
+- id: national-institute-on-aging-nia
+  name: National Institute on Aging (NIA)
+  type: government
+  country: US
+  funded_sources:
+  - src-warren-2026
+- id: vilas-estate-trust
+  name: Vilas Estate Trust
+  type: other
+  country: US
+  funded_sources:
+  - src-warren-2026
+- id: national-science-foundation-nsf
+  name: National Science Foundation (NSF)
+  type: government
+  country: US
+  funded_sources:
+  - src-warren-2026
+- id: spencer-foundation
+  name: Spencer Foundation
+  type: foundation
+  country: US
+  funded_sources:
+  - src-warren-2026
+- id: national-institutes-of-health-and-national-institute-of-envi
+  name: National Institutes of Health and National Institute of Environmental Health Sciences
+  type: government
+  country: US
+  funded_sources:
+  - src-malin-2024
+- id: national-institute-for-health-and-care-research-nihr-public-
+  name: National Institute for Health and Care Research (NIHR) Public Health Research programme
+  type: government
+  country: GB
+  funded_sources:
+  - src-catfish-2024
+- id: canadian-institutes-of-health-research-cihr
+  name: Canadian Institutes of Health Research (CIHR)
+  type: government
+  country: CA
+  funded_sources:
+  - src-mclaren-2022
+- id: cihr-applied-public-health-chair-award-cihr-institute-of-pop
+  name: CIHR Applied Public Health Chair award (CIHR Institute of Population & Public Health and Institute of Musculoskeletal
+    Health & Arthritis), co-funded with the Public Health Agency of Canada and Alberta Innovates - Health Solutions
+  type: government
+  country: CA
+  funded_sources:
+  - src-mclaren-2022
+- id: cihr-health-system-impact-fellowship
+  name: CIHR Health System Impact Fellowship
+  type: government
+  country: CA
+  funded_sources:
+  - src-mclaren-2022
+- id: national-institute-of-general-medical-sciences-national-inst
+  name: National Institute of General Medical Sciences, National Institutes of Health
+  type: government
+  country: US
+  funded_sources:
+  - src-wiener-2018

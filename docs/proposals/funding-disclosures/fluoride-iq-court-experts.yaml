@@ -1,0 +1,103 @@
+# Expert witnesses in Food & Water Watch v. EPA, N.D. Cal. No. 3:17-cv-02162-EMC
+# Sources: src-fww-v-epa-2024 (Dkt. 445, Findings of Fact & Conclusions of Law, filed 24 Sep 2024;
+#          line numbers refer to sources/fww-v-epa-2024-doc445.txt)
+#          src-fww-fee-order-2026 (Dkt. 503, Order Awarding Fees & Costs, filed 5 Jan 2026; 11 pp.)
+#
+# Shared compensation finding (applies to every plaintiffs' testifying expert; no per-expert amounts exist):
+#   Dkt. 503 p. 10: plaintiffs' itemized costs comprised travel, expert fees, Westlaw and transcripts
+#   (citing Dkt. 481 paras 100-122); plaintiffs sought recovery only for fees paid to their testifying
+#   experts, not consulting experts (citing Dkt. 481 para 109). Court awarded $496,745 in costs in total,
+#   payable by EPA (p. 1 "Plaintiffs now seek ... fees and costs from EPA"; p. 11 conclusion), stayed
+#   pending appeal. p. 10: plaintiffs did not deny they fully recouped litigation expenses through
+#   targeted fundraising ($663,702 per EPA's opposition). The order names no expert and states no
+#   expert-fee figure, and states nothing about fees EPA paid its own experts.
+#   Separately, EPA earlier agreed to $102,727.33 in taxable costs (p. 2, citing Dkt. 454); not itemized.
+#
+# Side attribution: the court labels only Barone and Savitz as EPA's experts, and uses "Plaintiffs' experts"
+# only in passages citing Grandjean (and, in the preceding sentence, Hu). Hu, Lanphear, Thiessen and
+# Berridge are cited as trial witnesses without a party label in Dkt. 445, so they are marked unclear.
+# Affiliations: Dkt. 445 states none for any witness beyond the EPA/plaintiffs labels.
+#
+# Authorship: checked against Europe PMC author lists (14 Oct 2026). The court gives a first name only
+# for Grandjean (Philippe); for the others the match is by surname (+ initial) only and is noted as such.
+# Re-checked 14 Oct 2026 by an independent checker: line references, party labels and fee-order figures.
+
+- expert: "Philippe Grandjean"
+  called_by: plaintiffs
+  affiliation_as_stated: "not stated; court describes him as lead author of two pooled BMCL analyses (Grandjean 2022, Grandjean 2023)"
+  record: [{source: src-fww-v-epa-2024, where: "lines 3203-3238 ('Plaintiffs' experts' passage citing Grandjean), 3503-3519, 5014-5030, 5382-5497, 5966, 8705-8746"}]
+  compensation: "not stated by name; included only within the aggregate $496,745 costs award (testifying-expert fees among them), payable by EPA, src-fww-fee-order-2026 p. 10-11, if he was a plaintiffs' testifying expert"
+  authored_dig_sources: [src-grandjean-2024-odense, src-grandjean-2019-review, src-choi-2012]
+  note: "Dkt. 445 line 5014 confirms lead authorship of Grandjean (2022) [Trial Ex. 124] and Grandjean (2023) [Trial Ex. 119]; line 5030 says EPA itself had cited a Grandjean pooled benchmark-dose analysis. Europe PMC lists Grandjean P as first author of the 2024 Odense paper (Eur J Public Health), sole author of the 2019 review, and last author of Choi 2012."
+
+- expert: "Dr. Hu (first name not given in Dkt. 445)"
+  called_by: unclear
+  affiliation_as_stated: "not stated"
+  record: [{source: src-fww-v-epa-2024, where: "lines 3157, 3175-3219, 3447, 3555, 3861, 3954-3961, 5329, 5607, 6760-6776, 6897-6941, 7744"}]
+  compensation: "not stated by name; src-fww-fee-order-2026 p. 10 covers plaintiffs' testifying experts only in aggregate ($496,745 total costs, payable by EPA)"
+  authored_dig_sources: [src-bashash-2017, src-grandjean-2024-odense, src-malin-2024]
+  note: "Testimony cited from Dkt. 395 (31 Jan 2024, first trial day). Line 3219 cites Hu and Grandjean together immediately before the sentence at 3223 beginning 'Plaintiffs' experts credibly testified', but the court never labels Hu by party. Authorship by name match only: 'Hu H' appears on Bashash 2017, Grandjean 2024 (Odense) and Malin 2024 author lists; identity with the witness is not confirmed by the court text. Outside the court record, the papers' own disclosures differ on his role: Malin 2024 says Hu testified as a nonretained expert at the request of the US Department of Justice; Grandjean 2024 (Odense) says he was a fact witness. Neither is used to set called_by."
+
+- expert: "Lanphear (no title or first name given in Dkt. 445)"
+  called_by: unclear
+  affiliation_as_stated: "not stated"
+  record: [{source: src-fww-v-epa-2024, where: "lines 3539, 3559, 3865, 3909-3977, 4083, 4600, 5313, 6816, 7324, 7813, 8797"}]
+  compensation: "not stated by name; aggregate only (src-fww-fee-order-2026 p. 10)"
+  authored_dig_sources: [src-green-2019, src-till-2020-formula, src-lanphear-2025]
+  note: "Testimony cited from Dkt. 396 (1 Feb 2024). Not labelled by party in Dkt. 445. Authorship by name match only: 'Lanphear B' on Green 2019 and Till 2020; 'Lanphear BP' first author of the 2025 JAMA Pediatrics editorial. Outside the court record, Green 2019's disclosure says Lanphear would serve, unpaid, as an expert witness in an upcoming EPA fluoridation case; this is not used to set called_by."
+
+- expert: "Dr. Thiessen (first name not given in Dkt. 445)"
+  called_by: unclear
+  affiliation_as_stated: "not stated"
+  record: [{source: src-fww-v-epa-2024, where: "lines 3439, 6055, 6989, 7125-7149, 7219-7239, 7280, 7312, 7425, 7486, 7841-7861, 8173, 8244/8277/8324/8481 (Thiessen Decl., Dkt. 198-4 at 75-77, filed in first trial phase), 8789, 8821-8922"}]
+  compensation: "not stated by name; aggregate only (src-fww-fee-order-2026 p. 10)"
+  authored_dig_sources: []
+  note: "Testimony cited from Dkt. 401/402 (6 and 8 Feb 2024) plus a declaration from the first trial phase. Not labelled by party in Dkt. 445. Fee order p. 3 says plaintiffs referred to first-trial declarations when examining their witnesses, but names none. No author in the listed dig sources is named Thiessen."
+
+- expert: "Berridge (no title or first name given in Dkt. 445)"
+  called_by: unclear
+  affiliation_as_stated: "not stated"
+  record: [{source: src-fww-v-epa-2024, where: "lines 1789, 3865"}]
+  compensation: "not stated"
+  authored_dig_sources: []
+  note: "Cited twice from Dkt. 400 (Feb 2024 transcript), on the NTP Monograph's status and on exposure contrast. Dkt. 445 does not call him an expert or state who called him."
+
+- expert: "Dr. Barone (first name not given in Dkt. 445)"
+  called_by: EPA
+  affiliation_as_stated: "EPA's expert (no further affiliation stated)"
+  record: [{source: src-fww-v-epa-2024, where: "lines 2060 ('EPA's expert, Dr. Barone'), 3579-3599, 3635, 3716-3719, 4127-4143, 6268, 7005, 7576-7608, 7833, 8415, 8648-8837"}]
+  compensation: "not stated (fee order addresses only plaintiffs' recoverable costs)"
+  authored_dig_sources: []
+  note: "Most-cited witness in Dkt. 445 (about 80 pin cites). Line 3719 notes his trial testimony contradicted his prior deposition on the NTP Monograph."
+
+- expert: "Dr. Savitz (first name not given in Dkt. 445)"
+  called_by: EPA
+  affiliation_as_stated: "EPA's expert; court notes he acknowledged he is not an expert in risk assessment, particularly under Amended TSCA"
+  record: [{source: src-fww-v-epa-2024, where: "lines 2128, 2337 (Trial Ex. 656, Savitz summary of methods), 3129, 3141, 3309, 3495-3503, 3635-3683, 3869, 4512-4516 ('the expert called by the EPA herein'), 9117"}]
+  compensation: "not stated (fee order addresses only plaintiffs' recoverable costs)"
+  authored_dig_sources: [src-savitz-2025]
+  note: "Authorship by name match only: Europe PMC lists 'Savitz DA' as sole author of 'Evidence-based water fluoridation policy' (Sci Adv 2025), published after the trial; identity with the witness is not confirmed by the court text."
+
+- expert: "Richard Pearl"
+  called_by: plaintiffs
+  affiliation_as_stated: "fees declarant for plaintiffs (Dkt. 480). The lodestar table lists an attorney 'Pearl' (surname only); that this is the same person is a surname-only match"
+  record: [{source: src-fww-fee-order-2026, where: "p. 5 (Dkt. 480 declaration); p. 7 (lodestar row 'Pearl', surname only)"}]
+  compensation: "not stated for Richard Pearl by full name. The p. 7 lodestar table gives 'Pearl' 104.7 hours, $108,155.1, as attorney time within plaintiffs' fee award (before the order's five percent haircut); linking that row to the declarant is a surname-only match. No expert fee stated"
+  authored_dig_sources: []
+  note: "Fee-motion declarant, not a trial witness. Order p. 5 says plaintiffs' fees expert used the Real Rate Report for his own rates, without naming him; the order does not say which declarant that is."
+
+- expert: "Linda Dardarian"
+  called_by: plaintiffs
+  affiliation_as_stated: "declarant on rates for plaintiffs (Dkt. 485)"
+  record: [{source: src-fww-fee-order-2026, where: "p. 5"}]
+  compensation: "not stated"
+  authored_dig_sources: []
+  note: "Fee-motion declarant, not a trial witness; the order does not call her an expert."
+
+- expert: "Dr. Laura Malowane"
+  called_by: EPA
+  affiliation_as_stated: "declarant on rates attached to the Government's opposition (Dkt. 496-1)"
+  record: [{source: src-fww-fee-order-2026, where: "p. 5"}]
+  compensation: "not stated"
+  authored_dig_sources: []
+  note: "Fee-motion declarant, not a trial witness."
