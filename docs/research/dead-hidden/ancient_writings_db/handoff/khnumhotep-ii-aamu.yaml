@@ -1,0 +1,42 @@
+# HANDOFF for Stratah dig agents. STAGING, not in the repo. Generated 2026-10-14; same rules as merneptah-stele.yaml.
+subject_candidate: khnumhotep-ii-aamu
+object_named_by_speaker: "Tomb of Khnumhotep II (Beni Hasan), Aamu procession"
+candidate_identification_UNVERIFIED: "Beni Hasan tomb 3 Khnumhotep II Aamu procession; Newberry Beni Hasan I (public domain scan likely)"
+question_for_agent: "Read the label naming the leader and the number of Aamu; is the leader's name, count and purpose as the speaker says?"
+speaker_claims_to_test:
+  - id: dh-K3pw12lBcXM-02
+    as_stated: "On a wall in Khnumhotep's tomb is recorded the story of Abishai, a foreign ruler, a Hyksos, and 37 Aamu who came to Egypt to trade in antimony and animals."
+    time_stated: nil
+    place_stated: "Egypt"
+    speaker_cites: "tomb of Khnumhotep"
+  - id: dh-K3pw12lBcXM-03
+    as_stated: "This is the first mention of the Hyksos (Heka Hasut, foreign rulers) in Egypt, and they received the best lands in Egypt, Goshen, in particular the city of Avaris."
+    time_stated: nil
+    place_stated: "Goshen; Avaris"
+    speaker_cites: "none given"
+  - id: dh-qL1VmGF3BF8-07
+    as_stated: "Khnumhotep II's tomb inscription tells of the Aamu of Shu, the Aamu of the Hyksos ('foreign kings'), the earliest mention of the Hyksos who later became the 15th dynasty."
+    time_stated: nil
+    place_stated: nil
+    speaker_cites: "tomb of Khnumhotep II"
+  - id: dh-qL1VmGF3BF8-08
+    as_stated: "37 Aamu came with their leader Abishai; there were 40 in all, but three were already there when the 37 arrived."
+    time_stated: nil
+    place_stated: nil
+    speaker_cites: "tomb of Khnumhotep II"
+  - id: dh-qL1VmGF3BF8-09
+    as_stated: "These people were given the best lands in Egypt, settled, multiplied, became strong and wealthy, and peacefully ascended to the throne with no rebellions or wars."
+    time_stated: nil
+    place_stated: "Egypt"
+    speaker_cites: "tomb inscription (implied)"
+sources: []   # none opened yet. For each source record url, kind, authenticity {status: unchecked}, rights, and whether it was blocked.
+next_steps_for_agent:
+  - Locate the object and a primary edition or image; open and read it. Quote the relevant passage verbatim with the edition named.
+  - Record holder/location, inventory or tomb number, findspot, date and its basis, language/script, licence, sha256 of any stored image.
+  - Test each speaker claim separately (date, identity, what the text says). Keep the claim wording unchanged.
+  - Place and date as shared nodes. Report anything blocked; do not guess.
+constraints:
+  - Branch dig/<subject>; never push to main; conformance must pass; a separate review agent merges.
+  - Wikipedia and the videos are never anchors. Do not bypass bot checks or paywalls. Check licence before storing images.
+  - "Mark where the facts end (best of current knowledge). Keep different or opposing hypotheses open for further study as contested claims with named positions; do not close them early."
+  - "Books, translations and videos are all claims needing proof, on the same footing. Proof is the object, its images or squeezes. For every author and publisher the agent relies on, trace who funded and controlled the work and record it; do not treat a book as an anchor."

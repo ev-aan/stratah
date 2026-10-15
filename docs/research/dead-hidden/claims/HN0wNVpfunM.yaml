@@ -1,0 +1,247 @@
+video:
+  id: "HN0wNVpfunM"
+  title: "Rekhmire"
+  uploaded: "2026-09-14"
+  transcript: "clean/20260914 - Rekhmire [HN0wNVpfunM].txt"
+  caption_source: "YouTube auto-captions (en)"
+claims:
+  - id: dh-HN0wNVpfunM-01
+    kind: "historical"
+    statement: "Rekhmire was an ancient Egyptian noble and official of the 18th Dynasty who served as city governor and vizier during the reigns of Thutmose III and Amenhotep II, around 1400 BC."
+    quote: "was an ancient Egyptian noble and official of the 18th Dynasty who served as city governor and vizier, or prime minister, during the reigns of Thutmose III and Amenhotep II"
+    speaker_cites: "tomb of Rekhmire"
+    time_stated: "c. 1400 BC"
+    place_stated: "Egypt"
+    research_status: "unresearched"
+  - id: dh-HN0wNVpfunM-02
+    kind: "historical"
+    statement: "A scene on the wall of his tomb shows Nubian slaves and Levantine slaves making brick blocks in Egypt."
+    quote: "We see Nubian slaves making brick blocks in Egypt."
+    speaker_cites: "tomb of Rekhmire"
+    time_stated: null
+    place_stated: "Egypt"
+    research_status: "unresearched"
+  - id: dh-HN0wNVpfunM-03
+    kind: "historical"
+    statement: "The tomb scene dates the brick-making to 1470-1445 BC."
+    quote: "it says they were making brick blocks in Egypt, 1470–1445 BC."
+    speaker_cites: "tomb of Rekhmire"
+    time_stated: "1470-1445 BC"
+    place_stated: "Egypt"
+    research_status: "unresearched"
+  - id: dh-HN0wNVpfunM-04
+    kind: "historical"
+    statement: "Hyksos and Nubian slaves were captured and forced into bondage during the campaign begun under Kamose, who recorded his struggle against both."
+    quote: "Hyksos and Nubian slaves were certainly captured and forced into bondage and slave labor during the campaign that began under Kamose"
+    speaker_cites: "Kamose's records"
+    time_stated: null
+    place_stated: null
+    research_status: "unresearched"
+  - id: dh-HN0wNVpfunM-05
+    kind: "historical"
+    statement: "The Hyksos ruled in Lower Egypt and the Nubians ruled in Upper Egypt; Kamose, in the middle, rebelled against both, beginning in 1550 BC."
+    quote: "The Hyksos ruled in Lower Egypt. The Nubians ruled in Upper Egypt."
+    speaker_cites: "Kamose"
+    time_stated: "1550 BC"
+    place_stated: "Lower Egypt; Upper Egypt; Thebes"
+    research_status: "unresearched"
+  - id: dh-HN0wNVpfunM-06
+    kind: "historical"
+    statement: "Both peoples fell into slavery in Egypt in 1550 BC and remained until about 1450 BC."
+    quote: "showing that both of these peoples fell into slavery in Egypt in 1550 BC. and remained there until about 1450 BC ."
+    speaker_cites: "tomb records"
+    time_stated: "1550 BC to c. 1450 BC"
+    place_stated: "Egypt"
+    research_status: "unresearched"
+  - id: dh-HN0wNVpfunM-07
+    kind: "historical"
+    statement: "Ahmose son of Ebana served in the Egyptian navy and rose to admiral; his autobiography on his tomb wall records that he and his men received slaves, Nubians and Hyksos."
+    quote: "Ahmose, son of Ebana, who served in the Egyptian navy, rose to the rank of admiral;"
+    speaker_cites: "autobiography of Ahmose son of Ebana"
+    time_stated: null
+    place_stated: null
+    research_status: "unresearched"
+  - id: dh-HN0wNVpfunM-08
+    kind: "historical"
+    statement: "Nubian enemies had their male organs cut off for the count and gold reward, but Ahmose cut off the hands of the Hyksos because they were circumcised."
+    quote: "However, he cut off the hands of the Hyksos because they were circumcised ."
+    speaker_cites: "autobiography of Ahmose son of Ebana"
+    time_stated: null
+    place_stated: null
+    research_status: "unresearched"
+  - id: dh-HN0wNVpfunM-09
+    kind: "historical"
+    statement: "The Egyptian Book of the Dead says Ra was circumcised, and the Egyptians practiced circumcision as a sign of high spiritual and noble status."
+    quote: "Did you know that Ra was circumcised in the Egyptian Book of the Dead?"
+    speaker_cites: "Egyptian Book of the Dead"
+    time_stated: null
+    place_stated: "Egypt"
+    research_status: "unresearched"
+  - id: dh-HN0wNVpfunM-10
+    kind: "both"
+    statement: "Abraham's circumcision prepared the ground for his descendants to come and rule in Egypt."
+    quote: "Abraham's circumcision prepared the ground for these people to come and rule in Egypt."
+    speaker_cites: "none given"
+    time_stated: null
+    place_stated: "Egypt"
+    research_status: "unresearched"
+  - id: dh-HN0wNVpfunM-11
+    kind: "historical"
+    statement: "The Hyksos ('foreign kings') were not Egyptians, which was Kamose's main claim against them; they were circumcised Jews from the Levant, treated like Egyptian nobility."
+    quote: "They were Jews from the Levant. They were treated like Egyptian nobility."
+    speaker_cites: "Kamose"
+    time_stated: null
+    place_stated: "Levant; Egypt"
+    research_status: "unresearched"
+  - id: dh-HN0wNVpfunM-12
+    kind: "both"
+    statement: "Abraham went to Egypt during a famine and lied that his wife was his sister for fear of being killed; God warned the Egyptian king."
+    quote: "Abraham went to Egypt during a famine."
+    speaker_cites: "Genesis 12 (implied)"
+    time_stated: null
+    place_stated: "Egypt"
+    research_status: "unresearched"
+  - id: dh-HN0wNVpfunM-13
+    kind: "both"
+    statement: "The God of Abraham was known in Egypt at the level of a king."
+    quote: "The God of Abraham was known in Egypt at the level of a king."
+    speaker_cites: "none given"
+    time_stated: null
+    place_stated: "Egypt"
+    research_status: "unresearched"
+  - id: dh-HN0wNVpfunM-14
+    kind: "both"
+    statement: "Abraham's descendants later came to Egypt for the same reason, famine, to get grain, and found Joseph already there, married, with two sons."
+    quote: "Famine in the country. \" Let's go to Egypt and get some grain ,\" they said."
+    speaker_cites: "Genesis 42-46 (implied)"
+    time_stated: null
+    place_stated: "Egypt"
+    research_status: "unresearched"
+  - id: dh-HN0wNVpfunM-15
+    kind: "both"
+    statement: "Joseph was sold into slavery, spent two years in prison, interpreted the king's dream and was immediately made second in command in Egypt, given the daughter of the high priest as wife."
+    quote: "He spent two years in prison, interpreted the king's dream, and was immediately appointed second in command in Egypt"
+    speaker_cites: "Genesis 37-41 (implied)"
+    time_stated: null
+    place_stated: "Egypt"
+    research_status: "unresearched"
+  - id: dh-HN0wNVpfunM-16
+    kind: "both"
+    statement: "Because they were circumcised, a status sign of nobility and priesthood to the Egyptians, Joseph, his 11 brothers and family settled in Goshen, in the city of Avaris, around 1900 BC and were treated like royalty and buried with Egyptian noble honors."
+    quote: "Joseph, his 11 brothers, and their family settled in the land of Goshen, in the city of Avaris."
+    speaker_cites: "none given"
+    time_stated: "c. 1900 BC"
+    place_stated: "Goshen; Avaris"
+    research_status: "unresearched"
+  - id: dh-HN0wNVpfunM-17
+    kind: "both"
+    statement: "They multiplied, became extremely powerful and became the 15th dynasty of kings in Lower Egypt, the Hyksos, foreign rulers."
+    quote: "They became the 15th dynasty of kings in Lower Egypt—the Hyksos, foreign rulers."
+    speaker_cites: "none given"
+    time_stated: null
+    place_stated: "Lower Egypt"
+    research_status: "unresearched"
+  - id: dh-HN0wNVpfunM-18
+    kind: "historical"
+    statement: "In 1550 BC Kamose, king of Middle Egypt, rebelled against the king of Avaris and the Nubian king to the south, defeated both and took their people into slavery (speaker misspeaks '1st century BC')."
+    quote: "defeated them both, and took their people into slavery. This is well documented."
+    speaker_cites: "Egyptian records"
+    time_stated: "1550 BC"
+    place_stated: "Middle Egypt; Avaris"
+    research_status: "unresearched"
+  - id: dh-HN0wNVpfunM-19
+    kind: "historical"
+    statement: "West Asians, the Hyksos people, and the Nubians made mud bricks for temples and government building projects, written by the Egyptians on tomb walls."
+    quote: "West Asians, the Hyksos people, and the Nubians made mud bricks for temples and government building projects"
+    speaker_cites: "tomb walls"
+    time_stated: null
+    place_stated: "Egypt"
+    research_status: "unresearched"
+  - id: dh-HN0wNVpfunM-20
+    kind: "historical"
+    statement: "The bas-relief is much older than Ramses; Ramses may have put his name on something already existing, as he is known to have done often, and the city was destroyed by a flood and moved; construction was underway in both his cities before him."
+    quote: "This bas-relief is much older than Ramses."
+    speaker_cites: "speaker's reasoning"
+    time_stated: null
+    place_stated: "city of Ramses"
+    research_status: "unresearched"
+  - id: dh-HN0wNVpfunM-21
+    kind: "historical"
+    statement: "Around 1900 BC these circumcised, pork-avoiding people definitely came to Egypt from the Levant and became the 15th dynasty in Lower Egypt; Kamose rebelled, enslaved them, and they remained another 100 years."
+    quote: "Around 1900 BC. BC these guys definitely came to Egypt from the Levant."
+    speaker_cites: "tomb records"
+    time_stated: "c. 1900 BC"
+    place_stated: "Egypt; Levant; Lower Egypt"
+    research_status: "unresearched"
+  - id: dh-HN0wNVpfunM-22
+    kind: "historical"
+    statement: "The enslaved people disappeared after about 100 years of slavery with no official record of what happened to them, though the speaker argues there is evidence."
+    quote: "Their people were enslaved for 100 years and then disappeared without a trace."
+    speaker_cites: "none given"
+    time_stated: "100 years of slavery"
+    place_stated: null
+    research_status: "unresearched"
+  - id: dh-HN0wNVpfunM-23
+    kind: "both"
+    statement: "The Jews were in Egypt for about 430 years."
+    quote: "This indicates that the Jews were in Egypt for about 430 years."
+    speaker_cites: "Bible (Exodus 12:40, implied)"
+    time_stated: "430 years"
+    place_stated: "Egypt"
+    research_status: "unresearched"
+  - id: dh-HN0wNVpfunM-24
+    kind: "historical"
+    statement: "Amarna letters of 1400 BC show Canaanite kings begging Egypt to help against the Hapiru who plunder their cities and seize territory; Egypt had few troops in Canaan and ruled by diplomacy, gold and taxes."
+    quote: "Amarna letters 1400 BC show how the Canaanite kings beg the Egyptians to help them against the Hapirs"
+    speaker_cites: "Amarna letters"
+    time_stated: "1400 BC"
+    place_stated: "Canaan"
+    research_status: "unresearched"
+  - id: dh-HN0wNVpfunM-25
+    kind: "historical"
+    statement: "'Hapiru' by definition could refer to the Jews who came to Canaan with conquests: nomadic tribes without a king, not yet a nation, not random bandits."
+    quote: "But by definition, the word \"hapiru\" could well refer to the Jews who came to the land of Canaan with conquests."
+    speaker_cites: "Amarna letters"
+    time_stated: null
+    place_stated: "Canaan"
+    research_status: "unresearched"
+  - id: dh-HN0wNVpfunM-26
+    kind: "historical"
+    statement: "In 1200 BC the Merneptah Stele records Israel as a single nation in Canaan, still without a king, the only well-organized people to have conquered Canaan."
+    quote: "And then, in 1200 BC, the Merneptah Stele records Israel as a single nation in the land of Canaan, albeit still without a king."
+    speaker_cites: "Merneptah Stele"
+    time_stated: "1200 BC"
+    place_stated: "Canaan"
+    research_status: "unresearched"
+  - id: dh-HN0wNVpfunM-27
+    kind: "historical"
+    statement: "Tel Dan was formerly the city of Laish; around 1200 BC the tribe of Dan went north, conquered Laish and renamed it Dan, setting up a golden calf and temple there, as in Judges 18."
+    quote: "And this is Tel Dan , formerly known as the city of Laish."
+    speaker_cites: "Judges 18; archaeological finds"
+    time_stated: "c. 1200 BC"
+    place_stated: "Tel Dan; Laish"
+    research_status: "unresearched"
+  - id: dh-HN0wNVpfunM-28
+    kind: "historical"
+    statement: "Numerous archaeological finds confirm the division of the 10 tribes into the northern kingdom of Israel and Judah and Benjamin into the southern kingdom of Judah, and the reign of Solomon and the house of David."
+    quote: "Confirming the division of the 10 tribes into the northern kingdom of Israel, and Judah and Benjamin into the southern kingdom of Judah."
+    speaker_cites: "archaeological finds"
+    time_stated: null
+    place_stated: "Israel; Judah"
+    research_status: "unresearched"
+  - id: dh-HN0wNVpfunM-29
+    kind: "historical"
+    statement: "King Saul was crowned around 1000 BC."
+    quote: "King Saul was crowned around 1000 BC."
+    speaker_cites: "none given"
+    time_stated: "c. 1000 BC"
+    place_stated: null
+    research_status: "unresearched"
+  - id: dh-HN0wNVpfunM-30
+    kind: "historical"
+    statement: "The Khapiru who captured Canaanite cities were the Hyksos; the speaker asks how Israel became established at Jerusalem and Tel Dan while Egypt controlled Canaan."
+    quote: "Who were the Khapiru if not the Hyksos?"
+    speaker_cites: "none given"
+    time_stated: null
+    place_stated: "Jerusalem; Tel Dan; Canaan"
+    research_status: "unresearched"

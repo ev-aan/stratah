@@ -1,0 +1,327 @@
+video:
+  id: "qL1VmGF3BF8"
+  title: "The Aamu of Shu ｜ The Hyksos"
+  uploaded: "2026-09-08"
+  transcript: "clean/20260908 - The Aamu of Shu ｜ The Hyksos [qL1VmGF3BF8].txt"
+  caption_source: "YouTube auto-captions (en)"
+claims:
+  - id: dh-qL1VmGF3BF8-01
+    kind: "historical"
+    statement: "At Avaris in the land of Goshen in Egypt a palace complex with 12 columns on the porch was found."
+    quote: "In Egypt, in the land of Goshen, in the city of Avaris, a palace complex with 12 columns on the porch was found."
+    speaker_cites: "archaeology"
+    time_stated: null
+    place_stated: "Egypt; Goshen; Avaris"
+    research_status: "unresearched"
+  - id: dh-qL1VmGF3BF8-02
+    kind: "historical"
+    statement: "Twelve tombs were found in the garden next to the palace, and the 12 columns symbolize the people buried there."
+    quote: "12 tombs were found in the garden next to it . The columns symbolize the people who were buried there ."
+    speaker_cites: "archaeology"
+    time_stated: null
+    place_stated: "Avaris"
+    research_status: "unresearched"
+  - id: dh-qL1VmGF3BF8-03
+    kind: "historical"
+    statement: "The largest of the tombs has a pyramid, indicating high royal status in Egypt, and contains no bones."
+    quote: "The largest of the tombs has a pyramid, indicating high royal status in Egypt."
+    speaker_cites: "archaeology"
+    time_stated: null
+    place_stated: "Egypt"
+    research_status: "unresearched"
+  - id: dh-qL1VmGF3BF8-04
+    kind: "historical"
+    statement: "The palace, columns and tombs date to about 1900 BC."
+    quote: "Well, it's about 1900 BC ."
+    speaker_cites: "archaeology"
+    time_stated: "c. 1900 BC"
+    place_stated: "Avaris"
+    research_status: "unresearched"
+  - id: dh-qL1VmGF3BF8-05
+    kind: "historical"
+    statement: "The 12 people buried in the tombs are the pillars of the royal house; their descendants became the 15th dynasty of Egyptian kings who ruled Lower Egypt in the north."
+    quote: "They were the 15th dynasty of Egypt."
+    speaker_cites: "none given"
+    time_stated: "c. 1900 BC onward"
+    place_stated: "Lower Egypt"
+    research_status: "unresearched"
+  - id: dh-qL1VmGF3BF8-06
+    kind: "historical"
+    statement: "The 12 people are the Hyksos, who came to Egypt from the Levant, as recorded by Khnumhotep."
+    quote: "The Egyptian king Khnumhotep recorded how these people came to Egypt from the Levant, these are the Hyksos."
+    speaker_cites: "Khnumhotep"
+    time_stated: null
+    place_stated: "Levant; Egypt"
+    research_status: "unresearched"
+  - id: dh-qL1VmGF3BF8-07
+    kind: "historical"
+    statement: "Khnumhotep II's tomb inscription tells of the Aamu of Shu, the Aamu of the Hyksos ('foreign kings'), the earliest mention of the Hyksos who later became the 15th dynasty."
+    quote: "On the wall of Khnumhotep II's tomb is inscribed the story of the Aamu of Shu"
+    speaker_cites: "tomb of Khnumhotep II"
+    time_stated: null
+    place_stated: null
+    research_status: "unresearched"
+  - id: dh-qL1VmGF3BF8-08
+    kind: "historical"
+    statement: "37 Aamu came with their leader Abishai; there were 40 in all, but three were already there when the 37 arrived."
+    quote: "37 of these boys came with their leader, Abishai."
+    speaker_cites: "tomb of Khnumhotep II"
+    time_stated: null
+    place_stated: null
+    research_status: "unresearched"
+  - id: dh-qL1VmGF3BF8-09
+    kind: "historical"
+    statement: "These people were given the best lands in Egypt, settled, multiplied, became strong and wealthy, and peacefully ascended to the throne with no rebellions or wars."
+    quote: "These people were given the best lands in all of Egypt"
+    speaker_cites: "tomb inscription (implied)"
+    time_stated: null
+    place_stated: "Egypt"
+    research_status: "unresearched"
+  - id: dh-qL1VmGF3BF8-10
+    kind: "historical"
+    statement: "A statue and tomb of a man were found, wearing an outfit not in Egyptian fashion, indicating people from the land of Canaan."
+    quote: "They built a statue of him. Here is his tomb."
+    speaker_cites: "archaeology"
+    time_stated: null
+    place_stated: "Canaan"
+    research_status: "unresearched"
+  - id: dh-qL1VmGF3BF8-11
+    kind: "historical"
+    statement: "These people came from Canaan but were not Canaanites; academia wrongly calls all inhabitants of Canaan Canaanites, but Canaanites were a specific group."
+    quote: "Although they were not Canaanites."
+    speaker_cites: "none given"
+    time_stated: null
+    place_stated: "Canaan"
+    research_status: "unresearched"
+  - id: dh-qL1VmGF3BF8-12
+    kind: "historical"
+    statement: "The Hyksos were circumcised and did not eat pork or sacrifice pigs to gods."
+    quote: "These guys were circumcised and didn't eat pork, man."
+    speaker_cites: "none given"
+    time_stated: null
+    place_stated: null
+    research_status: "unresearched"
+  - id: dh-qL1VmGF3BF8-13
+    kind: "historical"
+    statement: "No pig bones are found near the Hyksos or the Hebrews, in Egypt or in Canaan, which distinguishes them from others."
+    quote: "you will not find any pig bones near the Hyksos or the Hebrews, either in Egypt or in the land of Canaan."
+    speaker_cites: "archaeology"
+    time_stated: null
+    place_stated: "Egypt; Canaan"
+    research_status: "unresearched"
+  - id: dh-qL1VmGF3BF8-14
+    kind: "historical"
+    statement: "A distinctive type of pottery is found for these people, a topic that should include finds at Jericho."
+    quote: "What you will actually unearth is a certain type of pottery"
+    speaker_cites: "archaeology"
+    time_stated: null
+    place_stated: "Jericho"
+    research_status: "unresearched"
+  - id: dh-qL1VmGF3BF8-15
+    kind: "both"
+    statement: "The Hyksos were Jews."
+    quote: "These were Jews."
+    speaker_cites: "none given"
+    time_stated: null
+    place_stated: null
+    research_status: "unresearched"
+  - id: dh-qL1VmGF3BF8-16
+    kind: "historical"
+    statement: "Kamose, king of Middle Egypt and Thebes, rebelled against the Hyksos in the north and the Nubians in the south in 1550 BC."
+    quote: "when Chemosh, king of Middle Egypt and Thebes, rebelled against the Hyksos in the north and the Nubians in the south in 1550 BC"
+    speaker_cites: "Egyptian records"
+    time_stated: "1550 BC"
+    place_stated: "Middle Egypt; Thebes"
+    research_status: "unresearched"
+  - id: dh-qL1VmGF3BF8-17
+    kind: "historical"
+    statement: "Egyptian custom required cutting off the male organ of a defeated enemy for counting and military awards; for circumcised men they took the hand instead."
+    quote: "they only cut off the organ if the guy was not circumcised."
+    speaker_cites: "Egyptian custom"
+    time_stated: null
+    place_stated: "Egypt"
+    research_status: "unresearched"
+  - id: dh-qL1VmGF3BF8-18
+    kind: "historical"
+    statement: "The autobiography of Ahmose son of Abana records that he cut off the hands of many Hyksos and was rewarded with many captives, men and women."
+    quote: "the autobiography of Ahmose , son of Abana, records that he cut off the hands of many Hyksos"
+    speaker_cites: "autobiography of Ahmose son of Abana"
+    time_stated: null
+    place_stated: null
+    research_status: "unresearched"
+  - id: dh-qL1VmGF3BF8-19
+    kind: "both"
+    statement: "The Hyksos were circumcised because they were descended from Abraham."
+    quote: "These boys were circumcised because they were descended from Abraham."
+    speaker_cites: "none given"
+    time_stated: null
+    place_stated: null
+    research_status: "unresearched"
+  - id: dh-qL1VmGF3BF8-20
+    kind: "historical"
+    statement: "The speaker believes the Hebrew name Abraham was mistranslated when the dead Hebrew language was revived; it makes sense as 'the one who crossed the river'."
+    quote: "they mistranslated his name when they revived the completely dead Hebrew language"
+    speaker_cites: "speaker's own view (self-described layman)"
+    time_stated: null
+    place_stated: null
+    research_status: "unresearched"
+  - id: dh-qL1VmGF3BF8-21
+    kind: "historical"
+    statement: "The name Abraham means 'the one who crossed the river', the river being the Euphrates."
+    quote: "The one who crossed the river. Which river? Euphrates."
+    speaker_cites: "speaker's own suspicion"
+    time_stated: null
+    place_stated: "Euphrates"
+    research_status: "unresearched"
+  - id: dh-qL1VmGF3BF8-22
+    kind: "historical"
+    statement: "Avra (Abraham) is related to Ivri (Hebrew): the Ivri are those who crossed the river, named after Abraham, or possibly named after Eber, which means 'to pass over'."
+    quote: "I suspect that Avra ​​is related to Ivri, that the Ivri are those who crossed the river, named after Abraham."
+    speaker_cites: "speaker's suspicion"
+    time_stated: null
+    place_stated: null
+    research_status: "unresearched"
+  - id: dh-qL1VmGF3BF8-23
+    kind: "both"
+    statement: "Eber is a religious name because he is a descendant of Shem."
+    quote: "I say that Ever is a religious name because he is a descendant of Shem."
+    speaker_cites: "Genesis (implied)"
+    time_stated: null
+    place_stated: null
+    research_status: "unresearched"
+  - id: dh-qL1VmGF3BF8-24
+    kind: "both"
+    statement: "When Abraham came to Canaan there was also Melchizedek, whom the speaker seriously suspects was Shem himself, king of Salem (Jerusalem), resembling the son of man."
+    quote: "Melchizedek, who I am beginning to seriously suspect was Shem himself, king of Salem, Jerusalem"
+    speaker_cites: "Genesis 14 (implied)"
+    time_stated: null
+    place_stated: "Salem; Jerusalem; Canaan"
+    research_status: "unresearched"
+  - id: dh-qL1VmGF3BF8-25
+    kind: "religious"
+    statement: "Shem was baptized by the flood; as eight souls were saved by water, baptism saves us now."
+    quote: "because he was baptized by the flood. As eight souls were saved by water, in a similar way baptism also saves us now"
+    speaker_cites: "1 Peter 3:20-21 (implied)"
+    time_stated: null
+    place_stated: null
+    research_status: "unresearched"
+  - id: dh-qL1VmGF3BF8-26
+    kind: "religious"
+    statement: "By faith Noah built the ark, and Shem, Japheth and Ham also entered it; their descendants will also be saved by Jesus, a multitude from every nation."
+    quote: "By faith Noah built the ark, and by faith Shim entered it."
+    speaker_cites: "Hebrews 11 (implied)"
+    time_stated: null
+    place_stated: "ark"
+    research_status: "unresearched"
+  - id: dh-qL1VmGF3BF8-27
+    kind: "religious"
+    statement: "God saved Ham's wife in the ark because He had a plan to save their posterity."
+    quote: "Why did God save Ham's wife in the ark? Because He had a plan to save their posterity."
+    speaker_cites: "none given"
+    time_stated: null
+    place_stated: "ark"
+    research_status: "unresearched"
+  - id: dh-qL1VmGF3BF8-28
+    kind: "religious"
+    statement: "Subjugation and enslavement are part of God's plan; humiliation turns a people into a nation until they forget their origin and become oppressors themselves (oppressors are still devils)."
+    quote: "subjugation and enslavement are part of the plan"
+    speaker_cites: "none given"
+    time_stated: null
+    place_stated: null
+    research_status: "unresearched"
+  - id: dh-qL1VmGF3BF8-29
+    kind: "both"
+    statement: "The tomb at Avaris is Joseph's tomb where he was first buried; it has no bones because they were taken in the Exodus and buried in Canaan."
+    quote: "So this is Joseph's tomb, where he was first buried."
+    speaker_cites: "Genesis 50, Exodus 13 (implied)"
+    time_stated: null
+    place_stated: "Avaris; Canaan"
+    research_status: "unresearched"
+  - id: dh-qL1VmGF3BF8-30
+    kind: "historical"
+    statement: "Joseph was given all the honors of an Egyptian nobleman, embalmed and placed in a coffin in this tomb, and later his bones were taken back to Canaan."
+    quote: "he was given all the honors of an Egyptian nobleman, embalmed, and placed in a coffin."
+    speaker_cites: "Genesis 50 (implied)"
+    time_stated: null
+    place_stated: "Egypt; Canaan"
+    research_status: "unresearched"
+  - id: dh-qL1VmGF3BF8-31
+    kind: "both"
+    statement: "Abraham came to Canaan from Ur of the Chaldeans, Babylon, but was neither a Canaanite nor a Babylonian."
+    quote: "Abraham came to the land of Canaan from Ur of the Chaldeans, Babylon."
+    speaker_cites: "Genesis 11-12 (implied)"
+    time_stated: null
+    place_stated: "Ur of the Chaldeans; Babylon; Canaan"
+    research_status: "unresearched"
+  - id: dh-qL1VmGF3BF8-32
+    kind: "both"
+    statement: "Shem and Eber were not Canaanites; they were not descended from Ham or Canaan, from whom all Canaanites directly descended, which is why it is the land of Canaan."
+    quote: "They were not descended from Ham or Canaan, from whom all Canaanites directly descended."
+    speaker_cites: "Genesis (implied)"
+    time_stated: null
+    place_stated: "Canaan"
+    research_status: "unresearched"
+  - id: dh-qL1VmGF3BF8-33
+    kind: "both"
+    statement: "The Elamites ruled over the Canaanites when Abraham came; Abraham pursued and defeated them in the battle of kings when they took his nephew Lot."
+    quote: "But the Elamites ruled over them when Abraham came to their land."
+    speaker_cites: "Genesis 14 (implied)"
+    time_stated: null
+    place_stated: "Canaan"
+    research_status: "unresearched"
+  - id: dh-qL1VmGF3BF8-34
+    kind: "both"
+    statement: "Jacob, a descendant of Abraham, was given all the funeral honors of an Egyptian nobleman but was carried back to Canaan and buried there."
+    quote: "Jacob, a descendant of Abraham, was also given all the funeral honors of an Egyptian nobleman."
+    speaker_cites: "Genesis 50 (implied)"
+    time_stated: null
+    place_stated: "Egypt; Canaan"
+    research_status: "unresearched"
+  - id: dh-qL1VmGF3BF8-35
+    kind: "both"
+    statement: "Abraham was probably named after Eber, and the city of Hebron is named after Abraham (speaker says maybe not)."
+    quote: "I argue that the city of Hebron is named after Abraham."
+    speaker_cites: "none given"
+    time_stated: null
+    place_stated: "Hebron"
+    research_status: "unresearched"
+  - id: dh-qL1VmGF3BF8-36
+    kind: "both"
+    statement: "The Aamu/Hyksos and the Egyptians' recorded story of their arrival prove the biblical account is 100% accurate."
+    quote: "the story the Egyptians recorded of their arrival prove that the biblical account is 100% accurate."
+    speaker_cites: "none given"
+    time_stated: null
+    place_stated: null
+    research_status: "unresearched"
+  - id: dh-qL1VmGF3BF8-37
+    kind: "both"
+    statement: "The 12 columns represent Joseph and his brothers buried in the 12 tombs; the statue is either Joseph or Jacob, and the others are his brothers and their families."
+    quote: "These columns represent him and his brothers who were buried in those 12 tombs."
+    speaker_cites: "none given"
+    time_stated: null
+    place_stated: "Avaris"
+    research_status: "unresearched"
+  - id: dh-qL1VmGF3BF8-38
+    kind: "both"
+    statement: "Joseph and his family were already in Egypt; the king of Egypt gave him a wife immediately after he interpreted the dream; he had two sons; the Bible says 40 people came there including Joseph and his two sons."
+    quote: "The Bible says that 40 people came there, including Joseph and his two sons."
+    speaker_cites: "Bible (Genesis 46)"
+    time_stated: null
+    place_stated: "Egypt"
+    research_status: "unresearched"
+  - id: dh-qL1VmGF3BF8-39
+    kind: "religious"
+    statement: "The Gospel of Jesus Christ is a pattern repeated at all levels of existence (sunrise, grain of wheat dying, life cycle of a star, agriculture, biology, Schrödinger equation)."
+    quote: "This is the Gospel of Jesus Christ."
+    speaker_cites: "John 12:24 (grain of wheat)"
+    time_stated: null
+    place_stated: null
+    research_status: "unresearched"
+  - id: dh-qL1VmGF3BF8-40
+    kind: "religious"
+    statement: "Jesus is God Almighty and the biblical narrative is confirmed by history and archaeology in every part."
+    quote: "Jesus is God Almighty."
+    speaker_cites: "none given"
+    time_stated: null
+    place_stated: null
+    research_status: "unresearched"

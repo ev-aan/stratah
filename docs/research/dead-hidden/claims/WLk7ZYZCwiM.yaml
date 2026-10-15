@@ -1,0 +1,87 @@
+video:
+  id: WLk7ZYZCwiM
+  title: "Reality is both deterministic and probabilistic. Depending on..."
+  uploaded: 2025-10-25
+  transcript: "clean/20251025 - Reality is both deterministic and probabilistic. Depending on... [WLk7ZYZCwiM].txt"
+  caption_source: YouTube auto-captions (en)
+claims:
+  - id: dh-WLk7ZYZCwiM-01
+    kind: historical
+    statement: "On the classical scale science can tell when the next 10,000 years of solar eclipses will be and where, and where they were in the past 10,000 years."
+    quote: "we can tell you when the next 10,000 years of solar eclipses are going to be and where upon the face of the Earth"
+    speaker_cites: "none given"
+    time_stated: "10,000 years"
+    place_stated: null
+    research_status: unresearched
+  - id: dh-WLk7ZYZCwiM-02
+    kind: historical
+    statement: "Mainstream science says the tiniest building blocks interacted under the laws of physics to become particles, atoms, molecules, planets, solar systems and galaxies, time favoring stability and complexity."
+    quote: "The tiniest stuff interacted with the tiniest stuff under the laws of physics."
+    speaker_cites: "mainstream science"
+    time_stated: null
+    place_stated: null
+    research_status: unresearched
+  - id: dh-WLk7ZYZCwiM-03
+    kind: historical
+    statement: "A star is born, grows, gets old and dies, to be born again as a different, more powerful, longer-lasting star."
+    quote: "it is born, it grows up, it gets old, and it dies only to be born again as a different kind of star than it started as."
+    speaker_cites: "mathematical stellar life cycle"
+    time_stated: null
+    place_stated: null
+    research_status: unresearched
+  - id: dh-WLk7ZYZCwiM-04
+    kind: historical
+    statement: "A red giant becomes so unstable it wipes out the solar system on timescales much larger than human lifespans."
+    quote: "The time it takes for a red giant to become so unstable that it wipes out the entire solar system"
+    speaker_cites: "none given"
+    time_stated: null
+    place_stated: null
+    research_status: unresearched
+  - id: dh-WLk7ZYZCwiM-05
+    kind: historical
+    statement: "Absent collision or black hole, a star is expected to turn into a white dwarf after planetary nebula."
+    quote: "it's expected to turn into a white dwarf after planetary nebula."
+    speaker_cites: "intellectuals who deny God"
+    time_stated: null
+    place_stated: null
+    research_status: unresearched
+  - id: dh-WLk7ZYZCwiM-06
+    kind: religious
+    statement: "The star's life cycle parallels the human life cycle, the four seasons, the moon's 28-day phases, and the 24-hour day, all 'ye must be born again'."
+    quote: "The eight phases of the moon, a 28-day period, mimics a 24-hour period."
+    speaker_cites: "none given"
+    time_stated: "28 days; 24 hours"
+    place_stated: null
+    research_status: unresearched
+  - id: dh-WLk7ZYZCwiM-07
+    kind: historical
+    statement: "Quantum mechanics: every particle is a disturbance of a quantum field (e.g., Higgs boson is a ripple of the Higgs field); photons do not interact with the Higgs field, have no mass and experience no time."
+    quote: "Photons do not interact with the Higs field and so they have no mass and so they experience no time."
+    speaker_cites: "mainstream quantum mechanics"
+    time_stated: null
+    place_stated: null
+    research_status: unresearched
+  - id: dh-WLk7ZYZCwiM-08
+    kind: historical
+    statement: "The Higgs field gives electrons their mass; without it atoms and water could not exist."
+    quote: "Water exists because of the Higs field, giving electrons their mass."
+    speaker_cites: "none given"
+    time_stated: null
+    place_stated: null
+    research_status: unresearched
+  - id: dh-WLk7ZYZCwiM-09
+    kind: religious
+    statement: "Free will does not exist anywhere on earth that we can tell."
+    quote: "free will does not exist anywhere on the earth that we can tell."
+    speaker_cites: "none given"
+    time_stated: null
+    place_stated: null
+    research_status: unresearched
+  - id: dh-WLk7ZYZCwiM-10
+    kind: religious
+    statement: "Jesus's statement that a seed must die to bring forth fruit is true of sperm and observably true on all levels."
+    quote: "What Jesus said is observably true on all levels."
+    speaker_cites: "Jesus"
+    time_stated: null
+    place_stated: null
+    research_status: unresearched

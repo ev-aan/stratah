@@ -1,0 +1,62 @@
+# HANDOFF for Stratah dig agents. STAGING, not in the repo. Generated 2026-10-14; same rules as merneptah-stele.yaml.
+subject_candidate: avaris-tell-el-dab-a
+object_named_by_speaker: "Tell el-Dab'a (Avaris) palace, tombs and statue"
+candidate_identification_UNVERIFIED: "Tell el-Daba Avaris excavations Bietak palace tombs statue; excavation reports"
+question_for_agent: "What was actually found (twelve columns? twelve tombs? statue), its date, and who excavators say it represents."
+speaker_claims_to_test:
+  - id: dh-KNhzmEKodZg-19
+    as_stated: "At Avaris there is a palace with 12 columns and 12 tombs of the patriarchs of the Hyksos nobility, i.e. Joseph and his brothers, whose descendants became the 12 tribes of Israel."
+    time_stated: nil
+    place_stated: "Egypt; Avaris"
+    speaker_cites: "archaeology"
+  - id: dh-KNhzmEKodZg-23
+    as_stated: "The statue found at Avaris is most likely Joseph, or else Jacob, a foreign king; the largest tomb is Joseph's, who surpassed them all in Egypt."
+    time_stated: nil
+    place_stated: "Avaris; Egypt"
+    speaker_cites: "archaeology"
+  - id: dh-qL1VmGF3BF8-02
+    as_stated: "Twelve tombs were found in the garden next to the palace, and the 12 columns symbolize the people buried there."
+    time_stated: nil
+    place_stated: "Avaris"
+    speaker_cites: "archaeology"
+  - id: dh-qL1VmGF3BF8-03
+    as_stated: "The largest of the tombs has a pyramid, indicating high royal status in Egypt, and contains no bones."
+    time_stated: nil
+    place_stated: "Egypt"
+    speaker_cites: "archaeology"
+  - id: dh-qL1VmGF3BF8-04
+    as_stated: "The palace, columns and tombs date to about 1900 BC."
+    time_stated: "c. 1900 BC"
+    place_stated: "Avaris"
+    speaker_cites: "archaeology"
+  - id: dh-qL1VmGF3BF8-05
+    as_stated: "The 12 people buried in the tombs are the pillars of the royal house; their descendants became the 15th dynasty of Egyptian kings who ruled Lower Egypt in the north."
+    time_stated: "c. 1900 BC onward"
+    place_stated: "Lower Egypt"
+    speaker_cites: "none given"
+  - id: dh-qL1VmGF3BF8-29
+    as_stated: "The tomb at Avaris is Joseph's tomb where he was first buried; it has no bones because they were taken in the Exodus and buried in Canaan."
+    time_stated: nil
+    place_stated: "Avaris; Canaan"
+    speaker_cites: "Genesis 50, Exodus 13 (implied)"
+  - id: dh-qL1VmGF3BF8-30
+    as_stated: "Joseph was given all the honors of an Egyptian nobleman, embalmed and placed in a coffin in this tomb, and later his bones were taken back to Canaan."
+    time_stated: nil
+    place_stated: "Egypt; Canaan"
+    speaker_cites: "Genesis 50 (implied)"
+  - id: dh-qL1VmGF3BF8-37
+    as_stated: "The 12 columns represent Joseph and his brothers buried in the 12 tombs; the statue is either Joseph or Jacob, and the others are his brothers and their families."
+    time_stated: nil
+    place_stated: "Avaris"
+    speaker_cites: "none given"
+sources: []   # none opened yet. For each source record url, kind, authenticity {status: unchecked}, rights, and whether it was blocked.
+next_steps_for_agent:
+  - Locate the object and a primary edition or image; open and read it. Quote the relevant passage verbatim with the edition named.
+  - Record holder/location, inventory or tomb number, findspot, date and its basis, language/script, licence, sha256 of any stored image.
+  - Test each speaker claim separately (date, identity, what the text says). Keep the claim wording unchanged.
+  - Place and date as shared nodes. Report anything blocked; do not guess.
+constraints:
+  - Branch dig/<subject>; never push to main; conformance must pass; a separate review agent merges.
+  - Wikipedia and the videos are never anchors. Do not bypass bot checks or paywalls. Check licence before storing images.
+  - "Mark where the facts end (best of current knowledge). Keep different or opposing hypotheses open for further study as contested claims with named positions; do not close them early."
+  - "Books, translations and videos are all claims needing proof, on the same footing. Proof is the object, its images or squeezes. For every author and publisher the agent relies on, trace who funded and controlled the work and record it; do not treat a book as an anchor."

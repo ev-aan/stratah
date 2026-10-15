@@ -1,0 +1,22 @@
+# HANDOFF for Stratah dig agents. STAGING, not in the repo. Generated 2026-10-14; same rules as merneptah-stele.yaml.
+subject_candidate: ugarit-unbaked-tablet
+object_named_by_speaker: "Cuneiform tablet pleading for help against ships (unbaked, found in an oven)"
+candidate_identification_UNVERIFIED: "Ugarit RS 18.147 / RS 20.18 letters about enemy ships; Ras Shamra excavations"
+question_for_agent: "Which tablet, which city, the date, and the oven/unbaked detail."
+speaker_claims_to_test:
+  - id: dh-oXit2KG1N1s-25
+    as_stated: "A cuneiform tablet pleading for help against ships was found unbaked in an oven at a destroyed city, showing the attack was so swift the tablet was not even baked; this is why modern science doubted the Bible's Hittites until they were dug up."
+    time_stated: "1150 BC"
+    place_stated: "Hittite city (Ugarit not named)"
+    speaker_cites: "Cuneiform tablet; archaeology"
+sources: []   # none opened yet. For each source record url, kind, authenticity {status: unchecked}, rights, and whether it was blocked.
+next_steps_for_agent:
+  - Locate the object and a primary edition or image; open and read it. Quote the relevant passage verbatim with the edition named.
+  - Record holder/location, inventory or tomb number, findspot, date and its basis, language/script, licence, sha256 of any stored image.
+  - Test each speaker claim separately (date, identity, what the text says). Keep the claim wording unchanged.
+  - Place and date as shared nodes. Report anything blocked; do not guess.
+constraints:
+  - Branch dig/<subject>; never push to main; conformance must pass; a separate review agent merges.
+  - Wikipedia and the videos are never anchors. Do not bypass bot checks or paywalls. Check licence before storing images.
+  - "Mark where the facts end (best of current knowledge). Keep different or opposing hypotheses open for further study as contested claims with named positions; do not close them early."
+  - "Books, translations and videos are all claims needing proof, on the same footing. Proof is the object, its images or squeezes. For every author and publisher the agent relies on, trace who funded and controlled the work and record it; do not treat a book as an anchor."

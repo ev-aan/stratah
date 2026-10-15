@@ -1,0 +1,231 @@
+video:
+  id: "txTBhKpSMzM"
+  title: "Abraham's name means what now？"
+  uploaded: "2026-09-09"
+  transcript: "clean/20260909 - Abraham's name means what now？ [txTBhKpSMzM].txt"
+  caption_source: "YouTube auto-captions (en)"
+claims:
+  - id: dh-txTBhKpSMzM-01
+    kind: "historical"
+    statement: "For 'father of many nations' to make sense as the meaning of Abraham, the letter 'G' (gimel/hey element) must violate all the rules of Hebrew grammar."
+    quote: "for \"father of many nations\" to make sense, this \" G\" must violate all the rules of Hebrew grammar."
+    speaker_cites: "none given"
+    time_stated: null
+    place_stated: null
+    research_status: "unresearched"
+  - id: dh-txTBhKpSMzM-02
+    kind: "historical"
+    statement: "The official version is that the name Abraham is a clever play on words that does not obey the rules; this is a subject of great controversy."
+    quote: "The official version is that the name Abraham is a clever play on words that does not obey the rules."
+    speaker_cites: "official/scholarly version"
+    time_stated: null
+    place_stated: null
+    research_status: "unresearched"
+  - id: dh-txTBhKpSMzM-03
+    kind: "historical"
+    statement: "The standard explanation is that a 'G' was taken from the word Hamon and inserted into the middle of Abram, as a reference to that word rather than use of it."
+    quote: "They claim that they took the \"G\" from the word Hamon, stuck it right in the middle of Abram"
+    speaker_cites: "official version"
+    time_stated: null
+    place_stated: null
+    research_status: "unresearched"
+  - id: dh-txTBhKpSMzM-04
+    kind: "religious"
+    statement: "In Genesis 17:5 God said 'your name shall be Abraham, for you are the father of a multitude of nations'; the official version says three words were compressed to form the name."
+    quote: "But in Genesis 17:5 God did not say"
+    speaker_cites: "Genesis 17:5"
+    time_stated: null
+    place_stated: null
+    research_status: "unresearched"
+  - id: dh-txTBhKpSMzM-05
+    kind: "historical"
+    statement: "Dividing Abram into the verb 'avram' and the suffix 'mem' gives an active verb statement, which is characteristic of Hebrew names."
+    quote: "It is very characteristic of Hebrew names to be active verb statements."
+    speaker_cites: "none given"
+    time_stated: null
+    place_stated: null
+    research_status: "unresearched"
+  - id: dh-txTBhKpSMzM-06
+    kind: "historical"
+    statement: "The Hebrew verb 'avram' is a rare ancient verb derived from Eber that appears only once in the Hebrew Bible."
+    quote: "The Hebrew verb \" avram\" is a rare ancient verb derived from Eber."
+    speaker_cites: "Hebrew Bible"
+    time_stated: null
+    place_stated: null
+    research_status: "unresearched"
+  - id: dh-txTBhKpSMzM-07
+    kind: "historical"
+    statement: "The verb means to soar, fly or rise on wing (the wings of an eagle), and also to protect, guard or become strong, as an eagle protects its offspring."
+    quote: "It means to soar, fly, or rise on wing."
+    speaker_cites: "none given"
+    time_stated: null
+    place_stated: null
+    research_status: "unresearched"
+  - id: dh-txTBhKpSMzM-08
+    kind: "historical"
+    statement: "The letter mem serves as a pronominal suffix meaning 'their', so the name Abram functions as a sentence meaning 'she soared over them' or more likely 'she protected or guarded them'."
+    quote: "the letter \" mem \" serves as a pronominal suffix, meaning \" their \""
+    speaker_cites: "none given"
+    time_stated: null
+    place_stated: null
+    research_status: "unresearched"
+  - id: dh-txTBhKpSMzM-09
+    kind: "religious"
+    statement: "The 'she' in the name Abram is Wisdom, the mother bird gathering chicks under her wings."
+    quote: "Who is she? Wisdom."
+    speaker_cites: "none given"
+    time_stated: null
+    place_stated: null
+    research_status: "unresearched"
+  - id: dh-txTBhKpSMzM-10
+    kind: "historical"
+    statement: "The name Abram therefore means both that she soared over them and that she protected or covered them, in reference to an eagle."
+    quote: "So the name Abram means both that she soared over them and that she protected or covered them."
+    speaker_cites: "none given"
+    time_stated: null
+    place_stated: null
+    research_status: "unresearched"
+  - id: dh-txTBhKpSMzM-11
+    kind: "religious"
+    statement: "The reference comes from the book of Job: the hawk soars and spreads its wings toward the south, because of your wisdom."
+    quote: "The exact reference is from the book of Job"
+    speaker_cites: "none given"
+    time_stated: null
+    place_stated: null
+    research_status: "unresearched"
+  - id: dh-txTBhKpSMzM-12
+    kind: "religious"
+    statement: "Exodus 19:4 ('how I carried you on eagles' wings'), the Saul and Jonathan lament (swifter than eagles), Proverbs 30:17 (eagles eat the eye that mocks a father) and Isaiah 40:31 (mount up with wings like eagles) are direct references to 'Avra' with aleph as a verb."
+    quote: "You have seen what I did to the Egyptians, and how I carried you on eagles’ wings ."
+    speaker_cites: "Exodus 19:4; 2 Samuel 1:23; Proverbs 30:17; Isaiah 40:31"
+    time_stated: null
+    place_stated: "Egypt"
+    research_status: "unresearched"
+  - id: dh-txTBhKpSMzM-13
+    kind: "religious"
+    statement: "'Where there is a carcass, there the eagles will gather' refers to Armageddon."
+    quote: "This is Armageddon."
+    speaker_cites: "Matthew 24:28 / Luke 17:37 (implied)"
+    time_stated: null
+    place_stated: "Armageddon"
+    research_status: "unresearched"
+  - id: dh-txTBhKpSMzM-14
+    kind: "historical"
+    statement: "The official explanation 'Av Ram' becoming 'Avraham' is not true; it is Midrashic folklore, not etymology."
+    quote: "It’s Midrashic folklore, not etymology."
+    speaker_cites: "none given"
+    time_stated: null
+    place_stated: null
+    research_status: "unresearched"
+  - id: dh-txTBhKpSMzM-15
+    kind: "historical"
+    statement: "Abraham is the father of many nations and the name sounds like 'father of many nations' as a funny play on words, but does not violate the rules of etymology; it means to soar, fly, take wing, protect, guard or strengthen."
+    quote: "But it doesn't violate the rules of etymology."
+    speaker_cites: "none given"
+    time_stated: null
+    place_stated: null
+    research_status: "unresearched"
+  - id: dh-txTBhKpSMzM-16
+    kind: "historical"
+    statement: "Without breaking the rules of Hebrew etymology, the name sounds like 'father of many nations' and contains components of those words, because the translation is in the context of him becoming father of many nations."
+    quote: "without breaking the rules of Hebrew etymology, his name does sound like the father of many nations"
+    speaker_cites: "none given"
+    time_stated: null
+    place_stated: null
+    research_status: "unresearched"
+  - id: dh-txTBhKpSMzM-17
+    kind: "historical"
+    statement: "'Ever' (on the other side, to pass over) is spelled with an ayin, not an aleph, but the speaker believes the two roots are directly related despite scholars saying they are unrelated."
+    quote: "I think that \"ever,\" which means on the other side or to pass over"
+    speaker_cites: "none given"
+    time_stated: null
+    place_stated: null
+    research_status: "unresearched"
+  - id: dh-txTBhKpSMzM-18
+    kind: "religious"
+    statement: "God's 'carried you on eagles' wings' in the Exodus is metaphor; they did not fly out of Egypt on an eagle."
+    quote: "They did not fly out of Egypt on an eagle."
+    speaker_cites: "Exodus 19:4"
+    time_stated: null
+    place_stated: "Egypt"
+    research_status: "unresearched"
+  - id: dh-txTBhKpSMzM-19
+    kind: "historical"
+    statement: "Abraham is identified with a Jew or Hebrew; the 'Avra' in Abraham sounds like the 'Hebrew' in the word 'Jew' but begins with ayin and literally means one who crossed to the other side, a ferryman, because Abraham crossed the Euphrates River."
+    quote: "because Abraham crossed the Euphrates River."
+    speaker_cites: "none given"
+    time_stated: null
+    place_stated: "Euphrates"
+    research_status: "unresearched"
+  - id: dh-txTBhKpSMzM-20
+    kind: "historical"
+    statement: "Abraham is a descendant of Eber, from whose name the word 'Hebrew' comes; it is believed to mean a descendant of Eber, with mem added at the end for Hebrews as people descended from Eber."
+    quote: "But he is a descendant of Eber, from whose name the word comes."
+    speaker_cites: "none given"
+    time_stated: null
+    place_stated: null
+    research_status: "unresearched"
+  - id: dh-txTBhKpSMzM-21
+    kind: "historical"
+    statement: "The speaker holds that 'Jew' is directly related to 'Abram', and Abram to 'Eber'."
+    quote: "the word \" Jew \", being directly related to Abram"
+    speaker_cites: "none given"
+    time_stated: null
+    place_stated: null
+    research_status: "unresearched"
+  - id: dh-txTBhKpSMzM-22
+    kind: "historical"
+    statement: "The shift from ayin to aleph is a well-documented phonetic phenomenon in Semitic languages, especially Aramaic dialects, where guttural sounds weakened or became interchangeable."
+    quote: "The transition from the original \"ayin\" to \"aleph\" is a well- documented phonetic phenomenon in Semitic languages"
+    speaker_cites: "speaker (linguistic claim)"
+    time_stated: null
+    place_stated: null
+    research_status: "unresearched"
+  - id: dh-txTBhKpSMzM-23
+    kind: "historical"
+    statement: "This root is the known linguistic source of the word 'ibri', which historically meant one who crossed over, referring to Abraham's crossing of the Euphrates."
+    quote: "This particular root is also the known linguistic source of the word \"ibri \""
+    speaker_cites: "none given"
+    time_stated: null
+    place_stated: "Euphrates"
+    research_status: "unresearched"
+  - id: dh-txTBhKpSMzM-24
+    kind: "historical"
+    statement: "The Aramaic aleph verb and the Hebrew ayin verb share the same meaning: to cross over, pass, pass by."
+    quote: "have the same functional meaning—to cross over , pass, pass by"
+    speaker_cites: "none given"
+    time_stated: null
+    place_stated: null
+    research_status: "unresearched"
+  - id: dh-txTBhKpSMzM-25
+    kind: "both"
+    statement: "Abram was an Aramaic (Aramean) who was recognized as the first Jew."
+    quote: "I think that Abram was an Aramaic who was recognized as the first Jew."
+    speaker_cites: "none given"
+    time_stated: null
+    place_stated: null
+    research_status: "unresearched"
+  - id: dh-txTBhKpSMzM-26
+    kind: "historical"
+    statement: "Aramaic and Hebrew are related languages that developed from the same source; they diverged at Abraham."
+    quote: "When did these languages diverge? Abraham."
+    speaker_cites: "none given"
+    time_stated: null
+    place_stated: null
+    research_status: "unresearched"
+  - id: dh-txTBhKpSMzM-27
+    kind: "historical"
+    statement: "From Aramaic we get both Hebrew and Arabic."
+    quote: "From Aramaic we get both Hebrew and Arabic."
+    speaker_cites: "none given"
+    time_stated: null
+    place_stated: null
+    research_status: "unresearched"
+  - id: dh-txTBhKpSMzM-28
+    kind: "both"
+    statement: "Hebrew and Arabic correspond to Isaac and Ishmael, the sons of Abraham."
+    quote: "Hebrew and Arabic—we are talking about Isaac and Ishmael, my friends."
+    speaker_cites: "Genesis (implied)"
+    time_stated: null
+    place_stated: null
+    research_status: "unresearched"

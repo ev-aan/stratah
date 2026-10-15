@@ -1,0 +1,63 @@
+video:
+  id: LQeugxc1U6w
+  title: "I get by with a little help from my friends"
+  uploaded: 2025-10-27
+  transcript: "clean/20251027 - I get by with a little help from my friends [LQeugxc1U6w].txt"
+  caption_source: YouTube auto-captions (en)
+claims:
+  - id: dh-LQeugxc1U6w-01
+    kind: religious
+    statement: "King Solomon in Proverbs says a generous hand tends to increase, but the hand that withholds more than is meet tends to poverty."
+    quote: "According to King Solomon in Proverbs, a generous hand tendeth to increase, but the hand that withholds more than is meat tends to poverty."
+    speaker_cites: "King Solomon, Proverbs"
+    time_stated: null
+    place_stated: null
+    research_status: unresearched
+  - id: dh-LQeugxc1U6w-02
+    kind: religious
+    statement: "The mind of Christ is to prefer the situation of others over your own."
+    quote: "the mind of Christ is to prefer the situation of others over your own."
+    speaker_cites: "none given"
+    time_stated: null
+    place_stated: null
+    research_status: unresearched
+  - id: dh-LQeugxc1U6w-03
+    kind: religious
+    statement: "A man who provides not for his own is worse than an infidel."
+    quote: "A man who provides not for his own is worse than an infidel."
+    speaker_cites: "none given"
+    time_stated: null
+    place_stated: null
+    research_status: unresearched
+  - id: dh-LQeugxc1U6w-04
+    kind: religious
+    statement: "God recompenses us for giving help."
+    quote: "it is God who recompenses us."
+    speaker_cites: "none given"
+    time_stated: null
+    place_stated: null
+    research_status: unresearched
+  - id: dh-LQeugxc1U6w-05
+    kind: religious
+    statement: "Jesus taught how to live so that we get life and more abundantly."
+    quote: "And we want it done the way that Jesus said to do it."
+    speaker_cites: "none given"
+    time_stated: null
+    place_stated: null
+    research_status: unresearched
+  - id: dh-LQeugxc1U6w-06
+    kind: religious
+    statement: "Christians who belong to Christ are the ambassadors, called to show grace and mercy."
+    quote: "We are the ambassadors."
+    speaker_cites: "none given"
+    time_stated: null
+    place_stated: null
+    research_status: unresearched
+  - id: dh-LQeugxc1U6w-07
+    kind: religious
+    statement: "Truth should be bought and not sold (given away for free)."
+    quote: "Buy the truth and sell it not."
+    speaker_cites: "none given"
+    time_stated: null
+    place_stated: null
+    research_status: unresearched

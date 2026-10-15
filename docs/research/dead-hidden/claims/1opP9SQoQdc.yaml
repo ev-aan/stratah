@@ -1,0 +1,135 @@
+video:
+  id: 1opP9SQoQdc
+  title: "The Book of Enoch"
+  uploaded: 2026-02-04
+  transcript: "clean/20260204 - The Book of Enoch [1opP9SQoQdc].txt"
+  caption_source: YouTube auto-captions (en)
+claims:
+  - id: dh-1opP9SQoQdc-01
+    kind: religious
+    statement: "Jude 6 refers to angels who kept not their first estate, left their habitation, and are reserved in everlasting chains until judgment."
+    quote: "He hath reserved in everlasting chains under darkness until the judgment of the great day."
+    speaker_cites: "Jude 6"
+    time_stated: null
+    place_stated: null
+    research_status: unresearched
+  - id: dh-1opP9SQoQdc-02
+    kind: religious
+    statement: "Jude compares those fallen angels to Christians in the congregation who fall away, tying together Jesus' days of Noah (Matthew 24), the stony-ground hearers (Matthew 13) and Hebrews 6."
+    quote: "Jude is comparing those fallen angels to Christians in the congregation"
+    speaker_cites: "Jude; Matthew 24; Matthew 13; Hebrews 6"
+    time_stated: null
+    place_stated: null
+    research_status: unresearched
+  - id: dh-1opP9SQoQdc-03
+    kind: religious
+    statement: "Jude makes a direct reference to the planets in verse 13."
+    quote: "Jude makes a direct reference to the planets in verse 13"
+    speaker_cites: "Jude 13"
+    time_stated: null
+    place_stated: null
+    research_status: unresearched
+  - id: dh-1opP9SQoQdc-04
+    kind: religious
+    statement: "Jude quotes Enoch (the seventh from Adam) as a prophet, so Enoch's words quoted in Jude 14-15 are certainly the word of God; Enoch prophesied the falling away."
+    quote: "Jude says that Enoch prophesied, which means what's about to come next is for certainly the word of God."
+    speaker_cites: "Jude 14-15"
+    time_stated: null
+    place_stated: null
+    research_status: unresearched
+  - id: dh-1opP9SQoQdc-05
+    kind: religious
+    statement: "The Lord, having saved the people out of Egypt, afterward destroyed those who believed not; the Israelites were baptized unto Moses in the sea and cloud, followed the column of fire and were made partakers of the Holy Ghost."
+    quote: "after they were baptized unto Moses in the sea and the cloud"
+    speaker_cites: "Jude 5; 1 Corinthians 10 (implied)"
+    time_stated: null
+    place_stated: "Egypt, wilderness"
+    research_status: unresearched
+  - id: dh-1opP9SQoQdc-06
+    kind: religious
+    statement: "2 Peter 2 gives the same warning in the same context: God spared not the angels that sinned, cast them to hell in chains of darkness, did not spare the old world but saved Noah the eighth person, and turned Sodom and Gomorrah into ashes."
+    quote: "and spared not the old world, but saved Noah the eighth person, a preacher of righteousness"
+    speaker_cites: "2 Peter 2"
+    time_stated: null
+    place_stated: "Sodom and Gomorrah"
+    research_status: unresearched
+  - id: dh-1opP9SQoQdc-07
+    kind: religious
+    statement: "The angels in Jude and 2 Peter are not the devil and his angels; the devil and his angels have never been to hell, and prophecy about Satan compares them to the angels who fell in the days of Noah."
+    quote: "this is not talking about the devil and his angels. They have never been to hell."
+    speaker_cites: "none given"
+    time_stated: "days of Noah"
+    place_stated: "hell"
+    research_status: unresearched
+  - id: dh-1opP9SQoQdc-08
+    kind: religious
+    statement: "The antichrist is coming first and the devil himself is going to fall from heaven; he still has access to the throne of God to accuse the brethren day and night."
+    quote: "The antichrist is coming first. The devil himself is going to fall from heaven."
+    speaker_cites: "Luke 10 'I beheld Satan fall from heaven' (quoted); Revelation 12, 13"
+    time_stated: null
+    place_stated: "heaven"
+    research_status: unresearched
+  - id: dh-1opP9SQoQdc-09
+    kind: religious
+    statement: "The devil goes to hell for the first time at Armageddon, like the angels who fell in the days of Noah, and will be a guest at the marriage supper of the lamb without a wedding garment."
+    quote: "He goes in for the first time in the same fashion of those angels who fell from their first estate in the days of Noah at Armageddon."
+    speaker_cites: "Revelation 19 and 20; parable of the wedding supper"
+    time_stated: "Armageddon"
+    place_stated: null
+    research_status: unresearched
+  - id: dh-1opP9SQoQdc-10
+    kind: religious
+    statement: "The word of God is preserved unto every generation, so there must be a surviving source for Jude's verbatim quote, and that source is the Book of Watchers in 1 Enoch."
+    quote: "The word of God is preserved unto every generation."
+    speaker_cites: "Jude 14-15; 1 Enoch"
+    time_stated: null
+    place_stated: null
+    research_status: unresearched
+  - id: dh-1opP9SQoQdc-11
+    kind: historical
+    statement: "The Book of Enoch was written 300 to 400 years before Jesus was born."
+    quote: "Knowing that this book was written 3 to 400 years before Jesus was born"
+    speaker_cites: "none given"
+    time_stated: "300 to 400 years before Jesus"
+    place_stated: null
+    research_status: unresearched
+  - id: dh-1opP9SQoQdc-12
+    kind: historical
+    statement: "The Book of Watchers, 1 Enoch chapters 1-36, dates from the late 3rd or early 2nd century BCE, about 300 years before Jesus was born."
+    quote: "The book of watchers, first Enoch, chapters 1-36, dates from the late 3rd or early 2nd century B.C.E."
+    speaker_cites: "none given"
+    time_stated: "late 3rd or early 2nd century BCE"
+    place_stated: null
+    research_status: unresearched
+  - id: dh-1opP9SQoQdc-13
+    kind: historical
+    statement: "Chapters 37-71 of 1 Enoch were added much later, whereas the rest of the book predates the birth of Christ by at least 100 years."
+    quote: "chapters 37-71 were added much, much later"
+    speaker_cites: "none given"
+    time_stated: "much later; at least 100 years before Christ"
+    place_stated: null
+    research_status: unresearched
+  - id: dh-1opP9SQoQdc-14
+    kind: both
+    statement: "1 Enoch 1:9 ('he cometh with 10 thousands of his holy ones to execute judgment') was written about 300 years before Jude quoted it verbatim; the verse in Jude is the word of God though the whole Book of Enoch is not claimed to be."
+    quote: "about 300 years before Jude quoted it verbatim."
+    speaker_cites: "Jude 14-15; 1 Enoch 1:9"
+    time_stated: "about 300 years before Jude"
+    place_stated: null
+    research_status: unresearched
+  - id: dh-1opP9SQoQdc-15
+    kind: religious
+    statement: "Mazzaroth (Job 38) is not occultism; God put it in the sky for signs and seasons and it tells his gospel in a universal language day and night."
+    quote: "That's called Mazeroth. Is Job 38 a cult?"
+    speaker_cites: "Job 38"
+    time_stated: null
+    place_stated: null
+    research_status: unresearched
+  - id: dh-1opP9SQoQdc-16
+    kind: religious
+    statement: "Reading 1 Enoch's description of the Holy Great One coming forth from his dwelling and treading on the earth is, per the speaker, about Jesus and brought the speaker to Jesus Christ."
+    quote: "The book of Enoch is what brought me to Jesus Christ."
+    speaker_cites: "1 Enoch"
+    time_stated: null
+    place_stated: null
+    research_status: unresearched
