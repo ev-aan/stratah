@@ -1,0 +1,1331 @@
+# Worked example for docs/proposals/funding-disclosures.md (not in force).
+# Funding and competing-interest records for 37 studies and reviews cited by build/subjects/fluoride-iq,
+# read 2026-10-14 from each document's own funding and disclosure sections, then re-opened by an
+# independent checker (24 OK, 8 fixed, 5 could not be opened). Paraphrased; context only, never evidence.
+- source: src-ntp-2024
+  read: full_text
+  read_from: 'NTP Monograph 08 PDF (final 508 version incl. erratum): Contributors, Peer Review, BSC Review, Acknowledgements
+    and Conflict of Interest front-matter sections; Erratum note p. 87'
+  url: https://ntp.niehs.nih.gov/sites/default/files/2024-08/fluoride_final_508.pdf
+  checked: 2026-10-14
+  funders:
+  - name: Intramural Research Program, National Institute of Environmental Health Sciences, National Institutes
+      of Health
+    kind: government
+    country: US
+    grants:
+    - ES103316
+    - ES103317
+    note: work performed for the National Toxicology Program, Public Health Service, US Department of Health and
+      Human Services
+  - name: US Department of Health and Human Services (contract GS00Q14OADU417)
+    kind: government
+    country: US
+    grants:
+    - GS00Q14OADU417 (Order No. HHSN273201600015U)
+    note: contract under which the work was performed for NTP; the Acknowledgements sentence does not name the contractor.
+      ICF (Reston, Virginia) staff are listed in the contributor pages as providing contract oversight and doing
+      screening, extraction and drafting support
+  funding_statement: 'The Acknowledgements say the work was supported by the NIEHS Intramural Research Program and
+    performed for NTP under an HHS contract. NTP is itself part of HHS/NIEHS, so the report was commissioned and
+    paid for in-house by the US federal government; the front matter also records that the NTP Director delayed
+    the May 2022 release for additional review by an NTP Board of Scientific Counselors working group.
+
+    '
+  funder_role: Not stated as a separate role; NIEHS/NTP staff are the authors and the funder, and the NTP Director
+    and BSC Chair decided on the extra review round.
+  competing_interests:
+    declared_none: not_stated
+    items:
+    - who: Protocol reviewers, technical reviewers of the draft, and peer-review panel members (as a group)
+      what: certified they have no known real or apparent conflict of interest related to fluoride exposure or neurodevelopmental
+        and cognitive effects; no individual disclosures are listed
+  corrections:
+  - date: '2024-09-04'
+    notice_url: https://ntp.niehs.nih.gov/sites/default/files/2024-08/fluoride_final_508.pdf
+    what: Erratum changing 'Two children from each grade' to 'Two classes from each grade' in a study description;
+      does not touch funding or COI.
+  gaps: The COI statement covers reviewers and peer reviewers only; it says nothing about the NTP/NIEHS or ICF authors'
+    own interests, so declared_none is not_stated for the authors. The BSC working group's own COI handling is in
+    its separate report, which was not read. Individual reviewer COI forms are not published in the monograph.
+- source: src-nasem-2020
+  read: front_matter
+  read_from: 'NAP online reader, book 25715: Front Matter (copyright page, Acknowledgments) and Chapter 1 Introduction
+    (Statement of Task, Box 1-2)'
+  url: https://nap.nationalacademies.org/read/25715/chapter/1
+  checked: 2026-10-14
+  funders:
+  - name: US Department of Health and Human Services
+    kind: government
+    country: US
+    grants:
+    - Contract HHSN263201800029I
+    note: contract between the National Academies and HHS; the review was requested by the National Toxicology Program
+  funding_statement: 'The copyright page says the project was supported by Contract HHSN263201800029I between the
+    National Academies and HHS, and that views expressed are not necessarily those of the supporting agencies. Chapter
+    1 says NTP asked the National Academies to review its draft monograph, and the committee heard from the sponsor
+    in an open session.
+
+    '
+  funder_role: The sponsor (NTP) requested the review and presented to the committee in an open session; the report
+    states opinions do not necessarily reflect the sponsor's views. No further role is stated.
+  competing_interests:
+    declared_none: not_stated
+    items: []
+  corrections: []
+  gaps: The report does not print committee members' conflict-of-interest or bias disclosures; National Academies
+    handle these through a separate committee-composition / bias-and-COI process on the project page, which was
+    not read here. The front matter describes independent external review (reviewers not asked to endorse conclusions;
+    review overseen by Martin Philbert and Jonathan Samet). No errata were found on the reader pages, but a dedicated
+    errata search was not done.
+- source: src-nasem-2021
+  read: front_matter
+  read_from: 'NAP online reader, book 26030: Front Matter (copyright page), letter report text, Attachment A Statement
+    of Task, Attachment B Committee Membership'
+  url: https://nap.nationalacademies.org/read/26030/chapter/1
+  checked: 2026-10-14
+  funders:
+  - name: National Institute of Environmental Health Sciences
+    kind: government
+    country: US
+    grants:
+    - Contract HHSN263201800029I
+    note: same contract number as the 2020 review; here described as between the National Academy of Sciences and
+      NIEHS; requested by NTP
+  funding_statement: 'The copyright page says the project was supported by Contract HHSN263201800029I between the
+    National Academy of Sciences and NIEHS. The letter says NTP asked the National Academies to review the revised
+    monograph, and the same committee that reviewed the 2020 draft was reconvened.
+
+    '
+  funder_role: NTP requested the review and gave an overview of its changes at a public session; the copyright page
+    says views do not necessarily reflect any supporting agency. No further role is stated.
+  competing_interests:
+    declared_none: not_stated
+    items: []
+  corrections: []
+  gaps: No conflict-of-interest or bias disclosures for committee members appear in the letter report; National
+    Academies handle these through a separate composition/COI review not printed here and not read. Attachment E
+    (reviewer acknowledgment) was not opened in full. No errata search beyond the reader pages.
+- source: src-nrc-2006
+  read: front_matter
+  read_from: 'NAP online reader, book 11571: Front matter chapter (copyright page, committee roster, preface, acknowledgment
+    of reviewers) and Summary chapter'
+  url: https://nap.nationalacademies.org/read/11571/chapter/1
+  checked: 2026-10-14
+  funders:
+  - name: US Environmental Protection Agency
+    kind: government
+    country: US
+    grants:
+    - Contract No. 68-C-03-013
+    note: contract between the National Academy of Sciences and EPA; EPA requested the review of its fluoride MCLG
+      and SMCL
+  funding_statement: 'The copyright page says the project was supported by Contract No. 68-C-03-013 between the
+    National Academy of Sciences and EPA. The preface and summary say EPA requested that the NRC evaluate whether
+    its drinking-water fluoride standards (MCLG and SMCL) protect public health; the study was overseen by the Board
+    on Environmental Studies and Toxicology.
+
+    '
+  funder_role: EPA set the request; the report says economics, risk-benefit assessment and water-treatment technology
+    were outside the charge, and that views do not necessarily reflect the supporting agency. No further role stated.
+  competing_interests:
+    declared_none: not_stated
+    items:
+    - who: Committee on Fluoride in Drinking Water (as a group)
+      what: copyright page says members were chosen for their special competences and with regard for appropriate
+        balance; no individual disclosures printed
+  corrections: []
+  gaps: The list gave chapter/2 (Summary) as the URL; funding and committee statements are in chapter/1 (front matter),
+    which was read instead. No individual member conflict-of-interest disclosures are printed in the report; NRC's
+    internal bias/COI review is not documented in it. External review was overseen by John C. Bailar and Gilbert
+    S. Omenn. No errata search beyond the reader pages.
+- source: src-efsa-2025
+  read: full_text
+  read_from: 'Europe PMC full text PMC12280829: article front matter footnotes, Introduction 1.1 Background and
+    Terms of Reference as provided by the requestor, Acknowledgements, back-matter Requestor/Question number/Panel
+    members'
+  url: https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12280829/fullTextXML
+  checked: 2026-10-14
+  funders:
+  - name: European Commission (requestor, mandate under Art. 29(1) of Regulation (EC) No 178/2002)
+    kind: intergovernmental
+    country: multiple
+    grants: []
+    note: mandate, not a grant (EFSA question number EFSA-Q-2021-00358); the opinion was produced by EFSA's Scientific
+      Committee and EFSA staff
+  funding_statement: 'The opinion names no separate funding source; it was produced by the EFSA Scientific Committee
+    with EFSA staff support in response to a European Commission mandate asking for an updated consumer risk assessment
+    of fluoride in food and drinking water. Benefit assessment was explicitly out of scope.
+
+    '
+  funder_role: The Commission set the terms of reference (occurrence, exposure from all oral sources, hazards);
+    the draft went to public consultation from 11 Dec 2024 to 9 Feb 2025 and comments were considered by the working
+    group. No other role stated.
+  competing_interests:
+    declared_none: not_stated
+    items:
+    - who: All EFSA scientific experts (Scientific Committee and working group)
+      what: a footnote points readers to declarations of interest of all experts, published on EFSA's open.efsa.europa.eu/experts
+        site; none are reproduced in the opinion
+  corrections: []
+  gaps: Individual declarations of interest are held on EFSA's external experts database, which was not opened.
+    Europe PMC links one related notice (PMC13045283), but it is a retraction of a different paper cited in the
+    opinion (an iodine/urinary fluoride study in Phayao Province), not a correction of this opinion's funding or
+    COI.
+- source: src-scher-2011
+  read: full_text
+  read_from: 'SCHER opinion PDF (36 pp.): About the Scientific Committees, Acknowledgments (working group), Section
+    1 Background, Section 2 Terms of Reference'
+  url: https://ec.europa.eu/health/scientific_committees/environmental_risks/docs/scher_o_139.pdf
+  checked: 2026-10-14
+  funders:
+  - name: European Commission, DG Health & Consumers
+    kind: intergovernmental
+    country: multiple
+    grants: []
+    note: mandate, not a grant; SCHER is a Commission advisory committee of external experts and the Commission
+      set the terms of reference
+  funding_statement: 'The opinion names no funding source. It was requested by the European Commission, which asked
+    SCHER to review new evidence on fluoride hazards and exposure; the background cites questions from the European
+    Parliament, Ireland and the UK.
+
+    '
+  funder_role: The Commission set the terms of reference; the opinion says it presents the views of independent
+    scientists and not necessarily the Commission's. A preliminary opinion went to three months of public consultation
+    and a public hearing.
+  competing_interests:
+    declared_none: not_stated
+    items: []
+  corrections: []
+  gaps: The opinion contains no conflict-of-interest or declaration-of-interest statement for working-group members
+    or external experts (Autrup chair; Linders rapporteur; external experts from SCCS, EFSA and Karolinska). SCHER
+    declarations of interest and meeting minutes, held separately by the Commission, were not checked. No correction
+    notice found.
+- source: src-taylor-2025
+  read: full_text
+  read_from: Europe PMC full text PMC11877182, Article Information back matter (Conflict of Interest Disclosures,
+    Funding/Support, Role of the Funder/Sponsor, Additional Contributions)
+  url: https://www.ebi.ac.uk/europepmc/webservices/rest/PMC11877182/fullTextXML
+  checked: 2026-10-14
+  funders:
+  - name: Intramural Research Program, National Institute of Environmental Health Sciences (NIEHS), National Institutes
+      of Health
+    kind: government
+    country: US
+    grants:
+    - ES103316
+    - ES103317
+    - contract GS00Q14OADU417 (order HHSN273201600015U)
+    note: The work was performed for NIEHS under the listed contract; the acknowledgments name ICF staff who did
+      independent verification, quality control and literature searching, with no additional compensation.
+  funding_statement: 'Supported by the NIEHS Intramural Research Program and carried out for NIEHS under a federal
+    contract.
+
+    '
+  funder_role: The paper says NIEHS had no role in design, conduct, data collection, analysis, interpretation or
+    manuscript preparation. It says NIEHS did have a role in reviewing and approving the manuscript and in the decision
+    to submit it.
+  competing_interests:
+    declared_none: true
+    items: []
+  corrections: []
+  gaps: Europe PMC lists only two invited commentaries (PMIDs 39761028, 39761058) and one later commentary (PMC12353652)
+    as related items, and no correction or erratum. The NIEHS staff named in the acknowledgments as giving input
+    on the draft are not authors, and the paper gives no COI statement for them.
+- source: src-choi-2012
+  read: full_text
+  read_from: Europe PMC full text PMC3491930, Acknowledgments, funding footnote and competing-interests footnote
+  url: https://www.ebi.ac.uk/europepmc/webservices/rest/PMC3491930/fullTextXML
+  checked: 2026-10-14
+  funders:
+  - name: Internal institutional funds
+    kind: university
+    country: multiple
+    grants: []
+    note: The paper does not say which institution. Author affiliations are Harvard School of Public Health (US),
+      China Medical University (CN) and the University of Southern Denmark (DK).
+  funding_statement: 'The paper says the study was supported by internal institutional funds and names no external
+    funder.
+
+    '
+  funder_role: not stated
+  competing_interests:
+    declared_none: true
+    items: []
+  corrections: []
+  gaps: The funding statement does not say which institution's funds were used. Europe PMC lists letters and comments
+    (EHP 2013; NZ Med J 2013; Altern Ther Health Med 2016) but no correction or erratum. The comment texts were
+    not read.
+- source: src-grandjean-2019-review
+  read: full_text
+  read_from: Europe PMC full text PMC6923889, Acknowledgments, Funding and Competing interests sections
+  url: https://www.ebi.ac.uk/europepmc/webservices/rest/PMC6923889/fullTextXML
+  checked: 2026-10-14
+  funders:
+  - name: NIEHS Superfund Research Program
+    kind: government
+    country: US
+    grants:
+    - P42ES027706
+    note: Stated as supporting the author, not as funding this specific review.
+  funding_statement: 'The paper says the author is supported by the NIEHS Superfund Research Program under the grant
+    listed.
+
+    '
+  funder_role: not stated
+  competing_interests:
+    declared_none: false
+    items:
+    - who: Philippe Grandjean
+      what: Is an editor-in-chief of Environmental Health, the journal that published the review, and says he was
+        not involved in its editorial handling.
+    - who: Philippe Grandjean
+      what: Recently served as a health expert in a US lawsuit about protection against fluoride neurotoxicity from
+        drinking water.
+  corrections: []
+  gaps: The paper does not name the lawsuit, so tying it to a specific case would be our inference and is not recorded
+    here. The acknowledgments say Esben Budtz-Jørgensen calculated the benchmark-dose results, and that Howard Hu
+    (ELEMENT) and Christine Till (MIREC) commented and allowed the tentative calculations to be published. The paper
+    gives no COI statements for these three, who are not authors. Europe PMC lists no correction.
+- source: src-zohoori-2025
+  read: full_text
+  read_from: Europe PMC full text PMC12662105, Author contributions, Funding and Conflict of interest sections
+  url: https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12662105/fullTextXML
+  checked: 2026-10-14
+  funders: []
+  funding_statement: 'The authors say they received no funding for this study.
+
+    '
+  funder_role: not stated (no funder)
+  competing_interests:
+    declared_none: true
+    items: []
+  corrections: []
+  gaps: Europe PMC metadata lists the 'Centers for Disease Control and Prevention' as a grant agency. In the XML,
+    that tag sits on a sentence in the Introduction about CDC support for fluoridation, not on any funding statement.
+    It looks like a tagging artifact, so CDC is not recorded as a funder. One author (Kumah) lists an affiliation
+    with Lloyd's Register Foundation, London. That is an affiliation, not a stated funder. Europe PMC lists no correction.
+- source: src-cochrane-2024
+  read: full_text
+  read_from: PMC HTML full text PMC11449566 (pmc.ncbi.nlm.nih.gov), Sources of support and Declarations of interest
+    sections. The Europe PMC fullTextXML endpoint returned HTTP 500, and the NCBI efetch XML contains only the abstract.
+  url: https://pmc.ncbi.nlm.nih.gov/articles/PMC11449566/
+  checked: 2026-10-14
+  funders:
+  - name: The University of Manchester
+    kind: university
+    country: GB
+    grants: []
+    note: Listed as an internal source, giving support to Cochrane Oral Health.
+  - name: Manchester Academic Health Sciences Centre (MAHSC)
+    kind: university
+    country: GB
+    grants: []
+    note: Internal source; supports the Cochrane Oral Health Group together with the NIHR Manchester Biomedical
+      Research Centre.
+  - name: NIHR Manchester Biomedical Research Centre
+    kind: government
+    country: GB
+    grants: []
+    note: Named within the MAHSC internal-source entry.
+  - name: The University of Pennsylvania
+    kind: university
+    country: US
+    grants: []
+    note: External source; supports Cochrane Oral Health's work through a collaborative research agreement with
+      the University of Manchester.
+  - name: Cochrane Oral Health Group Global Alliance (British Association of Oral Surgeons; British Orthodontic
+      Society; British Society of Paediatric Dentistry; British Society of Periodontology; Canadian Dental Hygienists
+      Association; National Center for Dental Hygiene Research & Practice; Mayo Clinic; New York University College
+      of Dentistry; Royal College of Surgeons of Edinburgh)
+    kind: professional_body
+    country: multiple
+    grants: []
+    note: 'Mixed membership: professional societies, universities and a clinic. The review says these members funded
+      the group''s editorial process for other reviews before March 2023.'
+  - name: National Institute for Health Research (NIHR)
+    kind: government
+    country: GB
+    grants: []
+    note: Described as the largest single funder of the Cochrane Oral Health Group until March 2023.
+  funding_statement: 'The review lists sources of support for the Cochrane Oral Health group, not a grant for this
+    specific review. Internal sources are the University of Manchester and MAHSC/NIHR Manchester BRC. External sources
+    are the University of Pennsylvania, plus the Global Alliance and NIHR, both described as funders before March
+    2023.
+
+    '
+  funder_role: The paper does not describe any role for funders in design or analysis. It carries disclaimers that
+    the views are the authors' and not necessarily those of the University of Pennsylvania, the University of Manchester,
+    the NIHR, the NHS or the Department of Health.
+  competing_interests:
+    declared_none: false
+    items:
+    - who: Zipporah Iheozor-Ejiofor (ZIE)
+      what: Declared no conflict of interest.
+    - who: Tanya Walsh (TW)
+      what: Co-author of an included study (Goodwin 2022) and did not take part in assessing it. Co-Director since
+        July 2023 of the Colgate-Palmolive Dental Health Unit at the University of Manchester. Has been Statistical
+        Editor for Cochrane Oral Health.
+    - who: Sharon R Lewis (SL)
+      what: Former Deputy Co-ordinating Editor for the Cochrane Bone, Joint and Muscle Trauma group, with no role
+        in the editorial process for this review.
+    - who: Philip Riley (PR)
+      what: Deputy Co-ordinating Editor for Cochrane Oral Health, with no role in the editorial process for this
+        review.
+    - who: Dwayne Boyers (DB)
+      what: Declared no conflict of interest.
+    - who: Janet E Clarkson (JC)
+      what: Joint Co-ordinating Editor for Cochrane Oral Health, with no role in the editorial process for this
+        review.
+    - who: Helen V Worthington (HW)
+      what: Former Joint Co-ordinating Editor and Statistical Editor for Cochrane Oral Health, with no role in the
+        editorial process for this review.
+    - who: Anne-Marie Glenny (AMG)
+      what: Joint Co-ordinating Editor for Cochrane Oral Health, with no role in the editorial process for this
+        review.
+    - who: Lucy O'Malley (LO'M)
+      what: Declared no conflict of interest.
+  corrections: []
+  gaps: Authors are identified in the declarations by initials; full names were matched to the PMC page byline (checker,
+    14 Oct 2026), which gives 'Janet E Clarkson' for JC. The Cochrane Library page itself could not be fetched.
+    The 'What's new' table records one amendment (8 Nov 2024, typo in a search-strategy appendix) and no change
+    to funding or declarations.
+- source: src-cochrane-2015
+  read: full_text
+  read_from: PMC HTML full text PMC6953324 (pmc.ncbi.nlm.nih.gov), Sources of support and Declarations of interest
+    sections. The Europe PMC fullTextXML endpoint returned an error, and the NCBI efetch XML contains only the abstract.
+  url: https://pmc.ncbi.nlm.nih.gov/articles/PMC6953324/
+  checked: 2026-10-14
+  funders:
+  - name: The University of Manchester
+    kind: university
+    country: GB
+    grants: []
+    note: Internal source.
+  - name: Manchester Academic Health Sciences Centre (MAHSC)
+    kind: university
+    country: GB
+    grants: []
+    note: Internal source; supports the Cochrane Oral Health Group together with the NIHR Manchester Biomedical
+      Research Centre.
+  - name: NIHR Manchester Biomedical Research Centre
+    kind: government
+    country: GB
+    grants: []
+    note: Named within the MAHSC internal-source entry.
+  - name: National Institute for Health Research (NIHR)
+    kind: government
+    country: GB
+    grants: []
+    note: External source; described as the largest single funder of the Cochrane Oral Health Group.
+  - name: Cochrane Oral Health Group Global Alliance (British Association of Oral Surgeons; British Orthodontic
+      Society; British Society of Paediatric Dentistry; British Society of Periodontology; Canadian Dental Hygienists
+      Association; National Center for Dental Hygiene Research & Practice; Mayo Clinic; New York University College
+      of Dentistry; Royal College of Surgeons of Edinburgh)
+    kind: professional_body
+    country: multiple
+    grants: []
+    note: 'Mixed membership: professional societies, universities and a clinic. The review says these members support
+      all the group''s reviews by funding the editorial process.'
+  funding_statement: 'The review lists sources of support for the Cochrane Oral Health Group, not a grant for this
+    specific review. Internal sources are the University of Manchester and MAHSC/NIHR Manchester BRC. External sources
+    are the NIHR and the Global Alliance member organisations, which fund the editorial process.
+
+    '
+  funder_role: The paper does not describe any role for funders. It carries a disclaimer that the views are the
+    authors' and not necessarily those of the NIHR, the NHS or the Department of Health.
+  competing_interests:
+    declared_none: false
+    items:
+    - who: Review authors (collective; not individually named)
+      what: Some authors were also involved in evaluating the evidence, by a different method, for the CDC Task
+        Force recommendation on water fluoridation.
+  corrections: []
+  gaps: The declaration is a single collective statement and does not say which authors it covers. There are no
+    per-author declarations. The Cochrane Library page itself could not be fetched. The 'What's new' table records
+    amendments (2 Feb 2015, 19 Jun 2015 and 7 Sep 2015) covering the background, methods and plain-language summary,
+    plus a referee name added to the acknowledgments. None of them touches funding or declarations. This version
+    is superseded by the 2024 update (CD010856.pub3).
+- source: src-green-2019
+  read: full_text
+  read_from: 'Europe PMC full text PMC6704756 (JATS XML), author-notes: Conflict of Interest Disclosures, Funding/Support,
+    Additional Contributions'
+  url: https://www.ebi.ac.uk/europepmc/webservices/rest/PMC6704756/fullTextXML
+  checked: 2026-10-14
+  funders:
+  - name: National Institute of Environmental Health Science
+    kind: government
+    country: US
+    grants:
+    - R21ES027044
+    note: funded this study
+  - name: Chemicals Management Plan at Health Canada
+    kind: government
+    country: CA
+    grants: []
+    note: supported the MIREC cohort the study draws on
+  - name: Ontario Ministry of the Environment
+    kind: government
+    country: CA
+    grants: []
+    note: supported the MIREC cohort
+  - name: Canadian Institutes for Health Research
+    kind: government
+    country: CA
+    grants:
+    - MOP-81285
+    note: supported the MIREC cohort
+  funding_statement: 'The study itself was funded by an NIEHS grant; the MIREC birth cohort it uses was supported
+    by Health Canada''s Chemicals Management Plan, the Ontario Ministry of the Environment and CIHR. The paper adds
+    that people thanked for contributions received no compensation from a funding sponsor.
+
+    '
+  funder_role: not stated (no Role of the Funder/Sponsor statement appears in the full text read)
+  competing_interests:
+    declared_none: false
+    items:
+    - who: Bruce Lanphear
+      what: reported serving as an expert witness, unpaid, in an upcoming case involving the US EPA and water fluoridation
+    - who: Richard Hornung
+      what: reported personal fees from York University during the conduct of the study
+    - who: E. Angeles Martinez-Mier
+      what: reported grants from the National Institutes of Health during the conduct of the study
+    - who: all other authors
+      what: no other disclosures reported
+  corrections: []
+  gaps: 'Europe PMC and PubMed link ten published letters/replies (JAMA Pediatr 2020;174(2):210-217, incl. an authors''
+    Reply, PMID 31886848) and three commentaries, but list no correction or erratum for this paper; the letters
+    themselves were not read, so any disclosure discussion inside them is unchecked.
+
+    '
+- source: src-till-2020-formula
+  read: full_text
+  read_from: 'PMC6913880 author manuscript (NIHMS1544195) via NCBI efetch JATS XML: Acknowledgements (Funding Source,
+    Financial Disclosure) and footnote Conflict of Interest'
+  url: https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=6913880&rettype=xml
+  checked: 2026-10-14
+  funders:
+  - name: National Institute of Environmental Health Science (NIEHS)
+    kind: government
+    country: US
+    grants:
+    - R21ES027044
+    note: funded this study
+  - name: Chemicals Management Plan at Health Canada
+    kind: government
+    country: CA
+    grants: []
+    note: supported the MIREC cohort
+  - name: Ontario Ministry of the Environment
+    kind: government
+    country: CA
+    grants: []
+    note: supported the MIREC cohort
+  - name: Canadian Institutes for Health Research
+    kind: government
+    country: CA
+    grants:
+    - MOP-81285
+    note: supported the MIREC cohort
+  funding_statement: 'Funded by an NIEHS grant; the MIREC study was supported by Health Canada''s Chemicals Management
+    Plan, the Ontario Ministry of the Environment and CIHR.
+
+    '
+  funder_role: not stated
+  competing_interests:
+    declared_none: true
+    items: []
+  corrections: []
+  gaps: 'Read the accepted author manuscript in PMC, not the Elsevier version of record (ScienceDirect blocks automated
+    access); the published version''s statements were not compared. The Europe PMC REST full-text endpoint returned
+    HTTP 500. Europe PMC/PubMed link one comment (J Pediatr 2020;222:253-257) and no correction notice. Europe PMC
+    grant metadata also lists NIEHS R01 ES030365, which the manuscript text does not name.
+
+    '
+- source: src-bashash-2017
+  read: full_text
+  read_from: Europe PMC full text PMC5915186 (JATS XML), Acknowledgments and footnote competing-interests statement
+  url: https://www.ebi.ac.uk/europepmc/webservices/rest/PMC5915186/fullTextXML
+  checked: 2026-10-14
+  funders:
+  - name: U.S. National Institutes of Health (NIH)
+    kind: government
+    country: US
+    grants:
+    - R01ES021446
+    - R01-ES007821
+  - name: National Institute of Environmental Health Sciences / U.S. Environmental Protection Agency (NIEHS/EPA)
+    kind: government
+    country: US
+    grants:
+    - P01ES022844
+  - name: NIEHS
+    kind: government
+    country: US
+    grants:
+    - P42-ES05947
+    - P30ES017885
+  - name: National Institute of Public Health / Ministry of Health of Mexico
+    kind: government
+    country: MX
+    grants: []
+  - name: American British Cowdray Hospital
+    kind: other
+    country: MX
+    grants: []
+    note: provided facilities used for the research (in-kind)
+  funding_statement: 'Supported by NIH, NIEHS and joint NIEHS/EPA grants and by Mexico''s National Institute of
+    Public Health / Ministry of Health; the American British Cowdray Hospital provided facilities. Content is stated
+    to be the authors'' sole responsibility and not the official view of NIEHS, NIH or EPA.
+
+    '
+  funder_role: not stated beyond a disclaimer that the content does not represent the funders' official views
+  competing_interests:
+    declared_none: true
+    items: []
+  corrections: []
+  gaps: 'Europe PMC/PubMed link one invited commentary (EHP 2017;125(10):104002, EHP2289) and no correction or erratum.
+
+    '
+- source: src-ibarluzea-2022
+  read: blocked
+  read_from: not read; tried Europe PMC (no PMC full text), Elsevier API (metadata only, full text needs key), ScienceDirect
+    (robots/403), repository copies hdl 10810/55427 (ADDI, 404/captcha) and hdl 10230/53084 (UPF, access denied)
+  url: https://europepmc.org/article/MED/34627799
+  checked: 2026-10-14
+  funders: []
+  funding_statement: 'Not read. The funding and competing-interest sections of the paper could not be opened.
+
+    '
+  funder_role: not checked
+  competing_interests:
+    declared_none: not_stated
+    items: []
+  corrections: []
+  gaps: 'Funding and COI sections unread. Europe PMC grant metadata (not the paper) lists Spanish and regional public
+    funders (Instituto de Salud Carlos III, European Regional Development Fund, Basque Government, Generalitat Valenciana
+    / Conselleria de Sanitat, Generalitat de Catalunya, Spanish ministries, University of Oviedo), plus Fundació
+    la Marató de TV3, Alicia Koplowitz Foundation and an NIHR entry; treat as unverified until the paper is read.
+    No correction notice is linked in Europe PMC or PubMed.
+
+    '
+- source: src-grandjean-2024-odense
+  read: full_text
+  read_from: Publisher's PDF (version of record, CC BY) from University of Copenhagen repository, Funding and Conflicts
+    of interest sections; funding cross-checked against PMC10843960 JATS funding-group
+  url: https://curis.ku.dk/ws/files/531170593/Dose_dependence.pdf
+  checked: 2026-10-14
+  funders:
+  - name: Danish Council for Independent Research, Medical Sciences
+    kind: government
+    country: DK
+    grants:
+    - 4004-00352B
+    - 8020-00123B
+    note: supported the Odense Child Cohort (OCC)
+  - name: Novo Nordisk Foundation
+    kind: foundation
+    country: DK
+    grants:
+    - NNF15OC00017734
+    - NNF17OC0029404
+    note: supported the OCC
+  - name: NIEHS Superfund Research Program
+    kind: government
+    country: US
+    grants:
+    - P42ES027706
+    note: supported P. Grandjean
+  - name: NIEHS
+    kind: government
+    country: US
+    grants:
+    - R01ES021446
+    - R01ES007821
+    note: supported the ELEMENT and MIREC studies
+  - name: Flora L. Thornton Endowed Chair, University of Southern California
+    kind: university
+    country: US
+    grants: []
+    note: supported H. Hu
+  - name: Odense University Hospital, Region of Southern Denmark
+    kind: government
+    country: DK
+    grants: []
+    note: OCC support
+  - name: Municipality of Odense
+    kind: government
+    country: DK
+    grants: []
+    note: OCC support
+  - name: Odense University Hospital Research Foundation
+    kind: foundation
+    country: DK
+    grants: []
+    note: OCC support
+  - name: Odense Patient data Exploratory Network (OPEN)
+    kind: other
+    country: DK
+    grants: []
+    note: OCC support
+  - name: Helsefonden
+    kind: foundation
+    country: DK
+    grants: []
+    note: OCC support
+  - name: HBM4EU
+    kind: intergovernmental
+    country: multiple
+    grants: []
+    note: OCC support; paper also mentions 'other independent funding' without naming it
+  funding_statement: 'The Danish cohort was funded by the Danish Council for Independent Research, the Novo Nordisk
+    Foundation and local Odense hospital, municipal and research bodies plus Helsefonden and HBM4EU; the Mexican
+    and Canadian cohorts were funded by NIEHS; two authors had individual NIEHS or USC endowed-chair support.
+
+    '
+  funder_role: not stated
+  competing_interests:
+    declared_none: false
+    items:
+    - who: Philippe Grandjean
+      what: served as an expert on environmental-chemical hazards for the plaintiffs in Food & Water Watch v. U.S.
+        EPA
+    - who: Howard Hu
+      what: served as a fact witness in the same case regarding ELEMENT fluoride research
+    - who: all other authors
+      what: declared no interest regarding this research
+  corrections: []
+  gaps: 'PMC HTML and Europe PMC full-text endpoints were blocked (captcha / HTTP 500); NCBI JATS gave the funding-group
+    only. The PMC funding-group omits Helsefonden and HBM4EU, which the PDF names. No correction notice found in
+    Europe PMC or PubMed.
+
+    '
+- source: src-dewey-2023
+  read: blocked
+  read_from: not read; tried Europe PMC (no PMC full text, page robots-blocked), Elsevier API (metadata only; not
+    open access), ScienceDirect (robots/403); Unpaywall/OpenAlex list no repository copy
+  url: https://europepmc.org/article/MED/37236475
+  checked: 2026-10-14
+  funders: []
+  funding_statement: 'Not read. The funding and competing-interest sections of the paper could not be opened.
+
+    '
+  funder_role: not checked
+  competing_interests:
+    declared_none: not_stated
+    items: []
+  corrections: []
+  gaps: 'Funding and COI sections unread. Europe PMC grant metadata (not the paper) lists Government of Alberta,
+    Alberta Innovates (incl. Health Solutions), Alberta Heritage Foundation for Medical Research, NIH 1R21ES021295,
+    CIHR HTA-472411 and MOP-123535, and Alberta Children''s Hospital Foundation; unverified until the paper is read.
+    No correction notice is linked in Europe PMC or PubMed.
+
+    '
+- source: src-broadbent-2015
+  read: full_text
+  read_from: PMC full text PMC4265943 (pmc.ncbi.nlm.nih.gov HTML; Europe PMC fullTextXML returned HTTP 500), Acknowledgments
+    and Human Participant Protection sections; PubMed record 24832151 for grant metadata and correction links
+  url: https://pmc.ncbi.nlm.nih.gov/articles/PMC4265943/
+  checked: 2026-10-14
+  funders:
+  - name: New Zealand Department of Education
+    kind: government
+    country: NZ
+    grants: []
+  - name: New Zealand Department of Health
+    kind: government
+    country: NZ
+    grants: []
+  - name: New Zealand National Children's Health Research Foundation
+    kind: charity
+    country: NZ
+    grants: []
+  - name: US National Institute of Dental and Craniofacial Research
+    kind: government
+    country: US
+    grants:
+    - R01 DE-015260-01A1
+  - name: UK Medical Research Council
+    kind: government
+    country: GB
+    grants:
+    - MR/K00381X/1
+    note: PubMed grant metadata also lists MRC G9806489, G0601483, G0100527 and G9817803B (Europe PMC); these are
+      not named in the article text
+  - name: US National Institute on Aging
+    kind: government
+    country: US
+    grants:
+    - AG032282
+  - name: Health Research Council of New Zealand
+    kind: government
+    country: NZ
+    grants: []
+    note: a programme grant; the HRC also supports the Dunedin Multidisciplinary Health and Development Research
+      Unit generally
+  funding_statement: 'The acknowledgments say the work was supported by New Zealand education and health departments,
+    a NZ children''s health charity, US NIDCR and NIA grants, a UK MRC grant and a Health Research Council of New
+    Zealand programme grant. It adds that the HRC supports the Dunedin research unit generally.
+
+    '
+  funder_role: not stated
+  competing_interests:
+    declared_none: not_stated
+    items: []
+  corrections: []
+  gaps: No conflict-of-interest or competing-interests statement appears in the PMC version (searched for 'conflict'
+    and 'competing'); the AJPH publisher page could not be fetched to confirm whether the journal version carries
+    one. No correction found in PubMed or Europe PMC.
+- source: src-aggeborn-ohman-2021
+  read: full_text
+  read_from: Publisher page journals.uchicago.edu/doi/10.1086/711915 (full text visible via WebFetch; direct curl
+    got 403), unnumbered author note; cross-checked against the open IFAU Working Paper 2017:20 title-page footnote
+  url: https://www.journals.uchicago.edu/doi/10.1086/711915
+  checked: 2026-10-14
+  funders:
+  - name: U-CARE
+    kind: university
+    country: SE
+    grants: []
+    note: U-CARE is an Uppsala University research programme; the only funder named in the 2017 IFAU working paper
+      version
+  - name: European Research Council
+    kind: intergovernmental
+    country: multiple
+    grants:
+    - 683214 CONPOL
+    note: named in the published JPE version only, not in the 2017 working paper
+  - name: FORTE (Swedish Research Council for Health, Working Life and Welfare)
+    kind: government
+    country: SE
+    grants:
+    - Dnr 2013-2482
+    note: named in the published JPE version only, not in the 2017 working paper
+  funding_statement: 'The published article''s author note acknowledges financial support from U-CARE, the European
+    Research Council (grant 683214, CONPOL) and FORTE (Dnr 2013-2482). The earlier IFAU working paper (2017:20)
+    acknowledged support from U-CARE only. The project is based at IFAU, a research institute under the Swedish
+    Ministry of Employment.
+
+    '
+  funder_role: not stated
+  competing_interests:
+    declared_none: not_stated
+    items: []
+  corrections: []
+  gaps: 'The JPE page was read through WebFetch (a summarising fetcher), not as raw text, because direct download
+    was blocked (403); the author note was paraphrased by that tool and cross-checked against the IFAU working paper
+    PDF (https://www.ifau.se/globalassets/pdf/se/2017/wp2017-20-the-effects-of-fluoride-in-the-drinking-water.pdf).
+    No conflict-of-interest statement was visible in either version; JPE''s separate disclosure statements (if any)
+    were not checked. Ethics approval: Regional Ethical Review Board in Uppsala, Dnr 2015/530.'
+- source: src-do-2024
+  read: full_text
+  read_from: 'Europe PMC full text PMC11843800 (fullTextXML), end-matter footnotes: declaration of conflicting interests,
+    Funding, acknowledgments'
+  url: https://www.ebi.ac.uk/europepmc/webservices/rest/PMC11843800/fullTextXML
+  checked: 2026-10-14
+  funders:
+  - name: National Health and Medical Research Council (Australia)
+    kind: government
+    country: AU
+    grants:
+    - APP1161581
+    note: a Project grant funding this follow-up study
+  funding_statement: 'The follow-up study was funded by an NHMRC Project grant (APP1161581). The University of Queensland
+    and University of Adelaide schools of psychology are thanked for clinical facilities, not as funders.
+
+    '
+  funder_role: not stated
+  competing_interests:
+    declared_none: true
+    items: []
+  corrections: []
+  gaps: None material. No correction linked in Europe PMC (PMID 39692252).
+- source: src-warren-2025
+  read: full_text
+  read_from: Europe PMC full text PMC12629170 (fullTextXML), funding-group metadata and Acknowledgments (Funding,
+    Competing interests) sections
+  url: https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12629170/fullTextXML
+  checked: 2026-10-14
+  funders:
+  - name: National Institutes of Health - National Institute on Aging
+    kind: government
+    country: US
+    grants:
+    - U01AG058719
+    - P30AG066613
+    - P30AG017266
+    - P30AG066614
+  - name: National Institutes of Health - National Institute of Child Health and Human Development
+    kind: government
+    country: US
+    grants:
+    - P2CHD041023
+    - P2CHD047873
+    - P2CHD042849
+  - name: Alzheimer's Association
+    kind: charity
+    country: US
+    grants:
+    - SG-20717567
+  funding_statement: 'Funded by NIH grants (NIA and NICHD) and an Alzheimer''s Association grant, with each grant
+    attributed to named authors. The manuscript also passed disclosure review by the US Department of Education''s
+    Institute for Education Sciences under the restricted-use HS&B:80 data agreement; that is a data-access review,
+    not funding.
+
+    '
+  funder_role: not stated
+  competing_interests:
+    declared_none: false
+    items:
+    - who: Adam M. Brickman
+      what: consults on Alzheimer's disease for CogniScreen Inc. and Tau Biosciences Inc. and holds equity in both
+    - who: Adam M. Brickman
+      what: paid consulting on cognitive assessment for Cognition Therapeutics Inc. and IQVIA; paid medical advisory
+        board member and consultant for Cognito Therapeutics Inc.
+    - who: Adam M. Brickman
+      what: member of CogState's Scientific Advisory Board; serves on a data safety monitoring board for the University
+        of Illinois
+    - who: Adam M. Brickman
+      what: compensated section editor for the journal Alzheimer's & Dementia
+    - who: all other authors
+      what: declare no competing interests
+  corrections: []
+  gaps: Europe PMC links a companion review article (PMC12629195), not a correction. No correction found (PMID 41259530).
+- source: src-warren-2026
+  read: full_text
+  read_from: Europe PMC full text PMC13099618 (fullTextXML), Acknowledgments and Competing interests sections
+  url: https://www.ebi.ac.uk/europepmc/webservices/rest/PMC13099618/fullTextXML
+  checked: 2026-10-14
+  funders:
+  - name: National Institute on Aging (NIA)
+    kind: government
+    country: US
+    grants:
+    - R01AG060737
+    - R01AG009775
+    - P30AG017266
+    - P30AG066613
+    note: R01s support the Wisconsin Longitudinal Study generally since the 1990s; P30s are NIA center grants
+  - name: Vilas Estate Trust
+    kind: other
+    country: US
+    grants: []
+    note: supports the Wisconsin Longitudinal Study generally
+  - name: National Science Foundation (NSF)
+    kind: government
+    country: US
+    grants:
+    - SBR932066
+    note: supports the Wisconsin Longitudinal Study generally
+  - name: Spencer Foundation
+    kind: foundation
+    country: US
+    grants: []
+    note: supports the Wisconsin Longitudinal Study generally
+  funding_statement: 'There is no separate funding section. The acknowledgments say the Wisconsin Longitudinal Study
+    has been supported since the 1990s mainly by NIA, the Vilas Estate Trust, NSF and the Spencer Foundation, and
+    the authors also had NIA center grant support. No grant is said to be specific to this analysis.
+
+    '
+  funder_role: not stated
+  competing_interests:
+    declared_none: true
+    items: []
+  corrections: []
+  gaps: No correction found (PMID 41973917).
+- source: src-simon-2026
+  read: blocked
+  read_from: 'Not read. Tried: Europe PMC (no PMC copy; subscription-only), OUP article page via curl (403) and
+    WebFetch (body cut off mid-Table 2 before end matter), OUP PDF via curl (403) and WebFetch (fetch error). Funder
+    metadata from PubMed 42596505 and Crossref is noted in gaps only, not recorded as funders.'
+  url: https://academic.oup.com/aje/advance-article/doi/10.1093/aje/kwag186/8761369
+  checked: 2026-10-14
+  funders: []
+  funding_statement: 'Not read. The article page lists Funding, Role of funder, Conflicts of interest, Disclaimer
+    and Acknowledgments sections, but their text could not be retrieved. See gaps for unverified metadata.
+
+    '
+  funder_role: not read (a 'Role of funder' section exists but could not be opened)
+  competing_interests:
+    declared_none: not_stated
+    items: []
+  corrections: []
+  gaps: Funding, Role of funder, Conflicts of interest and Disclaimer sections exist but were not readable (paywall/403
+    on HTML and PDF; checker retry 14 Oct 2026 also got only text ending mid-Table 2). Funders are therefore not
+    listed. Metadata only, unverified against the article - PubMed 42596505 lists NIH grants U24OD023382, U24OD023319,
+    U2COD023375, U24OD035523, UG3/UH3OD023290, DP5OD031849 (NIH OD), T32ES007322 and P30ES009089 (NIEHS); Crossref
+    adds about 60 ECHO cohort-site and centre awards (many labelled Office of Behavioral and Social Sciences Research)
+    plus NICHD P2CHD058486. Article is CC BY-NC per OUP, so full text may reach PMC later. No correction found in
+    PubMed or Crossref.
+- source: src-malin-2024
+  read: full_text
+  read_from: 'Europe PMC full text PMC11107298, article notes: Conflict of Interest Disclosures, Funding/Support,
+    Role of the Funder/Sponsor'
+  url: https://www.ebi.ac.uk/europepmc/webservices/rest/PMC11107298/fullTextXML
+  checked: 2026-10-14
+  funders:
+  - name: National Institutes of Health and National Institute of Environmental Health Sciences
+    kind: government
+    country: US
+    grants:
+    - R00ES031676
+    - ES030400
+    - P50MD015705
+    - P50ES026086
+    - R01ES021446
+    note: paper says the work was supported 'in part' by these grants
+  - name: US Environmental Protection Agency
+    kind: government
+    country: US
+    grants:
+    - 83615801-0
+  funding_statement: 'The paper says the work was supported in part by NIH/NIEHS grants and a US EPA grant (numbers
+    listed). It also thanks a University of Florida researcher for an extra reanalysis, done without additional
+    compensation.
+
+    '
+  funder_role: The funders had no role in design, conduct, data collection, analysis, interpretation, manuscript
+    preparation or approval, or the decision to submit.
+  competing_interests:
+    declared_none: false
+    items:
+    - who: Howard Hu
+      what: testified as a nonretained expert witness, at the request of the US Department of Justice, on his published
+        prenatal fluoride and neurodevelopment research in an ongoing US District Court trial
+    - who: Shohreh F. Farzan
+      what: received NIH grants outside the submitted work
+    - who: all other authors
+      what: no other disclosures reported
+  corrections: []
+  gaps: 'A correction (JAMA Netw Open 2024 Jun 28;7(6):e2424057) fixed errors in the Figure; the article notes do
+    not say it touched funding or COI, and the correction notice itself was not opened separately. Stated affiliations
+    are universities (Florida, USC, Indiana) and were not recorded as interest-bearing.
+
+    '
+- source: src-kumar-2023
+  read: blocked
+  read_from: Europe PMC record MED/37120936 (metadata only, not open access, no PMC full text); publisher page blocked
+  url: https://europepmc.org/article/MED/37120936
+  checked: 2026-10-14
+  funders: []
+  funding_statement: 'Not read. The paper''s funding section could not be opened.
+
+    '
+  funder_role: not stated
+  competing_interests:
+    declared_none: not_stated
+    items: []
+  corrections: []
+  gaps: 'Tried: Europe PMC REST search (no PMCID, isOpenAccess N, no grants or correction links listed); ScienceDirect
+    article page (403 / error page); WebFetch of ScienceDirect (robots disallowed); Elsevier API text endpoint (400);
+    Unpaywall (no OA copy); Crossref (no funder metadata, no update/correction relation). Funding, competing-interest
+    and affiliation statements in the paper itself remain unchecked. (Bibliographic metadata lists Kumar at the
+    California Department of Public Health, but that was not read from the paper, so it is not recorded as an item.)
+
+    '
+- source: src-kumar-2025
+  read: full_text
+  read_from: Europe PMC full text PMC12808860, affiliations, Conflicts of Interest section, Funding footnote
+  url: https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12808860/fullTextXML
+  checked: 2026-10-14
+  funders: []
+  funding_statement: 'The paper states the authors received no specific funding for this work.
+
+    '
+  funder_role: not stated (no funder named)
+  competing_interests:
+    declared_none: false
+    items:
+    - who: Jayanth V. Kumar
+      what: member of the American Dental Association's National Fluoridation Advisory Committee
+    - who: Jayanth V. Kumar
+      what: was a reviewer of the 2021 NASEM letter report reviewing the revised NTP fluoride monograph
+    - who: Jayanth V. Kumar
+      what: contributed in a personal capacity; views not necessarily those of NIDCR, NIH or the California Department
+        of Public Health
+    - who: Mark E. Moss
+      what: member of the American Dental Association's National Fluoridation Advisory Committee
+    - who: Susan Fisher-Owens
+      what: member of the American Academy of Pediatrics Section on Oral Health; co-author of two papers, one on
+        fluoride use in caries prevention in primary care and one reviewing fluoride varnish safety and intervals
+    - who: Susan Fisher-Owens
+      what: consults for Arcora Foundation on medical-dental integration; holds HRSA research funding for medical-dental
+        integration (D88HP37553)
+    - who: Susan Fisher-Owens
+      what: serves on an independent data safety monitoring board for a study funded by Colgate
+    - who: Andrew Rugg-Gunn
+      what: member of the British Fluoridation Society
+    - who: Honghu Liu
+      what: no disclosure listed
+    - who: Julia Kuring
+      what: no disclosure listed
+  corrections: []
+  gaps: 'No correction notice was listed in Europe PMC metadata. Kumar''s stated affiliation is California Department
+    of Public Health (Retired), Sacramento; other stated affiliations are universities (East Carolina, UCSF, UCLA,
+    Newcastle, Adelaide). Affiliations are not disclosures and are not listed as items. The COI section does not
+    say which guidance body issued Fisher-Owens'' co-authored documents beyond her AAP section membership.
+
+    '
+- source: src-guichon-2024
+  read: full_text
+  read_from: 'Publisher''s PDF (version of record, CC BY) in Queen''s University Belfast research portal: Acknowledgements,
+    Funding Information and Conflict of Interest Statement sections (opened by checker 14 Oct 2026; Europe PMC MED/38525812
+    has no full text and Wiley returned 403)'
+  url: https://pureadmin.qub.ac.uk/ws/files/627001775/Comm_Dent_Oral_Epid_-_2024_-_Guichon_-_Flawed_MIREC_fluoride_and_intelligence_quotient_publications_A_failed_attempt_to.pdf
+  checked: 2026-10-14
+  funders: []
+  funding_statement: 'The authors state they received no funding to create this article. The acknowledgements thank
+    Dr Mark Moss and Dr Belinda Nicolau for epidemiological expertise (Nicolau also for assessing a Portuguese-language
+    article); neither is described as a funder.
+
+    '
+  funder_role: not applicable (no funder named)
+  competing_interests:
+    declared_none: true
+    items: []
+  corrections: []
+  gaps: 'The conflict statement says the authors report no conflicts, and adds a definition of conflict as one between
+    duty and interest. Stated affiliations are universities (Calgary, Queen''s Belfast, Newcastle) and were not
+    recorded as interest-bearing. The article is a commentary, not a primary study. No correction linked in Europe
+    PMC (PMID 38525812). The Wiley HTML version was not compared.
+
+    '
+- source: src-malin-till-2015
+  read: full_text
+  read_from: Europe PMC full text PMC4389999, affiliations and back-matter footnotes (Competing interests, Authors'
+    contributions)
+  url: https://www.ebi.ac.uk/europepmc/webservices/rest/PMC4389999/fullTextXML
+  checked: 2026-10-14
+  funders: []
+  funding_statement: 'The full text contains no funding statement and no acknowledgements section; it neither names
+    a funder nor says the work was unfunded.
+
+    '
+  funder_role: not stated
+  competing_interests:
+    declared_none: true
+    items: []
+  corrections: []
+  gaps: 'Absence of a funding statement is recorded as found; the publisher''s HTML version was not separately checked
+    for a funding line missing from the PMC XML. Stated affiliation is York University Department of Psychology
+    (both authors), not recorded as interest-bearing. No correction listed in Europe PMC metadata.
+
+    '
+- source: src-perrott-2018
+  read: full_text
+  read_from: British Dental Journal article page (nature.com), Acknowledgements and Author information sections;
+    Europe PMC record MED/29192688 for correction check
+  url: https://www.nature.com/articles/sj.bdj.2017.988
+  checked: 2026-10-14
+  funders: []
+  funding_statement: 'The article contains no funding statement; it names no funder and does not say it was unfunded.
+    The acknowledgements thank other members of Making Sense of Fluoride, Inc. for peer-review feedback.
+
+    '
+  funder_role: not stated
+  competing_interests:
+    declared_none: not_stated
+    items: []
+  corrections: []
+  gaps: 'No competing-interests or ethics-declarations section appeared on the publisher page. The sole stated affiliation
+    is Making Sense of Fluoride Inc., Christchurch, New Zealand, which the acknowledgements describe as a not-for-profit
+    group that works to promote understanding of community water fluoridation; this is an affiliation, not a disclosure,
+    so it is not listed as an item. Published online 1 Dec 2017 (Br Dent J 223:819-822, issue 15 Dec 2017), so the
+    list''s ''2018'' date does not match the paper. The PDF version was not separately checked. No correction listed
+    in Europe PMC metadata.
+
+    '
+- source: src-catfish-2024
+  read: full_text
+  read_from: Publisher PDF text (CC BY) deposited in University of Melbourne Minerva Access repository (cdoe.12967.pdf),
+    front-page Funding information, Acknowledgements, Funding Information and Conflict of Interest Statement sections;
+    grant number cross-checked against Europe PMC record MED/38757663
+  url: https://minerva-access.unimelb.edu.au/server/api/core/bitstreams/c6cf215b-0fae-41fc-869c-fd4f45e24d4c/content
+  checked: 2026-10-14
+  funders:
+  - name: National Institute for Health and Care Research (NIHR) Public Health Research programme
+    kind: government
+    country: GB
+    grants:
+    - 12/3000/40
+    note: Named on the front page and in the COI statement as the funder of the study; a full report was also published
+      in the NIHR Journals Library.
+  funding_statement: 'The article names the UK National Institute for Health and Care Research as the funder, and
+    the conflict statement says all authors had payments made to their institutions from the NIHR Public Health
+    Research programme grant 12/3000/40 as applicants.
+
+    '
+  funder_role: States the funders had no role in study design, data collection and analysis, decision to publish,
+    or preparation of the manuscript.
+  competing_interests:
+    declared_none: false
+    items:
+    - who: Matt Sutton
+      what: reports membership of NIHR HS&DR committees and boards (Funding Committee 2012-2021, POM Committee,
+        Researcher Led Board 2012-2016, NHS 111 Online Sub-Board 2012-2020)
+    - who: Michael P. Kelly
+      what: reports consultancy fees for grants from NIHR, AHRC, Marie Curie, Dunhill Medical Trust and Wellcome,
+        and is a board member for SAB SIPHER, University of Sheffield
+    - who: Martin Tickle
+      what: reports NIHR grants and honoraria from the Universities of Adelaide, Sydney and Western Australia as
+        a PhD examiner
+    - who: Iain A. Pretty
+      what: reports funding from Colgate Palmolive, NIHR grants, and editorial board member payments from Wiley-Blackwell
+    - who: Tanya Walsh
+      what: reports NIHR grants and funding from Colgate Palmolive
+    - who: Michaela Goodwin
+      what: reports NIHR grants and funding from Colgate Palmolive
+    - who: All authors
+      what: payments made to their institutions from the NIHR Public Health Research programme (12/3000/40) as applicants
+        on this grant
+  corrections: []
+  gaps: Wiley landing page blocked (403/Cloudflare), so read the identical CC BY publisher PDF from a university
+    repository. Richard Emsley and William Whittaker are not individually named in the COI statement beyond the
+    all-authors NIHR payment line. No correction notice found in Europe PMC or PubMed records. The companion NIHR
+    Journals Library full report was not checked.
+- source: src-mclaren-2022
+  read: full_text
+  read_from: 'Europe PMC full text PMC9542152 (XML): funding-group, Acknowledgements, and Conflict of Interest sections'
+  url: https://www.ebi.ac.uk/europepmc/webservices/rest/PMC9542152/fullTextXML
+  checked: 2026-10-14
+  funders:
+  - name: Canadian Institutes of Health Research (CIHR)
+    kind: government
+    country: CA
+    grants:
+    - PJT-156258
+    note: Research grant that funded the study.
+  - name: CIHR Applied Public Health Chair award (CIHR Institute of Population & Public Health and Institute of
+      Musculoskeletal Health & Arthritis), co-funded with the Public Health Agency of Canada and Alberta Innovates
+      - Health Solutions
+    kind: government
+    country: CA
+    grants:
+    - CPP-137907
+    note: Salary/chair support for Dr Lindsay McLaren, not a project grant.
+  - name: CIHR Health System Impact Fellowship
+    kind: government
+    country: CA
+    grants:
+    - '403867'
+    note: Fellowship support for Dr Cynthia Weijs, 2017-2020.
+  funding_statement: 'The study was funded by a CIHR research grant (PJT-156258). The lead author was supported
+    by a CIHR Applied Public Health Chair award co-funded by the Public Health Agency of Canada and Alberta Innovates
+    - Health Solutions, and a co-author by a CIHR Health System Impact Fellowship.
+
+    '
+  funder_role: not stated
+  competing_interests:
+    declared_none: true
+    items: []
+  corrections: []
+  gaps: Acknowledgements also thank a University of Sao Paulo professor for fingernail fluoride analysis (in-kind,
+    not described as funding). No correction notice found in Europe PMC record (PMID 34309045).
+- source: src-meyer-2018
+  read: full_text
+  read_from: 'Europe PMC full text PMC6293551 (XML): Acknowledgements, Funding, and Competing interests sections'
+  url: https://www.ebi.ac.uk/europepmc/webservices/rest/PMC6293551/fullTextXML
+  checked: 2026-10-14
+  funders: []
+  funding_statement: 'The paper states the study was self-funded and that no public or private funding source was
+    used.
+
+    '
+  funder_role: not applicable (no external funder)
+  competing_interests:
+    declared_none: true
+    items: []
+  corrections: []
+  gaps: Claims data were obtained from CMS via ResDAC under a data use agreement; the paper notes such data must
+    be purchased, but does not say who paid. No correction notice found in Europe PMC record (PMID 30545358).
+- source: src-hung-2026
+  read: full_text
+  read_from: 'Europe PMC full text PMC13573383 (XML): Acknowledgements, Funding, and Declarations/Competing interests
+    sections'
+  url: https://www.ebi.ac.uk/europepmc/webservices/rest/PMC13573383/fullTextXML
+  checked: 2026-10-14
+  funders: []
+  funding_statement: 'The review states it received no external funding. The acknowledgements thank the Clinical
+    Outcomes Research and Education Center at Roseman University of Health Sciences College of Dental Medicine for
+    support of the study.
+
+    '
+  funder_role: not applicable (no external funder)
+  competing_interests:
+    declared_none: true
+    items: []
+  corrections: []
+  gaps: The nature of the Roseman University center's support (in-kind or financial) is not specified. No correction
+    notice found in Europe PMC record (PMID 42337497).
+- source: src-neurath-2019
+  read: abstract_only
+  read_from: PubMed/Europe PMC record MED/30931722 (abstract, grant list, linked notices); SAGE landing page (paywalled,
+    funding/COI sections not shown); Editorial Expression of Concern landing page 10.1177/2380084419865256
+  url: https://europepmc.org/article/MED/30931722
+  checked: 2026-10-14
+  funders: []
+  funding_statement: 'Could not reach the funding statement. The PubMed and Europe PMC records list no grants, and
+    Crossref has no funder metadata, but the article''s own Funding / Declaration of Conflicting Interests sections
+    sit behind the SAGE paywall and were not read.
+
+    '
+  funder_role: not stated (section not reachable)
+  competing_interests:
+    declared_none: not_stated
+    items: []
+  corrections:
+  - date: 2019-07-12
+    notice_url: https://doi.org/10.1177/2380084419865256
+    what: Editorial Expression of Concern (JDR Clin Trans Res 2019;4(4):309) pointing readers to a CDC report questioning
+      the validity of the NHANES 2011-2012 fluorosis data the paper analyzed; the journal says it does not suggest
+      author wrongdoing. It does not touch funding or COI statements.
+  gaps: 'SAGE full text, PDF and full-xml all blocked (403/Cloudflare; WebFetch reported paywall). No open repository
+    copy found (OpenAlex/Unpaywall: closed). Funding and COI therefore unverified; do not treat the empty funders
+    list as ''no funding''. Related correspondence (comment 10.1177/2380084419876280 and author replies 10.1177/2380084419871932,
+    10.1177/2380084419881612) not read.'
+- source: src-wiener-2018
+  read: full_text
+  read_from: 'NIH author manuscript NIHMS960886 = PMC5929463, full text XML via NCBI E-utilities efetch (db=pmc):
+    funding/acknowledgement statement and author notes'
+  url: https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=5929463&retmode=xml
+  checked: 2026-10-14
+  funders:
+  - name: National Institute of General Medical Sciences, National Institutes of Health
+    kind: government
+    country: US
+    grants:
+    - U54GM104942
+  funding_statement: 'The paper says the research was supported by NIGMS/NIH under award U54GM104942, and that the
+    content is the author''s responsibility and not necessarily the official views of NIH.
+
+    '
+  funder_role: States the funders had no role in study design, data collection and analysis, decision to publish,
+    or preparation of the manuscript.
+  competing_interests:
+    declared_none: not_stated
+    items: []
+  corrections: []
+  gaps: Read the NIH author manuscript, not the J Dent Hyg typeset version; the journal version may carry a conflict-of-interest
+    statement not present in the manuscript. No COI statement found in the manuscript text. The listed PMC web page
+    returned a reCAPTCHA wall and Europe PMC fullTextXML returned HTTP 500, so the XML came from NCBI efetch. No
+    correction found in Europe PMC record (PMID 29500282).
+- source: src-luke-2001
+  read: abstract_only
+  read_from: 'Europe PMC / PubMed record MED/11275672 (abstract, no grant list); Karger article page (WebFetch:
+    full text available only as paywalled PDF; no funding or COI statement visible)'
+  url: https://europepmc.org/article/MED/11275672
+  checked: 2026-10-14
+  funders: []
+  funding_statement: 'Could not reach any funding statement. Europe PMC/PubMed list no grants and Crossref has no
+    funder metadata; the Karger landing page shows only the abstract and a generic publisher disclaimer, with the
+    full article available only as a paywalled PDF.
+
+    '
+  funder_role: not stated (section not reachable)
+  competing_interests:
+    declared_none: not_stated
+    items: []
+  corrections: []
+  gaps: 'Karger PDF (karger.com/Article/Pdf/47443) blocked (403/Cloudflare and WebFetch error). No open repository
+    copy (OpenAlex: closed). Any acknowledgements in the article PDF are unverified; a 2001 Caries Research paper
+    may not carry a formal COI section. Empty funders list is not evidence of no funding.'
