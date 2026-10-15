@@ -1,0 +1,303 @@
+video:
+  id: "K3pw12lBcXM"
+  title: "Aamu, Hyksos, Habiru, Shasu"
+  uploaded: "2026-09-06"
+  transcript: "clean/20260906 - Aamu, Hyksos, Habiru, Shasu [K3pw12lBcXM].txt"
+  caption_source: "YouTube auto-captions (en)"
+claims:
+  - id: dh-K3pw12lBcXM-01
+    kind: "historical"
+    statement: "Around 1900 BC the Aamu (yam in captions) came to Egypt from the Levant."
+    quote: "Around 1900 BC, the yam came to Egypt from the Levant."
+    speaker_cites: "none given"
+    time_stated: "c. 1900 BC"
+    place_stated: "Egypt; Levant"
+    research_status: "unresearched"
+  - id: dh-K3pw12lBcXM-02
+    kind: "historical"
+    statement: "On a wall in Khnumhotep's tomb is recorded the story of Abishai, a foreign ruler, a Hyksos, and 37 Aamu who came to Egypt to trade in antimony and animals."
+    quote: "On a wall in Khnumhotep's tomb is recorded the story of Abishai, a foreign ruler, a Hyksos, and 37 yams who came to Egypt to trade in antimony and animals."
+    speaker_cites: "tomb of Khnumhotep"
+    time_stated: null
+    place_stated: "Egypt"
+    research_status: "unresearched"
+  - id: dh-K3pw12lBcXM-03
+    kind: "historical"
+    statement: "This is the first mention of the Hyksos (Heka Hasut, foreign rulers) in Egypt, and they received the best lands in Egypt, Goshen, in particular the city of Avaris."
+    quote: "foreign rulers who received the best lands in all of Egypt , Goshen, in particular the city of Avaris."
+    speaker_cites: "none given"
+    time_stated: null
+    place_stated: "Goshen; Avaris"
+    research_status: "unresearched"
+  - id: dh-K3pw12lBcXM-04
+    kind: "historical"
+    statement: "The Hyksos from the Levant grew in numbers and power in Egypt until they became the 15th dynasty, ruling Lower (northern) Egypt."
+    quote: "until they became the 15th dynasty, ruling Lower Egypt, which is northern Egypt"
+    speaker_cites: "Egyptian tomb wall, Egyptian king lists"
+    time_stated: null
+    place_stated: "Lower Egypt"
+    research_status: "unresearched"
+  - id: dh-K3pw12lBcXM-05
+    kind: "historical"
+    statement: "Egyptian king lists indicate that the Hyksos kings ruled for about a hundred years."
+    quote: "the Hyksos kings ruled for about a hundred years"
+    speaker_cites: "Egyptian king lists"
+    time_stated: "about a hundred years"
+    place_stated: null
+    research_status: "unresearched"
+  - id: dh-K3pw12lBcXM-06
+    kind: "historical"
+    statement: "Until about 1700 BC the Hyksos ruled in the north while the Nubians ruled in the south, and in Middle Egypt an Egyptian king was at the mercy of both."
+    quote: "Until about 1700 BC, they ruled in the north, while the Nubians ruled in the south"
+    speaker_cites: "Egyptians themselves"
+    time_stated: "until c. 1700 BC"
+    place_stated: "north, south and Middle Egypt"
+    research_status: "unresearched"
+  - id: dh-K3pw12lBcXM-07
+    kind: "historical"
+    statement: "Kamose (rendered 'Chemosh' in the captions) was the last king of the 17th dynasty in Thebes, Middle Egypt."
+    quote: "So, Chemosh was the last king of the 17th dynasty of Egyptian kings in Thebes, Middle Egypt."
+    speaker_cites: "none given"
+    time_stated: null
+    place_stated: "Thebes; Middle Egypt"
+    research_status: "unresearched"
+  - id: dh-K3pw12lBcXM-08
+    kind: "historical"
+    statement: "Kamose's thoughts about attacking the Hyksos and Nubians, and his council's objection ('We are at peace'), are recorded, as is his campaign against them."
+    quote: "His council's response is recorded: \"Why do you want to fight?"
+    speaker_cites: "none given"
+    time_stated: null
+    place_stated: null
+    research_status: "unresearched"
+  - id: dh-K3pw12lBcXM-09
+    kind: "historical"
+    statement: "'Hyksos' became an offensive word; Kamose called them 'Asians' as an insult."
+    quote: "Hyksos became an offensive word."
+    speaker_cites: "none given"
+    time_stated: null
+    place_stated: null
+    research_status: "unresearched"
+  - id: dh-K3pw12lBcXM-10
+    kind: "historical"
+    statement: "From 1550 to 1500 BC the Egyptians revolted and attacked both the Hyksos in the north and the Nubians in the south."
+    quote: "From 1550 to 1500 BC, the Egyptians revolted and attacked both the Hyksos in the north and the Nubians in the south."
+    speaker_cites: "none given"
+    time_stated: "1550-1500 BC"
+    place_stated: null
+    research_status: "unresearched"
+  - id: dh-K3pw12lBcXM-11
+    kind: "historical"
+    statement: "Kamose describes in detail his victory over King Apophis (Apepi) in the north, the destruction of their city and confiscation of their property."
+    quote: "describes in detail his victory over King Apophis in the north"
+    speaker_cites: "Kamose's records"
+    time_stated: null
+    place_stated: "north Egypt"
+    research_status: "unresearched"
+  - id: dh-K3pw12lBcXM-12
+    kind: "historical"
+    statement: "Ahmose, son of Ebana (Ibana), recorded in his autobiography his career as a war hero who later became admiral of the Egyptian fleet, including campaigns against the Hyksos and Nubians."
+    quote: "Ahmose, son of Ebana, notes in his autobiography about a man who would later become admiral of the Egyptian fleet."
+    speaker_cites: "autobiography of Ahmose son of Ibana"
+    time_stated: null
+    place_stated: "Memphis"
+    research_status: "unresearched"
+  - id: dh-K3pw12lBcXM-13
+    kind: "historical"
+    statement: "In wars the Egyptians cut off part of the body of defeated enemies to count them and get rewards of gold: the male organ, or the hand if the enemy was circumcised."
+    quote: "In particular, they cut off the male organ and brought it back, unless the enemy was circumcised, in which case they cut off the hand."
+    speaker_cites: "Ahmose son of Ibana"
+    time_stated: null
+    place_stated: null
+    research_status: "unresearched"
+  - id: dh-K3pw12lBcXM-14
+    kind: "historical"
+    statement: "In his campaigns against the Hyksos Ahmose constantly brought hands, so the Hyksos he fought were circumcised."
+    quote: "Oh, the Hyksos that Kamos fought were circumcised."
+    speaker_cites: "Ahmose son of Ibana"
+    time_stated: null
+    place_stated: null
+    research_status: "unresearched"
+  - id: dh-K3pw12lBcXM-15
+    kind: "historical"
+    statement: "Ahmose son of Ibana was given slaves for the campaigns against the Hyksos and Nubians, and slaves were given as rewards to his crew; this was common practice and taken from captives."
+    quote: "Ahmose, son of Ibana, was given a bunch of slaves for both the campaign against the Hyksos and the campaign against the Nubians."
+    speaker_cites: "Ahmose son of Ibana"
+    time_stated: null
+    place_stated: null
+    research_status: "unresearched"
+  - id: dh-K3pw12lBcXM-16
+    kind: "historical"
+    statement: "The Hyksos nobles were driven back to the Levant while their people were taken captive en masse and turned into slaves for soldiers or the state; Egypt enslaved all the people it conquered in battle."
+    quote: "The nobles were driven back to the Levant."
+    speaker_cites: "none given"
+    time_stated: null
+    place_stated: "Levant"
+    research_status: "unresearched"
+  - id: dh-K3pw12lBcXM-17
+    kind: "historical"
+    statement: "The Egyptians pursued the Hyksos nobles to the land of Canaan, from where they came around 1900 BC."
+    quote: "The Egyptians pursued the nobles to the land of Canaan, from where they came around 1900 BC."
+    speaker_cites: "none given"
+    time_stated: "c. 1900 BC"
+    place_stated: "Canaan"
+    research_status: "unresearched"
+  - id: dh-K3pw12lBcXM-18
+    kind: "historical"
+    statement: "Thutmose (speaker unsure) completed the expulsion of the Hyksos, chasing them to the Levant, and burned the city of Sharuhen where they had gathered."
+    quote: "And then he burned the city of Sharuhen, where they had gathered."
+    speaker_cites: "none given"
+    time_stated: null
+    place_stated: "Sharuhen; Levant"
+    research_status: "unresearched"
+  - id: dh-K3pw12lBcXM-19
+    kind: "historical"
+    statement: "Many Hyksos nobles fled to the Mediterranean, and this is recorded in all mythologies of the Mediterranean and northern peoples (Greek, Anatolian, Germanic, Norse, Hindu)."
+    quote: "many of those Hyksos nobles fled to the Mediterranean."
+    speaker_cites: "mythologies as histories of peoples"
+    time_stated: null
+    place_stated: "Mediterranean"
+    research_status: "unresearched"
+  - id: dh-K3pw12lBcXM-20
+    kind: "historical"
+    statement: "Foreign rulers fleeing Egypt married into nobility and became part of other peoples: Danaans, Danes, Scots, Gauls, Trojans, Tuatha De Danann in Ireland, and Aryans in India."
+    quote: "Danaans, Danes, Scots, Gauls, Trojans, Tuatha De Danann, as in Ireland, Aryans, as in India."
+    speaker_cites: "Mediterranean mythologies"
+    time_stated: null
+    place_stated: "Ireland; India; Mediterranean"
+    research_status: "unresearched"
+  - id: dh-K3pw12lBcXM-21
+    kind: "historical"
+    statement: "In 1550-1500 BC the Hyksos nobles were expelled, pursued in the Levant and defeated, and their people enslaved in Egypt."
+    quote: "So, in 1550–1500 BC."
+    speaker_cites: "none given"
+    time_stated: "1550-1500 BC"
+    place_stated: "Egypt; Levant"
+    research_status: "unresearched"
+  - id: dh-K3pw12lBcXM-22
+    kind: "historical"
+    statement: "Because the Egyptians hated and were ashamed that the Hyksos ruled them, they launched a campaign into Canaan to conquer it far to the north and subdue all its kings."
+    quote: "that's why they launched a campaign into the land of Canaan to conquer it far to the north."
+    speaker_cites: "none given"
+    time_stated: null
+    place_stated: "Canaan"
+    research_status: "unresearched"
+  - id: dh-K3pw12lBcXM-23
+    kind: "historical"
+    statement: "By 1400 BC it is apparent that Egypt was not really interested in Canaan or its kings, as shown by the Amarna archive."
+    quote: "But by 1400 BC . It becomes apparent that the Egyptians were not really interested in the land of Canaan or its kings, as can be seen from the Amarna archive."
+    speaker_cites: "Amarna archive"
+    time_stated: "1400 BC"
+    place_stated: "Canaan"
+    research_status: "unresearched"
+  - id: dh-K3pw12lBcXM-24
+    kind: "historical"
+    statement: "In the Amarna letters Canaanite kings, including one at Jerusalem, wrote to Egypt begging for help because the Khabiru (Hapiru) were looting their cities and no Egyptian army responded."
+    quote: "The Khabiru are looting our cities and capturing us, and there is no response from the Egyptian army"
+    speaker_cites: "Amarna letters"
+    time_stated: null
+    place_stated: "Jerusalem; Canaan"
+    research_status: "unresearched"
+  - id: dh-K3pw12lBcXM-25
+    kind: "historical"
+    statement: "Egypt had a small number of troops in Canaan and ruled it through diplomats and correspondence, collecting taxes and demanding loyalty."
+    quote: "They ruled the Canaanites through diplomats and correspondence."
+    speaker_cites: "none given"
+    time_stated: null
+    place_stated: "Canaan"
+    research_status: "unresearched"
+  - id: dh-K3pw12lBcXM-26
+    kind: "historical"
+    statement: "In 1550 BC the Hyksos nobles were expelled but their people taken captive; in 1400 BC these captives were released and wandered in the wilderness for 40 years."
+    quote: "In 1400 BC. These captives were released, and they wandered in the wilderness for 40 years."
+    speaker_cites: "Exodus tradition (implied)"
+    time_stated: "1550 BC; 1400 BC"
+    place_stated: "wilderness"
+    research_status: "unresearched"
+  - id: dh-K3pw12lBcXM-27
+    kind: "historical"
+    statement: "The captives became 'Yahweh's nomads': in the Shasu country, Yahweh existed until the 1300s BC."
+    quote: "In the Shasu country, Yahweh existed until the 1300s BC."
+    speaker_cites: "Egyptian Shasu references"
+    time_stated: "1300s BC"
+    place_stated: "Shasu country"
+    research_status: "unresearched"
+  - id: dh-K3pw12lBcXM-28
+    kind: "historical"
+    statement: "It is well documented how the Hapiru conquered the land of Canaan."
+    quote: "And it is well documented how the Hapiru conquered the land of Canaan."
+    speaker_cites: "none given"
+    time_stated: null
+    place_stated: "Canaan"
+    research_status: "unresearched"
+  - id: dh-K3pw12lBcXM-29
+    kind: "historical"
+    statement: "By 1200 BC the Aamu-Hyksos, who became Hapiru, who became Shasu Yahweh, turned into Israel, as in the stele of Merneptah."
+    quote: "Amu- Hyksos, who became Hapiru, who became Shasu Yahweh, turned into Israel."
+    speaker_cites: "stele of Merneptah"
+    time_stated: "by 1200 BC"
+    place_stated: null
+    research_status: "unresearched"
+  - id: dh-K3pw12lBcXM-30
+    kind: "historical"
+    statement: "At the time of the Merneptah stele they are united into a nation without a king who had conquered large parts of Canaan."
+    quote: "They are all officially united into a nation that does not yet have a king, but they are the only ones who have conquered large parts of the land of Canaan."
+    speaker_cites: "Merneptah stele"
+    time_stated: "1200 BC"
+    place_stated: "Canaan"
+    research_status: "unresearched"
+  - id: dh-K3pw12lBcXM-31
+    kind: "historical"
+    statement: "About 200 years later, around 1000 BC, the first king of Israel was crowned."
+    quote: "Fast forward 200 years to 1000 BC, when the first king of Israel was crowned."
+    speaker_cites: "none given"
+    time_stated: "1000 BC"
+    place_stated: "Israel"
+    research_status: "unresearched"
+  - id: dh-K3pw12lBcXM-32
+    kind: "historical"
+    statement: "The reigns of David and Solomon are confirmed by excavations at Tel Dan, though the speaker also says there is no evidence of Solomon's existence."
+    quote: "The reigns of David and Solomon are confirmed by excavations at Tel Dan."
+    speaker_cites: "Tel Dan excavations"
+    time_stated: null
+    place_stated: "Tel Dan"
+    research_status: "unresearched"
+  - id: dh-K3pw12lBcXM-33
+    kind: "historical"
+    statement: "Solomon's Temple was destroyed by the Babylonians in 586 BC and its treasures taken away; the Romans did it again in 70 AD."
+    quote: "Solomon's Temple was destroyed by the Babylonians in 586 BC."
+    speaker_cites: "none given"
+    time_stated: "586 BC; 70 AD"
+    place_stated: "Jerusalem"
+    research_status: "unresearched"
+  - id: dh-K3pw12lBcXM-34
+    kind: "historical"
+    statement: "One is not allowed to dig at the Temple site, so one cannot say nothing is there."
+    quote: "You can't say there's nothing there if they don't let you dig."
+    speaker_cites: "none given"
+    time_stated: null
+    place_stated: "Jerusalem"
+    research_status: "unresearched"
+  - id: dh-K3pw12lBcXM-35
+    kind: "historical"
+    statement: "The biblical account, written after these events, is fully confirmed by archaeology, by the Egyptians' own records and by the Canaanite kings' pleas."
+    quote: "The biblical account, written after these events, is fully confirmed not only by archaeology but also by the Egyptians themselves"
+    speaker_cites: "none given"
+    time_stated: null
+    place_stated: null
+    research_status: "unresearched"
+  - id: dh-K3pw12lBcXM-36
+    kind: "historical"
+    statement: "The son of Amenhotep II died and disappeared without explanation; perhaps this is one of the Egyptian defeats not recorded."
+    quote: "But the son of Amenhotep II died and disappeared without any explanation."
+    speaker_cites: "none given"
+    time_stated: null
+    place_stated: "Egypt"
+    research_status: "unresearched"
+  - id: dh-K3pw12lBcXM-37
+    kind: "historical"
+    statement: "Around 1400 BC the Jews conquered the land of Canaan, forming the nation of Israel, which is directly recorded in world history."
+    quote: "Around 1400 BC, the Jews conquered the land of Canaan, forming the nation of Israel"
+    speaker_cites: "world history"
+    time_stated: "c. 1400 BC"
+    place_stated: "Canaan"
+    research_status: "unresearched"

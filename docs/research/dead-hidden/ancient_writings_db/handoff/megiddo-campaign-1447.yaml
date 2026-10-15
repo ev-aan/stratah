@@ -1,0 +1,32 @@
+# HANDOFF for Stratah dig agents. STAGING, not in the repo. Generated 2026-10-14; same rules as merneptah-stele.yaml.
+subject_candidate: megiddo-campaign-1447
+object_named_by_speaker: "Thutmose III Megiddo campaign records"
+candidate_identification_UNVERIFIED: "Annals of Thutmose III Karnak Megiddo; Urk. IV; Lichtheim AEL II; Griffith Topographical Bibliography"
+question_for_agent: "Date, who gathered at Megiddo, any link to the Exodus or a new god Amun-Ra as the speaker says."
+speaker_claims_to_test:
+  - id: dh-MNeiRTK5MmE-48
+    as_stated: "In 1447 the Egyptians recorded the Battle of Armageddon, when a vile prince gathered all the armies of the north in the valley of Megiddo to fight Pharaoh; then the Exodus happens, around 1400 BC."
+    time_stated: "1447; 1400 BC"
+    place_stated: "valley of Megiddo"
+    speaker_cites: "Egyptian records"
+  - id: dh-wbdnR9qs9MU-60
+    as_stated: "1400 BC was the start of a new age; the Battle of Armageddon is recorded in 1447 BC by the Pharaoh, when a vile wicked prince gathered nations into the valley of Megiddo against Egypt, and then the Exodus happened."
+    time_stated: "1447 BC; 1400 BC"
+    place_stated: "valley of Megiddo"
+    speaker_cites: "Egyptian records"
+  - id: dh-MvDtwF6S2C4-12
+    as_stated: "The second age ended in a literal battle of Armageddon fought by Egypt in the valley of Megiddo right after the Exodus, recorded by the Egyptians themselves, who added a new god Amun-Ra (the speaker says it is the god of Moses recognized by Egypt) to their pantheon."
+    time_stated: "right after the Exodus"
+    place_stated: "valley of Megiddo, Egypt"
+    speaker_cites: "Egyptian records"
+sources: []   # none opened yet. For each source record url, kind, authenticity {status: unchecked}, rights, and whether it was blocked.
+next_steps_for_agent:
+  - Locate the object and a primary edition or image; open and read it. Quote the relevant passage verbatim with the edition named.
+  - Record holder/location, inventory or tomb number, findspot, date and its basis, language/script, licence, sha256 of any stored image.
+  - Test each speaker claim separately (date, identity, what the text says). Keep the claim wording unchanged.
+  - Place and date as shared nodes. Report anything blocked; do not guess.
+constraints:
+  - Branch dig/<subject>; never push to main; conformance must pass; a separate review agent merges.
+  - Wikipedia and the videos are never anchors. Do not bypass bot checks or paywalls. Check licence before storing images.
+  - "Mark where the facts end (best of current knowledge). Keep different or opposing hypotheses open for further study as contested claims with named positions; do not close them early."
+  - "Books, translations and videos are all claims needing proof, on the same footing. Proof is the object, its images or squeezes. For every author and publisher the agent relies on, trace who funded and controlled the work and record it; do not treat a book as an anchor."

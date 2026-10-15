@@ -1,0 +1,32 @@
+# HANDOFF for Stratah dig agents. STAGING, not in the repo. Generated 2026-10-14; same rules as merneptah-stele.yaml.
+subject_candidate: amarna-habiru
+object_named_by_speaker: "Amarna letters naming Habiru"
+candidate_identification_UNVERIFIED: "Amarna letters Habiru EA 286 etc; Moran The Amarna Letters; CDLI / Knudtzon"
+question_for_agent: "What do the letters say about Habiru, who writes, and the date relative to the speaker's 150-years-after-expulsion."
+speaker_claims_to_test:
+  - id: dh-gBGfqlL_FFQ-08
+    as_stated: "150 years after the expulsion, the Egyptians recorded the Habira being captured by Canaanite cities as bands of robbers and raiders overrunning cities."
+    time_stated: "150 years after expulsion"
+    place_stated: "Canaan"
+    speaker_cites: "Egyptian records"
+  - id: dh-APUenSDE2oM-08
+    as_stated: "Chronology: Hyksos came to Egypt in 1750 BC, went into exile in 1550 BC with their people captive; in 1400 BC Canaanite city-states capture Hapiru."
+    time_stated: "1750 BC; 1550 BC; 1400 BC"
+    place_stated: "Canaan"
+    speaker_cites: "Egyptian records"
+  - id: dh-HN0wNVpfunM-30
+    as_stated: "The Khapiru who captured Canaanite cities were the Hyksos; the speaker asks how Israel became established at Jerusalem and Tel Dan while Egypt controlled Canaan."
+    time_stated: nil
+    place_stated: "Jerusalem; Tel Dan; Canaan"
+    speaker_cites: "none given"
+sources: []   # none opened yet. For each source record url, kind, authenticity {status: unchecked}, rights, and whether it was blocked.
+next_steps_for_agent:
+  - Locate the object and a primary edition or image; open and read it. Quote the relevant passage verbatim with the edition named.
+  - Record holder/location, inventory or tomb number, findspot, date and its basis, language/script, licence, sha256 of any stored image.
+  - Test each speaker claim separately (date, identity, what the text says). Keep the claim wording unchanged.
+  - Place and date as shared nodes. Report anything blocked; do not guess.
+constraints:
+  - Branch dig/<subject>; never push to main; conformance must pass; a separate review agent merges.
+  - Wikipedia and the videos are never anchors. Do not bypass bot checks or paywalls. Check licence before storing images.
+  - "Mark where the facts end (best of current knowledge). Keep different or opposing hypotheses open for further study as contested claims with named positions; do not close them early."
+  - "Books, translations and videos are all claims needing proof, on the same footing. Proof is the object, its images or squeezes. For every author and publisher the agent relies on, trace who funded and controlled the work and record it; do not treat a book as an anchor."

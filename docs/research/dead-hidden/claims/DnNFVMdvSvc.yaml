@@ -1,0 +1,127 @@
+video:
+  id: DnNFVMdvSvc
+  title: "Armageddon 1457BC"
+  uploaded: 2026-03-08
+  transcript: "clean/20260308 - Armageddon 1457BC [DnNFVMdvSvc].txt"
+  caption_source: YouTube auto-captions (en)
+claims:
+  - id: dh-DnNFVMdvSvc-01
+    kind: historical
+    statement: "The Battle of Armageddon happened in 1457 BC, before Jesus was born or the Revelation was written."
+    quote: "The Battle of Armageddon happened in 1457 BC."
+    speaker_cites: "none given"
+    time_stated: "1457 BC"
+    place_stated: "Armageddon"
+    research_status: unresearched
+  - id: dh-DnNFVMdvSvc-02
+    kind: historical
+    statement: "The Exodus followed shortly after the Battle of Armageddon in 1450 BC."
+    quote: "You know what followed the Battle of Armageddon in 1450 BC? Shortly thereafter, the Exodus."
+    speaker_cites: "none given"
+    time_stated: "1450 BC"
+    place_stated: null
+    research_status: unresearched
+  - id: dh-DnNFVMdvSvc-03
+    kind: religious
+    statement: "The present age has lasted 2,000 years and probably has about another thousand years to go, then a new age, the millennial reign of Jesus Christ; it ends with the Battle of Armageddon written about in the Revelation."
+    quote: "Our age will end with the Battle of Armageddon, written about in the Revelation."
+    speaker_cites: "Revelation"
+    time_stated: "2,000 years so far, about another thousand"
+    place_stated: null
+    research_status: unresearched
+  - id: dh-DnNFVMdvSvc-04
+    kind: religious
+    statement: "One pattern repeats in history at all scales; the sun setting and rising is the Revelation of Jesus Christ on a 24-hour schedule, with a smaller Armageddon-style event about every 70 or 80 years (every fourth generation, the fourth turning)."
+    quote: "And so there is a battle symbolically linked to Armageddon, smaller version within the bigger version, about every 70 or 80 years or so, give or take."
+    speaker_cites: "Genesis 1 'it was evening and it was morning'"
+    time_stated: "every 70 or 80 years"
+    place_stated: null
+    research_status: unresearched
+  - id: dh-DnNFVMdvSvc-05
+    kind: religious
+    statement: "World War III is our generation's own small Armageddon, not the big one; the trumpets of God are symbolically blowing for our generation."
+    quote: "So World War III is our own little Armageddon, not the big Armageddon."
+    speaker_cites: "none given"
+    time_stated: "present"
+    place_stated: null
+    research_status: unresearched
+  - id: dh-DnNFVMdvSvc-06
+    kind: religious
+    statement: "We are in the beginning of sorrows, the fourth seal of the apocalypse; seals 1-4 have been opening over the past 2,000 years."
+    quote: "I believe we're in the beginning of sorrows, the fourth seal of the apocalypse."
+    speaker_cites: "Revelation 6"
+    time_stated: "past 2,000 years"
+    place_stated: null
+    research_status: unresearched
+  - id: dh-DnNFVMdvSvc-07
+    kind: both
+    statement: "Constantine was the first horseman, the Cardinals the second, and the Jesuits the third horseman of the apocalypse; the fourth is unknown."
+    quote: "Constantine was the first horseman, the Cardinals were the second horseman, the Jesuits were the third horseman."
+    speaker_cites: "none given"
+    time_stated: null
+    place_stated: null
+    research_status: unresearched
+  - id: dh-DnNFVMdvSvc-08
+    kind: religious
+    statement: "After World War III treaties will be signed, then Jerusalem's street and wall will be rebuilt in perilous times, and then the temple will be rebuilt."
+    quote: "And they'll rebuild Jerusalem, the street and the wall again, even in perilous times. And then they'll rebuild the temple."
+    speaker_cites: "Daniel 9 (implied)"
+    time_stated: null
+    place_stated: "Jerusalem"
+    research_status: unresearched
+  - id: dh-DnNFVMdvSvc-09
+    kind: both
+    statement: "Donald Trump is Cyrus (and puts his face on a coin with Cyrus); Cyrus was not an antichrist but like Moses, freeing the Jews from captivity in Babylon."
+    quote: "Donald Trump is Cyrus"
+    speaker_cites: "none given"
+    time_stated: null
+    place_stated: "Babylon"
+    research_status: unresearched
+  - id: dh-DnNFVMdvSvc-10
+    kind: historical
+    statement: "Cyrus freed the Jews from captivity in Babylon."
+    quote: "He freed the Jews from captivity in Babylon."
+    speaker_cites: "none given"
+    time_stated: null
+    place_stated: "Babylon"
+    research_status: unresearched
+  - id: dh-DnNFVMdvSvc-11
+    kind: historical
+    statement: "Cyrus and Darius were called 'the great'; Xerxes actually got the temple rebuilt."
+    quote: "Xerxes actually got that temple rebuilt."
+    speaker_cites: "none given"
+    time_stated: null
+    place_stated: null
+    research_status: unresearched
+  - id: dh-DnNFVMdvSvc-12
+    kind: both
+    statement: "About 500-something years after Cyrus, Nero was the antichrist of that time, a localized one at Jerusalem, where the gospel played out on that level; Christ was crucified and rose."
+    quote: "Nero was the antichrist of that time, not the antichrist of the biggest fixture, just the antichrist of one of the smaller ones, localized."
+    speaker_cites: "none given"
+    time_stated: "like 500 something years later"
+    place_stated: "Jerusalem"
+    research_status: unresearched
+  - id: dh-DnNFVMdvSvc-13
+    kind: both
+    statement: "After Jesus ascended there was a miniature Armageddon in Jerusalem, that age ended and a new age began, the time of the Gentiles; the name of our age is the Revelation of Jesus Christ and we have been in it 2,000 years."
+    quote: "there was a miniature Armageddon there in Jerusalem, and that age ended, and a new age began."
+    speaker_cites: "none given"
+    time_stated: "2,000 years"
+    place_stated: "Jerusalem"
+    research_status: unresearched
+  - id: dh-DnNFVMdvSvc-14
+    kind: religious
+    statement: "The time of the Gentiles lasts until the fullness of the Gentiles come in, meaning pagans around the world saved by the gospel, then Jesus comes back, Armageddon is fought and the age ends; a day to the Lord is like a thousand years."
+    quote: "Till the fullness of the Gentiles come in."
+    speaker_cites: "Romans 11; 2 Peter 3"
+    time_stated: null
+    place_stated: null
+    research_status: unresearched
+  - id: dh-DnNFVMdvSvc-15
+    kind: religious
+    statement: "Armageddon is a long way off, probably not in our lifetime; it is the beginning of sorrows."
+    quote: "Armageddon's a long way off, fellas. Probably not your lifetime."
+    speaker_cites: "none given"
+    time_stated: null
+    place_stated: null
+    research_status: unresearched

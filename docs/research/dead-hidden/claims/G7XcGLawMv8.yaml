@@ -1,0 +1,262 @@
+---
+video:
+  id: G7XcGLawMv8
+  title: The Hyksos - Dakala Day
+  uploaded: '2026-08-22'
+  transcript: clean/20260822 - The Hyksos - Dakala Day [G7XcGLawMv8].txt
+  caption_source: YouTube auto-captions (en)
+claims:
+- id: dh-G7XcGLawMv8-01
+  kind: historical
+  statement: According to the Egyptians, archaeology and official scholarship, the
+    Hyksos were a nomadic people from the Levant (Canaan, later Israel) who came to
+    Egypt around 1750 BC plus or minus, and ruled Lower Egypt as the 15th dynasty.
+  quote: They came to Egypt around 1750 BC.
+  speaker_cites: Egyptian claims; archaeology; official scholarship
+  time_stated: around 1750 BC
+  place_stated: Levant/Canaan; Lower Egypt
+  research_status: unresearched
+- id: dh-G7XcGLawMv8-02
+  kind: historical
+  statement: "'Hyksos' means 'foreign rulers' in Egyptian."
+  quote: The Egyptians called these people the Hyksos, which means "foreign rulers,
+    "
+  speaker_cites: none given
+  time_stated: 
+  place_stated: 
+  research_status: unresearched
+- id: dh-G7XcGLawMv8-03
+  kind: historical
+  statement: Around 1550 BC the Egyptians defeated the Hyksos, expelled their nobility
+    and, per their records, enslaved their people in Egypt.
+  quote: So, around 1550 BC .
+  speaker_cites: Ancient Egyptian records
+  time_stated: 1550 BC
+  place_stated: Egypt
+  research_status: unresearched
+- id: dh-G7XcGLawMv8-04
+  kind: historical
+  statement: Academics say the Egyptians were bragging and did not enslave anyone,
+    and that the Hyksos were ordinary Canaanites who dissolved into the Canaanite
+    population.
+  quote: They did not take anyone into slavery.
+  speaker_cites: Academics
+  time_stated: 
+  place_stated: 
+  research_status: unresearched
+- id: dh-G7XcGLawMv8-05
+  kind: both
+  statement: Around 1400 BC the Egyptians themselves recorded that the Hebrews who
+    had wandered in the desert entered Canaan by conquest (Joshua, Caleb).
+  quote: the Egyptians themselves recorded that the Hebrews
+  speaker_cites: Egyptian records
+  time_stated: around 1400 BC
+  place_stated: Canaan
+  research_status: unresearched
+- id: dh-G7XcGLawMv8-06
+  kind: religious
+  statement: Joseph was sold into slavery by his brothers, went to Egypt, was imprisoned
+    after Potiphar's wife, interpreted the dreams of two prisoners, and later Pharaoh's
+    dream, advising 7 years of abundance and 7 of famine.
+  quote: Joseph's brothers sold him into slavery.
+  speaker_cites: Genesis 37-41
+  time_stated: 
+  place_stated: Egypt
+  research_status: unresearched
+- id: dh-G7XcGLawMv8-07
+  kind: religious
+  statement: Joseph became second in command after Pharaoh; Joseph's Canal exists
+    to this day under the same name.
+  quote: Joseph's Canal exists there to this day under the same name.
+  speaker_cites: Genesis 41
+  time_stated: 
+  place_stated: Egypt
+  research_status: unresearched
+- id: dh-G7XcGLawMv8-08
+  kind: religious
+  statement: Joseph's 12 brothers came to Egypt for food in famine; Pharaoh gave them
+    land in Goshen, where the Hyksos had settled.
+  quote: Pharaoh gave these people land exactly where the Hyksos had settled in the
+    land of Goshen.
+  speaker_cites: Genesis 42-47
+  time_stated: 
+  place_stated: Goshen
+  research_status: unresearched
+- id: dh-G7XcGLawMv8-09
+  kind: both
+  statement: The biblical chronology of Joseph and the Levantines settling in Goshen
+    is 1750 BC, exactly the same period as the Hyksos.
+  quote: 1750 BC— the same time, exactly the same time period as the Hyksos.
+  speaker_cites: Biblical chronology
+  time_stated: 1750 BC
+  place_stated: Goshen
+  research_status: unresearched
+- id: dh-G7XcGLawMv8-10
+  kind: historical
+  statement: According to the Scots and Gaels, the Princess Scota was an Egyptian
+    noblewoman exiled from Egypt in 1550 BC, ancestor of the Scots and Gaels, who
+    settled in Spain; perhaps married a Greek prince.
+  quote: They say she was an Egyptian princess, a noblewoman , exiled from Egypt in
+    1550 BC
+  speaker_cites: Scots and Gaels tradition
+  time_stated: 1550 BC
+  place_stated: Egypt; Spain
+  research_status: unresearched
+- id: dh-G7XcGLawMv8-11
+  kind: historical
+  statement: From 1550 BC to about 1000 BC is a key period; the Greeks all descended
+    from the mythical king Danaus, who fled his twin brother Egypt and claimed rule
+    among the Argives through his mother's lineage.
+  quote: who fled from his twin brother Egypt, claiming the right to rule the Argives
+    because of his mother's lineage
+  speaker_cites: Greek mythology
+  time_stated: 1550-1000 BC
+  place_stated: Argos
+  research_status: unresearched
+- id: dh-G7XcGLawMv8-12
+  kind: historical
+  statement: King Dardanus arrives in Troy as a migrant and marries into the royal
+    dynasty; the tribes of the goddess Danu arrive in northern Ireland.
+  quote: King Dardanus arrives in Troy as a migrant and marries a representative of
+    the royal dynasty.
+  speaker_cites: Greek / Irish mythology
+  time_stated: 
+  place_stated: Troy; Ireland
+  research_status: unresearched
+- id: dh-G7XcGLawMv8-13
+  kind: both
+  statement: The Hyksos leadership was expelled and their people enslaved for 150
+    years, then the Exodus occurred in 1400 BC, followed by wandering and conquest
+    of Canaan by force.
+  quote: Their people were enslaved for 150 years, and then, in 1400 BC, the Exodus
+    occurred.
+  speaker_cites: Egyptian record; Bible
+  time_stated: 1400 BC
+  place_stated: Egypt; Canaan
+  research_status: unresearched
+- id: dh-G7XcGLawMv8-14
+  kind: both
+  statement: The Egyptians note the biblical account is as truthful as possible, yet
+    there is no historical evidence of a mass exodus because everyone who could have
+    recorded it died at the bottom of the Red Sea.
+  quote: They are at the bottom of the Red Sea.
+  speaker_cites: Bible
+  time_stated: 
+  place_stated: Red Sea
+  research_status: unresearched
+- id: dh-G7XcGLawMv8-15
+  kind: historical
+  statement: Amenhotep II, whose son mysteriously died young, had just ended his reign;
+    there is a mysterious gap in the historical record.
+  quote: Amenhotep II, whose son mysteriously died at a young age, had just ended
+    his reign.
+  speaker_cites: none given
+  time_stated: 
+  place_stated: Egypt
+  research_status: unresearched
+- id: dh-G7XcGLawMv8-16
+  kind: both
+  statement: The Jews wandered the desert 40 years and began their journey to Canaan;
+    the chronology of Joseph, brothers and settlement in Avaris matches perfectly.
+  quote: those Jews who wandered in the desert for 40 years
+  speaker_cites: Bible
+  time_stated: 
+  place_stated: Avaris; Canaan
+  research_status: unresearched
+- id: dh-G7XcGLawMv8-17
+  kind: historical
+  statement: Modern scholarship claims the Bible's authors borrowed and appropriated
+    this story.
+  quote: modern academic scholarship tries to claim that the authors of the Bible
+    borrowed this story
+  speaker_cites: none given
+  time_stated: 
+  place_stated: 
+  research_status: unresearched
+- id: dh-G7XcGLawMv8-18
+  kind: historical
+  statement: It is known the nomads came from the Levant to rule Egypt, returned to
+    the Levant, it began around 1550 BC and ended around 1400 BC when they conquered
+    Canaan; their leaders were expelled 150 years earlier.
+  quote: We know that it began around 1550 BC.
+  speaker_cites: none given
+  time_stated: 1550-1400 BC
+  place_stated: Egypt; Levant; Canaan
+  research_status: unresearched
+- id: dh-G7XcGLawMv8-19
+  kind: historical
+  statement: The Greeks could have descended directly from the Levantine nomads through
+    intermarriage between the Egyptian and Mycenaean nobility; so could the Spaniards,
+    Scandinavians and all of Europe.
+  quote: through intermarriage between the Egyptian and Mycenaean nobility
+  speaker_cites: none given
+  time_stated: 
+  place_stated: Mediterranean; Greece; Spain; Scandinavia
+  research_status: unresearched
+- id: dh-G7XcGLawMv8-20
+  kind: historical
+  statement: The first wave of migration was the exiled Egyptian nobility of Levantine
+    origin; after 150 years the Jews conquered Canaan.
+  quote: The first wave of migration was the exiled Egyptian nobility of Levantine
+    origin.
+  speaker_cites: none given
+  time_stated: 
+  place_stated: 
+  research_status: unresearched
+- id: dh-G7XcGLawMv8-21
+  kind: historical
+  statement: Scots, Gaels and Danes all descend from the mythical king Dan -- Danaus,
+    Dardanus.
+  quote: they all descend from the mythical king of Dan, Danaus, Dardanus
+  speaker_cites: Scots, Gaels, Danish tradition
+  time_stated: 
+  place_stated: 
+  research_status: unresearched
+- id: dh-G7XcGLawMv8-22
+  kind: both
+  statement: The only tribe of nomadic Jews from the Levant mentioned as having ships
+    is the tribe of Dan.
+  quote: the only tribe of nomadic Jews from the Levant mentioned as having ships
+  speaker_cites: Bible
+  time_stated: 
+  place_stated: 
+  research_status: unresearched
+- id: dh-G7XcGLawMv8-23
+  kind: both
+  statement: The tribe of Dan is not mentioned in the Bible after the Old Testament,
+    where around 750 BC the Assyrians took them captive to all nations; Dan fought
+    with Judah.
+  quote: around 750 BC. the Assyrians took captive to all nations
+  speaker_cites: Bible
+  time_stated: around 750 BC
+  place_stated: Assyria
+  research_status: unresearched
+- id: dh-G7XcGLawMv8-24
+  kind: historical
+  statement: The Danes (Normans) fought the French, conquered them by marrying noblewomen
+    and adopting customs, and ruled France as French; Normandy means land of the Northmen.
+  quote: and their land Normandy, the land of the Northmen
+  speaker_cites: none given
+  time_stated: 
+  place_stated: France; Normandy
+  research_status: unresearched
+- id: dh-G7XcGLawMv8-25
+  kind: religious
+  statement: Japheth lives in the tents of Shem is an Old Testament prophecy fulfilled
+    by grafting the whole world into the chosen people through DNA; the Gospel was
+    hidden in pagan religions like Moses in the basket of reeds.
+  quote: Japheth lives in the tents of Shem according to God's promise.
+  speaker_cites: Genesis 9:27
+  time_stated: 
+  place_stated: 
+  research_status: unresearched
+- id: dh-G7XcGLawMv8-26
+  kind: historical
+  statement: The Bronze Age collapse came after these events and had a direct bearing
+    on the tribe of Dan.
+  quote: comes the Bronze Age collapse, which had a direct bearing on the tribe of
+    Dan
+  speaker_cites: none given
+  time_stated: 
+  place_stated: 
+  research_status: unresearched

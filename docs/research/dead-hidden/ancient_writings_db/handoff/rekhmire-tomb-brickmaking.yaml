@@ -1,0 +1,47 @@
+# HANDOFF for Stratah dig agents. STAGING, not in the repo. Generated 2026-10-14; same rules as merneptah-stele.yaml.
+subject_candidate: rekhmire-tomb-brickmaking
+object_named_by_speaker: "Tomb of Rekhmire (Thebes), brickmaking scene"
+candidate_identification_UNVERIFIED: "Rekhmire tomb brick making scene Nubians Levantine Asiatics publication; TLA/Griffith/Davies 1943 The Tomb of Rekhmire"
+question_for_agent: "Does the scene label the workers as captives/slaves, and who are they (Nubian, Asiatic)? What dates the scene?"
+speaker_claims_to_test:
+  - id: dh-HN0wNVpfunM-01
+    as_stated: "Rekhmire was an ancient Egyptian noble and official of the 18th Dynasty who served as city governor and vizier during the reigns of Thutmose III and Amenhotep II, around 1400 BC."
+    time_stated: "c. 1400 BC"
+    place_stated: "Egypt"
+    speaker_cites: "tomb of Rekhmire"
+  - id: dh-HN0wNVpfunM-02
+    as_stated: "A scene on the wall of his tomb shows Nubian slaves and Levantine slaves making brick blocks in Egypt."
+    time_stated: nil
+    place_stated: "Egypt"
+    speaker_cites: "tomb of Rekhmire"
+  - id: dh-HN0wNVpfunM-03
+    as_stated: "The tomb scene dates the brick-making to 1470-1445 BC."
+    time_stated: "1470-1445 BC"
+    place_stated: "Egypt"
+    speaker_cites: "tomb of Rekhmire"
+  - id: dh-HN0wNVpfunM-06
+    as_stated: "Both peoples fell into slavery in Egypt in 1550 BC and remained until about 1450 BC."
+    time_stated: "1550 BC to c. 1450 BC"
+    place_stated: "Egypt"
+    speaker_cites: "tomb records"
+  - id: dh-HN0wNVpfunM-19
+    as_stated: "West Asians, the Hyksos people, and the Nubians made mud bricks for temples and government building projects, written by the Egyptians on tomb walls."
+    time_stated: nil
+    place_stated: "Egypt"
+    speaker_cites: "tomb walls"
+  - id: dh-HN0wNVpfunM-20
+    as_stated: "The bas-relief is much older than Ramses; Ramses may have put his name on something already existing, as he is known to have done often, and the city was destroyed by a flood and moved; construction was underway in both his cities before him."
+    time_stated: nil
+    place_stated: "city of Ramses"
+    speaker_cites: "speaker's reasoning"
+sources: []   # none opened yet. For each source record url, kind, authenticity {status: unchecked}, rights, and whether it was blocked.
+next_steps_for_agent:
+  - Locate the object and a primary edition or image; open and read it. Quote the relevant passage verbatim with the edition named.
+  - Record holder/location, inventory or tomb number, findspot, date and its basis, language/script, licence, sha256 of any stored image.
+  - Test each speaker claim separately (date, identity, what the text says). Keep the claim wording unchanged.
+  - Place and date as shared nodes. Report anything blocked; do not guess.
+constraints:
+  - Branch dig/<subject>; never push to main; conformance must pass; a separate review agent merges.
+  - Wikipedia and the videos are never anchors. Do not bypass bot checks or paywalls. Check licence before storing images.
+  - "Mark where the facts end (best of current knowledge). Keep different or opposing hypotheses open for further study as contested claims with named positions; do not close them early."
+  - "Books, translations and videos are all claims needing proof, on the same footing. Proof is the object, its images or squeezes. For every author and publisher the agent relies on, trace who funded and controlled the work and record it; do not treat a book as an anchor."

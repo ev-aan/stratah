@@ -1,0 +1,66 @@
+# HANDOFF for Stratah dig agents. STAGING, not in the repo. Written 2026-10-14.
+# Rules that apply (stratah CLAUDE.md): branch dig/<subject>, never main; anchor format N25 (one `anchor:` with type+description+sources);
+# Wikipedia is never an anchor; a video is never an anchor; a source not opened stays searched_gap with a precise next_step;
+# record what was blocked. Authenticity is its own axis (SCHEMA A1-A10). Transcriptions/translations are separate source entries (A9).
+subject_candidate: merneptah-stele-israel
+purpose: >
+  Several Dead Hidden claims lean on the Merneptah (Israel) Stele. Source the object itself (image first), read the
+  line-27 passage in an edition, and weigh each speaker claim. Keep every speaker claim exactly as stated.
+
+speaker_claims_to_test:   # ids in ~/dead_hidden_claims/<video>.yaml
+  - id: dh-HN0wNVpfunM-26
+    as_stated: "In 1200 BC the Merneptah Stele records Israel as a single nation in Canaan, still without a king, the only well-organized people to have conquered Canaan."
+  - id: dh-K3pw12lBcXM-29
+    as_stated: "By 1200 BC the Aamu-Hyksos, who became Hapiru, who became Shasu Yahweh, turned into Israel, as in the stele of Merneptah."
+  - id: dh-K3pw12lBcXM-30
+    as_stated: "At the time of the Merneptah stele they are united into a nation without a king who had conquered large parts of Canaan."
+  - id: dh-gBGfqlL_FFQ-09
+    as_stated: "Records are silent for 200 years until 1200 BC when Israel is first mentioned as a distinct group in Canaan; the Hyksos slaves became the people of Israel."
+split_note: "Each claim bundles several assertions (date, 'Israel' reading, 'nation', 'no king', 'conquered Canaan', identity chain). Test them separately."
+
+object_facts_to_confirm:   # from a web search summary only; NOT yet confirmed in a primary source
+  - "Cairo Egyptian Museum JE 31408; found by Flinders Petrie at Thebes in 1896 (secondary summary)"
+  - "Carved on the back of an Amenhotep III stele (secondary summary)"
+  - "A poorly preserved duplicate exists at Karnak; search summaries DISAGREE on where the duplicate is (Karnak vs another part of the Theban temple). Resolve in a primary edition."
+  - "Line 27 read as 'Israel' by most scholars; at least one fringe source alleges a forgery. Treat as a claim to examine, with the sign group read from the image."
+  - "Date c. 1208 BCE (secondary). Speaker says '1200 BC'."
+
+sources:
+  - id: tla-israel-stela
+    url: https://thesaurus-linguae-aegyptiae.de/text/GUZM3ED3AJAIPLUEJ6C34RG4DU
+    kind: "corpus record (text; bibliography KRI IV, RITA IV, plus translations by others)"
+    status: NOT OPENED. Fetch returned a bot-verification page. Do not circumvent; open it in a browser or use the TLA's published data download if its licence allows.
+    rights_seen: "footer: (c) Berlin-Brandenburgische Akademie der Wissenschaften, all rights reserved. No open licence seen."
+    authenticity: {status: unchecked}
+  - id: ucl-digital-egypt-stela
+    url: https://www.ucl.ac.uk/museums-static/digitalegypt/thebes/merenptah/stela.html
+    status: NOT OPENED (HTTP 403).
+    authenticity: {status: unchecked}
+  - id: petrie-1897-six-temples
+    title: "W. M. F. Petrie, Six Temples at Thebes (1896 dig, publ. 1897)"
+    status: NOT LOCATED. Look for a scan on Internet Archive / HathiTrust (public domain likely; verify). Contains Petrie's photo/squeeze.
+  - id: cairo-museum-je31408
+    status: NOT LOCATED. Need the museum's own record/photo, or a published plate with rights.
+  - id: griffith-topographical-bibliography
+    status: NOT LOCATED. Use to confirm findspot and duplicate(s).
+  - id: commons-photo
+    note: "A secondary article credits a photo by Olaf Tausch on Wikimedia Commons (CC BY-SA 3.0). Licence UNVERIFIED; confirm on the Commons file page. An image may be used as a picture; it is not an anchor for the reading."
+  - id: kri-iv
+    title: "K. A. Kitchen, Ramesside Inscriptions IV (hieroglyphic edition)"
+    status: NOT LOCATED. Needed for the line-27 hieroglyphs.
+
+next_steps_for_agent:
+  - Open at least one primary edition or the object image and read the line-27 signs; quote the translation verbatim with the edition named.
+  - Find the Cairo museum record or a rights-clear plate; record holder, inventory number, sha256 of any stored image.
+  - Confirm findspot, the Amenhotep III reuse, and where the duplicate is.
+  - Check whether the stele says anything about 'no king', 'nation' or 'conquered Canaan' in the text itself (read, do not rely on summaries).
+  - Separately: the Hyksos > Hapiru > Shasu > Israel identity chain is NOT in this stele; file it as its own claim set. Leave it `proposed` with a searched-gap next_step.
+  - Place the stele as a shared node (place + time) per SCHEMA Nodes; time window with reasons.
+  - Report what was blocked. Do not guess.
+
+constraints:
+  - "Do not bypass bot checks or paywalls. Record them as blocked."
+  - "Verify each archive's licence before storing images; otherwise keep link + thumbnail only."
+  - "Do not edit SCHEMA/conformance/docs; open a proposal instead."
+  - "Mark where the facts end (best of current knowledge). Keep different or opposing hypotheses open for further study as contested claims with named positions; do not close them early."
+  - "Books, translations and videos are all claims needing proof, on the same footing. Proof is the object, its images or squeezes. For every author and publisher the agent relies on, trace who funded and controlled the work and record it; do not treat a book as an anchor."

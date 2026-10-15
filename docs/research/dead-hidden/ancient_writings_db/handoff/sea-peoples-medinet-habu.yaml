@@ -1,0 +1,52 @@
+# HANDOFF for Stratah dig agents. STAGING, not in the repo. Generated 2026-10-14; same rules as merneptah-stele.yaml.
+subject_candidate: sea-peoples-medinet-habu
+object_named_by_speaker: "Medinet Habu reliefs and texts (Ramesses III), Merneptah Karnak inscription"
+candidate_identification_UNVERIFIED: "Medinet Habu Sea Peoples reliefs Epigraphic Survey OIP 8 and 9 (Oriental Institute free PDFs); Karnak Great Inscription of Merneptah"
+question_for_agent: "Which peoples are named (Denyen, Peleset, Shardana...), what happens to prisoners, and what the reliefs show."
+speaker_claims_to_test:
+  - id: dh-wbdnR9qs9MU-39
+    as_stated: "The Egyptians recorded the Confederation of the Nine Bows, made up of nine peoples, which fought Egypt and was defeated by Pharaoh, who took prisoners and recorded the names of the peoples."
+    time_stated: nil
+    place_stated: "Egypt"
+    speaker_cites: "Egyptian records"
+  - id: dh-wbdnR9qs9MU-40
+    as_stated: "The Hittites were the biggest force in the confederation, joined by peoples of modern Turkey, Greece and Rome, the isles and Crete, who came down to fight the Egyptians."
+    time_stated: nil
+    place_stated: "Hittites, Turkey, Greece, Rome, Crete"
+    speaker_cites: "Egyptian records"
+  - id: dh-wbdnR9qs9MU-41
+    as_stated: "Among the captured were the Denyen (Danaans/Dan) and Akeshi (Ekwesh); the Egyptians castrated male prisoners but one group from the Aegean was circumcised so they cut off their hands instead; only the 12 tribes of Israel were circumcised at that time, so these men from the Aegean are Hebrews."
+    time_stated: nil
+    place_stated: "Aegean, Egypt"
+    speaker_cites: "Egyptian records"
+  - id: dh-wbdnR9qs9MU-43
+    as_stated: "The Sea Peoples came back after the confederation failed, laid waste to the coast of Egypt and all cities for about 200 miles inland (as recorded in Egyptian records), and at least three groups among them were circumcised."
+    time_stated: nil
+    place_stated: "Egypt coast"
+    speaker_cites: "Egyptian records"
+  - id: dh-oXit2KG1N1s-15
+    as_stated: "Between 1300 and 1150 BC the Sea Peoples appear, in a confederation of 'Nine Bows' organized by the Hittite Empire, which attacked Egypt and lost."
+    time_stated: "1300-1150 BC"
+    place_stated: "Egypt"
+    speaker_cites: "Egyptian records"
+  - id: dh-oXit2KG1N1s-16
+    as_stated: "Two of the Sea Peoples groups of particular interest are the Denen and the Shardana; the Danaans are either Danaans or Denenians."
+    time_stated: nil
+    place_stated: nil
+    speaker_cites: "Egyptian records"
+  - id: dh-oXit2KG1N1s-18
+    as_stated: "The Peleset, one of the Sea Peoples, arrived in Canaan about 1175 BC after the defeat; they are the Philistines, not indigenous to Canaan."
+    time_stated: "about 1175 BC"
+    place_stated: "Canaan"
+    speaker_cites: "Egyptian records"
+sources: []   # none opened yet. For each source record url, kind, authenticity {status: unchecked}, rights, and whether it was blocked.
+next_steps_for_agent:
+  - Locate the object and a primary edition or image; open and read it. Quote the relevant passage verbatim with the edition named.
+  - Record holder/location, inventory or tomb number, findspot, date and its basis, language/script, licence, sha256 of any stored image.
+  - Test each speaker claim separately (date, identity, what the text says). Keep the claim wording unchanged.
+  - Place and date as shared nodes. Report anything blocked; do not guess.
+constraints:
+  - Branch dig/<subject>; never push to main; conformance must pass; a separate review agent merges.
+  - Wikipedia and the videos are never anchors. Do not bypass bot checks or paywalls. Check licence before storing images.
+  - "Mark where the facts end (best of current knowledge). Keep different or opposing hypotheses open for further study as contested claims with named positions; do not close them early."
+  - "Books, translations and videos are all claims needing proof, on the same footing. Proof is the object, its images or squeezes. For every author and publisher the agent relies on, trace who funded and controlled the work and record it; do not treat a book as an anchor."
