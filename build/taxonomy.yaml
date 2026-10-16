@@ -43,3 +43,4 @@ assignments:
   covid-origins:         {area: medicine_health,   areas: [science_nature, law_justice, media_misinformation],               types: [origin, is_claim_true],             popular_claims: true}
   covid-vaccine-cancer:  {area: medicine_health,   areas: [media_misinformation],                            types: [is_claim_true, what_caused_it, origin], popular_claims: true}
   fluoride-iq:           {area: medicine_health,   areas: [law_justice, media_misinformation],               types: [is_claim_true],                     popular_claims: true}
+  anne-frank-diary:      {area: history,           areas: [media_misinformation, law_justice],               types: [is_genuine, who_wrote_it, is_claim_true], popular_claims: true}
