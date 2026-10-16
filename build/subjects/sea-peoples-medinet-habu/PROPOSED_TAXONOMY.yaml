@@ -1,0 +1,5 @@
+# Proposed entry for build/taxonomy.yaml (owner-only file; an agent may not edit it). Paste under `assignments:` if the owner accepts.
+# Ids are checked against build/taxonomy.yaml: areas archaeology_texts, history, religion_myth; question types is_claim_true, what_does_it_mean.
+assignments:
+  sea-peoples-medinet-habu: {area: archaeology_texts, areas: [history, religion_myth], types: [is_claim_true, what_does_it_mean], popular_claims: true}
+# Why: the dig reads translations of inscriptions and reliefs (archaeology and ancient texts), concerns Bronze Age events (history), and one speaker claim touches the Bible (religion and mythology). It starts from a speaker's popular claims.

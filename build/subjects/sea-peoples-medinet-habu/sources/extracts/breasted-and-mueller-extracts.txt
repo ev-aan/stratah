@@ -1,0 +1,370 @@
+# Verbatim extracts (OCR, noise kept) from Breasted, Ancient Records of Egypt vols. III and IV (1906, public domain) and Muller, Asien und Europa (1893, public domain),
+# taken from the Internet Archive OCR on 2026-10-16 so the quote check has text to match. Full OCR files are not stored; sha256 is in sources/MANIFEST.yaml.
+
+=== Breasted vol. IV (item cu31924082479258): sections 36-47 passages, 49-58, 59-60, 64-65, 74, 76, 83, 403 and the Wenamon commentary ===
+36.  This  inscription  is  the  longest  in  the  Medinet  Habu 
+temple,  filling  seventy-five  lines.  It  is  also  by  far  the  most 
+difficult  in  this  collection  of  difficult  texts.  It  represents  the 
+last  extreme  of  those  peculiarities  mentioned  above  (§21), 
+
+
+^Occupying  a  large  portion  of  the  south  wall,  behind  the  columns  of  the  south- 
+ern colonnade  in  the  second  court  of  the  Medinet  Habu  temple;  in  seventy-five 
+vertical  lines,  not  too  well  preserved.  It  was  first  published  by  Rosellini  {Monu- 
+menti  Storici,  139-41,  but  omitted  by  Champollion)  and  then  by  Burton  {Excerpta 
+hieroglyphica,  43-45) ;  later  by  Diimichen  {Historiche  Inschriften,  II,  46) ;  de  Roug€ 
+{Inscriptions  hieroglyphiques,  139-47);  Brugsch  {Thesaurus,  1197-1207),  and 
+extracts  (including  names  of  chiefs,  11.  47  and  48)  by  Lepsius  {Denkmaler,  Text,  III, 
+178).  Brugsch  states  that  he  used  his  own  copy,  and  collated  Burton,  de  Rouge, 
+and  a  copy  by  Eisenlohr;  but  he  inserts  lacunae  at  the  ends  of  11.  15-20,  where 
+they  do  not  belong,  and  other  slips  show  that  we  have  still  to  await  an  adequate 
+edition  of  this  text.  I  collated  the  various  editions  for  all  questionable  passages, 
+and  was  able  to  use  photographs  of  some  portions. 
+
+
+20  TWENTIETH  DYNASTY:  RAMSES  III [^37 
+
+SO  that  whole  passages  are  unintelligible.  Nor  would  they, 
+if  translatable,  furnish  any  new  facts  of  importance  concern- 
+ing the  war;  for  almost  the  entire  inscription  consists  of 
+praise  of  the  king,  mingled  with  exultation  over  the  fallen 
+foe  and  the  lamentations  of  the  conquered.  Only  here  and 
+there  appear  incidents  of  the  campaign,  or  references  from 
+which  its  course  and  character  may  be  inferred.  They  are 
+chiefly  four:  the  king's  triumph  as  he  views  from  the  palace 
+balcony  the  prisoners  and  the  trophies  of  the  slain  (§  42, 
+11.  36-41);  the  names  of  the  hostile  chiefs  (§43,  U-  48  and 
+49);  the  brief  mention  of  the  northern  sea-roving  allies 
+(§44,  11.  51-54);  and  the  security  of  the  people,  even  of  a 
+woman  alone  upon  the  road  (§  47,  1.  73).  Only  portions  of 
+which  the  rendering  would  have  been  exceedingly  uncertain 
+have  been  omitted;  but  the  entire  text  is  of  such  peculiar 
+difficulty  that  the  following  attempt  at  translation  as  a  whole 
+is  exceedingly  unsatisfactory  to  the  author.^ 
+
+Introduction 
+
+37.  'Year  5  under  the  majesty  of  Horus:  Mighty  Bull,  Extending 
+...
+
+
+aLit.,  "cooled."  ^Or  possibly:  "the  isles." 
+
+<:This  uncertain  adjective  ('  6  <^  ty)  occurs  several  times  in  the  texts  of  Ramses 
+III,  each  time  applied  to  the  king.  If  this  is  the  case  here,  it  would  leave  "the 
+chief  of  Amor"  without  a  verb.  I  have  supposed  it  to  mean  "horned,"  both  pos- 
+sessing horns  or  gored  with  them.  The  paragraph  certainly  concerns  some  for- 
+eign chief,  but  the  space  in  which  he  is  abruptly  introduced  is  very  small;  and  the 
+mention  of  Amor  is  a  mere  conjecture,  based  on  the  first  two  letters,  the  last  letter 
+{r  ?)  being  bst.  Examination  of  the  original  would  determine  the  matter  in  all 
+probability.  If  Amor  is  correct,  its  desolation  then  refers  to  the  invasion  of  the 
+sea-peoples,  by  whom  Amor  was  wasted,  as  narrated  in  the  long  inscription  of 
+year  8  (§  64,  1.  17).  This  fits  well  the  mention  of  the  sea-peoples  as  allies  of  the 
+Libyans  in  the  year  5  (below  11.  51  ff.).  They  had  already  reached  Amor  at  that 
+time,  and  some  of  their  vessels  had  pushed  on  to  Egypt  in  time  to  assist  the  Libyans 
+in  the  war  of  the  year  S- 
+...
+42.  (They)  come  forth,  carried  off  as  captives  to  Egypt;  the  hands 
+3'and  foreskins  are  without  number;  brought  forward  as  captives, 
+bound,  under  the  balcony.^  The  chiefs  of  the  countries  are  assembled, 
+beholding  their  evil  plight.  The  tens^  ^Sare  conducted  to  the  king, 
+their  arms  extended,  their  praise  reaching  heaven,  with  hearts  of  love 
+'■toward'  Amon-Re,  the  god  who  accords  them  the  protection  of  the 
+ruler.  spThe  messengers  of  every  land  come,  their  hearts  fluttering, 
+and  so  transported  that  they  (the  hearts)  are  no  longer  in  their  bodies. 
+...
+44.  The  northern  countries  are  unquiet  in  their  limbs,  even  the 
+Peleset  {Pw-r  ■•  -s  =  -ty),  the  Thekel  {T "  -k-1^  -r  =]),  s^who  devastate  their 
+land.  Their  soul  came,  in  the  last  extremity.  They  were  warriors  (t-h-r^) 
+upon  land,  also'^  in  the  sea.    Those  who  came^  on  [land] S3  Amon- 
+
+
+^This  line  may  contain  some  reference  to  the  Libyans  doing  mercenary  service 
+in  the  Egyptian  army;  meaning  that  these  are  not  the  ones  who  have  defeated 
+Libya,  but  the  native  Egyptians. 
+...
+years,^  *=like  the  —  of  the  gait  of  the  panther,  knowing  his  prey,  seizing 
+upon  his  assailant,  his  two  arms  destroy  the  limbs  of  those  who  invade 
+
+
+Muller  has  rendered  {Asien  und  Europa,  360).  We  have  in  the  entire  passage, 
+first  the  approach  both  on  land  and  water,  and  then  the  destruction  of  both  parties 
+on  land  and  water.  The  passage  is  referred  by  Maspero  (following  Chabas)  to 
+the  war  of  the  year  8.  But  it  is  evident  that  in  an  inscription  of  the  year  5  it  can 
+only  refer  to  the  Libyan  war  of  that  year;  and  that  we  must  conclude  that  the 
+sea-peoples  already  assisted  the  Libyans  in  this  war.  This  is  again  rendered 
+evident  by  the  hands  cut  off  as  trophies  as  in  the  Libyan  war  of  Merneptah.  Had 
+there  been  only  Libyans  in  the  battle,  we  should  have  had  only  phalli.  Again, 
+when  we  consider  that  the  sea-peoples  were  already  in  the  Libyan  ranks  in  Meme- 
+ptah's  day,  there  is,  of  course,  no  reason  why  they  should  not  be  there  now.  Only 
+the  Thekel  and  the  Peleset  have  not  heretofore  appeared  in  the  South. 
+
+^R'>-h'''wt  occurs  first  in  the  Eighteenth  Dynasty  as  "river-mouths,"  where 
+the  customs  officers  and  frontier  marine  police  were  stationed  by  Amenhotep  III 
+(II,  916).  In  the  war  of  the  year  8  it  is  used  abo  of  " harhor-mouths"  (§  65,  1.  20, 
+...
+48.  These  scenes  depict  various  incidents  of  the  war, 
+from  the  march  to  the  frontier  to  the  final  triumphs,  and 
+probably  furnish  us  with  more  information  as  to  the  char- 
+acter of  the  campaign  than  the  long  inscription  devoted  to 
+it,  which  we  have  just  studied. 
+
+Scene^ 
+
+49-  The  king  in  his  chariot,  accompanied  by  troops,  is 
+...
+52.  The  king  stands  in  a  balcony  with  his  waiting  chariot 
+below  (behind  him);  he  harangues  his  nobles,  who  are 
+grouped  before  him.  Behind  them  appoach  five  rows  of 
+captive  Libyans  and  sea-peoples,  each  row  headed  by  Egyp- 
+tian officers  and  scribes,  who  throw  down  in  five  heaps 
+severed  hands  and  phalli,  which  the  scribes  record. 
+...
+59.  Already  in  Ramses  Ill's  fifth  year  the  tribes  of  the 
+southern  coast  of  Asia  Minor  and  the  maritime  peoples  of 
+the  .^gean  had  sent  some  of  their  advanced  galleys  to  assist 
+the  Libyans  in  their  war  of  that  year  against  Egypt.  Or,  as 
+in  Merneptah's  day,  the  plundering  crews  of  their  southern- 
+most advance  had  incidentally  joined  the  Libyan  invasion. 
+These  were  but  the  premonitory  skirmishing-line  of  a  more 
+serious  and  more  general  movement.  The  peoples  involved 
+were  the  probably  Cretan  Peleset,  a  settlement  of  whom 
+
+
+»The  short  speech  of  Mut  is  of  no  historical  consequence. 
+^See  III,  604. 
+
+...
+64.  "The  countries ,  the  ^Northerners^  in  their  isles  were  dis- 
+turbed, taken  away  in  the  ffrayi  —  at  one  time.  Not  one  stood  before 
+their  hands,  from  Kheta  (^<'),  Kode  (Kdy),  Carchemish  (K-r-'-k^- 
+m-l '),  .\rvad  ('  -r  '  -tid),  "Alasa  {^  -r-"  -s  ="),  they  were  wasted.  [The]y 
+[fset  upT]^  a  camp  in  one  place  in  Amor  (^  -m-r ').    They  desolated  his 
+
+
+^The  determinative  shows  that  the  word  designates  young  men  (rnp'w?). 
+...
+Peleset  (Pw-r'-j^-O,  Thekel  (T'> -k-k" -r^),  Shekelesh  {S " -k-rw-l ") , 
+Denyen  {D^ -y-n-yw,  sic!),  and  Weshesh  (W ^ -i "  4  ^) ,''  (These) 
+lands  were  united,  and  they  laid  their  hands  upon  the  land"^  as  far  as 
+the  Circle  of  the  Earth.    Their  hearts  were  confident,  full  of  their" 
+
+plans." 
+...
+74.  Five  warships  of  the  Northerners,  manned  by  Peleset 
+and  Sherden,  are  hard  pressed  by  four  Egyptian  warships. 
+
+...
+76.  The  king,  attended  by  sunshade-  and  fan-bearers, 
+stands  in  a  balcony.*^  Behind  him  waits  the  royal  chariot, 
+with  numerous  attendants  and  soldiers.  A  castle  is  depicted 
+over  the  chariot.  Before  the  king,  the  two  viziers  and  other 
+officers  of  high  rank  present  to  him  Peleset  prisoners. 
+Other  officials  superintend  the  counting  of  the  hands  severed 
+from  the  fallen  of  the  enemy,  the  numbers  being  recorded 
+by  four  scribes. 
+
+77.  The  inscriptions  are  these: 
+...
+83.  The  disastrous  defeat  of  the  year  5  had  doubtless  too 
+seriously  weakened  the  Libyans  for  them  again  to  attempt 
+the  invasion  of  Eg3^t  during  the  reign  of  Ramses  III.  But 
+in  the  year  1 1  they  were  themselves  invaded  by  the  Mesh- 
+wesh,  a  related  tribe  living  on  their  west,  and  the  Mesh- 
+wesh  chieftains,  Keper  and  Meshesher,  father  and  son, 
+laid  waste  the  Libyan  country.  The  Libyans  were  then 
+forced  to  join  the  Meshwesh  in  an  invasion  of  Eg)^t.  The 
+allies  pushed  eastward  as  far  as  the  canal  of  Heliopolis, 
+called  the  "Water  of  Re,"^  doubtless  at  some  point  near  its 
+departure  from  the  Nile.  Here,  at  a  place  called  Hatsho 
+(h't-S'^'t),  in  the  early  part  of  the  twelfth  month  of  his 
+eleventh  year,  Ramses  defeated  them  in  a  disastrous  battle, 
+in  which  Keper  was  captured  and  his  son  Meshesher  killed. 
+Ramses   pursued    the   routed   enemy   over   eleven   miles  "^ 
+
+
+aThe  name  of  the  herd  of  Amon  in  Papyrus  Harris,  10,  8  (§  224),  shows  that 
+the  battle  was  fought  near  this  canal. 
+...
+
+§405]  PAPYRUS  HARRIS  201 
+
+War  with  Northern  Asiatics 
+
+403.  I  extended  all  the  boundaries  of  Egypt;  I  overthrew  those 
+who  invaded  them  from*  their  'lands.  I  slew  the  Denyen  (£> '  -yn- 
+yw-n  =)  in*>  their  isles,  the  Thekel  {T  '  -k-r ')  and  the  Peleset  {Pw-r  ■"  - 
+5  ^  -ty)  were  made  ashes.  The  Sherden  and  the  Weshesh  (W '  -l-l) 
+of  the  sea,  *they  were  made  as  those  that  exist  not,  taken  captive  at  one 
+time,  brought  as  captives  to  Egypt,  like  the  sand  of  the  shore.  I  settled 
+them  in  strongholds,  bound  in  my  name.  Numerous  "were  their 
+classes  like  hundred-thousands.  I  taxed  them  all,  in  clothing  and 
+grain  from  the  storehouses  and  granaries  each  year. 
+
+...
+with  him  as  payment  for  the  timber  was  stolen  from  him. 
+Dor  was  now  a  petty  kingdom  of  the  Thekel,  who,  with  the 
+Peleset- Philistines,  had  begun  entering  S)Tria  under  Ramses 
+III  seventy-five  or  eighty  years  before.  They  had  con- 
+stantly pushed  southward  after  their  defeat  by  Ramses  III 
+in  his  eighth  year,  and  had  settled  along  the  eastern  coast  of 
+the  Mediterranean  as  subjects  of  the  Pharaoh.  After  the 
+...
+=== Breasted vol. III (item cu31924082479241): section 570 and note, 574, 587, 588 and notes ===
+
+
+§S7i] LIBYAN -MEDITERRANEAN INVASION 239 
+
+with the maritime peoples of the Mediterranean, who now 
+poured into the Delta from Sardinia on the west to Asia 
+Minor on the east. The mention of these peoples in these 
+documents is the earliest appearance of Europeans in litera- 
+ture, and has always been the center of much study and 
+interest.* With the sympathy, if not the direct assistance 
+of the Kheta, the Libyan king, Meryey, put himself at the 
+head of these combined allies and invaded the Delta, bring- 
+ing his wives and belongings, and apparently intending a 
+permanent occupation. Some time during the first half of 
+the tenth month (late in March), in Merneptah's fifth year, 
+a messenger reached him with the news. Rallying his 
+forces immediately, Merneptah met the enemy on the third 
+of the eleventh month (about April 15) at Perire in the 
+western Delta, and in six hours' fighting routed their com- 
+bined forces with immense slaughter. He pursued them 
+from Perire to the rise of the Libyan desert, called the 
+...
+^The layman has long been misled regarding this event by such titles for it as 
+"Invasion of the Greeks," although there is now no doubt that the early peoples 
+of southern Europe participated in this invasion. Since the study of Sardinian 
+art by Perrot and Chipiez, as Miiller has shown, we must accept the Sberden as 
+Sardinians; the Teresh may then equally well be the Etruscans (Tyrsenoi), and 
+the Shekelesh might be the Sikeli (if S be an ethnic termination in these western 
+names; but see IV, 59)- Maspero has suggested Sagalassos in Asia Minor. The 
+Ekwesh are not impossibly the Achaeans, and from Asia Minor are the Luka or 
+Lydans. Compare Miiller, Proceedings of the Society of Biblical Archeology, X; 
+...
+574. 'PBeginning of the victory which his majesty achieved in the 
+
+knd of Libyai]* i, Ekwesh C -p -w = -if '), Teresh {Tw-rw-l =), 
+
+Luka (Rw-kw), Sherden {S^-f -d-n), Shekelesh {S-k-rw-i^^, North- 
+erners coming from all lands. 
+
+...
+587. pThen returned^] the captains of archers, the infantry (mnfyt), 
+and chariotry; every contingent of the army, whether recruits, or heavy 
+
+armed troops,^ 46[rcarTied ofiE the plunder''] [''driving'] asses before 
+
+them, laden with the uncircumcised*' phalli of the country of Libya, 
+...
+hLit., "phalli with the foreskins" (^r«"<=H5iy). Miiller's objections 
+(^Proceedings of the Society of Biblical Archaology, 1888, 147 ff.) to this rendering, 
+it seems to me, do not take full account of the use of the word in this text. He 
+maintains that krnt = "horn" (long ago suggested by Chabas, Etudes sur I'anti- 
+guiti historique, 234, n. 2) means simply phallus, because Athribis Stela uses it in 
+the same place where our long text has "phallus," or interchangeably with "phal- 
+lus. " But krn' t is something which the Sherden and the other allies did not have 
+(1. 54) ! Moreover, it is something connected with the phallus which they did not 
+have. As the phonetic equivalence krn't'-TiS'Xff is unexceptionable, it seems 
+to me the rendering "foreskin" is very probable. The question of the homes of 
+these people is in greater uncertainty than the rendering of krn' t, and should be 
+decided by this rendering rather than the reverse. 
+...
+
+
+[Sher]den ( dy-n =>), Shekelesh {§'> -k" - 
+
+rw-l ^), Ekwesh p -^ ' -y-w ^ -I =) *of the coun- 
+tries of the sea.* who had no fore-S3*'skins: 
+
+Shekelesh {$^ -k^ -rw-S =) 
+Making. 
+
+Teresh {Tw-rw-i^) 
+Making 
+
+Sherden(5'-r'-i-«-M') 
+[Making] 
+
+[Ekjwesh ( ' -y-w ' -J ') who had no foreskins, 
+
+slain, whose hands were carried off, (for) they 
+had no ss[foreskins] 
+
+in heaps, whose uncircumcised phalli were 
+
+carried oflE to the place where the king was 
+Making uncircumcised phalli 
+
+whose hands [were carried off] 
+
+Shekelesh (5 ' -* =" -rw-l =) and Teresh (Tw-rw-S^) 
+who came as enemies of*" Libya 
+
+...
+790"^ hands 
+
+
+
+6,111' men 
+56 
+
+2,3708 men 
+
+
+
+...
+=== Muller, Asien und Europa (item asienundeuropana00mluoft), pp. 358 and 360 ===
+
+Argumente  gegen  die  europäische  und  kleinasiatische  Herkunft 
+der  Namen  hat  man  nie  geliefert,  nur  Brugsch,  ÄZ  76,  129  etc.  wollte 
+alle  Seevölker    als    beschnittene    „Kolchisch -kaukasische    Stämme" 
+
+
+1  Auch  AZ  81,   118:  „herbeigerufen  (TCjU^LI)  hat  der  elende  Libyerfürst   ("das 
+ganze  Volk)  der  Ra-bu,  Männer  und  Weiber,  die  iSa-k-ru-sa,  Sarden^^  etc. 
+
+2  Z.  20  gibt  an,  daß  die  Liliyer  südlich  bis  zu  den  zwei  nächsten  Oasen  plünderten. 
+Dies  läßt  auf  den  Umfang  ihrer  nördlichen  Züge  schließen. 
+
+3  (ranz  unmöglicli  ist  es,  den  Anklang  Pe-lrv-[§ps !]  =  (Insel)  Prosopis,  durch  Miß- 
+deutung des  Determinatives  ^p\  (ohne  Komplement  s !)  herauszuquälen.    Der  Auszug 
+
+schreibt  korrekt  nur  Irv.    Diese  Stadt  irv  ist  schon  Mrnre  182  =  Ppt/  145  (ßrv)  als 
+Grenzort  des  Naü'onbezirkes  erwähnt,  vgl.  auch  Ttl  351  =3  Ppi/  II,  174. 
+
+
+358  Das  westliche  Kleinasien. 
+
+ansehen.  Der  „Kaukasus"  beruht  auf  einer  Verwechselung  i;  solche 
+Seeräuber  können  nicht  gut  aus  dem  Winkel  des  schwarzen  Meeres 
+kommen,  und  überhaupt  sollen  Brugsch's  Argumente  nur  für  die 
+Kolclier  (angeblich  =  Sardin)  gelten.  Die  Bilder  der  Sardin  wider- 
+sprechen Herodot's  Beschreibung  der  Kolcher  (2,  104)  vollständig,  vgl. 
+S.  251,  A.  1.  Daß  die  Piraten  beschnitten  gewesen  seien,  ist  unrichtig; 
+die  Inschrift  sagt  gerade  das  Gegenteil.  Wie  wir  Proc.  S.B.A.  88, 
+147  ff.  ausführlich  erörtert  haben,  wollte  man  die  Völker  bei  der 
+Zählung  sondern,  hieb  also  den  Leichen  der  Piraten  die  rechte- 
+Hand  als  Trophäe  ab  „(da)  sie  keine  Ka-ra-na-ü  hatten",  von  den 
+Libyern  dagegen  nahm  man  „die  Phalli  als  Ka-'ira-na-tV-''  (oder  „die 
+Ka-ra-na-ü'-"  46)  d.  h.  als  beschnittene  reine  Glieder^.  Nur  die  in 
+der  Beschneidung  längst  ägyptisierten  Libyer  liefern  öfter  letztere 
+barbarische  Trophäe,  kein  anderes  Volk^.  So  können  wir  auch  die 
+Beteiligung  der  Piraten  bestimmen.  Während  6111  (Ausz.  abgerundet 
+6200,  an  anderer  Stelle  „über  6365")  Libyer  getötet  wurden,  zählt 
+der  Bericht  in  Summa  2372  (Ausz.  2201 -f-x)  Hände  der  Unbeschnit- 
+tenen auf,  davon  „Sal-aru-m  212  Mann  (Ausz.  200),  macht  an  Händen 
+250,  Turusa  742,  macht  an  Händen  790"^.  Die  zwei  anderen  Völker 
+müssen  also  etwas  mehr  gestellt  haben ;  leider  sind  die  Zahlen  zerstört. 
+Die  tapferen  Piraten,  w^elche  sich,  wie  es  scheint,  selten  gefangen 
+...
+(S.  178). 
+
+Eine  andere  Inschrift^  erklärt:  (51)  „Es  zeigten  die  Nordländer 
+Unruhe  in  ihren  Gliedern,  unter  int)  den  Pa-ra-sa-ü,  Tä-ka-ka-{ra), 
+die  verheerten  ihr  Land,  Es  entfloh  ihre  Seele,  vernichtet.  Sie  (d.  h. 
+jene)  waren  Helden  sowohl  zu  Lande  wie  zur  See,  nahend  (Agyp- 
+ten?)"4.  Jene  Fremden  werden  hier  als  tuher  „Helden,  Söldner"'- 
+bezeichnet.  Der  lohnende  und  den  kriegslustigen  Stämmen  zusagende 
+...

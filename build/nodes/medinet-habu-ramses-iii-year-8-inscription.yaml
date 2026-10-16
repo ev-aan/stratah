@@ -1,0 +1,53 @@
+# Shared node. Append-only: a change is a new `rev` plus a `history` entry, never an overwrite. See build/SCHEMA.md, Nodes.
+id: medinet-habu-ramses-iii-year-8-inscription
+rev: 3
+type: document
+label: 'Ramses III, year 8: the great inscription and Sea Peoples reliefs at Medinet Habu, Thebes'
+time: '-1177-01-01'
+precision: year
+date_basis: inferred
+kind: document
+status: reported
+what: >-
+  A long inscription dated to year 8 of Ramses III, cut on the north tower of the second pylon of his temple at Medinet Habu, with relief scenes of a land and a naval battle and prisoners on the outside north wall.
+  The Epigraphic Survey published drawings and photographs of it in 1930 (OIP 8; its list of plates titles plates 29-34, 36-39, 41-44 and 46 with Sea Peoples subjects or the year 8 inscription, plate 40 analyses one Egyptian ship in the naval scene, and later plates print details, among them plate 53; plate 35, the lion hunt, is not among them). The date 1177 BC is the single year given by Cline 2015 for regnal year 8; no chronology was read, so the year is a placeholder
+  for ordering and could differ by several years. Breasted's 1906 translation names Peleset, Thekel, Shekelesh, Denyen and Weshesh.
+place:
+  name: 'Mortuary temple of Ramses III, Medinet Habu, west bank, Luxor'
+  lat: 25.71997
+  lon: 32.60073
+  precision: site
+  source: 'OpenStreetMap Nominatim, way 89828345 (query Medinet Habu, 2026-10-14); orientation only'
+  note: 'Gazetteer point for the temple complex, not for a particular wall.'
+sources:
+- title: 'Epigraphic Survey, Medinet Habu Volume I, OIP 8 (Chicago, 1930), plates 44, 46, 53, 54 and foreword; ISAC free PDF'
+  url: https://isac.uchicago.edu/publications/medinet-habu-volume-i-earlier-historical-records
+  authenticity: authenticated edition, moderate (see the sea-peoples-medinet-habu manifest); drawings and photographs, signs not read
+  origin: oip8-1930
+  source_type: scholarly
+  access: read
+- title: 'W. F. Edgerton and J. A. Wilson, Historical Records of Ramses III, SAOC 12 (Chicago, 1936), plates 29-46 (the northern war), ISAC free PDF'
+  url: https://isac.uchicago.edu/publications/historical-records-ramses-iii-texts-medinet-habu-volumes-i-and-ii-translated
+  authenticity: authenticated edition, moderate; a translation, a revision of Breasted's (see the sea-peoples-medinet-habu manifest)
+  origin: saoc12-1936
+  derives_from: breasted-are4-1906
+  source_type: scholarly
+  access: read
+- title: 'J. H. Breasted, Ancient Records of Egypt vol. IV (1906), sections 59-82, Internet Archive OCR'
+  url: https://archive.org/details/cu31924082479258
+  authenticity: authenticated edition, moderate; a translation
+  origin: breasted-are4-1906
+  source_type: scholarly
+  access: read
+manifest: {subject: sea-peoples-medinet-habu, source: src-oip8}
+created: '2026-10-14'
+history:
+- rev: 1
+  date: '2026-10-14'
+  change: Created by the sea-peoples-medinet-habu dig. Time is a placeholder from Cline 2015's 1177 BC for year 8 (inferred); place from a gazetteer.
+- rev: 2
+  date: '2026-10-16'
+  change: 'Fix pass of the sea-peoples-medinet-habu dig. Plate range in `what` narrowed from 31-46 and 53 to the northern-war plates named in the contents of SAOC 12 (29-34, 37-39, 42-44, 46) and details on 53, after an independent review noted plate 35 (lion hunt) and the Libyan-war plates were wrongly included. Added SAOC 12 (read in full for plate 46 and the plates listed) as a second source; it is a revision of Breasted, so the two are not independent. Time, place and date_basis are unchanged: 1177 BC is still one popular article (Cline 2015, read in full 2026-10-16) and still a placeholder.'
+- rev: 3
+  date: '2026-10-16'
+  change: 'Wording of the plate list in `what` tidied after a second independent review: the first fix said the northern-war plates "are" 29-34, 37-39, 42-44 and 46, but the OIP 8 list of plates (read) also titles plates 36 and 41 with Sea Peoples subjects and plate 40 analyses a ship from the naval scene. Time, place and sources unchanged.'
