@@ -311,3 +311,9 @@ log:
       adoption note. (5) Correction to the warning count in L-24 and its report: the subject has 17 conformance warnings of the kind
       "established but anchor_checked is secondary" at c296f31, not 15; the two not listed were ipm-votes-beside-money and one
       company-document claim. With item (2) of this entry the count is 18.
+  - id: L-26
+    date: 2026-10-16
+    entry: >
+      Cleanup after c2c006e. L-24 and L-25 are not edited. The clause about a reviewer's count of 84 keyword matches was removed from
+      data/ROUND2_SELECTION_RULES.md; the note keeps the 71 / 1 / 15 selection counts and the result that 86 of the 87 committees match
+      a keyword, with Vote Uncommitted MN the one that matches none.

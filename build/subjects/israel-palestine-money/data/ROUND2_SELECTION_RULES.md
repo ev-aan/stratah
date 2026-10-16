@@ -30,7 +30,7 @@ connected-organisation name matches, case-insensitively, any of: ISRAEL, ZIONIST
 whole-word-start ARAB, MUSLIM, ISLAM, TURK, whole-word-start IRAN, PERSIAN, QATAR, SAUDI, EMIRAT, LEBAN, EGYPT, whole-word GAZA, HAMAS, J STREET,
 JUSTICE DEMOCRATS, EMGAGE, whole-word CAIR, NORPAC, whole-word RJC, UNITED DEMOCRACY PROJECT, PEACE NOW. The keyword list was fixed after one
 trial run that matched unrelated words (JORDAN, GULF, ZIONS, HEBREW and AIPAC inside another word were removed or tightened) and before any
-amount was read. Result: 87 committees (`fec-selected-committees-2022-2026.csv`): the file records 71 as selected by name keyword, 1 by connected-organisation keyword and 15 because the id appears in an earlier data file of this dig; a regular-expression re-count on 16 Oct 2026 over the stored names finds 86 of the 87 matching a keyword (the one that matches none is Vote Uncommitted MN, in the list only by earlier use); a reviewer counted 84 keyword matches and the difference of two was not resolved. The rule is mechanical; a committee's purpose was not read,
+amount was read. Result: 87 committees (`fec-selected-committees-2022-2026.csv`): the file records 71 as selected by name keyword, 1 by connected-organisation keyword and 15 because the id appears in an earlier data file of this dig; a regular-expression re-count on 16 Oct 2026 over the stored names finds 86 of the 87 matching a keyword (the one that matches none is Vote Uncommitted MN, in the list only by earlier use). The rule is mechanical; a committee's purpose was not read,
 so the list includes committees chosen only by a name that contains a keyword.
 
 Records pulled for each selected committee, the same for all:
