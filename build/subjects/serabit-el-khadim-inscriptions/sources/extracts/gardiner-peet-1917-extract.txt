@@ -1,0 +1,18 @@
+# Quoted lines only, from A. H. Gardiner and T. E. Peet, The Inscriptions of Sinai, Part I (Egypt Exploration Fund Memoir 36, London, 1917).
+# Source: Internet Archive item EXCMEM36, PDF sha256 15062e05b538a0f0c041b723e69d21a1e6fd1a39a8dc33211b4d831d4339115e; OCR text sha256 08b301f37b7e7371be97aa40579eaf4da5f1a63988003b61713f793b2a2cd425.
+# Rights: published 1917, public domain in the United States; Gardiner died 1963 (UK copyright to the end of 2033). Trimmed on 2026-10-16 to the lines the claims quote (see log L-14). Elisions are marked [...].
+# Introduction lines are from the OCR. The Table V rows are the dig agent's transcription of the printed facts from the page image (PDF page 21, printed p. 16), which was viewed and read.
+
+Introduction: [...] the expedition sent out in the winter of 1904-5 under the direction of Professor Flinders Petrie.
+Introduction: [...] the latter (345-355) consist of no more than eleven monuments exhibiting the new script [...]
+Introduction, "Date": The Egyptian monuments in Sinai range between Dynasties I-XX (circa b.c. 3200-1150).
+Introduction, "Nature of Copy": [...] a squeeze (indicated by a dagger), a photograph (indicated by *), or the original (indicated by ||) [...]
+
+Table V rows (number | nature of monument | date | exact provenance | nature of copy):
+345 | Small sphinx | Middle Kingdom ? | Temple ? | E.E.F. copy, collated with original
+346 | Squatting statue | Middle Kingdom ? | Temple | E.E.F. copy, collated with photograph
+347 | Bust | Middle Kingdom ? | Temple ? | E.E.F. copy (no collation symbol)
+348 | Graffito | Middle Kingdom ? | Magharah ? | traced from squeeze
+349-354 | Rock stele | Middle Kingdom ? | Mine L | E.E.F. copy, collated with photograph
+355 | Fragment of rock stele | Middle Kingdom ? | Mine L | E.E.F. copy, collated with photograph
+(Dates and provenances for 346 to 355 are by ditto marks in the printed table; the query marks are the editors'.)

@@ -1,0 +1,61 @@
+# Shared node. Append-only: a change is a new `rev` plus a `history` entry, never an overwrite. See build/SCHEMA.md, Nodes.
+id: object-serabit-sinai-345-sphinx
+rev: 1
+type: object
+label: 'Sinai 345: small sandstone sphinx from Serabit el-Khadim with a hieroglyphic line and linear-script lines (British Museum EA 41748 per Haring 2019)'
+time: '1905-01-01'
+precision: year
+date_basis: derived
+kind: document
+status: reported
+what: >-
+  The node's time is when the object was first recorded (Petrie's 1905 expedition). The date the sphinx was made is not
+  established here; Gardiner and Peet's 1917 table gives "Middle Kingdom ?", Petrie 1906 argued about 1500 BCE, and Haring (2019)
+  says it is "nowadays commonly dated to the late Middle Kingdom". Petrie 1906 describes a small sphinx with, on the shoulder,
+  a dedication to Hathor "Mistress of Turquoise" in Egyptian hieroglyphs, a very small rough sign between the paws that he reads
+  as a Horus-name, and along the base a line of signs he could not read, the same five signs as on the squatting figure Sinai 346.
+  Gardiner and Peet's Plate LXXXII (viewed here) is a hand-copy facsimile of the shoulder, paws, right side and left side.
+object:
+  class: sphinx statuette
+  material: sandstone
+  museum: 'British Museum, London (as captioned by Haring 2019); the museum record itself was not opened (HTTP 403)'
+  accession: 'EA 41748 (Haring 2019, Figure 4.1 caption); not checked against the museum record'
+  held_now:
+    status: not established
+    as_of: '2026-10-14'
+    note: 'Haring 2019 captions a photograph "sphinx BM EA 41748 from Serabit el-Khadim" (photo credited to the British Museum). The British Museum collection page returned HTTP 403 and was not read, so current holding is reported, not verified. Albright 1966 independently gives "now British Museum, 41748" for Text No. 345 (read).'
+place:
+  name: 'Serabit el-Khadim, Sinai (Hathor temple area)'
+  lat: 29.037
+  lon: 33.460
+  precision: site
+  uncertainty_km: 2
+  source: 'OpenStreetMap Nominatim, node 5557995940, queried 2026-10-14 (orientation only).'
+  note: 'Gardiner and Peet 1917 table V gives the exact provenance of Sinai 345 as "Temple ?" (query theirs). Petrie 1906 puts the figure near the doorway of the shrine of Sopdu in the text read for fig. 138; the exact findspot of the sphinx is not established here.'
+sources:
+- title: 'W. M. F. Petrie (and C. T. Currelly), Researches in Sinai (London: John Murray, 1906), pp. 128-131 (fig. 141), Internet Archive scan researchesinsin00currgoog, OCR read'
+  url: https://archive.org/details/researchesinsin00currgoog
+  authenticity: edition checked in part; the finder's own report (see the dig's manifest)
+  origin: petrie-1906
+  source_type: scholarly
+  access: read
+- title: 'A. H. Gardiner and T. E. Peet, The Inscriptions of Sinai, Part I (1917), table V and Plate LXXXII, Internet Archive scan EXCMEM36; plate viewed as an image'
+  url: https://archive.org/details/EXCMEM36
+  authenticity: edition checked in part; plate is the editors' hand copy, not the object (see the dig's manifest)
+  origin: gardiner-peet-1917
+  source_type: scholarly
+  access: read
+- title: 'B. J. J. Haring, "Ancient Egypt and the earliest known stages of alphabetic writing" (Oxbow, 2019), pp. 55-56, Figure 4.1 and notes 7-8'
+  url: https://hdl.handle.net/1887/3295773
+  authenticity: published chapter, text read (see the dig's manifest)
+  origin: haring-2019
+  source_type: scholarly
+  access: read
+manifest: {subject: serabit-el-khadim-inscriptions, source: src-gardiner-peet-1917}
+related:
+- {node: serabit-1905-petrie-finds-foreign-inscriptions, kind: part_of, grade: established, why: 'Petrie 1906 and Gardiner and Peet 1917 both put the sphinx among the monuments the 1904-5 or 1905 expedition found (Petrie fig. 141 is Sinai 345 in the 1917 table).'}
+created: '2026-10-14'
+history:
+- rev: 1
+  date: '2026-10-14'
+  change: Created by the serabit-el-khadim-inscriptions dig. Holder and accession are Haring's caption, not checked against the museum record (blocked).

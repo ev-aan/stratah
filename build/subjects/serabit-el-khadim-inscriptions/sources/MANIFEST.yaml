@@ -1,0 +1,343 @@
+# Sources for the serabit-el-khadim-inscriptions dig, with authenticity entries (rules A1-A10, build/SCHEMA.md).
+# Every book, article, translation, commentary and video below is a CLAIM that needs proof, on the same footing. Primary data is the inscribed objects, their photographs,
+# squeezes and the excavation records. This dig read: (a) the finders' and editors' own reports (testimony about the objects), (b) the 1916 photographs and hand copies of
+# Gardiner's JEA article (viewed as page images; photographs of the objects, 1916 halftones), (c) modern photographs of Sinai 345 and 357 inside Wilson-Wright 2026 (viewed),
+# and (d) later scholars' readings. No signs were transliterated by this dig, so no claim carries anchor_checked primary for what an inscription says.
+# Only short extracts of public-domain works are stored (sources/extracts/); nothing in copyright and no image is stored. sha256 values are of the local files used for reading.
+# Session 1 (2026-10-14) and session 2 (2026-10-16) were both run by the dig agent; neither is an independent review.
+# Funding and control: each entry says only what the opened source states. Everything else is a named task in `funding_next_step`; none is a finding.
+retrieved: 2026-10-16
+sources:
+
+  - id: src-petrie-1906
+    title: "W. M. F. Petrie (with C. T. Currelly), Researches in Sinai (London: John Murray; New York: Dutton, 1906), preface pp. v-x and pp. 128-132 (the foreign sculptures; 'The foreign writing')"
+    url: https://archive.org/details/researchesinsina00petruoft
+    document_class: "Two labels, kept apart: for what the objects are, it is interpretive (the finder's testimony, not the object); for what the book itself says, it is primary_text (the document was read directly), which is how claims sk-claim-petrie-1906-report and sk-claim-expedition-funding-stated use it. Not primary data about the inscriptions."
+    read: "yes, directly: preface and pp. 128-132 read in two independent scans of the same edition (Toronto copy researchesinsina00petruoft, OCR sha256 5a04edbf6cd0dab23ba7727aa10a9dfcdb6a56bb068fde19bb1a73979a918f8f; Google copy researchesinsin00currgoog, OCR sha256 a0a3d7d0c9af7c384667feae40f923c5f543be4709ee3cb592ad1718b684ae0f). Figures 138-141 not viewed. Short extract stored: sources/extracts/petrie-1906-extract.txt (extract sha256 c8645639f4d95f8564bae3aa32a5646f72e878a1d6b5ffde2b6d7e287fce90f6)"
+    funding_and_control: >
+      The preface says the cost of the main expedition was borne by the Egypt Exploration Fund and the expenses of three workers, and that two other workers' expenses were from private means; the Fund will publish the atlas of inscriptions; the book is a separate publication apart from the Fund. It says
+      Currelly's expedition was undertaken for the Egyptian Research Account, and that the Fund had ceased to provide for Petrie's researches. Published by John Murray (London) and Dutton (New York).
+    funding_next_step: "Find the Fund's own accounts or subscription lists for 1904-5 (the Archaeological Report series is on the Internet Archive) and say who paid; look up John Murray's and Dutton's ownership in a publishing history. Task only; no finding."
+    authenticity:
+      status: authenticated
+      strength: moderate
+      provenance: "Title page read: first edition May 1906. Two Internet Archive scans (University of Toronto copy uploaded by the Internet Archive; Google copy). The two OCR texts agree on pp. 128-132. Holders of the printed copies not recorded."
+      tests:
+        - "Gardiner 1916 (JEA 3, p. 13) quotes Petrie's list of reasons for a c. 1500 BC date and cites Researches p. 131; the sentence quoted is in the book at p. 131 (could have failed)"
+        - "Gardiner and Peet 1917 Table V cites P. R. fig. 141 for Sinai 345 and figs. 138-9 for Sinai 346; Petrie's text describes fig. 141 as the small sphinx and fig. 138 as the best of the figures (could have failed)"
+      tested_by: "Stratah dig agent (not independent of the dig). Both witnesses are later authors who used the same book."
+      gaps: ["Figures 138-144 and Map 3 not viewed", "Page images of pp. 128-132 not viewed; text read from OCR in two scans", "Currelly's chapters not read"]
+      next_step: "View the figure pages (138-141) and compare with Gardiner's 1916 photographs."
+      checked: 2026-10-16
+
+  - id: src-gardiner-1916-jea
+    title: "A. H. Gardiner, 'The Egyptian Origin of the Semitic Alphabet', Journal of Egyptian Archaeology 3 (1916), 1-16, with Plates I-V and the note by A. E. Cowley, 'The Origin of the Semitic Alphabet', pp. 17-21"
+    url: https://archive.org/details/dli.ministry.15398
+    document_class: "Two labels, kept apart: for what the inscriptions say, it is interpretive (the first decipherment attempt, a claim, with 1916 photographs and hand copies, which are images of the objects); for what the article itself says, it is primary_text (read directly), as used in sk-claim-gardiner-1916-reading and sk-claim-count-ten-eleven. Not primary data about the inscriptions."
+    read: "yes, directly: pp. 11-21 read in the OCR text and pp. 13, 14, 15, 16 and 18 read as page images; Plates III (hand copy), IV and V (photographs of Sinai 346, 349, 351, 350, 352, 353, 354, 355) viewed. PDF sha256 7bd556cc1093b35b753ff530c288af768e45a32fcca58a109e7ca3d925a0184d; OCR text sha256 171e65046791d65514515c988e8ca5981baf9ec0124fa07cab26fb65699da5c3. Short extract stored: sources/extracts/gardiner-cowley-1916-extract.txt (extract sha256 32dd169747ba7e531910f4420fd83acbb2f4f5a2bd4eab831b1152c8f5179b16) (quoted lines only after the trim of 2026-10-16)"
+    funding_and_control: "Published in the Journal of Egyptian Archaeology of the Egypt Exploration Fund (journal title page not read for the owner). No funder named in pages 11-21. Gardiner's work on the inscriptions was the Fund's commission (Gardiner and Peet 1917 introduction)."
+    funding_next_step: "Read the journal's masthead and the Fund's report for 1916 to see how the Journal was financed. Task only."
+    authenticity:
+      status: authenticated
+      strength: moderate
+      provenance: "Internet Archive item dli.ministry.15398, 'The journal of Egyptian archaeology' 1916, Digital Library of India scan uploaded by a third party; the scan is the bound volume (page images read). No licence stated; published 1916."
+      tests:
+        - "Haring 2019 (p. 56) and Wilson-Wright 2019 (p. 3) both cite Gardiner 1916, pp. 13-14 for the Middle Kingdom alternative to Petrie's date; the sentence is at p. 13 of the scan (could have failed)"
+        - "Haring 2019 (p. 54) says Gardiner suggested reading the recurring string as b'lt 'lady'; Gardiner's p. 15 proposes it (could have failed)"
+        - "Gardiner's numbers 345-355 and 'eleven' agree with the numbering and count in the 1917 memoir Table V (could have failed)"
+      tested_by: "Stratah dig agent (not independent of the dig)"
+      gaps: ["Hebrew text in the OCR is garbled and was not transcribed", "Photographs are 1916 halftones; the signs are too shallow to read at the resolution viewed", "Weill's 1904 squeeze (Sinai 348) not seen"]
+      next_step: "Compare the 1916 photographs of 349 and 351 with later photographs once any are opened (InscriptiFact or the Tel Aviv archive)."
+      checked: 2026-10-16
+
+  - id: src-gardiner-peet-1917
+    title: "A. H. Gardiner and T. E. Peet, The Inscriptions of Sinai, Part I: Introduction and Plates (Egypt Exploration Fund Memoir 36, London, 1917): introduction, Table V 'The Foreign Inscriptions' (printed p. 16), Plates LXXXII-LXXXIV"
+    url: https://archive.org/details/EXCMEM36
+    document_class: "Two labels, kept apart: for the objects, it is interpretive (the editors' catalogue, testimony about copies, squeezes and photographs); for what the printed table and introduction say, it is primary_text (read directly), as used in sk-claim-gp-table-v-record and sk-claim-count-ten-eleven. Not primary data about the inscriptions."
+    read: "yes, directly: introduction read in OCR; Table V viewed and read as a page image (PDF page 21); Plates LXXXII and LXXXIII viewed. OCR sha256 08b301f37b7e7371be97aa40579eaf4da5f1a63988003b61713f793b2a2cd425; PDF sha256 15062e05b538a0f0c041b723e69d21a1e6fd1a39a8dc33211b4d831d4339115e. Short extract stored: sources/extracts/gardiner-peet-1917-extract.txt (extract sha256 d21c793bfd98e67b2a2b11fafe4819b1463988b3835f1f1632135c7e1b9b09b8) (quoted lines only after the trim of 2026-10-16)"
+    funding_and_control: "Published by the Egypt Exploration Fund (title page); the introduction says the work was originally entrusted by the Fund to the authors and rests on the copies of the Fund expedition of winter 1904-5. No funder named."
+    funding_next_step: "Find the Fund's accounts for 1914-17 and its Memoir series statement. Task only."
+    authenticity:
+      status: authenticated
+      strength: moderate
+      provenance: "Internet Archive item EXCMEM36, 'MEEF 36', uploaded by a third party (no rights statement in the item). 113-page PDF."
+      tests:
+        - "Table V cites P. R. fig. 141 and figs. 138-9; both agree with Petrie's text (could have failed)"
+        - "Table V's eleven foreign inscriptions (345-355) agree with Gardiner 1916's 'eleven' (could have failed)"
+        - "Haring 2019 captions the facsimile of Sinai 345 as pl. lxxxii of Gardiner and Peet; Plate LXXXII viewed shows 345 (could have failed). Haring writes 1952; the item viewed is dated 1917 (the 1952 printing was not seen)"
+      tested_by: "Stratah dig agent (not independent of the dig)"
+      gaps: ["The 1952 printing cited by Haring was not seen", "No photograph or squeeze of the objects was seen in this book"]
+      next_step: "Read the Descriptive Text for the Sinaitic numbers in the 1952 printing if it can be opened."
+      checked: 2026-10-16
+
+  - id: src-gardiner-peet-1917-plates
+    title: "Gardiner and Peet 1917, Plates LXXXII (Sinai 345, 346) and LXXXIII (Sinai 347-355), as page images of the Internet Archive PDF"
+    url: https://archive.org/details/EXCMEM36
+    document_class: "hand-copy facsimile drawings by the editors from the Fund expedition's copies (E.E.F. copy). A drawing of the object, not the object."
+    derived_from: src-gardiner-peet-1917
+    read: "viewed as images (rendered locally; not stored). Signs not transliterated."
+    authenticity:
+      status: unchecked
+      next_step: "Compare with photographs of the objects."
+      checked: 2026-10-16
+    capture: "No independent capture. Not stored in the repository; cited by URL."
+
+  - id: src-gardiner-peet-cerny-1955
+    title: "A. H. Gardiner, T. E. Peet and J. Cerny, The Inscriptions of Sinai, Part II: Translations and Commentary (Egypt Exploration Society Memoir 45, London, 1955): entries for Sinai 344, 345 and the note on 346-400, and the index"
+    url: https://archive.org/details/EXCMEM45
+    document_class: "interpretive: the editors' commentary on each monument (testimony; includes the editors' collation with the original). In copyright; short fragments only; nothing stored."
+    read: "partly: OCR text opened and searched for 345, 'Sinaitic', 'alphabet' and Yahweh; the entries for 345 and the note on 346-400 read. The rest not read. OCR sha256 04ebe6cce43c29de01a03431a00e70ea64158a3f476acfa8feb71a2715e2114e"
+    funding_and_control: "Published by the Egypt Exploration Society (title page). No funder read."
+    funding_next_step: "Read the preface of Part II for any funding statement. Task only."
+    authenticity:
+      status: authenticated
+      strength: weak
+      provenance: "Internet Archive item EXCMEM45, uploaded by a third party; rights not stated. Printed 1955."
+      tests:
+        - "Tallet and Laisney 2024 cite 'IS II, no. 170, p. 148' for a stela; the entry numbering of the OCR agrees with the numbering they use (could have failed)"
+      tested_by: "Stratah dig agent (not independent of the dig)"
+      gaps: ["Only a few entries read", "OCR only"]
+      next_step: "Read the entries for the Egyptian inscriptions that name Semitic people (Sinai 85, 110, 112, 114, 115, 120) cited by Wilson-Wright."
+      checked: 2026-10-16
+
+  - id: src-eef-report-1906
+    title: "Egypt Exploration Fund, Archaeological Report 1905-1906, ed. F. Ll. Griffith (London, 1906), p. 31 (Sinai) and the list of officers and committee"
+    url: https://archive.org/details/archaeologicalre0506egyp
+    document_class: "the Fund's own annual report (an institutional account; not primary data about the inscriptions)"
+    read: "yes, directly: p. 31 viewed as a page image (PDF page 47); officers and committee list read in the OCR. PDF sha256 34173bb85c28ae04a78e49825a1191a4b0dbd631fa2320d09444cc3abf73528f. Short extract stored: sources/extracts/eef-1906-report-extract.txt (extract sha256 7ba7b2ebfd3132d8c8baa33050f21d5f1c44ebf90ecaf0ea28fcca5239ee7eb7)"
+    funding_and_control: "The page lists the Fund's President, Vice-Presidents, Honorary Treasurers, Honorary Secretary and Committee for 1905-1906. It does not give the Fund's accounts or subscribers in the pages read."
+    funding_next_step: "Read the same report's financial statement and subscription list if present (not searched), and the 1904-5 report."
+    authenticity:
+      status: authenticated
+      strength: moderate
+      provenance: "Internet Archive item archaeologicalre0506egyp, a Victoria University (Toronto) library copy uploaded by the Internet Archive."
+      tests:
+        - "Its statement that Petrie's book is an account of work for the Fund in 1904-5 agrees with the 1917 memoir's 'winter of 1904-5' (could have failed)"
+      tested_by: "Stratah dig agent (not independent of the dig)"
+      gaps: ["Accounts and subscriber lists not searched"]
+      next_step: "Search the OCR for the financial statement."
+      checked: 2026-10-16
+
+  - id: src-albright-1966
+    title: "W. F. Albright, The Proto-Sinaitic Inscriptions and Their Decipherment (Harvard Theological Studies 22; Cambridge, Mass.: Harvard University Press, 1966; second printing), pp. 1-24 and the glossary and notes searched"
+    url: https://archive.org/details/AlbrightTheProtoSinaiticInscriptionsAndTheirDecipherment1969
+    document_class: "interpretive: one scholar's decipherment (a claim). In copyright (Harvard College, 1966): read, quoted briefly, NOT stored."
+    read: "yes, directly: Internet Archive PDF with text layer (sha256 a85ddb3a1c2480287b6b36e3dd8eeb3306e96715da727378dc59b512274961df, re-downloaded and hash-matched 2026-10-16); chapters I and II and the entries for texts 357 and 358 read; whole text searched for Yahweh and YHWH (three hits, all in notes or references), slave and captive"
+    funding_and_control: "Published by Harvard University Press in the Harvard Theological Studies series. The preface-level note read thanks two research assistants and names no funder."
+    funding_next_step: "Read the series preface and Albright's acknowledgements for any funder. Task only."
+    authenticity:
+      status: authenticated
+      strength: weak
+      provenance: "Title and copyright pages read in the text layer. Uploaded by a third party; second printing; not compared with a library copy."
+      tests:
+        - "Albright's numbering (346 'cuboid figure from the temple', 349 'steliform text') agrees with the 1917 Table V numbering (could have failed). His 347 is a 'sphinx statuette'; Table V lists 347 as 'Bust': a discrepancy, not resolved here"
+      tested_by: "Stratah dig agent (not independent of the dig)"
+      gaps: ["Uploader is not the publisher", "Chapters III to V (texts, grammar, glossary) read only in part"]
+      next_step: "Use a library copy; read chapters III to V against photographs."
+      checked: 2026-10-16
+
+  - id: src-haring-2019
+    title: "B. J. J. Haring, 'Ancient Egypt and the earliest known stages of alphabetic writing', in P. Boyes and P. Steele (eds), Understanding Relations Between Scripts II: Early Alphabets (Oxford and Philadelphia: Oxbow Books, 2019), pp. 53-67"
+    url: https://hdl.handle.net/1887/3295773
+    document_class: "interpretive: a specialist review chapter (a claim about the evidence). Not primary data. Licensed to Leiden under Article 25fa of the Dutch Copyright Act: read, short fragments only, not stored."
+    read: "yes, directly: Leiden repository PDF (download link on the item page https://scholarlypublications.universiteitleiden.nl/handle/1887/3295773), pp. 53-60 read in full, rest of the chapter searched. File sha256 this session 445d48ff9c55144e532a53f0cf0bd30f5e6cd9b3ad782b8cd7c8b0c0b3b745d3 (15 pages with a Leiden cover sheet). The first session recorded sha256 f8e89e0c62daa9b9a031527e71091d0f412678ab21d746f91715124a4bcb58f6 for a download of the same item; the two files were not compared. A reviewer reported the repository blocked in their environment; it opened from this one on 2026-10-16."
+    funding_and_control: "Published by Oxbow Books; volume editors Boyes and Steele. The chapter's first footnote thanks Helen Richardson-Hewitt for correcting the English. No funder named in the chapter."
+    funding_next_step: "Read the volume's front matter (not in the chapter file) for the conference and any funder. Task only."
+    authenticity:
+      status: authenticated
+      strength: moderate
+      provenance: "Leiden University repository, item 3295774; the cover sheet gives the citation, 'Publisher's Version' and the licence."
+      tests:
+        - "Haring says Gardiner suggested reading the string as b'lt 'lady' (p. 54) and offered Amenemhat III as an alternative date (p. 56); both are in Gardiner 1916 (could have failed)"
+        - "Haring says Petrie dated the writing about 1500 BC on pottery, architecture and the sphinx's red sandstone (p. 58); the same three reasons are in Petrie 1906 p. 131 (could have failed)"
+      tested_by: "Stratah dig agent (not independent of the dig)"
+      gaps: ["Every work Haring cites for a proposed date (Sass 1988, Hamilton 2006, Darnell et al. 2005, Briquel-Chatonnet 1998, Goldwasser) was not opened, so each date attributed to them is Haring's report", "Printed pagination not compared"]
+      next_step: "Open Hamilton 2006, Sass 1988 and Darnell et al. 2005."
+      checked: 2026-10-16
+
+  - id: src-wilson-wright-2019
+    title: "A. M. Wilson-Wright, 'On the Origin of Alphabetic Writing', Bible and Interpretation, November 2019"
+    url: https://bibleinterp.arizona.edu/sites/bibleinterp.arizona.edu/files/images/On%20the%20Origin%20of%20Alphabetic%20Writing.pdf
+    document_class: "interpretive: a specialist's article advancing his own theory (a claim). Not primary data."
+    read: "yes, directly: whole article read (PDF sha256 2bc718b8167673f2f1840a5ec8bad91edb5bb4e44313bcc1f317f77898b78137, hash-matched on re-download 2026-10-16)"
+    funding_and_control: "The article gives the author's affiliation as Radboud University, Nijmegen. No funder named. Posted on Bible and Interpretation (URL under the University of Arizona domain)."
+    funding_next_step: "Read the site's about page for who runs and funds Bible and Interpretation. Task only."
+    authenticity:
+      status: authenticated
+      strength: weak
+      provenance: "Downloaded from the URL above; not compared with a printed or archived copy."
+      tests:
+        - "Its description of Sinai 345 (hieroglyphic line plus a linear line) agrees with Haring 2019's description of the same object (could have failed); the two are not independent on the reading, which both attribute to Eisler 1919"
+      tested_by: "Stratah dig agent (not independent of the dig)"
+      gaps: ["No peer-reviewed version", "Dates rest on works not opened"]
+      next_step: "Open Wilson-Wright 2021 (Maarav 25) cited by his 2026 article for the date."
+      checked: 2026-10-16
+
+  - id: src-wilson-wright-2026
+    title: "A. M. Wilson-Wright, 'Stop Trying to Make MS Happen! Or Why Moses Does Not Appear in the Proto-Sinaitic Inscriptions', Bible and Interpretation, April 2026 (13 pages, with photographs of Sinai 345, 357 and 361)"
+    url: https://bibleinterp.arizona.edu/sites/bibleinterp.arizona.edu/files/2026-04/Wilson-Wright%20Final.pdf
+    document_class: "interpretive: a specialist's reply to Bar-Ron's unpublished thesis (a claim), with photographs of the objects credited to the British Museum (CC BY-NC-SA 4.0), Cedric Paulhiac (Egyptian Department of Antiquities) and the author (Harvard Museum of the Ancient Near East). Not primary data."
+    read: "yes, directly: whole article read; Figures 2 (Sinai 345) and 5 (close-up of Sinai 357) viewed as images. PDF sha256 fddaeb47d9205321f0c6c6404d6b653007812a9e38e0f91aefbcf70bb8dec382. Node page https://bibleinterp.arizona.edu/node/6033 (sha256 302fd932c510fa289b9044620518f898b3aacf42f02ebb852dfeeffe7ed967ca) fetched. Not stored."
+    funding_and_control: "Author affiliation printed as University of Chicago. No funder named in the article."
+    funding_next_step: "Read the site's about page. Task only."
+    authenticity:
+      status: authenticated
+      strength: weak
+      provenance: "Downloaded from the journal site; April 2026 (new, not yet cited elsewhere in the sources read)."
+      tests:
+        - "Its reading of Sinai 357 (a vow to Tessob) matches the JAOS abstract of Wilson-Wright 2016 that was opened on the journal page (could have failed); same author"
+        - "It describes Bar-Ron's reading as 'zt mms' / 'n'm ms' with the same two inscriptions (357, 361) that the National Geographic page names (could have failed)"
+      tested_by: "Stratah dig agent (not independent of the dig)"
+      gaps: ["Author is both a reader of the signs and a party to the dispute with Bar-Ron", "Bar-Ron's own drawings are shown only in the reply; the thesis was not opened", "No peer-review status stated"]
+      next_step: "Open Bar-Ron's thesis when any open copy exists and compare his drawings and photographs."
+      checked: 2026-10-16
+
+  - id: src-tallet-laisney-2024
+    title: "P. Tallet and D. Laisney, 'Two Notes about the Protosinaitic Script', NeHeT: Revue numerique d'Egyptologie 8 (2024), 3-12"
+    url: https://www.orient-mediterranee.com/wp-content/uploads/2026/04/NEHET-8-01-TALLET-LAISNEY.pdf
+    document_class: "interpretive: a report by the excavation team that surveyed the plateau 2006-2012 and in 2022 (testimony and field description of a new inscription in Mine XX), plus a dating argument. A claim, with field observations."
+    read: "yes, directly: whole article read (PDF sha256 b32e25d16be286dbd61e6527e5b085cf28d14341e4b1645cefee61d9144c8ecf). Photographs and map not stored."
+    funding_and_control: "The mission is named 'Mission Sinai-Sud' in figure credits. The article names no funder in the text read. One of the authors (Tallet) is also a listed editor of the journal (title page)."
+    funding_next_step: "Find the mission's funding statements in Tallet's MIFAO volumes or the Ifao annual report. Task only."
+    authenticity:
+      status: authenticated
+      strength: moderate
+      provenance: "Hosted on the publisher's site (Orient and Mediterranee); the PDF is the journal's volume cover, contents and article. Open access."
+      tests:
+        - "It cites Gardiner and Peet 1917 nos. 345-355 and Gardiner 1916, 1-16, as the first publication; both exist as read (could have failed)"
+        - "Its statement that the sphinx IS 345 and statue IS 346 come from the temple agrees with Table V (could have failed)"
+      tested_by: "Stratah dig agent (not independent of the dig)"
+      gaps: ["Hope Parker 2022, on which its dating rests, was not opened", "The monographs it cites for the field data (Tallet 2012, 2015, 2018) not opened"]
+      next_step: "Open Parker 2022 (Aegypten und Levante 32)."
+      checked: 2026-10-16
+
+  - id: src-diez-2024
+    title: "P. Diez, 'Sinai 357 reconsiderado / Sinai 357 Reconsidered', Aula Orientalis 42/1 (2024), 21-39 (in Spanish, with an English abstract)"
+    url: https://ub.edu/ipoa/wp-content/uploads/2024/06/20241AuOrDiez.pdf
+    document_class: "interpretive: a review of published translations of Sinai 357 and the author's own reading (a claim); includes the author's account of the sources for the text (original in situ, plaster cast, photographs)."
+    read: "yes, directly: whole article read (PDF sha256 da859f5f47064c907f45ee3f22af9ee5cab9222e84714a973b2c14b6aa593b31); the translation tables for Albright, Rainey and Wilson-Wright and the author's own reading read. Translated from Spanish by the dig agent."
+    funding_and_control: "Author affiliation: Facultad de teologia San Isidoro de Sevilla (printed). No funder named in the pages read."
+    funding_next_step: "Read the journal's front matter. Task only."
+    authenticity:
+      status: authenticated
+      strength: moderate
+      provenance: "Hosted at the University of Barcelona (ub.edu/ipoa) institute site; journal ISSN given."
+      tests:
+        - "Its table of Albright's reading of 357 (ox-head start; 'Shaphan'; eight minas) agrees with Albright 1966 pp. 23-24 in the vertical and horizontal lines (could have failed); its 'Apiru' completion for the last word does not match Albright 1966, which has 'car[avaneers (?)]' (a discrepancy; the table may give Albright 1948; not resolved)"
+        - "Its summary of Wilson-Wright 2016 (vow to Tessob) matches Wilson-Wright 2026 and the JAOS abstract (could have failed)"
+      tested_by: "Stratah dig agent (not independent of the dig)"
+      gaps: ["Does not discuss Bar-Ron", "Favours one reading (Wilson-Wright's, with one sign changed)"]
+      next_step: "Open Rainey 1975 and Beit-Arieh 1978 for the second reading."
+      checked: 2026-10-16
+
+  - id: src-isf-lundberg-list
+    title: "M. J. Lundberg, 'Early Alphabetic Inscriptions' (3-page list of text numbers, descriptive titles and 'Location of Original', file dated 2023-05-03), hosted by USC Dornsife"
+    url: https://dornsife.usc.edu/wsrp-temp/wp-content/uploads/sites/155/2023/05/Early-Alphabetic-Inscriptions.pdf
+    document_class: "a database listing (an index of holders, not an edition). Not primary data."
+    read: "yes, directly in session 1 (sha256 f54df77ec646b354081a643af0a45bd07198081a34f79a2ae008073d1db7ef82); not re-opened in session 2"
+    funding_and_control: "Hosted on the USC Dornsife site under a path 'wsrp-temp'. The file states no funder."
+    funding_next_step: "Read the West Semitic Research Project's about page. Task only."
+    authenticity:
+      status: unchecked
+      next_step: "Open the InscriptiFact record for Sinai 345 and the museum registers."
+      checked: 2026-10-14
+    notes: "Lists 'Location of Original' as Cairo Museum for most of Sinai 346 to 375, Musees Royaux Brussels for 347 and 347a, Harvard Semitic Museum for 375a to 375c."
+
+  - id: src-natgeo-moss-2025
+    title: "C. Moss, 'Do these ancient Egyptian inscriptions mention Moses by name?', National Geographic, published 7 August 2025"
+    url: https://www.nationalgeographic.com/history/article/ancient-egypt-inscription-bible-moses-serabit-el-khadim
+    document_class: "secondary_report: journalism about a claim. Not primary data."
+    read: "yes, directly in session 2: the page text was fetched (HTML sha256 3a0edf481c5d3f780afb12d8a91b0a8f78f3cb1a533acd8732307f9518e0c39d) and read. In session 1 only a tool summary had been seen; the quotations used now come from the page text."
+    funding_and_control: "National Geographic page; no funding statement on the page text read."
+    funding_next_step: "Read the publisher's about and ownership pages. Task only."
+    authenticity:
+      status: unchecked
+      next_step: "Compare with Bar-Ron's thesis when it can be opened."
+      checked: 2026-10-16
+
+  - id: src-bar-ron-2025
+    title: "M. S. Bar-Ron, 'Presenting Critical Readings of 22 Complex P-S Inscriptions across Five Proposed Clades, the Stele of Reniseneb, a Seal of an Asiatic Egyptian High Official and Their Implication for Early Biblical Traditions: A Proto-Thesis Summarizing Eight Years of Critical Proto-Sinaitic Research' (unpublished, posted on Academia.edu, 20 May 2025 per Wilson-Wright 2026)"
+    url: https://www.academia.edu/129465676/Proto_Thesis_Presenting_Critical_Readings_of_22_Complex_P_S_Inscriptions_Across_Five_Proposed_Clades_the_Stele_of_Reniseneb_a_Seal_of_an_Asiatic_Egyptian_High_Official_and_Their_Implications_for_Early_Biblical_Traditions
+    read: "no. BLOCKED: HTTP 403 Forbidden on the Academia.edu page (fetched 2026-10-16); the author's profile page also HTTP 403. Not bypassed."
+    funding_and_control: "The National Geographic page names Ariel University for the author (graduate student); no funding read. A fundraising page appeared in a search result and was not opened."
+    funding_next_step: "Open the thesis acknowledgements if an open copy exists."
+    authenticity: {status: unchecked, next_step: "Obtain an open copy; read pp. 63-78 (Sinai 357, 361) and compare with photographs."}
+
+  - id: src-bm-ea41748
+    title: "British Museum collection record, EA 41748 (sphinx, Serabit el-Khadim)"
+    url: https://www.britishmuseum.org/collection/object/Y_EA41748
+    read: "no. BLOCKED: HTTP 403 Forbidden on two tools (curl and WebFetch), 2026-10-16. Not bypassed."
+    authenticity: {status: unchecked, next_step: "Open in a browser; record accession, description, date, find circumstances and photograph licence."}
+
+  - id: src-philarchive-sinai-357
+    title: "A. M. Wilson-Wright, 'Sinai 357: A Northwest Semitic Votive Inscription to Tessob', Journal of the American Oriental Society 136/2 (2016), 247-263; journal page with the author's abstract (https://www.lockwoodonlinejournals.com/index.php/jaos/article/view/1407)"
+    url: https://www.lockwoodonlinejournals.com/index.php/jaos/article/view/1407
+    document_class: "interpretive: the author's abstract on the journal page (the article itself is a claim)"
+    read: "partly: the journal page with the abstract was opened and read (sha256 88a8ed33dc9de5c52b5dce78ea9372ca92fe96fc84635ec7393e302c026b9423, 2026-10-16). The article was not opened; PhilArchive record HTTP 403."
+    funding_and_control: "Journal of the American Oriental Society; no funding read."
+    funding_next_step: "Open the article through a library."
+    authenticity: {status: unchecked, next_step: "Open the JAOS article through a library; compare the photographs of 357 with the in situ photograph in Wilson-Wright 2026."}
+
+  - id: src-mohr-siebeck-ww-sinai345
+    title: "A. M. Wilson-Wright, 'Interpreting the Sinaitic Inscriptions in Context: A New Reading of Sinai 345' (publisher page with abstract, Mohr Siebeck)"
+    url: https://www.mohrsiebeck.com/en/article/interpreting-the-sinaitic-inscriptions-in-context-a-new-reading-of-sinai-345-1-101628219222713x13757034787757
+    document_class: "interpretive: the publisher's abstract only"
+    read: "partly: the publisher page with the abstract was read (sha256 7076ba644eefef6cbf4881bc27efdc0a187058811b6c9e77d5fbc66302b93492); the article was not opened"
+    authenticity: {status: unchecked, next_step: "Open the article."}
+
+  - id: src-inscriptifact
+    title: "InscriptiFact (USC West Semitic Research Project) digital image library of ancient inscriptions"
+    url: http://www.inscriptifact.com/
+    read: "no. The home page opened over http (sha256 2ed217d52c6e7b7bf4a7d6eb01ee167ebe5f71186894813d86d53c210e0e9164) and says the library is a downloadable database with a standalone viewer; the USC digital library folder page needs a script-driven interface. No image of Sinai 345, 346, 349, 351 or 357 was reachable; https was reset by the proxy."
+    authenticity: {status: unchecked, next_step: "Install the InscriptiFact viewer or use it from a browser outside this environment; open the Sinai records."}
+
+  - id: src-eisler-1919
+    title: "R. Eisler, Die kenitischen Weihinschriften der Hyksoszeit im Bergbaugebiet der Sinaihalbinsel und einige andere unerkannte Alphabetdenkmaeler aus der Zeit der XXII. bis XVIII. Dynastie (Freiburg: Herder, 1919)"
+    url: ""
+    read: "no. Searched the Internet Archive and the web; no open copy located. Known only from Haring 2019 and Wilson-Wright 2019 and 2026, who all attribute the m'hb'lt reading of Sinai 345 to it."
+    authenticity: {status: unchecked, next_step: "Look for a library or HathiTrust full view copy."}
+
+  - id: src-butin-lake-blake
+    title: "K. Lake, R. P. Blake and R. F. Butin, 'The Serabit Inscriptions', Harvard Theological Review 21 (1928); R. F. Butin, Harvard Theological Review 25 (1932), 130-203; Butin 1936 (Starr and Butin, Excavations and Protosinaitic Inscriptions at Serabit el-Khadem)"
+    url: ""
+    read: "no. Journal articles are on JSTOR; the 1936 report is a lending-library scan on the Internet Archive (excavationsproto0000star); none opened."
+    authenticity: {status: unchecked, next_step: "Library access; the plates of 357 and 358 and the 1930 and 1935 excavation records."}
+
+  - id: src-darnell-2005
+    title: "J. C. Darnell et al., 'Two Early Alphabetic Inscriptions from the Wadi el-Hol', Annual of the American Schools of Oriental Research 59 (2005), 65-124"
+    url: ""
+    read: "no. Not located as open text; known through Haring 2019, Wilson-Wright 2019 and Tallet and Laisney 2024."
+    authenticity: {status: unchecked, next_step: "Library copy: palaeographic argument and the date for Wadi el-Hol."}
+
+  - id: src-sass-1988
+    title: "B. Sass, The Genesis of the Alphabet and Its Development in the Second Millennium B.C. (Wiesbaden: Harrassowitz, 1988); and Sass 2004-5"
+    url: ""
+    read: "no. In copyright; not located."
+    authenticity: {status: unchecked, next_step: "Library copy: dating chapter and sign table."}
+
+  - id: src-hamilton-2006
+    title: "G. J. Hamilton, The Origins of the West Semitic Alphabet in Egyptian Scripts (Washington: Catholic Biblical Association, 2006)"
+    url: ""
+    read: "no. In copyright; not located."
+    authenticity: {status: unchecked, next_step: "Library copy: palaeographic survey and appendix 1."}
+
+  - id: src-parker-2022
+    title: "H. Parker, 'The Proto-Sinaitic Inscriptions at Serabit el-Khadim in Their Archaeological Context: Date and Function', Aegypten und Levante 32 (2022), 269-311"
+    url: ""
+    read: "no. No open copy found; known through Wilson-Wright 2026 and Tallet and Laisney 2024, who both cite it for a late Middle Kingdom date."
+    authenticity: {status: unchecked, next_step: "Journal or library copy."}
+
+  - id: src-petrovich-2016
+    title: "D. Petrovich, The World's Oldest Alphabet: Hebrew as the Language of the Proto-Consonantal Script (Jerusalem: Carta, 2016)"
+    url: ""
+    read: "no. Not located. Known only from Wilson-Wright 2019 and 2026, who describe it."
+    authenticity: {status: unchecked, next_step: "Library copy: every divine name read at Serabit and Wadi el-Hol."}
+
+  - id: src-dh-claims
+    title: "Dead Hidden YouTube claim line dh-KNhzmEKodZg-22 (handoff file /Users/evan/ancient_writings_db/handoff/serabit-el-khadim-inscriptions.yaml)"
+    url: ""
+    document_class: "speaker claim (caption of a video). Never an anchor; cited only in transmission.yaml."
+    read: "the claim line only, from the handoff; the video and transcript were not watched or read here"
+    authenticity:
+      status: unchecked
+      next_step: "Not needed as evidence."

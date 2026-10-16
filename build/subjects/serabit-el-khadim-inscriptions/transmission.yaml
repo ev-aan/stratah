@@ -1,0 +1,17 @@
+# How the speaker claim about the Serabit el-Khadim inscriptions appeared. Spread is adoption, never evidence (X1).
+subject: serabit-el-khadim-inscriptions
+chains:
+  - id: tx-serabit-dead-hidden
+    about: "serabit-el-khadim-inscriptions:sk-sp-god-yahweh"
+    title: "Where the 'slaves who remembered their god Yahweh' wording appears"
+    confers_weight: false
+    events:
+      - id: tx-sk-01
+        date: "2026-10-14"
+        precision: day
+        step: repetition
+        carrier: "Dead Hidden YouTube video KNhzmEKodZg, claim line dh-KNhzmEKodZg-22, as recorded in the handoff file; the date given is the date the handoff was written, not the upload date"
+        form: "The earliest written example was scratched on the walls of cave mines by slaves who remembered their god Yahweh."
+        source: src-dh-claims
+        read: no
+        note: "Only the claim line was read, from the handoff. The video and transcript were not watched. The speaker's source is unknown. The sentence has no cited date or place in the handoff."
