@@ -54,6 +54,7 @@ sources:
   stored_as: sources/cec-k21-national-results.he.txt
   extract_sha256: 2365ad5291b79af688442adca6f2e100631b14bb67ab3e6c67e6f20c4482bcca
   language: he
+  note: 'Rights: terms not read.'
 - id: src-cec-k22
   title: >-
     Central Elections Committee, 22nd Knesset: national results (marked 'final official results'), election of 17
@@ -104,6 +105,7 @@ sources:
   stored_as: sources/cec-k22-national-results.he.txt
   extract_sha256: d79986a4f99f6d37e6691063a9e5ac6d1b1e9e21605961d0b21fb1e5085e2560
   language: he
+  note: 'Rights: terms not read.'
 - id: src-cec-k23
   title: >-
     Central Elections Committee, 23rd Knesset: national results (marked 'final official results'), election of 2
@@ -153,6 +155,7 @@ sources:
   stored_as: sources/cec-k23-national-results.he.txt
   extract_sha256: 5b73249b08c0bac6df37c65ea775af3b1bda5f04a4d750c993ae2d6761bf2bbc
   language: he
+  note: 'Rights: terms not read.'
 - id: src-cec-k24
   title: >-
     Central Elections Committee, 24th Knesset: national results (marked 'final official results'), election of 23
@@ -202,6 +205,7 @@ sources:
   stored_as: sources/cec-k24-national-results.he.txt
   extract_sha256: 63360870e066d74fb610036be78e9f1aa0c90fe1207da2e497419aa6460d6155
   language: he
+  note: 'Rights: terms not read.'
 - id: src-cec-k25
   title: >-
     Central Elections Committee, 25th Knesset: national results (marked 'final official results'), election of 1
@@ -252,7 +256,7 @@ sources:
   stored_as: sources/cec-k25-national-results.he.txt
   extract_sha256: b4e53dff7fe41792b4626fe504d83b177ebb701e74df7e2b4bcd161250917d5d
   language: he
-  note: The path /nationalresults returns the same bytes as /.
+  note: 'The path /nationalresults returns the same bytes as /. Rights: terms not read.'
 - id: src-pres-37th-gov
   title: >-
     Office of the President of Israel: post titled 'The 37th Government of the State of Israel gathered today for
@@ -299,6 +303,7 @@ sources:
   language: he
   note: >-
     REST record, not the HTML page; the HTML page was read by an earlier uncommitted draft (not in the repository).
+    Rights: terms not read (the President's Office terms page was tried and returned HTTP 404).
 - id: src-pres-pardon-2025-12-01
   title: >-
     Office of the President of Israel (English): 'President Herzog on the Prime Minister's Pardon Request: "I will
@@ -339,6 +344,8 @@ sources:
   stored_as: sources/president-2025-12-01-pardon-statement.en.txt
   extract_sha256: eb51a1fd4de3e7e658364f4fc29272164c6d1e063d6629f8272b700aec31ebb4
   language: en
+  note: >-
+    Rights: terms not read (the President's Office terms page was tried and returned HTTP 404).
 - id: src-pres-pardon-2026-05-13
   title: >-
     Office of the President of Israel (Hebrew): post of 2026-05-13 on the President's remarks at the President's
@@ -379,7 +386,8 @@ sources:
   language: he
   note: >-
     The URL shown is the post's link as given by the REST record; an earlier uncommitted draft (not in the repository)
-    recorded the same post (id 36247).
+    recorded the same post (id 36247). Rights: terms not read (the President's Office terms page was tried and returned
+    HTTP 404).
 - id: src-pres-clemency-page
   title: >-
     Office of the President of Israel (English): 'Presidential Pardons' page (Pardons & Clemency), first part
@@ -407,6 +415,8 @@ sources:
   stored_as: sources/president-clemency-page.en.txt
   extract_sha256: 034d96d2fb04dd3883e385cc3df346af6a0935b68865f0c8512ee6fdcd39d74d
   language: en
+  note: >-
+    Rights: terms not read (the President's Office terms page was tried and returned HTTP 404).
 - id: src-emb-k26-date
   title: >-
     Embassy of Israel in London, announcement 'Elections to the 26th Knesset, 16 Heshvan 5787, 27.10.2026' (Hebrew),
@@ -440,6 +450,7 @@ sources:
   stored_as: sources/embassy-london-k26-election-date.he.txt
   extract_sha256: f451f1283a1c56c5fe1e2be00e109f79a9225ddd2bea2d6fd5fe779e82a4da54
   language: he
+  note: 'Rights: terms not read (the embassies site''s terms page was tried and returned HTTP 404).'
 - id: src-emb-pm-icc-2024
   title: >-
     Embassy of Israel in Kathmandu, news page 'Prime Minister Benjamin Netanyahu Responds to ICC Decision', last
@@ -481,6 +492,7 @@ sources:
   stored_as: sources/embassy-nepal-2024-pm-icc-statement.en.txt
   extract_sha256: 95ccfa79823900f2f3ea7bbd28f3b038ebf1e90bd3e2e97f2748d9e008abde78
   language: en
+  note: 'Rights: terms not read (the embassies site''s terms page was tried and returned HTTP 404).'
 - id: src-govextra-icc
   title: >-
     Government of Israel (govextra.gov.il): 'ICC's Lack of Jurisdiction', page carrying Israeli government statements
@@ -513,6 +525,7 @@ sources:
   stored_as: sources/govextra-icc-position.en.txt
   extract_sha256: 32ca76d6a52274b4fa6483df051349cc18a56955c1ce36e8578f8ce6243574f4
   language: en
+  note: 'Rights: terms not read.'
 - id: src-icc-pr-2024-11-21
   title: >-
     ICC press release, 21 November 2024: Situation in the State of Palestine: ICC Pre-Trial Chamber I rejects the
@@ -557,6 +570,9 @@ sources:
   stored_as: sources/icc-pr-2024-11-21.en.txt
   extract_sha256: 66c1fea2b027b327de22b65fa80fa5a9f8c39ef395c3d9462631d902d150e6b7
   language: en
+  note: >-
+    Rights: terms not read (the Court's terms-of-use page was tried and returned HTTP 404). The stored extract is
+    the text of the public document or, for ICC-01/18-471-Anx1, selected paragraphs.
 - id: src-icc-situation
   title: 'ICC: Situation in the State of Palestine (ICC-01/18), the Court''s situation page'
   author: International Criminal Court
@@ -588,6 +604,9 @@ sources:
   stored_as: sources/icc-situation-palestine.en.txt
   extract_sha256: b46849bef976cac7ead1b770e8db7f6d637cc1dd69252d32f1adb83b39160ef3
   language: en
+  note: >-
+    Rights: terms not read (the Court's terms-of-use page was tried and returned HTTP 404). The stored extract is
+    the text of the public document or, for ICC-01/18-471-Anx1, selected paragraphs.
 - id: src-icc-374
   title: >-
     ICC-01/18-374: Decision on Israel's challenge to the jurisdiction of the Court pursuant to article 19(2) of
@@ -628,6 +647,9 @@ sources:
   stored_as: sources/icc-01-18-374.txt
   extract_sha256: 9093487c53903f030c4f5afec2d9414cf44694f95c5516e885763d89265a5021
   language: en
+  note: >-
+    Rights: terms not read (the Court's terms-of-use page was tried and returned HTTP 404). The stored extract is
+    the text of the public document or, for ICC-01/18-471-Anx1, selected paragraphs.
 - id: src-icc-375
   title: >-
     ICC-01/18-375: Decision on Israel's request for an order to the Prosecution to give an Article 18(1) notice
@@ -667,6 +689,9 @@ sources:
   stored_as: sources/icc-01-18-375.txt
   extract_sha256: be416d270ffbb5332ccad983f17d018b14136e378f0881309e40dcfa73c78af1
   language: en
+  note: >-
+    Rights: terms not read (the Court's terms-of-use page was tried and returned HTTP 404). The stored extract is
+    the text of the public document or, for ICC-01/18-471-Anx1, selected paragraphs.
 - id: src-icc-422
   title: >-
     ICC-01/18-422 (OA2): Judgment on the appeal of the State of Israel against Pre-Trial Chamber I's 'Decision on
@@ -707,6 +732,9 @@ sources:
   stored_as: sources/icc-01-18-422.txt
   extract_sha256: fd6f6146af07fd7375d84c361771579e2ac514f583fbf120ef777438aae4a57b
   language: en
+  note: >-
+    Rights: terms not read (the Court's terms-of-use page was tried and returned HTTP 404). The stored extract is
+    the text of the public document or, for ICC-01/18-471-Anx1, selected paragraphs.
 - id: src-icc-423
   title: >-
     ICC-01/18-423 (OA): Decision on the admissibility of the appeal of the State of Israel against Pre-Trial Chamber
@@ -747,6 +775,9 @@ sources:
   stored_as: sources/icc-01-18-423.txt
   extract_sha256: ffacb6c646902d1a6fe0dde0ff28066dbcaa10779700d53e7dc31884f6adc214
   language: en
+  note: >-
+    Rights: terms not read (the Court's terms-of-use page was tried and returned HTTP 404). The stored extract is
+    the text of the public document or, for ICC-01/18-471-Anx1, selected paragraphs.
 - id: src-icc-425
   title: >-
     ICC-01/18-425: Prosecution's observations regarding the procedure to be followed following the issuance of the
@@ -788,6 +819,9 @@ sources:
   stored_as: sources/icc-01-18-425.txt
   extract_sha256: 5b1d30a9921fd1a0d29bbd372a3c5cd0d1d3e63eb47e2fcb582de06de83fda3d
   language: en
+  note: >-
+    Rights: terms not read (the Court's terms-of-use page was tried and returned HTTP 404). The stored extract is
+    the text of the public document or, for ICC-01/18-471-Anx1, selected paragraphs.
 - id: src-icc-426
   title: >-
     ICC-01/18-426: Request to Have Arrest Warrants Withdrawn or Vacated and Response to Prosecution Observations
@@ -829,6 +863,9 @@ sources:
   stored_as: sources/icc-01-18-426.txt
   extract_sha256: 5be572c2ee4fddb5e4a449cff5855a8ca52230f7ec460f7db65c9338ee44071b
   language: en
+  note: >-
+    Rights: terms not read (the Court's terms-of-use page was tried and returned HTTP 404). The stored extract is
+    the text of the public document or, for ICC-01/18-471-Anx1, selected paragraphs.
 - id: src-icc-428
   title: >-
     ICC-01/18-428: Decision on Israel's 'Request for leave to appeal "Decision on Israel's challenge to the jurisdiction
@@ -869,6 +906,9 @@ sources:
   stored_as: sources/icc-01-18-428.txt
   extract_sha256: 19b453a6954ee659cb3ebaef38eb8b7f37f0d5adc8ee0c8509b6a1d82c63cd6a
   language: en
+  note: >-
+    Rights: terms not read (the Court's terms-of-use page was tried and returned HTTP 404). The stored extract is
+    the text of the public document or, for ICC-01/18-471-Anx1, selected paragraphs.
 - id: src-icc-431
   title: >-
     ICC-01/18-431: Prosecution's response to Israel's 'Request to Have Arrest Warrants Withdrawn or Vacated and
@@ -910,6 +950,9 @@ sources:
   stored_as: sources/icc-01-18-431.txt
   extract_sha256: d29eea2bd55fbc3a4a670f9ae21c5375039bfb48085572ed694370fe1228a60a
   language: en
+  note: >-
+    Rights: terms not read (the Court's terms-of-use page was tried and returned HTTP 404). The stored extract is
+    the text of the public document or, for ICC-01/18-471-Anx1, selected paragraphs.
 - id: src-icc-457
   title: >-
     ICC-01/18-457: Decision on the State of Israel's request to have arrest warrants withdrawn, vacated, or declared
@@ -950,6 +993,9 @@ sources:
   stored_as: sources/icc-01-18-457.txt
   extract_sha256: 1e10c5e76c0997a748ef68fec4833c5e6436a0a7cadc65fc8b6195665e65fb1e
   language: en
+  note: >-
+    Rights: terms not read (the Court's terms-of-use page was tried and returned HTTP 404). The stored extract is
+    the text of the public document or, for ICC-01/18-471-Anx1, selected paragraphs.
 - id: src-icc-462
   title: >-
     ICC-01/18-462: Finding under article 87(7) of the Statute on Hungary's non-compliance with the Court's request
@@ -990,6 +1036,9 @@ sources:
   stored_as: sources/icc-01-18-462.txt
   extract_sha256: 7753ea0b86f1885451da421690ce5218cf9a2743d14889ede400ba23b532c357
   language: en
+  note: >-
+    Rights: terms not read (the Court's terms-of-use page was tried and returned HTTP 404). The stored extract is
+    the text of the public document or, for ICC-01/18-471-Anx1, selected paragraphs.
 - id: src-icc-468
   title: >-
     ICC-01/18-468: Decision on Israel's request for leave to appeal the 'Decision on the State of Israel's request
@@ -1031,6 +1080,9 @@ sources:
   stored_as: sources/icc-01-18-468.txt
   extract_sha256: d42dc97146b69b4ec3f1df5ab00e36f9c04cbfa9f4ecefb7ea30a0caddcdf1c9
   language: en
+  note: >-
+    Rights: terms not read (the Court's terms-of-use page was tried and returned HTTP 404). The stored extract is
+    the text of the public document or, for ICC-01/18-471-Anx1, selected paragraphs.
 - id: src-icc-471-anx1
   title: >-
     ICC-01/18-471-Anx1: Request to Disqualify the Prosecutor and for Ancillary Remedies (public, with public Annex
@@ -1074,7 +1126,9 @@ sources:
   language: en
   note: >-
     Excerpt only: introduction (paras 1 to 5) and conclusion and relief (paras 51 to 53) are stored; paras 6 to
-    50 are not (they relay media reports and allegations about named and unnamed persons who are not parties).
+    50 are not (they relay media reports and allegations about named and unnamed persons who are not parties). Rights:
+    terms not read (the Court's terms-of-use page was tried and returned HTTP 404). The stored extract is the text
+    of the public document or, for ICC-01/18-471-Anx1, selected paragraphs.
 - id: src-icc-481
   title: >-
     ICC-01/18-481 (OA3): Judgment on the appeal of the State of Israel against Pre-Trial Chamber I's 'Decision on
@@ -1115,6 +1169,9 @@ sources:
   stored_as: sources/icc-01-18-481.txt
   extract_sha256: b2570dd5a2a1e23b84f39d2a5975d191bf7ce03455aa6db1934a325787a98575
   language: en
+  note: >-
+    Rights: terms not read (the Court's terms-of-use page was tried and returned HTTP 404). The stored extract is
+    the text of the public document or, for ICC-01/18-471-Anx1, selected paragraphs.
 - id: src-crec-1996-07-10
   title: >-
     Congressional Record (daily edition), 1996-07-10: joint meeting of the Houses to hear an address by Benjamin
@@ -1152,6 +1209,10 @@ sources:
   stored_as: sources/crec-1996-07-10-netanyahu-address.txt
   extract_sha256: 6feba4ab364863d630aaf63622a423163cec60dcad05f1b6f9a9fd7873be5252
   language: en
+  note: >-
+    Rights: publisher policy read (govinfo.gov/about/policies, 2026-10-16): works of the United States Government
+    are in the public domain under 17 U.S.C. 105, and Government publications may contain copyrighted material used
+    with permission. Terms for this issue beyond that policy not read.
 - id: src-crec-2011-05-24
   title: >-
     Congressional Record (daily edition), 2011-05-24: joint meeting of the Houses to hear an address by Benjamin
@@ -1189,6 +1250,10 @@ sources:
   stored_as: sources/crec-2011-05-24-netanyahu-address.txt
   extract_sha256: 3a9a7aa220bb51f99bc5a2de97c5aac57bfa3b3ea83d99fdf1df8386d0f3d904
   language: en
+  note: >-
+    Rights: publisher policy read (govinfo.gov/about/policies, 2026-10-16): works of the United States Government
+    are in the public domain under 17 U.S.C. 105, and Government publications may contain copyrighted material used
+    with permission. Terms for this issue beyond that policy not read.
 - id: src-crec-2015-03-03
   title: >-
     Congressional Record (daily edition), 2015-03-03: joint meeting of the Houses to hear an address by Benjamin
@@ -1226,6 +1291,10 @@ sources:
   stored_as: sources/crec-2015-03-03-netanyahu-address.txt
   extract_sha256: 35d5f971c630fa96252a0f8204c1d64f889aa9474e0b8b3ec392564fee0627e3
   language: en
+  note: >-
+    Rights: publisher policy read (govinfo.gov/about/policies, 2026-10-16): works of the United States Government
+    are in the public domain under 17 U.S.C. 105, and Government publications may contain copyrighted material used
+    with permission. Terms for this issue beyond that policy not read.
 - id: src-crec-2024-07-24
   title: >-
     Congressional Record (daily edition), 2024-07-24: joint meeting of the Houses to hear an address by Benjamin
@@ -1263,6 +1332,10 @@ sources:
   stored_as: sources/crec-2024-07-24-netanyahu-address.txt
   extract_sha256: f551084dcd9af58f60c826dd235a3dd8907f6d7f67c606f3561d2518edd3f72a
   language: en
+  note: >-
+    Rights: publisher policy read (govinfo.gov/about/policies, 2026-10-16): works of the United States Government
+    are in the public domain under 17 U.S.C. 105, and Government publications may contain copyrighted material used
+    with permission. Terms for this issue beyond that policy not read.
 - id: src-un-a64-pv5
   title: >-
     United Nations General Assembly, verbatim record A/64/PV.5 (2009-09-24): address by Mr. Benjamin Netanyahu,
@@ -1302,6 +1375,9 @@ sources:
   stored_as: sources/un-a64-pv5-netanyahu-statement.txt
   extract_sha256: ee7a46bbaa78c00d97d362d1e360902b679b5082d14a8a90abdfe8261bb08828
   language: en
+  note: >-
+    Rights: terms not read (the United Nations documents site's terms page could not be opened from this environment).
+    The stored extract is the statement and its introduction and thanks as printed in the verbatim record.
 - id: src-un-a66-pv19
   title: >-
     United Nations General Assembly, verbatim record A/66/PV.19 (2011-09-23): address by Mr. Benjamin Netanyahu,
@@ -1341,6 +1417,9 @@ sources:
   stored_as: sources/un-a66-pv19-netanyahu-statement.txt
   extract_sha256: c2570fb59d9d00beb3dd788d7714750e03bfa2d5fc4459544788fef096bd323a
   language: en
+  note: >-
+    Rights: terms not read (the United Nations documents site's terms page could not be opened from this environment).
+    The stored extract is the statement and its introduction and thanks as printed in the verbatim record.
 - id: src-un-a67-pv12
   title: >-
     United Nations General Assembly, verbatim record A/67/PV.12 (2012-09-27): address by Mr. Benjamin Netanyahu,
@@ -1378,8 +1457,11 @@ sources:
   raw_sha256: b329a36e8ca094e22440799ff6e90b043c4b01ae3300546f27261040d41c2b8f
   raw_bytes: 674853
   stored_as: sources/un-a67-pv12-netanyahu-statement.txt
-  extract_sha256: b71f679afeb36fdaf4bc83d8898c7f926db42a3cb7b109baba0031ee6bb7d21e
+  extract_sha256: cb3bf32d2bf8191a87e07539905a716ad5854a1d02afd2a1e75f74757582edbc
   language: en
+  note: >-
+    Rights: terms not read (the United Nations documents site's terms page could not be opened from this environment).
+    The stored extract is the statement and its introduction and thanks as printed in the verbatim record.
 - id: src-un-a68-pv23
   title: >-
     United Nations General Assembly, verbatim record A/68/PV.23 (2013-10-01): address by Mr. Benjamin Netanyahu,
@@ -1417,8 +1499,11 @@ sources:
   raw_sha256: 1481a0576ea976d5e83935f1c36901bed0857200ff7fb282fb36127c6c4b82c5
   raw_bytes: 874086
   stored_as: sources/un-a68-pv23-netanyahu-statement.txt
-  extract_sha256: 8eb1329b4812e2f7fa8be47e93fec34658a9bb64346a7124e64cdbaaaacdeab4
+  extract_sha256: 57b514b4c19c9f725d35bcf791d8925873b2f0599352386cf74ac017521341b6
   language: en
+  note: >-
+    Rights: terms not read (the United Nations documents site's terms page could not be opened from this environment).
+    The stored extract is the statement and its introduction and thanks as printed in the verbatim record.
 - id: src-un-a69-pv17
   title: >-
     United Nations General Assembly, verbatim record A/69/PV.17 (2014-09-29): address by Mr. Benjamin Netanyahu,
@@ -1458,6 +1543,9 @@ sources:
   stored_as: sources/un-a69-pv17-netanyahu-statement.txt
   extract_sha256: 1de934b2601c38bb76f8a27d372d33d6782b3b92e4f99ae5a5c8f88f69a28d19
   language: en
+  note: >-
+    Rights: terms not read (the United Nations documents site's terms page could not be opened from this environment).
+    The stored extract is the statement and its introduction and thanks as printed in the verbatim record.
 - id: src-un-a70-pv22
   title: >-
     United Nations General Assembly, verbatim record A/70/PV.22 (2015-10-01): address by Mr. Benjamin Netanyahu,
@@ -1495,8 +1583,11 @@ sources:
   raw_sha256: 51f8d9e8a84a2d7aff1e46b36f25201c78306c815e53817d31a45754379a0eb3
   raw_bytes: 830511
   stored_as: sources/un-a70-pv22-netanyahu-statement.txt
-  extract_sha256: d1bfac98eebaf672696b5bb03c435c5ff5d45666e8a5990e256f630bdee2d3da
+  extract_sha256: d8056ca014f41fdcf7cf98771abab82cb37026a6ee2c2742e79f6702da562d6c
   language: en
+  note: >-
+    Rights: terms not read (the United Nations documents site's terms page could not be opened from this environment).
+    The stored extract is the statement and its introduction and thanks as printed in the verbatim record.
 - id: src-un-a71-pv14
   title: >-
     United Nations General Assembly, verbatim record A/71/PV.14 (2016-09-22): address by Mr. Benjamin Netanyahu,
@@ -1536,6 +1627,9 @@ sources:
   stored_as: sources/un-a71-pv14-netanyahu-statement.txt
   extract_sha256: 7d9a307010ba88a55057cdb9d61990e4ba8a7b611ca9b2d86c22097644f8711e
   language: en
+  note: >-
+    Rights: terms not read (the United Nations documents site's terms page could not be opened from this environment).
+    The stored extract is the statement and its introduction and thanks as printed in the verbatim record.
 - id: src-un-a72-pv4
   title: >-
     United Nations General Assembly, verbatim record A/72/PV.4 (2017-09-19): address by Mr. Benjamin Netanyahu,
@@ -1575,6 +1669,9 @@ sources:
   stored_as: sources/un-a72-pv4-netanyahu-statement.txt
   extract_sha256: 94cff91a42f7122c03a8c6b7dd75c24f600da7789e00ffe3b852c9c2e7406f57
   language: en
+  note: >-
+    Rights: terms not read (the United Nations documents site's terms page could not be opened from this environment).
+    The stored extract is the statement and its introduction and thanks as printed in the verbatim record.
 - id: src-un-a73-pv10
   title: >-
     United Nations General Assembly, verbatim record A/73/PV.10 (2018-09-27): address by Mr. Benjamin Netanyahu,
@@ -1617,6 +1714,9 @@ sources:
   stored_as: sources/un-a73-pv10-netanyahu-statement.txt
   extract_sha256: 08778aa304bcdf4604526d1889ecb1f4dab485fb3e3e7188071584f8fae5b6c7
   language: en
+  note: >-
+    Rights: terms not read (the United Nations documents site's terms page could not be opened from this environment).
+    The stored extract is the statement and its introduction and thanks as printed in the verbatim record.
 - id: src-un-a75-pv14
   title: >-
     United Nations General Assembly, verbatim record A/75/PV.14 (2020-09-29): address by Mr. Benjamin Netanyahu,
@@ -1658,6 +1758,9 @@ sources:
   stored_as: sources/un-a75-pv14-netanyahu-statement.txt
   extract_sha256: b5efeee785b31d1f68386e260bfe8056fda30e7abdc117eea3e6a7e627138eb7
   language: en
+  note: >-
+    Rights: terms not read (the United Nations documents site's terms page could not be opened from this environment).
+    The stored extract is the statement and its introduction and thanks as printed in the verbatim record.
 - id: src-un-a78-pv10
   title: >-
     United Nations General Assembly, verbatim record A/78/PV.10 (2023-09-22): address by Mr. Benjamin Netanyahu,
@@ -1697,6 +1800,9 @@ sources:
   stored_as: sources/un-a78-pv10-netanyahu-statement.txt
   extract_sha256: 748d5916dda96a11879888432b5887398b2c3b6066900b3748e6e11ca9f85697
   language: en
+  note: >-
+    Rights: terms not read (the United Nations documents site's terms page could not be opened from this environment).
+    The stored extract is the statement and its introduction and thanks as printed in the verbatim record.
 - id: src-un-a79-pv13
   title: >-
     United Nations General Assembly, verbatim record A/79/PV.13 (2024-09-27): address by Mr. Benjamin Netanyahu,
@@ -1736,6 +1842,9 @@ sources:
   stored_as: sources/un-a79-pv13-netanyahu-statement.txt
   extract_sha256: 10badf6d1348e00e5a504cf4f6ebf34248463392a216f23e0f9ec55d2aa1e342
   language: en
+  note: >-
+    Rights: terms not read (the United Nations documents site's terms page could not be opened from this environment).
+    The stored extract is the statement and its introduction and thanks as printed in the verbatim record.
 - id: src-mev-pm-residences-2024
   title: >-
     State Comptroller of Israel, Special Report (April 2024): Prime Minister's Office: The Construction and Protection
@@ -1768,8 +1877,9 @@ sources:
       This is the English abstract (20 pages), not the full Hebrew report. Charts (page 17 table of Balfour renovation,
       page 18 chart of expenses by residence) are images and were not read as text.
     - >-
-      One origin (the State Comptroller); the Prime Minister's Office responses to the audit are not reproduced
-      in the abstract except where quoted in it.
+      One origin (the State Comptroller); the abstract quotes the Prime Minister's Office's responses of February
+      2024 on the wartime suitability of the Azza Street residence and on the timing of the audit end, and does
+      not reproduce the Office's response to the audit as a whole.
     - >-
       The report states findings and recommendations that are not reproduced in the claims except as quoted.
     - >-
@@ -1784,6 +1894,11 @@ sources:
   stored_as: sources/mevaker-2024-04-pm-residences-abstract.en.txt
   extract_sha256: a59b3892a3a6754a9bbefc98459c71f5c4d415980094d0cb6dfbca7489320c28
   language: en
+  note: >-
+    Rights: publisher terms read (mevaker.gov.il/en/terms-of-use, 2026-10-16): State Comptroller reports may be
+    copied and circulated free of charge for any purpose, in full or in complete sections, noting that it is a State
+    Comptroller report and its date, without changes other than technical ones. The stored extract is a plain-text
+    conversion of the whole abstract.
 - id: src-mev-gov-structure-2026
   title: >-
     State Comptroller of Israel, Special Report 75C (May 2026): The Structure of the Government in Israel: Changes
@@ -1820,6 +1935,11 @@ sources:
   stored_as: sources/mevaker-2026-05-government-structure-abstract.en.txt
   extract_sha256: 90ac9eb687027621217806be44761b9966e0553e04fd1a3cd1de63099fa4d648
   language: en
+  note: >-
+    Rights: publisher terms read (mevaker.gov.il/en/terms-of-use, 2026-10-16): State Comptroller reports may be
+    copied and circulated free of charge for any purpose, in full or in complete sections, noting that it is a State
+    Comptroller report and its date, without changes other than technical ones. The stored extract is a plain-text
+    conversion of the whole abstract.
 - id: src-crs-r44245-v147
   title: >-
     Congressional Research Service, Report R44245, 'Israel: Major Issues and U.S. Relations', updated July 2, 2026
@@ -1860,6 +1980,11 @@ sources:
   stored_as: sources/crs-r44245-v147-excerpt.txt
   extract_sha256: 9fad2077bd4261499f99f2186c9d7322f51f445e79664504bc3db3035a35deca
   language: en
+  note: >-
+    Rights: the document's own disclaimer, read, says CRS Reports are works of the United States Government, not
+    subject to copyright in the United States, and may be reproduced in their entirety; it adds that a report may
+    include third-party copyrighted material. A publisher terms page was not read. Only an excerpt (R44245) or the
+    full text (IN11068, whose table quotes text it attributes to a newspaper) is stored.
 - id: src-crs-r44245-v66
   title: >-
     Congressional Research Service, Report R44245, 'Israel: Background and U.S. Relations in Brief', updated December
@@ -1893,8 +2018,13 @@ sources:
   raw_sha256: 5edc1d70a090e58534b2f92f770aa0447c423444126414a350a82825d7cd39d3
   raw_bytes: 1436815
   stored_as: sources/crs-r44245-v66-excerpt.txt
-  extract_sha256: 66a1a4d1c89ec60dd4fbea6ce1208e49dbc9068c8da072c998cb463538878cac
+  extract_sha256: 1017bddf6a694139af0df432a08208a6027b9a055341236ef41c4f05a685e940
   language: en
+  note: >-
+    Rights: the document's own disclaimer, read, says CRS Reports are works of the United States Government, not
+    subject to copyright in the United States, and may be reproduced in their entirety; it adds that a report may
+    include third-party copyrighted material. A publisher terms page was not read. Only an excerpt (R44245) or the
+    full text (IN11068, whose table quotes text it attributes to a newspaper) is stored.
 - id: src-crs-in11068
   title: >-
     Congressional Research Service, Insight IN11068 v1, 'Israel: April 2019 Elections and Probable Indictments Against
@@ -1939,6 +2069,11 @@ sources:
   stored_as: sources/crs-in11068-v1.txt
   extract_sha256: 8ed352a60f7bc641157776a091a8afceb425e2e8545f88092ba766b403202a43
   language: en
+  note: >-
+    Rights: the document's own disclaimer, read, says CRS Reports are works of the United States Government, not
+    subject to copyright in the United States, and may be reproduced in their entirety; it adds that a report may
+    include third-party copyrighted material. A publisher terms page was not read. Only an excerpt (R44245) or the
+    full text (IN11068, whose table quotes text it attributes to a newspaper) is stored.
 - id: src-versa-hcj-3132-15
   title: >-
     Cardozo Law Israeli Supreme Court Project (Versa): HCJ 3132/15 Yesh Atid Party v. Prime Minister, decided April
@@ -1977,7 +2112,11 @@ sources:
   language: en
   derived_from:
   - supreme-court-of-israel-hcj-3132-15 (original, not read)
-  note: Page excerpt; the full page is about 266 KB of HTML.
+  note: >-
+    Page excerpt; the full page is about 266 KB of HTML. Rights: terms not read (the project's terms page refers
+    to the terms of Yeshiva University, which were not opened). The page footer prints a copyright line for the
+    Benjamin N. Cardozo School of Law, and the page says the translation is not an official document. Only an excerpt
+    is stored.
 - id: tr-hebrew-glosses
   title: >-
     English renderings of Hebrew text, written by the builder (a language model) for claims.yaml

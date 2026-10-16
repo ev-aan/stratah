@@ -71,24 +71,28 @@ np-crs-2019-case-4000: 4 passages
     crs-in11068-v1.txt  (46 chars)
     crs-in11068-v1.txt  (207 chars)
     crs-in11068-v1.txt  (53 chars)
-np-crs-2019-11-ag-decision: 2 passages
-    crs-r44245-v66-excerpt.txt  (139 chars)
-    crs-r44245-v66-excerpt.txt  (66 chars)
+np-crs-2019-11-ag-decision: 5 passages
+    crs-r44245-v66-excerpt.txt  (65 chars)
+    crs-r44245-v66-excerpt.txt  (67 chars)
+    crs-r44245-v66-excerpt.txt  (151 chars)
+    crs-r44245-v66-excerpt.txt  (219 chars)
+    crs-r44245-v66-excerpt.txt  (65 chars)
 np-crs-2026-trial-and-pardon-application: 5 passages
     crs-r44245-v147-excerpt.txt  (114 chars)
     crs-r44245-v147-excerpt.txt  (121 chars)
     crs-r44245-v147-excerpt.txt  (178 chars)
     crs-r44245-v147-excerpt.txt  (301 chars)
     crs-r44245-v147-excerpt.txt  (123 chars)
-np-pres-clemency-policy: 2 passages
-    president-clemency-page.en.txt  (127 chars)
-    president-clemency-page.en.txt  (142 chars)
 np-pres-pardon-statement-2025-12-01: 1 passages
     president-2025-12-01-pardon-statement.en.txt  (361 chars)
 np-pres-pardon-remarks-2026-05-13: 3 passages
     president-2026-05-13-pardon-remarks.he.txt  (69 chars)
     president-2026-05-13-pardon-remarks.he.txt  (13 chars)
     president-2026-05-13-pardon-remarks.he.txt  (11 chars)
+np-pres-clemency-policy: 3 passages
+    president-clemency-page.en.txt  (127 chars)
+    president-clemency-page.en.txt  (142 chars)
+    crs-r44245-v147-excerpt.txt  (178 chars)
 np-icc-press-release-2024-11-21: 7 passages
     icc-pr-2024-11-21.en.txt  (76 chars)
     icc-pr-2024-11-21.en.txt  (80 chars)
@@ -114,12 +118,13 @@ np-icc-374-art19-decision: 4 passages
     icc-01-18-374.txt  (163 chars)
 np-icc-375-art18-decision: 1 passages
     icc-01-18-375.txt  (340 chars)
-np-icc-422-appeals-judgment: 5 passages
+np-icc-422-appeals-judgment: 6 passages
     icc-01-18-422.txt  (222 chars)
     icc-01-18-422.txt  (123 chars)
     icc-01-18-422.txt  (167 chars)
     icc-01-18-422.txt  (235 chars)
     icc-01-18-422.txt  (129 chars)
+    icc-01-18-422.txt  (168 chars)
 np-icc-423-art18-appeal-inadmissible: 3 passages
     icc-01-18-423.txt  (578 chars)
     icc-01-18-423.txt  (106 chars)
@@ -167,10 +172,8 @@ np-pm-statement-2021-02-05: 3 passages
     govextra-icc-position.en.txt  (53 chars)
     govextra-icc-position.en.txt  (259 chars)
     govextra-icc-position.en.txt  (60 chars)
-np-pm-statement-icc-2024: 4 passages
+np-pm-statement-icc-2024: 2 passages
     embassy-nepal-2024-pm-icc-statement.en.txt  (253 chars)
-    embassy-nepal-2024-pm-icc-statement.en.txt  (352 chars)
-    embassy-nepal-2024-pm-icc-statement.en.txt  (73 chars)
     embassy-nepal-2024-pm-icc-statement.en.txt  (122 chars)
 np-stmt-congress-1996: 5 passages
     crec-1996-07-10-netanyahu-address.txt  (200 chars)
@@ -207,7 +210,7 @@ np-stmt-unga-2011: 4 passages
     un-a66-pv19-netanyahu-statement.txt  (92 chars)
     un-a66-pv19-netanyahu-statement.txt  (92 chars)
 np-stmt-unga-2012: 4 passages
-    un-a67-pv12-netanyahu-statement.txt  (256 chars)
+    un-a67-pv12-netanyahu-statement.txt  (252 chars)
     un-a67-pv12-netanyahu-statement.txt  (127 chars)
     un-a67-pv12-netanyahu-statement.txt  (92 chars)
     un-a67-pv12-netanyahu-statement.txt  (92 chars)
@@ -264,14 +267,25 @@ np-fin-residences-bennett-lapid-total: 4 passages
     mevaker-2024-04-pm-residences-abstract.en.txt  (276 chars)
     mevaker-2024-04-pm-residences-abstract.en.txt  (86 chars)
     mevaker-2024-04-pm-residences-abstract.en.txt  (156 chars)
-np-fin-caesarea-works-2018-2019: 3 passages
+np-fin-caesarea-works-2018-2019: 5 passages
     mevaker-2024-04-pm-residences-abstract.en.txt  (144 chars)
     mevaker-2024-04-pm-residences-abstract.en.txt  (377 chars)
-    mevaker-2024-04-pm-residences-abstract.en.txt  (188 chars)
-np-fin-azza-street-contract: 3 passages
+    mevaker-2024-04-pm-residences-abstract.en.txt  (475 chars)
+    mevaker-2024-04-pm-residences-abstract.en.txt  (226 chars)
+    mevaker-2024-04-pm-residences-abstract.en.txt  (370 chars)
+np-fin-azza-street-contract: 5 passages
     mevaker-2024-04-pm-residences-abstract.en.txt  (365 chars)
     mevaker-2024-04-pm-residences-abstract.en.txt  (293 chars)
     mevaker-2024-04-pm-residences-abstract.en.txt  (320 chars)
+    mevaker-2024-04-pm-residences-abstract.en.txt  (167 chars)
+    mevaker-2024-04-pm-residences-abstract.en.txt  (177 chars)
+np-fin-azza-wartime-suitability: 6 passages
+    mevaker-2024-04-pm-residences-abstract.en.txt  (339 chars)
+    mevaker-2024-04-pm-residences-abstract.en.txt  (122 chars)
+    mevaker-2024-04-pm-residences-abstract.en.txt  (160 chars)
+    mevaker-2024-04-pm-residences-abstract.en.txt  (240 chars)
+    mevaker-2024-04-pm-residences-abstract.en.txt  (111 chars)
+    mevaker-2024-04-pm-residences-abstract.en.txt  (324 chars)
 np-fin-caesarea-security-measures-unlawful: 3 passages
     mevaker-2024-04-pm-residences-abstract.en.txt  (525 chars)
     mevaker-2024-04-pm-residences-abstract.en.txt  (135 chars)
@@ -292,4 +306,4 @@ np-gap-icc-later-record: 0 passages
 np-gap-statements-coverage: 0 passages
 np-gap-financial-disclosures: 0 passages
 
-TOTAL: 223 passages in 67 claims.
+TOTAL: 236 passages in 68 claims.

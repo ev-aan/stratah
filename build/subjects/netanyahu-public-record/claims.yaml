@@ -1,20 +1,20 @@
-# netanyahu-public-record: built 2026-10-16 by the builder agent from sources opened and read in that session (Stage 2 of the person-profile pilot).
+# netanyahu-public-record: built 2026-10-16 by the builder agent from sources opened and read in that session (Stage 2 of the person-profile pilot). Fix round of 2026-10-16 applied (log L-14 onward).
 # Strictly descriptive: each claim says what one document says, with issuer and date. No commentary, motive or evaluation. An accusation is not a finding.
 # No `assessment:` block: the assessment (N23) requires a yes/no-type answer and a descriptive subject has none; this is listed as an owner decision, not invented.
 # adoption_weight 3 on every claim is a stated placeholder (the field is required; record facts have no adoption count).
 # The author does not write review.yaml and has not.
 
 subject: netanyahu-public-record
-title: 'Benjamin Netanyahu: public record and public-cost data from primary documents'
+title: 'Benjamin Netanyahu: public record and public-cost data'
 question: >-
-  What do primary public documents say about Benjamin Netanyahu's offices, election results, court records, own
-  recorded statements and the public cost of the residences used by Prime Ministers?
+  What do public documents say about Benjamin Netanyahu's offices, election results, court records, own recorded
+  statements and the public cost of the residences used by Prime Ministers?
 dig_status: open
 headline: 'Benjamin Netanyahu: offices, elections, court records, statements and public costs'
 headline_status: draft
 as_of: '2026-10-16'
 search_summary: >-
-  What do primary documents say about Benjamin Netanyahu's offices, election results, court records, own statements
+  What do public documents say about Benjamin Netanyahu's offices, election results, court records, own statements
   and the public cost of the residences used by Prime Ministers? This page lists what each document says, with its
   date, issuer and place, and states which documents could not be read: the Knesset's records, the Israeli courts'
   records and his personal financial disclosures.
@@ -24,9 +24,10 @@ description: >-
   of government), the International Criminal Court's press release, decisions, judgments and party filings in the
   Situation in the State of Palestine, the President of Israel's office, the U.S. Congressional Record and UN General
   Assembly verbatim records for his addresses, and Congressional Research Service reports for the criminal case,
-  which could not be read from Israeli sources. Every claim says what one document says, with its date. The page
-  makes no assessment of the person, gives no motive and draws no conclusion from any figure. Where a record could
-  not be opened, the page says so as a coverage fact.
+  which are secondary accounts used because the Israeli sources could not be read. Most other documents are primary
+  records; the Hebrew-language ones were read by the builder, not by a Hebrew reader. Every claim says what one
+  document says, with its date. The page makes no assessment of the person, gives no motive and draws no conclusion
+  from any figure. Where a record could not be opened, the page says so as a coverage fact.
 divergence_note: >-
   This page does not measure what people believe about him and takes no position on any characterisation of him.
   Where two documents give different accounts of the same matter (the Court and Israel on jurisdiction; the Prosecution
@@ -44,8 +45,9 @@ claims:
     gives 6,339,729 eligible voters, 4,340,253 votes cast (turnout 68.46%), 4,309,270 valid votes and 30,983 invalid
     votes, across 43 lists. The list named "הליכוד בהנהגת בנימין נתניהו לראשות הממשלה" (builder's gloss: "The Likud,
     led by Benjamin Netanyahu, for Prime Minister") has 35 seats, 26.46% of valid votes and 1,140,370 valid votes.
-    The page's other list with the highest seat count is "כחול לבן בראשות בני גנץ ויאיר לפיד" (builder's gloss:
-    "Blue and White, headed by Benny Gantz and Yair Lapid"), 35 seats, 26.13% of valid votes, 1,125,881 valid votes.
+    The largest other list on the page by seats is "כחול לבן בראשות בני גנץ ויאיר לפיד" (builder's gloss: "Blue
+    and White, headed by Benny Gantz and Yair Lapid"), with 35 seats, 26.13% of valid votes and 1,125,881 valid
+    votes; that is the same number of seats as the list named above (35).
   evidence_class: primary_text
   confidence: high
   statement_kind: reported
@@ -69,7 +71,6 @@ claims:
       to 26.46%.
     sources:
     - src-cec-k21
-    - tr-hebrew-glosses
     accessible: true
   basis: >-
     # V: committee page read; arithmetic checked; no second origin read. The statement is about the list as the
@@ -84,9 +85,9 @@ claims:
     results"), gives 6,394,030 eligible voters, 4,465,168 votes cast (turnout 69.83%), 4,436,806 valid votes and
     28,362 invalid votes, across 32 lists. The list named "הליכוד בהנהגת בנימין נתניהו לראשות הממשלה" (builder's
     gloss: "The Likud, led by Benjamin Netanyahu, for Prime Minister") has 32 seats, 25.10% of valid votes and 1,113,617
-    valid votes. The page's other list with the highest seat count is "כחול לבן - בראשות בני גנץ ויאיר לפיד" (builder's
-    gloss: "Blue and White, headed by Benny Gantz and Yair Lapid"), 33 seats, 25.95% of valid votes, 1,151,214 valid
-    votes.
+    valid votes. The largest other list on the page by seats is "כחול לבן - בראשות בני גנץ ויאיר לפיד" (builder's
+    gloss: "Blue and White, headed by Benny Gantz and Yair Lapid"), with 33 seats, 25.95% of valid votes and 1,151,214
+    valid votes; that is more seats than the list named above (32).
   evidence_class: primary_text
   confidence: high
   statement_kind: reported
@@ -110,7 +111,6 @@ claims:
       recomputes to 25.10%.
     sources:
     - src-cec-k22
-    - tr-hebrew-glosses
     accessible: true
   basis: >-
     # V: committee page read; arithmetic checked; no second origin read. The statement is about the list as the
@@ -124,9 +124,10 @@ claims:
     national-results page, marked "תוצאות סופיות רשמיות" (builder's gloss: "final official results"), gives 6,453,255
     eligible voters, 4,615,135 votes cast (turnout 71.52%), 4,590,062 valid votes and 25,073 invalid votes, across
     30 lists. The list named "הליכוד בהנהגת בנימין נתניהו לראשות הממשלה" (builder's gloss: "The Likud, led by Benjamin
-    Netanyahu, for Prime Minister") has 36 seats, 29.46% of valid votes and 1,352,449 valid votes. The page's other
-    list with the highest seat count is "כחול לבן בראשות בני גנץ" (builder's gloss: "Blue and White, headed by Benny
-    Gantz"), 33 seats, 26.59% of valid votes, 1,220,381 valid votes.
+    Netanyahu, for Prime Minister") has 36 seats, 29.46% of valid votes and 1,352,449 valid votes. The largest other
+    list on the page by seats is "כחול לבן בראשות בני גנץ" (builder's gloss: "Blue and White, headed by Benny Gantz"),
+    with 33 seats, 26.59% of valid votes and 1,220,381 valid votes; that is fewer seats than the list named above
+    (36).
   evidence_class: primary_text
   confidence: high
   statement_kind: reported
@@ -150,7 +151,6 @@ claims:
       29.46%.
     sources:
     - src-cec-k23
-    - tr-hebrew-glosses
     accessible: true
   basis: >-
     # V: committee page read; arithmetic checked; no second origin read. The statement is about the list as the
@@ -165,8 +165,9 @@ claims:
     gives 6,578,084 eligible voters, 4,436,365 votes cast (turnout 67.44%), 4,410,052 valid votes and 26,313 invalid
     votes, across 39 lists. The list named "הליכוד בהנהגת בנימין נתניהו לראשות הממשלה" (builder's gloss: "The Likud,
     led by Benjamin Netanyahu, for Prime Minister") has 30 seats, 24.19% of valid votes and 1,066,892 valid votes.
-    The page's other list with the highest seat count is "יש עתיד בראשות יאיר לפיד" (builder's gloss: "Yesh Atid,
-    headed by Yair Lapid"), 17 seats, 13.93% of valid votes, 614,112 valid votes.
+    The largest other list on the page by seats is "יש עתיד בראשות יאיר לפיד" (builder's gloss: "Yesh Atid, headed
+    by Yair Lapid"), with 17 seats, 13.93% of valid votes and 614,112 valid votes; that is fewer seats than the
+    list named above (30).
   evidence_class: primary_text
   confidence: high
   statement_kind: reported
@@ -190,7 +191,6 @@ claims:
       24.19%.
     sources:
     - src-cec-k24
-    - tr-hebrew-glosses
     accessible: true
   basis: >-
     # V: committee page read; arithmetic checked; no second origin read. The statement is about the list as the
@@ -205,8 +205,9 @@ claims:
     gives 6,788,804 eligible voters, 4,794,593 votes cast (turnout 70.63%), 4,764,742 valid votes and 29,851 invalid
     votes, across 40 lists. The list named "הליכוד בהנהגת בנימין נתניהו לראשות הממשלה" (builder's gloss: "The Likud,
     led by Benjamin Netanyahu, for Prime Minister") has 32 seats, 23.41% of valid votes and 1,115,336 valid votes.
-    The page's other list with the highest seat count is "יש עתיד בראשות יאיר לפיד לראשות הממשלה" (builder's gloss:
-    "Yesh Atid, headed by Yair Lapid, for Prime Minister"), 24 seats, 17.79% of valid votes, 847,435 valid votes.
+    The largest other list on the page by seats is "יש עתיד בראשות יאיר לפיד לראשות הממשלה" (builder's gloss: "Yesh
+    Atid, headed by Yair Lapid, for Prime Minister"), with 24 seats, 17.79% of valid votes and 847,435 valid votes;
+    that is fewer seats than the list named above (32).
   evidence_class: primary_text
   confidence: high
   statement_kind: reported
@@ -230,7 +231,6 @@ claims:
       recomputes to 23.41%.
     sources:
     - src-cec-k25
-    - tr-hebrew-glosses
     accessible: true
   basis: >-
     # V: committee page read; arithmetic checked; no second origin read. The statement is about the list as the
@@ -307,11 +307,12 @@ claims:
       29 December 2022 was a Thursday.
     sources:
     - src-pres-37th-gov
-    - tr-hebrew-glosses
     accessible: true
   basis: >-
     # V: post read; the swearing-in itself is not documented by a Knesset record here. The claim is about what the
     President's Office states. It does not say what happened in the Knesset on that day beyond what the post says.
+    The English rendering of the Hebrew text is the builder's (a language model) and has not been checked by a Hebrew
+    reader; the Hebrew quoted is as printed.
 - id: np-crs-offices-1996-2026
   state: established
   statement: >-
@@ -331,7 +332,7 @@ claims:
     so 3 is a stated placeholder (open decision for the owner).
   would_change_if: the Knesset's records of his terms and dates of office differing from the CRS statement
   anchor:
-    type: primary_text
+    type: secondary_account
     description: >-
       CRS Report R44245, 'Israel: Major Issues and U.S. Relations', updated July 2, 2026, excerpt read (stored extract;
       section 'Israeli 2026 Elections and Domestic Politics' with its footnotes and Table 1). Read: "Prime Minister
@@ -371,12 +372,12 @@ claims:
       updated 12/08/2026).
     sources:
     - src-emb-k26-date
-    - tr-hebrew-glosses
     accessible: true
   basis: >-
     # V: announcement read. An embassy page is a relayed notice; the Central Elections Committee's own page for
     the 26th Knesset returns HTTP 404 at votes26.bechirot.gov.il and the Ministry of Interior page returns HTTP
-    403. No result for that election exists at the time of retrieval.
+    403. No result for that election exists at the time of retrieval. The English rendering of the Hebrew text is
+    the builder's and has not been checked by a Hebrew reader.
 - id: np-court-hcj-3132-15
   state: proposed
   statement: >-
@@ -425,8 +426,7 @@ claims:
   statement: >-
     CRS Insight IN11068 (6 March 2019) says that Attorney General Avichai Mandelblit expressed his intent, on 28
     February 2019, to indict Netanyahu for bribery, fraud, and breach of trust, and that Netanyahu "called for elections
-    to take place seven months earlier than required by law" (the sentence goes on to give a reason; this page does
-    not reproduce it, because it states a motive).
+    to take place seven months earlier than required by law [...]". The Insight's sentence continues after the cut.
   evidence_class: interpretive
   confidence: moderate
   statement_kind: reported
@@ -439,21 +439,23 @@ claims:
   would_change_if: >-
     the Attorney General's own notice of 28 February 2019 giving a different date or different offences
   anchor:
-    type: primary_text
+    type: secondary_account
     description: >-
       CRS Insight IN11068 v1, 6 March 2019, read in full (stored extract). Read: "These allegations led to Attorney
       General Avichai Mandelblit expressing his intent, on February 28, 2019, to indict Netanyahu for bribery, fraud,
       and breach of trust." and "Prime Minister Binyamin Netanyahu called for elections to take place seven months
-      earlier than required by law" (the rest of that sentence in the Insight gives a reason for the timing; it
-      is not reproduced here)
+      earlier than required by law [...]" (the cut is marked by the ellipsis; the whole sentence is in the stored
+      extract).
     sources:
     - src-crs-in11068
     accessible: true
   basis: >-
     # V: CRS Insight read. A secondary account; the Attorney General's notice was not reachable (gov.il returns
     HTTP 403). An intent to indict is not an indictment; the Insight says so by its title ('Probable Indictments').
-    The Insight's clause giving a reason for the timing of the elections is deliberately not reproduced (rule: no
-    motive is stated on this page).
+    Rule used for quotation from CRS on this page: a sentence is quoted whole, or is cut at a marked ellipsis [...]
+    with the whole sentence kept in the stored extract. Here the cut follows the words that state the date of the
+    elections; the remainder of that sentence is CRS's own explanation of why the elections were called, and it
+    is in the stored extract.
 - id: np-crs-2019-case-1000
   state: established
   statement: >-
@@ -478,7 +480,7 @@ claims:
     the Attorney General's notice or the indictment itself, in English or Hebrew, differing from CRS's description
     or from the newspaper's text of the draft
   anchor:
-    type: primary_text
+    type: secondary_account
     description: >-
       CRS Insight IN11068 v1, Table 1 on page 2, read in the stored extract (pdftotext -raw keeps each table cell
       in order). Cells read for Case 1000: "Netanyahu received gifts from Hollywood mogul Arnon Milchan, in return
@@ -519,7 +521,7 @@ claims:
     the Attorney General's notice or the indictment itself, in English or Hebrew, differing from CRS's description
     or from the newspaper's text of the draft
   anchor:
-    type: primary_text
+    type: secondary_account
     description: >-
       CRS Insight IN11068 v1, Table 1 on page 2, read in the stored extract (pdftotext -raw keeps each table cell
       in order). Cells read for Case 2000: "Netanyahu and Yedioth Ahronoth publisher Arnon Mozes struck a deal:
@@ -560,7 +562,7 @@ claims:
     the Attorney General's notice or the indictment itself, in English or Hebrew, differing from CRS's description
     or from the newspaper's text of the draft
   anchor:
-    type: primary_text
+    type: secondary_account
     description: >-
       CRS Insight IN11068 v1, Table 1 on page 2, read in the stored extract (pdftotext -raw keeps each table cell
       in order). Cells read for Case 4000: "As communication minister, Netanyahu took steps that benefited Shaul
@@ -579,10 +581,13 @@ claims:
 - id: np-crs-2019-11-ag-decision
   state: established
   statement: >-
-    CRS Report R44245 (version of 6 December 2019) says that Israel's attorney general decided in November 2019
-    to indict Prime Minister Binyamin Netanyahu, and that he "is not legally required to do so while his cases remain
-    pending" ("do so" refers, in the sentence, to resigning; the sentence also cites a poll, which this page does
-    not reproduce).
+    CRS Report R44245 (version of 6 December 2019) says in its body text that "The attorney general decided to indict
+    Netanyahu in November 2019", and continues, in CRS's words: "While one public opinion poll indicates that around
+    35% of Israelis [...] believe that he should resign, he is not legally required to do so while his cases remain
+    pending, and his Likud party continues to poll competitively. [...] He has vehemently denied the allegations
+    and vowed to fight them while remaining in office, and the Knesset and Israeli courts may need to resolve the
+    question of possible immunity before criminal proceedings can begin." (the footnote marker after "competitively."
+    is shown as [...]). The report's summary page gives the poll figure as "around one-third of Israelis".
   evidence_class: interpretive
   confidence: moderate
   statement_kind: reported
@@ -594,17 +599,29 @@ claims:
     so 3 is a stated placeholder (open decision for the owner).
   would_change_if: the Attorney General's announcement of November 2019 giving a different decision or date
   anchor:
-    type: primary_text
+    type: secondary_account
     description: >-
-      CRS Report R44245 v66, 6 December 2019, summary excerpt read (stored extract). Read: "corruption allegations
-      against Israeli Prime Minister Binyamin Netanyahu, whom Israel’s attorney general decided to indict in November
-      2019" and "he is not legally required to do so while his cases remain pending"
+      CRS Report R44245 v66, 6 December 2019, summary page and body passage read (stored extract). In the body text
+      the passage runs across a page break and a footnote, whose text is omitted from the quotation and marked [...].
+      Read: "The attorney general decided to indict Netanyahu in November 2019"; "While one public opinion poll
+      indicates that around 35% of Israelis [...] believe that he should resign, he is not legally required to do
+      so while his cases remain pending, and his Likud party continues to poll competitively. [...] He has vehemently
+      denied the allegations and vowed to fight them while remaining in office, and the Knesset and Israeli courts
+      may need to resolve the question of possible immunity before criminal proceedings can begin." (the superscript
+      footnote marker 2 after "competitively." is not reproduced); and on the summary page: "around one-third of
+      Israelis believe that Netanyahu should resign".
     sources:
     - src-crs-r44245-v66
     accessible: true
   basis: >-
-    # V: CRS summary read. A secondary account; the Attorney General's announcement and the indictment were not
-    reachable. The report gives no day of the month in the part read.
+    # V: CRS summary and body text read. A secondary account; the Attorney General's announcement and the indictment
+    were not reachable. The report gives no day of the month in the part read. Rule used for quotation from CRS
+    on this page: a CRS passage is quoted whole, with the denial, counter-statement or qualification that CRS prints
+    in the same passage, or is cut at a marked ellipsis. Correction (log L-15): an earlier version of this claim
+    left out the poll figure, the sentence that he has denied the allegations and the Likud polling clause, and
+    log L-13 recorded that omission; they are now included and L-13 is superseded on this point for this claim.
+    The poll is named only as 'one public opinion poll'; no source is given in the part read (footnote 2 is not
+    stored).
 - id: np-crs-2026-trial-and-pardon-application
   state: established
   statement: >-
@@ -629,7 +646,7 @@ claims:
     the President's Office, the Ministry of Justice or a court publishing a record of the application or of a decision
     on it that differs from the CRS account
   anchor:
-    type: primary_text
+    type: secondary_account
     description: >-
       CRS Report R44245 v147, 2 July 2026, excerpt read (stored extract). Read: "he was indicted in 2019 for fraud,
       breach of trust, and accepting a bribe, and his criminal trial remains ongoing."; "In November 2025, Prime
@@ -648,38 +665,6 @@ claims:
     not read from a primary source. The 'some reports' sentence is CRS's hearsay and is quoted only as such. The
     President's Office statements of 1 December 2025 and 13 May 2026 are separate claims. Whether the trial testimony
     ended in June 2026 (a Times of Israel headline cited in CRS footnote 65) was not read and is not stated here.
-- id: np-pres-clemency-policy
-  state: proposed
-  statement: >-
-    The President of Israel's English 'Presidential Pardons' page states: "According to existing policy, the President
-    considers requests for clemency only after the conclusion of all legal proceedings." and "In general, requests
-    for pardons will not be considered before all legal proceedings related to the subject of the pardon have been
-    completed."
-  evidence_class: primary_text
-  confidence: moderate
-  statement_kind: reported
-  evidential_weight: 3
-  anchor_checked: secondary
-  adoption_weight: 3
-  adoption_note: >-
-    Not measured. The field is required by the validator; for a record fact no poll or count of believers is used,
-    so 3 is a stated placeholder (open decision for the owner).
-  would_change_if: >-
-    the President's Office changing the page, or publishing a different policy or an exception relating to a particular
-    request
-  anchor:
-    type: primary_text
-    description: >-
-      President's Office English page 'Presidential Pardons' (living page), read in the stored extract (first part).
-      Read: "According to existing policy, the President considers requests for clemency only after the conclusion
-      of all legal proceedings." and "In general, requests for pardons will not be considered before all legal proceedings
-      related to the subject of the pardon have been completed.".
-    sources:
-    - src-pres-clemency-page
-    accessible: true
-  basis: >-
-    # V: page read; it is a standing information page, undated and subject to change. It is a general statement
-    of policy, not a statement about any particular request.
 - id: np-pres-pardon-statement-2025-12-01
   state: established
   statement: >-
@@ -742,12 +727,50 @@ claims:
       Minister Benjamin Netanyahu") as the subject of the remarks.
     sources:
     - src-pres-pardon-2026-05-13
-    - tr-hebrew-glosses
     accessible: true
   basis: >-
     # V: post read in Hebrew by the builder; glosses are the builder's and unchecked by a Hebrew reader. The post
     quotes the President; which 'sides' he means is not stated in the sentence quoted and is not interpreted here.
     The full-length video or transcript was not read.
+- id: np-pres-clemency-policy
+  state: proposed
+  statement: >-
+    The President of Israel's English 'Presidential Pardons' page states: "According to existing policy, the President
+    considers requests for clemency only after the conclusion of all legal proceedings." and "In general, requests
+    for pardons will not be considered before all legal proceedings related to the subject of the pardon have been
+    completed." The page, in the part read, states no exception. CRS Report R44245 v147 (np-crs-2026-trial-and-pardon-application)
+    says that "presidential pardons have generally occurred after trial convictions, though Israel’s supreme court
+    permitted a case of pre-trial pardons in the 1980s as an exceptional situation".
+  evidence_class: primary_text
+  confidence: moderate
+  statement_kind: reported
+  evidential_weight: 3
+  anchor_checked: secondary
+  adoption_weight: 3
+  adoption_note: >-
+    Not measured. The field is required by the validator; for a record fact no poll or count of believers is used,
+    so 3 is a stated placeholder (open decision for the owner).
+  would_change_if: >-
+    the President's Office changing the page, or publishing a different policy or an exception relating to a particular
+    request
+  anchor:
+    type: primary_text
+    description: >-
+      President's Office English page 'Presidential Pardons' (living page), read in the stored extract (first part).
+      Read: "According to existing policy, the President considers requests for clemency only after the conclusion
+      of all legal proceedings." and "In general, requests for pardons will not be considered before all legal proceedings
+      related to the subject of the pardon have been completed.". CRS (stored extract) prints: "presidential pardons
+      have generally occurred after trial convictions, though Israel’s supreme court permitted a case of pre-trial
+      pardons in the 1980s as an exceptional situation".
+    sources:
+    - src-pres-clemency-page
+    - src-crs-r44245-v147
+    accessible: true
+  basis: >-
+    # V: page read; it is a standing information page, undated and subject to change. It is a general statement
+    of policy, not a statement about any particular request. The CRS sentence about the 1980s is a secondary account;
+    the court record it refers to was not read. Placed after the President's own statements on the request so that
+    the general policy and the exception CRS reports are read together and not as a comment on the request.
 - id: np-icc-press-release-2024-11-21
   state: established
   statement: >-
@@ -953,7 +976,9 @@ claims:
     as moot". The judgment states that the Pre-Trial Chamber "committed an error of law by failing to sufficiently
     direct itself to the relevant submissions brought before it in respect of the particular legal basis underpinning
     the challenge to the jurisdiction of the Court", and that the Appeals Chamber "is not persuaded that the arrest
-    warrants are based on, or ‘inextricably connected’, to the Impugned Decision".
+    warrants are based on, or ‘inextricably connected’, to the Impugned Decision"; in the same paragraph, after
+    directing the remand, it states that "the Pre-Trial Chamber will also have to determine the effect, if any,
+    of its decision on the warrants of arrest, which were issued separately from the Impugned Decision".
   evidence_class: primary_text
   confidence: high
   statement_kind: reported
@@ -978,7 +1003,8 @@ claims:
       an error of law by failing to sufficiently direct itself to the relevant submissions brought before it in
       respect of the particular legal basis underpinning the challenge to the jurisdiction of the Court"; para.
       66: "the Appeals Chamber is not persuaded that the arrest warrants are based on, or “inextricably connected”,
-      to the Impugned Decision".
+      to the Impugned Decision" and, later in para. 66: "the Pre-Trial Chamber will also have to determine the effect,
+      if any, of its decision on the warrants of arrest, which were issued separately from the Impugned Decision".
     sources:
     - src-icc-422
     accessible: true
@@ -1281,20 +1307,20 @@ claims:
   anchor:
     type: primary_text
     description: >-
-      ICC-01/18-471-Anx1 (22 pages, public with a public Annex A), read in full as a PDF; the stored extract holds
-      the introduction (paras 1 to 5) and the conclusion and relief (paras 51 to 53). Read: para. 2 "combined with
-      information that has now come to light, including as apparently collected by the UN Office of Internal Oversight
-      Services (‘OIOS’) and through abundant media reporting, indicates that the Prosecutor’s impartiality in the
-      conduct of the investigation leading to arrest warrant applications for Prime Minister Benjamin Netanyahu
-      and former Minister of Defense Yoav Gallant might “reasonably be doubted” [...] That information suggests
-      that the Prosecutor’s decision to hurriedly submit arrest warrant applications in May 2024 might have been
-      influenced by a desire to suppress, divert or protect himself from, allegations of serious sexual misconduct.";
-      para. 3 "The doubts concerning the Prosecutor’s impartiality do not depend in any way on the truth or falsity
-      of the sexual misconduct allegations."; para. 53 "Disqualify the Prosecutor pursuant to article 42(7) and
-      (8) of the Statute; or, in the alternative, invite the Prosecutor to disqualify himself pursuant to rule 35
-      of the Rules; b. Declare that the arrest warrants issued against Mr. Netanyahu and Mr. Gallant are of no force
-      or effect;". Signed for Israel by the Office of the Attorney-General of Israel, "Dated this 17 November 2025,
-      At Jerusalem, Israel".
+      ICC-01/18-471-Anx1 (22 pages; the cover reads "Public, With Public Annex A and Confidential Annex B"; the
+      Confidential Annex B was not read), read in full as a PDF; the stored extract holds the introduction (paras
+      1 to 5) and the conclusion and relief (paras 51 to 53). Read: para. 2 "combined with information that has
+      now come to light, including as apparently collected by the UN Office of Internal Oversight Services (‘OIOS’)
+      and through abundant media reporting, indicates that the Prosecutor’s impartiality in the conduct of the investigation
+      leading to arrest warrant applications for Prime Minister Benjamin Netanyahu and former Minister of Defense
+      Yoav Gallant might “reasonably be doubted” [...] That information suggests that the Prosecutor’s decision
+      to hurriedly submit arrest warrant applications in May 2024 might have been influenced by a desire to suppress,
+      divert or protect himself from, allegations of serious sexual misconduct."; para. 3 "The doubts concerning
+      the Prosecutor’s impartiality do not depend in any way on the truth or falsity of the sexual misconduct allegations.";
+      para. 53 "Disqualify the Prosecutor pursuant to article 42(7) and (8) of the Statute; or, in the alternative,
+      invite the Prosecutor to disqualify himself pursuant to rule 35 of the Rules; b. Declare that the arrest warrants
+      issued against Mr. Netanyahu and Mr. Gallant are of no force or effect;". Signed for Israel by the Office
+      of the Attorney-General of Israel, "Dated this 17 November 2025, At Jerusalem, Israel".
     sources:
     - src-icc-471-anx1
     accessible: true
@@ -1414,10 +1440,6 @@ claims:
     Prime Minister Benjamin Netanyahu responding to the ICC decision. It begins "The antisemitic decision of the
     international court in The Hague is a modern Dreyfus trial, and it will end the same way. One hundred and thirty
     years ago, the French Jewish officer Alfred Dreyfus was falsely accused of treason by a biased French court."
-    It says "The decision to issue an arrest warrant against me, the democratically elected prime minister of the
-    State of Israel, and our former defense minister was made by a rogue prosecutor who is trying to extricate himself
-    from sexual harassment charges, and by biased judges who are motivated by anti-Semitic sentiments against the
-    one and only Jewish state." and "Israel does not, Israel will not recognize the validity of this decision."
     It ends "Our enemies are your enemies, and our victory will be your victory, the victory of civilization over
     barbarism and tyranny".
   evidence_class: primary_text
@@ -1437,24 +1459,21 @@ claims:
     description: >-
       Embassy of Israel in Kathmandu, news page (stored extract). Read: "The antisemitic decision of the international
       court in The Hague is a modern Dreyfus trial, and it will end the same way. One hundred and thirty years ago,
-      the French Jewish officer Alfred Dreyfus was falsely accused of treason by a biased French court."; "The decision
-      to issue an arrest warrant against me, the democratically elected prime minister of the State of Israel, and
-      our former defense minister was made by a rogue prosecutor who is trying to extricate himself from sexual
-      harassment charges, and by biased judges who are motivated by anti-Semitic sentiments against the one and
-      only Jewish state."; "Israel does not, Israel will not recognize the validity of this decision."; "Our enemies
+      the French Jewish officer Alfred Dreyfus was falsely accused of treason by a biased French court."; "Our enemies
       are your enemies, and our victory will be your victory, the victory of civilization over barbarism and tyranny".
-      The page prints "Last updated on: 02/12/2024" and "Video: GPO"; it prints no date or place for the statement
-      itself (the page URL ends in 22112024).
+      The rest of the statement is in the stored extract and is not quoted. The page prints "Last updated on: 02/12/2024"
+      and "Video: GPO"; it prints no date or place for the statement itself (the page URL ends in 22112024).
     sources:
     - src-emb-pm-icc-2024
     accessible: true
   basis: >-
-    # V: page read. The quotations are the statement as the page prints it: the first two sentences, the last sentence,
-    and the sentence that refers to the warrant (the latter chosen because it is the one that addresses the decision).
-    The date and place of delivery are not stated by this source. The statement is the Prime Minister's own and
-    is recorded as his; the ICC press release and decisions are the Court's statements. Neither is evidence for
-    the other. The statement's factual assertions (for example about the Prosecutor, food supplied to Gaza, polio
-    vaccination) were not checked here.
+    # V: page read. The quotations follow the selection rule stated for all statements on this page, strictly: the
+    first two sentences and the last sentence of the statement as the page prints it, and nothing from the middle.
+    (An earlier version also quoted two sentences from the middle, one of which refers to the warrant; they are
+    removed by the fix round, log L-16, so that this statement is treated like the others.) The date and place of
+    delivery are not stated by this source. The statement is the Prime Minister's own and is recorded as his; the
+    ICC press release and decisions are the Court's statements. Neither is evidence for the other. The statement's
+    factual assertions were not checked here.
 - id: np-stmt-congress-1996
   state: established
   statement: >-
@@ -1665,9 +1684,10 @@ claims:
     # V: record read as text. Selection rule as for all statements on this page (first two sentences; last sentence
     before closing thanks or stage direction). The title in the claim is the one the President's thanks print for
     this meeting; it differs between years because the record lists his other portfolios when he held them. The
-    claim says what the record prints. It does not say that anything in the statement is true or false. The pdftotext
-    reading order was checked at the opening and closing of each statement against the President's introduction
-    and thanks.
+    claim says what the record prints. It does not say that anything in the statement is true or false. The reading
+    order of every stored United Nations extract was re-checked in the fix round against a column-aware rendering
+    of the PDF (log L-14); the extracts for A/67/PV.12 and A/68/PV.23 were regenerated because the first reading
+    order was wrong for those two-column pages (log L-14).
 - id: np-stmt-unga-2011
   state: established
   statement: >-
@@ -1703,19 +1723,20 @@ claims:
     # V: record read as text. Selection rule as for all statements on this page (first two sentences; last sentence
     before closing thanks or stage direction). The title in the claim is the one the President's thanks print for
     this meeting; it differs between years because the record lists his other portfolios when he held them. The
-    claim says what the record prints. It does not say that anything in the statement is true or false. The pdftotext
-    reading order was checked at the opening and closing of each statement against the President's introduction
-    and thanks.
+    claim says what the record prints. It does not say that anything in the statement is true or false. The reading
+    order of every stored United Nations extract was re-checked in the fix round against a column-aware rendering
+    of the PDF (log L-14); the extracts for A/67/PV.12 and A/68/PV.23 were regenerated because the first reading
+    order was wrong for those two-column pages (log L-14).
 - id: np-stmt-unga-2012
   state: established
   statement: >-
     On 27 September 2012 (Thursday), at the 12th plenary meeting of the General Assembly's 67th session in the General
     Assembly Hall, New York, the verbatim record A/67/PV.12 prints an address by Mr. Benjamin Netanyahu, whom the
     President's thanks in the record describe as "the Prime Minister of the State of Israel". As printed it opens:
-    "It is a pleasure to see the General Assembly presided over by the Ambassador [...] Yet the medieval forces
-    of radical Islam, which the world just saw storming American Embassies throughout the Middle East, oppose that.
-    They seek supremacy over all Muslims." Its last sentence before any thanks or stage direction is: "Let us commit
-    ourselves today to defending those values so that we can defend our freedoms and protect our common civilization."
+    "It is a pleasure to see the General Assembly presided over by the Ambassador [...] from Israel, and it is good
+    to see all of the representatives here. Three thousand years ago, King David reigned over the Jewish State in
+    our eternal capital, Jerusalem." Its last sentence before any thanks or stage direction is: "Let us commit ourselves
+    today to defending those values so that we can defend our freedoms and protect our common civilization."
   evidence_class: primary_text
   confidence: high
   statement_kind: reported
@@ -1730,7 +1751,8 @@ claims:
     type: primary_text
     description: >-
       UN document A/67/PV.12 (Sixty-seventh session 12th plenary meeting Thursday, 27 September 2012, 9 a.m.), PDF
-      from documents.un.org, read as text (pdftotext -raw); stored extract holds the introduction [A], the statement
+      from documents.un.org, read as text (pdftotext with each page cropped into left and right halves, left then
+      right, because the record is printed in two columns); stored extract holds the introduction [A], the statement
       [B] and the President's thanks [C]. Read: "I wish to thank the Prime Minister of the State of Israel for the
       statement he has just made" [...] and the speaker tag "Mr. Netanyahu (Israel):". Quotations above are the
       first two sentences and the last sentence before any thanks or stage direction; "[...]" marks where page headers
@@ -1742,9 +1764,10 @@ claims:
     # V: record read as text. Selection rule as for all statements on this page (first two sentences; last sentence
     before closing thanks or stage direction). The title in the claim is the one the President's thanks print for
     this meeting; it differs between years because the record lists his other portfolios when he held them. The
-    claim says what the record prints. It does not say that anything in the statement is true or false. The pdftotext
-    reading order was checked at the opening and closing of each statement against the President's introduction
-    and thanks.
+    claim says what the record prints. It does not say that anything in the statement is true or false. The reading
+    order of every stored United Nations extract was re-checked in the fix round against a column-aware rendering
+    of the PDF (log L-14); the extracts for A/67/PV.12 and A/68/PV.23 were regenerated because the first reading
+    order was wrong for those two-column pages (log L-14).
 - id: np-stmt-unga-2013
   state: established
   statement: >-
@@ -1769,12 +1792,13 @@ claims:
     type: primary_text
     description: >-
       UN document A/68/PV.23 (Sixty-eighth session 23rd plenary meeting Tuesday, 1 October 2013, 9 a.m.), PDF from
-      documents.un.org, read as text (pdftotext -raw); stored extract holds the introduction [A], the statement
-      [B] and the President's thanks [C]. Read: "I wish to thank the Prime Minister, Minister for Foreign Affairs
-      and Minister of Public Affairs and the Diaspora of the State of Israel for the statement he has just made"
-      [...] and the speaker tag "Mr. Netanyahu (Israel):". Quotations above are the first two sentences and the
-      last sentence before any thanks or stage direction; "[...]" marks where page headers or footers printed in
-      the source (document symbol, date, page number) were skipped.
+      documents.un.org, read as text (pdftotext with each page cropped into left and right halves, left then right,
+      because the record is printed in two columns); stored extract holds the introduction [A], the statement [B]
+      and the President's thanks [C]. Read: "I wish to thank the Prime Minister, Minister for Foreign Affairs and
+      Minister of Public Affairs and the Diaspora of the State of Israel for the statement he has just made" [...]
+      and the speaker tag "Mr. Netanyahu (Israel):". Quotations above are the first two sentences and the last sentence
+      before any thanks or stage direction; "[...]" marks where page headers or footers printed in the source (document
+      symbol, date, page number) were skipped.
     sources:
     - src-un-a68-pv23
     accessible: true
@@ -1782,9 +1806,10 @@ claims:
     # V: record read as text. Selection rule as for all statements on this page (first two sentences; last sentence
     before closing thanks or stage direction). The title in the claim is the one the President's thanks print for
     this meeting; it differs between years because the record lists his other portfolios when he held them. The
-    claim says what the record prints. It does not say that anything in the statement is true or false. The pdftotext
-    reading order was checked at the opening and closing of each statement against the President's introduction
-    and thanks.
+    claim says what the record prints. It does not say that anything in the statement is true or false. The reading
+    order of every stored United Nations extract was re-checked in the fix round against a column-aware rendering
+    of the PDF (log L-14); the extracts for A/67/PV.12 and A/68/PV.23 were regenerated because the first reading
+    order was wrong for those two-column pages (log L-14).
 - id: np-stmt-unga-2014
   state: established
   statement: >-
@@ -1822,9 +1847,10 @@ claims:
     # V: record read as text. Selection rule as for all statements on this page (first two sentences; last sentence
     before closing thanks or stage direction). The title in the claim is the one the President's thanks print for
     this meeting; it differs between years because the record lists his other portfolios when he held them. The
-    claim says what the record prints. It does not say that anything in the statement is true or false. The pdftotext
-    reading order was checked at the opening and closing of each statement against the President's introduction
-    and thanks.
+    claim says what the record prints. It does not say that anything in the statement is true or false. The reading
+    order of every stored United Nations extract was re-checked in the fix round against a column-aware rendering
+    of the PDF (log L-14); the extracts for A/67/PV.12 and A/68/PV.23 were regenerated because the first reading
+    order was wrong for those two-column pages (log L-14).
 - id: np-stmt-unga-2015
   state: established
   statement: >-
@@ -1848,11 +1874,12 @@ claims:
   anchor:
     type: primary_text
     description: >-
-      UN document A/70/PV.22 (), PDF from documents.un.org, read as text (pdftotext -raw); stored extract holds
-      the introduction [A], the statement [B] and the President's thanks [C]. Read: "I wish to thank the Prime Minister
-      of the State of Israel for the statement he has just made" [...] and the speaker tag "Mr. Netanyahu (Israel):".
-      Quotations above are the first two sentences and the last sentence before any thanks or stage direction; "[...]"
-      marks where page headers or footers printed in the source (document symbol, date, page number) were skipped.
+      UN document A/70/PV.22 (Seventieth session 22nd plenary meeting Thursday, 1 October 2015, 9 a.m.), PDF from
+      documents.un.org, read as text (pdftotext -raw); stored extract holds the introduction [A], the statement
+      [B] and the President's thanks [C]. Read: "I wish to thank the Prime Minister of the State of Israel for the
+      statement he has just made" [...] and the speaker tag "Mr. Netanyahu (Israel):". Quotations above are the
+      first two sentences and the last sentence before any thanks or stage direction; "[...]" marks where page headers
+      or footers printed in the source (document symbol, date, page number) were skipped.
     sources:
     - src-un-a70-pv22
     accessible: true
@@ -1860,9 +1887,10 @@ claims:
     # V: record read as text. Selection rule as for all statements on this page (first two sentences; last sentence
     before closing thanks or stage direction). The title in the claim is the one the President's thanks print for
     this meeting; it differs between years because the record lists his other portfolios when he held them. The
-    claim says what the record prints. It does not say that anything in the statement is true or false. The pdftotext
-    reading order was checked at the opening and closing of each statement against the President's introduction
-    and thanks.
+    claim says what the record prints. It does not say that anything in the statement is true or false. The reading
+    order of every stored United Nations extract was re-checked in the fix round against a column-aware rendering
+    of the PDF (log L-14); the extracts for A/67/PV.12 and A/68/PV.23 were regenerated because the first reading
+    order was wrong for those two-column pages (log L-14).
 - id: np-stmt-unga-2016
   state: established
   statement: >-
@@ -1901,9 +1929,10 @@ claims:
     # V: record read as text. Selection rule as for all statements on this page (first two sentences; last sentence
     before closing thanks or stage direction). The title in the claim is the one the President's thanks print for
     this meeting; it differs between years because the record lists his other portfolios when he held them. The
-    claim says what the record prints. It does not say that anything in the statement is true or false. The pdftotext
-    reading order was checked at the opening and closing of each statement against the President's introduction
-    and thanks.
+    claim says what the record prints. It does not say that anything in the statement is true or false. The reading
+    order of every stored United Nations extract was re-checked in the fix round against a column-aware rendering
+    of the PDF (log L-14); the extracts for A/67/PV.12 and A/68/PV.23 were regenerated because the first reading
+    order was wrong for those two-column pages (log L-14).
 - id: np-stmt-unga-2017
   state: established
   statement: >-
@@ -1939,9 +1968,10 @@ claims:
     # V: record read as text. Selection rule as for all statements on this page (first two sentences; last sentence
     before closing thanks or stage direction). The title in the claim is the one the President's thanks print for
     this meeting; it differs between years because the record lists his other portfolios when he held them. The
-    claim says what the record prints. It does not say that anything in the statement is true or false. The pdftotext
-    reading order was checked at the opening and closing of each statement against the President's introduction
-    and thanks.
+    claim says what the record prints. It does not say that anything in the statement is true or false. The reading
+    order of every stored United Nations extract was re-checked in the fix round against a column-aware rendering
+    of the PDF (log L-14); the extracts for A/67/PV.12 and A/68/PV.23 were regenerated because the first reading
+    order was wrong for those two-column pages (log L-14).
 - id: np-stmt-unga-2018
   state: established
   statement: >-
@@ -1979,9 +2009,10 @@ claims:
     # V: record read as text. Selection rule as for all statements on this page (first two sentences; last sentence
     before closing thanks or stage direction). The title in the claim is the one the President's thanks print for
     this meeting; it differs between years because the record lists his other portfolios when he held them. The
-    claim says what the record prints. It does not say that anything in the statement is true or false. The pdftotext
-    reading order was checked at the opening and closing of each statement against the President's introduction
-    and thanks.
+    claim says what the record prints. It does not say that anything in the statement is true or false. The reading
+    order of every stored United Nations extract was re-checked in the fix round against a column-aware rendering
+    of the PDF (log L-14); the extracts for A/67/PV.12 and A/68/PV.23 were regenerated because the first reading
+    order was wrong for those two-column pages (log L-14).
 - id: np-stmt-unga-2023
   state: established
   statement: >-
@@ -2019,9 +2050,10 @@ claims:
     # V: record read as text. Selection rule as for all statements on this page (first two sentences; last sentence
     before closing thanks or stage direction). The title in the claim is the one the President's thanks print for
     this meeting; it differs between years because the record lists his other portfolios when he held them. The
-    claim says what the record prints. It does not say that anything in the statement is true or false. The pdftotext
-    reading order was checked at the opening and closing of each statement against the President's introduction
-    and thanks.
+    claim says what the record prints. It does not say that anything in the statement is true or false. The reading
+    order of every stored United Nations extract was re-checked in the fix round against a column-aware rendering
+    of the PDF (log L-14); the extracts for A/67/PV.12 and A/68/PV.23 were regenerated because the first reading
+    order was wrong for those two-column pages (log L-14).
 - id: np-stmt-unga-2024
   state: established
   statement: >-
@@ -2056,9 +2088,10 @@ claims:
     # V: record read as text. Selection rule as for all statements on this page (first two sentences; last sentence
     before closing thanks or stage direction). The title in the claim is the one the President's thanks print for
     this meeting; it differs between years because the record lists his other portfolios when he held them. The
-    claim says what the record prints. It does not say that anything in the statement is true or false. The pdftotext
-    reading order was checked at the opening and closing of each statement against the President's introduction
-    and thanks.
+    claim says what the record prints. It does not say that anything in the statement is true or false. The reading
+    order of every stored United Nations extract was re-checked in the fix round against a column-aware rendering
+    of the PDF (log L-14); the extracts for A/67/PV.12 and A/68/PV.23 were regenerated because the first reading
+    order was wrong for those two-column pages (log L-14).
 - id: np-stmt-unga-2020
   state: established
   statement: >-
@@ -2195,7 +2228,16 @@ claims:
     of the maintenance costs and NIS 24,800 "was privately funded under the office accountant's guidance"; that
     the Prime Minister's Office paid NIS 960,000 for this work; and that the Prime Minister "continued to reside
     at the official residence on Balfour Street for over a year and a half after the security work was completed
-    at the private residence until July 2021".
+    at the private residence until July 2021, shortly after the formation of the 36th Government of Israel and the
+    end of his term". The report continues: "As a result, there was a delay of about a year and a half in renovating
+    the official residence on Balfour Street. It should be noted that three elections were held for the Knesset
+    during this period." The report's overview adds: "It should be noted that between mid-2019 and November 2022,
+    there were five parliamentary elections held in Israel, and from the beginning of 2020 to May 2021, the Israeli
+    government was preoccupied with the Covid-19 pandemic." The key-figures box describes the delay in the renovation
+    of the official residence on Balfour Street between May 2018 and March 2023 as due to "disputes within the Prime
+    Minister's Office on the funding of the renovation of the private residence in Caesarea (about 8 months); the
+    failure to vacate the official residence on Balfour (about 18 months); and the late involvement of the GSS (about
+    6 months)".
   evidence_class: primary_text
   confidence: high
   statement_kind: reported
@@ -2218,16 +2260,28 @@ claims:
       maintenance costs, and NIS 24,800 was privately funded under the office accountant's guidance. The Prime Minister's
       Office paid NIS 960,000 for this work at the private residence"; "the Prime Minister continued to reside at
       the official residence on Balfour Street for over a year and a half after the security work was completed
-      at the private residence until July 2021". Arithmetic on the printed figures: 165,200 + 24,800 = 190,000;
-      795,000 + 165,200 = 960,200, against the printed 960,000.
+      at the private residence until July 2021, shortly after the formation of the 36th Government of Israel and
+      the end of his term. As a result, there was a delay of about a year and a half in renovating the official
+      residence on Balfour Street. It should be noted that three elections were held for the Knesset during this
+      period."; overview: "It should be noted that between mid-2019 and November 2022, there were five parliamentary
+      elections held in Israel, and from the beginning of 2020 to May 2021, the Israeli government was preoccupied
+      with the Covid-19 pandemic."; key-figures box: "the delay in the renovation of the official residence on Balfour
+      Street between May 2018 and March 2023 due to disputes within the Prime Minister's Office on the funding of
+      the renovation of the private residence in Caesarea (about 8 months); the failure to vacate the official residence
+      on Balfour (about 18 months); and the late involvement of the GSS (about 6 months)". Arithmetic on the printed
+      figures: 165,200 + 24,800 = 190,000; 795,000 + 165,200 = 960,200, against the printed 960,000.
     sources:
     - src-mev-pm-residences-2024
     accessible: true
   basis: >-
     # V: abstract read. The report names this section 'Renovation of the Private Residence (Prime Minister Benjamin
     Netanyahu) in Caesarea'. The 200-shekel difference between 960,200 and 960,000 is in the printed figures; the
-    report does not explain it. The report says elsewhere (np-fin-balfour-and-caesarea-planning) that three Knesset
-    elections were held in that period; it does not state a cause for the continued residence.
+    report does not explain it. Correction (log L-17): an earlier version of this basis said the report does not
+    state a cause for the continued residence; that was not accurate. The report's context is stated in the claim:
+    the stay until July 2021 relative to the formation of the 36th Government, the delay of about a year and a half,
+    the three elections, the overview note on five elections and the Covid-19 pandemic, and the key-figures box,
+    which lists the failure to vacate the official residence on Balfour (about 18 months) among the described reasons
+    for the delay. The report's own reasons are given in its words; this page draws no further inference.
 - id: np-fin-azza-street-contract
   state: established
   statement: >-
@@ -2239,7 +2293,9 @@ claims:
     part not to exceed NIS 750,000; that the two price quotes received corresponded only to the more expensive alternative,
     the lower being about NIS 1.7 million excluding VAT and overhead; and that in October 2023 the committees approved
     changing the structural component from up to NIS 750,000 to up to NIS 1.7 million while the total cost of the
-    work at the residence remained unchanged.
+    work at the residence remained unchanged. The report also states: "As of the audit end, shortly after receiving
+    the Prime Minister's Office's response in February 2024, the security works at the Azza Street residence had
+    not yet been completed."
   evidence_class: primary_text
   confidence: high
   statement_kind: reported
@@ -2263,24 +2319,84 @@ claims:
       the cheaper alternative, and the contract amount related to the balconies would not exceed NIS 750,000.";
       "In October 2023, the Tender Committee of the Prime Minister's Office and the Exemption Committee of the Accountant
       General's Division approved the request of the Security and Emergency Division of the Prime Minister's Office
-      to change the cost of the structural component from up to NIS 750,000 to up to NIS 1.7 million.".
+      to change the cost of the structural component from up to NIS 750,000 to up to NIS 1.7 million."; "However,
+      the total cost of the work at the Azza Street residence remained unchanged, and it was noted that the budget
+      source would reduce the cost of other components."; "As of the audit end, shortly after receiving the Prime
+      Minister's Office's response in February 2024, the security works at the Azza Street residence had not yet
+      been completed.".
     sources:
     - src-mev-pm-residences-2024
     accessible: true
   basis: >-
-    # V: abstract read. The decisions described are those of the Prime Minister's Office's and the Accountant General's
-    committees as the report describes them; the report does not name Mr Netanyahu as a decision-maker in this section.
-    The report also states what the Security and Emergency Division did with the quotes; that text is in the stored
-    extract and is not paraphrased here.
+    # V: abstract read. The abstract mentions the Prime Minister's Office's response of February 2024 only in the
+    audit-end sentence quoted; the response itself is not reproduced in the abstract. The decisions described are
+    those of the Prime Minister's Office's and the Accountant General's committees as the report describes them;
+    the report does not name Mr Netanyahu as a decision-maker in this section. The report also states what the Security
+    and Emergency Division did with the quotes; that text is in the stored extract and is not paraphrased here.
+- id: np-fin-azza-wartime-suitability
+  state: established
+  statement: >-
+    The State Comptroller's report of April 2024 states that, according to a security consultant's report submitted
+    to the Prime Minister's Office in February 2023, the official alternative residence on Azza Street "is not suitable
+    for housing the Prime Minister in 'war threat' scenarios", and that during a "significant event" the Prime Minister
+    and his family "are not supposed to stay in the apartment"; that "During the first month of the war, the Prime
+    Minister resided away from the official alternative residence on Azza Street" and that the Office took measures
+    to install a protected area in the yard, estimating the cost at NIS 474,000. The report quotes the Prime Minister's
+    Office's statement of February 2024: "the alternative residence on Azza Street, while not suitable for war threats,
+    has been adapted to meet all other threat scenarios, regarding war threats, the risk has been reduced." The
+    report then states, in the Comptroller's words: "I.e., the Azza Street residence is unsuitable for war threats,
+    and the response to this threat is only partial." In its recommendations the report states that, "Considering
+    the Prime Minister's Office's response, according to which the alternative official residence on Azza Street
+    is not suitable for war threats (although the risk to the Prime Minister residing there has been mitigated),
+    a decision should be made regarding the Prime Minister's continued residence at this location."
+  evidence_class: primary_text
+  confidence: high
+  statement_kind: reported
+  evidential_weight: 4
+  anchor_checked: primary
+  adoption_weight: 3
+  adoption_note: >-
+    Not measured. The field is required by the validator; for a record fact no poll or count of believers is used,
+    so 3 is a stated placeholder (open decision for the owner).
+  would_change_if: >-
+    the full Hebrew report or the Prime Minister's Office's full response giving different wording
+  anchor:
+    type: primary_text
+    description: >-
+      State Comptroller Special Report, April 2024, English abstract, stored extract (section 3, 'Adapting the Azza
+      Street Residence for the Prime Minister's Stay in Wartime', and the recommendations). Read: "according to
+      a security consultant's report submitted to the Prime Minister's Office in February 2023, the official alternative
+      residence on Azza Street is not suitable for housing the Prime Minister in "war threat" scenarios, and during
+      a "significant event," the Prime Minister and his family "are not supposed to stay in the apartment.""; "During
+      the first month of the war, the Prime Minister resided away from the official alternative residence on Azza
+      Street."; "the Prime Minister's Office has taken measures to install a protected area in the yard of the official
+      alternative residence, estimating the cost at NIS 474,000"; the Office's response: "In February 2024, the
+      Prime Minister's Office stated that "the alternative residence on Azza Street, while not suitable for war
+      threats, has been adapted to meet all other threat scenarios, regarding war threats, the risk has been reduced."";
+      the Comptroller: "I.e., the Azza Street residence is unsuitable for war threats, and the response to this
+      threat is only partial."; recommendation: "Considering the Prime Minister's Office's response, according to
+      which the alternative official residence on Azza Street is not suitable for war threats (although the risk
+      to the Prime Minister residing there has been mitigated), a decision should be made regarding the Prime Minister's
+      continued residence at this location.".
+    sources:
+    - src-mev-pm-residences-2024
+    accessible: true
+  basis: >-
+    # V: abstract read. Added in the fix round (log L-15) after a review noted that the abstract does quote the
+    Prime Minister's Office's responses of February 2024; the Office's response is given here in the report's quotation
+    and the Comptroller's reading of it beside it, each attributed. The Office's full response is not in the abstract.
+    The report does not name a person as the author of the Office's statement. The period is the 'ongoing state
+    of war since October 2023' as the report puts it.
 - id: np-fin-caesarea-security-measures-unlawful
   state: established
   statement: >-
-    The State Comptroller's report of April 2024 states: "Prime Minister Benjamin Netanyahu assumed office in December
-    2022. Shortly after assuming office, the Security Department at the Prime Minister's Office requested the placement
-    of security measures adjacent to his private residence in Caesarea. It was found that some of the security measures
-    installed around the private residence in Caesarea between 2003 and 2019 were placed unlawfully. During the
-    audit, the Prime Minister's Office began working to obtain approval from the relevant authorities to install
-    these measures."
+    The State Comptroller's report of April 2024 states, in the Comptroller's own words (the finding is the report's,
+    in its passive wording "It was found"; "unlawfully" is the report's word): "Prime Minister Benjamin Netanyahu
+    assumed office in December 2022. Shortly after assuming office, the Security Department at the Prime Minister's
+    Office requested the placement of security measures adjacent to his private residence in Caesarea. It was found
+    that some of the security measures installed around the private residence in Caesarea between 2003 and 2019
+    were placed unlawfully. During the audit, the Prime Minister's Office began working to obtain approval from
+    the relevant authorities to install these measures."
   evidence_class: primary_text
   confidence: high
   statement_kind: reported
@@ -2308,9 +2424,10 @@ claims:
     - src-mev-pm-residences-2024
     accessible: true
   basis: >-
-    # V: abstract read. Reported as the Comptroller's finding about measures installed by the Prime Minister's Office
-    between 2003 and 2019; the report does not say who ordered them. The statements about the other two residences
-    are shown beside it to the same standard.
+    # V: abstract read. Reported as the Comptroller's finding, in the Comptroller's voice; this page does not itself
+    characterise any measure as lawful or unlawful. The passage refers to measures installed around the private
+    residence between 2003 and 2019; the report does not say who ordered them or define 'unlawfully' in the passage
+    read. The statements about the other two residences are shown beside it to the same standard.
 - id: np-fin-balfour-and-caesarea-planning
   state: established
   statement: >-
@@ -2385,9 +2502,11 @@ claims:
   basis: >-
     # V: abstract read. These are the Comptroller's evaluative words about the Prime Minister's Office and about
     the arrangement across Prime Ministers; they are quoted as the Comptroller's, attributed to the Office and to
-    Prime Ministers collectively, and not to any named person. The Prime Minister's Office's responses to the audit
-    are not in the abstract. A page of this kind carries no assessment of its own; where the Comptroller commends
-    (Tel Aviv permits) that is recorded in np-fin-caesarea-security-measures-unlawful.
+    Prime Ministers collectively, and not to any named person. The abstract quotes the Prime Minister's Office's
+    responses of February 2024 on two items (the suitability of the Azza Street residence in wartime, np-fin-azza-wartime-suitability;
+    and the timing of the audit end, np-fin-azza-street-contract); it does not reproduce the Office's response to
+    the audit as a whole, and no response is quoted in the summary section read here. A page of this kind carries
+    no assessment of its own; where the Comptroller commends (Tel Aviv permits) that is recorded in np-fin-caesarea-security-measures-unlawful.
 - id: np-gap-knesset-records
   state: searched_gap
   statement: >-
@@ -2593,10 +2712,10 @@ claims:
   statement: >-
     No declaration of assets, tax record, party-financing audit or court-record figure of his personal or political
     finances was read. Not found in any English primary document reached: his declared assets or income; amounts
-    alleged in the indictment; the State Comptroller's party-financing reports on the Likud or on primaries; the
-    Permits Committee's published decisions concerning him; and any report of funding of legal expenses. The only
-    financial figures read are public expenditure on Prime Ministers' residences (np-fin-residences-netanyahu and
-    following), which are not his personal finances.
+    alleged in the indictment; reports on party or primary financing; published decisions of oversight committees
+    on his finances; or any other record of his personal or political finances. The only financial figures read
+    are public expenditure on Prime Ministers' residences (np-fin-residences-netanyahu and following), which are
+    not his personal finances.
   evidence_class: primary_text
   confidence: provisional
   statement_kind: search_result
@@ -2609,10 +2728,10 @@ claims:
   would_change_if: any of those documents becoming reachable or being located in English
   absence_anchor: true
   next_step: >-
-    Read, in Hebrew if needed with a Hebrew reader, the State Comptroller's reports on party and primary financing
-    for the Likud and the Permits Committee's decisions; read the indictment's financial figures from the Ministry
-    of Justice or the court; read the Knesset's published register of members' interests and any asset declaration
-    the law makes public.
+    Read, in Hebrew if needed with a Hebrew reader, any report on party or primary financing and any published decision
+    of an oversight committee on his finances; read the indictment's financial figures from the Ministry of Justice
+    or the court; read the Knesset's published register of members' interests and any asset declaration the law
+    makes public.
   anchor:
     type: search-record
     description: >-
