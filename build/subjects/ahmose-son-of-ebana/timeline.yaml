@@ -36,7 +36,7 @@ sources:
   s_breasted: {title: "Breasted, Ancient Records of Egypt II (1906), Internet Archive OCR", url: "https://archive.org/details/ancient-records-of-egypt-vol-2-breasted", authenticity: "authenticated, moderate"}
   s_sethe_h1: {title: "Sethe, Urkunden der 18. Dynastie, Heft 1 (1906), Internet Archive", url: "https://archive.org/details/urkunden-der-18.-dynastie-erster-band", authenticity: "authenticated, moderate (hand-copied edition; numerals and headings read)"}
   s_sethe_de: {title: "Sethe, Urkunden der 18. Dynastie, uebersetzt (1914), Internet Archive", url: "https://archive.org/details/urkunden-der-18.-dynastie-i", authenticity: "authenticated, moderate"}
-  s_lichtheim: {title: "Lichtheim, Ancient Egyptian Literature II (third-party upload on the Internet Archive)", url: "https://archive.org/details/MiriamLichtheimAncientEgyptianLiteratureVolII", authenticity: "unchecked (edition not identified; not a holder copy)"}
+  s_lichtheim: {title: "Lichtheim, Ancient Egyptian Literature II (read through an Internet Archive upload, an access path only; the book is in copyright)", url: "https://archive.org/details/MiriamLichtheimAncientEgyptianLiteratureVolII", authenticity: "unchecked (edition not identified; not a holder copy)"}
   s_davies:   {title: "Davies, The tomb of Ahmose Son-of-Ibana at Elkab (OLA 191, 2009), hosted PDF", url: "https://fundacionieae.es/wp-content/uploads/2024/11/The_tomb_of_Ahmose_Son-of-Ibana_at_Elkab-1_compressed.pdf", authenticity: "authenticated, moderate"}
   s_aeo:      {title: "Ancient Egypt Online, Ahmose son of Ebana (copyright J Hill 2010; two captures with different hashes)", url: "https://ancientegyptonline.co.uk/ahmoseebana/", authenticity: "unchecked"}
 
@@ -49,7 +49,7 @@ events:
      detail: "University of Chicago Press, March 1906 per the title page. Reads Lepsius and the Berlin squeeze; renders the Sharuhen siege as six years and the title as chief of the sailors."}
   - {id: e3, panel: copies, lane: copies, time: "1906-01-01T00:00:00Z", precision: year, kind: document, status: single, sources: [s_sethe_h1],
      label: "1906: Sethe's hand-copied hieroglyphic text, Urk. IV 1-11",
-     detail: "Heft 1 of Urkunden der 18. Dynastie. Its autograph pages carry the German heading 'Lebensgeschichte des Admirals'. Only numerals and headings were read in this dig."}
+     detail: "Heft 1 of Urkunden der 18. Dynastie. Its autograph pages carry the German heading 'Lebensgeschichte des Admirals'. Only German headings and numeral strokes were looked at in this dig."}
   - {id: e4, panel: copies, lane: translations, time: "1914-06-01T00:00:00Z", precision: year, kind: analysis, status: single, sources: [s_sethe_de],
      label: "1914: Sethe's German translation of Urk. IV 1-11, with notes",
      detail: "Vorwort dated June 1914. Translates the slave-name list that Lichtheim omits, renders the Sharuhen siege as three years and the title as Oberste der Schiffsmannschaft."}

@@ -135,7 +135,7 @@ sources:
     title: "K. Sethe, Urkunden der 18. Dynastie, Erster Band (Urkunden des aegyptischen Altertums, IV. Abteilung, Heft 1: Historisch-biographische Urkunden aus den Zeiten der Hyksosvertreiber und ihrer ersten Nachfolger), Leipzig: Hinrichs, 1906. Hieroglyphic autograph (hand-drawn) of the autobiography, Urk. IV 1-11"
     url: https://archive.org/details/urkunden-der-18.-dynastie-erster-band
     document_class: "edition: a scholar's hand-copied hieroglyphic text of the inscription (a copy of the object, not the object). Evidence class primary_text only for what is legible and was read."
-    read: "PARTLY. PDF fetched 2026-10-16 (6,729,358 bytes, 331 pages, sha256 efc083e423a8e32c55ec2739f74014dd07d4f535518a232ef2e40cac96672845), kept outside the repository. Pages 11 to 14 of the PDF (Urk. IV 2 to 5) were rendered (110 to 350 dpi) and looked at by the reader, an AI model. What was READ: the editor's German page headings ('Lebensgeschichte des Admirals', 'Jugendzeit', 'Vertreibung der Hyksos') and the numeral strokes in the Avaris captive entry and the Sharuhen line. What was NOT read: the Egyptian words themselves (the reader did not transliterate the signs, and no transliteration is printed in this volume). The scan is 200 dpi bitonal and the strokes of the year-group at Urk. IV 4 are small."
+    read: "PARTLY. PDF fetched 2026-10-16 (6,729,358 bytes, 331 pages, sha256 efc083e423a8e32c55ec2739f74014dd07d4f535518a232ef2e40cac96672845), kept outside the repository. Pages 11 to 14 of the PDF (Urk. IV 2 to 5) were rendered (110 to 350 dpi) and looked at by the reader, an AI model. What was LOOKED AT: the editor's German page headings ('Lebensgeschichte des Admirals', 'Jugendzeit', 'Vertreibung der Hyksos') and numeral strokes in the Avaris captive entry and the Sharuhen line (the strokes of the Sharuhen year-group could not be counted with confidence and nothing is claimed from them). What was NOT read: the Egyptian words themselves (the reader did not transliterate the signs, and no transliteration is printed in this volume). The scan is 200 dpi bitonal and the strokes of the year-group at Urk. IV 4 are small."
     funding_and_control: "Title page: Leipzig, J. C. Hinrichs'sche Buchhandlung, 1906, edited by Georg Steindorff. No funder stated on the pages opened: UNRESEARCHED."
     authenticity:
       status: authenticated
@@ -143,9 +143,9 @@ sources:
       provenance: "Internet Archive item urkunden-der-18.-dynastie-erster-band (creator Sethe, Kurt; date 1906). Title page read in the extracted text. Public domain by date (Sethe died 1934); the item page was not checked for a licence mark."
       tests:
         - "The section titles on autograph pages Urk. IV 2 and 3 ('Jugendzeit', 'Vertreibung der Hyksos') equal the section titles in the German translation volume (src-sethe-urk-deutsch-1914) (could have failed)"
-        - "The Avaris captive entry on the autograph (Urk. IV 4) shows the numerals 1, 3 and 4 in one run, the figures Breasted, Sethe's own translation and Lichtheim give (one man, three women, four heads) (could have failed)"
+        - "The Avaris captive entry on the autograph (Urk. IV 4) appears to show a run of numeral strokes 1, 3 and 4, counted by an AI reader at 200 dpi. This is not an independent test: the count was made knowing the figures the translations give, and the words counted were not read"
       tested_by: "Stratah second-pass session, 2026-10-16 (not an independent review)"
-      gaps: ["Scan only; not compared with a printed copy", "Hand-copied edition: it shows what Sethe copied, not what the wall shows today", "Signs not transliterated by the reader; only numerals and German headings read", "Not compared with a later reprint"]
+      gaps: ["Scan only; not compared with a printed copy", "Hand-copied edition: it shows what Sethe copied, not what the wall shows today", "Signs not transliterated by the reader; only German headings and numeral strokes looked at", "Not compared with a later reprint"]
       next_step: "A person who reads hieroglyphs should transliterate Urk. IV 3-5 and 10-11 from this file and check the numerals, the year-group of the Sharuhen line and the slave-name list."
       checked: 2026-10-16
 
@@ -169,14 +169,14 @@ sources:
       checked: 2026-10-16
 
   - id: src-lichtheim-ael2
-    title: "M. Lichtheim, Ancient Egyptian Literature, Volume II: The New Kingdom, 'The Autobiography of Ahmose son of Abana' (pp. 12-14, with notes). Copy read: a third-party upload on the Internet Archive (item MiriamLichtheimAncientEgyptianLiteratureVolII), OCR text file"
+    title: "M. Lichtheim, Ancient Egyptian Literature, Volume II: The New Kingdom (University of California Press), 'The Autobiography of Ahmose son of Abana' (pp. 12-14, with notes). The work is cited; an Internet Archive upload (item MiriamLichtheimAncientEgyptianLiteratureVolII) was used only as an access path to read it"
     url: https://archive.org/details/MiriamLichtheimAncientEgyptianLiteratureVolII
     document_class: "interpretive (translation with introduction and notes by a modern scholar; not primary data)"
-    read: "yes, directly: OCR text file fetched 2026-10-16 (sha256 789b38d8cd5a8ce251ce41d1aa5088a13ed47d6f9811f4be96a9e219182ad324); the introduction to Part One section I, the Ahmose autobiography translation and its notes (pp. 11-14) read. Quoted only in short fragments; the book is in copyright and nothing is stored."
+    read: "yes, through the upload: OCR text file fetched 2026-10-16 (sha256 789b38d8cd5a8ce251ce41d1aa5088a13ed47d6f9811f4be96a9e219182ad324); the introduction to Part One section I, the Ahmose autobiography translation and its notes (pp. 11-14) read. The book is in copyright. The upload carries no licence mark and its rights position is unknown, so it is not relied on as a lawful copy. Only short fragments are quoted in claims.yaml. Nothing from the book or the upload is hosted in the repository."
     funding_and_control: "Not read beyond the contents page ('Ancient Egyptian Literature, Volume II: The New Kingdom, Miriam Lichtheim'). Publisher and funding: UNRESEARCHED."
     authenticity:
       status: unchecked
-      provenance: "Uploaded by an unnamed account in 2016 (publicdate 2016-01-12) with no licence mark and no stated edition. The text opens 'ANCIENT EGYPTIAN LITERATURE Volume II: The New Kingdom, MIRIAM LICHTHEIM'. It is not a holder copy; the rights position of the upload was not checked."
+      provenance: "Uploaded by an unnamed account in 2016 (publicdate 2016-01-12) with no licence mark and no stated edition; the book itself is in copyright. The text opens 'ANCIENT EGYPTIAN LITERATURE Volume II: The New Kingdom, MIRIAM LICHTHEIM'. It is not a holder copy; the rights position of the upload was not checked."
       tests:
         - "The translation text of the page src-aeo-lichtheim-page matches this OCR in every passage compared (the Avaris, Sharuhen, Nubia, Aata and Tetian passages and the opening) apart from spelling (could have failed)"
       tested_by: "Stratah second-pass session, 2026-10-16 (not an independent review)"
