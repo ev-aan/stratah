@@ -1,0 +1,7 @@
+# Proposal for the owner. build/taxonomy.yaml is owner-only (docs/REVIEW.md, "What only the owner merges"), so this dig does not edit it.
+# If accepted, add the one line under `assignments:` in build/taxonomy.yaml. Every value below exists in that file's `areas` and `question_types`.
+# Reasoning, plainly: the dig is about an inscribed and painted tomb scene (archaeology_texts), it touches the history of Egypt's New Kingdom (history) and a claim spread
+# by a video channel (media_misinformation); the question asks what the labels say (what_does_it_mean) and whether a widely repeated version is true (is_claim_true).
+# popular_claims is true because the dig starts from speaker claims on a video channel.
+proposed_assignment:
+  rekhmire-tomb-brickmaking: {area: archaeology_texts, areas: [history, media_misinformation], types: [what_does_it_mean, is_claim_true], popular_claims: true}
