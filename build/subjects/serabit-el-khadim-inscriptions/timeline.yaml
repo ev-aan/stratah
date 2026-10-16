@@ -1,0 +1,73 @@
+timeline:
+  id: serabit-el-khadim-inscriptions
+  title: "The Serabit el-Khadim inscriptions: finds, readings and dating proposals (about 1850 BCE to 2026)"
+  as_of: "2026-10-16"
+  note: >
+    Dates before the common era are negative years. The first two dots come from a node that holds a window for the disputed date of the inscriptions (the bar is the span of proposals, not a date). Modern events are dated by the document that reports them; where a source does not print the year (Petrie's
+    day-and-month dates) the year is taken from the Egypt Exploration Fund's report (1904-5) and marked inferred. Eisler 1919 and Hamilton, Sass and Darnell are known only through authors who were read, and are drawn as single-source.
+lanes:
+  dating: {label: "Proposed dates of the texts"}
+  field: {label: "Finds and field work"}
+  reading: {label: "Readings and decipherment"}
+sources:
+  s_petrie: {title: "Petrie, Researches in Sinai (1906), preface and pp. 128-132 (Internet Archive, Toronto copy)", url: "https://archive.org/details/researchesinsina00petruoft", authenticity: "edition read; the finder's own report"}
+  s_eef: {title: "Egypt Exploration Fund, Archaeological Report 1905-1906, p. 31", url: "https://archive.org/details/archaeologicalre0506egyp", authenticity: "the Fund's own report, page image read"}
+  s_gardiner1916: {title: "Gardiner, The Egyptian Origin of the Semitic Alphabet, JEA 3 (1916), 1-16, with Cowley's note", url: "https://archive.org/details/dli.ministry.15398", authenticity: "page images read"}
+  s_gp1917: {title: "Gardiner and Peet, The Inscriptions of Sinai, Part I (1917), introduction and Table V", url: "https://archive.org/details/EXCMEM36", authenticity: "page image of Table V read"}
+  s_haring: {title: "Haring, Ancient Egypt and the earliest known stages of alphabetic writing (2019), pp. 53-60", url: "https://hdl.handle.net/1887/3295773", authenticity: "chapter read; reports Eisler, Darnell, Hamilton and Sass, who were not opened"}
+  s_albright: {title: "Albright, The Proto-Sinaitic Inscriptions and Their Decipherment (1966), pp. 3 and 12-24", url: "https://archive.org/details/AlbrightTheProtoSinaiticInscriptionsAndTheirDecipherment1969", authenticity: "text layer read; third-party upload"}
+  s_ww2019: {title: "Wilson-Wright, On the Origin of Alphabetic Writing (Bible and Interpretation, Nov 2019)", url: "https://bibleinterp.arizona.edu/sites/bibleinterp.arizona.edu/files/images/On%20the%20Origin%20of%20Alphabetic%20Writing.pdf", authenticity: "article read"}
+  s_ww2026: {title: "Wilson-Wright, Stop Trying to Make MS Happen! (Bible and Interpretation, April 2026)", url: "https://bibleinterp.arizona.edu/sites/bibleinterp.arizona.edu/files/2026-04/Wilson-Wright%20Final.pdf", authenticity: "article read; also reports the date of Bar-Ron's thesis"}
+  s_jaos: {title: "Wilson-Wright, Sinai 357 (JAOS 136/2, 2016): journal page with the author's abstract", url: "https://www.lockwoodonlinejournals.com/index.php/jaos/article/view/1407", authenticity: "abstract page read; article not opened"}
+  s_tallet: {title: "Tallet and Laisney, Two Notes about the Protosinaitic Script, NeHeT 8 (2024)", url: "https://www.orient-mediterranee.com/wp-content/uploads/2026/04/NEHET-8-01-TALLET-LAISNEY.pdf", authenticity: "article read; the excavation team"}
+  s_natgeo: {title: "National Geographic, Do these ancient Egyptian inscriptions mention Moses by name? (7 Aug 2025)", url: "https://www.nationalgeographic.com/history/article/ancient-egypt-inscription-bible-moses-serabit-el-khadim", authenticity: "page text read"}
+events:
+  - {id: t0, lane: dating, node: serabit-proposed-dates-alphabetic-inscriptions, rev: 2, note: "A spread of proposals, not a date. The recent sources read favour the late Middle Kingdom."}
+  - {id: t1, lane: field, time: "1904-12-03T12:00:00Z", precision: day, kind: document, status: inferred, sources: [s_petrie, s_eef],
+     label: "3 December (1904 per the Fund's report): Petrie's party leaves Suez for Sinai",
+     detail: "Petrie's preface prints the day and month, not the year. The Fund's 1906 report says his work was 'in 1904-5'. Haring 2019 says the winter campaign was 1905-1906: the season is disputed (claim sk-claim-found-1905)."}
+  - {id: t2, lane: field, time: "1905-01-11T12:00:00Z", end: "1905-03-18T12:00:00Z", precision: range, kind: document, status: inferred, sources: [s_petrie, s_gp1917],
+     label: "11 January to 18 March (1905 on the 1904-5 reading): the party is at Serabit; the first foreign-script texts are found",
+     detail: "Petrie's preface gives the days; Gardiner and Peet say the expedition was sent out in the winter of 1904-5. Petrie found texts at the temple and about eight tablets at mine L; Gardiner 1916 counts ten from this expedition, and a squeeze of Weill's brings the total to eleven."}
+  - {id: t3, lane: field, time: "1906-05-01T12:00:00Z", precision: month, kind: document, status: reported, sources: [s_petrie],
+     label: "May 1906: Petrie's Researches in Sinai is published (first edition)",
+     detail: "Reports the foreign-script finds and dates them 'about 1500 B.C.'. The title page states the edition date."}
+  - {id: t4, lane: reading, time: "1916-01-01T12:00:00Z", precision: year, kind: document, status: reported, sources: [s_gardiner1916],
+     label: "1916: Gardiner proposes the string read 'Baalat' and calls it an unverifiable hypothesis; Cowley adds suggestions",
+     detail: "Gardiner reads the recurring group as the local goddess, writes that the decipherment 'must remain' an 'unverifiable hypothesis', and says the end of the Twelfth Dynasty may be a more probable date than 1500 BC. Cowley reads 345 (right) differently."}
+  - {id: t5, lane: reading, time: "1917-01-01T12:00:00Z", precision: year, kind: document, status: reported, sources: [s_gp1917],
+     label: "1917: Gardiner and Peet publish the hand copies and date 345-355 'Middle Kingdom ?'",
+     detail: "Table V gives each inscription's findspot and nature of copy (collated with original, photograph or squeeze)."}
+  - {id: t6, lane: reading, time: "1919-01-01T12:00:00Z", precision: year, kind: analysis, status: single, sources: [s_haring],
+     label: "1919: Eisler reads the sphinx's linear line as 'beloved of the Lady' (as reported; Eisler not opened)",
+     detail: "Known from Haring 2019 and Wilson-Wright 2019 and 2026, which share this lineage."}
+  - {id: t7, lane: field, time: "1947-12-01T12:00:00Z", end: "1948-02-28T12:00:00Z", precision: range, kind: witness, status: single, sources: [s_albright],
+     label: "Winter 1947-48: Albright examines No. 357 in situ and studies the inscriptions in the Cairo Museum",
+     detail: "Albright 1966 p. 3: 'during the winter of 1947-1948'; the exact days are not given."}
+  - {id: t8, lane: reading, time: "1966-01-01T12:00:00Z", precision: year, kind: document, status: reported, sources: [s_albright],
+     label: "1966: Albright's decipherment, dated 1550-1450 BCE, is reprinted (second printing)",
+     detail: "Reads No. 357 as a note about collecting eight minas; a note dating the origin of the alphabet possibly back in the Twelfth Dynasty."}
+  - {id: t9, lane: reading, time: "2005-01-01T12:00:00Z", precision: year, kind: analysis, status: single, sources: [s_haring],
+     label: "2005: Darnell and colleagues publish two similar texts from Wadi el-Hol (as reported; not opened)",
+     detail: "Haring 2019 pp. 53 and 57: found in the 1994-1995 season of the Theban Desert Road Survey; the discoverers favour a Middle Kingdom date."}
+  - {id: t10, lane: reading, time: "2016-01-01T12:00:00Z", precision: year, kind: document, status: reported, sources: [s_jaos],
+     label: "2016: Wilson-Wright reads Sinai 357 as a votive text to Tessob (JAOS 136/2)",
+     detail: "Per the journal page's abstract; the article was not opened."}
+  - {id: t11, lane: reading, time: "2019-01-01T12:00:00Z", precision: year, kind: document, status: reported, sources: [s_haring, s_ww2019],
+     label: "2019: Haring and Wilson-Wright review the corpus (largely undeciphered; most likely 1831-1777 BCE)",
+     detail: "Haring: 'largely remained undeciphered'. Wilson-Wright 2019: 'most likely date' to the reigns of Amenemhat III and IV. Their dates differ from Wilson-Wright's 2026 range."}
+  - {id: t12, lane: field, time: "2022-09-01T12:00:00Z", precision: month, kind: data, status: reported, sources: [s_tallet],
+     label: "September 2022: the Tallet mission studies a new text on a pillar in Mine XX (found 2010)",
+     detail: "The article describes a small cave with a central pillar and up to ten worn signs."}
+  - {id: t13, lane: reading, time: "2024-01-01T12:00:00Z", precision: year, kind: document, status: reported, sources: [s_tallet],
+     label: "2024: Tallet and Laisney argue for the late Middle Kingdom (NeHeT 8); about 45 texts known in Sinai",
+     detail: "They agree with Parker 2022 (not opened) and say proximity to dated stelae is not definitive for a given text."}
+  - {id: t14, lane: reading, time: "2025-05-20T12:00:00Z", precision: day, kind: document, status: single, sources: [s_ww2026],
+     label: "20 May 2025: Bar-Ron posts an unpublished 'proto-thesis' reading the name Moses in Sinai 357 and 361",
+     detail: "The date is from Wilson-Wright 2026 p. 1; the thesis itself could not be opened (HTTP 403)."}
+  - {id: t15, lane: reading, time: "2025-08-07T12:00:00Z", precision: day, kind: media, status: reported, sources: [s_natgeo],
+     label: "7 August 2025: National Geographic reports the Moses reading and the scholars' responses",
+     detail: "Page text read: Schneider 'completely unproven and misleading'; Feldman on Moses as an Egyptian name."}
+  - {id: t16, lane: reading, time: "2026-04-01T12:00:00Z", precision: month, kind: document, status: reported, sources: [s_ww2026],
+     label: "April 2026: Wilson-Wright answers Bar-Ron: the proposed letters do not appear on the rock",
+     detail: "Includes close-up photographs of Sinai 357 and 361. The author is also a reader of 357."}

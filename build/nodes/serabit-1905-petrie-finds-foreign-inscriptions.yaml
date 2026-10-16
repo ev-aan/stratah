@@ -1,6 +1,6 @@
 # Shared node. Append-only: a change is a new `rev` plus a `history` entry, never an overwrite. See build/SCHEMA.md, Nodes.
 id: serabit-1905-petrie-finds-foreign-inscriptions
-rev: 1
+rev: 2
 type: event
 label: '1905: Petrie''s Sinai expedition finds inscriptions in an unknown script at Serabit el-Khadim (temple and mine L)'
 time: '1905-01-01'
@@ -15,6 +15,10 @@ what: >-
   copied by the Egypt Exploration Fund expedition of 1904-5. The year is derived: Gardiner and Peet say "winter of 1904-5" and
   Albright says "early 1905"; Haring (2019) says "winter campaign of 1905-1906"; Petrie's own preface, printed May 1906, says only
   "last winter". The sources read disagree on the season, so only the year 1905 is given and the month is not known here.
+  Rev 2 (2026-10-16): the Egypt Exploration Fund's own report for 1905-1906 (p. 31, read) says Petrie's book is an account of his work for the Fund
+  "in 1904-5"; Petrie's pages read give the party's dates (left Suez 3 December; at Serabit 11 January to 18 March) with no year; the Fund's party was at Serabit
+  therefore in January to March of 1905 if the season was 1904-5 (the National Geographic page says "1906" for Sinai 346). Gardiner (1916) says the expedition found a series of ten, and a squeeze of
+  Weill's, marked as from Maghârah, brings the total to eleven; Gardiner and Peet's Table V lists 348 as "Magharah ?".
 place:
   name: 'Serabit el-Khadim, Sinai (Hathor temple and mine L)'
   lat: 29.037
@@ -36,9 +40,24 @@ sources:
   origin: gardiner-peet-1917
   source_type: scholarly
   access: read
+- title: 'Egypt Exploration Fund, Archaeological Report 1905-1906 (London, 1906), p. 31, page image read'
+  url: https://archive.org/details/archaeologicalre0506egyp
+  authenticity: the Fund's own annual report (see the dig's manifest)
+  origin: eef-report-1906
+  source_type: official_history
+  access: read
+- title: 'A. H. Gardiner, The Egyptian Origin of the Semitic Alphabet, Journal of Egyptian Archaeology 3 (1916), p. 13, page image read'
+  url: https://archive.org/details/dli.ministry.15398
+  authenticity: published article, read (see the dig's manifest)
+  origin: gardiner-1916
+  source_type: scholarly
+  access: read
 manifest: {subject: serabit-el-khadim-inscriptions, source: src-petrie-1906}
 created: '2026-10-14'
 history:
 - rev: 1
   date: '2026-10-14'
   change: Created by the serabit-el-khadim-inscriptions dig. Year only, because the sources read disagree on the season (see log L-03).
+- rev: 2
+  date: '2026-10-16'
+  change: Added the Fund's own 1906 report (1904-5), Gardiner's 1916 count (ten plus Weill's squeeze) and the findspot caveat for Sinai 348; the time stays at the year 1905 and the season is still marked as disputed (see log L-09).

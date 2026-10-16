@@ -1,0 +1,26 @@
+# Short extracts from A. H. Gardiner and T. E. Peet, The Inscriptions of Sinai, Part I (Egypt Exploration Fund Memoir 36, London, 1917).
+# Source: Internet Archive item EXCMEM36, PDF sha256 15062e05b538a0f0c041b723e69d21a1e6fd1a39a8dc33211b4d831d4339115e; OCR text sha256 08b301f37b7e7371be97aa40579eaf4da5f1a63988003b61713f793b2a2cd425.
+# Rights: published 1917, public domain in the United States by publication date; Gardiner died 1963 (UK copyright to end 2033): short extracts only. The Internet Archive item states no licence.
+# Introduction passages from the OCR; Table V transcribed by the dig agent from the page image (PDF page 21, printed p. 16), which was viewed and read.
+
+----- Introduction, "Aim and scope of the work" -----
+The work originally entrusted by the Egypt Exploration Fund to the authors of this volume and of the Descriptive Text which is to follow it, was simply the publication of the inscriptions copied in the Peninsula of Sinai by the expedition sent out in the winter of 1904-5 under the direction of Professor Flinders Petrie.
+
+----- Introduction, "Number of Inscription" -----
+The main division is between Egyptian and non-Egyptian inscriptions: the latter (345-355) consist of no more than eleven monuments exhibiting the new script discussed in Journal of Egyptian Archaeology, vol. iii, pp. 1-21.
+
+----- Introduction, "Date" -----
+The Egyptian monuments in Sinai range between Dynasties I-XX (circa b.c. 3200-1150).
+
+----- Introduction, "Nature of Copy" -----
+All reproductions of the original drawings entrusted to us by the Fund are indicated by the words E.E.F. copy; and unless they are accompanied by some further symbol, it must be understood that they have not been altered or changed in any way. Where, however, a squeeze (indicated by a dagger), a photograph (indicated by *), or the original (indicated by ||) has been available, such corrections as these permitted have been made.
+
+----- Table V, "The Foreign Inscriptions" (columns: number; plate; other books; nature of monument; date; exact provenance; plate of position; nature of copy) -----
+345 | LXXXII | P. R. fig. 141 | Small sphinx | Middle Kingdom ? | Temple ? | - | E.E.F. copy, collated with original (||)
+346 | LXXXII | P. R. figs. 138-9 | Squatting statue | Middle Kingdom ? | Temple | - | E.E.F. copy, collated with photograph (*)
+347 | LXXXIII | - | Bust | Middle Kingdom ? | Temple ? | - | E.E.F. copy (no collation symbol)
+348 | LXXXIII | Weill, Recueil 44 | Graffito | Middle Kingdom ? | Magharah ? | - | traced from squeeze
+349 | LXXXIII | - | Rock stele | Middle Kingdom ? | Mine L | LXXXIV | E.E.F. copy, collated with photograph (*)
+350-354 | LXXXIII | - | Rock stele (each) | Middle Kingdom ? | Mine L | LXXXIV | E.E.F. copy, collated with photograph (*)
+355 | LXXXIII | - | Fragment of rock stele | Middle Kingdom ? | Mine L | LXXXIV | E.E.F. copy, collated with photograph (*)
+(Rows 346 to 355 read "Middle Kingdom ?" and "Mine L" by ditto marks in the printed table; the question mark is the editors'.)

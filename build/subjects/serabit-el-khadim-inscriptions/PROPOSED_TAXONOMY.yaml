@@ -1,0 +1,6 @@
+# Request to the owner (build/taxonomy.yaml is owner-only; an agent does not edit it). Add this line under `assignments:` in build/taxonomy.yaml.
+# Why: the dig is about excavated inscriptions (area archaeology_texts), touches language (an early alphabet) and religion (the Yahweh and Moses claims), and begins from a popular speaker claim.
+proposed_assignment:
+  serabit-el-khadim-inscriptions: {area: archaeology_texts, areas: [language, religion_myth, media_misinformation], types: [what_does_it_mean, origin, is_claim_true], popular_claims: true}
+as_a_taxonomy_line: >-
+  serabit-el-khadim-inscriptions: {area: archaeology_texts, areas: [language, religion_myth, media_misinformation], types: [what_does_it_mean, origin, is_claim_true], popular_claims: true}

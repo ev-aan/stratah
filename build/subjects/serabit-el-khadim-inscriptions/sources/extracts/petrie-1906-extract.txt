@@ -1,0 +1,196 @@
+# Extract from W. M. F. Petrie (with C. T. Currelly), Researches in Sinai (London: John Murray, 1906; New York: Dutton, 1906).
+# Source: Internet Archive item researchesinsina00petruoft (University of Toronto copy), OCR text file researchesinsina00petruoft_djvu.txt
+# (OCR file sha256 5a04edbf6cd0dab23ba7727aa10a9dfcdb6a56bb068fde19bb1a73979a918f8f. The Google-scan OCR used in the first pass, researchesinsin00currgoog_djvu.txt, is sha256 a0a3d7d0c9af7c384667feae40f923c5f543be4709ee3cb592ad1718b684ae0f; both were read for pp. 128-132.)
+# Rights: published 1906; author died 1942; public domain in the United States and the United Kingdom. Verbatim OCR; runs of spaces collapsed, line breaks
+# and end-of-line hyphenation as in the OCR; OCR errors left as they are; passages are consecutive, with the break between extracts marked by a line of dashes.
+# Page headers and figure captions that the OCR interleaves are left in.
+
+----- PREFACE, pp. vi-vii (funding and organisation of the expedition) -----
+The cost of the main expedition described here was 
+borne by the Egypt Exploration Fund, and the ex- 
+penses of three workers ; while the expenses of two 
+other workers of our party were from private means. 
+That Fund will also publish the atlas of inscriptions 
+and plans, which will be discussed and translated by 
+Mr. Alan Gardiner. The present volume is a separate 
+publication apart from the Fund, and is not, therefore, 
+given to the subscribers. The expedition described in 
+Mr. Currelly's chapters was undertaken for the Egyptian 
+Research Account, in the next volume of which it will 
+be published in detail. 
+
+I much regret that the increased burdens of the 
+Exploration Fund at Deir el Bahri have resulted in that 
+society ceasing to provide for my researches. It has, 
+therefore, been needful for me to trust for the future to 
+the growth of another basis of work, in the Egyptian 
+Research Account and British School of Archaeology in 
+Egypt. I have to thank most sincerely the large number 
+of authorities in history, archaeology, and science who 
+have consented to form the general committee of the 
+
+PREFACE vii 
+
+new school. On this basis it will now be possible for 
+me to continue my researches without interruption, 
+thanks mainly to the exertions of my wife.
+
+----- PREFACE, p. x (dates of the party) -----
+As personal details are sometimes wanted for refer- 
+ence, it may be said that we left Suez on December 3rd ; 
+were at Maghareh, December loth to January nth ; at 
+
+X PREFACE 
+
+Serabi't, January nth to March i8th ; and returned to 
+Suez by March 23rd. Of our party, Mr. Button and 
+myself were present throughout, December 3rd to 
+March 23rd;
+
+----- pp. 129-132 (the foreign sculptures and 'The foreign writing') -----
+A remarkable group of figures was found in the 
+temple, of a ruder style than the regular Egyptian figures, 
+and some bearing inscriptions in unknown characters. 
+The best of these is shown in fig. 138. The general form 
+is a usual type of Egyptian figure, but the style is very 
+clumsy, and the head rises up m too cylindrical a shape. 
+This exaggeration is more marked in other examples. 
+The inscription on the front is shown larger in fig. 139. 
+"This group of five signs is repeated on four diverse 
+monuments, so that it is not a personal name, but some 
+religious phrase. From instances where the signs are 
+in vertical arrangements we learn that the writing here is 
+from left to right. Beside this figure, and parts of others, 
+there is a figure of a sphinx of small size, fig. 141. This 
+has along the upper sides of the base a line of inscription, 
+which contains the same signs as those in fig. 139. 
+On the shoulder is a square containing a dedication 
+to Hathor, " Mistress of Turquoise," in ordinary 
+Egyptian hieroglyphs. And between the paws, as on 
+Egyptian sphinxes, is a Horus-name, which is very rough 
+and small, and which seems only to contain the sign of 
+the sickle, niaat. We can hardly doubt that this is the 
+
+9 
+
+I30 THE LESSER AND FOREIGN MONUMENTS 
+
+Horus-name of Sneferu, as on another late work (fig. 144, 
+no. 4) we have seen how Sneferu was adored by 
+Hatshepsut, both in the Shrine of Kings and in the 
+making of a memorial stele, and it would not be sur- 
+prising if a sphinx were carved in his honour. But it is 
+clearly of local work, and not done by a trained Egyptian 
+sculptor. The fault of representing the forehead as too 
+receding is the same as in the local bust of a queen, 
+
+fig. 131- 
+
+Other examples of such inscriptions were carved over 
+
+the mine at L on Map 3. On looking over the broken 
+
+rocks about that mine, my wife noticed a fragment with 
+
+some signs upon it, which could not be recognised. I 
+
+searched farther, and on turning over a fallen block I found 
+
+more signs. I then brought over some men to the place 
+
+and turned three or four large pieces which had fallen 
+
+from a cut front of rock ; thus we exposed portions of 
+
+other inscriptions, which I reconstituted. At last it was 
+
+clear that we had remains of about eight tablets, roughly 
+
+cut, with broad grooves round them to isolate them, in the 
+
+general form of an Egyptian round-headed tablet. But 
+
+none of the inscriptions were intelligible as Egyptian, of 
+
+any hieratic or debased type. A figure of the god Ptah 
+
+was evident, very roughly outlined ; but not a word of 
+
+regular Egyptian could be read. There was a mixture 
+
+of Egyptian hieroglyphs, but most of the signs are 
+
+cjuite apart from such. 
+
+How much can be concluded about this writing, 
+while we are yet unable to connect it with signs of 
+known values ? 
+
+I. It is a definite system, and not merely a scribbling 
+made in ignorant imitation of Egyptian writing by men 
+who knew no better. The repetition of the same five 
+signs in the same order on the figure and on the sphinx 
+from the temple, as well as on three of the tablets over the 
+mines a mile and a half distant, show that mere fancy is 
+not the source of this writing. 
+
+H'.N IN^iKlllinX .,N AliOVI, Will DV.\A3lV. 
+
+THE FOREIGN WRITING 131 
+
+2. It is always associated with work of a style different 
+to all the usual Eg^'ptian work here, a peculiar local 
+style which was not followed by any one trained in 
+Egyptian methods. 
+
+3. The direction of writing was from left to right, 
+contrary to later Semitic and most Egyptian writing. 
+
+4. It is used about the XVTIIth dynasty. The only 
+indication of date that I could find at the mine, L, was a 
+bit of buff pottery with the red and black stripe which 
+we know to be characteristic of the time of Tahutmes III, 
+and perhaps rather earlier, but not later. The figure, 
+fig. 138, was found at the doorway of the shrine of Sopdu, 
+which was built by Hatshepsut. The sphinx is of a red 
+sandstone which was used by Tahutmes III, and not at 
+other times. The veneration of Sneferu, apparently 
+named on the sphinx, was strong under Tahutmes III, 
+but no trace of it is found later. Each of these facts is 
+not conclusive by itself, but they all agree, and we are 
+bound to accept this writing as being of about 1500 B.C. 
+
+I am disposed to see in this one of the many alphabets 
+which were in use in the Mediterranean lands long before 
+the fixed alphabet selected by the Phoenicians. A mass 
+of signs was used continuously from 6,000 or 7,000 B.C., 
+until out of it was crystallized the alphabets of the 
+Mediterranean — the Karians and Celtiberians preserving 
+the greatest number of signs, the Semites and Phoeni- 
+cians keeping fewer. The outline of this signary will 
+be found in Royal Tombs of the First Dynasty, p. 32. 
+The two systems of writing, pictorial and linear, which 
+Dr. Evans has found to have been used in Crete, long 
+before the Phoenician age, show how several systems 
+were in use. Some of the workmen employed by the 
+Egyptians, probably the Aamu or Retennu — Syrians — 
+who are often named, had this system of linear signs 
+which we have found ; they naturally mixed many 
+hieroglyphs with it, borrowed from their masters. And 
+here we have the result, at a date some five centuries 
+
+1.32 THE LESSER AND FOREIGN MONUMENTS 
+
+before the oldest Phoenician writing that is known. 
+Such seems to be the conchision that we must reach 
+from the external evidence that we can trace. The 
+ulterior conclusion is very important — namely, that 
+common Syrian workmen, who could not command the 
+skill of an Egyptian sculptor, were familiar with writing 
+at 1500 B.C., and this a writing independent of 
+hieroglyphics and cuneiform. It finally disproves the 
+hypothesis that the Israelites, who came through this 
+region into Egypt and passed back again, could not have 
+used writing. Here we have common Syrian labourers 
+possessing a script which other Semitic peoples of this 
+region must be credited with knowing.
