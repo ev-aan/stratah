@@ -31,7 +31,7 @@ sources:
       yes, directly. Internet Archive OCR text of the whole volume (sha256 22121d9e67c981a1d5786c52a7aec1b217690ebf54a826b4245be8a3b5123841) and the PDF of the volume (sha256 27c3964da7b1b88824dccfcca681dc35753cd1fb112d6f0237130a141f21089a,
       397 leaves, downloaded 2026-10-16 from https://archive.org/download/in.ernet.dli.2015.70975/2015.70975.Journal-Of-Egyptian-Archaeology-Vol3.pdf). The article was read from first page to last. Pages 98, 99, 105, 106 and 107
       (the translation of the booty line) were also read from the page images. Correction to the first pass: the volume's two plates of the board are Plate XII (right-hand portion, facing p. 96) and Plate XIII (left-hand portion, facing p. 97);
-      the OCR header reads 'Plate XIII' over both. Extract: sources/extracts/gardiner-1916-jea3-extract.txt.
+      the OCR header reads 'Plate XIII' over both. Extract (trimmed to the quoted lines, L-15; hosting flagged for the owner): sources/extracts/gardiner-1916-jea3-extract.txt.
     publisher_funding_control: >
       Open task. The title page reads 'Published by the Egypt Exploration Fund' (read in the OCR). The first pass's statement that Gardiner's work 'was not institutionally funded' is withdrawn (log L-10): the Griffith Institute page it rested on is
       not reproducible from this record (no URL was recorded; a guess on 2026-10-16 failed) and said at most that he often paid for publications; it does not speak to this article. Who paid for this article, and how the Fund was financed and
@@ -168,7 +168,7 @@ sources:
     url: https://archive.org/details/in.gov.ignca.26276
     document_class: "secondary: a scholar's reading of the tablet's text from the 1912 photographic plate and an argument about its character (interpretive). Not data."
     read: >
-      yes, directly: page images of pp. 536 to 544 (PDF leaves 548-556 of in.gov.ignca.26276, sha256 of the PDF 9e93ecf12d78a8c4c278708706bd249fe086983fb28f82eb880f5c7795043962, downloaded 2026-10-16 from https://archive.org/download/in.gov.ignca.26276/26276.pdf;
+      yes, directly: page images of pp. 536 to 544 (PDF leaves 548-556 of in.gov.ignca.26276, sha256 of the PDF 4155e6a45d6e6fe94553f8fb210e13fac75efa4449112268525fa2f775381a33, 47,991,978 bytes; corrected 2026-10-16, see log L-14, downloaded 2026-10-16 from https://archive.org/download/in.gov.ignca.26276/26276.pdf;
       OCR text sha256 734062991adb44c41e673ba7c141456fea1b53c45d5b0425fc12cbd29c03d4ed, very noisy, used only to locate the pages). Extract: sources/extracts/weill-1913-ja-extract.txt. His hieroglyphic lines were not read. Weill's earlier book (Les Hyksos et la restauration nationale, 1910-1911) was not opened.
     publisher_funding_control: "Open task. Not stated in the pages read. Weill is styled 'capitaine' in Gardiner 1916."
     authenticity:

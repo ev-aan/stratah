@@ -57,7 +57,7 @@ claims:
       type: search-record
       description: >
         Read directly: Digital Karnak's object page (raw HTML; the page does not say which stela it describes); the Rutgers Part I text ('The second stela of Kamose, recording his northern campaign, was discovered in 1954 in Karnak. It was used as the base of a statue of Ramesses II.', and, quoting Habachi, that its abrupt beginning 'points to the fact that this stela is the continuation of a previous yet undiscovered stela');
-        the Rutgers bibliography (entry 47 lists Lacau, ASAE 39, 'Une stele du roi Kamosis', and Habachi 1972 as the edition of the second stela); the Minot page (two stone fragments, 1932 and 1935, unsourced); Gardiner 1916, p. 109: "It is by no means unlikely that the text of the tablet is a direct copy from a stele set up by Kamose in one of the Theban temples" (his conjecture in 1916, before the stelae were found).
+        the Rutgers bibliography (entry 33 is Habachi 1972; entry 47 lists Lacau, ASAE 39, 'Une stele du roi Kamosis', and names Habachi by short name among the editions of the Kamose stelae); the Minot page (two stone fragments, 1932 and 1935, unsourced); Gardiner 1916, p. 109: "It is by no means unlikely that the text of the tablet is a direct copy from a stele set up by Kamose in one of the Theban temples" (his conjecture in 1916, before the stelae were found).
         The two findspot statements (Digital Karnak; Rutgers) differ and may describe different stones. Not opened: the TLA (blocked), Habachi, Lacau, Porter and Moss.
       sources: [src-digital-karnak-victory-stela, src-rutgers-kamose-2013, src-rutgers-biblio, src-minot-oer, src-gardiner-1916-jea3, src-tla-kamose, src-habachi-1972]
     basis: "Not read at the objects. Two findspot statements for the stone differ; neither is settled."
@@ -65,7 +65,7 @@ claims:
   - id: kamose-tablet-findspot-1908
     state: contested
     statement: >
-      Two printed accounts of where Carnarvon Tablet I was found differ. Carter (in Carnarvon and Carter 1912) places it, in the 1908 work, on a rock ledge among pottery and mutilated mummies in the courtyard of Seventeenth Dynasty tomb No. 9 at the Birabi site near the mouth of the Deir el-Bahari valley; Gardiner 1916 repeats that account.
+      Two printed accounts of where Carnarvon Tablet I was found differ. Carter (in Carnarvon and Carter 1912) places it, in the 1908 work, on a rock ledge among pottery and mutilated mummies in the courtyard of Seventeenth Dynasty tomb No. 9 at the Birabi site near the mouth of the Deir el-Bahari valley; Carter's introduction in the same book gives a second wording: after three days' digging in the loose debris at the Birabi, 'at the very threshold of the tomb (afterwards numbered 9)' two wooden tablets were found. Gardiner 1916 repeats the ledge account.
       Maspero (note dated 23 April 1909) says that in February of the previous year Carnarvon, digging in the hill of Drah Abu'l Naga, found the two pieces of the board among the spoil of earlier excavations; he names neither tomb No. 9 nor the Birabi.
     statement_kind: reported
     evidence_class: interpretive
@@ -86,7 +86,7 @@ claims:
       type: interpretive
       description: >
         Carnarvon and Carter 1912, chapter V: "During the work of 1908 the courtyard was found to contain great masses of pottery and mutilated mummies, and it was among these, on a rock ledge, that the important historical tablet referring to the expulsion of the Hyksos by the General Kamosi" and the second tablet were recovered.
-        Maspero 1909, p. 146 (OCR): "le comte de Carnarvon, fouillant a Thebes dans la montagne de Drah abou'l Neggah, y recueillit, parmi les deblais de fouilles anterieures, les deux morceaux d'une tablette a ecrire". Gardiner repeats the excavators' account and is not a second witness. Maspero was not the excavator and does not give his source. Read in text; the two places may or may not be the same spot.
+        Carnarvon and Carter 1912, introduction: "at the very threshold of the tomb (afterwards numbered 9) were discovered two wooden tablets". Maspero 1909, p. 146 (OCR): "le comte de Carnarvon, fouillant a Thebes dans la montagne de Drah abou'l Neggah, y recueillit, parmi les deblais de fouilles anterieures, les deux morceaux d'une tablette a ecrire". Gardiner repeats the excavators' account and is not a second witness. Maspero was not the excavator and does not give his source. Read in text; the two places may or may not be the same spot.
       sources: [src-carnarvon-carter-1912, src-gardiner-1916-jea3, src-maspero-1909-rt31]
       nodes: [{node: kamose-1908-carnarvon-tablet-found, verb: qualifies}]
     basis: >
@@ -96,7 +96,7 @@ claims:
     state: established
     statement: >
       The photographs of Carnarvon Tablet I in the 1912 report (Plates XXVII and XXVIII) and in JEA 3 (Plates XII and XIII) show a rectangular writing-board with a long crack through it. One face carries a ruled grid and a block of closely written lines of hieratic along one long side; the other face carries closely written lines of hieratic across the whole surface,
-      broken by the crack and by a patch where the writing surface is lost along it. The two printed accounts name the faces differently: Gardiner 1916 calls the historical text the obverse, while the 1912 plates are captioned 'Obv.' for the face with the grid and 'Rev.' for the face with the continuous text.
+      broken by the crack and by a patch where the writing surface is lost along it. JEA 3 Plates XII and XIII show only the text face, in two portions; the face with the ruled grid appears only on 1912 Plate XXVII. The printed accounts name the faces inconsistently: Gardiner 1916 calls the historical text the obverse, and the 1912 report's own introduction says one tablet has the historical text 'on its obverse' and the Ptah-hetep copy 'on its reverse', but the 1912 plates are captioned 'Obv.' for the face with the grid and 'Rev.' for the face with the continuous text (so the contradiction is inside the 1912 book, between its text and its plate captions).
     statement_kind: reported
     evidence_class: material
     confidence: moderate
@@ -209,7 +209,7 @@ claims:
     state: proposed
     statement: >
       None of the three translations of the tablet says that Kamose defeated the king of Avaris or a Nubian ruler, took Avaris, or fought in Nubia. The only victory narrated is over the man named Teti son of Piopi at Nefrusi (Gardiner), Teta son of Pepa in Nefrus (Griffith). Griffith says Ahmose, Kamose's successor, "completed the overthrow of the Hyksos by the capture of Avaris"
-      and that a rival in Nubia was "likewise crushed by Ahmosi". Gardiner finds no sign that the writer knew of the taking of Avaris. In the pages of Weill read (pp. 536 to 544), who reads the text as written after the final Theban victory, no defeat of the ruler in Avaris is described either.
+      and that a rival in Nubia was "likewise crushed by Ahmosi". Gardiner finds no sign that the writer knew of the taking of Avaris. In the pages of Weill read (pp. 536 to 544), no defeat of the ruler in Avaris is described either; Weill, who reads the text as written after the final Theban victory, nevertheless describes it as 'une proclamation triomphale' and says that, after the great lacuna, the speech turns to 'le recit d'une guerre victorieuse contre les etrangers et de leur expulsion'.
     statement_kind: search_result
     evidence_class: interpretive
     confidence: low
@@ -386,14 +386,13 @@ claims:
         Four printed readings, each read in its own pages (Griffith, Weill from page images; Gardiner and Maspero from OCR; Maspero's phrase also as quoted by Gardiner). Newberry 1913 was not opened. The readers worked from photographs of the same board (Maspero's source is not stated; Griffith and Weill used the 1912 plate; Gardiner used photographs made in 1910 by Herr Koch) and are not independent of the board's reproductions.
         The numeral was not read here: Plates XII, XIII, XXVII and XXVIII were viewed, and no stroke or sign was counted or identified from them.
       sources: [src-maspero-1909-rt31, src-griffith-translation, src-weill-1913-ja, src-gardiner-1916-jea3, src-jea3-plates, src-carnarvon-carter-1912-ia]
-    basis: "Three readers for year 3, one (with a follower known through Gardiner) for year 7. Not settled here. It matters for how long Kamose had reigned when the text was made."
+    basis: "Year 3 rests on two readers who can be counted as independent, Maspero (the source of his reading is not stated) and Gardiner (Koch's 1910 photographs); Weill works from the 1912 plate and cites Maspero's note, so he adds little independence. Year 7 is effectively Griffith alone: Newberry followed him, per Gardiner. Not settled here. It matters for how long Kamose had reigned when the text was made."
     next_step: "A reader of hieratic reads the first line of the text on a large reproduction or the board; read Newberry 1913."
 
   - id: kamose-tablet-date-of-writing
     state: contested
     statement: >
-      Whether Carnarvon Tablet I was written within a few decades of the events it reports, or later and as literature, is argued. Gardiner 1916, Griffith 1912 and (via Gardiner) Newberry judge the hand to be of the end of the Seventeenth or very early Eighteenth Dynasty and the text a copy of a commemorative stela. Maspero 1909 judged the hand to resemble cursive hands of about the Twentieth Dynasty and the text the beginning of a half-historical tale,
-      (he adds that his guess that it opens a ghost story known from ostraca is 'not very certain'). Weill 1913 reads the text as written after the final Theban victory and as literary, while granting that the hand is close to that of documents before the New Kingdom and keeping, as history, the memory of a war.
+      Whether Carnarvon Tablet I was written within a few decades of the events it reports, or later and as literature, is argued. Gardiner 1916, Griffith 1912 and (via Gardiner) Newberry judge the hand to be of the end of the Seventeenth or very early Eighteenth Dynasty and the text a copy of a commemorative stela. Maspero 1909 wrote that the scribe of 'son livre' (the Ptah-hetep text that follows the board's description) 'avait vecu sans doute vers le temps de la XXe dynastie' because his writing seems to belong to the cursive hands of that period; Gardiner takes this to concern the Ptahhotpe copy, and Maspero separately called the historical text the beginning of a half-historical tale (adding that his guess that it opens a ghost story known from ostraca is 'not very certain'). Maspero does not say, in the passage read, that the hand of the historical text is of the Twentieth Dynasty. Weill 1913 reads the text as written after the final Theban victory and as literary, while granting that the hand is close to that of documents before the New Kingdom and keeping, as history, the memory of a war.
     statement_kind: judgment
     evidence_class: interpretive
     confidence: low
@@ -404,18 +403,18 @@ claims:
     would_change_if: "a palaeographical study of the hand by a specialist independent of these readers, or a dated parallel in the same hand, or the first stela's parallel is read"
     disputed_by:
       - {who: "A. H. Gardiner (1916), with F. Ll. Griffith and P. E. Newberry", kind: person, position: "hand of the end of the Seventeenth Dynasty; 'in no case can it have been written more than fifty years later'; a copy of a commemorative stela. His own concessions: 'The question as to its value as a historical document is better deferred', the text is 'the work of a very careless and ignorant copyist', and 'No doubt this kind of historical source is not all that could be desired'", source_read: "Gardiner 1916 pp. 96 to 110, read; Griffith ('written within a few years of the events recorded') read directly", via: direct}
-      - {who: "G. Maspero (1909)", kind: person, position: "the hand seems to belong to the cursive hands of about the Twentieth Dynasty rather than the Eighteenth; the text the beginning of a half-historical tale; of the tale being the start of a ghost story he writes 'cela n'est pas bien certain'", source_read: "Recueil de travaux 31, p. 146, OCR", via: direct}
+      - {who: "G. Maspero (1909)", kind: person, position: "the text on the board is 'le commencement d'un conte a demi historique'; of its being the start of a ghost story he writes 'cela n'est pas bien certain'. Separately, of the scribe of 'son livre' (the paragraph after the board's description, which goes on to the Ptah-hetep text) he writes 'il avait vecu sans doute vers le temps de la XXe dynastie, car l'ecriture de son livre semble se rattacher aux mains cursives de cette epoque'. Gardiner 1916 p. 96 reports this as Maspero's opinion that the scribe of the Ptahhotpe duplicate lived towards the Twentieth Dynasty; it is not stated for the hand of the historical text", source_read: "Recueil de travaux 31, p. 146, OCR; Gardiner's report, p. 96", via: direct}
       - {who: "R. Weill (1913)", kind: person, position: "composed after the definitive Theban victory; 'exclusivement litteraire, retrospective'; 'une sorte de roman historique'; but he writes that the hand is so like pre-New-Kingdom documents that one is 'tres tente' to date it, as Griffith does, a few years after the events, and that, 'au point de vue proprement historique', one keeps the memory of a war in which Ahmose's predecessors at Thebes fought the powers of Lower Egypt", source_read: "Journal asiatique 1913, pp. 541 to 544, page images", via: direct}
     positions:
       - {label: "near-contemporary copy of a commemorative stela", holder: "Gardiner 1916; Griffith 1912; Newberry 1913 (via Gardiner)", ground: "palaeography (comparison with Moller's hieratic forms, Rhind and Ebers papyri) and the form of Egyptian commemorative stelae"}
-      - {label: "later scribe, text partly or wholly literature", holder: "Maspero 1909; Weill 1913", ground: "Maspero: the hand resembles cursive hands of about the Twentieth Dynasty; Weill: the content, which he reads as retrospective"}
+      - {label: "text partly or wholly literature, composed later", holder: "Weill 1913; Maspero 1909 (a half-historical tale; his Twentieth-Dynasty remark concerns the scribe of the Ptahhotpe copy, as Gardiner reads him)", ground: "Weill: the content, which he reads as retrospective; Maspero: not stated in the passage read"}
     anchor:
       type: interpretive
       description: >
         Gardiner 1916 (read start to end, with the page images of pp. 97 to 107), Griffith 1912, Maspero 1909 p. 146 (OCR) and Weill 1913 pp. 541 to 544 (page images), each read in its own words. Newberry 1913 was not opened. Gardiner is both the main source and a party to the dispute; Weill and Maspero argue the other side in their own texts, where they are quoted above.
         The hand was not seen as a palaeographer would see it; the plates were viewed and no sign was read. The first-stela fragments were not read, so Gardiner's 'a direct copy from a stele' remains his conjecture here.
       sources: [src-gardiner-1916-jea3, src-griffith-translation, src-maspero-1909-rt31, src-weill-1913-ja]
-    basis: "Four directly read positions; one more (Newberry) through Gardiner. Each author's concessions are listed beside the position. Not closed."
+    basis: "Four directly read positions; one more (Newberry) through Gardiner. Gardiner, Griffith and Newberry are not fully independent of one another (Griffith had Gardiner's help; Gardiner says he agrees with Griffith and Newberry). Maspero's Twentieth-Dynasty remark is about the scribe of the Ptah-hetep text, not shown to be about the historical text. Each author's concessions are listed beside the position. Not closed."
     next_step: "Open Newberry 1913; view the board's hand with a palaeographer; read what a modern palaeographer says."
 
   - id: kamose-absolute-date-bce
@@ -601,7 +600,7 @@ claims:
     would_change_if: "the sign rendered 'slaves' (or 'men') is read and means enslaved people, and a text read shows their number or origin as Avaris or Nubia, or the second stela's passages on captives say so"
     next_step: "Read the booty and captive passages of the second stela in Habachi 1972 and Smith and Smith 1976, and the booty line in a reader's translation."
     anchor:
-      type: interpretive
+      type: search-record
       description: >
         The tablet translations say his soldiers carried off persons as booty at Nefrusi: 'slaves' (Gardiner, Griffith) or 'hommes' (Weill) (kamose-tablet-text-booty-slaves). That is booty at one place, from the town of the man named as the enemy; the persons are not said to be of Avaris or Nubia, and no policy of enslaving a people is stated in the translations. The sign was not read here.
         The Rutgers Part I commentary glosses 'my captured prisoners' in a clause whose reading is open (kamose-second-stela-captives-clauses), and its Part II booty list names materials (kamose-second-stela-booty-list).

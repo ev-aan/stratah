@@ -28,8 +28,8 @@ events:
      label: "1954: the second stela is discovered at Karnak, used as the base of a statue of Ramesses II (per Rutgers Part I)",
      detail: "Digital Karnak gives a different findspot (fragments in the foundation of the 2nd Pylon and the fill of the 3rd Pylon) and no year; the two may describe different stones (claim kamose-objects-identification)."}
   - {id: k5, lane: readings, time: "1909-04-23T12:00:00Z", precision: day, date_basis: stated, kind: document, status: single, sources: [s_maspero],
-     label: "23 Apr 1909: Maspero's first notice of the board (date at the end of his note); reads year III, a hand of about the Twentieth Dynasty",
-     detail: "He puts the find in February of the previous year, at Drah Abu'l Naga, among the spoil of earlier excavations (claim kamose-tablet-findspot-1908)."}
+     label: "23 Apr 1909: Maspero's first notice of the board (date at the end of his note); reads year III; calls the text 'le commencement d'un conte a demi historique'",
+     detail: "He puts the find in February of the previous year, at Drah Abu'l Naga, among the spoil of earlier excavations (claim kamose-tablet-findspot-1908). His remark that the scribe of 'son livre' lived towards the Twentieth Dynasty follows the description of the board and is taken by Gardiner to concern the Ptahhotpe copy (claim kamose-tablet-date-of-writing)."}
   - {id: k6, lane: readings, time: "1910-01-01T00:00:00Z", precision: year, date_basis: stated, kind: document, status: single, sources: [s_jea3],
      label: "1910: Herr Koch makes the large-scale photographs of the board that Gardiner later prints",
      detail: "Gardiner 1916, p. 95: 'the large-scale photographs made for me in 1910 by Herr Koch'."}

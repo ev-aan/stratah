@@ -2,6 +2,9 @@ EXTRACT (public domain). The Earl of Carnarvon and Howard Carter, Five Years' Ex
 Read: Project Gutenberg #48382 plain text (sha256 8c06225228735e9f2615e458553b935b2216eb5dbc99ecb934c82cc3fcd2468c) and the Internet Archive scan fiveyearsexplora00carnuoft (OCR text sha256 110fe8c8fe0b94d068550ea8cd365ff9b6d390b93d70528dfa1c41655565c32a; PDF sha256 749605917a73accbe515d9c192fb9b6e472be9fe024536f76b8a63cded5cfd0d). Plates XXVII and XXVIII were viewed in the scan (leaves 173 and 175 of the PDF).
 Verbatim apart from OCR repairs; elisions are marked [...].
 
+--- Introduction (Carnarvon and Carter) ---
+[...] Three days' digging in the loose debris unmasked a hidden burial-place. Masses of pottery and denuded mummies were brought to light, and at the very threshold of the tomb (afterwards numbered 9) were discovered two wooden tablets (one in fragments) covered with stucco and inscribed with hieratic texts. One of these tablets has written (1) on its obverse, an important historical text relating to the expulsion of the Hyksos kings by the King Kamosi; and (2) on its reverse, a copy of part of the well-known Proverbs of Ptah-hetep.
+
 --- Chapter V, "The work done in the Seventeenth Dynasty tomb No. 9" (Howard Carter) ---
 The site between the native house 'Beit el Meleitan' and the village mosque, about one hundred and fifty metres north-east of the mouth of the Der el Bahari valley, was examined in 1908, and as it resulted in the discovery of a XVIIth Dynasty tomb (No. 9), it was continued in the following year 1909. [...] During the work of 1908 the courtyard was found to contain great masses of pottery and mutilated mummies, and it was among these, on a rock ledge, that the important historical tablet referring to the expulsion of the Hyksos by the General Kamosi (see further description by Griffith, p. 36), and the second broken tablet were recovered.
 
