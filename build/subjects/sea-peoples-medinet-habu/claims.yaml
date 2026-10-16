@@ -35,7 +35,7 @@ assessment:
     Prisoners and hands: Ramses III's scenes show prisoners and severed hands. Edgerton and Wilson describe a Sea Peoples scene (plate 42) with two piles of hands and prisoners branded on the shoulder, and a Libyan victory scene with hands and phalli (plate 23). No passage read says prisoners were castrated.
     The Ekwesh passage in Merneptah's Karnak text says the Ekwesh 'had no foreskins', which Breasted reads as circumcised; Muller (1893) says the inscription says the opposite of the pirates having been circumcised. The speaker's 'three groups' and 'Hebrews' are not in any text read.
     Weights stay low because every claim rests on translations, none on the signs, and several rest on one translator.
-  basis: [sp-nine-names-across-two-reigns, sp-year8-names-five-peoples, sp-karnak-names-merneptah-year5, sp-40a-hittites-biggest-force, sp-41b1-castrated, sp-41c1-aegean-group-circumcised, sp-41d2-hebrews, sp-43a2-200-miles-inland]
+  basis: [sp-nine-names-across-two-reigns, sp-year8-names-five-peoples, sp-karnak-names-merneptah-year5, sp-40a-hittites-biggest-force, sp-41b1-castrated, sp-41c1-aegean-group-circumcised, sp-41d2-hebrews, sp-43a2-200-miles-inland, sp-40d-peoples-of-rome, sp-41b2-hands-cut-off-instead, sp-43b-three-groups-circumcised, sp-year5-peleset-line-renderings, sp-nine-bows-stock-phrase]
   would_settle: "A reader of Egyptian comparing the signs of OIP 8 plates 27-28 (Ramses III year 5), 42, 44 and 46 and Merneptah's Karnak lines 52-56 with Kitchen's RI IV and V and Wuthrich and Matic 2023; and a dated chronology for the two reigns."
 
 claims:
@@ -127,10 +127,11 @@ claims:
       - label: "Sea peoples were already with the Libyans in Ramses III year 5"
         holder: "Breasted 1906, vol. IV sections 44 (note), 52 and 59 (read)"
         ground: "the Peleset line sits in an inscription dated year 5; hands cut off as trophies in the relief; Breasted's own wording"
-      - label: "The Northerners passage in the year 5 inscription records events usually dated year 8"
-        holder: "Edgerton and Wilson 1936, plates 27-28 description (read)"
+      - label: "The Northerners passage in the Ramses III year 5 inscription refers to the war of year 8"
+        holder: "Edgerton and Wilson 1936, plates 27-28 description (read); Maspero, following Chabas, as reported in Breasted's section 44 note ('referred by Maspero (following Chabas) to the war of the year 8'; Maspero and Chabas not opened)"
         ground: "analysis of the contents of the inscription"
     disputed_by:
+      - {who: "Maspero (following Chabas), as reported by Breasted in the section 44 note", kind: person, position: "refers the passage to the war of year 8", source_read: false, via: src-breasted-are4}
       - {who: "Edgerton and Wilson 1936 (a revision of Breasted's translations)", kind: work, position: "the inscription dated year 5 also records events usually dated year 8", source_read: true, via: src-edgerton-wilson-1936}
     next_step: "Read Kitchen RI V and the year 5 and year 8 texts in the signs; check whether any other source separates the two campaigns."
     basis: "Two readings by the same school, one of which revises the other. This is a different question from Merneptah year 5 (Karnak), which is a different reign and is not in play here."
@@ -163,8 +164,8 @@ claims:
     statement_kind: reported
     evidence_class: interpretive
     confidence: low
-    evidential_weight: 3
-    anchor_checked: secondary
+    evidential_weight: 2
+    anchor_checked: 'no'
     adoption_weight: 2
     adoption_note: "The five names are stated in one popular-press article read (Cline 2015, p. 68); extent not measured."
     would_change_if: "the signs of plate 46 or Kitchen's translation give other names or another count"
@@ -172,7 +173,7 @@ claims:
       type: interpretive
       description: >
         Breasted 1906 vol. IV (OCR) sections 65 and 82; SAOC 12 plate 46 line 18 (printed page 53) and plate 44 lines 23 and 24 (printed page 48); Cline 2015 p. 68 ('Peleset, Tjekker, Shekelesh, Danuna, and Weshesh', a translation he does not name). The plate 44 caption 'captives of the Sea Peoples' is the modern editors' title, not an Egyptian term. Signs not read.
-        Three renderings read, from two scholars' translations and one unnamed; Edgerton and Wilson revise Breasted, so independence is partial.
+        Three renderings read, from two scholars' translations and one unnamed; Edgerton and Wilson revise Breasted, so independence is partial, so anchor_checked is no and the weight is 2.
       sources: [src-breasted-are4, src-breasted-are4-ocr, src-edgerton-wilson-1936, src-edgerton-wilson-1936-pdf, src-cline-2015, src-oip8]
     basis: "# V: read 2026-10-14 (Breasted) and 2026-10-16 (Edgerton and Wilson, Cline). Spellings differ by translator; the five names agree."
 
@@ -221,7 +222,8 @@ claims:
     evidence_class: interpretive
     confidence: low
     evidential_weight: 2
-    anchor_checked: secondary
+    anchor_checked: 'no'
+    absence_anchor: true
     adoption_weight: 1
     adoption_note: "Not measured."
     would_change_if: "the signs or another reading use 'Nine Bows' as a numbered list of nine peoples in a record of these wars"
@@ -229,7 +231,7 @@ claims:
       type: interpretive
       description: >
         Breasted vol. IV sections 38, 49, 54, 55, 57 and 123 (read in the OCR) and SAOC 12 plates 23, 27, 29, 42, 43 and 46 (read), each translating the phrase as a stock epithet.
-        Two translators from the same school, with the phrase appearing in the same sense in both.
+        Two translators from the same school, with the phrase appearing in the same sense in both. The part of the statement that no list of nine named peoples is headed 'Nine Bows' is an absence in the passages read (a search of one OCR and one text layer), held at provisional.
       sources: [src-breasted-are4, src-breasted-are4-ocr, src-edgerton-wilson-1936, src-edgerton-wilson-1936-pdf]
     basis: "# V: read 2026-10-16. A reading of translations; the signs were not read."
 
@@ -278,7 +280,7 @@ claims:
     evidence_class: interpretive
     confidence: low
     evidential_weight: 2
-    anchor_checked: secondary
+    anchor_checked: 'no'
     adoption_weight: 1
     adoption_note: "Not measured."
     would_change_if: "the signs show the prisoner scenes or labels are not what the translations and captions say"
@@ -337,6 +339,7 @@ claims:
     confidence: low
     evidential_weight: 2
     anchor_checked: 'no'
+    absence_anchor: true
     adoption_weight: 1
     adoption_note: "Not measured."
     would_change_if: "the signs or other sources place the named peoples elsewhere, or show the lands named as victims were also sources of fighters"
@@ -369,7 +372,7 @@ claims:
         ground: "name equation, not a statement in the Egyptian text"
       - label: "The five Ramses III year 8 peoples were Anatolian victims of Greek and Balkan invaders, not the Greek coalition"
         holder: "Moreu 2023 (read)"
-        ground: "his reading of the year 8 text and the year 5 line"
+        ground: "his reading of the year 8 text and the Ramses III year 5 line"
     disputed_by:
       - {who: "Moreu 2023", kind: person, position: "Mycenaean Greeks and proto-Phrygians were the invaders; the five peoples of year 8 were their victims", source_read: true, via: src-moreu-2023}
     next_step: "Read Kitchen RI IV and V and a modern study of the Ekwesh and Denyen identifications."
@@ -418,7 +421,7 @@ claims:
     evidence_class: interpretive
     confidence: low
     evidential_weight: 2
-    anchor_checked: secondary
+    anchor_checked: 'no'
     adoption_weight: 1
     adoption_note: "Not measured."
     would_change_if: "the signs show the Denyen label does not belong to captives"
@@ -436,6 +439,7 @@ claims:
     confidence: low
     evidential_weight: 1
     anchor_checked: 'no'
+    absence_anchor: true
     adoption_weight: 1
     adoption_note: "Not measured."
     would_change_if: "the signs or a specialist study support or rule out the Denyen-Danaan equation"
@@ -472,6 +476,7 @@ claims:
     confidence: low
     evidential_weight: 2
     anchor_checked: 'no'
+    absence_anchor: true
     adoption_weight: 1
     adoption_note: "Not measured."
     would_change_if: "the signs or Kitchen RI IV read the Ekwesh passage as prisoners rather than slain"
@@ -548,16 +553,16 @@ claims:
         Muller (1893, p. 358): 'Daß die Piraten beschnitten gewesen seien, ist unrichtig; die Inschrift sagt gerade das Gegenteil' (that the pirates were circumcised is incorrect; the inscription says just the opposite). Edgerton and Wilson (1936) say, in a note on plates 22 and 23 (printed page 14), that those Libyan scenes 'seem to us to justify the translation "phallus" for krnt in the Medinet Habu texts, although the word certainly had a different meaning in the time of Merneptah', and, in a note on the plate 23 piles (page 15), that 'Some are surely circumcised.'
       sources: [src-breasted-are3, src-breasted-are3-ocr, src-mueller-1893, src-mueller-1893-ocr, src-edgerton-wilson-1936, src-edgerton-wilson-1936-pdf]
     positions:
-      - label: "Ekwesh circumcised ('no foreskins')"
-        holder: "Breasted 1906, section 588 and note (read)"
-        ground: "translation of the Karnak list"
+      - label: "Ekwesh circumcised ('no foreskins'); krn't is 'something which the Sherden and the other allies did not have'"
+        holder: "Breasted 1906, section 588 and his note on 'phalli with the foreskins' (read)"
+        ground: "translation of the Karnak list; the note judges 'foreskin' 'very probable'"
       - label: "The sea raiders are not described as circumcised; krn't is what the Libyans' phalli were taken as"
         holder: "Muller 1893, p. 358 (read in German OCR)"
         ground: "a different reading of the word krn't"
     disputed_by:
       - {who: "Muller 1893", kind: person, position: "the pirates were not circumcised; the inscription says the opposite", source_read: true, via: src-mueller-1893}
     next_step: "Read Kitchen RI IV lines 52-56, Muller's 1888 article, and a study of the Karnak word."
-    basis: "Contested on the reading of one word. This corrects the first-pass entry, which said Muller read the word as 'horn'; the first-pass source was Breasted's report of Muller. Muller's own page (read now) takes the opposite view of who was circumcised."
+    basis: "Contested on the reading of one word. Breasted reports an 1888 argument by Muller that krnt means 'horn', i.e. phallus (that article was not opened); Muller's 1893 page, read here, takes the opposite view of who was circumcised from Breasted's."
 
   - id: sp-43b-three-groups-circumcised
     state: contested
@@ -575,18 +580,19 @@ claims:
       type: interpretive
       description: >
         Breasted vol. III section 588 (read in the OCR): the list heading names 'Sherden, Shekelesh, Ekwesh of the countries of the sea' and is followed by 'who had no foreskins', so three names stand before the phrase in his translation; his note a says 'this designation, both here and in the Athribis Stela (1. 13), is inserted only after the Ekwesh' and that in the Athribis Stela the Ekwesh 'is cut off by a numeral from the preceding, showing that the designation there belongs only to them'. Breasted reads it as the Ekwesh only.
-        Muller (1893, p. 358, read) treats the sea raiders generally as lacking krn't and says they were not circumcised ('Daß die Piraten beschnitten gewesen seien, ist unrichtig'). No source read counts three circumcised peoples.
+        Breasted's note on the word ('phalli with the foreskins', the note that answers Muller) also says: 'krn't is something which the Sherden and the other allies did not have (l. 54)', and that 'the rendering "foreskin" is very probable'. So Breasted's two notes speak of the Ekwesh alone (note a) and of 'the Sherden and the other allies' (note on the word); he does not give a number of circumcised peoples.
+        Muller (1893, p. 358, read) treats the sea raiders generally as lacking krn't and says they were not circumcised ('Daß die Piraten beschnitten gewesen seien, ist unrichtig'). Neither Breasted nor Muller counts three circumcised groups. The speaker's 'three' matches the three names (Sherden, Shekelesh, Ekwesh) printed before 'who had no foreskins' in Breasted's list heading; no source read holds that count.
       sources: [src-breasted-are3, src-breasted-are3-ocr, src-mueller-1893, src-mueller-1893-ocr]
     positions:
-      - label: "The phrase 'who had no foreskins' belongs to the Ekwesh alone (one group, read as circumcised)"
-        holder: "Breasted 1906, vol. III section 588 note a (read)"
-        ground: "placement of the phrase in the Karnak list and in the Athribis Stela"
+      - label: "'Who had no foreskins' belongs to the Ekwesh alone (note a); krn't is also said to be something 'the Sherden and the other allies did not have'; 'foreskin' very probable"
+        holder: "Breasted 1906, vol. III section 588 note a and his note on the word (read)"
+        ground: "placement of the phrase in the Karnak list and in the Athribis Stela; the lack of krn't read as lack of foreskin"
       - label: "The sea raiders as a body had no krn't and were not circumcised"
         holder: "Muller 1893, p. 358 (read in German OCR)"
         ground: "his reading of krn't"
     disputed_by:
       - {who: "Muller 1893", kind: person, position: "the raiders were not circumcised; the inscription says the opposite", source_read: true, via: src-mueller-1893}
-    basis: "Contested on the placement of one phrase in a list heading and the meaning of one word. The three names that stand before the phrase in Breasted's printed heading are the only count of three found; Breasted himself applies the phrase to one."
+    basis: "Contested on the placement of one phrase in a list heading and the meaning of one word. Both listed positions oppose the speaker's 'three'; no holder of 'three' is listed. The speaker's count matches the three names printed before the phrase in Breasted's list heading (Sherden, Shekelesh, Ekwesh); Breasted's notes apply the phrase to the Ekwesh and, in the note on the word, to 'the Sherden and the other allies'."
 
   - id: sp-41d1-only-israel-circumcised
     state: searched_gap
@@ -622,7 +628,7 @@ claims:
     next_step: "Read Kitchen RI IV for any Israel reference near the Karnak lines; read a study of the Karnak list and Israel."
     anchor:
       type: search-record
-      description: "Searched the Karnak passages (Breasted vol. III sections 570-589), the Ramses III year 5 and year 8 passages and Papyrus Harris section 403 (vol. IV) as read, and the SAOC 12 text layer by word (Hebrew, Israel): no mention of Israel or Hebrews in the Sea Peoples passages. SAOC 12 cites the Israel Stela only for word comparisons. Moreu 2023 and Cline 2015 name the Philistines, not Hebrews."
+      description: "Searched the Karnak passages (Breasted vol. III sections 570-589), the Ramses III year 5 and year 8 passages and Papyrus Harris section 403 (vol. IV) as read, and the SAOC 12 text layer by word (Hebrew, Israel): no mention of Israel or Hebrews in the Sea Peoples passages. SAOC 12 cites the Israel Stela only for word comparisons. Breasted vol. IV also cross-refers, in notes to the Ramses III year 5 inscription, to 'the Israel passage, III, 604' (the note to section 39 on the words 'seed is not' and the note to section 58 'See III, 604'), that is to the Israel line of Merneptah's stele; the notes cite it beside the phrase and do not connect Israel to the sea peoples or to circumcision. Moreu 2023 and Cline 2015 name the Philistines, not Hebrews."
       sources: [src-breasted-are3-ocr, src-breasted-are4-ocr, src-edgerton-wilson-1936-pdf, src-moreu-2023, src-cline-2015]
     basis: "Absence in the sources read, capped at provisional."
 
@@ -775,6 +781,7 @@ claims:
     confidence: low
     evidential_weight: 1
     anchor_checked: 'no'
+    absence_anchor: true
     adoption_weight: 1
     adoption_note: "Not measured."
     would_change_if: "an archaeological dating of Philistine settlement, Kitchen RI V, or Wuthrich-Matic and Ben-Dor are read and change the date or the sequence"
@@ -819,6 +826,7 @@ claims:
     confidence: low
     evidential_weight: 1
     anchor_checked: 'no'
+    absence_anchor: true
     adoption_weight: 1
     adoption_note: "Not measured."
     would_change_if: "excavation reports on Philistine sites or a study of the Peleset origin are read"
@@ -845,17 +853,20 @@ claims:
       description: >
         Breasted vol. IV section 44 (read in the OCR): 'The northern countries are unquiet in their limbs, even the Peleset, the Thekel, who devastate their land. Their soul came, in the last extremity. They were warriors upon land, also in the sea.' Breasted refers to Muller (Asien und Europa, 360) for one word; Muller (1893, p. 360, read) prints 'die verheerten ihr Land' (who ravaged their land) for the same clause.
         SAOC 12 plates 27-28 lines 51-52 (printed page 30): 'The northern countries quivered in their bodies, namely the Peleset, Thekk[er], ... They were cut off <from> their land, coming, their spirit broken. They were thr-warriors on land; another (group) was on the sea.' The angle brackets mark a word the translators supply; note 52a says the translation 'assumes that some preposition has fallen out before t3.sn'.
-        Moreu 2023 (read) quotes Breasted, Ben-Dor 2015 ('Their land was devastated') and Wuthrich and Matic 2023 ('cut off <from> their land') and says the later renderings are passive; Ben-Dor and Wuthrich-Matic were not read. The passive 'cut off' wording is already in Edgerton and Wilson 1936, which Moreu cites only for year 8.
-      sources: [src-breasted-are4, src-breasted-are4-ocr, src-mueller-1893, src-mueller-1893-ocr, src-edgerton-wilson-1936, src-edgerton-wilson-1936-pdf, src-moreu-2023, src-ben-dor-wuthrich]
+        Moreu 2023 (read) quotes Breasted, Ben-Dor 2015 ('Their land was devastated') and Wuthrich and Matic 2023 ('cut off <from> their land') and says the later renderings are passive; Ben-Dor and Wuthrich-Matic were not read and are known only from Moreu's quotation (manifest entry src-ben-dor-wuthrich, not cited as an anchor). The passive 'cut off' wording is already in Edgerton and Wilson 1936, which Moreu cites only for year 8.
+      sources: [src-breasted-are4, src-breasted-are4-ocr, src-mueller-1893, src-mueller-1893-ocr, src-edgerton-wilson-1936, src-edgerton-wilson-1936-pdf, src-moreu-2023]
     positions:
-      - label: "The Peleset and Thekel devastated their land (active), as sea peoples fighting beside the Libyans"
-        holder: "Breasted 1906 section 44 and Muller 1893 p. 360 (read)"
-        ground: "translation of the clause; Breasted's note reads the sea peoples as already in Ramses III's war of year 5"
-      - label: "The Peleset and Thekel were cut off from their land (passive): victims"
-        holder: "Edgerton and Wilson 1936 plates 27-28 (read); Moreu 2023 reading Ben-Dor 2015 and Wuthrich-Matic 2023 (not read)"
+      - label: "The Peleset and Thekel devastated their land (active rendering of the clause)"
+        holder: "Breasted 1906 section 44 and Muller 1893 p. 360 (both read; in the passage read Muller does not date the line or mention the Libyans)"
+        ground: "translation of the clause; Breasted's note adds that the sea peoples were already in Ramses III's war of year 5"
+      - label: "The Peleset and Thekel were cut off from their land (passive rendering of the clause)"
+        holder: "Edgerton and Wilson 1936 plates 27-28 (read); as quoted by Moreu, Wuthrich and Matic 2023 (not read) and, with 'Their land was devastated', Ben-Dor 2015 (not read)"
         ground: "translation of the clause with a supplied preposition"
+      - label: "The Peleset and Tjeker were victims whose land was devastated by others"
+        holder: "Moreu 2023 only (read); Edgerton and Wilson do not draw this conclusion in the passage read"
+        ground: "Moreu's inference from the passive renderings and from the year 8 text"
     disputed_by:
-      - {who: "Edgerton and Wilson 1936", kind: work, position: "'They were cut off <from> their land, coming, their spirit broken'", source_read: true, via: src-edgerton-wilson-1936}
+      - {who: "Edgerton and Wilson 1936", kind: work, position: "render the clause 'They were cut off <from> their land, coming, their spirit broken' (they do not say the Peleset were victims)", source_read: true, via: src-edgerton-wilson-1936}
       - {who: "Moreu 2023 (self-published PDF; reads Ben-Dor and Wuthrich-Matic)", kind: person, position: "the Peleset and Tjeker were victims whose land was devastated by others", source_read: true, via: src-moreu-2023}
     next_step: "Read Ben-Dor 2015, Wuthrich and Matic 2023 and Kitchen RI V; have the signs of the line read."
     basis: >

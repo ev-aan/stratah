@@ -32,7 +32,7 @@ events:
   - {id: e02, lane: ancient, time: "-1180-01-01T00:00:00Z", precision: year, kind: document, status: inferred, date_basis: inferred, sources: [s_are4, s_saoc12, s_cline],
      label: "Ramses III year 5 (inferred about 1180 BC): the Libyan war inscription in the second court",
      detail: "Breasted vol. IV sections 36-58 and SAOC 12 plates 27-28. The inscription is dated year 5 and contains a Peleset-and-Thekel line that Breasted reads as sea peoples with the Libyans and Edgerton and Wilson print with the northern war usually dated year 8. The year is Cline's year 8 minus three, an inference."}
-  - {id: e03, lane: ancient, time: "-1177-01-01T00:00:00Z", precision: year, kind: document, status: single, date_basis: derived, sources: [s_are4, s_saoc12, s_oip8, s_cline], node: medinet-habu-ramses-iii-year-8-inscription, rev: 2,
+  - {id: e03, lane: ancient, time: "-1177-01-01T00:00:00Z", precision: year, kind: document, status: single, date_basis: derived, sources: [s_are4, s_saoc12, s_oip8, s_cline], node: medinet-habu-ramses-iii-year-8-inscription, rev: 3,
      label: "Ramses III year 8 (1177 BC per Cline): the northern war inscription and reliefs at Medinet Habu",
      detail: "Breasted vol. IV sections 62-82; SAOC 12 plate 46; OIP 8 plates 42, 44, 46 and 53. Names Peleset, Thekel, Shekelesh, Denyen and Weshesh. 1177 BC is Cline's date for the year, not read from a chronology."}
   - {id: e04, lane: ancient, time: "-1174-01-01T00:00:00Z", precision: year, kind: document, status: inferred, date_basis: inferred, sources: [s_are4, s_saoc12],

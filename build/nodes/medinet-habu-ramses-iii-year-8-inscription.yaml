@@ -1,6 +1,6 @@
 # Shared node. Append-only: a change is a new `rev` plus a `history` entry, never an overwrite. See build/SCHEMA.md, Nodes.
 id: medinet-habu-ramses-iii-year-8-inscription
-rev: 2
+rev: 3
 type: document
 label: 'Ramses III, year 8: the great inscription and Sea Peoples reliefs at Medinet Habu, Thebes'
 time: '-1177-01-01'
@@ -10,7 +10,7 @@ kind: document
 status: reported
 what: >-
   A long inscription dated to year 8 of Ramses III, cut on the north tower of the second pylon of his temple at Medinet Habu, with relief scenes of a land and a naval battle and prisoners on the outside north wall.
-  The Epigraphic Survey published drawings and photographs of it in 1930 (OIP 8; the northern-war plates are 29-34, 37-39, 42-44 and 46, with details on plate 53; plate 35, the lion hunt, is not part of it). The date 1177 BC is the single year given by Cline 2015 for regnal year 8; no chronology was read, so the year is a placeholder
+  The Epigraphic Survey published drawings and photographs of it in 1930 (OIP 8; its list of plates titles plates 29-34, 36-39, 41-44 and 46 with Sea Peoples subjects or the year 8 inscription, plate 40 analyses one Egyptian ship in the naval scene, and later plates print details, among them plate 53; plate 35, the lion hunt, is not among them). The date 1177 BC is the single year given by Cline 2015 for regnal year 8; no chronology was read, so the year is a placeholder
   for ordering and could differ by several years. Breasted's 1906 translation names Peleset, Thekel, Shekelesh, Denyen and Weshesh.
 place:
   name: 'Mortuary temple of Ramses III, Medinet Habu, west bank, Luxor'
@@ -48,3 +48,6 @@ history:
 - rev: 2
   date: '2026-10-16'
   change: 'Fix pass of the sea-peoples-medinet-habu dig. Plate range in `what` narrowed from 31-46 and 53 to the northern-war plates named in the contents of SAOC 12 (29-34, 37-39, 42-44, 46) and details on 53, after an independent review noted plate 35 (lion hunt) and the Libyan-war plates were wrongly included. Added SAOC 12 (read in full for plate 46 and the plates listed) as a second source; it is a revision of Breasted, so the two are not independent. Time, place and date_basis are unchanged: 1177 BC is still one popular article (Cline 2015, read in full 2026-10-16) and still a placeholder.'
+- rev: 3
+  date: '2026-10-16'
+  change: 'Wording of the plate list in `what` tidied after a second independent review: the first fix said the northern-war plates "are" 29-34, 37-39, 42-44 and 46, but the OIP 8 list of plates (read) also titles plates 36 and 41 with Sea Peoples subjects and plate 40 analyses a ship from the naval scene. Time, place and sources unchanged.'
