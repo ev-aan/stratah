@@ -1,105 +1,93 @@
-# israel-palestine-money: who paid, designated, sanctioned and voted, and when it changed (pilot, 1993-2026)
-# Opened 2026-10-07 at the owner's request (log L-01). Pilot scope: ten money/designation cases and the
-# UN voting and recognition record of twelve countries. Everything else is filed as searched gaps.
+# israel-palestine-money: dated documents on funding, designations, sanctions and votes concerning Israel and Palestine (1993-2026)
+# Opened 2026-10-07 (log L-01). Pilot scope: ten money/designation cases and the UN voting and recognition record of twelve
+# countries; later passes added filed money records by channel. Gaps are recorded as coverage facts.
 #
 # How to read the extra fields used here (they add to, never replace, the schema fields):
-#   decisions: one entry per decision about a case. `decider` is the body that acted; `in_power` is the
-#     head of government on that date, from general knowledge unless a source is named ([HoG not
-#     sourced]); `evidence_published` says whether the evidence behind the decision is public.
-#   evidence_tier: the strongest kind of decision on record for the case, in this order:
+#   decisions: one entry per decision about a case. `decider` is the body that acted; `evidence_published` says whether the
+#     evidence behind the decision is public.
+#   evidence_tier: the kind of decision on record for the case, in this order:
 #     conviction > regulator_finding > designation > investigative_report > allegation.
-#     A designation is a legal and political act; its evidence is usually not public.
-#   Rule P5 (build/SCHEMA.md): timing beside money or a change of government shows timing only. It does
-#   not show cause unless a source documents the link. Rule P6/P11: motive is not assessed.
+#     A designation is a legal act; its evidence is usually not public.
+#   Rule P5 (build/SCHEMA.md): timing beside money shows timing only. It does not show cause unless a source documents the
+#   link. Rule P6/P11: motive is not assessed.
 # ---------------------------------------------------------------------------
 
 subject:
   id: israel-palestine-money
-  title: "Israel-Palestine: who paid, designated, sanctioned and voted, and when it changed (pilot, 1993 to 2026)"
+  title: "Israel-Palestine: dated records of money, designations, sanctions and votes (pilot, 1993 to 2026)"
 
-headline: "Israel-Palestine money trail: of 10 reversals found, 2 came with a change of government"
-headline_claim: ipm-reversals-and-government-change
-headline_status: draft          # draft: the headline claim is proposed, not established
+headline: "Israel-Palestine money records: dated funding, designation and sanction documents, 1993-2026"
+headline_claim: ipm-us-appropriation-lines-2024-2025
+headline_status: draft          # draft: not yet through the publish gate
 search_summary: >
-  Who funded, designated, sanctioned and voted on Israel-Palestine since 1993, which governments disagreed, and whether reversals followed elections.
+  Dated documents on funding, designations, sanctions and votes concerning Israel and Palestine since 1993, with what was read and what was not.
 url_slug: israel-palestine-money-trail
 dig_status: pilot_draft
 
 assessment:
-  question: "Who paid, designated, sanctioned and voted on what in the Israel-Palestine conflict since 1993, and do those decisions follow who is in power?"
+  question: "What do public documents record about dated money flows, designations, sanctions and votes concerning Israel and Palestine since 1993?"
   answer: "partly"
-  headline: "Partly. Governments often disagree about the same group and rarely publish their evidence, but most reversals found here came within one government."
+  headline: "Partly. Documents record many dated flows and decisions; coverage differs by channel and document type, as stated below."
   text: >
-    The pilot covers ten cases where money is said to have reached an armed party, or where a
-    government acted to stop it, plus the UN voting and recognition record of twelve countries.
-    Three things stand out. First, the strength of the record varies enormously. One case ended in
-    criminal convictions upheld on appeal (Holy Land Foundation, US, 2008 and 2011). Most of the
-    rest are designations: legal acts by a government whose evidence is classified or not
-    published. Second, governments disagree often and on the record. The US designated Interpal in
-    2003 while the UK charity regulator, as reported to the House of Lords, found no evidence to substantiate links; Israel designated
-    six Palestinian NGOs in 2021 while nine EU governments said they had received no substantial
-    information to justify changing policy; among the lists searched, only Israel's list (as copied
-    by OpenSanctions, not compared with the original) has an entry for Turkey's IHH; the UK and
-    Canada sanction Israeli ministers and settler groups the US does not, and kept settler
-    sanctions the US revoked. Third, on the user's question of whether politics drives it: of ten
-    reversals recorded in the pilot, two came with a change of government (the US settler
-    sanctions revoked on 20 January 2025; the UK's UNRWA funding restored in July 2024, which also
-    cited an independent review). The other eight happened within the same government, mostly
-    after an investigation, a review or new conditions; eight of the ten come from one episode, the
-    2024 UNRWA funding pauses. The UN's list of Security Council vetoes on Israel-Palestine items since
-    1993 has 25 entries: 23 by the US (22 on draft resolutions, one on an amendment) and 2 by China and
-    Russia; the US votes were cast under every US president in that period, of both parties. This is a
-    small, non-random set of cases, so it does not settle the question; it shows how to test it.
-    Money totals (US aid, Qatari grants, Iranian support) are recorded as each government states
-    them; an "up to $100 million a year" Iranian figure is a US government estimate with no
-    published method.
-    Coverage on 16 October 2026, as facts about what was read. Read in the documents themselves: US
-    public laws of 2024-2025; Israeli government FARA exhibits and statements for nine registrants;
-    US charity and foundation returns on the Israeli side and on the Palestinian side; World Bank
-    reports on Palestinian Authority finance 2016-2023; Commission pages of 2025; Security Council
-    meeting records for all 25 votes. Read as datasets: OCHA FTS and OECD DAC2A payer tables
-    (Qatar, Türkiye, Saudi Arabia, UAE, Kuwait, the US, EU members and others), UK aid data, CORDIS,
-    the UK charity register extract; FEC bulk files for 87 committees in the 2022, 2024 and 2026 cycles
-    (committees chosen by one name rule, so the list is not limited to one side); award, notice and annual-report searches for
-    57 companies from one list and 191 others already in the dig. Read by text pattern: FARA statements of registrants with
-    principals labelled Saudi Arabia, Qatar, UAE, Türkiye, Iran, Egypt, Palestine, Kuwait and Jordan; 19 of those statements
-    (Saudi Arabia, UAE, Qatar, Türkiye and Palestine labels) were then read by eye.
-    Not read: official budget or aid documents of Qatar, Türkiye, Iran, Egypt, Saudi Arabia and the
-    Palestinian Ministry of Finance; UNRWA financial statements; ForeignAssistance.gov; Israeli and
-    Hebrew-language registries; Dutch and German registers; FEC individual-donor receipts; defense.gov contract announcements (HTTP
-    403); 5 Foreign Military Sales notices (full lists in ipm-flows-unread-and-coverage and ipm-round2-unread-and-coverage).
-    Claims marked established but held at a secondary anchor, whose limits are in each claim's anchor:
-    ipm-crypto-seizures, ipm-unga-voting-patterns, ipm-settlement-property-expos, ipm-canada-charities-revoked,
-    ipm-israel-state-settlement-spending, ipm-us-aid-israel-1993-2015, ipm-civil-terror-finance-cases,
-    ipm-gulf-turkey-iran-channels, ipm-votes-beside-money.
+    This dig records what documents state about dated money flows, designations, sanctions and votes concerning
+    Israel and Palestine since 1993. It does not assess motive or effect. Each claim gives the decider or payer, date,
+    amount, currency and document, and says whether the document was opened and read.
+    Court and regulator records: ipm-hlf-convicted (convictions affirmed on appeal), ipm-civil-terror-finance-cases,
+    ipm-irfan-canada-hamas-support and ipm-unrwa-staff-involvement. Designations and listings, each with decider and
+    date: ipm-interpal-passed-money-to-hamas, ipm-samidoun-designations, ipm-ihh-designated-only-by-israel,
+    ipm-six-ngos-pflp-arms and ipm-settler-sanctions-split. In several cases different bodies state different
+    conclusions about the same organisation (for Interpal, the US designation and the UK Charity Commission's inquiries as
+    reported to the House of Lords; for six Palestinian NGOs, Israel's designation and the statement of nine European
+    governments that they had received no substantial information); the claims set the statements side by side. For most
+    designations the evidence was not published (ipm-designation-evidence-gap). Funding decisions: ipm-unrwa-funding-reversals.
+    UN records: ipm-unga-voting-patterns (572 roll calls), ipm-sc-vetoes (25 entries in the UN's list: 23 by the United
+    States, one of them on an amendment, and 2 by China and Russia) and ipm-recognition-dates.
+    Amounts are recorded as each government or filer states them: ipm-hamas-portfolio-estimate, ipm-iran-support-estimate
+    (an estimate with no published method), ipm-qatar-gaza-payments, ipm-us-aid-to-israel, ipm-us-appropriation-lines-2024-2025,
+    ipm-pa-financing-statements-2016-2023, ipm-donor-tables-west-bank-gaza-2016-2025, ipm-eu-funding-records-2024-2025,
+    ipm-israel-us-media-fara, ipm-fara-receipts-read-by-eye-2026-10-16, ipm-campaign-lobbying-money,
+    ipm-fec-committee-summaries-2022-2026, ipm-us-charities-idf-funding, ipm-us-charities-palestinian-side,
+    ipm-uk-charity-register-selection and ipm-company-documents-lead-list-found.
+    Coverage on 16 October 2026, as facts about what was read and at what depth, by channel.
+    Israeli-government FARA filings (ipm-israel-us-media-fara, ipm-israel-influencer-payment-chain, ipm-fara-staff-political-donations,
+    ipm-fara-payees-not-nonprofits): exhibits, amendments and supplemental statements read by eye for nine registrants, with onward-payment tables,
+    influencer and exhibit detail and an extraction of staff political donations. FARA filings of principals labelled Saudi Arabia, Qatar, UAE,
+    Türkiye, Iran, Egypt, Palestine, Kuwait and Jordan (ipm-fara-registrations-by-country-label, ipm-fara-receipts-read-by-eye-2026-10-16):
+    register-wide counts and a pattern extraction of Item 14(a) for 153 rows; 19 statements read by eye at principal level; no
+    onward-payment tables, no exhibit or contract detail and no staff-donation extraction. US charities and foundations: FIDF over twelve
+    years with 3,053 funder grant entries from foundation and charity returns (ipm-us-charities-idf-funding, ipm-fidf-funders);
+    settlement-related organisations and their named funders (ipm-us-charities-settlement-funding); the Palestinian-side and federation
+    organisations in ipm-us-charities-palestinian-side and ipm-federations-to-israel read in several years each (data file) with no
+    systematic funder drill-down. Datasets read in full by rule: OCHA FTS, OECD DAC2A, UK FCDO aid data, CORDIS, the UK Charity Commission
+    extract, FEC bulk files for 87 committees selected by a written name-keyword rule plus earlier use, and award, notice and annual-report searches for 57 companies from
+    one list and 191 others already in the dig. Documents read in full: US public laws of 2024-2025, World Bank reports on Palestinian
+    Authority finance 2016-2023, two Commission pages, Security Council meeting records for all 25 votes. Not read: official budget or aid
+    documents of Qatar, Türkiye, Iran, Egypt, Saudi Arabia and the Palestinian Ministry of Finance; UNRWA financial statements;
+    ForeignAssistance.gov; Israeli and Hebrew-language registries; Dutch and German registers; FEC individual-donor receipts; defense.gov
+    contract announcements (HTTP 403); 5 Foreign Military Sales notices (full lists in ipm-flows-unread-and-coverage and
+    ipm-round2-unread-and-coverage). Claims marked established at a secondary anchor are of two kinds. Primary document not opened on 16 October 2026: ipm-unga-voting-patterns (UN voting records not retrievable), ipm-settlement-property-expos (news reports; the sales are private), ipm-canada-charities-revoked (Federal Court of Appeal document returned 403), ipm-israel-state-settlement-spending (Ministry of Finance returned 403), ipm-us-aid-israel-1993-2015 (official CRS host returned 403 or 404) and ipm-gulf-turkey-iran-channels (UAE figure read in a newspaper copy; other parts by extraction). Totals recomputed by script from downloaded files, labelled dataset: ipm-donor-tables-west-bank-gaza-2016-2025, ipm-uk-aid-west-bank-gaza-2017-2024, ipm-cordis-ec-contribution-by-country, ipm-qatar-channels-2016-2025, ipm-turkiye-channels-2016-2025, ipm-uk-charity-register-selection, ipm-fec-committee-summaries-2022-2026, ipm-fec-schedule-e-and-contributions-2022-2026, ipm-votes-beside-money and the four company-document claims (contract documents behind the awards not opened). Re-anchored to documents opened directly on that date: ipm-crypto-seizures (Justice Department releases through its API), ipm-civil-terror-finance-cases (Second Circuit opinions) and ipm-votes-official-rollcall-tallies (official House and Senate roll-call files).
   key_points:
-    - "One case ended in convictions upheld on appeal (Holy Land Foundation); most others are designations whose evidence is not published."
-    - "Governments often disagree on the same group: US vs UK regulator as reported to the Lords (Interpal), Israel vs nine EU states (six NGOs), UK/Canada vs US (settlers)."
-    - "Of 10 reversals found (provisional), 2 came with a change of government; 8 of the 10 are from one 2024 UNRWA episode. 23 of 25 listed vetoes were US, under both parties."
-  basis: [ipm-reversals-and-government-change, ipm-hlf-convicted, ipm-interpal-passed-money-to-hamas, ipm-six-ngos-pflp-arms, ipm-settler-sanctions-split, ipm-sc-vetoes]
-  rated_claim: ipm-reversals-and-government-change
+    - "Dated documents recorded: court rulings, government designations and sanctions, funding decisions, UN votes and filed money flows by channel."
+    - "For most designations the evidence behind the decision was not published; where it was tested in public, the findings are recorded with their limits."
+    - "Coverage differs by channel and document type; what was read, at what depth, and what was not read is stated in the coverage claims."
+  basis: [ipm-hlf-convicted, ipm-civil-terror-finance-cases, ipm-irfan-canada-hamas-support, ipm-unrwa-staff-involvement, ipm-interpal-passed-money-to-hamas, ipm-samidoun-designations, ipm-ihh-designated-only-by-israel, ipm-six-ngos-pflp-arms, ipm-settler-sanctions-split, ipm-designation-evidence-gap, ipm-unrwa-funding-reversals, ipm-unga-voting-patterns, ipm-sc-vetoes, ipm-recognition-dates, ipm-hamas-portfolio-estimate, ipm-iran-support-estimate, ipm-qatar-gaza-payments, ipm-us-aid-to-israel, ipm-us-appropriation-lines-2024-2025, ipm-pa-financing-statements-2016-2023, ipm-donor-tables-west-bank-gaza-2016-2025, ipm-eu-funding-records-2024-2025, ipm-israel-us-media-fara, ipm-fara-receipts-read-by-eye-2026-10-16, ipm-campaign-lobbying-money, ipm-fec-committee-summaries-2022-2026, ipm-us-charities-idf-funding, ipm-us-charities-palestinian-side, ipm-uk-charity-register-selection, ipm-company-documents-lead-list-found, ipm-israel-influencer-payment-chain, ipm-fara-staff-political-donations, ipm-fara-payees-not-nonprofits, ipm-fara-registrations-by-country-label, ipm-fidf-funders, ipm-us-charities-settlement-funding, ipm-federations-to-israel, ipm-flows-unread-and-coverage, ipm-round2-unread-and-coverage, ipm-settlement-property-expos, ipm-canada-charities-revoked, ipm-israel-state-settlement-spending, ipm-us-aid-israel-1993-2015, ipm-gulf-turkey-iran-channels, ipm-crypto-seizures, ipm-votes-beside-money, ipm-votes-official-rollcall-tallies, ipm-cordis-ec-contribution-by-country, ipm-qatar-channels-2016-2025, ipm-turkiye-channels-2016-2025, ipm-uk-aid-west-bank-gaza-2017-2024, ipm-uk-charity-register-selection, ipm-fec-schedule-e-and-contributions-2022-2026, ipm-company-documents-other-names-found]
+  rated_claim: ipm-us-appropriation-lines-2024-2025
   would_settle: >
-    A larger, rule-selected set of reversals (every designation, delisting and funding pause by the
-    twelve countries since 1993, chosen by a written rule before reading outcomes), each coded for
-    change of government and for any published new evidence; and the release of the evidence behind
-    designations (court records, regulator reports, declassified files), which is what would let a
-    reader tell an evidence-led decision from a political one.
+    Reading the documents listed as unread in ipm-flows-unread-and-coverage and ipm-round2-unread-and-coverage, and release of the
+    evidence behind designations where governments hold it.
 
 divergence_note: >
-  What is commonly said: "this charity funds terrorists", or "these designations are political". What
-  the record shows: most designations rest on evidence the public cannot see, so neither statement can
-  usually be checked. Where evidence was tested in public (the Holy Land Foundation trial, the Dutch
-  government's own review of UAWC, the UN's internal investigation of UNRWA staff, the UK regulator's
-  Interpal inquiries), the results were specific and often narrower than either side's claim: a
-  conviction for about $12.4 million to Hamas-controlled committees; personal ties between UAWC staff
-  and the PFLP but no money flow found; nine UNRWA staff who "may have been involved" out of 19
-  investigated; and no substantiated Hamas link at Interpal by the UK regulator. The gap between a
-  designation and a tested finding is the product of this dig.
+  Designations and sanctions are recorded with the decider, the date and whether the evidence behind them is public. For most, it
+  is not, so the public record does not show what the evidence was. Where evidence was tested in public (the Holy Land Foundation
+  trial, the Dutch government's review of UAWC, the UN's internal investigation of UNRWA staff, the UK Charity Commission's Interpal
+  inquiries as reported to the House of Lords), the results are recorded as specific findings with their limits: a conviction for
+  about $12.4 million to Hamas-controlled committees; personal ties between UAWC staff and the PFLP but no money flow found; nine
+  UNRWA staff who "may have been involved" out of 19 investigated; and no evidence found to substantiate links to Hamas's political
+  or militant activities at Interpal, as reported to the Lords.
 
 leads_to:
-  - {subject: oct7-warnings, why: "Several funding decisions here (UNRWA pauses, Qatari transfers approved by Israel's security cabinet in 2018) bear on what governments knew and did before 7 October 2023."}
-  - {subject: netanyahu-profile, why: "Not yet dug. Decisions taken under Netanyahu governments that this dig records: the 2018 approval of Qatari cash into Gaza (reported), the 1997 Israeli designations of HLF and Interpal, and Samidoun's 2021 designation. The profile should cite these claims rather than copy them."}
-  - {subject: israel-palestine-influence, why: "Not yet dug: money aimed at the politics (FEC, lobbying disclosures, FARA, university foreign-gift filings, Canada's lobbyist registry). See ipm-influence-ledger-gap."}
+  - {subject: oct7-warnings, why: "Several funding decisions recorded here (UNRWA pauses, Qatari transfers approved by Israel's security cabinet in 2018, as reported) are dated before 7 October 2023."}
+  - {subject: israel-palestine-influence, why: "FEC, lobbying, FARA and charity filings are recorded in this dig; items not yet read are listed in ipm-influence-ledger-gap."}
 
 claims:
 
@@ -128,11 +116,11 @@ claims:
       a later court vacated the convictions, or the trial record shows the $12.4 million figure
       describes something other than transfers to the committees
     decisions:
-      - {date: 2001-12-04, decider: "US Treasury OFAC (E.O. 13224)", what: "assets blocked; designated SDGT", evidence_published: "partly: fact sheet public, classified record reviewed only by the court", in_power: "US: George W. Bush, Republican [HoG not sourced]", sources: [src-treasury-po841-2001, src-whitehouse-2001-12-04]}
-      - {date: 2003-06-20, decider: "US Court of Appeals, D.C. Circuit", what: "designation upheld after in-camera review of classified evidence", evidence_published: "no (reviewed ex parte)", in_power: "Bush [HoG not sourced]", sources: [src-hlf-v-ashcroft-2003]}
-      - {date: 2008-11-24, decider: "federal jury, N.D. Texas (retrial after a 2007 mistrial)", what: "HLF and five leaders convicted", evidence_published: "yes, public trial (some witnesses under pseudonym)", in_power: "Bush [HoG not sourced]", sources: [src-doj-hlf-2008]}
-      - {date: 2011-12-07, decider: "US Court of Appeals, Fifth Circuit", what: "convictions affirmed", evidence_published: "yes, published opinion", in_power: "US: Barack Obama, Democrat [HoG not sourced]", sources: [src-el-mezain-2011]}
-      - {date: 1997-05-06, decider: "Israel, Defence (Emergency) Regulations 1945", what: "declared an unauthorized association", evidence_published: "no", in_power: "Israel: Benjamin Netanyahu, Likud [HoG not sourced]", sources: [src-opensanctions-il-mod]}
+      - {date: 2001-12-04, decider: "US Treasury OFAC (E.O. 13224)", what: "assets blocked; designated SDGT", evidence_published: "partly: fact sheet public, classified record reviewed only by the court", sources: [src-treasury-po841-2001, src-whitehouse-2001-12-04]}
+      - {date: 2003-06-20, decider: "US Court of Appeals, D.C. Circuit", what: "designation upheld after in-camera review of classified evidence", evidence_published: "no (reviewed ex parte)", sources: [src-hlf-v-ashcroft-2003]}
+      - {date: 2008-11-24, decider: "federal jury, N.D. Texas (retrial after a 2007 mistrial)", what: "HLF and five leaders convicted", evidence_published: "yes, public trial (some witnesses under pseudonym)", sources: [src-doj-hlf-2008]}
+      - {date: 2011-12-07, decider: "US Court of Appeals, Fifth Circuit", what: "convictions affirmed", evidence_published: "yes, published opinion", sources: [src-el-mezain-2011]}
+      - {date: 1997-05-06, decider: "Israel, Defence (Emergency) Regulations 1945", what: "declared an unauthorized association", evidence_published: "no", sources: [src-opensanctions-il-mod]}
     anchor:
       type: primary_text
       description: >
@@ -146,7 +134,7 @@ claims:
       sources: [src-doj-hlf-2008, src-el-mezain-2011, src-treasury-po841-2001, src-hlf-v-ashcroft-2003, src-opensanctions-il-mod]
       accessible: true
     basis: >
-      The strongest case in the pilot because the evidence was tested at a public trial and on appeal.
+      The evidence was tested at a public trial and on appeal.
       Two limits travel with it: the money went to committees, not to Hamas's armed wing directly, and
       the court accepted that link from evidence including testimony by Israeli security officers.
       No government or regulator reached a different conclusion about HLF; the only divergence is the
@@ -171,11 +159,11 @@ claims:
       minister's and the NGO's accounts; or the US releases the evidence behind the 2003 designation;
       or a court rules on the question
     decisions:
-      - {date: 1997-05-06, decider: "Israel, Defence (Emergency) Regulations 1945", what: "declared an unauthorized association", evidence_published: "no", in_power: "Israel: Netanyahu, Likud [HoG not sourced]", sources: [src-opensanctions-il-mod]}
-      - {date: 2003-08-22, decider: "US Treasury OFAC (E.O. 13224)", what: "designated SDGT as 'a principal charity' hiding money flows to Hamas", evidence_published: "no; the release relies on unnamed 'reporting'", in_power: "US: George W. Bush, Republican [HoG not sourced]", sources: [src-treasury-js672-2003]}
-      - {date: 2003-09-24, decider: "UK Charity Commission", what: "closed its inquiry and lifted restrictions; a minister told the Lords it found no evidence to substantiate links to Hamas's political or militant activities", evidence_published: "report exists but was not opened here", in_power: "UK: Tony Blair, Labour [HoG not sourced]", sources: [src-hansard-lords-2003-10-06, src-cc-interpal-2003]}
-      - {date: 2008-07-07, decider: "Israel, Defense Minister Ehud Barak", what: "order against 36 Union of Good funds, reported to include Interpal", evidence_published: "no", in_power: "Israel: Ehud Olmert, Kadima [HoG not sourced]", sources: [src-ynet-union-of-good-2008]}
-      - {date: 2009-02-27, decider: "UK Charity Commission", what: "per an NGO summary: insufficient evidence that partners promoted terrorism; weak partner checks; told to leave the US-designated Union of Good", evidence_published: "report exists but was blocked here", in_power: "UK: Gordon Brown, Labour [HoG not sourced]", sources: [src-csn-interpal-2009, src-cc-interpal-2009]}
+      - {date: 1997-05-06, decider: "Israel, Defence (Emergency) Regulations 1945", what: "declared an unauthorized association", evidence_published: "no", sources: [src-opensanctions-il-mod]}
+      - {date: 2003-08-22, decider: "US Treasury OFAC (E.O. 13224)", what: "designated SDGT as 'a principal charity' hiding money flows to Hamas", evidence_published: "no; the release relies on unnamed 'reporting'", sources: [src-treasury-js672-2003]}
+      - {date: 2003-09-24, decider: "UK Charity Commission", what: "closed its inquiry and lifted restrictions; a minister told the Lords it found no evidence to substantiate links to Hamas's political or militant activities", evidence_published: "report exists but was not opened here", sources: [src-hansard-lords-2003-10-06, src-cc-interpal-2003]}
+      - {date: 2008-07-07, decider: "Israel, Defense Minister Ehud Barak", what: "order against 36 Union of Good funds, reported to include Interpal", evidence_published: "no", sources: [src-ynet-union-of-good-2008]}
+      - {date: 2009-02-27, decider: "UK Charity Commission", what: "per an NGO summary: insufficient evidence that partners promoted terrorism; weak partner checks; told to leave the US-designated Union of Good", evidence_published: "report exists but was blocked here", sources: [src-csn-interpal-2009, src-cc-interpal-2009]}
     positions:
       - label: "Yes"
         holder: "US Treasury (2003); Israel (1997, 2008)"
@@ -197,8 +185,7 @@ claims:
       sources: [src-treasury-js672-2003, src-hansard-lords-2003-10-06, src-cc-interpal-2003, src-cc-interpal-2009, src-csn-interpal-2009, src-ofac-sdn-2026, src-uk-sanctions-list-2026, src-eu-consolidated-2026, src-cc-register-1040094]
       accessible: true
     basis: >
-      The clearest case in the pilot of a regulator reaching a different conclusion from a designating
-      government. The UK has never listed Interpal; the US has never delisted it. Neither side's
+      The US designation and the UK Charity Commission's inquiries state different conclusions. The UK has not listed Interpal; the US has not delisted it. Neither side's
       underlying evidence was read here: the US evidence is not public, and the Commission's reports
       were blocked. Hence contested at low confidence, not settled either way.
 
@@ -219,11 +206,11 @@ claims:
     adoption_note: "Little public debate outside Canada. Adoption is information, not evidence."
     would_change_if: "the CRA's 2011 revocation letter shows different grounds; or a court reviews the listing on its merits"
     decisions:
-      - {date: 2004-12-30, decider: "Israel, Defence (Emergency) Regulations 1945", what: "declared an unauthorized association", evidence_published: "no", in_power: "Israel: Ariel Sharon, Likud [HoG not sourced]", sources: [src-opensanctions-il-mod]}
-      - {date: 2011-04-09, decider: "Canada Revenue Agency", what: "charity registration revoked, 'based in part' on support to Hamas", evidence_published: "summary only", in_power: "Canada: Stephen Harper, Conservative [HoG not sourced]", sources: [src-cra-irfan]}
-      - {date: 2014-04-24, decider: "Canada, Governor in Council (Criminal Code s.83.05)", what: "listed as a terrorist entity (SOR/2014-97)", evidence_published: "no", in_power: "Harper [HoG not sourced]", sources: [src-gazette-sor-2014-97, src-ps-listed-entities]}
-      - {date: 2019-08, decider: "IRFAN (applicant)", what: "abandoned its Federal Court judicial review; no merits ruling", evidence_published: "n/a", in_power: "Canada: Justin Trudeau, Liberal [HoG not sourced]", sources: [src-ps-qp-2019]}
-      - {date: 2024-06-07, decider: "Canada, statutory review", what: "listing maintained", evidence_published: "no", in_power: "Trudeau [HoG not sourced]", sources: [src-ps-listed-entities]}
+      - {date: 2004-12-30, decider: "Israel, Defence (Emergency) Regulations 1945", what: "declared an unauthorized association", evidence_published: "no", sources: [src-opensanctions-il-mod]}
+      - {date: 2011-04-09, decider: "Canada Revenue Agency", what: "charity registration revoked, 'based in part' on support to Hamas", evidence_published: "summary only", sources: [src-cra-irfan]}
+      - {date: 2014-04-24, decider: "Canada, Governor in Council (Criminal Code s.83.05)", what: "listed as a terrorist entity (SOR/2014-97)", evidence_published: "no", sources: [src-gazette-sor-2014-97, src-ps-listed-entities]}
+      - {date: 2019-08, decider: "IRFAN (applicant)", what: "abandoned its Federal Court judicial review; no merits ruling", evidence_published: "n/a", sources: [src-ps-qp-2019]}
+      - {date: 2024-06-07, decider: "Canada, statutory review", what: "listing maintained", evidence_published: "no", sources: [src-ps-listed-entities]}
     anchor:
       type: primary_text
       description: >
@@ -235,8 +222,8 @@ claims:
       accessible: true
     basis: >
       Established as a record of what Canada decided and said, not as a finding that the money reached
-      Hamas: that statement rests on evidence that is not public. The listing was kept by governments of
-      both main parties (Conservative 2014, Liberal 2024).
+      Hamas: that statement rests on evidence that is not public. The listing was reviewed on 7 Jun 2024
+      and kept (Public Safety list page).
 
   - id: ipm-samidoun-designations
     state: established
@@ -255,10 +242,10 @@ claims:
     adoption_note: "Contested by the group and its supporters as a political designation. Adoption is information, not evidence."
     would_change_if: "any of the four governments publishes the evidence, or a court reviews a designation on its merits"
     decisions:
-      - {date: 2021-02-28, decider: "Israel, Defense Minister Benny Gantz", what: "designated a terrorist organization (order dated 21 Feb in the list copy)", evidence_published: "no", in_power: "Israel: Benjamin Netanyahu, Likud [HoG not sourced]", sources: [src-nbctf-samidoun-2021, src-opensanctions-il-mod]}
-      - {date: 2023-11-02, decider: "Germany, Federal Interior Ministry", what: "activity ban; Samidoun Deutschland dissolved", evidence_published: "reasons stated, not evidence", in_power: "Germany: Olaf Scholz, SPD [HoG not sourced]", sources: [src-bmi-samidoun-2023]}
-      - {date: 2024-10-11, decider: "Canada, Governor in Council (s.83.05)", what: "listed (SOR/2024-204)", evidence_published: "no; description relies on 'open sources'", in_power: "Canada: Justin Trudeau, Liberal [HoG not sourced]", sources: [src-gazette-sor-2024-204, src-ps-listed-entities]}
-      - {date: 2024-10-15, decider: "US Treasury OFAC (jointly with Canada)", what: "designated SDGT as 'a sham charity' raising money for the PFLP", evidence_published: "no", in_power: "US: Joe Biden, Democrat [HoG not sourced]", sources: [src-treasury-jy2646-2024]}
+      - {date: 2021-02-28, decider: "Israel, Defense Minister Benny Gantz", what: "designated a terrorist organization (order dated 21 Feb in the list copy)", evidence_published: "no", sources: [src-nbctf-samidoun-2021, src-opensanctions-il-mod]}
+      - {date: 2023-11-02, decider: "Germany, Federal Interior Ministry", what: "activity ban; Samidoun Deutschland dissolved", evidence_published: "reasons stated, not evidence", sources: [src-bmi-samidoun-2023]}
+      - {date: 2024-10-11, decider: "Canada, Governor in Council (s.83.05)", what: "listed (SOR/2024-204)", evidence_published: "no; description relies on 'open sources'", sources: [src-gazette-sor-2024-204, src-ps-listed-entities]}
+      - {date: 2024-10-15, decider: "US Treasury OFAC (jointly with Canada)", what: "designated SDGT as 'a sham charity' raising money for the PFLP", evidence_published: "no", sources: [src-treasury-jy2646-2024]}
     anchor:
       type: primary_text
       description: >
@@ -290,9 +277,9 @@ claims:
     would_change_if: "an official list shows another government designating IHH; or Israel's original order (the NBCTF file, not read) shows a different date, entity or list"
     absence_anchor: true
     decisions:
-      - {date: 2008-05-26, decider: "Israel, Defense Minister (per the OpenSanctions copy of the Israeli list; minister not named there)", what: "declared an unauthorized association; order date as listed in the copy", evidence_published: "no", in_power: "Israel: Ehud Olmert, Kadima [HoG not sourced]", sources: [src-opensanctions-il-mod]}
-      - {date: 2010-06-23, decider: "Germany, Federal Interior Ministry", what: "banned IHH e.V., a separate German association, for donations to Hamas-linked Gaza associations", evidence_published: "tested in court", in_power: "Germany: Angela Merkel, CDU [HoG not sourced]", sources: [src-bverwg-ihh-2012]}
-      - {date: 2012-04-18, decider: "German Federal Administrative Court", what: "upheld the ban on IHH e.V.; funding of groups in Pakistan, Yemen, Sudan and Turkey did not meet the threshold", evidence_published: "yes (judgment)", in_power: "Merkel [HoG not sourced]", sources: [src-bverwg-ihh-2012]}
+      - {date: 2008-05-26, decider: "Israel, Defense Minister (per the OpenSanctions copy of the Israeli list; minister not named there)", what: "declared an unauthorized association; order date as listed in the copy", evidence_published: "no", sources: [src-opensanctions-il-mod]}
+      - {date: 2010-06-23, decider: "Germany, Federal Interior Ministry", what: "banned IHH e.V., a separate German association, for donations to Hamas-linked Gaza associations", evidence_published: "tested in court", sources: [src-bverwg-ihh-2012]}
+      - {date: 2012-04-18, decider: "German Federal Administrative Court", what: "upheld the ban on IHH e.V.; funding of groups in Pakistan, Yemen, Sudan and Turkey did not meet the threshold", evidence_published: "yes (judgment)", sources: [src-bverwg-ihh-2012]}
     anchor:
       type: search-record
       description: >
@@ -330,10 +317,10 @@ claims:
     adoption_note: "Asserted by Israel's government; rejected by nine EU governments and many human-rights groups. Adoption is information, not evidence."
     would_change_if: "Israel publishes the evidence, or a European government's review finds money moving to the PFLP"
     decisions:
-      - {date: 2021-10-22, decider: "Israel, Defense Minister Benny Gantz (signing date 19 or 22 Oct not resolved)", what: "designated the six as terrorist organizations", evidence_published: "no", in_power: "Israel: Naftali Bennett, Yamina [HoG not sourced]", sources: [src-nbctf-six-ngos-2021, src-toi-six-ngos-2021]}
-      - {date: 2022-01-05, decider: "Netherlands, ministers De Bruijn and Knapen", what: "ended funding to UAWC after its own external review: no money flow to the PFLP and no PFLP control found, but 34 people with personal PFLP ties; Israel's material called not concrete enough", evidence_published: "letter public; review shared with MPs confidentially", in_power: "Netherlands: Mark Rutte, VVD [HoG not sourced]", sources: [src-nl-kamerstuk-23432-486]}
-      - {date: 2022-06-30, decider: "European Commission (reported)", what: "lifted its suspension of funding to Al-Haq after the anti-fraud office found no suspicion of irregularities", evidence_published: "not found", in_power: "n/a (Commission)", sources: [src-aljazeera-olaf-2022]}
-      - {date: 2022-07-12, decider: "Belgium, Denmark, France, Germany, Ireland, Italy, Netherlands, Spain, Sweden", what: "joint statement: no substantial information received from Israel that would justify changing policy", evidence_published: "n/a", in_power: "nine governments of differing parties", sources: [src-gov-ie-nine-states-2022, src-aa-nine-states-2022]}
+      - {date: 2021-10-22, decider: "Israel, Defense Minister Benny Gantz (signing date 19 or 22 Oct not resolved)", what: "designated the six as terrorist organizations", evidence_published: "no", sources: [src-nbctf-six-ngos-2021, src-toi-six-ngos-2021]}
+      - {date: 2022-01-05, decider: "Netherlands, ministers De Bruijn and Knapen", what: "ended funding to UAWC after its own external review: no money flow to the PFLP and no PFLP control found, but 34 people with personal PFLP ties; Israel's material called not concrete enough", evidence_published: "letter public; review shared with MPs confidentially", sources: [src-nl-kamerstuk-23432-486]}
+      - {date: 2022-06-30, decider: "European Commission (reported)", what: "lifted its suspension of funding to Al-Haq after the anti-fraud office found no suspicion of irregularities", evidence_published: "not found", sources: [src-aljazeera-olaf-2022]}
+      - {date: 2022-07-12, decider: "Belgium, Denmark, France, Germany, Ireland, Italy, Netherlands, Spain, Sweden", what: "joint statement: no substantial information received from Israel that would justify changing policy", evidence_published: "n/a", sources: [src-gov-ie-nine-states-2022, src-aa-nine-states-2022]}
     positions:
       - label: "Yes"
         holder: "Israel's Defense Ministry (2021, 2022)"
@@ -377,9 +364,9 @@ claims:
     adoption_note: "Very widely reported, often in stronger forms on both sides (all of UNRWA implicated; or no evidence at all). Adoption is information, not evidence."
     would_change_if: "the OIOS report or Israel's dossier is published; or a court or later inquiry reaches a different count"
     decisions:
-      - {date: 2024-01-28, decider: "UN Secretary-General", what: "12 staff implicated by Israel: 9 identified and dismissed, 1 dead, 2 being clarified", evidence_published: "no (Israel's dossier not public)", in_power: "n/a", sources: [src-un-sg-unrwa-2024-01-28]}
-      - {date: 2024-04-20, decider: "Independent review led by Catherine Colonna", what: "found UNRWA's neutrality systems more developed than comparable bodies', with gaps; noted Israel had not yet provided evidence for a separate claim about staff membership of armed groups", evidence_published: "report public", in_power: "n/a", sources: [src-colonna-2024]}
-      - {date: 2024-08-05, decider: "UN Office of Internal Oversight Services", what: "of 19 staff: 9 may have been involved, 9 insufficient evidence, 1 no evidence", evidence_published: "outcome only", in_power: "n/a", sources: [src-un-oios-2024-08-05]}
+      - {date: 2024-01-28, decider: "UN Secretary-General", what: "12 staff implicated by Israel: 9 identified and dismissed, 1 dead, 2 being clarified", evidence_published: "no (Israel's dossier not public)", sources: [src-un-sg-unrwa-2024-01-28]}
+      - {date: 2024-04-20, decider: "Independent review led by Catherine Colonna", what: "found UNRWA's neutrality systems more developed than comparable bodies', with gaps; noted Israel had not yet provided evidence for a separate claim about staff membership of armed groups", evidence_published: "report public", sources: [src-colonna-2024]}
+      - {date: 2024-08-05, decider: "UN Office of Internal Oversight Services", what: "of 19 staff: 9 may have been involved, 9 insufficient evidence, 1 no evidence", evidence_published: "outcome only", sources: [src-un-oios-2024-08-05]}
     anchor:
       type: primary_text
       description: >
@@ -409,24 +396,24 @@ claims:
     adoption_note: "Widely reported. Adoption is information, not evidence."
     would_change_if: "an official record shows a different date or decision for any listed government"
     decisions:
-      - {date: 2024-01-26, decider: "US State Department", what: "paused additional funding", evidence_published: "n/a", in_power: "US: Biden, Democrat [HoG not sourced]", sources: [src-us-unrwa-pause-2024]}
-      - {date: 2024-01-26, decider: "Canada, Minister Hussen", what: "paused", in_power: "Canada: Trudeau, Liberal [HoG not sourced]", sources: [src-canada-unrwa-pause-2024]}
-      - {date: 2024-01-27, decider: "UK FCDO", what: "paused", in_power: "UK: Rishi Sunak, Conservative (page labels the government)", sources: [src-uk-unrwa-pause-2024]}
-      - {date: 2024-01-27, decider: "Germany, AA and BMZ", what: "paused new approvals for Gaza", in_power: "Germany: Scholz, SPD [HoG not sourced]", sources: [src-de-unrwa-pause-2024]}
-      - {date: 2024-01-28, decider: "Japan MOFA", what: "suspended additional funding", in_power: "Japan: Fumio Kishida, LDP [HoG not sourced]", sources: [src-jp-unrwa-pause-2024]}
-      - {date: 2024-01-28, decider: "Norway", what: "did not pause", in_power: "Norway: Jonas Gahr Støre, Labour [HoG not sourced]", sources: [src-no-unrwa-2024]}
-      - {date: 2024-03-01, decider: "European Commission", what: "resumed: €50m with conditions (screening, audit)", in_power: "n/a", sources: [src-ec-unrwa-resume-2024]}
-      - {date: 2024-03-08, decider: "Canada", what: "lifted its pause", in_power: "Trudeau [HoG not sourced]", sources: [src-canada-unrwa-resume-2024]}
-      - {date: 2024-03-09, decider: "Sweden", what: "resumed: SEK 200m with conditions", in_power: "Sweden: Ulf Kristersson, Moderates [HoG not sourced]", sources: [src-se-unrwa-2024-06]}
-      - {date: 2024-03-15, decider: "Australia", what: "released the paused A$6m", in_power: "Australia: Anthony Albanese, Labor [HoG not sourced]", sources: [src-au-unrwa-resume-2024]}
-      - {date: 2024-03-23, decider: "US Congress and President (P.L. 118-47 Sec. 301)", what: "barred UNRWA funding through 25 Mar 2025", in_power: "Biden [HoG not sourced]", sources: [src-plaw-118-47]}
-      - {date: 2024-04-02, decider: "Japan", what: "lifted its suspension", in_power: "Kishida [HoG not sourced]", sources: [src-jp-unrwa-resume-2024]}
-      - {date: 2024-04-24, decider: "Germany", what: "will resume cooperation in Gaza", in_power: "Scholz [HoG not sourced]", sources: [src-de-unrwa-resume-2024]}
-      - {date: 2024-07-19, decider: "UK, Foreign Secretary Lammy", what: "restored £21m, citing the Colonna review", in_power: "UK: Keir Starmer, Labour (government changed 5 Jul 2024) [HoG not sourced]", sources: [src-uk-unrwa-resume-2024]}
-      - {date: 2024-10-28, decider: "Knesset", what: "two laws ending Israel's cooperation with UNRWA and its operations in Israeli sovereign territory (in force 30 Jan 2025)", in_power: "Israel: Netanyahu, Likud [HoG not sourced]", sources: [src-un-sg-letter-2024-12-09]}
-      - {date: 2024-12-20, decider: "Sweden", what: "ended all UNRWA funding", in_power: "Kristersson [HoG not sourced]", sources: [src-riksdag-unrwa-2024]}
-      - {date: 2025-02-04, decider: "US President (E.O. 14199 Sec. 3(a))", what: "no funds to UNRWA", in_power: "US: Donald Trump, Republican [HoG not sourced]", sources: [src-eo-14199-2025]}
-      - {date: 2025-12-05, decider: "UN General Assembly (A/RES/80/78)", what: "mandate extended to 30 Jun 2029, 151-10-14", in_power: "n/a", sources: [src-unispal-res-80-78]}
+      - {date: 2024-01-26, decider: "US State Department", what: "paused additional funding", evidence_published: "n/a", sources: [src-us-unrwa-pause-2024]}
+      - {date: 2024-01-26, decider: "Canada, Minister Hussen", what: "paused", sources: [src-canada-unrwa-pause-2024]}
+      - {date: 2024-01-27, decider: "UK FCDO", what: "paused", sources: [src-uk-unrwa-pause-2024]}
+      - {date: 2024-01-27, decider: "Germany, AA and BMZ", what: "paused new approvals for Gaza", sources: [src-de-unrwa-pause-2024]}
+      - {date: 2024-01-28, decider: "Japan MOFA", what: "suspended additional funding", sources: [src-jp-unrwa-pause-2024]}
+      - {date: 2024-01-28, decider: "Norway", what: "did not pause", sources: [src-no-unrwa-2024]}
+      - {date: 2024-03-01, decider: "European Commission", what: "resumed: €50m with conditions (screening, audit)", sources: [src-ec-unrwa-resume-2024]}
+      - {date: 2024-03-08, decider: "Canada", what: "lifted its pause", sources: [src-canada-unrwa-resume-2024]}
+      - {date: 2024-03-09, decider: "Sweden", what: "resumed: SEK 200m with conditions", sources: [src-se-unrwa-2024-06]}
+      - {date: 2024-03-15, decider: "Australia", what: "released the paused A$6m", sources: [src-au-unrwa-resume-2024]}
+      - {date: 2024-03-23, decider: "US Congress and President (P.L. 118-47 Sec. 301)", what: "barred UNRWA funding through 25 Mar 2025", sources: [src-plaw-118-47]}
+      - {date: 2024-04-02, decider: "Japan", what: "lifted its suspension", sources: [src-jp-unrwa-resume-2024]}
+      - {date: 2024-04-24, decider: "Germany", what: "will resume cooperation in Gaza", sources: [src-de-unrwa-resume-2024]}
+      - {date: 2024-07-19, decider: "UK, Foreign Secretary Lammy", what: "restored £21m, citing the Colonna review", sources: [src-uk-unrwa-resume-2024]}
+      - {date: 2024-10-28, decider: "Knesset", what: "two laws ending Israel's cooperation with UNRWA and its operations in Israeli sovereign territory (in force 30 Jan 2025)", sources: [src-un-sg-letter-2024-12-09]}
+      - {date: 2024-12-20, decider: "Sweden", what: "ended all UNRWA funding", sources: [src-riksdag-unrwa-2024]}
+      - {date: 2025-02-04, decider: "US President (E.O. 14199 Sec. 3(a))", what: "no funds to UNRWA", sources: [src-eo-14199-2025]}
+      - {date: 2025-12-05, decider: "UN General Assembly (A/RES/80/78)", what: "mandate extended to 30 Jun 2029, 151-10-14", sources: [src-unispal-res-80-78]}
     anchor:
       type: primary_text
       description: >
@@ -438,9 +425,8 @@ claims:
       accessible: true
     basis: >
       Pause and resume dates for the Netherlands, Finland, Switzerland, Austria and Italy were found only
-      in news reports and are left out of the count. The US position ran through two administrations of
-      different parties without reversing: a Democratic pause, a law passed by a divided Congress, then a
-      Republican executive order.
+      in news reports and are not listed. The US decisions (a pause, a law, an executive order) are dated in the
+      decisions list.
 
   # =======================================================================
   # MONEY: HAMAS FINANCE, IRAN, QATAR, CRYPTO, US AID
@@ -462,7 +448,7 @@ claims:
     adoption_note: "The $500 million figure is widely repeated, often without the word 'estimated'. Adoption is information, not evidence."
     would_change_if: "company records or court filings in the named countries show different ownership or values"
     decisions:
-      - {date: 2022-05-24, decider: "US Treasury OFAC", what: "designations", evidence_published: "no", in_power: "US: Biden, Democrat [HoG not sourced]", sources: [src-treasury-jy0798-2022]}
+      - {date: 2022-05-24, decider: "US Treasury OFAC", what: "designations", evidence_published: "no", sources: [src-treasury-jy0798-2022]}
     anchor:
       type: primary_text
       description: "Treasury release JY-0798 read in full: names, companies, the 'more than $500 million' estimate and the statement that funds came 'from Iran and Saudi Arabia' through one facilitator."
@@ -493,7 +479,7 @@ claims:
       accessible: true
     basis: >
       Established only as what the State Department says. The weight of the figure itself is 2: one
-      government's estimate, no method, stated by a government in conflict with the payer.
+      government's estimate with no published method.
 
   - id: ipm-qatar-gaza-payments
     state: established
@@ -512,39 +498,63 @@ claims:
     adoption_note: "Often described as 'Qatar funds Hamas' or as 'Netanyahu let cash into Gaza'; both compress a mix of humanitarian grants, salary payments and approvals. Adoption is information, not evidence."
     would_change_if: "the Israeli cabinet decision is read; or Qatar Fund for Development disbursement records show different amounts"
     decisions:
-      - {date: 2018-11-11, decider: "Israel, security cabinet (as described by the PM, reported)", what: "allowed $15m in Qatari cash into Gaza for salaries", evidence_published: "no document found", in_power: "Israel: Netanyahu, Likud (named in the report)", sources: [src-arabnews-qatar-cash-2018]}
-      - {date: 2020-03-24, decider: "Qatar (Emir's directive)", what: "$150m over six months", in_power: "Qatar: Emir Tamim bin Hamad Al Thani [HoG not sourced]", sources: [src-qatar-mofa-2020-03-24]}
-      - {date: 2021-01-31, decider: "Qatar", what: "$360m grant for 2021", in_power: "Tamim [HoG not sourced]", sources: [src-qatar-mofa-2021-02-02]}
-      - {date: 2021-05-26, decider: "Qatar", what: "$500m for reconstruction", in_power: "Tamim [HoG not sourced]", sources: [src-qatar-mofa-2021-05-26]}
+      - {date: 2018-11-11, decider: "Israel, security cabinet (as described by the PM, reported)", what: "allowed $15m in Qatari cash into Gaza for salaries", evidence_published: "no document found", sources: [src-arabnews-qatar-cash-2018]}
+      - {date: 2020-03-24, decider: "Qatar (Emir's directive)", what: "$150m over six months", sources: [src-qatar-mofa-2020-03-24]}
+      - {date: 2021-01-31, decider: "Qatar", what: "$360m grant for 2021", sources: [src-qatar-mofa-2021-02-02]}
+      - {date: 2021-05-26, decider: "Qatar", what: "$500m for reconstruction", sources: [src-qatar-mofa-2021-05-26]}
     anchor:
       type: primary_text
       description: "Three Qatar MOFA pages read in full. The 2018 Israeli approval is from an AFP report (read) quoting the prime minister; the often-cited figure of $30 million a month was not found in any official source."
       sources: [src-qatar-mofa-2020-03-24, src-qatar-mofa-2021-02-02, src-qatar-mofa-2021-05-26, src-arabnews-qatar-cash-2018]
       accessible: true
-    basis: "Ties into the planned Netanyahu profile and the oct7-warnings dig (see leads_to)."
+    basis: "See leads_to."
 
   - id: ipm-crypto-seizures
     state: established
     statement_kind: reported
     statement: >
-      The US Justice Department announced in August 2020 the seizure of more than 300 cryptocurrency
-      accounts tied to al-Qassam Brigades (Hamas), al-Qaeda and ISIS, 150 of them al-Qassam's, and in
-      March 2025 the seizure of about $201,400 in stablecoins said to be meant for Hamas. A 2021 Israeli
-      order against 84 addresses is known only from news reports, which later said the funds were not
-      actually seized.
+      A US Justice Department press release of 13 August 2020 states that US authorities seized "millions of dollars, over 300
+      cryptocurrency accounts, four websites, and four Facebook pages" related to three campaigns (al-Qassam Brigades, al-Qaeda and ISIS),
+      and that agents "tracked and seized all 150 cryptocurrency accounts that laundered funds to and from the al-Qassam Brigades'
+      accounts". A release of 27 March 2025 states the seizure of "approximately $201,400 in cryptocurrency held in wallets and accounts
+      intended to benefit" Hamas. The releases are the Justice Department's statements; the forfeiture complaints were not opened.
     evidence_class: primary_text
     confidence: moderate
     evidential_weight: 3
-    anchor_checked: secondary
+    anchor_checked: primary
     adoption_weight: 2
     adoption_note: "Often cited as proof that crypto is a major Hamas funding channel; the sums recorded here are small and partly unstated. Adoption is information, not evidence."
-    would_change_if: "the forfeiture complaints or Israel's orders are read and give different figures"
+    would_change_if: "the forfeiture complaints are read and give different figures"
     anchor:
       type: primary_text
-      description: "Both DOJ releases read through a summarizing tool (direct downloads refused). The Israeli order is from The Block (read through a summarizing tool), whose $7.7 million figure came from a private analytics firm."
-      sources: [src-doj-crypto-2020, src-doj-crypto-2025, src-theblock-crypto-2021]
+      description: >
+        Both releases read as full text through the Justice Department's own press-release API (justice.gov/api/v1/press_releases.json,
+        queried by title on 16 Oct 2026; response hashes ccdaf9f2d63d6da3dcc113f077588bc1901c9e854456c1351746fd5b40da6792 and
+        4565390b823ca856f70daac24c05c7a85ab6125f06355d2ce03caf37348f306c) because the public web pages returned a browser-check page to
+        a direct download. Court filings were not opened.
+      sources: [src-doj-crypto-2020, src-doj-crypto-2025]
       accessible: true
-    basis: "Held at secondary until the DOJ pages and court filings are read directly."
+    basis: "Recorded as the Justice Department's statements."
+
+  - id: ipm-crypto-israeli-order-2021
+    state: proposed
+    statement_kind: reported
+    statement: >
+      A 2021 Israeli order against 84 cryptocurrency addresses is known only from a news report (The Block), which later reports said
+      did not result in seizure of the funds. The $7.7 million figure in that report came from a private blockchain-analytics firm.
+      No Israeli government document was located.
+    evidence_class: primary_text
+    confidence: provisional
+    evidential_weight: 2
+    anchor_checked: secondary
+    adoption_weight: 1
+    adoption_note: "Not measured. Adoption is information, not evidence."
+    would_change_if: "the Israeli order itself is located and read"
+    anchor:
+      type: secondary
+      description: "The Block article, read through a summarizing tool; the order was not located. Split from ipm-crypto-seizures on 16 Oct 2026."
+      sources: [src-theblock-crypto-2021]
+      accessible: true
 
   - id: ipm-us-aid-to-israel
     state: established
@@ -563,7 +573,7 @@ claims:
     adoption_note: "Widely reported; figures are often quoted without saying they are not inflation-adjusted. Adoption is information, not evidence."
     would_change_if: "the official CRS copy differs from the mirror; or later appropriations change the totals"
     decisions:
-      - {date: 2024-04-24, decider: "US Congress and President (P.L. 118-50 Div. A)", what: "$8.7bn to Israel in three lines", in_power: "US: Biden, Democrat [HoG not sourced]", sources: [src-plaw-118-50]}
+      - {date: 2024-04-24, decider: "US Congress and President (P.L. 118-50 Div. A)", what: "$8.7bn to Israel in three lines", sources: [src-plaw-118-50]}
     anchor:
       type: primary_text
       description: "P.L. 118-50 read on govinfo; the three lines add to $8.7 billion, matching CRS. CRS RL33222 read in a third-party mirror (official host refused), the source of the $174 billion and MOU figures."
@@ -597,17 +607,17 @@ claims:
     adoption_note: "Less widely known than the charity cases. Adoption is information, not evidence."
     would_change_if: "an official list shows a different date, name or reinstatement"
     decisions:
-      - {date: 2024-02-01, decider: "US President (E.O. 14115)", what: "settler-violence sanctions program created", evidence_published: "no per-person evidence", in_power: "US: Biden, Democrat [HoG not sourced]", sources: [src-eo-14115, src-ofac-eo14115-actions]}
-      - {date: 2024-02-12, decider: "UK, Foreign Secretary Cameron", what: "first settler sanctions", in_power: "UK: Sunak, Conservative [HoG not sourced]", sources: [src-uk-settlers-2024-02]}
-      - {date: 2024-04-19, decider: "EU Council (2024/1172)", what: "Lehava, Hilltop Youth and four people", in_power: "n/a", sources: [src-eu-2024-1172]}
-      - {date: 2024-06-26, decider: "Canada (SOR/2024-155)", what: "added Amana, Lehava, Hilltop Youth and others", in_power: "Canada: Trudeau, Liberal [HoG not sourced]", sources: [src-canada-sor-2024-91]}
-      - {date: 2024-07-15, decider: "EU Council (2024/1960)", what: "five people and three entities", in_power: "n/a", sources: [src-eu-2024-1960]}
-      - {date: 2024-10-15, decider: "UK, Foreign Secretary Lammy", what: "added Amana, Hashomer Yosh and others", in_power: "UK: Starmer, Labour [HoG not sourced]", sources: [src-uk-settlers-2024-10]}
-      - {date: 2024-11-18, decider: "US Treasury OFAC", what: "added Amana and a subsidiary", in_power: "Biden [HoG not sourced]", sources: [src-ofac-eo14115-actions]}
-      - {date: 2025-01-20, decider: "US President (E.O. 14148 Sec. 2(hhh))", what: "revoked E.O. 14115; no reason stated for this item", in_power: "US: Trump, Republican [HoG not sourced]", sources: [src-eo-14148]}
-      - {date: 2025-01-24, decider: "US Treasury OFAC", what: "unblocked everyone designated under E.O. 14115, including Lions' Den", in_power: "Trump [HoG not sourced]", sources: [src-ofac-20250124]}
-      - {date: 2025-06-10, decider: "UK with Australia, Canada, New Zealand and Norway", what: "sanctioned ministers Ben-Gvir and Smotrich", in_power: "UK: Starmer; Canada: Mark Carney, Liberal [HoG not sourced]", sources: [src-uk-ministers-2025-06, src-canada-sor-2024-91]}
-      - {date: 2026-06-09, decider: "UK and allies", what: "sanctioned a company and person the US had delisted", in_power: "Starmer [HoG not sourced]", sources: [src-uk-settlers-2026-06]}
+      - {date: 2024-02-01, decider: "US President (E.O. 14115)", what: "settler-violence sanctions program created", evidence_published: "no per-person evidence", sources: [src-eo-14115, src-ofac-eo14115-actions]}
+      - {date: 2024-02-12, decider: "UK, Foreign Secretary Cameron", what: "first settler sanctions", sources: [src-uk-settlers-2024-02]}
+      - {date: 2024-04-19, decider: "EU Council (2024/1172)", what: "Lehava, Hilltop Youth and four people", sources: [src-eu-2024-1172]}
+      - {date: 2024-06-26, decider: "Canada (SOR/2024-155)", what: "added Amana, Lehava, Hilltop Youth and others", sources: [src-canada-sor-2024-91]}
+      - {date: 2024-07-15, decider: "EU Council (2024/1960)", what: "five people and three entities", sources: [src-eu-2024-1960]}
+      - {date: 2024-10-15, decider: "UK, Foreign Secretary Lammy", what: "added Amana, Hashomer Yosh and others", sources: [src-uk-settlers-2024-10]}
+      - {date: 2024-11-18, decider: "US Treasury OFAC", what: "added Amana and a subsidiary", sources: [src-ofac-eo14115-actions]}
+      - {date: 2025-01-20, decider: "US President (E.O. 14148 Sec. 2(hhh))", what: "revoked E.O. 14115; no reason stated for this item", sources: [src-eo-14148]}
+      - {date: 2025-01-24, decider: "US Treasury OFAC", what: "unblocked everyone designated under E.O. 14115, including Lions' Den", sources: [src-ofac-20250124]}
+      - {date: 2025-06-10, decider: "UK with Australia, Canada, New Zealand and Norway", what: "sanctioned ministers Ben-Gvir and Smotrich", sources: [src-uk-ministers-2025-06, src-canada-sor-2024-91]}
+      - {date: 2026-06-09, decider: "UK and allies", what: "sanctioned a company and person the US had delisted", sources: [src-uk-settlers-2026-06]}
     anchor:
       type: primary_text
       description: >
@@ -618,8 +628,7 @@ claims:
       sources: [src-eo-14115, src-eo-14148, src-ofac-20250124, src-ofac-eo14115-actions, src-uk-settlers-2024-02, src-uk-settlers-2024-10, src-uk-ministers-2025-06, src-uk-settlers-2026-06, src-canada-sor-2024-91, src-eu-2024-1172, src-eu-2024-1960]
       accessible: true
     basis: >
-      The clearest example in the pilot of a reversal that came with a change of government and no
-      stated new evidence. It is also the clearest case of allies diverging from the US afterwards.
+      The US order was revoked on 20 January 2025 with no reason stated for this item; the UK and Canada kept their own settler sanctions (dates in the decisions list).
 
   # =======================================================================
   # UN VOTES, VETOES AND RECOGNITION
@@ -654,11 +663,7 @@ claims:
       sources: [src-voeten-unvotes-v33, src-unproject-votes]
       accessible: true
     basis: >
-      Canada's shifts and who governed: the move toward No began in 2004 to 2005 under Paul Martin
-      (Liberal) and deepened from 2006 under Stephen Harper (Conservative); it stayed mostly No for
-      eight years after Justin Trudeau (Liberal) took office in November 2015, and turned to more Yes
-      than No in 2024, after 7 October 2023 [HoG not sourced]. So Canada's change of government in 2015 did not
-      by itself change the votes. Synthetic (our computation), capped at weight 3 (rule P10).
+      Synthetic (our computation), capped at weight 3 (rule P10). Year-by-year counts for each country are in the data file.
 
   - id: ipm-sc-vetoes
     state: established
@@ -670,8 +675,7 @@ claims:
       amendment, proposed by Russia, to a draft that was then adopted as resolution 2720. The US votes
       include the draft on Palestine's admission to the UN (18 April 2024, S/2024/312, 12-1-2); the China
       and Russia votes (25 October 2023, S/2023/792; 22 March 2024, S/2024/239) were on drafts submitted
-      by the United States. Counting drafts only, the figures are 22 US and 24 in all. The US votes were
-      cast under each US president in that period, of both parties.
+      by the United States. Counting drafts only, the figures are 22 US and 24 in all.
     evidence_class: primary_text
     confidence: high
     evidential_weight: 4
@@ -692,9 +696,7 @@ claims:
         script and read; the Against list names the member the dataset names in 25 of 25 cases (meeting
         4438: the extracted result line is partly garbled but the Against list and the negative-vote
         wording are present). S/PV.9520, S/PV.9609 and the text of S/2024/312 were read in the voting
-        section by eye. Speeches in the records were not read. Presidents by date are from general
-        knowledge [HoG not sourced]: Clinton (1995, 1997), Bush (2001-2006), Obama (2011), Trump
-        (2017-2018, 2025), Biden (2023-2024).
+        section by eye. Speeches in the records were not read.
       sources: [src-dppa-vetoes, src-un-sc-vetoes-meeting-records]
       accessible: true
     basis: >
@@ -728,65 +730,31 @@ claims:
         a 2026 statement.
       sources: [src-uk-recognition-2025, src-ca-recognition-2025, src-es-recognition-2024, src-fr-recognition-2025, src-ie-recognition-2024, src-no-recognition-2024, src-tr-mfa-palestine, src-qatar-a-43-971, src-un-a-78-846, src-aa-regpk-2025-09-22]
       accessible: true
-    basis: "In 2024-2025 recognition came from governments of both left and right (Spain's Socialist-led government, the UK's Labour, Canada's Liberals, France's centrist president)."
 
   # =======================================================================
-  # THE OWNER'S QUESTION: DOES POLITICS DRIVE IT?
+  # WITHDRAWN CLAIM (id kept; see log L-24)
   # =======================================================================
   - id: ipm-reversals-and-government-change
     state: proposed
+    withdrawn: true
+    withdrawn_on: 2026-10-16
+    withdrawn_reason: "Withdrawn under the subject-neutrality rule (log L-24). The count of reversals against changes of government is no longer made. The dated, documented actions it was built from remain as plain claims: ipm-settler-sanctions-split, ipm-unrwa-funding-reversals, ipm-six-ngos-pflp-arms."
     statement_kind: judgment
     statement: >
-      In this pilot, decisions about funding and designations reversed mostly within the same
-      government after a review or new conditions, not after a change of government: of 10 reversals
-      recorded, 2 came with a change of government and 8 did not.
+      Withdrawn on 2026-10-16. No count or comparison is stated. The dated documented actions are in
+      ipm-settler-sanctions-split, ipm-unrwa-funding-reversals and ipm-six-ngos-pflp-arms.
     evidence_class: synthetic
     confidence: provisional
-    evidential_weight: 2
-    anchor_checked: secondary
-    adoption_weight: 2
-    adoption_note: "The common view, expressed by the owner and widely, is that politics drives these decisions. This claim tests a narrow version of it. Adoption is information, not evidence."
-    would_change_if: >
-      a rule-selected, complete set of reversals by the twelve countries since 1993 gives a different
-      split; or reversals coded here as review-led turn out to have followed a change of minister or
-      coalition rather than of head of government
-    reversals_counted:
-      - {case: "US settler sanctions (E.O. 14115 revoked)", date: 2025-01-20, change_of_government: yes, stated_reason: "none for this item", claim: ipm-settler-sanctions-split}
-      - {case: "UK UNRWA funding restored", date: 2024-07-19, change_of_government: yes, stated_reason: "Colonna review and UNRWA action plan", claim: ipm-unrwa-funding-reversals}
-      - {case: "European Commission UNRWA funding resumed", date: 2024-03-01, change_of_government: no, stated_reason: "conditions: screening, audit", claim: ipm-unrwa-funding-reversals}
-      - {case: "Canada UNRWA pause lifted", date: 2024-03-08, change_of_government: no, stated_reason: "investigations under way, oversight, humanitarian need", claim: ipm-unrwa-funding-reversals}
-      - {case: "Sweden UNRWA resumed", date: 2024-03-09, change_of_government: no, stated_reason: "written UNRWA assurances", claim: ipm-unrwa-funding-reversals}
-      - {case: "Australia UNRWA resumed", date: 2024-03-15, change_of_government: no, stated_reason: "updated agreement with conditions", claim: ipm-unrwa-funding-reversals}
-      - {case: "Japan UNRWA resumed", date: 2024-04-02, change_of_government: no, stated_reason: "humanitarian situation; UNRWA governance measures", claim: ipm-unrwa-funding-reversals}
-      - {case: "Germany UNRWA resumed", date: 2024-04-24, change_of_government: no, stated_reason: "UNRWA's role; Colonna recommendations", claim: ipm-unrwa-funding-reversals}
-      - {case: "Sweden ended UNRWA funding", date: 2024-12-20, change_of_government: no, stated_reason: "'crisis of trust'; Israeli laws", claim: ipm-unrwa-funding-reversals}
-      - {case: "European Commission lifted Al-Haq suspension", date: 2022-06-30, change_of_government: no, stated_reason: "anti-fraud office found no irregularities (news report only)", claim: ipm-six-ngos-pflp-arms}
-    not_counted: >
-      Canada's General Assembly votes (a drift over years, not a single decision: see
-      ipm-unga-voting-patterns) and continuations that are not reversals (the Netherlands moving from a
-      suspension to ending UAWC funding; the US moving from a pause to a law to an executive order).
+    evidential_weight: 1
+    anchor_checked: "no"
+    absence_anchor: true
+    adoption_weight: 1
+    adoption_note: "Withdrawn; not measured."
+    would_change_if: "not applicable; withdrawn"
     anchor:
-      type: synthetic
-      description: >
-        Our coding of the reversals recorded in the claims named in reversals_counted. A reversal is a
-        government undoing its own earlier decision on the same organization or program. Change of
-        government means a different head of government on the reversal date than on the original
-        decision date (heads of government from general knowledge except the UK in 2024, which the
-        gov.uk pages label).
-      sources: [src-eo-14148, src-ofac-20250124, src-uk-unrwa-pause-2024, src-uk-unrwa-resume-2024, src-ec-unrwa-resume-2024, src-canada-unrwa-resume-2024, src-se-unrwa-2024-06, src-au-unrwa-resume-2024, src-jp-unrwa-resume-2024, src-de-unrwa-resume-2024, src-riksdag-unrwa-2024, src-aljazeera-olaf-2022]
-      accessible: true
-    assumptions:
-      - {text: "The ten reversals found are not a biased sample of all reversals.", if_wrong: "They are not random: eight come from the single UNRWA episode of 2024. A complete, rule-selected list could split differently."}
-      - {text: "A government's stated reason is recorded as stated, not as its real motive.", if_wrong: "Rule P6/P11: motive is not assessed; the count says what changed and when, not why."}
-    alternatives:
-      - {text: "Politics drives these decisions, but through the same government reacting to domestic pressure, not through elections.", why_not_preferred: "Not testable from the public record collected here; it would need polling, parliamentary records and donor data by date."}
-    basis: >
-      Proposed and provisional: a computed count on a small, non-random set, eight of the ten from one
-      episode (UNRWA in 2024). It answers a narrow version of the owner's question and shows the method.
-      A second, separate test points the same way: US Security Council vetoes (ipm-sc-vetoes) were
-      cast under presidents of both parties. A third points the other way: designations almost never
-      come with published evidence, so for most of them one cannot tell from the record whether
-      evidence or politics drove the decision (ipm-designation-evidence-gap).
+      type: search-record
+      description: "Withdrawn claim; no anchor is asserted. See log L-24."
+      accessible: false
 
   # =======================================================================
   # SEARCHED GAPS: what the pilot did not reach
@@ -795,8 +763,8 @@ claims:
     state: searched_gap
     statement_kind: search_result
     statement: >
-      For most designations in this pilot, whether the decision followed evidence or politics cannot be
-      told from the public record, because the evidence was not published.
+      For most designations in this pilot the evidence behind the decision was not published, so the public
+      record does not show what it was.
     evidence_class: synthetic
     confidence: provisional
     evidential_weight: 1
@@ -1189,25 +1157,31 @@ claims:
     state: established
     statement_kind: reported
     statement: >
-      Three US civil cases sought damages for terror financing. In Boim, a 2004 judgment of $156 million
-      against defendants including the Holy Land Foundation was affirmed in 2008. In Linde v. Arab Bank, a
-      2014 jury found the bank knowingly provided financial services to Hamas, citing about $32 million
-      sent to 11 Hamas-controlled charities between 1999 and 2004 (about $15 million from a Saudi
-      committee); the Second Circuit vacated the verdict in 2018. In Sokolow v. PLO, a 2015 verdict of $218.5
-      million, trebled to $655.5 million, was dismissed in 2016 for lack of jurisdiction.
+      Three US civil cases sought damages for terror financing. Boim, as recited in a 2017 district-court opinion: a 2004 judgment of
+      $156 million against defendants including the Holy Land Foundation, affirmed by the Seventh Circuit en banc in 2008. Linde v. Arab
+      Bank: the district court's decision of 8 April 2015 records a jury verdict of liability under the Antiterrorism Act (2014) and cites
+      about $32 million sent to 11 Hamas-controlled charities between 1999 and 2004 (about $15 million from a Saudi committee); the
+      Second Circuit, in an opinion of 9 February 2018, vacated the challenged judgment on the ground of instructional error and remanded.
+      Sokolow (Waldman) v. PLO: the Second Circuit opinion of 31 August 2016 records a jury award of $218.5 million, trebled to $655.5
+      million, and vacated the judgment with instructions to dismiss because the federal courts lack personal jurisdiction over the
+      defendants.
     evidence_class: primary_text
     confidence: moderate
     evidential_weight: 4
-    anchor_checked: secondary
+    anchor_checked: primary
     adoption_weight: 2
     adoption_note: "Adoption is information, not evidence."
-    would_change_if: "the 2018 Linde appeal or the Boim en banc opinion, once read, says something different"
+    would_change_if: "the 2004 Boim judgment or the 2008 en banc opinion, which were not opened, say something different"
     anchor:
       type: primary_text
-      description: "Linde district-court decision (8 Apr 2015) and Boim 2017 opinion read in full on govinfo; Sokolow appeal read through a summarizing tool; the 2018 Linde appeal known from a CRS Legal Sidebar."
-      sources: [src-linde-arab-bank-2015, src-crs-lsb10089, src-boim-2017, src-sokolow-2016]
+      description: >
+        Linde district-court decision (8 Apr 2015), the Second Circuit opinions in Linde (9 Feb 2018, Case 16-2119) and Sokolow (31 Aug
+        2016, Case 15-3135) downloaded from govinfo.gov on 16 Oct 2026 and read at the passages quoted (hashes in
+        sources/MANIFEST.yaml), and the 2017 N.D. Ill. opinion in Boim read in full. The 2004 Boim judgment and the 2008 en banc opinion
+        are known only as recited in the 2017 opinion.
+      sources: [src-linde-arab-bank-2015, src-linde-2d-cir-2018, src-sokolow-2d-cir-2016, src-boim-2017]
       accessible: true
-    basis: "Civil verdicts use a lower standard of proof than criminal convictions, and two of the three were vacated or dismissed. Recorded as what the courts did."
+    basis: "Civil verdicts use a lower standard of proof than criminal convictions. Recorded as what the courts did."
 
   - id: ipm-qatar-gaza-2012-2014
     state: contested
@@ -1468,31 +1442,58 @@ claims:
       sources: [src-house-gift-travel, src-senate-gift-travel, src-990-aief]
       accessible: true
 
+  - id: ipm-votes-official-rollcall-tallies
+    state: established
+    statement_kind: reported
+    statement: >
+      Thirty-four House and Senate roll calls from 2019 to 2026 were selected by a written rule (bills and resolutions on Israel, Gaza,
+      Hamas, UNRWA, Iron Dome, antisemitism or boycotts; list in data/votes-money/selected_votes.csv). The official House Clerk and
+      Senate roll-call XML files for all 34 were downloaded and hashed on 16 Oct 2026; their tallies are in
+      data/votes-money/per_roll_call_official_counts.csv. Examples: H.R. 8369 (16 May 2024) 224 yea, 187 nay, 19 not voting; H.R. 7217
+      (6 Feb 2024, failed) 250 yea, 180 nay, 1 not voting; H.R. 6126 (2 Nov 2023) 226 yea, 196 nay, 11 not voting; S.Res. 417 (19 Oct
+      2023) 97 yea, 0 nay, 3 not voting. Our member-level file (Voteview-based) was compared with the official XML member by member:
+      0 vote mismatches on matched rows in all 34 roll calls. The file has fewer member rows than the official list in 12 of the 34
+      (House: 1 to 14 fewer rows; Senate: 0 and 5 rows against 100 official members each).
+    evidence_class: primary_text
+    confidence: high
+    evidential_weight: 4
+    anchor_checked: primary
+    adoption_weight: 1
+    adoption_note: "Not measured. Adoption is information, not evidence."
+    would_change_if: "the official files are corrected"
+    anchor:
+      type: primary_text
+      description: >
+        clerk.house.gov/evs/<year>/roll<number>.xml and senate.gov/legislative/LIS/roll_call_votes/ XML files, one per roll call, URLs and
+        SHA-256 hashes in data/votes-money/official_xml_crosscheck_all34.csv; tallies counted from the member lines of each file.
+      sources: [src-official-rollcall-xml-2026-10-16]
+      accessible: true
+
   - id: ipm-votes-beside-money
     state: established
     statement_kind: reported
     statement: >
-      On 34 House and Senate roll calls from 2019 to 2026 selected by a written rule (bills and resolutions on
-      Israel, Gaza, Hamas, UNRWA, Iron Dome, antisemitism or boycotts), 486 of 647 members received money from
-      pro-Israel committees in 2020-2026 (215 Democrats, 271 Republicans), 423 of them through AIPAC PAC
-      earmarked transfers; 186 Democrats received J Street PAC money; 18 Democrats received money from
-      Palestinian-advocacy or critical committees; 78 members received none from any listed committee. Votes
-      and money both divide mainly by party: on H.R. 8369 (2024), Republicans with pro-Israel money voted 202 to
-      0 in favour, Democrats with it 16 to 130, Democrats without it 0 to 54. This shows timing and
-      co-occurrence only; it does not show that money caused any vote.
+      Beside the 34 roll calls in ipm-votes-official-rollcall-tallies, FEC money to the members in the member file, 2020-2026, by
+      committee group labels set by us and stated in the data files: 486 of 647 members received money from committees in the group
+      labelled pro-Israel, 423 of them through AIPAC PAC earmarked transfers; 186 received J Street PAC money; 18 received money from
+      committees in the group labelled Palestinian-advocacy or critical; 78 received money from none of the listed committees. The
+      member file holds rows for 421 to 435 House members per roll call and for 0 and 5 senators in the 2 Senate roll calls, so the
+      money tabulation is effectively House-only. Per-roll-call counts are in the other claim. This shows timing and co-occurrence only;
+      it does not show that money caused any vote.
     evidence_class: synthetic
     confidence: moderate
     evidential_weight: 3
     anchor_checked: secondary
     adoption_weight: 3
-    adoption_note: "Claims that money buys votes, and that it does not, are both widely made; this records who received what and how they voted. Adoption is information, not evidence."
-    would_change_if: "the remaining 28 votes differ from official records; or a document shows a specific link between a payment and a vote (rule P9 decisive tier)"
+    adoption_note: "Claims that money buys votes, and that it does not, are both widely made; this records who received what. Adoption is information, not evidence."
+    would_change_if: "amended FEC filings change a committee's amounts; or a document shows a specific link between a payment and a vote (rule P9 decisive tier)"
     anchor:
       type: dataset
       description: >
-        Voteview roll calls (6 of 34 checked member by member against official XML, zero mismatches) and FEC bulk
-        files (committee contributions, conduit reports, independent expenditures, de-duplicated). Group labels
-        are ours and are stated in the data files. Senate coverage is effectively two votes.
+        Dataset, totals recomputed by script: FEC bulk files (committee contributions, conduit reports, independent expenditures,
+        de-duplicated) joined to the Voteview member list by script; group labels are ours. The member list comes from Voteview, a
+        secondary compilation; its votes were checked against the official XML in ipm-votes-official-rollcall-tallies. Individual
+        filings were not opened.
       sources: [src-voteview-fec-votes, src-fec-bulk]
       accessible: true
     basis: "Rule P5 and P9 apply: money beside a vote is context; no inducement claim is made for any member."
@@ -1501,13 +1502,14 @@ claims:
     state: established
     statement_kind: reported
     statement: >
-      Reported humanitarian funding to the occupied Palestinian territory, per the UN's Financial Tracking
-      Service, was $931.9 million in 2014, $980.9 million in 2022, $1.87 billion in 2023, $3.77 billion in 2024
-      and $4.44 billion in 2025 ($3.04 billion in 2026 to 8 October). The largest reported donors were Saudi
-      Arabia in 2000-2001, the United States in 2014 ($301.9 million), the Qatar Fund for Development in
-      2021-2022 ($291.0 million, $384.6 million) and the UAE government from 2023 ($1.61 billion in 2025, partly
-      reported to its own aid body), followed by the United States ($635.4 million in 2024, $568.0 million in
-      2025). The UN appeal was 84.8% funded in 2024 and 67.8% in 2025.
+      Reported humanitarian funding to the occupied Palestinian territory in the UN's Financial Tracking Service (FTS;
+      incoming flows to location 171, paid and committed, US$), as downloaded on 16 October 2026: $931.9 million in 2014,
+      $980.9 million in 2022, $1.87 billion in 2023, $3.77 billion in 2024 and $4.44 billion in 2025 ($3.04 billion in 2026 to
+      8 October). A re-query of the FTS API later the same day returned $3,770,151,521 for 2024 and $4,416,441,526 for 2025
+      (the downloaded file holds $3,770,151,520 and $4,439,168,803; the difference was not investigated). FTS revises its
+      records, so every FTS figure in this dig is as of the download. The UN appeal was 84.8% funded in 2024 and 67.8% in 2025
+      (FTS, as downloaded). Payer-level figures by label and year are in data/ocha-fts/fts_payers_2016_2025.csv; payer labels
+      for eleven countries and bodies are in ipm-donor-tables-west-bank-gaza-2016-2025.
     evidence_class: primary_text
     confidence: moderate
     evidential_weight: 4
@@ -1517,7 +1519,10 @@ claims:
     would_change_if: "donors revise their reports; FTS totals are updated"
     anchor:
       type: dataset
-      description: "All 15,456 FTS flows downloaded through the public API and hashed; totals are FTS's own incoming paid and committed figures, pledges kept separate. Self-reported data. data/ocha-fts/."
+      description: >
+        All 15,456 FTS flows downloaded through the public API on 16 Oct 2026 and hashed; totals are FTS's own incoming paid and
+        committed figures, pledges kept separate (data/ocha-fts/). The live API total for 2025 read later the same day differs
+        from the file by $22.7 million. Self-reported data.
       sources: [src-ocha-fts]
       accessible: true
 
@@ -1645,8 +1650,10 @@ claims:
       "to respond to the situation in Israel"; International Disaster Assistance $5,655,000,000 and Migration and
       Refugee Assistance $3,495,000,000 for humanitarian needs, with no Gaza-specific amount in the text; Sec. 308
       bars funds to UNRWA. Public Law 119-4 (Mar 2025) extends the Israel loan-guarantee authority to 30 Sep 2030
-      and contains no other Israel line. Public Law 115-141, Div. S, Title X (Taylor Force Act), Sec. 1002 states
-      that the United States "does not provide direct budgetary support to the Palestinian Authority".
+      and contains no other Israel line. Public Law 115-141, Div. S, Title X (Taylor Force Act), Sec. 1002 ("Findings": "Congress makes the
+      following findings") includes, in paragraph (2): "The United States does not provide direct budgetary support to the
+      Palestinian Authority. The United States does pay certain debts held by the Palestinian Authority and funds programs for
+      which the Palestinian Authority would otherwise be responsible."
     evidence_class: primary_text
     confidence: high
     evidential_weight: 4
@@ -1655,9 +1662,9 @@ claims:
     adoption_note: "Not measured for this combination of lines. Adoption is information, not evidence."
     would_change_if: "the enacted text differs from the govinfo copy; or the explanatory statements, which were not read, change what the lines cover"
     decisions:
-      - {date: 2024-03-23, decider: "US Congress and President (P.L. 118-47)", what: "Israel FMF, Israeli Cooperative Programs, Jordan, Egypt lines; PA prohibition with waiver; West Bank and Gaza program conditions", evidence_published: "law text", in_power: "US: Biden, Democrat [HoG not sourced]", sources: [src-plaw-118-47]}
-      - {date: 2024-04-24, decider: "US Congress and President (P.L. 118-50 Div. A)", what: "supplemental lines listed above; UNRWA bar", evidence_published: "law text", in_power: "Biden [HoG not sourced]", sources: [src-plaw-118-50]}
-      - {date: 2025-03-15, decider: "US Congress and President (P.L. 119-4)", what: "Israel loan-guarantee authority extended to 30 Sep 2030", evidence_published: "law text", in_power: "US: Trump, Republican [HoG not sourced]", sources: [src-plaw-119-4]}
+      - {date: 2024-03-23, decider: "US Congress and President (P.L. 118-47)", what: "Israel FMF, Israeli Cooperative Programs, Jordan, Egypt lines; PA prohibition with waiver; West Bank and Gaza program conditions", evidence_published: "law text", sources: [src-plaw-118-47]}
+      - {date: 2024-04-24, decider: "US Congress and President (P.L. 118-50 Div. A)", what: "supplemental lines listed above; UNRWA bar", evidence_published: "law text", sources: [src-plaw-118-50]}
+      - {date: 2025-03-15, decider: "US Congress and President (P.L. 119-4)", what: "Israel loan-guarantee authority extended to 30 Sep 2030", evidence_published: "law text", sources: [src-plaw-119-4]}
     anchor:
       type: primary_text
       description: >
@@ -1681,8 +1688,10 @@ claims:
       September 2016: full-year donor support "not projected to exceed US$700 million" against a $1.3 billion deficit.
       September 2018: Saudi Arabia to resume budget support at $20 million a month. September 2019: Israel's
       deductions from clearance revenues of almost $12 million a month from March 2019 (law enacted 2018), which the
-      PA refused to accept; Qatar pledged a $250 million loan, with two $25 million instalments disbursed in June and
-      July 2019; the Arab League announced a $100 million a month safety net with no amounts deposited at the time of
+      PA refused to accept; the report states a Qatari $250 million loan, with two $25 million instalments disbursed in June and
+      July 2019, and a footnote (9) that "Total Qatari funds amount to US$480" (unit as printed) consisting of a US$50 million
+      grant to the PA, a US$250 million loan to the PA from the Qatar National Bank paid in instalments, and US$180 million to
+      Gaza, some of which had been disbursed; the Arab League announced a $100 million a month safety net with no amounts deposited at the time of
       writing. November 2021: Israel advanced $153 million (NIS 500 million) of clearance revenues in September 2021;
       donor financing projected at $184 million ($83 million budget support, $101 million investment projects), 38
       percent of 2020. September 2022: donor financing projected at $315 million ($195 million budget support, $120
@@ -1714,35 +1723,69 @@ claims:
     state: established
     statement_kind: reported
     statement: >
-      Two public tables list payers to the occupied Palestinian territory. In the UN's Financial Tracking Service
-      (paid and committed, all recipients, US$ million, 2023 / 2024 / 2025): United States 176.2 / 635.4 / 568.0;
-      Germany 188.7 / 248.1 / 100.2; United Kingdom 44.7 / 97.4 / 83.3; Norway 50.2 / 88.6 / 81.7; Japan 38.3 /
-      102.8 / 118.3; European Commission 2.0 / 35.9 / 1.2; Qatar Fund for Development 179.0 / 54.9 / 341.3; Qatar
-      Charity 44.9 / 44.3 / 79.6; Qatar government 1.0 / 6.6 / none; Türkiye government 17.4 / 125.1 / 30.8; Saudi
-      Arabia government 55.4 / 132.9 / 129.7; UAE government 511.4 / 677.5 / 1,609.4; Kuwait government 2.1 / 35.0 /
-      7.1. In the OECD DAC2A table (gross ODA disbursed to "Palestinian Authority or West Bank and Gaza Strip", US$
-      million, 2023 / 2024): United States 146 / 429; EU Institutions 336 / 701; Germany 301 / 204; United Kingdom
-      53 / 176; Japan 93 / 99; Norway 115 / 126; Qatar 209 / 277; UAE 604 / 655; Türkiye 21 / 81; Kuwait none
-      listed / 1; Israel 47 / 40. The two tables differ in scope (FTS: humanitarian reporting by location; DAC2A: ODA
-      reporting by recipient), so the same payer's figures differ between them. FTS also lists the UN Relief and
-      Works Agency as payee; US$ million to UNRWA, 2023 / 2024 / 2025: United States 153.5 / none / none; Germany 93.1 /
-      106.0 / 11.5; Türkiye 11.1 / 32.4 / 7.5; Saudi Arabia 17.0 / 40.0 / 0.4; UAE 51.5 / 20.0 / 0.3; Kuwait 2.0 /
-      26.0 / 2.0.
+      Two public tables list payers to the occupied Palestinian territory, as downloaded on 16 October 2026. (1) UN Financial
+      Tracking Service (FTS), US$ million, paid and committed to all recipients, 2023 / 2024 / 2025. Rule: for each country or
+      body below, every FTS payer label whose name contains the country name (or, for the Commission, the label "European
+      Commission" and its Humanitarian Aid and Civil Protection Department) is listed with its own figures; labels are not
+      added together. Labels whose names contain no country name are not attributed to a country by this rule and stay in the
+      data file; examples with a Gulf or US connection are Mohamed Bin Rashid Al Maktoum Humanitarian and Charity
+      Establishment (0.0 / 4.4 / 10.0), Dubai Humanitarian (0.0 / 0.8 / 0.5) and American National Committee for UNRWA (1.0 /
+      39.9 / 19.6). The eleven countries and bodies shown were selected when the table was first read (countries named in the
+      channel claims of this dig plus United States, Germany, United Kingdom, Norway, Japan and the Commission), not by a rule
+      on size. Labels with nonzero amounts in 2023-2025, United States: United States of America, Government of (governments
+      type) 176.2 / 635.4 / 568.0; United States Department of State (governments type) 17.1 / 171.4 / 33.0; United States
+      Fund for UNICEF (private organization) 4.3 / 26.1 / 9.9. Germany: Germany, Government of (governments type) 188.7 /
+      248.1 / 100.2; UNICEF National Committee/Germany (private organization) 0.1 / 9.8 / 10.7. United Kingdom: United
+      Kingdom, Government of (governments type) 44.7 / 97.4 / 83.3; UNICEF National Committee/United Kingdom (private
+      organization) 4.4 / 10.7 / 9.2. Norway: Norway, Government of (governments type) 50.2 / 88.6 / 81.7; UNICEF National
+      Committee/Norway (private organization) 0.0 / 0.7 / 0.0; Norwegian Aid Committee (NGO) 0.0 / 0.3 / 0.0; Norwegian
+      Refugee Council (NGO) 1.6 / 3.7 / 0.0. Japan: Japan, Government of (governments type) 38.3 / 102.8 / 118.3; UNICEF
+      National Committee/Japan (private organization) 0.0 / 14.3 / 9.4. European Commission: European Commission
+      (multilateral) 2.0 / 35.9 / 1.2; European Commission's Humanitarian Aid and Civil Protection Department (multilateral)
+      84.2 / 240.3 / 274.5. Qatar: Qatar Fund for Development (governments type) 179.0 / 54.9 / 341.3; Qatar Charity (NGO)
+      44.9 / 44.3 / 79.6; Qatar Red Crescent Society (Red Cross/Red Crescent) 4.8 / 18.9 / 18.1; Qatar, Government of
+      (governments type) 1.0 / 6.6 / 0.0. Türkiye: Türkiye, Government of (governments type) 17.4 / 125.1 / 30.8; UNICEF
+      National Committee/Turkey (private organization) 0.0 / 0.0 / 0.1. Saudi Arabia: Saudi Arabia (Kingdom of), Government of
+      (governments type) 55.4 / 132.9 / 129.7; Saudi Center for Culture and Heritage Association (Other) 0.0 / 0.0 / 0.2;
+      UNICEF National Committee/Saudi Arabia (private organization) 0.0 / 0.4 / 0.1. UAE: United Arab Emirates, Government of
+      (governments type) 511.4 / 677.5 / 1,609.4; Red Crescent Society of the United Arab Emirates (Red Cross/Red Crescent)
+      0.0 / 47.7 / 0.0; UNICEF National Committee/United Arab Emirates (private organization) 1.4 / 1.1 / 0.9. Kuwait: Kuwait,
+      Government of (governments type) 2.1 / 35.0 / 7.1; Kuwait Fund for Arab Economic Development (governments type) 0.0 /
+      0.0 / 2.0; Kuwait Red Crescent Society (Red Cross/Red Crescent) 5.4 / 0.2 / 0.6; Kuwait Society for Humanitarian
+      Endowment and Development (NGO) 0.0 / 0.0 / 0.0; Kuwait Society for Relief (NGO) 4.8 / 17.7 / 3.2; Kuwaiti Charitable
+      Association for the Service of the Holy Qur’an and Its Sciences (NGO) 0.0 / 0.0 / 0.6; Patients Helping Fund Kuwait
+      (multilateral) 0.1 / 0.5 / 0.0. FTS later revised its 2025 total (see ipm-ocha-humanitarian-funding), so figures are as
+      of the download. (2) OECD DAC2A table, gross ODA disbursed to "Palestinian Authority or West Bank and Gaza Strip", US$
+      million, 2023 / 2024, donor labels as printed: United States 146 / 429; EU Institutions 336 / 701; Germany 301 / 204;
+      United Kingdom 53 / 176; Japan 93 / 99; Norway 115 / 126; Qatar 209 / 277; UAE 604 / 655; Türkiye 21 / 81; Kuwait none
+      listed / 1; Israel 47 / 40; the table has no rows for Saudi Arabia, Iran or Egypt
+      (ipm-iran-egypt-saudi-not-in-donor-tables); other donors are in the data file. The two tables differ in scope (FTS:
+      humanitarian reporting by location; DAC2A: ODA reporting by recipient), so the same payer's figures differ between them.
+      FTS also lists the UN Relief and Works Agency as payee; US$ million to UNRWA, 2023 / 2024 / 2025, by label (labels with
+      zero in all three years omitted): United States: United States of America, Government of 153.5 / 0.0 / 0.0; United
+      States Department of State 17.1 / 51.0 / 0.0. Germany: Germany, Government of 93.1 / 106.0 / 11.5. United Kingdom:
+      United Kingdom, Government of 14.7 / 23.6 / 18.4. Norway: Norway, Government of 1.1 / 20.9 / 12.9. Japan: Japan,
+      Government of 28.9 / 42.3 / 20.5. European Commission: European Commission's Humanitarian Aid and Civil Protection
+      Department 10.3 / 56.2 / 36.7. Qatar: Qatar Fund for Development 0.0 / 2.9 / 2.6; Qatar Charity 2.5 / 3.2 / 0.0; Qatar
+      Red Crescent Society 0.0 / 4.5 / 0.0; Qatar, Government of 0.0 / 1.6 / 0.0. Türkiye: Türkiye, Government of 11.1 / 32.4
+      / 7.5. Saudi Arabia: Saudi Arabia (Kingdom of), Government of 17.0 / 40.0 / 0.4; Saudi Center for Culture and Heritage
+      Association 0.0 / 0.0 / 0.2. UAE: United Arab Emirates, Government of 51.5 / 20.0 / 0.3. Kuwait: Kuwait, Government of
+      2.0 / 26.0 / 2.0.
     evidence_class: synthetic
     confidence: moderate
     evidential_weight: 3
-    anchor_checked: primary
+    anchor_checked: secondary
     adoption_weight: 2
     adoption_note: "Not measured. Adoption is information, not evidence."
     would_change_if: "FTS or DAC2A values are revised; or the selection of FTS flows (incoming boundary, paid and committed) is changed by a written rule"
     anchor:
       type: dataset
       description: >
-        FTS: the 15,456 hashed flows already in data/ocha-fts, aggregated by script (boundary incoming; paid plus
-        committed; pledges kept separate) into data/ocha-fts/fts_payers_2016_2025.csv. OECD: DAC2A SDMX extract for
-        recipient PSE downloaded 16 Oct 2026 (hash in data/PARTB_SELECTION_RULES.md), measure 240 gross ODA, current
-        US dollars, filtered into data/oecd-dac2a-gross-oda-to-west-bank-gaza-2016-2024.csv. Both are
-        self-reported by payers. 2026 FTS figures are part-year and not quoted here.
+        Dataset, totals recomputed by script. FTS: the 15,456 hashed flows in data/ocha-fts aggregated by script (boundary
+        incoming; paid plus committed; pledges kept separate) into data/ocha-fts/fts_payers_2016_2025.csv, which lists every
+        payer label. OECD: DAC2A SDMX extract for recipient PSE downloaded 16 Oct 2026 (hash in data/PARTB_SELECTION_RULES.md),
+        measure 240 gross ODA, current US dollars, filtered into data/oecd-dac2a-gross-oda-to-west-bank-gaza-2016-2024.csv. Both
+        are self-reported by payers. 2026 FTS figures are part-year and not quoted here.
       sources: [src-ocha-fts, src-oecd-dac2a]
       accessible: true
 
@@ -1759,7 +1802,7 @@ claims:
     evidence_class: synthetic
     confidence: provisional
     evidential_weight: 2
-    anchor_checked: primary
+    anchor_checked: secondary
     absence_anchor: true
     adoption_weight: 1
     adoption_note: "Not measured. Adoption is information, not evidence."
@@ -1767,7 +1810,7 @@ claims:
     anchor:
       type: search-record
       description: >
-        Source names in fts_flows.csv.gz searched for Iran, Egypt, Israel, Qatar, Türkiye (exact and substring); DAC2A
+        Dataset search by script. Source names in fts_flows.csv.gz searched for Iran, Egypt, Israel, Qatar, Türkiye (exact and substring); DAC2A
         donor labels listed. Absence in two tables says nothing about payments made outside them.
       sources: [src-ocha-fts, src-oecd-dac2a]
       accessible: true
@@ -1782,14 +1825,14 @@ claims:
     evidence_class: synthetic
     confidence: moderate
     evidential_weight: 3
-    anchor_checked: primary
+    anchor_checked: secondary
     adoption_weight: 1
     adoption_note: "Not measured. Adoption is information, not evidence."
     would_change_if: "FCDO's published tables give different recipient totals; or the sector split repeats a project in several rows"
     anchor:
       type: dataset
       description: >
-        Data-underlying-SID-2017-2024.ods (FCDO, published 2025-09-26) downloaded 16 Oct 2026; the Data sheet parsed
+        Dataset, totals recomputed by script. Data-underlying-SID-2017-2024.ods (FCDO, published 2025-09-26) downloaded 16 Oct 2026; the Data sheet parsed
         and the AmountsExtended(GBP thousands) column summed by year for the recipient label "West Bank & Gaza
         Strip" (data/uk-oda-bilateral-by-recipient-2017-2024.csv, which also holds the other labels searched).
         The FCDO summary tables were not compared.
@@ -1806,11 +1849,7 @@ claims:
       mechanism, around EUR 576 million in grants for projects in the West Bank, East Jerusalem and Gaza (including
       EUR 82 million a year proposed for UNRWA) and European Investment Bank loans of up to EUR 400 million for the
       Palestinian private sector; and on 23 June 2025 an allocation of EUR 202 million, EUR 150 million to the PA and
-      EUR 52 million to UNRWA. In the EU's research programmes (CORDIS participant files, EUR million of EC
-      contribution summed over participants; FP7, Horizon 2020, Horizon Europe): Israel 864.8, 1,277.5, 1,014.8;
-      Palestine 2.6, 0.3, 0.4; Türkiye 191.8, 277.6, 416.6; Egypt 13.2, 4.2, 9.0; Jordan 5.9, 5.7, 1.7; Lebanon 3.9,
-      4.3, 5.6; Iran 0.4, 0.9, 0.2; Qatar 0.2, 0.0, 0.0; Saudi Arabia 0.1, 0.0, 0.0; UAE 0.4, 0.5, 0.0. The Horizon
-      Europe file is for a programme still running at download.
+      EUR 52 million to UNRWA.
     evidence_class: primary_text
     confidence: moderate
     evidential_weight: 4
@@ -1821,13 +1860,36 @@ claims:
     anchor:
       type: primary_text
       description: >
-        Two Commission pages (14 Apr and 23 Jun 2025) downloaded and read in full on 16 Oct 2026. CORDIS
-        organisation.csv from the FP7, Horizon 2020 and Horizon Europe zip files downloaded 16 Oct 2026 and the
-        ecContribution column summed by country code (data/eu-cordis-ec-contribution-by-country.csv). Not read: the
+        Two Commission pages (14 Apr and 23 Jun 2025) downloaded and read in full on 16 Oct 2026. Not read: the
         EU Financial Transparency System, the Official Journal budget lines, the programme adoption decisions.
-      sources: [src-ec-palestine-2025-04-14, src-ec-palestine-2025-06-23, src-cordis]
+      sources: [src-ec-palestine-2025-04-14, src-ec-palestine-2025-06-23]
       accessible: true
-    basis: "The April 2025 programme is a proposal as announced; the 23 June 2025 article reports allocations. CORDIS covers research grants only."
+    basis: "The April 2025 programme is a proposal as announced; the 23 June 2025 article reports allocations."
+
+  - id: ipm-cordis-ec-contribution-by-country
+    state: established
+    statement_kind: reported
+    statement: >
+      In the EU's research programmes (CORDIS participant files, EUR million of EC contribution summed over participants; FP7,
+      Horizon 2020, Horizon Europe): Israel 864.8, 1,277.5, 1,014.8; Palestine 2.6, 0.3, 0.4; Türkiye 191.8, 277.6, 416.6;
+      Egypt 13.2, 4.2, 9.0; Jordan 5.9, 5.7, 1.7; Lebanon 3.9, 4.3, 5.6; Iran 0.4, 0.9, 0.2; Qatar 0.2, 0.0, 0.0; Saudi Arabia
+      0.1, 0.0, 0.0; UAE 0.4, 0.5, 0.0. The Horizon Europe file is for a programme still running at download.
+    evidence_class: synthetic
+    confidence: moderate
+    evidential_weight: 3
+    anchor_checked: secondary
+    adoption_weight: 1
+    adoption_note: "Not measured. Adoption is information, not evidence."
+    would_change_if: "CORDIS records are revised; or the country-code rule is changed by a written rule"
+    anchor:
+      type: dataset
+      description: >
+        Dataset, totals recomputed by script. CORDIS organisation.csv from the FP7, Horizon 2020 and Horizon Europe zip files downloaded 16 Oct
+        2026 and the ecContribution column summed by country code (data/eu-cordis-ec-contribution-by-country.csv). CORDIS covers research
+        grants only; the Horizon Europe file is for a programme still running at download. Split from ipm-eu-funding-records-2024-2025 on
+        16 Oct 2026.
+      sources: [src-cordis]
+      accessible: true
 
   - id: ipm-fara-registrations-by-country-label
     state: proposed
@@ -1837,7 +1899,7 @@ claims:
       Arabia 36, Qatar 32, United Arab Emirates 27, Israel 21, Türkiye 18, Iran 8, Egypt 4, Palestine 3, Kuwait 2,
       Jordan 2. For registrants whose only active principal is in the country, the largest dollar figure in Item
       14(a) of the latest six-month statement totals: Saudi Arabia $16,856,938.85 (8 registrants), Israel
-      $30,896,954.42 (5), UAE $3,996,026.90 (6), Qatar $4,237,641.10 (14), Türkiye $1,849,151.51 (6), Iran
+      $30,896,954.42 (5), UAE $3,996,026.90 (6), Qatar $4,237,641.10 (14; this includes GRV Strategies at $1,158,000.00, whereas the by-eye reading of its statement gives $1,108,000.00 for the Qatar principal and $50,000.00 for a Cyprus-based principal, so the same sum with the by-eye Qatar figure is $4,187,641.10; the other 13 figures are pattern extractions), Türkiye $1,849,151.51 (6), Iran
       $274,388.00 (5); Egypt, Palestine, Jordan and Kuwait have no such registrant with a figure. Registrants with
       several principals are in the data file with their registrant-level figure marked as not attributable to one
       principal; for example the registrant for the Palestinian Authority and the Palestine Monetary Authority
@@ -1871,57 +1933,67 @@ claims:
     state: established
     statement_kind: reported
     statement: >
-      Qatar appears as payer in these records. FTS (US$ million, paid and committed, 2020 / 2021 / 2022 / 2023 /
-      2024 / 2025): Qatar Fund for Development 234.2 / 291.0 / 384.6 / 179.0 / 54.9 / 341.3 (of which to UNRWA 20.7 /
-      2.6 / 2.9 / 0.0 / 2.9 / 2.6); Qatar Charity 3.4 / 5.1 / 32.6 / 44.9 / 44.3 / 79.6. OECD DAC2A gross ODA to the
-      West Bank and Gaza Strip from Qatar (US$ million): 313 (2019), 236 (2020), 311 (2021), 386 (2022), 209 (2023),
-      277 (2024). The World Bank states a Qatari pledge of a $250 million loan to the PA in 2019, of which two $25
-      million instalments were disbursed in June and July 2019. Foreign Ministry grants of 2020-2021 and the 2018
-      cash approval are in ipm-qatar-gaza-payments; FARA registrations for Qatari principals are in
-      ipm-fara-registrations-by-country-label (32 active rows; $4,237,641.10 across 14 single-principal registrants).
-      A name search of the UK register extract for Qatar Charity found no registered charity with income above GBP 50,000.
+      Qatar appears as payer in these records. FTS, US$ million, paid and committed, 2020 / 2021 / 2022 / 2023 / 2024 / 2025,
+      every payer label containing the name Qatar: Qatar Fund for Development 234.2 / 291.0 / 384.6 / 179.0 / 54.9 / 341.3;
+      Qatar Charity 3.4 / 5.1 / 32.6 / 44.9 / 44.3 / 79.6; Qatar Red Crescent Society 0.0 / 0.3 / 1.1 / 4.8 / 18.9 / 18.1;
+      Qatar, Government of 6.0 / 0.0 / 0.0 / 1.0 / 6.6 / 0.0. Of these, to UNRWA: Qatar Fund for Development 20.7 / 2.6 / 2.9
+      / 0.0 / 2.9 / 2.6; Qatar Charity 0.0 / 0.0 / 0.0 / 2.5 / 3.2 / 0.0; Qatar Red Crescent Society 0.0 / 0.0 / 0.0 / 0.0 /
+      4.5 / 0.0; Qatar, Government of 0.0 / 0.0 / 0.0 / 0.0 / 1.6 / 0.0. OECD DAC2A gross ODA to the West Bank and Gaza Strip
+      from Qatar (US$ million): 313 (2019), 236 (2020), 311 (2021), 386 (2022), 209 (2023), 277 (2024). The World Bank's
+      September 2019 report states a Qatari $250 million loan to the PA, of which two $25 million instalments were disbursed
+      in June and July 2019, and in a footnote that "Total Qatari funds amount to US$480" (unit as printed): a US$50 million
+      grant to the PA, the US$250 million loan from the Qatar National Bank, and US$180 million to Gaza, some already
+      disbursed. Foreign Ministry grants of 2020-2021 and the 2018 cash approval are in ipm-qatar-gaza-payments. FARA
+      statements for Qatar-labelled principals read by eye are in ipm-fara-receipts-read-by-eye-2026-10-16 (for example GRV
+      Strategies 1,108,000.00 from the International Media Office of the State of Qatar, Finn Partners 2,788,600.00 from Qatar
+      Museums); register-wide pattern-extracted FARA figures are in ipm-fara-registrations-by-country-label and are not
+      repeated here. A name search of the UK register extract for Qatar Charity found no registered charity with income above
+      GBP 50,000.
     evidence_class: synthetic
     confidence: moderate
     evidential_weight: 3
-    anchor_checked: primary
+    anchor_checked: secondary
     adoption_weight: 2
     adoption_note: "Not measured. Adoption is information, not evidence."
     would_change_if: "Qatar Fund for Development disbursement records are read and differ; or FTS or DAC2A are revised"
     anchor:
       type: dataset
       description: >
-        Rows for the Qatari payers in data/ocha-fts/fts_payers_2016_2025.csv and
-        data/oecd-dac2a-gross-oda-to-west-bank-gaza-2016-2024.csv, and the World Bank September 2019 passage, read as
-        described in ipm-donor-tables-west-bank-gaza-2016-2025 and ipm-pa-financing-statements-2016-2023. Qatar
-        Fund for Development annual reports were not searched. The FARA figures are the secondary extraction.
-      sources: [src-ocha-fts, src-oecd-dac2a, src-wb-ahlc-2019-09, src-fara-bulk-2026-10-16]
+        Dataset, totals recomputed by script: rows for the Qatari payer labels in data/ocha-fts/fts_payers_2016_2025.csv and
+        data/oecd-dac2a-gross-oda-to-west-bank-gaza-2016-2024.csv (as described in ipm-donor-tables-west-bank-gaza-2016-2025).
+        The World Bank September 2019 passage and footnote 9 were read in context in the report itself (primary). FARA figures
+        are not part of this claim's anchor. Qatar Fund for Development annual reports were not searched.
+      sources: [src-ocha-fts, src-oecd-dac2a, src-wb-ahlc-2019-09]
       accessible: true
 
   - id: ipm-turkiye-channels-2016-2025
     state: established
     statement_kind: reported
     statement: >
-      Türkiye appears as payer in these records. FTS (US$ million, paid and committed, Türkiye government, 2020 /
-      2021 / 2022 / 2023 / 2024 / 2025): 7.0 / 10.5 / 16.6 / 17.4 / 125.1 / 30.8, of which to UNRWA 7.0 / 10.5 / 16.6 /
+      Türkiye appears as payer in these records. FTS, US$ million, paid and committed, 2020 / 2021 / 2022 / 2023 / 2024 /
+      2025, every payer label containing Türkiye or Turkey: Türkiye, Government of 7.0 / 10.5 / 16.6 / 17.4 / 125.1 / 30.8;
+      UNICEF National Committee/Turkey 0.0 / 0.0 / 0.0 / 0.0 / 0.0 / 0.1; to UNRWA: Türkiye, Government of 7.0 / 10.5 / 16.6 /
       11.1 / 32.4 / 7.5. OECD DAC2A gross ODA to the West Bank and Gaza Strip from Türkiye (US$ million): 43 (2016), 41
-      (2017), 25 (2018), 38 (2019), 33 (2020), 34 (2021), 18 (2022), 21 (2023), 81 (2024). FARA: 18 active rows for
-      Türkiye-labelled principals, $1,849,151.51 across 6 single-principal registrants (details and the rows not read
-      are in ipm-fara-registrations-by-country-label). Aid by tonnage is in ipm-gulf-turkey-iran-channels. The UK
-      charity extract was not searched for Türkiye-related names. Not read: the Turkish development assistance
-      report (TIKA), AFAD records and annual reports of Turkish foundations including IHH.
+      (2017), 25 (2018), 38 (2019), 33 (2020), 34 (2021), 18 (2022), 21 (2023), 81 (2024). FARA statements for
+      Türkiye-labelled principals read by eye are in ipm-fara-receipts-read-by-eye-2026-10-16 (for example AK Party
+      Representation 1,299,970.00, LB International Solutions 440,155.50, Skyline Capitol 300,000.00, Turkish Radio Television
+      Corporation registrant 205,258.63); register-wide counts are in ipm-fara-registrations-by-country-label. Aid by tonnage
+      is in ipm-gulf-turkey-iran-channels. The UK charity extract was not searched for Türkiye-related names. Not read: the
+      Turkish development assistance report (TIKA), AFAD records and annual reports of Turkish foundations including IHH.
     evidence_class: synthetic
     confidence: moderate
     evidential_weight: 3
-    anchor_checked: primary
+    anchor_checked: secondary
     adoption_weight: 2
     adoption_note: "Not measured. Adoption is information, not evidence."
     would_change_if: "Turkish official reports are read and give different amounts"
     anchor:
       type: dataset
       description: >
-        Rows for Türkiye in the FTS payer table and DAC2A file (see ipm-donor-tables-west-bank-gaza-2016-2025) and
-        the FARA file (secondary extraction). A tika.gov.tr page was tried and returned 404.
-      sources: [src-ocha-fts, src-oecd-dac2a, src-fara-bulk-2026-10-16]
+        Dataset, totals recomputed by script: rows for Türkiye in the FTS payer table and DAC2A file (see
+        ipm-donor-tables-west-bank-gaza-2016-2025). A tika.gov.tr page was tried and returned 404. FARA figures are not part of
+        this claim's anchor.
+      sources: [src-ocha-fts, src-oecd-dac2a]
       accessible: true
 
   - id: ipm-plo-pa-channels-2016-2025
@@ -1930,7 +2002,7 @@ claims:
     statement: >
       Records naming the PLO or the Palestinian Authority as payee or registrant. FARA: three active rows with the
       label Palestine (Palestinian Authority and Palestine Monetary Authority, registrant Squire Patton Boggs, Item
-      14(a) figure $1,932,177.66 across 7 principals; Samir Hlaileh, registrant Dickens & Madson Canada, no dollar
+      14(a) figure $1,932,177.66 across 7 principals, a pattern extraction; Samir Hlaileh, registrant Dickens & Madson Canada, no dollar
       figure in Item 14(a)). The earlier data file lists $250,000 received from the Palestine Monetary Authority by the
       same Squire Patton Boggs registration for the six months to 30 Jun 2026, and the PLO General Delegation's final
       statement for the six months to 30 Sep 2018 (registration ended 30 Sep 2018); both are in
@@ -1994,14 +2066,14 @@ claims:
     evidence_class: synthetic
     confidence: moderate
     evidential_weight: 3
-    anchor_checked: primary
+    anchor_checked: secondary
     adoption_weight: 1
     adoption_note: "Not measured. Adoption is information, not evidence."
     would_change_if: "the register's own pages for a charity differ from the extract; or charities outside the name rule are added by a written rule"
     anchor:
       type: dataset
       description: >
-        Charity Commission public extract (charity and annual return history zip files) downloaded 16 Oct 2026,
+        Dataset, totals recomputed by script. Charity Commission public extract (charity and annual return history zip files) downloaded 16 Oct 2026,
         hashed; registered charities (status Registered, not linked) selected by the rule in
         data/PARTB_SELECTION_RULES.md into data/uk-charity-register-selection.csv. Names that match the keywords
         include unrelated bodies (for example congregations and a hospital group); the purpose of each charity was
@@ -2042,19 +2114,31 @@ claims:
     state: searched_gap
     statement_kind: search_result
     statement: >
-      Coverage of the documented-flows pass by channel, as searched on 16 October 2026. Read: US public laws; World
-      Bank AHLC reports 2016-2023; two Commission pages; OECD DAC2A; FTS; UK FCDO project data; CORDIS; FARA register
-      and statements (by pattern); UK Charity Commission extract; ProPublica totals; Security Council meeting records.
-      Not read, with the reason: UNRWA audited financial statements (document not retrieved); UNRWA pledge tables
-      (403); ForeignAssistance.gov (404 and 502); the explanatory statement to P.L. 118-47 and any enacted FY2026 act
-      (not located); IMF reports (403); Palestinian Ministry of Finance (502); World Bank reports after September
-      2023 (not located); Swedish, Norwegian, Japanese and German budget lines (404, 404, 403, 503); Turkish
-      development reports (404); EU Financial Transparency System (404); Israeli corporate and association
-      registries (Hebrew data, not read); the Israeli list file (not retrieved); Dutch and German registers, Qatar
-      Fund for Development reports, Iranian budget documents, Egyptian, Jordanian, Kuwaiti and Saudi budgets, IHH
-      reports (not searched). Claims added in this pass by channel: US appropriations 1; Palestinian Authority,
-      UNRWA and aid after 2015 3; other states 5 (UK, Qatar, Türkiye, Iran, and the donor-table absence result); EU
-      1; non-state 3 (FARA, UK charities, US returns); coverage 1.
+      Coverage of the documented-flows pass by channel, as searched on 16 October 2026. Read: US public laws; World Bank AHLC
+      reports 2016-2023; two Commission pages; OECD DAC2A; FTS; UK FCDO project data; CORDIS; FARA register and statements (by
+      pattern); UK Charity Commission extract; ProPublica totals; Security Council meeting records. Not read, with the reason:
+      UNRWA audited financial statements (document not retrieved); UNRWA pledge tables (403); ForeignAssistance.gov (404 and
+      502); the explanatory statement to P.L. 118-47 and any enacted FY2026 act (not located); IMF reports (403); Palestinian
+      Ministry of Finance (502); World Bank reports after September 2023 (not located); Swedish, Norwegian, Japanese and
+      German budget lines (404, 404, 403, 503); Turkish development reports (404); EU Financial Transparency System (404);
+      Israeli corporate and association registries (Hebrew data, not read); the Israeli list file (not retrieved); Dutch and
+      German registers, Qatar Fund for Development reports, Iranian budget documents, Egyptian, Jordanian, Kuwaiti and Saudi
+      budgets, IHH reports (not searched). Claims added in this pass by channel: US appropriations 1; Palestinian Authority,
+      UNRWA and aid after 2015 3; other states 5 (UK, Qatar, Türkiye, Iran, and the donor-table absence result); EU 1;
+      non-state 3 (FARA, UK charities, US returns); coverage 1. Depth of coverage by channel, as facts about what was read.
+      FARA filings of principals labelled Israel: exhibits, amendments and supplemental statements read by eye for nine
+      registrants, with onward-payment tables, influencer and exhibit detail and an extraction of staff political donations
+      (ipm-israel-us-media-fara, ipm-israel-influencer-payment-chain, ipm-fara-staff-political-donations,
+      ipm-fara-payees-not-nonprofits). FARA filings of principals labelled Saudi Arabia (3 statements), UAE (2), Qatar (4),
+      Türkiye (9) and Palestine (1): the Item 14(a) lines read by eye at principal level in 19 statements, plus register-wide
+      counts and a pattern extraction for 153 rows; no onward-payment tables, no exhibit or contract detail and no
+      staff-donation extraction were made for these labels, and none of the statements of Iran-, Egypt-, Kuwait- or
+      Jordan-labelled registrants was read by eye. US charities and foundations: FIDF over twelve years with 3,053 funder
+      grant entries from foundation and charity returns (ipm-us-charities-idf-funding, ipm-fidf-funders) and
+      settlement-related organisations with their named funders (ipm-us-charities-settlement-funding); the Palestinian-side
+      and federation organisations (ipm-us-charities-palestinian-side, ipm-federations-to-israel) were read in several years
+      each in the data file, and no funder drill-down was made for them. This pass did not bring the thinner channels up to
+      the depth of the deeper ones.
     evidence_class: synthetic
     confidence: provisional
     evidential_weight: 1
@@ -2084,43 +2168,82 @@ claims:
     state: established
     statement_kind: reported
     statement: >
-      FEC committee summaries (PAC and party summary files) for 87 non-candidate committees selected by one name-keyword rule applied
-      to every committee in the 2022, 2024 and 2026 committee master files (rule and list: data/ROUND2_SELECTION_RULES.md,
-      data/fec-selected-committees-2022-2026.csv). Committees with a summary row: 56 (2022), 66 (2024), 74 (2026, coverage to 31 Aug
-      to 30 Sep 2026). Totals across them, US$ million (2022 / 2024 / 2026): receipts 91.6 / 201.9 / 204.0; disbursements 87.9 / 174.2 /
-      171.6; independent expenditures 40.7 / 61.0 / 64.6; contributions to other committees 32.9 / 82.1 / 77.5. Largest total receipts,
-      US$ (committee id): 2022 United Democracy Project 35,943,281 (C00799031), American Israel Public Affairs Committee PAC 18,566,319
-      (C00797670), DMFI PAC 9,063,924 (C00710848), JStreetPAC 6,736,835 (C00441949), Justice Democrats PAC 6,474,082 (C00630665),
-      Pro-Israel America PAC 3,783,274 (C00699470), RJC Victory Fund 3,090,754 (C00528554), NORPAC 1,996,728 (C00247403). 2024: United
-      Democracy Project 87,176,557, AIPAC PAC 57,871,196, RJC Victory Fund 17,018,627, JStreetPAC 14,581,367, Justice Democrats PAC
-      7,657,316, DMFI PAC 6,745,510, Republican Jewish Coalition PAC 3,501,243 (C00345132), NORPAC 3,439,062. 2026: United Democracy
-      Project 109,721,116, AIPAC PAC 52,335,345, DMFI PAC 7,439,398, JStreetPAC 7,339,590, RJC Victory Fund 7,316,220, Justice Democrats
-      PAC 6,659,829, J Street Action Fund 3,376,572 (C00815753), NORPAC 3,148,064. By name-keyword group (A: names containing Israel, Jewish, AIPAC, Zioness, J Street, NORPAC, RJC, United
-      Democracy Project or DMFI; B: names containing Muslim, Arab, Turk, Iran, Persian, Leban, Palest, Islam, Zionist, Emgage, CAIR,
-      JVP, Peace, Justice Democrats, AMPAC or ALPAC; a name matching both groups, or neither, is counted in neither group), US$
-      million of receipts / independent expenditures / contributions to other committees, with committee counts, 2022 / 2024 / 2026:
-      group A 84.2 / 38.3 / 32.2 (33 committees), 192.2 / 56.6 / 81.3 (35), 195.8 / 60.5 / 76.7 (37); group B 7.3 / 2.4 / 0.8 (21),
-      9.6 / 4.4 / 0.8 (28), 8.3 / 4.1 / 0.8 (34). Largest receipts in group B: Justice Democrats PAC (6,474,082; 7,657,316; 6,659,829),
-      National Turkey Federation PAC (335,508; 262,920; 345,476), Emgage Federal PAC (62,406; 601,837; 418,197), Arab Americans for a
-      Better America (478,300 in 2024), Anti-Zionist America PAC (213,214 in 2026), the Iranian American Political Action Committee
-      (77,470; 94,901; 126,350) and JVP Action PAC (99,866; 132,852; 62,685). Full rows for all 87 committees are in
-      data/fec-committee-summaries-webk-2022-2026.csv.
+      FEC committee summaries (PAC and party summary files) for 87 non-candidate committees. Selection
+      (data/ROUND2_SELECTION_RULES.md; list in data/fec-selected-committees-2022-2026.csv): the same name-keyword rule was
+      applied to every committee in the 2022, 2024 and 2026 committee master files, plus committees whose id appears in an
+      earlier data file of this dig. The selection file records 71 committees as selected by name keyword, 1 by
+      connected-organisation keyword and 15 because the id appeared in an earlier file. A re-count on 16 October 2026 by
+      regular expression over the stored names finds that 86 of the 87 match a keyword; the committee that matches none is
+      Vote Uncommitted MN, which is in the list only because of earlier use in this dig. A reviewer counted 84 keyword
+      matches; the difference of two was not resolved. The list includes committees chosen only by a word in the name; no
+      committee's purpose was read. Totals of the summary rows, US$ million (2022 / 2024 / 2026), computed by script: receipts
+      91.6 / 201.9 / 204.0; disbursements 87.9 / 174.2 / 171.6; independent expenditures 40.7 / 61.0 / 64.6; contributions to
+      other committees 32.9 / 82.1 / 77.5. Coverage ends 31 Dec 2022, 31 Dec 2024 and 31 Aug to 30 Sep 2026. Per-committee
+      rows, US$ (no group totals are given): 2022 cycle, 56 committees with a summary row. Receipts of 1,000,000 or more (10),
+      alphabetical: AMERICAN ISRAEL PUBLIC AFFAIRS COMMITTEE POLITICAL ACTION COMMITTEE (C00797670) receipts 18,566,319,
+      independent expenditures 0, contributions to other committees 17,141,583; DMFI PAC (C00710848) receipts 9,063,924,
+      independent expenditures 7,448,431, contributions to other committees 216,000; J STREET ACTION FUND (C00815753) receipts
+      1,974,699, independent expenditures 1,661,679, contributions to other committees 99,254; JSTREETPAC (C00441949) receipts
+      6,736,835, independent expenditures 0, contributions to other committees 6,675,635; JUSTICE DEMOCRATS PAC (C00630665)
+      receipts 6,474,082, independent expenditures 2,393,225, contributions to other committees 71,000; NORPAC (C00247403)
+      receipts 1,996,728, independent expenditures 0, contributions to other committees 1,559,680; PRO-ISRAEL AMERICA PAC
+      (C00699470) receipts 3,783,274, independent expenditures 0, contributions to other committees 3,635,148; REPUBLICAN
+      JEWISH COALITION-POLITICAL ACTION COMMITTEE (RJC-PAC) (C00345132) receipts 1,532,405, independent expenditures 0,
+      contributions to other committees 1,526,441; RJC VICTORY FUND (C00528554) receipts 3,090,754, independent expenditures
+      2,952,175, contributions to other committees 50,000; UNITED DEMOCRACY PROJECT (UDP) (C00799031) receipts 35,943,281,
+      independent expenditures 26,118,700, contributions to other committees 700,000. Receipts of 100,000 to 999,999 (5),
+      receipts only: BEND THE ARC JEWISH ACTION INC. PAC (C00573253) 300,904; DEMOCRATIC JEWISH OUTREACH PA (C00563254)
+      182,853; J STREET (C90014028) 660,700; NATIONAL TURKEY FEDERATION POLITICAL ACTION COMMITEE/TURPAC (C00076182) 335,508;
+      U.S. ISRAEL PAC (USI PAC) (C00127811) 237,287. Receipts under 100,000: 41 committees (rows in the data file). 2024
+      cycle, 66 committees with a summary row. Receipts of 1,000,000 or more (8), alphabetical: AMERICAN ISRAEL PUBLIC AFFAIRS
+      COMMITTEE POLITICAL ACTION COMMITTEE (C00797670) receipts 57,871,196, independent expenditures 0, contributions to other
+      committees 53,699,475; DMFI PAC (C00710848) receipts 6,745,510, independent expenditures 4,155,904, contributions to
+      other committees 285,000; JSTREETPAC (C00441949) receipts 14,581,367, independent expenditures 0, contributions to other
+      committees 14,398,384; JUSTICE DEMOCRATS PAC (C00630665) receipts 7,657,316, independent expenditures 3,425,629,
+      contributions to other committees 37,500; NORPAC (C00247403) receipts 3,439,062, independent expenditures 0,
+      contributions to other committees 2,736,209; REPUBLICAN JEWISH COALITION-POLITICAL ACTION COMMITTEE (RJC-PAC)
+      (C00345132) receipts 3,501,243, independent expenditures 0, contributions to other committees 3,194,753; RJC VICTORY
+      FUND (C00528554) receipts 17,018,627, independent expenditures 13,344,391, contributions to other committees 3,121,500;
+      UNITED DEMOCRACY PROJECT (UDP) (C00799031) receipts 87,176,557, independent expenditures 37,859,810, contributions to
+      other committees 3,550,000. Receipts of 100,000 to 999,999 (9), receipts only: ARAB AMERICANS FOR A BETTER AMERICA
+      (C00880070) 478,300; BEND THE ARC JEWISH ACTION INC. PAC (C00573253) 109,722; DEMOCRATIC JEWISH OUTREACH PA (C00563254)
+      250,143; EMGAGE FEDERAL POLITICAL ACTION COMMITTEE (C00453704) 601,837; J STREET ACTION FUND (C00815753) 240,923; JVP
+      ACTION PAC (C00747691) 132,852; NATIONAL TURKEY FEDERATION POLITICAL ACTION COMMITEE/TURPAC (C00076182) 262,920; U.S.
+      ISRAEL PAC (USI PAC) (C00127811) 191,808; ZIONESS PAC (C00891259) 988,276. Receipts under 100,000: 49 committees (rows
+      in the data file). 2026 cycle, 74 committees with a summary row. Receipts of 1,000,000 or more (10), alphabetical:
+      AMERICAN ISRAEL PUBLIC AFFAIRS COMMITTEE POLITICAL ACTION COMMITTEE (C00797670) receipts 52,335,345, independent
+      expenditures 0, contributions to other committees 47,763,399; CITIZENS AGAINST AIPAC CORRUPTION (C00879080) receipts
+      1,693,316, independent expenditures 141,450, contributions to other committees 10,950; DMFI PAC (C00710848) receipts
+      7,439,398, independent expenditures 2,759,734, contributions to other committees 114,000; J STREET ACTION FUND
+      (C00815753) receipts 3,376,572, independent expenditures 373,511, contributions to other committees 2,050,000;
+      JSTREETPAC (C00441949) receipts 7,339,590, independent expenditures 0, contributions to other committees 7,080,475;
+      JUSTICE DEMOCRATS PAC (C00630665) receipts 6,659,829, independent expenditures 3,965,938, contributions to other
+      committees 97,500; NORPAC (C00247403) receipts 3,148,064, independent expenditures 0, contributions to other committees
+      2,640,676; REPUBLICAN JEWISH COALITION POLITICAL ACTION COMMITTEE (RJC-PAC) (C00345132) receipts 2,749,872, independent
+      expenditures 0, contributions to other committees 2,680,203; RJC VICTORY FUND (C00528554) receipts 7,316,220,
+      independent expenditures 3,815,732, contributions to other committees 1,075,000; UNITED DEMOCRACY PROJECT (UDP)
+      (C00799031) receipts 109,721,116, independent expenditures 53,414,687, contributions to other committees 13,131,200.
+      Receipts of 100,000 to 999,999 (7), receipts only: ANTI-ZIONIST AMERICA PAC (C00916379) 213,214; DEMOCRATIC JEWISH
+      OUTREACH PA (C00563254) 281,639; EMGAGE FEDERAL POLITICAL ACTION COMMITTEE (C00453704) 418,197; IRANIAN AMERICAN
+      POLITICAL ACTION COMMITTEE - PUBLIC AFFAIRS ALLIANCE OF IRANIAN AMERICANS (C00382028) 126,350; JEWISH DEMOCRACY PROJECT
+      (C00951160) 143,487; NATIONAL TURKEY FEDERATION POLITICAL ACTION COMMITEE/TURPAC (C00076182) 345,476; U.S. ISRAEL PAC
+      (USI PAC) (C00127811) 115,060. Receipts under 100,000: 57 committees (rows in the data file).
     evidence_class: synthetic
     confidence: moderate
     evidential_weight: 3
-    anchor_checked: primary
+    anchor_checked: secondary
     adoption_weight: 2
     adoption_note: "Not measured. Adoption is information, not evidence."
     would_change_if: "amended reports change a committee's totals; or committees outside the keyword rule are added by a written rule"
     anchor:
       type: dataset
       description: >
-        FEC bulk files cm22/cm24/cm26 (committee master) and webk22/webk24/webk26 (PAC and party summaries) downloaded 16 Oct 2026 and
-        hashed; rows for the 87 selected committees read; totals summed by script. The committee list is chosen by name keyword and
-        by earlier use in this dig, not by reading each committee's purpose, so it includes committees chosen only by a word in the
-        name. Individual-donor receipts (Schedule A), Form 3/3X/5 filing images and OpenFEC were not used. A comparison of this pull's
-        candidate-level independent expenditures with figures stated on an owner-supplied lead website is in
-        data/fec-pull-vs-lead-site-independent-expenditures.csv (comparison only, not an anchor).
+        Dataset, totals recomputed by script. FEC bulk files cm22/cm24/cm26 (committee master) and webk22/webk24/webk26 (PAC and
+        party summaries) downloaded 16 Oct 2026 and hashed; rows for the 87 selected committees read; per-committee figures are
+        as in the file and the totals above are summed by script. Individual-donor receipts (Schedule A), Form 3/3X/5 filing
+        images and OpenFEC were not used. A comparison of this pull's candidate-level independent expenditures with figures
+        stated on an unnamed owner-supplied lead is in data/fec-pull-vs-lead-site-independent-expenditures.csv (comparison only,
+        not an anchor; limited to the candidates that lead lists).
       sources: [src-fec-bulk-2022-2026]
       accessible: true
     basis: >
@@ -2131,35 +2254,62 @@ claims:
     state: established
     statement_kind: reported
     statement: >
-      Independent expenditures (Schedule E bulk file, de-duplicated) by the same 87 committees, US$ (2022 / 2024 / 2026): 40,599,788 /
-      61,243,721 / 68,244,384. By committee: United Democracy Project 26,107,516 / 38,044,933 / 53,684,196; DMFI PAC 7,142,024 /
-      4,150,218 / 3,649,956; RJC Victory Fund 2,952,175 / 13,344,391 / 5,154,275; Justice Democrats PAC 2,393,225 / 3,425,629 /
-      4,671,692; J Street Action Fund 1,701,250 / 204,995 / 837,772; Zioness PAC 974,808 (2024); Emgage Federal PAC 612,463 (2024);
-      Arab Americans for a Better America 393,500 (2024); Citizens Against AIPAC Corruption 134,722 (2026). The same committees' PAC
-      summaries give United Democracy Project independent expenditures of 26,118,700 / 37,859,810 / 53,414,687; the two FEC sources
-      differ slightly and both are recorded. Itemised contributions out to candidates and committees (pas2 file, Schedule B, types
-      24K, 24F, 24N, 24Z), US$ (2022 / 2024 / 2026): 4,764,958 / 7,195,260 / 3,765,612; largest, with transaction counts: AIPAC PAC
-      2,614,529 (941) / 2,443,814 (1,926) / 1,870,805 (1,138); JStreetPAC 330,464 (292) / 2,437,325 (6,333) / 453,308; National Turkey
-      Federation PAC 329,000 (88) / 344,000 (113) / 294,500 (118); Republican Jewish Coalition PAC 280,300 (89) / 664,895 (1,672) /
-      365,199; NORPAC 222,555 (27) / 600,770 (67) / 303,600; DMFI PAC 214,000 (112) / 270,000 (146) / 108,000 (73). Committee-to-committee
-      receipts in the other-transactions file are 300 rows in the three cycles; the largest single payer-payee sum is US$118,150 from To
-      Protect Our Heritage PAC to AIPAC PAC (type 18K, 2024). Each transaction row has its filing image number, date, transaction id
-      and amount in data/fec-transactions-2022-2026.csv.gz.
+      Independent expenditures (Schedule E bulk file, de-duplicated) by the 87 committees of
+      ipm-fec-committee-summaries-2022-2026, US$ (2022 / 2024 / 2026), total 40,599,788 / 61,243,721 / 68,244,384. Per
+      committee (every committee with Schedule E rows, alphabetical): AMERICAN MUSLIM ADVANCEMENT COUNCIL none / 1,935 / none;
+      ANTI-ZIONIST AMERICA PAC none / none / 10,050; ARAB AMERICAN POLITICAL ACTION COMMITTEE none / 10,750 / none; ARAB
+      AMERICANS FOR A BETTER AMERICA none / 393,500 / none; BEND THE ARC JEWISH ACTION INC 15,528 / none / none; CITIZENS
+      AGAINST AIPAC CORRUPTION none / 14,799 / 134,722; DEMOCRATIC JEWISH OUTREACH PA 62,321 / 23,040 / none; DEMOCRATIC
+      MAJORITY FOR ISRAEL none / 20,500 / none; DMFI PAC 7,142,024 / 4,150,218 / 3,649,956; EMGAGE FEDERAL POLITICAL ACTION
+      COMMITTEE 18,374 / 612,463 / 99,074; J STREET 149,840 / none / none; J STREET ACTION FUND 1,701,250 / 204,995 / 837,772;
+      JEWISH UNITY PAC 1,400 / none / none; JUSTICE DEMOCRATS PAC 2,393,225 / 3,425,629 / 4,671,692; MUSLIM CIVIC
+      COALITION-ACTIVATE none / none / 2,646; PRO-ISRAEL AMERICA ACTION FUND (PIA ACTION FUND) 51,066 / none / none;
+      PRO-ISRAEL AMERICA INC 5,070 / none / none; RJC VICTORY FUND 2,952,175 / 13,344,391 / 5,154,275; UNITED DEMOCRACY
+      PROJECT (UDP) 26,107,516 / 38,044,933 / 53,684,196; VOTE UNCOMMITTED MN none / 21,761 / none; ZIONESS PAC none / 974,808
+      / none. The same committees' PAC summaries give United Democracy Project independent expenditures of 26,118,700 /
+      37,859,810 / 53,414,687; the two FEC sources differ slightly and both are recorded. Itemised contributions out to
+      candidates and committees (pas2 file, Schedule B, types 24F, 24K, 24N, 24Z), US$ with transaction counts in brackets
+      (2022 / 2024 / 2026), total 4,764,958 / 7,195,260 / 3,765,612. Per committee (every committee with such rows,
+      alphabetical): AMERICAN ISRAEL PUBLIC AFFAIRS COMMITTEE POLITICAL ACTION COMMITTEE 2,614,529 (941) / 2,443,814 (1926) /
+      1,870,805 (1138); AMERICAN LEBANESE POLICY INSTITUTE PAC - ALPI PAC 5,400 (4) / 3,000 (1) / none; ANTI-ZIONIST AMERICA
+      PAC none / none / 20,500 (12); ARAB AMERICAN DEMOCRATIC ACTION FUND 10,300 (11) / 11,350 (9) / none; ARAB AMERICAN
+      POLITICAL ACTION COMMITTEE 2,500 (1) / none / none; BEND THE ARC JEWISH ACTION INC 37,750 (132) / none / none; BEND THE
+      ARC JEWISH ACTION INC. PAC 160,235 (92) / 66,554 (68) / 15,500 (13); CITIZENS AGAINST AIPAC CORRUPTION none / none /
+      6,000 (2); DEMOCRATIC JEWISH OUTREACH PA 22,550 (20) / 12,360 (18) / 18,250 (15); DMFI PAC 214,000 (112) / 270,000 (146)
+      / 108,000 (73); EMGAGE FEDERAL POLITICAL ACTION COMMITTEE 7,750 (4) / 6,500 (3) / 1,000 (1); FRIENDS OF ISRAEL POLITICAL
+      ACTION COMMITTEE - FIPAC 21,500 (6) / none / none; ILLINOIS MUSLIM POLITICAL ACTION COMMITTEE none / 6,500 (2) / 5,000
+      (1); IRANIAN AMERICAN POLITICAL ACTION COMMITTEE - PUBLIC AFFAIRS ALLIANCE OF IRANIAN AMERICANS 35,200 (16) / 35,000
+      (15) / 38,000 (14); JSTREETPAC 330,464 (292) / 2,437,325 (6333) / 453,308 (642); JUSTICE DEMOCRATS PAC 56,000 (12) /
+      37,500 (8) / 87,500 (19); JVP ACTION PAC 5,949 (11) / none / none; MCARE (MUSLIM COMMUNITY ADVOCATES FOR TIGHTS &
+      EMPOWERMENT) - FEDERAL 5,000 (1) / 16,500 (7) / 19,500 (5); MICHIGAN JEWISH DEMOCRATS FEDERAL ACTION FUND -500 (1) /
+      none / none; MUSLIMS UNITED PAC none / 17,500 (5) / 5,000 (2); NATIONAL COALITION OF TURKISH AMERICAN WOMEN'S PAC 32,520
+      (26) / 23,500 (23) / 15,250 (13); NATIONAL TURKEY FEDERATION POLITICAL ACTION COMMITEE/TURPAC 329,000 (88) / 344,000
+      (113) / 294,500 (118); NORPAC 222,555 (27) / 600,770 (67) / 303,600 (53); PALESTINE AMERICAN LEAGUE - PAC none / none /
+      5,250 (3); PRO-ISRAEL AMERICA PAC 144,956 (677) / none / none; REPUBLICAN JEWISH COALITION-POLITICAL ACTION COMMITTEE
+      (RJC-PAC) 280,300 (89) / 664,895 (1672) / 365,199 (189); TURKISH AMERICAN COALITION PAC- TAC-PAC 5,500 (3) / 5,000 (1) /
+      41,450 (18); TURKISH AMERICAN HERITAGE POLITICAL ACTION COMMITTEE - TURKISHPAC none / none / 3,500 (2); TURKISH
+      COALITION CALIFORNIA PAC (TC-CAL PAC) none / none / 1,250 (1); TURKISH COALITON USA PAC (TC-USA PAC) 23,000 (23) /
+      35,151 (29) / 24,750 (21); U.S. ISRAEL PAC (USI PAC) 198,500 (97) / 158,041 (79) / 62,500 (19). The other-transactions
+      file adds, not included in the Schedule B totals above: 1760 transfer-out rows (type 24K: 101 / 1,310 / 299 rows, US$
+      1,343,118 / 10,619,635 / 16,974,967, in 2022 / 2024 / 2026; types 24E, 24G and 24Z: 50 rows) and 300
+      committee-to-committee receipt rows (types 15J, 15Z, 18G, 18K, 22Z and 41). Each transaction row has its filing image
+      number, date, transaction id and amount in data/fec-transactions-2022-2026.csv.gz.
     evidence_class: synthetic
     confidence: moderate
     evidential_weight: 3
-    anchor_checked: primary
+    anchor_checked: secondary
     adoption_weight: 2
     adoption_note: "Not measured. Adoption is information, not evidence."
     would_change_if: "amended Schedule E or Schedule B filings change amounts; or the filing images differ from the bulk files"
     anchor:
       type: dataset
       description: >
-        independent_expenditure_2022/2024/2026 (Schedule E), pas222/pas224/pas226 (committee contributions) and oth22/oth24/oth26 (other
-        committee transactions) downloaded 16 Oct 2026 and hashed; rows for the 87 selected committees extracted (memo-coded rows
-        dropped, duplicates removed by transaction id, independent-expenditure items counted once from Schedule E). Totals computed
-        by script from the 19,287 transaction rows. Schedule E 24/48-hour reports can differ from final reports. Filing images were
-        not opened. Candidate-level support and opposition per row are in the transaction file (payee column).
+        Dataset, totals recomputed by script. independent_expenditure_2022/2024/2026 (Schedule E), pas222/pas224/pas226
+        (committee contributions) and oth22/oth24/oth26 (other committee transactions) downloaded 16 Oct 2026 and hashed; rows
+        for the 87 selected committees extracted (memo-coded rows dropped, duplicates removed by transaction id,
+        independent-expenditure items counted once from Schedule E). Totals computed by script from the 19,287 transaction rows.
+        Schedule E 24/48-hour reports can differ from final reports. Filing images were not opened. Candidate-level support and
+        opposition per row are in the transaction file (payee column).
       sources: [src-fec-bulk-2022-2026]
       accessible: true
     basis: "Spending beside a vote or a primary shows timing and amount only, not cause (rule P5)."
@@ -2238,16 +2388,17 @@ claims:
     evidence_class: primary_text
     confidence: moderate
     evidential_weight: 3
-    anchor_checked: primary
+    anchor_checked: secondary
     adoption_weight: 2
     adoption_note: "Not measured. Adoption is information, not evidence."
     would_change_if: "the contract documents behind the awards, or the five unreadable notices, are read and say something different"
     anchor:
       type: dataset
       description: >
-        USAspending.gov API spending_by_award queried per name (contracts, keyword Israel, recipient-name search); rows are as the API
-        returns them (cumulative obligations; recipient names as returned, which can be related entities); the underlying contract
-        documents were not opened. 43 Federal Register and DSCA notices to Israel re-downloaded, 38 read. SEC EDGAR full-text index and
+        Dataset. USAspending.gov API spending_by_award queried per name (contracts, keyword Israel, recipient-name search); rows
+        are as the API returns them (cumulative obligations; recipient names as returned, which can be related entities); the
+        underlying contract documents were not opened, so award counts and amounts are secondary. 43 Federal Register and DSCA
+        notices to Israel re-downloaded, 38 read in full (primary for the contractor sentences). SEC EDGAR full-text index and
         the latest annual report containing the word Israel for each matched filer, opened and read for the sentences recorded.
         Rules: data/ROUND2_SELECTION_RULES.md.
       sources: [src-usaspending-awards-2026-10-16, src-fms-notices-israel-2026-10-16, src-sec-annual-reports-2026-10-16]
@@ -2273,7 +2424,7 @@ claims:
     evidence_class: primary_text
     confidence: provisional
     evidential_weight: 2
-    anchor_checked: primary
+    anchor_checked: secondary
     absence_anchor: true
     adoption_weight: 2
     adoption_note: "Not measured. Adoption is information, not evidence."
@@ -2281,10 +2432,11 @@ claims:
     anchor:
       type: search-record
       description: >
-        Same searches as ipm-company-documents-lead-list-found. A name was searched as the lead printed it plus the aliases listed in the
-        data file; SEC filers were accepted only when the registered name equals the searched name plus ordinary corporate words (so
-        Cellebrite DI Ltd. did not match "Cellebrite"). Absence of a record in four kinds of document records what was searched, not that no
-        other record exists.
+        Same searches as ipm-company-documents-lead-list-found. A name was searched as the list printed it plus the aliases
+        listed in the data file; SEC filers were accepted only when the registered name equals the searched name plus ordinary
+        corporate words (so Cellebrite DI Ltd. did not match "Cellebrite"). The contract documents behind awards were not
+        opened, so the label is secondary. Absence of a record in the kinds of document searched records what was searched, not
+        that no other record exists.
       sources: [src-usaspending-awards-2026-10-16, src-fms-notices-israel-2026-10-16, src-sec-annual-reports-2026-10-16]
       accessible: true
 
@@ -2311,13 +2463,15 @@ claims:
     evidence_class: primary_text
     confidence: moderate
     evidential_weight: 3
-    anchor_checked: primary
+    anchor_checked: secondary
     adoption_weight: 1
     adoption_note: "Not measured. Adoption is information, not evidence."
     would_change_if: "the contract documents behind the awards, or the five unreadable notices, are read and say something different"
     anchor:
       type: dataset
-      description: "Same method, sources and limits as ipm-company-documents-lead-list-found, applied to the 9 notice contractors and 182 UN-database names."
+      description: >
+        Same method, sources and limits as ipm-company-documents-lead-list-found, applied to the 9 notice contractors and 182
+        UN-database names; contract documents behind awards not opened (secondary).
       sources: [src-usaspending-awards-2026-10-16, src-fms-notices-israel-2026-10-16, src-sec-annual-reports-2026-10-16]
       accessible: true
 
@@ -2332,14 +2486,15 @@ claims:
     evidence_class: primary_text
     confidence: provisional
     evidential_weight: 2
-    anchor_checked: primary
+    anchor_checked: secondary
     absence_anchor: true
     adoption_weight: 1
     adoption_note: "Not measured. Adoption is information, not evidence."
     would_change_if: "defense.gov announcements or contract documents are read; or the name rules are changed by a written rule"
     anchor:
       type: search-record
-      description: "Same searches and limits as ipm-company-documents-lead-list-none-found."
+      description: >
+        Same searches and limits as ipm-company-documents-lead-list-none-found; contract documents not opened (secondary).
       sources: [src-usaspending-awards-2026-10-16, src-fms-notices-israel-2026-10-16, src-sec-annual-reports-2026-10-16]
       accessible: true
 
@@ -2347,15 +2502,29 @@ claims:
     state: searched_gap
     statement_kind: search_result
     statement: >
-      Coverage of round 2, 16 October 2026. Read: FEC bulk files for 87 committees in three cycles; 19 FARA statements by eye; 38 of 43
-      Foreign Military Sales notices; USAspending award records; the latest SEC annual report containing the word Israel for each matched
-      filer. Not read, with the reason: FEC individual-donor receipts (not pulled) and filing images (not opened); committees whose names
-      contain none of the keywords (not selected); defense.gov and war.gov contract announcements (HTTP 403); 5 notices (media.defense.gov
-      10-41, 13-20, 13-73, 16-40 and the dsca.mil page for 24-13); the contract documents behind each USAspending award (not opened);
-      SEC filers whose registered names differ from the searched names; principal-level lines of the FARA statements of MMGY Global, FTI
-      Consulting, Hogan Lovells, Mercury Public Affairs, Sonoran Policy Group and registrants not among the 19; the 18 FARA rows with no
-      statement in the register and the 16 with no text layer; the group entry "Airlines, Shipping, Logistics" of the owner-supplied
-      list.
+      Coverage of round 2, 16 October 2026. Read: FEC bulk files for 87 committees in three cycles (summaries, Schedule E,
+      Schedule B and other transactions, the same four records for every committee); 19 FARA statements by eye; 38 of 43
+      Foreign Military Sales notices; USAspending award records; the latest SEC annual report containing the word Israel for
+      each matched filer. Not read, with the reason: FEC individual-donor receipts (not pulled) and filing images (not
+      opened); committees whose names contain none of the keywords (not selected); defense.gov and war.gov contract
+      announcements (HTTP 403); 5 notices (media.defense.gov 10-41, 13-20, 13-73, 16-40 and the dsca.mil page for 24-13); the
+      contract documents behind each USAspending award (not opened); SEC filers whose registered names differ from the
+      searched names; principal-level lines of the FARA statements of MMGY Global, FTI Consulting, Hogan Lovells, Mercury
+      Public Affairs, Sonoran Policy Group and registrants not among the 19; the 18 FARA rows with no statement in the
+      register and the 16 with no text layer; the group entry "Airlines, Shipping, Logistics" of the owner-supplied list.
+      Depth of coverage by channel, as facts about what was read. FARA filings of principals labelled Israel: exhibits,
+      amendments and supplemental statements read by eye for nine registrants, with onward-payment tables, influencer and
+      exhibit detail and an extraction of staff political donations (ipm-israel-us-media-fara,
+      ipm-israel-influencer-payment-chain, ipm-fara-staff-political-donations, ipm-fara-payees-not-nonprofits). FARA filings
+      of principals labelled Saudi Arabia (3 statements), UAE (2), Qatar (4), Türkiye (9) and Palestine (1): the Item 14(a)
+      lines read by eye at principal level in 19 statements, plus register-wide counts and a pattern extraction for 153 rows;
+      no onward-payment tables, no exhibit or contract detail and no staff-donation extraction were made for these labels, and
+      none of the statements of Iran-, Egypt-, Kuwait- or Jordan-labelled registrants was read by eye. US charities and
+      foundations: FIDF over twelve years with 3,053 funder grant entries from foundation and charity returns
+      (ipm-us-charities-idf-funding, ipm-fidf-funders) and settlement-related organisations with their named funders
+      (ipm-us-charities-settlement-funding); the Palestinian-side and federation organisations
+      (ipm-us-charities-palestinian-side, ipm-federations-to-israel) were read in several years each in the data file, and no
+      funder drill-down was made for them. This pass did not bring the thinner channels up to the depth of the deeper ones.
     evidence_class: synthetic
     confidence: provisional
     evidential_weight: 1

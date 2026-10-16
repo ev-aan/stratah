@@ -5,10 +5,10 @@ timeline:
   note: >
     Times are UTC; every event here is known to the day or month only, so dots are drawn at noon on
     the day. "Single" means one source was read for the event; "reported" means two or more agree.
-    Each event's detail names who decided and who was head of government (from general knowledge
-    unless marked otherwise). A dot beside a change of government shows timing only, not cause
-    (rule P5). Panel C enlarges October 2023 to October 2026, when most of the funding and sanctions
-    reversals happened.
+    Each event's detail states what the cited document records. Dots show dates only and say nothing
+    about cause (rule P5). Panel C enlarges October 2023 to October 2026. Lanes list every channel
+    read under one written rule for the channel (see the claims named in the dig file); the FEC
+    lane lists committees by receipts band and in alphabetical order, not by side.
 panels:
   - id: years
     title: "Panel A: 1993 to 2016 (one tick per three years)"
@@ -21,7 +21,7 @@ panels:
     start: "2017-01-01T00:00:00Z"
     end:   "2023-09-30T00:00:00Z"
     tick_years: 1
-    lanes: [charities, ngos, money, settle, military, arms]
+    lanes: [charities, ngos, money, media, settle, military, arms, politics]
   - id: recent
     title: "Panel C: October 2023 to October 2026 (one tick per year)"
     start: "2023-10-01T00:00:00Z"
@@ -32,11 +32,11 @@ lanes:
   charities: {label: "Charities: designations and courts"}
   ngos:      {label: "NGOs and UNRWA"}
   money:     {label: "Aid, grants and seizures"}
-  media:     {label: "Israel: payments to US media firms (FARA)"}
+  media:     {label: "Foreign-agent receipts in FARA statements (read by eye)"}
   settle:    {label: "Settlement funding: charities, foundations, state"}
   military:  {label: "US charities for Israeli soldiers (FIDF and others)"}
   arms:      {label: "Israel Bonds and US arms sales"}
-  politics:  {label: "Campaign money, lobbying, other charities"}
+  politics:  {label: "FEC committees, trips, votes, charities, business lists"}
   sanctions: {label: "Settler sanctions"}
   un:        {label: "UN votes and recognition"}
 people:
@@ -153,6 +153,8 @@ sources:
   src-990-federations:         {title: "JFNA Form 990s", url: "https://projects.propublica.org/nonprofits/organizations/131624240", authenticity: "authenticated, moderate"}
   src-house-gift-travel:       {title: "House Clerk sponsored travel filings", url: "https://disclosures-clerk.house.gov/", authenticity: "authenticated, strong"}
   src-voteview-fec-votes:      {title: "Voteview roll calls with FEC money", url: "https://voteview.com/data", authenticity: "authenticated, moderate"}
+  src-fara-statements-read-by-eye-2026-10-16: {title: "FARA supplemental statements read by eye, 16 Oct 2026 (data/fara-receipts-read-by-eye-2026-10-16.csv)", url: "https://efile.fara.gov/", authenticity: "authenticated, strong"}
+  src-fec-bulk-2022-2026:      {title: "FEC bulk files 2022-2026 (committee master, PAC summaries, Schedules B and E)", url: "https://www.fec.gov/files/bulk-downloads/", authenticity: "authenticated, strong"}
   src-ocha-fts:                {title: "UN OCHA Financial Tracking Service (oPt)", url: "https://fts.unocha.org/countries/171/summary/2025", authenticity: "authenticated, strong"}
   src-ohchr-business-db:       {title: "UN database of businesses in settlements (A/HRC/60/19)", url: "https://documents.un.org/api/symbol/access?s=A/HRC/60/19&l=en&t=pdf", authenticity: "authenticated, strong"}
 
@@ -160,50 +162,50 @@ events:
   # ---------------- Panel A: 1993 to Sep 2023 ----------------
   - {id: a01, panel: years, lane: un, time: "1995-05-17T12:00:00Z", precision: day, kind: official, status: single, sources: [src-dppa-vetoes],
      label: "17 May 1995: first US veto in this period (S/1995/394)",
-     detail: "The first of 23 US negative votes (22 on draft resolutions, one on an amendment) on Israel-Palestine items in the UN list from 1993 to Sep 2025, cast under presidents of both parties (President: Bill Clinton, Democrat [HoG not sourced])."}
+     detail: "The first of 23 US negative votes (22 on draft resolutions, one on an amendment) on Israel-Palestine items in the UN list from 1993 to Sep 2025."}
   - {id: a02, panel: years, lane: charities, time: "1997-05-06T12:00:00Z", precision: day, kind: official, status: single, sources: [src-opensanctions-il-mod],
      label: "6 May 1997: Israel declares HLF and Interpal unauthorized associations",
-     detail: "Date from the OpenSanctions copy of Israel's list; the original was not opened (PM: Netanyahu, Likud [HoG not sourced])."}
+     detail: "Date from the OpenSanctions copy of Israel's list; the original was not opened."}
   - {id: a03, panel: years, lane: charities, time: "2001-12-04T12:00:00Z", precision: day, kind: official, status: reported, sources: [src-treasury-po841-2001, src-whitehouse-2001-12-04],
      label: "4 Dec 2001: US designates the Holy Land Foundation (SDGT)",
-     detail: "Treasury OFAC; part of the record classified (President: George W. Bush, Republican [HoG not sourced])."}
+     detail: "Treasury OFAC; part of the record classified."}
   - {id: a04, panel: years, lane: charities, time: "2003-08-22T12:00:00Z", precision: day, kind: official, status: single, sources: [src-treasury-js672-2003],
      label: "22 Aug 2003: US designates Interpal (SDGT)",
-     detail: "Treasury cites 'reporting'; no evidence published (Bush [HoG not sourced])."}
+     detail: "Treasury cites 'reporting'; no evidence published."}
   - {id: a05, panel: years, lane: charities, time: "2003-09-24T12:00:00Z", precision: day, kind: official, status: single, sources: [src-hansard-lords-2003-10-06],
      label: "24 Sep 2003: UK Charity Commission closes its Interpal inquiry",
-     detail: "A minister told the Lords it found no evidence to substantiate Hamas links; the report itself was blocked (PM: Tony Blair, Labour [HoG not sourced])."}
+     detail: "A minister told the Lords it found no evidence to substantiate Hamas links; the report itself was blocked."}
   - {id: a06, panel: years, lane: charities, time: "2004-12-30T12:00:00Z", precision: day, kind: official, status: single, sources: [src-opensanctions-il-mod],
      label: "30 Dec 2004: Israel declares IRFAN-Canada an unauthorized association",
-     detail: "From the OpenSanctions copy of Israel's list (PM: Ariel Sharon, Likud [HoG not sourced])."}
+     detail: "From the OpenSanctions copy of Israel's list."}
   - {id: a07, panel: years, lane: charities, time: "2008-05-26T12:00:00Z", precision: day, kind: official, status: disputed, sources: [src-opensanctions-il-mod, src-ynet-union-of-good-2008],
      alt_time: "2008-07-07T12:00:00Z", alt_note: "Ynet reported the order on 7 Jul 2008; the list copy dates it 26 May.",
      label: "May-Jul 2008: Israel outlaws 36 Union of Good funds (Ynet, 7 Jul); its list copy shows IHH declared 26 May",
-     detail: "Defense Minister Ehud Barak (as reported by Ynet, which names Interpal and the Holy Land Foundation as earlier bans and does not name IHH). Among the lists searched, only Israel's list, as copied by OpenSanctions, has an IHH entry (PM: Ehud Olmert, Kadima [HoG not sourced])."}
+     detail: "Defense Minister Ehud Barak (as reported by Ynet, which names Interpal and the Holy Land Foundation as earlier bans and does not name IHH). Among the lists searched, only Israel's list, as copied by OpenSanctions, has an IHH entry."}
   - {id: a08, panel: years, lane: charities, time: "2008-11-24T12:00:00Z", precision: day, kind: document, status: reported, sources: [src-doj-hlf-2008, src-el-mezain-2011],
      label: "24 Nov 2008: jury convicts the Holy Land Foundation and five leaders",
      detail: "About $12.4 million to Hamas-controlled zakat committees (DOJ). Retrial after a 2007 mistrial."}
   - {id: a09, panel: years, lane: charities, time: "2009-02-27T12:00:00Z", precision: day, kind: official, status: single, sources: [src-csn-interpal-2009],
      label: "27 Feb 2009: UK Charity Commission's second Interpal report",
-     detail: "Per an NGO summary only: insufficient evidence partners promoted terrorism; told to leave the Union of Good (PM: Gordon Brown, Labour [HoG not sourced])."}
+     detail: "Per an NGO summary only: insufficient evidence partners promoted terrorism; told to leave the Union of Good."}
   - {id: a10, panel: years, lane: charities, time: "2010-06-23T12:00:00Z", precision: day, kind: official, status: single, sources: [src-bverwg-ihh-2012],
      label: "23 Jun 2010: Germany bans IHH e.V. (a separate German association)",
-     detail: "Upheld by the Federal Administrative Court on 18 Apr 2012 (Chancellor: Angela Merkel, CDU [HoG not sourced])."}
+     detail: "Upheld by the Federal Administrative Court on 18 Apr 2012."}
   - {id: a11, panel: years, lane: charities, time: "2011-04-09T12:00:00Z", precision: day, kind: official, status: single, sources: [src-cra-irfan],
      label: "9 Apr 2011: Canada revokes IRFAN-Canada's charity status",
-     detail: "CRA cites about $14.6 million to Hamas-linked partners (PM: Stephen Harper, Conservative [HoG not sourced])."}
+     detail: "CRA cites about $14.6 million to Hamas-linked partners."}
   - {id: a12, panel: years, lane: charities, time: "2011-12-07T12:00:00Z", precision: day, kind: document, status: single, sources: [src-el-mezain-2011],
      label: "7 Dec 2011: Fifth Circuit affirms the HLF convictions",
-     detail: "The court accepted that none of the zakat committees had been designated (President: Barack Obama, Democrat [HoG not sourced])."}
+     detail: "The court accepted that none of the zakat committees had been designated."}
   - {id: a13, panel: years, lane: un, time: "2012-11-29T12:00:00Z", precision: day, kind: data, status: reported, sources: [src-unproject-votes, src-voeten-unvotes-v33],
      label: "29 Nov 2012: UN gives Palestine observer-State status, 138-9-41",
      detail: "US and Canada No; UK and Germany abstain; France, Ireland, Norway, Spain, Qatar, Türkiye, Iran, Egypt Yes."}
   - {id: a14, panel: years, lane: un, time: "2012-01-01T00:00:00Z", end: "2018-12-31T23:59:00Z", precision: range, kind: data, status: single, sources: [src-voeten-unvotes-v33],
      label: "2012-2018: Canada casts no Yes vote on Palestine-related UN resolutions",
-     detail: "Our count under a written selection rule. The pattern began under Harper (Conservative) and continued for years under Trudeau (Liberal) [HoG not sourced]."}
+     detail: "Our count under a written selection rule."}
   - {id: a15, panel: years, lane: charities, time: "2014-04-24T12:00:00Z", precision: day, kind: official, status: reported, sources: [src-gazette-sor-2014-97, src-cra-irfan],
      label: "24 Apr 2014: Canada lists IRFAN-Canada as a terrorist entity",
-     detail: "No evidence published; kept at the 2024 review under a Liberal government (Harper [HoG not sourced])."}
+     detail: "No evidence published; the listing was kept at the 7 Jun 2024 review."}
   - {id: a16, panel: years, lane: money, time: "2016-07-01T00:00:00Z", precision: year, kind: document, status: single, sources: [src-crs-rl33222-2025],
      label: "2016: US-Israel MOU pledges $38 billion for FY2019-2028",
      detail: "$33bn military grants + $5bn missile defense, subject to appropriation (CRS, read in a mirror)."}
@@ -215,27 +217,27 @@ events:
      detail: "Through the Qatar Fund for Development and Gaza ministries."}
   - {id: a19, panel: middle, lane: money, time: "2020-08-13T12:00:00Z", precision: day, kind: official, status: single, sources: [src-doj-crypto-2020],
      label: "13 Aug 2020: US seizes 150 crypto accounts of Hamas's armed wing",
-     detail: "Part of 300+ accounts also tied to al-Qaeda and ISIS; no total given (President: Donald Trump, Republican [HoG not sourced])."}
+     detail: "Part of 300+ accounts also tied to al-Qaeda and ISIS; no total given."}
   - {id: a20, panel: middle, lane: money, time: "2021-01-31T12:00:00Z", precision: day, kind: official, status: single, sources: [src-qatar-mofa-2021-02-02],
      label: "31 Jan 2021: Qatar announces a $360 million grant to Gaza for 2021",
      detail: "Salaries, needy families, power stations (Qatar MOFA)."}
   - {id: a21, panel: middle, lane: charities, time: "2021-02-28T12:00:00Z", precision: day, kind: official, status: disputed, sources: [src-nbctf-samidoun-2021, src-opensanctions-il-mod],
      alt_time: "2021-02-21T12:00:00Z", alt_note: "The list copy dates the order 21 Feb 2021; the ministry statement is dated 28 Feb.",
      label: "Feb 2021: Israel designates Samidoun as a PFLP front",
-     detail: "Defense Minister Gantz; no evidence published (PM: Netanyahu, Likud [HoG not sourced])."}
+     detail: "Defense Minister Gantz; no evidence published."}
   - {id: a22, panel: middle, lane: money, time: "2021-05-26T12:00:00Z", precision: day, kind: official, status: single, sources: [src-qatar-mofa-2021-05-26],
      label: "26 May 2021: Qatar pledges $500 million to rebuild Gaza",
      detail: "Qatar MOFA."}
   - {id: a23, panel: middle, lane: ngos, time: "2021-10-22T12:00:00Z", precision: day, kind: official, status: disputed, sources: [src-nbctf-six-ngos-2021, src-toi-six-ngos-2021],
      alt_time: "2021-10-19T12:00:00Z", alt_note: "One NGO source gives 19 Oct as the signing date; announced 22 Oct.",
      label: "Oct 2021: Israel designates six Palestinian NGOs as PFLP arms",
-     detail: "Defense Minister Gantz; no evidence published (PM: Naftali Bennett, Yamina [HoG not sourced])."}
+     detail: "Defense Minister Gantz; no evidence published."}
   - {id: a24, panel: middle, lane: ngos, time: "2022-01-05T12:00:00Z", precision: day, kind: document, status: single, sources: [src-nl-kamerstuk-23432-486],
      label: "5 Jan 2022: Netherlands ends UAWC funding after its own review",
      detail: "Review found personal PFLP ties but no money flow; called Israel's material not concrete enough."}
   - {id: a25, panel: middle, lane: money, time: "2022-05-24T12:00:00Z", precision: day, kind: official, status: single, sources: [src-treasury-jy0798-2022],
      label: "24 May 2022: US sanctions a Hamas investment network, estimated over $500 million",
-     detail: "An estimate of assets, not a seizure (President: Joe Biden, Democrat [HoG not sourced])."}
+     detail: "An estimate of assets, not a seizure."}
   - {id: a26, panel: middle, lane: ngos, time: "2022-06-30T12:00:00Z", precision: day, kind: media, status: single, sources: [src-aljazeera-olaf-2022],
      label: "Jun 2022: EU Commission lifts its Al-Haq funding suspension",
      detail: "After its anti-fraud office found no irregularities (news report only)."}
@@ -249,7 +251,7 @@ events:
      detail: "One of two non-US vetoes in the period; the US had vetoed a draft (S/2023/773) on 18 Oct."}
   - {id: b02, panel: recent, lane: charities, time: "2023-11-02T12:00:00Z", precision: day, kind: official, status: single, sources: [src-bmi-samidoun-2023],
      label: "2 Nov 2023: Germany bans Samidoun",
-     detail: "For incitement and propaganda, not a money finding (Chancellor: Olaf Scholz, SPD [HoG not sourced])."}
+     detail: "For incitement and propaganda, not a money finding."}
   - {id: b03, panel: recent, lane: ngos, time: "2024-01-26T00:00:00Z", end: "2024-01-28T23:59:00Z", precision: range, kind: official, status: reported, sources: [src-un-sg-unrwa-2024-01-28, src-canada-unrwa-pause-2024, src-uk-unrwa-pause-2024, src-de-unrwa-pause-2024],
      label: "26-28 Jan 2024: Israel's UNRWA allegations; US, Canada, UK, Germany, Japan pause funding",
      detail: "Norway did not pause. 12 staff named; Israel's dossier not public."}
@@ -258,16 +260,16 @@ events:
      detail: "Four individuals sanctioned the same day."}
   - {id: b05, panel: recent, lane: sanctions, time: "2024-02-12T12:00:00Z", precision: day, kind: official, status: single, sources: [src-uk-settlers-2024-02],
      label: "12 Feb 2024: UK sanctions four settlers",
-     detail: "Foreign Secretary Cameron (PM: Rishi Sunak, Conservative [HoG not sourced])."}
+     detail: "Foreign Secretary Cameron."}
   - {id: b06, panel: recent, lane: ngos, time: "2024-03-01T12:00:00Z", precision: day, kind: official, status: single, sources: [src-ec-unrwa-resume-2024],
      label: "1 Mar 2024: European Commission resumes UNRWA payments (€50m, conditions)",
-     detail: "Same Commission that paused."}
+     detail: "Payment of EUR 50 million with conditions, as stated by the Commission."}
   - {id: b07, panel: recent, lane: ngos, time: "2024-03-08T12:00:00Z", precision: day, kind: official, status: single, sources: [src-canada-unrwa-resume-2024],
      label: "8 Mar 2024: Canada lifts its UNRWA pause",
-     detail: "Same government that paused six weeks earlier (Trudeau [HoG not sourced])."}
+     detail: "Canada had announced its pause on 26 Jan 2024."}
   - {id: b08, panel: recent, lane: ngos, time: "2024-03-23T12:00:00Z", precision: day, kind: document, status: single, sources: [src-plaw-118-47],
      label: "23 Mar 2024: US law bars UNRWA funding until March 2025",
-     detail: "P.L. 118-47, Sec. 301 (Biden [HoG not sourced])."}
+     detail: "P.L. 118-47, Sec. 301."}
   - {id: b09, panel: recent, lane: un, time: "2024-04-18T12:00:00Z", precision: day, kind: official, status: single, sources: [src-dppa-vetoes],
      label: "18 Apr 2024: US vetoes Palestine's UN admission (12-1-2)",
      detail: "S/2024/312."}
@@ -285,10 +287,10 @@ events:
      detail: "Taoiseach Simon Harris, PM Jonas Gahr Støre, President of Government Pedro Sánchez."}
   - {id: b14, panel: recent, lane: sanctions, time: "2024-06-26T12:00:00Z", precision: day, kind: official, status: single, sources: [src-canada-sor-2024-91],
      label: "26 Jun 2024: Canada sanctions Amana, Lehava, Hilltop Youth",
-     detail: "Five months before the US listed Amana (Trudeau [HoG not sourced])."}
+     detail: "SOR/2024-91."}
   - {id: b15, panel: recent, lane: ngos, time: "2024-07-19T12:00:00Z", precision: day, kind: official, status: single, sources: [src-uk-unrwa-resume-2024],
      label: "19 Jul 2024: UK restores UNRWA funding (£21m)",
-     detail: "Two weeks after Labour replaced the Conservatives (PM: Keir Starmer [HoG not sourced]); cites the Colonna review. One of two reversals in the pilot that came with a change of government."}
+     detail: "The statement cites the Colonna review."}
   - {id: b16, panel: recent, lane: ngos, time: "2024-08-05T12:00:00Z", precision: day, kind: official, status: single, sources: [src-un-oios-2024-08-05],
      label: "5 Aug 2024: UN investigators: 9 of 19 UNRWA staff 'may have been involved'",
      detail: "9 insufficient evidence, 1 none. Evidence not published."}
@@ -300,19 +302,19 @@ events:
      detail: "Foreign Secretary Lammy."}
   - {id: b19, panel: recent, lane: ngos, time: "2024-10-28T12:00:00Z", precision: day, kind: official, status: single, sources: [src-un-sg-letter-2024-12-09],
      label: "28 Oct 2024: Knesset passes two laws against UNRWA",
-     detail: "In force 30 Jan 2025; texts read as quoted by the UN Secretary-General (PM: Netanyahu [HoG not sourced])."}
+     detail: "In force 30 Jan 2025; texts read as quoted by the UN Secretary-General."}
   - {id: b20, panel: recent, lane: sanctions, time: "2024-11-18T12:00:00Z", precision: day, kind: official, status: single, sources: [src-ofac-eo14115-actions],
      label: "18 Nov 2024: US sanctions Amana",
      detail: "Under E.O. 14115."}
   - {id: b21, panel: recent, lane: ngos, time: "2024-12-20T12:00:00Z", precision: day, kind: official, status: single, sources: [src-riksdag-unrwa-2024],
      label: "20 Dec 2024: Sweden ends all UNRWA funding",
-     detail: "Same government that resumed it in March (PM: Ulf Kristersson [HoG not sourced])."}
+     detail: "Riksdag interpellation record."}
   - {id: b22, panel: recent, lane: sanctions, time: "2025-01-20T12:00:00Z", precision: day, kind: official, status: reported, sources: [src-eo-14148, src-ofac-20250124],
      label: "20-24 Jan 2025: Trump revokes E.O. 14115; all listed are unblocked",
-     detail: "No reason stated for this item. Also unblocked a Palestinian armed group (Lions' Den). One of two reversals in the pilot that came with a change of government."}
+     detail: "No reason stated for this item. The unblocking also covered a Palestinian armed group (Lions' Den)."}
   - {id: b23, panel: recent, lane: ngos, time: "2025-02-04T12:00:00Z", precision: day, kind: official, status: single, sources: [src-eo-14199-2025],
      label: "4 Feb 2025: E.O. 14199 bars US funds to UNRWA",
-     detail: "Continues the Biden-era pause and law; not a reversal."}
+     detail: "Earlier statutory bar: P.L. 118-47 Sec. 301 (23 Mar 2024)."}
   - {id: b24, panel: recent, lane: money, time: "2025-03-27T12:00:00Z", precision: day, kind: official, status: single, sources: [src-doj-crypto-2025],
      label: "27 Mar 2025: US seizes about $201,400 in crypto said to be for Hamas",
      detail: "Read through a summarizing tool."}
@@ -333,9 +335,6 @@ events:
      detail: "A company and an individual removed from the US list in Jan 2025."}
 
   # ---------------- Israel: payments to US media and content firms ----------------
-  - {id: m01, panel: recent, lane: media, time: "2024-06-05T12:00:00Z", precision: day, kind: media, status: disputed, sources: [src-npr-stoic-2024],
-     label: "Jun 2024: NYT reports Israel's Diaspora Ministry paid STOIC about $2M to target US lawmakers",
-     detail: "Meta and OpenAI removed STOIC-linked accounts; the ministry denied involvement. Not a FARA filing."}
   - {id: m02, panel: recent, lane: media, time: "2025-06-03T00:00:00Z", end: "2025-07-08T23:59:00Z", precision: range, kind: document, status: single, sources: [src-fara-7552-skdk],
      label: "Jun-Jul 2025: SKDKnickerbocker receives $150,000 from Israel's Foreign Ministry",
      detail: "Earned-media services (FARA 7552)."}
@@ -358,8 +357,66 @@ events:
      label: "Jun-Jul 2025: Bridges Partners 'Influencer Campaign', $200,000 budgeted",
      detail: "Via Havas for LaPam: $60,000 June (initial payments for production and influencers), $140,000 July (5-6 influencers, 25-30 posts). $199,985 received 3 Jul 2025. Influencers not named (FARA 7652)."}
   - {id: m09, panel: recent, lane: media, time: "2025-09-18T12:00:00Z", precision: day, kind: document, status: single, sources: [src-fara-7653-showfaith-budget],
-     label: "18 Sep 2025: Show Faith budget includes a $50,000 'Hollywood Coordinator'",
-     detail: "To book Christian celebrities and athletes for pro-Israel messaging and build an October 7 experience trailer; $75,000 for evangelical influencer and op-ed outreach; staffing total $1,549,000 (FARA 7653)."}
+     label: "18 Sep 2025: Show Faith budget (Exhibit B) lists a $50,000 'Hollywood Coordinator' line",
+     detail: "As printed in the budget: booking Christian celebrities and athletes and building an October 7 experience trailer; $75,000 for evangelical influencer and op-ed outreach; staffing total $1,549,000 (FARA 7653)."}
+  - {id: m10, panel: recent, lane: media, time: "2025-11-26T12:00:00Z", precision: day, kind: document, status: single, sources: [src-fara-statements-read-by-eye-2026-10-16],
+     label: "26 Nov 2025: USSA International receives $12,208,045.00 from the Public Investment Fund (Saudi Arabia label)",
+     detail: "Item 14(a), payroll and operating expenses (FARA 7252)."}
+  - {id: m11, panel: recent, lane: media, time: "2025-10-01T00:00:00Z", end: "2026-01-02T23:59:00Z", precision: range, kind: document, status: single, sources: [src-fara-statements-read-by-eye-2026-10-16],
+     label: "Oct 2025-Jan 2026: Capital K, LLC receives $2,250,000.00 from KAUST via Capital K Investment Fund I (Saudi Arabia label)",
+     detail: "Two payments, management fees (FARA 7456)."}
+  - {id: m12, panel: recent, lane: media, time: "2026-03-05T00:00:00Z", end: "2026-04-27T23:59:00Z", precision: range, kind: document, status: single, sources: [src-fara-statements-read-by-eye-2026-10-16],
+     label: "Mar-Apr 2026: Richard Attias & Associates receives $6,220,057.40 from FII Institute (Saudi Arabia label)",
+     detail: "Three payments (FARA 7528)."}
+  - {id: m13, panel: recent, lane: media, time: "2026-01-12T12:00:00Z", precision: day, kind: document, status: single, sources: [src-fara-statements-read-by-eye-2026-10-16],
+     label: "12 Jan 2026: Camstoll Group receives $2,290,000.00 from Outlook Energy Investments (UAE label)",
+     detail: "Retainer for fees and expenses; payer wholly owned by the Emirate of Abu Dhabi (FARA 6144)."}
+  - {id: m14, panel: recent, lane: media, time: "2026-02-17T00:00:00Z", end: "2026-06-29T23:59:00Z", precision: range, kind: document, status: single, sources: [src-fara-statements-read-by-eye-2026-10-16],
+     label: "Feb-Jun 2026: Akin Gump receives $2,973,777.09 from the Embassy of the UAE",
+     detail: "26 lines, services rendered (FARA 3492)."}
+  - {id: m15, panel: recent, lane: media, time: "2025-10-02T00:00:00Z", end: "2026-03-09T23:59:00Z", precision: range, kind: document, status: single, sources: [src-fara-statements-read-by-eye-2026-10-16],
+     label: "Oct 2025-Mar 2026: GRV Strategies receives $1,108,000.00 from the International Media Office of the State of Qatar",
+     detail: "Seven payments; the same statement lists $50,000.00 from Baleira Limited (Cyprus) (FARA 7458)."}
+  - {id: m16, panel: recent, lane: media, time: "2025-12-01T00:00:00Z", end: "2026-05-01T23:59:00Z", precision: range, kind: document, status: single, sources: [src-fara-statements-read-by-eye-2026-10-16],
+     label: "Dec 2025-May 2026: BGR Government Affairs receives $420,000.00 from the Embassy of the State of Qatar",
+     detail: "Six monthly fees of $70,000.00 (FARA 5430)."}
+  - {id: m17, panel: recent, lane: media, time: "2025-11-21T00:00:00Z", end: "2026-04-07T23:59:00Z", precision: range, kind: document, status: single, sources: [src-fara-statements-read-by-eye-2026-10-16],
+     label: "Nov 2025-Apr 2026: ThirdCircle receives $320,000.00 from the Embassy of the State of Qatar",
+     detail: "Five payments (FARA 6540)."}
+  - {id: m18, panel: recent, lane: media, time: "2025-10-09T00:00:00Z", end: "2026-03-30T23:59:00Z", precision: range, kind: document, status: single, sources: [src-fara-statements-read-by-eye-2026-10-16],
+     label: "Oct 2025-Mar 2026: Finn Partners receives $2,788,600.00 from Qatar Museums",
+     detail: "13 lines, fees (FARA 6212)."}
+  - {id: m19, panel: recent, lane: media, time: "2026-02-03T00:00:00Z", end: "2026-05-05T23:59:00Z", precision: range, kind: document, status: single, sources: [src-fara-statements-read-by-eye-2026-10-16],
+     label: "Feb-May 2026: AK Party Representation to the United States receives $1,299,970.00 from the AK Party headquarters (Türkiye label)",
+     detail: "Three wires (FARA 7115)."}
+  - {id: m20, panel: recent, lane: media, time: "2025-11-06T00:00:00Z", end: "2026-03-02T23:59:00Z", precision: range, kind: document, status: single, sources: [src-fara-statements-read-by-eye-2026-10-16],
+     label: "Nov 2025-Mar 2026: LB International Solutions receives $440,155.50 from the Turkish Embassy",
+     detail: "Four retainers; the same statement lists $72,000.00 and $75,120.00 from two other principals (FARA 6210)."}
+  - {id: m21, panel: recent, lane: media, time: "2025-10-30T00:00:00Z", end: "2026-03-31T23:59:00Z", precision: range, kind: document, status: single, sources: [src-fara-statements-read-by-eye-2026-10-16],
+     label: "Oct 2025-Mar 2026: Imperium Strategies receives $93,450.00 through LB International Solutions (Türkiye label)",
+     detail: "Six payments (FARA 7559)."}
+  - {id: m22, panel: recent, lane: media, time: "2025-12-21T00:00:00Z", end: "2026-05-27T23:59:00Z", precision: range, kind: document, status: single, sources: [src-fara-statements-read-by-eye-2026-10-16],
+     label: "Dec 2025-May 2026: Aquila Strategies receives $78,000.00 from LB International Solutions (Türkiye label)",
+     detail: "One line (FARA 7409)."}
+  - {id: m23, panel: recent, lane: media, time: "2025-05-01T00:00:00Z", end: "2025-10-01T23:59:00Z", precision: range, kind: document, status: single, sources: [src-fara-statements-read-by-eye-2026-10-16],
+     label: "May-Oct 2025: The Van Aucker Group receives $92,250.00 from the Embassy of Türkiye",
+     detail: "Six payments of $15,375.00 (FARA 7260)."}
+  - {id: m24, panel: recent, lane: media, time: "2025-10-01T00:00:00Z", end: "2026-03-31T23:59:00Z", precision: range, kind: document, status: single, sources: [src-fara-statements-read-by-eye-2026-10-16],
+     label: "Oct 2025-Mar 2026: Turkish Radio and Television Corporation US registrant receives $205,258.63",
+     detail: "Bureau operations (FARA 6780)."}
+  - {id: m25, panel: recent, lane: media, time: "2025-12-01T00:00:00Z", end: "2026-05-31T23:59:00Z", precision: range, kind: document, status: single, sources: [src-fara-statements-read-by-eye-2026-10-16],
+     label: "Dec 2025-May 2026: Skyline Capitol receives $300,000.00 from the Government of the Republic of Türkiye",
+     detail: "Six monthly fees of $50,000.00 (FARA 7404)."}
+  - {id: m26, panel: recent, lane: media, time: "2025-10-01T00:00:00Z", end: "2026-03-31T23:59:00Z", precision: range, kind: document, status: single, sources: [src-fara-statements-read-by-eye-2026-10-16],
+     label: "Oct 2025-Mar 2026: Geoffrey Weill receives $102,472.88 from the Turkish Ministry of Culture and Tourism",
+     detail: "One line (FARA 7173)."}
+  - {id: m27, panel: middle, lane: media, time: "2022-12-01T00:00:00Z", end: "2023-03-01T23:59:00Z", precision: range, kind: document, status: single, sources: [src-fara-statements-read-by-eye-2026-10-16],
+     label: "Dec 2022-Mar 2023: CHP Representation to the United States receives $71,200.00 from the Republican People's Party (Türkiye label)",
+     detail: "Statement filed 15 Mar 2023 (FARA 6168)."}
+  - {id: m28, panel: recent, lane: media, time: "2026-01-01T00:00:00Z", end: "2026-06-30T23:59:00Z", precision: range, kind: document, status: single, sources: [src-fara-statements-read-by-eye-2026-10-16],
+     label: "Jan-Jun 2026: Squire Patton Boggs receives $250,000.00 from the Palestine Monetary Authority",
+     detail: "Agreed fees; the registrant has seven principals and a total Item 14(a) figure of $1,932,177.66 (FARA 2165)."}
+
   # ---------------- Settlement funding ----------------
   - {id: s01, panel: middle, lane: settle, time: "2022-07-01T00:00:00Z", precision: year, kind: data, status: single, sources: [src-990-central-fund],
      label: "FY to Jan 2023: Central Fund of Israel grants $72.0M abroad",
@@ -398,7 +455,7 @@ events:
      detail: "Gaza interior ministry $254M; Qatar's news agency $264M raised to $415M; later Qatar MOFA $407M."}
   - {id: p07, panel: years, lane: charities, time: "2014-07-01T00:00:00Z", precision: year, kind: document, status: single, sources: [src-linde-arab-bank-2015],
      label: "2014: jury finds Arab Bank knowingly served Hamas (civil case)",
-     detail: "About $32M to 11 Hamas-controlled charities 1999-2004 cited; verdict vacated on appeal in 2018."}
+     detail: "About $32M to 11 Hamas-controlled charities 1999-2004 cited; judgment vacated on appeal in an opinion of 9 Feb 2018."}
   - {id: p08, panel: years, lane: money, time: "2014-10-12T12:00:00Z", precision: day, kind: official, status: single, sources: [src-cairo-2014-chair],
      label: "12 Oct 2014: Cairo conference pledges about $5.4 billion, Qatar $1 billion",
      detail: "Half for Gaza reconstruction; about 40% of Gaza pledges paid by March 2016 (World Bank)."}
@@ -440,9 +497,15 @@ events:
   - {id: g05, panel: recent, lane: arms, time: "2025-03-01T12:00:00Z", precision: day, kind: official, status: single, sources: [src-emergency-arms-2023-2025],
      label: "1 Mar 2025: emergency declaration expedites about $4B in arms to Israel",
      detail: "Secretary of State Rubio."}
-  - {id: g06, panel: recent, lane: politics, time: "2024-06-25T12:00:00Z", precision: day, kind: data, status: single, sources: [src-fec-bulk],
-     label: "2024 primaries: UDP spends $9.87M against Bowman, $5.24M against Bush",
-     detail: "AIPAC's super PAC took in $87.2M in the 2024 cycle; AIPAC itself its largest contributor ($11.0M). Timing is context, not cause."}
+  - {id: g06a, panel: middle, lane: politics, time: "2022-12-31T12:00:00Z", precision: year, kind: data, status: single, sources: [src-fec-bulk-2022-2026],
+     label: "2022 cycle: FEC summaries of selected committees, receipts by band",
+     detail: "Receipts $1,000,000 or more (10): American Israel Public Affairs Committee Political Action Committee 18,566,319; DMFI PAC 9,063,924; J Street Action Fund 1,974,699; JStreetPAC 6,736,835; Justice Democrats PAC 6,474,082; NORPAC 1,996,728; Pro-Israel America PAC 3,783,274; RJC Victory Fund 3,090,754; Republican Jewish Coalition-Political Action Committee (RJC-PAC) 1,532,405; United Democracy Project (UDP) 35,943,281. $100,000 to $999,999 (5): Bend The Arc Jewish Action Inc. PAC 300,904; Democratic Jewish Outreach Pa 182,853; J Street 660,700; National Turkey Federation Political Action Commitee/Turpac 335,508; U.S. Israel PAC (Usi PAC) 237,287. Under $100,000: 41 committees. All rows: data/fec-committee-summaries-webk-2022-2026.csv. Totals include all sources; timing and amount only."}
+  - {id: g06, panel: recent, lane: politics, time: "2024-12-31T12:00:00Z", precision: year, kind: data, status: single, sources: [src-fec-bulk-2022-2026],
+     label: "2024 cycle: FEC summaries of selected committees, receipts by band",
+     detail: "Receipts $1,000,000 or more (8): American Israel Public Affairs Committee Political Action Committee 57,871,196; DMFI PAC 6,745,510; JStreetPAC 14,581,367; Justice Democrats PAC 7,657,316; NORPAC 3,439,062; RJC Victory Fund 17,018,627; Republican Jewish Coalition-Political Action Committee (RJC-PAC) 3,501,243; United Democracy Project (UDP) 87,176,557. $100,000 to $999,999 (9): Arab Americans For A Better America 478,300; Bend The Arc Jewish Action Inc. PAC 109,722; Democratic Jewish Outreach Pa 250,143; Emgage Federal Political Action Committee 601,837; J Street Action Fund 240,923; JVP Action PAC 132,852; National Turkey Federation Political Action Commitee/Turpac 262,920; U.S. Israel PAC (Usi PAC) 191,808; Zioness PAC 988,276. Under $100,000: 49 committees. All rows: data/fec-committee-summaries-webk-2022-2026.csv. Totals include all sources; timing and amount only."}
+  - {id: g06c, panel: recent, lane: politics, time: "2026-09-30T12:00:00Z", precision: year, kind: data, status: single, sources: [src-fec-bulk-2022-2026],
+     label: "2026 cycle: FEC summaries of selected committees, receipts by band",
+     detail: "Receipts $1,000,000 or more (10): American Israel Public Affairs Committee Political Action Committee 52,335,345; Citizens Against AIPAC Corruption 1,693,316; DMFI PAC 7,439,398; J Street Action Fund 3,376,572; JStreetPAC 7,339,590; Justice Democrats PAC 6,659,829; NORPAC 3,148,064; RJC Victory Fund 7,316,220; Republican Jewish Coalition Political Action Committee (RJC-PAC) 2,749,872; United Democracy Project (UDP) 109,721,116. $100,000 to $999,999 (7): Anti-Zionist America PAC 213,214; Democratic Jewish Outreach Pa 281,639; Emgage Federal Political Action Committee 418,197; Iranian American Political Action Committee - Public Affairs Alliance Of Iranian Americans 126,350; Jewish Democracy Project 143,487; National Turkey Federation Political Action Commitee/Turpac 345,476; U.S. Israel PAC (Usi PAC) 115,060. Under $100,000: 57 committees. All rows: data/fec-committee-summaries-webk-2022-2026.csv. Totals include all sources; timing and amount only."}
   - {id: g07, panel: recent, lane: politics, time: "2024-07-01T00:00:00Z", precision: year, kind: data, status: single, sources: [src-990-palestinian-side],
      label: "2024: UNRWA USA grants $51.5M; United Palestinian Appeal $107.9M abroad",
      detail: "Form 990s; region reported as Middle East, not Gaza or West Bank separately."}
@@ -457,11 +520,11 @@ events:
      label: "2022: 157 sponsored congressional trips to Israel (from 6 in 2021)",
      detail: "AIEF (AIPAC affiliate) sponsored 412 of 713 trips 2019-2026; J Street Education Fund 121; JINSA 51."}
   - {id: h03, panel: recent, lane: politics, time: "2024-06-04T12:00:00Z", precision: day, kind: data, status: single, sources: [src-voteview-fec-votes],
-     label: "2024: House votes on Israel bills split mainly by party; money tabulated beside them",
-     detail: "486 of 647 members got pro-Israel committee money 2020-2026. Timing and co-occurrence only, not cause."}
+     label: "2019-2026: 34 roll calls on Israel-related bills; official tallies and member money tabulated beside them",
+     detail: "Tallies from the official House and Senate XML; per-roll-call counts in data/votes-money/per_roll_call_official_counts.csv. Timing and co-occurrence only, not cause."}
   - {id: h04, panel: recent, lane: money, time: "2024-07-01T00:00:00Z", precision: year, kind: data, status: single, sources: [src-ocha-fts],
-     label: "2024: reported humanitarian funding to Gaza and West Bank $3.77B",
-     detail: "UAE $677.5M and US $635.4M largest donors (FTS); 2025: $4.44B, UAE $1.61B."}
+     label: "2024: reported humanitarian funding to the occupied Palestinian territory $3.77B",
+     detail: "FTS incoming total as downloaded 16 Oct 2026; 2025: $4.44B (a later re-query the same day returned $4.416B). Payer labels by country: ipm-donor-tables-west-bank-gaza-2016-2025."}
   - {id: h05, panel: recent, lane: politics, time: "2025-09-26T12:00:00Z", precision: day, kind: official, status: single, sources: [src-ohchr-business-db],
      label: "26 Sep 2025: UN settlement business list grows to 158 companies",
      detail: "A/HRC/60/19; 2026 update reported at 214 (not read)."}

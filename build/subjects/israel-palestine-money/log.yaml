@@ -261,4 +261,39 @@ log:
       registrant has several principals. Eighteen rows with no statement and 16 with no text layer remain unread. (4) Corrections in the
       same pass: the attribution rule "single active principal" in round 1 over-attributed one registrant (GRV Strategies also lists a
       second principal); the by-eye record gives the principal-level amount.
-
+  - id: L-24
+    date: 2026-10-16
+    entry: >
+      Fix round after the independent review of commit cf72d84 (REQUEST CHANGES). Earlier entries are not edited; this entry corrects
+      them. Neutrality: the dig now records dated money flows, designations, sanctions and votes and states no comparison between
+      sides, motive or implication. Headline, subject title, assessment (question, answer, text, key points, would_settle), divergence
+      note, timeline note and timeline details were rewritten in plain terms; head-of-government and party labels were removed from the
+      decisions and the timeline (earlier log entries that mention them describe a state of the files that no longer exists). The claim
+      ipm-reversals-and-government-change is withdrawn: its id is kept; the validator has no withdrawn state, so it carries state
+      proposed with withdrawn: true and a reason; the documented actions it was built from remain as plain claims. Timeline: the FARA lane now lists the 19
+      statements read by eye for all labels (Saudi Arabia, UAE, Qatar, Türkiye, Palestine) beside the earlier Israel entries; one news
+      item that was not a FARA filing was dropped from that lane; the FEC lane lists, for each cycle, every selected committee with
+      receipts of $100,000 or more in alphabetical order with the band rule stated, instead of single committees. Coverage: depth by
+      channel is stated as facts in the assessment, ipm-round2-unread-and-coverage and ipm-flows-unread-and-coverage; the thinner
+      channels (FARA filings other than Israel's beyond principal-level lines; funders of Palestinian-side charities) were not
+      brought up to the depth of the deeper ones in this round. FTS tables: the payer rule is stated and every label naming each
+      country is listed (this adds United States Department of State, the Commission's Humanitarian Aid and Civil Protection
+      Department, and the Red Crescent and charity labels); ranking sentences were removed; the UNRWA-payee figures cover all listed
+      labels; FTS figures are dated: a later re-query returned $4,416,441,526 for 2025 against $4,439,168,803 in the downloaded file
+      (the difference was not investigated). FEC: the group A and B totals were removed (per-committee rows only); the selection
+      statement now says 71 name-keyword, 1 connected-organisation keyword and 15 added by earlier use; a re-count finds 86 of 87
+      matching a keyword and the reviewer counted 84 (unresolved). The Qatar and Türkiye channel claims no longer carry FARA pattern
+      figures; the register-wide Qatar sum of 4,237,641.10 included GRV Strategies at 1,158,000.00 against 1,108,000.00 read by eye for its
+      Qatar principal (4,187,641.10 with the by-eye figure); L-23 item 4 said this was corrected, and the claim still carried the
+      pattern figure until now. Script-aggregated claims were relabelled dataset, secondary (donor tables, absence result, UK aid,
+      CORDIS split into its own claim, Qatar, Türkiye, UK charity register, FEC summaries and Schedule E, votes beside money, company
+      documents). Re-anchored to documents opened directly: crypto seizures (Justice Department releases through its API; the 2021
+      Israeli order split into its own secondary claim), civil terror-finance cases (Second Circuit opinions of 9 Feb 2018 and 31 Aug 2016
+      from govinfo) and the 34 roll calls (official House Clerk and Senate XML; new claim ipm-votes-official-rollcall-tallies; party counts
+      removed from ipm-votes-beside-money; 0 vote mismatches on matched rows; the member file has 0 and 5 senators for the two Senate
+      roll calls). Six other secondary claims could not be re-anchored because the documents were unreachable; they are listed in the
+      assessment. Other: P.L. 115-141 Sec. 1002 is now quoted as a findings paragraph with its second sentence; the World Bank September
+      2019 footnote on total Qatari funds is quoted; the 1,760 transfer-out rows and 300 receipt rows of the other-transactions file are
+      stated; the company data files call the first list owner-supplied; the comparison file carries a note and its limit; the Part B rule
+      text on UK recipient labels is corrected. Left as owner decisions and not changed: the taxonomy line, personal data in the trips
+      file and the FARA staff file and claims, the licensing mix, publication.

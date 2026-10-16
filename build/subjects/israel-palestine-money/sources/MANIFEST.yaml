@@ -394,14 +394,14 @@ sources:
     title: "US DOJ, Global Disruption of Three Terror Finance Cyber-Enabled Campaigns, 13 Aug 2020"
     url: https://www.justice.gov/opa/pr/global-disruption-three-terror-finance-cyber-enabled-campaigns
     document_class: primary_text
-    read: tool
-    authenticity: {status: authenticated, strength: moderate, provenance: "justice.gov.", tests: ["Official-domain test [x]"], tested_by: "Strata session, 2026-10-07", gaps: ["Read through a summarizing tool (direct download refused)."], next_step: "Read directly and confirm the 150-account figure.", checked: 2026-10-07}
+    read: "full text of the press-release record through the justice.gov press-release API (response sha256 ccdaf9f2d63d6da3dcc113f077588bc1901c9e854456c1351746fd5b40da6792), 16 Oct 2026; the web page itself returned a browser-check page to direct download"
+    authenticity: {status: authenticated, strength: moderate, provenance: "justice.gov press-release API (same host and record as the page).", tests: ["Official-domain test [x]"], tested_by: "Strata session, 2026-10-16 (fix round; not independent of the dig)", gaps: ["Read through the API record, not the rendered page.", "Forfeiture complaints not opened."], checked: 2026-10-16}
   - id: src-doj-crypto-2025
     title: "US Attorney's Office (D.C.), Justice Department Disrupts Hamas Terrorist Financing Scheme Through Seizure of Cryptocurrency, 27 Mar 2025"
     url: https://www.justice.gov/usao-dc/pr/justice-department-disrupts-hamas-terrorist-financing-scheme-through-seizure
     document_class: primary_text
-    read: tool
-    authenticity: {status: authenticated, strength: moderate, provenance: "justice.gov.", tests: ["Official-domain test [x]"], tested_by: "Strata session, 2026-10-07", gaps: ["Read through a summarizing tool."], next_step: "Read directly and confirm $201,400.", checked: 2026-10-07}
+    read: "full text of the press-release record through the justice.gov press-release API (response sha256 4565390b823ca856f70daac24c05c7a85ab6125f06355d2ce03caf37348f306c), 16 Oct 2026; the web page itself returned a browser-check page to direct download"
+    authenticity: {status: authenticated, strength: moderate, provenance: "justice.gov press-release API (same host and record as the page).", tests: ["Official-domain test [x]"], tested_by: "Strata session, 2026-10-16 (fix round; not independent of the dig)", gaps: ["Read through the API record, not the rendered page.", "Forfeiture complaints not opened."], checked: 2026-10-16}
   - id: src-theblock-crypto-2021
     title: "The Block, Israeli counter-terror authority seizes 84 crypto addresses it says belong to Hamas, 7 Jul 2021 (with correction)"
     url: https://www.theblock.co/post/110725/israeli-counterterror-authority-seizes-84-crypto-addresses-it-says-belong-to-hamas
@@ -1552,7 +1552,7 @@ sources:
       (earmarked) transfers and independent expenditures per member; data/votes-money/
     url: https://voteview.com/data
     document_class: dataset (Voteview, a secondary compilation of official roll calls; FEC bulk files, official)
-    read: full (6 of 34 votes checked member by member against official XML, zero mismatches)
+    read: full (all 34 votes checked member by member against the official House and Senate XML on 16 Oct 2026, zero vote mismatches on matched rows; see src-official-rollcall-xml-2026-10-16)
     authenticity:
       status: authenticated
       strength: moderate
@@ -1761,3 +1761,21 @@ sources:
     document_class: primary_text
     read: "index results recorded for every name; for each matched filer the most recent annual report containing the word Israel was opened and sentences recorded (document hashes in data/company-israel-documents-found-2026-10-16.csv)"
     authenticity: {status: authenticated, strength: strong, provenance: "SEC EDGAR.", tests: ["Official-domain test [x]"], tested_by: "Strata session, 2026-10-16, round 2 (not independent of the dig)", gaps: ["Name matching is by rule and misses filers registered under other names; only one filing per company was read; the index returns a limited number of hits."], checked: 2026-10-16}
+  - id: src-linde-2d-cir-2018
+    title: "Linde v. Arab Bank, PLC, Second Circuit, Nos. 16-2119 (L), 16-2098 (CON), 16-2134 (CON), opinion of 9 Feb 2018 (Case 16-2119, Document 223-1)"
+    url: "https://www.govinfo.gov/content/pkg/USCOURTS-ca2-16-02119/pdf/USCOURTS-ca2-16-02119-0.pdf"
+    document_class: primary_text
+    read: "full opinion downloaded 16 Oct 2026 (sha256 3bcb6f213195d2c2880b5b1b3703d8204e10eab7d4fa3ffa112befcea781ba22); the disposition and background passages read by eye"
+    authenticity: {status: authenticated, strength: strong, provenance: "GPO govinfo.", tests: ["Official-domain test [x]"], tested_by: "Strata session, 2026-10-16 (fix round; not independent of the dig)", gaps: ["Briefs and the district-court record were not opened."], checked: 2026-10-16}
+  - id: src-sokolow-2d-cir-2016
+    title: "Waldman (Sokolow) v. PLO, Second Circuit, Nos. 15-3135 (L), 15-3151 (XAP), opinion of 31 Aug 2016 (Case 15-3135, Document 205-1)"
+    url: "https://www.govinfo.gov/content/pkg/USCOURTS-ca2-15-03135/pdf/USCOURTS-ca2-15-03135-0.pdf"
+    document_class: primary_text
+    read: "full opinion downloaded 16 Oct 2026 (sha256 04b4efa95d4bf9ac74a93060fb72509767ed7001f395cccab73fea69107a924c); the disposition and the passages with the damages figures read by eye"
+    authenticity: {status: authenticated, strength: strong, provenance: "GPO govinfo.", tests: ["Official-domain test [x]"], tested_by: "Strata session, 2026-10-16 (fix round; not independent of the dig)", gaps: ["The district-court record was not opened. A second govinfo file for the same docket (USCOURTS-ca2-15-03135-1) was downloaded and not read."], checked: 2026-10-16}
+  - id: src-official-rollcall-xml-2026-10-16
+    title: "Official roll-call XML files: House Clerk (clerk.house.gov/evs) and Senate (senate.gov/legislative/LIS/roll_call_votes) for the 34 selected roll calls, downloaded 16 Oct 2026"
+    url: "https://clerk.house.gov/evs/"
+    document_class: primary_text
+    read: "all 34 files downloaded and hashed (URLs and sha256 in data/votes-money/official_xml_crosscheck_all34.csv); tallies counted from the member lines; member-level comparison with our file by script"
+    authenticity: {status: authenticated, strength: strong, provenance: "House Clerk and Senate official sites.", tests: ["Official-domain test [x]"], tested_by: "Strata session, 2026-10-16 (fix round; not independent of the dig)", gaps: ["Senate member matching is by last name and state; our member file holds 0 and 5 senators for the two Senate roll calls."], checked: 2026-10-16}

@@ -34,7 +34,9 @@ not read, with the reason (blocked, not located, not searched, language).
    all donors kept. Raw file sha256 68a9dfde6e40a40c15e7e6447a3493a6554a04111c03c607aba909129d7fb5b9.
 5. UK FCDO "Data underlying SID 2017-2024" (.ods), Data sheet, column AmountsExtended(GBP thousands) summed by
    recipient label and year for: West Bank & Gaza Strip, Israel, Türkiye, Turkey, Egypt, Jordan, Iran, Qatar, Saudi
-   Arabia, Lebanon. Only the first has rows. sha256 91524225f5370e0532028d5f2913a1ce9eab10991c400b729a2c874be6052c03.
+   Arabia, Lebanon. Rows exist for West Bank & Gaza Strip (524 project rows over 2017-2024), Egypt (351), Iran (17), Jordan (507),
+   Lebanon (480) and the label "Turkey" (535); there are no rows for Israel, the spelling "Türkiye", Qatar or Saudi Arabia (corrected
+   16 Oct 2026; the earlier text said only the first label had rows). sha256 91524225f5370e0532028d5f2913a1ce9eab10991c400b729a2c874be6052c03.
 6. CORDIS organisation.csv from FP7, Horizon 2020, Horizon Europe zips: ecContribution summed by participant
    country code for IL, PS, TR, QA, EG, IR, SA, AE, JO, LB. zip sha256: FP7 886ee47973584971259db3ab3de76feb4d95c9b13fbe41241b85e5bfc97113a6;
    H2020 7c00e367edbb22163d78b20fe466c9d910d2824d9ec882fc0a1a9f966335b914; Horizon Europe
