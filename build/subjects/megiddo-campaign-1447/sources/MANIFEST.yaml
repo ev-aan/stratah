@@ -3,6 +3,7 @@
 # Only public-domain material is stored in the repository: verbatim OCR extracts of Breasted 1906 and Nelson 1913 (sources/extracts/pd-extracts.txt) and the builder's
 # transcription of the German handwriting on a few pages of Sethe 1907 (sources/extracts/sethe-urk4-german-text-transcribed.txt). Page images, the Barnhart page and
 # photographs, the Brill chronology volume and the Megiddo excavation volume are NOT stored; they are cited by URL, with the sha256 of the file that was read.
+# sha256 of sources/extracts/pd-extracts.txt as of the L-14 fix: 2873c01d7b67c9decd6d6223e0794b0f24b8c526160c79519dc9c6a63c3ca57f
 # Tests were run in the dig sessions (2026-10-14 and 2026-10-16), which are not independent reviews.
 retrieved: 2026-10-16
 sources:
