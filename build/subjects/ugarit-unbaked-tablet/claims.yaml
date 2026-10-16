@@ -338,7 +338,7 @@ claims:
     anchor:
       type: scholarly-positions
       description: >-
-        Boyes 2021, p. 266 (the sentence follows the running head of p. 266 in the OCR text); the notes just before it, on p. 265, cite Yon 1992, 117 and Bounni et al. 1998, 53, and a further note marker follows the sentence (its text is not clear in the OCR). He contrasts it with Ras Ibn Hani, where Yon sees a more orderly evacuation. It concerns the city, not the Court V tablets. It is the one passage read that points toward haste, and it is recorded here because it cuts against a reading
+        Boyes 2021, p. 266 (the sentence follows the running head of p. 266 in the OCR text); the footnotes of p. 266 cite Yon 1992, 117 and Bounni et al. 1998, 53 (the footnotes of p. 265 are on other subjects), and a further note marker follows the sentence (its text is not clear in the OCR). He contrasts it with Ras Ibn Hani, where Yon sees a more orderly evacuation. It concerns the city, not the Court V tablets. It is the one passage read that points toward haste, and it is recorded here because it cuts against a reading
         in which nothing suggests surprise. Yon's own text was not read.
       sources: [src-boyes-2021]
     basis: "# V: Boyes read 2026-10-16; Yon not read."

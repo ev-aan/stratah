@@ -9,7 +9,7 @@ timeline:
   as_of: "2026-10-16"
   note: >
     Dates are from the authors read, not from the excavation reports. Campaign dates are from Saade's table (2011). Dates of publications are the years the authors cite. Hollow or dashed dots are single-source or cited-only.
-    The 'Court V find' and 'the ship letter RS 20.238' are different tablets in the number lists read: the first belongs to the campaigns of 1954 and 1955, the second to the campaign of 1956.
+    The Court V oven lot is listed under RS 18.x and 19.x numbers (campaigns of 1954 and 1955). RS 20.238 has a 1956-campaign number and is absent from the oven lists read (a provisional absence); Cline 2021 places it in Court V and in the House of Rapanu; no source read states its findspot.
 panels:
   - id: long
     title: "Panel A: 1878 to 2022 (one tick per ten years)"

@@ -89,3 +89,8 @@ log:
     date: 2026-10-16
     entry: >
       Addition to L-13 (N6). The shared node ugarit-1956-letter-from-the-general-found-house-of-rapanu still linked to the dokumen.pub copy and the timeline page showed that link. The node was given a new rev 2 (history entry added; rev 1 text otherwise unchanged): the source link is removed and the print work is cited by publisher and ISBN. timeline.yaml pins rev 2 and timeline.html was regenerated; it contains no link to dokumen.pub, ancientportsantiques.com or scispace.com.
+  - id: L-15
+    date: 2026-10-16
+    entry: >
+      Two small corrections after the re-check of f951286 (new entry; L-13 and L-14 are not edited). (1) Claim ugarit-yon-surprise-and-haste-evidence: the footnotes citing Yon 1992, 117 and Bounni et al. 1998, 53 are among the footnotes of p. 266 in the OCR text, not on p. 265; the p. 265 footnotes concern other subjects. (2) timeline.yaml note: it no longer says the Court V find and the ship letter are different tablets 'in the number lists'; it now says RS 20.238 has a 1956-campaign number and is absent from the oven lists read (provisional),
+      Cline 2021 places it in Court V and in the House of Rapanu, and no source read states its findspot. timeline.html was regenerated.
