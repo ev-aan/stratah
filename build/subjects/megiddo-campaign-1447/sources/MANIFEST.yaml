@@ -81,7 +81,7 @@ sources:
       tests:
         - "Title page, volume number, publisher and 'Published March 1906' read in the OCR and agree with the Internet Archive metadata (could have failed)"
         - "Breasted's citations of the Annals text to Lepsius, Denkmaeler III, 31 b and 32 (section 406) agree with the captions of the plates in src-lepsius-denkmaeler-abth3 (could have failed)"
-        - "Breasted's note to section 417, that the day of the Gaza date 'is lacking in Lepsius and Brugsch, but is preserved by Champollion's early copy', agrees with Sethe's own note on p. 647 'Datum nach Champ.' (src-sethe-urk4-h9-10) (could have failed)"
+        - "Breasted's note a to section 415 (the year-22 date at Tharu), that the day 'is lacking in Lepsius and Brugsch, but is preserved by Champollion's early copy', agrees with Sethe's own note on p. 647 'Datum nach Champ.' (src-sethe-urk4-h9-10); the note to section 417 (Gaza) is a different one, Maspero 'third day' against Brugsch 'fourth' (could have failed)"
       tested_by: "Stratah dig session, 2026-10-14 and 2026-10-16 (not an independent review)"
       gaps: ["OCR only; the calendar table at section 409 is garbled", "The translation was made before Sethe's edition (1907); Sethe says Breasted's restorations in sections 407 ff. often do not fit the gaps (p. 646)", "Section numbers of hits were found by the nearest preceding section marker in the OCR and checked against the printed context"]
       next_step: "Compare Breasted's bracketed restorations with Sethe's plates line by line with an Egyptologist."

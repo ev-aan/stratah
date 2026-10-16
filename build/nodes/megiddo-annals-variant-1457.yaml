@@ -1,6 +1,6 @@
 # Shared node. Append-only: a change is a new `rev` plus a `history` entry, never an overwrite. See build/SCHEMA.md, Nodes.
 id: megiddo-annals-variant-1457
-rev: 2
+rev: 3
 type: event
 label: 'Year 23 of Thutmose III reckoned as 1457 BCE by a personal web page (variant of the Breasted 1479 date)'
 time: '-1457-01-01'
@@ -11,7 +11,7 @@ status: single
 derived_from: megiddo-annals-year-23-battle-of-megiddo
 variant_reason: 'A different absolute year for the same regnal date (year 23, I Shemu day 21). The page says "according to current scholarly calculations" and names no chronology, so this is a stated number, not a worked one. The same year follows from the 2006 chronology of Hornung, Krauss and Warburton (see the variant node megiddo-annals-year-23-hkw-1457), which the page does not cite.'
 what: >-
-  The page "The Battle and Siege of Megiddo" by Rhio H. Barnhart says: "The battle and siege of Megiddo took place, according to current scholarly calculations, in 1457 BC." The page names no chronology. It is a personal web page with the author's own transliteration and translation of lines 1-103 of the Annals from Sethe's hand-copied text (Urk. IV 647-667), written for a hieroglyph study group; it lists two contact addresses, one at ucdavis.edu, and states no affiliation, licence or funding in its text. Its bibliography lists Breasted 1906, Faulkner (a dictionary and JEA 28, 1942), Lichtheim, Nelson, Sethe and others.
+  The page "The Battle and Siege of Megiddo" by Rhio H. Barnhart says: "The battle and siege of Megiddo took place, according to current scholarly calculations, in 1457 BC." The page names no chronology. It is a personal web page with the author's own transliteration and translation of lines 1-103 of the Annals from Sethe's hand-copied text (Urk. IV 647-667), written for a hieroglyph study group; it states no affiliation, licence or funding in its text (contact details on the page are recorded in the manifest). Its bibliography lists Breasted 1906, Faulkner (a dictionary and JEA 28, 1942), Lichtheim, Nelson, Sethe and others.
 sources:
 - title: 'R. H. Barnhart, The Battle and Siege of Megiddo (personal web page, rhbarnhart.net). Read line by line 2026-10-16.'
   url: https://www.rhbarnhart.net/The_Battle_of_Megiddo.html
@@ -28,3 +28,6 @@ history:
 - rev: 2
   date: '2026-10-16'
   change: 'Round 2: the page was read line by line (it had been seen only through a summarising tool). The description of the page, its author and its basis was corrected, and a pointer to the 2006 chronology node was added. The date and year are unchanged.'
+- rev: 3
+  date: '2026-10-16'
+  change: 'Removed the mention of the page''s contact addresses from the node text (a personal-data tidy-up); the manifest keeps the fact that the page lists contact details. Date and year unchanged.'

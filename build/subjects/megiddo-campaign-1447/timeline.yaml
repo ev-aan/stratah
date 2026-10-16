@@ -21,10 +21,10 @@ sources:
 events:
   - {id: m1, lane: ancient, node: megiddo-annals-year-23-battle-of-megiddo, rev: 1}
   - {id: m2, lane: ancient, node: megiddo-annals-year-23-hkw-1457, rev: 1}
-  - {id: m3, lane: ancient, node: megiddo-annals-variant-1457, rev: 2}
+  - {id: m3, lane: ancient, node: megiddo-annals-variant-1457, rev: 3}
   - {id: m4, lane: ancient, time: "-1447-03-17T00:00:00Z", precision: day, kind: document, status: single, sources: [s_breasted],
      label: "17 March 1447 BCE: end of the reign of Thutmose III in Breasted's table",
-     detail: "Breasted vol. 1 section 67 note h: 'May 3, 1501, to March 17, 1447 B. C.'. This is the number the speaker's 1447 matches; it is not the battle on any chronology read. On the 2006 year 1 (1479 BCE) the year 1447 is year 33 (arithmetic ours)."}
+     detail: "Breasted vol. 1 section 67 note h: 'May 3, 1501, to March 17, 1447 B. C.'. This is the end of the reign in Breasted's table; 1447 BCE is not year 23 on any chronology read. On the 2006 year 1 (1479 BCE) the year 1447 is year 33 (arithmetic ours)."}
   - {id: m5, lane: modern, time: "1842-01-01T00:00:00Z", end: "1845-12-31T00:00:00Z", precision: range, kind: document, status: single, sources: [s_lepsius],
      label: "About 1842-1845: the Prussian expedition copies the Karnak walls (Lepsius, Denkmaeler III 31 b and 32)",
      detail: "Dates from the scan's catalogued title as recorded in the manifest; plates viewed, signs not read. Sethe says this copy has gaps that the wall and squeezes fill."}
