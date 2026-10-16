@@ -1,0 +1,58 @@
+timeline:
+  id: sea-peoples-medinet-habu
+  title: "Sea Peoples texts: the Egyptian campaigns as dated in the records, and when the translations were published (about 1207 BC to 2023)"
+  as_of: "2026-10-16"
+  note: >
+    Dates before the common era are written as negative years. The Egyptian records date events by regnal year only. The absolute years here come from one popular-press article (Cline 2015: 1207 BC for Merneptah's campaign and 1177 BC for Ramses III year 8);
+    no chronology was read, so every absolute date is a placeholder for ordering and could differ by several years. Ramses III year 5 and year 11 are worked out from Cline's year 8 by subtraction and addition and are marked inferred.
+    Merneptah year 5 and Ramses III year 5 are different events in different reigns. Every dot records what a source says; none is checked against the signs.
+lanes:
+  ancient: {label: "Campaigns as the Egyptian texts date them"}
+  modern:  {label: "Translations and studies read"}
+people:
+  - {who: "Merneptah", detail: "Pharaoh of the Nineteenth Dynasty; his Great Karnak Inscription is dated to his year 5 (Breasted 1906, vol. III)."}
+  - {who: "Ramses III", detail: "Pharaoh of the Twentieth Dynasty; his Medinet Habu texts date a Libyan war to year 5 and the northern war to year 8."}
+  - {who: "James Henry Breasted", detail: "Editor of Ancient Records of Egypt (1906) and of the Oriental Institute Publications; signed the foreword of OIP 8."}
+  - {who: "William F. Edgerton and John A. Wilson", detail: "Translators of SAOC 12 (1936), epigraphers of the Epigraphic Survey."}
+  - {who: "W. Max Muller", detail: "Author of Asien und Europa (1893), cited by Breasted for readings."}
+  - {who: "Eric H. Cline", detail: "Author of the 2015 article that gives 1207 BC and 1177 BC; a professor at George Washington University per the article's note."}
+  - {who: "Carlos J. Moreu", detail: "Author of the 2023 self-published PDF read here; institution not stated in the text read."}
+sources:
+  s_cline:    {title: "E. H. Cline, 'Raiders of the Lost Bronze Age?', MHQ autumn 2015, PDF hosted at ancientportsantiques.com", url: "https://ancientportsantiques.com/wp-content/uploads/Documents/AUTHORS/SeaPeoples/SeaPeoples-Cline2015.pdf", authenticity: "unchecked; popular-press article read in full"}
+  s_are3:     {title: "J. H. Breasted, Ancient Records of Egypt vol. III (1906), sections 570-589, Internet Archive OCR", url: "https://archive.org/details/cu31924082479241", authenticity: "authenticated edition, moderate; a translation; OCR read"}
+  s_are4:     {title: "J. H. Breasted, Ancient Records of Egypt vol. IV (1906), sections 36-83, Internet Archive OCR", url: "https://archive.org/details/cu31924082479258", authenticity: "authenticated edition, moderate; a translation; OCR read"}
+  s_saoc12:   {title: "Edgerton and Wilson, Historical Records of Ramses III, SAOC 12 (1936), ISAC PDF", url: "https://isac-assets.s3.amazonaws.com/isac-publications/saoc12.pdf", authenticity: "authenticated edition, moderate; a translation read in the PDF text layer"}
+  s_oip8:     {title: "Epigraphic Survey, Medinet Habu Volume I, OIP 8 (1930), ISAC PDF", url: "https://isac-assets.s3.amazonaws.com/isac-publications/oip8_0.pdf", authenticity: "authenticated edition, moderate; drawings and photographs, signs not read"}
+  s_mueller:  {title: "W. M. Muller, Asien und Europa (1893), Internet Archive OCR", url: "https://archive.org/details/asienundeuropana00mluoft", authenticity: "authenticated edition, weak; OCR read in part"}
+  s_moreu:    {title: "C. J. Moreu, 'Their land was devastated' (2023), PDF hosted at ancientportsantiques.com", url: "https://ancientportsantiques.com/wp-content/uploads/Documents/AUTHORS/SeaPeoples/SeaPeoples-Moreu2023.pdf", authenticity: "unchecked; self-published PDF"}
+events:
+  - {id: e01, lane: ancient, time: "-1207-01-01T00:00:00Z", precision: year, kind: document, status: single, date_basis: derived, sources: [s_are3, s_cline],
+     label: "Merneptah year 5 (about 1207 BC per Cline): Libyans with Northerners defeated at Perire",
+     detail: "Breasted vol. III section 570: news reached Merneptah in the tenth month of his fifth year and he met the enemy on the third of the eleventh month. The Karnak inscription lists Ekwesh, Teresh, Luka, Sherden and Shekelesh as Northerners. 1207 BC is Cline's date, not read from a chronology."}
+  - {id: e02, lane: ancient, time: "-1180-01-01T00:00:00Z", precision: year, kind: document, status: inferred, date_basis: inferred, sources: [s_are4, s_saoc12, s_cline],
+     label: "Ramses III year 5 (inferred about 1180 BC): the Libyan war inscription in the second court",
+     detail: "Breasted vol. IV sections 36-58 and SAOC 12 plates 27-28. The inscription is dated year 5 and contains a Peleset-and-Thekel line that Breasted reads as sea peoples with the Libyans and Edgerton and Wilson print with the northern war usually dated year 8. The year is Cline's year 8 minus three, an inference."}
+  - {id: e03, lane: ancient, time: "-1177-01-01T00:00:00Z", precision: year, kind: document, status: single, date_basis: derived, sources: [s_are4, s_saoc12, s_oip8, s_cline], node: medinet-habu-ramses-iii-year-8-inscription, rev: 2,
+     label: "Ramses III year 8 (1177 BC per Cline): the northern war inscription and reliefs at Medinet Habu",
+     detail: "Breasted vol. IV sections 62-82; SAOC 12 plate 46; OIP 8 plates 42, 44, 46 and 53. Names Peleset, Thekel, Shekelesh, Denyen and Weshesh. 1177 BC is Cline's date for the year, not read from a chronology."}
+  - {id: e04, lane: ancient, time: "-1174-01-01T00:00:00Z", precision: year, kind: document, status: inferred, date_basis: inferred, sources: [s_are4, s_saoc12],
+     label: "Ramses III year 11 (inferred about 1174 BC): the second Libyan (Meshwesh) war",
+     detail: "Breasted vol. IV section 83 and SAOC 12 plates 80-83 describe an eleventh-year war against Libyans and Meshwesh. Included to show it is a separate campaign from the northern war; not a Sea Peoples event in the passages read. The year is Cline's year 8 plus three, an inference."}
+  - {id: m01, lane: modern, time: "1893-01-01T00:00:00Z", precision: year, kind: analysis, status: single, date_basis: stated, sources: [s_mueller],
+     label: "1893: Muller, Asien und Europa, reads the Karnak krn't passage",
+     detail: "Muller says the claim that the pirates were circumcised is incorrect (p. 358). The year is from the Archive item record; the OCR title page read does not print it."}
+  - {id: m02, lane: modern, time: "1906-01-01T00:00:00Z", precision: year, kind: analysis, status: single, date_basis: stated, sources: [s_are3, s_are4],
+     label: "1906: Breasted, Ancient Records of Egypt vols. III and IV",
+     detail: "The translations of Merneptah's Karnak inscription and of the Ramses III texts that this dig read first. The OCR title pages read name 1906."}
+  - {id: m03, lane: modern, time: "1930-01-01T00:00:00Z", precision: year, kind: analysis, status: single, date_basis: stated, sources: [s_oip8],
+     label: "1930: OIP 8, drawings and photographs of Medinet Habu plates 1-54",
+     detail: "Published by the University of Chicago Press, June 1930 (title page and imprint read). Foreword signed 10 February 1929."}
+  - {id: m04, lane: modern, time: "1936-01-01T00:00:00Z", precision: year, kind: analysis, status: single, date_basis: stated, sources: [s_saoc12],
+     label: "1936: Edgerton and Wilson, SAOC 12, translation of the OIP 8 and 9 texts",
+     detail: "Published March 1936 (imprint read). Says it is a revision and amplification of Breasted's translations."}
+  - {id: m05, lane: modern, time: "2015-01-01T00:00:00Z", precision: year, kind: analysis, status: single, date_basis: stated, sources: [s_cline],
+     label: "2015: Cline, 'Raiders of the Lost Bronze Age?', gives 1207 BC and 1177 BC",
+     detail: "Autumn 2015 issue of MHQ. The source of the absolute dates used on this page."}
+  - {id: m06, lane: modern, time: "2023-01-01T00:00:00Z", precision: year, kind: analysis, status: single, date_basis: stated, sources: [s_moreu],
+     label: "2023: Moreu, 'Their land was devastated', on the Peleset line of the Ramses III year 5 inscription",
+     detail: "A self-published PDF; quotes Ben-Dor (2015) and Wuthrich and Matic (2023), neither read here."}
