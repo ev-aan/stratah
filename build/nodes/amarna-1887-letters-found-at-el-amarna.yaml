@@ -1,0 +1,84 @@
+# Shared node. Append-only: a change is a new `rev` plus a `history` entry, never an overwrite. See build/SCHEMA.md, Nodes.
+id: amarna-1887-letters-found-at-el-amarna
+rev: 4
+type: event
+label: '1887/88: clay tablets with cuneiform letters are found at el-Amarna, Middle Egypt, and sold to Berlin, London, Cairo and others'
+time: '1887-12-01'
+precision: month
+date_basis: stated
+kind: document
+status: disputed
+what: >-
+  The accounts read give the find a different time. Budge (PSBA 10, 1888, p. 540) writes that "towards the end of the summer of 1887"
+  it became known that a collection of clay tablets in cuneiform had been discovered in Egypt, that only about three hundred pieces had been
+  dug up by the natives, and that "about the middle of December last" he saw a considerable number of them. Winckler (1889, preface) writes
+  that the tablets, letters of Asiatic princes and governors to the Egyptian court of the 15th century, were found "im Anfang des Winters
+  1887/88" at el-Amarna, the ruin site of the residence founded by Amenophis IV; most went to the Royal Museums in Berlin through Theodor Graf
+  of Vienna, made possible by a gift of most of the Graf collections by Kommerzienrat J. Simon of Berlin; part went to the British Museum
+  (for which he names Budge) and part to Bulaq. Knudtzon (1915, p. 4) quotes Budge for both dates and concludes the first find "must have
+  been made in the autumn days or toward the close of the year 1887". Sayce (PSBA 10, p. 488) writes that about 200 tablets had been
+  offered for sale in Cairo and Ekhmim. Petrie (1894, section 48) says the tablets came from the block of chambers numbered 19 on his plan,
+  that natives showed him and Sayce the place, and that he believes they lay in the south-west room. The exact month is not fixed by the
+  passages read, and Budge's "became known" and Winckler's "found" are different things.
+place:
+  name: 'el-Amarna (Tell el-Amarna), Middle Egypt'
+  note: 'Named by Winckler 1889, Budge 1888, Petrie 1894 and Knudtzon 1915. No coordinates are given in the passages read and none are guessed here. Inside the site, Petrie (1894, section 48) names the block of chambers numbered 19 on his plan (Pls. XXXV, XLII, not opened) as the find-spot, on the testimony of natives and from fragments he found there.'
+sources:
+- title: 'H. Winckler (ed.), L. Abel (copyist), Der Thontafelfund von El Amarna, Heft I (Berlin: Spemann, 1889), preface, page image opened and read'
+  url: https://archive.org/details/derthontafelfund01wincuoft
+  authenticity: authenticated edition, moderate; an editor's account of the Berlin acquisition (see the amarna-habiru manifest)
+  origin: winckler-1889
+  source_type: scholarly
+  access: read
+- title: 'E. A. Wallis Budge, PSBA vol. 10 (1888), p. 540, page image opened and read'
+  url: https://archive.org/details/ProceedingsOfTheSocietyOfBiblicalArchaeologyVol101888
+  authenticity: authenticated, moderate; an eyewitness who saw the tablets in Egypt in December 1887 (see the amarna-habiru manifest)
+  origin: budge-1888
+  source_type: scholarly
+  access: read
+- title: 'J. A. Knudtzon, Die El-Amarna-Tafeln vol. 1 (Leipzig: Hinrichs, 1915), p. 4, which quotes Budge 1888 and Budge 1902; page image opened and read'
+  url: https://archive.org/details/dieelamarnatafel01knud
+  authenticity: authenticated edition, moderate; repeats Budge, so it is not a further origin
+  origin: knudtzon-1915
+  derives_from: budge-1888
+  source_type: scholarly
+  access: read
+- title: 'A. H. Sayce, PSBA vol. 10 (1888), p. 488 (opening), OCR read'
+  url: https://archive.org/details/ProceedingsOfTheSocietyOfBiblicalArchaeologyVol101888
+  authenticity: authenticated, moderate (see the amarna-habiru manifest)
+  origin: sayce-1888
+  source_type: scholarly
+  access: read
+- title: 'W. M. Flinders Petrie, Tell el Amarna (London: Methuen, 1894), section 48, page image opened and read'
+  url: https://archive.org/details/tellelamarna00petr
+  authenticity: authenticated, moderate; the excavator's own report (see the amarna-habiru manifest)
+  origin: petrie-1894
+  source_type: scholarly
+  access: read
+manifest: {subject: amarna-habiru, source: src-winckler-abel-1889}
+created: '2026-10-14'
+history:
+- rev: 1
+  date: '2026-10-14'
+  change: Created by the amarna-habiru dig from Winckler 1889 preface and Knudtzon 1915 (quoting Sayce) in the Internet Archive OCR. Date is the editor's stated winter 1887/88; Sayce's differing statements are in the text above.
+- rev: 2
+  date: '2026-10-16'
+  change: >-
+    Correction of an attribution and added reading. Rev 1 said Knudtzon quotes Sayce for the date the find became known. Knudtzon
+    (1915, p. 4, page image opened) and Winckler (1889, preface, page image opened) both name Budge, PSBA 10, p. 540, for the words 'towards the end
+    of the summer of 1887' and 'about the middle of December'; Budge's p. 540 was opened and has them. The text above is rewritten to say so. Sayce's own
+    statement (PSBA 10, p. 488, about 200 tablets offered for sale in Cairo and Ekhmim) and Petrie's find-spot account (1894, section 48) are added.
+    The 'time' of 1887-12-01 and its precision are unchanged and stay the dig's choice, taken from Winckler's 'Anfang des Winters 1887/88'; Budge's
+    'became known' towards the end of summer 1887 is earlier, so the status is changed from single to disputed. Knudtzon's own date is 'autumn
+    days or toward the close of 1887'. The earlier text is kept in rev 1 above.
+- rev: 3
+  date: '2026-10-17'
+  change: >-
+    Correction of the rev 2 history line above. It ends 'The earlier text is kept in rev 1 above.' That is not true of this file: the file holds one current text and
+    the history entries, and the rev 1 text (which credited the summer 1887 report to Sayce) survives only in version control (commit 8038593 on branch
+    dig/amarna-habiru). No other field is changed in rev 3.
+- rev: 4
+  date: '2026-10-16'
+  change: >-
+    Correction of a date. The rev 3 history entry above is dated 2026-10-17; the work was done on 2026-10-16, so that date was wrong. The rev 3 entry is not edited; this entry corrects it.
+    No other field is changed in rev 4.

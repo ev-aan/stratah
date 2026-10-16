@@ -1,0 +1,38 @@
+# How the speaker claims about the Habiru appeared. Spread is adoption, never evidence (X1).
+# Rebuilt 2026-10-16. The dates and claim wording below were supplied by an earlier agent from a claims file that is NOT in this repository and was not available to this session.
+# What was checked on 2026-10-16: the three video titles and the channel (YouTube oEmbed responses: titles 'The Habiru', 'The Serpent The Judge', 'Rekhmire'; channel @dead_hidden).
+# What was not checked: the upload dates, the claim wording, and the video content (watch pages returned HTTP 429). Every date is therefore unverified and every event is read: no.
+subject: amarna-habiru
+chains:
+  - id: tx-amarna-habiru-dead-hidden
+    about: "amarna-habiru:amarna-sp-khapiru-were-the-hyksos"
+    title: "Where the 'Habiru captured Canaanite cities, 150 years after the Hyksos expulsion, and were the Hyksos' wording appears in the Dead Hidden videos"
+    confers_weight: false
+    events:
+      - id: tx-ah-01
+        date: "2026-08-23"
+        precision: day
+        step: repetition
+        carrier: "Dead Hidden, 'The Habiru' (APUenSDE2oM); title confirmed 2026-10-16; the date is the earlier agent's and is unverified"
+        form: "Chronology: Hyksos came to Egypt in 1750 BC, went into exile in 1550 BC with their people captive; in 1400 BC Canaanite city-states capture Hapiru (dh-APUenSDE2oM-08), as supplied."
+        source: src-dh-claims
+        read: no
+        note: "The claim line was not available to this session; the video and transcript were not opened. The speaker is said to cite 'Egyptian records'."
+      - id: tx-ah-02
+        date: "2026-08-25"
+        precision: day
+        step: repetition
+        carrier: "Dead Hidden, 'The Serpent The Judge' (gBGfqlL_FFQ); title confirmed 2026-10-16; the date is the earlier agent's and is unverified"
+        form: "150 years after the expulsion, the Egyptians recorded the Habira being captured by Canaanite cities as bands of robbers and raiders (dh-gBGfqlL_FFQ-08), as supplied."
+        source: src-dh-claims
+        read: no
+        note: "Not opened. The dates in this file are from the earlier agent's note and may be upload dates, not first-use dates."
+      - id: tx-ah-03
+        date: "2026-09-14"
+        precision: day
+        step: repetition
+        carrier: "Dead Hidden, 'Rekhmire' (HN0wNVpfunM); title confirmed 2026-10-16; the date is the earlier agent's and is unverified"
+        form: "'Who were the Khapiru if not the Hyksos?' (dh-HN0wNVpfunM-30), as supplied."
+        source: src-dh-claims
+        read: no
+        note: "Not opened. The speaker's source for the identification is said to be 'none given'."

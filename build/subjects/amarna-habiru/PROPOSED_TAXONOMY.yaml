@@ -1,0 +1,12 @@
+# Proposal for the owner. build/taxonomy.yaml is owner-only and was not edited by this dig.
+# To adopt: add the block below under `assignments:` in build/taxonomy.yaml. Area and type keys are the ones the file already defines.
+proposed_assignment:
+  amarna-habiru:
+    area: archaeology_texts
+    areas: [history, religion_myth, language]
+    types: [what_does_it_mean, is_claim_true]
+    popular_claims: true
+why: >
+  The dig reads cuneiform letters (an ancient text) and tests a popular claim from a video series about who the Habiru were and what the letters say,
+  so the primary area is Archaeology and Ancient Texts, with History, Religion and Mythology (the Hebrew equation) and Language and Linguistics.
+  Question types: 'What does it say or mean?' and 'Is a widely shared claim true?'. `popular_claims: true` because the subject starts from three speaker claims.

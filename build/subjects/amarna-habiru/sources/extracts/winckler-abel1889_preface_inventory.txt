@@ -1,0 +1,71 @@
+# Winckler (ed.), Abel (copyist), Der Thontafelfund von El Amarna, Heft I (Berlin: Spemann, 1889), preface (scan page 11) and inventory (scan page 279). Public domain.
+# Text layer of the Internet Archive PDF; the preface page image was opened and read.
+# Verbatim text from the stated file (Internet Archive OCR or born-digital XML text), line ranges given; elisions between ranges are marked [...]. OCR errors are left as they are.
+
+Die hier veröffentlichten Thontafeln, enthaltend die Briefe asiatischer Fürsten und
+Statthalter an den ägyptischen Hof des XV. Jahrhunderts, sind im Anfang des
+Winters 1887/88 in el Amarna*) in Mittel- Aegypten, der Ruinenstátte der von Ame-
+nophis IV. gegründeten Residenz, gefunden worden.        Der grösste Theil des Fundes
+ist durch die uneigennützigen Bemühungen des Herrn Theodor Graf in Wien für
+die Königlichen Museen zu Berlin erworben worden.     Ermöglicht wurde die Erwerbung
+insbesondere durch die seltene Freigebigkeit des Herrn Kommerzienrathes J. Simon in
+Berlin,     welcher    den   grösseren    Theil       der   durch       Herrn     Graf     nach      Berlin    gekommenen
+Sammlungen den Königlichen Museen zum Geschenk machte.
+     Ausser diesen Tafeln sind noch Theile des Fundes für das Britislı Museum
+erworben worden, worüber von Budge in den Proceedings of the Society of
+Biblieal Archaeology, vol. X, 1889, p. 540      569 berichtet worden ist, wiihrend
+ein anderer Theil in das ägyptische
+                            5        Museum zu Bulaq gekommen ist. Da es mir
+durch die Unterstützung der Akademie der Wissenschaften und der Königlich preussi-
+schen Regierung ermóglicht worden ist, von den Tafeln der letzteren Sammlung Ab-
+sehriften    zu nehmen,       so    konnten    dieselben         in die vorliegende            Veröffentlichung          aufge-
+nommen werden.
+     Ausserdem befinden sich noch mehrere Stücke in Privatbesitz; vergl. Sayce in
+Proceedings of the Soc. of Bibl. Arch., vol. X, 1889, p. 488—525.        Dieselben,
+sowie die Londoner Sammlung habe ich vorläufig noch nieht in den Bereieh meiner
+Untersuchungen ziehen können.
+     Vorläufige Berichte über den Fund von el Amarna sind ausser den bereits ange-
+führten:
+     Ad. Erman,         Der Thontafelfund             von Tell-Amarna.               Sitzungsberichte         der Akademie
+          der Wissenschaften zu Berlin.    1888, S. 583—589.
+     Hugo Winckler, Bericht über die Thontafeln von Tell-el- Amarna im Königlichen
+          Museum zu Berlin und im Museum von Bulaq.        Ebendas. S. 1341—1357.
+     C. F. Lehmann, Aus dem Funde von Tell-el- Amarna. Zeitschrift für Assyriologie.
+          Band III, S. 372—406.
+     Hugo Winekler, Verzeichniss der aus dem Funde von el-Amarna herrührenden
+          Thontafeln. Zeitschrift für Aegyptische Sprache und Alterthumskunde, 1889.
+     Das erste Heft dieser Ausgabe enthált die Briefe von asiatischen Kónigen an
+Amenophis       III. und     IV.;   das   zweite,       welches         bereits   in Angriff        genommen          ist,   soll
+die Schreiben der Statthalter bringen.  Für etwa noch zugiinglich werdende Tafeln
+würde ein drittes, Ergünzungsheft, ausgegeben werden.
+     Die Texte der vorliegenden Ausgabe sind von Dr. Ludwig Abel nach den Origi-
+nalen mit móglichst getreuer Nachbildung des Schrifteharakters autographirt worden.
+             Berlin,     im Mai 1889.
+
+                                                                                       Hugo Winckler.
+
+
+     *) Nach privater Mittheilung des Herrn Maspero    ist diese Form   des Nameus   die einzige an Ort und Stelle gebräuchliche.
+
+
+[...]
+
+                                         Inhaltsverzeichniss.
+
+
+ 90. Berlin VA. Th. 323. Zi-im-ri-di von Sidon an den Kónig. 0,06 <> 0,07 m. Dunkler Thon.
+     Berlin VA. Th. 1639. Brief aus Byblos an den König. 0.1 X 0,07 m. Róthlich-grau.
+ 92. Berlin VA. Th. 347.       Erlass an die Bevölkerung von A-mu-ur-ra.      0,21 <> 0,11 m.
+     Gelblich - grau.
+ 93. Berlin VA. Th. 1640. Su-ra-ta an den König. 0,07 X 0,06 m. Grau.
+ 94. Bulaq 28179. Za-ta-at-na von Ak-ka an den Kónig.
+ 95: Berlin VA. Th. 1641. Za-ta-at-na von Ak-ka an den Kónig. 0,1 <> 0,08 m. Heller Thon.
+ 96. Bulaq 28160. Nam -ia- 人 [一-za an den Kónig. 0,075 <> 0,055 m.
+ 97. Berlin VA. Th. 343. Abd(?)-t-ra-tum an den König. 0,08 <> 0,065 m. Rothbraun.
+ 98. Bulaq 28...      A-bi-mjil-ki?] an den König.  0,075 X 0,05 m. Vergl. 162.
+ go Bulaq 28151. A-bi-Sarru an den König. 0,07 X 0,045 m. Heller Thon.
+100. Bulaq 28185. Su- 2], -ar-da-ta an den König. 0,08 <> 0,05 m. Braungrau, s. 107.
+101. Berlin VA. Th. 339. Su-£T, - ar- da-ta an den König. 0,1 <> 0,08 m. Rothbraun.
+102. Berlin VA. Th. 1642. Ardu(-Abd?-) hi-ba an den König. 0,15 X 0,09 m. Heller Thon.
+103. Berlin VA. Th. 1644. Ardu-hi-ba an den König. 0,19 X 0,09 m. Heller Thon.
+104. Berlin VA. Th. 1643. Ardu-hi-ba an den Kónig. 0,15 <> 0,085 m. Heller Thon.

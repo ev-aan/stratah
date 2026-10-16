@@ -1,0 +1,32 @@
+# Bruins, H. J. and van der Plicht, J. (2025), "The Minoan Thera eruption predates Pharaoh Ahmose: Radiocarbon dating of Egyptian 17th to early 18th Dynasty museum objects", PLoS One, doi 10.1371/journal.pone.0330702, PMC12422448.
+# Licence: CC BY 4.0 (stated in the article XML). Text below is copied verbatim from the Europe PMC full-text XML (sha256 of file 58d1533fd601e796c7eedccbc1709ec7881f0337c9d12fe91bd721009aa7c819); table cells are joined with " | ".
+
+## Table 2 (caption): Kings of the 17th and early 18th Dynasty and their estimated historical chronologies in years BCE. *Since the nomen of Senakhtenre is also Ahmose [65], we distinguish between the two Ahmose kings by adding (I) and (II) behind their names, as suggested by Cahail [66]. The mudbrick from the Temple of Ahmose (II), which we investigated, dates historically to ca year 22 of his reign [111,112].
+17th DynastySequence of kings, Ryholt [63] | Chronology Ryholt [63] | Sequence of kings, Polz [125,126]Chronology impossible to determine
+Nomen | Prenomen |  | Nomen
+Rahotep | Sekhemre-wahkhau | 1580–1576 | Rahotep
+Sobekemsaf I | Sekhemre-shedtawy | 1576–1573 | Sobekemsaf II
+Antef VI | Sekhemre-wepmaat | 1573–1571 | Sobekemsaf I
+Antef VII | Nubkheperre | 1571–1566 | Antef VI
+Antef VIII | Sekhemre-heruhermaat | 1568 | Antef VII
+Sobekemsaf II | Sekhemre-wadjkhau | 1566–1559 | Antef VIII
+Ahmose (I)* | Senakhtenre | 1559–1558 | Ahmose (I)*
+Tao | Seqenenre | 1558–1554 | Tao
+Kamose | Wadjkheperre | 1554–1549 | Kamose
+Ahmose (II)* | Nebpehtire |  | 
+Early 18th Dynasty | Breasted [88] | Wente & Van Siclen [129] | Shaw [75] | Schneider [130] | Hornung et al. [76] | Krauss & Warburton [89]
+Ahmose (II)* Nebpehtire | 1580–1557 | 1570–1546 | 1550–1525 | 1548–1523 | 1539–1515 | 1524−1499
+Accession Year | 1580 | 1570 | 1550 | 1548 | 1539 | 1524
+Conquest Avaris, ca year 18 | ca 1562 | ca 1552 | ca 1532 | ca 1530 | ca 1521 | ca 1506
+Mudbrick, ca year 22 | ca 1558 | ca 1548 | ca 1528 | ca 1526 | ca 1517 | ca 1502
+Amenhotep I | 1557−1501 | 1551–1524 | 1525–1504 | 1523–1502 | 1514–1494 | 1498–1477
+Thutmose I | 1524–1518 | 1504–1492 | 1502–1489 | 1493–1483 | 1476–1470
+Thutmose II | 1501−1447 | 1518–1504 | 1492–1479 | 1489–1476 | 1482–1480 | 1469–1468
+Hatshepsut & Thutmose III | 1503–1450 | 1479–1425 | 1476–1422 | 1479–1425 | 1468–1415
+Amenhotep II | 1448−1420 | 1453–1419 | 1427–1400 | 1422–1396 | 1425–1400 | 1415–1389
+
+## Sentences from the running text
+- Using the IntCal09 calibration curve [93] and OxCal [72,90], this model yielded younger age ranges for the accession year of Ahmose: 1557–1537 BCE (1σ) and 1564–1528 BCE (2σ) [92].
+- He estimated a cumulative reign length of about 86 years for the 15 Theban kings, from ca 1625 BCE until 1539 BCE, his preferred date for the accession year of Nebpehtire Ahmose and the beginning of the 18th Dynasty.
+- Such assessments produced a variety of accession years for Ahmose (II), ranging from 1580 BCE [88] to 1524 BCE [89].
+- Historical dating options for the accession year of Pharaoh Amenhotep I (Table 2) range from a high of 1557 BCE [88] to a low of 1498 BCE [89].
