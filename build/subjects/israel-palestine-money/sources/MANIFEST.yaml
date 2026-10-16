@@ -1729,3 +1729,35 @@ sources:
     document_class: dataset (IRS data as rendered by ProPublica)
     read: "API output read; selection and totals in data/us-990-name-keyword-sweep.csv; individual returns not opened"
     authenticity: {status: authenticated, strength: moderate, provenance: "ProPublica rendering of IRS filings.", tests: ["Totals for organisations already read in full in this dig (for example FIDF) agree with the sweep for the same tax year [x]"], tested_by: "Strata session, 2026-10-16 (not independent of the dig)", gaps: ["Selection by name keyword includes unrelated organisations; only the latest ProPublica filing year; 668 of 1,828 matched names had financial data."], checked: 2026-10-16}
+
+  # ---------------- Added 2026-10-16, round 2: FEC pull, company document search, FARA read by eye ----------------
+  - id: src-fec-bulk-2022-2026
+    title: "FEC bulk data files for the 2022, 2024 and 2026 cycles: committee master (cm), PAC and party summaries (webk), independent expenditures (Schedule E), committee contributions (pas2) and other committee transactions (oth)"
+    url: "https://www.fec.gov/data/browse-data/?tab=bulk-data"
+    document_class: dataset (official register)
+    read: "full: files downloaded 16 Oct 2026 and filtered by script to the committees in data/fec-selected-committees-2022-2026.csv; hashes in data/ROUND2_SELECTION_RULES.md"
+    authenticity: {status: authenticated, strength: strong, provenance: "Federal Election Commission bulk downloads (fec.gov).", tests: ["Official-domain test [x]", "Committee ids and names in the summaries (for example C00799031) agree with the committee master files [x]", "Schedule E and webk independent-expenditure totals for United Democracy Project differ by less than 1 percent in each cycle (2022: 26,107,516 vs 26,118,700; 2024: 38,044,933 vs 37,859,810; 2026: 53,684,196 vs 53,414,687) [x]"], tested_by: "Strata session, 2026-10-16, round 2 (not independent of the dig)", gaps: ["24/48-hour Schedule E reports can differ from final reports.", "Filing images (docquery PDFs) were not opened.", "2026 cycle is partial (coverage ends 31 Aug to 30 Sep 2026)."], checked: 2026-10-16}
+  - id: src-fara-statements-read-by-eye-2026-10-16
+    title: "FARA supplemental statements of 19 registrants (efile.fara.gov), Item 14(a) receipts tables read by eye; list and hashes in data/fara-receipts-read-by-eye-2026-10-16.csv"
+    url: "https://efile.fara.gov/"
+    document_class: primary_text
+    read: "full for Item 14(a) and its appendix in each of the 19 statements (text extracted from the PDF; table lines read); other items not read"
+    authenticity: {status: authenticated, strength: strong, provenance: "Justice Department FARA eFile.", tests: ["Item 14(a) subtotal lines equal the sum of the itemised lines in the statements where all lines were printed (Akin Gump UAE 26 lines, Finn Qatar Museums 13 lines, LB International 3 principals) [x]"], tested_by: "Strata session, 2026-10-16, round 2 (not independent of the dig)", gaps: ["Only the principal-level lines named in the data file were transcribed; other principals of the same registrants were not."], checked: 2026-10-16}
+  - id: src-usaspending-awards-2026-10-16
+    title: "USAspending.gov API, spending_by_award (contracts, keyword Israel in the award description, recipient-name search), run 16 Oct 2026"
+    url: "https://api.usaspending.gov/api/v2/search/spending_by_award/"
+    document_class: dataset (official record of federal awards)
+    read: "API output recorded in data/company-israel-documents-found-2026-10-16.csv; descriptions verbatim; underlying contract documents not opened"
+    authenticity: {status: authenticated, strength: moderate, provenance: "US Treasury Bureau of the Fiscal Service USAspending API.", tests: ["Official-domain test [x]"], tested_by: "Strata session, 2026-10-16, round 2 (not independent of the dig)", gaps: ["Award amounts are as the API returns them (cumulative obligations); recipient search can return related recipient names; descriptions are short text fields."], checked: 2026-10-16}
+  - id: src-fms-notices-israel-2026-10-16
+    title: "Foreign Military Sales notifications to Israel (Federal Register and DSCA, 43 listed in data/israel-bonds-and-us-arms-sales.csv, kind arms sale), re-downloaded 16 Oct 2026"
+    url: "https://www.dsca.mil/Press-Media/Major-Arms-Sales"
+    document_class: primary_text
+    read: "full for 38 notices (contractor sentences read); 5 UNREAD (media.defense.gov 403 for 10-41, 13-20, 13-73, 16-40; dsca.mil page for 24-13); hashes in data/company-israel-notice-matches-2026-10-16.csv and data/israel-bonds-and-us-arms-sales.csv sources"
+    authenticity: {status: authenticated, strength: strong, provenance: "Federal Register (govinfo.gov) and DSCA.", tests: ["Official-domain test [x]"], tested_by: "Strata session, 2026-10-16, round 2 (not independent of the dig)", gaps: ["Five notices unreadable; contractor named in a notice is the notice's statement of the expected principal or prime contractor, not a delivery record."], checked: 2026-10-16}
+  - id: src-sec-annual-reports-2026-10-16
+    title: "SEC EDGAR full-text index and annual reports (10-K, 20-F, 40-F) of filers matched by company name, run 16 Oct 2026"
+    url: "https://efts.sec.gov/LATEST/search-index"
+    document_class: primary_text
+    read: "index results recorded for every name; for each matched filer the most recent annual report containing the word Israel was opened and sentences recorded (document hashes in data/company-israel-documents-found-2026-10-16.csv)"
+    authenticity: {status: authenticated, strength: strong, provenance: "SEC EDGAR.", tests: ["Official-domain test [x]"], tested_by: "Strata session, 2026-10-16, round 2 (not independent of the dig)", gaps: ["Name matching is by rule and misses filers registered under other names; only one filing per company was read; the index returns a limited number of hits."], checked: 2026-10-16}

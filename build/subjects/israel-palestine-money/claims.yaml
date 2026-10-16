@@ -59,11 +59,15 @@ assessment:
     reports on Palestinian Authority finance 2016-2023; Commission pages of 2025; Security Council
     meeting records for all 25 votes. Read as datasets: OCHA FTS and OECD DAC2A payer tables
     (Qatar, Türkiye, Saudi Arabia, UAE, Kuwait, the US, EU members and others), UK aid data, CORDIS,
-    the UK charity register extract. Read by text pattern only: FARA statements of registrants with
-    principals labelled Saudi Arabia, Qatar, UAE, Türkiye, Iran, Egypt, Palestine, Kuwait and Jordan.
+    the UK charity register extract; FEC bulk files for 87 committees in the 2022, 2024 and 2026 cycles
+    (committees chosen by one name rule, so the list is not limited to one side); award, notice and annual-report searches for
+    57 companies from one list and 191 others already in the dig. Read by text pattern: FARA statements of registrants with
+    principals labelled Saudi Arabia, Qatar, UAE, Türkiye, Iran, Egypt, Palestine, Kuwait and Jordan; 19 of those statements
+    (Saudi Arabia, UAE, Qatar, Türkiye and Palestine labels) were then read by eye.
     Not read: official budget or aid documents of Qatar, Türkiye, Iran, Egypt, Saudi Arabia and the
     Palestinian Ministry of Finance; UNRWA financial statements; ForeignAssistance.gov; Israeli and
-    Hebrew-language registries; Dutch and German registers (full list in ipm-flows-unread-and-coverage).
+    Hebrew-language registries; Dutch and German registers; FEC individual-donor receipts; defense.gov contract announcements (HTTP
+    403); 5 Foreign Military Sales notices (full lists in ipm-flows-unread-and-coverage and ipm-round2-unread-and-coverage).
     Claims marked established but held at a secondary anchor, whose limits are in each claim's anchor:
     ipm-crypto-seizures, ipm-unga-voting-patterns, ipm-settlement-property-expos, ipm-canada-charities-revoked,
     ipm-israel-state-settlement-spending, ipm-us-aid-israel-1993-2015, ipm-civil-terror-finance-cases,
@@ -1861,6 +1865,7 @@ claims:
         pattern.
       sources: [src-fara-bulk-2026-10-16]
       accessible: true
+    basis: "Nineteen of these statements were later read by eye; see ipm-fara-receipts-read-by-eye-2026-10-16."
 
   - id: ipm-qatar-channels-2016-2025
     state: established
@@ -2067,4 +2072,303 @@ claims:
     anchor:
       type: search-record
       description: "Search and retrieval attempts listed in data/documented-flows-2026-10-16.csv (rows with read_status UNREAD) and in this claim's statement."
+      accessible: false
+
+  # =======================================================================
+  # ADDED 2026-10-16, ROUND 2: FEC RECORDS, FARA RECEIPTS READ BY EYE, COMPANY DOCUMENT SEARCH
+  # Rules and hashes: data/ROUND2_SELECTION_RULES.md. Two owner-supplied websites were leads only: they are not sources
+  # and no figure from them is used in any claim.
+  # =======================================================================
+
+  - id: ipm-fec-committee-summaries-2022-2026
+    state: established
+    statement_kind: reported
+    statement: >
+      FEC committee summaries (PAC and party summary files) for 87 non-candidate committees selected by one name-keyword rule applied
+      to every committee in the 2022, 2024 and 2026 committee master files (rule and list: data/ROUND2_SELECTION_RULES.md,
+      data/fec-selected-committees-2022-2026.csv). Committees with a summary row: 56 (2022), 66 (2024), 74 (2026, coverage to 31 Aug
+      to 30 Sep 2026). Totals across them, US$ million (2022 / 2024 / 2026): receipts 91.6 / 201.9 / 204.0; disbursements 87.9 / 174.2 /
+      171.6; independent expenditures 40.7 / 61.0 / 64.6; contributions to other committees 32.9 / 82.1 / 77.5. Largest total receipts,
+      US$ (committee id): 2022 United Democracy Project 35,943,281 (C00799031), American Israel Public Affairs Committee PAC 18,566,319
+      (C00797670), DMFI PAC 9,063,924 (C00710848), JStreetPAC 6,736,835 (C00441949), Justice Democrats PAC 6,474,082 (C00630665),
+      Pro-Israel America PAC 3,783,274 (C00699470), RJC Victory Fund 3,090,754 (C00528554), NORPAC 1,996,728 (C00247403). 2024: United
+      Democracy Project 87,176,557, AIPAC PAC 57,871,196, RJC Victory Fund 17,018,627, JStreetPAC 14,581,367, Justice Democrats PAC
+      7,657,316, DMFI PAC 6,745,510, Republican Jewish Coalition PAC 3,501,243 (C00345132), NORPAC 3,439,062. 2026: United Democracy
+      Project 109,721,116, AIPAC PAC 52,335,345, DMFI PAC 7,439,398, JStreetPAC 7,339,590, RJC Victory Fund 7,316,220, Justice Democrats
+      PAC 6,659,829, J Street Action Fund 3,376,572 (C00815753), NORPAC 3,148,064. By name-keyword group (A: names containing Israel, Jewish, AIPAC, Zioness, J Street, NORPAC, RJC, United
+      Democracy Project or DMFI; B: names containing Muslim, Arab, Turk, Iran, Persian, Leban, Palest, Islam, Zionist, Emgage, CAIR,
+      JVP, Peace, Justice Democrats, AMPAC or ALPAC; a name matching both groups, or neither, is counted in neither group), US$
+      million of receipts / independent expenditures / contributions to other committees, with committee counts, 2022 / 2024 / 2026:
+      group A 84.2 / 38.3 / 32.2 (33 committees), 192.2 / 56.6 / 81.3 (35), 195.8 / 60.5 / 76.7 (37); group B 7.3 / 2.4 / 0.8 (21),
+      9.6 / 4.4 / 0.8 (28), 8.3 / 4.1 / 0.8 (34). Largest receipts in group B: Justice Democrats PAC (6,474,082; 7,657,316; 6,659,829),
+      National Turkey Federation PAC (335,508; 262,920; 345,476), Emgage Federal PAC (62,406; 601,837; 418,197), Arab Americans for a
+      Better America (478,300 in 2024), Anti-Zionist America PAC (213,214 in 2026), the Iranian American Political Action Committee
+      (77,470; 94,901; 126,350) and JVP Action PAC (99,866; 132,852; 62,685). Full rows for all 87 committees are in
+      data/fec-committee-summaries-webk-2022-2026.csv.
+    evidence_class: synthetic
+    confidence: moderate
+    evidential_weight: 3
+    anchor_checked: primary
+    adoption_weight: 2
+    adoption_note: "Not measured. Adoption is information, not evidence."
+    would_change_if: "amended reports change a committee's totals; or committees outside the keyword rule are added by a written rule"
+    anchor:
+      type: dataset
+      description: >
+        FEC bulk files cm22/cm24/cm26 (committee master) and webk22/webk24/webk26 (PAC and party summaries) downloaded 16 Oct 2026 and
+        hashed; rows for the 87 selected committees read; totals summed by script. The committee list is chosen by name keyword and
+        by earlier use in this dig, not by reading each committee's purpose, so it includes committees chosen only by a word in the
+        name. Individual-donor receipts (Schedule A), Form 3/3X/5 filing images and OpenFEC were not used. A comparison of this pull's
+        candidate-level independent expenditures with figures stated on an owner-supplied lead website is in
+        data/fec-pull-vs-lead-site-independent-expenditures.csv (comparison only, not an anchor).
+      sources: [src-fec-bulk-2022-2026]
+      accessible: true
+    basis: >
+      Receipts include all sources (individuals, committees, transfers) and are totals to the coverage date, not money for a
+      stated purpose.
+
+  - id: ipm-fec-schedule-e-and-contributions-2022-2026
+    state: established
+    statement_kind: reported
+    statement: >
+      Independent expenditures (Schedule E bulk file, de-duplicated) by the same 87 committees, US$ (2022 / 2024 / 2026): 40,599,788 /
+      61,243,721 / 68,244,384. By committee: United Democracy Project 26,107,516 / 38,044,933 / 53,684,196; DMFI PAC 7,142,024 /
+      4,150,218 / 3,649,956; RJC Victory Fund 2,952,175 / 13,344,391 / 5,154,275; Justice Democrats PAC 2,393,225 / 3,425,629 /
+      4,671,692; J Street Action Fund 1,701,250 / 204,995 / 837,772; Zioness PAC 974,808 (2024); Emgage Federal PAC 612,463 (2024);
+      Arab Americans for a Better America 393,500 (2024); Citizens Against AIPAC Corruption 134,722 (2026). The same committees' PAC
+      summaries give United Democracy Project independent expenditures of 26,118,700 / 37,859,810 / 53,414,687; the two FEC sources
+      differ slightly and both are recorded. Itemised contributions out to candidates and committees (pas2 file, Schedule B, types
+      24K, 24F, 24N, 24Z), US$ (2022 / 2024 / 2026): 4,764,958 / 7,195,260 / 3,765,612; largest, with transaction counts: AIPAC PAC
+      2,614,529 (941) / 2,443,814 (1,926) / 1,870,805 (1,138); JStreetPAC 330,464 (292) / 2,437,325 (6,333) / 453,308; National Turkey
+      Federation PAC 329,000 (88) / 344,000 (113) / 294,500 (118); Republican Jewish Coalition PAC 280,300 (89) / 664,895 (1,672) /
+      365,199; NORPAC 222,555 (27) / 600,770 (67) / 303,600; DMFI PAC 214,000 (112) / 270,000 (146) / 108,000 (73). Committee-to-committee
+      receipts in the other-transactions file are 300 rows in the three cycles; the largest single payer-payee sum is US$118,150 from To
+      Protect Our Heritage PAC to AIPAC PAC (type 18K, 2024). Each transaction row has its filing image number, date, transaction id
+      and amount in data/fec-transactions-2022-2026.csv.gz.
+    evidence_class: synthetic
+    confidence: moderate
+    evidential_weight: 3
+    anchor_checked: primary
+    adoption_weight: 2
+    adoption_note: "Not measured. Adoption is information, not evidence."
+    would_change_if: "amended Schedule E or Schedule B filings change amounts; or the filing images differ from the bulk files"
+    anchor:
+      type: dataset
+      description: >
+        independent_expenditure_2022/2024/2026 (Schedule E), pas222/pas224/pas226 (committee contributions) and oth22/oth24/oth26 (other
+        committee transactions) downloaded 16 Oct 2026 and hashed; rows for the 87 selected committees extracted (memo-coded rows
+        dropped, duplicates removed by transaction id, independent-expenditure items counted once from Schedule E). Totals computed
+        by script from the 19,287 transaction rows. Schedule E 24/48-hour reports can differ from final reports. Filing images were
+        not opened. Candidate-level support and opposition per row are in the transaction file (payee column).
+      sources: [src-fec-bulk-2022-2026]
+      accessible: true
+    basis: "Spending beside a vote or a primary shows timing and amount only, not cause (rule P5)."
+
+  - id: ipm-fara-receipts-read-by-eye-2026-10-16
+    state: established
+    statement_kind: reported
+    statement: >
+      Item 14(a) receipts read by eye in the latest supplemental statements of 19 registrants, principal by principal (US$; payer as
+      printed; dates received). Saudi Arabia label: The Public Investment Fund to USSA International LLC 12,208,045.00 (26 Nov 2025,
+      payroll and operating expenses; the same statement's Item 15 lists 527,801.00 of travel expenses); King Abdullah University of
+      Science & Technology (through Capital K Investment Fund I, L.P.) to Capital K, LLC 2,250,000.00 (1 Oct 2025 and 2 Jan 2026,
+      management fees); FII Institute to Richard Attias & Associates LLC 6,220,057.40 (three payments, 5 Mar to 27 Apr 2026). United
+      Arab Emirates label: Outlook Energy Investments, LLC (wholly owned by the Emirate of Abu Dhabi) to Camstoll Group, LLC
+      2,290,000.00 (12 Jan 2026, retainer); Embassy of the United Arab Emirates to Akin, Gump, Strauss, Hauer & Feld LLP 2,973,777.09
+      (26 lines, 17 Feb to 29 Jun 2026, services rendered). Qatar label: International Media Office of State of Qatar to GRV
+      Strategies LLC 1,108,000.00 (seven payments, 2 Oct 2025 to 9 Mar 2026; the same registrant lists Baleira Limited (Cyprus)
+      50,000.00); Embassy of the State of Qatar to BGR Government Affairs, LLC 420,000.00 (six monthly fees of 70,000.00) and to
+      ThirdCircle, Inc. 320,000.00 (five payments, 21 Nov 2025 to 7 Apr 2026); Qatar Museums to Finn Partners, Inc. 2,788,600.00 (13
+      lines, 9 Oct 2025 to 30 Mar 2026, fees). Türkiye label: Justice and Development Party (AK Party) to AK Party Representation to
+      the United States LLC 1,299,970.00 (wires of 100,000.00, 499,980.00 and 699,990.00, 3 Feb to 5 May 2026); Turkish Embassy to
+      LB International Solutions, LLC 440,155.50 (four retainers, 6 Nov 2025 to 2 Mar 2026; the same statement lists Turkish Republic
+      of Northern Cyprus Washington office 72,000.00 and ONJA Mali ve Yatirim 75,120.00); Government of Turkiye through LB
+      International Solutions to Imperium Strategies LLC 93,450.00 (six payments); Embassy of Turkiye to The Van Aucker Group 92,250.00
+      (six payments of 15,375.00, 1 May to 1 Oct 2025); LB International Solutions on behalf of the Turkish Republic of Northern
+      Cyprus office and the Turkish Embassy to Aquila Strategies, LLC 78,000.00; Government of the Republic of Turkey to Skyline
+      Capitol LLC 300,000.00 (six monthly fees of 50,000.00); Turkish Ministry of Culture & Tourism to Geoffrey Weill 102,472.88;
+      Türkiye Radyo Televizyon Kurumu to its US registrant 205,258.63 (bureau operations); Republican People's Party (CHP) to the CHP
+      representation 71,200.00 (statement filed 15 Mar 2023). Palestine label: Palestine Monetary Authority to Squire Patton Boggs, LLP
+      250,000.00 (1 Jan to 30 Jun 2026, agreed fees; the registrant's other principals account for the rest of its 1,932,177.66; no
+      Item 14(a) line for the Palestinian Authority was found in the appendix read). Source rows and statement hashes:
+      data/fara-receipts-read-by-eye-2026-10-16.csv. Registrants with many principals (MMGY Global, FTI Consulting, Hogan Lovells,
+      Mercury Public Affairs, Sonoran Policy Group and others) were opened but their principal-level lines were not transcribed.
+    evidence_class: primary_text
+    confidence: high
+    evidential_weight: 4
+    anchor_checked: primary
+    adoption_weight: 1
+    adoption_note: "Not measured. Adoption is information, not evidence."
+    would_change_if: "amended statements change the figures; or the principal-level lines not transcribed are read"
+    anchor:
+      type: primary_text
+      description: >
+        19 supplemental statements downloaded from efile.fara.gov on 16 Oct 2026 and hashed; Item 14(a) and its appendix read line by
+        line; where a subtotal was printed it was compared with the itemised lines (Akin Gump 26 lines sum to 2,973,777.09; Finn
+        Partners 13 lines sum to 2,788,600.00; LB International 440,155.50 + 72,000.00 + 75,120.00 = 587,275.50). Payer and purpose
+        are as printed in the "From Whom" and "Purpose" columns. The amounts are what the registrant reports receiving, not the
+        foreign principal's total spending.
+      sources: [src-fara-statements-read-by-eye-2026-10-16]
+      accessible: true
+    basis: "Replaces the pattern-extracted registrant totals in ipm-fara-registrations-by-country-label for these 19 statements; that claim stays as the register-wide view."
+
+  - id: ipm-company-documents-lead-list-found
+    state: established
+    statement_kind: reported
+    statement: >
+      Names taken from an owner-supplied company list (58 entries; 57 companies searched, one group entry "Airlines, Shipping,
+      Logistics" not searched) were searched for documents that contain the word Israel: US federal contract awards, Foreign Military
+      Sales notifications to Israel, SEC annual reports. Contract awards (USAspending.gov, description contains Israel, 1 Oct 2007 to 16
+      Oct 2026), 21 companies, counts of awards: Lockheed Martin 150, Boeing 60, General Electric 28, RTX/Raytheon 19, Rolls-Royce 17,
+      Caterpillar 13, Elbit Systems 9, Honeywell 7, Israel Aerospace Industries 7, General Dynamics 7, Textron 6, Oshkosh 5, AM General 4,
+      L3Harris 3, and 2 each for BAE Systems, Colt's Manufacturing, Leonardo, Northrop Grumman, Rafael Advanced Defense Systems and
+      Renk; 1 for Day & Zimmermann (a State Department protective-services contract in Israel, awarded to "SOC LLC", the recipient name as
+      returned). Largest by amount as returned: Boeing, KC-46 FMS aircraft for Israel and Japan, award FA860926FB002, US$1,484,114,000
+      (start 27 Feb 2026); Boeing, "F-15 Israel Program", FA863426CB001, US$1,173,300,000 (29 Dec 2025); Boeing, "KC-46 FMS Israel aircraft
+      1-4", FA860922F0001, US$866,731,117 (1 Sep 2022); Lockheed Martin, "Israel unique spares", 0132, US$651,104,357.25 (31 Mar 2017);
+      Oshkosh Defense, W912CH25F0007, US$176,561,027.19 (15 Oct 2024), a buy for case IS-ZZC of M1148A1P2 8-tonne trucks. Foreign Military
+      Sales notifications (38 of 43 notices read; the company is named in a sentence about the principal or prime contractor): 12
+      companies, with notice counts Boeing 7, General Dynamics 5, RTX 4, Leonardo 3, Lockheed Martin 3, General Electric 2, Rolls-Royce 2,
+      and one each for AM General, BAE Systems, Caterpillar, Northrop Grumman and Oshkosh. SEC annual reports: 23 of the 57 names matched a
+      filer; one, Elbit Systems (20-F filed 17 Mar 2026), contains a sentence naming the Israeli Ministry of Defense (it reads "... or
+      indirectly from government agencies, mainly the Israeli Ministry of Defense (IMOD), the DoW and ..."). Per-company and per-kind
+      outcomes: data/company-israel-document-search-2026-10-16.csv; each document: data/company-israel-documents-found-2026-10-16.csv.
+      "Found" means a document of that kind contains the wording, recorded verbatim; it is not a finding about use, delivery or end use,
+      and some descriptions use the word Israel for a place.
+    evidence_class: primary_text
+    confidence: moderate
+    evidential_weight: 3
+    anchor_checked: primary
+    adoption_weight: 2
+    adoption_note: "Not measured. Adoption is information, not evidence."
+    would_change_if: "the contract documents behind the awards, or the five unreadable notices, are read and say something different"
+    anchor:
+      type: dataset
+      description: >
+        USAspending.gov API spending_by_award queried per name (contracts, keyword Israel, recipient-name search); rows are as the API
+        returns them (cumulative obligations; recipient names as returned, which can be related entities); the underlying contract
+        documents were not opened. 43 Federal Register and DSCA notices to Israel re-downloaded, 38 read. SEC EDGAR full-text index and
+        the latest annual report containing the word Israel for each matched filer, opened and read for the sentences recorded.
+        Rules: data/ROUND2_SELECTION_RULES.md.
+      sources: [src-usaspending-awards-2026-10-16, src-fms-notices-israel-2026-10-16, src-sec-annual-reports-2026-10-16]
+      accessible: true
+    basis: "The list is the lead's selection, applied here as search terms only. The same searches were run for other companies in this dig (ipm-company-documents-other-names-found)."
+
+  - id: ipm-company-documents-lead-list-none-found
+    state: proposed
+    statement_kind: search_result
+    statement: >
+      Of the 57 companies searched from the owner-supplied list, 36 had no document found in the three reachable kinds (contract awards
+      with Israel in the description, Foreign Military Sales notifications read, SEC annual reports with Ministry of Defense, IDF or Foreign
+      Military Sales wording): AeroVironment, Agilite, Aimpoint AB, Amazon, Cellebrite, Cisco, Corsight AI, DJI, Emtan Karmiel, Flyer
+      Defense, Ford, General Motors, Ghost Robotics, Google/Alphabet, HD Hyundai, InfiniDome, JCB, Leupold & Stevens, Mercedes-Benz,
+      Microsoft, NextVision, Nammo, Palantir, Paz Oil, Plasan, Rheinmetall, SK Group, SMARTSHOOTER, Shield AI, Skydio, SpearUAV,
+      ThyssenKrupp, Toyota, Valero, Woodward and XTEND. For the 21 companies with a document found, the kinds with none found are in the
+      per-kind data file. The fourth kind, defense.gov and war.gov daily contract announcements, was unreachable for all 57 (HTTP 403), and
+      five notices were unreadable, so these results do not cover those documents. Ten of the 36 names matched an SEC filer (AeroVironment, Amazon,
+      Cisco, Ford, General Motors, Alphabet, Daimler/Mercedes-Benz, Microsoft, Palantir, Woodward): for seven of them the latest annual
+      report containing the word Israel was read and no sentence has Ministry of Defense, IDF or Foreign Military Sales wording (the
+      sentences recorded mention Israel in subsidiary lists or in sentences about the Israel-Hamas conflict), and for three (Amazon, Alphabet,
+      Woodward) no annual report in the index contains the word; 26 names matched no filer under the name rule.
+    evidence_class: primary_text
+    confidence: provisional
+    evidential_weight: 2
+    anchor_checked: primary
+    absence_anchor: true
+    adoption_weight: 2
+    adoption_note: "Not measured. Adoption is information, not evidence."
+    would_change_if: "defense.gov announcements, the five unreadable notices or contract documents are read; or the name rules are changed by a written rule"
+    anchor:
+      type: search-record
+      description: >
+        Same searches as ipm-company-documents-lead-list-found. A name was searched as the lead printed it plus the aliases listed in the
+        data file; SEC filers were accepted only when the registered name equals the searched name plus ordinary corporate words (so
+        Cellebrite DI Ltd. did not match "Cellebrite"). Absence of a record in four kinds of document records what was searched, not that no
+        other record exists.
+      sources: [src-usaspending-awards-2026-10-16, src-fms-notices-israel-2026-10-16, src-sec-annual-reports-2026-10-16]
+      accessible: true
+
+  - id: ipm-company-documents-other-names-found
+    state: established
+    statement_kind: reported
+    statement: >
+      The same searches were run for 191 companies already present in this dig: nine contractors named in the Israel Foreign Military
+      Sales notices that are not on the owner-supplied list, and all 182 companies of the UN business-database listing (155
+      Israeli-domiciled). Contractors named in notices: contract awards with Israel in the description for 6 (United Technologies/RTX
+      13 awards, Sikorsky 3, Bell 3, DRS/Leonardo DRS 2, Rolls-Royce Solutions America 2, MTU America 1); notices for 8 (Repkon USA 2,
+      Rolls-Royce Solutions America 2, DRS 2, and one each for Sikorsky, United Technologies, MTU America, Ellwood National Forge and
+      AgustaWestland Philadelphia); 2 of 9 names matched an SEC filer, with no sentence of Ministry of Defense, IDF or Foreign Military
+      Sales wording. Examples: Rolls-Royce Solutions America, award W56HZV23C0054, US$119,780,051 (10 Aug 2023), description "FY22 FMS funds,
+      Israel case no. IS-B-ZMU"; DRS Sustainment Systems, W56HZV24C0020, US$27,921,874.98 (27 Dec 2023), "FMS case: IS-ZJY heavy duty tank
+      trailers for the country of ..."; Repkon USA named as principal contractor in notices of 28 Feb 2025 and 6 Mar 2026. UN business-database
+      companies (182): one contract award with Israel in the description (Partner Communications, 191S4020F0291, US$52,738.62, 27 Apr 2020,
+      "Israeli cellular packages activation"); no notice names any of the 182; 13 of 182 matched an SEC filer and 3 have annual-report
+      sentences with Israel Defense Forces or Ministry of Defense wording (Cellcom Israel: 20-F filed 28 Apr 2021 lists "permits from the
+      Israel Defense Forces (in certain cases)"; Partner Communications: 20-F filed 28 Feb 2022 says "approval of the Israeli Defense Forces
+      is required" for a stated purpose; Baran Group: 20-F filed 28 Jun 2004 names the Israeli Ministry of Defense in a sentence about its
+      civil-engineering division). 51 awards to Sonol Israel Ltd. (fuel and services) were returned only because the recipient name contains
+      Israel and are not counted. Per-company outcomes and documents: the two data files named in ipm-company-documents-lead-list-found.
+    evidence_class: primary_text
+    confidence: moderate
+    evidential_weight: 3
+    anchor_checked: primary
+    adoption_weight: 1
+    adoption_note: "Not measured. Adoption is information, not evidence."
+    would_change_if: "the contract documents behind the awards, or the five unreadable notices, are read and say something different"
+    anchor:
+      type: dataset
+      description: "Same method, sources and limits as ipm-company-documents-lead-list-found, applied to the 9 notice contractors and 182 UN-database names."
+      sources: [src-usaspending-awards-2026-10-16, src-fms-notices-israel-2026-10-16, src-sec-annual-reports-2026-10-16]
+      accessible: true
+
+  - id: ipm-company-documents-other-names-none-found
+    state: proposed
+    statement_kind: search_result
+    statement: >
+      Of the 191 other companies, 179 of the 182 UN business-database names had no document found in any of the three reachable kinds; all
+      9 notice contractors had at least one. The fourth kind, defense.gov and war.gov contract
+      announcements, was unreachable for all 191 (HTTP 403). Most UN-database companies are Israeli-domiciled and do not file annual
+      reports with the SEC under the searched names or receive US federal contracts under them in the descriptions searched.
+    evidence_class: primary_text
+    confidence: provisional
+    evidential_weight: 2
+    anchor_checked: primary
+    absence_anchor: true
+    adoption_weight: 1
+    adoption_note: "Not measured. Adoption is information, not evidence."
+    would_change_if: "defense.gov announcements or contract documents are read; or the name rules are changed by a written rule"
+    anchor:
+      type: search-record
+      description: "Same searches and limits as ipm-company-documents-lead-list-none-found."
+      sources: [src-usaspending-awards-2026-10-16, src-fms-notices-israel-2026-10-16, src-sec-annual-reports-2026-10-16]
+      accessible: true
+
+  - id: ipm-round2-unread-and-coverage
+    state: searched_gap
+    statement_kind: search_result
+    statement: >
+      Coverage of round 2, 16 October 2026. Read: FEC bulk files for 87 committees in three cycles; 19 FARA statements by eye; 38 of 43
+      Foreign Military Sales notices; USAspending award records; the latest SEC annual report containing the word Israel for each matched
+      filer. Not read, with the reason: FEC individual-donor receipts (not pulled) and filing images (not opened); committees whose names
+      contain none of the keywords (not selected); defense.gov and war.gov contract announcements (HTTP 403); 5 notices (media.defense.gov
+      10-41, 13-20, 13-73, 16-40 and the dsca.mil page for 24-13); the contract documents behind each USAspending award (not opened);
+      SEC filers whose registered names differ from the searched names; principal-level lines of the FARA statements of MMGY Global, FTI
+      Consulting, Hogan Lovells, Mercury Public Affairs, Sonoran Policy Group and registrants not among the 19; the 18 FARA rows with no
+      statement in the register and the 16 with no text layer; the group entry "Airlines, Shipping, Logistics" of the owner-supplied
+      list.
+    evidence_class: synthetic
+    confidence: provisional
+    evidential_weight: 1
+    anchor_checked: "no"
+    absence_anchor: true
+    adoption_weight: 1
+    adoption_note: "Not measured. Adoption is information, not evidence."
+    would_change_if: "any listed item is retrieved and read"
+    next_step: >
+      Pull FEC Schedule A (itcont) for the 87 committees; open filing images for a sample of Schedule E and Schedule B rows; retrieve the five
+      unreadable notices from a browser; query defense.gov contract announcements from a browser for the names with awards found; read the
+      FARA principal-level lines of the remaining multi-principal registrants.
+    anchor:
+      type: search-record
+      description: "Retrieval attempts and results listed in data/ROUND2_SELECTION_RULES.md and the company search files."
       accessible: false

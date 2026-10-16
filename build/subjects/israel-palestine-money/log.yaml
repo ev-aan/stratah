@@ -239,3 +239,26 @@ log:
     entry: >
       Taxonomy: the taxonomy file is owner-only. The suggested line is in PROPOSED_TAXONOMY.yaml in this folder. No review.yaml
       was written and the subject was not added to publish.
+  - id: L-23
+    date: 2026-10-16
+    entry: >
+      Round 2 (rules and hashes in data/ROUND2_SELECTION_RULES.md). The owner supplied two websites as leads only: neither is cited or used
+      as an anchor, and no figure from either is used in a claim. (1) FEC: the 2022, 2024 and 2026 bulk files (committee master, PAC
+      summaries, Schedule E, committee contributions, other transactions) were downloaded and 87 non-candidate committees were
+      selected by one name-keyword rule plus earlier use in this dig, the same rule for every committee; 196 summary rows and
+      19,287 transaction rows are in the data folder with filing image numbers. Not pulled: individual-donor receipts, filing
+      images, committees outside the rule. A comparison of this pull's candidate-level independent expenditures with figures stated on the
+      first lead site is in data/fec-pull-vs-lead-site-independent-expenditures.csv, both sets side by side: for the "spent against" figure of 55 candidates the lead's figure and the
+      pull's figure for United Democracy Project, RJC Victory Fund and DMFI PAC agree to within one dollar for 47 and differ for 8 (El-Sayed,
+      Massie, Lee, Malinowski, Herrera, Turner, Cisneros, Kiggans); no reason for any difference was established. (2) Companies: 57
+      names from the second lead (one group entry not searched), 9 contractors named in Israel Foreign Military Sales notices and 182
+      UN business-database companies were searched with one rule for contract awards (USAspending), Foreign Military Sales notices (38 of 43
+      read) and SEC annual reports; defense.gov and war.gov announcements returned HTTP 403. Per-company outcomes: lead list 21 with at least
+      one document found and 36 with none found in the reachable kinds; notice contractors 9 found, 0 none; UN business database 3 found, 179
+      none. The lead page's one-sentence inclusion criterion and its notes on uncertain use were not used. (3) FARA: 19 statements of the
+      highest-value non-Israeli registrants and the Türkiye-labelled registrants were read by eye (Item 14(a) and appendix); the pattern
+      figures of round 1 agree with the printed totals where the page showed the total, and differ from principal-level amounts where a
+      registrant has several principals. Eighteen rows with no statement and 16 with no text layer remain unread. (4) Corrections in the
+      same pass: the attribution rule "single active principal" in round 1 over-attributed one registrant (GRV Strategies also lists a
+      second principal); the by-eye record gives the principal-level amount.
+
