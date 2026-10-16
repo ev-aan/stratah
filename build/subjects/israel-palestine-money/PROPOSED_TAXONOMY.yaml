@@ -1,0 +1,3 @@
+# Proposal for the owner. build/taxonomy.yaml is owner-only; this file changes nothing.
+# Suggested entry (the same line the independent review suggested):
+israel-palestine-money: {area: politics, areas: [current_events, law_justice, economics_business], types: [is_claim_true, what_did_they_know], popular_claims: true}

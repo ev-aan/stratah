@@ -36,24 +36,42 @@ assessment:
     criminal convictions upheld on appeal (Holy Land Foundation, US, 2008 and 2011). Most of the
     rest are designations: legal acts by a government whose evidence is classified or not
     published. Second, governments disagree often and on the record. The US designated Interpal in
-    2003 while the UK charity regulator found no evidence to substantiate links; Israel designated
+    2003 while the UK charity regulator, as reported to the House of Lords, found no evidence to substantiate links; Israel designated
     six Palestinian NGOs in 2021 while nine EU governments said they had received no substantial
-    information to justify changing policy; only Israel has designated Turkey's IHH; the UK and
+    information to justify changing policy; among the lists searched, only Israel's list (as copied
+    by OpenSanctions, not compared with the original) has an entry for Turkey's IHH; the UK and
     Canada sanction Israeli ministers and settler groups the US does not, and kept settler
     sanctions the US revoked. Third, on the user's question of whether politics drives it: of ten
     reversals recorded in the pilot, two came with a change of government (the US settler
     sanctions revoked on 20 January 2025; the UK's UNRWA funding restored in July 2024, which also
     cited an independent review). The other eight happened within the same government, mostly
-    after an investigation, a review or new conditions. US Security Council vetoes run the other
-    way: 23 since 1993, cast under every US president of both parties in that period. This is a
+    after an investigation, a review or new conditions; eight of the ten come from one episode, the
+    2024 UNRWA funding pauses. The UN's list of Security Council vetoes on Israel-Palestine items since
+    1993 has 25 entries: 23 by the US (22 on draft resolutions, one on an amendment) and 2 by China and
+    Russia; the US votes were cast under every US president in that period, of both parties. This is a
     small, non-random set of cases, so it does not settle the question; it shows how to test it.
     Money totals (US aid, Qatari grants, Iranian support) are recorded as each government states
     them; an "up to $100 million a year" Iranian figure is a US government estimate with no
     published method.
+    Coverage on 16 October 2026, as facts about what was read. Read in the documents themselves: US
+    public laws of 2024-2025; Israeli government FARA exhibits and statements for nine registrants;
+    US charity and foundation returns on the Israeli side and on the Palestinian side; World Bank
+    reports on Palestinian Authority finance 2016-2023; Commission pages of 2025; Security Council
+    meeting records for all 25 votes. Read as datasets: OCHA FTS and OECD DAC2A payer tables
+    (Qatar, Türkiye, Saudi Arabia, UAE, Kuwait, the US, EU members and others), UK aid data, CORDIS,
+    the UK charity register extract. Read by text pattern only: FARA statements of registrants with
+    principals labelled Saudi Arabia, Qatar, UAE, Türkiye, Iran, Egypt, Palestine, Kuwait and Jordan.
+    Not read: official budget or aid documents of Qatar, Türkiye, Iran, Egypt, Saudi Arabia and the
+    Palestinian Ministry of Finance; UNRWA financial statements; ForeignAssistance.gov; Israeli and
+    Hebrew-language registries; Dutch and German registers (full list in ipm-flows-unread-and-coverage).
+    Claims marked established but held at a secondary anchor, whose limits are in each claim's anchor:
+    ipm-crypto-seizures, ipm-unga-voting-patterns, ipm-settlement-property-expos, ipm-canada-charities-revoked,
+    ipm-israel-state-settlement-spending, ipm-us-aid-israel-1993-2015, ipm-civil-terror-finance-cases,
+    ipm-gulf-turkey-iran-channels, ipm-votes-beside-money.
   key_points:
     - "One case ended in convictions upheld on appeal (Holy Land Foundation); most others are designations whose evidence is not published."
-    - "Governments often disagree on the same group: US vs UK regulator (Interpal), Israel vs nine EU states (six NGOs), UK/Canada vs US (settlers)."
-    - "Of 10 reversals found, 2 came with a change of government; 8 came within one government, mostly after a review. US vetoes span both parties."
+    - "Governments often disagree on the same group: US vs UK regulator as reported to the Lords (Interpal), Israel vs nine EU states (six NGOs), UK/Canada vs US (settlers)."
+    - "Of 10 reversals found (provisional), 2 came with a change of government; 8 of the 10 are from one 2024 UNRWA episode. 23 of 25 listed vetoes were US, under both parties."
   basis: [ipm-reversals-and-government-change, ipm-hlf-convicted, ipm-interpal-passed-money-to-hamas, ipm-six-ngos-pflp-arms, ipm-settler-sanctions-split, ipm-sc-vetoes]
   rated_claim: ipm-reversals-and-government-change
   would_settle: >
@@ -795,8 +813,12 @@ claims:
     state: searched_gap
     statement_kind: search_result
     statement: >
-      Money spent to influence governments' policy on the conflict (campaign money, lobbying,
-      registered foreign agents, foreign gifts to universities) is not yet dug.
+      Updated 2026-10-16 (the first wording said this thread was not yet dug). Read since: US campaign and
+      lobbying money (ipm-campaign-lobbying-money), FARA filings for Israel (ipm-israel-us-media-fara and related
+      claims), FARA registrations by country label (ipm-fara-registrations-by-country-label), congressional
+      trips and votes beside money (ipm-congress-sponsored-trips, ipm-votes-beside-money). Not yet read: Section 117
+      foreign gifts to universities for countries other than Qatar, Canada's Registry of Lobbyists and Elections
+      Canada, UK Electoral Commission donations, FARA statement appendices, and FARA terminated registrations.
     evidence_class: synthetic
     confidence: provisional
     evidential_weight: 1
@@ -806,14 +828,12 @@ claims:
     would_change_if: "the ledger is built"
     next_step: >
       Write the selection rule first (all groups on every side that file under each system, fixed before
-      reading amounts). Then pull: US FEC data (PACs and super PACs active on the issue, 2000-2026); US
-      Lobbying Disclosure Act filings naming Israel, Palestine, Gaza or UNRWA; FARA registrations for
-      Israel, Qatar, Saudi Arabia, the UAE, Türkiye and the PLO mission; Department of Education Section
-      117 foreign-gift data by country; Canada's Registry of Lobbyists and Elections Canada; UK
-      Electoral Commission donations. Rules P5 and P9 apply: timing beside a vote is context, never cause.
+      reading amounts). Then pull: Department of Education Section 117 foreign-gift data for every country
+      in the register; Canada's Registry of Lobbyists and Elections Canada; UK Electoral Commission donations;
+      FARA statement appendices by eye. Rules P5 and P9 apply: timing beside a vote is context, never cause.
     anchor:
       type: search-record
-      description: "Not searched in this pilot; the scope was agreed with the owner on 2026-10-07 and deferred (log L-01)."
+      description: "Narrowed on 2026-10-16 (log L-20). US FEC, lobbying, FARA (Israel, Qatar and eight other country labels), trips and votes were searched in later passes; the items in next_step were not."
       accessible: false
 
   - id: ipm-israel-us-media-fara
@@ -1548,8 +1568,13 @@ claims:
     state: searched_gap
     statement_kind: search_result
     statement: >
-      Aid to the Palestinian Authority and to Gaza from the US, EU, Gulf states and others since 1993,
-      the PA's own budgets and the tax revenues Israel collects for the PA, are not yet dug.
+      Updated 2026-10-16 (the first wording said this thread was not yet dug). Read since: PA finances and donor
+      aid 1993-2015 (ipm-pa-finances-1993-2015), World Bank statements 2016-2023 (ipm-pa-financing-statements-2016-2023),
+      FTS and OECD payer tables 2016-2025 (ipm-donor-tables-west-bank-gaza-2016-2025), UK aid, EU records, US law
+      lines (ipm-uk-aid-west-bank-gaza-2017-2024, ipm-eu-funding-records-2024-2025, ipm-us-appropriation-lines-2024-2025),
+      OCHA humanitarian funding (ipm-ocha-humanitarian-funding). Not read: the PA's own budget and execution reports,
+      IMF reports, World Bank reports after September 2023, UNRWA financial statements, ForeignAssistance.gov, and
+      amounts withheld in each Israeli clearance-revenue episode after 2015.
     evidence_class: synthetic
     confidence: provisional
     evidential_weight: 1
@@ -1558,20 +1583,25 @@ claims:
     adoption_note: "Adoption is information, not evidence."
     would_change_if: "the thread is dug"
     next_step: >
-      Pull OECD-DAC creditor reporting data for aid to the West Bank and Gaza by donor and year; PA
-      Ministry of Finance budget and execution reports; IMF and World Bank reports on clearance revenues
-      and deductions; US Taylor Force Act (2018) text and CRS reports on PA prisoner payments.
+      Pull OECD CRS project-level data for the West Bank and Gaza; PA Ministry of Finance budget and execution
+      reports (site returned 502 on 2026-10-16); IMF and World Bank reports for 2024-2025; UNRWA audited financial
+      statements A/80/5 Vol. V; ForeignAssistance.gov country tables; amounts withheld per clearance-revenue
+      episode; CRS reports on PA prisoner payments.
     anchor:
       type: search-record
-      description: "Deferred from this pilot (log L-01)."
+      description: "Narrowed on 2026-10-16 (log L-20). The items in next_step were tried or not located; see ipm-flows-unread-and-coverage."
       accessible: false
 
   - id: ipm-settlement-funding-gap
     state: searched_gap
     statement_kind: search_result
     statement: >
-      Israeli state spending on settlements and tax-exempt donations from abroad to settlement groups
-      are not yet dug.
+      Updated 2026-10-16 (the first wording said this thread was not yet dug). Read since: Israeli state spending
+      lines (ipm-israel-state-settlement-spending), US charities (ipm-us-charities-settlement-funding), Canadian
+      charities (ipm-canada-charities-revoked), the UN business list (ipm-un-settlement-business-list). Not read:
+      State Comptroller reports, Ministry of Finance budget books (403 earlier), Amana's own reports, the attached
+      recipient lists of Central Fund of Israel's returns, UK and Dutch charity filings naming settlement
+      recipients.
     evidence_class: synthetic
     confidence: provisional
     evidential_weight: 1
@@ -1580,10 +1610,461 @@ claims:
     adoption_note: "Adoption is information, not evidence."
     would_change_if: "the thread is dug"
     next_step: >
-      Israeli state budget lines and Ministry of Finance reports; State Comptroller reports; US IRS Form
-      990 filings of US charities that grant to settlement organizations (selection by a written rule);
-      Canada CRA charity filings; Amana's own reports.
+      Ministry of Finance budget books and State Comptroller reports; Form 990 recipient attachments of the US
+      organisations already read; Amana's own reports; UK Charity Commission accounts of charities that grant to
+      settlement organisations (selection by a written rule).
     anchor:
       type: search-record
-      description: "Deferred from this pilot (log L-01)."
+      description: "Narrowed on 2026-10-16 (log L-20). Israeli open budget data, US returns and Canadian charity data were read in later passes; the items in next_step were not."
+      accessible: false
+
+  # =======================================================================
+  # ADDED 2026-10-16: DOCUMENTED FLOWS BY CHANNEL (payer, payee, amount, currency, year, document, date)
+  # Record-level rows: data/documented-flows-2026-10-16.csv. Selection rules and hashes: data/PARTB_SELECTION_RULES.md.
+  # Each claim records what the named documents state. Rules P5/P6/P11 apply: no motive or effect is assessed.
+  # =======================================================================
+
+  - id: ipm-us-appropriation-lines-2024-2025
+    state: established
+    statement_kind: reported
+    statement: >
+      US appropriation laws state these Middle East lines. Public Law 118-47 (23 Mar 2024): Foreign Military
+      Financing grants of "not less than" $3,300,000,000 for Israel (Div. F, Sec. 7041(d)); $500,000,000 for
+      Israeli Cooperative Programs in the defense appropriation (Div. A, Sec. 8072, of which $80,000,000 for Iron
+      Dome procurement); "not less than" $1,650,000,000 for Jordan (Sec. 7041(e)); "not less than $1,425,000,000
+      should be made available" for Egypt (Sec. 7041(a)). The same law bars funds to the Palestinian Authority
+      unless the President certifies a waiver (Sec. 7040) and sets conditions and audits for the West Bank and Gaza
+      program (Sec. 7039); neither section states a dollar amount. Public Law 118-50, Division A (24 Apr 2024):
+      Foreign Military Financing $3,500,000,000 for Israel; Procurement, Defense-Wide $5,200,000,000 of which
+      $4,000,000,000 for Iron Dome and David's Sling and $1,200,000,000 for Iron Beam for the Government of Israel;
+      Operation and Maintenance, Defense-Wide $4,400,000,000 and Procurement of Ammunition, Army $801,400,000
+      "to respond to the situation in Israel"; International Disaster Assistance $5,655,000,000 and Migration and
+      Refugee Assistance $3,495,000,000 for humanitarian needs, with no Gaza-specific amount in the text; Sec. 308
+      bars funds to UNRWA. Public Law 119-4 (Mar 2025) extends the Israel loan-guarantee authority to 30 Sep 2030
+      and contains no other Israel line. Public Law 115-141, Div. S, Title X (Taylor Force Act), Sec. 1002 states
+      that the United States "does not provide direct budgetary support to the Palestinian Authority".
+    evidence_class: primary_text
+    confidence: high
+    evidential_weight: 4
+    anchor_checked: primary
+    adoption_weight: 3
+    adoption_note: "Not measured for this combination of lines. Adoption is information, not evidence."
+    would_change_if: "the enacted text differs from the govinfo copy; or the explanatory statements, which were not read, change what the lines cover"
+    decisions:
+      - {date: 2024-03-23, decider: "US Congress and President (P.L. 118-47)", what: "Israel FMF, Israeli Cooperative Programs, Jordan, Egypt lines; PA prohibition with waiver; West Bank and Gaza program conditions", evidence_published: "law text", in_power: "US: Biden, Democrat [HoG not sourced]", sources: [src-plaw-118-47]}
+      - {date: 2024-04-24, decider: "US Congress and President (P.L. 118-50 Div. A)", what: "supplemental lines listed above; UNRWA bar", evidence_published: "law text", in_power: "Biden [HoG not sourced]", sources: [src-plaw-118-50]}
+      - {date: 2025-03-15, decider: "US Congress and President (P.L. 119-4)", what: "Israel loan-guarantee authority extended to 30 Sep 2030", evidence_published: "law text", in_power: "US: Trump, Republican [HoG not sourced]", sources: [src-plaw-119-4]}
+    anchor:
+      type: primary_text
+      description: >
+        The four public laws were downloaded from govinfo.gov on 16 Oct 2026 (hashes in data/PARTB_SELECTION_RULES.md)
+        and the passages quoted were located by text search and read in context: P.L. 118-47 Sec. 7041, 8072, 7039,
+        7040; P.L. 118-50 Div. A Titles I and III and Sec. 308; P.L. 119-4 (searched for Israel, Palestin, West
+        Bank, Gaza, UNRWA, Foreign Military: one hit); P.L. 115-141 Title X Sec. 1002. Rows in
+        data/documented-flows-2026-10-16.csv (PB-001 to PB-016). Not read: the explanatory statements with country
+        tables, and any enacted FY2026 act.
+      sources: [src-plaw-118-47, src-plaw-118-50, src-plaw-119-4, src-plaw-115-141-tfa]
+      accessible: true
+    basis: >
+      Amounts are appropriation or floor amounts in law, not disbursements. ForeignAssistance.gov and the FY2026 act
+      were not reachable or not located (see ipm-flows-unread-and-coverage).
+
+  - id: ipm-pa-financing-statements-2016-2023
+    state: established
+    statement_kind: reported
+    statement: >
+      World Bank reports to the Ad Hoc Liaison Committee state these flows to and from the Palestinian Authority.
+      September 2016: full-year donor support "not projected to exceed US$700 million" against a $1.3 billion deficit.
+      September 2018: Saudi Arabia to resume budget support at $20 million a month. September 2019: Israel's
+      deductions from clearance revenues of almost $12 million a month from March 2019 (law enacted 2018), which the
+      PA refused to accept; Qatar pledged a $250 million loan, with two $25 million instalments disbursed in June and
+      July 2019; the Arab League announced a $100 million a month safety net with no amounts deposited at the time of
+      writing. November 2021: Israel advanced $153 million (NIS 500 million) of clearance revenues in September 2021;
+      donor financing projected at $184 million ($83 million budget support, $101 million investment projects), 38
+      percent of 2020. September 2022: donor financing projected at $315 million ($195 million budget support, $120
+      million projects), first-half 2022 $80 million. September 2023: first-half 2023 donor financing $156 million
+      ($118 million budget support, $38 million development financing) and Israeli deductions of $157 million; the
+      report states no funding was received from Arab donors in the first half of 2023, unlike the previous year.
+    evidence_class: primary_text
+    confidence: moderate
+    evidential_weight: 3
+    anchor_checked: primary
+    adoption_weight: 2
+    adoption_note: "Not measured. Adoption is information, not evidence."
+    would_change_if: "Palestinian Ministry of Finance or donor records give different amounts; or the World Bank revises the figures"
+    anchor:
+      type: primary_text
+      description: >
+        Six World Bank AHLC reports (Sept 2016, Sept 2018, Sept 2019, Nov 2021, Sept 2022, Sept 2023) downloaded from
+        documents.worldbank.org through the World Bank documents API on 16 Oct 2026; the passages quoted were located
+        by text search and read in context. The figures are the World Bank's own, projected or reported, and were not
+        compared with Palestinian or donor records. Reports of 2017 and 2020 were downloaded but not used; no
+        2024-2025 report was located.
+      sources: [src-wb-ahlc-2016-09, src-wb-ahlc-2018-09, src-wb-ahlc-2019-09, src-wb-ahlc-2021-11, src-wb-ahlc-2022-09, src-wb-ahlc-2023-09]
+      accessible: true
+    basis: >
+      Weight 3: single-publisher figures, several of them projections. Rows PB-017 to PB-025 in
+      data/documented-flows-2026-10-16.csv.
+
+  - id: ipm-donor-tables-west-bank-gaza-2016-2025
+    state: established
+    statement_kind: reported
+    statement: >
+      Two public tables list payers to the occupied Palestinian territory. In the UN's Financial Tracking Service
+      (paid and committed, all recipients, US$ million, 2023 / 2024 / 2025): United States 176.2 / 635.4 / 568.0;
+      Germany 188.7 / 248.1 / 100.2; United Kingdom 44.7 / 97.4 / 83.3; Norway 50.2 / 88.6 / 81.7; Japan 38.3 /
+      102.8 / 118.3; European Commission 2.0 / 35.9 / 1.2; Qatar Fund for Development 179.0 / 54.9 / 341.3; Qatar
+      Charity 44.9 / 44.3 / 79.6; Qatar government 1.0 / 6.6 / none; Türkiye government 17.4 / 125.1 / 30.8; Saudi
+      Arabia government 55.4 / 132.9 / 129.7; UAE government 511.4 / 677.5 / 1,609.4; Kuwait government 2.1 / 35.0 /
+      7.1. In the OECD DAC2A table (gross ODA disbursed to "Palestinian Authority or West Bank and Gaza Strip", US$
+      million, 2023 / 2024): United States 146 / 429; EU Institutions 336 / 701; Germany 301 / 204; United Kingdom
+      53 / 176; Japan 93 / 99; Norway 115 / 126; Qatar 209 / 277; UAE 604 / 655; Türkiye 21 / 81; Kuwait none
+      listed / 1; Israel 47 / 40. The two tables differ in scope (FTS: humanitarian reporting by location; DAC2A: ODA
+      reporting by recipient), so the same payer's figures differ between them. FTS also lists the UN Relief and
+      Works Agency as payee; US$ million to UNRWA, 2023 / 2024 / 2025: United States 153.5 / none / none; Germany 93.1 /
+      106.0 / 11.5; Türkiye 11.1 / 32.4 / 7.5; Saudi Arabia 17.0 / 40.0 / 0.4; UAE 51.5 / 20.0 / 0.3; Kuwait 2.0 /
+      26.0 / 2.0.
+    evidence_class: synthetic
+    confidence: moderate
+    evidential_weight: 3
+    anchor_checked: primary
+    adoption_weight: 2
+    adoption_note: "Not measured. Adoption is information, not evidence."
+    would_change_if: "FTS or DAC2A values are revised; or the selection of FTS flows (incoming boundary, paid and committed) is changed by a written rule"
+    anchor:
+      type: dataset
+      description: >
+        FTS: the 15,456 hashed flows already in data/ocha-fts, aggregated by script (boundary incoming; paid plus
+        committed; pledges kept separate) into data/ocha-fts/fts_payers_2016_2025.csv. OECD: DAC2A SDMX extract for
+        recipient PSE downloaded 16 Oct 2026 (hash in data/PARTB_SELECTION_RULES.md), measure 240 gross ODA, current
+        US dollars, filtered into data/oecd-dac2a-gross-oda-to-west-bank-gaza-2016-2024.csv. Both are
+        self-reported by payers. 2026 FTS figures are part-year and not quoted here.
+      sources: [src-ocha-fts, src-oecd-dac2a]
+      accessible: true
+
+  - id: ipm-iran-egypt-saudi-not-in-donor-tables
+    state: proposed
+    statement_kind: search_result
+    statement: >
+      In the FTS flows file, no flow has the Government of Iran as payer from 2016 on (it has two flows with a
+      zero amount in 2008 and 2009) and none has the Government of Egypt from 2016 on (one flow of $20,408 to the
+      World Food Programme in 2003); in the OECD DAC2A table for the West Bank and Gaza Strip, no rows exist for
+      Iran, Egypt or Saudi Arabia as donors, and Israel appears as a reporting donor ($19 million in 2016 to $57
+      million in 2021). Saudi Arabia appears in FTS as a payer (see ipm-donor-tables-west-bank-gaza-2016-2025) and
+      in KSrelief data (ipm-gulf-turkey-iran-channels).
+    evidence_class: synthetic
+    confidence: provisional
+    evidential_weight: 2
+    anchor_checked: primary
+    absence_anchor: true
+    adoption_weight: 1
+    adoption_note: "Not measured. Adoption is information, not evidence."
+    would_change_if: "either table is found to record these payers under a different name; or other records (Iranian or Egyptian budget documents, not read) state amounts"
+    anchor:
+      type: search-record
+      description: >
+        Source names in fts_flows.csv.gz searched for Iran, Egypt, Israel, Qatar, Türkiye (exact and substring); DAC2A
+        donor labels listed. Absence in two tables says nothing about payments made outside them.
+      sources: [src-ocha-fts, src-oecd-dac2a]
+      accessible: true
+
+  - id: ipm-uk-aid-west-bank-gaza-2017-2024
+    state: established
+    statement_kind: reported
+    statement: >
+      UK official development assistance extended to "West Bank & Gaza Strip" in the FCDO's project data
+      (GBP thousand, summed over project rows): 61,926 (2017), 49,418 (2018), 80,759 (2019), 51,852 (2020), 41,604
+      (2021), 22,544 (2022), 42,243 (2023) and 137,869 (2024). The data contain no rows with Israel as recipient.
+    evidence_class: synthetic
+    confidence: moderate
+    evidential_weight: 3
+    anchor_checked: primary
+    adoption_weight: 1
+    adoption_note: "Not measured. Adoption is information, not evidence."
+    would_change_if: "FCDO's published tables give different recipient totals; or the sector split repeats a project in several rows"
+    anchor:
+      type: dataset
+      description: >
+        Data-underlying-SID-2017-2024.ods (FCDO, published 2025-09-26) downloaded 16 Oct 2026; the Data sheet parsed
+        and the AmountsExtended(GBP thousands) column summed by year for the recipient label "West Bank & Gaza
+        Strip" (data/uk-oda-bilateral-by-recipient-2017-2024.csv, which also holds the other labels searched).
+        The FCDO summary tables were not compared.
+      sources: [src-uk-sid-2024]
+      accessible: true
+
+  - id: ipm-eu-funding-records-2024-2025
+    state: established
+    statement_kind: reported
+    statement: >
+      The European Commission states: an emergency EUR 400 million to the Palestinian Authority disbursed between
+      July 2024 and February 2025 under a 19 July 2024 Letter of Intent; a proposed multiannual programme for
+      2025-2027 of up to EUR 1.6 billion, with around EUR 620 million in budget support to the PA through the PEGASE
+      mechanism, around EUR 576 million in grants for projects in the West Bank, East Jerusalem and Gaza (including
+      EUR 82 million a year proposed for UNRWA) and European Investment Bank loans of up to EUR 400 million for the
+      Palestinian private sector; and on 23 June 2025 an allocation of EUR 202 million, EUR 150 million to the PA and
+      EUR 52 million to UNRWA. In the EU's research programmes (CORDIS participant files, EUR million of EC
+      contribution summed over participants; FP7, Horizon 2020, Horizon Europe): Israel 864.8, 1,277.5, 1,014.8;
+      Palestine 2.6, 0.3, 0.4; Türkiye 191.8, 277.6, 416.6; Egypt 13.2, 4.2, 9.0; Jordan 5.9, 5.7, 1.7; Lebanon 3.9,
+      4.3, 5.6; Iran 0.4, 0.9, 0.2; Qatar 0.2, 0.0, 0.0; Saudi Arabia 0.1, 0.0, 0.0; UAE 0.4, 0.5, 0.0. The Horizon
+      Europe file is for a programme still running at download.
+    evidence_class: primary_text
+    confidence: moderate
+    evidential_weight: 4
+    anchor_checked: primary
+    adoption_weight: 2
+    adoption_note: "Not measured. Adoption is information, not evidence."
+    would_change_if: "the Commission's adoption decisions or payment records state different amounts; or EU Financial Transparency System records are read"
+    anchor:
+      type: primary_text
+      description: >
+        Two Commission pages (14 Apr and 23 Jun 2025) downloaded and read in full on 16 Oct 2026. CORDIS
+        organisation.csv from the FP7, Horizon 2020 and Horizon Europe zip files downloaded 16 Oct 2026 and the
+        ecContribution column summed by country code (data/eu-cordis-ec-contribution-by-country.csv). Not read: the
+        EU Financial Transparency System, the Official Journal budget lines, the programme adoption decisions.
+      sources: [src-ec-palestine-2025-04-14, src-ec-palestine-2025-06-23, src-cordis]
+      accessible: true
+    basis: "The April 2025 programme is a proposal as announced; the 23 June 2025 article reports allocations. CORDIS covers research grants only."
+
+  - id: ipm-fara-registrations-by-country-label
+    state: proposed
+    statement_kind: reported
+    statement: >
+      On 16 October 2026 the FARA register lists these active foreign-principal rows by country label: Saudi
+      Arabia 36, Qatar 32, United Arab Emirates 27, Israel 21, Türkiye 18, Iran 8, Egypt 4, Palestine 3, Kuwait 2,
+      Jordan 2. For registrants whose only active principal is in the country, the largest dollar figure in Item
+      14(a) of the latest six-month statement totals: Saudi Arabia $16,856,938.85 (8 registrants), Israel
+      $30,896,954.42 (5), UAE $3,996,026.90 (6), Qatar $4,237,641.10 (14), Türkiye $1,849,151.51 (6), Iran
+      $274,388.00 (5); Egypt, Palestine, Jordan and Kuwait have no such registrant with a figure. Registrants with
+      several principals are in the data file with their registrant-level figure marked as not attributable to one
+      principal; for example the registrant for the Palestinian Authority and the Palestine Monetary Authority
+      (Squire Patton Boggs, 7 active principals) shows $1,932,177.66. The principals in the Iran-labelled rows are the
+      National Council of Resistance of Iran and Komala parties; none is the Government of Iran. The Türkiye rows
+      include the AK Party and CHP representation offices ($1,299,970.00 and $71,200.00), and the Embassy and
+      ministries (for example $795,000.00 for a registrant with five principals). Not read: 18 rows have no
+      supplemental statement in the register and 16 rows have a statement with no text layer.
+    evidence_class: primary_text
+    confidence: provisional
+    evidential_weight: 2
+    anchor_checked: secondary
+    adoption_weight: 1
+    adoption_note: "Not measured. Adoption is information, not evidence."
+    would_change_if: "the statements are read by eye and the Item 14(a) figures differ; appendices to statements are read; or terminated registrations are added"
+    anchor:
+      type: dataset
+      description: >
+        FARA eFile bulk files downloaded 16 Oct 2026. For each active row the latest Supplemental Statement was
+        downloaded, text extracted, Item 14(a) located by pattern and the largest dollar figure in that section
+        recorded. The pattern reproduces three figures read by eye in this dig (7649 $15,000,000.00; 7553
+        $9,892,335.58; 7653 $2,313,791.50). Statements were not otherwise read by eye; where Item 14(a) refers to an
+        appendix the appendix was not read. Rows: data/fara-active-registrations-by-country.csv, with the
+        per-row read status and document hash. Held at secondary and proposed because the extraction is by
+        pattern.
+      sources: [src-fara-bulk-2026-10-16]
+      accessible: true
+
+  - id: ipm-qatar-channels-2016-2025
+    state: established
+    statement_kind: reported
+    statement: >
+      Qatar appears as payer in these records. FTS (US$ million, paid and committed, 2020 / 2021 / 2022 / 2023 /
+      2024 / 2025): Qatar Fund for Development 234.2 / 291.0 / 384.6 / 179.0 / 54.9 / 341.3 (of which to UNRWA 20.7 /
+      2.6 / 2.9 / 0.0 / 2.9 / 2.6); Qatar Charity 3.4 / 5.1 / 32.6 / 44.9 / 44.3 / 79.6. OECD DAC2A gross ODA to the
+      West Bank and Gaza Strip from Qatar (US$ million): 313 (2019), 236 (2020), 311 (2021), 386 (2022), 209 (2023),
+      277 (2024). The World Bank states a Qatari pledge of a $250 million loan to the PA in 2019, of which two $25
+      million instalments were disbursed in June and July 2019. Foreign Ministry grants of 2020-2021 and the 2018
+      cash approval are in ipm-qatar-gaza-payments; FARA registrations for Qatari principals are in
+      ipm-fara-registrations-by-country-label (32 active rows; $4,237,641.10 across 14 single-principal registrants).
+      A name search of the UK register extract for Qatar Charity found no registered charity with income above GBP 50,000.
+    evidence_class: synthetic
+    confidence: moderate
+    evidential_weight: 3
+    anchor_checked: primary
+    adoption_weight: 2
+    adoption_note: "Not measured. Adoption is information, not evidence."
+    would_change_if: "Qatar Fund for Development disbursement records are read and differ; or FTS or DAC2A are revised"
+    anchor:
+      type: dataset
+      description: >
+        Rows for the Qatari payers in data/ocha-fts/fts_payers_2016_2025.csv and
+        data/oecd-dac2a-gross-oda-to-west-bank-gaza-2016-2024.csv, and the World Bank September 2019 passage, read as
+        described in ipm-donor-tables-west-bank-gaza-2016-2025 and ipm-pa-financing-statements-2016-2023. Qatar
+        Fund for Development annual reports were not searched. The FARA figures are the secondary extraction.
+      sources: [src-ocha-fts, src-oecd-dac2a, src-wb-ahlc-2019-09, src-fara-bulk-2026-10-16]
+      accessible: true
+
+  - id: ipm-turkiye-channels-2016-2025
+    state: established
+    statement_kind: reported
+    statement: >
+      Türkiye appears as payer in these records. FTS (US$ million, paid and committed, Türkiye government, 2020 /
+      2021 / 2022 / 2023 / 2024 / 2025): 7.0 / 10.5 / 16.6 / 17.4 / 125.1 / 30.8, of which to UNRWA 7.0 / 10.5 / 16.6 /
+      11.1 / 32.4 / 7.5. OECD DAC2A gross ODA to the West Bank and Gaza Strip from Türkiye (US$ million): 43 (2016), 41
+      (2017), 25 (2018), 38 (2019), 33 (2020), 34 (2021), 18 (2022), 21 (2023), 81 (2024). FARA: 18 active rows for
+      Türkiye-labelled principals, $1,849,151.51 across 6 single-principal registrants (details and the rows not read
+      are in ipm-fara-registrations-by-country-label). Aid by tonnage is in ipm-gulf-turkey-iran-channels. The UK
+      charity extract was not searched for Türkiye-related names. Not read: the Turkish development assistance
+      report (TIKA), AFAD records and annual reports of Turkish foundations including IHH.
+    evidence_class: synthetic
+    confidence: moderate
+    evidential_weight: 3
+    anchor_checked: primary
+    adoption_weight: 2
+    adoption_note: "Not measured. Adoption is information, not evidence."
+    would_change_if: "Turkish official reports are read and give different amounts"
+    anchor:
+      type: dataset
+      description: >
+        Rows for Türkiye in the FTS payer table and DAC2A file (see ipm-donor-tables-west-bank-gaza-2016-2025) and
+        the FARA file (secondary extraction). A tika.gov.tr page was tried and returned 404.
+      sources: [src-ocha-fts, src-oecd-dac2a, src-fara-bulk-2026-10-16]
+      accessible: true
+
+  - id: ipm-plo-pa-channels-2016-2025
+    state: proposed
+    statement_kind: reported
+    statement: >
+      Records naming the PLO or the Palestinian Authority as payee or registrant. FARA: three active rows with the
+      label Palestine (Palestinian Authority and Palestine Monetary Authority, registrant Squire Patton Boggs, Item
+      14(a) figure $1,932,177.66 across 7 principals; Samir Hlaileh, registrant Dickens & Madson Canada, no dollar
+      figure in Item 14(a)). The earlier data file lists $250,000 received from the Palestine Monetary Authority by the
+      same Squire Patton Boggs registration for the six months to 30 Jun 2026, and the PLO General Delegation's final
+      statement for the six months to 30 Sep 2018 (registration ended 30 Sep 2018); both are in
+      ipm-gulf-turkey-iran-channels. Payers to the PA are in ipm-pa-financing-statements-2016-2023 (donor financing,
+      Israeli clearance-revenue deductions and an advance), ipm-eu-funding-records-2024-2025 (EUR 400 million, EUR 150
+      million) and the DAC2A and FTS tables. US law states no direct US budget support to the PA and a prohibition on
+      certain funds to it (ipm-us-appropriation-lines-2024-2025). Not read: Palestinian Ministry of Finance fiscal
+      reports (site returned 502), IMF reports to the Ad Hoc Liaison Committee (403), World Bank reports after
+      September 2023 (none located).
+    evidence_class: primary_text
+    confidence: provisional
+    evidential_weight: 2
+    anchor_checked: secondary
+    adoption_weight: 2
+    adoption_note: "Not measured. Adoption is information, not evidence."
+    would_change_if: "Palestinian Authority budget documents are read and give different amounts"
+    anchor:
+      type: primary_text
+      description: "Cross-reference claim: the FARA rows come from the secondary extraction in data/fara-active-registrations-by-country.csv; the other records are read as described in the claims named in the statement."
+      sources: [src-fara-bulk-2026-10-16, src-wb-ahlc-2023-09]
+      accessible: true
+
+  - id: ipm-iran-channels-2016-2025
+    state: proposed
+    statement_kind: reported
+    statement: >
+      Records naming Iran as payer or principal. The State Department's "up to $100 million annually" and the
+      Treasury designations are in ipm-iran-support-estimate and ipm-gulf-turkey-iran-channels. In FTS, the
+      Government of Iran has no flow from 2016 on, and the Red Crescent Society of the Islamic Republic of Iran has
+      two commitments of $50,000, in 2002 and 2003 (ipm-iran-egypt-saudi-not-in-donor-tables). In the FARA register
+      eight active rows carry the label Iran; their principals are the National Council of Resistance of Iran and
+      Komala parties, none the Government of Iran, with statement figures of $157,576.00, $57,000.00, $29,892.00,
+      $22,000.00 and $7,920.00 across five single-principal registrants. No Iranian budget law, ministry report or
+      statement of amounts was searched or read (Persian-language material would not be readable here).
+    evidence_class: primary_text
+    confidence: provisional
+    evidential_weight: 2
+    anchor_checked: secondary
+    adoption_weight: 2
+    adoption_note: "Not measured. Adoption is information, not evidence."
+    would_change_if: "Iranian official documents stating amounts are located and read"
+    anchor:
+      type: primary_text
+      description: "Cross-reference claim; the FTS and OECD rows were read as described in ipm-iran-egypt-saudi-not-in-donor-tables, the FARA rows come from the secondary extraction."
+      sources: [src-ocha-fts, src-fara-bulk-2026-10-16, src-oecd-dac2a]
+      accessible: true
+
+  - id: ipm-uk-charity-register-selection
+    state: established
+    statement_kind: reported
+    statement: >
+      The Charity Commission register extract of 16 October 2026 has 120 registered charities selected by a name
+      rule (names containing palestin, gaza, israel or aqsa, plus Interpal, Islamic Relief Worldwide, Human Appeal,
+      Muslim Aid, Medical Aid for Palestinians and The Welfare Association). Latest filed income (GBP): Islamic Relief
+      Worldwide 238,998,821 (year to 31 Dec 2025); Human Appeal 90,246,297 (2024); Medical Aid for Palestinians
+      56,552,000 (2024); Muslim Aid 23,727,463 (2024); United Jewish Israel Appeal 12,531,000 (year to 30 Sep 2025);
+      British Friends of Ezrat Yisrael Kiryat Sefer 4,225,000 (2025); New Israel Fund 3,463,566 (2024). By name
+      keyword: 19 charities with "palestin" (their incomes sum to 60,502,304, of which Medical Aid for Palestinians
+      is 56,552,000), 88 with "israel" (35,897,655), 8 with "aqsa" (1,442,889), 1 with "gaza" (income zero). The
+      extract holds income and expenditure totals only; grants made and donors are not in it.
+    evidence_class: synthetic
+    confidence: moderate
+    evidential_weight: 3
+    anchor_checked: primary
+    adoption_weight: 1
+    adoption_note: "Not measured. Adoption is information, not evidence."
+    would_change_if: "the register's own pages for a charity differ from the extract; or charities outside the name rule are added by a written rule"
+    anchor:
+      type: dataset
+      description: >
+        Charity Commission public extract (charity and annual return history zip files) downloaded 16 Oct 2026,
+        hashed; registered charities (status Registered, not linked) selected by the rule in
+        data/PARTB_SELECTION_RULES.md into data/uk-charity-register-selection.csv. Names that match the keywords
+        include unrelated bodies (for example congregations and a hospital group); the purpose of each charity was
+        not read.
+      sources: [src-cc-register-extract-2026]
+      accessible: true
+
+  - id: ipm-us-990-name-keyword-sweep
+    state: proposed
+    statement_kind: reported
+    statement: >
+      A sweep of US tax-exempt organisations whose names contain palestin, gaza, israel or aqsa (1,828 names found in
+      ProPublica Nonprofit Explorer, 668 with financial data) shows latest-year total revenue (2023 returns): 146
+      organisations with "israel" in the name above $1 million, among them Jewish Agency for Israel $455.3 million, PEF
+      Israel Endowment Funds $289.5 million and Friends of the Israel Defense Forces $282.0 million (the names also match
+      hospitals and congregations); 5 with "palestin" above $1 million, among them Palestine Children's Relief Fund
+      $92.2 million; 1 with "gaza" (Christian Mission to Gaza $1.02 million); 1 with "aqsa" (Aqsa School $2.15
+      million). Revenue is as filed and includes all sources; it is not a measure of money sent to Israel or the
+      Palestinian territories.
+    evidence_class: synthetic
+    confidence: provisional
+    evidential_weight: 2
+    anchor_checked: secondary
+    adoption_weight: 1
+    adoption_note: "Not measured. Adoption is information, not evidence."
+    would_change_if: "the individual returns are read and show different totals; or organisations with other names are added by a written rule"
+    anchor:
+      type: dataset
+      description: >
+        ProPublica search API queried for the four keywords (pages up to 100) and the organisation endpoint read for
+        each name containing a keyword; latest filing with data recorded in data/us-990-name-keyword-sweep.csv.
+        FIDF's figure agrees with the return read in full in ipm-us-charities-idf-funding. Returns were not opened
+        for the other organisations.
+      sources: [src-propublica-sweep-2026-10-16]
+      accessible: true
+
+  - id: ipm-flows-unread-and-coverage
+    state: searched_gap
+    statement_kind: search_result
+    statement: >
+      Coverage of the documented-flows pass by channel, as searched on 16 October 2026. Read: US public laws; World
+      Bank AHLC reports 2016-2023; two Commission pages; OECD DAC2A; FTS; UK FCDO project data; CORDIS; FARA register
+      and statements (by pattern); UK Charity Commission extract; ProPublica totals; Security Council meeting records.
+      Not read, with the reason: UNRWA audited financial statements (document not retrieved); UNRWA pledge tables
+      (403); ForeignAssistance.gov (404 and 502); the explanatory statement to P.L. 118-47 and any enacted FY2026 act
+      (not located); IMF reports (403); Palestinian Ministry of Finance (502); World Bank reports after September
+      2023 (not located); Swedish, Norwegian, Japanese and German budget lines (404, 404, 403, 503); Turkish
+      development reports (404); EU Financial Transparency System (404); Israeli corporate and association
+      registries (Hebrew data, not read); the Israeli list file (not retrieved); Dutch and German registers, Qatar
+      Fund for Development reports, Iranian budget documents, Egyptian, Jordanian, Kuwaiti and Saudi budgets, IHH
+      reports (not searched). Claims added in this pass by channel: US appropriations 1; Palestinian Authority,
+      UNRWA and aid after 2015 3; other states 5 (UK, Qatar, Türkiye, Iran, and the donor-table absence result); EU
+      1; non-state 3 (FARA, UK charities, US returns); coverage 1.
+    evidence_class: synthetic
+    confidence: provisional
+    evidential_weight: 1
+    anchor_checked: "no"
+    absence_anchor: true
+    adoption_weight: 1
+    adoption_note: "Not measured. Adoption is information, not evidence."
+    would_change_if: "any listed document is retrieved and read"
+    next_step: >
+      Retrieve and read, in this order: UNRWA financial statements A/80/5 Vol. V from a browser; the explanatory
+      statement to P.L. 118-47 Div. F and the enacted FY2026 act; World Bank and IMF AHLC reports for 2024-2025;
+      Palestinian Ministry of Finance fiscal reports; EU Financial Transparency System records; national budget
+      documents of Sweden, Norway, Japan, Germany, Türkiye, Qatar and Saudi Arabia; Israeli registries with a
+      Hebrew reader; Dutch and German registers; FARA statement appendices by eye.
+    anchor:
+      type: search-record
+      description: "Search and retrieval attempts listed in data/documented-flows-2026-10-16.csv (rows with read_status UNREAD) and in this claim's statement."
       accessible: false

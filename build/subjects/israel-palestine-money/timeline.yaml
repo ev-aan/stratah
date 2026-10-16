@@ -41,7 +41,7 @@ lanes:
   un:        {label: "UN votes and recognition"}
 people:
   - {who: "Benny Gantz", detail: "Israeli Defense Minister; signed the 2021 designations of Samidoun and the six NGOs (NBCTF)."}
-  - {who: "Ehud Barak", detail: "Israeli Defense Minister; reported as signing the 2008 order against 36 Union of Good funds, including IHH (Ynet; ITIC)."}
+  - {who: "Ehud Barak", detail: "Israeli Defense Minister; reported by Ynet (7 Jul 2008) as signing an order against 36 Union of Good funds; the article does not name IHH."}
   - {who: "Benjamin Netanyahu", detail: "Israeli Prime Minister; defended allowing Qatari cash into Gaza in Nov 2018 (AFP report). A profile is planned as a separate dig."}
   - {who: "Philippe Lazzarini", detail: "UNRWA Commissioner-General; announced the dismissals of staff named by Israel in Jan 2024 (UN statement)."}
   - {who: "Catherine Colonna", detail: "Led the independent review of UNRWA's neutrality, reported 20 Apr 2024."}
@@ -160,7 +160,7 @@ events:
   # ---------------- Panel A: 1993 to Sep 2023 ----------------
   - {id: a01, panel: years, lane: un, time: "1995-05-17T12:00:00Z", precision: day, kind: official, status: single, sources: [src-dppa-vetoes],
      label: "17 May 1995: first US veto in this period (S/1995/394)",
-     detail: "The first of 23 US vetoes on Israel-Palestine drafts from 1993 to Sep 2025, cast under presidents of both parties (President: Bill Clinton, Democrat [HoG not sourced])."}
+     detail: "The first of 23 US negative votes (22 on draft resolutions, one on an amendment) on Israel-Palestine items in the UN list from 1993 to Sep 2025, cast under presidents of both parties (President: Bill Clinton, Democrat [HoG not sourced])."}
   - {id: a02, panel: years, lane: charities, time: "1997-05-06T12:00:00Z", precision: day, kind: official, status: single, sources: [src-opensanctions-il-mod],
      label: "6 May 1997: Israel declares HLF and Interpal unauthorized associations",
      detail: "Date from the OpenSanctions copy of Israel's list; the original was not opened (PM: Netanyahu, Likud [HoG not sourced])."}
@@ -178,8 +178,8 @@ events:
      detail: "From the OpenSanctions copy of Israel's list (PM: Ariel Sharon, Likud [HoG not sourced])."}
   - {id: a07, panel: years, lane: charities, time: "2008-05-26T12:00:00Z", precision: day, kind: official, status: disputed, sources: [src-opensanctions-il-mod, src-ynet-union-of-good-2008],
      alt_time: "2008-07-07T12:00:00Z", alt_note: "Ynet reported the order on 7 Jul 2008; the list copy dates it 26 May.",
-     label: "May-Jul 2008: Israel outlaws 36 Union of Good funds, including IHH and (reported) Interpal",
-     detail: "Defense Minister Ehud Barak (as reported). Israel is the only government found to have designated Turkey's IHH (PM: Ehud Olmert, Kadima [HoG not sourced])."}
+     label: "May-Jul 2008: Israel outlaws 36 Union of Good funds (Ynet, 7 Jul); its list copy shows IHH declared 26 May",
+     detail: "Defense Minister Ehud Barak (as reported by Ynet, which names Interpal and the Holy Land Foundation as earlier bans and does not name IHH). Among the lists searched, only Israel's list, as copied by OpenSanctions, has an IHH entry (PM: Ehud Olmert, Kadima [HoG not sourced])."}
   - {id: a08, panel: years, lane: charities, time: "2008-11-24T12:00:00Z", precision: day, kind: document, status: reported, sources: [src-doj-hlf-2008, src-el-mezain-2011],
      label: "24 Nov 2008: jury convicts the Holy Land Foundation and five leaders",
      detail: "About $12.4 million to Hamas-controlled zakat committees (DOJ). Retrial after a 2007 mistrial."}

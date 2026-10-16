@@ -191,3 +191,51 @@ log:
       Members of Congress are named as public officials in their own disclosures. The votes-and-money claim
       makes no inducement claim (P5, P9). Gaps: trips before 2019 (House) and 2022 (Senate) not online; 28 of
       34 votes not checked against official XML; the 2026 UN business update (A/HRC/63/20) not opened.
+  - id: L-20
+    date: 2026-10-16
+    entry: >
+      CORRECTIONS after the independent review of tip 0060974 (the review file is not in the repository; its findings are
+      restated here). Earlier entries are unchanged. (1) ipm-ihh-designated-only-by-israel is an absence result: now
+      marked absence_anchor, state proposed, confidence provisional, weight 2. The Ynet article of 7 Jul 2008 was opened and
+      read in full on 16 Oct 2026: it names Barak, a ban on 36 funds, and Interpal, the Holy Land Foundation and the World
+      Assembly of Muslim Youth as earlier bans; it does not name IHH or Turkey and gives no order date. The claim no longer
+      says IHH was among the 36. The Israeli IHH entry (order date 26 May 2008) rests on the OpenSanctions copy only; the
+      NBCTF site was opened (Hebrew page) but its list file could not be retrieved. The timeline entries that repeated the
+      earlier wording were corrected. (2) ipm-sc-vetoes: the 22 Dec 2023 item is a vote on a Russian oral amendment, not a
+      draft resolution (S/PV.9520: amendment 10-1-4, US against; the draft, S/2023/1029, was then adopted as resolution
+      2720, 13-0-2). The 18 Apr 2024 US veto of the draft on Palestine's UN admission (S/2024/312, S/PV.9609, 12-1-2) was
+      missing from data/sc-vetoes-1993-2025.json and has been added; all 25 meeting records were downloaded from
+      documents.un.org, hashed, and each result and Against list read (data/sc-vetoes-meeting-records.csv). Counts:
+      25 entries in the UN list, 23 US (22 drafts and one amendment), 2 China and Russia; drafts only: 24, of which
+      22 US. The claim and the assessment text were reworded and the claim is now anchored on the records (primary). (3) The
+      three gap claims that said threads were "not yet dug" (ipm-influence-ledger-gap, ipm-palestinian-aid-gap,
+      ipm-settlement-funding-gap) were rewritten to list what has since been read and what remains. (4) Wording fixes:
+      Canada's UN votes (Yes outnumbered No through 2007, 7 to 7 in 2008, No outnumbered Yes from 2009 to 2023, Yes
+      outnumbered No in 2024 and 2025); Interpal "as reported to the Lords"; LaPam appears in the Bridges Partners filing
+      ("LAPAM International") and not in the Clock Tower X filings, which name Havas Media Germany GmbH; Clock Tower X's first
+      amendment raises its "combined budget pool" from $6,000,000 to $9,000,000 while its statement shows receipts of
+      $15,000,000 (both as filed); ipm-fara-payees-not-nonprofits moved from established to proposed with the untried name
+      variants listed; the assessment key point on reversals now says eight of the ten come from one episode; the
+      assessment now lists the claims held at a secondary anchor and states coverage by channel.
+  - id: L-21
+    date: 2026-10-16
+    entry: >
+      Documented-flows pass, same rules for every channel (data/PARTB_SELECTION_RULES.md; rows in
+      data/documented-flows-2026-10-16.csv with payer, payee, amount, currency, year, document, document date, source id and
+      read status). Fourteen claims added: US appropriations 1; Palestinian Authority, UNRWA and aid after 2015 3; other
+      states 5 (UK, Qatar, Türkiye, Iran and a donor-table absence result); EU 1; non-state 3 (FARA by country label,
+      UK charity register, US returns by name keyword); coverage 1. Read: US public laws 118-47, 118-50, 119-4, 115-141
+      (Sec. 1002); six World Bank AHLC reports; two Commission pages; OECD DAC2A; the hashed OCHA flows re-aggregated by payer;
+      UK FCDO project data; CORDIS; the FARA register and 153 latest statements (153 rows, 98 with a figure by pattern); the UK
+      Charity Commission extract; ProPublica totals for 1,828 names (668 with financial data). The FARA, ProPublica and
+      charity-name selections are by written rule and include unrelated names; they are recorded as extraction results, not as
+      readings of each filing. Not read, with reasons, in the CSV: UNRWA audited statements, ForeignAssistance.gov, enacted
+      FY2026 act and explanatory statements, IMF and Palestinian MoF reports, World Bank reports after Sept 2023, Nordic,
+      Japanese, German, Turkish, Qatari, Saudi, Iranian and Egyptian budget documents, EU Financial Transparency System, Israeli,
+      Dutch and German registers, IHH reports. Dollar figures from the FARA pattern were checked against three filings read by eye
+      (7649, 7553, 7653); the rest were not checked by eye.
+  - id: L-22
+    date: 2026-10-16
+    entry: >
+      Taxonomy: the taxonomy file is owner-only. The suggested line is in PROPOSED_TAXONOMY.yaml in this folder. No review.yaml
+      was written and the subject was not added to publish.
