@@ -1,533 +1,831 @@
-# Dig: Tell el-Dab'a (Avaris). Every claim is secondary: no object, plate or photograph was examined for signs. Books, translations and videos are claims, not primary data.
+# Dig: Tell el-Dab'a (Avaris). Second pass 2026-10-16: the excavators' own publications (Schiestl 2006, Schiestl 2009 with catalogue and plates, Bietak 1996) were read, and the figures in the open PDFs were viewed.
+# What was read is the excavation team's reports and reconstructions; the statue fragments, the tombs and the bones themselves were not seen. Books, translations and videos are otherwise claims, not primary data.
+# Claim ids from the first pass are kept. Where a claim was changed, split or re-labelled, the change is in log L-07 to L-12 (earlier log entries are unchanged).
 subject: avaris-tell-el-dab-a
 title: >-
   Tell el-Dab'a (Avaris): the palatial mansion, garden cemetery and Asiatic statue, and what Dead Hidden says they are
 question: >-
-  What was actually found at Avaris/Tell el-Dab'a (a palace with twelve columns, twelve tombs, a statue), when, and whom do the excavators say
-  it represents?
+  What was found at Avaris/Tell el-Dab'a (a palace with twelve columns, twelve tombs, a statue), when, and whom do the excavators say it shows?
 dig_status: open
+headline: "Avaris statue: the excavators judge its likely tomb older than the palace garden cemetery"
+headline_claim: avaris-statue-findspot-ambiguous
 headline_status: draft
+assessment:
+  question: "What was found at Avaris/Tell el-Dab'a (a palace with twelve columns, twelve tombs, a statue), when, and whom do the excavators say it shows?"
+  answer: partly
+  headline: "A mansion, a garden cemetery and a smashed statue of an Asiatic man were found; the excavators name no person, and the twelve-tomb and pyramid details are not in the texts read."
+  text: >
+    The excavators' publications read (Schiestl 2006 and 2009, Bietak 1996) describe a palatial mansion of the early 13th Dynasty in area F/I, a garden south of it that became a cemetery,
+    and fragments of a smashed statue of a seated Asiatic man about 2 m high. They read him as a high-ranking Asiatic and name no person. Schiestl 2009 judges that the statue more likely
+    stood over tomb p/19 no. 1, which belongs to the older cemetery (stratum d/2) and so predates the palatial residence (stratum d/1), while calling the stratigraphic attribution ambiguous.
+    Two details in the Joseph accounts have a counterpart in the excavators' material: the plans show rows of column symbols along the long sides of the court (about twelve per side by our
+    count of an image, which is a computed result and not an anchor), and Bietak proposed a small brick pyramid for the superstructure of p/19 no. 1, which Schiestl 2009 calls conceivable but not very probable.
+    No count of twelve tombs was found in the excavators' texts read (they give six tombs in a series, five prominent tombs with tree pits in one row, and 74 classified tombs).
+    Schiestl 2009 reports bone fragments of two individuals from the chamber of p/19 no. 1. The identifications with Joseph (Rohl, as relayed by Bar-Ron) and with Jacob
+    (Petrovich, as relayed by Billington) come from outside the excavation reports. Not read: Bietak 1991b and 1994, Eigner 1985, Rohl, Petrovich, Kitchen, Ryholt; the objects, the bones and the tomb were not seen.
+  key_points:
+    - "The excavators report a mansion, a garden that became a cemetery and a smashed statue of an Asiatic man about 2 m high; they name no person."
+    - "Their plans show rows of about twelve column symbols per long side of the court (our image count); Bietak proposed a pyramid; no count of twelve tombs was found."
+    - "Schiestl 2009 judges the statue's likely tomb, with bone fragments of two people, older than the palace; the Joseph and Jacob readings come from other authors."
+  basis:
+    - avaris-f1-mansion-garden-cemetery
+    - avaris-statue-asiatic-dignitary
+    - avaris-statue-identification-by-excavators
+    - avaris-statue-findspot-ambiguous
+    - avaris-tomb-p19-1-bones
+    - avaris-cemetery-tomb-counts
+    - avaris-mansion-columns-count
+    - avaris-schiestl-2009-pyramid-discussion
+    - avaris-largest-tomb-pyramid
+  rated_claim: avaris-statue-findspot-ambiguous
+  would_settle: >-
+    The excavators' plan of the F/I mansion with a legend and a stated column count; Bietak 1991b and 1994 and Eigner 1985 read in full; Rohl's and Petrovich's own texts read; a name or title
+    read on the statue base or on another fragment; and a stratigraphic decision for tomb p/19 no. 1 in the forthcoming F/I monograph.
 search_summary: >-
-  At Tell el-Dab'a (ancient Avaris) in the eastern Nile Delta, an Austrian team under Manfred Bietak excavated in area F/I a mansion of the early
-  13th Dynasty, a garden south of it that became an elite cemetery of Near-Eastern-style burials, and fragments of a smashed, larger-than-life
-  statue of a seated Asiatic man. The excavation texts read give the strata dates as about 1850 to 1750 BCE, name no one, and do not mention twelve
-  tombs or twelve columns; one reports bone fragments in the leading candidate tomb. The identification with Joseph or Jacob comes from outside
-  the excavation, in advocacy papers that disagree with each other. The objects, plans and photographs were not seen here.
+  At Tell el-Dab'a (ancient Avaris) an Austrian team under Manfred Bietak excavated a palatial mansion of the early 13th Dynasty, a garden that became an elite cemetery, and fragments of a smashed statue of
+  a seated Asiatic man about 2 m high. The excavators' publications read name no person for the statue. The Joseph reading comes from Rohl as relayed by Bar-Ron and the Jacob reading from Petrovich as relayed
+  by Billington. The tombs, bones and fragments were not seen; plans and photographs in open PDFs were viewed.
 description: >-
-  First dig on this object. Read: Schiestl 2006 (Agypten und Levante 16, open PDF), the auaris.at F/I page, the FWF P 34601 preliminary results
-  (Bietak's team), a third-party copy of Bietak 2022 (Wiley encyclopedia), the 2011 excavation report, Bar-Ron 2017, Billington's 2022 review
-  of Petrovich, and three Bible passages (KJV). Blocked or not opened: Bietak 1991b, 1996, Schiestl 2009, Eigner 1985, Rohl's books, Petrovich's
-  book, two pages that returned 403/Cloudflare blocks. No object, plate or photograph was examined for signs, so every claim here is secondary.
-  The Dead Hidden videos are claims, never anchors.
+  Second pass. Read: Schiestl 2006 (open PDF, figures viewed), Schiestl 2009 Tell el-Dab'a XVIII (open-access chapters, catalogue entry and plates viewed), Bietak 1996 (public scan), the auaris.at F/I page, FWF P 34601
+  preliminary results (figures viewed), a third-party copy of Bietak 2022, the 2011 excavation report, Bar-Ron 2017 (figures viewed), Billington's 2022 review of Petrovich, and the Hebrew and KJV texts of three Bible passages.
+  Blocked or not opened: Bietak 1991b, Bietak 1994, Eigner 1985, Rohl's books, Petrovich's book, Kitchen 2003, Ryholt 1997, two pages that returned 403/Cloudflare blocks. The Dead Hidden videos are claims, never anchors.
 divergence_note: >-
-  The speaker's version is: a palace with twelve columns, twelve tombs of Joseph and his brothers, a pyramid tomb with no bones, a statue of Joseph
-  or Jacob, all about 1900 BC. The excavation texts read describe a real mansion, a real garden cemetery and a real statue of an Asiatic dignitary,
-  dated about 1850 to 1750 BCE, but give no count of twelve for tombs or columns, no pyramid, no name, and report bones in the leading candidate
-  tomb. The Joseph/Jacob story is carried by a separate advocacy line (Rohl, Petrovich, relayed by Bar-Ron and Billington) whose members disagree
-  with each other and which the authors' own chronology and reading choices drive. Where the line runs between the excavators' record and the
-  advocates' reading is the product here; the object-level record (plans, photographs, Bietak 1991b and 1996, Schiestl 2009) is the next thing
-  to open.
+  Coverage facts only. Bar-Ron (2017) states that the palace has two rows of twelve columns, that there were twelve prominent tombs, that one is a pyramid tomb whose body had been removed, and that the statue (which he gives as 3 m high)
+  is the vizier Ankhu, whom he identifies with Joseph; he credits Rohl for these. Billington (2022) reports that Petrovich reads the statue as Jacob and the palace as built by Ephraim and Manasseh. The excavators' publications read
+  (Schiestl 2006 and 2009, Bietak 1996) give the statue as about 2 m high and unnamed, report bone fragments of two individuals in tomb p/19 no. 1, report six tombs in a series and five tombs with tree pits in a row,
+  describe columns on the four sides of the court, and give Bietak's proposed pyramid superstructure and Schiestl's judgment on it. The speaker's claims (video claim lines) match Bar-Ron's list in wording; the path by which they
+  reached the speaker is not known. Where the excavation record and these readings differ is the subject of the claims below; the object-level record not yet read (Bietak 1991b, 1994; Eigner 1985) is the next thing to open.
 claims:
+
+# ---------------------------------------------------------------- what the excavators report
+
 - id: avaris-f1-mansion-garden-cemetery
-  state: proposed
+  state: established
   statement: >-
-    The excavators of Area F/I at Tell el-Dab'a (ancient Avaris) report a mansion of the early 13th Dynasty (phase G/4), a garden south of it,
-    and an elite cemetery that later developed in that garden. Their own word for the building is 'palatial mansion'.
+    The excavators of Area F/I at Tell el-Dab'a (ancient Avaris) report that in stratum d/1 (= G/4, early 13th Dynasty) the northern settlement was razed and replaced by two large residential complexes in Egyptian style,
+    the so-called 'palace', that the area to the south was converted into a garden, and that after a short time the garden layout was abandoned and a cemetery of rows of very large tombs was built there.
+    Schiestl (2009) writes that, 'despite the lack of any clear evidence for direct royal links', the building is more appropriately classified as an 'elite residence'.
   statement_kind: reported
-  evidence_class: interpretive
-  confidence: low
-  evidential_weight: 2
-  anchor_checked: secondary
+  evidence_class: primary_text
+  confidence: moderate
+  evidential_weight: 4
+  anchor_checked: primary
   adoption_weight: 2
   adoption_note: >-
-    Widely repeated in the advocacy literature read (Bar-Ron 2017, Billington 2022) as a 'palace'; the excavators' own reports read use 'palatial
-    mansion'.
+    The building is called a 'palace' in Bar-Ron 2017 and in the speaker's claim lines (read); the excavators' texts read use 'palatial mansion', 'palatial residence' and 'palace' in quotation marks. Audience and citation counts were not measured.
   would_change_if: >-
-    the plans and field records of Area F/I (Bietak, Eigner and Martin monograph in preparation; Tell el-Dab'a XVIII) show a different building,
-    phase or date, or the object-level record is read and differs from these summaries
+    the plans and field records of Area F/I (the Bietak, Eigner and Martin monograph in preparation) show a different building, phase or date, or the forthcoming monograph reclassifies the building
   anchor:
-    type: interpretive
+    type: primary_text
     description: >-
-      Read: FWF P 34601 preliminary results, section II.1 (Area F/I): 'South of the mansion, a garden was discovered with systematically planted
-      trees and plant beds' and 'a cemetery developed within the former garden to the south, containing a series of elite tombs published by R.
-      Schiestl'. Bietak 2022 (Wiley encyclopedia, copy): 'South of the two mansions were gardens, which were later used as a cemetery for dignitaries
-      residing in those mansions.' Both come from the excavation director's team, so they are one origin, not two. No plan, photograph or field
-      record was viewed.
+      Read: R. Schiestl, Tell el-Dab'a XVIII (2009), English Summary p. 480: 'the settlement in the north is razed and replaced by two enormous residential complexes in Egyptian style, the so-called "palace",
+      while the area in the south is converted into a garden'; 'a cemetery consisting of rows of very large tombs is built'; 'Despite the lack of any clear evidence for direct royal links, the name "palace" has become
+      established ... more appropriately classified as an "elite residence"'. Chapter I p. 19 says that a palatial residence was built in stratum d/1. Same team, other texts read and not relied on here: FWF P 34601 section III.1 ('South of the mansion, a garden
+      was discovered ... a cemetery developed within the former garden to the south'), Bietak 1996 ('Later the gardens were used as a cemetery for the functionaries of the palace'), Bietak 2022. These are one origin (the excavation
+      team), not independent confirmations. The FWF plan (Fig. 1) and Bietak 1996 Fig. 18 were viewed and show a walled building complex with a courtyard, rooms, circles and a garden area to the south.
     sources:
-    - src-fwf-p34601
-    - src-bietak-2022-eah
-    - src-auaris-f1
+    - src-schiestl-2009-td18
   basis: >-
-    # V: FWF document and Bietak 2022 text read 2026-10-14. Same team, same origin; treated as one witness. Says what the excavators publish;
-    not the ground itself.
+    # V: Schiestl 2009 English Summary and chapter I read 2026-10-16. A statement of what the excavators publish; not the ground itself. The FWF text calls the same building 'palatial mansion' and describes its ground floor as likely an administrative complex; Schiestl 2009 (chapter X) says the function of the palatial building and its relation to the necropolis 'bleiben unklar' (remain unclear).
+
 - id: avaris-statue-asiatic-dignitary
-  state: proposed
+  state: established
   statement: >-
-    Fragments of a smashed, larger-than-life limestone statue of a seated man were found at Tell el-Dab'a, Area F/I, between 1986 and 1988. Schiestl
-    (2006) reconstructs it as about 2 m high, wearing a mushroom-shaped coiffure, with yellowish skin and a throw-stick or crook; the excavators
-    read it as an Asiatic man holding a position of power.
+    Fragments of a smashed, larger-than-life limestone statue of a seated man were found at Tell el-Dab'a, Area F/I, between 1986 and 1988, in several tombs of the south-eastern cemetery. Schiestl (2006, 2009) reconstructs it as about 2 m high
+    (about one and a half times life size), with a mushroom-shaped hairdo painted dark brownish red, yellowish skin, a striped cloak and a throw-stick or crook held in the right hand, and reads it as an Asiatic man in a position of power.
   statement_kind: reported
-  evidence_class: interpretive
-  confidence: low
-  evidential_weight: 2
-  anchor_checked: secondary
+  evidence_class: primary_text
+  confidence: moderate
+  evidential_weight: 4
+  anchor_checked: primary
   adoption_weight: 3
   adoption_note: >-
-    The statue is often shown and described; the excavators' reading (an Asiatic dignitary) is the baseline both the speaker and the advocacy
-    literature start from.
+    The statue is described and shown in Schiestl 2006 and 2009, Bietak 1996, Bar-Ron 2017 and Billington 2022 (all read) as an Asiatic man; the size differs between them (see avaris-statue-height-2m-vs-3m). Audience was not measured.
   would_change_if: >-
-    the fragments, the 1991 excavation report (Bietak 1991b) or Schiestl's 2009 monograph are read and give different dimensions, a different
-    findspot or a different reading of the figure
+    the fragments, Bietak 1991b or the F/I monograph are read and give different dimensions, a different findspot or a different reading of the figure
   anchor:
-    type: interpretive
+    type: primary_text
     description: >-
-      Read: Schiestl 2006, Agypten und Levante 16, 173-185 (OeAW open PDF): 'All the pieces of the statue presented here were found between 1986
-      and 1988 in a southeastern part of the cemetery F/I'; 'The seated figure of a man reaches a height of approximately 2 m'; 'The figure is
-      approximately one and a half times life size.' Also read: auaris.at F/I page (Schiestl text): 'It portrayed a seated man wearing a striped
-      cloak and a red, mushroom shaped headdress ... The skin color of the man is shown yellowish. In the right hand he is holding a throw stick'.
-      Photographs in the PDF were not examined for detail; the reconstruction is Schiestl's, not the object.
+      Read: Schiestl 2006, Agypten und Levante 16, 173-185: 'All the pieces of the statue presented here were found between 1986 and 1988 in a southeastern part of the cemetery F/I'; 'The seated figure of a man reaches a height of approximately 2 m';
+      'The figure is approximately one and a half times life size.' Schiestl 2009 chapter III.3.2 (pp. 80-84): reconstructed total height 'annähernd 2 m', about one and a half times life size; fragments in four tombs, the largest group (head, remains of an inscribed base)
+      in a robbers' shaft from the superstructure to the chamber of F/I-p/19-Nr. 1. Viewed 2026-10-16: Schiestl 2006 Figs 2 and 3 (line drawings of the reconstruction; the head with a broad mushroom-shaped hairdo, the right hand raised to the shoulder,
+      the seat and base), Fig. 5 (drawing of the garment with red, black and white stripes beside a photograph of the right shoulder fragment), Schiestl 2009 Tafel IV (photographs of the fragments in situ in the shaft of tomb p/19-Grab 1).
+      The reconstruction is Schiestl's, based on a small part of the whole (his words: 'a very small part'); the figures show what he reconstructs, not the complete object.
     sources:
     - src-schiestl-2006
-    - src-auaris-f1
-    - src-fwf-p34601
+    - src-schiestl-2009-td18
     nodes:
     - node: avaris-1986-1988-statue-fragments-found
       verb: supports
   basis: >-
-    # V: read 2026-10-14. Schiestl's size is a reconstruction ('Putting the pieces together'); the fragments themselves are a small part of the
-    whole (his words).
+    # V: read 2026-10-16. Schiestl 2006 and 2009 are two treatments by one author, so one witness. Bietak 1996 gives the statue as 'nearly twice life-size' (same team).
+
 - id: avaris-statue-identification-by-excavators
+  state: established
+  statement: >-
+    Schiestl (2006) writes that the statue 'clearly shows an Asiatic man in power, a dignitary' that 'could also be read as a dignitary ruling over Asiatics'. Schiestl (2009, chapter IX) writes that the statue, from stratum d/2, conveys in its monumentality
+    'einen nach aussen getragenen Machtanspruch' (a claim to power carried outward) while avoiding all royal attributes, Egyptian and Near Eastern, and proposes as a counter-model that the buried men of stratum d/1 were officials in Egyptian state service.
+    Neither names a person.
+  statement_kind: reported
+  evidence_class: primary_text
+  confidence: moderate
+  evidential_weight: 4
+  anchor_checked: primary
+  adoption_weight: 1
+  adoption_note: Not measured. The speaker's claim lines (read) and Bar-Ron 2017 and Billington 2022 (read) go to Joseph or Jacob; none of them states Schiestl's reading.
+  would_change_if: >-
+    a name or title is read on the statue base or another fragment, or the forthcoming F/I monograph argues a specific identity
+  anchor:
+    type: primary_text
+    description: >-
+      Read: Schiestl 2006, p. 183: 'While it clearly shows an Asiatic man in power, a dignitary, it could also be read as a dignitary ruling over Asiatics.' Schiestl 2009, chapter IX p. 212 (German, paraphrased with short fragments): the statue from stratum d/2
+      'vermittelt in ihrer Monumentalitat einen nach aussen getragenen Machtanspruch. Sie vermeidet jedoch jegliche koniglichen Attribute'; p. 213: the buried men are 'Beamte im agyptischen Staatsdienst'. The sentence that cuts against a neat
+      'no power' reading is the first of these: Schiestl does state that the statue expresses a claim to power; what he denies is royal status.
+    sources:
+    - src-schiestl-2006
+    - src-schiestl-2009-td18
+  basis: >-
+    # V: read 2026-10-16 (German text layer; fragments given in plain ASCII). These are Schiestl's interpretations; they are not facts about the ground.
+
+- id: avaris-statue-prince-of-retjenu-possible
   state: proposed
   statement: >-
-    The excavators read the statue as a high-ranking Asiatic dignitary of Tell el-Dab'a and have suggested, with a question mark, that he may
-    have held the Egyptian-bestowed title 'Prince of Retjenu'. Schiestl also states that it could be read as 'a dignitary ruling over Asiatics'.
-    None of these readings names a person.
+    The FWF P 34601 preliminary report by Bietak's team writes that the statue may have represented a 'Prince of Retjenu', 'with the title serving as an honorary designation bestowed by the Egyptian crown upon the highest-ranking dignitary of Western Asiatic ancestry at Tell el-Dab'a',
+    and records an amethyst scarab with the title 'Prince of Retjenu' and the name 'Sobekemhat'. It does not say the scarab belongs to this statue.
+  statement_kind: reported
+  evidence_class: interpretive
+  confidence: low
+  evidential_weight: 2
+  anchor_checked: 'no'
+  adoption_weight: 1
+  adoption_note: Not measured. Not repeated in the advocacy texts read.
+  would_change_if: >-
+    the forthcoming monograph or Bietak's reports argue the identification with reasons, or a name or title is read on the statue
+  anchor:
+    type: interpretive
+    description: >-
+      Read: FWF P 34601 section III.1 (not II.1 as the first-round note said): 'It is possible that this statue represented a "Prince of Retjenu", with the title serving as an honorary designation bestowed by the Egyptian crown upon the highest-ranking dignitary
+      of Western Asiatic ancestry at Tell el-Dab'a.' The section heading ends 'Probable Residence of an Asiatic Dignitary (Prince of Retjenu?)'. Schiestl 2009 (chapter IX, p. 213) says the partly preserved title on the amethyst scarab from tomb F/I-m/18 no. 3
+      'lasst sich nicht zu einem koniglichen Titel erganzen' and that all proposed readings point to an official title conferred by Egypt. One team, one origin; the FWF report is an unreviewed project report.
+    sources:
+    - src-fwf-p34601
+    - src-bietak-2022-eah
+  basis: A possibility flagged by the team in its own words; read 2026-10-16.
+
+- id: avaris-statue-base-no-name-read
+  state: searched_gap
+  statement: >-
+    Schiestl (2006, 2009) reports that of the hieroglyphic text on the surviving base block the only legible part is the word snTr 'incense' at the start of the lower line, that a second line above it is illegible, and gives no personal name.
+  statement_kind: search_result
+  evidence_class: interpretive
+  confidence: low
+  evidential_weight: 1
+  anchor_checked: 'no'
+  adoption_weight: 1
+  adoption_note: Not measured. Not mentioned in the speaker's claim lines or the advocacy texts read.
+  would_change_if: >-
+    the base block, its photographs or a hand copy are read by an epigrapher and show a name or title, or Bietak 1991b (Taf. 16-17) or the F/I monograph publishes more text
+  next_step: >-
+    Have the photograph and drawing of the base block (Schiestl 2009 Tafel IV d; Bietak 1991b Taf. 16-17) read by an epigrapher.
+  absence_anchor: true
+  anchor:
+    type: search-record
+    description: >-
+      Read: Schiestl 2006, p. 182: 'Of the hieroglyphic inscription the only legible part is the word [snTr], incense, written at the beginning of a horizontal line of text, running from right to left. Above it, a second horizontal line can just be made out, but the signs
+      unfortunately remain illegible.' Schiestl 2009, III.3.2.1 p. 80: the block, 25 cm high, has two preserved horizontal lines on top, the lower legible, the upper not decipherable; the word 'incense' belongs to the offering formula. Viewed 2026-10-16: Schiestl 2009 Tafel IV d
+      (photograph of the base fragment in situ): shallow carved lines are visible on the broken face; the signs could not be read by us at that resolution and angle (not read). The 2006 text layer prints the transliteration with a c; the 2009 text layer prints snTr; the signs were not checked
+      against the printed page glyphs.
+    sources:
+    - src-schiestl-2006
+    - src-schiestl-2009-td18
+  basis: >-
+    A statement about what Schiestl could read. It is not an absence in the object: the signs were not read here. Capped by absence_anchor.
+
+- id: avaris-statue-findspot-ambiguous
+  state: proposed
+  statement: >-
+    Schiestl (2006) says the statue's original position and stratigraphic attribution 'remain ambiguous'. Schiestl (2009) says the distribution of fragments gives no clear original place, that tomb p/19-Nr. 1 (stratum d/2) is favoured because the largest group of fragments lay there,
+    that production in stratum d/2 fits the cemetery better, and that stratum d/2 is more likely; he treats p/21-Nr. 1 (d/1) as the alternative. On that reading the statue and its likely tomb are older than the palatial residence (stratum d/1).
+  statement_kind: judgment
+  evidence_class: primary_text
+  confidence: low
+  evidential_weight: 3
+  anchor_checked: primary
+  adoption_weight: 1
+  adoption_note: >-
+    The texts read give different strata: Bietak 2022 puts the chapel statue in phase H, Bar-Ron 2017 says it 'was found in Stratum G/4', Bietak 1996 says Eigner considers d/2 probable. Neither Bar-Ron nor the speaker's claim lines (read) mention the ambiguity. Audience not measured.
+  would_change_if: >-
+    the excavators publish a stratigraphic decision (the F/I monograph, expected early 2026 per the FWF report), or Bietak 1991b, 1994 or Eigner 1985 are read and say otherwise
+  anchor:
+    type: primary_text
+    description: >-
+      Read: Schiestl 2006, p. 175: 'Thus, unfortunately, the original position and stratigraphic attribution of the statue remain ambiguous.' Schiestl 2009: III.3.2.2 p. 84 ('Aus der Verteilung der Statuenfragmente lasst sich archaologisch kein eindeutiger ursprunglicher Aufstellungsort ableiten';
+      'Eine Herstellung in Str. d/2 ist im Kontext der Gesamtnekropole stimmiger'; synchronous making of this statue and the small statuette from tomb l/19 no. 1 'erscheint hochst unwahrscheinlich'); English Summary p. 482: 'Its stratigraphic position remains ambiguous, but stratum d/2 is more likely';
+      chapter X p. 216: set up in the superstructure of a tomb 'mit hoher Wahrscheinlichkeit des Str. d/2'; chapter IX p. 212 (note 2079) says that Bietak's preliminary reports discuss p/19-Nr. 1 as lying between d/2 and d/1 'und keine eindeutige Zuordnung getroffen'.
+      Schiestl 2009 p. 212: with the statue older, 'ist jedoch die Gleichzeitigkeit mit der palatialen Residenz verloren'. Schiestl 2009 English Summary p. 480 also states that the name 'palace necropolis' applies only to the younger cemetery, stratum d/1. Viewed: Schiestl 2006 Fig. 1 (plan with the shaded tombs
+      p/19-Nr. 1 and 10, o/20-Nr. 11, p/21-Nr. 1 where fragments were found).
+    sources:
+    - src-schiestl-2006
+    - src-schiestl-2009-td18
+    nodes:
+    - node: avaris-1986-1988-statue-fragments-found
+      verb: qualifies
+  basis: >-
+    # V: read 2026-10-16. A hedged judgment by the excavator (his words: 'more likely', 'tentatively'). Bietak 2022 ('Phase H') and Bietak 1996 (Eigner: probable d/2) point the same way; Bar-Ron's 'Stratum G/4' differs. Not an established stratigraphic fact.
+
+- id: avaris-statue-height-2m-vs-3m
+  state: proposed
+  statement: >-
+    The published heights of the statue differ. Schiestl (2006, 2009) gives 'approximately 2 m' (about one and a half times life size) for the reconstructed seated figure; Bietak (1996) says 'nearly twice life-size'; Bar-Ron (2017) says 'a 3-meter-high, sitting statue'.
+    Bar-Ron's figure credits a reconstruction drawing of a coloured coat to Rohl (p. 118); no source for the 3 m figure is given in the text read.
+  statement_kind: reported
+  evidence_class: interpretive
+  confidence: low
+  evidential_weight: 2
+  anchor_checked: 'no'
+  adoption_weight: 2
+  adoption_note: 'The 3 m figure is repeated in Bar-Ron 2017 (read); the speaker''s claim lines (read) give no height. Audience not measured.'
+  would_change_if: >-
+    Rohl's text is read and gives the basis for 3 m, or the fragments are measured and the reconstruction revised
+  anchor:
+    type: interpretive
+    description: >-
+      Read: Schiestl 2006 p. 175 ('approximately 2 m'; 'approximately one and a half times life size'; a depth of seat about 70 cm and total about 1.3 m including the base); Schiestl 2009 p. 83 ('annahernd 2 m'); Bietak 1996 ('nearly twice life-size'); Bar-Ron 2017 p. 4 ('with the broken remains of a 3-meter-high, sitting statue').
+      Bar-Ron's picture of the statue is a coloured drawing with a coat in red, blue, black and white; Schiestl 2009 p. 82 fn. 487 quotes Rohl 1995 for the coat and does not accept the coat as a reconstruction of surviving parts (see avaris-schiestl-2009-on-rohl-coat).
+      The two sets of numbers are not reconciled by any source read.
+    sources:
+    - src-schiestl-2006
+    - src-schiestl-2009-td18
+    - src-bar-ron-2017
+    - src-bietak-1996
+  basis: >-
+    # V: read 2026-10-16. Both numbers are stated by their authors; neither is a measurement of the fragments. The difference is recorded, not resolved.
+
+- id: avaris-munich-aas-7171
+  state: proposed
+  statement: >-
+    A second Western Asiatic head with a mushroom-shaped hairdo, in the Museum of Egyptian Art in Munich (ÄS 7171), is named in the sources read. Schiestl (2006) calls it 'the closest parallel', 'recently acquired', and notes traces of a beard; Bietak (2022) writes that 'from this phase (G/4) seems to originate
+    a high-quality statue of another Western Asiatic dignitary with a mushroom-shaped coiffure, now in the Museum of Egyptian Art in Munich (ÄS 7171)'. No source read gives a findspot for it.
+  statement_kind: reported
+  evidence_class: interpretive
+  confidence: low
+  evidential_weight: 2
+  anchor_checked: 'no'
+  adoption_weight: 1
+  adoption_note: Not measured. Not mentioned in Bar-Ron 2017, Billington 2022 or the speaker's claim lines (read).
+  would_change_if: >-
+    the Munich museum record or Wildung 2000 (no. 83) is read and gives a provenance, a date or a different attribution
+  anchor:
+    type: interpretive
+    description: >-
+      Read: Schiestl 2006 p. 179: 'The closest parallel is a limestone head recently acquired by the Egyptian Museum in Munich', with 'traces of a beard' and footnote 12 'MAS 7171, WILDUNG 2000, 149, Nr. 83'. Bietak 2022 (third-party copy, p. 2 of the entry): 'From this phase (G/4) seems to originate a high-quality statue of another Western Asiatic dignitary with a mushroom-shaped coiffure,
+      now in the Museum of Egyptian Art in Munich (AS 7171).' The two texts differ on how close the connection to Tell el-Dab'a is (a parallel in one, an origin 'seems' in the other). Not read: the museum record, Wildung 2000. Viewed: the head photograph on the auaris.at F/I page (pic_9) is of the Tell el-Dab'a head and shoulder, not the Munich head.
+    sources:
+    - src-schiestl-2006
+    - src-bietak-2022-eah
+  basis: Listed because it is a second object of the same type that a later reader could confuse with the F/I statue. Not used for any other claim.
+
+- id: avaris-statue-prince-or-king-ryholt
+  state: contested
+  statement: >-
+    The statue of the Asiatic man shows a king, or a treasurer, of the 14th Dynasty. (Position of K. Ryholt as reported by Schiestl 2009, p. 212; Ryholt's text was not read.)
   statement_kind: judgment
   evidence_class: interpretive
   confidence: low
   evidential_weight: 2
-  anchor_checked: secondary
-  adoption_weight: 2
-  adoption_note: The excavators' reading is hardly seen in the speaker's wording, which goes to Joseph or Jacob.
-  would_change_if: >-
-    a name or title is read on the statue base or another fragment, or the 2009 and forthcoming Bietak/Eigner/Martin monographs argue a specific
-    identity
-  anchor:
-    type: interpretive
-    description: >-
-      Read: FWF P 34601 (section II.1): 'It is possible that this statue represented a "Prince of Retjenu", with the title serving as an honorary
-      designation bestowed by the Egyptian crown upon the highest-ranking dignitary of Western Asiatic ancestry at Tell el-Dab'a.' Schiestl 2006,
-      p. 183: 'While it clearly shows an Asiatic man in power, a dignitary, it could also be read as a dignitary ruling over Asiatics.' The same
-      FWF page records an amethyst scarab with the title 'Prince of Retjenu' and the name 'Sobekemhat'; no source read ties that name to this
-      statue.
-    sources:
-    - src-fwf-p34601
-    - src-schiestl-2006
-  basis: >-
-    # V: read 2026-10-14. These are the excavators' interpretations (interpretive, secondary), flagged by them as possibilities.
-- id: avaris-statue-base-no-name-read
-  state: searched_gap
-  statement: >-
-    No personal name of the statue's owner has been read. The only legible part of the hieroglyphic inscription on the surviving base block is
-    a word given as 'incense'.
-  statement_kind: search_result
-  evidence_class: primary_text
-  confidence: low
-  evidential_weight: 1
   anchor_checked: 'no'
   adoption_weight: 1
-  adoption_note: >-
-    Not mentioned in the speaker's claims or in the advocacy papers read, which name Joseph, Jacob or the vizier Ankhu by inference.
+  adoption_note: Not measured. The speaker's claim line calls the figure 'a foreign king' in one wording (read); no text read links that wording to Ryholt.
   would_change_if: >-
-    the base block, its photographs or a hand copy are read and show a name or title, or the 2009 monograph publishes more text
-  next_step: >-
-    View the base-block photograph and drawing in Schiestl 2009 (Tell el-Dab'a XVIII) or Bietak 1991b, and transcribe the signs.
-  absence_anchor: true
-  anchor:
-    type: search-record
-    description: >-
-      Read in Schiestl 2006, p. 182: 'Of the hieroglyphic inscription the only legible part is the word cnTr, incense, written at the beginning
-      of a horizontal line of text, running from right to left.' (cnTr is the transliteration as printed in the text layer of the open PDF.) Not
-      read: the block itself, its photograph, Bietak 1991b Taf. 16-17, Schiestl 2009.
-    sources:
-    - src-schiestl-2006
-  basis: >-
-    A statement about what Schiestl could read. It is not an absence in the object; the signs were not viewed here. Capped by absence_anchor.
-- id: avaris-statue-findspot-ambiguous
-  state: proposed
-  statement: >-
-    Where the statue originally stood, and in which stratum, is not settled in the publication read. Fragments were scattered over tombs of strata
-    d/2 (phase H), d/1 (phase G/4) and possibly c; Schiestl names tomb p/19 no. 1 (d/2) as a very good possibility and tomb p/21 no. 1 (d/1) as
-    also qualifying.
-  statement_kind: reported
-  evidence_class: interpretive
-  confidence: low
-  evidential_weight: 2
-  anchor_checked: secondary
-  adoption_weight: 1
-  adoption_note: >-
-    The advocacy papers read place the statue in stratum G/4 beside the palace; Bietak 2022 puts the chapel statue in phase H. Neither the ambiguity
-    nor the difference is mentioned there.
-  would_change_if: >-
-    the excavators publish a stratigraphic decision (Bietak, Eigner and Martin monograph, expected early 2026 per the FWF page), or Schiestl 2009
-    settles it
+    Ryholt 1997 (pp. 104-105, 359-378) is read and argues the reading, or a title or royal attribute is read on the statue or its tomb
   anchor:
     type: interpretive
     description: >-
-      Read: Schiestl 2006, p. 175: 'Thus, unfortunately, the original position and stratigraphic attribution of the statue remain ambiguous.'
-      Bietak 2022: 'A chapel on top of a big tomb contained a larger-than-life-size statue of a high-ranking prince (Phase H).' Bar-Ron 2017:
-      'it was found in Stratum G/4'. These three statements do not agree on the stratum.
+      Read: Schiestl 2009, p. 212 (German): 'In der Statue des asiatischen Mannes sieht K. Ryholt die Darstellung eines Konigs oder eines Schatzmeisters der 14. Dynastie.' Schiestl then states that Ryholt's reading of the cemetery as a 14th Dynasty royal necropolis is 'auf jeden Fall abzulehnen' (to be rejected in any case)
+      and that 'die Frage bestehen bleibt' (the question remains) whether the cemetery could be a necropolis of Asiatic petty princes or kings; he lists objections: (1) the plan of the d/1 cemetery is egalitarian, (2) the individual tombs are modest next to official tombs at Abydos and Dahshur, (3) no royal insignia were found in the
+      cemetery area, and the statue lacks royal attributes, (4) the partly preserved title on a scarab cannot be completed to a royal title. He adds that the statue is from stratum d/2 and so older than the palatial residence. The sentence that cuts against a neat 'no royal reading' summary is that Schiestl leaves the general question open before arguing against it.
+      Ryholt's own words, his reasons and what he says about the statue are not known from a read source.
     sources:
-    - src-schiestl-2006
-    - src-bietak-2022-eah
-    - src-bar-ron-2017
-    nodes:
-    - node: avaris-1986-1988-statue-fragments-found
-      verb: qualifies
-  basis: '# V: read 2026-10-14. The disagreement is between texts read; no stratigraphic record was viewed.'
-- id: avaris-tomb-p19-1-bones
-  state: proposed
+    - src-schiestl-2009-td18
+    - src-ryholt-1997
+  basis: >-
+    # V: Schiestl 2009 pp. 212-213 read 2026-10-16. The claim states Ryholt's position as Schiestl reports it. Schiestl's objections are his; Ryholt had no reply in anything read.
+  positions:
+  - label: 'King or treasurer of the 14th Dynasty'
+    holder: K. Ryholt, as reported by R. Schiestl 2009 (Ryholt not read)
+    ground: not known from a source read
+  - label: 'No royal attributes; an official of the Egyptian state; question of petty princes left open before objections'
+    holder: R. Schiestl 2009
+    ground: egalitarian plan, modest tombs, no royal insignia, official title on the scarab, statue older than the palatial residence
+  disputed_by:
+  - who: R. Schiestl (2009, chapter IX)
+    kind: person
+    position: rejects Ryholt's reading of the cemetery as a 14th Dynasty royal necropolis and gives four objections to royal readings of the cemetery
+    source_read: yes, Schiestl 2009 chapter IX
+    via: direct
+
+- id: avaris-schiestl-2009-on-rohl-coat
+  state: established
   statement: >-
-    In the open publication read, the massive tomb p/19 no. 1 (Schiestl's leading candidate for the statue's original place) is described as completely
-    plundered, but bone fragments from its burial chamber are assigned to two individuals, an adult male and a mature female.
+    In a footnote Schiestl (2009, p. 82 fn. 487) quotes Rohl (1995) on a 'wondrous coat of many colours' and calls Rohl's proposal 'tendenziös'; he writes that the problem of Rohl's method is that the supplemented parts of his reconstruction, such as the geometrically patterned multicoloured coat,
+    serve as proof for his claim that the statue is a cult statue of the biblical Joseph. Schiestl's own reconstruction is a cloak or cape with red and black stripes (Fig. 5 of the 2006 article).
   statement_kind: reported
-  evidence_class: interpretive
-  confidence: low
-  evidential_weight: 2
-  anchor_checked: secondary
+  evidence_class: primary_text
+  confidence: moderate
+  evidential_weight: 4
+  anchor_checked: primary
+  adoption_weight: 1
+  adoption_note: Not measured. No other text read mentions the footnote.
+  would_change_if: >-
+    Rohl 1995 pp. 291 and 365-368 is read and does not say what Schiestl quotes, or Schiestl's reading of Rohl is answered in print
+  anchor:
+    type: primary_text
+    description: >-
+      Read: Schiestl 2009 p. 82 fn. 487 (German, short fragments): 'Vgl. dagegen den tendenziosen Vorschlag D. Rohls', quoting Rohl 1995, 366 ('Wrapped around the Asiatic official ... is a wondrous coat of many colours') and citing Rohl 1995, 291, 365-368;
+      'Die Problematik von D. Rohls Methode liegt darin, dass gerade die erganzten Teile seiner Rekonstruktion, wie der geometrisch gemusterte, vielfarbige Mantel, als Beweis fur seine Behauptung, dass es sich um eine Kultstatue des biblischen Josephs handele, dienen.'
+      The word 'tendenzios' and the judgment of method are Schiestl's; they are reported here as his, not adopted. Rohl's own text was not read, so the quotations in Schiestl's note are taken as printed there. Viewed: Bar-Ron 2017 p. 5 prints a coloured drawing of the statue with a coat of red, blue, black and white, credited in his note 7 to Rohl p. 118;
+      the drawing's maker and its relation to the fragments were not checked.
+    sources:
+    - src-schiestl-2009-td18
+    - src-bar-ron-2017
+  basis: >-
+    # V: footnote read 2026-10-16. States what Schiestl wrote. It does not show that his criticism is right or that Rohl's text says what Schiestl quotes.
+
+# ---------------------------------------------------------------- tombs, bones, counts
+
+- id: avaris-tomb-p19-1-bones
+  state: established
+  statement: >-
+    In the excavators' publications the massive tomb p/19 no. 1 (stratum d/2; Schiestl's leading candidate for the statue's original place) is described as completely plundered, but bone remains from its burial chamber are assigned to two individuals: a late adult man and an early mature woman.
+    Schiestl (2009) gives the identification as an oral communication of K. Grossschmidt. His chapter II adds that the chambers of the two largest superstructures (p/19-Grab 1 and p/21-Grab 1) each held remains of only two individuals.
+  statement_kind: reported
+  evidence_class: primary_text
+  confidence: moderate
+  evidential_weight: 4
+  anchor_checked: primary
   adoption_weight: 2
   adoption_note: >-
-    The 'no bones' point is central to the speaker's identification with Joseph and to the advocacy papers; the excavators' reports read do not
-    say the tomb was empty of bones.
+    The point that the largest tomb had no bones is made in Bar-Ron 2017 and in the speaker's claim line (both read) and is the premise of the identification with Joseph there; the excavators' texts read do not say that any tomb at F/I was found without bones. Reach not measured.
   would_change_if: >-
-    the anthropological report (K. Grossschmidt and team) is read and says otherwise, or the tomb in the speaker's account is a different tomb
-    (p/21 no. 1 or another)
+    the anthropological report (K. Grossschmidt and team) is read and says otherwise, or the tomb the speaker and Bar-Ron mean is a different tomb
   anchor:
-    type: interpretive
+    type: primary_text
     description: >-
-      Read: Schiestl 2006, p. 175: 'The tomb had been completely plundered and nothing was left of the original tomb equipment inside the chamber.
-      Bone fragments from the burial chamber can be assigned to two individuals, an adult male and a mature female.' (footnote 4 thanks K. Grossschmidt
-      and team). Not read: the anthropological report; the speaker does not say which tomb he means; Schiestl says tomb p/21 no. 1 'would also
-      qualify' for the statue.
+      Read: Schiestl 2009, catalogue pp. 287-290, F/I-p/19-Grab 1: 'Bestattung: B 1: spatadulter Mann, evtl. junger (u.a. linker Humerus, Lendenwirbel) und B 2: fruhmature Frau (Schadelfragmente).' with a footnote 'Mundliche Mitteilung K. Grossschmidt'; Oberbau 8.02 x 6.98 m (15.33 x 13.33 cubits), eastern annex 3.74 x 3.81-3.90 m,
+      walls four bricks thick; chapter II.4.7 p. 62: the two largest superstructures (F/I-p/21-Grab 1, d/1, and F/I-p/19-Grab 1, d/2) have only slightly above-average chambers and 'in den Kammern fanden sich Reste von jeweils nur zwei Individuen'. Schiestl 2006 p. 175: 'The tomb had been completely plundered ...
+      Bone fragments from the burial chamber can be assigned to two individuals, an adult male and a mature female.' Viewed: Schiestl 2009 Tafel IV a-b (photographs of the chamber of p/19-Grab 1 and its vault; no bones are visible in them at that resolution, which says nothing about what was found), Schiestl 2006 Fig. 1.
     sources:
+    - src-schiestl-2009-td18
     - src-schiestl-2006
   basis: >-
-    # V: read 2026-10-14. This does not show the tomb the speaker means held bones; it shows the leading candidate did, per the excavators' anthropologists,
-    as relayed by Schiestl.
+    # V: catalogue entry and chapter II passage read 2026-10-16. States what the publication records; the bones and the anthropologists' own report were not seen. It does not say which tomb the speaker means.
   alternatives:
-  - text: The speaker/advocates mean another tomb (for example p/21 no. 1) that may have been found without bones.
-    why_not_preferred: No excavation report read says any tomb at F/I was found without bones; not excluded either.
+  - text: The speaker and Bar-Ron mean another tomb (for example p/21 no. 1 or a tomb not yet identified) that was found without bones.
+    why_not_preferred: No excavation text read says any tomb at F/I was found without bones; the possibility is not excluded either.
+
 - id: avaris-cemetery-tomb-counts
   state: searched_gap
   statement: >-
-    Neither Schiestl (2006) nor the F/I page on auaris.at gives a count of twelve tombs. Schiestl counts 45 tombs excavated in about 3500 m2 of
-    the stratum d/2 cemetery and 27 tombs in the stratum d/1 cemetery, 'so far'.
+    No count of twelve tombs was found in the excavators' texts read. They give: 45 tombs excavated in about 3500 m2 of the stratum d/2 cemetery and 27 tombs in the d/1 cemetery 'so far' (Schiestl 2006); 74 tombs classified, with the d/1 cemetery laid out in four rows (I to IV) and trees planted in pits
+    in front of five prominent tombs in row II (Schiestl 2009); and 'a series of six tombs' with six tree pits, and 'two other series of tombs' (Bietak 1996). Bar-Ron (2017) says 'there were 12 prominent tombs; 12 main graves for men of seniority' and prints a model photograph with structures numbered 1 to 12.
   statement_kind: search_result
   evidence_class: interpretive
   confidence: low
   evidential_weight: 1
   anchor_checked: 'no'
-  adoption_weight: 1
+  adoption_weight: 2
   adoption_note: >-
-    The number twelve appears in the speaker's wording and in Bar-Ron 2017 ('there were 12 prominent tombs'), where it is attributed to Rohl's
-    presentation, not to an excavation report.
+    The number twelve is given by Bar-Ron 2017 and in the speaker's claim lines (both read); it is attributed in Bar-Ron to Rohl's presentation (his notes 4 and 5, Rohl pp. 106-110), not to an excavation report. Reach not measured.
   would_change_if: >-
-    an excavation report is read that defines a group of twelve main tombs in the palace garden, or the speaker's source for twelve is found
+    an excavation report is read that defines a group of twelve main tombs in the garden (for example Bietak 1991b, 1994, or Rohl's page cited by Bar-Ron), or the speaker's source for twelve is found
   next_step: >-
-    Open Bietak 1996 (Avaris, Capital of the Hyksos, British Museum Press, p. 28 fig. 25, cited by Bar-Ron) and Schiestl 2009 and look for the
-    group of twelve.
+    Open Bietak 1991b, Bietak 1994 and Rohl, Exodus: Myth or History pp. 106-118 and look for the group of twelve and the origin of the numbered model.
   absence_anchor: true
   anchor:
     type: search-record
     description: >-
-      Searched (text layer) Schiestl 2006, the auaris.at F/I page and the FWF page for twelve, 12, and tomb counts. Found: Schiestl, p. 173: 'an
-      area covering roughly 3500 m2 and 45 tombs have been excavated to date' (d/2) and 'In the following stratum d/1 ... 27 tombs have been unearthed
-      so far.' Bar-Ron 2017: 'Of all the burials, there were 12 prominent tombs; 12 main graves for men of seniority.' Not read: Bietak 1991b,
-      Bietak 1996 (British Museum Press), Schiestl 2009, Rohl.
+      Searched (text layers) Schiestl 2006, Schiestl 2009 chapters I-III, IX, X and the English Summary, the auaris.at F/I page, the FWF page and Bietak 1996 (OCR text) for 'twelve', '12' and tomb counts. Found: Schiestl 2006 p. 173 ('roughly 3500 m2 and 45 tombs'; 'In the following stratum d/1 ... 27 tombs have been unearthed so far');
+      Schiestl 2009 English Summary pp. 480-481 ('74 tombs are classified'; 'four (I-IV, from east to west) have been partially excavated. In front of five prominent tombs in row II, trees were planted in pits'); Bietak 1996 ('a series of six tombs with chambers' and 'six tree-pits'; 'two other series of tombs were found'). Bar-Ron 2017 p. 4: 'Of all the burials, there were 12 prominent tombs; 12 main graves for men of seniority.'
+      Viewed: Bar-Ron's figure 'Model of the palace garden cemetery, by the Austrian Archaeological Institute' (his caption; his note 5 cites Rohl p. 110): twelve structures numbered 1 to 12, mostly vault-roofed, no. 12 pyramid-roofed at the right edge, no. 1 a large vaulted structure inside a wall; who made the model and when was not checked.
+      Viewed: Schiestl 2006 Fig. 1: the plan labels more than twelve 'TOMB' numbers, with numbering that restarts in each grid square, in the south-eastern part only. Not read: Bietak 1991b, Bietak 1994, Rohl.
     sources:
     - src-schiestl-2006
+    - src-schiestl-2009-td18
     - src-auaris-f1
     - src-fwf-p34601
+    - src-bietak-1996
     - src-bar-ron-2017
   basis: >-
-    Absence in the texts read, which are summaries; capped at provisional. The twelve may come from a selection in Rohl or Bietak 1996 that was
-    not opened.
-- id: avaris-mansion-columns-count
-  state: searched_gap
+    Absence in the texts read; capped at provisional. The twelve may come from a selection in Rohl or in Bietak's earlier reports that was not opened, or from the model numbering. No source read says how the model's numbers were chosen.
+
+- id: avaris-mansion-columns-text
+  state: proposed
   statement: >-
-    In the excavators' texts read, the F/I mansion has a reception room whose roof was 'supported by two columns' and a courtyard portico 'later
-    extended by colonnades on the remaining three sides'. No count of twelve columns was found. The only four-column building found in the reports
-    read is a Near-Eastern broad-room temple beside the later Hyksos palace (area F/II).
+    Bietak (1996) describes the early 13th Dynasty palace at F/I with a reception room (M1) with four columns, a courtyard (H) 'lined along its four sides with columns', a square room (V) with two columns, and a later reception room (M) with 'probably six columns', and notes that 'no bases were preserved' and the
+    positions of the columns were recognisable from sand-filled foundation pits. The FWF report (section III.1) says the later residence was fitted with a portico 'later extended by colonnades on the remaining three sides' and a second reception room had 'its roof supported by two columns'. No total number of columns is given in either.
+  statement_kind: reported
+  evidence_class: interpretive
+  confidence: low
+  evidential_weight: 2
+  anchor_checked: 'no'
+  adoption_weight: 1
+  adoption_note: Not measured.
+  would_change_if: >-
+    the F/I plan with a legend and the column count is read in the monograph (Bietak, Eigner and Martin) or in Eigner 1985
+  anchor:
+    type: interpretive
+    description: >-
+      Read: Bietak 1996, chapter on the palace of the early 13th Dynasty (access via a public scan; OCR text): 'a reception-room (M1) with four columns'; 'a spacious court (H) was erected and lined along its four sides with columns'; 'a square room with two columns (V)'; 'a reception-room with probably six columns (M)'; note 34 'No bases were preserved; the position of the columns was, however,
+      recognisable from the foundation pits filled with sand.' FWF P 34601 section III.1 (p. 5-6 of the PDF): 'The courtyard was enlarged westwards and the residence fitted with a portico, which was later extended by colonnades on the remaining three sides.'; 'a second, square reception room was constructed, its roof supported by two columns'.
+      Bietak 2022: 'a Near-Eastern type of broad-room temple with a series of four columns' (a different building, in the Hyksos palace area). One team, one origin.
+    sources:
+    - src-bietak-1996
+    - src-fwf-p34601
+  basis: Read 2026-10-16. The scan has weak authenticity (community upload); the FWF text is an unreviewed project report.
+
+- id: avaris-mansion-columns-count
+  state: proposed
+  statement: >-
+    In the excavators' plan of the F/I palatial mansion (FWF P 34601 Fig. 1, phase G/4, stratum d/1.1), rows of black dots lie along the two long sides of the courtyard (H). By our count of the image, each long side has twelve dots and each short side three between the corners (about 30 in the ring),
+    the room M has four dots and the portico row (E) nine black dots and one open ring. A drawn plan printed by Bar-Ron 2017 and credited to Rohl (pp. 106-107) shows the same court with a caption 'two rows of 12 central columns'. The figure has no legend; that the dots are columns is our reading, which agrees with the text of Bietak 1996 (courtyard lined with columns).
   statement_kind: search_result
+  evidence_class: synthetic
+  confidence: low
+  evidential_weight: 2
+  anchor_checked: 'no'
+  adoption_weight: 2
+  adoption_note: >-
+    Two rows of twelve columns are stated as fact in Bar-Ron 2017 and, as 'a palace with 12 columns', in the speaker's claim lines (both read). Reach not measured.
+  would_change_if: >-
+    the excavators publish a plan with a legend and a count, or an independent person recounts the dots in the original plan (a count of a 753 x 568 pixel image is not the plan)
+  next_step: >-
+    Obtain the plan with its legend (the F/I monograph, Eigner 1985, Bietak 1996 Fig. 18 at full size) and recount the column positions per phase.
+  anchor:
+    type: search-record
+    description: >-
+      Method: the figure (a 753 x 568 pixel image inside the PDF, enlarged six times) was viewed on 2026-10-16 and the black dots were counted by eye along each side of the court; a second count of the court row positions agreed (twelve per long side). This is our own count of an image: a computed result, never an anchor by itself (CONTRIBUTING, section 2).
+      It matches an independent human statement only in part: Bar-Ron's caption says 'two rows of 12 central columns' for a different, schematic drawing (a coloured plan credited to Rohl; on it we count twelve larger circles on one long side and twelve small ones on the other, with three between at each end), which is a stated count by an advocate about a drawing, not by the excavators.
+      Not matched: any excavator's stated total. Bietak 1996 gives four, two and 'probably six' columns for rooms M1, V and M and says the court is lined with columns on four sides without a number. Viewed: Bietak 1996 Fig. 18 (same arrangement of dots as the FWF Fig. 1 at low resolution; not recounted).
+    sources:
+    - src-fwf-p34601
+    - src-bietak-1996
+    - src-bar-ron-2017
+  basis: >-
+    A count of a plan by the author of this dig, not an excavator's count, on a low-resolution image. It says the plan has rows of about a dozen dots per long side; it does not say these are columns, that they are all of one phase, or that there are twelve columns in the palace.
+
+- id: avaris-model-numbered-1-to-12
+  state: proposed
+  statement: >-
+    Bar-Ron (2017) prints a photograph captioned 'Model of the palace garden cemetery, by the Austrian Archaeological Institute' showing structures numbered 1 to 12; no. 12 has a pyramid-shaped top and the others vaulted tops. Bietak (1996) prints an isometric drawing (Fig. 19) of the palace cemetery that he describes as 'reflecting the possible appearance of the holy precincts of Sais and Buto'.
+  statement_kind: reported
   evidence_class: interpretive
   confidence: low
   evidential_weight: 1
   anchor_checked: 'no'
   adoption_weight: 1
-  adoption_note: >-
-    Twelve columns is stated as fact in the speaker's claims and, as 'two central rows of 12 stately pillars', in Bar-Ron 2017.
+  adoption_note: Not measured.
   would_change_if: >-
-    the F/I plan (Bietak 1996 fig.; Eigner 1985) is viewed and shows twelve column or pillar positions in the mansion
-  next_step: >-
-    View the F/I mansion plan in Eigner 1985 (Jahreshefte OeAI 56) or Bietak 1996, and count column or pillar bases per phase.
-  absence_anchor: true
+    the maker, date and basis of the model are found, or the model is shown to match a plan with twelve numbered tombs
   anchor:
-    type: search-record
+    type: interpretive
     description: >-
-      Read: FWF P 34601 section II.1: 'The courtyard was enlarged westwards and the residence fitted with a portico, which was later extended
-      by colonnades on the remaining three sides' and 'a second, square reception room was constructed, its roof supported by two columns.' Bietak
-      2022: 'a Near-Eastern type of broad-room temple with a series of four columns' (Hyksos palace area). Bar-Ron 2017: 'Its unique design with
-      two central rows of 12 stately pillars', figure credited to Rohl, Exodus: Myth or History, pp. 106-107 (not opened). The plan was not viewed.
+      Viewed 2026-10-16: Bar-Ron 2017 p. 4 (photograph with white numerals 1 to 12 beside small models of tombs, palms and a wall; no. 12 at the right edge with a pyramid-shaped top; nos. 6 to 11 in a row of vaulted tombs; no. 1 a large vault inside a wall; the caption is Bar-Ron's and his note 5 cites Rohl p. 110;
+      the model's origin was not checked). Bietak 1996 Fig. 19 caption read; the drawing (a low-resolution page image) shows small vaulted chapels and palms and no pyramid could be made out. How the model's numbers relate to the plan's tomb numbers (Schiestl 2006 Fig. 1) was not determined.
     sources:
-    - src-fwf-p34601
-    - src-bietak-2022-eah
     - src-bar-ron-2017
+    - src-bietak-1996
+  basis: Reported as seen. Whether the model is the source of 'twelve tombs' and 'a pyramid' in other texts is not known.
+
+# ---------------------------------------------------------------- the pyramid question
+
+- id: avaris-schiestl-2009-pyramid-discussion
+  state: established
+  statement: >-
+    Schiestl (2009) records that, because of the roughly square foundation of the superstructure of tomb p/19-Grab 1, M. Bietak proposed a reconstruction as a small brick pyramid (Schiestl's footnote cites 'M. BIETAK 1994, 93'); that tomb p/21-Grab 1 would be exactly square (8.1 x 8.1 m) on a symmetrical reconstruction; that the archaeology cannot decide
+    ('keine weiteren Argumente'); that private pyramids in the Middle Kingdom are 'vorstellbar, aber nicht sehr wahrscheinlich' (conceivable but not very probable) and the same holds for the buildings at Tell el-Dab'a; and that he proposes two reconstruction variants, a chapel and a tapering mastaba (his Tafel XXXII), neither a pyramid.
+  statement_kind: reported
+  evidence_class: primary_text
+  confidence: moderate
+  evidential_weight: 4
+  anchor_checked: primary
+  adoption_weight: 1
+  adoption_note: Not measured. Bar-Ron 2017 and the speaker's claim lines (read) state a pyramid without reference to this discussion.
+  would_change_if: >-
+    Bietak 1994 (p. 93) is read and proposes something other than what Schiestl reports, or the F/I monograph reconstructs the superstructure
+  anchor:
+    type: primary_text
+    description: >-
+      Read: Schiestl 2009, chapter II.4.7, pp. 62-65 (German, short fragments): 'Aufgrund des annahernd quadratischen Grundrisses der Fundamente des Oberbaues von F/I-p/19-Grab 1 wurde von M. Bietak eine Rekonstruktion als kleine Ziegelpyramide vorgeschlagen' (fn. 350: 'M. BIETAK 1994, 93'); 'Da hier jeweils nur die Fundamentlagen erhalten sind, konnen aus archaologischer Sicht keine weiteren Argumente in die Diskussion eingebracht werden';
+      two pyramidia found in the area are 'kein Hinweis auf pyramidiale Bauten in der Gegend von Tell el-Dab'a'; 'Zwar ist ... eine Befundlucke fur nicht-konigliche Pyramiden vorstellbar, aber nicht sehr wahrscheinlich. Das gilt auch fur die Bauten von Tell el-Dab'a.' He proposes a chapel ('Variante 1') and a tapering mastaba with an inner room ('Variante 2'), which he marks as uncertain. Viewed: Tafel XXXII (computer views of the necropolis with vaulted chapels and tapering blocks; no pyramid).
+      Bietak (1996) in the passage read describes the tomb as 'a nearly square superstructure with a chapel on the eastern side' and does not use the word pyramid there. Schiestl 2006 p. 175 says only that a vaulted chapel is suggested by parallels and that the superstructure cannot be reconstructed.
+    sources:
+    - src-schiestl-2009-td18
   basis: >-
-    Absence from prose summaries is weak, and a portico plus colonnades could total many columns. A plan count has not been made.
+    # V: read 2026-10-16. Corrects the first-round statement that 'the word pyramid does not occur in the passages read': it did not occur in the passages read then; it does occur in the monograph. Bietak's own text (1994) was not read; his proposal is known only through Schiestl.
+
 - id: avaris-largest-tomb-pyramid
   state: contested
   statement: >-
-    Whether the largest tomb at F/I carried a pyramid. Bar-Ron (2017), following Rohl, says the main tomb is a 'grand pyramid tomb'. The excavators'
-    texts read describe a massive tomb whose superstructure cannot be reconstructed ('we cannot say what its superstructure originally looked
-    like'), with a vaulted chapel suggested by Middle Kingdom parallels. The word pyramid does not occur in the passages read.
+    Whether the largest tomb at F/I carried a pyramid. Bar-Ron (2017), crediting Rohl, says the main tomb is 'a single grand pyramid tomb'. Bietak is reported by Schiestl (2009) as having proposed a small brick pyramid for the superstructure of tomb p/19 no. 1. Schiestl (2009) judges a pyramid conceivable but not very probable and proposes a chapel or a tapering mastaba.
   statement_kind: reported
   evidence_class: interpretive
   confidence: low
-  evidential_weight: 1
-  anchor_checked: secondary
+  evidential_weight: 2
+  anchor_checked: 'no'
   adoption_weight: 3
-  adoption_note: The speaker and advocacy papers present the pyramid as a given.
+  adoption_note: >-
+    The pyramid is stated as a given in Bar-Ron 2017 and in the speaker's claim lines (both read); the model in Bar-Ron's figure has a pyramid-shaped top on no. 12. Reach not measured.
   would_change_if: >-
-    Bietak 1991b (Agypten und Levante 2, 47-75) or Schiestl 2009 is read and states or reconstructs a pyramidal superstructure, or says it does
-    not
+    Bietak 1994 (p. 93) or the F/I monograph is read and states or reconstructs a pyramidal superstructure with reasons, or rejects it
   anchor:
     type: interpretive
     description: >-
-      Read: Schiestl 2006, p. 175: tomb p/19 no. 1 is 'a massive construction ... with remains of a superstructure measuring 8 x 7 m and a smaller
-      annex ... All in all it covered about 70 m2. As only the lowest layers of this construction remain, we cannot say what its superstructure
-      originally looked like, but other Middle Kingdom parallels suggest a vaulted chapel.' Bietak 2022: 'A chapel on top of a big tomb'. Bar-Ron
-      2017: 'Among the main graves, all vaulted tombs, is a single grand pyramid tomb' (cites Rohl and Bietak 1996, p. 28). Not read: Bietak 1991b,
-      1996.
+      Read: Schiestl 2009 pp. 64-65 (see avaris-schiestl-2009-pyramid-discussion); Schiestl 2006 p. 175 ('we cannot say what its superstructure originally looked like, but other Middle Kingdom parallels suggest a vaulted chapel'); Bar-Ron 2017 pp. 1 and 4 ('he was given a pyramid tomb'; 'a single grand pyramid tomb with the broken remains of a 3-meter-high, sitting statue', crediting Rohl and citing Bietak 1996, p. 28, Fig. 25, which was not found in the scan read);
+      Bietak 1996 (chapel on a nearly square superstructure). Not read: Bietak 1994, Rohl. Bar-Ron's pyramid tomb and Bietak's pyramid proposal both concern the tomb with the statue fragments if Bar-Ron means p/19 no. 1; he does not give its number.
     sources:
+    - src-schiestl-2009-td18
     - src-schiestl-2006
-    - src-bietak-2022-eah
     - src-bar-ron-2017
+    - src-bietak-1996
   basis: >-
-    # V: read 2026-10-14. Open: whether Bietak 1991b or 1996 proposes a pyramid; if so, the advocates' wording is nearer to an excavator reconstruction
-    than these later summaries suggest.
+    # V: read 2026-10-16. Two live positions exist in the sources, a pyramid (Bar-Ron/Rohl; Bietak 1994 via Schiestl) and a chapel or tapering block (Schiestl 2006, 2009), and none rests on a surviving superstructure: only foundation courses remain. Not settled.
   positions:
-  - label: Pyramid tomb
-    holder: D. Rohl, as relayed by M. S. Bar-Ron 2017 (Rohl's own text not opened)
-    ground: a 'grand pyramid tomb' at the south end of the palace cemetery
-  - label: Massive tomb, vaulted chapel suggested, superstructure unknown
-    holder: R. Schiestl 2006; M. Bietak 2022
-    ground: only the lowest layers remain; chapel inferred from parallels
+  - label: Pyramid
+    holder: D. Rohl, as relayed by M. S. Bar-Ron 2017 (Rohl not opened); M. Bietak (small brick pyramid for p/19 no. 1), as reported by R. Schiestl 2009 (Bietak 1994 not opened)
+    ground: a roughly square foundation (Bietak, as reported); no ground is given for Rohl in the text read
+  - label: Chapel or tapering mastaba; pyramid conceivable but not very probable
+    holder: R. Schiestl 2006 (chapel) and 2009 (chapel or tapering mastaba)
+    ground: only the lowest courses remain; parallels; no pyramidia in situ in the area
   disputed_by:
-  - who: R. Schiestl 2006 (and Bietak 2022 by implication)
+  - who: R. Schiestl (2009, chapter II.4.7)
     kind: person
-    position: superstructure cannot be reconstructed; a vaulted chapel is suggested; no pyramid is mentioned
-    source_read: yes, Schiestl 2006 in OeAW open PDF
+    position: pyramidal reconstruction conceivable but not very probable; proposes a chapel or tapering mastaba
+    source_read: yes, Schiestl 2009 pp. 64-65
     via: direct
+
+# ---------------------------------------------------------------- dates
+
 - id: avaris-date-strata-as-published
   state: contested
   statement: >-
-    The absolute dates of the cemetery, mansion and statue at F/I depend on the chronology used. The excavators' own figures moved between 2006
-    and the FWF preliminary report: Schiestl (2006) gives stratum d/2 (phase H) as ca. 1820-1785 BC and d/1 (phase G/4) as ca. 1785-1750 BC; the
-    FWF page gives phase H c. 1850-1815 BCE and phase G/4 c. 1815-1780 BCE. Rohl's 'New Chronology', as relayed by Bar-Ron (2017), would place
-    the Twelfth Dynasty king Amenemhat III at about 1678-1631 BCE. The excavators' relative sequence (late 12th to 13th Dynasty) is not in dispute
-    in the texts read.
+    The absolute dates of the cemetery, mansion and statue at F/I depend on the chronology used. Schiestl (2006) gives stratum d/2 (phase H) as ca. 1820-1785 BC and d/1 (phase G/4) as ca. 1785-1750 BC; the FWF page gives phase H c. 1850-1815 BCE and phase G/4 c. 1815-1780 BCE; Schiestl (2009) puts the cemeteries 'in etwa am Ende des 19. und am Beginn des 18. Jahrhunderts v. Chr.'
+    and says Tell el-Dab'a can establish only a relative chronology, tied to kings elsewhere; the publisher's abstract of the 2009 volume says 'ca. 1830-1750 v. Chr.'. Rohl's 'New Chronology', as relayed by Bar-Ron (2017), would place Amenemhat III at about 1678-1631 BCE; Bar-Ron also calls G/4 'dated to the 12th Dynasty', where the excavators call d/1 (G/4) early 13th Dynasty.
   statement_kind: reported
   evidence_class: interpretive
   confidence: low
-  evidential_weight: 1
-  anchor_checked: secondary
+  evidential_weight: 2
+  anchor_checked: 'no'
   adoption_weight: 2
-  adoption_note: A round 'about 1900 BC' is given by the speaker; the advocacy papers use a lowered Egyptian chronology.
+  adoption_note: A round 'about 1900 BC' is given by the speaker's claim line (read, see avaris-sp-date-1900-bc); Bar-Ron 2017 uses a lowered chronology. Reach not measured.
   would_change_if: >-
-    a dated sequence for Tell el-Dab'a (radiocarbon series, ceramic chronology) is read from a named specialist and the strata windows are stated
-    with reasons, or a lowered chronology is shown to fit independent anchors
+    a dated sequence for Tell el-Dab'a (radiocarbon series, ceramic chronology) is read from a named specialist and the strata windows are stated with reasons, or a lowered chronology is shown to fit independent anchors
   anchor:
     type: interpretive
     description: >-
-      Read: Schiestl 2006, p. 175, strata d/2 'ca. 1820-1785 B.C.', d/1 'ca. 1785-1750 B.C.'; FWF P 34601 section II.1, 'Phase H, Stratum d/2,
-      c. 1850-1815 BCE' and 'Phase G/4, c. 1815-1780 BCE'; Bar-Ron 2017: 'Amenemhat III ... reigned from ca. 1678 to 1631 BCE'. Not read: any
-      chronology study, radiocarbon series, or Rohl's own text.
+      Read: Schiestl 2006 p. 175, d/2 'ca. 1820-1785 B.C.', d/1 'ca. 1785-1750 B.C.'; FWF P 34601 section III.1, 'Phase H, Stratum d/2, c. 1850-1815 BCE' and 'Phase G/4, c. 1815-1780 BCE' (the figure caption for Fig. 1 says 'early 13th Dynasty, c. after 1800 BCE'); Schiestl 2009 chapter I p. 19 ('in etwa am Ende des 19. und am Beginn des 18. Jahrhunderts v. Chr.'; relative chronology tied to kings,
+      with Amenemhat III the last king whose funerary complex fixes a link and none secure from the 13th Dynasty); publisher abstract at austriaca.at/3738-2 ('ca. 1830-1750 v. Chr.' for the palatial building); Bar-Ron 2017 pp. 1 and 6: stratum G/4 'dated to the 12th Dynasty', 'Amenemhat III ... reigned from ca. 1678 to 1631 BCE'. Not read: any chronology study, radiocarbon series, or Rohl's own text. The reasons for the differences between the excavators' own figures were not read.
     sources:
     - src-schiestl-2006
+    - src-schiestl-2009-td18
     - src-fwf-p34601
     - src-bar-ron-2017
   basis: >-
-    # V: read 2026-10-14. Dates are as the sources print them. The excavators' own figures shift by about 30 years between 2006 and the FWF page;
-    the reasons were not read.
+    # V: read 2026-10-16. All dates are as printed. The first-round entry L-05 said the speaker's 'about 1900 BC' is outside both excavator ranges; Schiestl 2009 also writes 'end of the 19th and beginning of the 18th century BC', so the speaker's figure is near the early edge of that wording; the printed absolute figures (1850 to 1750) all start later (corrected in log L-10).
   positions:
   - label: 'Conventional chronology: phase H about 1850-1815 BCE, G/4 about 1815-1780 BCE'
     holder: M. Bietak and team (FWF P 34601 preliminary results)
     ground: stated dates only; the basis was not read here
-  - label: Slightly later dates for the same strata (d/2 ca. 1820-1785, d/1 ca. 1785-1750)
-    holder: R. Schiestl 2006
-    ground: stated dates only
-  - label: 'Lowered ''New Chronology'': Amenemhat III about 1678-1631 BCE'
+  - label: 'Slightly later figures for the same strata (d/2 ca. 1820-1785, d/1 ca. 1785-1750); later, end of the 19th to start of the 18th century BC'
+    holder: R. Schiestl 2006; R. Schiestl 2009
+    ground: stated dates; relative sequence tied to kings
+  - label: 'Lowered New Chronology: Amenemhat III about 1678-1631 BCE'
     holder: D. Rohl, via M. S. Bar-Ron 2017
     ground: claimed astronomical and other anchors, not read here
   disputed_by:
-  - who: Bar-Ron 2017 and D. Rohl (New Chronology)
-    kind: group
-    position: Twelfth Dynasty is much later than the conventional dates
+  - who: D. Rohl (New Chronology), as relayed by M. S. Bar-Ron 2017
+    kind: person
+    position: the Twelfth Dynasty falls much later than the conventional dates (Amenemhat III about 1678-1631 BCE)
     source_read: Bar-Ron read; Rohl not opened
     via: Bar-Ron 2017
+
+# ---------------------------------------------------------------- the Bible text
+
 - id: avaris-bible-text-joseph-burial
   state: proposed
   statement: >-
-    In the King James translation, Genesis 50:26 says Joseph died at 110 and 'they embalmed him, and he was put in a coffin in Egypt'; Exodus
-    13:19 says Moses took Joseph's bones with him; Joshua 24:32 says the bones were buried 'in Shechem'. The passages do not name Avaris or any
-    tomb.
+    In the Hebrew text as printed in a modern edition and in the King James translation, Genesis 50:26 says Joseph died aged 110 and was embalmed and put in a coffin (Hebrew 'aron) 'in Egypt'; Exodus 13:19 says Moses took Joseph's bones with him; Joshua 24:32 says the bones were buried at Shechem. The passages do not name Avaris or any tomb.
   statement_kind: reported
   evidence_class: interpretive
   confidence: low
   evidential_weight: 2
-  anchor_checked: secondary
-  adoption_weight: 5
-  adoption_note: >-
-    Widely known; the speaker's claims about Joseph's tomb and bones draw on these passages (speaker cites Genesis 50 and Exodus 13, implied).
+  anchor_checked: 'no'
+  adoption_weight: 1
+  adoption_note: Not measured. The three passages are cited in Bar-Ron 2017 (read) for the removal of Joseph's bones; the speaker's claim lines (read) draw on the same narrative.
   would_change_if: >-
-    the Hebrew text and its manuscripts are read by a named specialist and give a different sense, or an independent source places a burial or
-    tomb at Avaris
+    the Hebrew manuscripts are read by a named specialist and give a different sense, or an independent source places a burial or tomb at Avaris
   anchor:
     type: interpretive
     description: >-
-      Read: KJV text of Genesis 50:22-26, Exodus 13:19 and Joshua 24:32 as served by bible-api.com (public-domain 1611/1769 text). A translation
-      is a claim, not the Hebrew; the Hebrew and manuscripts were not read.
+      Read 2026-10-16: the Hebrew of Genesis 50:22-26, Exodus 13:19 and Joshua 24:32 in a modern edition of the Masoretic text served by sefaria.org (Genesis 50:26: a coffin in Egypt; Exodus 13:19: Moses took the bones of Joseph; Joshua 24:32: buried in Shechem), and the KJV text served by bible-api.com. Two modern renderings of one printed text are not two independent sources,
+      and a web edition is not a manuscript; no manuscript or critical apparatus was read.
     sources:
+    - src-hebrew-sefaria
     - src-kjv-bible-api
-  basis: >-
-    # V: three passages read 2026-10-14. A text that says what a tradition says; it is not evidence that any tomb exists at Avaris.
+  basis: '# V: three passages read in Hebrew and KJV 2026-10-16. A text that says what a tradition says; it is not evidence that any tomb exists at Avaris.'
+
+# ---------------------------------------------------------------- the speaker's claims, one assertion per claim
+# (Speaker claim lines were read in the first round; the files are not in the repository and were not available on 2026-10-16. Wording is as filed on 2026-10-14. A speaker claim is never an anchor.)
+
 - id: avaris-sp-palace-12-columns
   state: searched_gap
-  statement: >-
-    At Avaris there is a palace with 12 columns. / In Egypt, in the land of Goshen, in the city of Avaris, a palace complex with 12 columns on
-    the porch was found. (dh-KNhzmEKodZg-19; dh-qL1VmGF3BF8-01)
+  statement: 'At Avaris there is a palace with 12 columns. (dh-KNhzmEKodZg-19)'
   statement_kind: search_result
   evidence_class: interpretive
   confidence: low
   evidential_weight: 1
   anchor_checked: 'no'
-  adoption_weight: 2
-  adoption_note: >-
-    Dead Hidden (YouTube). Speaker cites archaeology; no excavation report, find number or plate is named in the claim lines read.
+  adoption_weight: 1
+  adoption_note: 'Not measured. Dead Hidden (YouTube); the claim line names no excavation report, find number or plate.'
   would_change_if: >-
-    the F/I plan is viewed and has twelve column or pillar bases (then the count holds; the identification is separate)
-  next_step: View the mansion plan (Eigner 1985; Bietak 1996) and count columns by phase.
+    the F/I plan is read with a legend and shows twelve column positions (then the count holds; the identification is a separate claim)
+  next_step: View the mansion plan at full size (Eigner 1985; Bietak 1996 Fig. 18; the F/I monograph) and count columns by phase.
+  absence_anchor: true
   anchor:
     type: search-record
     description: >-
-      A palace-like building (the 'palatial mansion') exists at F/I; no count of twelve columns was found in the texts read. See avaris-mansion-columns-count
-      and avaris-f1-mansion-garden-cemetery. Same-team summaries only; plan not viewed.
+      A palatial mansion exists at F/I in the excavators' account. No excavator's total of twelve columns was found in the texts read; the plans show rows of about a dozen dots per long side of the court by our count of an image, and Bar-Ron's caption gives 'two rows of 12'. See avaris-mansion-columns-text and avaris-mansion-columns-count.
     sources:
     - src-fwf-p34601
-    - src-bietak-2022-eah
+    - src-bietak-1996
     - src-bar-ron-2017
-  basis: >-
-    The building is real in the excavators' account; 'on the porch' and 'twelve' are unsupported by anything opened.
+  basis: The building is in the excavators' account; 'twelve' as a total is not found; two rows of about twelve appear in a plan count of ours.
+
+- id: avaris-sp-palace-12-columns-porch
+  state: searched_gap
+  statement: 'In Egypt, in the land of Goshen, in the city of Avaris, a palace complex with 12 columns on the porch was found. (dh-qL1VmGF3BF8-01)'
+  statement_kind: search_result
+  evidence_class: interpretive
+  confidence: low
+  evidential_weight: 1
+  anchor_checked: 'no'
+  adoption_weight: 1
+  adoption_note: 'Not measured. Dead Hidden (YouTube); the claim line names no excavation report, find number or plate.'
+  would_change_if: >-
+    a plan with a legend shows a porch or portico with twelve columns at F/I
+  next_step: Count the portico columns (row E of the FWF plan) in a full-size plan with a legend.
+  absence_anchor: true
+  anchor:
+    type: search-record
+    description: >-
+      The FWF text says the residence was fitted with a portico later extended by colonnades; Bietak 1996 says the court is lined with columns on four sides and that the mansion was accessible through a portico. In our count of FWF Fig. 1 the portico row (E) has nine black dots and one open ring; the rows of twelve are along the long sides of the court,
+      not the portico. This is our count of an image and no excavator's count was found. 'Goshen' is a Bible-tradition name for a region; none of the excavators' texts read uses it for Avaris.
+    sources:
+    - src-fwf-p34601
+    - src-bietak-1996
+  basis: 'Porch count and the place name are not supported by an excavator''s text read; the plan count is ours.'
+
 - id: avaris-sp-twelve-tombs-in-garden
   state: searched_gap
-  statement: >-
-    Twelve tombs [of the patriarchs of the Hyksos nobility] were found in the garden next to the palace. (12 tombs were found in the garden next
-    to it.) (dh-KNhzmEKodZg-19; dh-qL1VmGF3BF8-02)
+  statement: '12 tombs were found in the garden next to it. (dh-qL1VmGF3BF8-02)'
   statement_kind: search_result
   evidence_class: interpretive
   confidence: low
   evidential_weight: 1
   anchor_checked: 'no'
-  adoption_weight: 2
-  adoption_note: >-
-    Dead Hidden (YouTube). Speaker cites archaeology; no excavation report, find number or plate is named in the claim lines read.
+  adoption_weight: 1
+  adoption_note: 'Not measured. Dead Hidden (YouTube); the claim line names no excavation report, find number or plate.'
   would_change_if: an excavation report is read that defines exactly twelve tombs in the garden
-  next_step: Find the source of 'twelve' (Rohl; Bietak 1996 p. 28).
+  next_step: Find the source of 'twelve' (Rohl; Bietak 1991b, 1994).
+  absence_anchor: true
   anchor:
     type: search-record
     description: >-
-      A cemetery in the former garden south of the mansion exists (see avaris-f1-mansion-garden-cemetery); the texts read count 45 tombs (d/2)
-      and 27 (d/1), not twelve. See avaris-cemetery-tomb-counts. 'Of the patriarchs of the Hyksos nobility' is separate (avaris-sp-buried-are-joseph-and-brothers).
+      A cemetery in the former garden south of the mansion exists in the excavators' account. The texts read count 45 tombs (d/2), 27 (d/1), 74 classified, six in a series and five with tree pits, not twelve. See avaris-cemetery-tomb-counts.
     sources:
     - src-schiestl-2006
-    - src-fwf-p34601
-    - src-bar-ron-2017
+    - src-schiestl-2009-td18
+    - src-bietak-1996
   basis: The cemetery is attested; the number twelve is not found in sources opened.
-- id: avaris-sp-columns-symbolize-buried
-  state: searched_gap
-  statement: >-
-    The columns symbolize the people who were buried there. / These columns represent him and his brothers who were buried in those 12 tombs.
-    (the 12 columns represent Joseph and his brothers buried in the 12 tombs) (dh-qL1VmGF3BF8-02; dh-qL1VmGF3BF8-37)
-  statement_kind: search_result
-  evidence_class: interpretive
-  confidence: low
-  evidential_weight: 1
-  anchor_checked: 'no'
-  adoption_weight: 2
-  adoption_note: >-
-    Dead Hidden (YouTube). Speaker cites archaeology; no excavation report, find number or plate is named in the claim lines read.
-  would_change_if: >-
-    an excavator's report or a contemporary inscription is read that ties the building's columns to the people buried in the garden
-  next_step: 'Ask what the speaker''s source is; read Rohl, Exodus: Myth or History pp. 106-118.'
-  anchor:
-    type: search-record
-    description: >-
-      No source read says the mansion's columns stand for the people buried in the cemetery. The excavators describe the cemetery as developed
-      later in a former garden (FWF P 34601). Bar-Ron 2017 gives it as a reason 'one might expect' (an expectation, not a find).
-    sources:
-    - src-fwf-p34601
-    - src-bar-ron-2017
-  basis: A symbolic reading with no source opened that states it as a finding.
+
 - id: avaris-sp-buried-are-joseph-and-brothers
   state: contested
-  statement: >-
-    [12 tombs] of the patriarchs of the Hyksos nobility, i.e. Joseph and his brothers. / The others are his brothers and their families. (dh-KNhzmEKodZg-19;
-    dh-qL1VmGF3BF8-37)
+  statement: '[12 tombs] of the patriarchs of the Hyksos nobility, i.e. Joseph and his brothers. (dh-KNhzmEKodZg-19)'
   statement_kind: judgment
   evidence_class: interpretive
   confidence: low
   evidential_weight: 1
   anchor_checked: 'no'
-  adoption_weight: 2
-  adoption_note: >-
-    Dead Hidden (YouTube). Speaker cites archaeology; no excavation report, find number or plate is named in the claim lines read.
+  adoption_weight: 1
+  adoption_note: 'Not measured. Dead Hidden (YouTube); the claim line names no excavation report, find number or plate.'
   would_change_if: >-
-    an inscription or other text from the cemetery names the persons, or an independent line of evidence (for example a documented genealogy)
-    ties the tomb owners to biblical figures
+    an inscription or other text from the cemetery names the persons, or an independent line of evidence ties the tomb owners to biblical figures
   anchor:
     type: interpretive
     description: >-
-      The excavators describe the people buried as Asiatics (Egyptian aamu) with Near-Eastern burial customs, and the inscriptions at F/I are
-      almost absent ('we lack almost any inscriptional evidence', Schiestl 2006). No source read names any occupant. Bar-Ron 2017 and Rohl hold
-      the Joseph reading; Billington 2022 reports Petrovich's different version.
+      Schiestl 2006 (p. 173): 'we lack almost any inscriptional evidence'; Schiestl 2009 (chapter IX) reads the buried men of stratum d/1 as officials of the Egyptian state with an Asiatic background. No source read names an occupant. Bar-Ron 2017 states the Joseph reading, crediting Rohl; Billington 2022 reports that Petrovich reads the earlier house as Jacob's and the palace as built by Ephraim and Manasseh.
     sources:
     - src-schiestl-2006
-    - src-auaris-f1
+    - src-schiestl-2009-td18
     - src-bar-ron-2017
     - src-billington-abr-2022
   basis: >-
-    No named person is attested in what was read; the identification is advocacy from outside the excavation reports.
+    No named person is attested in what was read. Positions are attributed to the authors who state them.
   positions:
-  - label: The cemetery belongs to Joseph (as Ankhu) and his family
-    holder: D. Rohl, relayed by M. S. Bar-Ron 2017
-    ground: stratum, location, statue and 'twelve' counts read as matching Genesis
-  - label: The palace is Jacob's descendants' (Ephraim and Manasseh); the statue is Jacob
-    holder: D. Petrovich 2021, relayed by C. E. Billington 2022
-    ground: four-room house, two 'master bedrooms', Sobekemhat as Joseph (as reported)
-  - label: Asiatic community of Tell el-Dab'a, no individual identified
-    holder: R. Schiestl 2006; M. Bietak and team
-    ground: Near-Eastern burial customs, statue iconography; 'we lack almost any inscriptional evidence'
+  - label: The palace and cemetery are connected with Joseph (the vizier Ankhu) and his family
+    holder: D. Rohl, as relayed by M. S. Bar-Ron 2017 (Rohl not opened)
+    ground: stratum, location, statue, 'twelve' counts and the Syrian-style earlier house read as matching Genesis (as Bar-Ron states them)
+  - label: The earlier house is Jacob's; the palace was built by Ephraim and Manasseh; the statue is Jacob
+    holder: D. Petrovich 2021, as reported by C. E. Billington 2022 (book not opened)
+    ground: four-room house, two 'master bedrooms' (as Billington reports them)
+  - label: Officials of the Egyptian state, bicultural, no individual named
+    holder: R. Schiestl 2009
+    ground: egalitarian plan, modest tombs, official title on a scarab, Egyptian funerary language
   disputed_by:
-  - who: R. Schiestl; M. Bietak and team
-    kind: group
-    position: no individual identified; an Asiatic elite community
-    source_read: yes, Schiestl 2006, FWF page
-    via: direct
-  - who: D. Petrovich (contradicts Rohl on who the statue is)
+  - who: R. Schiestl (2009, chapter IX and footnote 487)
     kind: person
-    position: statue is Jacob, not Joseph
-    source_read: review read, book not opened
-    via: Billington 2022
+    position: reads the buried men as officials of the Egyptian state with no individual named, and criticises the method behind Rohl's reconstruction as proof of a Joseph statue
+    source_read: yes, Schiestl 2009
+    via: direct
+
+- id: avaris-sp-others-are-brothers
+  state: contested
+  statement: 'The others are his brothers and their families. (dh-qL1VmGF3BF8-37)'
+  statement_kind: judgment
+  evidence_class: interpretive
+  confidence: low
+  evidential_weight: 1
+  anchor_checked: 'no'
+  adoption_weight: 1
+  adoption_note: 'Not measured. Dead Hidden (YouTube); the claim line names no excavation report, find number or plate.'
+  would_change_if: an inscription or other record names the buried persons and their relationship
+  anchor:
+    type: interpretive
+    description: >-
+      Schiestl 2009 (English Summary p. 484) reports that the d/1 cemetery shows women and above all children under-represented and that a proportion of children and women were buried elsewhere; he reads the community as a local elite with an Egyptian-oriented funerary culture. No source read names an occupant or a family relation.
+    sources:
+    - src-schiestl-2009-td18
+  basis: A claim about family relations with no naming text in anything read.
+  positions:
+  - label: Joseph's brothers and their families
+    holder: speaker (claim line); Bar-Ron 2017 states the Joseph reading of the palace without this sentence
+    ground: not stated in the claim line
+  - label: A local elite of officials; women and children under-represented
+    holder: R. Schiestl 2009
+    ground: demographic data of the tombs, as he reports them
+  disputed_by:
+  - who: R. Schiestl (2009, English Summary and chapter VI)
+    kind: person
+    position: the d/1 cemetery shows a narrowing to adult men; women and children were largely buried elsewhere
+    source_read: yes, English Summary
+    via: direct
+
+- id: avaris-sp-columns-symbolize-buried
+  state: searched_gap
+  statement: 'The columns symbolize the people who were buried there. (dh-qL1VmGF3BF8-02)'
+  statement_kind: search_result
+  evidence_class: interpretive
+  confidence: low
+  evidential_weight: 1
+  anchor_checked: 'no'
+  adoption_weight: 1
+  adoption_note: 'Not measured. Dead Hidden (YouTube); the claim line names no excavation report, find number or plate.'
+  would_change_if: >-
+    an excavator's report or a contemporary inscription is read that ties the building's columns to the people buried in the garden
+  next_step: 'Ask what the speaker''s source is; read Rohl, Exodus: Myth or History pp. 106-118.'
+  absence_anchor: true
+  anchor:
+    type: search-record
+    description: >-
+      Searched the excavators' texts read (Schiestl 2006, 2009 chapters I-III, IX, X; Bietak 1996; FWF) for any link between the columns and the buried. None found. Bar-Ron 2017 p. 3 says the two rows of twelve columns are 'what one might expect to have graced the bastion of the 12 tribes of Israel', which he gives as an expectation, not as a find.
+    sources:
+    - src-schiestl-2009-td18
+    - src-bietak-1996
+    - src-fwf-p34601
+    - src-bar-ron-2017
+  basis: A symbolic reading with no source opened that states it as a finding.
+
+- id: avaris-sp-columns-represent-joseph-brothers
+  state: searched_gap
+  statement: 'These columns represent him and his brothers who were buried in those 12 tombs. (dh-qL1VmGF3BF8-37)'
+  statement_kind: search_result
+  evidence_class: interpretive
+  confidence: low
+  evidential_weight: 1
+  anchor_checked: 'no'
+  adoption_weight: 1
+  adoption_note: 'Not measured. Dead Hidden (YouTube); the claim line names no excavation report, find number or plate.'
+  would_change_if: a text is found that identifies the columns with named persons
+  next_step: 'Ask what the speaker''s source is; read Rohl, Exodus: Myth or History pp. 106-118.'
+  absence_anchor: true
+  anchor:
+    type: search-record
+    description: >-
+      As avaris-sp-columns-symbolize-buried; this wording adds 'him and his brothers' and '12 tombs', which are the Joseph and twelve-tomb claims filed separately. Nothing read states it as a finding.
+    sources:
+    - src-bar-ron-2017
+    - src-schiestl-2009-td18
+  basis: As above.
+
 - id: avaris-sp-descendants-12-tribes
   state: searched_gap
   statement: '[Joseph and his brothers] whose descendants became the 12 tribes of Israel. (dh-KNhzmEKodZg-19)'
@@ -536,152 +834,258 @@ claims:
   confidence: low
   evidential_weight: 1
   anchor_checked: 'no'
-  adoption_weight: 2
-  adoption_note: >-
-    Dead Hidden (YouTube). Speaker cites archaeology; no excavation report, find number or plate is named in the claim lines read.
+  adoption_weight: 1
+  adoption_note: 'Not measured. Dead Hidden (YouTube); the claim line names no excavation report, find number or plate.'
   would_change_if: a text or genetic or other record is found that connects named individuals buried at Avaris to later groups
+  absence_anchor: true
   anchor:
     type: search-record
     description: >-
-      Nothing read connects the people buried at F/I to later tribes. Archaeology of this kind cannot establish descent from named persons without
-      a text or comparable record; the statue base carries no name.
+      Searched the excavators' texts read for any connection between the people buried at F/I and later tribes. None found. Schiestl 2009 chapter IX reads them as officials of the Egyptian state with an Asiatic background; the statue base shows no name.
     sources:
+    - src-schiestl-2009-td18
     - src-schiestl-2006
-    - src-fwf-p34601
   basis: No source read addresses it.
   gap_type: structural
   gap_reason: >-
-    Descent from named individuals cannot be shown from tombs and statue fragments without a naming text or comparable record; none has been published
-    for these tombs in the sources read.
-- id: avaris-sp-statue-joseph-or-jacob-foreign-king
+    Descent from named individuals cannot be shown from tombs and statue fragments without a naming text or comparable record; none has been published for these tombs in the sources read.
+
+- id: avaris-sp-statue-most-likely-joseph
   state: contested
-  statement: >-
-    This statue found in Avaris is most likely Joseph. / The statue found at Avaris is most likely Joseph, or else Jacob, a foreign king. / The
-    statue is either Joseph or Jacob. (dh-KNhzmEKodZg-23; dh-qL1VmGF3BF8-37)
+  statement: 'This statue found in Avaris is most likely Joseph. (dh-KNhzmEKodZg-23)'
   statement_kind: judgment
   evidence_class: interpretive
   confidence: low
   evidential_weight: 1
   anchor_checked: 'no'
-  adoption_weight: 2
-  adoption_note: >-
-    Dead Hidden (YouTube). Speaker cites archaeology; no excavation report, find number or plate is named in the claim lines read.
+  adoption_weight: 1
+  adoption_note: 'Not measured. Dead Hidden (YouTube); the claim line names no excavation report, find number or plate.'
   would_change_if: >-
     a name or title on the statue or its tomb is read, or a published excavator argues for the identification with a stated reason
   anchor:
     type: interpretive
     description: >-
-      The excavators read an Asiatic dignitary and do not name him (avaris-statue-identification-by-excavators); the base shows only a word for
-      incense (avaris-statue-base-no-name-read). 'King': Schiestl and Bietak 2022 say dignitary/prince; the title of Eigner 1985 on the auaris.at
-      bibliography is 'Der agyptische Palast eines asiatischen Konigs' (title seen only, article not opened). Joseph (Rohl via Bar-Ron) and Jacob
-      (Petrovich via Billington) are different identifications by advocates who disagree with each other.
+      Bar-Ron 2017 (pp. 1, 4-5) states that Rohl and 'others' believe the statue depicts the vizier Ankhu and that Ankhu is the biblical Joseph; the excavators' publications read name no person (avaris-statue-identification-by-excavators, avaris-statue-base-no-name-read); Schiestl 2009 fn. 487 criticises the method behind Rohl's reconstruction as proof of a Joseph statue (avaris-schiestl-2009-on-rohl-coat).
     sources:
-    - src-schiestl-2006
-    - src-fwf-p34601
-    - src-auaris-f1
     - src-bar-ron-2017
-    - src-billington-abr-2022
-  basis: 'Opposing hypotheses are kept open: nothing read settles who is depicted, and no reading reaches a name.'
+    - src-schiestl-2009-td18
+  basis: 'Opposing readings kept open: nothing read reaches a name on the object.'
   positions:
   - label: Joseph (the vizier Ankhu in Rohl's scheme)
-    holder: D. Rohl, via M. S. Bar-Ron 2017
-    ground: stratum, 'pyramid tomb', 'no bones', coat, lowered chronology
+    holder: D. Rohl, as relayed by M. S. Bar-Ron 2017
+    ground: stratum, 'pyramid tomb', body removed, multicoloured coat, lowered chronology (as Bar-Ron states them)
   - label: Jacob
-    holder: D. Petrovich 2021, via C. E. Billington 2022
-    ground: earlier Syrian-style house beneath the palace read as Jacob's
-  - label: Unnamed Asiatic dignitary, possibly a 'Prince of Retjenu'
-    holder: M. Bietak and team; R. Schiestl
-    ground: iconography, find context, title on a scarab from the area
+    holder: D. Petrovich 2021, as reported by C. E. Billington 2022
+    ground: earlier Syrian-style house beneath the palace read as Jacob's (as Billington reports it)
+  - label: Unnamed Asiatic dignitary
+    holder: R. Schiestl 2006 and 2009; M. Bietak and team (FWF P 34601, Bietak 1996)
+    ground: iconography and find context
   disputed_by:
-  - who: M. Bietak and team
-    kind: group
-    position: Asiatic dignitary, possibly Prince of Retjenu; no named individual
-    source_read: yes, FWF page and Bietak 2022 copy
-    via: direct
-  - who: D. Petrovich vs D. Rohl
+  - who: R. Schiestl (2009, p. 82 fn. 487)
     kind: person
-    position: Jacob rather than Joseph
+    position: the multicoloured coat is a supplemented part of Rohl's reconstruction that serves as proof of a Joseph cult statue; Schiestl reconstructs a striped cloak
+    source_read: yes, Schiestl 2009
+    via: direct
+  - who: D. Petrovich
+    kind: person
+    position: the statue is Jacob, not Joseph (as Billington reports Petrovich's argument)
     source_read: review read, book not opened
     via: Billington 2022
-- id: avaris-sp-largest-tomb-is-josephs
+
+- id: avaris-sp-statue-joseph-or-jacob-foreign-king
   state: contested
-  statement: >-
-    The largest tomb is Joseph's, who surpassed them all in Egypt. / So this is Joseph's tomb, where he was first buried. (dh-KNhzmEKodZg-23;
-    dh-qL1VmGF3BF8-29)
+  statement: 'The statue found at Avaris is most likely Joseph, or else Jacob, a foreign king. (dh-qL1VmGF3BF8-37)'
   statement_kind: judgment
   evidence_class: interpretive
   confidence: low
   evidential_weight: 1
   anchor_checked: 'no'
-  adoption_weight: 2
-  adoption_note: >-
-    Dead Hidden (YouTube). Speaker cites archaeology; no excavation report, find number or plate is named in the claim lines read.
+  adoption_weight: 1
+  adoption_note: 'Not measured. Dead Hidden (YouTube); the claim line names no excavation report, find number or plate.'
+  would_change_if: a name or title on the statue or its tomb is read
+  anchor:
+    type: interpretive
+    description: >-
+      The Jacob reading is reported by Billington 2022 for Petrovich; Bar-Ron 2017 states the Joseph reading. 'King': Schiestl 2009 p. 212 reports that Ryholt reads the statue as a king or treasurer of the 14th Dynasty and rejects royal readings of the cemetery (avaris-statue-prince-or-king-ryholt); Schiestl 2006 and Bietak 2022 say dignitary or prince.
+    sources:
+    - src-billington-abr-2022
+    - src-bar-ron-2017
+    - src-schiestl-2009-td18
+  basis: Opposing readings kept open.
+  positions:
+  - label: Joseph
+    holder: D. Rohl, as relayed by M. S. Bar-Ron 2017
+    ground: as in avaris-sp-statue-most-likely-joseph
+  - label: Jacob
+    holder: D. Petrovich 2021, as reported by C. E. Billington 2022
+    ground: as in avaris-sp-statue-most-likely-joseph
+  disputed_by:
+  - who: R. Schiestl (2009, chapter IX)
+    kind: person
+    position: no royal attributes on the statue; rejects royal readings of the cemetery
+    source_read: yes, Schiestl 2009 chapter IX
+    via: direct
+
+- id: avaris-sp-statue-either-joseph-or-jacob
+  state: contested
+  statement: 'The statue is either Joseph or Jacob. (dh-qL1VmGF3BF8-37)'
+  statement_kind: judgment
+  evidence_class: interpretive
+  confidence: low
+  evidential_weight: 1
+  anchor_checked: 'no'
+  adoption_weight: 1
+  adoption_note: 'Not measured. Dead Hidden (YouTube); the claim line names no excavation report, find number or plate.'
+  would_change_if: a name or title on the statue or its tomb is read
+  anchor:
+    type: interpretive
+    description: >-
+      A two-way choice between a Joseph reading (Rohl as relayed by Bar-Ron 2017) and a Jacob reading (Petrovich as reported by Billington 2022); the excavators' publications read leave the statue unnamed. Bar-Ron's paper does not mention Petrovich and Billington's review does not name Rohl; each reports one position.
+    sources:
+    - src-bar-ron-2017
+    - src-billington-abr-2022
+  basis: Two readings by authors outside the excavation; neither is anchored to a read inscription.
+  positions:
+  - label: Joseph
+    holder: D. Rohl, as relayed by M. S. Bar-Ron 2017
+    ground: as in avaris-sp-statue-most-likely-joseph
+  - label: Jacob
+    holder: D. Petrovich 2021, as reported by C. E. Billington 2022
+    ground: as in avaris-sp-statue-most-likely-joseph
+  disputed_by:
+  - who: R. Schiestl (2009, p. 82 fn. 487 and chapter IX)
+    kind: person
+    position: names no person; criticises the Joseph reconstruction method; rejects royal readings
+    source_read: yes, Schiestl 2009
+    via: direct
+
+- id: avaris-sp-largest-tomb-is-josephs
+  state: contested
+  statement: 'The largest tomb is Joseph''s, who surpassed them all in Egypt. (dh-KNhzmEKodZg-23)'
+  statement_kind: judgment
+  evidence_class: interpretive
+  confidence: low
+  evidential_weight: 1
+  anchor_checked: 'no'
+  adoption_weight: 1
+  adoption_note: 'Not measured. Dead Hidden (YouTube); the claim line names no excavation report, find number or plate.'
   would_change_if: >-
     an inscription or a documented chain of identification shows the owner of the largest tomb, or an excavator publishes an identification
   anchor:
     type: interpretive
     description: >-
-      The largest tomb found is a massive plundered tomb (p/19 no. 1, ca. 70 m2); its occupants are not named in the sources read, and bone fragments
-      from two individuals were assigned (avaris-tomb-p19-1-bones). Rohl (via Bar-Ron) identifies the owner with Ankhu = Joseph; Schiestl and
-      Bietak name no one.
+      The largest superstructures are those of p/21-Grab 1 and p/19-Grab 1 (Schiestl 2009 chapter II.4.7; the 2006 article puts p/19 no. 1 at about 70 m2); their occupants are not named in any source read, and bone remains of two individuals are recorded for p/19 no. 1 (avaris-tomb-p19-1-bones). Rohl, via Bar-Ron, identifies the owner of the statue tomb with Ankhu, whom Bar-Ron equates with Joseph; Schiestl names no one.
     sources:
+    - src-schiestl-2009-td18
     - src-schiestl-2006
-    - src-fwf-p34601
     - src-bar-ron-2017
-  basis: >-
-    An identification without a naming text; the premises it uses (pyramid, no bones) are separately unsupported (see those claims).
+  basis: An identification without a naming text; the premises it uses (pyramid, no bones) are separate claims.
   positions:
   - label: Joseph's first tomb
-    holder: D. Rohl via M. S. Bar-Ron 2017
-    ground: pyramid tomb with its body removed matches Genesis 50 and Exodus 13
-  - label: No owner named
-    holder: R. Schiestl 2006; M. Bietak and team
-    ground: tomb plundered, bones of an adult male and mature female, no inscription
+    holder: D. Rohl, as relayed by M. S. Bar-Ron 2017
+    ground: a pyramid tomb with the body removed, read as matching Genesis 50 and Exodus 13
+  - label: No owner named; the statue's likely tomb is older than the palatial residence
+    holder: R. Schiestl 2006 and 2009
+    ground: no inscription naming the owner; stratigraphy
   disputed_by:
-  - who: R. Schiestl; M. Bietak
-    kind: group
-    position: no identification made in the texts read
-    source_read: 'yes'
+  - who: R. Schiestl (2009, pp. 84 and 212)
+    kind: person
+    position: places the statue's likely tomb in stratum d/2, older than the palatial residence, and names no owner
+    source_read: yes, Schiestl 2009
     via: direct
-- id: avaris-sp-largest-tomb-pyramid-royal
+
+- id: avaris-sp-this-is-josephs-tomb-first-buried
   state: contested
-  statement: The largest of the tombs has a pyramid, indicating high royal status in Egypt. (dh-qL1VmGF3BF8-03)
+  statement: 'So this is Joseph''s tomb, where he was first buried. (dh-qL1VmGF3BF8-29)'
   statement_kind: judgment
   evidence_class: interpretive
   confidence: low
   evidential_weight: 1
   anchor_checked: 'no'
-  adoption_weight: 2
-  adoption_note: >-
-    Dead Hidden (YouTube). Speaker cites archaeology; no excavation report, find number or plate is named in the claim lines read.
-  would_change_if: >-
-    see avaris-largest-tomb-pyramid; and, separately, a source is found that reads a pyramid at Tell el-Dab'a as a mark of royal status
+  adoption_weight: 1
+  adoption_note: 'Not measured. Dead Hidden (YouTube); the claim line names no excavation report, find number or plate.'
+  would_change_if: a naming text or a documented identification ties a tomb at F/I to a person called Joseph
   anchor:
     type: interpretive
     description: >-
-      Two separate assertions: (1) a pyramid exists on the largest tomb, which is contested (avaris-largest-tomb-pyramid); (2) a pyramid would
-      indicate high royal status. Bietak 2022 and the FWF page treat the occupant as a high-ranking prince or dignitary, not a king; Bar-Ron 2017
-      calls a pyramid tomb for a Semitic official 'an anomaly with no equivalent in ancient Egyptian history' (his words, an unverified claim).
+      The Bible texts read (Hebrew and KJV) say Joseph was embalmed and put in a coffin 'in Egypt' and do not name Avaris or a tomb. The excavators' texts read name no occupant. Bar-Ron 2017 gives the identification with the 'pyramid tomb'. The stratigraphic point of avaris-statue-findspot-ambiguous also applies: the statue's likely tomb is in the older cemetery.
     sources:
-    - src-schiestl-2006
-    - src-bietak-2022-eah
+    - src-hebrew-sefaria
+    - src-schiestl-2009-td18
     - src-bar-ron-2017
-  basis: Premise (1) is contested and (2) is an inference not found in any excavator text read.
+  basis: Premises are filed separately.
   positions:
-  - label: Pyramid, a sign of exceptional honour
-    holder: D. Rohl via M. S. Bar-Ron 2017
-    ground: pyramid tomb for an Asiatic would be unique
-  - label: Superstructure unknown; chapel suggested
-    holder: R. Schiestl 2006
-    ground: only lowest layers survive
+  - label: The pyramid tomb at F/I is Joseph's first tomb
+    holder: D. Rohl and K. A. Kitchen as relayed by M. S. Bar-Ron 2017 (neither opened)
+    ground: body removed, matching Exodus 13:19 (as Bar-Ron states it)
+  - label: No owner named
+    holder: R. Schiestl 2006 and 2009
+    ground: no inscription naming an owner
   disputed_by:
-  - who: R. Schiestl
+  - who: R. Schiestl (2009)
     kind: person
-    position: cannot say what the superstructure looked like
-    source_read: 'yes'
+    position: names no owner of the tomb with the statue fragments
+    source_read: yes, Schiestl 2009
     via: direct
-- id: avaris-sp-largest-tomb-no-bones
+
+- id: avaris-sp-largest-tomb-pyramid
   state: contested
+  statement: 'The largest of the tombs has a pyramid. (dh-qL1VmGF3BF8-03)'
+  statement_kind: judgment
+  evidence_class: interpretive
+  confidence: low
+  evidential_weight: 1
+  anchor_checked: 'no'
+  adoption_weight: 1
+  adoption_note: 'Not measured. Dead Hidden (YouTube); the claim line names no excavation report, find number or plate.'
+  would_change_if: see avaris-largest-tomb-pyramid
+  anchor:
+    type: interpretive
+    description: >-
+      See avaris-largest-tomb-pyramid and avaris-schiestl-2009-pyramid-discussion: Bietak proposed a small brick pyramid for p/19 no. 1 (as Schiestl reports); Schiestl judges it conceivable but not very probable; Bar-Ron states a pyramid tomb.
+    sources:
+    - src-schiestl-2009-td18
+    - src-bar-ron-2017
+  basis: Premise filed separately.
+  positions:
+  - label: Pyramid
+    holder: D. Rohl via M. S. Bar-Ron 2017; M. Bietak (p/19 no. 1) as reported by R. Schiestl 2009
+    ground: see avaris-largest-tomb-pyramid
+  - label: Chapel or tapering mastaba
+    holder: R. Schiestl 2006, 2009
+    ground: see avaris-largest-tomb-pyramid
+  disputed_by:
+  - who: R. Schiestl (2009)
+    kind: person
+    position: pyramid conceivable but not very probable
+    source_read: yes, Schiestl 2009 pp. 64-65
+    via: direct
+
+- id: avaris-sp-largest-tomb-pyramid-royal
+  state: searched_gap
+  statement: '[a pyramid,] indicating high royal status in Egypt. (dh-qL1VmGF3BF8-03)'
+  statement_kind: judgment
+  evidence_class: interpretive
+  confidence: low
+  evidential_weight: 1
+  anchor_checked: 'no'
+  adoption_weight: 1
+  adoption_note: 'Not measured. Dead Hidden (YouTube); the claim line names no excavation report, find number or plate.'
+  would_change_if: >-
+    a source read states that a pyramid at Tell el-Dab'a would mark royal status for an Asiatic buried there
+  next_step: Look for a scholar who reads a pyramid at Tell el-Dab'a as a mark of royal status.
+  absence_anchor: true
+  anchor:
+    type: search-record
+    description: >-
+      Not found in the excavators' texts read. Schiestl 2009 says private pyramids in the Middle Kingdom are conceivable but not very probable and that the statue lacks royal attributes; Bar-Ron 2017 p. 1 calls a pyramid tomb for a Semitic official 'an anomaly with no equivalent in ancient Egyptian history' (his words).
+    sources:
+    - src-schiestl-2009-td18
+    - src-bar-ron-2017
+  basis: An inference stated by the speaker; not found in any excavator text read.
+
+- id: avaris-sp-largest-tomb-no-bones
+  state: proposed
   statement: '[The largest of the tombs] contains no bones. (dh-qL1VmGF3BF8-03)'
   statement_kind: judgment
   evidence_class: interpretive
@@ -690,188 +1094,178 @@ claims:
   anchor_checked: 'no'
   adoption_weight: 2
   adoption_note: >-
-    Dead Hidden (YouTube). Speaker cites archaeology; no excavation report, find number or plate is named in the claim lines read.
+    Stated in the speaker's claim line and in Bar-Ron 2017 ('the body in the pyramid tomb had long been removed'), both read; Bar-Ron cites Kitchen 2003 pp. 345-346 and Rohl (not opened). Reach not measured.
   would_change_if: the anthropological report or the monograph on the tomb is read and states which tomb held no bones
   anchor:
     type: interpretive
     description: >-
-      Schiestl 2006 reports that bone fragments from the burial chamber of the leading candidate tomb p/19 no. 1 are assigned to two individuals
-      (adult male, mature female). Bar-Ron 2017 states that the body 'in the pyramid tomb had long been removed ... an act of piety', citing Kitchen
-      2003 and Rohl. These conflict if the same tomb is meant; which tomb the speaker means is not stated.
+      Schiestl 2006 and 2009 record bone remains of two individuals in the chamber of p/19 no. 1 (avaris-tomb-p19-1-bones). Bar-Ron states that the body in the 'pyramid tomb' had been removed. If both mean the same tomb the two texts conflict; neither text names the other, and the speaker does not say which tomb he means, so the conflict is conditional.
     sources:
-    - src-schiestl-2006
+    - src-schiestl-2009-td18
     - src-bar-ron-2017
-  basis: A direct conflict between two texts read, with the identity of the tomb unsettled.
-  positions:
-  - label: Tomb had no bones (body removed)
-    holder: D. Rohl and K. A. Kitchen, via M. S. Bar-Ron 2017
-    ground: stated in Bar-Ron citing Kitchen 2003 pp. 345-346 and Rohl; neither opened
-  - label: Bone fragments of two individuals in tomb p/19 no. 1
-    holder: R. Schiestl 2006 (anthropology by K. Grossschmidt and team)
-    ground: published count of individuals
-  disputed_by:
-  - who: R. Schiestl 2006
-    kind: person
-    position: bone fragments assigned to an adult male and a mature female
-    source_read: 'yes'
-    via: direct
+  basis: A conditional conflict between two texts read.
+  alternatives:
+  - text: The speaker and Bar-Ron mean a different tomb than p/19 no. 1.
+    why_not_preferred: Bar-Ron gives no tomb number; the excavators' texts read describe no tomb as found without bones, and also do not exclude one.
+
 - id: avaris-sp-date-1900-bc
   state: proposed
-  statement: The palace, columns and tombs date to about 1900 BC. (Well, it's about 1900 BC.) (dh-qL1VmGF3BF8-04)
+  statement: 'The palace, columns and tombs date to about 1900 BC. (dh-qL1VmGF3BF8-04)'
   statement_kind: judgment
   evidence_class: interpretive
   confidence: low
   evidential_weight: 1
   anchor_checked: 'no'
-  adoption_weight: 2
-  adoption_note: >-
-    Dead Hidden (YouTube). Speaker cites archaeology; no excavation report, find number or plate is named in the claim lines read.
+  adoption_weight: 1
+  adoption_note: 'Not measured. Dead Hidden (YouTube); the claim line names no excavation report, find number or plate.'
   would_change_if: >-
     the strata windows are published with reasons and cover 1900 BC, or a chronology is read that places the F/I strata there
   anchor:
     type: interpretive
     description: >-
-      The excavators' own dates read are about 1850-1780 BCE (FWF) and about 1820-1750 BC (Schiestl 2006); neither includes 1900 BC. Rohl's lowered
-      chronology would put the Twelfth Dynasty later, not earlier. See avaris-date-strata-as-published.
+      The printed absolute figures read are c. 1850-1780 BCE (FWF), ca. 1820-1750 BC (Schiestl 2006) and ca. 1830-1750 (the publisher's abstract of Schiestl 2009); Schiestl 2009 chapter I p. 19 puts the cemeteries 'in etwa am Ende des 19. und am Beginn des 18. Jahrhunderts v. Chr.' (about the end of the 19th and beginning of the 18th century BC). 'About 1900 BC' is earlier than any printed figure read and near the early edge of the 2009 wording.
+      Rohl's lowered chronology, as relayed by Bar-Ron, would place the Twelfth Dynasty later, not earlier. See avaris-date-strata-as-published.
     sources:
     - src-schiestl-2006
+    - src-schiestl-2009-td18
     - src-fwf-p34601
     - src-bar-ron-2017
   basis: >-
-    The speaker's round number is about 50 to 120 years earlier than the excavators' dates in the texts read; no source for it was found.
+    The speaker's round number is 50 to 120 years earlier than the printed absolute figures read; no source for it was found. The statement 'about 1900' is a rounding that the 2009 wording may cover at its early edge.
   alternatives:
   - text: A different pre-2006 or non-excavator chronology puts the strata near 1900 BC.
     why_not_preferred: No such source was opened.
+
 - id: avaris-sp-twelve-were-pillars-of-royal-house
   state: searched_gap
-  statement: The 12 people buried in the tombs are the pillars of the royal house. (dh-qL1VmGF3BF8-05)
+  statement: 'The 12 people buried in the tombs are the pillars of the royal house. (dh-qL1VmGF3BF8-05)'
   statement_kind: judgment
   evidence_class: interpretive
   confidence: low
   evidential_weight: 1
   anchor_checked: 'no'
-  adoption_weight: 2
-  adoption_note: >-
-    Dead Hidden (YouTube). Speaker cites archaeology; no excavation report, find number or plate is named in the claim lines read.
+  adoption_weight: 1
+  adoption_note: 'Not measured. Dead Hidden (YouTube); the claim line names no excavation report, find number or plate.'
   would_change_if: a source defines a royal house at F/I in the period of the tombs and names its members
   next_step: Ask what the speaker means by 'royal house' and what source is used.
+  absence_anchor: true
   anchor:
     type: search-record
     description: >-
-      The excavators read the buried as an Asiatic elite under the late 12th and 13th Dynasty Egyptian state, not as a royal house (Schiestl 2006
-      on a 'dignitary ruling over Asiatics'). 'Royal house' is not used for the cemetery in the sources read.
+      Searched the excavators' texts read for 'royal house' or a royal reading of the buried. Schiestl 2009 chapter IX reads the buried men as officials of the Egyptian state and rejects royal readings of the cemetery; no source read describes the cemetery as that of a royal house.
     sources:
+    - src-schiestl-2009-td18
     - src-schiestl-2006
-    - src-fwf-p34601
   basis: Nothing read states it.
+
 - id: avaris-sp-descendants-15th-dynasty
   state: searched_gap
   statement: >-
-    [The 12 people buried in the tombs'] descendants [...] were the 15th dynasty of Egypt (their descendants became the 15th dynasty of Egyptian
-    kings who ruled Lower Egypt in the north). (dh-qL1VmGF3BF8-05)
+    [The 12 people buried in the tombs'] descendants [...] were the 15th dynasty of Egypt. (dh-qL1VmGF3BF8-05)
   statement_kind: judgment
   evidence_class: interpretive
   confidence: low
   evidential_weight: 1
   anchor_checked: 'no'
-  adoption_weight: 2
-  adoption_note: >-
-    Dead Hidden (YouTube). Speaker cites archaeology; no excavation report, find number or plate is named in the claim lines read.
+  adoption_weight: 1
+  adoption_note: 'Not measured. Dead Hidden (YouTube); the claim line names no excavation report, find number or plate.'
   would_change_if: >-
-    an inscription, genealogy or other record links the F/I tomb owners to the Fifteenth Dynasty kings (Khayan, Apophis and others)
+    an inscription, genealogy or other record links the F/I tomb owners to the Fifteenth Dynasty kings
+  absence_anchor: true
   anchor:
     type: search-record
     description: >-
-      Bietak 2022 places a Near-Eastern palace of the 14th Dynasty in phase F, burned in phase E/2 in a way best explained 'as connected with
-      the installation of the 15th Dynasty', and a later Hyksos palace; the F/I cemetery continued into the 15th Dynasty (Schiestl 2006). No source
-      read says the kings descended from the people in the F/I tombs. Speaker cites none.
+      Bietak 2022 places a Near-Eastern palace of the 14th Dynasty in phase F, burned in phase E/2 in a way best explained 'as connected with the installation of the 15th Dynasty', and a later Hyksos palace; Schiestl 2009 chapter I p. 19 says the funerary history of the site can be followed for about 300 years, to graves of the early 18th Dynasty at 'Ezbet Helmi. No source read says the Fifteenth Dynasty kings descended from the people in the F/I tombs.
     sources:
+    - src-schiestl-2009-td18
     - src-bietak-2022-eah
-    - src-schiestl-2006
-    - src-fwf-p34601
-  basis: >-
-    A descent claim with no text; the Fifteenth Dynasty as Hyksos rulers of the north is mainstream, the descent is not in anything read.
+  basis: A descent claim with no text in anything read.
   gap_type: structural
   gap_reason: >-
-    A line of descent needs a naming text or equivalent record; none connecting the F/I tomb owners to Fifteenth Dynasty kings was found in the
-    sources read.
+    A line of descent needs a naming text or equivalent record; none connecting the F/I tomb owners to Fifteenth Dynasty kings was found in the sources read.
+
 - id: avaris-sp-no-bones-because-exodus
-  state: contested
-  statement: >-
-    It has no bones because they were taken in the Exodus and buried in Canaan. / [he was embalmed and placed in a coffin; and] later his bones
-    were taken back to Canaan. (dh-qL1VmGF3BF8-29; dh-qL1VmGF3BF8-30)
+  state: proposed
+  statement: 'It has no bones because they were taken in the Exodus and buried in Canaan. (dh-qL1VmGF3BF8-29)'
   statement_kind: judgment
   evidence_class: interpretive
   confidence: low
   evidential_weight: 1
   anchor_checked: 'no'
-  adoption_weight: 2
-  adoption_note: >-
-    Dead Hidden (YouTube). Speaker cites archaeology; no excavation report, find number or plate is named in the claim lines read.
+  adoption_weight: 1
+  adoption_note: 'Not measured. Dead Hidden (YouTube); the claim line names no excavation report, find number or plate.'
   would_change_if: >-
-    an independent record (Egyptian or archaeological) shows the removal of bones from a Tell el-Dab'a tomb, or the tomb is shown to have been
-    empty of bones
+    an independent record shows the removal of bones from a Tell el-Dab'a tomb, or the tomb is shown to have been empty of bones
   anchor:
     type: interpretive
     description: >-
-      The Bible text says Moses took Joseph's bones and they were buried at Shechem (Exodus 13:19; Joshua 24:32, KJV), but does not name Avaris
-      or a tomb there. Whether the F/I tomb held bones is itself conflicting (avaris-tomb-p19-1-bones). Bar-Ron 2017 argues that bones removed
-      rather than treasure is 'an act of piety'. Excavators read the tombs as plundered (Schiestl 2006).
+      The Bible texts read say Moses took Joseph's bones and they were buried at Shechem (Exodus 13:19; Joshua 24:32), and do not name Avaris or a tomb there. Bar-Ron 2017 p. 5 argues that bones removed rather than treasure is 'an act of piety' (his words). Whether the F/I tomb held bones is itself conflicting (avaris-tomb-p19-1-bones). Schiestl reads the tombs as plundered.
     sources:
-    - src-kjv-bible-api
+    - src-hebrew-sefaria
     - src-bar-ron-2017
-    - src-schiestl-2006
-  basis: A reading of a tradition onto a site; tomb robbery is the excavators' stated cause of the emptiness of tombs.
-  positions:
-  - label: Bones removed deliberately and carried to Canaan
-    holder: D. Rohl / K. A. Kitchen as relayed by M. S. Bar-Ron 2017
-    ground: treasure left but bones gone; matches Genesis 50:25 and Exodus 13:19
-  - label: Tombs plundered in antiquity; one candidate still held bone fragments
-    holder: R. Schiestl 2006
-    ground: '''completely plundered'', bones of two individuals'
-  disputed_by:
-  - who: R. Schiestl
-    kind: person
-    position: plundered tombs, not a deliberate removal; bones present in p/19 no. 1
-    source_read: 'yes'
-    via: direct
-- id: avaris-sp-joseph-honors-embalmed-in-this-tomb
-  state: contested
-  statement: >-
-    He was given all the honors of an Egyptian nobleman, embalmed, and placed in a coffin [in this tomb]. (dh-qL1VmGF3BF8-30)
+    - src-schiestl-2009-td18
+  basis: A reading of a tradition onto a site.
+
+- id: avaris-sp-bones-taken-back-to-canaan
+  state: proposed
+  statement: '[He was embalmed and placed in a coffin; and] later his bones were taken back to Canaan. (dh-qL1VmGF3BF8-30)'
   statement_kind: judgment
   evidence_class: interpretive
   confidence: low
   evidential_weight: 1
   anchor_checked: 'no'
-  adoption_weight: 2
-  adoption_note: >-
-    Dead Hidden (YouTube). Speaker cites archaeology; no excavation report, find number or plate is named in the claim lines read.
+  adoption_weight: 1
+  adoption_note: 'Not measured. Dead Hidden (YouTube); the claim line names no excavation report, find number or plate.'
+  would_change_if: an independent record shows the removal of bones from a Tell el-Dab'a tomb
+  anchor:
+    type: interpretive
+    description: >-
+      The Bible texts read (Exodus 13:19; Joshua 24:32) state the carrying of Joseph's bones to Shechem. They do not place his tomb at Avaris. That is a statement of the tradition, not of the site.
+    sources:
+    - src-hebrew-sefaria
+    - src-kjv-bible-api
+  basis: The Bible clause is a tradition read in two renderings of one text.
+
+- id: avaris-sp-joseph-given-egyptian-honors
+  state: proposed
+  statement: 'He was given all the honors of an Egyptian nobleman. (dh-qL1VmGF3BF8-30)'
+  statement_kind: judgment
+  evidence_class: interpretive
+  confidence: low
+  evidential_weight: 1
+  anchor_checked: 'no'
+  adoption_weight: 1
+  adoption_note: 'Not measured. Dead Hidden (YouTube); the claim line names no excavation report, find number or plate.'
+  would_change_if: a naming text ties a tomb with such honours to a person called Joseph
+  anchor:
+    type: interpretive
+    description: >-
+      Schiestl 2009 (chapter X p. 216) writes that the architecture of the tombs and their basic equipment 'orientierte sich stark an der agyptischen Elite des MR' (followed the Egyptian elite of the Middle Kingdom closely) for the buried community; no source read says whom. The Bible clause in Genesis 50:26 reads that Joseph was embalmed and put in a coffin in Egypt.
+    sources:
+    - src-schiestl-2009-td18
+    - src-hebrew-sefaria
+  basis: A statement about a person, not a find.
+
+- id: avaris-sp-joseph-honors-embalmed-in-this-tomb
+  state: proposed
+  statement: '[He was] embalmed, and placed in a coffin [in this tomb]. (dh-qL1VmGF3BF8-30)'
+  statement_kind: judgment
+  evidence_class: interpretive
+  confidence: low
+  evidential_weight: 1
+  anchor_checked: 'no'
+  adoption_weight: 1
+  adoption_note: 'Not measured. Dead Hidden (YouTube); the claim line names no excavation report, find number or plate.'
   would_change_if: >-
     an independent record shows that the tomb held an embalmed body or coffin; or the Bible-based reading is tied to the tomb by a naming text
   anchor:
     type: interpretive
     description: >-
-      Genesis 50:26 (KJV) says Joseph was embalmed and put in a coffin 'in Egypt', not in a tomb at Avaris. Bietak 2022: 'No mummification can
-      be ascertained' in the Tell el-Dab'a burials, which are mostly in contracted posture with Near-Eastern customs, while 'Higher-ranking tombs
-      before the Hyksos period had wooden coffins.' The texts read do not report mummification or a coffin in the candidate tomb.
+      Genesis 50:26 (Hebrew and KJV) says Joseph was embalmed and put in a coffin 'in Egypt', not in a tomb at Avaris. Bietak 2022: 'No mummification can be ascertained' in the Tell el-Dab'a burials, which are mostly in contracted posture with Near-Eastern customs, while 'Higher-ranking tombs before the Hyksos period had wooden coffins.'
+      Schiestl 2009 (English Summary p. 482): evidence for two coffins in stratum d/2 and six in d/1 from traces of plaster and paint; 'The lack of preserved organic materials does not allow discussing whether some form of mummification or other special preparations for the body were undertaken.' The first is a general statement for the burials; the second says it cannot be discussed. Neither is a finding about a single tomb.
     sources:
-    - src-kjv-bible-api
+    - src-hebrew-sefaria
     - src-bietak-2022-eah
-    - src-schiestl-2006
+    - src-schiestl-2009-td18
   basis: >-
-    The Bible clause is a tradition; the excavators' general statement on mummification covers Tell el-Dab'a tombs, not necessarily the largest
-    one.
-  positions:
-  - label: Embalmed and coffined in this tomb
-    holder: Speaker; Bar-Ron/Rohl line
-    ground: Genesis 50:26 read as describing the Avaris tomb
-  - label: No mummification ascertained in the cemeteries; wooden coffins in some higher-ranking tombs
-    holder: M. Bietak 2022
-    ground: general statement on the Tell el-Dab'a burials
-  disputed_by:
-  - who: M. Bietak 2022
-    kind: person
-    position: '''No mummification can be ascertained'' in the burials'
-    source_read: yes, in a third-party copy of the Wiley entry
-    via: direct
+    The Bible clause is a tradition; the excavators' general statements on mummification cover the Tell el-Dab'a tombs, not necessarily the largest one.

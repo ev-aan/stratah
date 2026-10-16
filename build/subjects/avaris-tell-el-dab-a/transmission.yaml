@@ -1,9 +1,10 @@
-# How the Joseph-at-Avaris reading appeared and reached the speaker. Spread is adoption, never evidence (X1).
+# Dated statements about the Joseph-at-Avaris reading, in the order the sources give them. Spread is adoption, never evidence (X1).
+# No step here says how one statement reached the next: the sources read name no such path, and none is inferred.
 subject: avaris-tell-el-dab-a
 chains:
   - id: tx-avaris-joseph-reading
     about: "avaris-tell-el-dab-a:avaris-sp-statue-joseph-or-jacob-foreign-king"
-    title: "From an excavated cemetery and statue to 'Joseph or Jacob' and '12 tombs, 12 columns'"
+    title: "Dated statements on the Avaris statue, tombs and palace, from the excavation reports to the Dead Hidden claim lines"
     confers_weight: false
     events:
       - id: tx-av-01
@@ -18,45 +19,54 @@ chains:
       - id: tx-av-02
         date: "1997"
         precision: year
-        step: reinterpretation
-        carrier: "David Rohl (per Bar-Ron 2017: 'In 1997, David Rohl brought to global attention')"
-        form: "Palace, 12 pillars, 12 prominent tombs, a pyramid tomb with a missing body, and a statue read as the biblical Joseph (as the vizier Ankhu) in a lowered chronology."
-        source: src-rohl-works
-        read: no
-        note: "Rohl's own text was not opened; the 1997 date is Bar-Ron's statement."
+        step: statement by a later author
+        carrier: "M. S. Bar-Ron, The Seal of Joseph in His Palace at Tell ed-Daba (2017), which states: 'In 1997, David Rohl brought to global attention' the find"
+        form: "Bar-Ron's own sentence, as he writes it. Rohl's own text was not opened, so what Rohl wrote in or after 1997 is not known from a read source."
+        source: src-bar-ron-2017
+        read: yes
+        note: "The year and the attribution are Bar-Ron's."
       - id: tx-av-03
         date: "2017-12-29"
         precision: day
-        step: repetition
+        step: statement
         carrier: "M. S. Bar-Ron, The Seal of Joseph in His Palace at Tell ed-Daba"
-        form: "Repeats the 12 pillars, 12 tombs, pyramid tomb and removed body, citing Rohl and Kitchen."
+        form: "States two rows of 12 pillars, 12 prominent tombs, a pyramid tomb whose body had been removed, a 3-meter-high statue, the vizier Ankhu as Joseph; cites Rohl and Kitchen (neither opened)."
         source: src-bar-ron-2017
         read: yes
         note: "Node avaris-2017-12-29-bar-ron-joseph-palace-paper."
       - id: tx-av-04
         date: "2021"
         precision: year
-        step: variant
+        step: statement
         carrier: "Douglas Petrovich, Origins of the Hebrews (New Creation), as reviewed by C. E. Billington (ABR, 2022-11-21)"
-        form: "Statue read as Jacob, not Joseph; the palace built by Ephraim and Manasseh."
+        form: "As Billington reports it: the statue is Jacob, not Joseph; the four-room house under the palatial house was Jacob's; the palatial house was built by Ephraim and Manasseh."
         source: src-billington-abr-2022
         read: yes
-        note: "Review read; the book was not."
+        note: "Review read; the book was not. Billington writes that 'some conservative Bible scholars' have suggested Joseph and does not name Rohl."
       - id: tx-av-05
         date: "2026-09-08"
         precision: day
-        step: repetition
+        step: statement
         carrier: "Dead Hidden, 'The Aamu of Shu | The Hyksos' (qL1VmGF3BF8)"
-        form: "12 columns, 12 tombs in the garden, pyramid, no bones, about 1900 BC, Joseph's tomb, 15th dynasty descent (dh-qL1VmGF3BF8-02 to -05, -29, -30, -37)."
+        form: "Claim lines: 12 columns, 12 tombs in the garden, pyramid, no bones, about 1900 BC, Joseph's tomb, 15th dynasty descent (dh-qL1VmGF3BF8-01 to -05, -29, -30, -37)."
         source: src-dh-claims
         read: no
-        note: "Only the claim lines were read. The speaker's source is unknown; the claims cite 'archaeology' or nothing. Date is the upload date in the claims file."
+        note: "Only the claim lines were read. The claims cite 'archaeology' or nothing; the speaker's source is not known. Date is the upload date in the claims file."
       - id: tx-av-06
         date: "2026-09-12"
         precision: day
-        step: repetition
+        step: statement
         carrier: "Dead Hidden, 'Japheth dwelling in the tents of Shem' (KNhzmEKodZg)"
         form: "Palace with 12 columns and 12 tombs of the patriarchs; statue most likely Joseph (dh-KNhzmEKodZg-19, -23)."
         source: src-dh-claims
         read: no
         note: "Claim lines only. Upload date from the claims file."
+      - id: tx-av-07
+        date: "1994"
+        precision: year
+        step: excavator proposal
+        carrier: "M. Bietak, as reported by R. Schiestl 2009 (fn. 350: 'M. BIETAK 1994, 93')"
+        form: "A reconstruction of the superstructure of tomb p/19-Grab 1 as a small brick pyramid, proposed because of its roughly square foundation; Schiestl 2009 judges it conceivable but not very probable."
+        source: src-schiestl-2009-td18
+        read: yes
+        note: "Known from Schiestl 2009 only; Bietak 1994 was not opened. The year is the year of the work Schiestl cites."

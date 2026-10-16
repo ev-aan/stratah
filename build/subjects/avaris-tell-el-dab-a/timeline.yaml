@@ -1,0 +1,75 @@
+timeline:
+  id: avaris-tell-el-dab-a
+  title: "Tell el-Dab'a (Avaris), area F/I: the strata, the dig, the publications and the readings (c. 1850 BCE to 2026)"
+  as_of: "2026-10-16"
+  note: >
+    Dates before the common era are written as negative years. The strata dates are the printed figures of the excavators' own publications and differ between them (see claim avaris-date-strata-as-published); they are drawn as ranges.
+    Publication years are the years printed in the works cited. The 1991 and 1994 works were not opened: they are known from Schiestl 2009 and are drawn as single-source. Dead Hidden dates are the upload dates in the claims files (claim lines read in the first round; the videos were not watched).
+lanes:
+  strata:      {label: "Strata and finds (as the excavators date them)"}
+  excavators:  {label: "Excavators' publications"}
+  readings:    {label: "Readings by other authors"}
+  video:       {label: "Video claim lines"}
+people:
+  - {who: "Manfred Bietak", detail: "Director of the Austrian Archaeological Institute excavation at Tell el-Dab'a (Schiestl 2009 English Summary: area F/I excavated 1979-1990 under his direction)."}
+  - {who: "Robert Schiestl", detail: "Author of the 2006 article and the 2009 monograph on the F/I tombs; at the Egyptological Seminar of the FU Berlin per the publisher's page for the 2009 volume."}
+  - {who: "David Rohl", detail: "Author of books cited by Bar-Ron 2017 and by Schiestl 2009 fn. 487; none opened."}
+  - {who: "Michael S. Bar-Ron", detail: "Author of the 2017 paper; thanks Rohl as his mentor."}
+  - {who: "Douglas Petrovich", detail: "Author of Origins of the Hebrews (2021), known only from Billington's review."}
+  - {who: "Clyde E. Billington", detail: "Author of the 2022 review published by Associates for Biblical Research."}
+sources:
+  s_sch09:    {title: "Schiestl, Tell el-Dab'a XVIII (OeAW 2009), open access chapters", url: "https://austriaca.at/3738-2inhalt", authenticity: "authenticated, moderate (publisher platform); read in part"}
+  s_sch06:    {title: "Schiestl, The Statue of an Asiatic Man from Tell el-Dab'a, Egypt, Agypten und Levante 16 (2006)", url: "https://austriaca.at/0xc1aa5576_0x0016f30e.pdf", authenticity: "authenticated, moderate; read"}
+  s_fwf:      {title: "FWF P 34601 preliminary results (Bietak's team)", url: "https://www.uibk.ac.at/media/filer_public/82/8e/828e8fc0-7dcc-48f2-8b55-0c68768a4417/preliminary_results_p-34601.pdf", authenticity: "unchecked; read"}
+  s_b96:      {title: "Bietak, Avaris, the Capital of the Hyksos (British Museum Press 1996), public scan", url: "https://archive.org/details/AvarisTheCapitalOfTheHyksosRecentExcavationsAtTellElDab", authenticity: "authenticated, weak (community upload); read in part"}
+  s_b22:      {title: "Bietak, Avaris/Tell el-Dab'a, Encyclopedia of Ancient History (Wiley 2022), third-party copy", url: "https://www.ancientportsantiques.com/wp-content/uploads/Documents/PLACES/Egypt-Libya/NileDelta/Avaris-Bietak2022.pdf", authenticity: "authenticated, weak; read"}
+  s_barron:   {title: "Bar-Ron, The Seal of Joseph in His Palace at Tell ed-Daba (2017)", url: "https://kankanjournal.com/wp-content/uploads/2020/12/The_Seal_of_Joseph_in_His_Palace_at_Tell.pdf", authenticity: "unchecked; read"}
+  s_billington: {title: "Billington, review of Petrovich, Origins of the Hebrews, ABR, 21 Nov 2022", url: "https://biblearchaeology.org/?p=72553", authenticity: "unchecked; read; Petrovich's book not opened"}
+  s_dh:       {title: "Dead Hidden video qL1VmGF3BF8 (claims file not in the repository)", url: "https://www.youtube.com/watch?v=qL1VmGF3BF8", authenticity: "speaker claims; video not watched; the URL is built from the video id in the claims file name and was not opened"}
+  s_dh2:      {title: "Dead Hidden video KNhzmEKodZg (claims file not in the repository)", url: "https://www.youtube.com/watch?v=KNhzmEKodZg", authenticity: "speaker claims; video not watched; the URL is built from the video id in the claims file name and was not opened"}
+events:
+  - {id: e1, lane: strata, time: "-1850-01-01T00:00:00Z", end: "-1750-12-31T00:00:00Z", precision: range, kind: analysis, status: disputed, sources: [s_sch09, s_sch06, s_fwf],
+     label: "About 1850-1750 BCE: strata d/2 (H) and d/1 (G/4) of cemetery F/I, as printed by the excavators",
+     detail: "FWF: phase H c. 1850-1815, G/4 c. 1815-1780 BCE. Schiestl 2006: d/2 ca. 1820-1785, d/1 ca. 1785-1750 BC. Schiestl 2009: about the end of the 19th and the beginning of the 18th century BC, with a relative chronology tied to kings. The figures differ; Rohl's lowered chronology (via Bar-Ron) differs again. Read."}
+  - {id: e2, lane: strata, time: "1979-01-01T00:00:00Z", end: "1990-12-31T00:00:00Z", precision: range, kind: document, status: single, sources: [s_sch09],
+     label: "1979-1990: the Austrian Archaeological Institute excavates area F/I under M. Bietak",
+     detail: "Schiestl 2009 English Summary: 'excavated by a team of the Austrian Archaeological Institute under the direction of M. Bietak from 1979-1990'. Read."}
+  - {id: e3, lane: strata, time: "1987-06-30T12:00:00Z", end: "1989-12-31T00:00:00Z", precision: range, kind: document, status: single, sources: [s_sch06, s_sch09],
+     label: "1986-1988: fragments of the smashed statue of an Asiatic man are found (tombs p/19 no. 1, p/21 no. 1, o/20 no. 11, p/19 no. 10)",
+     detail: "Schiestl 2006: 'All the pieces of the statue presented here were found between 1986 and 1988'. The month and day of each find are not given in the passages read. Node avaris-1986-1988-statue-fragments-found. Read."}
+  - {id: e4, lane: excavators, time: "1991-06-30T12:00:00Z", precision: year, kind: document, status: single, sources: [s_sch09],
+     label: "1991: Bietak publishes the palace-garden cemetery and the statue head (Agypten und Levante 2, 47-75)",
+     detail: "Known only from Schiestl 2006 and 2009, which cite 'BIETAK 1991 b' (Abb. 7-12, Taf. 13-17). Not opened."}
+  - {id: e5, lane: excavators, time: "1994-06-30T12:00:00Z", precision: year, kind: document, status: single, sources: [s_sch09],
+     label: "1994: a small brick pyramid is proposed for the superstructure of tomb p/19 no. 1 (as Schiestl 2009 reports)",
+     detail: "Schiestl 2009 p. 64 fn. 350 ('M. BIETAK 1994, 93'). Schiestl judges a pyramid conceivable but not very probable. Bietak 1994 was not opened."}
+  - {id: e6, lane: excavators, time: "1996-06-30T12:00:00Z", precision: year, kind: document, status: single, sources: [s_b96],
+     label: "1996: Bietak, Avaris, the Capital of the Hyksos (British Museum Press)",
+     detail: "Describes the statue, the palace with columns on the four sides of the court, six tombs with six tree pits, and the isometric reconstruction of the cemetery (Figs 17-19). Read in a public scan."}
+  - {id: e7, lane: readings, time: "1997-06-30T12:00:00Z", precision: year, kind: witness, status: single, sources: [s_barron],
+     label: "1997: 'David Rohl brought to global attention' the find (Bar-Ron's sentence)",
+     detail: "Bar-Ron 2017, Introduction. Rohl's own text of that year was not opened."}
+  - {id: e8, lane: excavators, time: "2006-06-30T12:00:00Z", precision: year, kind: document, status: single, sources: [s_sch06],
+     label: "2006: Schiestl, The Statue of an Asiatic Man from Tell el-Dab'a, Egypt (Agypten und Levante 16)",
+     detail: "Reconstruction of the statue about 2 m high; findspot and stratum 'remain ambiguous'. Read, with figures."}
+  - {id: e9, lane: excavators, time: "2009-06-30T12:00:00Z", precision: year, kind: document, status: single, sources: [s_sch09],
+     label: "2009: Schiestl, Tell el-Dab'a XVIII, the tombs of area F/I (open access)",
+     detail: "Catalogue, plates, discussion of the pyramid, of Ryholt's reading, of Rohl's coat reconstruction (fn. 487); stratum d/2 more likely for the statue. Read in part."}
+  - {id: e10, lane: readings, time: "2017-12-29T12:00:00Z", precision: day, kind: document, status: single, sources: [s_barron],
+     label: "29 Dec 2017: Bar-Ron, The Seal of Joseph in His Palace at Tell ed-Daba",
+     detail: "States two rows of 12 pillars, 12 prominent tombs, a pyramid tomb, a 3-meter-high statue, the vizier Ankhu as Joseph; credits Rohl. Node avaris-2017-12-29-bar-ron-joseph-palace-paper. Read."}
+  - {id: e11, lane: readings, time: "2021-06-30T12:00:00Z", precision: year, kind: document, status: single, sources: [s_billington],
+     label: "2021: Petrovich, Origins of the Hebrews (as reviewed by Billington)",
+     detail: "As Billington reports: the statue is Jacob; the four-room house beneath the palatial house was Jacob's; the palatial house was built by Ephraim and Manasseh. The book was not opened."}
+  - {id: e12, lane: excavators, time: "2022-06-30T12:00:00Z", precision: year, kind: document, status: single, sources: [s_b22],
+     label: "2022: Bietak, Avaris/Tell el-Dab'a, Encyclopedia of Ancient History (Wiley)",
+     detail: "Says a chapel on a big tomb contained a larger-than-life statue of a high-ranking prince (phase H) and names the Munich head ÄS 7171 as from phase G/4 ('seems to originate'). Read in a third-party copy."}
+  - {id: e13, lane: readings, time: "2022-11-21T12:00:00Z", precision: day, kind: document, status: single, sources: [s_billington],
+     label: "21 Nov 2022: Billington's review of Petrovich's book, published by Associates for Biblical Research",
+     detail: "Review read; Petrovich's book was not opened."}
+  - {id: e14, lane: video, time: "2026-09-08T12:00:00Z", precision: day, kind: media, status: single, sources: [s_dh],
+     label: "8 Sep 2026: Dead Hidden video qL1VmGF3BF8 (claim lines: 12 columns, 12 tombs, pyramid, no bones, about 1900 BC)",
+     detail: "Upload date from the claims file. Only the claim lines were read; the speaker's source is not known."}
+  - {id: e15, lane: video, time: "2026-09-12T12:00:00Z", precision: day, kind: media, status: single, sources: [s_dh2],
+     label: "12 Sep 2026: Dead Hidden video KNhzmEKodZg (claim lines: palace with 12 columns, tombs of the patriarchs, statue most likely Joseph)",
+     detail: "Upload date from the claims file. Claim lines only."}
