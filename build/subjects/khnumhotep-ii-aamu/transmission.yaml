@@ -1,0 +1,26 @@
+# How the speaker claims about the Aamu scene at Beni Hasan appeared. Spread is adoption, never evidence (X1).
+subject: khnumhotep-ii-aamu
+chains:
+  - id: tx-khnumhotep-dead-hidden
+    about: "khnumhotep-ii-aamu:khn-sp-02d-leader-a-hyksos"
+    title: "Where the 'Abishai, a Hyksos, 37 Aamu' wording appears in the Dead Hidden videos"
+    confers_weight: false
+    events:
+      - id: tx-kh-01
+        date: "2026-09-06"
+        precision: day
+        step: repetition
+        carrier: "Dead Hidden, 'Aamu, Hyksos, Habiru, Shasu' (K3pw12lBcXM), upload date per the claims file"
+        form: "Khnumhotep's tomb wall records Abishai, a foreign ruler, a Hyksos, and 37 Aamu who came to trade in antimony and animals; the first mention of the Hyksos, who received Goshen and Avaris (dh-K3pw12lBcXM-02, -03). The auto-caption quote reads 'yams' for Aamu."
+        source: src-dh-claims
+        read: no
+        note: "Only the extracted claim lines were read, not the video or transcript. The speaker cites only 'tomb of Khnumhotep'."
+      - id: tx-kh-02
+        date: "2026-09-08"
+        precision: day
+        step: repetition
+        carrier: "Dead Hidden, 'The Aamu of Shu | The Hyksos' (qL1VmGF3BF8), upload date per the claims file"
+        form: "Aamu of Shu, Aamu of the Hyksos, the earliest mention of the Hyksos who became the 15th dynasty; 37 with leader Abishai, 40 in all with three already there; given the best lands and peacefully ascended to the throne (dh-qL1VmGF3BF8-07, -08, -09)."
+        source: src-dh-claims
+        read: no
+        note: "Claim lines only. Dates are upload dates, not first-use dates. The speaker's sources are unknown. The Beni Hasan article by Newberry (1893), the Egyptian Ministry page and the ABR article were not shown to be the speaker's sources."

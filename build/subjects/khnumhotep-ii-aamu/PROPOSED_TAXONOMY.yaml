@@ -1,0 +1,6 @@
+# PROPOSAL ONLY, for the owner. build/taxonomy.yaml is owner-only and was not edited.
+# If accepted, add the line below under 'assignments:' in build/taxonomy.yaml.
+# Reason for the placement: the dig reads an inscribed tomb scene (Archaeology and Ancient Texts), tests a popular
+# Hyksos and biblical-patriarch framing (Is a widely shared claim true?) and asks what the caption says (What does it say or mean?).
+assignments:
+  khnumhotep-ii-aamu:    {area: archaeology_texts, areas: [history, religion_myth, media_misinformation], types: [what_does_it_mean, is_claim_true], popular_claims: true}

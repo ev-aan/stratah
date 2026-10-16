@@ -1,0 +1,40 @@
+timeline:
+  id: khnumhotep-ii-aamu
+  title: "The Aamu scene in tomb BH 3: the wall (year 6 of Senusret II), the 19th-century copies, and the modern readings (about 1890 BCE to 2010 CE)"
+  as_of: "2026-10-16"
+  note: >
+    Dates before the common era are written as negative years. The wall is dated by a regnal year (year 6 of Senusret II); the BCE position of that year differs by source (1911 to 1870 BCE across the sources read) and is drawn as a window on the shared node, not as a point. Every other dot is a publication date taken from a title page, a journal page or a record read in this dig. None of the readings of the signs was checked at sign level.
+lanes:
+  wall:       {label: "The wall"}
+  copies:     {label: "Copies and records of the wall"}
+  scholarship: {label: "Printed readings"}
+sources:
+  s_newberry1: {title: "P. E. Newberry, Beni Hasan Part I (Archaeological Survey of Egypt), London 1893; Internet Archive scan, OCR read", url: "https://archive.org/details/gri_33125001148937", authenticity: "authenticated edition, moderate; a translation and a copy, not the wall"}
+  s_newberry2: {title: "P. E. Newberry, Beni Hasan Part II (Archaeological Survey of Egypt), London 1893; Internet Archive scan, OCR read pp. 91-92", url: "https://archive.org/details/beni-hasan-v.-2", authenticity: "authenticated edition, weak; OCR only"}
+  s_lepsius: {title: "C. R. Lepsius, Denkmaeler aus Aegypten und Aethiopien, Abt. II Bl. 133 (Internet Archive item description: Berlin 1849-1859); plate looked at, signs not read", url: "https://archive.org/details/denkmaler-aus-aegypten-und-aethiopien", authenticity: "authenticated, weak; a 19th-century copy"}
+  s_kamrin: {title: "J. Kamrin, The Aamu of Shu in the Tomb of Khnumhotep II at Beni Hassan, Journal of Ancient Egyptian Interconnections 1(3), 22-36; full text read; its notes give the dates of the earlier works", url: "https://journals.librarypublishing.arizona.edu/jaei/article/id/892/", authenticity: "peer-reviewed article; PDF md5 equals the journal page checksum"}
+  s_met: {title: "Metropolitan Museum of Art Open Access API, object 544548 (33.8.17)", url: "https://collectionapi.metmuseum.org/public/collection/v1/objects/544548", authenticity: "holder's own record; web page not read (HTTP 429)"}
+events:
+  - {id: e-wall, lane: wall, node: khnumhotep-bh3-year6-senusret-ii-aamu-caption, rev: 2}
+  - {id: e-wilkinson, lane: copies, time: "1847-01-01T00:00:00Z", precision: year, kind: document, status: reported, sources: [s_kamrin],
+     label: "1847: J. G. Wilkinson, Manners and Customs of the Ancient Egyptians III, plate XII, a rendering of the scene",
+     detail: "Known here only from Kamrin's Figure 2 caption and note 16 ('after Wilkinson, Manners and Customs III (1847), Plate XII'); the work was not opened."}
+  - {id: e-lepsius, lane: copies, time: "1849-01-01T00:00:00Z", end: "1859-12-31T00:00:00Z", precision: range, kind: document, status: single, sources: [s_lepsius],
+     label: "1849 to 1859: Lepsius's Denkmaeler is published; Abt. II Bl. 133 carries a coloured copy of the procession (labelled 'Grab 2, Nordseite')",
+     detail: "The date range is from the Internet Archive item description; the year of Bl. 133 itself and of the copying at Beni Hasan were not read. The plate was looked at, not read at sign level."}
+  - {id: e-newberry1, lane: scholarship, time: "1893-01-01T00:00:00Z", precision: year, kind: document, status: single, sources: [s_newberry1],
+     label: "1893: Newberry's Beni Hasan Part I prints the roll and the captions of the scene with a translation (p. 69; Plates XXVIII, XXXI 'after Hay', XXXVIII)",
+     detail: "The first reading in this dig. The Editor's note says Newberry's own tracings were unavailable to the editor; the group drawing is a copy of Hay's earlier copy."}
+  - {id: e-newberry2, lane: scholarship, time: "1893-01-01T00:00:00Z", precision: year, kind: document, status: single, sources: [s_newberry2],
+     label: "1893: Newberry's Beni Hasan Part II says the Aamu in the tomb of Khnemhotep II 'had perhaps wandered into the desert between the Nile and the Red Sea' (pp. 91-92)",
+     detail: "The Internet Archive item lists 1893; the title page date was not read in the OCR."}
+  - {id: e-davies, lane: copies, node: khnumhotep-bh3-aamu-facsimile-met-1931, rev: 2}
+  - {id: e-met1933, lane: copies, time: "1933-01-01T00:00:00Z", precision: year, kind: official, status: single, sources: [s_met],
+     label: "1933: the Metropolitan Museum of Art's credit line for the facsimile reads 'Rogers Fund, 1933'",
+     detail: "Read in the API record. What the date marks (purchase, transfer or gift) is not stated in the field."}
+  - {id: e-goedicke, lane: scholarship, time: "1984-01-01T00:00:00Z", precision: year, kind: document, status: reported, sources: [s_kamrin],
+     label: "1984: H. Goedicke, 'Abi-Sha(i)'s Representation in Beni Hasan', JARCE 21, 203-210: the migrant-workers reading, Abi-sha(i) and a Sinai home for Shu",
+     detail: "Known here only through Kamrin's notes 2, 18, 23, 48, 52 and 53; not opened."}
+  - {id: e-kamrin, lane: scholarship, time: "2010-09-15T00:00:00Z", precision: day, kind: document, status: single, sources: [s_kamrin],
+     label: "2009/2010: Kamrin's article reviews the scholarship on the scene (pp. 22-36)",
+     detail: "The PDF footer reads 'Vol. 1:3, 2009'; the journal page reads 'Volume 1, Issue 3, 2010, JAEI July 2009' and 'Published on 2010-09-15'. The page date is drawn."}
