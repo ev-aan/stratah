@@ -1,0 +1,2633 @@
+# netanyahu-public-record: built 2026-10-16 by the builder agent from sources opened and read in that session (Stage 2 of the person-profile pilot).
+# Strictly descriptive: each claim says what one document says, with issuer and date. No commentary, motive or evaluation. An accusation is not a finding.
+# No `assessment:` block: the assessment (N23) requires a yes/no-type answer and a descriptive subject has none; this is listed as an owner decision, not invented.
+# adoption_weight 3 on every claim is a stated placeholder (the field is required; record facts have no adoption count).
+# The author does not write review.yaml and has not.
+
+subject: netanyahu-public-record
+title: 'Benjamin Netanyahu: public record and public-cost data from primary documents'
+question: >-
+  What do primary public documents say about Benjamin Netanyahu's offices, election results, court records, own
+  recorded statements and the public cost of the residences used by Prime Ministers?
+dig_status: open
+headline: 'Benjamin Netanyahu: offices, elections, court records, statements and public costs'
+headline_status: draft
+as_of: '2026-10-16'
+search_summary: >-
+  What do primary documents say about Benjamin Netanyahu's offices, election results, court records, own statements
+  and the public cost of the residences used by Prime Ministers? This page lists what each document says, with its
+  date, issuer and place, and states which documents could not be read: the Knesset's records, the Israeli courts'
+  records and his personal financial disclosures.
+description: >-
+  A data page built from documents the builder opened and read: Central Elections Committee results for the 21st
+  to 25th Knesset, State Comptroller reports (April 2024 on Prime Ministers' residences; May 2026 on the structure
+  of government), the International Criminal Court's press release, decisions, judgments and party filings in the
+  Situation in the State of Palestine, the President of Israel's office, the U.S. Congressional Record and UN General
+  Assembly verbatim records for his addresses, and Congressional Research Service reports for the criminal case,
+  which could not be read from Israeli sources. Every claim says what one document says, with its date. The page
+  makes no assessment of the person, gives no motive and draws no conclusion from any figure. Where a record could
+  not be opened, the page says so as a coverage fact.
+divergence_note: >-
+  This page does not measure what people believe about him and takes no position on any characterisation of him.
+  Where two documents give different accounts of the same matter (the Court and Israel on jurisdiction; the Prosecution
+  and Israel on the warrants; his statement on the ICC decision and the Court's release; the Comptroller's two periods
+  for a total), both are stated with their sources and neither is preferred. The gap recorded is between what the
+  documents state and what could not be read: the Knesset's own records, the Israeli court and Attorney General
+  records of the criminal case, the General Assembly record of 2025, and any declaration of his assets. The Hebrew
+  documents were read by the builder, a language model, and have not been checked by a Hebrew reader.
+claims:
+- id: np-k21-list-result
+  state: established
+  statement: >-
+    In the Knesset election of 9 April 2019 (page header: "ד' בניסן התשע"ט, 9 באפריל 2019"), the Central Elections
+    Committee's national-results page, marked "תוצאות סופיות רשמיות" (builder's gloss: "final official results"),
+    gives 6,339,729 eligible voters, 4,340,253 votes cast (turnout 68.46%), 4,309,270 valid votes and 30,983 invalid
+    votes, across 43 lists. The list named "הליכוד בהנהגת בנימין נתניהו לראשות הממשלה" (builder's gloss: "The Likud,
+    led by Benjamin Netanyahu, for Prime Minister") has 35 seats, 26.46% of valid votes and 1,140,370 valid votes.
+    The page's other list with the highest seat count is "כחול לבן בראשות בני גנץ ויאיר לפיד" (builder's gloss:
+    "Blue and White, headed by Benny Gantz and Yair Lapid"), 35 seats, 26.13% of valid votes, 1,125,881 valid votes.
+  evidence_class: primary_text
+  confidence: high
+  statement_kind: reported
+  evidential_weight: 4
+  anchor_checked: primary
+  adoption_weight: 3
+  adoption_note: >-
+    Not measured. The field is required by the validator; for a record fact no poll or count of believers is used,
+    so 3 is a stated placeholder (open decision for the owner).
+  would_change_if: >-
+    the Knesset, the Official Gazette or the committee itself publishing different final figures for this election
+  anchor:
+    type: primary_text
+    description: >-
+      Central Elections Committee national-results page for the 21st Knesset (votes21.bechirot.gov.il), retrieved
+      2026-10-16 and read in full as a stored plain-text extract (Hebrew). Header row read (eligible | cast | turnout
+      | valid | invalid): 6,339,729 | 4,340,253 | 68.46% | 4,309,270 | 30,983. Rows read (list name | letters |
+      seats | share of valid votes | valid votes): "הליכוד בהנהגת בנימין נתניהו לראשות הממשלה | מחל | 35 | 26.46%
+      | 1,140,370" and "כחול לבן בראשות בני גנץ ויאיר לפיד | פה | 35 | 26.13% | 1,125,881". Checks run on the extract:
+      seats of all 43 lists sum to 120; valid votes of all lists sum to the page total; the Likud share recomputes
+      to 26.46%.
+    sources:
+    - src-cec-k21
+    - tr-hebrew-glosses
+    accessible: true
+  basis: >-
+    # V: committee page read; arithmetic checked; no second origin read. The statement is about the list as the
+    committee names it and its count of votes cast for the list; it does not state how any voter chose. The Hebrew
+    list name is quoted as printed; the English gloss is the builder's and has not been checked by a Hebrew reader.
+    The 20th Knesset (2015) and earlier results are not read (see np-gap-earlier-elections).
+- id: np-k22-list-result
+  state: established
+  statement: >-
+    In the Knesset election of 17 September 2019 (page header: "י"ז באלול התשע"ט, 17 בספטמבר 2019"), the Central
+    Elections Committee's national-results page, marked "תוצאות סופיות רשמיות" (builder's gloss: "final official
+    results"), gives 6,394,030 eligible voters, 4,465,168 votes cast (turnout 69.83%), 4,436,806 valid votes and
+    28,362 invalid votes, across 32 lists. The list named "הליכוד בהנהגת בנימין נתניהו לראשות הממשלה" (builder's
+    gloss: "The Likud, led by Benjamin Netanyahu, for Prime Minister") has 32 seats, 25.10% of valid votes and 1,113,617
+    valid votes. The page's other list with the highest seat count is "כחול לבן - בראשות בני גנץ ויאיר לפיד" (builder's
+    gloss: "Blue and White, headed by Benny Gantz and Yair Lapid"), 33 seats, 25.95% of valid votes, 1,151,214 valid
+    votes.
+  evidence_class: primary_text
+  confidence: high
+  statement_kind: reported
+  evidential_weight: 4
+  anchor_checked: primary
+  adoption_weight: 3
+  adoption_note: >-
+    Not measured. The field is required by the validator; for a record fact no poll or count of believers is used,
+    so 3 is a stated placeholder (open decision for the owner).
+  would_change_if: >-
+    the Knesset, the Official Gazette or the committee itself publishing different final figures for this election
+  anchor:
+    type: primary_text
+    description: >-
+      Central Elections Committee national-results page for the 22nd Knesset (votes22.bechirot.gov.il), retrieved
+      2026-10-16 and read in full as a stored plain-text extract (Hebrew). Header row read (eligible | cast | turnout
+      | valid | invalid): 6,394,030 | 4,465,168 | 69.83% | 4,436,806 | 28,362. Rows read (list name | letters |
+      seats | share of valid votes | valid votes): "הליכוד בהנהגת בנימין נתניהו לראשות הממשלה | מחל | 32 | 25.10%
+      | 1,113,617" and "כחול לבן - בראשות בני גנץ ויאיר לפיד | פה | 33 | 25.95% | 1,151,214". Checks run on the
+      extract: seats of all 32 lists sum to 120; valid votes of all lists sum to the page total; the Likud share
+      recomputes to 25.10%.
+    sources:
+    - src-cec-k22
+    - tr-hebrew-glosses
+    accessible: true
+  basis: >-
+    # V: committee page read; arithmetic checked; no second origin read. The statement is about the list as the
+    committee names it and its count of votes cast for the list; it does not state how any voter chose. The Hebrew
+    list name is quoted as printed; the English gloss is the builder's and has not been checked by a Hebrew reader.
+    The 20th Knesset (2015) and earlier results are not read (see np-gap-earlier-elections).
+- id: np-k23-list-result
+  state: established
+  statement: >-
+    In the Knesset election of 2 March 2020 (page header: "ו' באדר התש"ף, 2 במרץ 2020"), the Central Elections Committee's
+    national-results page, marked "תוצאות סופיות רשמיות" (builder's gloss: "final official results"), gives 6,453,255
+    eligible voters, 4,615,135 votes cast (turnout 71.52%), 4,590,062 valid votes and 25,073 invalid votes, across
+    30 lists. The list named "הליכוד בהנהגת בנימין נתניהו לראשות הממשלה" (builder's gloss: "The Likud, led by Benjamin
+    Netanyahu, for Prime Minister") has 36 seats, 29.46% of valid votes and 1,352,449 valid votes. The page's other
+    list with the highest seat count is "כחול לבן בראשות בני גנץ" (builder's gloss: "Blue and White, headed by Benny
+    Gantz"), 33 seats, 26.59% of valid votes, 1,220,381 valid votes.
+  evidence_class: primary_text
+  confidence: high
+  statement_kind: reported
+  evidential_weight: 4
+  anchor_checked: primary
+  adoption_weight: 3
+  adoption_note: >-
+    Not measured. The field is required by the validator; for a record fact no poll or count of believers is used,
+    so 3 is a stated placeholder (open decision for the owner).
+  would_change_if: >-
+    the Knesset, the Official Gazette or the committee itself publishing different final figures for this election
+  anchor:
+    type: primary_text
+    description: >-
+      Central Elections Committee national-results page for the 23rd Knesset (votes23.bechirot.gov.il), retrieved
+      2026-10-16 and read in full as a stored plain-text extract (Hebrew). Header row read (eligible | cast | turnout
+      | valid | invalid): 6,453,255 | 4,615,135 | 71.52% | 4,590,062 | 25,073. Rows read (list name | letters |
+      seats | share of valid votes | valid votes): "הליכוד בהנהגת בנימין נתניהו לראשות הממשלה | מחל | 36 | 29.46%
+      | 1,352,449" and "כחול לבן בראשות בני גנץ | פה | 33 | 26.59% | 1,220,381". Checks run on the extract: seats
+      of all 30 lists sum to 120; valid votes of all lists sum to the page total; the Likud share recomputes to
+      29.46%.
+    sources:
+    - src-cec-k23
+    - tr-hebrew-glosses
+    accessible: true
+  basis: >-
+    # V: committee page read; arithmetic checked; no second origin read. The statement is about the list as the
+    committee names it and its count of votes cast for the list; it does not state how any voter chose. The Hebrew
+    list name is quoted as printed; the English gloss is the builder's and has not been checked by a Hebrew reader.
+    The 20th Knesset (2015) and earlier results are not read (see np-gap-earlier-elections).
+- id: np-k24-list-result
+  state: established
+  statement: >-
+    In the Knesset election of 23 March 2021 (page header: "י' בניסן התשפ"א, 23 במרץ 2021"), the Central Elections
+    Committee's national-results page, marked "תוצאות סופיות רשמיות" (builder's gloss: "final official results"),
+    gives 6,578,084 eligible voters, 4,436,365 votes cast (turnout 67.44%), 4,410,052 valid votes and 26,313 invalid
+    votes, across 39 lists. The list named "הליכוד בהנהגת בנימין נתניהו לראשות הממשלה" (builder's gloss: "The Likud,
+    led by Benjamin Netanyahu, for Prime Minister") has 30 seats, 24.19% of valid votes and 1,066,892 valid votes.
+    The page's other list with the highest seat count is "יש עתיד בראשות יאיר לפיד" (builder's gloss: "Yesh Atid,
+    headed by Yair Lapid"), 17 seats, 13.93% of valid votes, 614,112 valid votes.
+  evidence_class: primary_text
+  confidence: high
+  statement_kind: reported
+  evidential_weight: 4
+  anchor_checked: primary
+  adoption_weight: 3
+  adoption_note: >-
+    Not measured. The field is required by the validator; for a record fact no poll or count of believers is used,
+    so 3 is a stated placeholder (open decision for the owner).
+  would_change_if: >-
+    the Knesset, the Official Gazette or the committee itself publishing different final figures for this election
+  anchor:
+    type: primary_text
+    description: >-
+      Central Elections Committee national-results page for the 24th Knesset (votes24.bechirot.gov.il), retrieved
+      2026-10-16 and read in full as a stored plain-text extract (Hebrew). Header row read (eligible | cast | turnout
+      | valid | invalid): 6,578,084 | 4,436,365 | 67.44% | 4,410,052 | 26,313. Rows read (list name | letters |
+      seats | share of valid votes | valid votes): "הליכוד בהנהגת בנימין נתניהו לראשות הממשלה | מחל | 30 | 24.19%
+      | 1,066,892" and "יש עתיד בראשות יאיר לפיד | פה | 17 | 13.93% | 614,112". Checks run on the extract: seats
+      of all 39 lists sum to 120; valid votes of all lists sum to the page total; the Likud share recomputes to
+      24.19%.
+    sources:
+    - src-cec-k24
+    - tr-hebrew-glosses
+    accessible: true
+  basis: >-
+    # V: committee page read; arithmetic checked; no second origin read. The statement is about the list as the
+    committee names it and its count of votes cast for the list; it does not state how any voter chose. The Hebrew
+    list name is quoted as printed; the English gloss is the builder's and has not been checked by a Hebrew reader.
+    The 20th Knesset (2015) and earlier results are not read (see np-gap-earlier-elections).
+- id: np-k25-list-result
+  state: established
+  statement: >-
+    In the Knesset election of 1 November 2022 (page header: "ז' בחשוון התשפ"ג, 1 בנובמבר 2022"), the Central Elections
+    Committee's national-results page, marked "תוצאות סופיות רשמיות" (builder's gloss: "final official results"),
+    gives 6,788,804 eligible voters, 4,794,593 votes cast (turnout 70.63%), 4,764,742 valid votes and 29,851 invalid
+    votes, across 40 lists. The list named "הליכוד בהנהגת בנימין נתניהו לראשות הממשלה" (builder's gloss: "The Likud,
+    led by Benjamin Netanyahu, for Prime Minister") has 32 seats, 23.41% of valid votes and 1,115,336 valid votes.
+    The page's other list with the highest seat count is "יש עתיד בראשות יאיר לפיד לראשות הממשלה" (builder's gloss:
+    "Yesh Atid, headed by Yair Lapid, for Prime Minister"), 24 seats, 17.79% of valid votes, 847,435 valid votes.
+  evidence_class: primary_text
+  confidence: high
+  statement_kind: reported
+  evidential_weight: 4
+  anchor_checked: primary
+  adoption_weight: 3
+  adoption_note: >-
+    Not measured. The field is required by the validator; for a record fact no poll or count of believers is used,
+    so 3 is a stated placeholder (open decision for the owner).
+  would_change_if: >-
+    the Knesset, the Official Gazette or the committee itself publishing different final figures for this election
+  anchor:
+    type: primary_text
+    description: >-
+      Central Elections Committee national-results page for the 25th Knesset (votes25.bechirot.gov.il), retrieved
+      2026-10-16 and read in full as a stored plain-text extract (Hebrew). Header row read (eligible | cast | turnout
+      | valid | invalid): 6,788,804 | 4,794,593 | 70.63% | 4,764,742 | 29,851. Rows read (list name | letters |
+      seats | share of valid votes | valid votes): "הליכוד בהנהגת בנימין נתניהו לראשות הממשלה | מחל | 32 | 23.41%
+      | 1,115,336" and "יש עתיד בראשות יאיר לפיד לראשות הממשלה | פה | 24 | 17.79% | 847,435". Checks run on the
+      extract: seats of all 40 lists sum to 120; valid votes of all lists sum to the page total; the Likud share
+      recomputes to 23.41%.
+    sources:
+    - src-cec-k25
+    - tr-hebrew-glosses
+    accessible: true
+  basis: >-
+    # V: committee page read; arithmetic checked; no second origin read. The statement is about the list as the
+    committee names it and its count of votes cast for the list; it does not state how any voter chose. The Hebrew
+    list name is quoted as printed; the English gloss is the builder's and has not been checked by a Hebrew reader.
+    The 20th Knesset (2015) and earlier results are not read (see np-gap-earlier-elections).
+- id: np-gov-35-36-37-comptroller-2026
+  state: established
+  statement: >-
+    A State Comptroller special report of May 2026 states that the 35th Government was headed by Benjamin Netanyahu
+    and served from May 2020 to June 2021; that the 36th Government was headed by Naftali Bennett and Yair Lapid,
+    from mid-2021 through the end of 2022; and that the 37th Government is headed by Benjamin Netanyahu, since the
+    end of 2022. It also states that the coalition agreements for the 35th Government were signed in May 2020, for
+    the 36th in June 2021 and for the 37th in December 2022.
+  evidence_class: primary_text
+  confidence: moderate
+  statement_kind: reported
+  evidential_weight: 3
+  anchor_checked: primary
+  adoption_weight: 3
+  adoption_note: >-
+    Not measured. The field is required by the validator; for a record fact no poll or count of believers is used,
+    so 3 is a stated placeholder (open decision for the owner).
+  would_change_if: >-
+    the Knesset's or the Official Gazette's records giving different dates for the formation or end of any of the
+    three governments
+  anchor:
+    type: primary_text
+    description: >-
+      State Comptroller of Israel, Special Report 75C, May 2026, English abstract (22 pages), read in full as a
+      stored extract. Read: "their number peaked in the 35th Government, headed by Benjamin Netanyahu (which served
+      from May 2020 to June 2021), declined somewhat in the 36th Government, headed by Naftali Bennett and Yair
+      Lapid (from mid-2021 through the end of 2022), and increased again under the current government – the 37th
+      Government, headed by Benjamin Netanyahu (since the end of 2022)" and, in the abstract: "For the formation
+      of the 35th Government, headed by Benjamin Netanyahu, in May 2020, coalition agreements were signed between
+      the Likud faction and several Knesset factions. For the formation of the 36th Government, headed by Naftali
+      Bennett and Yair Lapid, in June 2021, coalition agreements were signed between the Yesh Atid faction and several
+      Knesset factions. For the formation of the 37th Government, headed by Benjamin Netanyahu, in December 2022".
+    sources:
+    - src-mev-gov-structure-2026
+    accessible: true
+  basis: >-
+    # V: report abstract read; the Knesset and Official Gazette records of the dates were not reachable. The report's
+    subject is the structure of government (number of ministries); the dates are stated in passing. Day-level dates
+    of swearing-in are not given by this source; see np-pres-37th-swearing-photo for 29 December 2022. The report's
+    findings about ministries are not reproduced here.
+- id: np-pres-37th-swearing-photo
+  state: established
+  statement: >-
+    The Office of the President of Israel published a post dated 29 December 2022 saying that President Isaac Herzog
+    and Prime Minister Benjamin Netanyahu stood at the centre of the traditional photograph taken that day, Thursday,
+    at the President's Residence in Jerusalem, on the occasion of the swearing-in of the 37th Government of Israel.
+  evidence_class: primary_text
+  confidence: high
+  statement_kind: reported
+  evidential_weight: 4
+  anchor_checked: primary
+  adoption_weight: 3
+  adoption_note: >-
+    Not measured. The field is required by the validator; for a record fact no poll or count of believers is used,
+    so 3 is a stated placeholder (open decision for the owner).
+  would_change_if: >-
+    the Knesset plenum record or the Official Gazette giving a different date for the swearing-in, or the President's
+    Office correcting or withdrawing the post
+  anchor:
+    type: primary_text
+    description: >-
+      President's Office post titled "הממשלה ה-37 של מדינת ישראל התכנסה היום לתמונה המסורתית במשכן הנשיא לאחר השבעתה",
+      dated 2022-12-29, read as the site's REST record (stored extract). Body read: "נשיא המדינה יצחק הרצוג וראש
+      הממשלה בנימין נתניהו, עמדו במרכז התמונה המסורתית אשר צולמה היום, יום חמישי, ה' בטבת, 29 בדצמבר, במשכן הנשיא
+      בירושלים לרגל השבעת ממשלת ישראל ה-37." (builder's gloss: "President Isaac Herzog and Prime Minister Benjamin
+      Netanyahu stood at the centre of the traditional photograph taken today, Thursday, 5 Tevet, 29 December, at
+      the President's Residence in Jerusalem on the occasion of the swearing-in of the 37th Government of Israel.").
+      29 December 2022 was a Thursday.
+    sources:
+    - src-pres-37th-gov
+    - tr-hebrew-glosses
+    accessible: true
+  basis: >-
+    # V: post read; the swearing-in itself is not documented by a Knesset record here. The claim is about what the
+    President's Office states. It does not say what happened in the Knesset on that day beyond what the post says.
+- id: np-crs-offices-1996-2026
+  state: established
+  statement: >-
+    CRS Report R44245 (version of 2 July 2026) states that Netanyahu "also served as prime minister from 1996 to
+    1999" and that he and his Likud party "have led Israel almost continually since 2009, other than a brief period
+    from 2021 to 2022" during which, in the report's words, he "was displaced by an opposition coalition led by
+    Naftali Bennett" and "Yair Lapid". It gives his birth year as 1949 and lists him as Prime Minister, Likud, in
+    its table of key government positions.
+  evidence_class: interpretive
+  confidence: moderate
+  statement_kind: reported
+  evidential_weight: 3
+  anchor_checked: primary
+  adoption_weight: 3
+  adoption_note: >-
+    Not measured. The field is required by the validator; for a record fact no poll or count of believers is used,
+    so 3 is a stated placeholder (open decision for the owner).
+  would_change_if: the Knesset's records of his terms and dates of office differing from the CRS statement
+  anchor:
+    type: primary_text
+    description: >-
+      CRS Report R44245, 'Israel: Major Issues and U.S. Relations', updated July 2, 2026, excerpt read (stored extract;
+      section 'Israeli 2026 Elections and Domestic Politics' with its footnotes and Table 1). Read: "Prime Minister
+      Netanyahu (b. 1949) and his Likud party have led Israel almost continually since 2009, other than a brief
+      period from 2021 to 2022 when Netanyahu was displaced by an opposition coalition led by Naftali Bennett (a
+      right-of-center political figure and erstwhile Netanyahu ally) and Yair Lapid" and, in footnote 63: "Netanyahu
+      also served as prime minister from 1996 to 1999.". Table 1 row read: "Prime Minister Benjamin Netanyahu Likud".
+    sources:
+    - src-crs-r44245-v147
+    accessible: true
+  basis: >-
+    # V: CRS excerpt read. This is a secondary account by a legislative-branch research service; the primary records
+    (Knesset member page and government pages, or the Official Gazette) were not reachable. The CRS sentence about
+    2021 to 2022 is quoted as printed; its characterisations of the other persons are CRS's words.
+- id: np-k26-election-date
+  state: proposed
+  statement: >-
+    An announcement on the Embassy of Israel in London's site, last updated 12 August 2026, states that the elections
+    to the 26th Knesset will be held on Tuesday, 27 October 2026 (16 Heshvan 5787).
+  evidence_class: primary_text
+  confidence: moderate
+  statement_kind: reported
+  evidential_weight: 3
+  anchor_checked: secondary
+  adoption_weight: 3
+  adoption_note: >-
+    Not measured. The field is required by the validator; for a record fact no poll or count of believers is used,
+    so 3 is a stated placeholder (open decision for the owner).
+  would_change_if: >-
+    the Central Elections Committee or the Ministry of Interior publishing a different election date
+  anchor:
+    type: primary_text
+    description: >-
+      Embassy of Israel in London, announcements page (Hebrew), read as a stored extract. Read: "הבחירות לכנסת ה-26,
+      ייערכו ביום שלישי, ט”ז בחשוון תשפ”ז, 27 באוקטובר 2026." (builder's gloss: "The elections to the 26th Knesset
+      will be held on Tuesday, 16 Heshvan 5787, 27 October 2026."). The page prints "עודכן לאחרונה 12/08/2026" (last
+      updated 12/08/2026).
+    sources:
+    - src-emb-k26-date
+    - tr-hebrew-glosses
+    accessible: true
+  basis: >-
+    # V: announcement read. An embassy page is a relayed notice; the Central Elections Committee's own page for
+    the 26th Knesset returns HTTP 404 at votes26.bechirot.gov.il and the Ministry of Interior page returns HTTP
+    403. No result for that election exists at the time of retrieval.
+- id: np-court-hcj-3132-15
+  state: proposed
+  statement: >-
+    An English translation of HCJ 3132/15, Yesh Atid Party v. Prime Minister (decided 13 April 2016), hosted by
+    the Cardozo Law School Israeli Supreme Court Project, recites that on 14 May 2015, in presenting his new government
+    before the Knesset, Prime Minister Benjamin Netanyahu assumed the roles of Minister of Foreign Affairs, Minister
+    of Health, Minister of Communications and Minister of Regional Coordination, and that, following a judgment,
+    he ceased to serve as Minister of Health, a deputy minister being appointed Minister of Health on 2 September
+    2015. The translation's abstract says the petition challenged the Prime Minister's authority to serve simultaneously
+    as a minister, and that the High Court (President Naor, with Deputy President Rubinstein and Justices Joubran
+    and Hendel concurring, Justice Melcer dissenting) denied the petition, subject to a "warning of voidance" giving
+    the Government eight months.
+  evidence_class: primary_text
+  confidence: moderate
+  statement_kind: reported
+  evidential_weight: 3
+  anchor_checked: secondary
+  adoption_weight: 3
+  adoption_note: >-
+    Not measured. The field is required by the validator; for a record fact no poll or count of believers is used,
+    so 3 is a stated placeholder (open decision for the owner).
+  would_change_if: >-
+    the Supreme Court's own English or Hebrew text differing from the translation on the dates, the offices or the
+    outcome
+  anchor:
+    type: primary_text
+    description: >-
+      Cardozo Law 'Israeli Supreme Court Project' page for HCJ 3132/15, excerpt read (stored extract). Read: "on
+      May 14, 2015, Prime Minister Benjamin Netanyahu assumed the roles Minister of Foreign Affairs, Minister of
+      Health, Minister of Communications, and Minister of Regional Coordination"; "Prime Minister Benjamin Netanyahu
+      ceased to serve as Minister of Health, and the Deputy Minister of Health [...] was appointed Minister of Health
+      on Sept. 2, 2015"; and from the abstract: "The petition challenged the authority of the Prime Minister to
+      serve simultaneously as a minister responsible for a ministry under Basic Law: The Government." and "denied
+      the Petition". The page states: "This translation is not an official document; the only authoritative text
+      of this decision is the Hebrew original ."
+    sources:
+    - src-versa-hcj-3132-15
+    accessible: true
+  basis: >-
+    # V: translation page read; the Court's own text was not reachable (supremedecisions.court.gov.il returns an
+    empty reply; the Court's other hosts return an error or a block page). The claim is about what the translation
+    says. Held at anchor_checked secondary because the host's authenticity cannot be tested against the original
+    (SCHEMA A5).
+- id: np-crs-2019-02-28-ag-intent
+  state: established
+  statement: >-
+    CRS Insight IN11068 (6 March 2019) says that Attorney General Avichai Mandelblit expressed his intent, on 28
+    February 2019, to indict Netanyahu for bribery, fraud, and breach of trust, and that Netanyahu "called for elections
+    to take place seven months earlier than required by law" (the sentence goes on to give a reason; this page does
+    not reproduce it, because it states a motive).
+  evidence_class: interpretive
+  confidence: moderate
+  statement_kind: reported
+  evidential_weight: 3
+  anchor_checked: primary
+  adoption_weight: 3
+  adoption_note: >-
+    Not measured. The field is required by the validator; for a record fact no poll or count of believers is used,
+    so 3 is a stated placeholder (open decision for the owner).
+  would_change_if: >-
+    the Attorney General's own notice of 28 February 2019 giving a different date or different offences
+  anchor:
+    type: primary_text
+    description: >-
+      CRS Insight IN11068 v1, 6 March 2019, read in full (stored extract). Read: "These allegations led to Attorney
+      General Avichai Mandelblit expressing his intent, on February 28, 2019, to indict Netanyahu for bribery, fraud,
+      and breach of trust." and "Prime Minister Binyamin Netanyahu called for elections to take place seven months
+      earlier than required by law" (the rest of that sentence in the Insight gives a reason for the timing; it
+      is not reproduced here)
+    sources:
+    - src-crs-in11068
+    accessible: true
+  basis: >-
+    # V: CRS Insight read. A secondary account; the Attorney General's notice was not reachable (gov.il returns
+    HTTP 403). An intent to indict is not an indictment; the Insight says so by its title ('Probable Indictments').
+    The Insight's clause giving a reason for the timing of the elections is deliberately not reproduced (rule: no
+    motive is stated on this page).
+- id: np-crs-2019-case-1000
+  state: established
+  statement: >-
+    CRS Insight IN11068 (6 March 2019), Table 1 'Suggested Indictments Against Netanyahu', describes Case 1000 as
+    follows, in CRS's words: "Netanyahu received gifts from Hollywood mogul Arnon Milchan, in return for political
+    favors"; "The charge: Fraud and breach of trust". The table quotes, under 'From the draft indictment', the text
+    "There is enough evidence to prove that the gifts, given in large scale and in unusual ways, had been received
+    in exchange for actions by Netanyahu." (CRS cites Ha'aretz for the verbatim text of the suggested indictments),
+    and gives under "Netanyahu’s defense" the line "It is acceptable to receive some gifts from friends, some decisions
+    were against Milchan’s interests". The table lists the allegation, the quoted draft-indictment text and the
+    defense line side by side; this page adds nothing to any of the three.
+  evidence_class: interpretive
+  confidence: moderate
+  statement_kind: reported
+  evidential_weight: 2
+  anchor_checked: primary
+  adoption_weight: 3
+  adoption_note: >-
+    Not measured. The field is required by the validator; for a record fact no poll or count of believers is used,
+    so 3 is a stated placeholder (open decision for the owner).
+  would_change_if: >-
+    the Attorney General's notice or the indictment itself, in English or Hebrew, differing from CRS's description
+    or from the newspaper's text of the draft
+  anchor:
+    type: primary_text
+    description: >-
+      CRS Insight IN11068 v1, Table 1 on page 2, read in the stored extract (pdftotext -raw keeps each table cell
+      in order). Cells read for Case 1000: "Netanyahu received gifts from Hollywood mogul Arnon Milchan, in return
+      for political favors"; "The charge: Fraud and breach of trust"; "From the draft indictment: “There is enough
+      evidence to prove that the gifts, given in large scale and in unusual ways, had been received in exchange
+      for actions by Netanyahu.”"; "Netanyahu’s defense: It is acceptable to receive some gifts from friends, some
+      decisions were against Milchan’s interests".
+    sources:
+    - src-crs-in11068
+    accessible: true
+  basis: >-
+    # V: CRS table read. Everything in the claim is attributed to CRS or to the text CRS says it took from a newspaper;
+    the draft indictment, the Attorney General's notice and any later indictment were not read. 'Netanyahu's defense'
+    is CRS's short summary of a position, not a quotation of his words. An allegation in a draft is not a finding.
+    The table names private businesspeople as CRS prints them.
+- id: np-crs-2019-case-2000
+  state: established
+  statement: >-
+    CRS Insight IN11068 (6 March 2019), Table 1 'Suggested Indictments Against Netanyahu', describes Case 2000 as
+    follows, in CRS's words: "Netanyahu and Yedioth Ahronoth publisher Arnon Mozes struck a deal: Favorable coverage
+    in return for legislation to damage Sheldon Adelson-owned newspaper Israel Hayom"; "The charge: Fraud and breach
+    of trust". The table quotes, under 'From the draft indictment', the text "Evidence allegedly shows that Netanyahu,
+    in his conversations with Mozes, violated the trust he owes to the public, and severely hurt the image of public
+    service and public faith in it." (CRS cites Ha'aretz for the verbatim text of the suggested indictments), and
+    gives under "Netanyahu’s defense" the line "Mozes and I fooled each other; there was never any intention to
+    follow through". The table lists the allegation, the quoted draft-indictment text and the defense line side
+    by side; this page adds nothing to any of the three.
+  evidence_class: interpretive
+  confidence: moderate
+  statement_kind: reported
+  evidential_weight: 2
+  anchor_checked: primary
+  adoption_weight: 3
+  adoption_note: >-
+    Not measured. The field is required by the validator; for a record fact no poll or count of believers is used,
+    so 3 is a stated placeholder (open decision for the owner).
+  would_change_if: >-
+    the Attorney General's notice or the indictment itself, in English or Hebrew, differing from CRS's description
+    or from the newspaper's text of the draft
+  anchor:
+    type: primary_text
+    description: >-
+      CRS Insight IN11068 v1, Table 1 on page 2, read in the stored extract (pdftotext -raw keeps each table cell
+      in order). Cells read for Case 2000: "Netanyahu and Yedioth Ahronoth publisher Arnon Mozes struck a deal:
+      Favorable coverage in return for legislation to damage Sheldon Adelson- owned newspaper Israel Hayom"; "The
+      charge: Fraud and breach of trust"; "From the draft indictment: “Evidence allegedly shows that Netanyahu,
+      in his conversations with Mozes, violated the trust he owes to the public, and severely hurt the image of
+      public service and public faith in it.”"; "Netanyahu’s defense: Mozes and I fooled each other; there was never
+      any intention to follow through".
+    sources:
+    - src-crs-in11068
+    accessible: true
+  basis: >-
+    # V: CRS table read. Everything in the claim is attributed to CRS or to the text CRS says it took from a newspaper;
+    the draft indictment, the Attorney General's notice and any later indictment were not read. 'Netanyahu's defense'
+    is CRS's short summary of a position, not a quotation of his words. An allegation in a draft is not a finding.
+    The table names private businesspeople as CRS prints them.
+- id: np-crs-2019-case-4000
+  state: established
+  statement: >-
+    CRS Insight IN11068 (6 March 2019), Table 1 'Suggested Indictments Against Netanyahu', describes Case 4000 as
+    follows, in CRS's words: "As communication minister, Netanyahu took steps that benefited Shaul Elovitch who
+    controlled Bezeq – in return for favorable coverage in Bezeq’s Walla News site"; "The charge: Bribery, fraud
+    and breach of trust". The table quotes, under 'From the draft indictment', the text "Based on ... actions and
+    circumstantial evidence, the attorney general has reached a clear conclusion, by which corrupt, improper motives
+    were at the core of Netanyahu’s actions." (CRS cites Ha'aretz for the verbatim text of the suggested indictments),
+    and gives under "Netanyahu’s defense" the line "Favorable coverage isn’t bribery". The table lists the allegation,
+    the quoted draft-indictment text and the defense line side by side; this page adds nothing to any of the three.
+  evidence_class: interpretive
+  confidence: moderate
+  statement_kind: reported
+  evidential_weight: 2
+  anchor_checked: primary
+  adoption_weight: 3
+  adoption_note: >-
+    Not measured. The field is required by the validator; for a record fact no poll or count of believers is used,
+    so 3 is a stated placeholder (open decision for the owner).
+  would_change_if: >-
+    the Attorney General's notice or the indictment itself, in English or Hebrew, differing from CRS's description
+    or from the newspaper's text of the draft
+  anchor:
+    type: primary_text
+    description: >-
+      CRS Insight IN11068 v1, Table 1 on page 2, read in the stored extract (pdftotext -raw keeps each table cell
+      in order). Cells read for Case 4000: "As communication minister, Netanyahu took steps that benefited Shaul
+      Elovitch who controlled Bezeq – in return for favorable coverage in Bezeq’s Walla News site"; "The charge:
+      Bribery, fraud and breach of trust"; "From the draft indictment: “Based on ... actions and circumstantial
+      evidence, the attorney general has reached a clear conclusion, by which corrupt, improper motives were at
+      the core of Netanyahu’s actions.”"; "Netanyahu’s defense: Favorable coverage isn’t bribery".
+    sources:
+    - src-crs-in11068
+    accessible: true
+  basis: >-
+    # V: CRS table read. Everything in the claim is attributed to CRS or to the text CRS says it took from a newspaper;
+    the draft indictment, the Attorney General's notice and any later indictment were not read. 'Netanyahu's defense'
+    is CRS's short summary of a position, not a quotation of his words. An allegation in a draft is not a finding.
+    The table names private businesspeople as CRS prints them.
+- id: np-crs-2019-11-ag-decision
+  state: established
+  statement: >-
+    CRS Report R44245 (version of 6 December 2019) says that Israel's attorney general decided in November 2019
+    to indict Prime Minister Binyamin Netanyahu, and that he "is not legally required to do so while his cases remain
+    pending" ("do so" refers, in the sentence, to resigning; the sentence also cites a poll, which this page does
+    not reproduce).
+  evidence_class: interpretive
+  confidence: moderate
+  statement_kind: reported
+  evidential_weight: 3
+  anchor_checked: primary
+  adoption_weight: 3
+  adoption_note: >-
+    Not measured. The field is required by the validator; for a record fact no poll or count of believers is used,
+    so 3 is a stated placeholder (open decision for the owner).
+  would_change_if: the Attorney General's announcement of November 2019 giving a different decision or date
+  anchor:
+    type: primary_text
+    description: >-
+      CRS Report R44245 v66, 6 December 2019, summary excerpt read (stored extract). Read: "corruption allegations
+      against Israeli Prime Minister Binyamin Netanyahu, whom Israel’s attorney general decided to indict in November
+      2019" and "he is not legally required to do so while his cases remain pending"
+    sources:
+    - src-crs-r44245-v66
+    accessible: true
+  basis: >-
+    # V: CRS summary read. A secondary account; the Attorney General's announcement and the indictment were not
+    reachable. The report gives no day of the month in the part read.
+- id: np-crs-2026-trial-and-pardon-application
+  state: established
+  statement: >-
+    CRS Report R44245 (version of 2 July 2026) says Netanyahu "was indicted in 2019 for fraud, breach of trust,
+    and accepting a bribe, and his criminal trial remains ongoing"; that in November 2025 he applied to President
+    Isaac Herzog for a pardon from his criminal case; that "presidential pardons have generally occurred after trial
+    convictions, though Israel’s supreme court permitted a case of pre-trial pardons in the 1980s as an exceptional
+    situation"; that President Donald Trump "has repeatedly advocated for Netanyahu’s pardon", arguing that the
+    trial "distracts Netanyahu and Israel from focusing on critical matters for Israel’s national security and cooperation
+    with the United States"; and, in CRS's words, "According to some reports, Israeli President Herzog may seek
+    first to help mediate a plea deal before considering a pardon."
+  evidence_class: interpretive
+  confidence: moderate
+  statement_kind: reported
+  evidential_weight: 3
+  anchor_checked: primary
+  adoption_weight: 3
+  adoption_note: >-
+    Not measured. The field is required by the validator; for a record fact no poll or count of believers is used,
+    so 3 is a stated placeholder (open decision for the owner).
+  would_change_if: >-
+    the President's Office, the Ministry of Justice or a court publishing a record of the application or of a decision
+    on it that differs from the CRS account
+  anchor:
+    type: primary_text
+    description: >-
+      CRS Report R44245 v147, 2 July 2026, excerpt read (stored extract). Read: "he was indicted in 2019 for fraud,
+      breach of trust, and accepting a bribe, and his criminal trial remains ongoing."; "In November 2025, Prime
+      Minister Netanyahu applied to Israeli President Isaac Herzog for a pardon from his criminal case."; "presidential
+      pardons have generally occurred after trial convictions, though Israel’s supreme court permitted a case of
+      pre-trial pardons in the 1980s as an exceptional situation"; "President Donald Trump has repeatedly advocated
+      for Netanyahu’s pardon, arguing that the trial—which could continue into 2027 or beyond (before any possible
+      appeals)—distracts Netanyahu and Israel from focusing on critical matters for Israel’s national security and
+      cooperation with the United States."; "According to some reports, Israeli President Herzog may seek first
+      to help mediate a plea deal before considering a pardon."
+    sources:
+    - src-crs-r44245-v147
+    accessible: true
+  basis: >-
+    # V: CRS excerpt read. A secondary account. The application itself, its date and text, and any decision were
+    not read from a primary source. The 'some reports' sentence is CRS's hearsay and is quoted only as such. The
+    President's Office statements of 1 December 2025 and 13 May 2026 are separate claims. Whether the trial testimony
+    ended in June 2026 (a Times of Israel headline cited in CRS footnote 65) was not read and is not stated here.
+- id: np-pres-clemency-policy
+  state: proposed
+  statement: >-
+    The President of Israel's English 'Presidential Pardons' page states: "According to existing policy, the President
+    considers requests for clemency only after the conclusion of all legal proceedings." and "In general, requests
+    for pardons will not be considered before all legal proceedings related to the subject of the pardon have been
+    completed."
+  evidence_class: primary_text
+  confidence: moderate
+  statement_kind: reported
+  evidential_weight: 3
+  anchor_checked: secondary
+  adoption_weight: 3
+  adoption_note: >-
+    Not measured. The field is required by the validator; for a record fact no poll or count of believers is used,
+    so 3 is a stated placeholder (open decision for the owner).
+  would_change_if: >-
+    the President's Office changing the page, or publishing a different policy or an exception relating to a particular
+    request
+  anchor:
+    type: primary_text
+    description: >-
+      President's Office English page 'Presidential Pardons' (living page), read in the stored extract (first part).
+      Read: "According to existing policy, the President considers requests for clemency only after the conclusion
+      of all legal proceedings." and "In general, requests for pardons will not be considered before all legal proceedings
+      related to the subject of the pardon have been completed.".
+    sources:
+    - src-pres-clemency-page
+    accessible: true
+  basis: >-
+    # V: page read; it is a standing information page, undated and subject to change. It is a general statement
+    of policy, not a statement about any particular request.
+- id: np-pres-pardon-statement-2025-12-01
+  state: established
+  statement: >-
+    The Office of the President of Israel published, dated 1 December 2025, a statement by President Isaac Herzog
+    on the Prime Minister's pardon request. In the English text, the statement says the issue "is clearly provoking
+    debate and is deeply unsettling for many people in the country, across different communities", that it "will
+    be handled in the most correct and precise manner", and that "I will consider solely the best interests of the
+    State of Israel and Israeli society."
+  evidence_class: primary_text
+  confidence: high
+  statement_kind: reported
+  evidential_weight: 4
+  anchor_checked: primary
+  adoption_weight: 3
+  adoption_note: >-
+    Not measured. The field is required by the validator; for a record fact no poll or count of believers is used,
+    so 3 is a stated placeholder (open decision for the owner).
+  would_change_if: >-
+    the President's Office correcting or withdrawing the post, or a later President's decision stating a different
+    course
+  anchor:
+    type: primary_text
+    description: >-
+      President's Office English post dated 01/12/2025, read in the stored extract. Read: "“The issue of Prime Minister
+      Benjamin Netanyahu’s request for a pardon is clearly provoking debate and is deeply unsettling for many people
+      in the country, across different communities. I have already clarified that it will be handled in the most
+      correct and precise manner. I will consider solely the best interests of the State of Israel and Israeli society.”"
+    sources:
+    - src-pres-pardon-2025-12-01
+    accessible: true
+  basis: >-
+    # V: post read. The statement is the President's own and says nothing about the content of the request. The
+    date of the request, its text and its legal basis are not given by this source.
+- id: np-pres-pardon-remarks-2026-05-13
+  state: established
+  statement: >-
+    The Office of the President of Israel published a post dated 13 May 2026 on remarks by President Isaac Herzog
+    at the President's Conference for a Shared Israeli Future, in which, in the post's Hebrew text, he refers to
+    the Prime Minister's pardon request and says: "ברגע שצד אחד אמר שהוא מוכן לבוא לחדר, אני גם מצפה שהצד השני יבוא
+    לחדר" (builder's gloss: "Once one side has said it is ready to come to the room, I also expect the other side
+    to come to the room"). The post also reports his demand for "הידברות להסדר" (gloss: "dialogue toward an arrangement")
+    and "מגעים להסדר" (gloss: "contacts toward an arrangement").
+  evidence_class: primary_text
+  confidence: moderate
+  statement_kind: reported
+  evidential_weight: 3
+  anchor_checked: primary
+  adoption_weight: 3
+  adoption_note: >-
+    Not measured. The field is required by the validator; for a record fact no poll or count of believers is used,
+    so 3 is a stated placeholder (open decision for the owner).
+  would_change_if: >-
+    the President's Office publishing the full transcript with different wording, or correcting the post
+  anchor:
+    type: primary_text
+    description: >-
+      President's Office Hebrew post dated 2026-05-13 (REST record, post id 36247), read in the stored extract.
+      Read: "ברגע שצד אחד אמר שהוא מוכן לבוא לחדר, אני גם מצפה שהצד השני יבוא לחדר"; "הידברות להסדר"; "מגעים להסדר".
+      The post's lead sentence names "בקשת החנינה של ראש הממשלה בנימין נתניהו" (gloss: "the pardon request of Prime
+      Minister Benjamin Netanyahu") as the subject of the remarks.
+    sources:
+    - src-pres-pardon-2026-05-13
+    - tr-hebrew-glosses
+    accessible: true
+  basis: >-
+    # V: post read in Hebrew by the builder; glosses are the builder's and unchecked by a Hebrew reader. The post
+    quotes the President; which 'sides' he means is not stated in the sentence quoted and is not interpreted here.
+    The full-length video or transcript was not read.
+- id: np-icc-press-release-2024-11-21
+  state: established
+  statement: >-
+    The International Criminal Court's press release of 21 November 2024 states that Pre-Trial Chamber I "unanimously
+    issued two decisions rejecting challenges by the State of Israel" and "also issued warrants of arrest for Mr
+    Benjamin Netanyahu and Mr Yoav Gallant", "for crimes against humanity and war crimes committed from at least
+    8 October 2023 until at least 20 May 2024"; that the warrants "are classified as ‘secret’"; and that the Chamber
+    "found reasonable grounds to believe" that each bears criminal responsibility "as co-perpetrators for committing
+    the acts jointly with others" for "the war crime of starvation as a method of warfare; and the crimes against
+    humanity of murder, persecution, and other inhumane acts", and "as civilian superiors for the war crime of intentionally
+    directing an attack against the civilian population".
+  evidence_class: primary_text
+  confidence: high
+  statement_kind: reported
+  evidential_weight: 4
+  anchor_checked: primary
+  adoption_weight: 3
+  adoption_note: >-
+    Not measured. The field is required by the validator; for a record fact no poll or count of believers is used,
+    so 3 is a stated placeholder (open decision for the owner).
+  would_change_if: >-
+    the Court's published decisions or a later Court record differing from the release on the date, the persons
+    named, the crime categories or the standard stated; or the Court withdrawing or amending the warrants
+  anchor:
+    type: primary_text
+    description: >-
+      ICC press release of 21 November 2024 (English), read in the stored extract. Read: "unanimously issued two
+      decisions rejecting challenges by the State of Israel"; "It also issued warrants of arrest for Mr Benjamin
+      Netanyahu and Mr Yoav Gallant."; "for crimes against humanity and war crimes committed from at least 8 October
+      2023 until at least 20 May 2024"; "The arrest warrants are classified as ‘secret’"; "the Chamber found reasonable
+      grounds to believe that Mr Netanyahu [...] each bear criminal responsibility for the following crimes as co-perpetrators
+      for committing the acts jointly with others: the war crime of starvation as a method of warfare; and the crimes
+      against humanity of murder, persecution, and other inhumane acts."; "The Chamber also found reasonable grounds
+      to believe that Mr Netanyahu and Mr Gallant each bear criminal responsibility as civilian superiors for the
+      war crime of intentionally directing an attack against the civilian population.". The Court's situation page
+      (src-icc-situation) gives the same date, individuals and period.
+    sources:
+    - src-icc-pr-2024-11-21
+    - src-icc-situation
+    accessible: true
+  basis: >-
+    # V: Court release and situation page read; the warrants are secret and were not read. Record type: the Court's
+    press release about its decisions; it is not itself a decision, a warrant, a verdict or a sentence. The release
+    states its standard as 'reasonable grounds to believe'. The release also sets out the Chamber's reasoning on
+    the alleged conduct; that text is not reproduced here and is in the manifest source. The release names a second
+    person (Mr Gallant) and is quoted as it names him. The Prime Minister's and the Israeli Government's responses
+    are separate claims.
+- id: np-birth-date-icc-release
+  state: established
+  statement: >-
+    The International Criminal Court's press release of 21 November 2024 gives Benjamin Netanyahu's date of birth
+    as 21 October 1949; CRS Report R44245 (2 July 2026) gives his birth year as 1949 ("b. 1949").
+  evidence_class: primary_text
+  confidence: moderate
+  statement_kind: reported
+  evidential_weight: 3
+  anchor_checked: primary
+  adoption_weight: 3
+  adoption_note: >-
+    Not measured. The field is required by the validator; for a record fact no poll or count of believers is used,
+    so 3 is a stated placeholder (open decision for the owner).
+  would_change_if: >-
+    the Knesset's member record or another official civil record giving a different date of birth
+  anchor:
+    type: primary_text
+    description: >-
+      ICC press release (stored extract) read: "Mr Netanyahu, born on 21 October 1949"; CRS R44245 v147 (stored
+      excerpt) read: "Prime Minister Netanyahu (b. 1949)".
+    sources:
+    - src-icc-pr-2024-11-21
+    - src-crs-r44245-v147
+    accessible: true
+  basis: >-
+    # V: two incidental mentions in documents read directly. Neither is a civil register. The Knesset member page,
+    which would be the better anchor, was not reachable.
+- id: np-icc-dates-differ
+  state: established
+  statement: >-
+    ICC documents give different dates for Israel's challenge under article 19(2): the press release of 21 November
+    2024 says the Chamber "ruled on two requests submitted by the Israel on 26 September 2024"; decision ICC-01/18-374
+    records that "On 20 September 2024, the Registry transmitted the Challenge into the case record" and cites the
+    challenge as "23 September 2024, ICC-01/18-354-SECRET-Exp-AnxI-Corr"; and decisions ICC-01/18-457 and -468 each
+    say "On 23 September 2024, Israel filed" the challenge, while ICC-01/18-428 says "On 23 September 2024, the
+    State of Israel (‘Israel’) challenged the jurisdiction of the Court".
+  evidence_class: primary_text
+  confidence: moderate
+  statement_kind: reported
+  evidential_weight: 3
+  anchor_checked: primary
+  adoption_weight: 3
+  adoption_note: >-
+    Not measured. The field is required by the validator; for a record fact no poll or count of believers is used,
+    so 3 is a stated placeholder (open decision for the owner).
+  would_change_if: the Court recording one date for the filing of the challenge in its record
+  anchor:
+    type: primary_text
+    description: >-
+      Read in the stored extracts: press release: "The Chamber ruled on two requests submitted by the Israel on
+      26 September 2024."; ICC-01/18-374 para. 7: "On 20 September 2024, the Registry transmitted the Challenge
+      into the case record." and footnote 1: "23 September 2024, ICC-01/18-354-SECRET-Exp-AnxI-Corr"; ICC-01/18-457
+      para. 4: "On 23 September 2024, Israel filed before the Chamber"; ICC-01/18-468 para. 4: "On 23 September
+      2024, Israel filed before the Chamber"; ICC-01/18-428 para. 1: "On 23 September 2024, the State of Israel
+      (‘Israel’) challenged the jurisdiction of the Court pursuant to article 19(2) of the Statute.".
+    sources:
+    - src-icc-pr-2024-11-21
+    - src-icc-374
+    - src-icc-428
+    - src-icc-457
+    - src-icc-468
+    accessible: true
+  basis: >-
+    # V: all five documents read. The documents may refer to different acts (a transmission by the Registry, a filing,
+    a request); the Court does not say so in the passages read. Both dates are shown and neither is preferred. The
+    press release says 'two requests' and gives the date 26 September 2024 for both; the decisions on the two requests
+    give different dates for the two filings in the text read (for the article 18 request see np-icc-375).
+- id: np-icc-374-art19-decision
+  state: established
+  statement: >-
+    Decision ICC-01/18-374 of Pre-Trial Chamber I (Judges Nicolas Guillou, presiding, Reine Adélaïde Sophie Alapini-Gansou
+    and Beti Hohler), dated 21 November 2024, records Israel's request that the Chamber "declare with immediate
+    effect that the investigation of the Prosecutor in the cases of Mr Netanyahu and Mr Gallant, and the proceedings
+    before this Chamber under Article 58 of the Statute, are to be suspended until the Court has given its ruling
+    on this challenge to jurisdiction", states that "States are not entitled under the Statute to challenge jurisdiction
+    of the Court on the basis of Article 19 prior to the issuance of a warrant of arrest or a [...] summons" and
+    that "Israel will have the full opportunity to challenge the Court’s jurisdiction and/or admissibility of any
+    particular case if and when the Chamber issues any arrest warrants or summonses against its nationals", and
+    decides: "REJECTS Israel’s request for leave to reply; and REJECTS Israel’s challenge to the jurisdiction of
+    the Court pursuant to article 19(2) of the Statute as premature."
+  evidence_class: primary_text
+  confidence: high
+  statement_kind: reported
+  evidential_weight: 4
+  anchor_checked: primary
+  adoption_weight: 3
+  adoption_note: >-
+    Not measured. The field is required by the validator; for a record fact no poll or count of believers is used,
+    so 3 is a stated placeholder (open decision for the owner).
+  would_change_if: >-
+    a later Court record reversing, superseding or recharacterising this decision (see np-icc-422-appeals-judgment,
+    which reversed it on 24 April 2025)
+  anchor:
+    type: primary_text
+    description: >-
+      ICC-01/18-374 (8 pages, public), read in full in the stored extract. Read: "declare with immediate effect
+      that the investigation of the Prosecutor in the cases of Mr Netanyahu and Mr Gallant, and the proceedings
+      before this Chamber under Article 58 of the Statute, are to be suspended until the Court has given its ruling
+      on this challenge to jurisdiction"; para. 17: "States are not entitled under the Statute to challenge jurisdiction
+      of the Court on the basis of Article 19 prior to the issuance of a warrant of arrest or a [...] summons.";
+      para. 18: "Israel will have the full opportunity to challenge the Court’s jurisdiction and/or admissibility
+      of any particular case if and when the Chamber issues any arrest warrants or summonses against its nationals.";
+      disposition: "REJECTS Israel’s request for leave to reply; and REJECTS Israel’s challenge to the jurisdiction
+      of the Court pursuant to article 19(2) of the Statute as premature.". Dated "Thursday, 21 November 2024",
+      The Hague.
+    sources:
+    - src-icc-374
+    accessible: true
+  basis: >-
+    # V: decision read in full. The decision deals with the timing of a State's challenge ('premature'); the Chamber's
+    own later decision ICC-01/18-457 (para. 20) describes it as restricted to that question. Israel's arguments
+    are summarised in the decision (paras 11 to 14) and are not reproduced here beyond the request quoted. In the
+    extract a footnote of the source page interrupts the sentence quoted from para. 17; the omission is marked [...].
+- id: np-icc-375-art18-decision
+  state: established
+  statement: >-
+    Decision ICC-01/18-375 of Pre-Trial Chamber I, dated 21 November 2024, decides: "DECLARES Israel’s request for
+    an extension of the page limit and its request for leave to reply to the Prosecution’s response to the page
+    limit request moot; REJECTS Israel’s request for leave to reply; and REJECTS Israel’s request for an order to
+    the Prosecution to give an Article 18(1) notice and staying proceedings pending such notice."
+  evidence_class: primary_text
+  confidence: high
+  statement_kind: reported
+  evidential_weight: 4
+  anchor_checked: primary
+  adoption_weight: 3
+  adoption_note: >-
+    Not measured. The field is required by the validator; for a record fact no poll or count of believers is used,
+    so 3 is a stated placeholder (open decision for the owner).
+  would_change_if: >-
+    a later Court record reversing or superseding this decision; the Appeals Chamber judgment of 15 December 2025
+    (np-icc-481-oa3-judgment) confirmed it
+  anchor:
+    type: primary_text
+    description: >-
+      ICC-01/18-375 (9 pages, public), read in the stored extract. Disposition read: "DECLARES Israel’s request
+      for an extension of the page limit and its request for leave to reply to the Prosecution’s response to the
+      page limit request moot; REJECTS Israel’s request for leave to reply; and REJECTS Israel’s request for an
+      order to the Prosecution to give an Article 18(1) notice and staying proceedings pending such notice.". Dated
+      "Thursday, 21 November 2024", The Hague; Judges Guillou, Alapini-Gansou and Hohler.
+    sources:
+    - src-icc-375
+    accessible: true
+  basis: >-
+    # V: disposition read; the reasoning (paras on the 9 March 2021 notification) was read only in outline and is
+    not stated here beyond the disposition.
+- id: np-icc-422-appeals-judgment
+  state: established
+  statement: >-
+    Judgment ICC-01/18-422 (OA2) of the Appeals Chamber (Judges Tomoko Akane, presiding, Luz del Carmen Ibáñez Carranza,
+    Solomy Balungi Bossa, Gocha Lordkipanidze, Erdenebalsuren Damdin), dated 24 April 2025, rules: that Israel's
+    appeal against ICC-01/18-374 "is admissible under article 82(1)(a) of the Statute"; that ICC-01/18-374 "is reversed
+    and remanded for Pre-Trial Chamber I to rule on the substance of the State of Israel’s jurisdictional challenge";
+    and that Israel's request for suspensive effect of "two arrest warrants issued by Pre-Trial Chamber I" is "dismissed
+    as moot". The judgment states that the Pre-Trial Chamber "committed an error of law by failing to sufficiently
+    direct itself to the relevant submissions brought before it in respect of the particular legal basis underpinning
+    the challenge to the jurisdiction of the Court", and that the Appeals Chamber "is not persuaded that the arrest
+    warrants are based on, or ‘inextricably connected’, to the Impugned Decision".
+  evidence_class: primary_text
+  confidence: high
+  statement_kind: reported
+  evidential_weight: 4
+  anchor_checked: primary
+  adoption_weight: 3
+  adoption_note: >-
+    Not measured. The field is required by the validator; for a record fact no poll or count of believers is used,
+    so 3 is a stated placeholder (open decision for the owner).
+  would_change_if: >-
+    a later Court record superseding this judgment; or the Pre-Trial Chamber's ruling on the substance of the challenge
+    on remand (not located)
+  anchor:
+    type: primary_text
+    description: >-
+      ICC-01/18-422 (23 pages, public), read in the stored extract (judgment section, paras 61 to 68). Read: "The
+      State of Israel’s appeal against Pre-Trial Chamber I’s “Decision on Israel’s challenge to the jurisdiction
+      of the Court pursuant to article 19(2) of the Rome Statute” is admissible under article 82(1)(a) of the Statute";
+      "is reversed and remanded for Pre-Trial Chamber I to rule on the substance of the State of Israel’s jurisdictional
+      challenge"; "request for suspensive effect of two arrest warrants issued by Pre-Trial Chamber I and “any other
+      purported exercise of jurisdiction by the Court” is dismissed as moot"; para. 61: "the Pre-Trial Chamber committed
+      an error of law by failing to sufficiently direct itself to the relevant submissions brought before it in
+      respect of the particular legal basis underpinning the challenge to the jurisdiction of the Court"; para.
+      66: "the Appeals Chamber is not persuaded that the arrest warrants are based on, or “inextricably connected”,
+      to the Impugned Decision".
+    sources:
+    - src-icc-422
+    accessible: true
+  basis: >-
+    # V: judgment disposition and paras 61 to 68 read. The judgment reverses a decision on timing and does not decide
+    whether the Court has jurisdiction; the Pre-Trial Chamber's decision of 16 July 2025 (np-icc-457-warrants-request-decision)
+    and the parties' filings describe its effect differently (see np-icc-426-israel-request and np-icc-431-prosecution-response).
+    The separate or dissenting opinions of this judgment, if any, were not read.
+- id: np-icc-423-art18-appeal-inadmissible
+  state: established
+  statement: >-
+    Decision ICC-01/18-423 (OA) of the Appeals Chamber, dated 24 April 2025, "Renders, by majority, Judge Luz del
+    Carmen Ibáñez Carranza and Judge Solomy Balungi Bossa dissenting", the decision that "The appeal of the State
+    of Israel is dismissed as inadmissible" (the appeal against ICC-01/18-375), and that the requests for suspensive
+    effect of the arrest warrants and for leave to reply are "dismissed, as moot". The decision records the dissenting
+    judges' view that the appeal should have been found admissible.
+  evidence_class: primary_text
+  confidence: high
+  statement_kind: reported
+  evidential_weight: 4
+  anchor_checked: primary
+  adoption_weight: 3
+  adoption_note: >-
+    Not measured. The field is required by the validator; for a record fact no poll or count of believers is used,
+    so 3 is a stated placeholder (open decision for the owner).
+  would_change_if: a later Court record superseding this decision
+  anchor:
+    type: primary_text
+    description: >-
+      ICC-01/18-423 (15 pages, public), read in the stored extract. Read: "Renders, by majority, Judge Luz del Carmen
+      Ibáñez Carranza and Judge Solomy Balungi Bossa dissenting, the following DECISION 1. The appeal of the State
+      of Israel is dismissed as inadmissible; 2. The request of the State of Israel for suspensive effect of arrest
+      warrants issued by Pre-Trial Chamber I against two Israeli nationals and “any other legal acts taken by the
+      Court based thereon” is dismissed, as moot; and 3. The request of the State of Israel for leave to reply and
+      to reject in limine the Prosecutor’s submissions concerning suspensive effect is dismissed as moot."; para.
+      39: "Judge Luz del Carmen Ibáñez Carranza dissents on the basis that she considers the appeal to be admissible.";
+      para. 40: "Judge Solomy Balungi Bossa dissents to the extent that, in her view, the decision of the Pre-Trial
+      Chamber on whether the Prosecutor executed his obligation to provide a notice pursuant to article 18(1) of
+      the Statute is a preliminary ruling regarding admissibility.".
+    sources:
+    - src-icc-423
+    accessible: true
+  basis: >-
+    # V: disposition and paras 39 to 41 read. The decision is about whether an appeal lay at that stage; it does
+    not decide the merits of Israel's article 18 argument (the Appeals Chamber later decided an interlocutory appeal
+    on it: np-icc-481-oa3-judgment).
+- id: np-icc-425-prosecution-observations
+  state: established
+  statement: >-
+    In filing ICC-01/18-425, dated 5 May 2025, the Office of the Prosecutor submits that Pre-Trial Chamber I "should
+    set a deadline for those with standing to bring a jurisdictional challenge in relation to the cases against
+    NETANYAHU and GALLANT" and "should not receive or invite any observations under rule 103 of the Rules", because
+    the issues "have been amply briefed by more than 100 interveners in two rounds of amici curiae observations
+    in 2020 and 2024".
+  evidence_class: primary_text
+  confidence: high
+  statement_kind: reported
+  evidential_weight: 4
+  anchor_checked: primary
+  adoption_weight: 3
+  adoption_note: >-
+    Not measured. The field is required by the validator; for a record fact no poll or count of believers is used,
+    so 3 is a stated placeholder (open decision for the owner).
+  would_change_if: the Prosecution amending or withdrawing its submission
+  anchor:
+    type: primary_text
+    description: >-
+      ICC-01/18-425 (6 pages, public), read in the stored extract. Read paras 2 and 3: "the Prosecution submits
+      that the Pre-Trial Chamber should set a deadline for those with standing to bring a jurisdictional challenge
+      in relation to the cases against NETANYAHU and GALLANT"; "the Prosecution submits that the Pre-Trial Chamber
+      should not receive or invite any observations under rule 103 of the Rules"; "have been amply briefed by more
+      than 100 interveners in two rounds of amici curiae observations in 2020 and 2024".
+    sources:
+    - src-icc-425
+    accessible: true
+  basis: >-
+    # V: filing read in full. A party filing states that party's position; it is not a finding of the Court.
+- id: np-icc-426-israel-request
+  state: established
+  statement: >-
+    In filing ICC-01/18-426, dated 9 May 2025, the State of Israel requests that Pre-Trial Chamber I, under article
+    58(4), "Withdraw, vacate, or declare of no force or effect the arrest warrants that it has issued against Mr
+    Netanyahu and Mr Gallant" and "Declare that the Prosecution must suspend its investigation into the Situation
+    in Palestine until the Court has given its substantive ruling on Israel’s article 19 Jurisdiction Challenge".
+    Israel's stated ground is that a prerequisite jurisdictional finding "was absent to begin with"; the filing
+    states that it is "without prejudice to Israel’s position regarding the Court's lack of jurisdiction" and to
+    Israel's "status as a State not Party to the Rome Statute".
+  evidence_class: primary_text
+  confidence: high
+  statement_kind: reported
+  evidential_weight: 4
+  anchor_checked: primary
+  adoption_weight: 3
+  adoption_note: >-
+    Not measured. The field is required by the validator; for a record fact no poll or count of believers is used,
+    so 3 is a stated placeholder (open decision for the owner).
+  would_change_if: Israel amending or withdrawing the request
+  anchor:
+    type: primary_text
+    description: >-
+      ICC-01/18-426 (14 pages, public), read in the stored extract. Read: para. 1 "Israel requests that the Pre-Trial
+      Chamber, pursuant to article 58(4), order that the arrest warrants issued against Prime Minister Benjamin
+      Netanyahu (“Mr Netanyahu”) and Former Minister of Defence Yoav Gallant (“Mr Gallant”) be withdrawn or vacated.";
+      para. 2 "This “prerequisite of a warrant of arrest” was absent to begin with"; para. 40 "Withdraw, vacate,
+      or declare of no force or effect the arrest warrants that it has issued against Mr Netanyahu and Mr Gallant;"
+      and "Declare that the Prosecution must suspend its investigation into the Situation in Palestine until the
+      Court has given its substantive ruling on Israel’s article 19 Jurisdiction Challenge;".
+    sources:
+    - src-icc-426
+    accessible: true
+  basis: >-
+    # V: filing read in part (paras 1 to 5 and 40). A party filing states that party's position and is not a finding.
+    The Chamber's ruling on it is np-icc-457-warrants-request-decision.
+- id: np-icc-431-prosecution-response
+  state: established
+  statement: >-
+    In filing ICC-01/18-431, dated 21 May 2025, the Office of the Prosecutor submits that Israel's request of 9
+    May 2025 "has no legal basis and should be dismissed"; that the Appeals Chamber's judgment of 24 April 2025,
+    "reversing PTCI’s decision on Israel’s Jurisdictional Challenge (“Decision”) [...] for lack of sufficient reasons,
+    has no bearing on the Warrants, which were issued separately"; and that "article 19(7) of the Statute does not
+    apply to jurisdictional challenges".
+  evidence_class: primary_text
+  confidence: high
+  statement_kind: reported
+  evidential_weight: 4
+  anchor_checked: primary
+  adoption_weight: 3
+  adoption_note: >-
+    Not measured. The field is required by the validator; for a record fact no poll or count of believers is used,
+    so 3 is a stated placeholder (open decision for the owner).
+  would_change_if: the Prosecution amending or withdrawing its response
+  anchor:
+    type: primary_text
+    description: >-
+      ICC-01/18-431 (10 pages, public), read in the stored extract. Read paras 1 to 3: "has no legal basis and should
+      be dismissed"; "reversing PTCI’s decision on Israel’s Jurisdictional Challenge (“Decision”)6 for lack of sufficient
+      reasons, has no bearing on the Warrants, which were issued separately"; "article 19(7) of the Statute does
+      not apply to jurisdictional challenges".
+    sources:
+    - src-icc-431
+    accessible: true
+  basis: >-
+    # V: filing read in part (paras 1 to 3). Stated side by side with np-icc-426-israel-request; the Chamber's ruling
+    is np-icc-457-warrants-request-decision. A party filing is not a finding.
+- id: np-icc-428-leave-moot
+  state: established
+  statement: >-
+    Decision ICC-01/18-428 of Pre-Trial Chamber I, dated 14 May 2025, states that Israel's request under article
+    82(1)(d) for leave to appeal ICC-01/18-374 "has been rendered moot and shall therefore be dismissed" because
+    the Appeals Chamber ruled on Israel's article 82(1)(a) appeal, and decides: "THE CHAMBER HERBY DISMISSES the
+    Request as moot." (the word "HERBY" is as printed).
+  evidence_class: primary_text
+  confidence: high
+  statement_kind: reported
+  evidential_weight: 4
+  anchor_checked: primary
+  adoption_weight: 3
+  adoption_note: >-
+    Not measured. The field is required by the validator; for a record fact no poll or count of believers is used,
+    so 3 is a stated placeholder (open decision for the owner).
+  would_change_if: a later Court record superseding this decision
+  anchor:
+    type: primary_text
+    description: >-
+      ICC-01/18-428 (4 pages, public), read in full in the stored extract. Read para. 7: "Israel’s Request under
+      article 82(1)(d) of the Statute has been rendered moot and shall therefore be dismissed."; disposition: "THE
+      CHAMBER HERBY DISMISSES the Request as moot.".
+    sources:
+    - src-icc-428
+    accessible: true
+  basis: '# V: decision read in full. A procedural decision.'
+- id: np-icc-457-warrants-request-decision
+  state: established
+  statement: >-
+    Decision ICC-01/18-457 of Pre-Trial Chamber I, dated 16 July 2025, on Israel's request of 9 May 2025, decides:
+    "THE CHAMBER HEREBY REJECTS Palestine’s request to make submissions in relation to the Request; and REJECTS
+    the Request." It states that "once issued, warrants of arrest shall remain in effect until decided otherwise
+    by the Court" (article 58(4)), that "The Warrants therefore do contain the required jurisdictional finding",
+    and that the ruling "does not prejudge the question of Israel’s standing to challenge the Court’s jurisdiction
+    and, even less so, the merits of Israel’s arguments relating to the Court’s jurisdiction over Israeli nationals",
+    which "will be addressed by the Chamber when it rules, as directed by the Appeals Chamber, on the substance
+    of Israel’s Jurisdiction Challenge".
+  evidence_class: primary_text
+  confidence: high
+  statement_kind: reported
+  evidential_weight: 4
+  anchor_checked: primary
+  adoption_weight: 3
+  adoption_note: >-
+    Not measured. The field is required by the validator; for a record fact no poll or count of believers is used,
+    so 3 is a stated placeholder (open decision for the owner).
+  would_change_if: >-
+    a later Court record superseding this decision, or the Chamber's ruling on the substance of the challenge on
+    remand (not located)
+  anchor:
+    type: primary_text
+    description: >-
+      ICC-01/18-457 (13 pages, public), read in the stored extract (paras 1 to 25 and the disposition). Read: "THE
+      CHAMBER HEREBY REJECTS Palestine’s request to make submissions in relation to the Request; and REJECTS the
+      Request."; para. 17: "once issued, warrants of arrest shall remain in effect until decided otherwise by the
+      Court"; para. 18: "The Warrants therefore do contain the required jurisdictional finding."; para. 16: "It
+      does not prejudge the question of Israel’s standing to challenge the Court’s jurisdiction and, even less so,
+      the merits of Israel’s arguments relating to the Court’s jurisdiction over Israeli nationals. These issues
+      will be addressed by the Chamber when it rules, as directed by the Appeals Chamber, on the substance of Israel’s
+      Jurisdiction Challenge.".
+    sources:
+    - src-icc-457
+    accessible: true
+  basis: >-
+    # V: decision read in part. The Chamber's reasons on the suspension request (article 19(7)) in paras 26 to 37
+    were read only in outline; the sentence quoted from para. 37 in the file is: 'the suspension of investigation
+    pursuant to article 19(7) of the Statute can only result from a State challenging the admissibility of a case'.
+    Stated side by side with np-icc-426-israel-request and np-icc-431-prosecution-response.
+- id: np-icc-462-hungary-finding
+  state: established
+  statement: >-
+    Decision ICC-01/18-462 of Pre-Trial Chamber I, dated 24 July 2025, decides: "THE CHAMBER HEREBY FINDS that Hungary
+    failed to comply with its international obligations under the Statute by not executing the Court’s request to
+    provisionally arrest Mr Netanyahu while he was present on Hungarian territory between 3 and 6 April 2025; and
+    REFERS the matter of Hungary’s non-compliance to the Assembly of States Parties". The decision records that
+    on 31 March 2025 Hungary officially announced that Mr Netanyahu would pay an official visit to Hungary from
+    2 to 6 April 2025.
+  evidence_class: primary_text
+  confidence: high
+  statement_kind: reported
+  evidential_weight: 4
+  anchor_checked: primary
+  adoption_weight: 3
+  adoption_note: >-
+    Not measured. The field is required by the validator; for a record fact no poll or count of believers is used,
+    so 3 is a stated placeholder (open decision for the owner).
+  would_change_if: a later Court record superseding this decision
+  anchor:
+    type: primary_text
+    description: >-
+      ICC-01/18-462 (13 pages, public), read in the stored extract (paras 1 to 4 and the disposition). Read: "THE
+      CHAMBER HEREBY FINDS that Hungary failed to comply with its international obligations under the Statute by
+      not executing the Court’s request to provisionally arrest Mr Netanyahu while he was present on Hungarian territory
+      between 3 and 6 April 2025; and REFERS the matter ofHungary’s non-compliance to the Assembly of States Parties";
+      para. 4: "On 31 March 2025, Hungary officially announced that Mr Netanyahu would pay an official visit to
+      Hungary from 2 to 6 April 2025".
+    sources:
+    - src-icc-462
+    accessible: true
+  basis: >-
+    # V: decision read in part. The source prints 'ofHungary’s' without a space in the disposition; the quotation
+    restores the space. The decision concerns a State Party's cooperation, not a finding about Mr Netanyahu's conduct.
+    Hungary's own position and the later procedure at the Assembly of States Parties were not read.
+- id: np-icc-468-leave-refused
+  state: established
+  statement: >-
+    Decision ICC-01/18-468 of Pre-Trial Chamber I, dated 17 October 2025, on Israel's request for leave to appeal
+    ICC-01/18-457, states that "the Issue, as framed by Israel, is not an appealable issue since it does not arise
+    from the Impugned Decision" and decides: "THE CHAMBER HEREBY REJECTS the Request."
+  evidence_class: primary_text
+  confidence: high
+  statement_kind: reported
+  evidential_weight: 4
+  anchor_checked: primary
+  adoption_weight: 3
+  adoption_note: >-
+    Not measured. The field is required by the validator; for a record fact no poll or count of believers is used,
+    so 3 is a stated placeholder (open decision for the owner).
+  would_change_if: a later Court record superseding this decision
+  anchor:
+    type: primary_text
+    description: >-
+      ICC-01/18-468 (13 pages, public), read in the stored extract (paras 1 to 8, para. 30 and the disposition).
+      Read para. 30: "Having found that the Issue, as framed by Israel, is not an appealable issue since it does
+      not arise from the Impugned Decision, there is no need to consider whether the other conditions of article
+      82(1)(d) of the Statute have been met. The Chamber therefore rejects the Request."; disposition: "FOR THESE
+      REASONS, THE CHAMBER HEREBY REJECTS the Request.".
+    sources:
+    - src-icc-468
+    accessible: true
+  basis: '# V: decision read in part. A procedural decision on leave to appeal.'
+- id: np-icc-471-israel-disqualification-request
+  state: established
+  statement: >-
+    In filing ICC-01/18-471-Anx1 (page 1 and signature dated 17 November 2025; record footer 19-11-2025), the State
+    of Israel asks the Appeals Chamber to disqualify the Prosecutor under article 42(7) and (8) or invite him to
+    disqualify himself, and to declare that the arrest warrants issued against Mr. Netanyahu and Mr. Gallant "are
+    of no force or effect". The filing states that information "that has now come to light" and "abundant media
+    reporting" indicate that the Prosecutor's impartiality might "reasonably be doubted"; that this information
+    "suggests that the Prosecutor’s decision to hurriedly submit arrest warrant applications in May 2024 might have
+    been influenced by a desire to suppress, divert or protect himself from, allegations of serious sexual misconduct";
+    and that "The doubts concerning the Prosecutor’s impartiality do not depend in any way on the truth or falsity
+    of the sexual misconduct allegations".
+  evidence_class: primary_text
+  confidence: high
+  statement_kind: reported
+  evidential_weight: 4
+  anchor_checked: primary
+  adoption_weight: 3
+  adoption_note: >-
+    Not measured. The field is required by the validator; for a record fact no poll or count of believers is used,
+    so 3 is a stated placeholder (open decision for the owner).
+  would_change_if: >-
+    the Court deciding the request, or Israel withdrawing it; no Court decision on it was located
+  anchor:
+    type: primary_text
+    description: >-
+      ICC-01/18-471-Anx1 (22 pages, public with a public Annex A), read in full as a PDF; the stored extract holds
+      the introduction (paras 1 to 5) and the conclusion and relief (paras 51 to 53). Read: para. 2 "combined with
+      information that has now come to light, including as apparently collected by the UN Office of Internal Oversight
+      Services (‘OIOS’) and through abundant media reporting, indicates that the Prosecutor’s impartiality in the
+      conduct of the investigation leading to arrest warrant applications for Prime Minister Benjamin Netanyahu
+      and former Minister of Defense Yoav Gallant might “reasonably be doubted” [...] That information suggests
+      that the Prosecutor’s decision to hurriedly submit arrest warrant applications in May 2024 might have been
+      influenced by a desire to suppress, divert or protect himself from, allegations of serious sexual misconduct.";
+      para. 3 "The doubts concerning the Prosecutor’s impartiality do not depend in any way on the truth or falsity
+      of the sexual misconduct allegations."; para. 53 "Disqualify the Prosecutor pursuant to article 42(7) and
+      (8) of the Statute; or, in the alternative, invite the Prosecutor to disqualify himself pursuant to rule 35
+      of the Rules; b. Declare that the arrest warrants issued against Mr. Netanyahu and Mr. Gallant are of no force
+      or effect;". Signed for Israel by the Office of the Attorney-General of Israel, "Dated this 17 November 2025,
+      At Jerusalem, Israel".
+    sources:
+    - src-icc-471-anx1
+    accessible: true
+  basis: >-
+    # V: filing read in full; paras 6 to 50 (the factual narrative and arguments, which relay media reports and
+    allegations about named and unnamed persons who are not parties) are not stored and are not summarised here.
+    The claim is a party's assertion; it is not a finding of the Court or of any investigation, and this page does
+    not say the allegations are true or false. No Prosecution response and no Court decision on this request were
+    located (see np-gap-icc-later-record).
+- id: np-icc-481-oa3-judgment
+  state: established
+  statement: >-
+    Judgment ICC-01/18-481 (OA3) of the Appeals Chamber, dated 15 December 2025, on Israel's appeal against ICC-01/18-375,
+    states: "Pre-Trial Chamber I’s ‘Decision on Israel’s request for an order to the Prosecution to give an Article
+    18(1) notice’ of 21 November 2024 (ICC-01/18-375) is confirmed." It states "it is appropriate to reject Israel’s
+    appeal and confirm the Impugned Decision", that Judges Ibáñez Carranza and Balungi Bossa "append dissenting
+    opinions", and that Judge Lordkipanidze "appends a concurring opinion".
+  evidence_class: primary_text
+  confidence: high
+  statement_kind: reported
+  evidential_weight: 4
+  anchor_checked: primary
+  adoption_weight: 3
+  adoption_note: >-
+    Not measured. The field is required by the validator; for a record fact no poll or count of believers is used,
+    so 3 is a stated placeholder (open decision for the owner).
+  would_change_if: a later Court record superseding this judgment
+  anchor:
+    type: primary_text
+    description: >-
+      ICC-01/18-481 (44 pages, public), read in the stored extract (the disposition, paras 1 to 7, the conclusion
+      of the third ground and paras 131 to 141). Read: "Pre-Trial Chamber I’s “Decision on Israel’s request for
+      an order to the Prosecution to give an Article 18(1) notice” of 21 November 2024 (ICC-01/18- 375) is confirmed.";
+      para. 137: "In the present case, it is appropriate to reject Israel’s appeal and confirm the Impugned Decision.";
+      paras 140 and 141: "Judge Luz del Carmen Ibáñez Carranza and Judge Solomy Balungi Bossa append dissenting
+      opinions to the present judgment. 141. Judge Gocha Lordkipanidze appends a concurring opinion to this judgment.".
+    sources:
+    - src-icc-481
+    accessible: true
+  basis: >-
+    # V: judgment read in part; the full reasoning of the Majority on the first and second grounds was not read.
+    The separate opinions (annexed) were not read. The judgment concerns the article 18(1) notice, not the jurisdictional
+    challenge under article 19(2), which was remanded by np-icc-422-appeals-judgment.
+- id: np-israel-position-icc
+  state: proposed
+  statement: >-
+    A Government of Israel page, 'ICC's Lack of Jurisdiction', states: "Israel's position is that the ICC lacks
+    any jurisdiction on this matter given, among other reasons, that no sovereign Palestinian state exists nor does
+    any territory belonging to such an entity." The ICC's Pre-Trial Chamber I decision of 5 February 2021 (summarised
+    on the ICC situation page and in ICC-01/18-374) held by majority that the Court's territorial jurisdiction in
+    the Situation extends to Gaza and the West Bank, including East Jerusalem. The two positions are stated side
+    by side.
+  evidence_class: primary_text
+  confidence: moderate
+  statement_kind: reported
+  evidential_weight: 3
+  anchor_checked: secondary
+  adoption_weight: 3
+  adoption_note: >-
+    Not measured. The field is required by the validator; for a record fact no poll or count of believers is used,
+    so 3 is a stated placeholder (open decision for the owner).
+  would_change_if: either party's published position changing
+  anchor:
+    type: primary_text
+    description: >-
+      Government of Israel page govextra.gov.il/foreign-affairs/icc/home, read in the stored extract. Read: "Israel's
+      position is that the ICC lacks any jurisdiction on this matter given, among other reasons, that no sovereign
+      Palestinian state exists nor does any territory belonging to such an entity.". ICC situation page (stored
+      extract) read: "This followed Pre-Trial Chamber I's decision on 5 February 2021 that the Court could exercise
+      its criminal jurisdiction in the Situation and, by majority, that the territorial scope of this jurisdiction
+      extends to Gaza and the West Bank, including East Jerusalem.".
+    sources:
+    - src-govextra-icc
+    - src-icc-situation
+    accessible: true
+  basis: >-
+    # V: both pages read. Both are statements of position by the bodies concerned. The page is undated as a whole;
+    its latest dated item read is of February 2021, and it does not address the 21 November 2024 decisions.
+- id: np-pm-statement-2021-02-05
+  state: proposed
+  statement: >-
+    The Government of Israel page 'ICC's Lack of Jurisdiction' carries, under the heading "Statement by PM Benjamin
+    Netanyahu (February 5, 2021)", a statement that begins "When the International Criminal Court (ICC) investigates
+    Israel for fake war crimes – this is pure antisemitism. The court established to prevent atrocities like the
+    Nazi Holocaust against the Jewish people is now targeting the one state of the Jewish people." and ends "We
+    will fight this perversion of justice with all our might!"
+  evidence_class: primary_text
+  confidence: moderate
+  statement_kind: reported
+  evidential_weight: 3
+  anchor_checked: secondary
+  adoption_weight: 3
+  adoption_note: >-
+    Not measured. The field is required by the validator; for a record fact no poll or count of believers is used,
+    so 3 is a stated placeholder (open decision for the owner).
+  would_change_if: >-
+    the Prime Minister's Office or the Government Press Office publishing a different text for the statement
+  anchor:
+    type: primary_text
+    description: >-
+      Government of Israel page govextra.gov.il/foreign-affairs/icc/home, stored extract. Read: heading "Statement
+      by PM Benjamin Netanyahu (February 5, 2021)"; text "When the International Criminal Court (ICC) investigates
+      Israel for fake war crimes – this is pure antisemitism. The court established to prevent atrocities like the
+      Nazi Holocaust against the Jewish people is now targeting the one state of the Jewish people. [...] We will
+      fight this perversion of justice with all our might!". The place of delivery is not stated on the page.
+    sources:
+    - src-govextra-icc
+    accessible: true
+  basis: >-
+    # V: page read. Selection rule for quotations from statements, written before reading: the first two sentences
+    and the last sentence of the statement as printed. The statement was reproduced by a Government of Israel host;
+    the Prime Minister's Office original (gov.il) returns HTTP 403 and was not read.
+- id: np-pm-statement-icc-2024
+  state: proposed
+  statement: >-
+    An Embassy of Israel (Kathmandu) news page, last updated 2 December 2024, carries a statement attributed to
+    Prime Minister Benjamin Netanyahu responding to the ICC decision. It begins "The antisemitic decision of the
+    international court in The Hague is a modern Dreyfus trial, and it will end the same way. One hundred and thirty
+    years ago, the French Jewish officer Alfred Dreyfus was falsely accused of treason by a biased French court."
+    It says "The decision to issue an arrest warrant against me, the democratically elected prime minister of the
+    State of Israel, and our former defense minister was made by a rogue prosecutor who is trying to extricate himself
+    from sexual harassment charges, and by biased judges who are motivated by anti-Semitic sentiments against the
+    one and only Jewish state." and "Israel does not, Israel will not recognize the validity of this decision."
+    It ends "Our enemies are your enemies, and our victory will be your victory, the victory of civilization over
+    barbarism and tyranny".
+  evidence_class: primary_text
+  confidence: moderate
+  statement_kind: reported
+  evidential_weight: 3
+  anchor_checked: secondary
+  adoption_weight: 3
+  adoption_note: >-
+    Not measured. The field is required by the validator; for a record fact no poll or count of believers is used,
+    so 3 is a stated placeholder (open decision for the owner).
+  would_change_if: >-
+    the Prime Minister's Office or the Government Press Office publishing a different text, date or place for the
+    statement
+  anchor:
+    type: primary_text
+    description: >-
+      Embassy of Israel in Kathmandu, news page (stored extract). Read: "The antisemitic decision of the international
+      court in The Hague is a modern Dreyfus trial, and it will end the same way. One hundred and thirty years ago,
+      the French Jewish officer Alfred Dreyfus was falsely accused of treason by a biased French court."; "The decision
+      to issue an arrest warrant against me, the democratically elected prime minister of the State of Israel, and
+      our former defense minister was made by a rogue prosecutor who is trying to extricate himself from sexual
+      harassment charges, and by biased judges who are motivated by anti-Semitic sentiments against the one and
+      only Jewish state."; "Israel does not, Israel will not recognize the validity of this decision."; "Our enemies
+      are your enemies, and our victory will be your victory, the victory of civilization over barbarism and tyranny".
+      The page prints "Last updated on: 02/12/2024" and "Video: GPO"; it prints no date or place for the statement
+      itself (the page URL ends in 22112024).
+    sources:
+    - src-emb-pm-icc-2024
+    accessible: true
+  basis: >-
+    # V: page read. The quotations are the statement as the page prints it: the first two sentences, the last sentence,
+    and the sentence that refers to the warrant (the latter chosen because it is the one that addresses the decision).
+    The date and place of delivery are not stated by this source. The statement is the Prime Minister's own and
+    is recorded as his; the ICC press release and decisions are the Court's statements. Neither is evidence for
+    the other. The statement's factual assertions (for example about the Prosecutor, food supplied to Gaza, polio
+    vaccination) were not checked here.
+- id: np-stmt-congress-1996
+  state: established
+  statement: >-
+    On 10 July 1996 (Wednesday), at a joint meeting of the Houses of the U.S. Congress in the House Chamber, Washington,
+    the Congressional Record (daily edition) prints an address by "His Excellency, Binyamin Netanyahu, Prime Minister
+    of Israel". As printed it opens: "If I can only get the Knesset to vote like this. Mr. Speaker, Mr. Vice President,
+    Members of Congress, this is not the first time that a Prime Minister of Israel addresses a joint meeting of
+    Congress." Its last sentence before any thanks or stage direction is: "And I know that the American people will
+    join us in making every effort to make our dream a reality, as I know that the American people will join us
+    in prayer: ‘‘God will give strength to his people, God will bless his people with peace.’’"
+  evidence_class: primary_text
+  confidence: high
+  statement_kind: reported
+  evidential_weight: 4
+  anchor_checked: primary
+  adoption_weight: 3
+  adoption_note: >-
+    Not measured. The field is required by the validator; for a record fact no poll or count of believers is used,
+    so 3 is a stated placeholder (open decision for the owner).
+  would_change_if: >-
+    the bound edition of the Congressional Record, or a recording of the address, differing from the daily-edition
+    text
+  anchor:
+    type: primary_text
+    description: >-
+      Congressional Record, daily edition, 10 July 1996, whole-issue PDF from govinfo (package CREC-1996-07-10);
+      stored extract holds the introduction of the joint meeting [A] and the address [B]. Page markers in the issue
+      PDF: last marker before the address H7159; markers inside the address H7161; first marker after it H7163..
+      Read: heading "JOINT MEETING" [...] and the Chair's escort of the Prime Minister "into the House Chamber".
+      Quotations above are the first two sentences and the last sentence before any thanks or stage direction (rule
+      stated in the basis).
+    sources:
+    - src-crec-1996-07-10
+    accessible: true
+  basis: >-
+    # V: issue PDF read as text; the address located by its speaker tag and read from tag to the next stage direction.
+    Selection rule for all statements on this page: the first two sentences of each statement as printed, and its
+    last sentence before any closing thanks or stage direction such as applause. (The rule was first drafted as
+    'the last sentence as printed' before any claim was written; it was refined at once because several statements
+    end only in thanks or applause, which carry no content; see log L-09.) Nothing in the middle of the address
+    is quoted; the full text is in the stored extract. The claim says what the Record prints; it does not say that
+    anything in the address is true or false. The place is the chamber named in the Record; the Record's other proceedings
+    of that day are not described.
+- id: np-stmt-congress-2011
+  state: established
+  statement: >-
+    On 24 May 2011 (Tuesday), at a joint meeting of the Houses of the U.S. Congress in the House Chamber, Washington,
+    the Congressional Record (daily edition) prints an address by "His Excellency Binyamin Netanyahu, Prime Minister
+    of Israel". As printed it opens: "Vice President BIDEN, Speaker BOEHNER, distinguished Senators, Members of
+    the House, honored guests, I am deeply moved by this warm welcome, and I am deeply honored that you’ve given
+    me the opportunity to address Congress a second time. Mr. Vice President, do you remember the time that we were
+    the new kids in town?" Its last sentence before any thanks or stage direction is: "May God bless all of you,
+    and may God forever bless the United States of America."
+  evidence_class: primary_text
+  confidence: high
+  statement_kind: reported
+  evidential_weight: 4
+  anchor_checked: primary
+  adoption_weight: 3
+  adoption_note: >-
+    Not measured. The field is required by the validator; for a record fact no poll or count of believers is used,
+    so 3 is a stated placeholder (open decision for the owner).
+  would_change_if: >-
+    the bound edition of the Congressional Record, or a recording of the address, differing from the daily-edition
+    text
+  anchor:
+    type: primary_text
+    description: >-
+      Congressional Record, daily edition, 24 May 2011, whole-issue PDF from govinfo (package CREC-2011-05-24);
+      stored extract holds the introduction of the joint meeting [A] and the address [B]. Page markers in the issue
+      PDF: last marker before the address H3347; markers inside the address H3349, H3350; first marker after it
+      H3351.. Read: heading "JOINT MEETING" [...] and the Chair's escort of the Prime Minister "into the House Chamber".
+      Quotations above are the first two sentences and the last sentence before any thanks or stage direction (rule
+      stated in the basis).
+    sources:
+    - src-crec-2011-05-24
+    accessible: true
+  basis: >-
+    # V: issue PDF read as text; the address located by its speaker tag and read from tag to the next stage direction.
+    Selection rule for all statements on this page: the first two sentences of each statement as printed, and its
+    last sentence before any closing thanks or stage direction such as applause. (The rule was first drafted as
+    'the last sentence as printed' before any claim was written; it was refined at once because several statements
+    end only in thanks or applause, which carry no content; see log L-09.) Nothing in the middle of the address
+    is quoted; the full text is in the stored extract. The claim says what the Record prints; it does not say that
+    anything in the address is true or false. The place is the chamber named in the Record; the Record's other proceedings
+    of that day are not described.
+- id: np-stmt-congress-2015
+  state: established
+  statement: >-
+    On 3 March 2015 (Tuesday), at a joint meeting of the Houses of the U.S. Congress in the House Chamber, Washington,
+    the Congressional Record (daily edition) prints an address by "His Excellency Binyamin Netanyahu, Prime Minister
+    of Israel". As printed it opens: "Thank you, Speaker of the House JOHN BOEHNER, President Pro Tem Senator ORRIN
+    HATCH, Senate Majority Leader MITCH MCCONNELL, House Minority Leader NANCY PELOSI, and House Majority Leader
+    KEVIN MCCARTHY. I also want to acknowledge Senator and Democratic Leader, HARRY REID." Its last sentence before
+    any thanks or stage direction is: "May God bless the State of Israel, and may God bless the United States of
+    America."
+  evidence_class: primary_text
+  confidence: high
+  statement_kind: reported
+  evidential_weight: 4
+  anchor_checked: primary
+  adoption_weight: 3
+  adoption_note: >-
+    Not measured. The field is required by the validator; for a record fact no poll or count of believers is used,
+    so 3 is a stated placeholder (open decision for the owner).
+  would_change_if: >-
+    the bound edition of the Congressional Record, or a recording of the address, differing from the daily-edition
+    text
+  anchor:
+    type: primary_text
+    description: >-
+      Congressional Record, daily edition, 3 March 2015, whole-issue PDF from govinfo (package CREC-2015-03-03);
+      stored extract holds the introduction of the joint meeting [A] and the address [B]. Page markers in the issue
+      PDF: last marker before the address H1528; markers inside the address H1529, H1530; first marker after it
+      H1531.. Read: heading "JOINT MEETING" [...] and the Chair's escort of the Prime Minister "into the House Chamber".
+      Quotations above are the first two sentences and the last sentence before any thanks or stage direction (rule
+      stated in the basis).
+    sources:
+    - src-crec-2015-03-03
+    accessible: true
+  basis: >-
+    # V: issue PDF read as text; the address located by its speaker tag and read from tag to the next stage direction.
+    Selection rule for all statements on this page: the first two sentences of each statement as printed, and its
+    last sentence before any closing thanks or stage direction such as applause. (The rule was first drafted as
+    'the last sentence as printed' before any claim was written; it was refined at once because several statements
+    end only in thanks or applause, which carry no content; see log L-09.) Nothing in the middle of the address
+    is quoted; the full text is in the stored extract. The claim says what the Record prints; it does not say that
+    anything in the address is true or false. The place is the chamber named in the Record; the Record's other proceedings
+    of that day are not described.
+- id: np-stmt-congress-2024
+  state: established
+  statement: >-
+    On 24 July 2024 (Wednesday), at a joint meeting of the Houses of the U.S. Congress in the House Chamber, Washington,
+    the Congressional Record (daily edition) prints an address by "His Excellency Binyamin Netanyahu, Prime Minister
+    of Israel". As printed it opens: "Speaker of the House MIKE JOHNSON, Senator BEN CARDIN, Minority Leader HAKEEM
+    JEFFRIES, Senate Majority Leader CHUCK SCHUMER, Senate Minority Leader MITCH MCCONNELL, Senators, Members of
+    Congress, distinguished guests: Mr. Speaker, I want to thank you for giving me the profound honor of addressing
+    this great citadel of democracy for the fourth time. We meet today at a crossroads of history." Its last sentence
+    before any thanks or stage direction is: "May God bless Israel, may God bless America, and may God bless the
+    great alliance between Israel and America forever."
+  evidence_class: primary_text
+  confidence: high
+  statement_kind: reported
+  evidential_weight: 4
+  anchor_checked: primary
+  adoption_weight: 3
+  adoption_note: >-
+    Not measured. The field is required by the validator; for a record fact no poll or count of believers is used,
+    so 3 is a stated placeholder (open decision for the owner).
+  would_change_if: >-
+    the bound edition of the Congressional Record, or a recording of the address, differing from the daily-edition
+    text
+  anchor:
+    type: primary_text
+    description: >-
+      Congressional Record, daily edition, 24 July 2024, whole-issue PDF from govinfo (package CREC-2024-07-24);
+      stored extract holds the introduction of the joint meeting [A] and the address [B]. Page markers in the issue
+      PDF: last marker before the address H4878; markers inside the address H4879, H4880; first marker after it
+      H4881.. Read: heading "JOINT MEETING" [...] and the Chair's escort of the Prime Minister "into the House Chamber".
+      Quotations above are the first two sentences and the last sentence before any thanks or stage direction (rule
+      stated in the basis).
+    sources:
+    - src-crec-2024-07-24
+    accessible: true
+  basis: >-
+    # V: issue PDF read as text; the address located by its speaker tag and read from tag to the next stage direction.
+    Selection rule for all statements on this page: the first two sentences of each statement as printed, and its
+    last sentence before any closing thanks or stage direction such as applause. (The rule was first drafted as
+    'the last sentence as printed' before any claim was written; it was refined at once because several statements
+    end only in thanks or applause, which carry no content; see log L-09.) Nothing in the middle of the address
+    is quoted; the full text is in the stored extract. The claim says what the Record prints; it does not say that
+    anything in the address is true or false. The place is the chamber named in the Record; the Record's other proceedings
+    of that day are not described.
+- id: np-stmt-unga-2009
+  state: established
+  statement: >-
+    On 24 September 2009 (Thursday), at the 5th plenary meeting of the General Assembly's 64th session in the General
+    Assembly Hall, New York, the verbatim record A/64/PV.5 prints an address by Mr. Benjamin Netanyahu, whom the
+    President's thanks in the record describe as "the Prime Minister of the State of Israel". As printed it opens:
+    "Nearly 62 years ago, the United Nations recognized the right of the Jews, an ancient people 3,500 years old,
+    to a State of their own in their ancestral homeland. I stand here today as the Prime Minister of Israel, the
+    Jewish State, and I speak to the Assembly on behalf of my country and my people." Its last sentence before any
+    thanks or stage direction is: "(spoke in Hebrew) May God bless his people with peace; may God give strength
+    to his people; may God bless his people with peace."
+  evidence_class: primary_text
+  confidence: high
+  statement_kind: reported
+  evidential_weight: 4
+  anchor_checked: primary
+  adoption_weight: 3
+  adoption_note: >-
+    Not measured. The field is required by the validator; for a record fact no poll or count of believers is used,
+    so 3 is a stated placeholder (open decision for the owner).
+  would_change_if: the final printed record of the meeting, or a recording, differing from this text
+  anchor:
+    type: primary_text
+    description: >-
+      UN document A/64/PV.5 (Sixty-fourth session 5th plenary meeting Thursday, 24 September 2009, 9 a.m.), PDF
+      from documents.un.org, read as text (pdftotext -raw); stored extract holds the introduction [A], the statement
+      [B] and the President's thanks [C]. Read: "I wish to thank the Prime Minister of the State of Israel for the
+      statement he has just made" [...] and the speaker tag "Mr. Netanyahu (Israel):". Quotations above are the
+      first two sentences and the last sentence before any thanks or stage direction; "[...]" marks where page headers
+      or footers printed in the source (document symbol, date, page number) were skipped.
+    sources:
+    - src-un-a64-pv5
+    accessible: true
+  basis: >-
+    # V: record read as text. Selection rule as for all statements on this page (first two sentences; last sentence
+    before closing thanks or stage direction). The title in the claim is the one the President's thanks print for
+    this meeting; it differs between years because the record lists his other portfolios when he held them. The
+    claim says what the record prints. It does not say that anything in the statement is true or false. The pdftotext
+    reading order was checked at the opening and closing of each statement against the President's introduction
+    and thanks.
+- id: np-stmt-unga-2011
+  state: established
+  statement: >-
+    On 23 September 2011 (Friday), at the 19th plenary meeting of the General Assembly's 66th session in the General
+    Assembly Hall, New York, the verbatim record A/66/PV.19 prints an address by Mr. Benjamin Netanyahu, whom the
+    President's thanks in the record describe as "the Prime Minister of the State of Israel". As printed it opens:
+    "Israel has extended its hand in peace from the moment it was established 63 years ago. On behalf of Israel
+    and the Jewish people, I extend that hand again today." Its last sentence before any thanks or stage direction
+    is: "Let that light be the light of peace."
+  evidence_class: primary_text
+  confidence: high
+  statement_kind: reported
+  evidential_weight: 4
+  anchor_checked: primary
+  adoption_weight: 3
+  adoption_note: >-
+    Not measured. The field is required by the validator; for a record fact no poll or count of believers is used,
+    so 3 is a stated placeholder (open decision for the owner).
+  would_change_if: the final printed record of the meeting, or a recording, differing from this text
+  anchor:
+    type: primary_text
+    description: >-
+      UN document A/66/PV.19 (Sixty-sixth session 19th plenary meeting Friday, 23 September 2011, 9 a.m.), PDF from
+      documents.un.org, read as text (pdftotext -raw); stored extract holds the introduction [A], the statement
+      [B] and the President's thanks [C]. Read: "I wish to thank the Prime Minister of the State of Israel for the
+      statement he has just made" [...] and the speaker tag "Mr. Netanyahu (Israel):". Quotations above are the
+      first two sentences and the last sentence before any thanks or stage direction; "[...]" marks where page headers
+      or footers printed in the source (document symbol, date, page number) were skipped.
+    sources:
+    - src-un-a66-pv19
+    accessible: true
+  basis: >-
+    # V: record read as text. Selection rule as for all statements on this page (first two sentences; last sentence
+    before closing thanks or stage direction). The title in the claim is the one the President's thanks print for
+    this meeting; it differs between years because the record lists his other portfolios when he held them. The
+    claim says what the record prints. It does not say that anything in the statement is true or false. The pdftotext
+    reading order was checked at the opening and closing of each statement against the President's introduction
+    and thanks.
+- id: np-stmt-unga-2012
+  state: established
+  statement: >-
+    On 27 September 2012 (Thursday), at the 12th plenary meeting of the General Assembly's 67th session in the General
+    Assembly Hall, New York, the verbatim record A/67/PV.12 prints an address by Mr. Benjamin Netanyahu, whom the
+    President's thanks in the record describe as "the Prime Minister of the State of Israel". As printed it opens:
+    "It is a pleasure to see the General Assembly presided over by the Ambassador [...] Yet the medieval forces
+    of radical Islam, which the world just saw storming American Embassies throughout the Middle East, oppose that.
+    They seek supremacy over all Muslims." Its last sentence before any thanks or stage direction is: "Let us commit
+    ourselves today to defending those values so that we can defend our freedoms and protect our common civilization."
+  evidence_class: primary_text
+  confidence: high
+  statement_kind: reported
+  evidential_weight: 4
+  anchor_checked: primary
+  adoption_weight: 3
+  adoption_note: >-
+    Not measured. The field is required by the validator; for a record fact no poll or count of believers is used,
+    so 3 is a stated placeholder (open decision for the owner).
+  would_change_if: the final printed record of the meeting, or a recording, differing from this text
+  anchor:
+    type: primary_text
+    description: >-
+      UN document A/67/PV.12 (Sixty-seventh session 12th plenary meeting Thursday, 27 September 2012, 9 a.m.), PDF
+      from documents.un.org, read as text (pdftotext -raw); stored extract holds the introduction [A], the statement
+      [B] and the President's thanks [C]. Read: "I wish to thank the Prime Minister of the State of Israel for the
+      statement he has just made" [...] and the speaker tag "Mr. Netanyahu (Israel):". Quotations above are the
+      first two sentences and the last sentence before any thanks or stage direction; "[...]" marks where page headers
+      or footers printed in the source (document symbol, date, page number) were skipped.
+    sources:
+    - src-un-a67-pv12
+    accessible: true
+  basis: >-
+    # V: record read as text. Selection rule as for all statements on this page (first two sentences; last sentence
+    before closing thanks or stage direction). The title in the claim is the one the President's thanks print for
+    this meeting; it differs between years because the record lists his other portfolios when he held them. The
+    claim says what the record prints. It does not say that anything in the statement is true or false. The pdftotext
+    reading order was checked at the opening and closing of each statement against the President's introduction
+    and thanks.
+- id: np-stmt-unga-2013
+  state: established
+  statement: >-
+    On 1 October 2013 (Tuesday), at the 23rd plenary meeting of the General Assembly's 68th session in the General
+    Assembly Hall, New York, the verbatim record A/68/PV.23 prints an address by Mr. Benjamin Netanyahu, whom the
+    President's thanks in the record describe as "the Prime Minister, Minister for Foreign Affairs and Minister
+    of Public Affairs and the Diaspora of the State of Israel". As printed it opens: "I feel deeply honoured and
+    privileged to stand here before the General Assembly today representing the citizens of the State of Israel.
+    We are an ancient people." Its last sentence before any thanks or stage direction is: "The people of Israel
+    have come home, never to be uprooted again."
+  evidence_class: primary_text
+  confidence: high
+  statement_kind: reported
+  evidential_weight: 4
+  anchor_checked: primary
+  adoption_weight: 3
+  adoption_note: >-
+    Not measured. The field is required by the validator; for a record fact no poll or count of believers is used,
+    so 3 is a stated placeholder (open decision for the owner).
+  would_change_if: the final printed record of the meeting, or a recording, differing from this text
+  anchor:
+    type: primary_text
+    description: >-
+      UN document A/68/PV.23 (Sixty-eighth session 23rd plenary meeting Tuesday, 1 October 2013, 9 a.m.), PDF from
+      documents.un.org, read as text (pdftotext -raw); stored extract holds the introduction [A], the statement
+      [B] and the President's thanks [C]. Read: "I wish to thank the Prime Minister, Minister for Foreign Affairs
+      and Minister of Public Affairs and the Diaspora of the State of Israel for the statement he has just made"
+      [...] and the speaker tag "Mr. Netanyahu (Israel):". Quotations above are the first two sentences and the
+      last sentence before any thanks or stage direction; "[...]" marks where page headers or footers printed in
+      the source (document symbol, date, page number) were skipped.
+    sources:
+    - src-un-a68-pv23
+    accessible: true
+  basis: >-
+    # V: record read as text. Selection rule as for all statements on this page (first two sentences; last sentence
+    before closing thanks or stage direction). The title in the claim is the one the President's thanks print for
+    this meeting; it differs between years because the record lists his other portfolios when he held them. The
+    claim says what the record prints. It does not say that anything in the statement is true or false. The pdftotext
+    reading order was checked at the opening and closing of each statement against the President's introduction
+    and thanks.
+- id: np-stmt-unga-2014
+  state: established
+  statement: >-
+    On 29 September 2014 (Monday), at the 17th plenary meeting of the General Assembly's 69th session in the General
+    Assembly Hall, New York, the verbatim record A/69/PV.17 prints an address by Mr. Benjamin Netanyahu, whom the
+    President's thanks in the record describe as "the Prime Minister and Minister of Public Affairs and the Diaspora
+    of the State of Israel". As printed it opens: "I come here from Jerusalem to speak on behalf of my people, the
+    people of Israel. I have come to speak about the dangers we face and about the opportunities we seek." Its last
+    sentence before any thanks or stage direction is: "Let us light a torch of truth and justice to safeguard our
+    common future."
+  evidence_class: primary_text
+  confidence: high
+  statement_kind: reported
+  evidential_weight: 4
+  anchor_checked: primary
+  adoption_weight: 3
+  adoption_note: >-
+    Not measured. The field is required by the validator; for a record fact no poll or count of believers is used,
+    so 3 is a stated placeholder (open decision for the owner).
+  would_change_if: the final printed record of the meeting, or a recording, differing from this text
+  anchor:
+    type: primary_text
+    description: >-
+      UN document A/69/PV.17 (Sixty-ninth session 17th plenary meeting Monday, 29 September 2014, 9 a.m.), PDF from
+      documents.un.org, read as text (pdftotext -raw); stored extract holds the introduction [A], the statement
+      [B] and the President's thanks [C]. Read: "I wish to thank the Prime Minister and Minister of Public Affairs
+      and the Diaspora of the State of Israel for the statement he has just made" [...] and the speaker tag "Mr.
+      Netanyahu (Israel):". Quotations above are the first two sentences and the last sentence before any thanks
+      or stage direction; "[...]" marks where page headers or footers printed in the source (document symbol, date,
+      page number) were skipped.
+    sources:
+    - src-un-a69-pv17
+    accessible: true
+  basis: >-
+    # V: record read as text. Selection rule as for all statements on this page (first two sentences; last sentence
+    before closing thanks or stage direction). The title in the claim is the one the President's thanks print for
+    this meeting; it differs between years because the record lists his other portfolios when he held them. The
+    claim says what the record prints. It does not say that anything in the statement is true or false. The pdftotext
+    reading order was checked at the opening and closing of each statement against the President's introduction
+    and thanks.
+- id: np-stmt-unga-2015
+  state: established
+  statement: >-
+    On 1 October 2015 (Thursday), at the 22nd plenary meeting of the General Assembly's 70th session in the General
+    Assembly Hall, New York, the verbatim record A/70/PV.22 prints an address by Mr. Benjamin Netanyahu, whom the
+    President's thanks in the record describe as "the Prime Minister of the State of Israel". As printed it opens:
+    "I bring greetings from Jerusalem, the city in which the Jewish people’s hopes and prayers for peace for all
+    of humanity have echoed throughout the ages. Thirty-one years ago, as Israel’s Ambassador to the United Nations,
+    I stood at this rostrum for the first time." Its last sentence before any thanks or stage direction is: "More
+    than ever, Israel is defending the world!"
+  evidence_class: primary_text
+  confidence: high
+  statement_kind: reported
+  evidential_weight: 4
+  anchor_checked: primary
+  adoption_weight: 3
+  adoption_note: >-
+    Not measured. The field is required by the validator; for a record fact no poll or count of believers is used,
+    so 3 is a stated placeholder (open decision for the owner).
+  would_change_if: the final printed record of the meeting, or a recording, differing from this text
+  anchor:
+    type: primary_text
+    description: >-
+      UN document A/70/PV.22 (), PDF from documents.un.org, read as text (pdftotext -raw); stored extract holds
+      the introduction [A], the statement [B] and the President's thanks [C]. Read: "I wish to thank the Prime Minister
+      of the State of Israel for the statement he has just made" [...] and the speaker tag "Mr. Netanyahu (Israel):".
+      Quotations above are the first two sentences and the last sentence before any thanks or stage direction; "[...]"
+      marks where page headers or footers printed in the source (document symbol, date, page number) were skipped.
+    sources:
+    - src-un-a70-pv22
+    accessible: true
+  basis: >-
+    # V: record read as text. Selection rule as for all statements on this page (first two sentences; last sentence
+    before closing thanks or stage direction). The title in the claim is the one the President's thanks print for
+    this meeting; it differs between years because the record lists his other portfolios when he held them. The
+    claim says what the record prints. It does not say that anything in the statement is true or false. The pdftotext
+    reading order was checked at the opening and closing of each statement against the President's introduction
+    and thanks.
+- id: np-stmt-unga-2016
+  state: established
+  statement: >-
+    On 22 September 2016 (Thursday), at the 14th plenary meeting of the General Assembly's 71st session in the General
+    Assembly Hall, New York, the verbatim record A/71/PV.14 prints an address by Mr. Benjamin Netanyahu, whom the
+    President's thanks in the record describe as "the Prime Minister of the State of Israel". As printed it opens:
+    "What I am about to say is going to shock everyone — Israel has a bright future at the United Nations. I know
+    that hearing that from me must surely come as a surprise, because year after year I have stood at this very
+    rostrum and slammed the United Nations for its obsessive bias against Israel." Its last sentence before any
+    thanks or stage direction is: "Dream of the future that we can build together — a future of breathtaking progress,
+    a future of security, prosperity and peace, a future of hope for all humankind, a future where even at the United
+    Nations, even in this Hall, Israel will finally, inevitably, take its rightful place among the nations."
+  evidence_class: primary_text
+  confidence: high
+  statement_kind: reported
+  evidential_weight: 4
+  anchor_checked: primary
+  adoption_weight: 3
+  adoption_note: >-
+    Not measured. The field is required by the validator; for a record fact no poll or count of believers is used,
+    so 3 is a stated placeholder (open decision for the owner).
+  would_change_if: the final printed record of the meeting, or a recording, differing from this text
+  anchor:
+    type: primary_text
+    description: >-
+      UN document A/71/PV.14 (Seventy-first session 14th plenary meeting Thursday, 22 September 2016, 9 a.m.), PDF
+      from documents.un.org, read as text (pdftotext -raw); stored extract holds the introduction [A], the statement
+      [B] and the President's thanks [C]. Read: "I wish to thank the Prime Minister of the State of Israel for the
+      statement he has just made" [...] and the speaker tag "Mr. Netanyahu (Israel):". Quotations above are the
+      first two sentences and the last sentence before any thanks or stage direction; "[...]" marks where page headers
+      or footers printed in the source (document symbol, date, page number) were skipped.
+    sources:
+    - src-un-a71-pv14
+    accessible: true
+  basis: >-
+    # V: record read as text. Selection rule as for all statements on this page (first two sentences; last sentence
+    before closing thanks or stage direction). The title in the claim is the one the President's thanks print for
+    this meeting; it differs between years because the record lists his other portfolios when he held them. The
+    claim says what the record prints. It does not say that anything in the statement is true or false. The pdftotext
+    reading order was checked at the opening and closing of each statement against the President's introduction
+    and thanks.
+- id: np-stmt-unga-2017
+  state: established
+  statement: >-
+    On 19 September 2017 (Tuesday), at the 4th plenary meeting of the General Assembly's 72nd session in the General
+    Assembly Hall, New York, the verbatim record A/72/PV.4 prints an address by Mr. Benjamin Netanyahu, whom the
+    President's thanks in the record describe as "the Prime Minister of the State of Israel". As printed it opens:
+    "We are in the midst of a great revolution — a revolution in Israel’s standing among the nations. It is happening
+    because so many countries around the world have finally woken up to what Israel can do for them." Its last sentence
+    before any thanks or stage direction is: "Happy new year from Israel."
+  evidence_class: primary_text
+  confidence: high
+  statement_kind: reported
+  evidential_weight: 4
+  anchor_checked: primary
+  adoption_weight: 3
+  adoption_note: >-
+    Not measured. The field is required by the validator; for a record fact no poll or count of believers is used,
+    so 3 is a stated placeholder (open decision for the owner).
+  would_change_if: the final printed record of the meeting, or a recording, differing from this text
+  anchor:
+    type: primary_text
+    description: >-
+      UN document A/72/PV.4 (Seventy-second session 4th plenary meeting Tuesday, 19 September 2017, 12.05 p.m.),
+      PDF from documents.un.org, read as text (pdftotext -raw); stored extract holds the introduction [A], the statement
+      [B] and the President's thanks [C]. Read: "I wish to thank the Prime Minister of the State of Israel for the
+      statement he has just made" [...] and the speaker tag "Mr. Netanyahu (Israel):". Quotations above are the
+      first two sentences and the last sentence before any thanks or stage direction; "[...]" marks where page headers
+      or footers printed in the source (document symbol, date, page number) were skipped.
+    sources:
+    - src-un-a72-pv4
+    accessible: true
+  basis: >-
+    # V: record read as text. Selection rule as for all statements on this page (first two sentences; last sentence
+    before closing thanks or stage direction). The title in the claim is the one the President's thanks print for
+    this meeting; it differs between years because the record lists his other portfolios when he held them. The
+    claim says what the record prints. It does not say that anything in the statement is true or false. The pdftotext
+    reading order was checked at the opening and closing of each statement against the President's introduction
+    and thanks.
+- id: np-stmt-unga-2018
+  state: established
+  statement: >-
+    On 27 September 2018 (Thursday), at the 10th plenary meeting of the General Assembly's 73rd session in the General
+    Assembly Hall, New York, the verbatim record A/73/PV.10 prints an address by Mr. Benjamin Netanyahu, whom the
+    President's thanks in the record describe as "the Prime Minister of the State of Israel". As printed it opens:
+    "When I spoke here three years ago (see A/70/PV.22), Israel stood alone among the nations. Of the nearly 200
+    countries that sit in this Hall, only Israel openly opposed the nuclear deal with Iran." Its last sentence before
+    any thanks or stage direction is: "Most of all, I am proud of the people of Israel, who draw extraordinary strength
+    from the deep wellsprings of our heritage, who possess an unbreakable spirit and who are as determined as ever
+    to build a secure and magnificent future for the one and only Jewish State."
+  evidence_class: primary_text
+  confidence: high
+  statement_kind: reported
+  evidential_weight: 4
+  anchor_checked: primary
+  adoption_weight: 3
+  adoption_note: >-
+    Not measured. The field is required by the validator; for a record fact no poll or count of believers is used,
+    so 3 is a stated placeholder (open decision for the owner).
+  would_change_if: the final printed record of the meeting, or a recording, differing from this text
+  anchor:
+    type: primary_text
+    description: >-
+      UN document A/73/PV.10 (Seventy-third session 10th plenary meeting Thursday, 27 September 2018, 9 a.m.), PDF
+      from documents.un.org, read as text (pdftotext -raw); stored extract holds the introduction [A], the statement
+      [B] and the President's thanks [C]. Read: "I wish to thank the Prime Minister of the State of Israel for the
+      statement he has just made" [...] and the speaker tag "Mr. Netanyahu (Israel):". Quotations above are the
+      first two sentences and the last sentence before any thanks or stage direction; "[...]" marks where page headers
+      or footers printed in the source (document symbol, date, page number) were skipped.
+    sources:
+    - src-un-a73-pv10
+    accessible: true
+  basis: >-
+    # V: record read as text. Selection rule as for all statements on this page (first two sentences; last sentence
+    before closing thanks or stage direction). The title in the claim is the one the President's thanks print for
+    this meeting; it differs between years because the record lists his other portfolios when he held them. The
+    claim says what the record prints. It does not say that anything in the statement is true or false. The pdftotext
+    reading order was checked at the opening and closing of each statement against the President's introduction
+    and thanks.
+- id: np-stmt-unga-2023
+  state: established
+  statement: >-
+    On 22 September 2023 (Friday), at the 10th plenary meeting of the General Assembly's 78th session in the General
+    Assembly Hall, New York, the verbatim record A/78/PV.10 prints an address by Mr. Benjamin Netanyahu, whom the
+    President's thanks in the record describe as "the Prime Minister of the State of Israel". As printed it opens:
+    "Over three millenniums ago, our great leader Moses addressed the people of Israel as they were about to enter
+    the Promised Land. He said that they would find there two mountains facing one another: Mount Gerizim, the site
+    on which a great blessing would be proclaimed, and Mount Ebal, the site of a great curse." Its last sentence
+    before any thanks or stage direction is: "And may we avoid the perils of AI by combining the forces of human
+    and machine intelligence to usher in a brilliant future for our world, in our time and for all time."
+  evidence_class: primary_text
+  confidence: high
+  statement_kind: reported
+  evidential_weight: 4
+  anchor_checked: primary
+  adoption_weight: 3
+  adoption_note: >-
+    Not measured. The field is required by the validator; for a record fact no poll or count of believers is used,
+    so 3 is a stated placeholder (open decision for the owner).
+  would_change_if: the final printed record of the meeting, or a recording, differing from this text
+  anchor:
+    type: primary_text
+    description: >-
+      UN document A/78/PV.10 (Seventy-eighth session 10th plenary meeting Friday, 22 September 2023, 9 a.m.), PDF
+      from documents.un.org, read as text (pdftotext -raw); stored extract holds the introduction [A], the statement
+      [B] and the President's thanks [C]. Read: "I wish to thank the Prime Minister of the State of Israel for the
+      statement he has just made" [...] and the speaker tag "Mr. Netanyahu (Israel):". Quotations above are the
+      first two sentences and the last sentence before any thanks or stage direction; "[...]" marks where page headers
+      or footers printed in the source (document symbol, date, page number) were skipped.
+    sources:
+    - src-un-a78-pv10
+    accessible: true
+  basis: >-
+    # V: record read as text. Selection rule as for all statements on this page (first two sentences; last sentence
+    before closing thanks or stage direction). The title in the claim is the one the President's thanks print for
+    this meeting; it differs between years because the record lists his other portfolios when he held them. The
+    claim says what the record prints. It does not say that anything in the statement is true or false. The pdftotext
+    reading order was checked at the opening and closing of each statement against the President's introduction
+    and thanks.
+- id: np-stmt-unga-2024
+  state: established
+  statement: >-
+    On 27 September 2024 (Friday), at the 13th plenary meeting of the General Assembly's 79th session in the General
+    Assembly Hall, New York, the verbatim record A/79/PV.13 prints an address by Mr. Benjamin Netanyahu, whom the
+    President's thanks in the record describe as "the Prime Minister of the State of Israel". As printed it opens:
+    "I did not intend to come here this year. My country is at war, fighting for its life." Its last sentence before
+    any thanks or stage direction is: "The people of Israel live now, tomorrow, forever."
+  evidence_class: primary_text
+  confidence: high
+  statement_kind: reported
+  evidential_weight: 4
+  anchor_checked: primary
+  adoption_weight: 3
+  adoption_note: >-
+    Not measured. The field is required by the validator; for a record fact no poll or count of believers is used,
+    so 3 is a stated placeholder (open decision for the owner).
+  would_change_if: the final printed record of the meeting, or a recording, differing from this text
+  anchor:
+    type: primary_text
+    description: >-
+      UN document A/79/PV.13 (Seventy-ninth session 13th plenary meeting Friday, 27 September 2024, 9 a.m.), PDF
+      from documents.un.org, read as text (pdftotext -raw); stored extract holds the introduction [A], the statement
+      [B] and the President's thanks [C]. Read: "I wish to thank the Prime Minister of the State of Israel for the
+      statement he has just made" [...] and the speaker tag "Mr. Netanyahu (Israel):". Quotations above are the
+      first two sentences and the last sentence before any thanks or stage direction; "[...]" marks where page headers
+      or footers printed in the source (document symbol, date, page number) were skipped.
+    sources:
+    - src-un-a79-pv13
+    accessible: true
+  basis: >-
+    # V: record read as text. Selection rule as for all statements on this page (first two sentences; last sentence
+    before closing thanks or stage direction). The title in the claim is the one the President's thanks print for
+    this meeting; it differs between years because the record lists his other portfolios when he held them. The
+    claim says what the record prints. It does not say that anything in the statement is true or false. The pdftotext
+    reading order was checked at the opening and closing of each statement against the President's introduction
+    and thanks.
+- id: np-stmt-unga-2020
+  state: established
+  statement: >-
+    On 29 September 2020 (Tuesday), at the 14th plenary meeting of the General Assembly's 75th session, the verbatim
+    record A/75/PV.14 prints, as annex XV, an "Address by Mr. Benjamin Netanyahu, Prime Minister of the State of
+    Israel", and states that "A pre-recorded video statement was shown in the General Assembly Hall". As printed
+    it opens: "Mr. President, Ladies and gentlemen, The Middle East is not exactly renowned for producing good news,
+    and few expected this year to be any different. As you know, the pandemic virus is ravaging our part of the
+    world, like everywhere else." Its last sentence before any thanks or stage direction is: "And if you do, I am
+    confident that, in the years ahead, we will be able to celebrate more good news from the Middle East — good
+    news for Israel, good news for our Arab neighbours and good news for the world and for all those who seek peace
+    security and prosperity."
+  evidence_class: primary_text
+  confidence: high
+  statement_kind: reported
+  evidential_weight: 4
+  anchor_checked: primary
+  adoption_weight: 3
+  adoption_note: >-
+    Not measured. The field is required by the validator; for a record fact no poll or count of believers is used,
+    so 3 is a stated placeholder (open decision for the owner).
+  would_change_if: the annex A/75/592/Add.10 or a recording differing from this text
+  anchor:
+    type: primary_text
+    description: >-
+      UN document A/75/PV.14, PDF from documents.un.org, read as text; stored extract holds the introduction [A]
+      and annex XV [B]. Read: "Annex XV Address by Mr. Benjamin Netanyahu, Prime Minister of the State of Israel"
+      and the line "A pre-recorded video statement was shown in the General Assembly Hall (annex XV and see A/75/592/Add.10)".
+      The statement was pre-recorded; the video was not watched. Quotations are the first two sentences of annex
+      XV and its last sentence before the closing "Thank you."; "[...]" marks page furniture skipped.
+    sources:
+    - src-un-a75-pv14
+    accessible: true
+  basis: >-
+    # V: annex read as text. The 2020 statement is printed in an annex, not spoken in the Hall; the place is the
+    Hall where the video was shown, per the record. Selection rule as for the other statements.
+- id: np-fin-residences-netanyahu
+  state: established
+  statement: >-
+    The State Comptroller's special report of April 2024 states that the cost of security and protection work on
+    the residences on Azza Street and in Caesarea during the tenures of Benjamin Netanyahu as Prime Minister, from
+    January 2019 to November 2023, was about NIS 27.8 million, comprising NIS 960,000 for securing and maintaining
+    the residence in Caesarea in 2019, about NIS 19,097,000 for securing the private alternative residence on Azza
+    Street and renting apartments for operational and security personnel in 2023, and about NIS 7,710,000 for securing
+    additional residences in Caesarea and renting apartments for security personnel in 2023. A key-figures box in
+    the same report gives NIS 26.8 million for the private residences on Azza Street and in Caesarea during his
+    tenure as Prime Minister from December 2022 to November 2023, including about NIS 10.4 million on safety and
+    security works on the balcony windows of the private residence on Azza Street.
+  evidence_class: primary_text
+  confidence: high
+  statement_kind: reported
+  evidential_weight: 4
+  anchor_checked: primary
+  adoption_weight: 3
+  adoption_note: >-
+    Not measured. The field is required by the validator; for a record fact no poll or count of believers is used,
+    so 3 is a stated placeholder (open decision for the owner).
+  would_change_if: >-
+    the full Hebrew report or the Prime Minister's Office's records giving different figures or periods
+  anchor:
+    type: primary_text
+    description: >-
+      State Comptroller Special Report, April 2024, English abstract, stored extract (pdftotext -raw). Read: "the
+      cost of security and protection work on the residences on Azza Street and in Caesarea during the tenures of
+      Benjamin Netanyahu as Prime Minister, from January 2019 to November 2023, was about NIS 27.8 million. This
+      includes NIS 960,000 for securing and maintaining the residence in Caesarea in 2019, about NIS 19,097,000
+      for securing the private alternative residence on Azza Street and renting apartments for operational and security
+      personnel in 2023, and about NIS 7,710,000 for securing additional residences in Caesarea and renting apartments
+      for security personnel in 2023." and, in the key-figures box, the figure "NIS 26.8 million" with the description
+      "the cost of securing the private residences on Azza Street and in Caesarea of Prime Minister Benjamin Netanyahu
+      during his tenure as Prime Minister from December 2022 to November 2023. Including about NIS 10.4 million
+      on safety and security works on the balcony windows of the private residence on Azza Street". The box has
+      three columns; the pairing of each figure with its description follows the column order in the PDF and is
+      corroborated by the body text: NIS 19,097,000 + NIS 7,710,000 = NIS 26.81 million (the 2023 items), and adding
+      NIS 960,000 gives NIS 27.77 million (about NIS 27.8 million).
+    sources:
+    - src-mev-pm-residences-2024
+    accessible: true
+  basis: >-
+    # V: English abstract read in full as text; charts (page 18, expenses by residence) are images and were not
+    read. The two figures (27.8 and 26.8) are for different periods and are both stated by the report. The report
+    says the works were 'mainly security works' and that the Prime Minister's Office proposed them on the General
+    Security Service's requirements; the figures are public expenditure on residences, not personal income or assets
+    of any person, and this page does not say otherwise.
+- id: np-fin-residences-bennett-lapid-total
+  state: established
+  statement: >-
+    The same State Comptroller report (April 2024) states, for the other two Prime Ministers it covers: the cost
+    of securing Prime Minister Naftali Bennett's private alternative residence in Ra'anana during his tenure as
+    Prime Minister was NIS 24.9 million, of which about NIS 9.5 million was for renting temporary security and protection
+    means for about 12.5 months; and the cost of securing the private residence in Tel Aviv during the tenure of
+    Member of Knesset Yair Lapid as Prime Minister, from July to December 2022, was about NIS 3.58 million, of which
+    about NIS 2.79 million (78%) was for renting temporary security and protection equipment. It gives NIS 56 million
+    as the total cost of the works at the private residences of successive Prime Ministers (Caesarea, Ra'anana,
+    Tel Aviv, Azza Street) "until November 2023" in one place and "from January 2019 to June 2023" in another.
+  evidence_class: primary_text
+  confidence: high
+  statement_kind: reported
+  evidential_weight: 4
+  anchor_checked: primary
+  adoption_weight: 3
+  adoption_note: >-
+    Not measured. The field is required by the validator; for a record fact no poll or count of believers is used,
+    so 3 is a stated placeholder (open decision for the owner).
+  would_change_if: >-
+    the full Hebrew report or the Prime Minister's Office's records giving different figures or periods
+  anchor:
+    type: primary_text
+    description: >-
+      State Comptroller Special Report, April 2024, English abstract, stored extract. Read: "the cost of securing
+      Prime Minister Naftali Bennett's private alternative residence during his tenure as Prime Minister in Ra'anana
+      was NIS 24.9 million. To secure this residence, the Prime Minister's Office rented temporary security and
+      protection means for about 12.5 months, at about NIS 9.5 million."; "the cost of securing the private residence
+      in Tel Aviv during the tenure of Member of Knesset Yair Lapid as Prime Minister from July to December 2022
+      was about NIS 3.58 million, of which about NIS 2.79 million (78%) was for renting temporary security and protection
+      equipment."; "The total cost of the abovementioned works (mainly security works) was NIS 56 million."; and
+      "the state invested about NIS 56 million from January 2019 to June 2023 to conduct security and construction
+      works in the Prime Minister's private residences". The three prime ministers' figures (about 27.8, 24.9 and
+      3.58 million) sum to about NIS 56.3 million.
+    sources:
+    - src-mev-pm-residences-2024
+    accessible: true
+  basis: >-
+    # V: English abstract read as text. Stated here beside the Netanyahu figures (np-fin-residences-netanyahu) so
+    that all three Prime Ministers covered by the same measure appear to the same standard. The report's own two
+    period statements for the NIS 56 million differ (November 2023; June 2023) and both are shown.
+- id: np-fin-caesarea-works-2018-2019
+  state: established
+  statement: >-
+    The State Comptroller's report of April 2024 states that in May 2018 the Prime Minister's Office decided that
+    during the renovation of the official residence on Balfour Street the Prime Minister would stay at his private
+    residence in Caesarea; that "until November 2019, security work at NIS 795,000 and maintenance work at NIS 190,000
+    had been carried out at the private residence in Caesarea"; that the Prime Minister's Office funded NIS 165,200
+    of the maintenance costs and NIS 24,800 "was privately funded under the office accountant's guidance"; that
+    the Prime Minister's Office paid NIS 960,000 for this work; and that the Prime Minister "continued to reside
+    at the official residence on Balfour Street for over a year and a half after the security work was completed
+    at the private residence until July 2021".
+  evidence_class: primary_text
+  confidence: high
+  statement_kind: reported
+  evidential_weight: 4
+  anchor_checked: primary
+  adoption_weight: 3
+  adoption_note: >-
+    Not measured. The field is required by the validator; for a record fact no poll or count of believers is used,
+    so 3 is a stated placeholder (open decision for the owner).
+  would_change_if: >-
+    the full Hebrew report, the Prime Minister's Office response or other records giving different amounts, funding
+    split or dates
+  anchor:
+    type: primary_text
+    description: >-
+      State Comptroller Special Report, April 2024, English abstract, stored extract. Read: "In May 2018, the Prime
+      Minister's Office decided that during the renovation, the Prime Minister would stay at his private residence
+      in Caesarea."; "until November 2019, security work at NIS 795,000 and maintenance work at NIS 190,000 had
+      been carried out at the private residence in Caesarea. The Prime Minister's Office funded NIS 165,200 of the
+      maintenance costs, and NIS 24,800 was privately funded under the office accountant's guidance. The Prime Minister's
+      Office paid NIS 960,000 for this work at the private residence"; "the Prime Minister continued to reside at
+      the official residence on Balfour Street for over a year and a half after the security work was completed
+      at the private residence until July 2021". Arithmetic on the printed figures: 165,200 + 24,800 = 190,000;
+      795,000 + 165,200 = 960,200, against the printed 960,000.
+    sources:
+    - src-mev-pm-residences-2024
+    accessible: true
+  basis: >-
+    # V: abstract read. The report names this section 'Renovation of the Private Residence (Prime Minister Benjamin
+    Netanyahu) in Caesarea'. The 200-shekel difference between 960,200 and 960,000 is in the printed figures; the
+    report does not explain it. The report says elsewhere (np-fin-balfour-and-caesarea-planning) that three Knesset
+    elections were held in that period; it does not state a cause for the continued residence.
+- id: np-fin-azza-street-contract
+  state: established
+  statement: >-
+    The State Comptroller's report of April 2024 states that the Prime Minister's Office hired two engineering consultants
+    to assess safety deficiencies on the balconies of the Azza Street residence: Consultant A estimated the necessary
+    work at NIS 3−4 million and Consultant B at NIS 250,000; that the Tender Committee of the Prime Minister's Office
+    and the Exemption Committee of the Accountant General's Division approved increasing the contract amount for
+    securing the Azza Street residence by NIS 13 million (from NIS 12 million to NIS 25 million), with the balcony
+    part not to exceed NIS 750,000; that the two price quotes received corresponded only to the more expensive alternative,
+    the lower being about NIS 1.7 million excluding VAT and overhead; and that in October 2023 the committees approved
+    changing the structural component from up to NIS 750,000 to up to NIS 1.7 million while the total cost of the
+    work at the residence remained unchanged.
+  evidence_class: primary_text
+  confidence: high
+  statement_kind: reported
+  evidential_weight: 4
+  anchor_checked: primary
+  adoption_weight: 3
+  adoption_note: >-
+    Not measured. The field is required by the validator; for a record fact no poll or count of believers is used,
+    so 3 is a stated placeholder (open decision for the owner).
+  would_change_if: >-
+    the full Hebrew report or the Prime Minister's Office response giving different amounts or sequence
+  anchor:
+    type: primary_text
+    description: >-
+      State Comptroller Special Report, April 2024, English abstract, stored extract. Read: "Engineering Consultant
+      A, hired by the Security and Emergency Division of the Prime Minister's Office, estimated the cost of the
+      necessary work at NIS 3−4 million. Engineering Consultant B, hired at the request of the Office's accounting
+      and legal departments for the same purpose, performed additional engineering inspections and estimated the
+      cost at NIS 250,000."; "decided to approve an increase in the contract amount for securing the Azza Street
+      residence by NIS 13 million (from NIS 12 million to NIS 25 million), provided that preference was given to
+      the cheaper alternative, and the contract amount related to the balconies would not exceed NIS 750,000.";
+      "In October 2023, the Tender Committee of the Prime Minister's Office and the Exemption Committee of the Accountant
+      General's Division approved the request of the Security and Emergency Division of the Prime Minister's Office
+      to change the cost of the structural component from up to NIS 750,000 to up to NIS 1.7 million.".
+    sources:
+    - src-mev-pm-residences-2024
+    accessible: true
+  basis: >-
+    # V: abstract read. The decisions described are those of the Prime Minister's Office's and the Accountant General's
+    committees as the report describes them; the report does not name Mr Netanyahu as a decision-maker in this section.
+    The report also states what the Security and Emergency Division did with the quotes; that text is in the stored
+    extract and is not paraphrased here.
+- id: np-fin-caesarea-security-measures-unlawful
+  state: established
+  statement: >-
+    The State Comptroller's report of April 2024 states: "Prime Minister Benjamin Netanyahu assumed office in December
+    2022. Shortly after assuming office, the Security Department at the Prime Minister's Office requested the placement
+    of security measures adjacent to his private residence in Caesarea. It was found that some of the security measures
+    installed around the private residence in Caesarea between 2003 and 2019 were placed unlawfully. During the
+    audit, the Prime Minister's Office began working to obtain approval from the relevant authorities to install
+    these measures."
+  evidence_class: primary_text
+  confidence: high
+  statement_kind: reported
+  evidential_weight: 4
+  anchor_checked: primary
+  adoption_weight: 3
+  adoption_note: >-
+    Not measured. The field is required by the validator; for a record fact no poll or count of believers is used,
+    so 3 is a stated placeholder (open decision for the owner).
+  would_change_if: the full Hebrew report or a planning authority's record stating otherwise
+  anchor:
+    type: primary_text
+    description: >-
+      State Comptroller Special Report, April 2024, English abstract, stored extract. Read: "Prime Minister Benjamin
+      Netanyahu assumed office in December 2022. Shortly after assuming office, the Security Department at the Prime
+      Minister's Office requested the placement of security measures adjacent to his private residence in Caesarea.
+      It was found that some of the security measures installed around the private residence in Caesarea between
+      2003 and 2019 were placed unlawfully. During the audit, the Prime Minister's Office began working to obtain
+      approval from the relevant authorities to install these measures.". In the same section the report says of
+      the Ra'anana residence (Prime Minister Bennett) that "permanent security measures were installed at the residence
+      in Ra'anana in a manner that did not comply with planning and building laws" and of the Tel Aviv residence
+      (Prime Minister Lapid) that the Comptroller "commends the Prime Minister's Office for obtaining the necessary
+      legal permits in advance".
+    sources:
+    - src-mev-pm-residences-2024
+    accessible: true
+  basis: >-
+    # V: abstract read. Reported as the Comptroller's finding about measures installed by the Prime Minister's Office
+    between 2003 and 2019; the report does not say who ordered them. The statements about the other two residences
+    are shown beside it to the same standard.
+- id: np-fin-balfour-and-caesarea-planning
+  state: established
+  statement: >-
+    The State Comptroller's report of April 2024 states that, for the renovation of the official residence on Balfour
+    Street, the Prime Minister's Office had issued an order of about NIS 37.3 million, of which about NIS 3.4 million
+    (9%) had been used by February 2024; that the total expenditure on products bought in 2018 and 2019 for the
+    Balfour renovation that expired or were destroyed, with storage and cancellation costs, was NIS 15.8 million;
+    and that the cost estimate of the renovation moved from NIS 54 million to about NIS 123 million after security
+    specifications were added and was then reduced to about NIS 50 million.
+  evidence_class: primary_text
+  confidence: high
+  statement_kind: reported
+  evidential_weight: 4
+  anchor_checked: primary
+  adoption_weight: 3
+  adoption_note: >-
+    Not measured. The field is required by the validator; for a record fact no poll or count of believers is used,
+    so 3 is a stated placeholder (open decision for the owner).
+  would_change_if: the full Hebrew report or the Prime Minister's Office response giving different figures
+  anchor:
+    type: primary_text
+    description: >-
+      State Comptroller Special Report, April 2024, English abstract, stored extract. Read: "the office issued an
+      order of about NIS 37.3 million for the project, of which only about NIS 3.4 million (9%) had been utilized";
+      "Thus, the total expenditure on these products was NIS 15.8 million."; "the cost estimate was NIS 54 million;
+      following the addition of GSS's specifications, the cost estimate was about NIS 123 million; and finally,
+      it was reduced to about NIS 50 million".
+    sources:
+    - src-mev-pm-residences-2024
+    accessible: true
+  basis: >-
+    # V: abstract read. These are Prime Minister's Office project figures across several Prime Ministers (the project
+    began under a renovation decision of 2018); they are not attributed by the report to one person. They are included
+    because the Caesarea and Azza Street figures depend on the Balfour delay as the report describes it.
+- id: np-fin-comptroller-summary-statements
+  state: established
+  statement: >-
+    The State Comptroller's report of April 2024 includes, in its summary, the statement that its findings reflect
+    the Prime Minister's Office's "persistent weakness [...] over the past decade in deciding about the construction
+    of a new office building and the renovation of the Prime Minister's official residence and in implementing them"
+    "has led to significant expenditures on security and construction in private residences of Prime Ministers,
+    characterized by inefficiency and wasteful public spending" and that "construction in [...] private properties
+    funded by the state treasury leads to an undesirable blending of private and public interests". The report also
+    states that "decisions regarding the content of the security and construction works are generally made based
+    on professional and security requirements" and, of the adaptation of buildings, "without systematically addressing
+    economic considerations for cost savings".
+  evidence_class: primary_text
+  confidence: high
+  statement_kind: reported
+  evidential_weight: 4
+  anchor_checked: primary
+  adoption_weight: 3
+  adoption_note: >-
+    Not measured. The field is required by the validator; for a record fact no poll or count of believers is used,
+    so 3 is a stated placeholder (open decision for the owner).
+  would_change_if: the full report, the Prime Minister's Office response or a later audit stating otherwise
+  anchor:
+    type: primary_text
+    description: >-
+      State Comptroller Special Report, April 2024, English abstract, 'Summary' section (pages 19 and 20) in the
+      stored extract. Read: "the findings of this report reflect a persistent weakness in the Prime Minister's Office
+      over the past decade in deciding about the construction of a new office building and the renovation of the
+      Prime Minister's official residence and in implementing them; this weakness has led to significant expenditures
+      on security and construction in private residences of Prime Ministers, characterized by inefficiency and wasteful
+      public spending; construction in [...] private properties funded by the state treasury leads to an undesirable
+      blending of private and public interests."; "decisions regarding the content of the security and construction
+      works are generally made based on professional and security requirements"; "without systematically addressing
+      economic considerations for cost savings".
+    sources:
+    - src-mev-pm-residences-2024
+    accessible: true
+  basis: >-
+    # V: abstract read. These are the Comptroller's evaluative words about the Prime Minister's Office and about
+    the arrangement across Prime Ministers; they are quoted as the Comptroller's, attributed to the Office and to
+    Prime Ministers collectively, and not to any named person. The Prime Minister's Office's responses to the audit
+    are not in the abstract. A page of this kind carries no assessment of its own; where the Comptroller commends
+    (Tel Aviv permits) that is recorded in np-fin-caesarea-security-measures-unlawful.
+- id: np-gap-knesset-records
+  state: searched_gap
+  statement: >-
+    No Knesset record was read: not the member page, the dates of his terms as a member and as Prime Minister, the
+    plenum records of each government's presentation and swearing-in, nor any vote of the Knesset in which he took
+    part. The Knesset's web hosts returned a maintenance page to this environment on 16 October 2026.
+  evidence_class: primary_text
+  confidence: provisional
+  statement_kind: search_result
+  evidential_weight: 1
+  anchor_checked: 'no'
+  adoption_weight: 3
+  adoption_note: >-
+    Not measured. The field is required by the validator; for a record fact no poll or count of believers is used,
+    so 3 is a stated placeholder (open decision for the owner).
+  would_change_if: >-
+    the Knesset's pages becoming reachable and showing records that differ from, or add to, the secondary and official
+    sources used elsewhere on this page
+  absence_anchor: true
+  next_step: >-
+    Retry the Knesset member page, the government pages (including the coalition agreements page the State Comptroller
+    cites) and the plenum records from a network that is not refused; record the dates of each term from the Knesset's
+    own pages; do not use a secondary list for dates.
+  anchor:
+    type: search-record
+    description: >-
+      Tried on 2026-10-16: main.knesset.gov.il (member page MKID 30; /en), www.knesset.gov.il/govt/eng/GovtEng.asp,
+      data.knesset.gov.il (no connection). Each Knesset page returned HTTP 200 with the same body, titled as a maintenance
+      page (www.knesset.gov.il/maintenance-page-geo; SHA-256 67e46665bf51696b35e499315c3f15c54efbc972b0e6a0a4ce9b8dba7758be77,
+      the same hash recorded by an earlier uncommitted draft (not in the repository) on 2026-10-15). web.archive.org:
+      no connection through the proxy. The Knesset's open-data site data.knesset.gov.il did not connect. No Knesset
+      content was received. oknesset.org (a volunteer-run republication of Knesset data) was reachable and was not
+      used, because it is neither the Knesset's own record nor in English.
+    sources: []
+    accessible: false
+  basis: >-
+    A coverage fact, not a finding about the Knesset or the person. Held at provisional because the support is 'nothing
+    was received'. Parliamentary votes where documented: none were documented in anything read.
+- id: np-gap-israeli-court-records
+  state: searched_gap
+  statement: >-
+    No record of any Israeli court or of the Attorney General's office was read for the criminal case against him:
+    not the Attorney General's announcements, the indictment, the charge sheet, the trial record or any ruling.
+    The courts' and the Ministry of Justice's hosts returned a block or an error to this environment on 16 October
+    2026. Two Supreme Court proceedings are known here only by name through other pages: HCJ 2592/20 (decided 6
+    May 2020, named in a Cardozo Law summary page) and HCJ 3823/22 Netanyahu v. Attorney General (17 July 2023,
+    cited inside a translated opinion).
+  evidence_class: primary_text
+  confidence: provisional
+  statement_kind: search_result
+  evidential_weight: 1
+  anchor_checked: 'no'
+  adoption_weight: 3
+  adoption_note: >-
+    Not measured. The field is required by the validator; for a record fact no poll or count of believers is used,
+    so 3 is a stated placeholder (open decision for the owner).
+  would_change_if: >-
+    the courts' or the ministry's records becoming reachable; their contents would then be stated as each document
+    states them, with issuer and date
+  absence_anchor: true
+  next_step: >-
+    Read, from a network that is not refused, the Attorney General's announcements of 28 February 2019 and 21 November
+    2019, the indictment (in the Ministry of Justice's English translation if published), the District Court's published
+    decisions in the criminal case, the Supreme Court's judgments of 6 May 2020 (HCJ 2592/20) and 17 July 2023 (HCJ
+    3823/22), and any published record of the pardon application; state for each the issuer, the date and what it
+    decides.
+  anchor:
+    type: search-record
+    description: >-
+      Tried on 2026-10-16: www.gov.il/en and www.gov.il/en/pages/spoke-hague200524 (HTTP 403); www.pmo.gov.il and
+      www.justice.gov.il (redirect to gov.il, 403); www.court.gov.il/ENG/Pages/default.aspx (404); elyon1.court.gov.il/eng/home/index.html
+      (HTTP 200 with a 2,203-byte page whose Hebrew heading the builder reads as 'unauthorized activity detected',
+      a block page rather than court content); supreme.court.gov.il and supremedecisions.court.gov.il (no connection
+      / empty reply; the latter is the host a web search returned for the Court's English decisions); www.nevo.co.il
+      (403). Reached instead: the Cardozo Law Israeli Supreme Court Project (versa.cardozo.yu.edu), which hosts
+      unofficial translations of selected judgments; a search of that site for 'Netanyahu' found translated opinions
+      in which he is a named respondent (read: HCJ 3132/15, see np-court-hcj-3132-15) and pages that mention the
+      2020 and 2023 proceedings without reproducing the judgments. A Cardozo page 'Summary of cases from the Israeli
+      Supreme Court, 2019-2020' (read in outline, not stored) lists HCJ 2592/20 of 6 May 2020 as dismissing petitions
+      that challenged the appointment of Benjamin Netanyahu to form a government and the coalition agreement between
+      the Likud and Blue and White; that page is a project summary, not the judgment.
+    sources: []
+    accessible: false
+  basis: >-
+    A coverage fact. It must not be read as the absence of any proceeding: nothing was read either way. The only
+    descriptions of the criminal case read are CRS's (np-crs-2019-02-28-ag-intent and following claims), which cite
+    newspapers. Selection rule for a later pass, written now: every public record of an Israeli court or of the
+    Attorney General that names him as a party or as the subject of a decision, whatever its content.
+- id: np-gap-earlier-elections
+  state: searched_gap
+  statement: >-
+    The Central Elections Committee's results for the 20th Knesset (2015) and earlier elections were not read, and
+    no Knesset or Official Gazette record of his earlier terms (1996 to 1999; 2009 to 2021) was read. The committee's
+    hosts for the 20th Knesset and earlier returned HTTP 403 or did not connect on 16 October 2026; the 26th Knesset
+    election has no results page.
+  evidence_class: primary_text
+  confidence: provisional
+  statement_kind: search_result
+  evidential_weight: 1
+  anchor_checked: 'no'
+  adoption_weight: 3
+  adoption_note: >-
+    Not measured. The field is required by the validator; for a record fact no poll or count of believers is used,
+    so 3 is a stated placeholder (open decision for the owner).
+  would_change_if: the committee's earlier pages becoming reachable
+  absence_anchor: true
+  next_step: >-
+    Read the committee's or the Knesset's results for the 14th to 20th Knesset (1996, 1999, 2003, 2006, 2009, 2013,
+    2015) from a network that is not refused.
+  anchor:
+    type: search-record
+    description: >-
+      Tried on 2026-10-16: votes20.bechirot.gov.il (redirects to data.gov.il, HTTP 403); votes19.bechirot.gov.il
+      and www.bechirot20.gov.il (no connection); votes26.bechirot.gov.il (HTTP 404); www.knesset.gov.il election
+      pages (maintenance page). The 21st to 25th Knesset pages were read (np-k21-list-result to np-k25-list-result).
+      His earlier terms are stated only by CRS (np-crs-offices-1996-2026).
+    sources: []
+    accessible: false
+  basis: >-
+    A coverage fact. The five elections read are the five for which the committee's results pages were reachable;
+    they were not selected for their outcomes.
+- id: np-gap-icc-later-record
+  state: searched_gap
+  statement: >-
+    No ICC record dated after 15 December 2025 was read; the Pre-Trial Chamber's ruling on the substance of Israel's
+    article 19(2) challenge after the remand of 24 April 2025, any response to Israel's request of 17/19 November
+    2025 to disqualify the Prosecutor, and the Court's records of 2026 were not located. The Court's court-record
+    database pages are served to this environment as short pages or as a bot-challenge page, so records were located
+    by title through a web search restricted to icc-cpi.int and then read from their PDFs.
+  evidence_class: primary_text
+  confidence: provisional
+  statement_kind: search_result
+  evidential_weight: 1
+  anchor_checked: 'no'
+  adoption_weight: 3
+  adoption_note: >-
+    Not measured. The field is required by the validator; for a record fact no poll or count of believers is used,
+    so 3 is a stated placeholder (open decision for the owner).
+  would_change_if: >-
+    the Court's published later decisions becoming located; they would be stated as each document states them
+  absence_anchor: true
+  next_step: >-
+    List all public filings and decisions in ICC-01/18 dated after 15 December 2025 from the Court Records database,
+    including the Pre-Trial Chamber's ruling on remand and any decision on ICC-01/18-471, and state for each the
+    issuer, the date and what it decides.
+  anchor:
+    type: search-record
+    description: >-
+      Tried on 2026-10-16: www.icc-cpi.int/court-record/icc-01/18-374 (HTTP 200, a 4,733-byte page without the record);
+      PDF links under /sites/default/files/CourtRecords/ sometimes returned a 12.7 KB HTML bot-challenge page instead
+      of the PDF and succeeded on retry (0902ebd180a0ebd8.pdf, 0902ebd180b7a918.pdf); no way to list ICC-01/18 filings
+      by date was found. A web search restricted to icc-cpi.int for 2026 ICC-01/18 decisions returned no record
+      dated after 15 December 2025 (it returned the Court's 11 May 2026 factsheet 'The Court Today', which was not
+      opened). The situation page (src-icc-situation) lists no item after 21 November 2024.
+    sources: []
+    accessible: false
+  basis: >-
+    A coverage fact. A web search is a way to find documents, not a search of the Court's records; nothing is inferred
+    from not finding a later decision.
+- id: np-gap-statements-coverage
+  state: searched_gap
+  statement: >-
+    His own recorded statements are covered only for two sets: the four addresses to joint meetings of the U.S.
+    Congress (1996, 2011, 2015, 2024) and the eleven General Assembly general-debate addresses plus one pre-recorded
+    statement (2009, 2011 to 2018, 2020, 2023, 2024) that were located in the UN verbatim records. In the General
+    Assembly records scanned for sessions 64 to 80 no speech by Mr. Netanyahu was found for 2010 or 2019, and the
+    records for the 2025 general debate (A/80/PV.5 to PV.17) were not retrievable. Statements to the Knesset, to
+    his Cabinet, at press conferences and in court were not read.
+  evidence_class: primary_text
+  confidence: provisional
+  statement_kind: search_result
+  evidential_weight: 1
+  anchor_checked: 'no'
+  adoption_weight: 3
+  adoption_note: >-
+    Not measured. The field is required by the validator; for a record fact no poll or count of believers is used,
+    so 3 is a stated placeholder (open decision for the owner).
+  would_change_if: >-
+    the missing General Assembly records becoming retrievable, or other official transcripts being read
+  absence_anchor: true
+  next_step: >-
+    Retrieve A/80/PV.5 to PV.17 (general debate of September 2025) and read the Israeli statement; read the Government
+    Press Office and Prime Minister's Office archives of his statements, the Knesset plenum records of his speeches,
+    and the Daily Compilation of Presidential Documents for joint appearances.
+  anchor:
+    type: search-record
+    description: >-
+      UN documents scanned on 2026-10-16 through documents.un.org (A/{session}/PV.{n}, n = 3 to 40, sessions 64
+      to 80), searching the text for the speaker tag 'Netanyahu (Israel)'. Found in A/64, 66, 67, 68, 69, 70, 71,
+      72, 73, 75 (as annex XV), 78 and 79. Not found in A/65 (2010), A/74 (2019; the record A/74/PV.13 mentions
+      'Mr. Netanyahu’s absence from the general debate' in another delegation's words), A/76 and A/77. For A/80
+      the system returned an HTML viewer page of about 1.3 KB instead of a PDF for PV.5 to PV.17 and from PV.19
+      on (PV.3, PV.4 and PV.18 were PDFs). gadebate.un.org returned HTTP 405 and www.un.org HTTP 403. The Knesset
+      (maintenance page), gov.il (403) and the Government Press Office (403) were not reachable. White House and
+      other transcripts were not searched.
+    sources: []
+    accessible: false
+  basis: >-
+    A coverage fact. The scan is a text search of the records and is not a claim that he did not speak elsewhere
+    or in other years. The 2010 and 2019 non-findings are of speeches in the General Debate records only.
+- id: np-gap-financial-disclosures
+  state: searched_gap
+  statement: >-
+    No declaration of assets, tax record, party-financing audit or court-record figure of his personal or political
+    finances was read. Not found in any English primary document reached: his declared assets or income; amounts
+    alleged in the indictment; the State Comptroller's party-financing reports on the Likud or on primaries; the
+    Permits Committee's published decisions concerning him; and any report of funding of legal expenses. The only
+    financial figures read are public expenditure on Prime Ministers' residences (np-fin-residences-netanyahu and
+    following), which are not his personal finances.
+  evidence_class: primary_text
+  confidence: provisional
+  statement_kind: search_result
+  evidential_weight: 1
+  anchor_checked: 'no'
+  adoption_weight: 3
+  adoption_note: >-
+    Not measured. The field is required by the validator; for a record fact no poll or count of believers is used,
+    so 3 is a stated placeholder (open decision for the owner).
+  would_change_if: any of those documents becoming reachable or being located in English
+  absence_anchor: true
+  next_step: >-
+    Read, in Hebrew if needed with a Hebrew reader, the State Comptroller's reports on party and primary financing
+    for the Likud and the Permits Committee's decisions; read the indictment's financial figures from the Ministry
+    of Justice or the court; read the Knesset's published register of members' interests and any asset declaration
+    the law makes public.
+  anchor:
+    type: search-record
+    description: >-
+      Tried on 2026-10-16: the State Comptroller's English site (mevaker.gov.il/en, reachable) describes the Comptroller's
+      audit of party and primary financing and a Permits Committee for ministers, but lists no report on him; its
+      digital library (library.mevaker.gov.il) is a search application whose REST interface returned HTTP 401/500
+      to a direct query, so reports were located by a web search restricted to that host, which returned the April
+      2024 report read here and a 2020 report on the Prime Minister's Office's administration (Annual Report 70B,
+      abstract read for the Office's budget and procurement; not about him personally). A text search for the word
+      'Netanyahu' in eleven other English-language State Comptroller report files (2020 to 2026) found it only in
+      the May 2026 report on government structure. Financial-disclosure registers of the Knesset are on a Knesset
+      host that returned a maintenance page; the Israel Tax Authority, the Israel Securities Authority and court
+      dockets were not searched for records naming him.
+    sources: []
+    accessible: false
+  basis: >-
+    A coverage fact, not a finding that no such records exist or that anything is concealed. Absence of a record
+    in the places reached is capped at provisional.

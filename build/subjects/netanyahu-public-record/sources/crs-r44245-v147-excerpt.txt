@@ -1,0 +1,188 @@
+# pdftotext -layout excerpt of CRS Report R44245 (version 147). Only the excerpt below and the head of the document are stored; the full PDF hash is in the manifest.
+
+[HEAD OF DOCUMENT]
+Israel: Major Issues and U.S. Relations
+
+Updated July 2, 2026
+
+
+
+
+                                Congressional Research Service
+                                 https://crsreports.congress.gov
+                                                        R44245
+
+                                                                                                                  SUMMARY
+
+                                                                                                             R44245
+Israel: Major Issues and U.S. Relations
+                                                                                                          July 2, 2026
+The United States and Israel have cooperated closely for decades, reflecting assessments across
+several Administrations and Congresses that the countries share a number of strategic interests,          Jim Zanotti
+including in countering mutual threats from other regional states and militant groups. Large-scale        Specialist in Middle
+U.S. assistance, as approved by Congress (generally more than $3.8 billion annually), has helped          Eastern Affairs
+Israel develop conventional military capabilities and industrial capacities that have bolstered its
+advantages against Middle Eastern adversaries such as Iran and groups that Iran supports.
+The October 7, 2023 attacks against Israel, led by the Iran-backed Palestinian militant group             For a copy of the full report,
+                                                                                                          please call 7-5700 or visit
+Hamas, triggered massive Israeli counter assaults into Gaza and a two-year war. With Israel’s
+                                                                                                          www.crs.gov.
+leaders identifying threats from various Iran-supported adversaries to Israel’s territory and
+population, they have subsequently sought to (1) degrade threats near Israel’s borders; (2) create
+buffer zones beyond those borders in the Gaza Strip, Lebanon, and Syria; and (3) conduct direct, assertive military operations
+against Iran in close coordination with the United States. Israel has scored major operational successes against Iran and its
+“axis of resistance,” while suffering some casualties and damage from counterattacks, and facing some strain on its fighting
+capacity, material resources, and popular morale.
+Amid ongoing debate in the United States over the impact of Israel’s approach on U.S. interests, some Members of Congress
+have increased scrutiny of U.S. aid and arms sales to Israel. In 2025, the Trump Administration formally notified Congress of
+possible arms sales for Israel worth more than $12 billion, and to date in 2026 has reportedly notified Congress of additional
+potential sales of more than $7 billion. Senator Bernie Sanders has introduced joint resolutions of disapproval against
+multiple sales, with none succeeding to date, but one in 2026 garnering support from 40 Senators. U.S. and Israeli officials
+may be discussing potential shifts after FY2028 away from direct U.S. military aid to Israel and more toward joint programs.
+Since February 2026, U.S./Israel-Iran conflict has significantly affected regional security and global commerce, and may
+reshape future relationships between Israel and other U.S. partners in the Middle East. Prior to the October 2023 attacks, the
+
+[EXCERPT]
+Prime Minister Netanyahu (b. 1949) and his Likud party have led Israel almost continually since
+2009, other than a brief period from 2021 to 2022 when Netanyahu was displaced by an
+opposition coalition led by Naftali Bennett (a right-of-center political figure and erstwhile
+Netanyahu ally) and Yair Lapid (a centrist figure and the current opposition leader).63 Bennett,
+Lapid, and other leaders—including popular retired general Gadi Eisenkot—are set to challenge
+Netanyahu in elections to Israel’s Knesset (parliament) that are scheduled to take place no later
+than October 2026 (see profiles of main Israeli political parties and their leaders in Appendix B).
+
+55 European Commission, “Commission Proposes Suspension of Trade Concessions with Israel and Sanctions on
+
+Extremist Ministers of the Israeli Government and Violent Settlers,” September 16, 2025.
+56 Tim Ross, “War in Gaza Exposes Europe’s Tortured Soul,” Politico Europe, September 17, 2025.
+
+57 For background on international recognition of Palestinian statehood, see CRS Report RL34074, The Palestinians:
+
+Background and U.S. Relations, by Jim Zanotti.
+58 UN document, A/80/L.1/Rev.1, adopted September 12, 2025. Before and after October 2023, the General Assembly
+
+has regularly adopted multiple resolutions by large margins each year that generally support the Palestinians’ views on
+self-determination and criticisms of Israel. The New York Declaration (available at https://onu.delegfrance.org/new-
+york-declaration) was agreed to at the UN High-level International Conference for the Peaceful Settlement of the
+Question of Palestine and the Implementation of the Two-State Solution, held from July 28 to 30, 2025, and co-chaired
+by France and Saudi Arabia. Among other things, the declaration called for the “realization of an independent,
+sovereign, economically viable and democratic State of Palestine living side by side, in peace and security with Israel,
+thus enabling full regional integration and mutual recognition.” For more information, see https://www.un.org/unispal/
+high-level-conference-two-state-solution-july2025/.
+59 U.S. Mission to the UN, “Explanation of Vote on the UNGA Resolution Endorsing the New York Declaration on the
+
+Peaceful Settlement of the Question of Palestine and the Implementation of the Two-State Solution,” September 12,
+2025.
+60 Text of September 19, 2025, letter from 25 Members of Congress at https://files.constantcontact.com/81b76c35801/
+
+9888fb71-232f-4c60-863d-292731f12546.pdf?rdr=true.
+61 Israeli Prime Minister’s Office, “Statement by PM Netanyahu,” September 21, 2025.
+
+62 The Knesset, “Knesset Plenum Votes in Favor of Declaration Stating That Parliament Opposes the Establishment of
+
+a Palestinian State,” July 18, 2024.
+63 Netanyahu also served as prime minister from 1996 to 1999.
+
+
+
+
+Congressional Research Service                                                                                          8
+                                                                           Israel: Major Issues and U.S. Relations
+
+
+
+
+Netanyahu or the Knesset could call for elections to take place as early as September. In April
+2026, Bennett and Lapid announced that they would contest this year’s elections together in a
+new party known as Beyachad (Together). As of June, polls signal that Eisenkot’s Yashar
+(Upright) party could eclipse Beyachad as the top challenger to Netanyahu and Likud.64
+Opposition to Netanyahu from figures who share some of Netanyahu’s right-of-center political
+views increased after various corruption allegations emerged against Netanyahu in the late
+2010s—he was indicted in 2019 for fraud, breach of trust, and accepting a bribe, and his criminal
+trial remains ongoing.65
+Netanyahu’s current government (see Table 1), which took office in late 2022, features two ultra-
+nationalist figures who openly support Israeli annexation of at least some West Bank areas:
+Finance Minister Bezalel Smotrich and National Security Minister Itamar Ben Gvir. Some
+observers have argued that Smotrich’s and Ben Gvir’s views are influential on Palestinian issues
+because Netanyahu may depend on their support to preserve his coalition.66 Smotrich has a
+second position within the defense ministry that has allowed him to quicken the pace of Israeli
+settlement planning and construction in the West Bank, and he has taken corresponding actions
+aimed at further legitimizing Israeli civilian control in the West Bank at the expense of the
+Palestinian Authority.67 Ben Gvir has used his control over Israel’s police and other internal
+security to make appointments to key positions that seemingly diminish checks on extremist
+settlers in the West Bank, and increasingly permit Jewish prayer at Jerusalem’s Temple
+Mount/Haram al Sharif—despite Israel’s formal commitment to a “status quo” dating to at least
+the 19th century intended to prevent non-Muslim worship there.68
+
+                              Table 1. Israeli Government: Key Positions
+ Position                                                   Name                              Party
+
+ Prime Minister                                             Benjamin Netanyahu                Likud
+ Defense Minister                                           Israel Katz                       Likud
+ Foreign Minister                                           Gideon Sa’ar                      Likud
+ Finance Minister and Minister Within Defense Ministry      Bezalel Smotrich                  Religious Zionism
+ Deputy Prime Minister and Justice and Interior Minister    Yariv Levin                       Likud
+ National Security Minister                                 Itamar Ben Gvir                   Jewish Power
+ Transportation Minister                                    Miri Regev                        Likud
+ Energy Minister                                            Eli Cohen                         Likud
+ Agriculture and Rural Development Minister                 Avi Dichter                       Likud
+
+
+
+
+64 Mazal Mualem, “Can Political Novice Eisenkot Defeat Netanyahu in Upcoming Elections?” Al-Monitor, June 20,
+
+2026.
+65 Jeremy Sharon, “Netanyahu Wraps Up Trial Testimony After 98 Hearings Across 18 Months,” Times of Israel, June
+
+24, 2026.
+66 Gershom Gorenberg, “The Two Extremists Driving Israel’s Policy,” The Atlantic, May 30, 2025; Neri Zilber, “The
+
+Extremists Driving Netanyahu’s Approach to War with Hamas,” Financial Times, February 19, 2024.
+67 See, for example, Anat Peled, “Israel Assumes Broad New Powers in the West Bank,” Wall Street Journal, February
+
+9, 2026.
+68 “The Far Right Has Captured Israel’s Police,” Economist, July 18, 2024. For more information on the “status quo”
+
+arrangement, see CRS Report RL33476, Israel: Background and U.S. Relations, by Jim Zanotti.
+
+
+
+Congressional Research Service                                                                                    9
+                                                                             Israel: Major Issues and U.S. Relations
+
+
+
+
+Based on polling to date, it is unclear whether parties supporting Netanyahu or those opposing
+him may be likely to garner the necessary Knesset majority to form a government.69 The Bennett-
+Lapid coalition of 2021-2022 relied on support from the United Arab List (alt. Ra’am). Bennett
+and Lapid have signaled that they may not be willing to reprise such a partnership after the next
+election,70 though any such inclination may be less relevant if Eisenkot outperforms them.
+If neither Netanyahu nor parties currently opposing him can form a new government after an
+election, the following are two possibilities for government formation:
+     •    Broader coalition featuring Netanyahu’s Likud and one or more of the
+          opposition parties, some of which (as mentioned above) share right-of-center
+          positions with Likud but have opposed Netanyahu probably at least partly due to
+          the criminal charges against him; or
+     •    Caretaker government led by Netanyahu while the country would likely
+          prepare for another round of elections in early 2027. Netanyahu previously led
+          successive caretaker governments for over a year (during 2019-2020), in
+          connection with stalemates on forming a coalition after elections in April and
+          September 2019.
+In November 2025, Prime Minister Netanyahu applied to Israeli President Isaac Herzog for a
+pardon from his criminal case. During Israel’s history, presidential pardons have generally
+occurred after trial convictions, though Israel’s supreme court permitted a case of pre-trial
+pardons in the 1980s as an exceptional situation.71 President Donald Trump has repeatedly
+advocated for Netanyahu’s pardon, arguing that the trial—which could continue into 2027 or
+beyond (before any possible appeals)—distracts Netanyahu and Israel from focusing on critical
+matters for Israel’s national security and cooperation with the United States.72 According to some
+reports, Israeli President Herzog may seek first to help mediate a plea deal before considering a
+pardon.73
+Polls indicate high levels of Jewish Israeli public support for decisions to pursue military action—
+most recently in Iran and Lebanon.74 A subsequent survey in May 2026 showed a decline in
+“satisfaction with the military achievements in Iran,” and 49% of Israelis polled agreed that Israel
+“will not win or has already lost” the campaign against Iran, while 41% “believe that Israel has
+[won] or will win in Iran.”75 One poll taken after the mid-June U.S.-Iran MOU found that more
+than 80% of Israelis polled believe the conflict weakened Israel’s long-term security, and more
+than 56% rate Prime Minister Netanyahu’s management of the conflict as “failed” or “poor.”76

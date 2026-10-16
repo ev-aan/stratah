@@ -1,0 +1,599 @@
+# pdftotext -raw extract of ICC court record ICC-01-18-423 (0902ebd180b5913e.pdf).
+
+No: ICC-01/18 OA 1/15
+Original: English No. ICC-01/18 OA
+Date: 24 April 2025
+THE APPEALS CHAMBER
+Before: Judge Tomoko Akane, Presiding
+Judge Luz del Carmen Ibáñez Carranza
+Judge Solomy Balungi Bossa
+Judge Gocha Lordkipanidze
+Judge Erdenebalsuren Damdin
+SITUATION IN THE STATE OF PALESTINE
+Public document
+Decision on the admissibility of the appeal of the State of Israel against Pre-Trial
+Chamber I’s “Decision on Israel’s request for an order to the Prosecution to give
+an Article 18(1) notice”
+ICC-01/18-423 24-04-2025 1/15 PT OA
+No: ICC-01/18 OA 2/15
+Decision to be notified in accordance with regulation 31 of the Regulations of the
+Court to:
+☒ The Office of the Prosecutor ☐ Counsel for the Defence
+☐ Legal Representatives of the Victims ☐ Legal Representatives of the Applicants
+☐ Unrepresented Victims ☐ Unrepresented Applicants
+(Participation/Reparation)
+☐ The Office of Public Counsel
+for Victims
+☐ The Office of Public Counsel
+for the Defence
+☒ States’ Representatives ☐ Amicus Curiae
+REGISTRY
+Registrar
+Mr Osvaldo Zavala Giler
+☐ Counsel Support Section
+☐ Victims and Witnesses Unit ☐ Detention Section
+☐ Victims Participation
+and Reparations Section
+☒ Other
+Pre-Trial Chamber I
+ICC-01/18-423 24-04-2025 2/15 PT OA
+No: ICC-01/18 OA 3/15
+The Appeals Chamber of the International Criminal Court,
+In the appeal of the State of Israel against the decision of Pre-Trial Chamber I entitled
+“Decision on Israel’s request for an order to the Prosecution to give an Article 18(1)
+notice” of 21 November 2024 (ICC-01/18-375),
+After deliberation,
+Renders, by majority, Judge Luz del Carmen Ibáñez Carranza and Judge Solomy
+Balungi Bossa dissenting, the following
+DECISION
+1. The appeal of the State of Israel is dismissed as inadmissible;
+2. The request of the State of Israel for suspensive effect of arrest warrants
+issued by Pre-Trial Chamber I against two Israeli nationals and “any other
+legal acts taken by the Court based thereon” is dismissed, as moot; and
+3. The request of the State of Israel for leave to reply and to reject in limine
+the Prosecutor’s submissions concerning suspensive effect is dismissed as
+moot.
+REASONS
+I. PROCEDURAL HISTORY
+1. On 3 March 2021, the Prosecutor announced the initiation of an investigation
+respecting the Situation in Palestine, with respect to “crimes within the jurisdiction of
+the Court that are alleged to have been committed in the Situation since 13 June 2014”.1
+2. On 9 March 2021, the Prosecutor provided notice, pursuant to article 18(1) of the
+Rome Statute (hereinafter: “Statute”), of the initiation of the investigation to all
+1
+Office of the Prosecutor, Statement of ICC Prosecutor, Fatou Bensouda, respecting an investigation of
+the Situation in Palestine.
+ICC-01/18-423 24-04-2025 3/15 PT OA
+No: ICC-01/18 OA 4/15
+States Parties and other States that would normally exercise jurisdiction, including the
+State of Israel (hereinafter: “Israel” and “Article 18(1) Notification”).2
+3. On 8 April 2021, Israel sent a letter to the Prosecutor indicating its “firm […]
+view that the Court manifestly lacks jurisdiction” and that Israel’s “robust legal system
+[…] has and will continue to examine and investigate rigorously all allegations of
+misconduct or crimes (hereinafter: “8 April 2021 Letter”).3
+4. On 9 April 2021, the Prosecutor sought clarification from Israel as to whether it
+intended to trigger the application of article 18(2) of the Statute (hereinafter:
+“2021 Clarification Request”).4
+5. On 26 April 2021, Israel reiterated “its principled position that the Court
+manifestly lacks jurisdiction” and indicated that it “will continue to examine and
+investigate rigorously all allegations of misconduct or crimes” (hereinafter:
+“26 April 2021 Letter”).5
+6. On 17 November 2023, five States Parties to the Statute submitted a referral,
+pursuant to articles 13(a) and 14 of the Statute.6
+Upon receipt of the referral, the
+2
+See Pre-Trial Chamber I, Decision on Israel’s request for an order to the Prosecution to give an Article
+18(1) notice, 21 November 2024, ICC-01/18-375, para. 10 referring to annex ICC-01/18-355-SECRET-
+Exp-AnxB. See also Annex A to Prosecution response to Israel’s “Appeal of ‘Decision on Israel’s request
+for an order to the Prosecution to give an article 18(1) notice’ (ICC-01/18-375)”, 13 January 2025, ICC-
+01/18-407-Conf-AnxA. In the notice, the Prosecutor indicated that she had “initiated an investigation
+with respect to alleged crimes within the jurisdiction of the Court committed in the Situation in Palestine
+since 13 June 2014”. The Prosecutor noted that, as a result of her office’s preliminary examination and
+based on the information available, she had “determined that there is a reasonable basis to believe that
+war crimes were committed in the context of the 2014 hostilities in Gaza” and “further considers that the
+scope of the investigation encompasses allegations of crimes committed by members of the IDF through
+the use of non-lethal and lethal means against persons participating in demonstrations beginning in
+March 2018 near the border fence between the Gaza Strip and Israel”. Nevertheless, the Prosecutor
+underlined that “the above events and their provisional legal qualifications, which have been identified
+by [her] Office for the threshold-setting purpose of opening an investigation, are without prejudice to the
+future scope of a subsequent investigation, which may encompass any alleged crimes within the scope
+of the situation”. The Appeals Chamber notes that this information is contained in a confidential
+document, but it considers that the aforementioned excerpt does not undermine this classification.
+3
+See Impugned Decision, para. 10 referring to annex ICC-01/18-355-SECRET-Exp-AnxC.
+4
+See Impugned Decision, para. 10 referring to annex ICC-01/18-355-SECRET-Exp-AnxD.
+5
+See Impugned Decision, para. 10 referring to annex ICC-01/18-355-SECRET-Exp-AnxE.
+6
+States Parties referral of 17 November 2023. The referral, submitted by the Republic of South Africa,
+the People’s Republic of Bangladesh, the Plurinational State of Bolivia, the Union of the Comoros, and
+the Republic of Djibouti, requested the Prosecutor to “vigorously investigate crimes under the
+jurisdiction of the Court allegedly committed within the context of the Situation in Palestine”, including
+“evidence of continuing commission of the crimes” detailed in the referral by Palestine in 2018 and
+additional crimes that appeared to have been committed in “recent weeks”, including genocide, crimes
+against humanity, and war crimes.
+ICC-01/18-423 24-04-2025 4/15 PT OA
+No: ICC-01/18 OA 5/15
+Prosecutor confirmed that he was presently conducting an investigation in the Situation
+in Palestine.7
+7. On 18 January 2024, two States Parties to the Statute submitted an additional
+referral pursuant to article 14(1) of the Statute.8
+8. On 1 May 2024, Israel sent a letter to the Prosecutor (hereinafter:
+“Deferral Request”), thereby requesting him to “defer any investigation it may be
+conducting in relation to any alleged criminal acts attributed to Israeli nationals or
+others within Israel’s jurisdiction, in favour of Israel’s processes for review,
+examination, investigation and proceedings under its national legal system”.9
+9. On 7 May 2024, the Prosecutor responded to the Deferral Request, thereby
+indicating that, having “expressly declined to make an application for deferral of the
+investigation within the prescribed time limit”, Israel has “no standing now, under the
+Statute, to make such an application”.10
+10. On 20 May 2024, the Prosecutor publicly announced that he would be filing
+applications for warrants of arrest against, among others, Israeli nationals for their
+alleged responsibility for “war crimes and crimes against humanity committed on the
+territory of the State of Palestine (in the Gaza strip) from at least 8 October 2023”.11
+7
+Office of the Prosecutor, Statement of the Prosecutor of the International Criminal Court, Karim A.A.
+Khan KC, on the Situation in the State of Palestine: receipt of a referral from five States Parties. The
+Prosecutor noted that the investigation commenced on 3 March 2021 and encompassed crimes
+committed since 13 June 2014, which remains ongoing, and “extends to the escalation of hostilities and
+violence since the attacks that took place on 7 October 2023”.
+8
+States Parties referral of 18 January 2024. The referral, submitted by the Republic of Chile and the
+United Mexican States, sought to “draw further attention of the Office of the Prosecutor to the situation
+in the State Palestine”, underlining that they were “gravely concerned at the latest escalation of violence,
+including against civilians, and the alleged ongoing commission of crimes under the jurisdiction of the
+Court, not limited to, but particularly, starting with the attack of 7 October 2023 […] and the subsequent
+hostilities in occupied Palestinian Territory […]”.
+9
+See Impugned Decision, para. 10 referring to annex ICC-01/18-355-SECRET-Exp-AnxF. See also
+Annex B to Prosecution response to Israel’s “Appeal of ‘Decision on Israel’s request for an order to the
+Prosecution to give an article 18(1) notice’ (ICC-01/18-375)”, 13 January 2025, ICC-01/18-407-Conf-
+AnxB. In this letter, Israel referred to various requests for assistance transmitted by the Prosecutor
+between February and April 2024, which indicated that the investigation opened in 2021 “encompasses
+events on and after 7 October 2023, including alleged crimes committed on Israeli territory by Palestinian
+nationals” and “crimes allegedly committed in Gaza by Israeli armed forces from 7 October 2023”.
+The Appeals Chamber notes that this information is contained in a confidential document, but it considers
+that the aforementioned excerpt does not undermine this classification.
+10
+See Impugned Decision, para. 10 referring to annex ICC-01/18-355-SECRET-Exp-AnxG, see also
+ICC-01/18-407-Conf-AnxB, pp. 9-10.
+11
+Office of the Prosecutor, Statement of ICC Prosecutor Karim A.A. Khan KC: Applications for arrest
+warrants in the situation in the State of Palestine.
+ICC-01/18-423 24-04-2025 5/15 PT OA
+No: ICC-01/18 OA 6/15
+11. On 23 September 2024, Israel submitted before Pre-Trial Chamber I (hereinafter:
+“Pre-Trial Chamber”) a request seeking an order to “the Prosecutor to give an
+article 18(1) notice setting out the new defining parameters of his investigation in this
+Situation, or in any other Situation that has now been constituted as a result of the two
+referrals made by a total of seven States Parties following 7 October 2023” (hereinafter:
+“Article 18 Request”).12
+12. On 21 November 2024, the Pre-Trial Chamber issued the “Decision on Israel’s
+request for an order to the Prosecution to give an Article 18(1) notice” (hereinafter:
+“Impugned Decision”), thereby rejecting the Article 18 Request.13
+13. On 27 November 2024, Israel filed its notice of appeal against the
+Impugned Decision (hereinafter: “Notice of Appeal”).14
+Israel also requested
+suspensive effect, pending the Appeals Chamber’s resolution of the appeal and pursuant
+to article 82(3) of the Statute and rule 156(5) of the Rules of Procedure and Evidence,
+of two warrants of arrest issued by the Pre-Trial Chamber after the Impugned Decision
+and “any other legal acts taken by the Court based thereon”.15
+14. On the same day, Israel filed before the Pre-Trial Chamber a request for leave to
+appeal the Impugned Decision pursuant to article 82(1)(d) of the Statute.16
+15. On 29 November 2024, the Prosecutor submitted before the Appeals Chamber a
+request to dismiss Israel’s appeal in limine.17
+16. On 12 December 2024, the Pre-Trial Chamber issued a decision deferring “its
+consideration of Israel’s requests for leave to appeal under article 82(1)(d) of the Statute
+12
+Abridged Request for an Order Requiring an Article 18(1) Notice, and Staying Proceedings Pending
+Such a Notice, ICC-01/18-355-AnxI-Corr, para. 61.
+13
+Impugned Decision, p. 9.
+14
+Notice of Appeal of “Decision on Israel’s request for an order to the Prosecution to give an Article
+18(1) notice” (ICC-01/18-375), ICC-01/18-385.
+15
+Notice of Appeal, paras 5, 38.
+16
+Request for leave to appeal “Decision on Israel’s request for an order to the Prosecution to give an
+Article 18(1) notice, ICC-01/18-387 (hereinafter: “Request for Leave to Appeal”).
+17
+Prosecution Request to Dismiss in limine Israel’s “Notice of Appeal of ‘Decision on Israel’s request
+for an order to the Prosecution to give an Article 18(1) notice’ (ICC-0118-375)”, ICC-01/18-391
+(hereinafter: “Prosecutor’s Request”).
+ICC-01/18-423 24-04-2025 6/15 PT OA
+No: ICC-01/18 OA 7/15
+until the Appeals Chamber has pronounced itself on the admissibility of Israel’s appeals
+pursuant to article 82(1)(a) of the Statute”.18
+17. On 13 December 2024, Israel filed its appeal against the Impugned Decision
+(hereinafter: “Appeal Brief”).19
+18. On 13 January 2025, the Prosecutor filed his response to the Appeal Brief
+(hereinafter: “Prosecutor’s Response”).20
+19. On 17 January 2025, Israel submitted a request for leave to reply to the
+Prosecutor’s Response and to reject in limine the Prosecutor’s submissions concerning
+suspensive effect (hereinafter: “Request for Leave to Reply”).21
+20. On 22 January 2025, the Prosecutor responded to Israel’s Request for Leave to
+Reply, arguing that it should be rejected.22
+II. RELEVANT PARTS OF THE IMPUGNED DECISION
+21. The Pre-Trial Chamber rejected the Article 18 Request on the basis that “the
+Prosecution complied with its statutory obligations when it provided Israel and other
+States with the [Article 18(1)] Notification” and it was satisfied that the Article 18(1)
+Notification was “sufficiently specific”.23
+In the view of the Pre-Trial Chamber, the
+Article 18(1) Notification contained all relevant information for the purposes of
+article 18(2) of the Statute, namely “the types of alleged crimes, potential alleged
+perpetrators, the starting point of the relevant timeframe, as well as a reference to
+18
+Deferral of the Chamber’s consideration of two requests for leave to appeal filed by the State of Israel,
+ICC-01/18-398 (hereinafter: “Pre-Trial Chamber Deferral”), para. 6.
+19
+Appeal of “Decision on Israel’s request for an order to the Prosecution to give an Article 18(1) notice”
+(ICC-01/18-375), ICC-01/18-401, with Annex A, ICC-01/18-401-AnxA.
+20
+Prosecution response to Israel’s “Appeal of ‘Decision on Israel’s request for an order to the Prosecution
+to give an article 18(1) notice’ (ICC-01/18-375)”, ICC-01/18-407, with confidential Annexes A and B.
+21
+Request for leave to reply to Prosecution response to Israel’s “Appeal of ‘Decision on Israel’s request
+for an order to the Prosecution to give an Article 18(1) notice’ (ICC-01/18-375)” and to reject the
+Prosecution’s submissions concerning suspensive effect in limine, ICC-01/18-409.
+22
+Prosecution response to Israel’s “Request for leave to reply to Prosecution Response to Israel’s
+“Appeal of ‘Decision on Israel’s request for an order to the Prosecution to give an Article 18(1) notice’
+(ICC-01/18-375)” and to reject the Prosecution’s submissions concerning suspensive effect in limine”,
+ICC-01/18-411.
+23
+Impugned Decision, para. 11.
+ICC-01/18-423 24-04-2025 7/15 PT OA
+No: ICC-01/18 OA 8/15
+further relevant information, including the summary of the Prosecution’s preliminary
+examination findings”.24
+22. The Pre-Trial Chamber also found that, despite the 2021 Clarification Request,
+“Israel did not proceed to request a deferral under article 18(2) of the Statute” and
+“merely repeated its previous arguments”.25
+Therefore, the Pre-Trial Chamber
+concluded that the 8 April 2021 Letter and the 26 April 2021 Letter “did not constitute
+a deferral request under article 18(2) of the Statute”.26
+The Pre-Trial Chamber further
+determined that “the statutory time limit [of one month] had passed in April 2021
+without Israel having requested a deferral under article 18(2) of the Statute”.27
+23. In addition, the Pre-Trial Chamber underlined that the filing by Israel of the
+Article 18 Request after the Prosecutor had announced the requests for warrants of
+arrest and three years after the time limit had passed “appears to go against the very
+object and purpose of the statutory complementarity framework”.28
+The Pre-Trial
+Chamber underlined that the time limit of article 18(2) of the Statute is “to allow for
+complementarity-related admissibility challenges to be brought at the initial stage of
+the investigation and not at a point in time when the investigation has substantially
+advanced”.29
+24. The Pre-Trial Chamber also indicated that it was not persuaded by Israel’s
+argument that “a new situation” or an “investigation with new ‘defining parameters’”
+had arisen.30
+It noted that the Article 18(1) Notification “indicated that the investigation
+concerned alleged crimes in the context of an international armed conflict, Israel’s
+alleged conduct in the context of an occupation, and a non-international armed conflict
+between Hamas and Israel”.31
+The Pre-Trial Chamber concluded that no substantial
+change to the parameters of the investigation requiring new notification had occurred,
+as the Prosecutor now “alleges conduct committed in the context of the same type of
+24
+Impugned Decision, para. 11.
+25
+Impugned Decision, para. 12 (emphasis in original).
+26
+Impugned Decision, para. 12.
+27
+Impugned Decision, para. 13.
+28
+Impugned Decision, para. 14.
+29
+Impugned Decision, para. 14.
+30
+Impugned Decision, para. 15.
+31
+Impugned Decision, para. 15.
+ICC-01/18-423 24-04-2025 8/15 PT OA
+No: ICC-01/18 OA 9/15
+armed conflicts, concerning the same territories, with the same alleged parties to these
+conflicts”.32
+25. Lastly, the Pre-Trial Chamber noted that its conclusions “do not impact, in any
+way, on the ability of States, including Israel, to raise issues of admissibility for cases”
+under article 19(2)(b) of the Statute “on the ground that it is investigating or prosecuting
+or has investigated or prosecuted’ the respective case”.33
+III. ADMISSIBILITY OF THE APPEAL
+A. Summary of the submissions
+26. In its Notice of Appeal, Israel argues that the admissibility of an appeal pursuant
+to article 82(1)(a) of the Statute is not limited to decisions based on article 18(2) of the
+Statute.34
+Israel further submits that the Impugned Decision pertains directly to a
+question of admissibility because its operative part rejects Israel’s request for an order
+to the Prosecutor to give a new notice pursuant to article 18(1) of the Statute.35
+In the
+view of Israel, the Impugned Decision’s determination that there has not been a lack of
+compliance with article 18(1) of the Statute – that would render the Prosecutor’s
+investigations, including the warrants of arrest arising therefrom, inadmissible – is, by
+its very nature, a decision with respect to admissibility.36
+27. Israel further contends that the possibility that other decisions concerning
+admissibility may be issued in the course of the proceedings does not diminish the
+character of the Impugned Decision as a decision with respect to admissibility.37
+Lastly, it submits that the Impugned Decision has not been rendered moot by the
+issuance of warrants of arrest because such warrants were issued only after rejecting
+Israel’s request for a new notice under article 18(1) of the Statute.38
+28. The Prosecutor avers that Israel’s appeal should be dismissed in limine, as the
+Impugned Decision is not a decision “with respect to […] admissibility”, and thus not
+32
+Impugned Decision, para. 15.
+33
+Impugned Decision, para. 16.
+34
+Notice of Appeal, paras 21-23.
+35
+Notice of Appeal, para. 24.
+36
+Notice of Appeal, para. 24.
+37
+Notice of Appeal, para. 25.
+38
+Notice of Appeal, para. 26.
+ICC-01/18-423 24-04-2025 9/15 PT OA
+No: ICC-01/18 OA 10/15
+directly appealable under article 82(1)(a) of the Statute.39
+The Prosecutor further
+submits that the Pre-Trial Chamber did not and could not assess the admissibility of
+potential cases because Israel had not requested a deferral under article 18(2) of the
+Statute.40
+B. Determination by the Appeals Chamber
+29. Article 82 of the Statute, in its relevant parts, provides as follows:
+1. Either party may appeal any of the following decisions in accordance with the
+Rules of Procedure and Evidence:
+(a) A decision with respect to jurisdiction or admissibility;
+[…]
+30. The issue of what constitutes “a decision with respect to jurisdiction or
+admissibility”, within the meaning of article 82(1)(a) of the Statute, has been addressed
+by the Appeals Chamber on numerous occasions. In 2011, in the Kenya Situation, the
+Appeals Chamber stated:
+15. Article 82 (1) (a) of the Statute provides that either party may appeal “a
+decision with respect to jurisdiction or admissibility”. The Appeals Chamber
+understands from the phrase “decision with respect to” that the operative part of
+the decision itself must pertain directly to a question on the jurisdiction of the
+Court or the admissibility of a case. It is not sufficient that there is an indirect or
+tangential link between the underlying decision and questions of jurisdiction or
+admissibility. As previously held by the Appeals Chamber, a decision of a Pre-
+Trial or Trial Chamber may constitute a “decision with respect to [...]
+admissibility” only to the extent that it consisted of or “was based on” a ruling
+that a case was admissible or inadmissible. The French version of
+article 82 (1) (a) of the Statute confirms this interpretation as it provides that a
+party may only appeal a “[d]écision sur la compétence ou la recevabilité”.
+16. The Appeals Chamber’s reading of the plain meaning of article 82 (1) (a) of
+the Statute is also confirmed by its relationship with other provisions of the
+Statute. Article 82 (1) (a) of the Statute must be read in conjunction with
+articles 18 and 19 of the Statute. Article 18 (4) of the Statute provides that the
+State concerned or the Prosecutor may appeal to the Appeals Chamber against a
+preliminary ruling of the Pre-Trial Chamber regarding admissibility in
+accordance with article 82 of the Statute. Article 19 of the Statute provides that
+the Court may decide on the admissibility of a case either on its own motion, on
+request of the Prosecutor or in response to a challenge brought by certain
+specified persons or States. Article 19 (6) of the Statute provides that “[d]ecisions
+with respect to jurisdiction or admissibility may be appealed to the
+39
+Prosecutor’s Request, paras 2-3.
+40
+Prosecutor’s Request, para. 6.
+ICC-01/18-423 24-04-2025 10/15 PT OA
+No: ICC-01/18 OA 11/15
+Appeals Chamber in accordance with article 82”. In the view of the
+Appeals Chamber, the specific references to article 82 of the Statute and the use
+of identical language in articles 19 (6) and 82 (1) (a) of the Statute indicate that
+the right to appeal a decision on jurisdiction or admissibility is intended to be
+limited only to those instances in which a Pre-Trial or Trial Chamber issues a
+ruling specifically on the jurisdiction of the Court or the admissibility of the case.
+17. The Appeals Chamber has also previously held with respect to appeals under
+article 82 (1) (b) of the Statute that the “effect or implications of a decision
+confirming or denying the charges do not qualify or alter the character of the
+decision”. The Appeals Chamber finds that the same logic applies to appeals
+under article 82 (1) (a) of the Statute. It is the nature, and not the ultimate effect
+or implication of a decision, that determines whether an appeal falls under
+article 82 (1) (a) of the Statute. Even if the ultimate impact of a decision of a Pre-
+Trial or Trial Chamber were to affect the admissibility of cases, that fact would
+not, in and of itself, render the decision a “decision with respect to [...]
+admissibility” under article 82 (1) (a).41
+31. Accordingly, in determining the scope of “decision[s] with respect to jurisdiction
+or admissibility”, the Appeals Chamber needs to assess the Impugned Decision in its
+context. In particular, the impugned decision must consist of or be based on a ruling on
+the jurisdiction of the Court or that a case is admissible or inadmissible.42
+In addition,
+the operative part of the decision must pertain directly to a question on the jurisdiction
+of the Court or the admissibility of a case.43
+32. The Appeals Chamber will thus assess whether, in the present case, the
+Impugned Decision satisfies the above conditions. Considering that Israel alleges that
+41
+Situation in the Republic of Kenya, Decision on the admissibility of the “Appeal of the Government of
+Kenya against the ‘Decision on the Request for Assistance Submitted on Behalf of the Government of
+the Republic of Kenya Pursuant to Article 93(10) of the Statute and Rule 194 of the Rules of Procedure
+and Evidence’”, 10 August 2011, ICC-01/09-78 (OA) (hereinafter: “Kenya OA Decision”), paras 15-17
+(footnotes omitted). See also, Situation in the Democratic Republic of the Congo, Judgment on the
+Prosecutor’s appeal against the decision of Pre-Trial Chamber I entitled “Decision on the Prosecutor’s
+Application for Warrants of Arrest, Article 58”, 13 July 2006, ICC-01/04-169 (OA) (hereinafter: “DRC
+OA Judgment”), para. 18; Situation on Registered Vessels of the Union of the Comoros, the Hellenic
+Republic and the Kingdom of Cambodia, Decision on the admissibility of the Prosecutor’s appeal against
+the “Decision on the request of the Union of the Comoros to review the Prosecutor’s decision not to
+initiate an investigation”, 6 November 2015, ICC-01/13-51 (OA) (hereinafter: “Comoros OA
+Decision”), para. 49; The Prosecutor v. Saif Al-Islam Gaddafi and Abdullah Al-Senussi, Decision on
+“Government of Libya’s Appeal Against the ‘Decision Regarding the Second Request by the
+Government of Libya for Postponement of the Surrender of Saif Al-Islam Gaddafi’” of 10 April 2012,
+25 April 2012, ICC-01/11-01/11-126 (OA2), para. 13; The Prosecutor v. Germain Katanga, Decision on
+the admissibility of the appeal against the “Decision on the application for the interim release of detained
+Witnesses DRC-D02-P0236, DRC-D02-P0228 and DRC-D02-P0350”, 20 January 2014, ICC-01/04-
+01/07-3424 (OA14), para. 33; The Prosecutor v. Ali Muhammad Ali Abd-Al-Rahman (“Ali Kushayb”),
+Decision on the admissibility of the appeal, 4 September 2020, ICC-02/05-01/20-145 (OA3), para. 7.
+42
+DRC OA Judgment, para. 18.
+43
+Kenya OA Decision, para. 15.
+ICC-01/18-423 24-04-2025 11/15 PT OA
+No: ICC-01/18 OA 12/15
+the Impugned Decision pertains directly to a question of admissibility,44
+the
+Appeals Chamber will focus its analysis on whether the decision is appealable under
+article 82(1)(a) of the Statute as a decision “with respect to […] admissibility”.
+33. The Appeals Chamber notes that, as recalled above,45
+in the Impugned Decision,
+the Pre-Trial Chamber found that Israel had not requested a deferral pursuant to
+article 18(2) of the Statute when it had the opportunity to do so.46
+The Pre-Trial
+Chamber also rejected Israel’s argument that a new situation has arisen or that an
+investigation with new defining parameters has been taking place since
+7 October 2023.47
+The Pre-Trial Chamber concluded that, in the absence of a “new
+situation” or “an investigation with new defining parameters”, the Prosecutor was under
+no obligation to provide a new notification to the relevant States pursuant to
+article 18(1) of the Statute, and as such, to provide a new one-month timeline for States
+to request deferral upon receipt of the notification.48
+In the view of the majority of the
+Appeals Chamber, Judge Luz del Carmen Ibáñez Carranza and Judge Solomy Balungi
+Bossa dissenting, when making the aforementioned findings, the Pre-Trial Chamber
+did not rule on the admissibility of any potential case under article 18 of the Statute.49
+In addition, the majority of the Appeals Chamber, Judge Luz del Carmen Ibáñez
+Carranza and Judge Solomy Balungi Bossa dissenting, notes that the operative part of
+the Impugned Decision does not pertain directly to a question on the admissibility of
+any potential case.
+34. In light of the above, the majority of the Appeals Chamber, Judge Luz del Carmen
+Ibáñez Carranza and Judge Solomy Balungi Bossa dissenting, is satisfied that the
+Impugned Decision does not consist of or is based on a ruling on the admissibility of
+any potential case under article 18 of the Statute.
+35. The Appeals Chamber further considers that two of the precedents referred to by
+Israel, which are said to support its claim that appeals under article 82(1)(a) of the
+Statute are not limited to decisions based on article 18(2) of the Statute,50
+are not of
+44
+Notice of Appeal, para. 24.
+45
+See supra para. 22 referring to Impugned Decision, paras 12-13.
+46
+Impugned Decision, para. 12.
+47
+Impugned Decision, para. 15.
+48
+Impugned Decision, para. 15.
+49
+Impugned Decision, para. 15.
+50
+Notice of Appeal, paras 21-22.
+ICC-01/18-423 24-04-2025 12/15 PT OA
+No: ICC-01/18 OA 13/15
+assistance for the purposes of the current determination, as the decisions under appeal
+in those cases were in fact based on rulings on the admissibility of a case.51
+36. In addition, the other precedent cited by Israel only reinforces the conclusions of
+the majority of the Appeals Chamber. In the 2015 decision in the Comoros situation,
+the Appeals Chamber, which dealt with the issue whether a decision requesting the
+Prosecutor to reconsider her decision not to initiate an investigation could be considered
+to be “a decision on admissibility”, found that:
+50. […] While the Impugned Decision might conceivably have an effect on the
+admissibility of potential cases arising out of the situation, in that it could
+potentially lead to the Prosecutor coming to a different conclusion in relation to
+admissibility (pursuant to article 53 (1) (b)) at the time that she reconsiders her
+initial decision not to initiate an investigation, the Impugned Decision is not by
+its nature a decision determining admissibility.
+51. The Appeals Chamber further observes that the operative part of the
+Impugned Decision did not pertain directly to a question of the admissibility of a
+case, but rather requested “the Prosecutor to reconsider the decision not to initiate
+an investigation into the situation referred to her by [a State Party]”, based upon
+the Pre-Trial Chamber’s appreciation of the facts. The Impugned Decision
+provides the reasons for the Pre-Trial Chamber’s request to the Prosecutor to
+reconsider her decision – it does not determine admissibility.52
+37. In light of the foregoing, having found that the Impugned Decision does not
+constitute a decision with respect to admissibility within the meaning of article 82(1)(a)
+of the Statute, the majority of the Appeals Chamber, Judge Luz del Carmen Ibáñez
+Carranza and Judge Solomy Balungi Bossa dissenting, dismisses the appeal as
+inadmissible.
+38. Notwithstanding the above, the majority of the Appeals Chamber notes that Israel
+has in parallel requested leave to appeal the Impugned Decision, pursuant to
+51
+In its 2006 judgment regarding the Situation in the DRC, the Appeals Chamber found that a decision
+on an application for a warrant of arrest could be qualified as a decision “with respect to admissibility”,
+considering that “the decision by the Pre-Trial Chamber to reject the Prosecutor’s application [...] was
+based on a ruling of the admissibility of the case […]. To this extent, the impugned decision is a decision
+‘with respect to [...] admissibility,’ as required by article 82 (1) (a) of the Statute”, see DRC OA
+Judgment, para. 18. Similarly, in its 2021 judgment in the Yekatom and Ngaïssona case, the Appeals
+Chamber noted that, in the decision under appeal in that case, “the Trial Chamber rejected the
+admissibility challenge proper, because it was uncontested that the authorities of the CAR were not
+investigating and/or prosecuting Mr Yekatom at the time that he filed his Admissibility Challenge”, see
+The Prosecutor v. Alfred Yekatom and Patrice-Edouard Ngaïssona, Public redacted version of ‘Judgment
+on Mr Yekatom’s appeal against Trial Chamber V’s “Decision on the Yekatom Defence’s Admissibility
+Challenge”’, 9 October 2020, ICC-01/14-01/18-678-Conf, 11 February 2021, ICC-01/14-01/18-678-Red
+(OA), para. 23.
+52
+Comoros OA Decision, paras 50-51.
+ICC-01/18-423 24-04-2025 13/15 PT OA
+No: ICC-01/18 OA 14/15
+article 82(1)(d) of the Statute, before the Pre-Trial Chamber,53
+which deferred
+consideration thereof “until the Appeals Chamber has pronounced itself on the
+admissibility of Israel’s appeals pursuant to article 82(1)(a) of the Statute”.54
+Thus, if
+and when leave to appeal is granted by the Pre-Trial Chamber, the Appeals Chamber
+will consider any issue brought before it. The majority of the Appeals Chamber further
+underlines that, in accordance with article 19(2)(b) of the Statute, as noted by the Pre-
+Trial Chamber,55
+Israel’s right to challenge the admissibility of any case remains
+unaffected. Any decision by the Pre-Trial Chamber on such admissibility challenges
+would eventually be appealable pursuant to article 82(1)(a) of the Statute.
+39. Judge Luz del Carmen Ibáñez Carranza dissents on the basis that she considers
+the appeal to be admissible. Judge Ibáñez Carranza is of the view that a decision
+granting or denying a request under article 18 of the Statute constitutes a decision with
+respect to admissibility and is directly appealable under articles 18(4) and 82(1)(a) of
+the Statute, as it pertains to a preliminary ruling on admissibility. In relation to the
+merits of the appeal, Judge Ibáñez Carranza considers that the Pre-Trial Chamber
+committed an error of law that materially affected the Impugned Decision. In her view,
+a pre-trial chamber seized of a request under article 18 of the Statute, by a State that is
+a not a party to the Court’s treaty and has not accepted the jurisdiction of the Court,
+before addressing its merits is required to: (i) define the relationship between such a
+State and the Court, as an international organisation, so as to specify the State’s legal
+standing before the Court; and (ii) establish the legal basis to apply the rights and
+obligations arising from the Statute, the treaty that created the Court, to such a State.
+For these reasons, she considers that the appropriate remedy would have been to reverse
+the Impugned Decision and to remand the matter to the Pre-Trial Chamber for a further
+determination in accordance with the applicable norms of public international law,
+before addressing Israel’s Article 18(1) Request on the merits. Given that the Pre-Trial
+Chamber failed to conduct the aforementioned analysis, Judge Ibáñez Carranza is not
+in a position to make an assessment of Israel’s grounds of appeal on the merits. Judge
+Luz del Carmen Ibáñez Carranza’s full views are annexed to the present decision.
+53
+Request for Leave to Appeal.
+54
+Pre-Trial Chamber Deferral.
+55
+Impugned Decision, para. 16.
+ICC-01/18-423 24-04-2025 14/15 PT OA
+No: ICC-01/18 OA 15/15
+40. Judge Solomy Balungi Bossa dissents to the extent that, in her view, the decision
+of the Pre-Trial Chamber on whether the Prosecutor executed his obligation to provide
+a notice pursuant to article 18(1) of the Statute is a preliminary ruling regarding
+admissibility. As such, it is directly appealable before the Appeals Chamber
+under articles 18(4) and 82(1)(a) of the Statute. As a result, the appeal should have been
+found to be admissible. Judge Solomy Balungi Bossa’s full views are annexed to the
+present decision.
+41. Regarding Israel’s request for suspensive effect,56
+the Appeals Chamber
+considers that there is no basis for granting suspensive effect when an appeal has been
+found to be inadmissible.57
+Accordingly, Israel’s request for suspensive effect has
+become moot and is therefore also dismissed.
+42. In light of the findings above, the Appeals Chamber also dismisses Israel’s
+Request for Leave to Reply as moot.
+Done in both English and French, the English version being authoritative.
+_____________________________
+Judge Tomoko Akane
+Presiding
+Dated this 24th day of April 2025
+At The Hague, The Netherlands
+56
+Notice of Appeal, paras 5, 30-38.
+57
+See The Prosecutor v. Callixte Mbarushimana, Reasons for “Decision on the appeal of the Prosecutor
+of 19 December 2011 against the ‘Decision on the confirmation of the charges’ and, in the alternative,
+against the ‘Decision on the Prosecution’s Request for stay of order to release Callixte Mbarushimana’
+and on the victims’ request for participation” of 20 December 2011, 24 January 2012, ICC-01/04-01/10-
+483 (OA3), para. 26.
+ICC-01/18-423 24-04-2025 15/15 PT OA
+

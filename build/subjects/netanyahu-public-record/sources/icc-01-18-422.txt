@@ -1,0 +1,952 @@
+# pdftotext -raw extract of ICC court record ICC-01-18-422 (0902ebd180b5913d.pdf).
+
+No: ICC-01/18 OA2 1/23
+Original: English No. ICC-01/18 OA2
+Date: 24 April 2025
+THE APPEALS CHAMBER
+Before: Judge Tomoko Akane, Presiding
+Judge Luz del Carmen Ibáñez Carranza
+Judge Solomy Balungi Bossa
+Judge Gocha Lordkipanidze
+Judge Erdenebalsuren Damdin
+SITUATION IN THE STATE OF PALESTINE
+Public document
+Judgment
+on the appeal of the State of Israel against Pre-Trial Chamber I’s “Decision on
+Israel’s challenge to the jurisdiction of the Court pursuant to article 19(2) of the
+Rome Statute”
+ICC-01/18-422 24-04-2025 1/23 PT OA2
+No: ICC-01/18 OA2 2/23
+Judgment to be notified in accordance with regulation 31 of the Regulations of the
+Court to:
+☒ The Office of the Prosecutor ☐ Counsel for the Defence
+☐ Legal Representatives of the Victims ☐ Legal Representatives of the Applicants
+☐ Unrepresented Victims ☐ Unrepresented Applicants
+(Participation/Reparation)
+☒ The Office of Public Counsel
+for Victims
+☐ The Office of Public Counsel
+for the Defence
+☒ States’ Representatives ☒ Amicus Curiae
+REGISTRY
+Registrar
+Mr Osvaldo Zavala Giler
+☐ Counsel Support Section
+☐ Victims and Witnesses Unit ☐ Detention Section
+☐ Victims Participation
+and Reparations Section
+☒ Other
+Pre-Trial Chamber I
+ICC-01/18-422 24-04-2025 2/23 PT OA2
+No: ICC-01/18 OA2 3/23
+The Appeals Chamber of the International Criminal Court,
+In the appeal of the State of Israel against the decision of Pre-Trial Chamber I entitled
+“Decision on Israel’s challenge to the jurisdiction of the Court pursuant to article 19(2)
+of the Rome Statute” of 21 November 2024 (ICC-01/18-374),
+After deliberation,
+Unanimously,
+Delivers the following
+JUDGMENT
+1. The State of Israel’s appeal against Pre-Trial Chamber I’s “Decision on
+Israel’s challenge to the jurisdiction of the Court pursuant to article 19(2)
+of the Rome Statute” is admissible under article 82(1)(a) of the Statute;
+2. The State of Israel’s request for leave to reply is rejected;
+3. Pre-Trial Chamber I’s “Decision on Israel’s challenge to the jurisdiction of
+the Court pursuant to article 19(2) of the Rome Statute” is reversed and
+remanded for Pre-Trial Chamber I to rule on the substance of the State of
+Israel’s jurisdictional challenge;
+4. The State of Israel’s request for suspensive effect of two arrest warrants
+issued by Pre-Trial Chamber I and “any other purported exercise of
+jurisdiction by the Court” is dismissed as moot; and
+5. The requests of the Office of the Public Counsel for Victims and the
+European Centre for Law and Justice are dismissed as moot.
+REASONS
+I. PROCEDURAL HISTORY
+1. On 21 January 2009, the Minister of Justice of the State of Palestine
+(hereinafter: “Palestine”) lodged a declaration under article 12(3) of the Rome Statute
+ICC-01/18-422 24-04-2025 3/23 PT OA2
+No: ICC-01/18 OA2 4/23
+(hereinafter: “Statute”) “for acts committed on the territory of Palestine since
+1 July 2002” (hereinafter: “2009 article 12(3) Declaration”).1
+2. On 3 April 2012, the Prosecutor decided not to initiate an investigation following
+the 2009 article 12(3) Declaration, on the basis that the preconditions for the exercise
+of jurisdiction under article 12 of the Statute had not been complied with, as it required
+determining whether Palestine qualified as a “State”. The Prosecutor concluded that the
+Statute “provides no authority for the Office of the Prosecutor to adopt a method to
+define the term ‘State’”, and that it was for the relevant organs of the United Nations
+(hereinafter: “UN”) or the Assembly of States Parties to make such determination.2
+3. On 29 November 2012, the UN General Assembly (hereinafter: “UNGA”) issued
+Resolution 67/19, which, inter alia, reaffirmed “the right of the Palestinian people to
+self-determination and to independence in their State of Palestine on the Palestinian
+territory occupied since 1967” and accorded Palestine “non-member observer State”
+status in the UN.3
+4. On 31 December 2014, Palestine lodged a renewed declaration under
+article 12(3) of the Statute in respect of “crimes within the jurisdiction of the Court
+committed in the occupied Palestinian territory, including East Jerusalem, since
+June 13, 2014”.4
+5. On 2 January 2015, Palestine acceded to the Statute.5
+6. On 16 January 2015, the Prosecutor opened a preliminary examination into the
+Situation in Palestine, noting that UNGA Resolution 67/19 was “determinative of
+Palestine’s ability to accede to the Statute pursuant to article 125, and equally, its ability
+to lodge an article 12(3) declaration”.6
+1
+Palestinian National Authority, Ministry of Justice, Declaration recognizing the Jurisdiction of the
+International Criminal Court.
+2
+Office of the Prosecutor, Declaration on the Situation in Palestine.
+3
+United Nations, General Assembly, Resolution adopted by the General Assembly on
+29 November 2012, 4 December 2012, A/RES/67/19.
+4
+President of the State of Palestine, Declaration Accepting the Jurisdiction of the International Criminal
+Court.
+5
+Rome Statute of the International Criminal Court, State of Palestine Accession, 6 January 2015,
+C.N.13.2015.TREATIES-XVIII.10.
+6
+ICC Press Release, The Prosecutor of the International Criminal Court, Fatou Bensouda, opens a
+preliminary examination of the situation in Palestine.
+ICC-01/18-422 24-04-2025 4/23 PT OA2
+No: ICC-01/18 OA2 5/23
+7. On 22 May 2018, pursuant to articles 13(a) and 14 of the Statute, Palestine
+referred to the Prosecutor the Situation related to “past, ongoing and future crimes
+within the court’s jurisdiction, committed in all parts of the territory of the State of
+Palestine”.7
+8. On 20 December 2019, the Prosecutor issued a statement announcing that the
+preliminary examination into the Situation in Palestine had concluded with the
+determination that all the statutory criteria under the Statute for the opening of an
+investigation had been met. However, the Prosecutor indicated that, “given the unique
+and highly contested legal and factual issues attaching to this situation, namely, the
+territory within which the investigation may be conducted”, she deemed it necessary to
+request from the Pre-Trial Chamber a jurisdictional ruling under article 19(3) of the
+Statute.8
+9. On 22 January 2020, the Prosecutor submitted before Pre-Trial Chamber I (in a
+different composition) a request for a ruling, pursuant to article 19(3) of the Statute, on
+the Court’s territorial jurisdiction in Palestine (hereinafter: “Request for ruling under
+article 19(3)”).9
+Specifically, the Prosecutor sought confirmation that the “territory”
+over which the Court may exercise its jurisdiction under article 12(2)(a) of the Statute
+comprised the Occupied Palestinian Territory, that is the West Bank, including East
+Jerusalem, and Gaza.10
+10. On 5 February 2021, Pre-Trial Chamber I issued a decision on the Prosecutor’s
+request for ruling under article 19(3) of the Statute (hereinafter: “Article 19(3)
+Decision”).11
+Pre-Trial Chamber I found unanimously that “Palestine is a State Party to
+the Statute”, and by majority, with Judge Péter Kovács dissenting,12
+that “Palestine
+7
+Annex I to Decision assigning the situation in the State of Palestine to Pre-Trial Chamber I, 24 May
+2018, ICC-01/18-1-AnxI, para. 9.
+8
+Office of the Prosecutor, Statement of ICC Prosecutor, Fatou Bensouda, on the conclusion of the
+preliminary examination of the Situation in Palestine, and seeking a ruling on the scope of the Court’s
+territorial jurisdiction.
+9
+Prosecution request pursuant to article 19(3) for a ruling on the Court’s territorial jurisdiction in
+Palestine, ICC-01/18-12, with Annex A.
+10
+Request for ruling under article 19(3), para. 5.
+11
+Pre-Trial Chamber I, Decision on the ‘Prosecution request pursuant to article 19(3) for a ruling on the
+Court’s territorial jurisdiction in Palestine’, ICC-01/18-143.
+12
+See Partly Dissenting Opinion of Judge Péter Kovács, 5 February 2021, ICC-01/18-143-Anx1 annexed
+to Article 19(3) Decision. In the view of Judge Péter Kovács, “[…] the Prosecutor may exercise her
+investigative competences under the same circumstances that would allow Palestine, as a State Party,
+to assert jurisdiction over such crimes under its legal system, namely by duly taking into account the
+ICC-01/18-422 24-04-2025 5/23 PT OA2
+No: ICC-01/18 OA2 6/23
+qualifies as ‘[t]he State on the territory of which the conduct in question occurred’ for
+the purposes of article 12(2)(a) of the Statute”, and that “the Court’s territorial
+jurisdiction in the Situation in Palestine extends to the territories occupied by Israel
+since 1967, namely Gaza and the West Bank, including East Jerusalem”.13
+11. On 3 March 2021, the Prosecutor announced the initiation of an investigation into
+the Situation in Palestine, with respect to “crimes within the jurisdiction of the Court
+that are alleged to have been committed in the Situation since 13 June 2014”.14
+12. On 20 May 2024, the Prosecutor publicly announced that he would be filing
+applications for warrants of arrest, among others, against Israeli nationals, for their
+alleged responsibility for “war crimes and crimes against humanity committed on the
+territory of the State of Palestine (in the Gaza strip) from at least 8 October 2023”.15
+13. On 23 September 2024, the State of Israel (hereinafter: “Israel”) submitted before
+Pre-Trial Chamber I (hereinafter: “Pre-Trial Chamber”) a challenge to the jurisdiction
+of the Court pursuant to article 19(2) of the Statute (hereinafter: “Challenge”).16
+Israel
+argued that the pre-conditions to the Court’s jurisdiction have not been fulfilled as
+“sovereignty over the West Bank and the Gaza Strip remains in abeyance, and there is
+no ‘territory of’ a State (within the meaning of the Rome Statute) over which the Court
+may exercise its jurisdiction”.17
+14. On 21 November 2024, the Pre-Trial Chamber issued a decision rejecting Israel’s
+article 19(2) Challenge (hereinafter: “Impugned Decision”).18
+15. On 27 November 2024, Israel filed its notice of appeal against the
+Impugned Decision (hereinafter: “Notice of Appeal”).19
+Israel also requested
+repartition of competences according to the Oslo Accords […] [w]hen the prosecutor concludes that
+continuing an investigation may trespass the limits ratione loci or ratione personae of Palestine’s
+competences in this complex criminal law regime, the prosecutor should satisfy herself that Israel […]
+also consents according to article 12(3) of the Statute […]” (paras 370-371) (emphasis in the original).
+13
+Article 19(3) Decision, p. 60.
+14
+Office of the Prosecutor, Statement of ICC Prosecutor, Fatou Bensouda, respecting an investigation of
+the Situation in Palestine.
+15
+Office of the Prosecutor, Statement of ICC Prosecutor Karim A.A. Khan KC: Applications for arrest
+warrants in the situation in the State of Palestine.
+16
+Israel’s challenge to the jurisdiction of the Court pursuant to article 19(2) of the Rome Statute, ICC-
+01/18-354-AnxII-Corr.
+17
+Challenge, para. 124.
+18
+Decision on Israel’s challenge to the jurisdiction of the Court pursuant to article 19(2) of the Rome
+Statute, ICC-01/18-374, p. 7.
+19
+Notice of Appeal of “Decision on Israel’s challenge to the jurisdiction of the Court pursuant to article
+19(2) of the Rome Statute” (ICC-01/18-374), ICC-01/18-386.
+ICC-01/18-422 24-04-2025 6/23 PT OA2
+No: ICC-01/18 OA2 7/23
+suspensive effect, pending the Appeals Chamber’s resolution of the appeal and pursuant
+to article 82(3) of the Statute and rule 156(5) of the Rules of Procedure and Evidence
+(hereinafter: “Rules”), of two warrants of arrest issued after the Impugned Decision by
+the Pre-Trial Chamber, and of “any other purported exercise of jurisdiction by the
+Court”.20
+16. On the same day, Israel filed a request for leave to appeal the Impugned Decision
+pursuant to article 82(1)(d) of the Statute before the Pre-Trial Chamber.21
+17. On 29 November 2024, the Prosecutor submitted a request to dismiss in limine
+Israel’s Appeal.22
+18. On 12 December 2024, the Pre-Trial Chamber issued a decision deferring “its
+consideration of Israel’s requests for leave to appeal under article 82(1)(d) of the Statute
+until the Appeals Chamber has pronounced itself on the admissibility of Israel’s appeals
+pursuant to article 82(1)(a) of the Statute”.23
+19. On 13 December 2024, Israel filed its appeal against the Impugned Decision
+(hereinafter: “Appeal Brief”).24
+20. On the same day, the Office of Public Counsel for Victims filed a request to
+appear before the Chamber (hereinafter: “OPCV Request”) pursuant to regulation 81(4)
+of the Regulations of the Court (hereinafter: “Regulations”).25
+21. On 18 December 2024, the Registry transmitted to the Appeals Chamber a request
+received from the European Centre for Law and Justice, for leave to submit
+20
+Notice of Appeal, paras 5, 37.
+21
+Request for leave to appeal “Decision on Israel’s challenge to the jurisdiction of the Court pursuant to
+article 19(2) of the Rome Statute”, ICC-01/18-388.
+22
+Prosecution Request to Dismiss in limine Israel’s ‘Notice of Appeal of “Decision on Israel’s Challenge
+to the jurisdiction of the Court pursuant to article 19(2) of the Rome Statute” (ICC-01/18-374)’’’, ICC-
+01/18-392 (hereinafter: “Prosecutor’s Request”).
+23
+Deferral of the Chamber’s consideration of two requests for leave to appeal filed by the State of Israel,
+ICC-01/18-398, para. 6.
+24
+Appeal of “Decision on Israel’s challenge to the jurisdiction of the Court pursuant to article 19(2) of
+the Rome Statute” (ICC-01/18-374), ICC-01/18-402.
+25
+OPCV Request to appear before the Chamber under Regulation 81(4) of the Regulations of the Court
+in the Appeal of the State of Israel against Pre-Trial Chamber I’s “Decision on Israel’s challenge to the
+jurisdiction of the Court pursuant to article 19(2) of the Rome Statute”, ICC-01/18-399.
+ICC-01/18-422 24-04-2025 7/23 PT OA2
+No: ICC-01/18 OA2 8/23
+amicus curiae observations pursuant to rule 103(1) of the Rules (hereinafter:
+“ECLJ Request”).26
+22. On 13 January 2025, the Prosecutor filed his response to the Appeal Brief
+(hereinafter: “Prosecutor’s Response”).27
+23. On 17 January 2025, Israel submitted a request for leave to reply to the
+Prosecutor’s Response, and to reject in limine the Prosecutor’s submissions concerning
+suspensive effect (hereinafter: “Request for Leave to Reply”).28
+24. On 22 January 2025, the Prosecutor responded to Israel’s Request for Leave to
+Reply, arguing that it should be rejected.29
+II. RELEVANT PARTS OF THE IMPUGNED DECISION
+25. In the Impugned Decision, the Pre-Trial Chamber rejected Israel’s argument that
+its acceptance of the Court’s jurisdiction is required under article 12 of the Statute, even
+if another State has delegated jurisdiction, as “incorrect as a matter of law”.30
+The Pre-
+Trial Chamber noted that “the Court can exercise its jurisdiction on the basis of the
+territorial jurisdiction of Palestine”.31
+It underlined that, “[a]s soon as there is one
+jurisdictional basis pursuant to article 12(2)(a) or (b) of the Statute, there is no need for
+an additional one”.32
+26
+Registry Transmission of a “Request by the European Centre for Law & Justice for Leave to Submit
+Amicus Curiae Observations Pursuant to Rule 103(1) of the Rules of Procedure and Evidence”, ICC-
+01/18-404, with Annex I.
+27
+Prosecution response to the “Appeal of ‘Decision on Israel’s Challenge to the Jurisdiction of the Court
+pursuant to article 19(2) of the Rome Statute’ (ICC-01/18-374)”, ICC-01/18-406.
+28
+Request for leave to reply to Prosecution Response to Israel’s “Appeal of ‘Decision on Israel’s
+challenge to the jurisdiction of the Court pursuant to article 19(2) of the Rome Statute’ (ICC-01/18-374)”
+and to reject the Prosecution’s submissions concerning suspensive effect in limine, ICC-01/18-408.
+29
+Prosecution response to Israel’s “Request for leave to reply to Prosecution Response to Israel’s
+“Appeal of ‘Decision on Israel’s challenge to the jurisdiction of the Court pursuant to article 19(2) of the
+Rome Statute (ICC-01/18-374)” and to reject the Prosecution’s submissions concerning suspensive effect
+in limine”, ICC-01/18-410 (hereinafter: “Prosecutor’s Response to Request for Leave to Reply”),
+paras 1-2, 10.
+30
+Impugned Decision, para. 13.
+31
+Impugned Decision, para. 13.
+32
+Impugned Decision, para. 13, referring to Pre-Trial Chamber II, Situation in the Islamic Republic of
+Afghanistan, Decision Pursuant to Article 15 of the Rome Statute on the Authorisation of an Investigation
+into the Situation in the Islamic Republic of Afghanistan, 12 April 2019, ICC-02/17-33, para. 58. See also
+Article 19(3) Decision, paras 90-113.
+ICC-01/18-422 24-04-2025 8/23 PT OA2
+No: ICC-01/18 OA2 9/23
+26. The Pre-Trial Chamber further rejected “Israel’s argument that merely because it
+claims that Palestine could not have delegated jurisdiction to the Court, the Chamber
+would have to ignore its previous decision (rendered in a different composition) which
+has become res judicata”.33
+It stressed the “fundamental difference between granting a
+State standing on the presumptive validity of its claim to have jurisdiction over a
+situation or a case and granting it standing on the basis of an argument – which was
+already ruled upon – that a particular State Party does not have jurisdiction”.34
+The Pre-
+Trial Chamber further stressed that Israel’s standing is not an issue, as it “clearly would
+have standing to bring a challenge as the State of nationality under article 19(2)(b)
+juncto article 12(2)(b) of the Statute if the Chamber decides to issue any warrants of
+arrest for Israeli nationals”.35
+27. The Pre-Trial Chamber indicated that “[t]he issue before the Chamber is whether
+Israel is entitled – or indeed obliged – to bring such a challenge before the Chamber has
+ruled on the Prosecution’s applications for warrants of arrest”.36
+On this point, the Pre-
+Trial Chamber determined that “States are not entitled under the Statute to challenge
+jurisdiction of the Court on the basis of Article 19 prior to the issuance of a warrant of
+arrest or a summons”.37
+The Pre-Trial Chamber noted that the Prosecutor “typically
+conducts the entire application process under Article 58 of the Statute ex parte” and,
+therefore, States only become aware of the existence of the proceedings after the Court
+has ruled on the application, when the summons or warrant is notified or made public.38
+Further, it noted that the “wording of article 19(2)(b) of the Statute makes it clear that
+States may only challenge the Court’s jurisdiction in relation to a particular case”.39
+28. Lastly, the Pre-Trial Chamber reassured Israel that it “will have the full
+opportunity to challenge the Court’s jurisdiction and/or admissibility of any particular
+case if and when the Chamber issues any arrest warrants or summonses against its
+nationals”.40
+33
+Impugned Decision, para. 15 (emphasis in the original).
+34
+Impugned Decision, para. 15.
+35
+Impugned Decision, para. 16.
+36
+Impugned Decision, para. 16.
+37
+Impugned Decision, para. 17.
+38
+Impugned Decision, para. 17.
+39
+Impugned Decision, para. 17 (emphasis in the original).
+40
+Impugned Decision, para. 18.
+ICC-01/18-422 24-04-2025 9/23 PT OA2
+No: ICC-01/18 OA2 10/23
+III. ADMISSIBILITY OF THE APPEAL
+A. Summary of the submissions
+29. In its Notice of Appeal, Israel argues that the Impugned Decision is “plainly” and
+“by its very nature” a decision with respect to jurisdiction, as it is a decision on a
+challenge to the jurisdiction of the Court brought pursuant to article 19(2) of the Statute,
+as its title indicates.41
+Further, Israel submits that the operative part of the
+Impugned Decision directly rejects Israel’s challenge, which concerned jurisdiction
+over persons and territorial jurisdiction, as premature.42
+30. Israel further argues that, despite the fact that the Impugned Decision focuses on
+Israel’s standing to bring a jurisdictional challenge, this does not diminish its character
+as a jurisdictional decision.43
+In the submission of Israel, a decision precluding Israel
+from bringing a jurisdictional challenge pursuant to article 19(2)(c) of the Statute can
+only be regarded as a decision on jurisdiction.44
+Israel argues that this is particularly
+clear considering that the Pre-Trial Chamber relies upon and bases its rejection on a
+prior decision that it considers res judicata, which is a decision containing a substantive
+determination on jurisdictional issues.45
+Israel submits that any other interpretation
+would render the automatic right to appeal under article 82(1)(a) of the Statute
+meaningless, as a chamber could simply rely on previous jurisdictional decisions made
+ex parte to deny challenges, leaving no procedural recourse for the challenging party.46
+31. The Prosecutor requests that Israel’s Appeal be dismissed in limine, arguing that
+it does not satisfy the conditions of article 82(1)(a) of the Statute.47
+The Prosecutor
+submits that the Impugned Decision is not a decision “with respect to […] jurisdiction”
+and thus, it is not directly appealable under article 82(1)(a) of the Statute.48
+32. The Prosecutor further submits that the Pre-Trial Chamber, in fact, identified the
+issue before it as whether Israel is entitled or indeed obliged to bring such a challenge
+before the Pre-Trial Chamber has ruled on the Prosecutor’s applications for warrants of
+41
+Notice of Appeal, paras 24, 26.
+42
+Notice of Appeal, para. 24.
+43
+Notice of Appeal, para. 25.
+44
+Notice of Appeal, para. 25.
+45
+Notice of Appeal, para. 26.
+46
+Notice of Appeal, para. 26.
+47
+Prosecutor’s Request, para. 3.
+48
+Prosecutor’s Request, para. 4.
+ICC-01/18-422 24-04-2025 10/23 PT OA2
+No: ICC-01/18 OA2 11/23
+arrest.49
+The Prosecutor argues that, by answering this question in the negative, the Pre-
+Trial Chamber rejected Israel’s challenge as premature, which does not make it a
+“decision with respect to jurisdiction”.50
+The Prosecutor further underlines that the
+operative part of the Impugned Decision does not determine any aspect of jurisdiction,
+and that it is rather procedural, as it applied the procedural law concerning jurisdictional
+challenges and did not determine jurisdiction itself.51
+B. Determination by the Appeals Chamber
+33. Article 82 of the Statute, in its relevant parts, provides as follows:
+1. Either party may appeal any of the following decisions in accordance with the
+Rules of Procedure and Evidence:
+(a) A decision with respect to jurisdiction or admissibility;
+[…]
+34. The issue of what constitutes “a decision with respect to jurisdiction or
+admissibility”, within the meaning of article 82(1)(a) of the Statute, has been addressed
+by the Appeals Chamber on numerous occasions. In 2011, in the Kenya Situation,
+the Appeals Chamber stated:
+15. Article 82 (1) (a) of the Statute provides that either party may appeal “a
+decision with respect to jurisdiction or admissibility”. The Appeals Chamber
+understands from the phrase “decision with respect to” that the operative part of
+the decision itself must pertain directly to a question on the jurisdiction of the
+Court or the admissibility of a case. It is not sufficient that there is an indirect or
+tangential link between the underlying decision and questions of jurisdiction or
+admissibility. As previously held by the Appeals Chamber, a decision of a Pre-
+Trial or Trial Chamber may constitute a “decision with respect to [...]
+admissibility” only to the extent that it consisted of or “was based on” a ruling
+that a case was admissible or inadmissible. The French version of
+article 82 (1) (a) of the Statute confirms this interpretation as it provides that a
+party may only appeal a “[d]écision sur la compétence ou la recevabilité”.
+16. The Appeals Chamber’s reading of the plain meaning of article 82 (1) (a) of
+the Statute is also confirmed by its relationship with other provisions of the
+Statute. Article 82 (1) (a) of the Statute must be read in conjunction with
+articles 18 and 19 of the Statute. Article 18 (4) of the Statute provides that the
+State concerned or the Prosecutor may appeal to the Appeals Chamber against a
+preliminary ruling of the Pre-Trial Chamber regarding admissibility in
+49
+Prosecutor’s Request, para. 5.
+50
+Prosecutor’s Request, paras 5-6.
+51
+Prosecutor’s Request, paras 6-7.
+ICC-01/18-422 24-04-2025 11/23 PT OA2
+No: ICC-01/18 OA2 12/23
+accordance with article 82 of the Statute. Article 19 of the Statute provides that
+the Court may decide on the admissibility of a case either on its own motion, on
+request of the Prosecutor or in response to a challenge brought by certain
+specified persons or States. Article 19 (6) of the Statute provides that “[d]ecisions
+with respect to jurisdiction or admissibility may be appealed to the Appeals
+Chamber in accordance with article 82”. In the view of the Appeals Chamber, the
+specific references to article 82 of the Statute and the use of identical language in
+articles 19 (6) and 82 (1) (a) of the Statute indicate that the right to appeal a
+decision on jurisdiction or admissibility is intended to be limited only to those
+instances in which a Pre-Trial or Trial Chamber issues a ruling specifically on the
+jurisdiction of the Court or the admissibility of the case.
+17. The Appeals Chamber has also previously held with respect to appeals under
+article 82 (1) (b) of the Statute that the “effect or implications of a decision
+confirming or denying the charges do not qualify or alter the character of the
+decision”. The Appeals Chamber finds that the same logic applies to appeals
+under article 82 (1) (a) of the Statute. It is the nature, and not the ultimate effect
+or implication of a decision, that determines whether an appeal falls under
+article 82 (1) (a) of the Statute. Even if the ultimate impact of a decision of a Pre-
+Trial or Trial Chamber were to affect the admissibility of cases, that fact would
+not, in and of itself, render the decision a “decision with respect to [...]
+admissibility” under article 82 (1) (a).52
+35. In the case at hand, as noted above,53
+the Pre-Trial Chamber declined to address
+the jurisdictional challenge on the basis of its interpretation of a number of legal
+questions related to articles 12 and 19 of the Statute. These considerations underpinned
+the Pre-Trial Chambers ultimate conclusion, as also set out in the operative part of the
+Impugned Decision, that the jurisdictional challenge was submitted prematurely.
+Accordingly, the Appeals Chamber concludes that, by virtue of the finding that the
+jurisdictional challenge was premature, the Impugned Decision amounts to a decision
+52
+Situation in the Republic of Kenya, Decision on the admissibility of the “Appeal of the Government of
+Kenya against the ‘Decision on the Request for Assistance Submitted on Behalf of the Government of
+the Republic of Kenya Pursuant to Article 93(10) of the Statute and Rule 194 of the Rules of Procedure
+and Evidence’”, 10 August 2011, ICC-01/09-78 (OA), paras 15-17 (footnotes omitted). See also,
+Situation in the Democratic Republic of the Congo, Judgment on the Prosecutor’s appeal against the
+decision of Pre-Trial Chamber I entitled “Decision on the Prosecutor’s Application for Warrants of
+Arrest, Article 58”, 13 July 2006, ICC-01/04-169 (OA), para. 18; Situation on Registered Vessels of the
+Union of the Comoros, the Hellenic Republic and the Kingdom of Cambodia, Decision on the
+admissibility of the Prosecutor’s appeal against the “Decision on the request of the Union of the Comoros
+to review the Prosecutor’s decision not to initiate an investigation”, 6 November 2015, ICC-01/13-51
+(OA), para. 49; The Prosecutor v. Saif Al-Islam Gaddafi and Abdullah Al-Senussi, Decision on
+“Government of Libya’s Appeal Against the ‘Decision Regarding the Second Request by the
+Government of Libya for Postponement of the Surrender of Saif Al-Islam Gaddafi’” of 10 April 2012,
+25 April 2012, ICC-01/11-01/11-126 (OA2), para. 13; The Prosecutor v. Germain Katanga, Decision on
+the admissibility of the appeal against the “Decision on the application for the interim release of detained
+Witnesses DRC-D02-P0236, DRC-D02-P0228 and DRC-D02-P0350”, 20 January 2014, ICC-01/04-
+01/07-3424 (OA14), para. 33; The Prosecutor v. Ali Muhammad Ali Abd-Al-Rahman (“Ali Kushayb”),
+Decision on the admissibility of the appeal, 4 September 2020, ICC-02/05-01/20-145 (OA3), para. 7.
+53
+See supra paras 25-28 referring to Impugned Decision, paras 13-18.
+ICC-01/18-422 24-04-2025 12/23 PT OA2
+No: ICC-01/18 OA2 13/23
+that consists of or is based on a ruling on the jurisdiction of the Court. As a result, the
+Appeals Chamber finds that the appeal is admissible under article 82(1)(a) of the
+Statute.
+IV. MERITS
+A. Preliminary issue
+36. Israel requests leave to reply in relation to: (i) the application of articles 31 and
+32 of the Vienna Convention on the Law of Treaties (hereinafter: “VCLT”) to the
+interpretation of article 19(2)(c) of the Statute;54
+and (ii) the Pre-Trial Chamber’s
+finding on res judicata and the interpretation of the Impugned Decision.55
+Israel
+submits that neither of the two issues could have been reasonably anticipated, and that
+a reply is thus necessary for the Appeals Chamber’s determination of the appeal.56
+37. Regarding the first issue, the Prosecutor argues that it could be foreseen that the
+Prosecutor would address Israel’s interpretation of article 19(2)(c) in light of the VCLT,
+considering Israel’s submission that the correct interpretation of article 19(2)(c) was
+supported by “the object and purpose of article 19(2)”.57
+With respect to the second
+issue, the Prosecutor avers that Israel could foresee that the Prosecutor would assess the
+correctness of Israel’s interpretation of the Pre-Trial Chamber’s reliance on the doctrine
+of res judicata.58
+38. The Appeals Chamber indeed considers that none of the issues raised by the
+Prosecutor amount to “new issues raised in the response” within the meaning of
+regulation 24(5) of the Regulations, which Israel could not have anticipated.
+Furthermore, the Appeals Chamber is of the view that further submissions on this issue
+would not assist it in its determination of the present appeal.59
+39. In these circumstances, the Appeals Chamber considers that the Request for
+Leave to Reply fails to meet the conditions set out in regulation 24(5) of the
+54
+Request for Leave to Reply, paras 10-16.
+55
+Request for Leave to Reply, paras 17-21.
+56
+Request for Leave to Reply, paras 1-2, 9, 12, 15, 20-21, 25.
+57
+Prosecutor’s Response to Request for Leave to Reply, para. 6.
+58
+Prosecutor’s Response to Request for Leave to Reply, para. 7.
+59
+See for example, The Prosecutor v. Bosco Ntaganda, Decision on Mr Ntaganda’s request for leave to
+reply, 3 March 2017, ICC-01/04-02/06-1813 (OA5), para. 8.
+ICC-01/18-422 24-04-2025 13/23 PT OA2
+No: ICC-01/18 OA2 14/23
+Regulations. In light of the foregoing, the Appeals Chamber rejects Israel’s Request for
+Leave to Reply.
+B. Standard of review
+40. In the present appeal, Israel alleges errors of law and errors of fact.
+41. Regarding errors of law, the Appeals Chamber has previously held that it:
+will not defer to the relevant Chamber’s legal interpretation of the law, but will
+arrive at its own conclusions as to the appropriate law and determine whether or
+not the first instance Chamber misinterpreted the law.60
+42. If the relevant chamber committed such an error, the Appeals Chamber will only
+intervene if the error materially affected the decision impugned on appeal.61
+A decision
+is “materially affected by an error of law” if the chamber “would have rendered a
+[decision] that is substantially different from the decision that was affected by the error,
+if it had not made the error”.62
+60
+The Prosecutor v. Maxime Jeoffroy Eli Mokom Gawaka, Judgment on the appeal of Maxime Jeoffroy
+Eli Mokom Gawaka against the decision of Pre-Trial Chamber II of 19 August 2022 entitled “Decision
+on legal representation further to the Appeals Chamber’s judgment of 19 July 2022”, 19 December 2022,
+ICC-01/14-01/22-124-Red (OA3) (hereinafter: “Mokom OA3 Judgment”), para. 19, referring to The
+Prosecutor v. Bosco Ntaganda, Judgment on the appeal of Mr Bosco Ntaganda against the “Decision on
+the Defence’s challenge to the jurisdiction of the Court in respect of Counts 6 and 9”, 22 March 2016,
+ICC-01/04-02/06-1225 (OA2), para. 33; The Prosecutor v. William Samoei Ruto and Joshua Arap Sang,
+Judgment on the appeals of Mr William Samoei Ruto and Mr Joshua Arap Sang against the decision of
+Trial Chamber V(A) of 19 August 2015 entitled “Decision on Prosecution Request for Admission of
+Prior Recorded Testimony”, 12 February 2016, ICC-01/09-01/11-2024 (OA10), para. 20; The Prosecutor
+v. Uhuru Muigai Kenyatta, Judgment on the Prosecutor’s appeal against Trial Chamber V(B)’s “Decision
+on Prosecution’s application for a finding of non-compliance under Article 87(7) of the Statute”,
+19 August 2015, ICC-01/09-02/11-1032 (OA5), para. 23; The Prosecutor v. Al Hassan Ag Abdoul Aziz
+Ag Mohamed Ag Mahmoud, Judgment on the appeal of Mr Al Hassan against the decision of Pre-Trial
+Chamber I entitled ‘Décision relative à l’exception d’irrecevabilité pour insuffisance de gravité de
+l’affaire soulevée par la défense’, 19 February 2020, ICC-01/12-01/18-601-Red (OA) (hereinafter:
+“Al Hassan OA Judgment”), para. 38.
+61
+Mokom OA3 Judgment, para. 20, referring to Al Hassan OA Judgment, para. 38; The Prosecutor v.
+Simone Gbagbo, Judgment on the appeal of Côte d’Ivoire against the decision of Pre-Trial Chamber I of
+11 December 2014 entitled “Decision on Côte d’Ivoire’s challenge to the admissibility of the case against
+Simone Gbagbo”, 27 May 2015, ICC-02/11-01/12-75-Red (OA) (hereinafter: “Simone Gbagbo OA
+Judgment”), para. 40. See also The Prosecutor v. Ali Muhammad Ali Abd-Al-Rahman (“Ali Kushayb”),
+Judgment on the appeal of Mr Abd-Al-Rahman against the Pre-Trial Chamber II’s “Decision on the
+Defence ‘Exception d’incompétence’ (ICC-02/05-01/20-302)”, 1 November 2021, ICC-02/05-01/20-503
+(OA8) (hereinafter: “Abd-Al-Rahman OA8 Judgment”), para. 12; The Prosecutor v. Dominic Ongwen,
+Judgment on the appeal of Mr Dominic Ongwen against Trial Chamber IX’s ‘Decision on Defence
+Motions Alleging Defects in the Confirmation Decision’, 17 July 2019, ICC-02/04-01/15-1562 (OA4)
+(hereinafter: “Ongwen OA4 Judgment”), para. 45.
+62
+Mokom OA3 Judgment, para. 20, referring to Al Hassan OA Judgment, para. 38; Simone Gbagbo OA
+Judgment, para. 41. See also Abd-Al-Rahman OA8 Judgment, para. 12; The Prosecutor v. Al Hassan Ag
+ICC-01/18-422 24-04-2025 14/23 PT OA2
+No: ICC-01/18 OA2 15/23
+43. As to errors of fact,
+the Appeals Chamber will determine whether a chamber’s factual findings were
+reasonable in the particular circumstances of the case. The Appeals Chamber will
+not disturb a trial chamber’s factual finding only because it would have come to
+a different conclusion. When considering alleged factual errors, the Appeals
+Chamber will allow the deference considered necessary and appropriate to the
+factual findings of a chamber. However, the Appeals Chamber may interfere
+where it is unable to discern objectively how a chamber’s conclusion could have
+reasonably been reached from the evidence on the record.63
+44. For all alleged errors, the appellant is obliged to set out the alleged error in the
+appeal brief and “indicate, with sufficient precision, how [the] alleged error would have
+materially affected the impugned decision”.64
+45. The above standard of review will guide the analysis of the Appeals Chamber.
+C. Summary of the submissions
+1. Israel’s submissions
+46. Israel argues that the Pre-Trial Chamber rejected the jurisdictional challenge on
+procedural grounds, without substantive scrutiny of Israel’s serious objections to the
+Court’s lack of jurisdiction with respect to the situation.65
+In addition, it states that the
+issuance of the Impugned Decision on the same day as the warrants of arrest deprived
+Israel of any opportunity to appeal prior to the issuance of the warrants.66
+According to
+Israel, the refusal to substantially consider its submissions is particularly egregious as
+the Pre-Trial Chamber made ex parte determinations as required by article 19(1) of the
+Statute that it had jurisdiction to issue the warrants.67
+Abdoul Aziz Ag Mohamed Ag Mahmoud, Judgment on the appeal of Mr Al Hassan against the decision
+of Trial Chamber X entitled ‘Decision on application for notice of possibility of variation of legal
+characterisation pursuant to Regulation 55(2) of the Regulations of the Court’, 1 July 2021, ICC-01/12-
+01/18-1562-Red (OA3), para. 18; Ongwen OA4 Judgment, para. 45.
+63
+Mokom OA3 Judgment, para. 21, referring to The Prosecutor v. Laurent Gbagbo and Charles Blé
+Goudé, Judgment on the appeal of Mr Laurent Gbagbo against the decision of Trial Chamber I of
+10 March 2017 entitled “Decision on Mr Gbagbo’s Detention”, 19 July 2017, ICC-02/11-01/15-992-Red
+(OA10), para. 16; The Prosecutor v. Bosco Ntaganda, Judgment on the appeal of Mr Bosco Ntaganda
+against the decision of Trial Chamber VI of 7 November 2019 entitled ‘Sentencing judgment’,
+30 March 2021, ICC-01/04-02/06-2667-Red (A3), paras 27-29.
+64
+Abd-Al-Rahman OA8 Judgment, para. 14, referring to The Prosecutor v. Joseph Kony et al., Judgment
+on the appeal of the Defence against the “Decision on the admissibility of the case under article 19(1) of
+the Statute” of 10 March 2009, 16 September 2009, ICC-02/04-01/05-408 (OA3), para. 48.
+65
+Notice of Appeal, para. 1.
+66
+Notice of Appeal, para. 1.
+67
+Notice of Appeal, para. 2.
+ICC-01/18-422 24-04-2025 15/23 PT OA2
+No: ICC-01/18 OA2 16/23
+47. Israel further argues that States should be allowed to exercise their rights to
+challenge the Court’s jurisdiction,68
+and that the test adopted by the Pre-Trial Chamber
+eliminates the possibility for: (i) a State to challenge the Court’s jurisdiction prior to
+the issuance of an arrest warrant; and (ii) a suspect to challenge the Court’s jurisdiction
+on the basis that article 12(2)(a) of the Statute is not satisfied.69
+Israel submits that the
+Impugned Decision effectively holds that a prior decision that reserved an issue for
+further consideration operates as res judicata, thus barring future scrutiny of the
+reserved issue, curtailing the rights of States and undermining the foundational
+jurisdictional safeguards enshrined in the Statute.70
+In Israel’s submission, the
+Impugned Decision is a summary ruling lacking reasoning and discussion.71
+48. Israel further underlines that the issues arising in this appeal are: (i) the standing
+of specially affected States to file a jurisdictional challenge under article 19(2)(c) of the
+Statute; and (ii) the appropriate juncture for States to be permitted to do so.72
+Israel
+submits that these issues are of critical importance to ensuring that the Court adheres to
+its jurisdictional limitations, and require appellate clarification in order to prevent
+undue infringement upon the sovereign rights and interests of States.73
+Israel argues
+that the significance of the matters under consideration “cannot be over-stated” as the
+jurisdictional safeguards on the Statute are not mere formalities; they play a critical role
+in defining judicial competence, preventing abuse of the judicial process, and
+guaranteeing that courts do not exceed their mandate.74
+It contends that the Court’s
+legitimacy depends in equal measure on the effective discharge of its mandate and the
+adherence to its jurisdictional limitations.75
+49. Israel submits that the errors in the Impugned Decision are reflected in the
+following three grounds of appeal:
+i. The Pre-Trial Chamber erred in law in finding that Israel does not have
+standing to file a jurisdictional challenge pursuant to article 19(2)(c) as it is
+68
+Notice of Appeal, para. 3.
+69
+Notice of Appeal, para. 4.
+70
+Notice of Appeal, para. 4.
+71
+Notice of Appeal, para. 4.
+72
+Appeal Brief, para. 1.
+73
+Appeal Brief, para. 1.
+74
+Appeal Brief, para. 3.
+75
+Appeal Brief, para. 3.
+ICC-01/18-422 24-04-2025 16/23 PT OA2
+No: ICC-01/18 OA2 17/23
+not “a State from which acceptance of jurisdiction is required under
+article 12” (first ground of appeal);
+ii. The Pre-Trial Chamber erred in fact and law in rejecting Israel’s standing
+under article 19(2) on the basis that to find otherwise would be to override
+its previous article 19(3) decision which had become res judicata
+(second ground of appeal); and
+iii. The Pre-Trial Chamber erred in law in finding that Israel’s filing of a
+jurisdictional challenge pursuant to article 19(2) was premature as it was
+filed prior to the issuance of arrest warrants (third ground of appeal).76
+50. Israel argues that the appropriate remedy is to reverse the Impugned Decision and
+issue an order declaring that: (i) Israel has standing to challenge the jurisdiction of the
+Court pursuant to article 19(2)(c), including prior to the issuance of arrest warrants;
+(ii) Israel’s jurisdictional challenge shall be remitted to the Pre-Trial Chamber for
+consideration on the merits: and (iii) the two arrest warrants against Israeli nationals,
+erroneously issued by the Pre-Trial Chamber, should be declared null and void.77
+2. Prosecutor’s submissions
+51. The Prosecutor submits that the appeal should be dismissed as it fails to show any
+error materially affecting the Pre-Trial Chamber’s determination that Israel’s
+jurisdictional challenge was premature.78
+The Prosecutor further argues that nothing in
+the Impugned Decision deprives any person or entity with standing under article 19(2)
+of the Statute from bringing challenges now that cases in this situation have been
+identified.79
+The Prosecutor maintains that the appeal primarily concerns technicalities
+under article 19(2) of the Statute.80
+52. The Prosecutor argues that Israel’s allegations of “infringement upon the
+sovereign rights and interests of States” are “misplaced and immaterial to the proper
+disposition of [the] appeal”, as it is incorrect to assume that the exercise of jurisdiction
+76
+Appeal Brief, para. 4.
+77
+Appeal Brief, paras 6, 70.
+78
+Prosecutor’s Response, paras 1, 3, 6.
+79
+Prosecutor’s Response, paras 2-3.
+80
+Prosecutor’s Response, para. 2.
+ICC-01/18-422 24-04-2025 17/23 PT OA2
+No: ICC-01/18 OA2 18/23
+over one or more persons violates the sovereignty of their State of nationality.81
+The
+Prosecutor contends that this view would incorrectly permit non-party States to veto
+the sovereign prerogative of States Parties to accept the jurisdiction of the Court in their
+own territory and the “exercise of their own national law, even over foreign nationals,
+unless benefiting from a specific immunity grounded in the mutual consent of the States
+concerned”.82
+53. Further, the Prosecutor submits that, while strictly obiter dicta and not
+determinative of the outcome of the Impugned Decision, the Pre-Trial Chamber also
+correctly concluded that: (i) its prior ruling on the Court’s exercise of jurisdiction was
+res judicata “for the purpose at least of its proceedings under article 58”; and (ii) Israel
+lacks standing to challenge jurisdiction under article 19(2)(c) of the Statute.83
+The
+Prosecutor argues that, even if the Chamber erred in these conclusions, such errors did
+not materially affect the decision.84
+54. The Prosecutor also submits that none of the errors identified by Israel, even if it
+would be found that the Pre-Trial Chamber erred, materially affected the
+Impugned Decision, and the appeal should consequently be dismissed.85
+Regarding
+Israel’s first and second grounds of appeal, the Prosecutor submits that the relevant
+finding from the Pre-Trial Chamber was no more than an obiter dictum, rather than the
+ratio decidendi of the Impugned Decision.86
+D. Determination by the Appeals Chamber
+55. As part of the first sub-ground of its first ground of appeal, Israel contends that:
+Rather than addressing issues of standing substantively under article 19(2)(c), the
+Pre-Trial Chamber premised its rationale for denying Israel standing to bring a
+jurisdictional challenge under article 19(2)(c) on its observation that “as soon as
+there is one jurisdictional basis pursuant to article 12(2)(a) or (b) of the Statute,
+there is no need for an additional one”.87
+81
+Prosecutor’s Response, para. 4
+82
+Prosecutor’s Response, para. 5.
+83
+Prosecutor’s Response, para. 7.
+84
+Prosecutor’s Response, para. 7.
+85
+Prosecutor’s Response, paras 1, 6, 48.
+86
+Prosecutor’s Response, paras 48, 58.
+87
+Appeal Brief, para. 24.
+ICC-01/18-422 24-04-2025 18/23 PT OA2
+No: ICC-01/18 OA2 19/23
+56. The Appeals Chamber understands that, under this part of its first ground of
+appeal, Israel submits, in essence, that the Pre-Trial Chamber erred in law by failing to
+sufficiently address Israel’s argument that it has standing to submit a jurisdictional
+challenge pursuant to article 19(2)(c) of the Statute.
+57. The Appeals Chamber observes that, besides concluding that “[a]s soon as there
+is one jurisdictional basis pursuant to article 12(2)(a) or (b) of the Statute, there is no
+need for an additional one”,88
+the Pre-Trial Chamber did not further elaborate as to how
+the existence of a basis for the exercise of the Court’s jurisdiction under article 12(2)
+relates, as such, to Israel’s central contention that it has standing to challenge the
+jurisdiction of the Court pursuant to article 19(2)(c) of the Statute. Despite the
+correlation between these provisions, they regulate, in principle, different matters,
+namely the preconditions for the exercise of the Court’s jurisdiction (article 12(2) of
+the Statute), and one of the mechanisms to challenge the admissibility of a case or the
+jurisdiction of the Court (article 19(2)(c) of the Statute). In addition, as Israel’s primary
+assertion is that article 19(2)(c) of the Statute permits it to challenge the jurisdiction of
+the Court, it was incumbent on the Pre-Trial Chamber to specifically address why, in
+its view, Israel is precluded from bringing such a challenge by virtue of article 12(2) of
+the Statute.
+58. The Pre-Trial Chamber further rejected Israel’s argument “that merely because it
+claims that Palestine could not have delegated jurisdiction to the Court, the Chamber
+would have to ignore its previous decision”.89
+Without providing reasons in support
+thereof, the Pre-Trial Chamber determined that “there is a fundamental difference
+between granting a State standing on the presumptive validity of its claim to have
+jurisdiction over a situation or a case and granting it standing on the basis of an
+argument – which was already ruled upon – that a particular State Party does not have
+jurisdiction”.90
+59. In view of the particularities of the preceding stages of the proceedings in the
+Situation in Palestine, the Pre-Trial Chamber should have more specifically addressed
+the applicability of the notion of res judicata. The reason is that the Pre-Trial Chamber
+88
+Impugned Decision, para. 13.
+89
+Impugned Decision, para. 15.
+90
+Impugned Decision, para. 15.
+ICC-01/18-422 24-04-2025 19/23 PT OA2
+No: ICC-01/18 OA2 20/23
+was previously seized of a question pertaining to the jurisdiction of the Court pursuant
+to article 19(3) of the Statute in the context of proceedings to which Israel, despite an
+invitation to provide observations, was not a party. This is even more so in view of the
+fact that, in the Article 19(3) Decision, the Pre-Trial Chamber specifically held that
+issues pertaining to the impact of the Oslo Agreements on the Court’s jurisdiction “may
+be raised by interested States based on article 19” at a later stage.91
+In the
+Impugned Decision, the Pre-Trial Chamber nonetheless omitted to address why, in light
+of these particular circumstances, the notion of res judicata prevented Israel from
+making a challenge under article 19(2)(c) of the Statute.
+60. The Pre-Trial Chamber went on to find that Israel has standing “under
+article 19(2)(b) juncto article 12(2)(b) of the Statute if the Chamber decides to issue
+any warrants of arrest for Israeli nationals”, although “States are not entitled under the
+Statute to challenge jurisdiction of the Court on the basis of Article 19 prior to the
+issuance of a warrant of arrest or a summons”.92
+Nevertheless, the Pre-Trial Chamber
+did not actually consider the merits of Israel’s challenge under article 19(2)(b) of the
+Statute, the provision it indicated Israel should have invoked.93
+Neither did the Pre-
+Trial Chamber specify why it altered the legal basis to article 19(2)(b) of the Statute,
+despite the fact that Israel’s submissions were specifically centred around
+article 19(2)(c) of the Statute. In doing so, while noting the entirety of Israel’s
+submissions regarding article 19(2)(c) of the Statute,94
+the Pre-Trial Chamber failed to
+specifically address Israel’s submissions in connection with this particular legal basis.
+In particular, the Pre-Trial Chamber omitted to direct itself to Israel’s contentions
+regarding the scope of article 19(2)(c) of the Statute.95
+91
+Article 19(3) Decision, para. 129. In that Decision, Pre-Trial Chamber I found that: “[…] the Chamber
+finds that the arguments regarding the Oslo Agreements in the context of the present proceedings are not
+pertinent to the resolution of the issue under consideration, namely the scope of the Court’s territorial
+jurisdiction in Palestine. The Chamber considers that these issues may be raised by interested States
+based on article 19 of the Statute, rather than in relation to a question of jurisdiction in connection with
+the initiation of an investigation by the Prosecutor arising from the referral of a situation by a State under
+articles 13(a) and 14 of the Statute. As a consequence, the Chamber will not address these arguments”.
+92
+Impugned Decision, paras 16-17.
+93
+The Appeals Chamber notes that the Pre-Trial Chamber issued warrants of arrest on the same day as
+the Impugned Decision, see ICC Press Release, Situation in the State of Palestine: ICC Pre-Trial
+Chamber I rejects the State of Israel’s challenges to jurisdiction and issues warrants of arrest for
+Benjamin Netanyahu and Yoav Gallant, 21 November 2024.
+94
+Impugned Decision, fn. 14.
+95
+Challenge, paras 51-56.
+ICC-01/18-422 24-04-2025 20/23 PT OA2
+No: ICC-01/18 OA2 21/23
+61. In view of the foregoing, the Appeals Chamber finds that, considered as a whole,
+the Impugned Decision insufficiently addresses Israel’s central contention that
+article 19(2)(c) of the Statute permits it to challenge the jurisdiction of the Court.
+Therefore, the Pre-Trial Chamber committed an error of law by failing to sufficiently
+direct itself to the relevant submissions brought before it in respect of the particular
+legal basis underpinning the challenge to the jurisdiction of the Court.
+62. The Appeals Chamber considers that this error materially affects the
+Impugned Decision. Had the Pre-Trial Chamber had sufficient regard to the central
+contention before it, it would have had to directly and specifically address Israel’s
+standing to bring a jurisdictional challenge under article 19(2)(c) of the Statute.
+V. APPROPRIATE RELIEF
+63. In an appeal pursuant to article 82(1)(a) of the Statute, the Appeals Chamber may
+confirm, reverse or amend the decision appealed. The Appeals Chamber observes that,
+in the Impugned Decision, the Pre-Trial Chamber considered that “Israel will have the
+full opportunity to challenge the Court’s jurisdiction and/or admissibility of any
+particular case if and when the Chamber issues any arrest warrants or summonses
+against its nationals”.96
+In addition, the Pre-Trial Chamber subsequently issued two
+warrants of arrest against Israeli nationals.
+64. Accordingly, the Appeals Chamber is of the view that, in light of the preceding
+considerations, the most appropriate course of action is to reverse the
+Impugned Decision and remand the matter to the Pre-Trial Chamber for it to rule on
+the substance of the jurisdictional challenge. The Appeals Chamber notes that it is for
+the Pre-Trial Chamber to determine the applicable legal basis under article 19(2) of the
+Statute for addressing Israel’s jurisdictional challenge at the present stage of the
+proceedings, and to provide any required further instructions on the procedure to be
+followed.
+65. The Appeals Chamber finds that, in light of the foregoing, the matter before it has
+been conclusively settled. As a result, the Appeals Chamber does not consider it
+96
+Impugned Decision, para. 18.
+ICC-01/18-422 24-04-2025 21/23 PT OA2
+No: ICC-01/18 OA2 22/23
+necessary to address the remainder of Israel’s first ground of appeal or any other
+grounds of appeal.
+66. The Appeals Chamber notes that Israel requests suspensive effect of two arrest
+warrants issued by the Pre-Trial Chamber after the Impugned Decision and “any other
+purported exercise of jurisdiction by the Court”.97
+The Appeals Chamber notes that it
+has previously indicated that granting suspensive effect “would have the effect of
+suspending any action based on the Impugned Decision”.98
+In the present case, the
+Appeals Chamber is not persuaded that the arrest warrants are based on, or
+“inextricably connected”, to the Impugned Decision.99
+In effect, while the
+Impugned Decision was based on the Pre-Trial Chamber’s assessment of discrete
+aspects of the jurisdictional challenge brought by Israel, it stopped short of addressing
+the challenge in its entirety. Therefore, it cannot be said that the arrest warrants are
+based on the Impugned Decision. These warrants were rather issued separately by the
+Pre-Trial Chamber and they are, as such, not before the Appeals Chamber. In any event,
+the Appeals Chamber’s determination in this appeal is to reverse the
+Impugned Decision and remand the matter to the Pre-Trial Chamber for it to decide
+anew on the substance of the jurisdictional challenge. In that context, the Pre-Trial
+Chamber will also have to determine the effect, if any, of its decision on the warrants
+of arrest, which were issued separately from the Impugned Decision. In these
+circumstances, the Appeals Chamber dismisses the request for suspensive effect as
+moot.
+67. Regarding the OPCV Request,100
+and the ECLJ Request,101
+in light of the
+Appeals Chamber’s determination to reverse the Impugned Decision and remand the
+matter to the Pre-Trial Chamber for it to decide anew on the substance of the
+jurisdictional challenge, the Appeals Chamber considers that both requests should be
+dismissed as moot.
+97
+Notice of Appeal, paras 5, 37.
+98
+The Prosecutor v. Germain Katanga, Decision on the request for suspensive effect of the appeal against
+Trial Chamber II's decision on the implementation of regulation 55 of the Regulations of the Court,
+16 January 2013, ICC-01/04-01/07-3344 (OA13), para. 5 (emphasis added).
+99
+Notice of Appeal, para. 33.
+100
+OPCV Request, paras 3-4, 24.
+101
+ECLJ Request, para. 2.
+ICC-01/18-422 24-04-2025 22/23 PT OA2
+No: ICC-01/18 OA2 23/23
+68. Lastly, in the circumstances of the present appeal, the Appeals Chamber
+considers that the requirement set forth in article 83(4) of the Statute and rule 158(2) of
+the Rules to deliver the judgment “in open court”, which ensures the publicity of the
+proceedings with a view to guaranteeing that justice is transparent and accessible to the
+public, is adequately fulfilled by delivering this judgment in public version, notifying
+it to the parties to the proceedings, publishing it on the Court’s website, and issuing a
+press release.
+Done in both English and French, the English version being authoritative.
+_____________________________
+Judge Tomoko Akane
+Presiding
+_____________________________
+Judge Luz del Carmen Ibáñez
+Carranza
+_____________________________
+Judge Solomy Balungi Bossa
+_____________________________
+Judge Gocha Lordkipanidze
+_____________________________
+Judge Erdenebalsuren Damdin
+Dated this 24th day of April 2025
+At The Hague, The Netherlands
+ICC-01/18-422 24-04-2025 23/23 PT OA2
+

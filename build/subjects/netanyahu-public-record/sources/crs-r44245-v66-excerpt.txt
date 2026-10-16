@@ -1,0 +1,56 @@
+# pdftotext -layout excerpt of CRS Report R44245 (version 66). Only the excerpt below and the head of the document are stored; the full PDF hash is in the manifest.
+
+[HEAD OF DOCUMENT]
+Israel: Background and U.S. Relations in Brief
+
+Updated December 6, 2019
+
+
+
+
+                                Congressional Research Service
+                                 https://crsreports.congress.gov
+                                                        R44245
+
+                                                                                                   SUMMARY
+
+                                                                                               R44245
+Israel: Background and U.S. Relations in Brief
+                                                                                               December 6, 2019
+The following matters are of particular significance to U.S.-Israel relations.
+                                                                                               Jim Zanotti
+Domestic issues: multiple elections and Netanyahu indictments. Israel has held two            Specialist in Middle
+Knesset elections in 2019, in April and September, but—in a development                       Eastern Affairs
+unprecedented in the country’s history—neither election has led to the formation of a
+new government. If no new government forms by December 11, another round of
+elections would probably take place in February or March 2020. This stalemate has
+occurred within the context of corruption allegations against Israeli Prime Minister
+Binyamin Netanyahu, whom Israel’s attorney general decided to indict in November 2019. While one public
+opinion poll indicates that around one-third of Israelis believe that Netanyahu should resign, he is not legally
+required to do so while his cases remain pending, and his Likud party continues to poll competitively. The
+political stalemate fuels speculation among observers about how Israel’s adversaries may seek to take advantage
+of the resulting domestic uncertainty, and how Israel’s leaders may respond to threats.
+Israel’s ability to address threats. Israel relies on a number of strengths—including regional conventional
+military superiority—to manage potential threats to its security, including evolving asymmetric threats such as
+rockets and missiles, cross-border tunneling, drones, and cyberattacks. Additionally, Israel has an undeclared but
+presumed nuclear weapons capability. Against a backdrop of strong bilateral cooperation, Israel’s leaders and
+supporters routinely make the case that Israel’s security and the broader stability of the region remain critically
+important for U.S. interests. A 10-year bilateral military aid memorandum of understanding (MOU)—signed in
+2016—commits the United States to provide Israel $3.3 billion in Foreign Military Financing annually from
+FY2019 to FY2028, along with additional amounts from Defense Department accounts for missile defense. All of
+these amounts remain subject to congressional appropriations. Some Members of Congress criticize various
+Israeli actions and U.S. policies regarding Israel. In the past year, U.S. officials have expressed some security-
+related concerns about China-Israel commercial activity.
+
+[EXCERPT]
+Domestic issues: multiple elections and Netanyahu indictments. Israel has held two            Specialist in Middle
+Knesset elections in 2019, in April and September, but—in a development                       Eastern Affairs
+unprecedented in the country’s history—neither election has led to the formation of a
+new government. If no new government forms by December 11, another round of
+elections would probably take place in February or March 2020. This stalemate has
+occurred within the context of corruption allegations against Israeli Prime Minister
+Binyamin Netanyahu, whom Israel’s attorney general decided to indict in November 2019. While one public
+opinion poll indicates that around one-third of Israelis believe that Netanyahu should resign, he is not legally
+required to do so while his cases remain pending, and his Likud party continues to poll competitively. The
+political stalemate fuels speculation among observers about how Israel’s adversaries may seek to take advantage
+of the resulting domestic uncertainty, and how 

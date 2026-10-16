@@ -1,0 +1,465 @@
+# pdftotext -raw extract of ICC court record ICC-01-18-457 (0902ebd180c1587a.pdf).
+
+No. ICC-01/18 1/13 16 July 2025
+No, I don
+Original: English No.: ICC-01/18
+Date: 16 July 2025
+PRE-TRIAL CHAMBER I
+Before: Judge Nicolas Guillou, Presiding Judge
+Judge Reine Adélaïde Sophie Alapini-Gansou
+Judge Beti Hohler
+SITUATION IN THE STATE OF PALESTINE
+Public
+Decision on the State of Israel’s request to have arrest warrants withdrawn, vacated,
+or declared of no force or effect and to suspend the Prosecutor’s investigation
+ICC-01/18-457 16-07-2025 1/13 PT
+No. ICC-01/18 2/13 16 July 2025
+Decision to be notified in accordance with regulation 31 of the Regulations of the Court
+to:
+☒ The Office of the Prosecutor ☐ Counsel for the Defence
+☐ Legal Representatives of the Victims ☐ Legal Representatives of the
+Applicants
+☐ Unrepresented Victims ☐ Unrepresented Applicants
+(Participation/Reparation)
+☐ The Office of Public Counsel for
+Victims
+☐ The Office of Public Counsel for the
+Defence
+☒ States’ Representatives
+State of Israel
+State of Palestine
+REGISTRY
+☐ Amicus Curiae
+Registrar
+Mr Osvaldo Zavala Giler
+☐ Counsel Support Section
+☐ Victims and Witnesses Unit ☐ Detention Section
+☐ Victims Participation and
+Reparations Section
+☐ Other
+ICC-01/18-457 16-07-2025 2/13 PT
+No. ICC-01/18 3/13 16 July 2025
+PRE-TRIAL CHAMBER I (the ‘Chamber’) of the International Criminal Court (the ‘Court’)
+hereby decides on the State of Israel’s (‘Israel’) request to withdraw, vacate or declare of no
+force or effect the warrants of arrest for Benjamin Netanyahu and Yoav Gallant and to suspend
+the investigation pursuant to article 19(7) of the Rome Statute (‘Statute’), filed by Israel on
+9 May 2025 (the ‘Request’).1
+I. PROCEDURAL HISTORY
+1. On 5 February 2021, Pre-Trial Chamber I, in a different composition, issued a decision
+on a request by the Prosecution2
+pursuant to article 19(3) of Statute, finding unanimously that
+the State of Palestine (‘Palestine’) is a State Party to the Statute and holding by majority, that,
+as a consequence, ‘Palestine qualifies as “[t]he State on the territory of which the conduct in
+question occurred”, for the purposes of article 12(2)(a) of the Statute’, and that ‘the Court’s
+territorial jurisdiction in the Situation in Palestine extends to the territories occupied by Israel
+since 1967, namely Gaza and the West Bank, including East Jerusalem (the ‘Article 19(3)
+Decision’)’.3
+2. On 3 March 2021, the Prosecutor publicly announced the initiation of an investigation
+into the Situation in Palestine, with respect to ‘crimes within the jurisdiction of the Court that
+are alleged to have been committed in the Situation since 13 June 2014’.4
+3. On 20 May 2024, the Prosecutor publicly announced the filing of applications for
+warrants of arrest in the Situation in Palestine against five individuals, including Mr Netanyahu
+and Mr Gallant.5
+1
+Request to Have Arrest Warrants Withdrawn or Vacated and Response to Prosecution Observation dated 5 May
+2025, ICC-01/18-426.
+2
+Prosecution’s request pursuant to article 19(3) for a ruling on the Court’s territorial jurisdiction in Palestine,
+ICC-01/18-12.
+3
+Decision on the ‘Prosecution request pursuant to article 19(3) for a ruling on the Court’s territorial jurisdiction
+in Palestine’, ICC-01/18-143.
+4
+Office of the Prosecutor, Statement of the ICC Prosecutor, Fatou Bensouda, respecting an investigation of the
+Situation in Palestine, 3 March 2021.
+5
+Office of the Prosecutor, Statement of ICC Prosecutor Karim A.A. Khan K.C.: Applications for arrest warrants
+in the situation in the State of Palestine, 20 May 2024.
+ICC-01/18-457 16-07-2025 3/13 PT
+No. ICC-01/18 4/13 16 July 2025
+4. On 23 September 2024, Israel filed before the Chamber ‘Israel’s challenge to the
+jurisdiction of the Court pursuant to article 19(2) of the Rome Statute’ (‘Israel’s Jurisdiction
+Challenge’).6
+5. On 21 November 2024, the Chamber issued a decision rejecting Israel’s Jurisdiction
+Challenge as premature (the ‘Article 19(2) Decision’).7
+On the same day, the Chamber issued
+three warrants of arrest, including warrants for Mr Netanyahu and Mr Gallant (the
+‘Warrants’).8
+6. On 27 November 2024, Israel filed a notice of appeal against the Article 19(2) Decision
+before the Appeals Chamber pursuant to article 82(1)(a) of the Statute (the ‘Notice of Appeal’)9
+in which it asked the Appeals Chamber to give suspensive effect to the appeal pursuant to
+article 82(3) of the Statute and to suspend the Warrants.10
+7. On 13 December 2024, Israel filed its appeal brief, in which it asked the Appeals
+Chamber to (i) find that Israel had standing to challenge the Court’s jurisdiction pursuant to
+article 19(2)(c) of the Statute prior to the issuance of the Warrants; (ii) remit Israel’s
+Jurisdiction Challenge to the Pre-Trial Chamber; and (iii) declare that the Warrants were
+erroneously issued because the Chamber had failed to provide a substantive determination on
+the merits of Israel’s Jurisdiction Challenge and were therefore null and void (‘Israel’s Appeal
+Brief’).11
+8. On 24 April 2025, the Appeals Chamber issued its judgment on Israel’s appeal against
+the Article 19(2) Decision (the ‘Judgment’).12
+The Appeals Chamber reversed the Article 19(2)
+6
+Israel’s challenge to the jurisdiction of the Court pursuant to article 19(2) of the Rome Statute, ICC-01/18-354-
+AnxII-Corr.
+7
+Decision on Israel’s challenge to the jurisdiction of the Court pursuant to article 19(2) of the Rome Statute, ICC-
+01/18-374.
+8
+ICC-01/18-376-SECRET; ICC-01/18-377-SECRET; ICC-01/18-378-SECRET. The issuance of the arrest
+warrants was made public on the same day. See Press Release – Situation in the State of Palestine: ICC Pre-Trial
+Chamber I rejects the State of Israel’s challenges to jurisdiction and issues warrants of arrest for Benjamin
+Netanyahu and Yoav Gallant.
+9
+Notice of Appeal of “Decision on Israel’s challenge to the jurisdiction of the Court pursuant to article 19(2) of
+the Rome Statute” (ICC-01/18-374), ICC-01/18-386.
+10
+Notice of Appeal, paras 5 and 29-37.
+11
+Appeal of ‘Decision on Israel’s challenge to the jurisdiction of the Court pursuant to article 19(2) of the Rome
+Statute’, ICC-01/18-402.
+12
+Judgment on the appeal of the State of Israel against Pre-Trial Chamber I’s “Decision on Israel’s challenge to
+the jurisdiction of the Court pursuant to article 19(2) of the Rome Statute”, ICC-01/18-422.
+ICC-01/18-457 16-07-2025 4/13 PT
+No. ICC-01/18 5/13 16 July 2025
+Decision for insufficient reasoning and remanded the matter to the Chamber for it to rule on
+the substance of the jurisdictional challenge.13
+The Appeals Chamber dismissed Israel’s request
+for suspensive effect of the arrest warrants as moot.14
+9. On 9 May 2025, Israel filed the Request, asking the Chamber to, inter alia (i) withdraw,
+vacate or declare the Warrants of no force or effect; and (ii) declare that the Prosecution must
+suspend its investigation into the Situation in Palestine.15
+10. On 21 May 2025, the Prosecution responded to the Request (the ‘Response’).16
+11. On 28 May 2025, the Chamber issued the ‘Decision on the conduct of proceedings and
+other procedural matters related to “Israel’s challenge to the jurisdiction of the Court pursuant
+to article 19(2) of the Rome Statute”’, in which it set out the schedule for submissions by the
+Prosecution, victims and Israel (the ‘Decision on Conduct of Proceedings’).17
+12. On 27 June 2025, Palestine filed its observations in relation to Israel’s Jurisdiction
+Challenge, in which it, inter alia, requested to be heard in relation to the Request (‘Palestine’s
+Observations’). 18
+II. PRELIMINARY MATTER
+13. The Chamber has considered Palestine’s application to be heard in relation to the
+Request. Palestine argues that, as the referral and territorial State, it has a legitimate interest in
+the outcome of the Request as well as the impact, if any, on its continuing cooperation and
+support of the Prosecution’s investigation of crimes arising from the Situation. Palestine states
+that it would provide ‘the necessary factual context in which to determine the legality or
+viability of [the Request].’19
+13
+Judgment, para. 64.
+14
+Judgment, para. 66.
+15
+Request to Have Warrants Withdrawn or Vacated and Response to Prosecution Observations dated 5 May 2025,
+ICC-01/18-426.
+16
+Prosecution’s response to Israel’s “Request to Have Warrants Withdrawn or Vacated and Response to
+Prosecution Observations dated 5 May 2025”, ICC-01/18-431.
+17
+ICC-01-18-435.
+18
+The State of Palestine’s Observations on Israel’s Request (ICC-01/18-354-AnxII-Corr), ICC-01/18-452, para.
+20.
+19
+Palestine’s Observations, para. 20.
+ICC-01/18-457 16-07-2025 5/13 PT
+No. ICC-01/18 6/13 16 July 2025
+14. The Chamber considers that it is sufficiently briefed on this matter and that it does not
+require additional information regarding the factual context. Under these circumstances, the
+Chamber does not consider it necessary to receive Palestine’s submissions before ruling on the
+Request.
+III. DETERMINATION
+15. In the Request, Israel makes two separate requests. First, Israel asks the Chamber to
+withdraw, vacate or declare the Warrants of no force or effect. It supports this request with
+three arguments: (i) Israel alleges that there was no valid jurisdictional finding to support the
+issuance of the Warrants; (ii) Israel claims that the issuance of the Warrants violates the
+internationally recognised human rights of the suspects; and (iii) Israel claims that the issuance
+of the Warrants induces States Parties to commit internationally wrongful acts vis-à-vis Israel.
+Second, Israel asks the Chamber to declare that the ‘Prosecution must suspend its investigation
+into the Situation in Palestine until the Court has given a substantive ruling on Israel’s article
+19 Jurisdiction Challenge’.20
+The Chamber will deal with the two requests in that order.
+16. Before entering into the analysis, however, the Chamber emphasises that the present
+ruling is limited to resolving Israel’s request to vacate the Warrants and suspend the
+Prosecution’s investigation. It does not prejudge the question of Israel’s standing to challenge
+the Court’s jurisdiction and, even less so, the merits of Israel’s arguments relating to the Court’s
+jurisdiction over Israeli nationals. These issues will be addressed by the Chamber when it rules,
+as directed by the Appeals Chamber, on the substance of Israel’s Jurisdiction Challenge.
+A. Israel’s request to withdraw, vacate or declare the Warrants of no force of
+effect
+17. Pursuant to article 58(4) of the Statute, once issued, warrants of arrest shall remain in
+effect until decided otherwise by the Court. The issue before the Chamber is whether the
+Chamber’s legal and factual findings in the Warrants have been in any way affected by the
+Appeals Chamber’s Judgement to reverse and remand the Article 19(2) Decision and should
+therefore, as argued by Israel, be withdrawn, vacated or declared to have no force or effect.
+20
+Request, para. 40.
+ICC-01/18-457 16-07-2025 6/13 PT
+No. ICC-01/18 7/13 16 July 2025
+1. Impact of the Appeals Chamber’s Judgment on the jurisdictional
+findings in the Warrants
+18. The Chamber agrees with Israel that a determination that a case falls within the Court’s
+jurisdiction is a prerequisite for the issuance of a warrant of arrest.21
+This determination
+requires an assessment of the material, temporal, and territorial elements of a case.22
+The
+Chamber made this determination in the Warrants, as required by article 19(1) and article
+58(1)(a) of the Statute, and satisfied itself that the alleged conduct of the suspects falls within
+the jurisdiction of the Court. In particular, on the question of jurisdiction, the Chamber made
+an explicit finding that the Court has jurisdiction ratione materiae, ratione loci, and ratione
+temporis. The Warrants therefore do contain the required jurisdictional finding. The question
+is whether, as argued by Israel, this finding has been invalidated as a result of the Appeals
+Chamber’s reversal of the Article 19(2) Decision.
+19. Israel claims that the Appeals Chamber’s reversal of the Article 19(2) Decision
+‘eliminate[d] the Pre-Trial Chamber decision that was the predicate for the jurisdictional
+finding in the [Warrants]’.23
+This argument is unfounded.
+20. First, the Article 19(2) Decision, which is the only decision overturned by the Appeals
+Chamber, did not constitute ‘the predicate for the jurisdictional findings in the Warrants’.
+Indeed, the Article 19(2) Decision was restricted to the issue of the appropriate timing for Israel
+to make a jurisdictional challenge. In particular, the Chamber had to decide whether or not
+Israel’s Jurisdiction Challenge was admissible before any warrant of arrest or summons was
+issued. The Chamber’s reasoning was limited to answering this question, which the Chamber
+resolved by finding Israel’s Jurisdiction Challenge to be premature. The Chamber did not
+discuss the substance of Israel’s Jurisdiction Challenge and it made no jurisdictional findings
+regarding the cases against Mr Netanyahu and Mr Gallant in the Article 19(2) Decision.
+21
+Request, paras 17-19.
+22
+See, for example, Pre-Trial Chamber I, The Prosecutor v. Thomas Lubanga Dyilo, Decision on the Prosecutor’s
+Application for a warrant of arrest, Article 58, 10 February, 2006, ICC-01/04-01/06-1-Corr-Red, para. 18; Pre-
+Trial Chamber I, The Prosecutor v. Bosco Ntaganda, Decision on the Prosecution Application for a Warrant of
+Arrest, 6 March 2007, ICC-01/04-02/06-1-Red-tENG, para. 23; Pre-Trial Chamber I, The Prosecutor v. Ahmad
+Muhammad Harun (“Ahmad Harun”) and Ali Muhammad Ali Abd-al-Rahman (“Ali Kushayb”), Decision on the
+Prosecution Application under Article 58(7) of the Statute, 27 April 2007, ICC-02/05-01/07-1-Corr, para. 13.
+23
+Request, para. 20. See also para. 24 (‘The Appeals Chamber’s Judgment has now reversed the Pre-Trial
+Chamber decision that was the basis for [the condition precedent to the issuance of an arrest warrant].’).
+ICC-01/18-457 16-07-2025 7/13 PT
+No. ICC-01/18 8/13 16 July 2025
+21. Second, insofar as Israel suggests that the Appeals Chamber’s Judgment restricted the
+Chamber’s ability to adopt the reasoning of the majority in the Article 19(3) Decision for the
+purpose of ascertaining jurisdiction in the Warrants, this argument must also be rejected.
+22. It is incorrect to suggest that the Appeals Chamber invalidated the Article 19(3)
+Decision or found that it was inappropriate for the Chamber to adopt the argumentation
+contained therein as part of its jurisdictional findings in the Warrants. The Appeals Chamber
+did not make any findings, directly or indirectly, on the validity or otherwise of the Article
+19(3) Decision. The Appeals Chamber decided to remand the Article 19(2) Decision solely on
+the basis of the first sub-ground of Israel’s first ground of appeal, relating to Israel’s standing
+pursuant to article 19(2)(c) of the Statute.24
+23. It is also impossible to read the Appeals Chamber’s Judgment as implicitly invalidating
+the jurisdictional findings contained in the Warrants. In fact, the Appeals Chamber explicitly
+held that the Warrants were issued separately from the Article 19(2) Decision and that they
+could not be considered to be based on or to be ‘inextricably connected’ to the Article 19(2)
+Decision.25
+24. Finally, there is also nothing to suggest that the Appeals Chamber considered that the
+Chamber was obliged to rule on Israel’s Jurisdiction Challenge before ruling on the
+applications for the arrest warrants. Although the issue of the timing of jurisdictional challenges
+based on article 19(2)(c) of the Statute was one of the central points of contention in Israel’s
+appeal,26
+the Appeals Chamber specifically declined to address this issue in its Judgment.27
+Moreover, in the context of discussing appropriate relief, the Appeals Chamber, after explicitly
+noting the issuance of the arrest warrants against Israeli nationals,28
+directed the Chamber to
+‘rule on the substance of the jurisdictional challenge […] [and] to determine the applicable
+legal basis for addressing Israel’s Jurisdiction Challenge under article 19(2) of the Statute at
+24
+Judgment, paras 55-56 and 65. Specifically, the legal error identified by the Appeals Chamber was that the
+Chamber had failed to ‘sufficiently direct itself to the relevant submissions before it in respect of the particular
+legal basis underpinning the challenge to the jurisdiction of the Court. […] Had the Pre-Trial Chamber had
+sufficient regard to the central contention before it, it would have had to directly and specifically address Israel’s
+standing under article 19(2)(c) of the Statute.’ Judgment, paras 61-62 (emphasis added).
+25
+Judgment, para. 66.
+26
+See, in particular, Israel’s Third ground of appeal, Israel’s Appeal Brief, paras 4.C, 53-69.
+27
+Judgment, para. 65.
+28
+Judgment, para. 63.
+ICC-01/18-457 16-07-2025 8/13 PT
+No. ICC-01/18 9/13 16 July 2025
+the present stage of proceedings’.29
+If the Appeals Chamber had considered that it was an error
+to issue the Warrants before ruling on Israel’s Jurisdiction Challenge, it would have given
+different instructions. Instead, the Appeals Chamber acknowledged the issue of the timing of
+the jurisdictional challenge, but concluded that the proceedings had moved on and remanded
+the matter to the Chamber for it to rule on the substance of the jurisdictional challenge.
+25. Israel’s Jurisdiction Challenge is thus currently pending before the Chamber. It is
+inherent in the nature of jurisdictional challenges that they may result in the overturning of a
+prior ascertainment of jurisdiction. Until there is such a ruling, however, the prior
+ascertainment of jurisdiction remains valid.
+2. Alleged violation of human rights
+26. In relation to Israel’s argument that enforcing the Warrants would violate the suspects’
+human rights by illegally depriving them of their liberty,30
+the Chamber notes that this
+argument is premised on Israel’s claim that there is no valid jurisdictional finding in the
+Warrants. As the Chamber explained above, this assertion is incorrect and the argument is
+therefore rejected.
+3. Alleged inducement of international wrongful acts
+27. Israel also argues that asking States to execute the Warrants would induce the requested
+States to violate their obligations under public international law vis-à-vis Israel.31
+The Chamber
+observes that this argument, even if accepted, could not have any bearing on the validity of the
+Warrants under the Statute, but only their enforcement. In this regard the Chamber notes that
+articles 97 and 98 of the Statute set out the relevant procedural avenues for the requested States
+to raise any such arguments. To the extent that a requested State may consider that executing
+the Warrants might cause it to breach its international obligations vis-à-vis Israel, it may raise
+this at the earliest possibility by either initiating consultations pursuant to article 97(c) of the
+Statute or providing information pursuant to rule 195 of the Rules of Procedure and Evidence
+(the ‘Rules’). Furthermore, rule 195 of the Rules expressly entitles concerned third States to
+submit additional information to assist the Court in resolving such conflicts once they arise.
+29
+Judgment, para. 64 (emphasis added).
+30
+Request, para. 26.
+31
+Request, para. 27.
+ICC-01/18-457 16-07-2025 9/13 PT
+No. ICC-01/18 10/13 16 July 2025
+28. In conclusion, the Chamber finds that the Appeals Chamber’s Judgment did not impact
+the jurisdictional findings contained in the Warrants and there is no legal basis for withdrawing,
+vacating, or declaring them of no force or effect at this point in time. The impact of Israel’s
+Jurisdiction Challenge on the Warrants, if any, is something that can only be determined when
+the Chamber will have ruled on the substance thereof.32
+B. Israel’s request to suspend the investigation
+29. Israel asks the Chamber to ‘declare’ that article 19(7) of the Statute applies to
+challenges to jurisdiction and that the Prosecution is therefore obliged to suspend its
+investigation into the Situation in Palestine until the Chamber has ruled on Israel’s Jurisdiction
+Challenge.33
+30. Article 19(7) of the Statute reads: ‘If a challenge is made by a State referred to in
+paragraph 2(b) or (c), the Prosecutor shall suspend the investigation until such time as the Court
+makes a determination in accordance with article 17’.
+31. The Chamber finds that the ordinary meaning of the provision, specifically the inclusion
+of the clause ‘determination in accordance with article 17’ indicates that suspension of
+investigation pursuant to article 19(7) is limited to instances where a State has made a challenge
+in respect of admissibility. This is because article 17 of the Statute, entitled ‘Issues of
+admissibility’, is limited to circumstances affecting admissibility of cases, not jurisdiction. In
+accordance with the rules of textual interpretation, no clause, sentence or word in a provision
+must be construed to be superfluous or insignificant. The Chamber considers that, had the
+drafters intended for article 19(7) of the Statute to also encompass jurisdictional challenges,
+there would have been no reason to include the reference to article 17.
+32. The Chamber notes that the reference to article 19(2)(c) in article 19(7) of the Statute
+could give the impression that also jurisdictional challenges should lead to suspension of the
+investigation, since article 19(2)(c) of the Statute gives States the right to challenge both
+jurisdiction and admissibility. However, considering the wording of article 19(7) of the Statute
+as a whole, specifically its reference to article 17 of the Statute, it is clear that only the latter
+32
+See also Judgment, para. 66.
+33
+Request, paras. 30-32, 40.
+ICC-01/18-457 16-07-2025 10/13 PT
+No. ICC-01/18 11/13 16 July 2025
+(i.e. an admissibility challenge) could lead to the suspension of the investigation. The reference
+to article 19(2)(c) was included in article 19(7) of the Statute because, like article 19(2)(b) of
+the Statute, it enables a State to raise an admissibility challenge and not because the drafters
+intended to accord suspensive effect also to jurisdictional challenges.34
+A different reading
+would lead to absurd results as it would require the Court, after rejecting a jurisdictional
+challenge, to also rule on admissibility, even when no such challenge was raised and no
+submissions were received, just to lift the suspension of the investigation.
+33. The interpretation that suspension of investigation pursuant to article 19(7) is limited
+to admissibility challenges is further confirmed by analysing article 19(7) in the context of the
+Court’s jurisdiction and complementarity regimes, which reveals significant differences
+between the two. First, according to article 19(1) of the Statute, the Court must satisfy itself at
+all times that it has jurisdiction. There should thus, in principle, be no risk that the Court will
+act without having ascertained jurisdiction. By contrast, the Court is not required to consider
+admissibility issues proprio motu and should only exercise its discretion when this is
+appropriate in the circumstances of the case.35
+When a State challenges admissibility, it may
+thus be the first time that the Court is addressing the admissibility of a case.
+34. Second, another important distinction between the two types of challenges is that the
+factual and legal basis for the Court’s ascertainment of jurisdiction is generally static. By
+contrast, the implementation of the complementarity principle depends on the intention and
+acts of States and is much more dynamic. An admissibility challenge will likely provide the
+Court with new information that was previously not available to it. It is also quite possible that,
+when the Court commences an investigation or prosecution, the case is admissible but that the
+subsequent actions of a State change this status.36
+34
+See John T. Holmes, ‘The Principle of Complementarity’, in Roy S. Lee, (ed.), The International Criminal
+Court – The Making of the Rome Statute, (1999), Kluwer Law International, p. 67. Holmes, who acted as the
+coordinator on this topic during the Rome Conference, suggests that article 19(2)(c) was added during the Rome
+Conference to allow States to invoke the complementarity principle even if they themselves are not investigating
+the case.
+35
+Appeals Chamber, Situation in the Democratic Republic of the Congo, Judgment on the Prosecutor’s appeal
+against the decision of Pre-Trial Chamber I entitled ‘Decision on the Prosecutor’s Application for Warrants of
+Arrest, Article 58’, 13 July 2006, ICC-01/04-169, para. 2.
+36
+This is confirmed by article 18(7) of the Statute.
+ICC-01/18-457 16-07-2025 11/13 PT
+No. ICC-01/18 12/13 16 July 2025
+35. Moreover, when a State challenges admissibility, it does so on the basis of the claim
+that it is itself investigating or prosecuting the case. Until the question of admissibility is
+resolved, there will thus be two parallel investigations or prosecutions: one before the Court
+and one before the national authorities. In accordance with the complementary principle,37
+and
+to avoid competing proceedings in the same case, the Statute accords deference to the national
+proceedings during the period when the Court is considering an admissibility challenge, as
+reflected not just in article 19(7) but also, for example, in articles 18(2) and 95 of the Statute.
+36. The Chamber further notes that Israel’s reference to draft article 54(3) of the
+Preparatory Committee’s Report to the Rome Conference does not support its argument.
+Article 54(3) of the Preparatory Committee’s Draft Statute contained a reference to challenges
+under what was then article 15 which was titled ‘issues of admissibility’ and made no reference
+to jurisdictional challenges.38
+Moreover, the Chamber notes that the commentator cited by
+Israel in support of this argument in fact explicitly rejects the application of article 19(7) to
+jurisdictional challenges by States.39
+As regards Israel’s reliance on a decision by Pre-Trial
+Chamber II in 2011 to support the proposition that article 19(7) of the Statute also applies to
+jurisdictional challenges,40
+the Chamber observes that the passage referred to is an obiter
+dictum that was made in a different context.41
+It does not offer persuasive authority, let alone
+binding precedent in this regard. Furthermore, even if this decision were authoritative, it is
+important to note that the respective Chamber also held that article 19(7) of the Statute only
+affects the Prosecution’s investigations, not any ongoing prosecutions.42
+37
+See Preamble, para. 10.
+38
+Report of the Preparatory Committee on the Establishment of an International Criminal Court, Vol. II., 1998,
+A/CONF.183/2/Add.1, pp. 40 and 75.
+39
+Jo Stigen, The Relationship Between the International Criminal Court and National Jurisdictions: The Principle
+of Complementarity, 2008, Martinus Nijhoff, p. 169, note 564. (‘[a] challenge to the jurisdiction is not given a
+suspensive effect. An ICC investigation which duplicates a genuine national proceeding is arguably more intrusive
+on state sovereignty than an investigation without a valid jurisdictional basis, since the former might also
+compromise the national proceedings.’ ((emphasis added)). Similarly, Nsereko/Ventura, ‘Article 19’ in Kai
+Ambos, ed., The Rome Statute of the International Criminal Court – Article-by-Article Commentary, 4th
+ed., 2022,
+p. 1080.
+40
+Request, para. 32.
+41
+Pre-Trial Chamber II, The Prosecutor v. William Samoei Ruto, Henry Kiprono Kosgey and Joshua Arap Sang,
+Decision on the ‘Prosecution’s application requesting disclosure after a final resolution of the Government of
+Kenya’s admissibility challenge’ and Establishing a Calendar for Disclosure Between the Parties, 20 April 2011,
+ICC-01/09-01/11-62, para. 18.
+42
+Pre-Trial Chamber II, The Prosecutor v. William Samoei Ruto, Henry Kiprono Kosgey and Joshua Arap Sang,
+Decision on the ‘Prosecution’s application requesting disclosure after a final resolution of the Government of
+Kenya’s admissibility challenge’ and Establishing a Calendar for Disclosure Between the Parties, 20 April 2011,
+ICC-01/09-01/11-62, paras 8-9.
+ICC-01/18-457 16-07-2025 12/13 PT
+No. ICC-01/18 13/13 16 July 2025
+37. In conclusion, the Chamber finds that the suspension of investigation pursuant to article
+19(7) of the Statute can only result from a State challenging the admissibility of a case. Since
+Israel has not challenged admissibility, the Chamber rejects Israel’s request to declare that the
+Prosecution must suspend its investigation into the cases against Mr Netanyahu and
+Mr Gallant, let alone the Situation as a whole.
+FOR THESE REASONS, THE CHAMBER HEREBY
+REJECTS Palestine’s request to make submissions in relation to the Request; and
+REJECTS the Request.
+Done in English. A French translation will follow. The English version remains authoritative.
+_____________________________
+Judge Nicolas Guillou
+Presiding Judge
+_____________________________
+Judge Reine Adélaïde Sophie
+Alapini-Gansou
+_____________________________
+Judge Beti Hohler
+Dated this Wednesday, 16 July 2025
+At The Hague, The Netherlands
+ICC-01/18-457 16-07-2025 13/13 PT
+

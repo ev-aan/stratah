@@ -1,0 +1,1805 @@
+# pdftotext -raw extract of ICC court record ICC-01-18-481 (0902ebd180d42b7d.pdf).
+
+No: ICC-01/18 OA3 1/44
+Original: English No. ICC-01/18 OA3
+Date: 15 December 2025
+THE APPEALS CHAMBER
+Before: Judge Tomoko Akane, Presiding
+Judge Luz del Carmen Ibáñez Carranza
+Judge Solomy Balungi Bossa
+Judge Gocha Lordkipanidze
+Judge Erdenebalsuren Damdin
+SITUATION IN THE STATE OF PALESTINE
+Public document
+Judgment
+on the appeal of the State of Israel against Pre-Trial Chamber I’s “Decision on
+Israel’s request for an order to the Prosecution to give an Article 18(1) notice”
+ICC-01/18-481 15-12-2025 1/44 PT OA3
+No: ICC-01/18 OA3 2/44
+Judgment to be notified in accordance with regulation 31 of the Regulations of the
+Court to:
+☒ The Office of the Prosecutor ☐ Counsel for the Defence
+☐ Legal Representatives of the Victims ☐ Legal Representatives of the Applicants
+☐ Unrepresented Victims ☐ Unrepresented Applicants
+(Participation/Reparation)
+☐ The Office of Public Counsel
+for Victims
+☐ The Office of Public Counsel
+for the Defence
+☒ States’ Representatives ☐ Amicus Curiae
+REGISTRY
+Registrar
+Mr Osvaldo Zavala Giler
+☐ Counsel Support Section
+☐ Victims and Witnesses Unit ☐ Detention Section
+☐ Victims Participation
+and Reparations Section
+☒ Other
+Pre-Trial Chamber I
+ICC-01/18-481 15-12-2025 2/44 PT OA3
+No: ICC-01/18 OA3 3/44
+The Appeals Chamber of the International Criminal Court,
+In the appeal of the State of Israel against the decision of Pre-Trial Chamber I entitled
+“Decision on Israel’s request for an order to the Prosecution to give an Article 18(1)
+notice” of 21 November 2024 (ICC-01/18-375),
+After deliberation,
+By majority, Judge Luz del Carmen Ibáñez Carranza and Judge Solomy Balungi Bossa
+dissenting,
+Delivers the following
+JUDGMENT
+Pre-Trial Chamber I’s “Decision on Israel’s request for an order to the
+Prosecution to give an Article 18(1) notice” of 21 November 2024 (ICC-01/18-
+375) is confirmed.
+REASONS
+I. PROCEDURAL HISTORY
+A. Proceedings before the Pre-Trial Chamber
+1. On 22 May 2018, pursuant to articles 13(a) and 14 of the Rome Statute
+(hereinafter: “Statute”), the State of Palestine (hereinafter: “Palestine”) referred to the
+Prosecutor the situation related to “past, ongoing and future crimes within the court’s
+jurisdiction, committed in all parts of the territory of the State of Palestine” (hereinafter:
+“2018 Referral” and “Palestine Situation”).1
+1
+Annex I to Decision assigning the situation in the State of Palestine to Pre-Trial Chamber I,
+24 May 2018, ICC-01/18-1-AnxI, para. 9.
+ICC-01/18-481 15-12-2025 3/44 PT OA3
+No: ICC-01/18 OA3 4/44
+2. On 3 March 2021, the Prosecutor announced the initiation of an investigation in
+the Palestine Situation with respect to “crimes within the jurisdiction of the Court that
+are alleged to have been committed in the Situation since 13 June 2014”.2
+3. On 9 March 2021, the Prosecutor provided notice, pursuant to article 18(1) of the
+Statute, of the initiation of the investigation to all States Parties and other States that
+would normally exercise jurisdiction, including the State of Israel (hereinafter: “Israel”
+and “Article 18(1) Notification”).3
+4. On 8 April 2021, Israel sent a letter to the Prosecutor indicating its “firm […]
+view that the Court manifestly lacks jurisdiction” and that Israel’s “robust legal system
+[…] has and will continue to examine and investigate rigorously all allegations of
+misconduct or crimes” (hereinafter: “8 April 2021 Letter”).4
+5. On 9 April 2021, the Prosecutor sought clarification from Israel as to whether it
+intended to trigger the application of article 18(2) of the Statute
+(hereinafter: “2021 Clarification Request”).5
+6. On 26 April 2021, Israel reiterated “its principled position that the Court
+manifestly lacks jurisdiction” and indicated that it “will continue to examine and
+investigate rigorously all allegations of misconduct or crimes” (hereinafter:
+“26 April 2021 Letter”).6
+7. On 17 November 2023, five States Parties to the Statute submitted a referral,
+pursuant to articles 13(a) and 14 of the Statute (hereinafter: “2023 Referral”).7
+Upon
+2
+Office of the Prosecutor, Statement of ICC Prosecutor, Fatou Bensouda, respecting an investigation of
+the Situation in Palestine.
+3
+Annex A to Prosecution response to Israel’s “Appeal of ‘Decision on Israel’s request for an order to the
+Prosecution to give an article 18(1) notice’ (ICC-01/18-375)”, 9 June 2025, ICC-01/18-440-Conf-AnxA.
+The Appeals Chamber notes that this document is classified as confidential, but it considers that any
+excerpts therefrom as set out in the present Judgment do not undermine this classification.
+4
+Annex B to Prosecution response to Israel’s “Appeal of ‘Decision on Israel’s request for an order to the
+Prosecution to give an article 18(1) notice’ (ICC-01/18-375)”, 9 June 2025, ICC-01/18-440-Conf-AnxB,
+pp. 2-3 (hereinafter: “Annex B to Prosecutor’s Response”).
+5
+Annex B to Prosecutor’s Response, pp. 4-6.
+6
+Annex B to Prosecutor’s Response, p. 7.
+7
+States Parties referral of 17 November 2023. The referral was submitted by the Republic of South
+Africa, the People’s Republic of Bangladesh, the Plurinational State of Bolivia, the Union of the
+Comoros, and the Republic of Djibouti.
+ICC-01/18-481 15-12-2025 4/44 PT OA3
+No: ICC-01/18 OA3 5/44
+receipt of the referral, the Prosecutor confirmed that he was conducting an investigation
+in the Palestine Situation.8
+8. On 18 January 2024, two States Parties to the Statute submitted an additional
+referral pursuant to article 14(1) of the Statute (hereinafter: “2024 Referral”).9
+9. On 1 May 2024, Israel sent a letter to the Prosecutor, requesting him to “defer
+any investigation [his office] may be conducting in relation to any alleged criminal acts
+attributed to Israeli nationals or others within Israel’s jurisdiction, in favour of Israel’s
+processes for review, examination, investigation and proceedings under its national
+legal system” (hereinafter: “Deferral Request”).10
+10. On 7 May 2024, the Prosecutor responded to the Deferral Request, indicating
+that, having “expressly declined to make an application for deferral of the investigation
+within the prescribed time limit”, Israel has “no standing now, under the Statute, to
+make such an application”.11
+11. On 20 May 2024, the Prosecutor publicly announced that he would be filing
+applications for warrants of arrest against, among others, Israeli nationals for their
+alleged responsibility for “war crimes and crimes against humanity committed on the
+territory of the State of Palestine (in the Gaza strip) from at least 8 October 2023”.12
+12. On 23 September 2024, Israel submitted before Pre-Trial Chamber I
+(hereinafter: “Pre-Trial Chamber”) a request for an order to “the Prosecutor to give an
+article 18(1) notice setting out the new defining parameters of his investigation in this
+Situation, or in any other Situation that has now been constituted as a result of the two
+referrals made by a total of seven States Parties following 7 October 2023” (hereinafter:
+“Article 18 Request”).13
+8
+Office of the Prosecutor, Statement of the Prosecutor of the International Criminal Court, Karim A.A.
+Khan KC, on the Situation in the State of Palestine: receipt of a referral from five States Parties.
+9
+States Parties referral of 18 January 2024. The referral was submitted by the Republic of Chile and the
+United Mexican States.
+10
+Annex B to Prosecutor’s Response, pp. 8-12.
+11
+Annex B to Prosecutor’s Response, pp. 13-14.
+12
+Office of the Prosecutor, Statement of ICC Prosecutor Karim A.A. Khan KC: Applications for arrest
+warrants in the situation in the State of Palestine.
+13
+Abridged Request for an Order Requiring an Article 18(1) Notice, and Staying Proceedings Pending
+Such a Notice, ICC-01/18-355-AnxI-Corr, para. 61.
+ICC-01/18-481 15-12-2025 5/44 PT OA3
+No: ICC-01/18 OA3 6/44
+13. On 21 November 2024, the Pre-Trial Chamber issued the “Decision on Israel’s
+request for an order to the Prosecution to give an Article 18(1) notice” (hereinafter:
+“Impugned Decision”), in which it rejected the Article 18 Request.14
+On the same day,
+the Pre-Trial Chamber issued warrants of arrest against, inter alia, two Israeli
+nationals.15
+14. On 27 November 2024, Israel filed its notice of appeal against the
+Impugned Decision (hereinafter: “Article 82(1)(a) Appeal”).16
+15. On the same day, Israel filed before the Pre-Trial Chamber a request for leave to
+appeal the Impugned Decision pursuant to article 82(1)(d) of the Statute.17
+16. On 24 April 2025, the Appeals Chamber, by majority, Judge Luz del Carmen
+Ibáñez Carranza and Judge Solomy Balungi Bossa dissenting, dismissed Israel’s
+Article 82(1)(a) Appeal as inadmissible.18
+17. On 14 May 2025, the Pre-Trial Chamber granted Israel’s request for leave to
+appeal on the following issue: “[w]hether the Pre-Trial Chamber erred in finding that
+no new situation had arisen, and that no substantial change had occurred in the
+parameters of the investigation into the [Palestine Situation], following 7 October
+2023” (hereinafter: “Leave to Appeal Decision”).19
+B. Proceedings before the Appeals Chamber
+18. On 26 May 2025, Israel filed its appeal brief (hereinafter: “Appeal Brief”).20
+14
+Impugned Decision, p. 9.
+15
+ICC Press Release, Situation in the State of Palestine: ICC Pre-Trial Chamber I rejects the State of
+Israel’s challenges to jurisdiction and issues warrants of arrest for Benjamin Netanyahu and Yoav
+Gallant.
+16
+Notice of Appeal of “Decision on Israel’s request for an order to the Prosecution to give an Article
+18(1) notice” (ICC-01/18-375), ICC-01/18-385.
+17
+Request for leave to appeal “Decision on Israel’s request for an order to the Prosecution to give an
+Article 18(1) notice, ICC-01/18-387.
+18
+Decision on the admissibility of the appeal of the State of Israel against Pre-Trial Chamber I’s
+“Decision on Israel’s request for an order to the Prosecution to give an Article 18(1) notice”, ICC-01/18-
+423.
+19
+Decision on Israel’s request for leave to appeal the ‘Decision on Israel’s request for an order to the
+Prosecution to give an Article 18(1) notice’, ICC-01/18-429.
+20
+Appeal of “Decision on Israel’s request for an order to the Prosecution to give an Article 18(1) notice”
+(ICC-01/18-375), ICC-01/18-434, with public Annex A, ICC-01/18-434-AnxA.
+ICC-01/18-481 15-12-2025 6/44 PT OA3
+No: ICC-01/18 OA3 7/44
+19. On 9 June 2025, the Prosecutor filed his response to the Appeal Brief
+(hereinafter: “Prosecutor’s Response”).21
+20. On 16 July 2025, having been granted leave by the Appeals Chamber,22
+Israel
+submitted its reply (hereinafter: “Reply”).23
+21. On 17 October 2025, the Appeals Chamber, by majority, Judge Luz del Carmen
+Ibáñez Carranza and Judge Solomy Balungi Bossa dissenting, rejected two requests for
+leave to submit observations in the current appeal filed by four teams of legal
+representatives of victims.24
+II. STANDARD OF REVIEW
+22. In the present appeal, Israel alleges that “[t]he [Pre-Trial Chamber]’s errors are
+primarily legal, as they involve the misinterpretation and misapplication of article 18
+and other statutory provisions, the appreciation of legal notifications provided under
+these provisions, and the legal characterization of the Prosecution’s post-7 October
+2023 investigations”.25
+23. Regarding errors of law, the Appeals Chamber has previously held that it:
+21
+Prosecution Response to Israel’s “Appeal of ‘Decision on Israel’s request for an order to the
+Prosecution to give an Article 18(1) notice’ (ICC-01/18-375)”, ICC-01/18-440, with confidential
+Annexes A-C.
+22
+Decision on request for leave to reply to Prosecution Response to Israel’s “Appeal of ‘Decision on
+Israel’s request for an order to the Prosecution to give an Article 18(1) notice’ (ICC-01/18-375)”, ICC-
+01/18-456. See also Request for leave to reply to Prosecution Response to Israel’s “Appeal of ‘Decision
+on Israel’s request for an order to the Prosecution to give an Article 18(1) notice’ (ICC-01/18-375)”,
+ICC-01/18-441.
+23
+Reply to Prosecution Response to Israel’s Appeal of “Decision on Israel’s request for an order to the
+Prosecution to give an Article 18(1) notice” (ICC-01/18-375), ICC-01/18-458.
+24
+Decision on victims’ requests to submit observations in the appeal against the “Decision on Israel’s
+request for an order to the Prosecution to give an Article 18(1) notice”, ICC-01/18-469. See also Registry
+Transmission of “Joint Victims’ Request to submit Observations in the appeal against the « Decision on
+Israel’s request for an order to the Prosecution to give an Article 18(1) notice » of 21 November 2024”,
+ICC-01/18-459, with public Annex I, ICC-01/18-459-AnxI; Registry Transmission of “Requête de
+représentants légaux de victimes de soumettre des observations dans le cadre de l’appel contre la
+“Decision on Israel’s request for an order to the Prosecution to give an Article 18(1) notice” (ICC-01/18-
+375)”, ICC-01/18-460, with public Annex I, ICC-01/18-460-AnxI.
+25
+Appeal Brief, para. 6.
+ICC-01/18-481 15-12-2025 7/44 PT OA3
+No: ICC-01/18 OA3 8/44
+will not defer to the relevant Chamber’s interpretation of the law, but will arrive
+at its own conclusions as to the appropriate law and determine whether or not the
+first instance Chamber misinterpreted the law.26
+24. If the relevant chamber committed such an error, the Appeals Chamber will only
+intervene if the error materially affected the decision impugned on appeal.27
+A decision
+is “materially affected by an error of law” if the chamber “would have rendered a
+[decision] that is substantially different from the decision that was affected by the error,
+if it had not made the error”.28
+25. The appellant is obliged to set out the alleged error in the appeal brief and
+“indicate, with sufficient precision, how [the] alleged error would have materially
+affected the impugned decision”.29
+26. The above standard of review will guide the analysis of the Appeals Chamber.
+III. RELEVANT PARTS OF THE IMPUGNED DECISION
+27. The Pre-Trial Chamber rejected the Article 18 Request on the basis that “the
+Prosecution complied with its statutory obligations when it provided Israel and other
+States with the [Article 18(1)] Notification” and it was satisfied that the Article 18(1)
+Notification was “sufficiently specific”.30
+In the view of the Pre-Trial Chamber, the
+Article 18(1) Notification contained all relevant information for the purposes of
+article 18(2) of the Statute, namely “the types of alleged crimes, potential alleged
+perpetrators, the starting point of the relevant timeframe, as well as a reference to
+26
+Appeals Chamber, Situation in the Republic of the Philippines, Judgment on the appeal of the Republic
+of the Philippines against Pre-Trial Chamber I’s “Authorisation pursuant to article 18(2) of the Statute
+to resume the investigation”, 18 July 2023, ICC-01/21-77 (OA) (hereinafter: “Philippines OA
+Judgment”), para. 35 and references therein.
+27
+Appeals Chamber, The Prosecutor v. Ali Muhammad Ali Abd-Al-Rahman (“Ali Kushayb”), Judgment
+on the appeal of Mr Ali Muhammad Ali Abd-Al-Rahman against the decision of Trial Chamber I of 17
+February 2023 entitled “Decision on the admissibility of video (DAR-OTP-0216-0119) and records of
+telephone calls (DAR-OTP-0216-0127, DAR-OTP-0216-0128)”, 28 June 2023, ICC-02/05-01/20-982
+(OA12) (hereinafter: “Abd-Al-Rahman OA12 Judgment”), para. 21 and references therein.
+28
+Abd-Al-Rahman OA12 Judgment, para. 21 and references therein.
+29
+Appeals Chamber, The Prosecutor v. Ali Muhammad Ali Abd-Al-Rahman (“Ali Kushayb”), Judgment
+on the appeal of Mr Abd-Al-Rahman against the Pre-Trial Chamber II’s “Decision on the Defence
+‘Exception d’incompétence’ (ICC-02/05-01/20-302)”, 1 November 2021, ICC-02/05-01/20-503 (OA8)
+(hereinafter: “Abd-Al-Rahman OA8 Judgment”), para. 14 and references therein.
+30
+Impugned Decision, para. 11.
+ICC-01/18-481 15-12-2025 8/44 PT OA3
+No: ICC-01/18 OA3 9/44
+further relevant information, including the summary of the Prosecution’s preliminary
+examination findings”.31
+28. The Pre-Trial Chamber also found that, despite the 2021 Clarification Request,
+“Israel did not proceed to request a deferral under article 18(2) of the Statute” and
+“merely repeated its previous arguments”.32
+Therefore, the Pre-Trial Chamber
+concluded that the 8 April 2021 Letter and the 26 April 2021 Letter “did not constitute
+a deferral request under article 18(2) of the Statute”.33
+The Pre-Trial Chamber further
+determined that “the statutory time limit [of one month] had passed in April 2021
+without Israel having requested a deferral under article 18(2) of the Statute”.34
+29. In addition, the Pre-Trial Chamber underlined that filing the Article 18 Request
+after the Prosecutor had announced the requests for warrants of arrest and three years
+after the time limit had passed “appears to go against the very object and purpose of the
+statutory complementarity framework”.35
+The Pre-Trial Chamber further found that the
+time limit set in article 18(2) of the Statute serves “to allow for complementarity-related
+admissibility challenges to be brought at the initial stage of the investigation and not at
+a point in time when the investigation has substantially advanced”.36
+30. The Pre-Trial Chamber also indicated that it was not persuaded by Israel’s
+argument that “a new situation” or an “investigation with new ‘defining parameters’”
+had arisen.37
+It noted that the Article 18(1) Notification “indicated that the investigation
+concerned alleged crimes in the context of an international armed conflict, Israel’s
+alleged conduct in the context of an occupation, and a non-international armed conflict
+between Hamas and Israel”.38
+The Pre-Trial Chamber concluded that no substantial
+change to the parameters of the investigation requiring new notification had occurred,
+as the Prosecutor now “alleges conduct committed in the context of the same type of
+31
+Impugned Decision, para. 11.
+32
+Impugned Decision, para. 12 (emphasis in original).
+33
+Impugned Decision, para. 12.
+34
+Impugned Decision, para. 13.
+35
+Impugned Decision, para. 14.
+36
+Impugned Decision, para. 14.
+37
+Impugned Decision, para. 15.
+38
+Impugned Decision, para. 15.
+ICC-01/18-481 15-12-2025 9/44 PT OA3
+No: ICC-01/18 OA3 10/44
+armed conflicts, concerning the same territories, with the same alleged parties to these
+conflicts”.39
+31. Lastly, the Pre-Trial Chamber noted that its conclusions “do not impact, in any
+way, on the ability of States, including Israel, to raise issues of admissibility for cases”
+under article 19(2)(b) of the Statute “‘on the ground that it is investigating or
+prosecuting or has investigated or prosecuted’ the respective case”.40
+IV. MERITS
+32. At the outset, the Appeals Chamber recalls that the only issue on appeal is
+“[w]hether the Pre-Trial Chamber erred in finding that no new situation had arisen, and
+that no substantial change had occurred in the parameters of the investigation into the
+[Palestine Situation], following 7 October 2023”.41
+33. The Appeals Chamber recalls that, in the past, it has declined to consider grounds
+of appeal or arguments that went beyond the scope of the issue with respect to which
+leave to appeal was granted,42
+unless such arguments were “intrinsically linked” to the
+issue on appeal.43
+39
+Impugned Decision, para. 15.
+40
+Impugned Decision, para. 16.
+41
+Leave to Appeal Decision, paras 8, 17-20 and p. 8.
+42
+Appeals Chamber, The Prosecutor v. Laurent Koudou Gbagbo, Judgment on the appeal of the
+Prosecutor against the decision of Pre-Trial Chamber I of 3 June 2013 entitled “Decision adjourning the
+hearing on the confirmation of charges pursuant to article 61(7)(c)(i) of the Rome Statute”,
+16 December 2013, ICC-02/11-01/11-572 (OA5), paras 63-66; Appeals Chamber, The Prosecutor v.
+Thomas Lubanga Dyilo, Judgment on the appeal of the Prosecutor against the decision of Trial Chamber
+I of 8 July 2010 entitled “Decision on the Prosecution’s Urgent Request for Variation of the Time-Limit
+to Disclose the Identity of Intermediary 143 or Alternatively to Stay Proceedings Pending Further
+Consultation with the VWU”, 8 October 2010, ICC-01/04-01/06-2582 (OA18), para. 45; Appeals
+Chamber, The Prosecutor v. Joseph Kony et al., Judgment on the appeals of the Defence against the
+decisions entitled ‘Decision on victims’ applications for participation a/0010/06, a/0064/06 to a/0070/06,
+a/0081/06, a/0082/06, a/0084/06 to a/0089/06, a/0091/06 to a/0097/06, a/0099/06, a/0100/06, a/0102/06
+to a/0104/06, a/0111/06, a/0113/06 to a/0117/06, a/0120/06, a/0121/06 and a/0123/06 to a/0127/06’ of
+Pre-Trial Chamber II, 23 February 2009, ICC-02/04-01/05-371 (OA2), para. 32.
+43
+Appeals Chamber, The Prosecutor v. Bosco Ntaganda, Public redacted Judgment on Mr Bosco
+Ntaganda’s appeal against the decision reviewing restrictions on contacts of 7 September 2016,
+8 March 2017, ICC-01/04-02/06-1817-Red (OA4), para. 85; Appeals Chamber, The Prosecutor v.
+Laurent Gbagbo and Charles Blé Goudé, Judgment on the appeals of Mr Laurent Gbagbo and Mr Charles
+Blé Goudé against the decision of Trial Chamber I of 9 June 2016 entitled ‘Decision on the Prosecutor’s
+application to introduce prior recorded testimony under Rules 68(2)(b) and 68(3)’, 1 November 2016,
+ICC-02/11-01/15-744 (OA8), paras 13, 19; Appeals Chamber, The Prosecutor v. Mahamat Said Abdel
+Kani, Public Redacted Version of “Judgment on the appeal of Mr Mahamat Said Abdel Kani against the
+decision of Pre-Trial Chamber II entitled ‘Decision on the “Prosecution’s Request for Extension of
+Contact Restrictions”’”, 29 June 2021, ICC-01/14-01/21-111, 17 May 2022, ICC-01/14-01/21-111-Red
+(OA), paras 37-38.
+ICC-01/18-481 15-12-2025 10/44 PT OA3
+No: ICC-01/18 OA3 11/44
+34. For the reasons set out in their opinions, Judge Luz del Carmen Ibáñez Carranza
+and Judge Solomy Balungi Bossa dissent from the findings of the majority of the
+Appeals Chamber with respect to the second ground of appeal and they will not address
+the first and third grounds of appeal. As a result, the first and third grounds of appeal
+are only considered by Judge Tomoko Akane, Judge Gocha Lordkipanidze, and
+Judge Erdenebalsuren Damdin (hereinafter: “Majority”).
+A. First ground of appeal: alleged error in finding that the
+Prosecutor’s post-7 October 2023 investigation falls within
+the scope of the pre-existing investigation on the basis that it
+concerns the “same type of armed conflicts” and “same
+alleged parties to these conflicts”
+35. Under this ground of appeal, Israel argues that the Pre-Trial Chamber’s
+conclusion that the Prosecutor’s post-7 October 2023 investigation concerns the “same
+type of armed conflicts” and the “same alleged parties to these conflicts” is erroneous
+for the following three reasons: (i) an “armed conflict” is not a “defining parameter” of
+the Article 18(1) Notification or the 2018 Referral; (ii) the single reference to
+“hostilities” in the Article 18(1) Notification is temporally limited to 2014; and (iii) the
+Article 18(1) Notification “impermissibly exceeds” the scope of the 2018 Referral.44
+1. An “armed conflict” is not a “defining parameter” of the Article
+18(1) Notification or the 2018 Referral
+a. Summary of the submissions
+i. Israel’s submissions
+36. Israel argues that neither the Article 18(1) Notification nor the 2018 Referral
+makes reference to an “armed conflict”.45
+Israel submits that the 2018 Referral rather
+defines the situation of crisis referred to the Court for investigation as related to ongoing
+crimes allegedly committed within the context of an “Israeli ‘settlement regime’,
+‘settlement-related crimes’ and a ‘settlement policy’”, and that it does not identify an
+“armed conflict” as the relevant context for the situation referred.46
+Israel avers that the
+2018 Referral incorporates “war crimes”, which “can be committed by a State alleged
+to be in occupation of territory even in the absence of any active fighting between
+44
+Appeal Brief, paras 19-39.
+45
+Appeal Brief, para. 21.
+46
+Appeal Brief, paras 21-22.
+ICC-01/18-481 15-12-2025 11/44 PT OA3
+No: ICC-01/18 OA3 12/44
+parties to an armed conflict”, and that there is no reference to an armed conflict or
+fighting with an armed group in connection with the alleged violence against peaceful
+demonstrations in Gaza in March 2018.47
+It similarly contends that the Article 18(1)
+Notification also treats these events “as mere crowd control unrelated to any armed
+conflict, and there is no indication of any related ‘hostilities’”.48
+37. Israel also avers that the Article 18(1) Notification refers to crimes committed in
+the context of “hostilities”, mentioning war crimes “committed in the context of the
+2014 hostilities in Gaza” and identifying “members of the Israeli Defence Forces” and
+“members of Hamas and Palestinian Armed Groups” as alleged perpetrators.49
+However, Israel posits that this reference in the Article 18(1) Notification to a specific
+episode of hostilities, limited to a specific time-period in 2014, and without reference
+to any broader armed conflict, cannot be equated to an investigation into a time-
+unlimited armed conflict.50
+38. Accordingly, Israel argues that the Article 18(1) Notification “does not provide
+sufficiently specific nor representative notice of an intention to investigate crimes in
+relation to an ongoing armed conflict which is not even mentioned let alone defined”.51
+Comparing the Article 18(1) Notification with the scope of the investigation in the
+Afghanistan Situation, relied upon by the Pre-Trial Chamber, Israel argues that in the
+Palestine Situation an armed conflict is not a “defining parameter” of the
+investigation.52
+ii. Prosecutor’s submissions
+39. The Prosecutor submits that, contrary to Israel’s submission, the Article 18(1)
+Notification “explicitly referred to the existence of armed conflicts in the context of the
+2014 Gaza hostilities”.53
+In particular, the Prosecutor contends that the Article 18(1)
+Notification: (i) referred to the occupation by Israel and identified a “sample of the
+relevant criminality (war crimes)” allegedly affecting the West Bank and Gaza, as well
+as Israel, in the context of international and non-international armed conflicts, as shown
+47
+Appeal Brief, para. 22.
+48
+Appeal Brief, para. 23.
+49
+Appeal Brief, para. 24.
+50
+Appeal Brief, para. 25.
+51
+Appeal Brief, para. 25.
+52
+Appeal Brief, paras 26-29.
+53
+Prosecutor’s Response, para. 12.
+ICC-01/18-481 15-12-2025 12/44 PT OA3
+No: ICC-01/18 OA3 13/44
+by the references to article 8(2)(a), (b), (c) and (e) of the Statute;54
+(ii) identified various
+categories of alleged perpetrators;55
+and (iii) expressly noted that alleged crimes
+continued to be committed in the Palestine Situation.56
+40. The Prosecutor contends that it is apparent from the factual allegations in the
+Article 18(1) Notification and from widely reported public information that the
+2014 hostilities involved “active fighting between parties to an armed conflict”.57
+The Prosecutor further avers that, in any event, the Article 18(1) Notification indicated
+that: (i) “[b]ased on the information available, the hostilities that took place in Gaza
+between 7 July and 26 August 2014 may be classified as either an international or non-
+international armed conflict; alternatively, it may be considered that two different
+conflicts (one international and the other non-international) existed in parallel during
+the relevant period”; (ii) it is not necessary to reach a “conclusive view” on the precise
+legal qualifications at the preliminary examination stage; and (iii) “these incidents and
+crimes were illustrative” and had been assessed only for the threshold setting
+determination under article 53(1)(a) of the Statute.58
+41. The Prosecutor further submits that the 2018 Referral “did encompass crimes
+arising from the conduct of hostilities or armed conflict(s) in Gaza”, since it described
+inter alia “the geographical and temporal parameters of the situation as the [occupied
+Palestinian territories] (including Gaza) since 13 June 2014”, and the ongoing Israeli
+occupation.59
+The Prosecutor also asserts that the fact that Palestine did not expressly
+refer to “armed conflict” in the 2018 Referral “is not determinative of the scope of the
+Prosecution’s investigation” because “clashes and periodic hostilities between the
+[Israel Defence Forces] and Hamas/[other Palestinian armed groups] are a defining
+feature of the situation underlying the Referral”.60
+iii. Israel’s submissions in reply
+42. Israel argues that the Prosecutor’s Response mischaracterises the Article 18(1)
+Notification, as it makes references to passages that are included in another document,
+54
+Prosecutor’s Response, para. 13.
+55
+Prosecutor’s Response, para. 13.
+56
+Prosecutor’s Response, para. 13.
+57
+Prosecutor’s Response, para. 14.
+58
+Prosecutor’s Response, para. 14 (emphasis in the original).
+59
+Prosecutor’s Response, para. 15.
+60
+Prosecutor’s Response, para. 15.
+ICC-01/18-481 15-12-2025 13/44 PT OA3
+No: ICC-01/18 OA3 14/44
+namely the Summary of the Preliminary Examination Findings
+(hereinafter: “Summary”), which was neither attached, nor referred to in the
+Article 18(1) Notification.61
+Israel avers that the Prosecutor submitted a single annex,
+which includes both the Article 18(1) Notification and the Summary, which is
+“misleading in respect of an issue that is highly material to the present appeal”.62
+Israel
+submits that, a month after the Article 18(1) Notification, the Prosecutor included in a
+letter to Israel dated 9 April 2021 a hyperlink to the Summary, but that no indication
+was given that the Prosecutor “intended to amend or broaden” it or “supersede, change
+or expand the scope of the investigation”.63
+43. Israel further argues that, even assuming that the Summary could be relevant to
+the scope of the Article 18(1) Notification, it does not change the scope or defining
+parameters of the intended investigations.64
+Israel submits that, on the contrary, the
+Summary reinforces the argument that the scope of the intended investigation is not
+defined with reference to any ongoing armed conflict.65
+It contends that the only
+reference to armed conflict in the Summary is contained in a footnote that does not
+define the parameters of the investigation, but explains the possible legal
+characterisation of the facts alleged during a specific time period in 2014.66
+Israel avers
+that, as such, it cannot be “a representative sample of regular hostilities”.67
+44. Israel also contends that the other documents upon which the Prosecutor relies
+have no connection to the Article 18(1) Notification and cannot be considered to
+supplement or clarify that notification, given that article 18(1) of the Statute
+“necessarily prescribes a certain formality”.68
+b. Determination by the Appeals Chamber
+45. At the outset, the Majority notes that Israel’s argument concerning the “time-
+limited set of events in Gaza in 2014” is also raised under the second sub-ground of the
+61
+Reply, paras 2-8.
+62
+Reply, para. 7.
+63
+Reply, paras 9-10.
+64
+Reply, para. 11.
+65
+Reply, para. 11.
+66
+Reply, paras 11-12.
+67
+Reply, para. 12.
+68
+Reply, paras 14-16.
+ICC-01/18-481 15-12-2025 14/44 PT OA3
+No: ICC-01/18 OA3 15/44
+first ground of appeal.69
+The Majority finds it appropriate to address it under that sub-
+ground.
+46. The Majority finds, for the reasons that follow, that Israel’s argument that neither
+the 2018 Referral nor the Article 18(1) Notification refers to or describes any
+“armed conflict” must be rejected, as it is based on an overly narrow reading of these
+documents in disregard of the need to assess them in keeping with the Court’s legal
+framework.
+47. The Majority first notes that the 2018 Referral and the Article 18(1) Notification
+refer to various war crimes or acts that may be qualified as war crimes under the Statute.
+By listing the relevant legal bases, these documents invoke crimes that, from a legal
+viewpoint, can only be committed in the context of an armed conflict.
+48. In particular, the 2018 Referral specifies that the war crimes enshrined in
+“[a]rticles […] 8(2)(a)(i), (ii), (iii), (iv), (vi), (vii), (b)(i), (ii), (iii), (iv), (viii), (ix), (xiii),
+(xvi) and (xxi) of the Rome Statute” have purportedly been committed,70
+and includes
+more general references to the commission of alleged war crimes.71
+It further lists
+categories of alleged crimes that may amount to, inter alia, war crimes under
+article 8(2)(a), (b), (c) and/or (e) of the Statute.72
+49. The Article 18(1) Notification also explicitly stipulates that, in the view of the
+Prosecutor, there is a reasonable basis to believe that, in the context of the
+2014 hostilities in Gaza, specific war crimes were committed.73
+In this respect, it cites
+to article 8(2)(a)(i) and (iii), 8(2)(b)(iv), (viii) and (xxiv), 8(2)(c)(i), and 8(2)(e)(ii) of
+the Statute.74
+The Article 18(1) Notification further refers to “allegations of crimes
+committed by members of the IDF through the use of non-lethal and lethal means
+against persons participating in demonstrations beginning in March 2018 near the
+border fence between the Gaza Strip and Israel”.75
+69
+Appeal Brief, para. 25.
+70
+2018 Referral, para. 11.
+71
+See for instance 2018 Referral, paras 3-4.
+72
+2018 Referral, para. 12.
+73
+Article 18(1) Notification, pp. 2-3.
+74
+Article 18(1) Notification, p. 3.
+75
+Article 18(1) Notification, p. 3.
+ICC-01/18-481 15-12-2025 15/44 PT OA3
+No: ICC-01/18 OA3 16/44
+50. In this regard, the Majority recalls that war crimes can only be committed within
+the context of an international armed conflict or an armed conflict not of an
+international character (hereinafter: “non-international armed conflict”). One of the
+elements of each war crime contained in article 8 of the Statute is the requirement that
+“[t]he conduct took place in the context of and was associated with an international
+armed conflict” or “an armed conflict not of an international character”.76
+51. The Majority further notes that both the 2018 Referral and the Article 18(1)
+Notification contain a number of references to the occupation of Palestinian territory.
+The former indicates, for instance, that
+[t]he unlawful occupation of the territory of the State of Palestine and the
+establishment and maintenance of settlements by Israel in Occupied Palestinian
+Territory (“OPT”), including East Jerusalem, has involved the enactment and
+maintenance of a multi-layered system of violence and intimidation against the
+Palestinian population, the destruction and unlawful appropriation of their
+properties, the severe violation of their fundamental rights on discriminatory
+grounds and the institutionalization of a separate structure of life and dual system
+of law and other measures deliberately intended to change the demographic
+composition of the OPT, including in particular in East Jerusalem.77
+52. The Article 18(1) Notification contains the Prosecutor’s assessment that, “in the
+context of Israel’s occupation of the West Bank, including East Jerusalem, members of
+the Israeli authorities have committed war crimes under article 8(2)(b)(viii) in relation,
+inter alia, to the transfer of Israeli civilians into the West Bank since 13 June 2014”.78
+In this regard, it is recalled that the Elements of Crimes expressly recognise that, with
+respect to some of the crimes under article 8 of the Statute, “[t]he term ‘international
+armed conflict’ includes military occupation”.79
+Therefore, occupation is regarded as a
+particular form of international armed conflict.
+53. Furthermore, the Majority notes that the 2018 Referral and the Article 18(1)
+Notification describe additional facets of the notion of armed conflict, either in relation
+76
+See for example element 4 of the Elements of Crimes for article 8(2)(a)(i) of the Statute (emphasis
+added). See also for instance ICRC, “Commentary on the Third Geneva Convention: Convention (III)
+relative to the Treatment of Prisoners of War”, 2020, article 130, para. 5186; ICRC, “Commentary on
+the Third Geneva Convention: Convention (III) relative to the Treatment of Prisoners of War”, 2020,
+article 3, para. 920.
+77
+2018 Referral, para. 3. See also for instance 2018 Referral, paras 7, 16.b.
+78
+Article 18(1) Notification, p. 3.
+79
+Elements of Crimes, fn 34.
+ICC-01/18-481 15-12-2025 16/44 PT OA3
+No: ICC-01/18 OA3 17/44
+to international armed conflict (whether or not in the form of occupation) or non-
+international armed conflict.
+54. In particular, the 2018 Referral and the Article 18(1) Notification identify (some
+of the) parties to the international armed conflict (whether or not in the form of
+occupation) and/or non-international armed conflict, including Israeli civilian and
+military officials,80
+and Hamas and other Palestinian armed groups.81
+55. In view of the foregoing, the Majority is not persuaded by Israel’s argument that
+neither the 2018 Referral nor the Article 18(1) Notification refers to or describes any
+“armed conflict”. When read together and when considered against the applicable legal
+framework, it is clear that these documents concern crimes and conduct that, in legal
+terms, can only be committed in an international armed conflict (whether or not in the
+form of an occupation) or non-international armed conflict.
+56. Furthermore, the submission that the 2018 Referral limits the situation of crisis
+to a “settlement policy” (or related designations) is supported neither by the terms of
+the 2018 Referral nor by the applicable legal framework.82
+The 2018 Referral explicitly
+states that “[t]his settlement policy has been carried out through the commission of
+multiple crimes within the Court’s jurisdiction”,83
+and that acts associated with such a
+policy “qualify under the Rome Statute as both war crimes and crimes against
+humanity”.84
+Therefore, the 2018 Referral refers to a “settlement policy” (or related
+designations) as the factual context in which a number of alleged crimes were
+committed. As such, rather than excluding “armed conflict”, the 2018 Referral indicates
+that the legal qualification of the crimes allegedly committed within that factual context
+is to be conducted in accordance with the Court’s legal framework, including with
+reference to war crimes.
+57. Lastly, the Majority takes note of Israel’s submission that, in the context of
+another situation, the Prosecutor has used a more specific description of the relevant
+armed conflict.85
+However, the approach taken by the Prosecutor in those other
+80
+See for instance 2018 Referral, paras 3-5, 15-16; Article 18(1) Notification, p. 3.
+81
+Article 18(1) Notification, p. 3.
+82
+Appeal Brief, paras 21-22.
+83
+2018 Referral, para. 2 (emphasis added).
+84
+2018 Referral, para. 3 (emphasis added).
+85
+Appeal Brief, paras 26-27.
+ICC-01/18-481 15-12-2025 17/44 PT OA3
+No: ICC-01/18 OA3 18/44
+proceedings has no bearing on the present proceedings. Irrespective of the level of
+specificity of description, it has not been shown that the 2018 Referral and the
+Article 18(1) Notification make no reference to “armed conflict”.
+58. Accordingly, the Majority finds that it has not been demonstrated that the Pre-
+Trial Chamber erred in finding that “armed conflict” is a defining parameter of the
+2018 Referral and the Article 18(1) Notification. For this reason, Israel’s first sub-
+ground of appeal is rejected.
+59. In light of this conclusion, it is immaterial whether the Summary was
+communicated to Israel.86
+As set out in the Reply, the central issue arising from the
+Summary for the purposes of the present sub-ground of appeal is that it contains the
+Prosecutor’s assertion that “the hostilities that took place in Gaza between 7 July and
+26 August 2014 may be classified as either an international or non-international armed
+conflict; alternatively, it may be considered that two different conflicts (one
+international and the other non-international) existed in parallel during the relevant
+period”.87
+However, irrespective of whether Israel was put on notice of this specific
+assertion, the Majority reiterates that it is sufficiently apparent from the terms of the
+2018 Referral and the Article 18(1) Notification that “armed conflict” is a defining
+parameter.
+2. The single reference to “hostilities” in the Article 18(1) Notification
+is temporally limited to 2014
+a. Summary of the submissions
+i. Israel’s submissions
+60. Israel argues that, in the Article 18(1) Notification, the “single reference to
+‘hostilities’ is temporarily closed” in that it refers to the 2014 hostilities in Gaza.88
+By
+contrast, Israel notes that the Article 18(1) Notification is not temporarily closed in
+respect of the alleged occupation-related crime of transfer of Israeli civilians into the
+West Bank, which is framed as occurring “since 13 June 2014”.89
+86
+Reply, paras 2-16.
+87
+Reply, para. 3.
+88
+Appeal Brief, para. 30.
+89
+Appeal Brief, para. 30.
+ICC-01/18-481 15-12-2025 18/44 PT OA3
+No: ICC-01/18 OA3 19/44
+61. Israel argues that, while there is no requirement of notification of every single
+incident to be investigated, the Prosecutor “must at the very least” define its
+investigation according to specific criteria.90
+Israel submits that, whichever parameters
+are chosen, the Prosecutor is obliged to do more than including a “catch-all” provision
+– like the one included in the Article 18(1) Notification – as such an approach has been
+rejected in the Court’s jurisprudence.91
+Similarly, Israel contends that the Court’s
+jurisprudence has rejected the practice of defining a situation without limitations as to
+context or duration “as incompatible with the concept of a ‘situation’ and with ‘the
+proper functioning of the principle of complementarity’”.92
+62. Accordingly, in the submission of Israel, rather than defining the scope of the
+situation and intended investigation as an armed conflict, the Article 18(1) Notification
+limited it to a single period of hostilities in Gaza, without linking it to any broader series
+of hostilities or armed conflict.93
+ii. Prosecutor’s submissions
+63. The Prosecutor submits that Israel misunderstands the purpose of notifications
+pursuant to article 18(1) of the Statute.94
+The Prosecutor argues that, in the context of
+deferral requests under article 18(2) of the Statute, Chambers have considered other
+documents in addition to the article 18 notification in order to assess whether sufficient
+notice was provided.95
+According to the Prosecutor, this approach “is consistent with
+the limited nature of article 53(1) determinations”.96
+The Prosecutor argues that he is
+not barred from investigating events post-dating the Article 18(1) Notification and that
+the focus on incidents arising from the 2014 hostilities are “examples of relevant
+criminality”, which do not limit the scope of subsequent investigations.97
+90
+Appeal Brief, para. 31.
+91
+Appeal Brief, para. 31, referring inter alia to Appeals Chamber, Situation in the Bolivarian Republic
+of Venezuela I, Judgment on the appeal of the Bolivarian Republic of Venezuela against Pre-Trial
+Chamber I’s “Decision authorising the resumption of the investigation pursuant to article 18(2) of the
+Statute”, 1 March 2024, ICC-02/18-89 (OA) (hereinafter: “Venezuela OA Judgment”), paras 8, 222-228,
+348.
+92
+Appeal Brief, para. 31, referring to Pre-Trial Chamber I, The Prosecutor v. Callixte Mbarushimana,
+Decision on the “Defence Challenge to the Jurisdiction of the Court”, 26 October 2011, ICC-01/04-
+01/10-451 (hereinafter: “Mbarushimana Jurisdiction Decision”), paras 21, 23, 28.
+93
+Appeal Brief, para. 32.
+94
+Prosecutor’s Response, paras 17-18.
+95
+Prosecutor’s Response, para. 18.
+96
+Prosecutor’s Response, para. 19.
+97
+Prosecutor’s Response, para. 19.
+ICC-01/18-481 15-12-2025 19/44 PT OA3
+No: ICC-01/18 OA3 20/44
+64. The Prosecutor also submits that Israel misrepresents the features of the referred
+situation and the Prosecutor’s investigation.98
+The Prosecutor contends that the 2014
+Gaza hostilities are a “representative sample of the regular hostilities in this Situation”,
+which are “in any event inextricably linked to Israel’s overall occupation and settlement
+policy in the West Bank”.99
+The Prosecutor argues that the “link between Israel’s
+protracted occupation, its settlement policy and related discriminatory policies and
+practices in the West Bank, the Gaza blockade as well as the periodic hostilities between
+the IDF and Hamas/PAGs has been consistently recalled”.100
+65. Lastly, the Prosecutor submits that Israel disregards that determining whether
+certain events amount to a new situation before the Court is a case-specific and fact-
+dependent determination.101
+The Prosecutor argues that the applications for warrants of
+arrest “alleged the commission of some of the very same war crimes described in the
+[Article 18(1) Notification], as well as additional war crimes and crimes against
+humanity”.102
+The Prosecutor argues that the crimes alleged in the applications for
+warrants of arrest: (i) “took place in the context of the ongoing Israeli occupation of the
+West Bank and Gaza, and its associated armed conflicts”; and (ii) “involve conduct by
+the same groups or categories of perpetrators allegedly responsible for the crimes at the
+time of the Referral and opening of the investigation”.103
+In sum, the Prosecutor argues
+that the investigation into the Palestine Situation is not limited to the 2014 hostilities
+nor to settlement-related crimes.104
+b. Determination by the Appeals Chamber
+66. For the following reasons, the Majority rejects Israel’s contention that “[t]he
+single reference to ‘hostilities’ in the Article 18(1) Notification is limited temporally”.
+67. First, in the view of the Majority, the argument that “[t]he single reference to
+‘hostilities’ is temporally closed” misconstrues the Article 18(1) Notification.
+98
+Prosecutor’s Response, paras 17, 20.
+99
+Prosecutor’s Response, para. 20.
+100
+Prosecutor’s Response, para. 22.
+101
+Prosecutor’s Response, paras 17, 24.
+102
+Prosecutor’s Response, para. 25.
+103
+Prosecutor’s Response, para. 26.
+104
+Prosecutor’s Response, para. 27.
+ICC-01/18-481 15-12-2025 20/44 PT OA3
+No: ICC-01/18 OA3 21/44
+68. As part of the 2018 Referral, Palestine clarified that “the referred situation
+encompasses crimes falling within the jurisdiction of the International Criminal Court
+committed since 13 June 2014, with no end date”.105
+On this basis, the Article 18(1)
+Notification defined the starting date of the matter under investigation. It indicates that
+an investigation has been initiated “with respect to alleged crimes within the jurisdiction
+of the Court committed in the Situation in Palestine since 13 June 2014, on the basis of
+a referral submitted by the Government of the State of Palestine”.106
+After reiterating
+that 13 June 2014 is the starting date of the matter under investigation,107
+the
+Article 18(1) Notification continues to specify that “there is a reasonable basis to
+believe that war crimes were committed in the context of the 2014 hostilities in
+Gaza”.108
+69. In this regard, the Majority recalls that the relevant enquiry for the purposes of
+article 18 of the Statute concerns “the same groups or categories of individuals in
+relation to the relevant criminality, including the patterns and forms of criminality,
+within a situation” and that “there is no expectation at this stage of the proceedings that
+the Prosecutor should notify States of every act he or she intends to investigate,
+especially in those situations referred to the Court which cover a large number of
+alleged criminal acts”.109
+70. Therefore, when considered as a whole and read together with the 2018 Referral,
+on which it is based, the Article 18(1) Notification specifies, in general terms, that
+13 June 2014 is the starting date of the matter under investigation and, in that context,
+it refers to certain war crimes allegedly committed in the 2014 hostilities in Gaza as
+“patterns and forms” of the relevant criminality. Accordingly, the Article 18(1)
+Notification does not temporally limit the reference to hostilities in 2014 in Gaza.
+71. The Majority further notes that the contention that a “catch-all provision” was
+employed by the Prosecutor similarly misreads the Article 18(1) Notification.
+105
+2018 Referral, p. 2.
+106
+Article 18(1) Notification, p. 2 (emphasis added).
+107
+Article 18(1) Notification, p. 2.
+108
+Article 18(1) Notification, p. 2.
+109
+Venezuela OA Judgment, para. 110. See also Philippines OA Judgment, para. 106.
+ICC-01/18-481 15-12-2025 21/44 PT OA3
+No: ICC-01/18 OA3 22/44
+72. The Article 18(1) Notification, after identifying the starting date of the matter
+under investigation, concludes by indicating that the specified patterns and forms of
+criminality within the situation, “which have been identified by [the] Office [of the
+Prosecutor] for the threshold-setting purpose of opening an investigation, are without
+prejudice to the future scope of a subsequent investigation, which may encompass any
+alleged crimes within the scope of the situation”.110
+73. The Majority notes that the Appeals Chamber has previously found that the
+Prosecutor “issues an article 18(1) notification at a time when he or she is only
+commencing an investigation” and “the Prosecutor may not yet have identified all acts
+which he or she intends to investigate and therefore the contours of the likely cases may
+still be vague”.111
+Thus, it cannot be said that “a notification under article 18(1) of the
+Statute […] must be limited to alleged criminal acts which the Prosecutor will
+investigate”.112
+74. As a result, the indication that the future scope of the Prosecutor’s investigation
+may encompass any alleged crimes in the Palestine Situation is not a “catch-all”
+provision. It rather reflects the relationship between the provisions in the Court’s legal
+texts regulating the threshold for commencing an investigation under article 53(1) of
+the Statute, the requirement to provide sufficiently specific information to a State for
+the purposes of article 18(2) of the Statute, and the Prosecutor’s prerogative to continue
+the investigation within the parameters of the Palestine Situation. Therefore, the fact
+that the Article 18(1) Notification specifies the starting date of the matter under
+investigation and identifies patterns and forms of the relevant criminality, together with
+the reference to the future scope of the investigation, is consistent with the applicable
+framework.
+75. In view of these determinations, the Majority does not consider it necessary to
+address Israel’s arguments as to what it might have had to demonstrate had it decided
+to bring an admissibility challenge at a previous juncture.113
+110
+Article 18(1) Notification, p. 3.
+111
+Venezuela OA Judgment, paras 105, 109.
+112
+Venezuela OA Judgment, para. 114.
+113
+Appeal Brief, para. 25.
+ICC-01/18-481 15-12-2025 22/44 PT OA3
+No: ICC-01/18 OA3 23/44
+76. It follows that it has not been established that the Pre-Trial Chamber erred in
+finding that the Article 18(1) Notification includes “the starting point of the relevant
+timeframe” and that the investigation is not limited to the incidents described in that
+notification. Accordingly, the Majority rejects the second sub-ground of the first ground
+of appeal.
+3. The Article 18(1) Notification “impermissibly exceeds” the scope of
+the 2018 Referral
+a. Summary of the submissions
+i. Israel’s submissions
+77. Israel submits that, even if the reference to “hostilities” in the Article 18(1)
+Notification were to be interpreted as encompassing a broad or ongoing armed conflict,
+this would “impermissibl[y]” exceed the scope of the situation.114
+Israel argues that the
+notification under article 18(1) of the Statute must fall within the boundaries of the
+situation as referred to the Prosecutor; it may be narrower but must not exceed it.115
+Israel alleges that, pursuant to articles 14 and 13(a) of the Statute, the Prosecutor must
+invoke the proprio motu powers of article 15 of the Statute in order to go beyond the
+factual boundaries of the referral.116
+Accordingly, Israel submits that “ensuring that the
+Article 18(1) Notification falls within the scope of a Referral is vital to ensuring that
+the framework of authorizations and supervisions prescribed within the Statute is not
+usurped by a high-handed Prosecutor”.117
+78. Israel argues that the 2018 Referral “scrupulously, conspicuously and seemingly
+deliberately makes no reference” to an armed conflict.118
+Israel further submits that the
+Prosecutor is not allowed and has no authority to unilaterally expand the terms of the
+referral pursuant to its powers under articles 42 and 54 of the Statute.119
+114
+Appeal Brief, para. 33.
+115
+Appeal Brief, para. 33, referring to Venezuela OA Judgment, para. 227; Pre-Trial Chamber I, The
+Prosecutor v. Callixte Mbarushimana, Decision on the Prosecutor's Application for a Warrant of Arrest
+against Callixte Mbarushimana, 28 September 2010, ICC-01/04-01/10-1 (hereinafter: “Mbarushimana
+Arrest Warrant Decision”), para. 6.
+116
+Appeal Brief, para. 33.
+117
+Appeal Brief, para. 33.
+118
+Appeal Brief, paras 34-35, 38.
+119
+Appeal Brief, paras 36-37.
+ICC-01/18-481 15-12-2025 23/44 PT OA3
+No: ICC-01/18 OA3 24/44
+ii. Prosecutor’s submissions
+79. The Prosecutor submits that the investigation into the Palestine Situation, which
+encompasses “the 2014 hostilities but also the current conflict”, “does not exceed the
+scope of Palestine’s 2018 Referral”.120
+The Prosecutor reiterates the argument that the
+2018 Referral “is not limited to settlement-related crimes” and instead encompasses
+“the situation of crisis in Palestine at the time of the referral, which is ongoing”.121
+In
+addition, the Prosecutor argues that the Situation entails “widespread and
+interconnected criminality across the [occupied Palestinian territories] in pursuance of
+the same policies and following similar patterns”.122
+b. Determination by the Appeals Chamber
+80. For the reasons that follow, the Majority rejects Israel’s submission that, “[e]ven
+if the single reference to ‘hostilities’ in the [Article 18(1)] Notification is interpreted as
+purporting to provide notice of an investigation into an ongoing armed conflict, this
+impermissibly exceeds the scope of the situation”.
+81. The Majority has already rejected the arguments that the 2018 Referral does not
+refer to or describe any “armed conflict”, and that the reference to “hostilities” in the
+Article 18(1) Notification is limited to certain events in 2014 in Gaza. As the
+2018 Referral does not omit any reference to or description of “armed conflict”, the
+Article 18(1) Notification cannot be seen as exceeding the scope of the referred
+situation on the basis of its reference to hostilities, which, in any case, is not confined
+to events in 2014 in Gaza.
+82. In any event, as previously held by the Appeals Chamber, the referral of a
+situation by a State Party under article 14 of the Statute must be interpreted such as to
+“[extend] enough flexibility to the Prosecutor to investigate independently and
+impartially”.123
+Therefore, referrals typically involve “the referral of a situation of crisis
+or armed conflict”, enabling the Prosecutor to select potential cases,124
+rather than
+limiting the Prosecutor’s future investigation to crimes or cases described in the referral.
+120
+Prosecutor’s Response, para. 28.
+121
+Prosecutor’s Response, para. 29.
+122
+Prosecutor’s Response, para. 30.
+123
+Abd-Al-Rahman OA8 Judgment, para. 25.
+124
+Abd-Al-Rahman OA8 Judgment, para. 25 referring to, inter alia, Mbarushimana Jurisdiction
+Decision, para. 27.
+ICC-01/18-481 15-12-2025 24/44 PT OA3
+No: ICC-01/18 OA3 25/44
+Indeed, the 2018 Referral specifies that “the crimes set forth below are not the only
+crimes committed within the jurisdiction of the ICC and are not intended to limit the
+scope of the [Prosecutor’s] investigation”.125
+83. Thus, Israel’s references to the Mbarushimana Jurisdiction Decision and the
+Prosecutor’s approach to the scope of the situation in Uganda do not support this sub-
+ground of appeal.126
+As the 2018 Referral expressly indicates that it does not seek to
+limit the Prosecutor’s investigation to the crimes set forth therein, there is no basis for
+claiming that “the Prosecutor gave no indication either in the [Article 18(1)]
+Notification or in public statements that the scope of the 2018 Referral was
+incompatible with her obligations under the Statute, or that it needed to be
+broadened”.127
+84. In light of the above, it has not been demonstrated that the Article 18(1)
+Notification exceeds the 2018 Referral and that the Pre-Trial Chamber erred in finding
+that the Prosecutor’s intended investigation is defined with reference to the same type
+of armed conflicts and the same alleged parties to those conflicts as those having
+occurred following 7 October 2023. Accordingly, the Majority rejects the third sub-
+ground of Israel’s first ground of appeal.
+4. Conclusion
+85. Having rejected the above arguments raised by Israel, the Majority does not
+discern an error in the Pre-Trial Chamber’s finding that it is not persuaded by “Israel’s
+submissions that ‘a new situation has arisen’, or an ‘investigation with new “defining
+parameters” has been taking place since 7 October 2023’” on the basis that, in the
+applications for warrants of arrest before the Pre-Trial Chamber, the Prosecutor “alleges
+conduct committed in the context of the same type of armed conflicts, concerning the
+same territories, with the same alleged parties to these conflicts” in comparison with
+the Article 18(1) Notification.128
+Accordingly, the first ground of appeal is rejected.
+125
+2018 Referral, para. 12 (emphasis added); see also 2018 Referral, para. 9.
+126
+Appeal Brief, para. 37.
+127
+Appeal Brief, para. 37.
+128
+Impugned Decision, para. 15.
+ICC-01/18-481 15-12-2025 25/44 PT OA3
+No: ICC-01/18 OA3 26/44
+B. Second ground of appeal: alleged error in failing to find, and
+giving no reasons to reject, Israel’s submission that a new
+situation was triggered by referrals following 7 October 2023
+1. Summary of the submissions
+a. Israel’s submissions
+86. Israel argues that, following the 7 October 2023 events, “at least seven States
+agreed that the 2018 Referral did not encompass the radical change of circumstances
+that had arisen, and the consequent scope of the situation of crisis to be referred” by
+virtue of the 2023 Referral and the 2024 Referral.129
+Israel, while firmly rejecting the
+allegations included in the two additional referrals, submits that they acknowledged a
+radical change in the situation and identified additional crimes, including genocide,
+various violations concerning methods of warfare in the course of hostilities, and
+additional circumstances that were not previously encompassed.130
+87. Israel submits that the 2023 Referral “triggered a new situation”, which needed
+to be registered pursuant to regulations 45 and 46 of the Regulations of the Court
+(hereinafter: “Regulations”), and required the Prosecutor to make a determination
+pursuant to article 53(1) of the Statute and, if he decided to investigate, provide for a
+new notification under article 18(1) of the Statute.131
+Israel avers that the Prosecutor’s
+alleged failure to comply with regulation 45 of the Regulations is not consistent with
+his previous practice in other situations.132
+b. Prosecutor’s submissions
+88. The Prosecutor argues that the Pre-Trial Chamber reasonably addressed the 2023
+and 2024 Referrals as the facts underlying them and the States’ own statements
+“demonstrate that these States did not request the opening of a new situation but instead
+sought to emphasise the need for progress with respect to the ongoing investigation”.133
+The Prosecutor submits that the Pre-Trial Chamber did not err by rejecting Israel’s
+submissions regarding the alleged effect of the post-7 October 2023 referrals, and that
+129
+Appeal Brief, para. 40.
+130
+Appeal Brief, paras 41-42.
+131
+Appeal Brief, paras 42-43.
+132
+Appeal Brief, para. 44, referring to the situations in Venezuela II and the Democratic Republic of the
+Congo (hereinafter: “DRC”) where, despite the Prosecutor’s view that new referrals overlapped with
+existing situations, notifications were provided to the Presidency pursuant to regulation 45 of the
+Regulations.
+133
+Prosecutor’s Response, para. 4.
+ICC-01/18-481 15-12-2025 26/44 PT OA3
+No: ICC-01/18 OA3 27/44
+Israel’s arguments under the second ground of appeal are based on mischaracterisations
+of the criminality of the Palestine Situation, the scope of the ongoing investigation, and
+the import of the State referrals of 2023 and 2024.134
+89. The Prosecutor reiterates that the scope of the investigation into the Palestine
+Situation goes beyond settlement policies and encompasses other crimes related to the
+situation of crisis ongoing at the time of the 2018 Referral, including “crimes in the
+context of an international armed conflict between Israel and Palestine, Israel’s conduct
+in the context of its long-standing occupation, and a non-international armed conflict
+between Hamas/PAGs and Israel”.135
+90. The Prosecutor also submits that the 2023 Referral and the 2024 Referral “related
+to the same situation referred by Palestine in 2018, which has been under investigation
+by the Prosecution since March 2021”.136
+The Prosecutor argues that the context of the
+2023 Referral, although referring to additional crimes such as genocide, “shows that
+the five referring States simply sought to draw the Prosecution’s attention to these
+crimes in the conduct of its ongoing Palestine investigation, and to call for its speedy
+progress”.137
+The Prosecutor notes that this was reiterated by statements made by
+representatives of Bangladesh and South Africa at the Assembly of States Parties of the
+Court in December 2023, which were made after the Prosecutor had confirmed that the
+existing investigation “extend[ed] to the escalation of hostilities and violence” since
+7 October 2023.138
+Regarding the 2024 Referral, the Prosecutor argues that the two
+referring States expressed their grave concern regarding the latest escalation of violence
+and, recalling the 2023 Referral, explained that they also wanted “to draw further
+attention of the Office of the prosecutor to the situation”.139
+The Prosecutor argues that
+this confirms that “the seven referring States correctly understood the crimes committed
+since 7 October 2023 to form part of the existing Palestine investigation”.140
+91. In any event, the Prosecutor submits that, “independently of the States’ assertions,
+the events described […] fall squarely within, and are in any event sufficiently linked
+134
+Prosecutor’s Response, para. 38.
+135
+Prosecutor’s Response, para. 39.
+136
+Prosecutor’s Response, para. 40.
+137
+Prosecutor’s Response, para. 40.
+138
+Prosecutor’s Response, paras 40-41.
+139
+Prosecutor’s Response, para. 42.
+140
+Prosecutor’s Response, para. 43.
+ICC-01/18-481 15-12-2025 27/44 PT OA3
+No: ICC-01/18 OA3 28/44
+to, the situation underlying Palestine’s 2018 Referral and under investigation”.141
+The
+Prosecutor further submits that the decision not to inform the Presidency, under
+regulation 45 of the Regulations, of the 2023 Referral and the 2024 Referral is
+consistent with its past practice, including the approach taken in relation to the referrals
+made by Venezuela in 2022 and by the DRC in 2023.142
+92. The Prosecutor submits that the Pre-Trial Chamber “sufficiently explained the
+reasons for its conclusion that no substantial change has occurred to the parameters of
+the investigation into this situation”.143
+The Prosecutor contends that whether a new
+situation has arisen is a case-specific and fact-dependent determination and that the Pre-
+Trial Chamber did consider the potential relevance of the 2023 Referral and the 2024
+Referral to the parameters of the investigation.144
+c. Israel’s submissions in reply
+93. Israel replies that the statements made at the Assembly of States Parties by the
+States that submitted the 2023 Referral are “neither legally relevant, nor factually
+probative, as to the legal consequences arising from their referrals”.145
+It submits that
+the consequences of a State Party referral are governed by article 14 of the Statute,
+which “expressly prescribes that the only thing that can be referred by a State Party is
+‘a situation’”, and that “[n]either the [Assembly of States Parties] nor any individual
+State Party has any role to play under the ICC Statute in this determination”.146
+Israel
+further submits that the statements made at the Assembly of States Parties are “highly
+equivocal and political in nature” and do not support the Prosecutor’s assertion that the
+referred situations are “materially identical to an existing situation”.147
+2. Determination by the Appeals Chamber
+94. As indicated above, the Palestine Situation was originally referred to the then
+Prosecutor by Palestine in 2018. An investigation was opened in March 2021, while a
+notice under article 18(1) of the Statute was provided to all States Parties and other
+States that would normally exercise jurisdiction, including Israel, shortly thereafter.
+141
+Prosecutor’s Response, para. 43.
+142
+Prosecutor’s Response, para. 44.
+143
+Prosecutor’s Response, para. 46.
+144
+Prosecutor’s Response, paras 47-48.
+145
+Reply, para. 24.
+146
+Reply, para. 25.
+147
+Reply, para. 26.
+ICC-01/18-481 15-12-2025 28/44 PT OA3
+No: ICC-01/18 OA3 29/44
+Following the events of 7 October 2023, the 2023 Referral was submitted by five States
+Parties on 17 November 2023, and the 2024 Referral by two States Parties on
+18 January 2024.
+95. For the reasons that follow, the Appeals Chamber, by majority, Judge Luz del
+Carmen Ibáñez Carranza and Judge Solomy Balungi Bossa dissenting, rejects Israel’s
+assertion that the Pre-Trial Chamber “erred in failing to find, and giving no reasons to
+reject, Israel’s submission that a new Situation was triggered by referrals following
+7 October 2023”.148
+96. As to Israel’s contention that “[t]he [Pre-Trial Chamber] erred in law by failing
+to provide any reasons at all in the Impugned Decision addressing [the 2023 Referral
+and the 2024 Referral]”,149
+the Appeals Chamber previously found that the extent of
+“reasoning will not necessarily require reciting each and every factor that was before
+the Pre-Trial Chamber to be individually set out, but it must identify which facts it
+found to be relevant in coming to its conclusion”.150
+97. The Appeals Chamber, by majority, observes that, whilst the Pre-Trial Chamber
+did not include an explicit finding discussing the legal implications, or lack thereof, of
+the two referrals, it nonetheless explicitly noted the 2023 Referral and the
+2024 Referral.151
+It further acknowledged that, in its request for a new notice to be
+provided under article 18(1) of the Statute, Israel referred to these two referrals as
+having constituted a new situation.152
+98. The Appeals Chamber, by majority, further notes that, in the Article 18 Request,
+Israel did not elaborate on how, in its view, the 2023 and 2024 referrals constituted a
+new situation. Rather, the request focuses on the alleged changes to the “defining
+148
+Appeal Brief, p. 15.
+149
+Appeal Brief, para. 45.
+150
+See, for instance, Appeals Chamber, The Prosecutor v. Thomas Lubanga Dyilo, Judgment on the
+appeal of Mr. Thomas Lubanga Dyilo against the decision of Pre-Trial Chamber I entitled “First Decision
+on the Prosecution Requests and Amended Requests for Redactions under Rule 81”, 14 December 2006,
+ICC-01/04-01/06-773 (OA5), para. 20.
+151
+Impugned Decision, para. 3.
+152
+Impugned Decision, para. 5, fn 24, referring to Article 18 Request, paras 2, 19-30.
+ICC-01/18-481 15-12-2025 29/44 PT OA3
+No: ICC-01/18 OA3 30/44
+parameters” of the situation. In this regard, Israel only relied upon the two referrals to
+show “[t]he extent of the change following 7 October 2023”.153
+99. Furthermore, while in the Article 18 Request Israel referred to the Prosecutor’s
+duty under regulation 45 of the Regulations, it only addressed its formal aspect. Indeed,
+the argument before the Pre-Trial Chamber was that “[t]hese referrals triggered an
+obligation under regulation 45 of the [Regulations] to ‘inform the Presidency in writing
+[…]’ [and] [t]his Prosecutor appears to have failed to do so”.154
+However, this argument
+was not meant to support Israel’s main proposition that a new situation had arisen.
+100. The Pre-Trial Chamber provided reasons for its ultimate conclusion that no new
+situation had arisen and that no investigation with new defining parameters has been
+taking place since 7 October 2023. The Appeals Chamber, by majority, considers that
+it was correct for the Pre-Trial Chamber to focus its reasoning on the defining
+parameters of the situation. Given the way in which Israel formulated the Article 18
+Request, there was no need for the Pre-Trial Chamber to specifically address the general
+submission that a new situation had been constituted as a result of the 2023 Referral
+and the 2024 Referral. It is clear from the Article 18 Request that Israel only relied upon
+the two referrals as indicative of the alleged change in the parameters of the situation,
+rather than constituting a new situation.
+101. Israel further argues that “the [Pre-Trial Chamber] erred in law by […] failing to
+find that the 2023 Referral required the registration of a new situation before the Court;
+and failing to find that a new article 18(1) notification had to be provided to Israel if
+the Prosecutor were to conclude, on the basis of the second condition in article 18(1)
+that ‘there would be a reasonable basis to commence an investigation’”.155
+The Appeals
+Chamber, by majority, understands Israel to be arguing that, notwithstanding the
+absence of reasoning, the Pre-Trial Chamber erred in law by omitting to conclude that
+the 2023 Referral brought about a new situation compared to the situation originally
+referred by Palestine in 2018 and that, as a result, it failed to require the Prosecutor to
+comply with regulation 45 of the Regulations and to issue a further notification under
+article 18(1) of the Statute. For the reasons that follow, the Appeals Chamber, by
+153
+Article 18 Request, para. 2.
+154
+Article 18 Request, para. 30 (footnote omitted).
+155
+Appeal Brief, para. 45.
+ICC-01/18-481 15-12-2025 30/44 PT OA3
+No: ICC-01/18 OA3 31/44
+majority, Judge Luz del Carmen Ibáñez Carranza and Judge Solomy Balungi Bossa
+dissenting, rejects Israel’s assertion that the Pre-Trial Chamber erred in this regard.
+102. First, both referrals explicitly rely on the 2018 Referral as the basis for the
+exercise of the Court’s jurisdiction.156
+The relevant States Parties further express their
+grave concern about the “escalation of violence, including against civilians, and the
+alleged ongoing commission of crimes within the jurisdictional scope of the Court”.157
+In the view of the majority of the Appeals Chamber, it follows that the reference to the
+“escalation of violence” reveals that the two referrals consider the events on and after
+7 October 2023 as connected to the situation as set out in the 2018 Referral.
+103. Second, the two referrals do not characterise the 2018 Referral as pertaining to a
+“settlement regime”.158
+They rather refer to the 2018 Referral in keeping with the legal
+framework of the Court. The 2023 Referral invokes “all matters related to the Israeli
+settlement regime” as merely one of the bases, and not the exclusive basis, for its
+assertion that “there is evidence of continuing commission of the crimes detailed in the
+[2018 Referral]”. In this regard, the 2023 Referral additionally refers to “any conduct,
+policies, laws, official decisions and practices that underlie, promote, encourage or
+otherwise make a contribution to the commission of crimes that come within the terms
+of” a number of sub-provisions of articles 7 and 8 of the Statute, as well as “categories
+of crimes” as set out in the 2018 Referral.159
+With the exception of article 8(2)(b)(viii)
+of the Statute and the corresponding “category of crime”,160
+none of these legal bases
+is inherently limited to matters associated with “settlements”, even though some of
+them may have been committed in the factual context of an alleged “settlement policy”.
+The 2024 Referral is framed even more generally. It refers to the 2018 Referral as
+pertaining to “the commission of crimes under the jurisdiction of the Court […],
+including but not limited to crimes against humanity of article 7 and war crimes of
+article 8 of the Rome Statute”.161
+It then concludes by requesting “[…] the Prosecutor
+to investigate the situation to determine whether one or more specific persons should
+156
+2023 Referral, p. 3; 2024 Referral, section I.
+157
+2023 Referral, p. 3; 2024 Referral, section II.
+158
+Appeal Brief, para. 42.
+159
+2023 Referral, paras 1.2, 1.3.
+160
+2018 Referral, para. 12; 2023 Referral, para. 1.3.3.
+161
+2024 Referral, section II.
+ICC-01/18-481 15-12-2025 31/44 PT OA3
+No: ICC-01/18 OA3 32/44
+be charged with the commission of such crimes that would have taken place concerning
+the situation in the State of Palestine, beginning on 13 June 2014 […]”.162
+104. Third, Israel’s contention that the 2023 Referral also speaks of “additional
+crimes” vis-à-vis the 2018 Referral and that the 2024 Referral for the first time makes
+reference to “the attack of 7 October 2023 conducted by Hamas militants” does not
+disturb this determination.163
+Since both referrals proceed on the basis of a connection
+between the 2018 Referral and the events of 7 October 2023, references to crimes
+allegedly committed following the 2018 Referral, including by alleged perpetrators not
+mentioned therein, are consistent with the scope of the situation as referred by Palestine.
+Such references are, thus, compatible with the notion that, in the early stages of the
+investigation, the Prosecutor is not in a position to identity or anticipate all potential
+cases for investigation and that, as the investigation progresses, it may come to
+encompass alleged crimes not previously identified or anticipated.164
+105. Accordingly, the Appeals Chamber, by majority, dismisses Israel’s submission.
+Instead of identifying a new situation, the two referrals were submitted with a view to
+urging the Prosecutor to advance the investigation in respect of the alleged crimes
+committed before 7 October 2023, as well as those committed on and after that date, as
+forming part of a single situation arising from the 2018 Referral. This is sufficiently
+apparent from the explicit terms of the 2023 and 2024 referrals, irrespective of any
+further statements provided at the Assembly of States Parties by the relevant
+States Parties. As a result, the Appeals Chamber, by majority, does not consider it
+necessary to deal with the submissions concerning these statements.165
+106. Having examined and rejected Israel’s arguments, the Appeals Chamber, by
+majority, Judge Luz del Carmen Ibáñez Carranza and Judge Solomy Balungi Bossa
+dissenting, rejects the second ground of appeal. Judge Luz del Carmen Ibáñez Carranza
+and Judge Solomy Balungi Bossa append dissenting opinions to the present Judgment
+insofar as it concerns the second ground of appeal.
+162
+2024 Referral, section III (emphasis added).
+163
+Appeal Brief, para. 41.
+164
+See, for instance, Venezuela OA Judgment, paras 105, 109.
+165
+Prosecutor’s Response, paras 40-41; Reply, paras 24-27.
+ICC-01/18-481 15-12-2025 32/44 PT OA3
+No: ICC-01/18 OA3 33/44
+107. Judge Luz del Carmen Ibáñez Carranza dissents from the Majority’s reasoning
+and conclusion regarding the second ground of appeal. She considers that the Pre-Trial
+Chamber committed errors of law and procedure by failing to consider the procedure
+established in regulation 45 of the Regulations and to expressly address, without
+providing any reasons, relevant arguments raised by Israel in the Article 18 Request.
+Judge Luz del Carmen Ibáñez Carranza is of the view that the second ground of appeal
+raises the following two issues that require resolution before assessing the first and third
+grounds of appeal: (i) whether it was correct for the Prosecutor not to have followed
+the procedure established in regulation 45 of the Regulations when he received the two
+referrals and its legal implications and consequences; and (ii) whether the substantive
+content of the referrals required prior consideration. The Pre-Trial Chamber’s failures
+have an impact on the process of complementarity and the rights of States, including to
+receive proper notification pursuant to article 18. In addition, the Pre-Trial Chamber's
+failure to provide sufficient reasoning has an impact on the guarantee of due process of
+law and fairness. Judge Luz del Carmen Ibáñez Carranza considers that the Pre-Trial
+Chamber’s errors materially affected the Impugned Decision. Accordingly, she would
+have remanded the matter to the Pre-Trial Chamber for a new examination.
+108. Having found that the matter should have been remanded, Judge Luz del Carmen
+Ibáñez Carranza considers that the first and third grounds of appeal are intrinsically
+linked to the second ground of appeal and she is therefore unable to examine them.
+109. Judge Solomy Balungi Bossa dissents from the conclusion of the Majority to
+reject Israel's submission that the Pre-Trial Chamber “erred in failing to find, and giving
+no reasons to reject, Israel’s submission that a new Situation was triggered by referrals
+following 7 October 2023”. She is of the view that the Pre-Trial Chamber erred by
+failing to duly address and to provide sufficient reasoning with respect to certain
+arguments raised by Israel in the Article 18 Request with regard to the legal effect of
+the 2023 and 2024 Referrals, namely that they: (i) had a distinct legal effect, namely
+that they would “identify a new situation of crisis”; and (ii) “triggered an obligation
+under regulation 45 of the [Regulations of the Court] to ‘inform the Presidency in
+writing as soon as a situation has been referred to the Prosecutor by a State Party’”.
+Judge Solomy Balungi Bossa considers that this error materially affected the Impugned
+Decision because the basis upon which the decision was taken cannot be discerned. As
+ICC-01/18-481 15-12-2025 33/44 PT OA3
+No: ICC-01/18 OA3 34/44
+a result, she would have reversed the Impugned Decision and remanded the matter to
+the Pre-Trial Chamber for it to properly address and provide reasons regarding Israel’s
+arguments on the referrals.
+110. Judge Gocha Lordkipanidze concurs with the findings of the Majority regarding
+the second ground of appeal. At the same time, he is of the view that the Prosecutor
+should continuously assess whether the particular circumstances of an investigation
+require an updated notification under article 18(1) of the Statute to be issued. This
+obligation forms part of his due diligence duty.
+C. Third ground of appeal: alleged error in failing to consider
+other defining parameters of the Article 18(1) Notification in
+assessing whether it encompassed post-7 October 2023
+events
+1. Summary of the submissions
+a. Israel’s submissions
+111. Israel reiterates its argument that the Pre-Trial Chamber “mistakenly found” that
+the 2018 Referral and the Article 18(1) Notification were defined by reference to armed
+conflicts, which “resulted in the erroneous conclusion that the [Prosecutor’s] post-7
+October 2023 investigations concern the ‘same type of armed conflicts’ and the ‘same
+alleged parties to these conflicts’”.166
+Israel also submits that the Pre-Trial Chamber did
+not analyse or refer to any further defining parameters of the intended investigations,
+nor did it consider or apply the criteria developed by prior jurisprudence.167
+112. Israel argues that the Pre-Trial Chamber’s reference to various criteria for the
+purposes of assessing the specificity of the Article 18(1) Notification suggests that it
+“did not properly turn its mind to whether the [Article 18(1) Notification] [was]
+sufficiently specific or representative in relation to the post-7 October 2023
+investigation”.168
+Israel submits that, in accordance with the Court’s jurisprudence, the
+notification under article 18(1) of the Statute must be specific enough for the relevant
+States to exercise their rights under article 18(2) of the Statute and representative
+166
+Appeal Brief, para. 46.
+167
+Appeal Brief, para. 47.
+168
+Appeal Brief, para. 48.
+ICC-01/18-481 15-12-2025 34/44 PT OA3
+No: ICC-01/18 OA3 35/44
+enough of the scope of criminality to be investigated in future cases.169
+Israel submits
+that the notification should give examples, sufficient to provide in broad terms the
+contours of the future investigation.170
+113. Israel contends that the defining parameters of the Article 18(1) Notification are
+not sufficiently specific or representative of the investigations post-7 October 2023.171
+In particular, Israel avers that, in the Article 18(1) Notification: (i) no armed conflict is
+articulated and, even if the reference to some crimes presupposes the existence of an
+armed conflict, there is no articulation that this constitutes a defining parameter; (ii) no
+allegation of crimes committed systematically or as a matter of State policy are
+included, except for the alleged transfer of Israeli civilians into the West Bank, with the
+crimes now alleged being of an entirely different nature; (iii) no crimes against
+humanity are included, narrowing the scope of the 2018 Referral which included them;
+and (iv) the factual context it describes has now changed “dramatically”.172
+b. Prosecutor’s submissions
+114. The Prosecutor submits that, while arguing that the Pre-Trial Chamber should
+have considered other factors to assess whether a new situation had arisen, Israel neither
+identifies specific factors nor demonstrates how they would have materially affected
+the conclusion of the Pre-Trial Chamber.173
+The Prosecutor argues that Israel’s
+reference to extracts of decisions in the context of litigation under article 18 of the
+Statute are misplaced as none were issued in the context of determining whether a new
+situation had arisen.174
+115. The Prosecutor also submits that “Israel’s repeated attempts to belatedly
+challenge the specificity of the Article 18 Notification by reference to posterior
+jurisprudence issued in the context of other situations should not be entertained”
+169
+Appeal Brief, para. 48, referring to Pre-Trial Chamber I, Situation in the Bolivarian Republic of
+Venezuela I, Decision authorising the resumption of the investigation pursuant to article 18(2) of the
+Statute, 27 June 2023, ICC-02/18-45, para. 77.
+170
+Appeal Brief, para. 48, referring to Venezuela OA Judgment, para. 106 and Appeals Chamber,
+Situation in the Islamic Republic of Afghanistan, Judgment on the appeal against the decision on the
+authorisation of an investigation into the situation in the Islamic Republic of Afghanistan, 5 March 2020,
+ICC-02/17-138 (OA4) (hereinafter: “Afghanistan OA4 Judgment”), para. 59.
+171
+Appeal Brief, para. 49.
+172
+Appeal Brief, paras 50-53.
+173
+Prosecutor’s Response, para. 32.
+174
+Prosecutor’s Response, para. 32.
+ICC-01/18-481 15-12-2025 35/44 PT OA3
+No: ICC-01/18 OA3 36/44
+because: (i) this is not an issue under appeal; and (ii) Israel had the opportunity to raise
+this matter in the context of article 18 of the Statute proceedings in March and April
+2021.175
+116. The Prosecutor avers that the Pre-Trial Chamber considered relevant factors and
+correctly concluded that the Article 18(1) Notification was sufficiently specific and that
+no new situation had arisen as a result of the 7 October 2023 events that would require
+a new notification under article 18 of the Statute.176
+According to the Prosecutor, Israel
+“simply disagrees with them and misconstrues the facts of the [Palestine] Situation and
+the Court’s jurisprudence to bolster its arguments”.177
+117. Further, the Prosecutor submits that Israel does not demonstrate that the Pre-Trial
+Chamber committed any error that would materially affect the decision as: (i) the
+Article 18(1) Notification refers to the existence of armed conflicts; (ii) the situation
+underpinning the 2018 Referral reflects the widespread and systematic nature of
+Israel’s actions and its policy of attacking the Palestinian population through the
+commission of multiple criminal acts; (iii) the lack of reference to crimes against
+humanity in the Article 18(1) Notification is consistent with the limited purpose of a
+preliminary examination, which does not prevent the Prosecutor from investigating and
+prosecuting them; and (iv) the current alleged criminality “is another example of
+hostilities between the IDF and Hamas/PAGs and reproduces many of the same patterns
+and crimes, even though with much greater intensity, scale and number of victims, and
+more cruel methods of warfare” and several States have argued that the recent measures
+taken by Israel “are linked to Israel’s goal of causing Palestinians’ displacement from
+the [occupied Palestinian territories] and settling and annexing their land”.178
+118. The Prosecutor contends that Israel’s submission that it has not been given an
+opportunity to “explain itself” is “simply incorrect”.179
+In support, the Prosecutor
+argues that: (i) Israel could have requested a deferral of the investigation in March/April
+2021, but chose not to do so; and (ii) in light of a series of interactions post-October
+2023, Israel “was well aware that the recent and ongoing events in Gaza fall within the
+175
+Prosecutor’s Response, para. 33.
+176
+Prosecutor’s Response, para. 34, referring to Impugned Decision, para. 15.
+177
+Prosecutor’s Response, para. 34.
+178
+Prosecutor’s Response, para. 35.
+179
+Prosecutor’s Response, para. 36, referring to Appeal Brief, para. 57.
+ICC-01/18-481 15-12-2025 36/44 PT OA3
+No: ICC-01/18 OA3 37/44
+scope of the investigation opened in March 2021” and it “engaged with the Court upon
+such understanding”.180
+119. The Prosecutor further submits that “granting Israel’s Appeal would defeat the
+object and purpose of article 18, and of the complementarity regime more generally”.181
+The Prosecutor avers that article 18 of the Statute “was introduced to ensure that States
+would be aware of the commencement of the Court’s investigation in order to avoid
+duplication of proceedings” and that “States wanted to avoid any interpretation of
+article 18 that would allow States to protect perpetrators by frustrating and delaying
+investigations by the Prosecutor”.182
+As such, the Prosecutor submits that the third
+ground of appeal should be dismissed.183
+c. Israel’s submissions in reply
+120. Israel contests the Prosecutor’s argument that the lack of reference to crimes
+against humanity in the Article 18(1) Notification is consistent with the limited purpose
+of a preliminary examination,184
+which it supported with refence to two confidential
+notifications under article 18(1) of the Statute related to the situations in Uganda and
+the DRC.185
+Israel submits that the Prosecutor “misreads its own prior article 18(1)
+notifications”, as neither of those are limited to war crimes.186
+On the contrary, Israel
+submits that both notifications included language implicitly satisfying the chapeau
+requirements for crimes against humanity and referred to crimes by name that could
+either be war crimes or crimes against humanity.187
+121. Israel contends that neither the Uganda nor the DRC notifications expressly
+define the category of crimes to be investigated, unlike the Article 18(1) Notification
+in this situation which “identifies only war crimes”.188
+Read in light of these two other
+situations, Israel argues that it reveals that, in the Palestine Situation, the Prosecutor
+“did not believe” that he could open an investigation into crimes committed as part of
+180
+Prosecutor’s Response, para. 36.
+181
+Prosecutor’s Response, para. 37.
+182
+Prosecutor’s Response, para. 37.
+183
+Prosecutor’s Response, para. 37.
+184
+Prosecutor’s Response, para. 35.
+185
+Reply, para. 28.
+186
+Reply, para. 29.
+187
+Reply, para. 29.
+188
+Reply, para. 30.
+ICC-01/18-481 15-12-2025 37/44 PT OA3
+No: ICC-01/18 OA3 38/44
+a widespread or systematic attack.189
+In the argument of Israel, these two notifications,
+if anything, only reinforce its argument that the Prosecutor expanded its investigation
+significantly, beyond its defining parameters.190
+2. Determination by the Appeals Chamber
+122. The Majority notes, at the outset, the Prosecutor’s request to summarily dismiss
+Israel’s submissions challenging the specificity of the Article 18(1) Notification, as
+exceeding the issue for which the Pre-Trial Chamber granted leave to appeal.191
+However, in the submissions in question, Israel links the specificity of the Article 18(1)
+Notification to “the post-7 October 2023 investigation”.192
+The Majority, therefore,
+understands that these submissions are not directed solely at the specificity of that
+notification. Rather, they seek to demonstrate that the Article 18(1) Notification was
+not specific enough to encompass the subject-matter of the post-7 October 2023
+investigation. The Majority is, therefore, satisfied that these submissions are
+intrinsically linked to the issue certified for appeal.193
+123. Israel contends that the Pre-Trial Chamber “did not properly turn its mind to
+whether the [Article 18(1) Notification] is sufficiently specific or representative in
+relation to the post-7 October 2023 investigation”.194
+124. The Majority recalls that:
+There is no expectation at [the] stage of the [article 18(1)] proceedings that the
+Prosecutor should notify States of every act he or she intends to investigate,
+especially in those situations referred to the Court which cover a large number of
+alleged criminal acts. Indeed, in such situations, the Prosecutor may be in no
+position to identify all potential cases that fall within the scope of a broad referral
+and commit, so early in the process, to investigating them. However, the
+Prosecutor’s article 18(1) notification must be sufficiently specific in order for
+the State to be able to assert its jurisdiction in the proceedings under article 18(2)
+of the Statute.195
+189
+Reply, para. 30.
+190
+Reply, para. 30.
+191
+Prosecutor’s Response, para. 8.
+192
+Appeal Brief, para. 48.
+193
+See paragraphs 32-33 above.
+194
+Appeal Brief, para. 48.
+195
+Venezuela OA Judgment, paras 3, 110. See also Venezuela OA Judgment, para. 106 citing Afghanistan
+OA4 Judgment, para. 59.
+ICC-01/18-481 15-12-2025 38/44 PT OA3
+No: ICC-01/18 OA3 39/44
+125. To the extent that Israel is arguing that the Pre-Trial Chamber omitted to take into
+account the degree of specificity of the Article 18(1) Notification, this argument is
+unsubstantiated. Referring to the Venezuela OA Judgment, the Pre-Trial Chamber
+found that the Article 18(1) Notification was sufficiently specific in view of the fact
+that it included “the types of alleged crimes, potential alleged perpetrators, the starting
+point of the relevant timeframe, as well as a reference to further relevant information,
+including the summary of the Prosecution’s preliminary examination findings”.196
+It
+subsequently assessed some of the criteria included therein against the conduct
+described in the applications for warrants of arrest. The Pre-Trial Chamber found that
+the Article 18(1) Notification “indicated that the investigation concerned alleged crimes
+in the context of an international armed conflict, Israel’s alleged conduct in the context
+of an occupation, and a non-international armed conflict between Hamas and Israel”,
+whereas, in the applications for warrant of arrest, the Prosecutor “alleges conduct
+committed in the context of the same type of armed conflicts, concerning the same
+territories, with the same alleged parties to these conflicts”.197
+126. Therefore, the Pre-Trial Chamber’s findings on the specificity of the Article 18(1)
+Notification must be read together with its finding that no new situation or an
+investigation with new defining parameters had arisen, and not in isolation from each
+other, as suggested by Israel. Considered as a whole, it is clear that the finding on the
+absence of a new situation or an investigation with new defining parameters is informed
+by its preceding finding that the Article 18(1) Notification was sufficiently specific.
+127. Israel also argues that the Pre-Trial Chamber failed to consider certain parameters
+previously identified in the jurisprudence.198
+This argument is to no avail either. It has
+been previously determined that “any investigation, irrespective of its stage, [has]
+certain defining parameters, which may vary depending on the circumstances of each
+specific situation”.199
+On this basis, it cannot be maintained that the Court’s
+jurisprudence has set out, in general, the required defining parameters for each and
+196
+Impugned Decision, para. 11.
+197
+Impugned Decision, para. 15.
+198
+Appeal Brief, para. 47.
+199
+Philippines OA Judgment, para. 106, referring to Appeals Chamber, The Prosecutor v. Saif Al-Islam
+Gaddafi and Abdullah Al-Senussi, Judgment on the appeal of Libya against the decision of Pre-Trial
+Chamber I of 31 May 2013 entitled “Decision on the admissibility of the case against Saif Al-Islam
+Gaddafi”, 21 May 2014, ICC-01/11-01/11-547-Red (OA4), para. 83.
+ICC-01/18-481 15-12-2025 39/44 PT OA3
+No: ICC-01/18 OA3 40/44
+every investigation. As this is a case-specific determination, the relevant parameters
+will depend on the particular circumstances of a situation. This is further confirmed by
+the fact that “[a] State Party’s referral of a situation ‘in which one or more [crimes
+within the jurisdiction of the Court] appears to have been committed’, under article
+13(a) of the Statute, provides the parameters of a situation”.200
+Thus, the notification
+under article 18(1) of the Statute that is to be provided if the Prosecutor decides to
+initiate an investigation is inextricably linked to the State referral under article 13(a) of
+the Statute and shall be read in conjunction therewith.
+128. On this basis, the Pre-Trial Chamber correctly proceeded to assess the specific
+parameters of the present situation, namely “the types of alleged crimes, potential
+alleged perpetrators, the starting point of the relevant timeframe, as well as a reference
+to further relevant information”, and concluded that the Article 18(1) Notification was
+sufficiently specific.201
+This finding informed its subsequent ruling that no new
+situation or an investigation with new defining parameters had arisen. Accordingly, the
+Majority rejects Israel’s contention that the Pre-Trial Chamber did not consider or apply
+the criteria developed by prior jurisprudence.
+129. In any event, even if the Pre-Trial Chamber had considered the specific
+parameters highlighted by Israel, the Majority cannot discern an error in the relevant
+finding of the Pre-Trial Chamber.
+130. As to Israel’s assertion that no armed conflict was articulated in the Article 18(1)
+Notification as a defining parameter,202
+this matter has been addressed above under the
+first ground of appeal and does not require to be revisited.
+131. In respect of Israel’s contention that the defining parameters of the investigation
+do not include crimes committed systematically or as a matter of State policy, except
+for the alleged transfer of Israeli civilians into the West Bank, or that no crimes against
+humanity were included,203
+the Majority recalls that the Article 18(1) Notification shall
+be read together with the 2018 Referral.204
+The 2018 Referral expressly includes
+200
+Venezuela OA Judgment, para. 218.
+201
+Impugned Decision, para. 11.
+202
+Appeal Brief, para. 50.
+203
+Appeal Brief, paras 51-52.
+204
+Article 18(1) Notification, para. 1, p. 1.
+ICC-01/18-481 15-12-2025 40/44 PT OA3
+No: ICC-01/18 OA3 41/44
+allegations of crimes committed systematically as a matter of State policy, and
+specifically refers to crimes against humanity. It describes Israel’s settlement regime as
+“pursuing [a] policy of displacement and replacement of the Palestinian people”.205
+The
+2018 Referral adds that this policy “encompasses a range of sub-policies and practices”,
+which “has involved the enactment and maintenance of a multi-layered system of
+violence and intimidation against the Palestinian population” and “the widespread and
+systematic attack on the Palestinian civilian population, through the commission of
+crimes, to create and perpetuate such a regime”.206
+It then explicitly indicates that
+“[t]hese acts qualify under the Rome Statute as both war crimes and crimes against
+humanity”.207
+Lastly, the 2018 Referral stipulates that the circumstances “include but
+are not limited to, all matters related to the Israeli settlement regime” and that the
+referral “incorporates […] any conduct, policies, laws, official decisions and practices
+that underlie, promote, encourage or otherwise make a contribution to the commission
+of these crimes in accordance with the terms of the Statute”.208
+In this regard, it
+specifically qualifies such alleged acts as crimes against humanity, including those
+falling under “articles 7(1)(a), (d), (e), (f), (h), (j) and (k) […] of the Rome Statute”.209
+132. Finally, the Majority is not persuaded by Israel’s submission that the general
+circumstances in which the alleged criminality is said to have occurred have changed
+radically. Rather, as is apparent from the foregoing considerations, the currently
+investigated circumstances appear to be connected to the circumstances identified in
+the 2018 Referral and the Article 18(1) Notification in view of the continuity of the
+context in which the alleged crimes have been perpetrated. In this regard, the Majority
+recalls that, as set out above under the first ground of appeal, the Pre-Trial Chamber
+correctly held that, in comparison with the Article 18(1) Notification, the Prosecutor
+“alleges conduct committed in the context of the same type of armed conflicts,
+concerning the same territories, with the same alleged parties to these conflicts” in the
+applications for the warrants of arrest.210
+Therefore, the alleged crimes display a
+continuity in pattern, even though a certain shift in circumstances may have occurred
+205
+2018 Referral, para. 2.
+206
+2018 Referral, para. 3.
+207
+2018 Referral, para. 3.
+208
+2018 Referral, para. 11.
+209
+2018 Referral, para. 11.
+210
+Impugned Decision, para. 15.
+ICC-01/18-481 15-12-2025 41/44 PT OA3
+No: ICC-01/18 OA3 42/44
+as a result of the events on and after 7 October 2023. Similarly, as determined in the
+preceding paragraphs, there continue to be allegations of crimes committed
+systematically and/or as a matter of State policy.
+133. The Majority further considers that the question whether other judicial
+institutions have adopted a different approach is, contrary to Israel’s assertion, not
+relevant in view of the dissimilar procedural frameworks in which such institutions
+operate.211
+Furthermore, the individual positions of certain States are not determinative
+for this question as the Majority is exclusively guided by the applicable legal
+framework.212
+134. In any event, Israel’s argument under this ground of appeal disregards the
+Prosecutor’s prerogative to investigate matters occurring after the commencement of
+the investigation and the provision of information to States in accordance with article
+18(1) of the Statute.
+135. As previously noted by the Majority, “the Prosecutor’s investigation is not limited
+to crimes pre-dating the referral [and] the obligation to provide sufficiently specific
+information in an article 18 notification does not limit in any way the Prosecutor’s
+future investigations”.213
+The Majority has also endorsed the interpretation that a
+situation of crisis for which the jurisdiction of the Court was activated “can include not
+only crimes that had already been or were being committed at the time of the referral,
+but also crimes committed after that time, in so far as they are sufficiently linked to the
+situation of crisis referred to the Court as ongoing at the time of the referral”.214
+As is
+apparent from the preceding discussion, the alleged crimes committed on and after
+7 October 2023 are sufficiently linked to the situation of crisis identified in the
+2018 Referral and, as such, it fell within the Prosecutor’s prerogatives to extend the
+investigation initiated in 2021 to encompass such alleged crimes.
+211
+Appeal Brief, para. 54.
+212
+Appeal Brief, para. 54.
+213
+Venezuela OA Judgment, para. 230.
+214
+Venezuela OA Judgment, para. 227, referring to Mbarushimana Arrest Warrant Decision, para. 6. See
+also Pre-Trial Chamber II, The Prosecutor v. Ali Muhammad Ali Abd-Al-Rahman (“Ali Kushayb”),
+Decision on the Defence ‘Exception d’incompétence’ (ICC-02/05-01/20-302), 17 May 2021, ICC-02/05-
+01/20-391, para. 25.
+ICC-01/18-481 15-12-2025 42/44 PT OA3
+No: ICC-01/18 OA3 43/44
+136. In light of the above, the Majority rejects Israel’s third ground of appeal.
+V. APPROPRIATE RELIEF
+137. In an appeal pursuant to article 82(1)(d) of the Statute, the Appeals Chamber may
+confirm, reverse or amend the decision appealed. In the present case, it is appropriate
+to reject Israel’s appeal and confirm the Impugned Decision.
+138. The Appeals Chamber notes that, while the Chambers Practice Manual requires
+that a judgment on an interlocutory appeal filed under article 82(1)(d) of the Statute, in
+cases where the Appeals Chamber does not decide to hold a hearing, be rendered within
+four months from the date of the filing of the response to the appeal brief, the present
+judgment is delivered after this time limit in view of the nature of the legal issues
+contained in this appeal and the need for detailed consideration of the relevant
+arguments.
+139. Lastly, in the circumstances of the present appeal, the Appeals Chamber
+considers that the requirement set forth in article 83(4) of the Statute and rule 158(2) of
+the Rules to deliver the judgment “in open court”, which ensures the publicity of the
+proceedings with a view to guaranteeing that justice is transparent and accessible to the
+public, is adequately fulfilled by delivering this judgment in public version, notifying
+it to the parties to the proceedings, and publishing it on the Court’s website.
+140. Judge Luz del Carmen Ibáñez Carranza and Judge Solomy Balungi Bossa append
+dissenting opinions to the present judgment.
+141. Judge Gocha Lordkipanidze appends a concurring opinion to this judgment.
+ICC-01/18-481 15-12-2025 43/44 PT OA3
+No: ICC-01/18 OA3 44/44
+Done in both English and French, the English version being authoritative.
+_
+Judge Tomoko Akane
+Presiding
+_ _
+Judge Luz del Carmen Ibáñez
+Carranza
+_
+Judge Solomy Balungi Bossa
+_ _
+Judge Gocha Lordkipanidze
+_
+Judge Erdenebalsuren Damdin
+Dated this 15th
+day of December 2025
+At The Hague, The Netherlands
+ICC-01/18-481 15-12-2025 44/44 PT OA3
+

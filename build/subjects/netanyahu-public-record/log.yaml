@@ -1,0 +1,83 @@
+subject: netanyahu-public-record
+# Append-only. Corrections are new entries; earlier entries are never edited. Times are UTC. All requests went through the session's egress proxy (TLS re-terminated there; the origin certificate was not inspected).
+log:
+  - id: L-01
+    date: 2026-10-16
+    entry: >
+      DIG OPENED by the builder agent at the owner's instruction "No spin, just data" for Benjamin Netanyahu. Scope approved by the owner: public record plus financial data. Public record means dated facts with sources: offices held and dates, election results,
+      parliamentary votes where documented, court filings and rulings (indictment, proceedings, rulings, pardon-related filings) and his own recorded statements with source, date and place. Financial data means official disclosures, state comptroller and court-record figures, declared assets and funding records,
+      from the primary document where reachable. Sources: English-readable primary documents only. A reviewer who has not seen this work will check it; the builder does not review itself and has not written review.yaml.
+      An earlier Stage 1 design (eight claims, Hebrew sources, no finance, never committed) was read as a starting plan only. Nothing from it was reused without being re-fetched and re-read here: the five Central Elections Committee pages came back byte-identical (same SHA-256) to the Stage 1 copies;
+      the ICC release and situation page were re-downloaded and had changed (living pages); the President's Office post of 29 December 2022 was re-read from its REST record.
+  - id: L-02
+    date: 2026-10-16
+    entry: >
+      SELECTION RULES, written before any statement or record was read for this dig. (1) Sources are the issuing bodies' own documents wherever reachable (Central Elections Committee, State Comptroller, ICC, UN, U.S. Government Publishing Office, the President's Office); where an Israeli primary source is blocked,
+      a U.S. Congressional Research Service report is used and marked as a secondary account. (2) Statements: every address to a joint meeting of the U.S. Congress and every UN General Assembly general-debate statement that could be located in the official record; for each, the first two sentences and the last sentence before any closing thanks or stage direction are quoted, and nothing from the middle.
+      (3) Courts: every public ICC record located that concerns the warrants or his name, quoting each record's own disposition and its parties' stated requests side by side. (4) Money: where a figure is stated for him, the same measure for the other office-holders in the same document is stated beside it (Bennett and Lapid in the Comptroller's report).
+      (5) An accusation, a draft, a request or a party filing is recorded as such and never as a finding. (6) No motive, characterisation or implication is stated by this page. Absence is recorded only as what was searched and not reached or not found (capped at provisional).
+  - id: L-03
+    date: 2026-10-16
+    entry: >
+      OPENED AND READ (details, hashes and sizes in sources/MANIFEST.yaml). Central Elections Committee national results, 21st to 25th Knesset (Hebrew; arithmetic checked). President's Office: post of 2022-12-29 (Hebrew, REST record), English post of 2025-12-01, Hebrew post of 2026-05-13 (REST record), English page 'Presidential Pardons'.
+      Embassy of Israel London announcement on the 26th Knesset election date (Hebrew). ICC: press release of 21 November 2024 and the situation page; court records ICC-01/18-374, -375, -422, -423, -425, -426, -428, -431, -457, -462, -468, -471-Anx1 and -481 (public PDFs; -471-Anx1 stored as an excerpt only).
+      Congressional Record daily editions of 1996-07-10, 2011-05-24, 2015-03-03, 2024-07-24 (whole-issue PDFs; the address located and extracted). UN verbatim records A/64/PV.5, A/66/PV.19, A/67/PV.12, A/68/PV.23, A/69/PV.17, A/70/PV.22, A/71/PV.14, A/72/PV.4, A/73/PV.10, A/75/PV.14 (annex XV), A/78/PV.10, A/79/PV.13.
+      State Comptroller: special report of April 2024 on the Prime Ministers' residences (English abstract, 20 pages) and special report of May 2026 on the structure of government (English abstract); also, not cited by any claim, the English abstract on administrative issues in the Prime Minister's Office (Annual Report 70B, 2020), and a text search of eleven other English report files for the word 'Netanyahu'.
+      CRS: Insight IN11068 v1 (2019), Report R44245 versions 66, 90, 131, 144 and 147 (only versions 66 and 147 and the Insight are cited). Cardozo Law Israeli Supreme Court Project: the translated judgment HCJ 3132/15, and, read in outline, the project's pages for 'Movement for Quality Government in Israel v. The Knesset' (the reasonableness amendment), 'Yedidya Loewenthal, Adv. v. Prime Minister' and a summary of cases of 2019 to 2020. Government of Israel page 'ICC's Lack of Jurisdiction' (govextra.gov.il).
+      Embassy of Israel Kathmandu page carrying the Prime Minister's statement on the ICC decision.
+  - id: L-04
+    date: 2026-10-16
+    entry: >
+      TRIED AND NOT OPENED (coverage facts, not findings; see the gap claims). Knesset: main.knesset.gov.il (member page 30, /en), www.knesset.gov.il government pages, data.knesset.gov.il, every Knesset path returned HTTP 200 with the same maintenance page (SHA-256 67e46665bf51696b35e499315c3f15c54efbc972b0e6a0a4ce9b8dba7758be77, identical to the Stage 1 hash) or no connection.
+      gov.il (Prime Minister's Office, Ministry of Justice, Government Press Office pages): HTTP 403. Israeli courts: elyon1.court.gov.il returned an 'unauthorized activity' page; supreme.court.gov.il and supremedecisions.court.gov.il gave no connection or an empty reply; www.court.gov.il/ENG gave 404. nevo.co.il 403. votes20.bechirot.gov.il 403 (redirect to data.gov.il); votes19 and earlier no connection; votes26.bechirot.gov.il 404.
+      web.archive.org: no connection through the proxy. www.state.gov, www.un.org, www.congress.gov product pages: HTTP 403. gadebate.un.org: HTTP 405. A/80/PV.5 to PV.17 and PV.19 onward (UN, 2025 session): the documents system returned a short HTML viewer page instead of a PDF. The State Comptroller's library search REST interface returned HTTP 401/500 to a direct query and was not probed further.
+      ICC court-record pages and some PDF links returned a bot-challenge page intermittently; the PDFs read here were retrieved on retry. No protection was bypassed, no mirror of a blocked host was used and TLS verification was never disabled.
+  - id: L-05
+    date: 2026-10-16
+    entry: >
+      HOW DOCUMENTS WERE LOCATED. A web search engine restricted to official domains (icc-cpi.int, library.mevaker.gov.il, congress.gov, embassies.gov.il, president.gov.il and similar) was used to find the addresses of ICC court records, State Comptroller PDFs, CRS reports and embassy pages that the sites' own search pages did not give to this environment.
+      Search results and their summaries were never used as anchors or as facts; every claim rests on a document that was downloaded, hashed and read. Some search summaries asserted facts (for example about dates of ICC filings and the content of a Prime Minister's statement) that were used only as pointers; where a summary was wrong or unsupported by the document opened, the document governs
+      (for example, a search summary attributed a quotation about the pardon request to the Prime Minister that, in the page opened, is the President's). Wikipedia was not used. No news outlet was used as an anchor. Statements and filings relayed by news outlets (for example the Times of Israel headline cited in a CRS footnote) were not read.
+  - id: L-06
+    date: 2026-10-16
+    entry: >
+      EXTRACTS AND REDACTIONS. Raw downloads are kept outside the repository; the repository holds plain-text extracts made with pdftotext (-raw for most, -layout for the CRS excerpts) or a small stdlib HTML-to-text script, with control characters removed. Each extract has its own SHA-256 in the manifest; each source has the SHA-256 and size of its raw download.
+      Redactions and trims, all declared in the extract headers: the ICC press release extract replaces a press-contact line (a staff member's name, telephone and e-mail) with a marker; the ICC-01/18-471-Anx1 extract keeps paragraphs 1 to 5 and 51 to 53 only and drops paragraphs 6 to 50, which relay media reports and allegations about named and unnamed persons who are not parties to the record;
+      the Congressional Record, UN, CRS and Versa extracts keep only the passages used (the address, the statement, the excerpt) with the document's own heading data. Page furniture printed inside the UN and Congressional records (document symbol, date, page number) is left in the extract and shown as '[...]' where a quotation skips it.
+  - id: L-07
+    date: 2026-10-16
+    entry: >
+      QUOTE CHECK. Every passage that a claim quotes in its anchor description was passed through a script that requires it to occur, after collapsing whitespace, in the named stored extract (fragments joined by '[...]' must occur in order); a passage that did not match stopped the build. 223 passages in 67 claims; the list is in sources/QUOTECHECK.txt.
+      A second heuristic check looked for the quoted passages of each claim's statement in that claim's stored sources and flagged 29 items; each flagged item was examined: they are the builder's own English glosses (not quotations), Hebrew list names whose internal quotation marks (gershayim) confuse the pairing, a hyphenation artifact ('Adelson-owned' is printed 'Adelson- owned' across a line break), a source misprint ('ofHungary’s') restored in the quotation, and nested quotation marks normalised to single quotes.
+      build/tools/review_dig.py's own quote matcher reports many quotations from long extracts as 'not found' because its fuzzy index looks at a limited number of word positions; those reports were not treated as findings and the exact check above is the record. Neither check replaces opening the source; the reviewer is expected to do that.
+  - id: L-08
+    date: 2026-10-16
+    entry: >
+      ARITHMETIC AND INTERNAL-CONSISTENCY TESTS RUN (recorded in the manifest as tests). Central Elections Committee pages: seats sum to 120, valid votes sum to the page total and the Likud share recomputes, on all five. State Comptroller April 2024: the Netanyahu items sum to the stated NIS 27.8 million (960,000 + 19,097,000 + 7,710,000 = 27.77 million) and the 2023 items to the stated NIS 26.8 million (26.81 million); the three Prime Ministers' figures sum to about NIS 56.3 million against NIS 56 million;
+      in the Caesarea section 795,000 + 165,200 = 960,200 against the printed 960,000 (a difference of NIS 200 that the report does not explain); the report gives the NIS 56 million for two different periods ('until November 2023' and 'from January 2019 to June 2023'). ICC documents: the press release dates Israel's two requests 26 September 2024, decision ICC-01/18-374 gives 20 and 23 September 2024 and later decisions say 23 September 2024 (recorded as claim np-icc-dates-differ, not resolved).
+  - id: L-09
+    date: 2026-10-16
+    entry: >
+      RULE REFINEMENT, recorded for transparency. The statement-quotation rule of L-02 was first drafted as 'the first two sentences and the last sentence as printed'. Before any claim text was written it was refined to 'the first two sentences and the last sentence before any closing thanks or stage direction', because several statements end only in thanks or applause, which carry no content (for example '[Applause, the Members rising.]').
+      The refinement was made on the form of the endings, not on what any statement says, and is applied identically to all sixteen addresses. The sentence splitter is mechanical; two openings are mostly salutations and are quoted as printed. For the one statement where the sentence reporting the decision on the warrant is quoted in addition (np-pm-statement-icc-2024) the reason is stated in the claim.
+  - id: L-10
+    date: 2026-10-16
+    entry: >
+      HEBREW. The Central Elections Committee pages, the President's Office posts of 2022-12-29 and 2026-05-13 and the embassy announcement on the 26th Knesset election are in Hebrew. The builder, a language model, read them; the claims quote the Hebrew as printed and add English glosses marked as the builder's (source tr-hebrew-glosses, authenticity unchecked).
+      No Hebrew reader has checked list names, glosses or the Hebrew quotations. Hebrew documents the builder could not or did not open (Knesset, courts, gov.il) are listed as not read in the gap claims; nothing is said about their content. The State Comptroller's full Hebrew reports were not opened; only the English abstracts were.
+  - id: L-11
+    date: 2026-10-16
+    entry: >
+      SYMMETRY CHECK, as the owner's neutrality instruction requires. Records adverse to him are stated (ICC press release, decisions and the Court's own findings; CRS's description of the allegations; the Comptroller's findings about the Caesarea security measures and the summary statements). Records favourable to or in the interest of him or of Israel are stated at equal length: the Appeals Chamber's reversal of 24 April 2025; the Court's own statement that the Article 19(2) decision dealt only with timing; Israel's filings and the Prosecution's responses side by side;
+      the Government of Israel's position page; his own statements with the same quotation rule; the Comptroller's remarks on other Prime Ministers beside his; the High Court of Justice decision HCJ 3132/15 (in translation) denying a petition against his holding more than one portfolio. Where the documents describe the same fact differently the page shows both and does not choose. The balance of the page reflects which documents were reachable, not a selection by content; the gap claims list what was not reachable on either side
+      (for example the Attorney General's announcements and the indictment, which could add detail to the criminal case, and the Knesset's records).
+  - id: L-12
+    date: 2026-10-16
+    entry: >
+      NOT DONE, FOR THE OWNER (also listed in the report to the caller). No review.yaml was written and the subject is not added to `publish`. No `assessment:` block was written because a descriptive subject has no yes/no answer and inventing one would mislead; build/tools/review_dig.py lists it as FAIL. adoption_weight is 3 on every claim as a stated placeholder because the validator requires it and record facts have no adoption count.
+      No taxonomy entry was written (build/taxonomy.yaml is owner-only); a proposal is in PROPOSED_TAXONOMY.yaml. No headline_claim is named because the page has no headline finding. No pull request was opened and no comment was posted. The branch is dig/netanyahu-public-record. Businesspeople named in the CRS Insight's table (as CRS prints them) appear in claims np-crs-2019-case-1000, -2000 and -4000; the owner may decide whether to keep them.
+  - id: L-13
+    date: 2026-10-16
+    entry: >
+      PASSAGES DELIBERATELY NOT REPRODUCED, for the neutrality rule (no motive, no belief counts). Two clauses of Congressional Research Service text were left out of the quoted passages and the omission is stated in the claims: the clause of IN11068 that gives a reason for the timing of the April 2019 elections (a stated motive), and the poll figure on whether he should resign in R44245 v66 (a count of opinion, which carries no weight here).
+      CRS statements that someone 'advocated' or 'argued' (the President of the United States on the pardon) are kept because they report what that person did or said, are attributed to CRS and to that person, and are not stated as fact. The first drafts of those two claims reproduced the clauses; they were revised before anything was committed. Statements in the pages and filings quoted (his, Israel's, the Prosecution's) that assert motives or facts about others are quoted as the speaker's and are not adopted.

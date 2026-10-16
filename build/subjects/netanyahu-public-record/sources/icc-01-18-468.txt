@@ -1,0 +1,521 @@
+# pdftotext -raw extract of ICC court record ICC-01-18-468 (0902ebd180ccfb3b.pdf).
+
+No. ICC-01/18 1/13 17 October 2025
+No, I don
+Original: English No.: ICC-01/18
+Date: 17 October 2025
+PRE-TRIAL CHAMBER I
+Before: Judge Nicolas Guillou, Presiding Judge
+Judge Reine Adélaïde Sophie Alapini-Gansou
+Judge Beti Hohler
+SITUATION IN THE STATE OF PALESTINE
+Public
+Decision on Israel’s request for leave to appeal the ‘Decision on the State of Israel’s
+request to have arrest warrants withdrawn, vacated or declared of no force or effect
+and to suspend the Prosecutor’s investigation’
+ICC-01/18-468 17-10-2025 1/13 PT
+No. ICC-01/18 2/13 17 October 2025
+Decision to be notified in accordance with regulation 31 of the Regulations of the Court
+to:
+☒ The Office of the Prosecutor ☐ Counsel for the Defence
+☐ Legal Representatives of the Victims ☐ Legal Representatives of the
+Applicants
+☐ Unrepresented Victims ☐ Unrepresented Applicants
+(Participation/Reparation)
+☐ The Office of Public Counsel for
+Victims
+☐ The Office of Public Counsel for the
+Defence
+☒ States’ Representatives
+State of Israel
+REGISTRY
+☐ Amicus Curiae
+Registrar
+Mr Osvaldo Zavala Giler
+☐ Counsel Support Section
+☐ Victims and Witnesses Unit ☐ Detention Section
+☐ Victims Participation and
+Reparations Section
+☐ Other
+ICC-01/18-468 17-10-2025 2/13 PT
+No. ICC-01/18 3/13 17 October 2025
+PRE-TRIAL CHAMBER I (the ‘Chamber’) of the International Criminal Court (the ‘Court’),
+acting under article 82(1)(d) of the Rome Statute (the ‘Statute’), hereby decides on the State of
+Israel’s (‘Israel’) ‘Request for leave to appeal the “Decision on the State of Israel’s request to
+have arrest warrants withdrawn, vacated or declared of no force or effect and to suspend the
+Prosecutor’s investigation”’ (the ‘Request’).1
+I. PROCEDURAL HISTORY
+1. On 5 February 2021, Pre-Trial Chamber I, in a different composition, issued a decision
+on a request by the Prosecution2
+pursuant to article 19(3) of Statute, finding unanimously that
+the State of Palestine (‘Palestine’) is a State Party to the Statute and holding by majority that,
+as a consequence, ‘Palestine qualifies as “[t]he State on the territory of which the conduct in
+question occurred”, for the purposes of article 12(2)(a) of the Statute’, and that the Court’s
+territorial jurisdiction in the Situation in the State of Palestine (‘Palestine Situation’) extends
+to the territories occupied by Israel since 1967, namely Gaza and the West Bank, including
+East Jerusalem (the ‘Article 19(3) Decision’).3
+2. On 3 March 2021, the Prosecutor publicly announced the initiation of an investigation
+into the Palestine Situation, with respect to ‘crimes within the jurisdiction of the Court that are
+alleged to have been committed in the Situation since 13 June 2014’.4
+3. On 20 May 2024, the Prosecutor publicly announced the filing of applications for
+warrants of arrest in the Palestine Situation against five individuals, including
+Benjamin Netanyahu (‘Mr Netanyahu’) and Yoav Gallant (‘Mr Gallant’).5
+1
+22 July 2025, ICC-01/18-461.
+2
+Prosecution’s request pursuant to article 19(3) for a ruling on the Court’s territorial jurisdiction in Palestine,
+ICC-01/18-12.
+3
+Decision on the ‘Prosecution request pursuant to article 19(3) for a ruling on the Court’s territorial jurisdiction
+in Palestine’, ICC-01/18-143.
+4
+Office of the Prosecutor, Statement of the ICC Prosecutor, Fatou Bensouda, respecting an investigation of the
+Situation in Palestine, 3 March 2021.
+5
+Office of the Prosecutor, Statement of ICC Prosecutor Karim A.A. Khan K.C.: Applications for arrest warrants
+in the situation in the State of Palestine, 20 May 2024.
+ICC-01/18-468 17-10-2025 3/13 PT
+No. ICC-01/18 4/13 17 October 2025
+4. On 23 September 2024, Israel filed before the Chamber ‘Israel’s challenge to the
+jurisdiction of the Court pursuant to article 19(2) of the Rome Statute’ (‘Israel’s Jurisdiction
+Challenge’).6
+5. On 21 November 2024, the Chamber rejected Israel’s Jurisdiction Challenge as
+premature (the ‘Article 19(2) Decision’).7
+On the same day, the Chamber issued three warrants
+of arrest, including warrants for Mr Netanyahu and Mr Gallant (the ‘Warrants’).8
+6. On 27 November 2024, Israel filed a notice of appeal against the Article 19(2) Decision
+before the Appeals Chamber, pursuant to article 82(1)(a) of the Statute (the ‘Notice of
+Appeal’),9
+in which it asked the Appeals Chamber to give suspensive effect to the appeal
+pursuant to article 82(3) of the Statute and to suspend the Warrants.10
+7. On 13 December 2024, Israel filed its appeal brief, in which it asked the Appeals
+Chamber to find, inter alia, that the Warrants were erroneously issued because the Chamber
+had failed to provide a substantive determination on the merits of Israel’s Jurisdiction
+Challenge and were therefore null and void (‘Israel’s Appeal Brief’).11
+8. On 24 April 2025, the Appeals Chamber issued its judgment on Israel’s appeal against
+the Article 19(2) Decision (the ‘Judgment’).12
+The Appeals Chamber reversed the Article 19(2)
+Decision for insufficient reasoning and remanded the matter to the Chamber for it to rule on
+the substance of the jurisdictional challenge.13
+The Appeals Chamber dismissed Israel’s request
+for suspensive effect of the Warrants as moot.14
+6
+Israel’s challenge to the jurisdiction of the Court pursuant to article 19(2) of the Rome Statute, ICC-01/18-354-
+AnxII-Corr.
+7
+Decision on Israel’s challenge to the jurisdiction of the Court pursuant to article 19(2) of the Rome Statute, ICC-
+01/18-374.
+8
+ICC-01/18-377-SECRET; ICC-01/18-378-SECRET. The issuance of the arrest warrants was made public on the
+same day. See Press Release – Situation in the State of Palestine: ICC Pre-Trial Chamber I rejects the State of
+Israel’s challenges to jurisdiction and issues warrants of arrest for Benjamin Netanyahu and Yoav Gallant.
+9
+Notice of Appeal of “Decision on Israel’s challenge to the jurisdiction of the Court pursuant to article 19(2) of
+the Rome Statute” (ICC-01/18-374), ICC-01/18-386.
+10
+Notice of Appeal, paras 5 and 29-37.
+11
+Appeal of ‘Decision on Israel’s challenge to the jurisdiction of the Court pursuant to article 19(2) of the Rome
+Statute’, ICC-01/18-402.
+12
+Judgment on the appeal of the State of Israel against Pre-Trial Chamber I’s “Decision on Israel’s challenge to
+the jurisdiction of the Court pursuant to article 19(2) of the Rome Statute”, ICC-01/18-422.
+13
+Judgment, para. 64.
+14
+Judgment, para. 66.
+ICC-01/18-468 17-10-2025 4/13 PT
+No. ICC-01/18 5/13 17 October 2025
+9. On 9 May 2025, Israel asked the Chamber to, inter alia (i) withdraw, vacate or declare
+the Warrants of no force or effect; and (ii) declare that the Prosecution must suspend its
+investigation into the Palestine Situation,15
+to which the Prosecution responded on 21 May
+2025.16
+10. On 16 July 2025, the Chamber rejected Israel’s request to withdraw, vacate or declare
+the Warrants of no force or effect; and to declare that the Prosecution must suspend its
+investigation into the Palestine Situation (the ‘Impugned Decision’).17
+11. On 22 July 2025, Israel filed the Request, seeking leave to appeal the Impugned
+Decision.18
+12. On 25 July 2025, the Prosecution responded to the Request (the ‘Response’).19
+II. SUBMISSIONS
+13. Israel seeks permission to appeal the following issue (the ‘Issue’):
+Whether the Warrants against Israeli citizens could have been issued in conformity with
+article 19(1) of the Statute notwithstanding a pending challenge to the jurisdictional basis
+for its issuance; and whether [they] must, consequently, now be suspended or given no
+force or effect in light of the Appeals Chamber’s reversal of the Article 19(2) Decision.20
+14. Israel submits that the Issue constitutes an appealable issue. It argues that the reasoning
+of the Chamber in the Impugned Decision is ‘incorrect’ for two reasons.21
+First, Israel argues
+that ‘the reasoning does not discuss whether the Chamber was required, as part of its obligatory
+prior ascertainment of jurisdiction in the [Warrants] to have addressed the merits of the
+15
+Request to Have Warrants Withdrawn or Vacated and Response to Prosecution Observations dated 5 May 2025,
+ICC-01/18-426.
+16
+Prosecution’s response to Israel’s “Request to Have Warrants Withdrawn or Vacated and Response to
+Prosecution Observations dated 5 May 2025”, ICC-01/18-431.
+17
+Decision on the State of Israel’s request to have arrest warrants withdrawn, vacated or declared of no force or
+effect and to suspend the Prosecutor’s investigation, ICC-01/18-457.
+18
+ICC-01/18-461.
+19
+Prosecution’s response to Israel’s ‘Request for leave to appeal the ‘Decision on the State of Israel’s request to
+have arrest warrants withdrawn, vacate or declared of no force or effect and to suspend the Prosecutor’s
+investigation’, ICC-01/18-463.
+20
+Request, para. 4
+21
+Request, para. 19.
+ICC-01/18-468 17-10-2025 5/13 PT
+No. ICC-01/18 6/13 17 October 2025
+Jurisdictional Challenge.’22
+According to Israel, the Appeals Chamber’s reversal of the Article
+19(2) Decision means that ‘the legal basis for the [Chamber] not having addressed the
+substance of Israel’s Jurisdiction Challenge, which otherwise would have been pending when
+the [Warrants] were issued, was incorrect.’23
+It follows, according to Israel, that the Chamber
+was retroactively placed in the position before it issued the Warrants, but this time with a
+pending jurisdictional challenge.24
+Second, Israel submits that the substantive implications of
+the Appeals Chamber’s Judgment ‘are greater than acknowledged in the Impugned Decision’.25
+Israel argues that the Appeals Chamber’s Judgment invalidated the Chamber’s reliance in the
+Warrants on the reasoning contained in the Article 19(3) Decision. According to Israel, this
+follows from the fact that the Appeals Chamber found that the Chamber had not sufficiently
+explained why it had invoked the notion of res judicata in the Article 19(2) Decision.26
+Israel
+further submits that the Issue affects the fair and expeditious conduct of proceedings, and
+immediate resolution thereof may materially advance the proceedings.27
+15. The Prosecution opposes the Request. The Prosecution submits that the Issue, identified
+by Israel, is not appealable because (i) it does not arise from the Impugned Decision as it is
+based on misrepresentations of the Appeals Chamber’s Judgment; and (ii) it constitutes a mere
+disagreement with the Chamber’s analysis and conclusions regarding the impact of the Appeals
+Chamber’s Judgment on the Warrants.28
+The Prosecution further argues that the Issue does not
+significantly affect the fair and expeditious conduct of the proceedings and that, in any case,
+an immediate resolution by the Appeals Chamber would not materially advance the
+proceedings.29
+22
+Request, para. 19.
+23
+Request, para. 17.
+24
+Request, paras 18-19.
+25
+Request, para. 20.
+26
+Request, para. 20.
+27
+Request, paras 23-28.
+28
+Response, paras 15-20.
+29
+Response, paras 21-26.
+ICC-01/18-468 17-10-2025 6/13 PT
+No. ICC-01/18 7/13 17 October 2025
+III. APPLICABLE LAW
+16. Article 82(1)(d) of the Statute provides that a party may appeal a decision that
+(i) involves an issue that would significantly affect both the fair and expeditious conduct of the
+proceedings or the outcome of the trial; but only if (ii) in the opinion of the Chamber, an
+immediate resolution of this issue by the Appeals Chamber may materially advance the
+proceedings.30
+The two prongs of this test are cumulative and, therefore, failure by the party
+seeking leave to appeal to demonstrate one makes it unnecessary for the Chamber to address
+the other.31
+17. An issue pursuant to article 82(1)(d) is an identifiable subject or topic requiring a
+decision for its resolution.32
+The issue must arise from the impugned decision itself,33
+and not
+30
+See Appeals Chamber, Situation in the Democratic Republic of the Congo, Judgment on the Prosecutor’s
+Application for Extraordinary Review of Pre-Trial Chamber I’s 31 March 2006 Decision Denying Leave to
+Appeal, 13 July 2006, ICC-01/04-168 (hereinafter: DRC Appeal Judgment), paras 7-19; Pre-Trial Chamber III,
+The Prosecutor v. Jean Pierre-Bemba Gombo, Decision on the Prosecutor’s application for leave to appeal Pre-
+Trial Chamber III’s decision on disclosure, 25 August 2008, ICC-01/05-01/08-75, paras 5-20; Pre-Trial Chamber
+II, The Prosecutor v. William Samoei Ruto and Joshua Arap Sang, Decision on the Prosecutor’s Request for Leave
+to Appeal the Decision Rejecting the Amendment of the Charges (ICC-01/09-01/11-859), 6 September 2013,
+ICC-01/09-01/11-912, paras 14-22 and n. 22 for further references.
+31
+See, for example, Pre-Trial Chamber II, The Prosecutor v. Alfred Yekatom and Patrice-Edouard Ngaïssona,
+Consolidated Decision on filings ICC-01/14-01/18-524-Corr and ICC-01/14-01/18-545 (Prosecutor’s requests for
+leave to appeal the decisions pursuant to article 61(9) of the Rome Statute dated 14 May 2020 and 1 June 2020),
+19 June 2020, ICC-01/14-01/18-560, para. 55; Pre-Trial Chamber II, Situation in the Republic of Kenya, Decision
+on a Request for Leave to Appeal, 11 February 2011, ICC-01/09-43, para. 12; Pre-Trial Chamber I, Situation in
+Democratic Republic of the Congo, Decision on the Prosecution's Application for Leave to Appeal the Chamber's
+Decision of 17 January 2006 on the Applications for Participation in the Proceedings of VPRS 1, VPRS 2, VPRS
+3, VPRS 4, VPRS 5 and VPRS 6, 31 March 2006, ICC-01/04-135-tEN, para. 28; Trial Chamber I, The Prosecutor
+v. Ali Muhammad Ali Abd-Al-Rahman (‘Ali Kushayb’), Decision on the Defence request for leave to appeal the
+Decision on the Prosecution’s applications to add witnesses and items to its List of Witnesses and List of Evidence
+and to rely on recently collected evidence, 4 May 2022, ICC-02/05-01/20-682, para. 4; Trial Chamber I,
+Prosecutor v. Lubanga Dyilo, Decision on the Defence and Prosecution Requests for Leave to Appeal the Decision
+on Victims’ Participation of 18 January 2008, 26 February 2008, ICC-01/04-01/06-1191, para. 10 (the ‘Lubanga
+Decision’); Trial Chamber II, Prosecutor v. Yekatom and Ngaïssona, Decision on the ‘Ngaïssona Defence Request
+for Leave to Appeal the Second Decision on Disclosure and Related Matters’, 24 May 2019, ICC-01/14-01/18-
+206, para. 11; Trial Chamber X, The Prosecutor v. Al Hassan Ag Abdoul Aziz Ag Mohamed Ag Mahmoud,
+Decision on Defence request for leave to appeal the ‘Decision on Defence request for disclosure of ex parte
+communication between the Chamber and the VWU’, 2 December 2022, ICC-01/12-01/18-2430, para. 10.
+32
+DRC Appeal Judgment, para. 9.
+33
+Pre-Trial Chamber I, Prosecutor v. Callixte Mbarushimana, Decision on the “Prosecution’s Application for
+Leave to Appeal the ‘Decision on the confirmation of charges’”, 1 March 2012, ICC-01/04-01/10-487, para. 4;
+Pre-Trial Chamber I, Prosecutor v. Laurent Gbagbo, Decision on the Prosecutor’s and Defence request for leave
+to appeal the decision adjourning the hearing on the confirmation of charges, 31 July 2013, ICC-02/1101/11-464,
+para 8; Pre-Trial Chamber II, Prosecutor v. Jean-Pierre Bemba Gombo, Decision on the Prosecutor’s Application
+for Leave to Appeal the “Decision Pursuant to Article 61(7)(a) and (b) of the Rome Statute on the Charges of the
+Prosecutor Against Jean-Pierre Bemba Gombo”, 18 September 2009, ICC-01/05-01/08-532, para. 17; Pre-Trial
+Chamber III, Prosecutor v. Jean-Pierre Bemba Gombo, Decision on the Prosecutor’s application for leave to
+appeal Pre-Trial Chamber III’s decision on disclosure, 25 August 2008, ICC-01/05-01/08-75, para. 11.
+ICC-01/18-468 17-10-2025 7/13 PT
+No. ICC-01/18 8/13 17 October 2025
+from other decisions34
+or from hypothetical concerns or abstract legal questions.35
+The issue
+must also identify an error of fact or law, or a mix of both,36
+and not merely constitute a
+disagreement or a conflicting opinion.37
+Errors of law include misrepresentations of the law38
+and insufficient reasoning,39
+while errors of fact relate to deficient evidentiary analysis.40
+Even
+if an alleged issue emanates from the impugned decision, and pertains to a legal or factual error,
+it would not be appealable if it is based on a mischaracterisation or misrepresentation of the
+impugned decision.41
+34
+Pre-Trial Chamber II, Prosecutor v. Jean-Pierre Bemba Gombo, Aimè Kilolo Musamba, Jean-Jacques
+Mangenda Kabongo, Fidèle Babala Wandu and Narcisse Arido, Joint decision on the applications for leave to
+appeal the “Decision pursuant to Article 61(7)(a) and (b) of the Rome Statute”, ICC-01/05-01/13-801, 23 January
+2015, para. 5.
+35
+Pre-Trial Chamber I, Prosecutor v. Laurent Gbagbo, Decision on the Prosecutor’s and Defence request for
+leave to appeal the decision adjourning the hearing on the confirmation of charges, 31 July 2013, ICC-02/11-
+01/11-464, para. 8.
+36
+While these grounds of appeal are provided in article 81(1) of the Statute concerning appeals against decisions
+of acquittal, conviction or sentence, the Appeals Chamber has held that these are ‘in essence, also applicable’ to
+interlocutory appeals under article 82(1) of the Statute. See, DRC Appeals Judgment, para. 9; Appeals Chamber,
+Situation in the Democratic Republic of the Congo, Judgment on the Prosecutor’s appeal against the decision of
+Pre-Trial Chamber I entitled “Decision on the Prosecutor’s Application for Warrants of Arrest, Article 58”, 13
+July 2006, ICC-01/04-169-US-Exp, paras 32-34, 83-84; Appeals Chamber, Situation in the Democratic Republic
+of the Congo, Judgment on the appeals of Mr Jean-Pierre Bemba Gombo, Mr Aime Kilolo Musamba, Mr Jean-
+Jacques Mangenda Kabongo, Mr Fidele Babala Wandu and Mr Narcisse Arido against the decision of Trial
+Chamber VII entitled “Judgment pursuant to Article 74 of the Statute”, 8 March 2018, ICC-01/05-01/13-2275-
+Red, para. 89 by reference to Appeals Chamber, Situation in the Democratic Republic of the Congo, Judgment on
+the appeal of Mr Thomas Lubanga Dyilo against his conviction, 1 December 2014, ICC-01/04-01/06-3121-Red,
+para. 17.
+37
+DRC Appeals Judgment, para. 9.
+38
+Appeals Chamber, Prosecutor v. Banda and Jerbo, Judgment on the appeal of the Prosecutor against the
+decision of Trial Chamber IV of 12 September 2011 entitled ‘Reasons for the Order on translation of witness
+statements (ICC-02/05-03/09-199) and additional instructions on translation”’, ICC-02/05-03/09-295, 17
+February 2012, para. 20.
+39
+Appeals Chamber, Prosecutor v. Laurent Gbagbo, Judgment on the appeal of Mr Laurent Koudou Gbagbo
+against the decision of Pre-Trial Chamber I of 13 July 2012 entitled “Décision on the Requête de la Défense
+demandant la mise en liberté provisoire du président Gbagbo”’, ICC-02/11-01/11-278, 26 October 2012, paras
+56-47.
+40
+Appeals Chamber, Prosecutor v. Gaddafi and Al-Senussi, Judgment on the Appeal of Libya against the decision
+of the Pre-Trial Chamber I of 31 May 2013 entitled “Decision on the admissibility of the case against Saif AlIslam
+Gaddafi”, ICC-01/11-01/11-547, 21 May 2014, para. 93.
+41
+Pre-Trial Chamber I, Situation in the State of Palestine, Decision on Israel’s request for leave to appeal the
+‘Decision on Israel’s request for an order to the Prosecution to give an Article 18(1) notice’, 14 May 2025, ICC-
+01/18-429, para. 22; Pre-Trial Chamber III, Prosecutor v. Joseph Kony, Decision on the ‘Kony Defence request
+for leave to appeal [the] “Decision on the criteria for holding confirmation of charges proceedings in absentia”’,
+28 January 2025, ICC-02/04-01/05-551, paras 29 and 42; Trial Chamber I, Prosecutor v. Ali Muhammad Ali Abd-
+Al-Rahman (‘Ali Kushaib’), Decision on the Defence’s request for leave to appeal the Decision on the Defence’s
+renewed request for admission of prior recorded testimony of Witness D-0028 under Rule 68(2)(c) of the Rules
+of Procedure and Evidence, 12 September 2024, ICC-02/05-01/20-1186, para. 9.
+ICC-01/18-468 17-10-2025 8/13 PT
+No. ICC-01/18 9/13 17 October 2025
+18. An issue may significantly affect the fairness of the proceedings whenever the
+procedural rights of the parties and participants are not respected.42
+The expeditiousness of the
+proceedings is significantly affected ‘whenever failure to provide for an immediate resolution
+of the issue at stake by the Appeals Chamber would entail the risk that lengthy and costly trial
+activities are nullified at a later stage’.43
+19. The immediate resolution of the issue by the Appeals Chamber is warranted when the
+issue is such that ‘its immediate resolution by the Appeals Chamber will settle the matter posing
+for decision through its authoritative determination, ridding thereby the judicial process of
+possible mistakes that might taint either the fairness of the proceedings or mar the outcome of
+the trial’.44
+IV. DETERMINATION
+20. The determinative question in the Impugned Decision was whether the Chamber’s legal
+and factual findings in the Warrants have been in any way affected by the Appeals Chamber’s
+Judgment reversing and remanding the Article 19(2) Decision. In its reasoning, the Chamber
+analysed and discussed Israel’s arguments about the Judgment’s purported impact on the
+jurisdictional findings in the Warrants. The Chamber notes that, in its Request, Israel
+essentially repeats the same arguments, rather than engaging with the Chamber’s analysis of
+them.45
+21. In paragraph 24 of the Impugned Decision the Chamber addressed the content of the
+Appeals Chamber’s Judgment and determined that nothing in the Judgment suggests that the
+Chamber was obliged to rule on Israel’s Jurisdictional Challenge before ruling on the
+applications for the warrants of arrest. The Chamber noted that the Appeals Chamber declined
+42
+Pre-Trial Chamber I, Situation in the Democratic Republic of the Congo, Decision on the Prosecution’s
+Application for Leave to Appeal the Chamber’s Decision of 17 January 2006 on the Applications for Participation
+in the Proceedings of VPRS 1, VPRS 2, VPRS 3, VPRS 4, VPRS 5, VPRS 6, 31 March 2006, ICC-01/04-135-
+tEN, para. 38.
+43
+Pre-Trial Chamber II, Situation in Uganda, Decision on Prosecutor’s Application for leave to appeal in part
+Pre-Trial Chamber’s II Decision on the Prosecutor’s applications for warrants of arrest under article 58, 19 August
+2005, ICC-02/04-01/05-20-US-Exp, para. 36. Unsealed pursuant to Decision no. ICC-02/04-01/05-52 dated 13
+October 2005.
+44
+DRC Appeal Judgment, para 14.
+45
+See ICC-02/11-01/11-350, para. 40; ICC-01/14-01/18-2612, para. 10; ICC-01/14-01-18-2519, para 10 : ‘a mere
+reiteration of prior arguments and an expression of disagreement with the analysis and conclusion made by the
+Chamber are not sufficient to identify an “issue”’.
+ICC-01/18-468 17-10-2025 9/13 PT
+No. ICC-01/18 10/13 17 October 2025
+to address the issue of timing in its Judgment, although this was one of the central points of
+contention in Israel’s appeal. The Chamber pointed out that, in the context of discussing
+appropriate relief, the Appeals Chamber explicitly noted the issuance of the Warrants and then
+directed the Chamber to rule on the substance of the jurisdictional challenge at the present
+stage of proceedings. The Chamber also observed that, had the Appeals Chamber considered
+that the Warrants were automatically affected by the reversal of the Article 19(2) Decision, as
+had been argued by Israel, it would have issued different instructions. In addition, the Chamber
+pointed out that the Appeals Chamber held that the Warrants were issued separately from the
+Article 19(2) Decision and that they could not be considered to be based on or ‘inextricably
+connected’ to it. In paragraphs 21-22, the Chamber also discussed why Israel’s suggestion that
+the Appeals Chamber’s Judgment restricted the Chamber’s ability to adopt the reasoning of the
+Article 19(3) Decision is untenable.46
+22. The Chamber notes that the Request does not identify an issue related to the
+abovementioned reasoning in the Impugned Decision. Indeed, the Issue identified by Israel
+does not arise from the Impugned Decision, but rather from the Article 19(2) Decision, which
+Israel has already appealed.
+23. Israel’s Jurisdiction Challenge, in addition to the main question on jurisdiction, also
+raised other questions, namely: (i) whether Israel had standing to bring a challenge to the
+Court’s jurisdiction (the ‘Standing Question’);47
+(ii) whether Israel, if it had standing, could
+bring the challenge before the issuance of warrants of arrest (the ‘Timing Question’);48
+and (iii)
+whether the challenge, if it could be brought, had suspensive effect in relation to the
+Prosecution’s investigation and in relation to the issuance of warrants of arrest (the ‘Suspensive
+Effect Question’).49
+24. In the Article 19(2) Decision, the Chamber only ruled on the Timing Question, finding
+Israel’s Jurisdiction Challenge to have been premature.50
+In its appeal against the Article 19(2)
+46
+Impugned Decision, paras 21-22.
+47
+Israel’s Jurisdiction Challenge, paras 38-45 and 58-62.
+48
+Israel’s Jurisdiction Challenge, paras 46-57.
+49
+Israel’s Jurisdiction Challenge, para. 128.
+50
+Article 19(2) Decision, para. 17.
+ICC-01/18-468 17-10-2025 10/13 PT
+No. ICC-01/18 11/13 17 October 2025
+Decision, Israel argued that the Chamber had committed the following errors in relation to the
+Timing Question:51
+a. The Chamber erred in finding that States may only challenge the Court’s
+jurisdiction in relation to a particular case or that a case for this purpose only arises
+after the issuance of a warrant of arrest;
+b. The Chamber erred in law by rejecting Israel’s Jurisdiction Challenge as premature
+due to the fact that ‘the Prosecution typically conducts the entire application process
+under article 58 of the Statute ex parte;
+c. The Chamber erred in law by failing to provide reasons for rejecting Israel’s
+submission that article 19(5) exhortation for States to bring jurisdictional challenges
+at the earliest opportunity provided further support for Israel’s standing to exercise
+prerogatives under article 19(2)(c) of the Statute prior to the issuance of warrants
+of arrest.
+25. Israel requested the Appeals Chamber to reverse the Article 19(2) Decision and to issue
+an order declaring that (i) Israel has standing to challenge the jurisdiction of the Court pursuant
+to article 19(2)(c) of the Statute, including prior to the issuance of warrants of arrest; (ii) Israel’s
+Jurisdiction Challenge shall be remitted to the Chamber for consideration on the merits; and
+(iii) the Warrants are null and void for having been erroneously issued by the Chamber prior
+to it providing a substantive determination on the merits of Israel’s Jurisdiction Challenge.52
+26. As noted in the Impugned Decision,53
+the Appeals Chamber remanded the Article 19(2)
+Decision solely on the basis of one aspect of Israel’s first ground of appeal related to the
+Standing Question.54
+Specifically, the legal error identified by the Appeals Chamber was that
+the Chamber had failed to ‘sufficiently direct itself to the relevant submissions before it in
+respect of the particular legal basis underpinning the challenge to the jurisdiction of the Court.
+[…] Had the Pre-Trial Chamber had sufficient regard to the central contention before it, it
+would have had to directly and specifically address Israel’s standing under article 19(2)(c) of
+the Statute.’55
+51
+Israel’s Appeal Brief, para. 4.
+52
+Israel’s Appeal Brief, paras 6 and 70.
+53
+Impugned Decision, para. 22.
+54
+Judgment, paras 55-56 and 65.
+55
+Judgment, paras 61-62 (emphasis added).
+ICC-01/18-468 17-10-2025 11/13 PT
+No. ICC-01/18 12/13 17 October 2025
+27. The Appeals Chamber did not address the Timing Question and it accordingly made no
+finding in relation to the Chamber’s ruling that Israel’s Jurisdiction Challenge was premature.
+Significantly, the Appeals Chamber also did not ask the Chamber to consider the Timing
+Question on remand. Instead, it reversed the Article 19(2) Decision and remanded ‘the matter
+to the [Chamber] for it to rule on the substance of the jurisdictional challenge.’ The Appeals
+Chamber, as noted above, held that ‘it is for the [Chamber] to determine the applicable legal
+basis under article 19(2) of the Statute for addressing [Israel’s Jurisdiction Challenge] at the
+present stage of the proceedings’56
+(i.e. after the Warrants had been issued).
+28. In the Impugned Decision, the Chamber did not revisit the Timing Question. It simply
+reminded Israel that the Article 19(2) Decision was limited to the Timing Question57
+and that
+the Appeals Chamber’s Judgment did not make any findings in relation to the validity of the
+Warrants or the jurisdictional findings contained therein.58
+The Chamber further noted that the
+Appeals Chamber had not made any finding suggesting that the Chamber would have been
+obliged to rule on Israel’s Jurisdiction Challenge before issuing the Warrants, as highlighted
+above.59
+The Chamber did not make any ruling on the Timing Question, as it was not required
+to do so in light of the Appeals Chamber Judgment.
+29. Accordingly, as stated above, the Issue does not arise from the Impugned Decision. It
+arises from the Article 19(2) Decision, which Israel already appealed. Israel raised the Issue
+before the Appeals Chamber,60
+which declined to address it,61
+despite being aware of the fact
+that the Chamber had already issued the Warrants62
+and despite Israel’s explicit request to
+declare the Warrants null and void.63
+Israel is not entitled to re-submit the same issue for a
+second time to the Appeals Chamber, simply because it disagrees with how the Appeals
+Chamber dealt with it the first time.
+56
+Judgment, para. 64 (emphasis added).
+57
+Impugned Decision, para 20.
+58
+Impugned Decision, para. 21-23.
+59
+Impugned Decision, para. 24.
+60
+Israel’s Appeal Brief, Third ground of appeal.
+61
+Judgment, para. 65.
+62
+Judgment, para. 63.
+63
+Israel’s Appeal Brief, paras 6 and 70.
+ICC-01/18-468 17-10-2025 12/13 PT
+No. ICC-01/18 13/13 17 October 2025
+30. Having found that the Issue, as framed by Israel, is not an appealable issue since it does
+not arise from the Impugned Decision, there is no need to consider whether the other conditions
+of article 82(1)(d) of the Statute have been met. The Chamber therefore rejects the Request.
+FOR THESE REASONS, THE CHAMBER HEREBY
+REJECTS the Request.
+Done in English. A French translation will follow. The English version remains authoritative.
+_____________________________
+Judge Nicolas Guillou
+Presiding Judge
+_____________________________
+Judge Reine Adélaïde Sophie Alapini-
+Gansou
+_____________________________
+Judge Beti Hohler
+Dated this Friday, 17 October 2025
+At The Hague, The Netherlands
+ICC-01/18-468 17-10-2025 13/13 PT
+

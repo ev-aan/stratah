@@ -1,0 +1,458 @@
+# pdftotext -raw extract of ICC court record ICC-01-18-431 (0902ebd180b95512.pdf).
+
+ICC-01/18 1/10 21 May 2025
+Original: English No.: ICC-01/18
+Date: 21 May 2025
+PRE-TRIAL CHAMBER I
+Before: Judge Nicolas Guillou, Presiding Judge
+Judge Reine Adélaïde Sophie Alapini-Gansou
+Judge Beti Hohler
+SITUATION IN THE STATE OF PALESTINE
+Public
+Prosecution’s response to Israel’s “Request to Have Arrest Warrants Withdrawn or
+Vacated and Response to Prosecution Observations dated 5 May 2025”
+Source: Office of the Prosecutor
+ICC-01/18-431 21-05-2025 1/10 PT
+ICC-01/18 2/10 21 May 2025
+Document to be notified in accordance with regulation 31 of the Regulations of the Court
+to:
+☒ The Office of the Prosecutor ☐ Counsel for the Defence
+☐ Legal Representatives of the Victims ☐ Legal Representatives of the Applicants
+☐ Unrepresented Victims ☐ Unrepresented Applicants
+(Participation/Reparation)
+☐ The Office of Public Counsel for
+Victims
+☐ The Office of Public Counsel for the
+Defence
+☒ States Representatives
+REGISTRY
+☐ Amicus Curiae
+Registrar
+Mr Osvaldo Zavala Giler
+☐ Counsel Support Section
+☐ Victims and Witnesses Unit ☐ Detention Section
+☐ Victims Participation and Reparations
+Section
+☐ Other
+Office of the Attorney General of Israel
+ICC-01/18-431 21-05-2025 2/10 PT
+ICC-01/18 3/10 21 May 2025
+I. INTRODUCTION
+1. Israel’s request, filed on 9 May 20251
+that Pre-Trial Chamber I2
+(i) withdraw or vacate
+the Warrants issued against Israel Prime Minister Mr Benjamin NETANYAHU and former
+Minister of Defence Mr Yoav GALLANT and (ii) suspend the Prosecution’s investigation into
+the Situation in Palestine until PTCI rules on Israel’s Jurisdictional Challenge3
+has no legal
+basis and should be dismissed.
+2. First, there is no basis to withdraw or vacate the Warrants. In issuing the Warrants and
+on the basis of the material provided, PTCI found that the alleged conduct of NETANYAHU
+and GALLANT falls within the jurisdiction of the Court; and that there are reasonable grounds
+to believe that they bear criminal responsibility for war crimes and crimes against humanity
+committed in Gaza from at least 8 October 2023 to 20 May 2024.4
+The Appeals Chamber’s
+judgment of 24 April 2025 (“Judgment”)5
+reversing PTCI’s decision on Israel’s Jurisdictional
+Challenge (“Decision”)6
+for lack of sufficient reasons, has no bearing on the Warrants, which
+were issued separately.7
+Nothing in the Judgment suggests that PTCI had failed to satisfy itself
+that the Court had jurisdiction under article 19(1) when issuing the Warrants.
+3. Second, contrary to Israel’s contention,8
+article 19(7) of the Statute does not apply to
+jurisdictional challenges. The ordinary meaning of the provision, read in its context and in light
+of the object and purpose of the Statute, indicates that it only mandates a suspension of an
+investigation in relation to a specific case where an admissibility challenge is made by a State
+under article 19(2)(b) or (c) of the Statute. In the absence of a valid admissibility challenge, a
+suspension of the Prosecution’s investigation is unwarranted. This is particular so in the current
+situation where crimes are ongoing and escalating.9
+1
+ICC-01/18-426 (“Israel’s Request”).
+2
+Pre-Trial Chamber I will be referred to as “PTCI” or “the Chamber” hereafter.
+3
+ICC-01/18-354-AnxII-Corr (“Israel’s Jurisdictional Challenge”).
+4
+ICC, “Situation in the State of Palestine: ICC Pre-Trial Chamber I rejects the State of Israel’s challenges to
+jurisdiction and issues warrants of arrest for Benjamin Netanyahu and Yoav Gallant”, 21 November 2024
+(“Court’s Press Release”).
+5
+ICC-01/18-422 OA2.
+6
+ICC-01/18-374.
+7
+See e.g. Judgment, para. 66.
+8
+Israel’s Request, paras. 30-32.
+9
+Court’s Press Release, noting, inter alia, that: “the Chamber decided to release the information below since
+conduct similar to that addressed in the warrant of arrest appears to be ongoing”.
+ICC-01/18-431 21-05-2025 3/10 PT
+ICC-01/18 4/10 21 May 2025
+II. PROCEDURAL BACKGROUND
+4. On 21 November 2024, PTCI dismissed Israel’s jurisdictional challenge, filed on 20
+September 2024, as premature.10
+PTCI held that States are not entitled to challenge the Court’s
+jurisdiction under article 19 prior to the issuance of a warrant of arrest or summons to appear;
+and that States may only file such a challenge in relation to a particular case after the Pre-Trial
+Chamber issues a warrant or a summons.11
+On the same day, PTCI issued three warrants of
+arrest in the Situation in the State of Palestine, including against Israeli Prime Minister
+Benjamin NETANYAHU and former Minister of Defence Yoav GALLANT.
+5. On 24 April 2025, the Appeals Chamber issued its Judgment on Israel’s Appeal against
+the Decision,12
+finding that PTCI “insufficiently addresse[d] Israel’s central contention that
+article 19(2)(c) of the Statute permits it to challenge the jurisdiction of the Court”.13
+The
+Appeals Chamber reversed the Decision and remanded the matter to the Pre-Trial Chamber.14
+6. On 5 May 2025, the Prosecution submitted its observations regarding the procedure to
+be followed following the issuance of the Warrants and the Judgment, requesting PTCI, inter
+alia: (i) to set a deadline for those with standing to bring a jurisdictional challenge in relation
+to the specific cases against NETANYAHU and GALLANT; and (ii) not to invite or receive
+any further observations under rule 103 of the Rules of Procedure and Evidence.15
+7. On 9 May 2025, Israel filed its Request, asking PTCI, inter alia, to withdraw or vacate
+the Warrants, and to declare that the Prosecution must suspend its investigation into the
+Situation in Palestine pending PTCI’s substantive ruling on Israel’s Jurisdictional Challenge.16
+In the same filing, Israel opposed the Prosecution’s request of 5 May 2025, regarding the filing
+of jurisdictional challenges in relation to the specific cases against NETANYAHU and
+GALLANT.17
+10
+Decision, p. 7.
+11
+Decision, para. 17. See also Decision, para. 18 : “Israel will have the full opportunity to challenge the Court’s
+jurisdiction and/or admissibility of any particular case if and when the Chamber issues any arrest warrants or
+summonses against its nationals” [emphases added].
+12
+ICC-01/18-386 (“Appeal”).
+13
+Judgment, para. 61; see also paras. 57, 59, 60.
+14
+Judgment, para. 64; see also para. 66.
+15
+ICC-01/18-425 (“Prosecution’s Observations”), para. 15.
+16
+Israel’s Request, para. 40.
+17
+Israel’s Request, paras. 5, 33-40.
+ICC-01/18-431 21-05-2025 4/10 PT
+ICC-01/18 5/10 21 May 2025
+III. SUBMISSIONS
+(i) There is no basis to withdraw or vacate the Warrants
+8. Under article 58(4) of the Statute, the warrant of arrest shall remain in effect “unless
+otherwise ordered by the Court”. The practice shows that arrest warrants are withdrawn or
+vacated by Chambers under article 58(4) in the event of a suspect’s death18
+or other exceptional
+circumstances, for example, where the evidentiary basis is considered to be no longer sufficient
+to meet the article 58(1)(a) threshold.19
+9. In the cases against NETANYAHU and GALLANT, there is no basis to withdraw or
+vacate the Warrants. PTCI’s legal and factual findings underpinning the Warrants, including
+regarding the Court’s jurisdiction, remain valid. Israel’s arguments to the contrary are based
+on misrepresentations of the findings made by PTCI and the Appeals Chamber, or they are
+otherwise unfounded.
+10. Firstly, in the Warrants issued on 21 November 2024, PTCI properly made a
+determination that the alleged conduct of NETANYAHU and GALLANT falls within the
+jurisdiction of the Court, as described in the Court’s Press Release issued that day.20
+Israel
+merely speculates and provides no evidence demonstrating that PTCI failed to satisfy itself that
+the Court had jurisdiction under article 19(1) in issuing the Warrants.21
+In this regard, the
+Prosecution recalls that PTCI has had an abundance of information and submissions regarding
+the question of the Court’s jurisdiction in this situation, including amici curiae observations
+received in 2020 before the issuance of the Article 19(3) Decision in February 2021,22
+and
+18
+See e.g. ICC-01/18-417, para. 5 (regarding Mohammed Diab Ibrahim Al Masri); ICC-01/11-01/17-24
+(regarding Mahmoud Musatafa Busayf Al-Werfalli), para. 4; ICC-01/11-01/11-28 (regarding Muammar
+Mohammed Abu Minyar Gaddafi).
+19
+See e.g. ICC-02/11-01/12-90, para. 14 (regarding Simone Gbagbo). Following surrender or voluntary
+appearance before the Court, article 61(10) of the Statute regulates the validity of warrants, providing that: “[a]ny
+warrant previously issued shall cease to have effect with respect to any charges which have not been confirmed
+by the Pre-Trial Chamber or which have been withdrawn by the Prosecutor”, on the basis of which the arrest
+warrant was withdrawn in the Mokom case. See ICC-01/14-01/22-276, para. 9.
+20
+Court’s Press Release (“At the outset, the Chamber considered that the alleged conduct of Mr Netanyahu and
+Mr Gallant falls within the jurisdiction of the Court. The Chamber recalled that, in a previous composition, it
+already decided that the Court’s jurisdiction in the situation extended to Gaza and the West Bank, including East
+Jerusalem”).
+21
+Israel’s Request, paras. 17-19.
+22
+ICC-01/18-143 (“Article 19(3) Decision”), para. 12 (referring to 43 amicus curiae observations on the
+Prosecution request pursuant to article 19(3) for a ruling on the Court’s territorial jurisdiction in Palestine). In this
+decision, the majority of PTCI (in its previous composition) found that: Palestine qualifies as “[t]he State on the
+territory of which the conduct in question occurred” for the purposes of article 12(2)(a) of the Statute; and that the
+Court’s territorial jurisdiction in the Situation in Palestine extends to the territories occupied by Israel since 1967,
+namely Gaza and the West Bank, including East Jerusalem.
+ICC-01/18-431 21-05-2025 5/10 PT
+ICC-01/18 6/10 21 May 2025
+further observations received in 2024 before the issuance of the Warrants.23
+11. Secondly, the Appeals Chamber’s reversal of the Decision does not, and cannot, entail
+an immediate withdrawal or vacating of the Warrants.24
+In the Judgment, the Appeals Chamber
+rejected Israel’s request for suspensive effect of the Warrants because the Warrants are not
+based on, nor are they “inextricably connected” to the Decision.25
+The Appeals Chamber
+clearly indicated that any effect on the Warrants shall be determined by PTCI in the context of
+a new determination regarding a jurisdictional challenge.26
+12. Thirdly, the Judgment does not, and cannot, affect PTCI’s findings underpinning the
+Warrants.27
+As noted by the Appeals Chamber, the Warrants were issued separately from the
+Decision, and were not before the Appeals Chamber.28
+Nothing in the Judgment suggests that
+PTCI relied on the Decision to satisfy itself that it had jurisdiction under article 19(1) when
+issuing the Warrants.
+13. Importantly, the error identified by the Appeals Chamber in the Decision related to the
+sufficiency of the reasoning provided by PTCI in addressing Israel’s contention that “article
+19(2)(c) of the Statute permits it to challenge the jurisdiction of the Court”, including, in
+particular, the “applicability of the notion of res judicata”.29
+The Appeals Chamber did not find
+that PTCI’s reliance on the Article 19(3) Decision as such was erroneous in any way, nor that
+PTCI erred in considering Israel’s Jurisdictional Challenge as premature.30
+14. Finally, the other arguments advanced by Israel are misdirected and unfounded to support
+the withdrawal or vacating of the Warrants:
+• Israel asserts that if an arrest is implemented on the basis of the Warrants while PTCI is
+still assessing its jurisdictional challenge, it constitutes a violation of fundamental human
+rights and of the rule of law.31
+However, given the continued validity of the findings in
+the Warrants, this argument is unfounded. In any event, suspects are entitled to challenge
+the jurisdiction of the Court under article 19(2)(a) of the Statute, even before their arrest,
+should they wish to do so;
+23
+ICC-01/18-173-Red (granting the United Kingdom’s request for leave to submit amicus curiae observations on
+“[w]hether the Court can exercise jurisdiction over Israeli nationals, in circumstances where Palestine cannot
+exercise criminal jurisdiction over Israeli nationals pursuant to the Oslo Accords”); ICC-01/18-249 (granting leave
+to 63 States, organisations, and persons to file amicus curiae observations).
+24
+Contra Israel’s Request, paras. 20-21, 24-25.
+25
+Judgment, para. 66.
+26
+Judgment, para. 66.
+27
+See contra Israel’s Request, paras. 20-21, 24-25.
+28
+Judgment, para. 66.
+29
+Judgment, paras. 59-62.
+30
+Contra Israel’s Request, para. 21.
+31
+Israel’s Request, para. 26.
+ICC-01/18-431 21-05-2025 6/10 PT
+ICC-01/18 7/10 21 May 2025
+• Israel’s further assertions that the Warrants “wrongly seek to induce States to violate their
+international law obligations to Israel”, or that the “mere issuance and circulation” of the
+warrants is an “internationally wrongful act” toward Israel32
+are misplaced and
+unfounded. They have no bearing on PTCI’s findings, including on jurisdiction over the
+cases against NETANYAHU and GALLANT. In any case, articles 97 and 98 of the
+Statute offer States the possibilities to engage with the Court if they identify problems
+which may impede or prevent the execution of a request for arrest and surrender;33
+and
+• For the reasons above, the time required by PTCI to issue a reasoned decision on Israel’s
+Jurisdictional Challenge34
+is not a basis for withdrawing or vacating the Warrants.
+(ii) Article 19(7) of the Statute does not apply to jurisdictional challenges
+15. Article 19(7) of the Statute mandates a suspension of the investigation in case of a
+challenge made by a State under article 19(2)(b) or (c) “until such time as the Court makes a
+determination in accordance with article 17”. Following the general rules of interpretation
+under article 31 of the Vienna Convention on the Law of Treaties, this provision only applies
+to challenges to the admissibility of a case, and not to challenges to the jurisdiction of the Court.
+16. First, given that article 17 of the Statute only relates to issues of admissibility, the
+ordinary meaning of the provision indicates that article 19(7) applies where a challenge is made
+to the admissibility of a case. If article 19(7) were deemed applicable to jurisdictional
+challenges, this could lead to an indefinite suspension of the investigation because the Court is
+not required to make a determination “in accordance with article 17”, (i.e. on issues of
+admissibility) when ruling on a jurisdictional challenge.35
+17. Second, the object and purpose of the Statute of “put[ting] an end to impunity for the
+perpetrators of these crimes” while ensuring the Court is “complementary to national criminal
+jurisdiction” 36
+confirm that article 19(7) applies to challenges to the admissibility of a case.
+Where there are ongoing or past proceedings related to the same case(s) at the domestic level,
+a suspension of the ICC investigation does not necessarily mean impunity. By contrast,
+jurisdictional challenges may involve cases where relevant States have taken no action at all to
+address alleged crimes, including those of a clear gravity.
+32
+Israel’s Request, para. 27.
+33
+See, in particular, articles 97(c) and 98(1).
+34
+Israel’s Request, para. 28.
+35
+See e.g. Nsereko/Ventura, “Article 19”, in Ambos, Rome Statute of the International Criminal Court: Article-
+by-Article Commentary (Fourth edition), 2022, mn. 86.
+36
+Statute, preamble.
+ICC-01/18-431 21-05-2025 7/10 PT
+ICC-01/18 8/10 21 May 2025
+18. Third, this interpretation is consistent with other complementarity provisions in the
+Statute, such as article 18 (Preliminary ruling regarding admissibility) and article 95
+(Postponement of execution of a request in respect of an admissibility challenge).37
+For
+example, when a State requests the Prosecution to defer its investigation on the ground that the
+State is investigating the same criminal acts within the terms of article 18(2), the Prosecution
+suspends its investigation until the Pre-Trial Chamber authorises its resumption.38
+Article 18(6)
+exceptionally permits the Prosecution to request authorisation from the Pre-Trial Chamber “to
+pursue necessary investigative steps for the purpose of preserving evidence” in certain
+circumstances.39
+Aptly, article 19(8)—that applies when an investigation is suspended under
+article 19(7)40
+—likewise permits the Prosecution to request authorisation from the Pre-Trial
+Chamber “to pursue necessary investigative steps of the kind referred to in article 18,
+paragraph 6” pending a ruling by the Court.41
+This further confirms that article 19(7) and (8)—
+like article 18(2) and (6)—relate to admissibility challenges and determinations, not to
+jurisdictional challenges and determinations. Similarly, article 95 of the Statute permits States
+to postpone the execution of a cooperation request pending a determination by the Court on an
+admissibility challenge.42
+19. In contrast, no provision of the Statute explicitly contemplates a deferral of the
+investigation or a postponement of a cooperation request pending a determination of a
+jurisdictional challenge. In light of the context,43
+the correct interpretation of article 19(7) is
+37
+See e.g. ICC-01/11-01/11-163, para. 36 (in its decision on Libya’s request for postponement of the execution
+of the request for surrender of Saif Al-Islam, PTCI considered that: “the Court must fulfil its mandate in
+accordance with its legal framework and that the complementarity principle is a central aspect thereof and a key
+feature of the institution. The suspension of the investigation and the corresponding postponement of the
+cooperation requests is one major consequence of this principle.”); Ambos, “Jurisdiction and Admissibility
+(Complementarity)” in Treatise on International Criminal Law: Volume III: International Criminal Procedure,
+2016, p. 255.
+38
+Statute, article 18 (2). See e.g. the Prosecution’s notifications of deferral requests and PTCI’s decisions
+authorising the resumption of the investigations in relation to the situations in the Philippines and Venezuela I,
+respectively: ICC-01/21-14 and ICC-01/21-56-Red; ICC-02/18-17 and ICC-02/18-45.
+39
+Statute, article 18 (6) (“Pending a ruling by the Pre-Trial Chamber, or at any time when the Prosecutor has
+deferred an investigation under this article, the Prosecutor may, on an exceptional basis, seek authority from the
+Pre-Trial Chamber to pursue necessary investigative steps for the purpose of preserving evidence where there is
+a unique opportunity to obtain important evidence or there is a significant risk that such evidence may not be
+subsequently available”).
+40
+See e.g. Nsereko/Ventura, “Article 19”, in Ambos, Rome Statute of the International Criminal Court: Article-
+by-Article Commentary (Fourth edition), 2022, mn. 87.
+41
+Statute, article 19(8)(a), emphasis added. Article 19(8)(b) and (c) also allows the Chamber to seek judicial
+authorisation “[t]o take a statement or testimony from a witness or complete the collection and examination of
+evidence which had begun prior to the making of the challenge; and In cooperation with the relevant States, to
+prevent the absconding of persons in respect of whom the Prosecutor has already requested a warrant of arrest
+under article 58”. Likewise rule 61 (Provisional measures under article 19, paragraph 8) refers back to rule 57
+(Provisional measures under article 18, paragraph 6).
+42
+Statute, article 95. See e.g. ICC-01/11-01/11-163, para. 37.
+43
+See also article 19(9) and (10), which focus on issues of admissibility under article 17.
+ICC-01/18-431 21-05-2025 8/10 PT
+ICC-01/18 9/10 21 May 2025
+that only a challenge to the admissibility of a case results in the suspension of the
+investigation.44
+20. Fourth, contrary to Israel’s suggestion,45
+the drafting history supports the interpretation
+limiting article 19(7)’s applicability to admissibility challenges. The proposed article 54(3) of
+the Preparatory Committee’s Draft Statute, which was subsequently replaced by the current
+article 19(7),46
+read: “The Prosecutor shall not initiate an investigation where the submission
+of the case to the Court is challenged under article 15 within one month of notification under
+article 54, paragraph 2 (a) until the final ruling of the Court”.47
+As with the current article 17,
+the draft article 15 was entitled “Issues of admissibility”.48
+This demonstrates that the drafters
+were only concerned with admissibility when discussing the possibility for a suspension of an
+investigation (or its initiation).
+21. Fifth, the sources cited in Israel’s Request49
+provide little support to its contention that
+article 19(7) is applicable to jurisdictional challenges.50
+In fact, leading commentaries,
+including some of those cited by Israel, support the interpretation that a jurisdictional challenge
+has no suspensive effect on the investigation under article 19(7).51
+Further, the decision of Pre-
+44
+See e.g. Ambos, “Jurisdiction and Admissibility (Complementarity)” in Treatise on International Criminal
+Law: Volume III: International Criminal Procedure, 2016, p. 255.
+45
+Israel’s Request, para. 32.
+46
+See e.g. Nsereko/Ventura, “Article 19”, in Ambos, Rome Statute of the International Criminal Court: Article-
+by-Article Commentary (Fourth edition), 2022, mn. 84 (noting that: “Article 19(7) was introduced at the Rome
+Conference to replace a square bracketed Article 54(3) (Investigation of alleged crimes) in the Preparatory
+Committee Draft 1998 which would have prevented the Prosecutor from even initiating an investigation when it
+was challenged within one month of the Prosecutor notifying States that he or she had received a referral from the
+UNSC, a State complaint or information from an individual”); Stigen, The Relationship between the International
+Criminal Court and National Jurisdictions, 2008, p. 169 (discussing the differences between the draft article 54(3)
+and the current article 19(7)).
+47
+Report of the Preparatory Committee on the Establishment of an International Criminal Court, Vol. II, 1998,
+A/CONF.183/2/Add.1, p. 75 (the proposed article 54(3) read: “The Prosecutor shall not initiate an investigation
+where the submission of the case to the Court is challenged under article 15 within one month of notification
+under article 54, paragraph 2 (a) until the final ruling of the Court”).
+48
+Report of the Preparatory Committee on the Establishment of an International Criminal Court, Vol. II, 1998,
+A/CONF.183/2/Add.1, p. 40 (Article 15 entitled “Issues of admissibility”).
+49
+Israel’s Request, para. 32.
+50
+The applicability of article 19(7) to jurisdictional challenges is not addressed in the commentary cited in fn. 43
+of Israel’s Request (“Schabas, W., ‘The International Criminal Court : A Commentary on the Rome Statute’,
+OUP, 2nd Ed, 2017”) at the cited page, 493, nor at page 498-499 regarding article 19(7).
+51
+Ambos, “Jurisdiction and Admissibility (Complementarity)” in Treatise on International Criminal Law:
+Volume III: International Criminal Procedure, 2016, p. 254-255 (arguing that: “[t]he suspension of the
+investigation upon a State challenge does, arguably, not apply to a jurisdictional challenge for, basically, three
+reasons […]”); Nsereko/Ventura, “Article 19”, in Ambos, Rome Statute of the International Criminal Court:
+Article-by-Article Commentary (Fourth edition), 2022, mn. 86 (arguing that: “since Article 17 addresses only
+admissibility, not jurisdiction, it is clear that any State challenge limited to jurisdiction would not require the
+Prosecutor to suspend his or her investigation. Any other reading would lead to absurd results. […]”; Stigen, The
+Relationship between the International Criminal Court and National Jurisdictions, 2008, p. 169, fn. 564 (arguing
+that: “A challenge to the jurisdiction is not given a suspensive effect. An ICC investigation which duplicates a
+ICC-01/18-431 21-05-2025 9/10 PT
+ICC-01/18 10/10 21 May 2025
+Trial Chamber II in Ruto et al., relied upon by Israel,52
+is unhelpful since Kenya’s challenge
+related to the admissibility of the case and the applicability of article 19(7) to jurisdictional
+challenges was not at issue before that Chamber.53
+22. Finally, with respect to Israel’s request to dismiss the Prosecution’s request regarding the
+filing of jurisdictional challenges in relation to the cases against NETANYAHU and
+GALLANT,54
+the Prosecution refers to its submissions in the Prosecution’s Observations on
+the procedure to be followed following the issuance of the Warrants and the Judgment.55
+As
+discussed therein, the filing of a jurisdictional challenge at the present stage, following the
+issuance of the Warrants, would ensure compliance with the Court’s legal framework and
+respect for the rights and interests of parties and participants.56
+IV. RELIEF REQUESTED
+23. In light of the foregoing, the Prosecution respectfully requests PTCI to:
+• reject Israel’s request for withdrawal/vacating of the Warrants;
+• reject Israel’s request for a suspension of the investigation into the situation in
+Palestine; and
+• grant the reliefs requested in the Prosecution’s Observations.57
+p.p.:
+__________________________________
+Karim A.A. Khan KC, Prosecutor
+Dated this 21st
+day of May 2025
+At The Hague, The Netherlands
+genuine national proceeding is arguably more intrusive on state sovereignty than an investigation without a valid
+jurisdictional basis. The former might also compromise the national proceedings”); “Article 19” in Maze, Statut
+de Rome de la Cour Pénale Internationale: Commentaire Article par Article (2e edition), 2013, p. 936-937
+(explaining that: « [l’article 19-7] en va du principe de complémentarité, qui impose à la Cour de retenir son
+action judiciaire toutes les fois où une procédure pénale nationale est ou a été ouverte, et que ce motif est invoqué
+par l’Etat compétent lui-même »).
+52
+Israel’s Request, para. 32.
+53
+ICC-01/09-01/11-62. The issue before the Single Judge was whether the disclosure proceedings must be
+suspended pending resolution of Kenya’s admissibility challenge, and article 19(7) was addressed in that context
+(see e.g. para. 8). The reference to jurisdictional challenges in para. 18 appears to be an oversight and was in any
+event obiter.
+54
+Israel’s Request, paras. 5, 33-40.
+55
+Prosecution’s Observations.
+56
+Prosecution’s Observations, paras. 4, 9.
+57
+Prosecution’s Observations, para. 15.
+ICC-01/18-431 21-05-2025 10/10 PT
+

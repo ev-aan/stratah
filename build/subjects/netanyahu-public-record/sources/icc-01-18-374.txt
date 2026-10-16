@@ -1,0 +1,255 @@
+# pdftotext -raw extract of ICC court record ICC-01-18-374 (0902ebd180a0ebd8.pdf).
+
+No. ICC-01/18 1/8 21 November 2024
+while pointing to facts that suggested that the Government of Lybia may be unable to
+move to the case forward
+Original: English No.: ICC-01/18
+Date: 21 November 2024
+PRE-TRIAL CHAMBER I
+Before: Judge Nicolas Guillou, Presiding
+Judge Reine Adélaïde Sophie Alapini-Gansou
+Judge Beti Hohler
+SITUATION IN THE STATE OF PALESTINE
+Public
+Decision on Israel’s challenge to the jurisdiction of the Court pursuant to article
+19(2) of the Rome Statute
+ICC-01/18-374 21-11-2024 1/8 PT
+No. ICC-01/18 2/8 21 November 2024
+Decision to be notified, in accordance with Regulation 31 of the Regulations of the Court, to:
+The Office of the Prosecutor
+Mr Karim A.A. Khan
+Mr Andrew Cayley
+Counsel for the Defence
+Legal Representatives of Victims Legal Representatives of Applicants
+Unrepresented Victims Unrepresented Applicants for
+Participation/Reparations
+The Office of Public Counsel
+for Victims
+The Office of Public Counsel
+for the Defence
+States Representatives
+State of Israel
+REGISTRY
+Amicus Curiae
+Registrar
+Mr Osvaldo Zavala Giler
+Counsel Support Section
+Victims and Witnesses Unit Detention Section
+Victims Participation and
+Reparations Section
+Other
+ICC-01/18-374 21-11-2024 2/8 PT
+No. ICC-01/18 3/8 21 November 2024
+PRE-TRIAL CHAMBER I (the ‘Chamber’) of the International Criminal Court (the ‘Court’)
+issues this decision on ‘Israel’s challenge to the jurisdiction of the Court pursuant to article
+19(2) of the Rome Statute’ (the ‘Challenge’),1
+submitted by the State of Israel (‘Israel’).
+Procedural history
+1. On 1 January 2015, the State of Palestine (‘Palestine’) accepted the jurisdiction of the
+Court from 13 June 2014 onwards by way of an article 12(3) declaration.2
+The next day,
+on 2 January 2015, Palestine acceded to the Rome Statute (the ‘Statute’).3
+2. On 22 May 2018, Palestine referred the situation in the State of Palestine to the
+Prosecution pursuant to articles 13(a) and 14 of the Statute, following which the
+Presidency referred the Situation in the State of Palestine (the ‘Situation’) to the
+Chamber.4
+3. On 5 February 2021, Pre-Trial Chamber I, in a different composition, by majority,
+rendered the Decision on the ‘Prosecution request pursuant to article 19(3) for a ruling
+on the Court’s territorial jurisdiction in Palestine’, in which it found that Palestine is a
+State Party to the Rome Statute and that, as a consequence, Palestine qualifies as ‘[t]he
+State on the territory of which the conduct in question occurred for the purposes of article
+12(2)(a) of the Statute’ and that the Court’s territorial jurisdiction in the Situation extends
+to the territories occupied by Israel since 1967, namely Gaza and the West Bank,
+including East Jerusalem.5
+1
+23 September 2024, ICC-01/18-354-SECRET-Exp-AnxI-Corr, together with secret Annex A, only available to
+the Prosecution and the State of Israel. Pursuant to an order of the Chamber, the public redacted version of the
+Request, as submitted by Israel on 23 September 2024, was reclassified as public: ICC-01/18-354-AnxII-Corr. In
+the present decision, the Chamber will refer to certain information contained in the annexes classified as secret.
+This information is either publicly known, or the Chamber considers it appropriate to make the relevant
+information public, as part of the present decision.
+2
+Annex I to Presidency, Decision assigning the situation in the State of Palestine to Pre-Trial Chamber I, 24 May
+2018, ICC-01/18-1-Anx1 (‘Annex to Presidency Decision’).
+3
+Secretary-General of the United Nations, ‘Rome Statute of the International Criminal Court, Rome, 17 July 1998,
+State of Palestine: Accession’, 6 January 2015, C.N.13.2015, Treaties XVIII.10.
+4
+Annex to Presidency Decision, p. 3. On 22 April 2024, the Presidency designated Judge Guillou to replace a
+judge of the Chamber: Presidency, Decision replacing a judge in Pre-Trial Chamber I, 22 April 2024, ICC-01/18-
+164-SECRET. On 20 May 2024, on instruction of the Presidency, this decision was reclassified as public. On 25
+October 2024, the Presidency designated Judge Hohler to replace a judge of the Chamber. Presidency, Decision
+replacing a judge in Pre-Trial Chamber I, 24 October 2024, ICC-01/18-366.
+5
+Decision on the ‘Prosecution request pursuant to article 19(3) for a ruling on the Court’s territorial jurisdiction
+in Palestine’, 5 February 2021, ICC-01/18-143.
+ICC-01/18-374 21-11-2024 3/8 PT
+No. ICC-01/18 4/8 21 November 2024
+4. On 3 March 2021, the Prosecutor announced the opening of an investigation with respect
+to alleged crimes within the jurisdiction of the Court committed in the Situation since 13
+June 2014.6
+5. On 17 November 2023, the Prosecution received further referrals, pursuant to articles
+13(a) and 14 of the Statute, from five State Parties.7
+On 14 January 2024, two more State
+Parties submitted such a referral to the Prosecution.8
+6. On 20 May 2024, the Prosecutor publicly announced that he will be filling applications
+for warrants of arrest against Mr Benjamin Netanyahu and Mr Yoav Gallant.9
+7. On 20 September 2024, the Registry transmitted the Challenge into the case record.10
+Israel requests the Chamber to ‘declare with immediate effect that the investigation of the
+Prosecutor in the cases of Mr Netanyahu and Mr Gallant, and the proceedings before this
+Chamber under Article 58 of the Statute, are to be suspended until the Court has given its
+ruling on this challenge to jurisdiction’ and to ‘determine that the application concerning
+Mr Netanyahu and Mr Gallant, and any investigative action on the same jurisdictional
+basis, are not within the Court’s jurisdiction’ and to ‘dismiss the [Prosecution]’s
+application for arrest warrants for Mr Netanyahu and Mr Gallant’.
+8. On 23 September 2024, the Prosecution submitted its response to the Challenge (the
+‘Response’).11
+9. On 7 October 2024, the Registry transmitted into the case record a request by Israel for
+leave to reply to the Response (the ‘Leave to Reply Request’).12
+6
+OTP/PAL/SPs/Notif/090321/FB, ICC-01/18-355-SECRET-Exp-AnxB.
+7
+State Party referral in accordance with Article 14 of the Rome Statute of the International Criminal Court,
+submitted by the Republic of South Africa, the People’s Republic of Bangladesh, the Plurinational State of Bolivia,
+the Union of the Comoros, and the Republic of Djibouti, dated 17 November 2023; available on the Court’s
+website at <www.icc-cpi.int/palestine>.
+8
+Referral by the Republic of Chile and the United Mexican States, dated 18 January 2024; available on the Court’s
+website at <www.icc-cpi.int/palestine>.
+9
+Office of the Prosecutor, Statement of ICC Prosecutor Karim A.A. Khan K.C.: Applications for arrest warrants
+in the situation in the State of Palestine, 20 May 2024, available on the Court’s website at <www.icc-
+cpi.int/news/statement-icc-prosecutor-karim-aa-khan-kc-applications-arrest-warrants-situation-state>.
+10
+Registry Transmission of “Israel’s challenge to the jurisdiction of the Court pursuant to article 19(2) of the
+Rome Statute”, 20 September 2024, ICC-01/18-354-SECRET-Exp.
+11
+Prosecution’s Response to “Israel’s challenge to the jurisdiction of the Court pursuant to article 19(2) of the
+Rome Statute” – ICC-01/18-354-SECRET-Exp-AnxI-Corr, 27 September 2024, ICC-01/18-357-SECRET-Exp.
+12
+ICC-01/18-361-SECRET-Exp-Anx.
+ICC-01/18-374 21-11-2024 4/8 PT
+No. ICC-01/18 5/8 21 November 2024
+Determination of the Chamber
+Preliminary matter
+10. With regard to the Leave to Reply Request, the Chamber considers that the Challenge
+and the Response are sufficiently clear and that the issues identified by Israel for further
+submissions could either have been reasonably anticipated or do not relate to matters that
+the Chamber requires further information on. The Leave to Reply Request is therefore
+rejected.
+Consideration of the Challenge
+11. Israel challenges the Court’s jurisdiction regarding the Prosecution’s applications for
+warrants of arrest against Mr Netanyahu and Mr Gallant and any other investigative
+action on the same jurisdictional basis.13
+Israel argues that Palestine does not possess the
+competences required under international law to be able to delegate territorial jurisdiction
+to the Court.
+12. In terms of standing, Israel refers to the Chamber’s holding in 2021 that issues of
+territorial jurisdiction may be raised by interested States based on article 19 of the Statute.
+Israel submits that it is a State from which acceptance of jurisdiction is required under
+article 12 of the Statute even if there is another State which has delegated jurisdiction to
+the Court for that same situation.14
+13. This is incorrect as a matter of law. In the matter under consideration, the acceptance by
+Israel of the Court’s jurisdiction is not required, as the Court can exercise its jurisdiction
+on the basis of the territorial jurisdiction of Palestine. As soon as there is one jurisdictional
+basis pursuant to article 12(2)(a) or (b) of the Statute, there is no need for an additional
+one.15
+14. Israel also argues that its claim that Palestine is not a State on the territory of which the
+alleged conduct occurred is in itself sufficient to make it the sole State whose acceptance
+of jurisdiction is required.16
+It points out that it ‘would be problematic […] to deny
+13
+Challenge, para. 1.
+14
+Challenge, paras 38-62.
+15
+Pre-Trial Chamber II, Situation in the Islamic Republic of Afghanistan, Decision Pursuant to Article 15 of the
+Rome Statute on the Authorisation of an Investigation into the Situation in the Islamic Republic of Afghanistan,
+12 April 2019, ICC-02/17-33, para. 58.
+16
+Challenge, para. 44.
+ICC-01/18-374 21-11-2024 5/8 PT
+No. ICC-01/18 6/8 21 November 2024
+standing on the basis that a State needs to establish the merits of a jurisdictional challenge
+as a prerequisite to its standing to make it.’17
+Israel submits that all that is required for it
+to have standing under article 19(2)(c) of the Statute is that its claim is prima facie
+tenable.18
+Israel further alleges that it has an ‘immediate right to challenge jurisdiction
+under Article 19 given the current stage of the proceedings’19
+and that it is in fact under
+an obligation to do so now pursuant to article 19(5) of the Statute.20
+According to Israel,
+its obligation to act without further delay is triggered by the fact that it now knows, based
+on the public statements of the Prosecutor and on the basis of the Requests for Assistance
+it received from the Court, that Israeli nationals are the subjects of applications for arrest
+warrants in relation to acts that allegedly took place on the territory of Gaza.21
+15. First, the Chamber rejects Israel’s argument that merely because it claims that Palestine
+could not have delegated jurisdiction to the Court, the Chamber would have to ignore its
+previous decision (rendered in a different composition) which has become res judicata.22
+Indeed, there is a fundamental difference between granting a State standing on the
+presumptive validity of its claim to have jurisdiction over a situation or a case and
+granting it standing on the basis of an argument – which was already ruled upon – that a
+particular State Party does not have jurisdiction.
+16. In any event, Israel’s standing is not an issue in this instance, as Israel clearly would have
+standing to bring a challenge as the State of nationality under article 19(2)(b) juncto
+article 12(2)(b) of the Statute if the Chamber decides to issue any warrants of arrest for
+Israeli nationals. The issue before the Chamber is whether Israel is entitled – or indeed
+obliged – to bring such a challenge before the Chamber has ruled on the Prosecution’s
+applications for warrants of arrest.23
+17. The Chamber notes that States are not entitled under the Statute to challenge jurisdiction
+of the Court on the basis of Article 19 prior to the issuance of a warrant of arrest or a
+17
+Challenge, para. 45.
+18
+Challenge, para. 45.
+19
+Challenge, para. 48.
+20
+Challenge, para. 49.
+21
+Challenge, para. 49.
+22
+Decision on the ‘Prosecution’s request pursuant to article 19(3) for a ruling on the Court’s territorial jurisdiction
+in Palestine, 5 February 2021, ICC-01/18-143.
+23
+See Pre-Trial Chamber I, Situation in the Bolivarian Republic of Venezuela I, Decision authorising the
+resumption of the investigation pursuant to article 18(2) of the Statute, 27 June 2023, ICC-02/18-45, paras 35-36;
+with reference to Decision on the ‘Prosecution’s request pursuant to article 19(3) for a ruling on the Court’s
+territorial jurisdiction in Palestine, 5 February 2021, ICC-01/18-143, paras 73-4.
+ICC-01/18-374 21-11-2024 6/8 PT
+No. ICC-01/18 7/8 21 November 2024
+summons. Indeed, the Prosecution typically conducts the entire application process under
+Article 58 of the Statute ex parte. States therefore only become aware of the existence of
+the proceedings after the Court has ruled on the application when the arrest warrant or
+summons is notified to them or made public. The wording of article 19(2)(b) of the Statute
+makes it clear that States may only challenge the Court’s jurisdiction in relation to a
+particular case, i.e. after the relevant Pre-Trial Chamber ruled that there are reasonable
+grounds to believe that a person has committed a crime within the jurisdiction of the
+Court and issued a warrant of arrest or a summons to ensure the person’s appearance
+before the Court.
+18. The Chamber wishes to reassure Israel that it will not be estopped on the basis of article
+19(5) of the Statute from bringing a jurisdictional challenge because of the public
+statements made by the Prosecutor or the Requests for Assistance it has received from
+the Court in relation to the investigation. Israel will have the full opportunity to challenge
+the Court’s jurisdiction and/or admissibility of any particular case if and when the
+Chamber issues any arrest warrants or summonses against its nationals.
+THE CHAMBER HEREBY, FOR THE ABOVE REASONS,
+REJECTS Israel’s request for leave to reply; and
+REJECTS Israel’s challenge to the jurisdiction of the Court pursuant to article 19(2) of the
+Statute as premature.
+ICC-01/18-374 21-11-2024 7/8 PT
+No. ICC-01/18 8/8 21 November 2024
+Done in English. A French translation will follow. The English version remains authoritative.
+_____________________________
+Judge Nicolas Guillou
+Presiding
+_____________________________
+Judge Reine Adélaïde Sophie Alapini-
+Gansou
+_____________________________
+Judge Beti Hohler
+Dated this Thursday, 21 November 2024
+At The Hague, The Netherlands
+ICC-01/18-374 21-11-2024 8/8 PT
+

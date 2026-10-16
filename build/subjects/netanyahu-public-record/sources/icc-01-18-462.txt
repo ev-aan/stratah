@@ -1,0 +1,456 @@
+# pdftotext -raw extract of ICC court record ICC-01-18-462 (0902ebd180c2a33e.pdf).
+
+No. ICC-01/18 1/13 24 July 2025
+No, I don
+Original: English No.: ICC-01/18
+Date: 24 July 2025
+PRE-TRIAL CHAMBER I
+Before: Judge Nicolas Guillou, Presiding Judge
+Judge Reine Adélaïde Sophie Alapini-Gansou
+Judge Beti Hohler
+SITUATION IN THE STATE OF PALESTINE
+Public
+Finding under article 87(7) ofthe Statute on Hungary’s non-compliance with the
+Court’s request to cooperate in the provisional arrest ofBenjamin Netanyahu and
+referral to the Assembly of States Parties
+ICC-01/18-462 24-07-2025 1/13 PT
+No. ICC-01/18 2/13 24 July 2025
+Decision to be notified in accordance with regulation 31 of the Regulations of the Court
+to:
+☒ The Office of the Prosecutor ☐ Counsel for the Defence
+☐ Legal Representatives of the Victims ☐ Legal Representatives of the
+Applicants
+☐ Unrepresented Victims ☐ Unrepresented Applicants
+(Participation/Reparation)
+☐ The Office of Public Counsel for
+Victims
+☐ The Office of Public Counsel for the
+Defence
+☒ States’ Representatives
+Hungary
+REGISTRY
+☐ Amicus Curiae
+Registrar
+Mr Osvaldo Zavala Giler
+☐ Counsel Support Section
+☐ Victims and Witnesses Unit ☐ Detention Section
+☐ Victims Participation and
+Reparations Section
+☐ Other
+ICC-01/18-462 24-07-2025 2/13 PT
+No. ICC-01/18 3/13 24 July 2025
+PRE-TRIAL CHAMBER I (the ‘Chamber’) ofthe International Criminal Court (the ‘Court’),
+acting under article 87 of the Rome Statute (the ‘Statute’), hereby decides whether Hungary
+failed to comply with the request by the Court to provisionally arrest Benjamin Netanyahu
+(‘Mr Netanyahu’), thereby preventing the Court from exercising its functions and powers under
+the Statute, and, if so, whether the matter should be referred to the Assembly of States Parties
+(the ‘ASP’ or the ‘Assembly’).
+I. PROCEDURAL HISTORY AND FACTUAL BACKGROUND
+1. On 21 November 2024, the Chamber issued a warrant of arrest for Mr Netanyahu (the
+‘Warrant’). Whereas the Warrant remains classified as secret, its existence was made public on
+the same day through a detailed press release issued by the Court.1
+2. Throughout March 2025, multiple media outlets reported that Mr Netanyahu might
+travel to Hungary in April 2025 at the invitation ofthe Hungarian government.2
+3. On 21 March 2025, the Registry contacted Hungary with a view to organising a meeting
+to verify whether the aforementioned media reports were accurate and to inform Hungary about
+the relevant applicable procedures before the Court. The Registry followed up on its request to
+hold a meeting again on 24 and 26 March 2025, emphasising, inter alia, that it is a neutral
+organ, responsible for answering open questions and providing guidance to ICC States Parties.
+Despite this, Hungary did not proceed to meet and did not consult with the Court in any other
+manner.3
+4. On 31 March 2025, Hungary officially announced that Mr Netanyahu would pay an
+official visit to Hungary from 2 to 6 April 2025 upon the invitation of Hungary’s Prime
+Minister.4
+On the same day, the Presidency of the ASP sent a letter to the Hungarian Minister
+of Foreign Affairs and Trade (the ‘Letter of ASP Presidency’), recalling the existence of the
+1
+ICC-01/18-377-SECRET. The issuance of the arrest warrants was made public on the same day. See Press
+Release – Situation in the State of Palestine: ICC Pre-Trial Chamber I rejects the State ofIsrael’s challenges to
+jurisdiction and issues warrants of arrest for Benjamin Netanyahu and Yoav Gallant, 21 November 2025.
+2
+Report of the Registry on the Status of the Execution of the Request to Hungary for the Provisional Arrest of
+Benjamin Netanyahu pursuant to article 92 of the Rome Statute, 11 April 2025, ICC-01/18-420-US-Exp, (the
+‘Registry Report’), para. 8.
+3
+Registry Report, paras 8-9.
+4
+Registry Report, para. 11.
+ICC-01/18-462 24-07-2025 3/13 PT
+No. ICC-01/18 4/13 24 July 2025
+Warrant and reminding Hungary of its obligations under the Statute.5
+The Presidency noted
+that under article 89(1) of the Statute, States Parties have a specific obligation to comply with
+requests from the Court for arrest and surrender and that the Court’s abilityto fulfil its mandate
+is dependent on States meeting their cooperation obligations, in particular when they concern
+the arrest and surrender ofindividuals subject to arrest warrants.6
+5. On 3 April 2025, based on public information that Mr Netanyahu had arrived in
+Hungary in the early morning ofthat day, the Registry transmitted a request for the provisional
+arrest of Mr Netanyahu to the Hungarian authorities (the ‘Request’).7
+The Request was
+accompanied by a note verbale, inviting Hungary to avail itself of the possibility to initiate
+consultations with the Court pursuant to article 97 ofthe Statute (which was also mentioned in
+the Request itself) and consult with the Court without delay should the authorities identify any
+problems that might impede or prevent the execution of the Request.8
+The Hungarian
+authorities did not respond or request consultations.9
+6. On 3 April 2023, during the visit ofMr Netanyahu, Hungary’s Prime Minister publicly
+announced that the Government had submitted a bill before Hungary’s National Assembly
+authorising it to withdraw from the Statute.10
+7. On 11 April 2025, the Registry filed the Registry Report about the transmission ofthe
+Request to Hungary, in which it, inter alia, informed the Chamber that Mr Netanyahu had been
+present on Hungary’s territory from 3 to 6 April 2025 .
+8. On 16 April 2025, the Chamber opened proceedings pursuant to article 87(7) of the
+Statute and invited Hungary to provide submissions on its apparent lack of cooperation in
+accordance with regulation 109(3) ofthe Regulations ofthe Court (‘Regulations’).11
+5
+Letter by President of the Assembly of States Parties H.E. Päivi Kautkoranta on behalfof the Presidency of the
+Assembly of States Parties to H.E. Mr Péter Szijjártó, Minister of Foreign Affairs and Trade of Hungary, dated
+31 March 2025, ASP/2025/07. This letter was made public by the President ofthe ASP on X on 3 April 2025.
+6
+Letter of ASP Presidency.
+7
+Registry Report, para. 16.
+8
+Registry Report, para. 16.
+9
+Registry Report, para. 19.
+10
+Registry Report, para. 20.
+11
+Invitation to Hungary to provide submissions for the purposes of proceedings under article 87(7) of the Rome
+Statute, 16 April 2025, ICC-01/18-421.
+ICC-01/18-462 24-07-2025 4/13 PT
+No. ICC-01/18 5/13 24 July 2025
+9. On 23 May 2025, the Registry transmitted into the record Hungary’s submissions dated
+22 May 2025 (‘Hungary’s Submissions’).12
+10. On 2 June 2025, the United Nations Secretary General, acting in his capacity as
+depository, publicly announced that Hungary is withdrawing from the Statute and that the
+withdrawal will take effect for Hungary on 2 June 2026.13
+11. On 13 June 2025, the Prosecution filed its observations on Hungary’s Submissions (the
+‘Prosecution’s Observations’).14
+II. DETERMINATION
+12. Pursuant to article 87(7) of the Statute, where a State Party fails to comply with a
+request to cooperate by the Court contrary to the provisions ofthe Statute, the Court may make
+a finding to that effect and refer the matter to the ASP. As established by the Appeals Chamber,
+the factual prerequisite for a referral under article 87(7) of the Statute is twofold: (i) the State
+concerned failed to comply with a request to cooperate; and (ii) this non-compliance is grave
+enough to prevent the Court from exercising its functions and powers under the Statute.15
+Only
+when both conditions are met can the Chamber consider the question whether or not it is
+appropriate to refer the non-cooperating State to the ASP.16
+A. Whether Hungary failed to comply with the request to provisionally arrest
+Mr Netanyahu thereby preventing the Court from exercising its functions
+and powers under the Statute
+13. The Chamber recalls that, pursuant to article 86 of the Statute, States Parties are
+required to cooperate fully with the Court in its investigation and prosecution ofcrimes within
+the jurisdiction of the Court. They must do so in good faith, consistently with the object and
+purpose ofthe Statute.17
+One ofthe specific obligations States Parties have is to (provisionally)
+12
+Transmission ofHungary’s submission in response to Pre-Trial Chamber I’s ‘Invitation to Hungary to provide
+submissions for the purposes ofproceedings under article 87(7) ofthe Rome Statute’, 16 April 2025, ICC-01/18-
+421, 23 May 2025, ICC-01/18-344. Hungary’s Submissions are contained in ICC-01/18-433-AnxII.
+13
+C.N.225.2025.TREATIES-XVIII.10 (Depository Notification)
+14
+Prosecution’s Observations on Hungary’s Submissions for the purposes ofproceedings under article 87(7) of
+the Rome Statute (ICC-01/18-433-AnxII), 13 June 2025, ICC-01/18-442-Red.
+15
+Appeals Chamber, The Prosecutor v. Omar Hassan Ahmad Al-Bashir, Judgment in the Jordan Referral re Al-
+Bashir Appeal, 6 May 2019, ICC-02/05-01/09-397-Corr, (the ‘Jordan Appeals Judgment’) para. 184.
+16
+Jordan Appeals Judgment, para. 184.
+17
+Jordan Appeals Judgment, paras 11, 202.
+ICC-01/18-462 24-07-2025 5/13 PT
+No. ICC-01/18 6/13 24 July 2025
+arrest persons sought by the Court.18
+As article 59(1) of the Statute makes clear, a State Party
+which has received a request for provisional arrest or for arrest and surrender, must take
+immediate steps to arrest the person in question in accordance with its laws and the provisions
+of Part 9 of the Statute. Article 88 of the Statute further stipulates that States Parties have to
+enact the necessary procedures under domestic law to enable them to comply with their
+obligations under the Statute. Additionally, article 97 of the Statute obliges States Parties to
+consult with the Court without delay when they identify problems which may impede or
+prevent them from executing requests for cooperation from the Court. Moreover, rule 195(1)
+ofthe Rules ofProcedure andEvidence (the ‘Rules’) indicates that States which have identified
+a problem ofexecution in respect ofarticle 98 ofthe Statute must notify the Court thereofand
+must provide any information relevant to assist the Court in the application ofsaid article.
+14. With regard to Hungary’s withdrawal from the Statute, the Chamber notes that, in
+accordance with article 127(1) of the Statute, the withdrawal will only take effect on 2 June
+2026.19
+Until that time, Hungary remains, for all intents and purposes, a State Party to the
+Statute with the same rights and obligations as all other States Parties.20
+The Chamber further
+notes that the events under review took place two months before Hungary initiated its
+withdrawal from the Statute. There is thus no reason to treat Hungary differently on account of
+its (subsequent) withdrawal from the Statute.
+15. The Chamber notes that Mr Netanyahu was invited to visit Hungary by the Prime
+Minister and was present on Hungary’s territory for several days, between 3 and 6 April 2025.
+As soon as concrete and credible information was available that Mr Netanyahu would be
+visiting Hungary during a specific period, the Court immediately took steps to engage with
+Hungary, even before a formal request for cooperation was made, in order to anticipate as much
+as possible any issues that could arise in terms ofHungary’s obligation to provisionally arrest
+the suspect. In its communications with Hungary, the Registry emphasised that it is a neutral
+organ, responsible for answering open questions and providing guidance to States Parties.
+Despite this, Hungary did not engage with the Court and, it did not execute the Request.
+18
+Articles 59(1), 89(1) and 92 ofthe Statute.
+19
+C.N.2255.2025.TREATIES-XVIII.10 (Depository Notification)
+20
+Pre-Trial Chamber II, Situation in the Republic of Burundi, Public redacted version of Decision Pursuant to
+Article 15 of the Rome Statute on the Authorization of an Investigation into the Situation in the Republic of
+Burundi, 9 November 2017, ICC-01/17-9-Red, paras 24-26.
+ICC-01/18-462 24-07-2025 6/13 PT
+No. ICC-01/18 7/13 24 July 2025
+16. Hungary does not contest the fact that it did not execute the Request. In its Submissions,
+made in the context ofthe article 87(7) proceedings, Hungary for the first time communicates
+its reasons for failing to arrest Mr Netanyahu, albeit in a cursory manner. First, Hungary states
+that it was unable to comply with the Request because it adheres to the dualist model and has
+not adopted the necessary legislation that would allow its law enforcement agencies to do so.21
+Moreover, Hungary argues that Mr Netanyahu was protected by ‘State immunity’ under
+international law. Hungary submits, in this regard, that article 27 ofthe Statute ‘only applies to
+States Parties that have incorporated this waiver ofimmunity into their domestic legal systems.
+As Hungary has not enacted the Statute into domestic law, article 27 has no legal effect within
+Hungarian jurisdiction.’22
+Second, Hungary claims that, since Israel is not a State Party and has
+not waived Mr Netanyahu’s immunity, the latterwas ‘fullyprotectedbyState immunityagainst
+Hungarian legal or law enforcement action during his visit in April’ and that the Court was
+therefore not allowed to ask it to arrest Mr Netanyahu by virtue ofarticle 98(1) ofthe Statute.23
+Third, Hungary states that the Court’s jurisdiction cannot be established under article 12 ofthe
+Statute and that the Warrant cannot be regarded as an impartial and objective legal act.24
+17. The Chamber will now consider whether Hungary can invoke these arguments as
+justifications for not arresting Mr Netanyahu whilst the latter was present on its territory.
+1. Whether the absence of domestic legislation provides a justification for
+non-compliance
+18. The Court has consistently held that the absence or inadequacy of implementing
+domestic legislation cannot justify non-compliance with States Parties’ obligations under the
+Statute.25
+21
+Hungary’s Submissions, second paragraph.
+22
+Hungary’s Submissions, third paragraph.
+23
+Hungary’s Submissions, fourth paragraph.
+24
+Hungary’s Submissions, final paragraph.
+25
+Trial Chamber V(B), The Prosecutor v. Uhuru Muigai Kenyatta, Decision on the Prosecution’s application for
+a finding of non-compliance pursuant to Article 87(7) and for an adjournment of the provisional trial date, 31
+March 2014, ICC-01/09-02/11-908, para. 47; Pre-Trial Chamber II, The Prosecutor v. Omar Hassan Ahmad Al
+Bashir, Corrigendum to the Decision Pursuant to Article 87(7) ofthe Rome Statute on the Failure by the Republic
+ofMalawi to Comply with the Cooperation Requests Issued by the Court with Respect to the Arrest and Surrender
+ofOmar Hassan Ahmad Al Bashir, 13 December 2011, ICC-02/05-01/09-139-Corr, paras 20-21. Decision on the
+non-compliance by the Republic ofDjibouti with the request to arrest and surrender Omar Al-Bashir to the Court
+and referring the matter to the United Nations Security Council and the Assembly ofthe State Parties to the Rome
+Statute, 11 July 2016, ICC-02/05-01/09-266, para. 10.
+ICC-01/18-462 24-07-2025 7/13 PT
+No. ICC-01/18 8/13 24 July 2025
+19. First, the carefully crafted language and solutions adopted in Part 9 of the Statute on
+international cooperation and judicial assistance make it clear that domestic procedures are to
+be used to meet, not to defeat, the obligation to comply with requests for cooperation. The
+Statute recognizes the need for domestic procedures and in article 88 of the Statute obliges
+States Parties to ensure that there are procedures available under their national law for all of
+the forms of cooperation specified in the Statute, which therefore includes (provisional) arrests.
+The Chamber notes that the obligation to cooperate is the same for all States Parties and cannot
+be qualified through domestic law.26
+To the extent that domestic legislation would in fact have
+been a prerequisite for Hungary to be able to execute the Request, it was Hungary’s
+responsibility to ensure that such legislation was in place.27
+20. Second, pursuant to article 27 ofthe Vienna Convention on the Law ofTreaties, ‘aparty
+may not invoke the provisions of its internal law as justification for its failure to perform a
+treaty’. Hungary has not pointed to any argument as to why this principle would not apply in
+this instance.
+2. Whether Hungary can rely on article 98(1) of the Statute to justify non-
+compliance
+21. In relation to Hungary’s invocation ofarticle 98(1) ofthe Statute, the Chamberobserves
+that Hungary did not raise this provision until after the opportunity to provisionally arrest
+Mr Netanyahu was no longer present. It does so now, in a cursory manner, in the context ofthe
+present non-cooperation proceedings, stating that the provision provides that the ICC may not
+require a State Party to act inconsistently with its obligations under international law and that
+Mr Netanyahu was ‘fully protected by State immunity against any Hungarian legal or law
+enforcement action during his visit’.28
+Hungary does not elaborate beyond this one paragraph
+in its Submissions.
+22. The Chamber notes that although article 98(1) of the Statute prevents the Court from
+proceeding with a request for surrender or assistance under certain conditions, it is incumbent
+26
+Claus Kress & Kimberly Prost, ‘Article 88’, in Kai Ambos (ed.), Rome Statute of the International Criminal
+Court: Article-by-Article Commentary, 4th
+ed., (2022), Beck, p. 2493.
+27
+Trial Chamber III, The Prosecutor v. Jean-Pierre Bemba Gombo, Decision on Mr Bemba’s preliminary
+application for reclassification of filings, disclosure, accounts, and partial unfreezing ofMr Bemba’s assets and
+the Registry’s request for guidance, 18 October 2018, ICC-01/05-01/08-3660-Red2, para. 10.
+28
+Hungary’s Submissions, fourth paragraph.
+ICC-01/18-462 24-07-2025 8/13 PT
+No. ICC-01/18 9/13 24 July 2025
+upon the requested State Party to provide the necessary information to establish the obstacle(s)
+it faces. This follows from the wording of rule 195 ofthe Rules, which envisages a four-stage
+process: (i) the Court transmits a request for surrender or assistance; (ii) the requested State
+identifies a legal obligation vis-à-vis a third State within the meaning ofarticle 98 ofthe Statute
+that would have to be violated in order to comply with the request for cooperation; (iii) the
+requested State informs the Court of this conflicting obligation and provides any information
+relevant to assist the Court in the application ofarticle 98 ofthe Statute; (iv) the Court considers
+the information and decides whether to proceed with the request for cooperation or whether to
+withdraw it. It is not the responsibility of the Court to surmise whether or not the requested
+State may be facing conflicting legal obligations. On the contrary, States Parties bear the
+primary responsibility to provide the Court with information establishing the existence of the
+alleged conflicting legal obligation. They also have an obligation to act in good faith and to
+provide this information in a timely manner so that the matter can be resolved whilst the
+execution ofthe request for cooperation is still possible.29
+23. The Chamber notes that Mr Netanyahu visited Hungary upon the invitation of the
+Hungarian government. His visit was therefore not a surprise. The Court first invited Hungary
+to engage in consultations on 21 March 2025, i.e. more than ten days before Mr Netanyahu’s
+arrival, and the Presidency of the Assembly contacted the Hungarian Minister of Foreign
+Affairs and Trade several days before Mr Netanyahu’s visit to remind Hungary of its
+obligations under the Statute, including the obligation to comply with the Court’s requests for
+arrest and surrender.30
+By the time Mr Netanyahu arrived in Hungary, the latter therefore had
+to be aware ofboth the urgency ofthe matter and ofthe purported legal obstacles it now raises,
+after the fact, in its Submissions. Moreover, Mr Netanyahu remained in Hungary for several
+days after his arrival. Hungary therefore had every opportunity to engage and consult with the
+Court or, at the very least, to inform it of any obstacles to comply with the Request. Yet,
+Hungary decided not to engage with the Court. In light ofthis, the Chamber can only conclude
+that Hungary deliberately made no effort to inform the Court about the claimed conflict of
+obligations when it received the Request. In any event, as previously held by the Court, article
+29
+Jordan Appeals Judgment, para. 202.
+30
+Letter of ASP Presidency.
+ICC-01/18-462 24-07-2025 9/13 PT
+No. ICC-01/18 10/13 24 July 2025
+98(1) ofthe Statute does not entitle States Parties to unilaterally suspend cooperation with the
+Court whenever they consider it to be applicable in relation to a specific request.31
+3. Whether Hungary’
+s disagreement with the Court’s decisions provides a
+justification for non-compliance
+24. As regards Hungary’s argument that the Court’s jurisdiction cannot be established
+under article 12 of the Statute and that the Warrant cannot be regarded as an impartial and
+objective legal act,32
+the Chamber notes that a State Party’s disagreement with the Court’s
+decisions does not undermine its obligations relating to international cooperation and
+assistance set out in the Statute. As a State Party to the Statute, Hungary accepted to be bound
+by the Court’s decisions and cannot unilaterally decide whether or not to comply with requests
+for cooperation on the basis of its views and opinions about some of those decisions. The
+validity of the Court’s decisions can and should be challenged in accordance with the
+procedures set out in the Statute. The Chamber accordingly rejects Hungary’s argument.
+25. To the extent that Hungary relies on the alleged lack of jurisdiction to justify its non-
+compliance, the Chamber recalls that it is currently considering Israel’s challenge to the Court’s
+jurisdiction and has already ruled that this challenge does not suspend the validity of the
+Warrant.33
+26. In conclusion, Hungary failed to provisionally arrest Mr Netanyahu and has not
+advanced any valid justification for its breach of statutory obligations. Therefore, pursuant to
+article 87(7) ofthe Statute, the Chamber finds that Hungary failed to comply with a request to
+cooperate contrary to the provisions of the Statute. The Chamber further finds that Hungary’s
+non-compliance prevented the Court from exercising an important power and a fundamental
+function, namely securing the presence ofthe suspect before the Court.34
+31
+Pre-Trial Chamber II, The Prosecutor v. Omar Hassan Ahmad Al Bashir, Decision on the non-compliance by
+the Republic of Djibouti with the request to arrest and surrender Omar Al-Bashir to the Court and referring the
+matter to the United Nations Security Council and the Assembly ofthe State Parties to the Rome Statute, 11 July
+2016, ICC-02/05-01/09-266, paras 110-121.
+32
+Hungary’s Submissions, final paragraph.
+33
+Decision on the State ofIsrael’s request to have arrest warrants withdrawn, vacated, or declared ofno force or
+effect and to suspend the Prosecutor’s investigation, 16 July 2025, ICC-01/18-457.
+34
+See Jordan Appeals Judgment, para. 190.
+ICC-01/18-462 24-07-2025 10/13 PT
+No. ICC-01/18 11/13 24 July 2025
+B. Whether referral of the matter to the Assembly of States Parties is
+warranted
+27. A finding of non-compliance does not automatically result in a referral to the ASP.
+Chambers have a measure of discretion when deciding whether or not to refer an instance of
+non-compliance to the Assembly.35
+In exercising this discretion, the Chamber must be guided
+by the object and purpose of article 87(7) of the Statute, which is to foster cooperation.36
+The
+Chamber must consider all factors that may be relevant in this regard, including whether
+referral would provide an incentive for cooperation by the requested State.37
+Chambers ofthe
+Court have, inter alia, taken into consideration whether the requested State was acting in good
+faith, engaged in timely consultations, and remained committed to cooperating with the
+Court,38
+and whether the authorities ofthe violating State (retroactively) recognised the failure
+to comply with its obligations under the Statute.39
+Significantly, referral to the ASP is not
+limited to instances where intervention by the Assembly might still bring about the requested
+cooperation. A referral may also be appropriate if it is likely to promote future cooperation,
+both by the requested State or more generally.40
+28. Bearing in mind these factors, the Chamber finds that it is necessary and appropriate to
+refer this instance ofnon-compliance by Hungary to the ASP.
+29. First, the obligation to cooperate was sufficiently clear to Hungary. Second, failure to
+arrest suspects severely undermines the Court’s ability to carry out its mandate.41
+Third, as
+35
+Appeals Chamber, The Prosecutor v. Uhuru Muigai Kenyatta, Judgment on the Prosecutor’s appeal against
+Trial Chamber V(B)’s “Decision on Prosecution’s applicationfora finding ofnon-compliance under Article 87(7)
+ofthe Statute”, 19 August 2015, ICC-01/09-02/11-1032, (the ‘Kenyatta Appeals Judgment’), para. 49.
+36
+Kenyatta Appeals Judgment, ICC-01/09-02/11-1032, para. 51.
+37
+Kenyatta Appeals Judgment, ICC-01/09-02/11-1032, para. 53.
+38
+Pre-Trial Chamber II, The Prosecutor v. Abdel Raheem Muhammad Hussein, Decision on the Cooperation of
+the Republic of Chad Regarding Abdel Raheem Muhammad Hussein’s Arrest and Surrender to the Court, 13
+November 2013, ICC-02/05-01/12-20, para. 18.
+39
+Pre-Trial Chamber II, The Prosecutor v. Omar Hassan Ahmad Al-Bashir, Decision under article 87(7) of the
+Rome Statute on the non-compliance by South Africa with the request by the Court for the arrest and surrender
+ofOmar Al-Bashir, 6 July 2017, ICC-02/05-01/09-302, paras. 136-7.
+40
+Trial Chamber V(B), The Prosecutor v. Uhuru Muigai Kenyatta, Decision on the Prosecution’s application for
+a finding ofnon-compliance under Article 87(7) ofthe Statute, 3 December 2014, ICC-01/09-02/11-982, para. 84.
+41
+Pre-Trial Chamber II, The Prosecutor v. Omar Hassan Ahmad Al Bashir, Decision on the Cooperation of the
+Democratic Republic ofthe Congo Regarding Omar Al Bashir’s Arrest and Surrender to the Court, 09 April 2014,
+ICC-02/05-01/09-195, para. 34; Decision on the Prosecutor’s Request for a Finding ofNon-Compliance Against
+the Republic of the Sudan, 09 March 2015, ICC-02/05-01/09-227, para. 19; Decision on the non-compliance by
+the Republic of Uganda with the request to arrest and surrender Omar Al-Bashir to the Court and referring the
+matter to the United Nations Security Council and the Assembly of State Parties to the Rome Statute, 11 July
+2016, ICC-02/05-01/09-267, para. 16.
+ICC-01/18-462 24-07-2025 11/13 PT
+No. ICC-01/18 12/13 24 July 2025
+noted above, Hungary made no effort to inform the Court in a timely manner ofany purported
+legal or other difficulties related to the execution ofthe Request, despite being invited to do so
+on several occasions. Indeed, Hungary did not engage with the Court before or during
+Mr Netanyahu’s visit and, instead, decided to unilaterally withhold cooperation.
+30. The Chamber is mindful that Hungary’s opportunity to provisionally arrest
+Mr Netanyahu no longer exists and that further consultations between Hungary and the Court
+on the matter may be futile in light of Hungary’s decision to withdraw from the Statute.
+However, the Chamber considers that a State Party’s neglect ofits substantive and procedural
+obligations under the Statute cannot be ignored just because it has decided to leave the Rome
+Statute system. In this regard, the Chamber recalls that Hungary’s withdrawal will only take
+effect on 2 June 2026. Until then, as noted above, Hungary remains bound by the Statute. In
+other words, the Chamber does not consider Hungary’s withdrawal to be a circumstance
+militating against a referral.
+31. Finally, the Chamber considers that the referral to the ASP is necessary to enable the
+Assembly to take any action it deems appropriate to ensure that States Parties fulfil their
+obligations towards the Court and that future opportunities for arrest and surrender in this and
+other situations before the Court are not equally lost.
+ICC-01/18-462 24-07-2025 12/13 PT
+No. ICC-01/18 13/13 24 July 2025
+FOR THESE REASONS, THE CHAMBER HEREBY
+FINDS that Hungary failed to comply with its international obligations under the Statute by
+not executing the Court’s request to provisionally arrest Mr Netanyahu while he was present
+on Hungarian territory between 3 and 6 April 2025; and
+REFERS the matter ofHungary’s non-compliance to the Assembly of States Parties through
+the President ofthe Court in accordance with regulation 109(4) ofthe Regulations; and
+ORDERS the Registry to reclassify filing ICC-01/18-420-US-Exp as public.
+_____________________________
+Judge Nicolas Guillou
+Presiding Judge
+_____________________________
+Judge Reine Adélaïde Sophie
+Alapini-Gansou
+_____________________________
+Judge Beti Hohler
+Done in English. A French translation will follow. The English version remains authoritative.
+Dated this Thursday, 24 July 2025
+At The Hague, The Netherlands
+ICC-01/18-462 24-07-2025 13/13 PT
+

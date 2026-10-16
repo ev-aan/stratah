@@ -1,0 +1,295 @@
+QUOTE CHECK (builder, 2026-10-16). For each claim, every quoted passage in the claim's `anchor.description` or `statement` that was produced through the check below was matched, after collapsing whitespace, against the stored extract named; fragments joined by [...] had to occur in order.
+A passage that did not match stopped the build. This file lists the passages checked per claim (stored extract, characters). It is not an independent review and does not replace opening the source.
+
+np-k21-list-result: 6 passages
+    cec-k21-national-results.he.txt  (41 chars)
+    cec-k21-national-results.he.txt  (30 chars)
+    cec-k21-national-results.he.txt  (20 chars)
+    cec-k21-national-results.he.txt  (51 chars)
+    cec-k21-national-results.he.txt  (73 chars)
+    cec-k21-national-results.he.txt  (65 chars)
+np-k22-list-result: 6 passages
+    cec-k22-national-results.he.txt  (41 chars)
+    cec-k22-national-results.he.txt  (33 chars)
+    cec-k22-national-results.he.txt  (20 chars)
+    cec-k22-national-results.he.txt  (51 chars)
+    cec-k22-national-results.he.txt  (73 chars)
+    cec-k22-national-results.he.txt  (67 chars)
+np-k23-list-result: 6 passages
+    cec-k23-national-results.he.txt  (41 chars)
+    cec-k23-national-results.he.txt  (26 chars)
+    cec-k23-national-results.he.txt  (20 chars)
+    cec-k23-national-results.he.txt  (51 chars)
+    cec-k23-national-results.he.txt  (73 chars)
+    cec-k23-national-results.he.txt  (54 chars)
+np-k24-list-result: 6 passages
+    cec-k24-national-results.he.txt  (41 chars)
+    cec-k24-national-results.he.txt  (29 chars)
+    cec-k24-national-results.he.txt  (20 chars)
+    cec-k24-national-results.he.txt  (51 chars)
+    cec-k24-national-results.he.txt  (73 chars)
+    cec-k24-national-results.he.txt  (53 chars)
+np-k25-list-result: 6 passages
+    cec-k25-national-results.he.txt  (41 chars)
+    cec-k25-national-results.he.txt  (32 chars)
+    cec-k25-national-results.he.txt  (20 chars)
+    cec-k25-national-results.he.txt  (51 chars)
+    cec-k25-national-results.he.txt  (73 chars)
+    cec-k25-national-results.he.txt  (67 chars)
+np-gov-35-36-37-comptroller-2026: 2 passages
+    mevaker-2026-05-government-structure-abstract.en.txt  (364 chars)
+    mevaker-2026-05-government-structure-abstract.en.txt  (453 chars)
+np-pres-37th-swearing-photo: 1 passages
+    president-2022-12-29-37th-government.he.txt  (173 chars)
+np-crs-offices-1996-2026: 2 passages
+    crs-r44245-v147-excerpt.txt  (305 chars)
+    crs-r44245-v147-excerpt.txt  (58 chars)
+np-k26-election-date: 1 passages
+    embassy-london-k26-election-date.he.txt  (74 chars)
+np-court-hcj-3132-15: 6 passages
+    versa-hcj-3132-15-excerpt.en.txt  (183 chars)
+    versa-hcj-3132-15-excerpt.en.txt  (106 chars)
+    versa-hcj-3132-15-excerpt.en.txt  (49 chars)
+    versa-hcj-3132-15-excerpt.en.txt  (157 chars)
+    versa-hcj-3132-15-excerpt.en.txt  (19 chars)
+    versa-hcj-3132-15-excerpt.en.txt  (113 chars)
+np-crs-2019-02-28-ag-intent: 2 passages
+    crs-in11068-v1.txt  (166 chars)
+    crs-in11068-v1.txt  (110 chars)
+np-crs-2019-case-1000: 4 passages
+    crs-in11068-v1.txt  (91 chars)
+    crs-in11068-v1.txt  (37 chars)
+    crs-in11068-v1.txt  (176 chars)
+    crs-in11068-v1.txt  (121 chars)
+np-crs-2019-case-2000: 4 passages
+    crs-in11068-v1.txt  (168 chars)
+    crs-in11068-v1.txt  (37 chars)
+    crs-in11068-v1.txt  (214 chars)
+    crs-in11068-v1.txt  (99 chars)
+np-crs-2019-case-4000: 4 passages
+    crs-in11068-v1.txt  (160 chars)
+    crs-in11068-v1.txt  (46 chars)
+    crs-in11068-v1.txt  (207 chars)
+    crs-in11068-v1.txt  (53 chars)
+np-crs-2019-11-ag-decision: 2 passages
+    crs-r44245-v66-excerpt.txt  (139 chars)
+    crs-r44245-v66-excerpt.txt  (66 chars)
+np-crs-2026-trial-and-pardon-application: 5 passages
+    crs-r44245-v147-excerpt.txt  (114 chars)
+    crs-r44245-v147-excerpt.txt  (121 chars)
+    crs-r44245-v147-excerpt.txt  (178 chars)
+    crs-r44245-v147-excerpt.txt  (301 chars)
+    crs-r44245-v147-excerpt.txt  (123 chars)
+np-pres-clemency-policy: 2 passages
+    president-clemency-page.en.txt  (127 chars)
+    president-clemency-page.en.txt  (142 chars)
+np-pres-pardon-statement-2025-12-01: 1 passages
+    president-2025-12-01-pardon-statement.en.txt  (361 chars)
+np-pres-pardon-remarks-2026-05-13: 3 passages
+    president-2026-05-13-pardon-remarks.he.txt  (69 chars)
+    president-2026-05-13-pardon-remarks.he.txt  (13 chars)
+    president-2026-05-13-pardon-remarks.he.txt  (11 chars)
+np-icc-press-release-2024-11-21: 7 passages
+    icc-pr-2024-11-21.en.txt  (76 chars)
+    icc-pr-2024-11-21.en.txt  (80 chars)
+    icc-pr-2024-11-21.en.txt  (108 chars)
+    icc-pr-2024-11-21.en.txt  (46 chars)
+    icc-pr-2024-11-21.en.txt  (65 chars)
+    icc-pr-2024-11-21.en.txt  (255 chars)
+    icc-pr-2024-11-21.en.txt  (229 chars)
+np-birth-date-icc-release: 2 passages
+    icc-pr-2024-11-21.en.txt  (37 chars)
+    crs-r44245-v147-excerpt.txt  (34 chars)
+np-icc-dates-differ: 6 passages
+    icc-pr-2024-11-21.en.txt  (79 chars)
+    icc-01-18-374.txt  (82 chars)
+    icc-01-18-374.txt  (53 chars)
+    icc-01-18-457.txt  (53 chars)
+    icc-01-18-468.txt  (53 chars)
+    icc-01-18-428.txt  (135 chars)
+np-icc-374-art19-decision: 4 passages
+    icc-01-18-374.txt  (279 chars)
+    icc-01-18-374.txt  (172 chars)
+    icc-01-18-374.txt  (206 chars)
+    icc-01-18-374.txt  (163 chars)
+np-icc-375-art18-decision: 1 passages
+    icc-01-18-375.txt  (340 chars)
+np-icc-422-appeals-judgment: 5 passages
+    icc-01-18-422.txt  (222 chars)
+    icc-01-18-422.txt  (123 chars)
+    icc-01-18-422.txt  (167 chars)
+    icc-01-18-422.txt  (235 chars)
+    icc-01-18-422.txt  (129 chars)
+np-icc-423-art18-appeal-inadmissible: 3 passages
+    icc-01-18-423.txt  (578 chars)
+    icc-01-18-423.txt  (106 chars)
+    icc-01-18-423.txt  (266 chars)
+np-icc-425-prosecution-observations: 3 passages
+    icc-01-18-425.txt  (187 chars)
+    icc-01-18-425.txt  (124 chars)
+    icc-01-18-425.txt  (112 chars)
+np-icc-426-israel-request: 4 passages
+    icc-01-18-426.txt  (251 chars)
+    icc-01-18-426.txt  (67 chars)
+    icc-01-18-426.txt  (126 chars)
+    icc-01-18-426.txt  (187 chars)
+np-icc-431-prosecution-response: 3 passages
+    icc-01-18-431.txt  (42 chars)
+    icc-01-18-431.txt  (169 chars)
+    icc-01-18-431.txt  (72 chars)
+np-icc-428-leave-moot: 2 passages
+    icc-01-18-428.txt  (111 chars)
+    icc-01-18-428.txt  (48 chars)
+np-icc-457-warrants-request-decision: 4 passages
+    icc-01-18-457.txt  (119 chars)
+    icc-01-18-457.txt  (91 chars)
+    icc-01-18-457.txt  (70 chars)
+    icc-01-18-457.txt  (355 chars)
+np-icc-462-hungary-finding: 2 passages
+    icc-01-18-462.txt  (336 chars)
+    icc-01-18-462.txt  (126 chars)
+np-icc-468-leave-refused: 2 passages
+    icc-01-18-468.txt  (279 chars)
+    icc-01-18-468.txt  (58 chars)
+np-icc-471-israel-disqualification-request: 4 passages
+    icc-01-18-471-anx1.txt  (414 chars)
+    icc-01-18-471-anx1.txt  (242 chars)
+    icc-01-18-471-anx1.txt  (138 chars)
+    icc-01-18-471-anx1.txt  (285 chars)
+np-icc-481-oa3-judgment: 3 passages
+    icc-01-18-481.txt  (167 chars)
+    icc-01-18-481.txt  (99 chars)
+    icc-01-18-481.txt  (197 chars)
+np-israel-position-icc: 2 passages
+    govextra-icc-position.en.txt  (194 chars)
+    icc-situation-palestine.en.txt  (263 chars)
+np-pm-statement-2021-02-05: 3 passages
+    govextra-icc-position.en.txt  (53 chars)
+    govextra-icc-position.en.txt  (259 chars)
+    govextra-icc-position.en.txt  (60 chars)
+np-pm-statement-icc-2024: 4 passages
+    embassy-nepal-2024-pm-icc-statement.en.txt  (253 chars)
+    embassy-nepal-2024-pm-icc-statement.en.txt  (352 chars)
+    embassy-nepal-2024-pm-icc-statement.en.txt  (73 chars)
+    embassy-nepal-2024-pm-icc-statement.en.txt  (122 chars)
+np-stmt-congress-1996: 5 passages
+    crec-1996-07-10-netanyahu-address.txt  (200 chars)
+    crec-1996-07-10-netanyahu-address.txt  (239 chars)
+    crec-1996-07-10-netanyahu-address.txt  (13 chars)
+    crec-1996-07-10-netanyahu-address.txt  (60 chars)
+    crec-1996-07-10-netanyahu-address.txt  (13 chars)
+np-stmt-congress-2011: 5 passages
+    crec-2011-05-24-netanyahu-address.txt  (316 chars)
+    crec-2011-05-24-netanyahu-address.txt  (81 chars)
+    crec-2011-05-24-netanyahu-address.txt  (13 chars)
+    crec-2011-05-24-netanyahu-address.txt  (59 chars)
+    crec-2011-05-24-netanyahu-address.txt  (13 chars)
+np-stmt-congress-2015: 5 passages
+    crec-2015-03-03-netanyahu-address.txt  (272 chars)
+    crec-2015-03-03-netanyahu-address.txt  (82 chars)
+    crec-2015-03-03-netanyahu-address.txt  (13 chars)
+    crec-2015-03-03-netanyahu-address.txt  (59 chars)
+    crec-2015-03-03-netanyahu-address.txt  (13 chars)
+np-stmt-congress-2024: 5 passages
+    crec-2024-07-24-netanyahu-address.txt  (393 chars)
+    crec-2024-07-24-netanyahu-address.txt  (117 chars)
+    crec-2024-07-24-netanyahu-address.txt  (13 chars)
+    crec-2024-07-24-netanyahu-address.txt  (59 chars)
+    crec-2024-07-24-netanyahu-address.txt  (13 chars)
+np-stmt-unga-2009: 4 passages
+    un-a64-pv5-netanyahu-statement.txt  (298 chars)
+    un-a64-pv5-netanyahu-statement.txt  (128 chars)
+    un-a64-pv5-netanyahu-statement.txt  (92 chars)
+    un-a64-pv5-netanyahu-statement.txt  (92 chars)
+np-stmt-unga-2011: 4 passages
+    un-a66-pv19-netanyahu-statement.txt  (161 chars)
+    un-a66-pv19-netanyahu-statement.txt  (37 chars)
+    un-a66-pv19-netanyahu-statement.txt  (92 chars)
+    un-a66-pv19-netanyahu-statement.txt  (92 chars)
+np-stmt-unga-2012: 4 passages
+    un-a67-pv12-netanyahu-statement.txt  (256 chars)
+    un-a67-pv12-netanyahu-statement.txt  (127 chars)
+    un-a67-pv12-netanyahu-statement.txt  (92 chars)
+    un-a67-pv12-netanyahu-statement.txt  (92 chars)
+np-stmt-unga-2013: 4 passages
+    un-a68-pv23-netanyahu-statement.txt  (161 chars)
+    un-a68-pv23-netanyahu-statement.txt  (64 chars)
+    un-a68-pv23-netanyahu-statement.txt  (170 chars)
+    un-a68-pv23-netanyahu-statement.txt  (170 chars)
+np-stmt-unga-2014: 4 passages
+    un-a69-pv17-netanyahu-statement.txt  (165 chars)
+    un-a69-pv17-netanyahu-statement.txt  (73 chars)
+    un-a69-pv17-netanyahu-statement.txt  (140 chars)
+    un-a69-pv17-netanyahu-statement.txt  (140 chars)
+np-stmt-unga-2015: 4 passages
+    un-a70-pv22-netanyahu-statement.txt  (264 chars)
+    un-a70-pv22-netanyahu-statement.txt  (46 chars)
+    un-a70-pv22-netanyahu-statement.txt  (92 chars)
+    un-a70-pv22-netanyahu-statement.txt  (92 chars)
+np-stmt-unga-2016: 4 passages
+    un-a71-pv14-netanyahu-statement.txt  (294 chars)
+    un-a71-pv14-netanyahu-statement.txt  (301 chars)
+    un-a71-pv14-netanyahu-statement.txt  (92 chars)
+    un-a71-pv14-netanyahu-statement.txt  (92 chars)
+np-stmt-unga-2017: 4 passages
+    un-a72-pv4-netanyahu-statement.txt  (209 chars)
+    un-a72-pv4-netanyahu-statement.txt  (27 chars)
+    un-a72-pv4-netanyahu-statement.txt  (92 chars)
+    un-a72-pv4-netanyahu-statement.txt  (92 chars)
+np-stmt-unga-2018: 4 passages
+    un-a73-pv10-netanyahu-statement.txt  (195 chars)
+    un-a73-pv10-netanyahu-statement.txt  (267 chars)
+    un-a73-pv10-netanyahu-statement.txt  (92 chars)
+    un-a73-pv10-netanyahu-statement.txt  (92 chars)
+np-stmt-unga-2023: 4 passages
+    un-a78-pv10-netanyahu-statement.txt  (311 chars)
+    un-a78-pv10-netanyahu-statement.txt  (167 chars)
+    un-a78-pv10-netanyahu-statement.txt  (92 chars)
+    un-a78-pv10-netanyahu-statement.txt  (92 chars)
+np-stmt-unga-2024: 4 passages
+    un-a79-pv13-netanyahu-statement.txt  (85 chars)
+    un-a79-pv13-netanyahu-statement.txt  (49 chars)
+    un-a79-pv13-netanyahu-statement.txt  (92 chars)
+    un-a79-pv13-netanyahu-statement.txt  (92 chars)
+np-stmt-unga-2020: 3 passages
+    un-a75-pv14-netanyahu-statement.txt  (238 chars)
+    un-a75-pv14-netanyahu-statement.txt  (81 chars)
+    un-a75-pv14-netanyahu-statement.txt  (104 chars)
+np-fin-residences-netanyahu: 3 passages
+    mevaker-2024-04-pm-residences-abstract.en.txt  (583 chars)
+    mevaker-2024-04-pm-residences-abstract.en.txt  (16 chars)
+    mevaker-2024-04-pm-residences-abstract.en.txt  (309 chars)
+np-fin-residences-bennett-lapid-total: 4 passages
+    mevaker-2024-04-pm-residences-abstract.en.txt  (303 chars)
+    mevaker-2024-04-pm-residences-abstract.en.txt  (276 chars)
+    mevaker-2024-04-pm-residences-abstract.en.txt  (86 chars)
+    mevaker-2024-04-pm-residences-abstract.en.txt  (156 chars)
+np-fin-caesarea-works-2018-2019: 3 passages
+    mevaker-2024-04-pm-residences-abstract.en.txt  (144 chars)
+    mevaker-2024-04-pm-residences-abstract.en.txt  (377 chars)
+    mevaker-2024-04-pm-residences-abstract.en.txt  (188 chars)
+np-fin-azza-street-contract: 3 passages
+    mevaker-2024-04-pm-residences-abstract.en.txt  (365 chars)
+    mevaker-2024-04-pm-residences-abstract.en.txt  (293 chars)
+    mevaker-2024-04-pm-residences-abstract.en.txt  (320 chars)
+np-fin-caesarea-security-measures-unlawful: 3 passages
+    mevaker-2024-04-pm-residences-abstract.en.txt  (525 chars)
+    mevaker-2024-04-pm-residences-abstract.en.txt  (135 chars)
+    mevaker-2024-04-pm-residences-abstract.en.txt  (89 chars)
+np-fin-balfour-and-caesarea-planning: 3 passages
+    mevaker-2024-04-pm-residences-abstract.en.txt  (128 chars)
+    mevaker-2024-04-pm-residences-abstract.en.txt  (67 chars)
+    mevaker-2024-04-pm-residences-abstract.en.txt  (182 chars)
+np-fin-comptroller-summary-statements: 4 passages
+    mevaker-2024-04-pm-residences-abstract.en.txt  (454 chars)
+    mevaker-2024-04-pm-residences-abstract.en.txt  (113 chars)
+    mevaker-2024-04-pm-residences-abstract.en.txt  (137 chars)
+    mevaker-2024-04-pm-residences-abstract.en.txt  (74 chars)
+np-gap-knesset-records: 0 passages
+np-gap-israeli-court-records: 0 passages
+np-gap-earlier-elections: 0 passages
+np-gap-icc-later-record: 0 passages
+np-gap-statements-coverage: 0 passages
+np-gap-financial-disclosures: 0 passages
+
+TOTAL: 223 passages in 67 claims.

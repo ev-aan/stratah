@@ -1,0 +1,5 @@
+# PROPOSED ONLY. build/taxonomy.yaml is an owner-only file and was not edited. If the owner agrees, add this line under `assignments:`.
+# The nearest existing question type is `what_does_it_mean` ("What does it say or mean?"); none of the eight types is a close fit for a descriptive page.
+# A new question type such as `what_does_the_record_show` ("What does the record show?") would be an owner edit to `question_types:`.
+assignments:
+  netanyahu-public-record: {area: politics, areas: [law_justice, economics_business], types: [what_does_it_mean], popular_claims: false}

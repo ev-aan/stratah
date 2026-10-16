@@ -1,0 +1,319 @@
+# pdftotext -raw extract of ICC court record ICC-01-18-375 (0902ebd180a0ebd9.pdf).
+
+No. ICC-01/18 1/9 21 November 2024
+while pointing to facts that suggested that the Government of Lybia may be unable to
+move to the case forward
+Original: English No.: ICC-01/18
+Date: 21 November 2024
+PRE-TRIAL CHAMBER I
+Before: Judge Nicolas Guillou, Presiding
+Judge Reine Adélaïde Sophie Alapini-Gansou
+Judge Beti Hohler
+SITUATION IN THE STATE OF PALESTINE
+Public
+Decision on Israel’s request for an order to the Prosecution to give an Article
+18(1) notice
+ICC-01/18-375 21-11-2024 1/9 PT
+No. ICC-01/18 2/9 21 November 2024
+Decision to be notified, in accordance with Regulation 31 of the Regulations of the Court, to:
+The Office of the Prosecutor
+Mr Karim A.A. Khan
+Mr Andrew Cayley
+Counsel for the Defence
+Legal Representatives of Victims Legal Representatives of Applicants
+Unrepresented Victims Unrepresented Applicants for
+Participation/Reparations
+The Office of Public Counsel
+for Victims
+The Office of Public Counsel
+for the Defence
+States Representatives
+State of Israel
+REGISTRY
+Amicus Curiae
+Registrar
+Mr Osvaldo Zavala Giler
+Counsel Support Section
+Victims and Witnesses Unit Detention Section
+Victims Participation and
+Reparations Section
+Other
+ICC-01/18-375 21-11-2024 2/9 PT
+No. ICC-01/18 3/9 21 November 2024
+PRE-TRIAL CHAMBER I (the ‘Chamber’) of the International Criminal Court (the ‘Court’)
+issues this decision on the ‘Abridged Request for an Order Requiring an Article 18(1) Notice,
+and Staying Proceedings Pending Such a Notice’ (the ‘Request’)1
+by the State of Israel
+(‘Israel’).
+Procedural history
+1. On 1 January 2015, the State of Palestine (‘Palestine’) accepted the jurisdiction of the
+Court from 13 June 2014 onwards by way of an article 12(3) declaration,2
+and the next
+day, on 2 January 2015, Palestine acceded to the Rome Statute (the ‘Statute’).3
+2. On 22 May 2018, Palestine referred the situation in the State of Palestine to the
+Prosecution pursuant to articles 13(a) and 14 of the Statute, following which the
+Presidency referred the Situation in the State of Palestine (the ‘Situation’) to the
+Chamber.4
+3. On 17 November 2023, the Prosecution received referrals, pursuant to articles 13(a) and
+14 of the Statute, from five State Parties.5
+On 14 January 2024, two more State Parties
+submitted such a referral to the Prosecution.6
+1
+23 September 2023, ICC-01/18-355-SECRET-Exp-AnxI-Corr, together with secret Annexes A to G, only
+available to the Prosecution and the State of Israel. Pursuant to an order by the Chamber on 4 October 2024, the
+request was reclassified as public: ICC-01/18-355-AnxI-Corr. In the present decision, the Chamber will refer to
+certain information contained in the annexes classified as secret or in other filings, such as the Prosecution’s
+response to the Request, that are at present classified as secret. The information referred to is either publicly
+known, or the Chamber considers it appropriate to make the relevant information or the existence of a filing public,
+as part of the present decision.
+2
+Annex I to Presidency, Decision assigning the situation in the State of Palestine to Pre-Trial Chamber I, 24 May
+2018, ICC-01/18-1-Anx1 (‘Annex to Presidency Decision’).
+3
+Secretary-General of the United Nations, ‘Rome Statute of the International Criminal Court, Rome, 17 July 1998,
+State of Palestine: Accession’, 6 January 2015, C.N.13.2015, Treaties XVIII.10.
+4
+Annex to Presidency Decision, p. 3. On 22 April 2024, the Presidency designated Judge Guillou to replace a
+judge of the Chamber: Presidency, Decision replacing a judge in Pre-Trial Chamber I, 22 April 2024, ICC-01/18-
+164-SECRET. On 20 May 2024, on instruction of the Presidency, this decision was reclassified as public. On 25
+October 2024, the Presidency designated Judge Hohler to replace a judge of the Chamber. Presidency, Decision
+replacing a judge in Pre-Trial Chamber I, 24 October 2024, ICC-01/18-366.
+5
+See Prosecutor’s consolidated response to observations by interveners pursuant to article 68(3) of the Rome
+Statute and rule 103 of the Rules of Procedure and Evidence, 23 August 2024, ICC-01/18-346 (‘Consolidated
+Response’), para. 4, referring to The Republic of South Africa, the People’s Republic of Bangladesh, the
+Plurinational State of Bolivia, the Union of the Comoros, and the Republic of Djibouti, State Party referral in
+accordance with Article 14 of the Rome Statute of the International Criminal Court, 17 November 2023, available
+at <https://www.icc-cpi.int/sites/default/files/2023-11/ICC-Referral-Palestine-Final-17-November-2023.pdf>.
+6
+See Consolidated Response, referring to The Republic of Chile and the United Mexican States, State Party
+referral in accordance with Article 14 of the Rome Statute of the International Criminal Court, 18 January 2024,
+available at <https://www.icc-cpi.int/sites/default/files/2024-01/2024-01-18-Referral_Chile_Mexico.pdf>.
+ICC-01/18-375 21-11-2024 3/9 PT
+No. ICC-01/18 4/9 21 November 2024
+4. On 23 August 2024, the Registry transmitted to the Chamber a request by Israel for an
+extension of the page limit from 20 to 35 pages for an intended filing ‘in relation to the
+Prosecutor’s non-compliance with article 18(1) of the Statute, and its consequences’.7
+On
+5 September 2024, the Prosecution opposed the request for extension of the page limit.8
+On 12 September 2024, the Registry transmitted to the Chamber a request by Israel for
+leave to reply to the Prosecution’s response to the request for an extension of the page
+limit.9
+5. On 20 September 2024, the Registry transmitted to the Chamber the Request, in which
+the State of Israel (‘Israel’) requests the Chamber to ‘require the Prosecutor to give an
+article 18(1) notice setting out the new defining parameters of his investigation in this
+Situation, or in any other Situation that has now been constituted as a result of the two
+referrals made by a total of seven States Parties following 7 October 2023’.10
+6. On 27 September 2024, the Chamber received the Prosecution’s response to the Request
+(the ‘Response’),11
+arguing that the Request should be dismissed in limine for lack of
+standing. Furthermore, the Prosecution submits that the cases described in its applications
+under article 58 of the Statute fall within the parameters of this Situation; that its
+notification under article 18(1) of the Statute was sufficiently specific and consistent with
+the Palestine’s referral; and that Israel misunderstands the Court’s jurisprudence.12
+7. On 7 October 2024, the Registry transmitted to the Chamber a request by Israel for leave
+to reply to the Response (the ‘Leave to Reply Request’).13
+7
+Registry Transmission of Request to extend the page limit for submissions concerning article 18(1), ICC-01/18-
+345-SECRET-Exp. Israel’s request, with filing number ICC-01/18-345-Anx was reclassified as public on 4
+October 2024.
+8
+Prosecution Response to Israel’s “Request to extend the page limit for submissions concerning article 18(1)”
+(ICC-01/18-345-SECRET-Exp-Anx, ICC-01/18-345-SECRET-Exp. On 10 October 2024, this filing was
+reclassified as public (ICC-01/18-345).
+9
+Registry Transmission of a ‘Request for leave to reply to the ‘Prosecution Response to Israel’s “Request to
+extend the page limit for submission concerning article 18(1)” (ICC-01/18-345-SECRET-Exp-Anx)’, ICC-01/18-
+352-SECRET-Exp.
+10
+Request, para. 61.
+11
+Prosecution’s Response to Israel’s “Abridged Request for an Order Requiring an Article 18(1) Notice, and
+Staying Proceedings Pending Such a Notice” – ICC-01/18-355-SECRET-Exp-AnxI-Corr, ICC-01/18-360-
+SECRET-Exp.
+12
+Response, paras 22-28.
+13
+ICC-01/18-362-SECRET-Anx.
+ICC-01/18-375 21-11-2024 4/9 PT
+No. ICC-01/18 5/9 21 November 2024
+Determination
+Preliminary matters
+8. The Chamber observes that Israel submitted the Request before the Chamber ruled on its
+request for an extension of the page limit and the related request for leave to reply to the
+Prosecution’s opposition to such an extension. These requests have become moot with
+the submission of the Request.
+9. As to the Leave to Reply Request, the Chamber considers that the Request and Response
+are clear and that no further submissions are required for the Chamber to consider the
+matter.
+Consideration of the merits of the Request
+10. Based on the submissions of Israel and the Prosecution, as well as the material before the
+Chamber, the Chamber understands that:
+• On 9 March 2021, the Prosecution notified all States Parties and other States with
+jurisdiction, including Israel, pursuant to article 18(1) of the Statute, that it had
+initiated an investigation in the Situation (the ‘Notification’).14
+• On 8 April 2021, Israel sent a letter to the Prosecution, indicating its ‘firm […]
+view that the Court manifestly lacks jurisdiction’ over the Situation; and
+submitting that ‘Israel’s robust legal system […] has and will continue to examine
+and investigate rigorously all allegations of misconduct or crimes […] and to hold
+to account those persons within its jurisdiction found to be responsible’ (the ‘8
+April 2021 Letter’).15
+• On 9 April 2021, with reference to the 8 April 2021 Letter, the Prosecution sent a
+letter to Israel, inter alia, requesting clarification whether it was ‘the Government
+of Israel’s intention […] to trigger the application of article 18(2) of the Statute,
+and if so, the specific domestic proceedings to which any request for deferral
+under article 18(2) might relate’ (the ‘Clarification Request’).16
+14
+ICC-01/18-355-SECRET-Exp-AnxB.
+15
+ICC-01/18-355-SECRET-Exp-AnxC.
+16
+ICC-01/18-355-SECRET-Exp-AnxD.
+ICC-01/18-375 21-11-2024 5/9 PT
+No. ICC-01/18 6/9 21 November 2024
+• On 26 April 2021, the Legal Advisor of the Embassy of Israel to The Netherlands
+sent an email to the Prosecution, conveying that Israel: (i) ‘maintains its principled
+position that the Court manifestly lacks jurisdiction’ over the Situation; (ii)
+‘maintains its grave reservations […] regarding the handling of this situation by
+the OTP’; and (iii) ‘will continue to examine and investigate rigorously all
+allegations of misconduct or crimes, regardless of their source, and to hold to
+account those responsible’ (the ‘26 April 2021 Letter’).17
+• On 1 May 2024, Israel sent a letter to the Prosecution requesting it to ‘defer any
+investigation it may be conducting in relation to any alleged criminal acts
+attributed to Israeli nationals or others within Israel’s jurisdiction, in favour of
+Israel’s processes for review, examination, investigation and proceedings under
+its national legal system’ (the ‘1 May 2024 Letter’).18
+• On 7 May 2024, the Prosecution responded to the 1 May 2024 Letter by stating
+that Israel has ‘no standing now, under the Statute, to make such an application’
+given that it had ‘expressly declined to make an application for deferral of the
+investigation within the prescribed time limit’.19
+11. In its Request, Israel inter alia submits that, in its 8 April 2021 Letter, it asserted that the
+Notification was not ‘sufficiently specific’ and that it reiterated this assertion in its 26
+April 2021 Letter. Israel does not indicate what the consequence of its contention would
+be, but to the extent it intends to argue that the Notification was deficient and as such
+cannot have served as a notification pursuant to article 18(1) of the Statute, this argument
+fails. Based on the material before it, the Chamber considers that the Prosecution
+complied with its statutory obligations when it provided Israel and other States with the
+Notification. As explained by the Appeals Chamber, a notification under article 18(1) of
+the Statute ‘shall contain information “relevant for the purposes of article 18 paragraph
+2” of the Statute’, namely: the general parameters of the situation and sufficient detail
+with respect to the groups or categories of individuals in relation to the relevant
+criminality, including the patterns and forms of criminality, that the Prosecution intends
+17
+ICC-01/18-355-SECRET-Exp-AnxE.
+18
+ICC-01/18-355-SECRET-Exp-AnxF.
+19
+ICC-01/18-355-SECRET-Exp-AnxG.
+ICC-01/18-375 21-11-2024 6/9 PT
+No. ICC-01/18 7/9 21 November 2024
+to investigate.20
+The Chamber specifically notes that the Notification included the types
+of alleged crimes, potential alleged perpetrators, the starting point of the relevant
+timeframe, as well as a reference to further relevant information, including the summary
+of the Prosecution’s preliminary examination findings. Therefore, the Notification was
+sufficiently specific.21
+12. Based on the material before it, the Chamber notes that, despite the Prosecution’s
+Clarification Request, Israel did not proceed to request a deferral under article 18(2) of
+the Statute in 2021. Instead, it merely repeated its previous arguments on the Court’s
+alleged lack of jurisdiction and stated that it continued investigating all relevant crimes.
+In this regard, the Chamber recalls that, ‘[f]or a State to be successful in seeking a deferral
+[…], it is [neither] enough for it to make a blanket statement that the Court lacks […]
+jurisdiction […]’;22
+nor to simply assert that it is investigating or prosecuting crimes
+which may constitute crimes under article 5 of the Statute and that relate to the
+notification under article 18(1) of the Statute.23
+Therefore, Israel’s 8 April 2021 Letter
+and 26 April 2021 Letter did not constitute a deferral request under article 18(2) of the
+Statute.
+13. The Chamber further notes that, pursuant to article 18(2) of the Statute, a State may
+inform the Court that ‘it is investigating or has investigated its nationals or others within
+its jurisdiction with respect to criminal acts which may constitute crimes referred to in
+article 5 and which relate to the information provided in the notification to States
+[provided by the Prosecution under article 18(1) of the Statute]’ within a period of one
+month of receipt of said notification. In light of this, the statutory time limit had passed
+in April 2021 without Israel having requested a deferral under article 18(2) of the Statute.
+14. In any case, filing of the Request at this point in time – namely after the Prosecution
+announced it had filed applications for warrants of arrest and three years after the passing
+of the statutory time limit – appears to go against the very object and purpose of the
+20
+Appeals Chamber, Situation in the Bolivarian Republic of Venezuela I, Judgment on the appeal of the Bolivarian
+Republic of Venezuela against Pre-Trial Chamber I’s “Decision authorising the resumption of the investigation
+pursuant to article 18(2) of the Statute”, 1 March 2024, ICC-02/18-89 (the ‘Venezuela OA Judgment’), para. 114;
+see also para. 110.
+21
+Venezuela OA Judgment, paras 116.
+22
+Venezuela OA Judgment, para. 12.
+23
+See Venezuela OA Judgment, paras 64-78. See also Appeals Chamber, Situation in the Republic of the
+Philippines, Judgment on the appeal of the Republic of the Philippines against Pre-Trial Chamber I’s
+“Authorisation pursuant to article 18(2) of the Statute to resume the investigation”, 18 July 2023, ICC-01/21-77,
+para. 76.
+ICC-01/18-375 21-11-2024 7/9 PT
+No. ICC-01/18 8/9 21 November 2024
+statutory complementarity framework. The purpose of Article 18(2) proceedings is to
+allow for complementarity-related admissibility challenges to be brought at the initial
+stage of the investigation and not at a point in time when the investigation has
+substantially advanced. Where a State is given the opportunity to assert its right to
+exercise jurisdiction, but it has declined, failed or neglected to do so, the investigation
+may proceed.
+15. The Chamber is also not persuaded by Israel’s submissions that ‘a new situation has
+arisen’,24
+or an ‘investigation with new “defining parameters” has been taking place since
+7 October 2023’. 25
+The Chamber notes that the Notification indicated that the
+investigation concerned alleged crimes in the context of an international armed conflict,
+Israel’s alleged conduct in the context of an occupation, and a non-international armed
+conflict between Hamas and Israel. In the applications for warrants of arrest, as also
+explained by the Prosecutor in his public statement at the time of filing the applications,
+the Prosecution alleges conduct committed in the context of the same type of armed
+conflicts, concerning the same territories, with the same alleged parties to these conflicts.
+Therefore, no substantial change has occurred to the parameters of the investigation into
+the situation.26
+The Chamber notes that Israel’s position would effectively mean that the
+Prosecution’s investigation in every situation would be limited to the incidents and crimes
+addressed during the preliminary examination and described in the article 18 notification.
+Such interpretation has already been rejected by the Appeals Chamber.27
+There was, and
+is, therefore, no obligation for the Prosecution to provide a new notification to the relevant
+States pursuant to article 18(1) of the Statute, and as such to provide a new one-month
+timeline for requests for deferral.
+16. The Chamber’s conclusions do not impact, in any way, on the ability of States, including
+Israel, to raise issues of admissibility for cases brought by the Prosecution in the context
+of the investigation. Indeed, article 19(2)(b) of the Statute allows ‘a State which has
+24
+Request, paras 2, 19-30.
+25
+Request, paras 31-58.
+26
+See also Appeals Chamber, Situation in the Islamic Republic of Afghanistan, Judgment on the Prosecutor’s
+appeal against the decision of Pre-Trial Chamber II entitled “Decision pursuant to article 18(2) of the Statute
+authorising the Prosecution to resume investigation”, ICC-02/17-138, 5 March 2020.
+27
+Ibid, para. 63-64. See also Venezuela OA Judgment, para. 230. The Appeals Chamber reiterated that the
+obligation to provide sufficiently specific information in an article 18 notification does not in any way limit the
+Prosecution’s future investigations.
+ICC-01/18-375 21-11-2024 8/9 PT
+No. ICC-01/18 9/9 21 November 2024
+jurisdiction over a case’ to challenge the admissibility of such a case, ‘on the ground that
+it is investigating or prosecuting or has investigated or prosecuted’ the respective case.
+THE CHAMBER HEREBY, FOR THE ABOVE REASONS,
+DECLARES Israel’s request for an extension of the page limit and its request for leave to
+reply to the Prosecution’s response to the page limit request moot;
+REJECTS Israel’s request for leave to reply; and
+REJECTS Israel’s request for an order to the Prosecution to give an Article 18(1) notice and
+staying proceedings pending such notice.
+Done in English. A French translation will follow. The English version remains authoritative.
+_____________________________
+Judge Nicolas Guillou
+Presiding
+_____________________________
+Judge Reine Adélaïde Sophie Alapini-
+Gansou
+_____________________________
+Judge Beti Hohler
+Dated this Thursday, 21 November 2024
+At The Hague, The Netherlands
+ICC-01/18-375 21-11-2024 9/9 PT
+

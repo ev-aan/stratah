@@ -1,0 +1,211 @@
+# pdftotext -raw extract of ICC court record ICC-01-18-425 (0902ebd180b70885.pdf).
+
+ICC-01/18 1/6 5 May 2025
+Original: English No.: ICC-01/18
+Date: 5 May 2025
+PRE-TRIAL CHAMBER I
+Before: Judge Nicolas Guillou, Presiding Judge
+Judge Reine Adélaïde Sophie Alapini-Gansou
+Judge Beti Hohler
+SITUATION IN THE STATE OF PALESTINE
+Public
+Prosecution’s observations regarding the procedure to be followed following the
+issuance of the warrants of arrest against Benjamin NETANYAHU and Yoav
+GALLANT and the Appeal Judgment ICC-01/18-422 OA2
+Source: Office of the Prosecutor
+ICC-01/18-425 05-05-2025 1/6 PT
+ICC-01/18 2/6 5 May 2025
+Document to be notified in accordance with regulation 31 of the Regulations of the Court
+to:
+☒ The Office of the Prosecutor ☐ Counsel for the Defence
+☐ Legal Representatives of the Victims ☐ Legal Representatives of the Applicants
+☐ Unrepresented Victims ☐ Unrepresented Applicants
+(Participation/Reparation)
+☐ The Office of Public Counsel for
+Victims
+☐ The Office of Public Counsel for the
+Defence
+☒ States Representatives
+REGISTRY
+☐ Amicus Curiae
+Registrar
+Mr Osvaldo Zavala Giler
+☐ Counsel Support Section
+☐ Victims and Witnesses Unit ☐ Detention Section
+☐ Victims Participation and Reparations
+Section
+☐ Other
+ICC-01/18-425 05-05-2025 2/6 PT
+ICC-01/18 3/6 5 May 2025
+I. INTRODUCTION
+1. In light of the warrants of arrest against Mr Benjamin NETANYAHU and Mr Yoav
+GALLANT issued on 21 November 2024 (“Warrants”) and the Appeal Judgment of 24 April
+2025,1
+the Prosecution herewith provides its observations regarding the procedure that the Pre-
+Trial Chamber should follow to address any jurisdictional challenge that may be brought at this
+stage of the proceedings.
+2. First, the Prosecution submits that the Pre-Trial Chamber should set a deadline for those
+with standing to bring a jurisdictional challenge in relation to the cases against NETANYAHU
+and GALLANT. Should there be any such challenge, the Prosecution, victims and relevant
+States shall be allowed to respond to and to provide observations within a set deadline, in
+accordance with rules 58 and 59 of the Rules.
+3. Second, the Prosecution submits that the Pre-Trial Chamber should not receive or invite
+any observations under rule 103 of the Rules. The issues arising from the exercise of the Court’s
+jurisdiction in this situation have been amply briefed by more than 100 interveners in two
+rounds of amici curiae observations in 2020 and 2024. Further observations on the same issues
+would not assist the Chamber in its determination; instead, they would only generate
+unnecessary costs and delays while the crimes alleged in the Warrants and the suffering of the
+victims continue.
+4. The Prosecution respectfully submits that the adoption of this procedure would ensure an
+expeditious resolution of any jurisdictional challenge while ensuring compliance with the
+Court’s legal framework and respect of the rights and interests of parties and participants.
+II. BACKGROUND
+5. On 21 November 2024, Pre-Trial Chamber I issued three warrants of arrest in the
+Situation in the State of Palestine, including against Israeli Prime Minister Benjamin
+NETANYAHU and former Minister of Defence Yoav GALLANT. On the same day, the
+Chamber dismissed “Israel’s challenge to the jurisdiction of the Court”,2
+filed on 20 September
+2024 under article 19(2)(c) of the Statute,3
+on the basis that States are not entitled to challenge
+jurisdiction under article 19 prior to the issuance of a warrant of arrest or summons to appear.4
+The Chamber further held that Israel could make such a challenge once that condition was
+1
+ICC-01/18-422 OA2 (“Judgment”).
+2
+ICC-01/18-374 (“Decision”).
+3
+ICC-01/18-354-AnxII-Corr (“Challenge”).
+4
+Decision, para. 17.
+ICC-01/18-425 05-05-2025 3/6 PT
+ICC-01/18 4/6 5 May 2025
+satisfied “as the State of nationality under article 19(2)(b) juncto article 12(2)(b) of the
+Statute”.5
+6. On 27 November 2024, Israel filed an Appeal before the Appeals Chamber under article
+82(1)(a) of the Statute against the Decision,6
+to which the Prosecution responded on 29
+November 2024 arguing that the Appeal was inadmissible and requesting its dismissal in
+limine.7
+On 13 December 2024, Israel filed its Appeal Brief against the Decision,8
+to which the
+Prosecution responded on 13 January 2025.9
+7. On 24 April 2025, the Appeals Chamber ruled that Israel’s Appeal is admissible under
+article 82(1)(a) of the Statute, holding that “by virtue of the finding that the jurisdictional
+challenge was premature, the Impugned Decision amounts to a decision that consists of or is
+based on a ruling on the jurisdiction of the Court”.10
+It also found that the Pre-Trial Chamber
+“insufficiently addresse[d] Israel’s central contention that article 19(2)(c) of the Statute permits
+it to challenge the jurisdiction of the Court”.11
+The Appeals Chamber found this to be an error
+of law12
+which materially affected the Decision.13
+8. Accordingly, the Appeals Chamber reversed the Decision and remanded the matter to the
+Pre-Trial Chamber.14
+The Appeals Chamber also noted that “it is for the Pre-Trial Chamber to
+determine the applicable legal basis under article 19(2) of the Statute for addressing Israel’s
+5
+Decision, paras. 16-18.
+6
+ICC-01/18-386 (“Appeal”). In its Appeal, Israel requests that the Appeals Chamber suspend the Pre-Trial
+Chamber’s arrest warrants against Benjamin Netanyahu and Yoav Gallant pursuant to article 82(3) pending the
+resolution of the Appeal: Appeal, paras. 29-37. Simultaneously, Israel also filed an application for leave to appeal
+before Pre-Trial Chamber I under article 82(1)(d) of the Statute against the same Decision (“Application for
+Leave”): ICC-01/18-388 (“Application for Leave”). On 2 December 2024 the Prosecution responded to Israel’s
+application for leave to appeal: ICC-01/18-393. On 12 December 2024, the Pre-Trial Chamber decided to defer
+its decision on the Application for Leave to Appeal until the Appeals Chamber rule on the admissibility of Israel’s
+Appeal under article 82(1)(a): ICC-01/18-398, para. 6.
+7
+ICC-01/18-392 OA2.
+8
+ICC-01/18-402 OA2 (“Appeal Brief”). Israel raised four grounds of appeal: (i) first, the Pre-Trial Chamber erred
+in law by applying the principle of res judicata in circumstances in which the identity of the parties to the article
+19(3) and article 19(2) proceedings was not the same; (ii) second, the Pre-Trial Chamber erred in law by applying
+the principle of res judicata in circumstances where the previous article 19(3) decision was preliminary in nature
+and was not a “final judgment”; (iii) third, the Pre-Trial Chamber erred in fact and law by applying the principle
+of res judicata to bar a challenge arising out of the Oslo Accords premised on a previous decision which expressly
+did not deal with, and indeed reserved, the legal effect of the Oslo Accords on the Court’s capacity to exercise
+jurisdiction; and (iv) fourth, the Pre-Trial Chamber erred in law by failing to provide reasons for rejecting Israel’s
+submissions as to why the 2021 article 19(3) decision does not operate as a bar to Israel’s standing to bring a
+jurisdictional challenge under article 19(2)(c).
+9
+ICC-01/18-406 OA2.
+10
+Judgment, para. 35; see also para. 1.
+11
+Judgment, para. 61; see also paras. 57, 59, 60.
+12
+Judgment, para. 61.
+13
+Judgment, para. 62.
+14
+Judgment, para. 64; see also para. 66. The Appeals Chamber rejected Israel’s request to suspend the two arrest
+warrants because it was not persuaded that the arrest warrants are based on, or “inextricably connected” to the
+Decision.
+ICC-01/18-425 05-05-2025 4/6 PT
+ICC-01/18 5/6 5 May 2025
+jurisdictional challenge at the present stage of the proceedings, and to provide any required
+further instructions on the procedure to be followed”.15
+III. SUBMISSIONS
+9. In view of the foregoing, the Prosecution proposes the below course of action, which
+ensures compliance with the Court’s legal framework, respect of the rights and interests of
+parties and participants, as well as an efficient resolution of any jurisdictional challenge that
+may be brought in relation to the cases against NETANYAHU and GALLANT.
+(i) Challenge under article 19(2) to be brought within a prescribed deadline
+10. The Prosecution respectfully submits that, at this stage of the proceedings, following the
+issuance of the Warrants and in light of the Appeal Judgment of 24 April 2025, the Chamber
+should set an appropriate deadline for those with standing to bring a jurisdictional challenge
+under article 19(2) of the Statute in the cases against NETANYAHU and GALLANT.
+11. At the present stage of the proceeding, that is, after the issuance of the Warrants, article
+19(2) of the Statute provides the only valid avenue and specific legal basis for bringing a
+jurisdictional challenge with respect to the cases at hand.
+12. The Prosecution recalls that on 20 September 2024, Israel already attempted to
+prematurely challenge the Court’s jurisdiction, under article 19(2)(c), prior to the issuance of
+the Warrants. In those circumstances, the Prosecution was only able to make submissions
+regarding Israel’s lack of standing under that provision and at that particular stage, arguing that
+the Challenge was premature and requesting its dismissal in limine. Even though it did not
+respond to the substance of Israel’s Challenge, the Prosecution offered to provide further
+submissions on the matter should the Pre-Trial Chamber so require.16
+The Pre-Trial Chamber
+dismissed Israel’s Challenge as premature and no further submissions were requested.
+13. Should there be any jurisdictional challenge brought within the timeframe prescribed, the
+Prosecution, victims and relevant States shall be allowed to submit their responses and
+observations in accordance with rules 58 and 59 of the Rules.17
+15
+Judgment, para. 64.
+16
+ICC-01/18-357, para. 27.
+17
+Prior to issuing the Decision, the Pre-Trial Chamber (correctly) did not resort to this provision to set out a
+procedure prior to the issuance of the Decision since Israel Challenge had not been properly made.
+ICC-01/18-425 05-05-2025 5/6 PT
+ICC-01/18 6/6 5 May 2025
+(ii) Observations under rule 103 would not assist the Pre-Trial Chamber
+14. The Prosecution further requests the Pre-Trial Chamber not to receive or invite any
+observations under rule 103 of the Rules. The various issues arising from the Court’s exercise
+of jurisdiction in this situation have been amply briefed by over 100 interveners in two rounds
+of amici curiae processes held in 2020 and 2024. Further submissions on the same matters
+would be repetitive and not capable of assisting the Chamber in its determination.18
+Rather,
+they would generate unnecessary cost and delays, while the crimes alleged in the Warrants
+continue to be committed and the number of casualties increase every day.
+IV. RELIEF REQUESTED
+15. In light of the foregoing, the Prosecution respectfully requests the Pre-Trial Chamber:
+• to set a deadline for those with standing to bring a jurisdictional challenge in relation to the
+specific cases against NETANYAHU and GALLANT. The Prosecution, victims and
+relevant States shall be allowed to respond and to provide observations on any challenges
+made, in accordance with rules 58 and 59 of the Rules; and
+• not to invite or receive any observations under rule 103 of the Rules.
+__________________________________
+Karim A.A. Khan KC, Prosecutor
+Dated this 5th
+day of May 2025
+At The Hague, The Netherlands
+18
+Chambers have required proposed observations under rule 103 to be desirable in assisting them in resolving
+questions requiring their determination: see e.g. ICC-02/04-01/15-1955 A A2, para. 12; ICC-02/18-78 OA, para.
+8; ICC-01/04-02/06-2569 A2, para. 9 and ICC-01/04-02/06-2554 A2, para. 11; ICC-02/04-01/15-1914 A A2,
+para. 15 and ICC-02/04-01/15-1884 A, para. 19; ICC-02/17-97 OA OA1 OA2 OA3 OA4, para. 31; ICC-01/11-
+01/11-675 OA8, para. 9; ICC-02/05-01/09-330, para. 1. Chambers have also required that proposed observations
+under rule 103 are not repetitive: ICC-01/05-01/08-602 OA2, para. 11; ICC-01/09-01/11-988 OA5, para. 12.
+ICC-01/18-425 05-05-2025 6/6 PT
+
