@@ -22,7 +22,7 @@ sources:
   s_tallet: {title: "Tallet and Laisney, Two Notes about the Protosinaitic Script, NeHeT 8 (2024)", url: "https://www.orient-mediterranee.com/wp-content/uploads/2026/04/NEHET-8-01-TALLET-LAISNEY.pdf", authenticity: "article read; the excavation team"}
   s_natgeo: {title: "National Geographic, Do these ancient Egyptian inscriptions mention Moses by name? (7 Aug 2025)", url: "https://www.nationalgeographic.com/history/article/ancient-egypt-inscription-bible-moses-serabit-el-khadim", authenticity: "page text read"}
 events:
-  - {id: t0, lane: dating, node: serabit-proposed-dates-alphabetic-inscriptions, rev: 2, note: "A spread of proposals, not a date. The recent sources read favour the late Middle Kingdom."}
+  - {id: t0, lane: dating, node: serabit-proposed-dates-alphabetic-inscriptions, rev: 3, note: "A spread of proposals, not a date. The recent sources read favour the late Middle Kingdom."}
   - {id: t1, lane: field, time: "1904-12-03T12:00:00Z", precision: day, kind: document, status: inferred, sources: [s_petrie, s_eef],
      label: "3 December (1904 per the Fund's report): Petrie's party leaves Suez for Sinai",
      detail: "Petrie's preface prints the day and month, not the year. The Fund's 1906 report says his work was 'in 1904-5'. Haring 2019 says the winter campaign was 1905-1906: the season is disputed (claim sk-claim-found-1905)."}

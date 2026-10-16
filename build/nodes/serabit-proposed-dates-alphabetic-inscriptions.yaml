@@ -1,9 +1,9 @@
 # Shared node. Append-only: a change is a new `rev` plus a `history` entry, never an overwrite. See build/SCHEMA.md, Nodes.
 id: serabit-proposed-dates-alphabetic-inscriptions
-rev: 2
+rev: 3
 type: event
 label: 'Serabit el-Khadim alphabetic inscriptions: proposed dates range from about 1850 BCE to about 1250 BCE (most 1831 to 1300 BCE); no single date is established'
-time: -1831-01-01T00:00:00Z
+time: -1850-01-01T00:00:00Z
 end: -1250-12-31T00:00:00Z
 precision: range
 date_basis: inferred
@@ -53,3 +53,6 @@ history:
 - rev: 2
   date: '2026-10-16'
   change: Window end moved from 1300 to 1250 BCE (Hamilton's one late text, as reported by Haring) so the label, window and claim sk-claim-date-range agree; added the 1916, 1917, 1966, 2024 and 2026 proposals read in session 2.
+- rev: 3
+  date: '2026-10-16'
+  change: The `time` field was -1831 while the text said it is the earliest proposal and the window starts at -1850 (Hamilton, as reported by Haring); time is now -1850, the earliest proposal, so text, time and window agree. The bar still spans proposals and is not a best date.

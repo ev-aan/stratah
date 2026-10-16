@@ -12,8 +12,8 @@ sources:
   - id: src-petrie-1906
     title: "W. M. F. Petrie (with C. T. Currelly), Researches in Sinai (London: John Murray; New York: Dutton, 1906), preface pp. v-x and pp. 128-132 (the foreign sculptures; 'The foreign writing')"
     url: https://archive.org/details/researchesinsina00petruoft
-    document_class: "interpretive: the excavator's report (testimony by the finder, not the object). Eyewitness text; not primary data."
-    read: "yes, directly: preface and pp. 128-132 read in two independent scans of the same edition (Toronto copy researchesinsina00petruoft, OCR sha256 5a04edbf6cd0dab23ba7727aa10a9dfcdb6a56bb068fde19bb1a73979a918f8f; Google copy researchesinsin00currgoog, OCR sha256 a0a3d7d0c9af7c384667feae40f923c5f543be4709ee3cb592ad1718b684ae0f). Figures 138-141 not viewed. Short extract stored: sources/extracts/petrie-1906-extract.txt"
+    document_class: "Two labels, kept apart: for what the objects are, it is interpretive (the finder's testimony, not the object); for what the book itself says, it is primary_text (the document was read directly), which is how claims sk-claim-petrie-1906-report and sk-claim-expedition-funding-stated use it. Not primary data about the inscriptions."
+    read: "yes, directly: preface and pp. 128-132 read in two independent scans of the same edition (Toronto copy researchesinsina00petruoft, OCR sha256 5a04edbf6cd0dab23ba7727aa10a9dfcdb6a56bb068fde19bb1a73979a918f8f; Google copy researchesinsin00currgoog, OCR sha256 a0a3d7d0c9af7c384667feae40f923c5f543be4709ee3cb592ad1718b684ae0f). Figures 138-141 not viewed. Short extract stored: sources/extracts/petrie-1906-extract.txt (extract sha256 c8645639f4d95f8564bae3aa32a5646f72e878a1d6b5ffde2b6d7e287fce90f6)"
     funding_and_control: >
       The preface says the cost of the main expedition was borne by the Egypt Exploration Fund and the expenses of three workers, and that two other workers' expenses were from private means; the Fund will publish the atlas of inscriptions; the book is a separate publication apart from the Fund. It says
       Currelly's expedition was undertaken for the Egyptian Research Account, and that the Fund had ceased to provide for Petrie's researches. Published by John Murray (London) and Dutton (New York).
@@ -33,8 +33,8 @@ sources:
   - id: src-gardiner-1916-jea
     title: "A. H. Gardiner, 'The Egyptian Origin of the Semitic Alphabet', Journal of Egyptian Archaeology 3 (1916), 1-16, with Plates I-V and the note by A. E. Cowley, 'The Origin of the Semitic Alphabet', pp. 17-21"
     url: https://archive.org/details/dli.ministry.15398
-    document_class: "interpretive: the first decipherment attempt, by the first reader of the corpus (a claim), with 1916 photographs and hand copies of the objects (images of the objects). Not primary data."
-    read: "yes, directly: pp. 11-21 read in the OCR text and pp. 13, 14, 15, 16 and 18 read as page images; Plates III (hand copy), IV and V (photographs of Sinai 346, 349, 351, 350, 352, 353, 354, 355) viewed. PDF sha256 7bd556cc1093b35b753ff530c288af768e45a32fcca58a109e7ca3d925a0184d; OCR text sha256 171e65046791d65514515c988e8ca5981baf9ec0124fa07cab26fb65699da5c3. Short extract stored: sources/extracts/gardiner-cowley-1916-extract.txt"
+    document_class: "Two labels, kept apart: for what the inscriptions say, it is interpretive (the first decipherment attempt, a claim, with 1916 photographs and hand copies, which are images of the objects); for what the article itself says, it is primary_text (read directly), as used in sk-claim-gardiner-1916-reading and sk-claim-count-ten-eleven. Not primary data about the inscriptions."
+    read: "yes, directly: pp. 11-21 read in the OCR text and pp. 13, 14, 15, 16 and 18 read as page images; Plates III (hand copy), IV and V (photographs of Sinai 346, 349, 351, 350, 352, 353, 354, 355) viewed. PDF sha256 7bd556cc1093b35b753ff530c288af768e45a32fcca58a109e7ca3d925a0184d; OCR text sha256 171e65046791d65514515c988e8ca5981baf9ec0124fa07cab26fb65699da5c3. Short extract stored: sources/extracts/gardiner-cowley-1916-extract.txt (extract sha256 4f2d4f20cac6dd923bd9594238f9c1e9d6d4d6fa2db506732f231dc97df41612) (quoted lines only after the trim of 2026-10-16)"
     funding_and_control: "Published in the Journal of Egyptian Archaeology of the Egypt Exploration Fund (journal title page not read for the owner). No funder named in pages 11-21. Gardiner's work on the inscriptions was the Fund's commission (Gardiner and Peet 1917 introduction)."
     funding_next_step: "Read the journal's masthead and the Fund's report for 1916 to see how the Journal was financed. Task only."
     authenticity:
@@ -53,8 +53,8 @@ sources:
   - id: src-gardiner-peet-1917
     title: "A. H. Gardiner and T. E. Peet, The Inscriptions of Sinai, Part I: Introduction and Plates (Egypt Exploration Fund Memoir 36, London, 1917): introduction, Table V 'The Foreign Inscriptions' (printed p. 16), Plates LXXXII-LXXXIV"
     url: https://archive.org/details/EXCMEM36
-    document_class: "interpretive: the editors' catalogue and introduction (testimony about copies, squeezes and photographs). Not primary data."
-    read: "yes, directly: introduction read in OCR; Table V viewed and read as a page image (PDF page 21); Plates LXXXII and LXXXIII viewed. OCR sha256 08b301f37b7e7371be97aa40579eaf4da5f1a63988003b61713f793b2a2cd425; PDF sha256 15062e05b538a0f0c041b723e69d21a1e6fd1a39a8dc33211b4d831d4339115e. Short extract stored: sources/extracts/gardiner-peet-1917-extract.txt"
+    document_class: "Two labels, kept apart: for the objects, it is interpretive (the editors' catalogue, testimony about copies, squeezes and photographs); for what the printed table and introduction say, it is primary_text (read directly), as used in sk-claim-gp-table-v-record and sk-claim-count-ten-eleven. Not primary data about the inscriptions."
+    read: "yes, directly: introduction read in OCR; Table V viewed and read as a page image (PDF page 21); Plates LXXXII and LXXXIII viewed. OCR sha256 08b301f37b7e7371be97aa40579eaf4da5f1a63988003b61713f793b2a2cd425; PDF sha256 15062e05b538a0f0c041b723e69d21a1e6fd1a39a8dc33211b4d831d4339115e. Short extract stored: sources/extracts/gardiner-peet-1917-extract.txt (extract sha256 d21c793bfd98e67b2a2b11fafe4819b1463988b3835f1f1632135c7e1b9b09b8) (quoted lines only after the trim of 2026-10-16)"
     funding_and_control: "Published by the Egypt Exploration Fund (title page); the introduction says the work was originally entrusted by the Fund to the authors and rests on the copies of the Fund expedition of winter 1904-5. No funder named."
     funding_next_step: "Find the Fund's accounts for 1914-17 and its Memoir series statement. Task only."
     authenticity:
@@ -104,7 +104,7 @@ sources:
     title: "Egypt Exploration Fund, Archaeological Report 1905-1906, ed. F. Ll. Griffith (London, 1906), p. 31 (Sinai) and the list of officers and committee"
     url: https://archive.org/details/archaeologicalre0506egyp
     document_class: "the Fund's own annual report (an institutional account; not primary data about the inscriptions)"
-    read: "yes, directly: p. 31 viewed as a page image (PDF page 47); officers and committee list read in the OCR. PDF sha256 34173bb85c28ae04a78e49825a1191a4b0dbd631fa2320d09444cc3abf73528f. Short extract stored: sources/extracts/eef-1906-report-extract.txt"
+    read: "yes, directly: p. 31 viewed as a page image (PDF page 47); officers and committee list read in the OCR. PDF sha256 34173bb85c28ae04a78e49825a1191a4b0dbd631fa2320d09444cc3abf73528f. Short extract stored: sources/extracts/eef-1906-report-extract.txt (extract sha256 7ba7b2ebfd3132d8c8baa33050f21d5f1c44ebf90ecaf0ea28fcca5239ee7eb7)"
     funding_and_control: "The page lists the Fund's President, Vice-Presidents, Honorary Treasurers, Honorary Secretary and Committee for 1905-1906. It does not give the Fund's accounts or subscribers in the pages read."
     funding_next_step: "Read the same report's financial statement and subscription list if present (not searched), and the 1904-5 report."
     authenticity:
@@ -226,7 +226,7 @@ sources:
         - "Its table of Albright's reading of 357 (ox-head start; 'Shaphan'; eight minas) agrees with Albright 1966 pp. 23-24 in the vertical and horizontal lines (could have failed); its 'Apiru' completion for the last word does not match Albright 1966, which has 'car[avaneers (?)]' (a discrepancy; the table may give Albright 1948; not resolved)"
         - "Its summary of Wilson-Wright 2016 (vow to Tessob) matches Wilson-Wright 2026 and the JAOS abstract (could have failed)"
       tested_by: "Stratah dig agent (not independent of the dig)"
-      gaps: ["Does not discuss Bar-Ron", "Is partly an advocate of one reading (Wilson-Wright's with one change)"]
+      gaps: ["Does not discuss Bar-Ron", "Favours one reading (Wilson-Wright's, with one sign changed)"]
       next_step: "Open Rainey 1975 and Beit-Arieh 1978 for the second reading."
       checked: 2026-10-16
 

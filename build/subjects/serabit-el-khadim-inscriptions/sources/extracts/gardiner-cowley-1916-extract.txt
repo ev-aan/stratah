@@ -1,39 +1,15 @@
-# Short extracts from the Journal of Egyptian Archaeology, vol. 3 (1916): A. H. Gardiner, "The Egyptian Origin of the Semitic Alphabet", pp. 1-16, and
-# A. E. Cowley, "The Origin of the Semitic Alphabet", pp. 17-21.
-# Source: Internet Archive item dli.ministry.15398 (Digital Library of India scan of the 1916 volume; PDF sha256 7bd556cc1093b35b753ff530c288af768e45a32fcca58a109e7ca3d925a0184d;
-# OCR text file 26512_djvu.txt sha256 171e65046791d65514515c988e8ca5981baf9ec0124fa07cab26fb65699da5c3).
-# Rights: published 1916, public domain in the United States by publication date; Gardiner died 1963, so UK copyright runs to the end of 2033: these are short extracts only.
-# Transcribed by the dig agent from the page images (journal pp. 13, 14, 15, 16, 18), which were viewed and read; the OCR of the same pages was used as a cross-check. Hebrew letters omitted.
-# Elisions are marked [...]. Nothing contrary to the claims was left out of the passages quoted.
+# Quoted lines only, from the Journal of Egyptian Archaeology, vol. 3 (1916): A. H. Gardiner, "The Egyptian Origin of the Semitic Alphabet", pp. 1-16, and A. E. Cowley, "The Origin of the Semitic Alphabet", pp. 17-21.
+# Source: Internet Archive item dli.ministry.15398 (Digital Library of India scan; PDF sha256 7bd556cc1093b35b753ff530c288af768e45a32fcca58a109e7ca3d925a0184d; OCR text sha256 171e65046791d65514515c988e8ca5981baf9ec0124fa07cab26fb65699da5c3).
+# Rights: published 1916, public domain in the United States; Gardiner died 1963, so UK copyright runs to the end of 2033. Trimmed on 2026-10-16 to the lines the claims quote (see log L-14). Elisions are marked [...].
+# Pp. 13, 14, 15, 16 and 18 were transcribed from the page images; the p. 12 line is from the OCR. Hebrew letters omitted. Passages that cut against a simple reading are kept.
 
------ Gardiner, p. 12 (from the OCR, not re-checked against the page image) -----
-The number of these records was largely increased by the Egypt Exploration Fund expedition of 1905 under Professor Petrie [...] Among the new monuments discovered was a series of ten, bearing inscriptions in an unknown script [...]
-
------ Gardiner, p. 13 -----
-A short inscription previously published from a squeeze by M. Weill brings the total up to eleven.
-[...] seven much battered stelae (nos. 349-355), which were carved in the rock near a mine a mile and a half to the west of the temple
-[...] In the temple were found two crudely executed squatting figures (nos. 346, 347) [...] There is also a sphinx of small size (no. 345) with an illegible Horus-name between the paws and the Egyptian words "beloved of Hathor, [lady of] the turquoise" on the shoulder; to each side of the body on the upper surface of the base are some of the unknown characters. M. Weill's inscription (no. 348) is but a fragment.
-Practically all these monuments show strong signs of Egyptian influence [...] On this point I quote Professor Petrie: [Petrie's reasons, see his book] [...] we are bound to accept this writing as being of about 1500 B.C.
-This conclusion may be correct, but I am by no means convinced that the end of the Twelfth Dynasty would not be a more probable date.
-(footnote 1 of p. 13) The squeeze is definitely marked as referring to an inscription at Maghârah.
-
------ Gardiner, p. 14 -----
-Before proceeding further one important point must be emphasized: it is to the last degree improbable that the monuments bearing the new script are the work of the indigenous Semitic nomads who have eked out a bare existence in the Sinaitic peninsula since time immemorial. There can be little or no doubt that the monuments are due to strangers from other parts who accompanied the Egyptians on their expeditions, though these strangers may not have come farther than from Palestine or from the Hinterland of Syria.
-[...] The inscriptions are too fragmentary for any very serious attempts at consecutive reading.
-
------ Gardiner, p. 15 -----
-Now all the signs in this word have been identified with letters in the proto-Semitic alphabet, and in consequence this, when written like a Hebrew word, would read Ba'alat [...]
-What more probable than that the word recurring in five or six different inscriptions should be the name of the local goddess [...]
-Unfortunately, however, I have no suggestions for the reading of any other word, so that the decipherment of the name Ba'alat must remain, so far as I am concerned, an unverifiable hypothesis.
-
------ Gardiner, p. 16 -----
-In the eleven inscriptions some hundred and fifty signs are legible in all.
-[...] Thus we have to face the fact that, at all events not later than 1500 B.C., there existed in Sinai, i.e. on Semitic soil, a form of writing almost certainly alphabetic in character and clearly modelled on the Egyptian hieroglyphs.
-(Note on p. 16: the published opinions on it "have been based solely on the three photographs printed in Researches in Sinai".)
-
------ Cowley, p. 17 -----
-We are quite aware that some of our suggestions are very uncertain, and that further material is needed for their proof.
-
------ Cowley, p. 18 -----
-In 345 (right) [...] The first word may be the Egyptian maw (Sayce) a lion or sphinx (on which the inscription is cut). [...] the whole means "the sphinx of the goddess."
-No. 347 [...] Prof. Sayce objects that the goddess Tanith appears only in late Punic inscriptions. [...] perhaps they are to be vocalised otherwise, and represent a personal name, not that of the goddess.
+p. 12 (OCR): [...] the Egypt Exploration Fund expedition of 1905 under Professor Petrie [...] a series of ten, bearing inscriptions in an unknown script [...]
+p. 13: A short inscription previously published from a squeeze by M. Weill brings the total up to eleven. [...] seven much battered stelae (nos. 349-355), which were carved in the rock near a mine a mile and a half to the west of the temple [...] a sphinx of small size (no. 345) [...] the Egyptian words "beloved of Hathor, [lady of] the turquoise" on the shoulder [...] we are bound to accept this writing as being of about 1500 B.C.
+p. 13: This conclusion may be correct, but I am by no means convinced that the end of the Twelfth Dynasty would not be a more probable date.
+p. 13, note 1: The squeeze is definitely marked as referring to an inscription at Maghârah.
+p. 14: [...] it is to the last degree improbable that the monuments bearing the new script are the work of the indigenous Semitic nomads [...] the monuments are due to strangers from other parts who accompanied the Egyptians on their expeditions [...]
+p. 14: The inscriptions are too fragmentary for any very serious attempts at consecutive reading.
+p. 15: [...] the decipherment of the name Ba'alat must remain, so far as I am concerned, an unverifiable hypothesis.
+p. 16: [...] at all events not later than 1500 B.C., there existed in Sinai [...] a form of writing almost certainly alphabetic in character [...]
+Cowley, p. 17: We are quite aware that some of our suggestions are very uncertain [...]
+Cowley, p. 18: [...] the whole means "the sphinx of the goddess." [...] Prof. Sayce objects that the goddess Tanith appears only in late Punic inscriptions [...]
