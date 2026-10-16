@@ -1,7 +1,7 @@
 timeline:
   id: israel-palestine-money
   title: "Israel-Palestine money trail: designations, funding, sanctions and UN votes (1993 to 2026, pilot)"
-  as_of: "2026-10-07"
+  as_of: "2026-10-16"
   note: >
     Times are UTC; every event here is known to the day or month only, so dots are drawn at noon on
     the day. "Single" means one source was read for the event; "reported" means two or more agree.
@@ -9,6 +9,8 @@ timeline:
     about cause (rule P5). Panel C enlarges October 2023 to October 2026. Lanes list every channel
     read under one written rule for the channel (see the claims named in the dig file); the FEC
     lane lists committees by receipts band and in alphabetical order, not by side.
+    The Israel entries in the FARA lane carry onward-payment and budget detail that the entries for the other countries do not (exhibits and
+    onward payments were read for Israel-labelled registrants; for the other labels only principal-level Item 14(a) lines were read).
 panels:
   - id: years
     title: "Panel A: 1993 to 2016 (one tick per three years)"

@@ -297,3 +297,17 @@ log:
       stated; the company data files call the first list owner-supplied; the comparison file carries a note and its limit; the Part B rule
       text on UK recipient labels is corrected. Left as owner decisions and not changed: the taxonomy line, personal data in the trips
       file and the FARA staff file and claims, the licensing mix, publication.
+  - id: L-25
+    date: 2026-10-16
+    entry: >
+      Small fixes after the re-review of c296f31. L-24 is not edited; this entry corrects it. (1) The FEC summary claim no longer contains
+      the sentence about a reviewer's count of 84 keyword matches; it states the rule and the result of 86 of 87 matching a keyword,
+      with Vote Uncommitted MN the only non-match and DMFI PAC matching through its connected organisation. (2) ipm-campaign-lobbying-money
+      was anchor_checked primary on a dataset anchor; it is now secondary, described as a dataset with totals recomputed by script.
+      (3) The timeline note now says the Israel entries in the FARA lane carry onward-payment and budget detail that the other
+      countries' entries do not; the timeline as_of date is 2026-10-16. (4) Residual wording replaced: "Committees on other sides"
+      (campaign-lobbying claim), the "labelled pro-Israel" and "Palestinian-advocacy or critical" labels (votes-beside-money claim, now
+      quoting the committee_group values and saying they were assigned by the authors from committee names) and "on both sides" in an
+      adoption note. (5) Correction to the warning count in L-24 and its report: the subject has 17 conformance warnings of the kind
+      "established but anchor_checked is secondary" at c296f31, not 15; the two not listed were ipm-votes-beside-money and one
+      company-document claim. With item (2) of this entry the count is 18.

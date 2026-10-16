@@ -361,7 +361,7 @@ claims:
     evidential_weight: 4
     anchor_checked: primary
     adoption_weight: 4
-    adoption_note: "Very widely reported, often in stronger forms on both sides (all of UNRWA implicated; or no evidence at all). Adoption is information, not evidence."
+    adoption_note: "Very widely reported, often in stronger forms (all of UNRWA implicated; or no evidence at all). Adoption is information, not evidence."
     would_change_if: "the OIOS report or Israel's dossier is published; or a court or later inquiry reaches a different count"
     decisions:
       - {date: 2024-01-28, decider: "UN Secretary-General", what: "12 staff implicated by Israel: 9 identified and dismissed, 1 dead, 2 being clarified", evidence_published: "no (Israel's dossier not public)", sources: [src-un-sg-unrwa-2024-01-28]}
@@ -1372,19 +1372,19 @@ claims:
       against Jamaal Bowman (NY-16) and $5.24 million against Cori Bush (MO-1), and in 2026 $20.1 million
       against Abdul El-Sayed (Michigan Senate). AIPAC PAC took in $57.9 million in 2024, $43.4 million of it
       earmarked by donors for candidates. Lobbying disclosures show AIPAC spending about $2.7 to $3.8 million a
-      year on federal lobbying from 2015 to 2025. Committees on other sides are in the data file (J Street,
-      Justice Democrats, Emgage, Arab American and CAIR-linked PACs). Spending beside a vote shows timing only,
+      year on federal lobbying from 2015 to 2025. Other committees selected by the same rule, under different name keywords, are in
+      ipm-fec-committee-summaries-2022-2026 (for example J Street, Justice Democrats, Emgage, Arab American and CAIR-linked PACs). Spending beside a vote shows timing only,
       not cause.
     evidence_class: primary_text
     confidence: high
     evidential_weight: 4
-    anchor_checked: primary
+    anchor_checked: secondary
     adoption_weight: 3
     adoption_note: "Adoption is information, not evidence."
     would_change_if: "amended FEC reports change totals"
     anchor:
       type: dataset
-      description: "FEC bulk files downloaded and parsed (the FEC API was rate-limited); lda.gov lobbying API queried. All rows in data/campaign-lobbying-gulf-turkey-iran.csv. Independent-expenditure figures use 24/48-hour reports, which can differ slightly from final reports."
+      description: "Dataset, totals recomputed by script. FEC bulk files downloaded and parsed (the FEC API was rate-limited); lda.gov lobbying API queried. All rows in data/campaign-lobbying-gulf-turkey-iran.csv. Independent-expenditure figures use 24/48-hour reports, which can differ slightly from final reports."
       sources: [src-fec-bulk, src-lda-lobbying]
       accessible: true
 
@@ -1474,9 +1474,7 @@ claims:
     statement_kind: reported
     statement: >
       Beside the 34 roll calls in ipm-votes-official-rollcall-tallies, FEC money to the members in the member file, 2020-2026, by
-      committee group labels set by us and stated in the data files: 486 of 647 members received money from committees in the group
-      labelled pro-Israel, 423 of them through AIPAC PAC earmarked transfers; 186 received J Street PAC money; 18 received money from
-      committees in the group labelled Palestinian-advocacy or critical; 78 received money from none of the listed committees. The
+      values of the committee_group column of data/votes-money/member_money.csv, assigned by the authors of this dig from committee names and not from the committees' own statements: 486 of 647 members received money from committees with the value "pro-Israel", 423 of them through AIPAC PAC earmarked transfers; 186 received J Street PAC money; 18 received money from committees with the value "critical/pro-Palestinian"; 78 received money from none of the listed committees. The
       member file holds rows for 421 to 435 House members per roll call and for 0 and 5 senators in the 2 Senate roll calls, so the
       money tabulation is effectively House-only. Per-roll-call counts are in the other claim. This shows timing and co-occurrence only;
       it does not show that money caused any vote.
@@ -2174,8 +2172,7 @@ claims:
       earlier data file of this dig. The selection file records 71 committees as selected by name keyword, 1 by
       connected-organisation keyword and 15 because the id appeared in an earlier file. A re-count on 16 October 2026 by
       regular expression over the stored names finds that 86 of the 87 match a keyword; the committee that matches none is
-      Vote Uncommitted MN, which is in the list only because of earlier use in this dig. A reviewer counted 84 keyword
-      matches; the difference of two was not resolved. The list includes committees chosen only by a word in the name; no
+      Vote Uncommitted MN, which is in the list only because of earlier use in this dig. DMFI PAC matches through its connected organisation as filed in the 2026 committee master file. The list includes committees chosen only by a word in the name; no
       committee's purpose was read. Totals of the summary rows, US$ million (2022 / 2024 / 2026), computed by script: receipts
       91.6 / 201.9 / 204.0; disbursements 87.9 / 174.2 / 171.6; independent expenditures 40.7 / 61.0 / 64.6; contributions to
       other committees 32.9 / 82.1 / 77.5. Coverage ends 31 Dec 2022, 31 Dec 2024 and 31 Aug to 30 Sep 2026. Per-committee
