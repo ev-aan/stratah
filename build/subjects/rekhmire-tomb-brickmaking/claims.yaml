@@ -172,7 +172,7 @@ claims:
     statement_kind: reported
     evidence_class: material
     confidence: moderate
-    evidential_weight: 4
+    evidential_weight: 3
     anchor_checked: primary
     adoption_weight: 1
     adoption_note: "Not measured (placeholder 1). Kitchen writes that popular reproductions are legion; that is his remark, not a count."
@@ -187,7 +187,7 @@ claims:
       sources: [src-urk-iv, src-newberry-1900, src-met-facsimile-30-4-77, src-breasted-are2]
     basis: >
       # V: Sethe's pages 1151-1155 and Newberry's plate pages viewed 2026-10-16; Newberry text, Breasted and Kitchen read as text 2026-10-14. Several independent-in-time copyists (Newberry, Sethe's cited Virey and Lepsius copies, Davies's facsimile) show the same scene,
-      but they are copies of one wall; the wall was not seen. `established` here means only that the scene is a brickmaking and building scene, not anything about the workers' peoples or status (taken up in the next claims).
+      but they are copies of one wall; the wall was not seen. Weight lowered from 4 to 3 in the fix round (log L-14): the copyists are copies of one wall, not independent evidence of it, and the wall was not seen. `established` here means only that the scene is a brickmaking and building scene, not anything about the workers' peoples or status (taken up in the next claims).
 
   - id: rekhmire-sp02b-nubian-workers
     state: proposed
@@ -334,12 +334,12 @@ claims:
     adoption_weight: 1
     adoption_note: "Not measured (placeholder 1)."
     would_change_if: "a heading or note on pages not viewed (IV 1103-1145, 1156 onward) or the label signs name a people or use a word for 'slave'"
-    next_step: "View Urk. IV pp. 1103-1145 for notes that discuss the workers, and have a reader of hieroglyphs transcribe the labels on pp. 1152-1153."
+    next_step: "View Urk. IV pp. 1103-1145 and 1156 onward for notes that discuss the workers; check Sethe's 'Leibeigene' (seen only in the OCR of the contents list) against the printed contents page image; and have a reader of hieroglyphs transcribe the labels on pp. 1152-1153."
     absence_anchor: true
     anchor:
       type: search-record
       description: >
-        Searched: the German headings and printed notes on Sethe's pages 1102, 1146-1155 (viewed as images and typed out: sources/extracts/sethe-urk4-german-headings-transcription.txt). Not searched: pp. 1103-1145 and 1156 onward; the hieroglyphic lines (not transliterated).
+        Searched: the German headings and printed notes on Sethe's pages 1102, 1146, 1147, 1148, 1149, 1150, 1151, 1152, 1153, 1154 and 1155 (viewed as images and typed out: sources/extracts/sethe-urk4-german-headings-transcription.txt). The 'no Sklave, no people's name' result covers only these pages. 'Leibeigene' comes from the OCR of the printed contents list and was not checked against a page image. Not searched: pp. 1103-1145 and 1156 onward; the hieroglyphic lines (not transliterated).
         These are the editor's headings, not the labels, so an absence here is not an absence in the labels.
       sources: [src-urk-iv]
     basis: "Not found in the headings viewed; absence-anchored and held at low. It says nothing about what the signs of the labels read."
@@ -383,7 +383,7 @@ claims:
         and p. 38 (extract B): 'laying bricks brought from the fields by slaves (?) in very great numbers'. 'Primary' here means the book itself was opened and the wording matched against the stored extract; it is a statement about what Newberry wrote, not about the wall. His p. 19 passage names no source for the word.
       sources: [src-newberry-1900]
     basis: >
-      # V: both passages located by OCR page markers 2026-10-16 (p. 19 begins at the marker 19; the p. 38 passage follows the marker 38). Added in round 2: round 1 had reported only the p. 38 'slaves (?)' (log L-08). The p. 19 passage is about the prisoners given to the temple (whom Newberry places in the State prison), and Newberry says the commoner prisoners were
+      # V: OCR read; page images of the text pages not viewed (only the plate pages were). Both passages located by OCR page markers 2026-10-16 (p. 19 begins at the marker 19; the p. 38 passage follows the marker 38). Added in round 2: round 1 had reported only the p. 38 'slaves (?)' (log L-08). The p. 19 passage is about the prisoners given to the temple (whom Newberry places in the State prison), and Newberry says the commoner prisoners were
       'forced to labour in the fields'; it does not mention bricks. It is his gloss on the tomb's prison scene, not on the brickmakers' label.
 
   - id: rekhmire-breasted-conquered-rendering
@@ -393,7 +393,7 @@ claims:
     evidence_class: interpretive
     confidence: low
     evidential_weight: 2
-    anchor_checked: primary
+    anchor_checked: 'no'
     adoption_weight: 1
     adoption_note: "Not measured (placeholder 1)."
     would_change_if: "the signs of the long label (Urk. IV 1152,9-1153,3 or Newberry plate XX) are transliterated and the two renderings are matched to words"
@@ -401,10 +401,10 @@ claims:
       type: interpretive
       description: >
         Newberry 1900 p. 38 (extract B) and Breasted 1906 section 758 (verbatim extract stored: sources/extracts/breasted-are2-sections-756-759-extract.txt). Breasted's OCR reads: 'causing vigilance among the "conquered"' with the footnotes 'The captives of war shown in the same scene ?', 'The beginning of the inscription is very difficult and a little doubtful' and 'Some of these are clearly Semitic foreigners';
-        the footnote letters in the OCR do not line up with the text, so the extract does not show which word each note belongs to. 'Primary' here means the books were opened and the wording matched; it is a statement about the two printings.
+        the footnote letters in the OCR do not line up with the text, so the extract does not show which word each note belongs to. Read in OCR only; the check level is `no` because the page images were not viewed and the footnote letters are unreliable in the OCR. It is a statement about the two printings.
       sources: [src-newberry-1900, src-breasted-are2, src-urk-iv]
     basis: >
-      # V: both passages read 2026-10-16. Finding 4 of the review of PR #33 asked for this datum: Breasted's rendering ('conquered', glossed by him as perhaps the captives of war shown in the scene) was not in round 1's slaves claim. Newberry's 'slaves (?)' and Breasted's 'conquered' stand in a similar place in the long label but the dig cannot say they translate the same word;
+      # V: OCR read; page images not viewed, and the OCR footnote letters do not line up with Breasted's text, so the check level is `no` (relabelled from primary in the fix round, log L-14). Both passages read 2026-10-16. Finding 4 of the review of PR #33 asked for this datum: Breasted's rendering ('conquered', glossed by him as perhaps the captives of war shown in the scene) was not in round 1's slaves claim. Newberry's 'slaves (?)' and Breasted's 'conquered' stand in a similar place in the long label but the dig cannot say they translate the same word;
       Sethe's page 1152-1153 carries the signs and was not transliterated. Newberry's 'overseers show themselves and keep a careful watch' and Breasted's 'causing vigilance' also differ.
 
   # ------------------------- DAVIES 1930 (context for naming peoples and for the word slave) -------------------------
@@ -634,8 +634,9 @@ claims:
       type: synthetic
       description: >
         Our comparison, resting on an assumption. The scene is a painting on plaster, not a relief (Newberry 1900 p. 37 'a painting'; p. 38 'painted plaster'; Met 'Tempera on Paper' for its copy). 'Ramses' is not specified by the speaker; we take Ramesses II (or any 19th Dynasty Ramesses).
-        Dates: Kitchen 1976 puts Papyrus Anastasi III in the time of Merenptah, 'c. 1220 BC' (p. 140), and Rekhmire 'c. 1450 BC'; Aston 2013 reports schemes in which Thutmose III's reign ends 1425 BC (Krauss 2007) or 1415 BC (Krauss and Warburton 2009) and the reign of Ramesses II begins in 1290 BC (Schneider 2010) or 1315 BC (Huber), p. 291 and p. 297.
-        On those figures the scene's period precedes the reign of Ramesses II by more than a century. That is our arithmetic on reported dates and on the assumption that the scene was painted within Rekhmire's career; round 1 wrote 'some centuries', which these figures do not support (log L-09).
+        Dates: Kitchen 1976 puts Papyrus Anastasi III in the time of Merenptah, 'c. 1220 BC' (p. 140), and Rekhmire 'c. 1450 BC'; Aston 2013 (pp. 292 and 297) tabulates schemes, and the comparison is made inside each scheme, not across them: Krauss 2007, Thutmose III ends 1425 BC and Ramesses I reigns 1292-1291 BC (Ramesses II follows); Krauss and Warburton 2009, Thutmose III ends 1415 BC and Sety I ends 1279 BC (Ramesses II follows);
+        Schneider 2010, Thutmose III ends 1422 BC and Ramesses II begins 1290 BC; Aston's second scenario that keeps 1479 BC, Thutmose III ends 1425 BC and Ramesses II begins 1294 BC. In each of these four the end of Thutmose III's reign comes more than a century before Ramesses II's accession (about 130 years). Huber's figures (Thutmose III from 1504 BC, Ramesses II from 1315 BC) give no end year for Thutmose III in the pages read, so no comparison is made for them.
+        That is our arithmetic on reported dates and on the assumption that the scene was painted within Rekhmire's career; round 1 wrote 'some centuries', which these figures do not support (log L-09). A first version of this round-2 text paired end dates and start dates from different schemes; log L-14 corrects that.
       sources: [src-newberry-1900, src-kitchen-1976, src-met-facsimile-30-4-77, src-aston-2013]
     basis: >
       # V: read 2026-10-14 and 2026-10-16. The speaker's word 'bas-relief' is kept; the sources read describe a painting. The comparison is a calculation by this dig on reported dates and is `synthetic`; it is not a finding about any reading of the tomb.

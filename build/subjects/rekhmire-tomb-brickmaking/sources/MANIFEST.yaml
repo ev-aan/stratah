@@ -77,7 +77,7 @@ sources:
       tested_by: "Stratah dig sessions, 2026-10-14 and 2026-10-16 (not an independent review)"
       gaps:
         - "Kitchen's identification of the workers as 'Syrians, Nubians, Egyptians' is stated without a source other than the note 17 citations (Davies 1943 pp. 54-56, pls. 58-60; Davies 1935 pls. 16-17), which were not opened."
-        - "Publisher and affiliation, as read on 2026-10-16: the publisher's page describes Tyndale Bulletin as 'the journal of Tyndale House, Cambridge, a UK-based research institute and residential library dedicated to biblical scholarship'; Tyndale House's own page (2026) gives its charitable purpose as 'to advance the evangelical Christian religion through promoting evangelical biblical scholarship and research'. Those are present-day statements. Who published and funded the journal in 1976, and what funded Tyndale House then, were not read. The article's own bibliography notes cite Tyndale Press and IVF titles. Research task: find the 1976 masthead or an account of the Bulletin's publisher then."
+        - "Publisher and affiliation, as read on 2026-10-16: the publisher's page describes Tyndale Bulletin as 'the journal of Tyndale House, Cambridge, a UK-based research institute and residential library dedicated to biblical scholarship'; Tyndale House's own page (2026) gives its charitable purpose as 'to advance the evangelical Christian religion through promoting evangelical biblical scholarship and research'. Those are present-day statements. Who published and funded the journal in 1976, and what funded Tyndale House then, were not read. For description only, the article's notes list works published by Tyndale Press and IVF among its references (for example note 17); no effect on any claim is asserted. Research task: find the 1976 masthead or an account of the Bulletin's publisher then."
         - "Kitchen's own affiliation in 1976 is not printed in the pages read."
       next_step: "Open Davies 1943 pp. 54-56 and plates 58-60 and see what basis, if any, is given for the identification of the peoples."
       checked: 2026-10-16
@@ -140,10 +140,10 @@ sources:
       checked: 2026-10-16
 
   - id: src-aston-2013
-    title: "D. A. Aston, 'Radiocarbon, Wine Jars and New Kingdom Chronology', pp. 289-315 (page headers read), (c) 2013 Oesterreichische Akademie der Wissenschaften, Wien; PDF from austriaca.at"
+    title: "D. A. Aston, 'Radiocarbon, Wine Jars and New Kingdom Chronology', Ägypten und Levante/Egypt and the Levant 22 (2012), pp. 289-315, (c) 2013 Oesterreichische Akademie der Wissenschaften, Wien; PDF from austriaca.at"
     url: "https://austriaca.at/0xc1aa5572%200x00308d5a.pdf"
     document_class: "interpretive: a scholar's paper that tabulates several authors' chronologies of the 18th Dynasty and argues for his own. It reports other authors' schemes (Krauss 2007, Krauss and Warburton 2009, Schneider 2010, Bronk Ramsey and others 2010, Quiles and others 2013, Huber 2011); the originals were not opened."
-    read: "yes, directly (PDF text, 28 pages, 237 KB, sha256 9a7825d28ab96f305a8cecc4adc11092fc6a28170172c8cf1947a6eed251635e; pp. 290-292 and 296-297 read closely for the tables below, the rest searched for dates). The journal title, volume and year of the printed issue are not in the pages read, only the page headers and the (c) 2013 line."
+    read: "yes, directly (PDF text, 28 pages, 237 KB, sha256 9a7825d28ab96f305a8cecc4adc11092fc6a28170172c8cf1947a6eed251635e; pp. 290-292 and 296-297 read closely for the tables below, the rest searched for dates). Corrected 2026-10-16 in the fix round (log L-14): the PDF's first page prints the citation 'Ägypten und Levante/Egypt and the Levant 22, 2012, 289-315' and the running headers and a (c) 2013 line; the earlier wording that the journal, volume and year were not printed was wrong."
     authenticity:
       status: authenticated
       strength: moderate
