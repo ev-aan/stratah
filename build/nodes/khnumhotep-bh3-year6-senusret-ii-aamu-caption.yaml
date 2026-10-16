@@ -1,6 +1,6 @@
 # Shared node. Append-only: a change is a new `rev` plus a `history` entry, never an overwrite. See build/SCHEMA.md, Nodes.
 id: khnumhotep-bh3-year6-senusret-ii-aamu-caption
-rev: 1
+rev: 2
 type: event
 label: 'Year 6 of Senusret II: a caption in tomb BH 3 at Beni Hasan records "Aamu of Shu" arriving with eye-paint, number 37'
 time: '-1890-01-01'
@@ -40,9 +40,20 @@ sources:
   origin: egymonuments-page
   source_type: official_history
   access: read
+- title: 'J. Kamrin, "The Aamu of Shu in the Tomb of Khnumhotep II at Beni Hassan", Journal of Ancient Egyptian Interconnections 1(3), 22-36 (full text PDF read; renders the roll from Newberry''s facsimile and lists other scholars'' renderings, which were not read directly)'
+  url: https://journals.librarypublishing.arizona.edu/jaei/article/id/892/
+  authenticity: peer-reviewed journal article (page states peer reviewed); the PDF md5 matches the journal page checksum
+  origin: kamrin-2009
+  derives_from: newberry-1893
+  source_type: scholarly
+  access: read
 manifest: {subject: khnumhotep-ii-aamu, source: src-newberry-1893}
 created: '2026-10-14'
 history:
 - rev: 1
   date: '2026-10-14'
   change: Created by the khnumhotep-ii-aamu dig from Newberry 1893 p. 69 and the Ministry page. The year in `time` is a placeholder inside the window; only the regnal year 6 is stated. The signs were not read by the author of this node.
+- rev: 2
+  date: '2026-10-16'
+  change: >-
+    Added the Kamrin article (full text read 2026-10-16) as a source. It renders the roll as "Year 6 ... accounting of the Aamu that the son of the Mayor, Khnumhotep, brought because of mesdemet; being Aamu of Shu, number amounting to thirty-seven", from Newberry's facsimile of the roll, and lists differing renderings by Goedicke, Kessler, Vernus, Staubli and Rabehl (not read directly). The `what` text, the placeholder `time` and the window are unchanged. The signs were still not read by the author of this node.
