@@ -45,7 +45,7 @@ sources:
     - >-
       The session's egress proxy re-terminates TLS, so the origin certificate was not inspected by the builder.
     next_step: >-
-      Obtain the Knesset's or Reshumot's publication of the same results from a network that is not refused and
+      Obtain the Knesset's or Reshumot's publication of the same results from a network where the host answers and
       compare list names, votes and seats.
     checked: '2026-10-16'
   url: https://votes21.bechirot.gov.il/
@@ -96,7 +96,7 @@ sources:
     - >-
       The session's egress proxy re-terminates TLS, so the origin certificate was not inspected by the builder.
     next_step: >-
-      Obtain the Knesset's or Reshumot's publication of the same results from a network that is not refused and
+      Obtain the Knesset's or Reshumot's publication of the same results from a network where the host answers and
       compare list names, votes and seats.
     checked: '2026-10-16'
   url: https://votes22.bechirot.gov.il/
@@ -146,7 +146,7 @@ sources:
     - >-
       The session's egress proxy re-terminates TLS, so the origin certificate was not inspected by the builder.
     next_step: >-
-      Obtain the Knesset's or Reshumot's publication of the same results from a network that is not refused and
+      Obtain the Knesset's or Reshumot's publication of the same results from a network where the host answers and
       compare list names, votes and seats.
     checked: '2026-10-16'
   url: https://votes23.bechirot.gov.il/
@@ -196,7 +196,7 @@ sources:
     - >-
       The session's egress proxy re-terminates TLS, so the origin certificate was not inspected by the builder.
     next_step: >-
-      Obtain the Knesset's or Reshumot's publication of the same results from a network that is not refused and
+      Obtain the Knesset's or Reshumot's publication of the same results from a network where the host answers and
       compare list names, votes and seats.
     checked: '2026-10-16'
   url: https://votes24.bechirot.gov.il/
@@ -247,7 +247,7 @@ sources:
     - >-
       The session's egress proxy re-terminates TLS, so the origin certificate was not inspected by the builder.
     next_step: >-
-      Obtain the Knesset's or Reshumot's publication of the same results from a network that is not refused and
+      Obtain the Knesset's or Reshumot's publication of the same results from a network where the host answers and
       compare list names, votes and seats.
     checked: '2026-10-16'
   url: https://votes25.bechirot.gov.il/

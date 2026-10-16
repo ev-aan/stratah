@@ -453,9 +453,7 @@ claims:
     # V: CRS Insight read. A secondary account; the Attorney General's notice was not reachable (gov.il returns
     HTTP 403). An intent to indict is not an indictment; the Insight says so by its title ('Probable Indictments').
     Rule used for quotation from CRS on this page: a sentence is quoted whole, or is cut at a marked ellipsis [...]
-    with the whole sentence kept in the stored extract. Here the cut follows the words that state the date of the
-    elections; the remainder of that sentence is CRS's own explanation of why the elections were called, and it
-    is in the stored extract.
+    with the whole sentence kept in the stored extract. The remainder of the sentence is in the stored extract.
 - id: np-crs-2019-case-1000
   state: established
   statement: >-
@@ -2528,8 +2526,8 @@ claims:
   absence_anchor: true
   next_step: >-
     Retry the Knesset member page, the government pages (including the coalition agreements page the State Comptroller
-    cites) and the plenum records from a network that is not refused; record the dates of each term from the Knesset's
-    own pages; do not use a secondary list for dates.
+    cites) and the plenum records from a network where the host answers; record the dates of each term from the
+    Knesset's own pages; do not use a secondary list for dates.
   anchor:
     type: search-record
     description: >-
@@ -2568,11 +2566,11 @@ claims:
     states them, with issuer and date
   absence_anchor: true
   next_step: >-
-    Read, from a network that is not refused, the Attorney General's announcements of 28 February 2019 and 21 November
-    2019, the indictment (in the Ministry of Justice's English translation if published), the District Court's published
-    decisions in the criminal case, the Supreme Court's judgments of 6 May 2020 (HCJ 2592/20) and 17 July 2023 (HCJ
-    3823/22), and any published record of the pardon application; state for each the issuer, the date and what it
-    decides.
+    Read, from a network where the host answers, the Attorney General's announcements of 28 February 2019 and 21
+    November 2019, the indictment (in the Ministry of Justice's English translation if published), the District
+    Court's published decisions in the criminal case, the Supreme Court's judgments of 6 May 2020 (HCJ 2592/20)
+    and 17 July 2023 (HCJ 3823/22), and any published record of the pardon application; state for each the issuer,
+    the date and what it decides.
   anchor:
     type: search-record
     description: >-
@@ -2615,7 +2613,7 @@ claims:
   absence_anchor: true
   next_step: >-
     Read the committee's or the Knesset's results for the 14th to 20th Knesset (1996, 1999, 2003, 2006, 2009, 2013,
-    2015) from a network that is not refused.
+    2015) from a network where the host answers.
   anchor:
     type: search-record
     description: >-
