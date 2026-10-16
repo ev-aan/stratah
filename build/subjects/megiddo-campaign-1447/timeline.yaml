@@ -1,0 +1,54 @@
+timeline:
+  id: megiddo-campaign-1447
+  title: "Thutmose III at Megiddo: the regnal date, three absolute years, and the editions that carry it (1479 BCE to 2015 CE)"
+  as_of: "2026-10-16"
+  note: >
+    Dates before the common era are written as negative years. The Annals give the battle only as year 23 of the reign, so the three ancient dots are three
+    different absolute years for the same regnal date, drawn from three readings (Breasted 1906, Hornung/Krauss/Warburton 2006, Barnhart 2015); none is a
+    finding of this dig. 1447 BCE is Breasted's end of the reign, not the battle. The modern dots are dated by the publications, as printed on the works read.
+    The Faulkner 1942 dot is known only through other works (not read).
+lanes:
+  ancient: {label: "Absolute year for year 23 of Thutmose III, by reading"}
+  modern:  {label: "Copies, editions, chronologies"}
+sources:
+  s_breasted: {title: "J. H. Breasted, Ancient Records of Egypt vols. 1-2 (Chicago, 1906), read in the Internet Archive OCR", url: "https://archive.org/details/ancientrecordsof02brea", authenticity: "authenticated, moderate; a 1906 translation"}
+  s_sethe: {title: "K. Sethe, Urkunden der 18. Dynastie, Heft 9/10 (Leipzig, 1907), Internet Archive scan", url: "https://archive.org/details/urkundenderdyna00helcgoog", authenticity: "authenticated, moderate; German text read, signs viewed"}
+  s_nelson: {title: "H. H. Nelson, The Battle of Megiddo (Chicago, 1913)", url: "https://archive.org/details/battleofmegiddo00nels", authenticity: "authenticated, moderate"}
+  s_hkw: {title: "Hornung, Krauss, Warburton (eds.), Ancient Egyptian Chronology (Brill, 2006), Internet Archive upload as an access path", url: "https://archive.org/details/AncientEgyptianChronology_201303", authenticity: "authenticated, moderate"}
+  s_barnhart: {title: "R. H. Barnhart, The Battle and Siege of Megiddo (web page)", url: "https://www.rhbarnhart.net/The_Battle_of_Megiddo.html", authenticity: "personal web page, weak; derived from Sethe's copy"}
+  s_loud: {title: "G. Loud, Megiddo II, Seasons of 1935-39, Text (OIP 62, Chicago, 1948)", url: "https://archive.org/details/oip62_text", authenticity: "authenticated, moderate; only the chronological table was read"}
+  s_lepsius: {title: "C. R. Lepsius, Denkmaeler aus Aegypten und Aethiopien, Abth. III Bl. 31-32 (scan dli.calcutta.09958)", url: "https://archive.org/details/dli.calcutta.09958", authenticity: "authenticated, weak; plates viewed, signs not read"}
+events:
+  - {id: m1, lane: ancient, node: megiddo-annals-year-23-battle-of-megiddo, rev: 1}
+  - {id: m2, lane: ancient, node: megiddo-annals-year-23-hkw-1457, rev: 1}
+  - {id: m3, lane: ancient, node: megiddo-annals-variant-1457, rev: 3}
+  - {id: m4, lane: ancient, time: "-1447-03-17T00:00:00Z", precision: day, kind: document, status: single, sources: [s_breasted],
+     label: "17 March 1447 BCE: end of the reign of Thutmose III in Breasted's table",
+     detail: "Breasted vol. 1 section 67 note h: 'May 3, 1501, to March 17, 1447 B. C.'. This is the end of the reign in Breasted's table; 1447 BCE is not year 23 on any chronology read. On the 2006 year 1 (1479 BCE) the year 1447 is year 33 (arithmetic ours)."}
+  - {id: m5, lane: modern, time: "1842-01-01T00:00:00Z", end: "1845-12-31T00:00:00Z", precision: range, kind: document, status: single, sources: [s_lepsius],
+     label: "About 1842-1845: the Prussian expedition copies the Karnak walls (Lepsius, Denkmaeler III 31 b and 32)",
+     detail: "Dates from the scan's catalogued title as recorded in the manifest; plates viewed, signs not read. Sethe says this copy has gaps that the wall and squeezes fill."}
+  - {id: m6, lane: modern, time: "1905-01-01T00:00:00Z", precision: year, kind: document, status: single, sources: [s_sethe],
+     label: "1905: Sethe collates the Annals text against the wall and the Berlin squeezes",
+     detail: "Sethe's own statement on p. 646: collated against the original (1905) and Berlin squeezes 468 and 469."}
+  - {id: m7, lane: modern, time: "1906-03-01T00:00:00Z", precision: month, kind: document, status: single, sources: [s_breasted],
+     label: "March 1906: Breasted publishes Ancient Records of Egypt vol. 2 with the first campaign translated",
+     detail: "Title page 'Published March 1906' read in the OCR. His chronology (vol. 1, section 67) gives the reign as 1501 to 1447 BCE."}
+  - {id: m8, lane: modern, time: "1907-01-01T00:00:00Z", precision: year, kind: document, status: single, sources: [s_sethe],
+     label: "1907: Sethe's Urkunden IV, Heft 9/10, prints the Annals piece with the battle date on p. 657",
+     detail: "Sethe says Breasted's restorations in sections 407 ff. often do not fit the gap sizes (p. 646)."}
+  - {id: m9, lane: modern, time: "1913-01-01T00:00:00Z", precision: year, kind: document, status: single, sources: [s_nelson],
+     label: "1913: Nelson's dissertation translates lines 18-49 and following from Sethe's text with Breasted's chronology",
+     detail: "He gives the battle as 15 May 1479 BCE, which is Breasted's chronology, not a second one."}
+  - {id: m10, lane: modern, time: "1942-12-01T00:00:00Z", precision: month, kind: analysis, status: single, sources: [s_hkw],
+     label: "December 1942: Faulkner, 'The Battle of Megiddo', JEA 28, argues the battle day should be emended to I Shemu 20",
+     detail: "Known only as Krauss (2006, p. 421) reports it and as Barnhart's bibliography lists it; the article was not read."}
+  - {id: m11, lane: modern, time: "1948-01-01T00:00:00Z", precision: year, kind: document, status: single, sources: [s_loud],
+     label: "1948: Megiddo II excavation report prints a table with Stratum VIII beginning in 1479 BCE",
+     detail: "A different use of the number 1479 from year 23 on Breasted's table; the table gives no reason in the pages read."}
+  - {id: m12, lane: modern, time: "2006-01-01T00:00:00Z", precision: year, kind: analysis, status: single, sources: [s_hkw],
+     label: "2006: Hornung, Krauss and Warburton publish a chronology with year 1 of Thutmose III at 1479 BCE",
+     detail: "Krauss, chapter III.8, reads the Megiddo date as a lunar date and weighs two solutions (1479 and 1504 BCE for year 1)."}
+  - {id: m13, lane: modern, time: "2015-03-11T00:00:00Z", precision: day, kind: document, status: single, sources: [s_barnhart],
+     label: "11 March 2015: Barnhart completes a transliteration and translation of lines 1-103 from Sethe's copy",
+     detail: "Dates as stated on the page ('started April 20, 2014, completed March 11, 2015')."}

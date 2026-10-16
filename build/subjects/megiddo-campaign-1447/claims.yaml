@@ -1,0 +1,601 @@
+subject: megiddo-campaign-1447
+title: "Thutmose III at Megiddo: what the Karnak Annals say, when, and what Dead Hidden says they say"
+question: "What do the Egyptian records of Thutmose III's Megiddo campaign actually say, and do they show a date of 1447 BC, a gathering of armies against Pharaoh, a link to the Exodus, or a new god Amun-Ra?"
+dig_status: open
+headline_status: draft
+headline: "Annals date Megiddo to Thutmose III's year 23; chronologies read give 1457 or 1479 BC, not 1447"
+headline_claim: megiddo-absolute-date-bce
+search_summary: >
+  The Annals of Thutmose III, carved at Karnak, date the Megiddo battle by regnal year: year 23, first month of the season Shemu, day 21, the day of the feast of the new moon. The readings of that date line found here (Breasted 1906, Nelson 1913 on Sethe's text, Krauss 2006 and Barnhart on Sethe's edition) give those numerals; the signs themselves were not independently read. Year 23 is 1479 BC on Breasted's 1906 chronology and 1457 BC on the 2006 chronology read. 1447 BC is the last year of the reign in Breasted's table, not year 23. The Megiddo account in the translations read does not name the Exodus, Israel or Moses, and Amon-Re is named in texts translated from earlier reigns.
+description: >
+  What the Karnak Annals of Thutmose III say about the Megiddo campaign, and how that compares with three speaker claims. Read directly: Sethe's hand-copied hieroglyphic edition of the Annals (Urkunden IV, Heft 9/10, 1907; the German headings and notes, with the hieroglyphic pages viewed), the whole Barnhart web page line by line, Nelson's 1913 dissertation (translation and dates), the chronology chapter of Hornung, Krauss and Warburton (2006), the chronological table of the Megiddo II excavation report, and Breasted's Ancient Records of Egypt vols. 1 and 2 (1906), with a full search for the names in dispute. Viewed, not read: Lepsius's plates, the Karnak wall photographs on the Barnhart site. Not opened: Faulkner's 1942 article, Lichtheim's translation, Kitchen, Beckerath, Porter and Moss, Bissing's collation, the Berlin squeezes, the Dead Hidden claims files and videos. No claim here rests on a builder's reading of the hieroglyphs.
+divergence_note: >
+  The speaker version joins four things: a date (1447 BC), a gathering of "all the armies of the north" by a "vile prince" at Megiddo, an Exodus soon after, and a new god Amun-Ra tied to Moses. What was read supports one part in outline: the king's own account says a coalition under the "enemy of Kadesh" was at Megiddo, though the translations differ in wording and Sethe says Breasted's restorations of the damaged lines often do not fit the gaps. The date is a regnal date. The year BC depends on which chronology is used: Breasted (1906) gives 1479 BC for year 23, the 2006 chronology read gives 1457 BC, and neither gives 1447 BC, which is the last year of the reign in Breasted's table. The number 1479 BC is used for three different things in what was read and must be kept apart: year 23 on Breasted's chronology, year 1 of Thutmose III on the 2006 chronology, and the start of Stratum VIII in the Megiddo II excavation table. The translations read do not mention an Exodus, Israel or Moses in the Megiddo account (an absence claim, provisional). Amon-Re is named in the Megiddo account itself (in Breasted's sections 418 and 425, as Amon-Re; in 430 as Amon) and in texts Breasted attributes to Amenemhet I, Thutmose I and Hatshepsut. None of this is settled from the signs: the hieroglyphs were not independently read here.
+
+assessment:
+  question: "What do the Egyptian records of Thutmose III's Megiddo campaign say, and do they show a date of 1447 BC, a gathering of armies against Pharaoh, a link to the Exodus, or a new god Amun-Ra?"
+  answer: partly
+  headline: "Partly. The Annals record a coalition under Kadesh at Megiddo in year 23; no 1447 BC date, Exodus link or new god was found in the texts read."
+  text: >
+    The Annals date the battle by regnal year: year 23, first month of Shemu, day 21, the feast of the new moon. Breasted (1906, working from earlier copies) and Krauss (2006, quoting Sethe's 1907 edition) give the same numerals, and Barnhart's and Nelson's readings follow Sethe's copy. Year 23 is 1479 BC on Breasted's chronology and 1457 BC on the chronology of Hornung, Krauss and Warburton; as Krauss reports, Faulkner and Parker would emend the day to 20, while Wente (citing Helck) and Beckerath hold that 21 stands, and Breasted also keeps 21; Faulkner, Parker, Wente, Helck and Beckerath are known here only through Krauss. 1447 BC is the last year of the reign in Breasted's table. In the king's speech as carved, the enemy of Kadesh is at Megiddo with the chiefs of countries as far as Naharin; the translations differ in wording, and Sethe says Breasted's restorations of damaged lines often do not fit the gaps. The Megiddo account in the translations read does not mention the Exodus, Israel or Moses; that is an absence from translations and is held provisional. Amon-Re is named in the Megiddo account and in texts translated from earlier reigns. Limits: no one here read the signs; every reading is a translation or a transliteration of one hand-copied edition; Faulkner, Lichtheim, Kitchen and Beckerath were not opened.
+  key_points:
+    - "The Annals date the battle by regnal year 23, I Shemu 21; the readings found agree on the numerals, but the signs were not independently read here."
+    - "Year 23 is 1479 BC on Breasted's 1906 chronology and 1457 BC on the 2006 chronology read; neither gives 1447 BC, the last year of the reign in Breasted's table."
+    - "In the translations read the Megiddo account has no Exodus, Israel or Moses, and Amon-Re is already named; both statements are provisional readings of translations."
+  basis: [megiddo-translation-battle-year-23, megiddo-absolute-date-bce, megiddo-hkw-lunar-date-reading, megiddo-battle-day-21-or-20, megiddo-translation-coalition-at-megiddo, megiddo-sethe-edition-statements, megiddo-text-silent-on-exodus-israel-moses, megiddo-sp-amun-ra-new-god]
+  would_settle: "A reading of the date-line signs on Sethe's plate IV 657 or the wall by an Egyptologist, a chronology with a stated window for year 23 checked against an independent astronomical computation, and a hieroglyphic reading of the name lists and the account for any name the speaker links to the Exodus."
+
+claims:
+
+  # ------------------------- WHAT THE EDITION AND THE TEXT SAY -------------------------
+
+  - id: megiddo-sethe-edition-statements
+    state: established
+    statement: >
+      Sethe's 1907 edition of the Annals (Urkunden IV, p. 646) says that he collated the text against the original in 1905 and against the Berlin squeezes numbers 468 and 469, which, he says, often show more than is now preserved (our translation of his German). It also says that the restorations adopted by Maspero, Brugsch and Breasted (Ancient Records II, section 407 ff.) do not take the size of the gaps into account exactly ("nicht genau") and so prove wrong in very many cases ("in sehr vielen Fällen als unrichtig"), and that his own restorations are fitted to the measured gap using the space each sign takes elsewhere in the inscription. This claim is about what the edition says of itself, not about whether Sethe or Breasted is right.
+    statement_kind: reported
+    evidence_class: primary_text
+    confidence: moderate
+    evidential_weight: 3
+    anchor_checked: primary
+    adoption_weight: null
+    adoption_note: "Not measured: no source read counts how widely Sethe's criticism of the earlier restorations is known or followed."
+    would_change_if: "a second reading of the handwriting on p. 646 differs from the builder's transcription, or Sethe's criticism is shown by a collation of the wall or squeezes to be wrong for the lines used here"
+    anchor:
+      type: primary_text
+      description: >
+        Sethe, Urkunden IV, Heft 9/10 (1907), printed p. 646, lines 1-18, and p. 645 (heading and list of earlier publications), read directly in the German handwriting from the page images of the Internet Archive item urkundenderdyna00helcgoog (PDF page 59 and 58); transcribed in sources/extracts/sethe-urk4-german-text-transcribed.txt. The hieroglyphic lines on the pages were viewed, not transliterated.
+      sources: [src-sethe-urk4-h9-10, src-breasted-are2]
+    basis: >
+      # V: the German text was read directly from the scan on 2026-10-16, and Breasted's volume was opened to confirm that the restorations Sethe names are bracketed in sections 407 ff. (for example section 420, where "[the chief]" and "[all]" are in brackets and note e says the end of the speech is Maspero's restoration). Breasted's volume came out in 1906, before Sethe's Heft of 1907, which Nelson (1913) also says.
+      The claim is that the edition says this. It does not decide which restoration is right; the scan's rights status is unstated and no image is stored.
+
+  - id: megiddo-sethe-edition-covers-year-40
+    state: established
+    statement: >
+      Sethe's heading to the piece of the Annals he calls Stück I (p. 645) says it covers "Jahr 22-24 und Jahr 40 seiner Regierung" (years 22 to 24 and year 40 of the reign) on the north wall of the eastern Annals hall, with lines 1-67 below the scenes of the temple gifts, lines 68-82 below the harem women, and line 83 onward running the full height of the wall. The wall text therefore includes an entry for year 40 as well as the year-23 battle. No source read gives the date on which the Annals were carved.
+    statement_kind: reported
+    evidence_class: primary_text
+    confidence: moderate
+    evidential_weight: 3
+    anchor_checked: primary
+    adoption_weight: null
+    adoption_note: "Not measured."
+    would_change_if: "a reading of the wall or of Urk. IV p. 668 (the year 40 entry) shows the year 40 piece is on a different wall or was added later, or a source dating the carving is found"
+    anchor:
+      type: primary_text
+      description: >
+        Sethe, Urkunden IV, Heft 9/10, printed p. 645, lines 7-15 (heading), read directly in the German handwriting (PDF page 58); also the section headings on pp. 647 ('2. Jahr 22-23. Erster Feldzug'), 655 ('h. Der König bezieht ein Lager im Süden von Megiddo') and 657 ('i. Die Schlacht bei Megiddo'). Transcribed in sources/extracts/sethe-urk4-german-text-transcribed.txt.
+      sources: [src-sethe-urk4-h9-10]
+    basis: >
+      # V: read directly 2026-10-16. The headings are the editor's, not the ancient scribe's. The year-40 section itself (p. 668) was not opened. Whether the carving of the wall happened before or after year 40 is not stated in any source read.
+
+  - id: megiddo-translation-battle-year-23
+    state: proposed
+    statement: >
+      The readings of the Annals' battle account found here give the date as year 23, first month of the season Shemu (the third season, the ninth month in Breasted's count), day 21, the day of the feast of the new moon, after a march that left the frontier at Tharu in year 22 (fourth month of Peret, day 25). Breasted (1906, section 430): "Year 23, first (month) of the third season (ninth month), on the twenty-first day, the day of the feast of the new moon", followed by "corresponding to the royal coronation" (the OCR shows editorial marks around these words that were not resolved). Krauss (2006, p. 421), transliterating Urk. IV 657, ends the line differently, with the words for "exactly": "day of the feast of lunar day 1, exactly". The king and army then defeat the enemy, who "fled headlong to Megiddo" and were hauled up into the city by their clothing.
+    statement_kind: reported
+    evidence_class: interpretive
+    confidence: moderate
+    evidential_weight: 3
+    anchor_checked: secondary
+    adoption_weight: null
+    adoption_note: "Not measured: no source read counts how widely the campaign and its date are described."
+    would_change_if: >
+      the signs of the date line (Sethe's plate IV 657, the Berlin squeezes, a wall photograph at full resolution) are read by an Egyptologist and give a different year, season, month or day, or the closing words of the date line are shown to read differently from either rendering
+    anchor:
+      type: interpretive
+      description: >
+        Two witnesses that are independent of each other: Breasted 1906 vol. 2, sections 415, 417, 425, 430-431 (a translation made from the Lepsius plates and earlier copies, before Sethe's edition appeared) and Krauss 2006 (Hornung, Krauss, Warburton, p. 421, and Hornung p. 202, working from Sethe's Urk. IV, which Sethe collated against the wall in 1905). Barnhart's transliteration and Nelson's translation follow Sethe's text and Breasted's help and are counted as one reading with Sethe's copy, not as further witnesses. Sethe's p. 657 was viewed (heading 'i. Die Schlacht bei Megiddo' read) and the date-line signs on it looked consistent with the numerals 23 and 21, but that is the builder's count of strokes and is not used as an anchor. The two renderings of the end of the line differ (Breasted: coronation, uncertain; Krauss and Barnhart: 'exactly' the new moon).
+      sources: [src-breasted-are2, src-hkw-chronology, src-barnhart-web, src-nelson-1913, src-sethe-urk4-h9-10]
+      nodes: [{node: megiddo-annals-year-23-battle-of-megiddo, verb: supports}]
+    basis: >
+      # V: translation passages read 2026-10-14 and 2026-10-16 (Breasted sections 415, 417, 425, 430); Krauss and Barnhart read in full for the date line. Both readers agree on the numerals 22, 23, I Shemu and 21. Breasted's note a to section 415 (the year-22 date at Tharu, 'twenty-fifth' day) says the day is lacking in Lepsius and Brugsch and is preserved by Champollion's early copy; this fits Sethe's own p. 647 note 'Datum nach Champ.' and Hornung's citation of that date at Urk. IV 647,12. Breasted's note to section 417 (the Gaza date) is a different one: Maspero has 'third day', Brugsch 'fourth', and the Karnak table of feasts agrees with fourth. So the early copies differ about the Gaza day and lack the Tharu day.
+      A reading of translations and transliterations of copies, not of the signs. Secondary is used here because two independent readers agree on the numerals; the same convention is applied to every claim in this file.
+
+  - id: megiddo-translation-coalition-at-megiddo
+    state: proposed
+    statement: >
+      In the king's council speech as carved (Annals lines 19-25), the enemy at Megiddo is led by the "enemy of Kadesh", who has gathered to himself the rulers of countries as far as Naharin, consisting of the Kharu and the Kode, with their horses and troops, and who says he will fight the king at Megiddo. The readings differ. Breasted 1906 (section 420): "That [wretched] enemy, [the chief] of Kadesh, has come and entered into Megiddo ... He has gathered to himself the chiefs of [all] the countries [which are] on the water of Egypt, and as far as Naharin", with note b "An idiom for dependent upon or subject to". Nelson 1913: "chiefs of [all] the countries [which were] subject to Egypt as far as Naharin". Barnhart 2015: "that wretched enemy of Kadesh ... He assembled those princes of every foreign land loyal to Egypt together and (those) from Naharin". Breasted's note e says the end of the speech is Maspero's restoration, and Sethe (p. 646) says restorations of this kind do not take the gap size into account exactly and prove wrong in very many cases. For balance, Nelson 1913 (note 43), on the next passage (the officers' reply, lines 27-28, Breasted section 421), says Breasted's restoration "would seem to fill the lacuna as well as Sethe's" as far as the hieroglyphics are concerned, though it would not agree with the situation at the mouth of the pass; so the two editors' restorations are compared by a third reader there, not settled.
+    statement_kind: reported
+    evidence_class: interpretive
+    confidence: low
+    evidential_weight: 2
+    anchor_checked: 'no'
+    adoption_weight: null
+    adoption_note: "Not measured."
+    would_change_if: >
+      the signs of Sethe's p. 649 (lines 19-25) or the wall read by an Egyptologist show different wording, in particular for the title of the Kadesh leader, the word rendered 'all', and the phrase rendered 'on the water of Egypt', or an independent record (Canaanite, Hittite, or excavated at Megiddo) is read that confirms or contradicts the gathering
+    anchor:
+      type: interpretive
+      description: >
+        Read: Breasted 1906 vol. 2, section 420 with notes b and e, and sections 408 and 416; Nelson 1913 translation of lines 19-28 (OCR lines 1015-1030, stored in sources/extracts/pd-extracts.txt); Barnhart's translation of lines 19-24 with its notes. These are not independent: Nelson says he follows Sethe's text but sometimes adopts Breasted's words, and Barnhart says he consulted Breasted, Faulkner and Lichtheim. Sethe's p. 649 was viewed and the German footnotes read; the signs were not read.
+      sources: [src-breasted-are2, src-nelson-1913, src-barnhart-web, src-sethe-urk4-h9-10]
+    basis: >
+      # V: the three renderings were compared on 2026-10-16. The only witness to the gathering read is the Egyptian king's own account. Brackets in Breasted mark restoration; Barnhart says he cannot make out signs under Sethe's hatching in places.
+      The translators agree on the outline and differ on the Kadesh leader's title (Breasted restores 'chief' in brackets; Barnhart's line has none), on 'all' (bracketed by Breasted) and on how the phrase about Egypt is rendered. Breasted's own summary (section 408) says the king overthrows 'a coalition of practically all Syria at Megiddo, headed by the king of Kadesh'; that is his reading, not a second source.
+
+  - id: megiddo-annals-location-and-edition-state
+    state: proposed
+    statement: >
+      The descriptions read agree that the Annals are on a wall at Karnak, in a chamber of the temple of Amon built by Thutmose III, and that the upper and lower parts of the lines are damaged. Breasted (1906, section 391 and note) puts the Annals on the inside of the walls of the corridor around the granite sanctuary, north wall and west wall, in a text of 223 lines by his count (Mariette gave a different total, as Breasted's note quotes). Sethe's heading (p. 645) says the piece covering the first campaign is on the north wall of the eastern Annals hall. Barnhart's page says the account is about 108 columns on the north wall behind Pylon 6. A photomontage of lines 1-67 on Barnhart's site shows broken upper and lower edges. Breasted (section 391 note) and Sethe (p. 646) both say earlier copies were incomplete.
+    statement_kind: reported
+    evidence_class: interpretive
+    confidence: low
+    evidential_weight: 2
+    anchor_checked: 'no'
+    adoption_weight: null
+    adoption_note: "Not measured."
+    would_change_if: "current Karnak documentation or a museum or excavation record gives a different location, preservation state or line count"
+    anchor:
+      type: interpretive
+      description: >
+        Read: Breasted 1906 vol. 2, section 391 and its note (OCR lines 10559-10575, stored in sources/extracts/pd-extracts.txt); Sethe's heading and notes, pp. 645-647 (German text read directly); the Barnhart page's introduction. Viewed: the Barnhart photomontage of lines 1-67 and two wall photographs (Lines_083-089 and Lines_078-098). The wall itself and any modern Karnak documentation were not seen. The line counts differ by source (223 for the whole Annals in Breasted, 110 lines on the north wall in Mariette as Breasted quotes him, lines to 110 in Sethe's Stück I, about 108 columns in Barnhart) and are not reconciled here.
+      sources: [src-breasted-are2, src-sethe-urk4-h9-10, src-barnhart-web, src-barnhart-photomontage, src-barnhart-wall-photos]
+    basis: >
+      # V: read and viewed 2026-10-16. Photographs are third-party with no stated licence and unchecked authenticity, so they are not an anchor. No inventory or find record for the wall was read.
+
+  - id: megiddo-lepsius-plates-viewed
+    state: searched_gap
+    statement: >
+      That the signs on Lepsius, Denkmaeler Abth. III Bl. 31 b and 32 (the plates Breasted and Sethe cite for the Annals) carry the date and speeches that the translations print has not been checked; Sethe says the Lepsius copy has gaps that the wall and the Berlin squeezes fill.
+    statement_kind: search_result
+    evidence_class: primary_text
+    confidence: low
+    evidential_weight: 1
+    anchor_checked: 'no'
+    adoption_weight: null
+    adoption_note: "Not measured."
+    would_change_if: "an Egyptologist transliterates Lepsius Bl. 31 b and 32 and Sethe's plates and the date line matches or differs"
+    next_step: "Have the date line (year 23, I Shemu, day 21) and the council speech transliterated from Lepsius Bl. 31 b and 32 and from Sethe p. 649 and p. 657, and compared with a wall photograph at full resolution."
+    anchor:
+      type: search-record
+      description: >
+        The two plate images were opened and viewed on 2026-10-14 (scan item dli.calcutta.09958, images n34 and n35; sha256 in the manifest). Captions read: Bl. 31 'Karnak. Inschriften. a. vor b. neben der Cella des Philippus', Bl. 32 'Karnak. Inschrift neben der Cella des Philippus'. The hieroglyphs were not transliterated. Sethe (pp. 645-646) names these plates as the earlier publication and says his edition adds to them.
+      sources: [src-lepsius-denkmaeler-abth3, src-sethe-urk4-h9-10]
+    basis: "Viewed, not read. It does not support any reading."
+
+  - id: megiddo-date-line-signs-not-independently-read
+    state: searched_gap
+    statement: >
+      No reading of the date-line signs was made independently in this dig. The numerals and words come from Breasted's translation, from Krauss's and Barnhart's transliterations of Sethe's page IV 657, and from Nelson's translation. The builder viewed Sethe's page (at about 450 dpi) and one wall photograph that shows a column with numeral signs and did not decipher either.
+    statement_kind: search_result
+    evidence_class: primary_text
+    confidence: low
+    evidential_weight: 1
+    anchor_checked: 'no'
+    absence_anchor: true
+    adoption_weight: null
+    adoption_note: "Not measured."
+    would_change_if: "an Egyptologist reads the date line from Sethe's plate, a squeeze or a wall photograph and states the signs"
+    next_step: "Ask an Egyptologist to transliterate Sethe p. 657 lines 84-85 and the date column in the Vygus photographs (Lines_083-089) and compare with the readings of Breasted, Krauss and Barnhart."
+    anchor:
+      type: search-record
+      description: >
+        Searched: Sethe's p. 657 (viewed, PDF page 70), the wall photographs Lines_083-089 and Lines_078-098 (viewed), the Barnhart photomontage of lines 1-67 (viewed, which does not reach line 84). No transliteration of the date line by the builder is recorded. The builder's impression that the numeral groups on p. 657 look like 23 and 21 is a count of strokes by an AI and is not used.
+      sources: [src-sethe-urk4-h9-10, src-barnhart-wall-photos, src-barnhart-photomontage]
+    basis: "A statement of what was not done. Capped at provisional (absence_anchor)."
+
+  # ------------------------- DATE AND CHRONOLOGY -------------------------
+
+  - id: megiddo-absolute-date-bce
+    state: contested
+    statement: >
+      The Annals give only a regnal date for the battle (year 23 of Thutmose III); the year BC depends on the chronology used. Breasted (1906) puts the reign from 3 May 1501 to 17 March 1447 BC (from Meyer's lunar computation), so year 23 is 1479 BC (arithmetic on his table). Hornung, Krauss and Warburton (2006, Krauss's chapter) conclude that year 1 of Thutmose III is 1479 BC, so year 23 is 1457 BC (arithmetic ours: 1479 minus 22). Barnhart's page gives the battle as 1457 BC and names no chronology. Nelson (1913) says his chronology is Breasted's and gives 15 May 1479 BC. The figure 1447 BC is, in Breasted's table, the end of the reign; on the 2006 year 1 of 1479 BC it falls in year 33 (arithmetic ours). None of the chronologies read gives 1447 BC for year 23.
+    statement_kind: judgment
+    evidence_class: interpretive
+    confidence: moderate
+    evidential_weight: 3
+    anchor_checked: 'no'
+    adoption_weight: null
+    adoption_note: "Not measured: no source read counts how widely each year is repeated."
+    would_change_if: >
+      a chronology with a stated method (Kitchen, Beckerath, or a recomputation of the lunar dates) is read and gives year 23 outside 1457 BC and 1479 BC with stated reasons, or the sign reading of the date line changes the day or month and so the astronomical solution
+    positions:
+      - label: "year 23 = 1479 BC (year 1 = 1501 BC)"
+        holder: "J. H. Breasted, Ancient Records of Egypt vol. 1, section 67 and note h (1906); followed by H. H. Nelson (1913), who says his chronology is Breasted's"
+        ground: "Meyer's computation from the new-moon dates in years 23 and 24 of the Annals and a Sothic date; Breasted's note lists earlier computations by Mahler (accession 1504) and Lehmann (1515) that Meyer corrected to 1501"
+      - label: "year 23 = 1457 BC (year 1 = 1479 BC)"
+        holder: "E. Hornung, R. Krauss, D. A. Warburton (eds.), Ancient Egyptian Chronology (2006), Krauss's chapter III.8 and the resume, which says the chronology 'agrees with Beckerath and Kitchen' on 1479 BC for the accession (Kitchen and Beckerath not read)"
+        ground: "two lunar dates of Thutmose III (the Megiddo date, year 23, and the Akhmenu foundation, year 24); of the two solutions Krauss finds astronomically workable (year 1 = 1479 or 1504 BC) only 1479 BC fits the synchronisms with Ramesses II (1279 BC) and Amenhotep I (year 9 = 1506 BC)"
+      - label: "year 23 = 1457 BC, no chronology named"
+        holder: "R. H. Barnhart, personal web page (2015)"
+        ground: "'according to current scholarly calculations'; no chronology is named on the page"
+      - label: "1447 BC for the recording or battle"
+        holder: "the speaker (second-hand wording from the handoff file; videos not opened)"
+        ground: "none stated; not read"
+    disputed_by:
+      - {who: "J. H. Breasted", kind: person, position: "year 23 = 1479 BC on year 1 = 1501 BC", source_read: "yes, vol. 1 section 67 and note h", via: "Ancient Records of Egypt, 1906"}
+      - {who: "R. Krauss (in Hornung, Krauss, Warburton, eds.)", kind: person, position: "year 1 = 1479 BC, so year 23 = 1457 BC; 1504 BC is astronomically possible but excluded by synchronisms", source_read: "yes, pp. 420-422 and the resume", via: "Ancient Egyptian Chronology, 2006"}
+      - {who: "unnamed (the speaker's source)", kind: unnamed, position: "1447 BC for the recording or battle", source_read: "no", via: "handoff wording; claims files and videos not opened"}
+    next_step: "Read Kitchen's and Beckerath's chronologies, check the astronomical solutions in the book's table III.8.13, and have the lunar date recomputed independently."
+    anchor:
+      type: interpretive
+      description: >
+        Read: Breasted 1906 vol. 1 section 67 and notes f and h (OCR lines 4550-4572, stored in sources/extracts/pd-extracts.txt); Krauss 2006 pp. 420-422 and Hornung p. 202 (short fragments quoted only); the Nelson 1913 dates; the Barnhart page. Two independent chronologies (Breasted's Meyer-based scheme and the 2006 Krauss scheme) are read in their own words and differ by 22 years for year 23. Not read: Kitchen, Beckerath, Meyer, Parker, Wente. The Megiddo II table (printed p. 5) uses 1479 BC as the start of Stratum VIII without giving a reason there; that number is not the same thing as year 23 on Breasted's table and is kept apart here.
+      sources: [src-breasted-are1, src-hkw-chronology, src-nelson-1913, src-barnhart-web, src-megiddo2-oip62]
+      nodes:
+        - {node: megiddo-annals-year-23-battle-of-megiddo, verb: qualifies}
+        - {node: megiddo-annals-year-23-hkw-1457, verb: qualifies}
+        - {node: megiddo-annals-variant-1457, verb: qualifies}
+    basis: >
+      # V: Breasted vol. 1 section 67 and Krauss pp. 420-422 read in their own words 2026-10-16. The difference of 22 years is arithmetic from two different values of year 1, not a dispute about the signs.
+      anchor_checked is 'no' because the two sources differ rather than agree, so the secondary convention (two independent sources agreeing) does not apply; the weight rests on two read chronologies with stated methods.
+      The 'contested' state reflects two chronologies with stated methods that give different years; it is not a dispute between equals. Krauss's own text says whether the recorded dates should be emended is moot and uses both possible dates, and the resume says the chronology agrees with Beckerath and Kitchen, who were not read.
+
+  - id: megiddo-hkw-lunar-date-reading
+    state: proposed
+    statement: >
+      Krauss (2006, p. 421) reads the Megiddo date as a lunar date: "regnal year 23, I Shemu 21, day of the feast of lunar day 1, exactly", with the Akhmenu foundation date in year 24 as the second lunar date of Thutmose III. He finds two astronomically workable possibilities: year 1 = 1479 BC (Megiddo on I Shemu 21) or year 1 = 1504 BC (Megiddo on I Shemu 20, which needs the day emended). He excludes 1504 BC because it cannot be reconciled with year 1 of Ramesses II = 1279 BC and year 9 of Amenhotep I = 1506 BC, "thus only 1 Thutmose III = 1479 BC remains". On the year 1504 BC alternative, year 23 would be 1482 BC (arithmetic ours). The chapter's summary says whether the recorded dates ought to be emended is "moot".
+    statement_kind: reported
+    evidence_class: interpretive
+    confidence: moderate
+    evidential_weight: 3
+    anchor_checked: 'no'
+    adoption_weight: null
+    adoption_note: "Not measured. Krauss's resume says Beckerath and Kitchen agree on 1479 BC for the accession; that is the book's statement and Kitchen and Beckerath were not read."
+    would_change_if: "the astronomical solutions are recomputed independently and differ, or the date line is read differently, or Kitchen's or Beckerath's chronology is read and gives another year 1"
+    anchor:
+      type: interpretive
+      description: >
+        Read directly in the Internet Archive OCR of Hornung, Krauss, Warburton (2006): chapter III.8 'Lunar Dates of Thutmose III' (Krauss), pp. 420-422, the summary of chapter II.8 on pp. 478-479 and the resume. A single multi-author reference work, so one witness. The astronomical tables (III.8.12, III.8.13) are garbled in the OCR and were not used; the astronomy was not recomputed. The earlier 1504 BC figure also appears in Breasted vol. 1 note h as Mahler's accession date.
+      sources: [src-hkw-chronology, src-breasted-are1]
+      nodes: [{node: megiddo-annals-year-23-hkw-1457, verb: supports}]
+    basis: >
+      # V: read 2026-10-16. States what the chapter says. It leaves out and does not read the astronomy itself; the same chapter notes that Parker, Wente and Beckerath used slightly outdated parameters, and that the date is disputed in detail (see megiddo-battle-day-21-or-20).
+
+  - id: megiddo-battle-day-21-or-20
+    state: contested
+    statement: >
+      Whether the battle day in the date line should be read as I Shemu 21 or emended to I Shemu 20 is disputed in the literature Krauss summarises. Faulkner (JEA 28, 1942) pointed out that Thutmose III reached Megiddo on I Shemu 19, so that the battle "should" have been on the 20th, a day not mentioned in the report; Parker accepted the emendation. Wente argued that Helck showed no emendation is needed; Beckerath accepted Wente's judgment. Parker cited Spalinger to say Helck's argument lacks foundation. Breasted (1906, note to section 429) holds that the army came out onto the plain in the afternoon of the twentieth, camped that night and fought on the morning of the twenty-first.
+    statement_kind: reported
+    evidence_class: interpretive
+    confidence: low
+    evidential_weight: 2
+    anchor_checked: 'no'
+    adoption_weight: null
+    adoption_note: "Not measured."
+    would_change_if: "Faulkner's article, Helck, Wente, Parker and Spalinger are read in their own words, or the date line signs are read and show 20 or 21"
+    disputed_by:
+      - {who: "R. O. Faulkner and R. A. Parker", kind: person, position: "emend the battle day to I Shemu 20 because the king reached Megiddo on the 19th", source_read: "no", via: "Krauss 2006, p. 421 (n. 100 cites Parker, Calendars, 73, and Faulkner JEA 28, 1942, 4 and 11)"}
+      - {who: "E. F. Wente, W. Helck and J. von Beckerath", kind: person, position: "no emendation needed; day 21 stands", source_read: "no", via: "Krauss 2006, p. 421 (nn. 101-102)"}
+      - {who: "J. H. Breasted", kind: person, position: "day 21 stands; the army reached the plain on the afternoon of the 20th and fought on the morning of the 21st", source_read: "yes, note to section 429", via: "Ancient Records II, 1906"}
+    next_step: "Read Faulkner's 1942 article (JEA 28, pp. 2-15) and Helck's argument (MDAIK 28, 1972), and read the date lines of Aruna (day 19) and the battle on Sethe's pp. 654-657."
+    anchor:
+      type: interpretive
+      description: >
+        Krauss 2006 p. 421 and notes 99-102 (read), with Breasted's note to section 429 and the day 19 date line at Aruna in section 425 (read). Faulkner, Parker, Wente, Helck, Beckerath and Spalinger are known here only as Krauss reports them; their own texts were not read. Krauss's own conclusion is that it is advisable to proceed using both possible dates.
+      sources: [src-hkw-chronology, src-breasted-are2]
+    basis: >
+      # V: read 2026-10-16. Each position is stated as the source gives it. Krauss's text records that the Megiddo line asserts an exact coincidence of the civil date and the new moon, which he says can imply both armies waited for the moon's invisibility; that sentence does not decide the emendation question.
+
+  # ------------------------- THE NAMES THE SPEAKER LINKS -------------------------
+
+  - id: megiddo-text-silent-on-exodus-israel-moses
+    state: searched_gap
+    statement: >
+      In the translations read, the Megiddo account (Breasted 1906 sections 406-433, Barnhart's lines 1-103, Nelson's translation) does not mention the Exodus, Israel, Moses or Hebrews. The whole of Breasted's two volumes has hits for 'Israel' and 'Hebrew' only outside that account, listed in log entry L-08. This is an absence from translations and says nothing about what the signs read.
+    statement_kind: search_result
+    evidence_class: interpretive
+    confidence: low
+    evidential_weight: 1
+    anchor_checked: 'no'
+    absence_anchor: true
+    adoption_weight: null
+    adoption_note: "Not measured."
+    would_change_if: "the signs of the Annals or another Thutmose III text are read and name a people or place that a specialist argues refers to Israelites, or a specialist's argument links a name in the lists to a biblical name"
+    next_step: "Read the Annals' name lists (the Karnak lists named by Breasted at section 405 and Sethe's Urk. IV pp. 779 ff.) in a hieroglyphic edition with an Egyptologist, and look for any scholarly argument linking them to biblical names."
+    anchor:
+      type: search-record
+      description: >
+        Searched the OCR of Breasted vol. 2 for 'Israel' (1 hit), 'Hebrew' (7), 'Armageddon' (0), 'Exodus' (0), 'Moses' (4, all inside Thutmose or Ahmose), 'Jacob' (0), 'Joseph' (4), 'Canaan' (0), 'Jerusalem' (1); vol. 1 for 'Israel' (2 hits, sections 471 and 489), 'Hebrew' (5), 'Exodus' (0), 'Moses' (0), 'Armageddon' (0). Searched Barnhart's page (lines 1-103 and notes) and Nelson's OCR for Israel, Hebrew, Exodus, Moses, Armageddon and Jacob. Hits with section numbers are listed in log entry L-08. Hebrew hits in the Megiddo campaign range (sections 408-443) are Breasted's lexical footnotes in section 437 (Hebrew words compared with Egyptian words). Hits outside it, such as section 756 (Semitic captives at Amon-temple works, 'precisely what was afterward exacted of the Hebrews') and section 879 note (a hymn of victory 'mentioning Israel: see III, 602 ff.', a note in the Amenhotep III and Merneptah monuments section), are Breasted's own commentary or notes, not lines of the Annals. Not searched: the signs, any other edition, the Palestine and Syria name lists.
+      sources: [src-breasted-are1, src-breasted-are2, src-barnhart-web, src-nelson-1913]
+    basis: "Absence from translations. It does not show the signs lack these names. Capped at provisional (absence_anchor). Barnhart's own sentence 'the city of Megiddo in Israel' uses Israel as the modern country. Nelson's comments mention Hebrews when comparing Bible passages (OCR lines 996 and 1621), not in his translation."
+
+  # ------------------------- OBJECT-ADJACENT FACTS ABOUT THE EXCAVATION -------------------------
+
+  - id: megiddo-excavation-table-uses-1479
+    state: proposed
+    statement: >
+      The Megiddo II excavation report (Loud, 1948, printed p. 5) lists Megiddo Stratum IX as 1550-1479 BC and Stratum VIII as 1479-1350 BC in its chronological table, against the late Eighteenth Dynasty. The text layer of the report, searched for the spellings Thutmose, Thutmosis, Tuthmosis, Thothmes and Annals, has no hit. The table gives no reason for the boundary at 1479 BC in the pages read.
+    statement_kind: search_result
+    evidence_class: interpretive
+    confidence: low
+    evidential_weight: 1
+    anchor_checked: 'no'
+    absence_anchor: true
+    adoption_weight: null
+    adoption_note: "Not measured."
+    would_change_if: "the strata chapters or a later Megiddo volume are read and tie the end of Stratum IX to a destruction layer and a date, or state that the boundary rests on the Egyptian record"
+    anchor:
+      type: search-record
+      description: >
+        Read: the chronological table of Megiddo II, Text (OIP 62), printed p. 5 (PDF page 29). Searched: the OCR text layer of the whole volume for the Thutmose spellings and 'Annals'. The strata chapters were not read. The OCR is noisy, so the search can miss spellings.
+      sources: [src-megiddo2-oip62]
+    basis: "Absence in a noisy text layer and a table without a stated reason. It is a record of a number to keep apart from year 23, not evidence about the battle."
+
+  # ------------------------- SPEAKER CLAIMS (second-hand wording; one assertion per claim) -------------------------
+  # The wording below comes from the handoff file only. The videos and the claims files were not opened. The speaker wording is the statement and the adoption note; it is never an anchor.
+
+  - id: megiddo-sp-1447-recorded-armageddon
+    state: proposed
+    statement: "In 1447 the Egyptians recorded the Battle of Armageddon (dh-MNeiRTK5MmE-48); 'the Battle of Armageddon is recorded in 1447 BC by the Pharaoh' (dh-wbdnR9qs9MU-60). This claim takes only the year 1447 BC attached to the record."
+    statement_kind: reported
+    evidence_class: interpretive
+    confidence: low
+    evidential_weight: 1
+    anchor_checked: 'no'
+    adoption_weight: null
+    adoption_note: "Second-hand wording of Dead Hidden videos MNeiRTK5MmE and wbdnR9qs9MU from the handoff file. Not measured: no read source counts viewers or repeats."
+    would_change_if: "a chronology read puts the battle or the carving in 1447 BC, or the speaker's source is found and gives a stated reason"
+    anchor:
+      type: interpretive
+      description: >
+        Read as two possible meanings of 'recorded in 1447'. (a) The battle: the date line gives year 23; Breasted's table gives 1479 BC and the 2006 chronology 1457 BC for it, and 1447 BC is in Breasted's table the end of the reign (section 67 note h) and in the 2006 scheme year 33 (arithmetic ours); see megiddo-absolute-date-bce. (b) The carving of the account: no source read dates it; Sethe's heading says the wall piece covers years 22-24 and year 40 of the reign (megiddo-sethe-edition-covers-year-40), so the wall text includes a year-40 entry. Nothing was found that dates the wall to 1447 BC.
+      sources: [src-breasted-are1, src-hkw-chronology, src-sethe-urk4-h9-10]
+      nodes: [{node: megiddo-annals-year-23-battle-of-megiddo, verb: qualifies}]
+    basis: >
+      Kept proposed, not refuted: the speaker's basis may lie outside the sources read, no chronology was recomputed and the signs were not read.
+
+  - id: megiddo-sp-name-armageddon
+    state: searched_gap
+    statement: "The battle is called the Battle of Armageddon (dh-MNeiRTK5MmE-48; dh-wbdnR9qs9MU-60). This claim takes only the name."
+    statement_kind: search_result
+    evidence_class: interpretive
+    confidence: low
+    evidential_weight: 1
+    anchor_checked: 'no'
+    absence_anchor: true
+    adoption_weight: null
+    adoption_note: "Second-hand wording of Dead Hidden videos. Not measured."
+    would_change_if: "a source read gives the name Armageddon to the battle of year 23, or an Egyptian text read names the place with a form that is linked to it"
+    next_step: "Read a source on the origin of the name Armageddon and on how the Megiddo battle came to be called by it; none was read."
+    anchor:
+      type: search-record
+      description: >
+        Searched for 'Armageddon' in the OCR of Breasted vols. 1 and 2, Nelson 1913, Hornung, Krauss, Warburton 2006 and Barnhart's page: no hit in any of them. The text layer of Megiddo II (OIP 62, 1948) has the word only inside a bibliography title (P. L. O. Guy, 'New light from Armageddon'), not as a name for the battle. Sethe's German scan is listed as a source because its heading on p. 657 reads 'Die Schlacht bei Megiddo', but it was NOT searched for the name (the scan has no usable text layer; only the pages named in the manifest were viewed). The sources read call the event the Battle of Megiddo (Breasted's headings, Sethe's heading, Nelson's and Barnhart's titles). The origin of the name Armageddon was not researched.
+      sources: [src-breasted-are1, src-breasted-are2, src-nelson-1913, src-hkw-chronology, src-barnhart-web, src-megiddo2-oip62, src-sethe-urk4-h9-10]
+    basis: "Absence from the sources read. Capped at provisional (absence_anchor). It does not say who first used the name."
+
+  - id: megiddo-sp-egyptians-recorded-battle
+    state: proposed
+    statement: "The Egyptians recorded a battle at Megiddo (dh-MNeiRTK5MmE-48). This claim takes only that a record exists."
+    statement_kind: reported
+    evidence_class: interpretive
+    confidence: moderate
+    evidential_weight: 3
+    anchor_checked: secondary
+    adoption_weight: null
+    adoption_note: "Second-hand wording of a Dead Hidden video. Not measured."
+    would_change_if: "the readings of the Karnak wall are shown not to describe a battle at Megiddo"
+    anchor:
+      type: interpretive
+      description: >
+        Two independent readers agree that the Karnak Annals describe a battle at Megiddo: Breasted 1906 (sections 417-433, translated from earlier copies) and Krauss 2006 (reading Urk. IV 657 and the Megiddo date). Sethe's own heading on p. 657 is 'i. Die Schlacht bei Megiddo' (read directly), which is an editor's heading, not the scribe's. Nelson 1913 and Barnhart 2015 follow Sethe's copy and are not counted separately.
+      sources: [src-breasted-are2, src-hkw-chronology, src-sethe-urk4-h9-10]
+      nodes: [{node: megiddo-annals-year-23-battle-of-megiddo, verb: supports}]
+    basis: "A record of a battle at Megiddo exists in these readings; the details of what it says are in the other claims."
+
+  - id: megiddo-sp-vile-prince-gathered-armies
+    state: proposed
+    statement: "A vile (wicked) prince gathered others at Megiddo to fight Pharaoh (dh-MNeiRTK5MmE-48; dh-wbdnR9qs9MU-60). This claim takes only that an enemy leader gathered others at Megiddo to fight the king."
+    statement_kind: reported
+    evidence_class: interpretive
+    confidence: low
+    evidential_weight: 2
+    anchor_checked: 'no'
+    adoption_weight: null
+    adoption_note: "Second-hand wording of Dead Hidden videos. Not measured."
+    would_change_if: "the signs show different wording for who gathered whom, or the speaker's source is found"
+    anchor:
+      type: interpretive
+      description: >
+        The king's speech as read in Breasted (section 420), Nelson and Barnhart says the enemy of Kadesh has entered Megiddo, has gathered the rulers of countries as far as Naharin, and says he will fight the king there; see megiddo-translation-coalition-at-megiddo. Only the Egyptian side's account was read.
+      sources: [src-breasted-are2, src-nelson-1913, src-barnhart-web]
+    basis: "The core matches the translations as the king reports it. The words 'vile', 'prince', 'all the armies of the north' and 'valley of Megiddo' are weighed in their own claims."
+
+  - id: megiddo-sp-word-vile
+    state: proposed
+    statement: "The enemy is called vile (dh-MNeiRTK5MmE-48 and dh-wbdnR9qs9MU-60: 'a vile prince'). This claim takes only the adjective."
+    statement_kind: reported
+    evidence_class: interpretive
+    confidence: low
+    evidential_weight: 2
+    anchor_checked: 'no'
+    adoption_weight: null
+    adoption_note: "Second-hand wording of Dead Hidden videos. Not measured."
+    would_change_if: "the signs show a different word, or the speaker's source is found"
+    anchor:
+      type: interpretive
+      description: >
+        Barnhart's translation uses 'vile' for the enemy of Kadesh in the introduction, line 16 ('to overthrow that vile enemy') and line 87 ('the vile enemy of Kadesh'), with the Egyptian word given as Xsy and glossed 'vile, wretched'; the same word is 'wretched' in his line 19 (the council speech) and for the enemy of the town in line 87. Breasted (sections 420, 429, 430) and Nelson render it 'wretched'. Faulkner's and Lichtheim's renderings were not read. The word 'vile' is therefore present in one translation read and 'wretched' in two.
+      sources: [src-barnhart-web, src-breasted-are2, src-nelson-1913]
+    basis: "The adjective has a basis in one translation read. Which English word is closer to the Egyptian was not decided."
+
+  - id: megiddo-sp-title-prince
+    state: proposed
+    statement: "The enemy leader is a 'prince' (dh-MNeiRTK5MmE-48 and dh-wbdnR9qs9MU-60: 'a vile prince'). This claim takes only the title."
+    statement_kind: reported
+    evidence_class: interpretive
+    confidence: low
+    evidential_weight: 1
+    anchor_checked: 'no'
+    adoption_weight: null
+    adoption_note: "Second-hand wording of Dead Hidden videos. Not measured."
+    would_change_if: "the signs of line 19 give a title for the Kadesh leader and it is read as prince or ruler"
+    anchor:
+      type: interpretive
+      description: >
+        In Breasted's translation (section 420) the title in "[the chief] of Kadesh" is inside restoration brackets; Barnhart's line 19 reads 'that wretched enemy of Kadesh' with no title and Nelson's 'that [wretched] enemy of Kedesh'. The word 'princes' is used by Barnhart for the rulers the enemy gathered ('those princes of every foreign land', line 21) and Breasted renders it 'chiefs'; Breasted's preface says the word sr is often rendered prince but may mean official. Two glosses name the Kadesh leader as a king, and are labelled here as glosses, not as translations of the line: Breasted's note a to section 420 reads 'The king of Kadesh', placed on his restored '[the chief]', and Barnhart's introduction says the rebel states were 'led by the king of Kadesh'. In the translated lines themselves no title is clearly given to the Kadesh leader; 'prince' is applied in one translation to those he gathered.
+      sources: [src-breasted-are2, src-barnhart-web, src-nelson-1913, src-breasted-are1]
+    basis: "A reading of three translations that differ and restore. The signs were not read."
+
+  - id: megiddo-sp-all-armies-of-the-north
+    state: proposed
+    statement: "All the armies of the north were gathered (dh-MNeiRTK5MmE-48 and dh-wbdnR9qs9MU-60). This claim takes only 'all' and 'of the north'."
+    statement_kind: reported
+    evidence_class: interpretive
+    confidence: low
+    evidential_weight: 2
+    anchor_checked: 'no'
+    absence_anchor: true
+    adoption_weight: null
+    adoption_note: "Second-hand wording of Dead Hidden videos. Not measured."
+    would_change_if: "the signs show 'all' and a northern designation for the gathered forces"
+    anchor:
+      type: interpretive
+      description: >
+        The translations read name the gathered as the rulers of countries as far as Naharin, the Kharu and the Kode, with their horses and troops; Breasted puts 'all' in brackets (restored), Barnhart's line 21 has 'every foreign land' with signs missing. No translation read uses 'north' or 'armies of the north'. Breasted's note b says the phrase for the countries 'on the water of Egypt' is an idiom for 'subject to' Egypt, and Nelson and Barnhart render it 'subject to' and 'loyal to' Egypt, so the translations describe the gathered as formerly Egyptian dependents, not as armies of the north.
+      sources: [src-breasted-are2, src-nelson-1913, src-barnhart-web]
+    basis: "The translations differ from the speaker's wording on 'all' (restored) and 'north' (absent from the three translations read; an absence, capped at provisional). Signs not read."
+
+  - id: megiddo-sp-valley-of-megiddo
+    state: proposed
+    statement: "The gathering was in the valley of Megiddo (dh-MNeiRTK5MmE-48 and dh-wbdnR9qs9MU-60). This claim takes only the place description."
+    statement_kind: reported
+    evidence_class: interpretive
+    confidence: low
+    evidential_weight: 2
+    anchor_checked: 'no'
+    adoption_weight: null
+    adoption_note: "Second-hand wording of Dead Hidden videos. Not measured."
+    would_change_if: "the signs show a valley as the place of the enemy's gathering, or the speaker's source is found"
+    anchor:
+      type: interpretive
+      description: >
+        The translations read put the enemy inside or at Megiddo (the council speech: 'entered into Megiddo') and the Egyptian camp 'south of Megiddo on the bank of the brook of Kina' (Barnhart's line 83; Breasted section 428 'Camp in Plain of Megiddo' heading at section 429). Nelson's translation of the king's order mentions crossing the valley of the Kina in a restored passage. No translation read says the enemy gathered 'in the valley of Megiddo'. Nelson's dissertation places the armies on the plain by the Kina and studies the ground.
+      sources: [src-breasted-are2, src-barnhart-web, src-nelson-1913]
+    basis: "The place wording differs from the translations read; the signs were not read."
+
+  - id: megiddo-sp-exodus-around-1400
+    state: searched_gap
+    statement: "Then the Exodus happens, around 1400 BC (dh-MNeiRTK5MmE-48). This claim takes only the date of the Exodus."
+    statement_kind: search_result
+    evidence_class: interpretive
+    confidence: low
+    evidential_weight: 1
+    anchor_checked: 'no'
+    absence_anchor: true
+    adoption_weight: null
+    adoption_note: "Second-hand wording of a Dead Hidden video. Not measured."
+    would_change_if: "an Egyptian text, a dated archaeological layer or a scholarly argument that is read ties an Exodus to a year in the fifteenth century BC"
+    next_step: "Read a dated archaeological or textual treatment of the Exodus question and record the positions as named, sourced claims before weighing them; none of this dig's sources treats the event."
+    anchor:
+      type: search-record
+      description: "Searched the OCR of Breasted vols. 1 and 2, Nelson 1913, Hornung, Krauss, Warburton 2006 and Barnhart's page for 'Exodus': no hit. No source read discusses a date for an Exodus."
+      sources: [src-breasted-are1, src-breasted-are2, src-nelson-1913, src-hkw-chronology, src-barnhart-web]
+    basis: "Absence from sources that do not treat the question. Capped at provisional. No positions are filed."
+
+  - id: megiddo-sp-exodus-after-battle
+    state: searched_gap
+    statement: "The Exodus happened after the battle; 1400 BC was the start of a new age and the Exodus happened after the battle (dh-wbdnR9qs9MU-60). This claim takes only the order, the Exodus after the battle."
+    statement_kind: search_result
+    evidence_class: interpretive
+    confidence: low
+    evidential_weight: 1
+    anchor_checked: 'no'
+    absence_anchor: true
+    adoption_weight: null
+    adoption_note: "Second-hand wording of Dead Hidden video wbdnR9qs9MU. Its order (Exodus after the battle) is the reverse of the third wording (megiddo-sp-battle-right-after-exodus). Not measured."
+    would_change_if: "a source read ties an Exodus to the period after year 23 of Thutmose III"
+    next_step: "Same as megiddo-sp-exodus-around-1400."
+    anchor:
+      type: search-record
+      description: "The same search as megiddo-sp-exodus-around-1400: no mention of an Exodus in any source read. The order of events is not treated by any of them."
+      sources: [src-breasted-are2, src-nelson-1913, src-barnhart-web]
+    basis: "Absence from sources that do not treat the question. Capped at provisional."
+
+  - id: megiddo-sp-1400-new-age
+    state: searched_gap
+    statement: "1400 BC was the start of a new age (dh-wbdnR9qs9MU-60). This claim takes only this statement."
+    statement_kind: search_result
+    evidence_class: interpretive
+    confidence: low
+    evidential_weight: 1
+    anchor_checked: 'no'
+    absence_anchor: true
+    adoption_weight: null
+    adoption_note: "Second-hand wording of a Dead Hidden video. Not measured."
+    would_change_if: "a source read names 1400 BC as the start of a period and says what period"
+    next_step: "Ask for the speaker's stated meaning of 'age'; no source read uses the phrase."
+    anchor:
+      type: search-record
+      description: "Searched the OCR of Breasted vols. 1 and 2, Nelson 1913 and Barnhart's page for '1400': no hit. The Hornung, Krauss, Warburton OCR has 13 hits for '1400' in a chronology volume; they were not examined. The Megiddo II table has stratum boundaries at 1479 and 1350 BC, not 1400. No source read says a new age began in 1400 BC. The sentence's meaning is not known."
+      sources: [src-breasted-are1, src-breasted-are2, src-nelson-1913, src-barnhart-web, src-hkw-chronology, src-megiddo2-oip62]
+    basis: "Absence plus an undefined term. Capped at provisional."
+
+  - id: megiddo-sp-battle-right-after-exodus
+    state: searched_gap
+    statement: "The battle was fought by Egypt right after the Exodus (dh-MvDtwF6S2C4-12). This claim takes only the order, the battle after the Exodus."
+    statement_kind: search_result
+    evidence_class: interpretive
+    confidence: low
+    evidential_weight: 1
+    anchor_checked: 'no'
+    absence_anchor: true
+    adoption_weight: null
+    adoption_note: "Second-hand wording of Dead Hidden video MvDtwF6S2C4; the reverse of the order in wbdnR9qs9MU. Not measured."
+    would_change_if: "a source read ties an Exodus to the period before year 23 of Thutmose III"
+    next_step: "Same as megiddo-sp-exodus-around-1400."
+    anchor:
+      type: search-record
+      description: "The same search as megiddo-sp-exodus-around-1400: no mention of an Exodus in any source read."
+      sources: [src-breasted-are2, src-nelson-1913, src-barnhart-web]
+    basis: "Absence from sources that do not treat the question. Capped at provisional."
+
+  - id: megiddo-sp-amun-ra-new-god
+    state: proposed
+    statement: "The Egyptians added a new god Amun-Ra to their pantheon (dh-MvDtwF6S2C4-12). This claim takes only that Amun-Ra was new."
+    statement_kind: reported
+    evidence_class: interpretive
+    confidence: low
+    evidential_weight: 1
+    anchor_checked: 'no'
+    adoption_weight: null
+    adoption_note: "Second-hand wording of Dead Hidden video MvDtwF6S2C4. Not measured."
+    would_change_if: "a dated object or text earlier than the Megiddo account that names Amon-Re is shown to be misdated or misread, or a source is found that dates the first appearance of the god and does so after these texts"
+    anchor:
+      type: interpretive
+      description: >
+        Breasted's translations read name Amon-Re in texts he attributes to earlier reigns: Amenemhet I (vol. 1, section 484, 'for his father Amon-Re, lord of Thebes'); Thutmose I (vol. 2, sections 73, 88, 100); Thutmose II (127); Hatshepsut (sections 196, 219, 225, 253); and in the Megiddo account, 'my father Amon-Re' at section 418 and Amon-Re at section 425 (with Amon alone at sections 422, 423 and 430). A note ('Text has an Amon wrongly restored here') is printed after the start of section 424 in the OCR, so it may belong to section 423 or 424 (placement uncertain), and section 425 is partly bracketed. Barnhart's line 17 reads 'his father Amun Ra' in the introduction to the Annals. All are one translator's or a derived reading and the signs were not read. The dates of the earlier texts are Breasted's attributions.
+      sources: [src-breasted-are1, src-breasted-are2, src-barnhart-web]
+    basis: >
+      # V: the section hits were found by search on 2026-10-16 and checked in context for sections 484, 418, 425, 430 and the note printed after the start of section 424. The others were located by the nearest section marker in the OCR and read in the matching line.
+      Not called refuted: translations only, and the speaker's own sense of 'new' is unknown.
+
+  - id: megiddo-sp-amun-ra-after-megiddo
+    state: proposed
+    statement: "The new god Amun-Ra was added after the battle of Megiddo (dh-MvDtwF6S2C4-12). This claim takes only the timing, after the battle."
+    statement_kind: reported
+    evidence_class: interpretive
+    confidence: low
+    evidential_weight: 1
+    anchor_checked: 'no'
+    adoption_weight: null
+    adoption_note: "Second-hand wording of Dead Hidden video MvDtwF6S2C4. Not measured."
+    would_change_if: "a source read dates the first naming of Amon-Re after year 23 of Thutmose III"
+    anchor:
+      type: interpretive
+      description: >
+        The same readings as megiddo-sp-amun-ra-new-god: Amon-Re is named in the Megiddo account itself (Breasted sections 418, 425) and in texts translated from earlier reigns. No source read dates the introduction of the god.
+      sources: [src-breasted-are2, src-breasted-are1]
+    basis: "A reading of one translator. Signs not read."
+
+  - id: megiddo-sp-amun-ra-is-god-of-moses
+    state: searched_gap
+    statement: "Amun-Ra is the god of Moses, recognised by Egypt (dh-MvDtwF6S2C4-12; second-hand wording: 'the speaker says it is the god of Moses recognized by Egypt')."
+    statement_kind: search_result
+    evidence_class: interpretive
+    confidence: low
+    evidential_weight: 1
+    anchor_checked: 'no'
+    absence_anchor: true
+    adoption_weight: null
+    adoption_note: "Second-hand wording of a Dead Hidden video. Not measured."
+    would_change_if: "a text or scholarly argument that is read identifies the god of Moses with Amun-Re, or a source the speaker names is found"
+    next_step: "Ask the owner for the speaker's stated source, or read the video's transcript around this claim; no source read here discusses Moses."
+    anchor:
+      type: search-record
+      description: "Searched Breasted vols. 1 and 2, Nelson 1913, Hornung, Krauss, Warburton 2006 and Barnhart's page for 'Moses': hits only inside the names Thutmose and Ahmose, and one hit in the Hornung, Krauss, Warburton OCR that is a bibliography title (Lepsius, 'Die Buecher Moses und Aegypten', 1841) and not a statement about a god. Breasted's only nearby remark is section 756 (Semitic captives at Amon-temple works, about labour, not about a god)."
+      sources: [src-breasted-are1, src-breasted-are2, src-nelson-1913, src-barnhart-web, src-hkw-chronology]
+    basis: "Absence from sources that do not treat the question. Capped at provisional. A theological identification is not something these sources could show either way."

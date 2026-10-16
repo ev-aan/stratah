@@ -1,0 +1,10 @@
+# Proposal for the owner. build/taxonomy.yaml is owner-only; this dig does not edit it.
+# Suggested line for `assignments:` in build/taxonomy.yaml (all keys exist in that file's `areas` and `question_types`):
+#   megiddo-campaign-1447: {area: archaeology_texts, areas: [history, religion_myth, media_misinformation], types: [what_does_it_mean, is_claim_true], popular_claims: true}
+proposal:
+  subject: megiddo-campaign-1447
+  area: archaeology_texts
+  areas: [history, religion_myth, media_misinformation]
+  types: [what_does_it_mean, is_claim_true]
+  popular_claims: true
+  why: "The dig asks what an ancient inscription says (what does it say or mean) and whether a widely shared set of claims about it matches it (is a widely shared claim true). The popular claims are speaker claims about a date, an Exodus and a god."

@@ -1,0 +1,207 @@
+# Sources for the megiddo-campaign-1447 dig, with authenticity entries (rules A1-A10, build/SCHEMA.md).
+# Revised 2026-10-16 (round 2, after the independent review of PR #32). The log (log.yaml) keeps the earlier state of this list; this file shows the current one.
+# Only public-domain material is stored in the repository: verbatim OCR extracts of Breasted 1906 and Nelson 1913 (sources/extracts/pd-extracts.txt) and the builder's
+# transcription of the German handwriting on a few pages of Sethe 1907 (sources/extracts/sethe-urk4-german-text-transcribed.txt). Page images, the Barnhart page and
+# photographs, the Brill chronology volume and the Megiddo excavation volume are NOT stored; they are cited by URL, with the sha256 of the file that was read.
+# sha256 of sources/extracts/pd-extracts.txt as of the L-14 fix: 2873c01d7b67c9decd6d6223e0794b0f24b8c526160c79519dc9c6a63c3ca57f
+# Tests were run in the dig sessions (2026-10-14 and 2026-10-16), which are not independent reviews.
+retrieved: 2026-10-16
+sources:
+
+  - id: src-sethe-urk4-h9-10
+    title: "K. Sethe, Urkunden der 18. Dynastie (Urkunden des aegyptischen Altertums, Abt. IV), Heft 9/10, Leipzig: Hinrichs, 1907, pp. 625 ff.; pages read: 644-647 (heading, editor's notes, lines 1-17), 648-650, 655-658 (lines 77-88: camp, date line, battle). Scan: Internet Archive item urkundenderdyna00helcgoog (Harvard copy, Google scan)"
+    url: https://archive.org/details/urkundenderdyna00helcgoog
+    document_class: "primary-text edition: a hand-copied (autograph) hieroglyphic text of the Annals wall at Karnak, with the editor's German headings and footnotes. It is a copy made by the editor, collated against the wall in 1905 by his own statement (p. 646), not the wall."
+    read: "YES for the German text of the editor's headings, notes and the page numbers (read directly from the page images, 2026-10-16; transcribed in sources/extracts/sethe-urk4-german-text-transcribed.txt). The hieroglyphic lines were VIEWED page by page (pp. 647-650, 655-658) and were not independently transliterated by the builder; no claim rests on a builder's reading of the signs. For the signs, the dig relies on the two published transliterations (Krauss in src-hkw-chronology; Barnhart in src-barnhart-web) and on translations."
+    authenticity:
+      status: authenticated
+      strength: moderate
+      provenance: "Item metadata: book digitized by Google from the library of Harvard University and uploaded to the Internet Archive by the user 'tpb'; 491 page images. Title in the table of contents: 'Inhalt des 3. Bandes der 4. Abteilung. Historisch-biographische Urkunden der 18. Dynastie, Heft 9/10: Zeit Thutmosis' III' (read). Not compared with a holder copy."
+      tests:
+        - "Page IV 657 carries Sethe's heading 'i. Die Schlacht bei Megiddo' (read) and Hornung, Krauss and Warburton (src-hkw-chronology) cite the battle date as Urk. IV 657 (could have failed)"
+        - "Page IV 647 has the date line of year 22 and the footnote 'Datum nach Champ.; jetzt das Ende zerstört'; Hornung (src-hkw-chronology, p. 202) cites the year-22 date as Urk. IV 647,12 and Barnhart's page says it covers pp. 647-667, lines 1-103 (could have failed)"
+        - "Sethe's note on p. 646 says that Breasted's restorations (Ancient Records II section 407 ff.) disregard the size of the gaps; Breasted's volume was read directly and has the bracketed restorations Sethe refers to (src-breasted-are2) (could have failed)"
+      tested_by: "Stratah dig session, 2026-10-16 (not an independent review)"
+      gaps: ["The scan has no stated rights status; the page images are not stored", "The pages in the PDF are partly duplicated (pp. 651-655 occur twice) and out of order: the page number printed on each plate was used, not the PDF page number", "Signs not transliterated by the builder", "Not compared with the wall or a squeeze; Sethe says the squeezes (Berlin Abdr. 468, 469) show more than the wall now does"]
+      next_step: "An Egyptologist reads the date line (p. 657, lines 84-85) and the council speech (p. 649) from the plates and compares with the Berlin squeezes and a wall photograph."
+      checked: 2026-10-16
+      copy_of: "Sethe, Urkunden der 18. Dynastie, Heft 9/10 (1907)"
+      sha256: "4561c68c5fdafe70ed4a8326154d08ce529d9ea748213b4d459a908c0cff62f4 (urkundenderdyna00helcgoog.pdf, 491 pages, downloaded to the session scratch area only)"
+      compared_with_holder_copy: "no"
+    notes: "Printed page numbers to PDF pages in the copy read: IV 644 = pdf 57, IV 645 = 58, IV 646 = 59, IV 647 = 60 (also 48), IV 648-650 = 49-51, IV 655 = 56, IV 656 = 69, IV 657 = 70, IV 658 = 71."
+
+  - id: src-hkw-chronology
+    title: "E. Hornung, R. Krauss, D. A. Warburton (eds.), Ancient Egyptian Chronology (Handbook of Oriental Studies I.83), Leiden: Brill, 2006. Read: Hornung p. 202 (dates of Thutmose III's years 21-33); R. Krauss, chapter III.8, pp. 420-422 (lunar dates of Thutmose III); summary of chapter II.8, pp. 478-479; the closing 'Resume'"
+    url: https://archive.org/details/AncientEgyptianChronology_201303
+    document_class: "interpretive: a multi-author modern chronology with stated astronomical method. Copyrighted (Brill, 2006): cite the book as the work; the Internet Archive upload is an access path only; nothing is stored in this repository and only short fragments are quoted."
+    read: "yes, directly (Internet Archive OCR text, sha256 200f0ab80875c29db1652ed6b73e86e050f4f849ebf24331fe98af8873fbce39): the pages named above, in full. Tables III.8.12 and III.8.13 are garbled in the OCR and were not used; the prose around them was."
+    authenticity:
+      status: authenticated
+      strength: moderate
+      provenance: "Title page, ISBN 978-90-04-11385-5 and the Brill copyright line 2006 are in the OCR; the item is a 2013 upload to the Internet Archive of an electronic copy. Rights status of the upload not checked."
+      tests:
+        - "Krauss's text cites 'Urk. IV, 657' for the battle date and gives the transliteration of that line; the same line appears in Barnhart's transliteration of Sethe's page (src-barnhart-web) with the same numerals and words (could have failed)"
+        - "Hornung's citation of the year-22 date at Urk. IV 647,12 and Gaza at 648,9 agree with Sethe's page numbers and with the dates in Breasted sections 415 and 417 (could have failed)"
+      tested_by: "Stratah dig session, 2026-10-16 (not an independent review)"
+      gaps: ["OCR only; the tables are garbled", "The statement that Kitchen and Beckerath also give 1479 BC for the accession of Thutmose III is the book's own summary; Kitchen and Beckerath were not read", "Parker, Faulkner, Wente, Helck and Spalinger are known here only as the book reports them"]
+      next_step: "Read Kitchen's and Beckerath's chronologies directly and the astronomical tables of Table III.8.13."
+      checked: 2026-10-16
+      copy_of: "Hornung, Krauss, Warburton (eds.), Ancient Egyptian Chronology, Brill 2006"
+      sha256: "200f0ab80875c29db1652ed6b73e86e050f4f849ebf24331fe98af8873fbce39 (the OCR text file)"
+      compared_with_holder_copy: "no"
+
+  - id: src-nelson-1913
+    title: "H. H. Nelson, The Battle of Megiddo (doctoral dissertation, University of Chicago, 1913; private edition, Chicago Libraries). Internet Archive item battleofmegiddo00nels"
+    url: https://archive.org/details/battleofmegiddo00nels
+    document_class: "interpretive: a 1913 dissertation with a translation of Annals lines 18-49 and following, stated to be based on Sethe's text, with Breasted's chronology"
+    read: "yes, directly in the OCR (sha256 fa99a0a7882dd0e0e2caf92c1a4e114cd2dfb6d4d15f2f7c3f675f9b2c20c37b): preface, the translation of lines 19-28, the dates on pp. 6-7 and 48, the notes naming the dates and places. Not read in full."
+    authenticity:
+      status: authenticated
+      strength: moderate
+      provenance: "Title page 'The University of Chicago. The Battle of Megiddo. A dissertation ... by Harold Hayden Nelson. Private Edition, distributed by the University of Chicago Libraries, 1913' (read in the OCR). The preface says the text was printed in Beirut in 1913 and illustrations were added after the war."
+      tests:
+        - "Nelson's statement that his text follows 'Sethe's Urkunden der 18. Dynastie, pp. 647-667' agrees with the page range on Sethe's plates (could have failed)"
+      tested_by: "Stratah dig session, 2026-10-16 (not an independent review)"
+      gaps: ["OCR only", "Nelson states that his chronology is Breasted's, so his calendar dates (for example 15 May 1479) are not a second chronology", "Nelson acknowledges Breasted's help and sometimes adopts Breasted's wording, so his translation is not independent of Breasted's"]
+      next_step: "None needed for this dig beyond what is recorded."
+      checked: 2026-10-16
+      copy_of: "Nelson, The Battle of Megiddo (1913)"
+      sha256: "fa99a0a7882dd0e0e2caf92c1a4e114cd2dfb6d4d15f2f7c3f675f9b2c20c37b (OCR text file)"
+      compared_with_holder_copy: "no"
+    notes: "Public domain in the United States (1913); verbatim extracts are stored in sources/extracts/pd-extracts.txt."
+
+  - id: src-breasted-are2
+    title: "J. H. Breasted, Ancient Records of Egypt vol. 2, The Eighteenth Dynasty (Chicago: University of Chicago Press, 1906), sections 391-433 (the Annals, first campaign), 756, 879 (note)"
+    url: https://archive.org/details/ancientrecordsof02brea
+    document_class: "interpretive: translation with commentary, made from the Lepsius plates and copies; Breasted says the complete text had not been edited together (section 391 note). Series 'Ancient Records under the general editorship of William Rainey Harper' (title page, read)."
+    read: "yes, directly (Internet Archive OCR text, sha256 cfd690f1a1858e162bf9c67969f02f2e963fc6a71271cf3e481d421621e7eb11): sections 391-433 and notes; every hit for Israel, Hebrew, Armageddon, Exodus, Moses, Jacob, Joseph, Canaan and Jerusalem in the whole volume (listed in log entry L-08)"
+    authenticity:
+      status: authenticated
+      strength: moderate
+      provenance: "Item ancientrecordsof02brea on the Internet Archive, contributor Harold B. Lee Library, sponsor Brigham Young University (item metadata). Title page and copyright page in the OCR say Volume II, University of Chicago Press, published March 1906. Not compared with a holder copy."
+      tests:
+        - "Title page, volume number, publisher and 'Published March 1906' read in the OCR and agree with the Internet Archive metadata (could have failed)"
+        - "Breasted's citations of the Annals text to Lepsius, Denkmaeler III, 31 b and 32 (section 406) agree with the captions of the plates in src-lepsius-denkmaeler-abth3 (could have failed)"
+        - "Breasted's note a to section 415 (the year-22 date at Tharu), that the day 'is lacking in Lepsius and Brugsch, but is preserved by Champollion's early copy', agrees with Sethe's own note on p. 647 'Datum nach Champ.' (src-sethe-urk4-h9-10); the note to section 417 (Gaza) is a different one, Maspero 'third day' against Brugsch 'fourth' (could have failed)"
+      tested_by: "Stratah dig session, 2026-10-14 and 2026-10-16 (not an independent review)"
+      gaps: ["OCR only; the calendar table at section 409 is garbled", "The translation was made before Sethe's edition (1907); Sethe says Breasted's restorations in sections 407 ff. often do not fit the gaps (p. 646)", "Section numbers of hits were found by the nearest preceding section marker in the OCR and checked against the printed context"]
+      next_step: "Compare Breasted's bracketed restorations with Sethe's plates line by line with an Egyptologist."
+      checked: 2026-10-16
+      copy_of: "Breasted, Ancient Records of Egypt II (1906)"
+      sha256: "cfd690f1a1858e162bf9c67969f02f2e963fc6a71271cf3e481d421621e7eb11 (OCR text file)"
+      compared_with_holder_copy: "no"
+    notes: "Public domain; verbatim extracts stored in sources/extracts/pd-extracts.txt. Who paid for the Chicago volumes is an open research task (log L-09)."
+
+  - id: src-breasted-are1
+    title: "J. H. Breasted, Ancient Records of Egypt vol. 1, The First to the Seventeenth Dynasties (Chicago: University of Chicago Press, 1906), preface; chronology section 67 and notes; section 484"
+    url: https://archive.org/details/ancientrecordsof01brea
+    document_class: "interpretive: translation with commentary"
+    read: "yes, directly (Internet Archive OCR text, sha256 ed9d9888de82a2a8ed635911b3adf0a7764b1f125efe4bfed1fe2673b61cb370): preface (both passages), section 67 and its notes f and h, section 484; and a search of the whole volume for the names listed in log L-08"
+    authenticity:
+      status: authenticated
+      strength: moderate
+      provenance: "Item ancientrecordsof01brea on the Internet Archive; same series and year as vol. 2. Holder and scan sponsor not recorded here."
+      tests:
+        - "Section 67's statement that the reign is 'May 3, 1501, to March 17, 1447 B. C.' appears in note h and agrees with the table that follows it (could have failed)"
+      tested_by: "Stratah dig session, 2026-10-14 and 2026-10-16 (not an independent review)"
+      gaps: ["OCR only", "Breasted's chronology is a 1906 scheme (Meyer's lunar computation, after Mahler and Lehmann); the modern chronology read (src-hkw-chronology) is a different scheme"]
+      next_step: "Read Meyer's computation (Zeitschrift fuer aegyptische Sprache 1888-1901) or a later review of it."
+      checked: 2026-10-16
+      copy_of: "Breasted, Ancient Records of Egypt I (1906)"
+      sha256: "ed9d9888de82a2a8ed635911b3adf0a7764b1f125efe4bfed1fe2673b61cb370 (OCR text file)"
+      compared_with_holder_copy: "no"
+
+  - id: src-lepsius-denkmaeler-abth3
+    title: "C. R. Lepsius, Denkmaeler aus Aegypten und Aethiopien, Abtheilung III, Blatt 31 and 32 (Berlin: Nicolai, 1849-1859), Karnak inscriptions beside the Cella of Philippus. Scan: Internet Archive item dli.calcutta.09958 (Band 5), images n34 and n35"
+    url: https://archive.org/details/dli.calcutta.09958
+    document_class: "plate drawings of the wall made by a Prussian expedition (1842-1845); a 19th-century copy, not the wall."
+    read: "viewed, not read. Plate captions read (Bl. 31: 'Karnak. Inschriften. a. vor b. neben der Cella des Philippus'; Bl. 32: 'Karnak. Inschrift neben der Cella des Philippus'). The hieroglyphic lines were not transliterated."
+    authenticity:
+      status: authenticated
+      strength: weak
+      provenance: "Digital Library of India scan on the Internet Archive; scan sponsor and rights status not given in the item metadata (no image is stored in the repository). Plate numbers and subject match Breasted's citation of 'Lepsius, Denkmaeler III, 31 b and 32' (src-breasted-are2 section 406) and Sethe's note on p. 645 ('Leps. Denkm. III 31 b - 32')."
+      tests:
+        - "Plate captions say Karnak, beside the Cella of Philippus; Breasted's note to section 391 says the Annals walls surround the granite sanctuary that Philip Arrhidaeus inserted (could have failed)"
+      tested_by: "Stratah dig session, 2026-10-14 (not an independent review)"
+      gaps: ["Signs not read", "Sethe says Lepsius's copy has gaps that the wall and the Berlin squeezes fill and that Brugsch's copy depends on it (p. 645-646)"]
+      next_step: "Compare Lepsius Bl. 31 b and 32 with Sethe's plates for the date line, with an Egyptologist."
+      checked: 2026-10-14
+      sha256: "3e196da5e1beddcb0e9106c668f075f2dace302275fb214f556153b9fd584f3f (n34.jpg, Bl. 31) and ddcd5f19a8757eaed4ca043da064de825ea1e713d38d9bf2cd19b129e20c88f0 (n35.jpg, Bl. 32), files downloaded to the session scratch area only"
+      copy_of: "Lepsius, Denkmaeler Abth. III Bl. 31, 32"
+      compared_with_holder_copy: "no"
+    notes: "Not stored. Cite by URL only until the licence of this scan is confirmed."
+
+  - id: src-barnhart-web
+    title: "Rhio H. Barnhart, The Battle and Siege of Megiddo: Transliteration, translation and some notes (personal web page, rhbarnhart.net), lines 1-103 of the Annals, from Sethe Urk. IV 647-667"
+    url: https://www.rhbarnhart.net/The_Battle_of_Megiddo.html
+    document_class: "interpretive: a personal web page with the author's own transliteration and translation of Sethe's hand-copied text, written for a hieroglyph study group (the page says it was started 20 April 2014 and completed 11 March 2015). Copyright status not stated; only short fragments are quoted; nothing is stored."
+    read: "yes, the whole page was fetched directly and read line by line on 2026-10-16 (html sha256 9880b54624f43f47f1d36a019c44cfacbc6215b9e2c29dcec53776420d28f04d): introduction, every numbered line 1-103 with its notes, and the bibliography. This replaces the earlier 'fetched and summarised' entry."
+    authenticity:
+      status: authenticated
+      strength: weak
+      provenance: "Fetched from the author's own site. The page names the author (Rhio H. Barnhart), lists two contact addresses (one at ucdavis.edu, one at a webmail domain) and states no affiliation, role or funding in its text. Its source text is Sethe's hand-copied text (pp. 647-667), which is why it is a derived reading of the same copy and not an independent witness to the wall. Its bibliography lists Breasted 1906, Brugsch, Budge, Faulkner (a dictionary and JEA 28, 1942), Gardiner, Hoch, Lichtheim (2006), Nelson, Sethe and Vygus; the notes say Faulkner, Lichtheim and Breasted were consulted."
+      tests:
+        - "The numerals and words of the battle date line (year 23, first month of Shemu, day 21, feast of the new moon, 'exactly') agree with the transliteration in Krauss (src-hkw-chronology) and the numerals agree with Breasted's translation of the same line (could have failed)"
+        - "The year-22 date (month 4 of Peret, day 25), Gaza (I Shemu 4) and Yehem (I Shemu 16) lines agree with the dates Hornung gives from Urk. IV 647,12, 648,9 and 649,3 (could have failed)"
+      tested_by: "Stratah dig session, 2026-10-16 (not an independent review)"
+      gaps: ["Derived from Sethe's copy, so it adds no second reading of the wall", "The author says some signs under Sethe's hatching cannot be made out and that some words are uncertain", "Author's training and affiliation not stated in the page text; the page says it is a study-group exercise"]
+      next_step: "Compare the transliteration with Sethe's plates, sign by sign, with an Egyptologist."
+      checked: 2026-10-16
+      sha256: "9880b54624f43f47f1d36a019c44cfacbc6215b9e2c29dcec53776420d28f04d (megiddo.html)"
+      copy_of: "none (original web page)"
+      compared_with_holder_copy: "not_applicable"
+    notes: "The page says 'The battle and siege of Megiddo took place, according to current scholarly calculations, in 1457 BC' and names no chronology; its own sentence 'the city of Megiddo in Israel' uses Israel as the modern country."
+
+  - id: src-barnhart-photomontage
+    title: "Photomontage of the Battle of Megiddo inscription, lines 1-67 (rhbarnhart.net/Annals_1-67.html; image Annals_Lines_1-67_copy.jpg), credited 'Created by and used courtesy of Mark Vygus'"
+    url: https://www.rhbarnhart.net/Annals_1-67.html
+    document_class: "photograph of the wall (a photomontage by a third party)"
+    read: "viewed on 2026-10-16 (image sha256 313c07459cafc8877f26f5a18c62467f2a111687190bbcf8c2ca0cc97865ffc3, 5978 by 922 px). It shows the damaged upper and lower edges of the wall and the columns of signs. No signs were read from it."
+    authenticity:
+      status: unchecked
+      next_step: "Ask the creator for licence and a full-resolution image; compare with Sethe's plates."
+    notes: "Not stored: no licence stated."
+
+  - id: src-barnhart-wall-photos
+    title: "Wall photographs of Annals lines 1-98 on rhbarnhart.net/Megiddo_wall.html (Lines_001-007.jpg to Lines_083-089.jpg), supplied to the page by Mark Vygus"
+    url: https://www.rhbarnhart.net/Megiddo_wall.html
+    document_class: "photographs of the wall (third party; the page says 'kindly supplied by Mark Vygus'; no licence stated)"
+    read: "viewed on 2026-10-16: Lines_083-089.jpg (sha256 5bdffc61dbc4c56f9a0549aea40f74ef8af3b56b55598207b5912b5551b5e3e9) and Lines_078-098.jpg (sha256 b09419d405df7d4408e2570dd7acc361b5b650c6734970f43b410cc9c4f328d3). They show columns of raised-relief signs with horizontal block joints and breaks in the stone. The builder did not read the signs from them. The other 17 files on that page were downloaded (hashes not recorded here) and not viewed."
+    authenticity:
+      status: unchecked
+      next_step: "An Egyptologist compares the date-line column in these photographs with Sethe's plate IV 657."
+    notes: "Not stored: no licence stated."
+
+  - id: src-megiddo2-oip62
+    title: "G. Loud, Megiddo II: Seasons of 1935-39 (Oriental Institute Publications 62), Chicago: University of Chicago Press, 1948, Text; chronological table on printed text page 5 (PDF page 29)"
+    url: https://archive.org/details/oip62_text
+    document_class: "excavation report (the expedition's own chronological table). Copyright held by the University of Chicago; free online by the Oriental Institute. Not stored."
+    read: "partly: the chronological table (printed p. 5) was read; the text layer (OCR, 305 PDF pages, 901,927 characters) was searched for the spellings Thutmose, Thutmosis, Tuthmosis, Thothmes and Annals with no hit. The strata chapters were not read."
+    authenticity:
+      status: authenticated
+      strength: moderate
+      provenance: "Item oip62_text on the Internet Archive from the Oriental Institute's PDF (91,113,743 bytes); title page 'Megiddo II, Seasons of 1935-39, Text, by the Megiddo Expedition, Gordon Loud, Field Director' read."
+      tests:
+        - "Title page, volume number LXII and the chronological table are in the PDF text (could have failed)"
+      tested_by: "Stratah dig session, 2026-10-16 (not an independent review)"
+      gaps: ["Strata VIII to X were not read", "The table gives dates for strata, not a stated reason for the boundary at 1479"]
+      next_step: "Read the Stratum IX and VIII chapters and the later Megiddo volumes (Finkelstein, Ussishkin, Halpern) on how the late Middle Bronze and Late Bronze strata are dated."
+      checked: 2026-10-16
+      copy_of: "Loud, Megiddo II (1948), OIP 62"
+      sha256: "8321ac1632639a42677b9bbf94494b65e59a41a5f319e2e7adfcbe54f156ec13 (oip62_text.pdf)"
+      compared_with_holder_copy: "no"
+
+  - id: src-dh-claims
+    title: "Dead Hidden YouTube claims dh-MNeiRTK5MmE-48, dh-wbdnR9qs9MU-60, dh-MvDtwF6S2C4-12 (wording as given in the handoff file)"
+    url: ""
+    document_class: "speaker claims (captions of videos). Never an anchor. Cited by no claim as a source; it is named only in statements, adoption notes and the transmission record."
+    read: "NOT opened. The wording is second-hand: it comes from the handoff file handoff/megiddo-campaign-1447.yaml (as_stated), which is not in the repository. The claims files and the videos were not opened or watched."
+    authenticity:
+      status: unchecked
+      next_step: "Compare the handoff wording with the claims files or the video transcripts when they are available."
+
+not_accepted_as_anchors:
+  - "Wikipedia: orientation only, and not used"
+  - "Search-engine summaries and snippets: leads, not reads (the earlier entry for them was retired from this list; no claim cites it)"
+  - "The Dead Hidden videos and the handoff wording"
+  - "A translation or a web copy of a book as a witness to the wall: a claim that needs the object or its images"

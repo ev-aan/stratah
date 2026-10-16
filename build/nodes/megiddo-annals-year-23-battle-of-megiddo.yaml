@@ -1,0 +1,28 @@
+# Shared node. Append-only: a change is a new `rev` plus a `history` entry, never an overwrite. See build/SCHEMA.md, Nodes.
+id: megiddo-annals-year-23-battle-of-megiddo
+rev: 1
+type: event
+label: 'Year 23 of Thutmose III: the Karnak Annals record a battle at Megiddo (absolute year not established; Breasted 1906 reckons 1479 BCE)'
+time: '-1479-01-01'
+precision: year
+date_basis: derived
+kind: document
+status: single
+what: >-
+  Breasted's 1906 translation of the Karnak Annals gives the battle as "Year 23, first (month) of the third season (ninth month), on the twenty-first day, the day of the feast of the new moon" (section 430), against a campaign that set out in year 22 (section 415). That is a regnal date. Breasted's chronology (vol. 1, section 67) puts the reign from 3 May 1501 to 17 March 1447 BCE, so year 23 is 1479 BCE on his scheme; the year here is derived from that, not stated in the text. Later calculations differ (see the variant node). The place is Megiddo, where the translation says the enemy led by the chief of Kadesh was defeated and then shut inside the city.
+place:
+  name: 'Megiddo (the Annals call it My-k-ty in Breasted 1906 transliteration); battle on the plain south and north-west of the city'
+  note: 'Named by Breasted 1906, sections 428 to 430. No coordinates given: none were read from a gazetteer and none are guessed here.'
+sources:
+- title: 'J. H. Breasted, Ancient Records of Egypt vol. 2 (Chicago: University of Chicago Press, 1906), sections 406-433; vol. 1 section 67 (chronology). Internet Archive OCR read.'
+  url: https://archive.org/details/ancientrecordsof02brea
+  authenticity: a 1906 translation with commentary; a claim, not the object (see the megiddo-campaign-1447 manifest)
+  origin: breasted-1906
+  source_type: scholarly
+  access: read
+manifest: {subject: megiddo-campaign-1447, source: src-breasted-are2}
+created: '2026-10-14'
+history:
+- rev: 1
+  date: '2026-10-14'
+  change: Created by the megiddo-campaign-1447 dig. The BCE year is derived by subtracting 22 years from Breasted's accession year 1501; it is Breasted's scheme, not a finding.

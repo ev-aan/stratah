@@ -1,0 +1,322 @@
+# Verbatim OCR extracts from public-domain works: J. H. Breasted, Ancient Records of Egypt vols. 1-2 (Chicago, 1906) and H. H. Nelson, The Battle of Megiddo (Chicago, 1913).
+# Source: Internet Archive full-text OCR; file hashes are in sources/MANIFEST.yaml. OCR noise is left as it is. Elisions are marked [...]. Line numbers are lines of the OCR file.
+# Breasted's own restoration brackets and notes are kept, and so are the notes that qualify the text (for example the note that an Amon was wrongly restored in section 423 or 424 (placement uncertain)).
+
+=== Breasted vol. 2 (1906), OCR lines 10559-10575: section 391, the Annals described ===
+391.  This  document,  containing  no  less  than  223  lines, 
+is  the  longest  and  most  important  historical  inscription  in 
+Egypt,  and  forms  the  most  complete  account  of  the  military 
+achievements  of  any  Egyptian  king.  It  demonstrates  the 
+injustice  of  the  criticism  that  the  Egyptians  were  incapable 
+of  giving  a  clear  and  succinct  account  of  a  military  campaign, 
+for  it  shows  plainly  that  at  least  in  this  reign  careful,  system- 
+atic records  were  made  and  preserved  in  the  royal  archives, 
+
+
+^They  occupy  the  inside  of  the  walls  inclosing  the  corridor  which  surrounds 
+the  granite  holy  of  holies  of  the  great  Karnak  temple  of  Amon.  These  walls  were 
+built  by  Thutmose  III,  forming  a  large  sandstone  chamber  (into  which  the  granite 
+holy  of  holies  was  finally  inserted  by  Phillip  Arrhidaeus)  about  25  meters  in  length 
+from  east  to  west,  and  12  meters  wide.  The  east  end  was  left  bare.  The  Annals, 
+beginning  at  the  northeast  corner,  read  westward  along  the  north  wall,  and  south- 
+ward along  the  west  wall,  terminating  at  the  door  in  the  center  of  this  wall.  At 
+
+=== Breasted vol. 2, OCR lines 11511-11551: section 415 (Tharu, year 22) and section 417 (Gaza) with the notes printed on the page. The first note below (The day is lacking in Lepsius and Brugsch ... Champollion) is note a to section 415 (the twenty-fifth day), not to section 417; the note to section 417 is the one that begins Maspero ... has third day, but the text of Brugsch has fourth ===
+415.  Year  22,  fourth  month  of  the  second  season  (eighth  month), 
+on  the  twenty-fifth^  day  [his  majesty  was  in]  ^Tharu  {T  ^-rw)  on  the  first 
+victorious  expedition  to  [extend]  ^the  boundaries  of  Egypt  with  might 
+
+
+Revolt  in  Asia 
+
+416.  9N0W,  (at)  that  period^   fthe  Asiatics  had  fallen  into]  '^°dis- 
+
+agreementji  each   man   [fighting •=]   against  [rfiis   neighbor!]   . 
+
+^'Now^  it  happened  ^that  the  tribes'" the  people,  who  were  there 
+
+"in  the  city  of  Sharuhen  (§^-r^-k^-n);  behold,  from  Yeraza^  (Y-r^-d^) 
+^Ho  the  marshes  of  the  earth,^  (tbey)  had  begun  to  revolt  against  his 
+majesty. 
+
+Arrival  in  Gaza,  Feast  of  Coronation 
+
+417.  Year  23,  first  (month)  of  the  third  season  (ninth  month),  on 
+the  fourth  day,®  the  day  of  the  feast  of  the  king's  coronation,  (he  arrived) 
+^"^at  the  city,  ^the  possession  of  the  ruler ,^  Gaza^  (G  ^-d  ^-tw) . 
+
+
+^The  day  is  lacking  in  Lepsius  and  Brugsch,  but  is  preserved  by  Champollion's 
+early  copy  (Champollion,  Notices  descriptives,  II,  154). 
+
+^Or:  "Now,  at  the  time  of  these  ^events,  during  years^;**  there  are  traces  of  the 
+last  two  words  {m  rnp '  wt)  at  the  end,  before  the  lacuna. 
+
+^Restored  from  the  determinative. 
+
+<iThat  is,  from  northwestern  Judea  to  beyond  the  Euphrates. 
+
+®Maspero  {Recueil,  II,  50,  and  Struggle  of  the  Nations,  255  f.)  has  third  day, 
+but  the  text  of  Brugsch  has  fourth;  moreover,  the  table  of  feasts  on  the  south  wall 
+at  Karnak  (Mariette,  Karnak,  PI.  14,  b;  Rouge,  Inscriptions  hieroglyphiques,  164) 
+has  (1.  7) :  "  The  first  month  of  the  third  season,  fourth  day,  the  feast  of  the  coronation 
+of  the  king  of  Upper  and  Lower  Egypt,  Menkheperre  (Thutmose  III)y  Pylon  VII 
+(§  594)  gives  the  same  date. 
+
+
+=== Breasted vol. 2, OCR lines 11579-11612: sections 420-421 with notes a to e (note a, The king of Kadesh, is an editorial gloss on the restored [the chief]) ===
+420.  [His  majesty]  ordered  ^^a  consultation  with  his  vaUant  troops, 
+saying  as  follows:  ''That  [wretched]  enemy,  [the  chief]  ^°oi  Kadesh 
+(Kd-^w),  has  come  and  entered  into  Megiddo  (My-k-ty);  he  [""is  there""] 
+2 'at  this  moment.  He  has  gathered  to  himself  the  chiefs  of  [all]  the 
+countries  [which  are]  ^^on  the  water  of  Egypt,^  and  as  far  as  Naharin 
+(N-h-ry-n),  consisting  of  [the  countries]  of  =^3the  Kharu  (H^-r'w)^  the 
+
+Kode  (Kdw),  their  horses,  their  troops, ^^thus  he  speaks,  'I 
+
+have  arisen  to  ["^fight   against  his  majesty "•]  ^sin  Megiddo   (My-k-ty).* 
+Tell  ye  me ."^ 
+
+Advice  of  the  Officers 
+
+421.  They  spoke  in  the  presence  of  his  majesty,  ''How  is  it,  that 
+[we]  should  go  upon  this  road,  ^ 7 which  threatens  to  be  narrow  ?  While 
+they  [rcomei]  ^^and  say  that  the  enemy  is  there  waiting,  [rholdTjing  the 
+^^way  against  a  multitude.  Will  not  horse  come  behind  [horse^  and 
+man  behind^]  soman  likewise?  Shall  our  [Tadvance-guard^]  ^ibe 
+fighting  while  our  [^rear-guardi]^  is  yet  standing  yonder  ^^'m.  Aruna 
+(c  D  -rijij.fi  3)  not  having  fought  ?  There  are  yet  two  (other)  roads : 
+33one  road,  behold,  it  [will]  —  us,  for  it  comes  forth  at  34Taanach 
+
+
+^The  king  of  Kadesh. 
+
+^An  idiom  for  '^dependent  upon"  or  "subject  to." 
+
+cThe  king's  demand  upon  his  ofiScers  is  for  information  concerning  the  road, 
+as  the  subsequent  developments  show. 
+
+dSee  §  424,  1.  55. 
+
+eThe  end  is  the  restoration  of  Maspero  {Recueil,  II,  52)  suggested  probably 
+
+=== Breasted vol. 2, OCR lines 11660-11667: notes printed after the start of section 424 (note c, Amon wrongly restored; belongs to 423 or 424, placement uncertain) ===
+^The  same  word  {H  =)  is  applied  to  the  road  upon  which  the  great  block  for 
+the  el-Bersheh  colossus  (I,  696,  1.  i)  was  brought.  It  means  "inaccessible**  or 
+"difficult;**  it  is  also  used  by  Thutmose  III  of  the  celestial  road  of  the  sun  (§  141). 
+
+Werb  lost. 
+
+cText  has  an  Amon  wrongly  restored  here. 
+
+
+=== Breasted vol. 2, OCR lines 11681-11692: section 425 ===
+425.  Year  23,  first  month  of  the  third  season  (ninth  month),  on  the 
+nineteenth  day;  the  watch  in  [safety]^  57in  the  royal  tent  was  at  the 
+city  of  Aruna  {^^  -rw-n^).^  ss^'^y  majesty  proceeded  northward 
+under  (the  protection  of  my)  father,  Amon-Re,  lord  of  Thebes,  [who 
+
+went]  59before  me,  while  Harakhte  [strengthened  my  arms]'^  
+
+^°(my)   father,   Amon-Re,   lord  of  Thebes,  victorious    of    the    sword 
+^^over  my  majesty." 
+
+Battle  in  the  Mountains 
+
+
+=== Breasted vol. 2, OCR lines 11798-11852: section 430 and notes ===
+Battle  of  Megiddo 
+
+430.  Year  23,  first  (month)  of  the  third  season  (ninth  month),  on 
+the  twenty-first  day,  the  day  of  the  feast  of  the  new  moon,  ""corresponding 
+toi  the  royal  coronation,  early  in  the  morning,  behold,  command  was 
+
+given  to  the  entire  army  to  move .     3His  majesty  went  forth  in  a 
+
+chariot  of  electrum,  arrayed  in  his  weapons  of  war,  like  Horus,  the 
+Smiter,  lord  of  power;  like  Montu  of  Thebes,  while  his  father,  Amon, 
+strengthened  his  arms.  The  southern  wing  of  this  army  of  his  majesty 
+was  on  a  hill  south  of  the  [brook  of]^  Kina  (Ky-n^),  the  northern  wing 
+was  at  the  northwest  of  Megiddo  (My-k-ty),^  while  his  majesty  was  in 
+their  center,  with  Amon  as  the  protection  of  his  members,  ■" — "•  the  valor 
+—  4of  his  limbs.  Then  his  majesty  prevailed  against  them  at  the  head 
+of  his  army,  and  when  they  saw  his  majesty  prevailing  against  them 
+they  fled  headlong  to  Megiddo  (My-k-ty)  in  fear,^  abandoning  their 
+horses  and  their  chariots  of  gold  and  silver.  The  people^  hauled  them 
+(up),  pulling  (them)  by  their  clothing,  into  this  city;  the  people  of  this 
+city  having  closed  (it)  against  them  [and  '"lowered"']  5 clothing  to  pull 
+them  up  into  this  city.  Now,  if  only  the  army  of  his  majesty  had  not 
+given  their  heart  to  plundering  the  things  of  the  enemy,  they  would  have 
+[captured]  Megiddo  (My-k-ty)  at  this  moment,  when  the  wretched  foe 
+of  (Kd-S)  Kadesh  and  the  wretched  foe  of  this  city^  were  hauled  up  in 
+haste  to  bring  them  into  this  city.^  The  fear  of  his  majesty  had  entered 
+^[■"their  hearts"!],  their  arms  were  powerless,  his  serpent  diadem  was 
+fvictoriousi  among  them. 
+
+The  Spoil 
+
+431.  Then  were  captured  their  horses,  their  chariots  of  gold  and 
+silver  were  made  spoil  ;^   their  champions  lay  stretched  out  like  fishes 
+
+^Restored  from  §  428,  1.  i. 
+
+^This  shows  that  Thutmose  has  gone  around  Megiddo  toward  the  west  and, 
+having  his  army  partially  on  the  north  of  the  city,  has  intercepted  the  enemy's 
+northern  line  of  retreat;  at  the  same  time  probably  securing  his  own  line  of  retreat 
+along  the  Zefti  road  (see  §421,  1.  35).  This  position  corroborates  the  position  of 
+the  Asiatics  with  their  southern  wing  at  Taanach  on  the  day  before  the  battle 
+(see  §  426,  especially  note).  This  move  must  have  been  made  by  Thutmose  in 
+the  afternoon  or  during  the  night  before  the  battle. 
+
+cLit.,  "with  or  in  the  faces  of  fear.'*  <lLit.,  "one" 
+
+^Megiddo.     The  two  kings  of  Kadesh  and  Megiddo  are  meant. 
+
+fRead  m  ys-h^k  (Sethe,  Verbum,  II,  §700),  and  compare  the  same  phrase 
+year  31,  1.  10  (§470)- 
+
+
+§433]  THE  ANNALS:   FIRST  CAMPAIGN  185 
+
+on  the  ground.  The  victorious  army  of  his  majesty  went  around  count- 
+ing their  portions.     Behold,  there  was  captured  the  tent  of  that  wretched 
+
+=== Breasted vol. 2, OCR lines 21574-21577: the one hit for 'Israel' (a note) ===
+restorations  by  Seti  often,  e.  g.,  on  the  obelisk  of  Hatshepsut. 
+
+dHe  cut  on  the  back  of  it  the  hymn  of  victory,  mentionina  Israel:  see  III,  602  ff. 
+
+
+=== Breasted vol. 2, OCR lines 18318-18323: section 756, the 'Hebrews' remark ===
+under  inspection  by  Rekhmire.  Of  particular  interest  are 
+the  Semitic  foreigners,  who  appear  among  the  brickmakers, 
+of  the  ^^  captivity  which  his  majesty  brought  for  the  works 
+of  the  temple  of  Amon.^^  This  is,  of  course,  precisely  what 
+was  afterward  exacted  of  the  Hebrews. 
+
+
+=== Breasted vol. 1 (1906), OCR lines 4550-4572: section 67, notes f and h ===
+cSee  §  52.  dii^  27. 
+
+^Recueil,  IX,  94.  Accession  is  astronomically  established  (Meyer,  op.  cit.,  46ff .). 
+
+f Determined  by  the  two  limits:  the  accession  of  Amenhotep  I  in  1557  and 
+that  of  Thutmose  III  in  1501,  both  these  dates  being  astronomically  fixed. 
+
+gHe  celebrated  his  thirty-years'  jubilee,  and,  as  he  was  never  crown  prince, 
+he  must  have  ruled  at  least  30  years.     He  reached  old  age  (II,  64). 
+
+liReally  a  little  less  (see  II,  592).  The  date  of  this  reign  is  astronomically 
+established  by  means  of  a  Sothic  date  and  two  calendar  dates  of  the  new  moon  in 
+Thutmose  Ill's  Annals  (II,  430).  Mahler  computes  his  accession  as  1504  (Zeii- 
+schrijt  fur  dgyptische  Sprache,  1888,  97);  Lehmann  noticed  that  such  a  calculation 
+must  be  based  on  the  actual  appearance  of  the  new  moon,  and  not  on  a  calculation 
+of  when  it  astronomically  occurred.  Lehmann  thus  dated  the  accession  of  Thut- 
+mose III  in  15 1 5  (Zwei  Hauptprohleme,  154-58).  Meyer  accepted  Lehmann's 
+method,  but  showed  a  slight  error  in  L.'s  figures,  thus  finally  placing  the  date  of 
+Thutmose  Ill's  accession  in  1501  B.  C.  (Meyer,  op.  cit.,  50).  The  exact  limits  are 
+May  3,  1501,  to  March  17,  1447  B.  C. 
+
+
+67]  CHRONOLOGY  43 
+
+=== Breasted vol. 1, OCR lines 165-178: preface (Dictionary mission) ===
+vii 
+
+
+viii  PREFACE 
+
+
+lections  of  Europe.  In  this  work  a  related  enterprise  has 
+been  of  the  greatest  assistance.  A  mission  to  the  museums 
+of  Europe  to  collect  and  copy  their  Egyptian  monuments 
+for  a  commission  of  the  four  Royal  Academies  of  Germany 
+(Berlin,  Leipzig,  Gottingen,  and  Munich),  in  order  to  make 
+these  documents  available  for  an  exhaustive  Egyptian 
+Dictionary  endowed  by  the  German  Emperor,  enabled  the 
+author  to  copy  from  the  originals  practically  all  the  his- 
+
+=== Breasted vol. 1, OCR lines 645-657: preface (thanks) ===
+not  before  employed. 
+
+To  my  friend,  President  William  R.  Harper,  for  his 
+interest  in  this  enterprise,  and  his  unfailing  support  in 
+arranging  for  my  repeated  absence  in  Europe  for  the 
+prosecution  of  these  studies,  I  owe  a  debt  of  gratitude. 
+Likewise  to  the  Board  of  Trustees  of  the  University  of 
+Chicago,  for  the  same  privileges,  it  is  an  agreeable  duty  to 
+express  my  appreciation  here. 
+
+Finally  my  thanks  are  due  the  staff  of  the  University 
+of  Chicago  Press  for  unremitting  attention  to  the  difficult 
+typographical  work  of  these  volumes — an  attention  to 
+
+=== Breasted vol. 1, OCR lines 13822-13832: section 484 ===
+
+DEDICATION  INSCRIPTION^ 
+
+484.  A  relic  of  Amenemhet  I's  building  activity  at  Karnak, 
+is  preserved  in  this  dedication,  found  on  the  base  of  a  shrine 
+from  the  Karnak  temple  of  Amon,  whence  it  had  been  taken 
+to  the  Ptah-temple: 
+
+Amenemhet  I;  he  made  it  as  his  monument  for  his  father  Amon-Re, 
+lord  of  Thebes  (Ns'wt-Pwy),  making  for  him  a  shrine  of  pink  granite, 
+that  he  may  thereby  be  given  hfe  forever. 
+
+=== Nelson (1913), OCR lines 196-211: what the study is based on ===
+made  use  of  Schumacher's  topographical  and  archaeological  studies  in 
+MuNDPV  and  in  his  Tell-el-Mutesellim.  The  chronology  of  the 
+campaign  is  that  of  Breasted,  as  presented  in  his  Ancient  Records,  II, 
+409,  which  is  based  on  his  studies  in  AZ,  37,  123  ff.  and  39,  60-68.  For  a 
+bibliography  of  the  older  publications  of  the  hieroglyphic  sources  the 
+reader  is  referred  to  Breasted's  Ancient  Records,  II,  391,  note  a.  The  pre- 
+sent study  is  based  on  the  text  of  the  Annals  of  ThutmoseHI  inSethe's 
+Urkunden  der  18.  Dynastie,  pp.  647-667,  with  a  few  changes  and  omis- 
+sions where  Sethe's  text  is  entirely  a  restoration  by  the  editor.    I  have 
+
+
+The  Battle  of  Megiddo  3 
+
+also  taken  into  account  such  other  references  to  the  battle  as  may  be 
+found  in  the  Eighteenth  Dynasty  inscriptions,  all  of  which  are  publish- 
+ed in  Sethe's  Urkunden. 
+
+=== Nelson, OCR lines 1015-1030: his translation of Annals lines 19-28 ===
+
+THE   PROBLEM   OF   THE   CARMEL   RIDGE 
+
+THE  ANNALS,  LINES   18-49 
+
+Urk.  649  [  His  Majesty  ]  commanded  (19)  to  count&l  together  with  his 
+victorious  army,  saying,  "Now  that  [wretched]  enemy  (20)  of 
+Kedesh,  having  come  and  having  entered  into  Megiddo,  he  is 
+[there]  (21)  at  this  moment.  He  has  assembled  to  himself  the 
+chiefs  of   [  all  ]  the   countries  [which    were]     (22)   subject    to 
+
+Egypt  as  far    as  Naharin,    consisting  of  (23)    the 
+
+Kharu,  the  Kode,  their  troops, [their  people;](24)  for  he  says,  it  is 
+reported,  'I  am  ready  to  [fight  against  his  Majesty  here]  (25)  in 
+Megiddo'.  Tell  ye  me  [that  which  is  in  your  hearts."] 
+
+=== Nelson, OCR lines 1040-1052: his note 43 (Breasted's and Sethe's restorations of the officers' reply) ===
+fought?  Now  there  are  still  two  roads.  (33)  One  road,  behold 
+it  is  our  44  it  comes  out  at  (34)  Taanach. 
+
+
+42.  Lit.     "It  ib  like  what  to  go  upon  this  road?" 
+
+43.  So  Sethe's  restoration,  probably  taken  from  Urk.  IV,  655,  5,  where  it  undoubtedly 
+refers  to  the  king  waiting  at  the  mouth  of  the  pass.  This  restoration  would  then  suppose  that 
+the  me>sengers  report  the  enemy  to  be  assembled  at  the  pass  "outside"  the  valley  or  the  moun- 
+tains. Breasted,  Ancient  Records,  II,  421,  restores  "holding  the  way  against  a  multitude"  which 
+would  seem  to  fill  the  lacuna  as  well  as  Sethe's  as  far  as  the  hieroglyphics  are  concerned,  though 
+the  report  of  the  massengers  would  not  then  agree  with  the  situation  as  disclosed  on  the  king's 
+arrival  at  the  mouth  or  the  pass. 
+
+=== Nelson, OCR lines 2281-2284: the date of the battle ===
+
+On  the  morning  of  the  battle,  the  twenty-first  day  of  the  first  month 
+of  the  third  season  (May  15,  1479),  the  signal  for  the  commencement  of 
+hostilities  seems  to  have  been  the  appearance  of  the  king  from  the  royal 
