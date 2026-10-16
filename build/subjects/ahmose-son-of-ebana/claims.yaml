@@ -1,0 +1,524 @@
+subject: ahmose-son-of-ebana
+title: "The autobiography of Ahmose son of Ebana (El Kab): what it says about captives, slaves, Hyksos and Nubians, and what the speaker says it says"
+question: "What does the autobiography of Ahmose son of Ebana say about captives (Hyksos, Nubians) received as slaves?"
+dig_status: open
+headline_status: draft
+headline: "Translations of Ahmose son of Ebana's tomb text say captives were given to him as slaves"
+headline_claim: ahmose-translations-avaris-captives-given-as-slaves
+search_summary: >
+  Ahmose son of Ebana, a naval officer of El Kab, left a long autobiography on the wall of his tomb (Elkab no. 5). Three translations read (Breasted 1906, Sethe 1914, Lichtheim) and a web page
+  copying Lichtheim say he was given captives as slaves after the fall of Avaris (one man and three women), after Sharuhen and on Nubian campaigns. In none of them does the word Hyksos
+  occur in his speech; it occurs in editors' headings, notes and introductions. The Egyptian words were not read; only numeral strokes of a hand-drawn copy were looked at.
+description: >
+  Second pass (2026-10-16) on the first dig. Read: Breasted, Ancient Records of Egypt II (1906) and the preface of vol. 1; Sethe's German translation of Urk. IV 1-11 (1914); Lichtheim's translation
+  (a third-party upload of the book); a web page that copies it; W. V. Davies's 2009 epigraphic report on the tomb; one chronology article (Fantuzzi); a PBS Empires excerpt. Looked at: Sethe's
+  hand-drawn hieroglyphic autograph (Urk. IV 2-5, 1906; only numeral strokes and German headings, the Egyptian words not read) and one plate of Lepsius's Denkmaeler (signs not read).
+  Not read: the Egyptian words, the Thesaurus Linguae Aegyptiae record (blocked by a bot-verification page), Kammerzell 1988 (not found), the Sohag translation (not reached), Vandersleyen,
+  Schulz and Beylage. Eight speaker claims from two Dead Hidden videos are split into separate parts and weighed here. The videos are never an anchor and the translations are claims, not primary data.
+divergence_note: >
+  The speaker version is that Ahmose son of Ebana rose to admiral, and that his tomb autobiography records that he and his men received Nubians and Hyksos as slaves, including
+  campaigns against the Hyksos and Nubians. The translations read say something narrower and different in wording: Ahmose is given captives and "male and female slaves"
+  after named sieges and campaigns (Avaris, Sharuhen, Nubia); the word Hyksos is not in the speech as translated by Breasted, Sethe or Lichtheim (it is in their headings, notes and introductions);
+  the people taken at Avaris are one man and three women; and the title is rendered "chief of the sailors" (Breasted), "Oberste der Schiffsmannschaft" (Sethe), "crew commander" (Lichtheim) or,
+  from the wall, "commander of a ship's contingent" (Davies). None of those four renders the title line as "admiral". The word admiral does appear in Sethe's editorial headings ("Lebensgeschichte des
+  Admirals") and in the title of a German translation listed in Davies's bibliography (Kammerzell 1988, "Flottillenadmirals", not read). Translators differ on details (the length of the Sharuhen siege),
+  and Davies has corrected readings in the published text. The gap between the speaker's wording and the text as translated, and between the translations and the signs, is the product here.
+  The signs themselves, the date of the events and who exactly the captives were remain unread or open.
+assessment:
+  question: "What does the autobiography of Ahmose son of Ebana say about captives (Hyksos, Nubians) received as slaves?"
+  answer: partly
+  headline: "In translation the text says captives and slaves were given to Ahmose after Avaris, Sharuhen and Nubian campaigns; it does not say, in those translations, that they were Hyksos."
+  key_points:
+    - "Three translations and a web copy agree: after Avaris Ahmose took one man and three women, and the king gave them to him as slaves. Later grants are also called slaves."
+    - "The word Hyksos is not in his speech in the translations read; it appears in editors' headings and notes. The origin of the Avaris captives is not stated in them."
+    - "No Egyptian word was read here. The words behind slaves, captives and the people-names were not, so the wording rests on translators."
+  text: >
+    The question is what the tomb text says, not what happened. Breasted (1906), Sethe (1914), Lichtheim and a web page copying Lichtheim all give Ahmose captives at Avaris (one man and three
+    women, four heads), after Sharuhen and on Nubian campaigns, and use words for slaves in the grants. The speaker's claim that the slaves were Nubians and Hyksos is partly matched: Nubian
+    campaigns with captives and female slaves are in the translations, and Sethe's note reads the "Asiatics" killed before the first Nubian campaign as Hyksos, but no translated line calls the
+    Avaris captives Hyksos. A slave-name list on the door wall is translated only by Sethe (Urk. IV 11); he glosses one name as 'the Asiatic' and one as 'of the Medjay tribe', and the list does
+    not say Hyksos. The claim that he rose to admiral is a gloss: none of the four renderings of his title line says admiral, though an editorial heading by Sethe and the title of Kammerzell's
+    translation use the word. The translations were not checked against the signs, one passage (the length of the Sharuhen siege) is rendered differently by Breasted and the other
+    three, and the date of the events is not fixed.
+  basis:
+    - ahmose-translations-avaris-captives-given-as-slaves
+    - ahmose-translations-sharuhen-and-nubia-captives
+    - ahmose-text-hyksos-word-not-in-the-speech
+    - ahmose-slave-name-list-urk-iv-11
+    - ahmose-title-translations-differ-no-admiral
+    - ahmose-hieroglyphic-text-not-read
+  rated_claim: ahmose-translations-avaris-captives-given-as-slaves
+  would_settle: "A transliteration of Urk. IV 1-11 (or the wall, or a collated edition) read against the translations for the words rendered slave, captive, head and hand and the people-names, a title-lexicon reading of the rank, and a source in which the origin of the Avaris captives is stated."
+
+claims:
+
+  # ------------------------- WHAT THE TEXT SAYS (translations read; the signs were read only for numerals) -------------------------
+
+  - id: ahmose-translations-avaris-captives-given-as-slaves
+    state: proposed
+    statement: >
+      Three translations (and a web page copying one) say that after Avaris was taken Ahmose brought away one man and three women, four persons, and the king gave them to him as slaves.
+      Breasted (1906, section 12): "I took captive there one man and three women, total four heads, his majesty gave them to me for slaves."
+      Sethe (1914, Urk. IV 4): "1 Mann und 3 Frauen, zusammen 4 Köpfe. Sie wurden mir zu Sklaven gegeben."
+      Lichtheim (Ancient Egyptian Literature II, p. 13) has "one man, three women; total, four persons" and "gave them to me as slaves"; the web page copying her has the same words.
+    statement_kind: reported
+    evidence_class: interpretive
+    confidence: low
+    evidential_weight: 2
+    anchor_checked: 'no'
+    adoption_weight: null
+    adoption_note: "Not measured. Two web pages were read that repeat the item (a PBS Empires excerpt credited to Tyldesley 2001, which paraphrases it as 'let me keep them as slaves', and the Ancient Egypt Online page); that is two pages, not a measure of how widely it is held."
+    would_change_if: >
+      a transliteration of the signs (Urk. IV 4, Lepsius Bl. 12, or the wall) shows a different number of captives or a word that the translators render "slaves" but that means something else, or Lichtheim's printed book differs from the upload and the web page
+    anchor:
+      type: interpretive
+      description: >
+        Read: Breasted 1906 section 12 (OCR); Sethe 1914 translation volume, Urk. IV 4 (OCR checked against the page image); Lichtheim, Ancient Egyptian Literature II, p. 13 (OCR of a third-party upload) and the Ancient Egypt Online page (raw HTML,
+        credited there to Lichtheim). Three independently made translations and a copy agree on the figures and on "slaves". The translators all worked from the same text (Lepsius's copy, the Berlin squeeze, later Sethe's edition), so the agreement shows the
+        translators read the figures alike, not that the signs were separately confirmed. See ahmose-urk-autograph-captive-numerals for the one place the autograph was read.
+        Independence: Breasted, Sethe and Lichtheim translate the same text (Lepsius's copy, the Berlin squeeze and Sethe's edition), and the Ancient Egypt Online page is a copy of Lichtheim, so they are not independent confirmations of the signs. Labelled no for that reason: the label secondary needs agreement across independent sources.
+      sources: [src-breasted-are2, src-breasted-tr-ahmose, src-sethe-urk-deutsch-1914, src-lichtheim-ael2, src-aeo-lichtheim-page]
+      nodes:
+        - {node: ahmose-ebana-2009-davies-documents-tomb-ek5-at-el-kab, verb: qualifies}
+    basis: >
+      # V: Breasted, Sethe and Lichtheim passages read 2026-10-14 and 2026-10-16. Breasted's note b to section 6 says the tomb elsewhere lists a total of 9 men and 10 women for the gifts, and that his narrative sums differently; the totals were not recomputed here.
+      Says what the translators printed. It does not by itself show what the signs say.
+
+  - id: ahmose-urk-autograph-captive-numerals
+    state: proposed
+    statement: >
+      In a scan of Sethe's hand-drawn hieroglyphic copy of the autobiography (Urk. IV 4, 1906), the captive entry that follows the capture of Avaris appears to carry, in one run, the numeral strokes 1, 3 and 4
+      (one, three, four), the figures that the translations give for one man, three women and four heads. The words the numerals count were not read, and the count was made by an AI reader, not an Egyptologist.
+    statement_kind: reported
+    evidence_class: interpretive
+    confidence: low
+    evidential_weight: 1
+    anchor_checked: 'no'
+    adoption_weight: null
+    adoption_note: "Not measured; no popular account seen shows the hieroglyphs."
+    would_change_if: "a person who reads hieroglyphs transliterates Urk. IV 4 from the scan and finds different numerals, or the wall or a squeeze is shown to read differently from Sethe's copy"
+    anchor:
+      type: interpretive
+      description: >
+        Looked at: Sethe, Urkunden der 18. Dynastie, Heft 1 (1906), the autograph page Urk. IV 4 (page 13 of the PDF), rendered at 200 and 350 dpi; an AI model counted the numeral strokes in the entry after the line about the town of Avaris is taken (a run of 1, III and IIII).
+        This is a look at a hand-drawn copy of the inscription (not the wall, and not a collated edition), at the scale of a 200 dpi bitonal scan, and only of stroke counts. The words rendered "man", "women", "heads" and "slaves" were not read, so the text itself was not read.
+        The claim is therefore labelled anchor_checked no, not primary. That the counts match the translations is what the translators print; it is not an independent test of the counts, and has not been checked by a person who reads hieroglyphs.
+      sources: [src-sethe-urk-iv-heft1]
+    basis: "# V: page opened and stroke counts looked at 2026-10-16 (viewer: an AI model, not an Egyptologist). A copy made from Lepsius's plate and the Berlin squeeze, so it shares their limits (Davies lists corrections to Lepsius's copy). Correction of the first-pass label (primary, primary_text, weight 2): see log L-14."
+
+  - id: ahmose-translations-sharuhen-and-nubia-captives
+    state: proposed
+    statement: >
+      The translations also give Ahmose captives and slaves on later campaigns: after Sharuhen "two women and one hand" (Breasted section 13: "giving me the captives for slaves"); on the Nubian campaign of the first king "two living men, and three hands" and "two female slaves" (section 14); under Amenhotep I "two female slaves" more (section 39); and in a rebellion episode "five heads" and land, with "It was done to all the sailors likewise" (section 15).
+      Lichtheim's rendering of the same passages says "given to me as slaves" (Sharuhen), "two female slaves" (Nubia) and "the whole crew". Sethe (1914) has "zwei Sklavinnen" for the first Nubian campaign.
+    statement_kind: reported
+    evidence_class: interpretive
+    confidence: low
+    evidential_weight: 2
+    anchor_checked: 'no'
+    adoption_weight: null
+    adoption_note: "Not measured."
+    would_change_if: "the signs read differently for these passages, or Davies's full record of the inscription corrects them (he has already corrected other readings in the later columns)"
+    anchor:
+      type: interpretive
+      description: >
+        Read: Breasted 1906 sections 13, 14, 15 and 39 (OCR); Sethe 1914 Urk. IV 5-8 (OCR checked against the image for the first Nubian campaign); Lichtheim pp. 13-14 (OCR) and the Ancient Egypt Online page.
+        Breasted's note d to section 14 says the two female slaves are not the two captives just taken, against earlier translators (Renouf, Petrie), which is itself a point on which translators differ.
+        Independence: Breasted, Sethe and Lichtheim translate the same text (Lepsius's copy, the Berlin squeeze and Sethe's edition), and the Ancient Egypt Online page is a copy of Lichtheim, so they are not independent confirmations of the signs. Labelled no for that reason: the label secondary needs agreement across independent sources.
+      sources: [src-breasted-are2, src-breasted-tr-ahmose, src-sethe-urk-deutsch-1914, src-lichtheim-ael2, src-aeo-lichtheim-page]
+    basis: >
+      # V: read 2026-10-14 and 2026-10-16. The count of "heads", "hands" and "slaves" depends on how each translator reads the nouns; compare claim ahmose-sharuhen-duration-and-title-renderings-differ.
+
+  - id: ahmose-text-hyksos-word-not-in-the-speech
+    state: proposed
+    statement: >
+      In the speech as printed in the translations read (Breasted 1906, Sethe 1914, Lichtheim and the web page copying her), the word "Hyksos" does not occur. The people besieged at Avaris are not called Hyksos; Sharuhen is a city in Palestine; the foes slain before the first Nubian campaign are
+      "Asiatics" (Breasted), "nomads of Asia" (Lichtheim and the web page) or, in Sethe's German, Mntjw, with his footnote saying the old name is used "hier für die Hyksos". The word Hyksos is in the editors' framing: Breasted's heading "Campaign against the Hyksos; Siege of Avaris" and his
+      commentary (section 4: "This can be no other than the city called Avaris by Manetho"); Sethe's section heading "Vertreibung der Hyksos" and his note that Avaris was the capital of the Hyksos kings; Lichtheim's heading "Expulsion of the Hyksos" and her introduction ("the decisive battles against the Hyksos"); and the web page's introduction, which says his father served "in the early campaigns against the Hyksos".
+    statement_kind: search_result
+    evidence_class: interpretive
+    confidence: low
+    evidential_weight: 2
+    anchor_checked: 'no'
+    absence_anchor: true
+    adoption_weight: null
+    adoption_note: "Not measured."
+    would_change_if: "the signs of the passages show a word that the translators rendered as 'Asiatics', 'nomads of Asia' or left out that is read as Hyksos (hq3 h3swt), or a transliteration of Urk. IV 1-11 shows the Avaris captives' origin named"
+    anchor:
+      type: search-record
+      description: >
+        Searched the English text of the speech in Breasted 1906 sections 6-16, 39 and 80-82, the German text of Sethe 1914 (Urk. IV 1-11), Lichtheim's translation (OCR) and the full translation on the Ancient Egypt Online page for the word Hyksos: no hit in the speech; the hits are in headings, notes, commentary and introductions (listed in the statement).
+        The Egyptian text was not searched (the words were not read).
+        Independence: Breasted, Sethe and Lichtheim translate the same text (Lepsius's copy, the Berlin squeeze and Sethe's edition), and the Ancient Egypt Online page is a copy of Lichtheim, so they are not independent confirmations of the signs. Labelled no for that reason: the label secondary needs agreement across independent sources.
+      sources: [src-breasted-are2, src-breasted-tr-ahmose, src-sethe-urk-deutsch-1914, src-lichtheim-ael2, src-aeo-lichtheim-page]
+    basis: >
+      Absence of a word from four translations. It does not show the signs lack the idea. Capped at provisional (absence_anchor). The Avaris-Hyksos identification rests on the editors' commentary (Breasted reads Manetho and Josephus; Sethe glosses in his notes), not on the speech.
+
+  - id: ahmose-text-nubians-as-targets
+    state: proposed
+    statement: >
+      The translations present the Nubian campaigns as campaigns against "Nubian Troglodytes" (Breasted, sections 14, 39 and 80) or "Nubian Bowmen" (Lichtheim and the web page; Sethe has "nubische Beduinen" and "nubische Nomaden"), with named places Khenthennofer and Kush, under Ahmose I, Amenhotep I and Thutmose I; captives and "female slaves" are taken (see ahmose-translations-sharuhen-and-nubia-captives).
+      Breasted section 80 (and Lichtheim and Sethe at the corresponding passage) describe a Nubian leader hung head downward at the prow of the royal ship.
+    statement_kind: reported
+    evidence_class: interpretive
+    confidence: low
+    evidential_weight: 2
+    anchor_checked: 'no'
+    adoption_weight: null
+    adoption_note: "Not measured."
+    would_change_if: "the signs of the people-name are read and the terms (Troglodytes, Bowmen, nomads) turn out to render different words or one word with a different sense"
+    anchor:
+      type: interpretive
+      description: "Read: Breasted 1906 sections 14, 39 and 80 (OCR; correction made 2026-10-16: section 81 is the Asiatic campaign to Retenu and Naharin, and holds neither the Troglodyte term nor the hanging), Sethe 1914 Urk. IV 5-9, Lichtheim p. 14 and the web page's translation. Davies 2009 (col. 35) confirms from the wall a hanging figure of 'the Nubian leader' with the king's arrow in his chest, as a determinative. The ethnonym itself was not read from the signs. Independence: Breasted, Sethe and Lichtheim translate the same text (Lepsius's copy, the Berlin squeeze and Sethe's edition), and the Ancient Egypt Online page is a copy of Lichtheim, so they are not independent confirmations of the signs. Labelled no for that reason: the label secondary needs agreement across independent sources."
+      sources: [src-breasted-are2, src-sethe-urk-deutsch-1914, src-lichtheim-ael2, src-aeo-lichtheim-page, src-davies-2009]
+    basis: "# V: read 2026-10-14 and 2026-10-16. Davies's note on column 35 is about a determinative; he does not discuss the ethnonym in the pages read."
+
+  - id: ahmose-slave-name-list-urk-iv-11
+    state: proposed
+    statement: >
+      A list of named slaves belongs to the inscription (Urk. IV 11, on the door wall). Lichtheim does not translate it ("not translated here"). Sethe's German translation (1914) gives it as personal names only (nine men and ten women; Breasted's note b to section 6 also says 9 men and 10 women),
+      with Sethe's notes giving meanings for some: P3-mdj as "Der vom (nubischen) Stamme Matoi", one name as "Der Asiat", one as "Der von Abydos", and others as foreign names. The list does not say "Hyksos".
+    statement_kind: reported
+    evidence_class: interpretive
+    confidence: low
+    evidential_weight: 1
+    anchor_checked: 'no'
+    adoption_weight: null
+    adoption_note: "Not measured; no popular account seen mentions the list."
+    would_change_if: "the signs of Urk. IV 11 are transliterated and the names or their glosses differ, or the list is read in a source that discusses the origin of the named persons"
+    anchor:
+      type: interpretive
+      description: >
+        Read: Sethe 1914 translation volume, Urk. IV 11, section 11 b, OCR checked against the page image (the names and Sethe's footnotes 2, 3, 9 and 10 to 18); Lichtheim p. 12 (the sentence that the list is not translated); Breasted's note b to section 6 (the totals).
+        The hieroglyphic list on the door wall was not read. The glosses are Sethe's; the reader did not check them.
+      sources: [src-sethe-urk-deutsch-1914, src-lichtheim-ael2, src-breasted-are2]
+    basis: "# V: read 2026-10-16. One editor's translation and glosses; the nineteen-person total agrees with Breasted's note. This list is the only place in the pages read where individual slaves are named."
+
+  - id: ahmose-title-translations-differ-no-admiral
+    state: proposed
+    statement: >
+      The title of Ahmose son of Ebana is rendered in several ways: "chief of the sailors" (Breasted, section 80: "One appointed me chief of the sailors"), "Oberste der Schiffsmannschaft" (Sethe 1914: "zum Obersten der Schiffsmannschaft gemacht"), "crew commander" (Lichtheim, copied on the web page: "crew commander";
+      her introduction says "commander of a crew") and, from the wall, "commander of a ship's contingent" (Davies 2009: the principal figure is identified in the first column as "commander of a ship's contingent, Ahmose Son-of-Ibana, justified").
+      None of these four renders the title line as "admiral". The word does appear in Sethe's editorial headings ("Lebensgeschichte des Admirals Ahmose", on his autograph pages and in the German volume) and in the title of Kammerzell 1988, "Texte aus dem Grab des Flottillenadmirals Ahmose", listed in Davies's bibliography (the work itself was not found or read).
+    statement_kind: reported
+    evidence_class: interpretive
+    confidence: low
+    evidential_weight: 2
+    anchor_checked: secondary
+    adoption_weight: null
+    adoption_note: "Not measured. 'Admiral' is in two editors' headings or titles that were read (Sethe; the Kammerzell title as listed); no popular account was read that uses the word."
+    would_change_if: "the Egyptian title (which Davies transliterates hry-hnt, as read from the wall) is studied in a title-lexicon such as Schulman 1964 or Gnirs 1996 (both cited by Davies, not read) and shown to be the highest naval rank, or Kammerzell 1988 is opened and its basis for 'Flottillenadmiral' read"
+    anchor:
+      type: interpretive
+      description: >
+        Read: Breasted 1906 section 80 (OCR); Sethe 1914 Urk. IV 1 and 8 and his headings (OCR and page images of the autograph headings); Lichtheim p. 12 and p. 14 (OCR); the web page's translation; Davies 2009, section on the east and south walls (first column), note 10 (which lists the literature on the title, not read) and the bibliography entry for Kammerzell 1988.
+        These are four scholars' renderings of one title line, plus one editor's heading; the signs were not read here.
+        Independence: Breasted, Sethe and Lichtheim translate the same text (Lepsius's copy, the Berlin squeeze and Sethe's edition), and the Ancient Egypt Online page is a copy of Lichtheim, so they are not independent confirmations of the signs. Kept secondary because Davies's rendering is from the wall and is a separate source, but the other renderings are not independent of each other.
+      sources: [src-breasted-are2, src-sethe-urk-deutsch-1914, src-sethe-urk-iv-heft1, src-lichtheim-ael2, src-aeo-lichtheim-page, src-davies-2009, src-kammerzell-1988]
+    alternatives:
+      - {text: "'Chief of the sailors' (Breasted) or 'Oberste der Schiffsmannschaft' (Sethe): a rank over crews", why_not_preferred: "not weighed against the others; none is checked against a title-lexicon"}
+      - {text: "'Crew commander' (Lichtheim)", why_not_preferred: "not weighed against the others"}
+      - {text: "'Commander of a ship's contingent' (Davies, for the title as written on the wall in the tomb's first column)", why_not_preferred: "Davies gives this for one title on the wall; whether it is the same title as the one in the narrative was not checked"}
+      - {text: "'Flottillenadmiral' (the title of Kammerzell 1988, as listed)", why_not_preferred: "the work was not read, so the basis is unknown"}
+    basis: >
+      # V: read 2026-10-14 and 2026-10-16. The renderings may differ in emphasis rather than in fact. What would close it: the rank in the Egyptian navy structure from a title-lexicon, read. 'Admiral' is left open as a claim about the speaker's wording (see ahmose-sp-rose-to-admiral).
+
+  - id: ahmose-sharuhen-duration-and-title-renderings-differ
+    state: contested
+    statement: >
+      The translations disagree about the length of the siege of Sharuhen: Breasted renders "for 6 years" and says Lepsius had "5", Champollion's text and Brugsch had "6", and that his own check of the Berlin squeeze "has a clear '6'";
+      Sethe's German (1914, Urk. IV 4) says "Man belagerte Šrḥn drei Jahre", Lichtheim says "three years" and the web page has the same wording.
+    statement_kind: reported
+    evidence_class: interpretive
+    confidence: low
+    evidential_weight: 1
+    anchor_checked: 'no'
+    adoption_weight: null
+    adoption_note: "Not measured."
+    would_change_if: "the signs of the Sharuhen line are read by a person on the Lepsius plate, the squeeze, Sethe's autograph at Urk. IV 4 or Davies's full record, or Lichtheim's printed book is read and either matches the web page or not"
+    anchor:
+      type: interpretive
+      description: >
+        Read: Breasted 1906 section 13 and its note b (OCR); Sethe 1914 Urk. IV 4 (OCR and page image); Lichtheim p. 13 (OCR); the web page translation. Looked at, signs not read: Sethe's autograph Urk. IV 4 and the Lepsius plate.
+        Not read: the Berlin squeeze, Lichtheim's printed book.
+        Independence: Breasted, Sethe and Lichtheim translate the same text (Lepsius's copy, the Berlin squeeze and Sethe's edition), and the Ancient Egypt Online page is a copy of Lichtheim, so they are not independent confirmations of the signs. Labelled no for that reason: the label secondary needs agreement across independent sources.
+      sources: [src-breasted-are2, src-sethe-urk-deutsch-1914, src-sethe-urk-iv-heft1, src-lichtheim-ael2, src-aeo-lichtheim-page, src-lepsius-ld3-bl12]
+      nodes:
+        - {node: ahmose-ebana-1849-lepsius-plate-ld-iii-12-el-kab-grab-5, verb: qualifies}
+    disputed_by:
+      - {who: "J. H. Breasted", kind: person, position: "6 years, from the squeeze, noting that Lepsius gave 5", source_read: true, via: "Ancient Records of Egypt II, 1906, note b to section 13 (OCR)"}
+      - {who: "K. Sethe (translation of 1914)", kind: person, position: "three years", source_read: true, via: "Urkunden der 18. Dynastie, uebersetzt, 1914 (OCR and page image)"}
+      - {who: "M. Lichtheim, and the web page copying her", kind: work, position: "three years", source_read: "her book, read through an Internet Archive upload (an access path only), and the web page", via: "Ancient Egyptian Literature II (University of California Press)"}
+    basis: "# V: all read 2026-10-14 and 2026-10-16. The disagreement is unresolved here. It does not bear on whether slaves were taken. This claim is only about the length of the siege; the 'title-renderings' in its id is a first-pass leftover (ids are never renumbered), and the title is in ahmose-title-translations-differ-no-admiral. An impression of the year-group on Sethe's autograph, made by an AI reader, was withdrawn from this claim (log L-14); no reading of that group is claimed."
+
+  - id: ahmose-davies-reading-two-days-not-one-slave
+    state: contested
+    statement: >
+      A published reading of column 27 of the inscription is disputed. The usual reading is "I brought his majesty back to Egypt in two days". An alternative, "I brought back one slave", has been proposed (Schulz 1995, as cited by Davies). Davies, who examined the wall, says the vertical sign is not 'slave' but 's' and reads "I brought them in two days to Egypt", with 'them' the people, cattle and prisoner of the preceding passage.
+    statement_kind: reported
+    evidence_class: interpretive
+    confidence: low
+    evidential_weight: 2
+    anchor_checked: 'no'
+    adoption_weight: null
+    adoption_note: "Not measured; a technical point not found in the accounts read."
+    would_change_if: "Davies's full record of the column, a photograph of the wall at that column, or a collated edition, is read and the sign is identified independently"
+    anchor:
+      type: interpretive
+      description: "Read: Davies 2009, section 'The biographical inscription', entry for column 27 (Urk. iv: 7, 15). Davies cites Lichtheim 1976, Vandersleyen 1971 and others for the usual reading and Schulz 1995 and Beylage 2002 for the alternative; those were not opened. Breasted (section 39), Sethe (1914: 'Ich brachte Seine Majestät in (nur) zwei Tagen nach Ägypten') and Lichtheim ('I brought his majesty back to Egypt in two days') read 'his majesty'. Only Davies's report speaks from the wall, so the reading is one scholar's."
+      sources: [src-davies-2009, src-breasted-are2, src-sethe-urk-deutsch-1914, src-lichtheim-ael2]
+    disputed_by:
+      - {who: "W. V. Davies", kind: person, position: "reads 'them in two days', not 'one slave', from the signs on the wall", source_read: true, via: "Davies 2009 (PDF)"}
+      - {who: "R. Schulz (1995), as cited by Davies; also Beylage 2002 cf.", kind: person, position: "'I brought back one slave' as an alternative reading", source_read: false, via: "Davies 2009 (cited_only; Schulz 1995 not opened)"}
+    basis: "# V: Davies read 2026-10-14. This is the only place in the pages read where a published reading of the autobiography involves the word 'slave' as a disputed reading; it is an alternative reading of one column, not a statement on the slave grants. Single source for the wall reading, so anchor_checked is no."
+
+  # ------------------------- THE OBJECT AND ITS DATE -------------------------
+
+  - id: ahmose-object-tomb-ek5-wall-inscription
+    state: proposed
+    statement: >
+      The autobiography is carved on the walls of the rock-cut tomb of Ahmose son of Ebana at El Kab (Nekheb), Elkab no. 5: 31 columns on the east wall and 8 on the south wall, followed by an unfinished concluding section in horizontal lines.
+      Lepsius's Denkmaeler (Abth. III Bl. 12, 'El Kab Grab 5') is the first copy and Davies's British Museum survey is a modern one. Lichtheim counts the lines as 1-31 on the east wall and 32-40 on the south wall (40 in all, against 31 + 8 = 39 in Breasted and Davies).
+    statement_kind: reported
+    evidence_class: interpretive
+    confidence: low
+    evidential_weight: 2
+    anchor_checked: secondary
+    adoption_weight: null
+    adoption_note: "Not measured."
+    would_change_if: "the wall itself, a squeeze or a modern photograph is examined and shows a different layout, or Davies's final publication gives different counts"
+    anchor:
+      type: interpretive
+      description: >
+        Read: Davies 2009 (introduction and east/south wall description, pp. 139-146 of the book); Breasted 1906 note a to section 1; Lichtheim p. 12 (her line count); the Lepsius plate caption 'El Kab Grab 5' (viewed). Four works agree on the tomb and on a 31-column east wall; the object itself, its images and squeezes were not examined by us.
+      sources: [src-davies-2009, src-breasted-are2, src-lichtheim-ael2, src-lepsius-ld3-bl12]
+      nodes:
+        - {node: ahmose-ebana-2009-davies-documents-tomb-ek5-at-el-kab, verb: supports}
+        - {node: ahmose-ebana-1849-lepsius-plate-ld-iii-12-el-kab-grab-5, verb: supports}
+    basis: >
+      # V: Davies, Breasted and Lichtheim read; Lepsius plate viewed 2026-10-14 and 2026-10-16 (signs not read). Davies calls the tomb 'still incompletely published' and notes decoration unfinished. Holder: in situ at Elkab, access and permissions: Davies thanks the Supreme Council of Antiquities; current condition not checked.
+
+  - id: ahmose-composition-by-grandson-and-late-carving
+    state: proposed
+    statement: >
+      Two scholars tie the tomb work to Ahmose's grandson Pahri (Pahery). Breasted (section 3): "The long inscription was therefore executed by Ahmose's grandson, Pahri". Davies: the accompanying scene shows work on the tomb "directed by his grandson, Pahery", and he dates both tombs "on stylistic and other grounds to the reign of Thutmose III"; "A more precise dating remains to be established".
+      Davies also reads the text's closing words as saying that Ahmose "made the tomb himself" (Lichtheim: "the tomb that I myself made"), implying, in Davies's words, that he "lived to see it completed (albeit it was never fully finished)". The sources do not say who composed the narrative.
+    statement_kind: reported
+    evidence_class: interpretive
+    confidence: low
+    evidential_weight: 2
+    anchor_checked: secondary
+    adoption_weight: null
+    adoption_note: "Not measured."
+    would_change_if: "a precise date for the tomb decoration is established, or the text is read in a way that shows who composed it and when"
+    anchor:
+      type: interpretive
+      description: >
+        Read: Breasted 1906 section 3 (OCR); Davies 2009 (introduction, pp. 140-141, and footnote 6); Lichtheim p. 14 (the closing line, OCR). The caption naming Pahri is on the wall per Davies's reading of the facade and east wall. Breasted's and Davies's statements are each a scholar's inference from the scene captions.
+      sources: [src-breasted-are2, src-davies-2009, src-lichtheim-ael2]
+    alternatives:
+      - {text: "The narrative was composed by Ahmose himself and the tomb finished under his grandson's direction", why_not_preferred: "not weighed: the sources read say 'executed by' (Breasted) and 'directed by' (Davies) the grandson, and that Ahmose made the tomb (Davies), without deciding who composed the text"}
+    basis: "# V: Breasted, Davies and Lichtheim read 2026-10-14 and 2026-10-16. Correction of the first-pass wording: the earlier text said 'not by Ahmose himself' and 'some decades after the campaigns', which the sources read do not say."
+
+  - id: ahmose-date-of-events-not-fixed
+    state: contested
+    statement: >
+      The absolute date of the campaigns and of the reign of Ahmose I is not fixed. In the one chronology article read, earlier authors give the beginning of the New Kingdom between 1580 and 1567 Cal BC and between 1575 and 1550 BC, and the article's own range for the accession of Ahmose I is 1550 to 1540 Cal BC. The autobiography itself carries no BCE date.
+    statement_kind: reported
+    evidence_class: interpretive
+    confidence: low
+    evidential_weight: 1
+    anchor_checked: 'no'
+    adoption_weight: null
+    adoption_note: "Not measured. No popular account of the dates was read; the first-pass note that popular accounts give 1550 to 1525 BCE had no read basis and is withdrawn (see log L-10)."
+    would_change_if: "a chronology with a stated method (Hornung, Krauss and Warburton 2006, Kitchen, or a radiocarbon series) is read and one range is shown to follow from independent data"
+    anchor:
+      type: interpretive
+      description: "Read: Fantuzzi's article, introduction and section 'The problem'. The range is one author's; Hornung and others were cited by Davies (note 6) and not read. The autobiography gives no absolute date. One source, so anchor_checked is no."
+      sources: [src-fantuzzi-chronology, src-davies-2009]
+      nodes:
+        - {node: ahmose-i-accession-window-fantuzzi, verb: qualifies}
+    disputed_by:
+      - {who: "T. Fantuzzi", kind: person, position: "accession of Ahmose I about 1550 to 1540 Cal BC; the beginning of the New Kingdom in his year 11 about 1539 to 1529 Cal BC", source_read: true, via: "Fantuzzi article (PDF), introduction and conclusion of 'The problem'"}
+      - {who: "K. A. Kitchen, as reported by Fantuzzi", kind: person, position: "accession 1540 Cal BC, low possibility of 1550", source_read: false, via: "Fantuzzi (cited_only)"}
+      - {who: "Earlier authors, as reported by Fantuzzi (unnamed here)", kind: unnamed, position: "beginning of the New Kingdom between 1580 and 1567 Cal BC, and between 1575 and 1550 BC", source_read: false, via: "Fantuzzi, introduction (cited_only)"}
+    basis: "# V: Fantuzzi read 2026-10-14. Open: which method (astronomy, radiocarbon, archaeology) is more reliable. The positions are kept side by side, none preferred."
+
+  - id: ahmose-hieroglyphic-text-not-read
+    state: searched_gap
+    statement: >
+      What the Egyptian signs say for the captive and slave passages (the words rendered "captive", "slave", "head", "hand", "spoil", the people-names rendered Asiatics and Nubian Troglodytes/Bowmen) was not read. On the second pass Sethe's hieroglyphic autograph (Urk. IV 1-11) was found and opened, and only its numerals and German headings were read;
+      the Lepsius plate was viewed again and is too small to transliterate reliably; the TLA website was blocked again; the TLA's open corpus release has no sentence of this text; Kammerzell 1988 was not found.
+    statement_kind: search_result
+    evidence_class: primary_text
+    confidence: low
+    evidential_weight: 1
+    anchor_checked: 'no'
+    absence_anchor: true
+    adoption_weight: null
+    adoption_note: "Not measured."
+    would_change_if: "Urk. IV 1-11 (src-sethe-urk-iv-heft1), Lepsius Bl. 12, the TLA text or Davies's final record is transliterated by a person who reads hieroglyphs and compared with the translations"
+    next_step: >
+      A person who reads hieroglyphs transliterates Urk. IV 3-5 (Avaris, Sharuhen, Nubia) and 10-11 (the slave list) from the 1906 autograph (Internet Archive item urkunden-der-18.-dynastie-erster-band, PDF pages 12-14 and later) and checks each against the Lepsius plate (item denkmaler-aus-aegypten-und-aethiopien, denkmaeler-5.pdf page 15) and Davies's corrections;
+      open the TLA record in a browser; find Kammerzell 1988 (TUAT II, 4, pp. 522-529) and Davies's final publication of the tomb.
+    anchor:
+      type: search-record
+      description: >
+        Searched: Breasted 1906, Sethe 1914, Lichtheim and the web page (translations, no signs); Davies 2009 (some corrected readings, no full text); Sethe 1906 (autograph found; numerals only); the Lepsius plate (viewed, not transliterated);
+        the TLA website (blocked twice by a bot-verification page, not bypassed); the TLA's Earlier Egyptian corpus release (searched, no hit; it holds pre-New Kingdom witnesses only); the Sohag PDF (connection refused, then reset); Kammerzell 1988 (not found).
+      sources: [src-breasted-are2, src-davies-2009, src-lepsius-ld3-bl12, src-sethe-urk-iv-heft1, src-tla, src-tla-hf-dataset, src-sohag-translation, src-kammerzell-1988]
+    basis: "Not read beyond numerals. The editions and plates were viewed as images only, so anchor_checked stays no for this gap."
+
+  # ------------------------- THE SPEAKER CLAIMS (kept as stated; split into parts) -------------------------
+  # The speaker's own wording was not read here. The claim lines below are the lines recorded in this dig's transmission.yaml (from a handoff file written by another agent); the videos and transcripts were not opened.
+
+  - id: ahmose-sp-served-in-the-navy
+    state: proposed
+    statement: "Ahmose son of Ebana served in the Egyptian navy (claim line dh-HN0wNVpfunM-07, as recorded in transmission.yaml; the video was not opened)."
+    statement_kind: reported
+    evidence_class: interpretive
+    confidence: low
+    evidential_weight: 2
+    anchor_checked: 'no'
+    adoption_weight: null
+    adoption_note: "Not measured. Dead Hidden, 'Rekhmire' (HN0wNVpfunM), per the claim line."
+    would_change_if: "the signs are read and the ship-service terms do not mean what the translations say, or 'navy' as an institution is shown to be a misleading frame for royal ships and crews"
+    anchor:
+      type: interpretive
+      description: "Breasted 1906 sections 7-8 and 80 (ship 'The Offering', 'the northern fleet', 'Shining-in-Memphis', 'chief of the sailors'), Sethe 1914 (ships 'der Wildstier', 'nördliches Schiff') and Lichtheim (ships 'The Wild Bull', 'Northern', 'Rising in Memphis'): all place him on royal ships; Breasted calls him 'a naval officer' in his introduction. 'The Egyptian navy' as a standing institution is a modern frame. Independence: Breasted, Sethe and Lichtheim translate the same text (Lepsius's copy, the Berlin squeeze and Sethe's edition), and the Ancient Egypt Online page is a copy of Lichtheim, so they are not independent confirmations of the signs. Labelled no for that reason: the label secondary needs agreement across independent sources."
+      sources: [src-breasted-are2, src-sethe-urk-deutsch-1914, src-lichtheim-ael2, src-aeo-lichtheim-page]
+    basis: "# V: read 2026-10-14 and 2026-10-16. The ship service is clear in the translations; the word 'navy' is the speaker's."
+
+  - id: ahmose-sp-rose-to-admiral
+    state: contested
+    statement: "Ahmose son of Ebana rose to admiral (claim line dh-HN0wNVpfunM-07); 'later became admiral of the Egyptian fleet' (claim line dh-K3pw12lBcXM-12). Both as recorded in transmission.yaml; the videos were not opened."
+    statement_kind: reported
+    evidence_class: interpretive
+    confidence: low
+    evidential_weight: 1
+    anchor_checked: secondary
+    adoption_weight: null
+    adoption_note: "Not measured. The two videos named in the claim lines; no popular account was read that uses 'admiral'."
+    would_change_if: "a title-lexicon (Schulman 1964, Gnirs 1996, cited by Davies) read shows the title as the supreme naval command, or Kammerzell 1988 is read and gives its basis for 'Flottillenadmiral', or the title is read as lower"
+    anchor:
+      type: interpretive
+      description: "Four renderings of the title were read (see ahmose-title-translations-differ-no-admiral): chief of the sailors; Oberste der Schiffsmannschaft; crew commander; commander of a ship's contingent. None of the four says admiral and none says he commanded the whole fleet. The word admiral is in Sethe's editorial headings and in the title of Kammerzell 1988 as listed by Davies (not read), so the word has a place in the scholarly literature; its basis was not read. Independence: Breasted, Sethe and Lichtheim translate the same text (Lepsius's copy, the Berlin squeeze and Sethe's edition), and the Ancient Egypt Online page is a copy of Lichtheim, so they are not independent confirmations of the signs. Kept secondary because Davies's rendering is from the wall and is a separate source, but the other renderings are not independent of each other."
+      sources: [src-breasted-are2, src-sethe-urk-deutsch-1914, src-lichtheim-ael2, src-aeo-lichtheim-page, src-davies-2009, src-kammerzell-1988]
+    disputed_by:
+      - {who: "Dead Hidden (speaker)", kind: person, position: "admiral of the Egyptian fleet", source_read: "claim line only", via: "dh-HN0wNVpfunM-07, dh-K3pw12lBcXM-12 (claims files; videos not watched)"}
+      - {who: "W. V. Davies", kind: person, position: "'commander of a ship's contingent' (as written on the wall)", source_read: true, via: "Davies 2009 (PDF)"}
+    basis: "# V: renderings read 2026-10-14 and 2026-10-16. Not refuted: the signs were not read and 'admiral' might be a defensible gloss for the rank; kept contested."
+
+  - id: ahmose-sp-autobiography-on-tomb-wall
+    state: proposed
+    statement: "'His autobiography on his tomb wall records that he and his men received slaves, Nubians and Hyksos' (claim line dh-HN0wNVpfunM-07, in the form recorded in transmission.yaml); 'recorded in his autobiography his career as a war hero who later became admiral of the Egyptian fleet, including campaigns against the Hyksos and Nubians' (claim line dh-K3pw12lBcXM-12). This claim covers only that the text is an autobiography on his tomb wall; the other parts are separate claims. The speaker's own wording was not read."
+    statement_kind: reported
+    evidence_class: interpretive
+    confidence: low
+    evidential_weight: 2
+    anchor_checked: secondary
+    adoption_weight: null
+    adoption_note: "Not measured. The statement that the text is on his tomb wall is made in every scholarly work read."
+    would_change_if: "see ahmose-object-tomb-ek5-wall-inscription"
+    anchor:
+      type: interpretive
+      description: "The text is on the tomb wall at El Kab per Davies 2009, Breasted 1906, Lichtheim and the Lepsius plate caption (see ahmose-object-tomb-ek5-wall-inscription); it is a retrospective narrative of his campaigns and rewards, carved some time in the reign of Thutmose III per Davies's stylistic dating (see ahmose-composition-by-grandson-and-late-carving). 'War hero' is the speaker's word; the text lists valour rewards ('the gold of valour') and Lichtheim calls it 'a wholly martial autobiography'."
+      sources: [src-davies-2009, src-breasted-are2, src-lichtheim-ael2, src-lepsius-ld3-bl12]
+    basis: "# V: read 2026-10-14 and 2026-10-16. The place named in -12 as 'Memphis' is a separate claim (ahmose-sp-place-memphis). The first-pass version was a truncated fragment ('records ...'); it is completed here from the transmission record."
+
+  - id: ahmose-sp-he-and-his-men-received-slaves
+    state: proposed
+    statement: "He and his men received slaves (claim line dh-HN0wNVpfunM-07: 'his autobiography on his tomb wall records that he and his men received slaves', as recorded in transmission.yaml)."
+    statement_kind: reported
+    evidence_class: interpretive
+    confidence: low
+    evidential_weight: 2
+    anchor_checked: 'no'
+    adoption_weight: null
+    adoption_note: "Not measured. Dead Hidden, 'Rekhmire' (HN0wNVpfunM), per the claim line."
+    would_change_if: "the signs of the line 'It was done to all the sailors likewise' are read and show a different referent, or the grants to the crew are read as land only"
+    anchor:
+      type: interpretive
+      description: "Ahmose's own receipt of slaves is in the translations (see ahmose-translations-avaris-captives-given-as-slaves and ahmose-translations-sharuhen-and-nubia-captives). For his men: after the Aata episode Breasted writes 'It was done to all the sailors likewise' (section 15), Sethe 'Der ganzen Schiffsmannschaft wurde ebenso getan' and Lichtheim 'The same was done for the whole crew'; the lines before it list five persons and five arurae of land given to Ahmose, so the thing done likewise is the gift of persons and land, as translated. No translation says what each sailor received. Independence: Breasted, Sethe and Lichtheim translate the same text (Lepsius's copy, the Berlin squeeze and Sethe's edition), and the Ancient Egypt Online page is a copy of Lichtheim, so they are not independent confirmations of the signs. Labelled no for that reason: the label secondary needs agreement across independent sources."
+      sources: [src-breasted-are2, src-sethe-urk-deutsch-1914, src-lichtheim-ael2, src-aeo-lichtheim-page]
+    basis: "# V: read 2026-10-14 and 2026-10-16. The 'men' part rests on one short sentence in the translations."
+
+  - id: ahmose-sp-slaves-were-nubians-and-hyksos
+    state: contested
+    statement: "The slaves he received were Nubians and Hyksos (claim line dh-HN0wNVpfunM-07: 'received slaves, Nubians and Hyksos', as recorded in transmission.yaml). The part about campaigns is the separate claim ahmose-sp-campaigns-against-hyksos-and-nubians."
+    statement_kind: reported
+    evidence_class: interpretive
+    confidence: low
+    evidential_weight: 1
+    anchor_checked: 'no'
+    adoption_weight: null
+    adoption_note: "Not measured. Dead Hidden, 'Rekhmire' (HN0wNVpfunM), per the claim line."
+    would_change_if: "the signs show the captives' origin named as Asiatics or Hyksos at Avaris, or show the Avaris captives' origin unstated; or the origin of the 'one man and three women' or of the persons in the slave list is discussed in a source read"
+    anchor:
+      type: interpretive
+      description: "Translations say Ahmose took captives at Avaris (one man, three women, given as slaves), at Sharuhen (two women, captives given as slaves) and in Nubia (two men, two female slaves, etc.). They do not name the origin of the Avaris captives, and the word Hyksos is not in the speech (see ahmose-text-hyksos-word-not-in-the-speech). Avaris is identified as the Hyksos stronghold by the editors' commentary (Breasted: Manetho, Josephus; Sethe's note) and not by the speech. The Nubian captives are from campaigns the translations describe as against Nubian Troglodytes, Bowmen or Beduins. Sethe's translation of the slave list glosses one name as 'the Asiatic' and one as 'of the Medjay tribe' (see ahmose-slave-name-list-urk-iv-11). Independence: Breasted, Sethe and Lichtheim translate the same text (Lepsius's copy, the Berlin squeeze and Sethe's edition), and the Ancient Egypt Online page is a copy of Lichtheim, so they are not independent confirmations of the signs. Labelled no for that reason: the label secondary needs agreement across independent sources."
+      sources: [src-breasted-are2, src-sethe-urk-deutsch-1914, src-lichtheim-ael2, src-aeo-lichtheim-page]
+    disputed_by:
+      - {who: "J. H. Breasted", kind: person, position: "Avaris was the Hyksos stronghold and the siege of Sharuhen 'an extension of the campaign against the Hyksos'; his translation does not say the captives were Hyksos", source_read: true, via: "Ancient Records of Egypt II, sections 4 and 13 note b (OCR)"}
+      - {who: "Dead Hidden (speaker)", kind: person, position: "the slaves were Nubians and Hyksos", source_read: "claim line only", via: "dh-HN0wNVpfunM-07 (claims file; video not watched)"}
+    basis: "# V: read 2026-10-14 and 2026-10-16. 'The slaves were Hyksos' is not stated in any translation read. Not filed refuted: the signs were not read."
+
+  - id: ahmose-sp-campaigns-against-hyksos-and-nubians
+    state: proposed
+    statement: "Ahmose's autobiography records 'campaigns against the Hyksos and Nubians' (claim line dh-K3pw12lBcXM-12, as recorded in transmission.yaml; the video was not opened)."
+    statement_kind: reported
+    evidence_class: interpretive
+    confidence: low
+    evidential_weight: 2
+    anchor_checked: 'no'
+    adoption_weight: null
+    adoption_note: "Not measured. Dead Hidden, 'Aamu, Hyksos, Habiru, Shasu' (K3pw12lBcXM), per the claim line."
+    would_change_if: "the signs are read and the siege of Avaris and the foes before the first Nubian campaign are not what the commentators say"
+    anchor:
+      type: interpretive
+      description: "The translations place Ahmose at the siege of Avaris and of Sharuhen and on three Nubian campaigns. That Avaris belongs to a campaign against the Hyksos is the editors' framing (Breasted heading and section 4; Sethe heading 'Vertreibung der Hyksos'; Lichtheim heading 'Expulsion of the Hyksos' and her introduction), not a line of the speech (see ahmose-text-hyksos-word-not-in-the-speech). The Nubian campaigns are in the speech (see ahmose-text-nubians-as-targets). Independence: Breasted, Sethe and Lichtheim translate the same text (Lepsius's copy, the Berlin squeeze and Sethe's edition), and the Ancient Egypt Online page is a copy of Lichtheim, so they are not independent confirmations of the signs. Labelled no for that reason: the label secondary needs agreement across independent sources."
+      sources: [src-breasted-are2, src-sethe-urk-deutsch-1914, src-lichtheim-ael2, src-aeo-lichtheim-page]
+    basis: "# V: read 2026-10-14 and 2026-10-16. Split on 2026-10-16 from the bundled first-pass claim ahmose-sp-slaves-were-nubians-and-hyksos, whose two parts come from two different videos."
+
+  - id: ahmose-sp-place-memphis
+    state: searched_gap
+    statement: "The handoff file recorded a place field 'Memphis' for the claim line dh-K3pw12lBcXM-12 but gave no wording. Whether the speaker places the autobiography at Memphis, or is speaking of a ship named 'Shining-in-Memphis' or of naval service, is not known: the speaker's wording was not read."
+    statement_kind: search_result
+    evidence_class: interpretive
+    confidence: low
+    evidential_weight: 1
+    anchor_checked: 'no'
+    absence_anchor: true
+    adoption_weight: null
+    adoption_note: "Not measured."
+    would_change_if: "the speaker's wording is read"
+    next_step: "Open the transcript of the video K3pw12lBcXM at the claim -12 and read the sentence that carries the place; then record what it says as a separate claim."
+    anchor:
+      type: search-record
+      description: "Searched: this dig's own files and the handoff lines quoted in them for the speaker's wording: only the place field is recorded. For context only: Memphis appears in the translations only in a ship's name ('Shining-in-Memphis' in Breasted section 8, 'Rising in Memphis' in Lichtheim) and the tomb is at Nekheb (El Kab). The videos and transcripts were not opened."
+      sources: [src-dh-claims, src-breasted-are2, src-lichtheim-ael2]
+    basis: "# V: first-pass version (a 'proposed' claim with a node that 'disputes' it) withdrawn on 2026-10-16: it attributed a position to the speaker from a field with no wording."
+
+  # ------------------------- WHO CAN BE TRUSTED (the chain of copies) -------------------------
+
+  - id: ahmose-chain-of-copies-and-funders
+    state: searched_gap
+    statement: >
+      Every account of the text read here is at least a copy of a copy: Lepsius's expedition copied the wall (commissioned by the King of Prussia, per the work's title), Breasted collated the Berlin squeeze and translated (with support from the Chicago leadership and a Berlin dictionary commission funded by the German Emperor, per his Preface),
+      Sethe edited a hand-copied hieroglyphic text (1906) and translated it (1914), Davies's British Museum survey re-studied the wall (funder not stated), and the web page and the PBS page reproduce translations. Who funded and controlled each is only partly recorded and was not independently checked.
+      A second search on 2026-10-16 for funding statements of the British Museum Elkab programme and of the Chicago series found none in the pages read.
+    statement_kind: search_result
+    evidence_class: interpretive
+    confidence: low
+    evidential_weight: 1
+    anchor_checked: 'no'
+    absence_anchor: true
+    adoption_weight: null
+    adoption_note: "Not measured."
+    would_change_if: "funding statements for the Lepsius expedition, the University of Chicago series, the British Museum Elkab programme, Peeters, Hinrichs and the Lichtheim book are read"
+    next_step: "Read the University of Chicago Press series prospectus and any donor records for Ancient Records; the British Museum project page or annual report for the Elkab epigraphic programme (and the acknowledgements of the project's later publications); the Prussian court records for Lepsius's expedition; any statement of who paid for Urkunden des aegyptischen Altertums."
+    anchor:
+      type: search-record
+      description: "Searched the pages opened for statements of funding: Breasted Preface (vol. 1) and the vol. 2 text (grep for endowment, funding, trustees and donors: only the Preface statements), Sethe's Vorwort (1914: publisher and editor only), the Lepsius volume title pages (OCR), Davies 2009 (permission and encouragement named, no funder; the text was searched for fund, grant, sponsor, support and thanks), the web page (copyright line only), and a page of the Digital Epigraphy site that describes a British Museum expedition under Davies working at Elkab since 2009 and has a 'Supported by' logo strip without named funders in the text. Web-search results were used only to find pages and were not relied on. Nothing about donors beyond the stated items was read."
+      sources: [src-breasted-are1-preface, src-sethe-urk-deutsch-1914, src-lepsius-ld3-bl12, src-davies-2009, src-aeo-lichtheim-page, src-digital-epigraphy-elkab]
+    basis: "Funding not asserted beyond what a page says. UNRESEARCHED for every other link."

@@ -1,0 +1,38 @@
+# Shared node. Append-only: a change is a new `rev` plus a `history` entry, never an overwrite. See build/SCHEMA.md, Nodes.
+id: ahmose-ebana-2009-davies-documents-tomb-ek5-at-el-kab
+rev: 1
+type: document
+label: '2009: W. V. Davies reports the British Museum epigraphic survey of the tomb of Ahmose son of Ibana (Elkab no. 5), with the autobiography on its east and south walls'
+time: '2009-01-01'
+precision: year
+date_basis: publication_proxy
+kind: document
+status: single
+what: >-
+  Davies's chapter (Orientalia Lovaniensia Analecta 191, Peeters, 2009) says the tomb of Ahmose Son-of-Ibana is Elkab no. 5, a rock-cut chapel in the
+  south face of the main sandstone hill at Elkab, and that its autobiographical text is carved in 31 columns on the east wall and 8 columns on the south wall
+  beside the doorway. He calls the tomb 'still incompletely published' and dates its decoration to the reign of Thutmose III on stylistic and other grounds,
+  adding that 'a more precise dating remains to be established'. The node's date is the year of the book, used because no survey date is given in the pages read.
+  It is a modern scholar's report, not the wall.
+place:
+  name: 'Elkab (Nekheb), tomb no. 5, Egypt'
+  lat: 25.1202789
+  lon: 32.7982639
+  precision: site
+  uncertainty_km: 1
+  source: 'OpenStreetMap Nominatim lookup for "El Kab Egypt", retrieved 2026-10-14 (a gazetteer, orientation only; the point is the OSM ruins node for the site, not the tomb). The tomb number and the site are named by Davies 2009, pp. 139-140.'
+  note: 'Site-level point only. The position of EK5 within the necropolis is on Davies 2009 Fig. 1 and 2, not read for coordinates.'
+sources:
+- title: 'W. V. Davies, The tomb of Ahmose Son-of-Ibana at Elkab, in Elkab and Beyond (OLA 191, Leuven: Peeters, 2009), pp. 139-176, PDF read 2026-10-14'
+  url: https://fundacionieae.es/wp-content/uploads/2024/11/The_tomb_of_Ahmose_Son-of-Ibana_at_Elkab-1_compressed.pdf
+  authenticity: authenticated, moderate (see the ahmose-son-of-ebana manifest)
+  origin: davies-2009
+  source_type: scholarly
+  access: read
+manifest: {subject: ahmose-son-of-ebana, source: src-davies-2009}
+related: []
+created: '2026-10-14'
+history:
+- rev: 1
+  date: '2026-10-14'
+  change: 'Created by the ahmose-son-of-ebana dig from the Davies 2009 chapter (pages read: introduction, decoration of the facade and east/south walls, the autobiography section and the corrected readings).'

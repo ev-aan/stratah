@@ -1,0 +1,26 @@
+# How the speaker claims about Ahmose son of Ebana appeared. Spread is adoption, never evidence (X1).
+subject: ahmose-son-of-ebana
+chains:
+  - id: tx-ahmose-dead-hidden
+    about: "ahmose-son-of-ebana:ahmose-sp-slaves-were-nubians-and-hyksos"
+    title: "Where the 'Ahmose son of Ebana received Nubian and Hyksos slaves' wording appears in the Dead Hidden videos"
+    confers_weight: false
+    events:
+      - id: tx-ahmose-01
+        date: "2026-09-06"
+        precision: day
+        step: repetition
+        carrier: "Dead Hidden, 'Aamu, Hyksos, Habiru, Shasu' (K3pw12lBcXM)"
+        form: "Ahmose, son of Ebana (Ibana), recorded in his autobiography his career as a war hero who later became admiral of the Egyptian fleet, including campaigns against the Hyksos and Nubians (dh-K3pw12lBcXM-12)."
+        source: src-dh-claims
+        read: no
+        note: "Claim line only (via the handoff). The date is the upload date used in the sibling Merneptah dig's transmission record for this video (not re-verified here), not a first-use date; the speaker's own source is unknown."
+      - id: tx-ahmose-02
+        date: "2026-09-14"
+        precision: day
+        step: repetition
+        carrier: "Dead Hidden, 'Rekhmire' (HN0wNVpfunM)"
+        form: "Ahmose son of Ebana served in the Egyptian navy and rose to admiral; his autobiography on his tomb wall records that he and his men received slaves, Nubians and Hyksos (dh-HN0wNVpfunM-07)."
+        source: src-dh-claims
+        read: no
+        note: "Claim line only. The date is the upload date used in the sibling Merneptah dig's transmission record for this video (a different subject folder); it was not re-verified here."
