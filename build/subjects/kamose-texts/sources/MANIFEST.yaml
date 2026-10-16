@@ -1,70 +1,130 @@
 # Sources for the kamose-texts dig, with authenticity entries (rules A1-A10, build/SCHEMA.md).
-# Nothing is stored in the repository; sources are cited by URL and the sha256 of the local working copy is recorded. Tests were run 2026-10-14 by the dig session, which is not an independent review.
-# Owner rule applied: books, translations, commentaries and videos are claims on the same footing, never primary data. Primary data here would be the objects (Carnarvon Tablet I,
-# the Kamose stelae), their images or squeezes. NO image of any object was viewed and NO hieratic or hieroglyphic sign was read. The only image seen was a typeset hieroglyphic
-# transliteration handout (Rutgers), which is not the object. Funders and controllers of each work are traced below; where a source did not say, the entry says UNRESEARCHED.
+# Rebuilt 2026-10-16 after the independent review of PR #30 (log L-07 to L-12 list every correction; earlier log entries are not edited).
+#
+# What was actually opened and read, in one place:
+#   - PAGE IMAGES of Carnarvon Tablet I: Plates XII and XIII of Gardiner 1916 and Plates XXVII and XXVIII of Carnarvon and Carter 1912 (viewed 2026-10-16).
+#     They are photographs of the board. Viewing them is not reading the hieratic: no hieratic or hieroglyphic sign was read in them, and no numeral or word is
+#     counted or identified from them in this dig. What is recorded from them is layout only (claim kamose-board-faces-as-photographed).
+#   - Four printed readings of the tablet, each opened in its own pages: Maspero 1909, Griffith 1912, Weill 1913, Gardiner 1916.
+#   - The Rutgers teaching texts on Kamose's second stela (Parts I, II and III, all pages, with the editor's commentary) and on the autobiography of Ahmose son of Ebana (Parts I to III),
+#     and Breasted's 1906 translation of that autobiography.
+#   - Digital Karnak's object page and About page, the Minot reader page, the Haifa abstract of Bronk Ramsey et al. 2010.
+# NOT opened: the second stela or the first stela in any edition (Habachi 1972, Helck, Smith and Smith 1976, Lacau, Pritchard), Newberry 1913, the TLA, the Cairo or Luxor
+# museum records, the Sallier papyrus tale, the full Bronk Ramsey paper, any video of the speaker. Each has its own entry below.
+#
+# Storage: public-domain extracts are stored in sources/extracts/ (verbatim, elisions marked, contrary passages kept). Nothing in copyright is stored; the Rutgers texts are cited by URL and by
+# short fragments in claims only. The sha256 given is of the file as downloaded on the date shown, into a working folder outside the repository.
+# Tests were run by the dig session, which is not an independent review.
+#
+# Owner rule applied: books, translations, commentaries and videos are claims on the same footing, never primary data. Primary data here would be the board and the stelae, or a
+# reproduction whose signs were read. None of the signs was read here.
 retrieved: 2026-10-14
+rebuilt: 2026-10-16
 sources:
 
   - id: src-gardiner-1916-jea3
-    title: "A. H. Gardiner, 'The Defeat of the Hyksos by Kamose: the Carnarvon Tablet, No. I', Journal of Egyptian Archaeology 3 (1916), pp. 95-110, with Plate XIII (photograph) in the volume"
+    title: "A. H. Gardiner, 'The Defeat of the Hyksos by Kamose: the Carnarvon Tablet, No. I', Journal of Egyptian Archaeology 3 (1916), pp. 95-110, with Plates XII (right-hand portion) and XIII (left-hand portion) of the board"
+    author: "Alan H. Gardiner"
     url: https://archive.org/details/in.ernet.dli.2015.70975
-    document_class: "secondary: a scholar's reading of a copied text (interpretive). Not primary data."
-    read: "yes, directly (Internet Archive OCR text of the whole volume, local sha256 22121d9e67c981a1d5786c52a7aec1b217690ebf54a826b4245be8a3b5123841; the article read start to end including the Conclusions)"
+    document_class: "secondary: a scholar's reading and translation of a copied text (interpretive). Not primary data."
+    read: >
+      yes, directly. Internet Archive OCR text of the whole volume (sha256 22121d9e67c981a1d5786c52a7aec1b217690ebf54a826b4245be8a3b5123841) and the PDF of the volume (sha256 27c3964da7b1b88824dccfcca681dc35753cd1fb112d6f0237130a141f21089a,
+      397 leaves, downloaded 2026-10-16 from https://archive.org/download/in.ernet.dli.2015.70975/2015.70975.Journal-Of-Egyptian-Archaeology-Vol3.pdf). The article was read from first page to last. Pages 98, 99, 105, 106 and 107
+      (the translation of the booty line) were also read from the page images. Correction to the first pass: the volume's two plates of the board are Plate XII (right-hand portion, facing p. 96) and Plate XIII (left-hand portion, facing p. 97);
+      the OCR header reads 'Plate XIII' over both. Extract: sources/extracts/gardiner-1916-jea3-extract.txt.
     publisher_funding_control: >
-      Published by the Egypt Exploration Fund, London (volume title page, read in the OCR: 'PUBLISHED BY THE EGYPT EXPLORATION FUND'). The Egypt Exploration Society's own history page (ees.ac.uk, opened) says only that it was founded in 1882
-      by Amelia Edwards and is silent on how the Fund was financed or who controlled it in 1916: UNRESEARCHED. A search summary (not opened) said Edwards raised money by subscription and lecture tours; that is a lead, not read.
-      The author, Alan Gardiner: the Griffith Institute's 'Artefacts' biographical page (opened) says he was 'endowed with sufficient income from his father', a wealthy businessman, and 'often paid for publications himself or helped finance others'. So Gardiner's work was not
-      institutionally funded, on that page; whether the Fund or Gardiner paid for this article is UNRESEARCHED. Who else shaped his reading (Griffith, Newberry, Maspero are thanked or cited in the article): not researched.
+      Open task. The title page reads 'Published by the Egypt Exploration Fund' (read in the OCR). The first pass's statement that Gardiner's work 'was not institutionally funded' is withdrawn (log L-10): the Griffith Institute page it rested on is
+      not reproducible from this record (no URL was recorded; a guess on 2026-10-16 failed) and said at most that he often paid for publications; it does not speak to this article. Who paid for this article, and how the Fund was financed and
+      controlled in 1916, are not known here. Next step: open the Griffith Institute's Gardiner biography and the Egypt Exploration Society's history pages at recorded URLs and record what they say.
     authenticity:
       status: authenticated
       strength: moderate
-      provenance: "Item in.ernet.dli.2015.70975 on the Internet Archive, scanned at IGNCA Delhi from the Central Archaeological Library (Government of India stamp on the first page); archive page rights field reads Out_of_copyright. The first page OCR reads 'VOLUME V' although the running heads in the text read 'Journal of Egyptian Archaeology, Vol. III' and the article is in volume 3; likely a cover or binding fault, not checked. Holder of the paper original not recorded."
+      provenance: "Item in.ernet.dli.2015.70975 on the Internet Archive, scanned at IGNCA Delhi from the Central Archaeological Library (Government of India stamp on the first page); the item page's rights field reads Out_of_copyright. The first page OCR reads 'VOLUME V' although the running heads read 'Journal of Egyptian Archaeology, Vol. III' and the article is in volume 3; likely a cover or binding fault, not checked. Holder of the paper original not recorded."
       tests:
-        - "Running head 'Journal of Egyptian Archaeology, Vol. III, Plate XIII' and the article title, author and page range 95-110 found in the OCR; agree with the bibliographic record given by a search summary (could have failed)"
-        - "A second, independent scan of the same volume (Internet Archive in.gov.ignca.26512, OCR sha256 170a1e26c1b5f6258588bd6dd70ba7a1edb82e86f56db19f3f3d27c4951a9425) carries the same article title and the same passages ('Year 3' titulary, the Nefrusi passage); found by search of both OCR texts (could have failed). Same library, so not an independent witness to the original printing."
-        - "Gardiner's own report of Carter and Griffith's earlier readings (year 7; Birabi findspot) agrees in substance with Carnarvon and Carter 1912, read separately (could have failed)"
-      tested_by: "Stratah dig session, 2026-10-14 (not an independent review)"
-      gaps: ["OCR only; page images not compared with the text", "Plate XIII (photograph of the right-hand portion) was not viewed; Gardiner's hieratic transcription is garbled in the OCR and was not read", "No second printing compared", "Cover mismatch (Vol. V vs III) not resolved"]
-      next_step: "View Plate XIII and the hieratic transcription page images in the scan and compare the signs of the 'slaves' line and the regnal date with Gardiner's translation."
-      checked: 2026-10-14
+        - "Running head 'Journal of Egyptian Archaeology, Vol. III', the article title, the author and the page range 95-110 found in the OCR and in page images; the volume's list of plates (found in the OCR) names 'The Defeat of the Hyksos by Kamose' with Plates XII and XIII (could have failed)"
+        - "A second scan of the same volume (Internet Archive in.gov.ignca.26512, OCR sha256 170a1e26c1b5f6258588bd6dd70ba7a1edb82e86f56db19f3f3d27c4951a9425) carries the same title and passages; same library, so not an independent witness to the original printing (could have failed)"
+        - "Gardiner's report of Carter's and Griffith's earlier readings agrees in substance with Carnarvon and Carter 1912, read separately (could have failed)"
+      tested_by: "Stratah dig session (not an independent review)"
+      gaps: ["The hieroglyphic transcription printed in the article and Plates XII and XIII were viewed but their signs were not read", "No second printing compared", "Cover mismatch (Vol. V vs III) not resolved"]
+      next_step: "A reader of hieratic compares the signs of the booty line (l. 16 to 17) and of the date (l. 1) on Plates XII and XIII with Gardiner's translation."
+      checked: 2026-10-16
 
   - id: src-gardiner-translation
-    title: "Gardiner's English 'Consecutive Translation' of Carnarvon Tablet I, in the article above (pp. 98-103 and the consecutive version)"
+    title: "Gardiner's English translation of Carnarvon Tablet I, in the article above (translation by section, pp. 98-107, and the 'Consecutive Translation', pp. 107-108)"
     url: https://archive.org/details/in.ernet.dli.2015.70975
     document_class: "interpretive (translation). A claim to be proved against the object, not data."
     derived_from: src-gardiner-1916-jea3
-    read: "yes, directly (OCR of the printed translation; question marks in the print are Gardiner's own doubts)"
+    read: "yes, directly (OCR and, for pp. 99 and 107, the page images; the question marks are Gardiner's own doubts)"
     authenticity:
       status: authenticated
       strength: weak
-      provenance: "Printed in JEA 3 (1916) as Gardiner's rendering of the hieratic text, made from Herr Koch's 1910 photographs and his own study (Gardiner says some readings are 'by no means as certain as I could have wished'; he calls the writing the 'work of a very careless and ignorant copyist')."
+      provenance: "Printed in JEA 3 (1916) as Gardiner's rendering of the hieratic, made from photographs by Herr Koch (1910) and his own study. Gardiner says some readings are 'by no means as certain as I could have wished' and calls the writing 'the work of a very careless and ignorant copyist'."
       tests:
-        - "Griffith's separate summary translation (chapter VI of Carnarvon and Carter 1912) gives the same booty line ('slaves, cattle ... honey') and the same Avaris/Ethiopia(Kush) line (could have failed). Griffith says he had Gardiner's help with readings, so the two are not independent."
-      tested_by: "Stratah dig session, 2026-10-14 (not an independent review)"
-      gaps: ["Hieratic not read; the word rendered 'slaves' was not seen", "No translation by a different scholar from a different reading of the board was read (Habachi, Smith, Redford and others not opened)"]
-      next_step: "Read a second, independently made translation of the booty line (for example H. S. Smith, ZAeS 103, 1976) and the signs on Plate XIII."
-      checked: 2026-10-14
+        - "Griffith's separate summary (chapter VI of Carnarvon and Carter 1912) gives the same Nefrusi episode, 'slaves, cattle ... honey' and the Avaris/Ethiopia line (could have failed). Griffith says he had Gardiner's help with readings, so the two are not independent."
+        - "Weill 1913, working from the 1912 plate and not from Gardiner, gives a different word for the booty ('hommes') and 'Nubie' for Kush; so the three translations do not all agree (the test could have failed in either direction)"
+      tested_by: "Stratah dig session (not an independent review)"
+      gaps: ["Hieratic not read; the word rendered 'slaves' was not seen", "No translation by a reader of the board who had no access to the same photographs or to this book was read"]
+      next_step: "Read Smith and Smith, ZAeS 103 (1976), for the booty line and compare the signs on the plates."
+      checked: 2026-10-16
 
-  - id: src-carnarvon-carter-1912
-    title: "Earl of Carnarvon and Howard Carter, Five Years' Explorations at Thebes: a record of work done 1907-1911 (Oxford: Henry Frowde, Oxford University Press, 1912), preface, chapter V (Carter) and chapter VI (Griffith)"
-    url: https://www.gutenberg.org/ebooks/48382
-    document_class: "excavators' report: testimony by the finders (not the object). Not primary data."
-    read: "yes, directly (Project Gutenberg plain text, local sha256 8c06225228735e9f2615e458553b935b2216eb5dbc99ecb934c82cc3fcd2468c; preface, introduction paragraph on the tablets, chapter V and chapter VI read)"
-    publisher_funding_control: >
-      Excavation director and book author: the Earl of Carnarvon, who writes in the introduction 'I began tentative digging among the Kurneh hills ... in the spring of 1907' and in the preface thanks Maspero, Director-General of the Service des Antiquites (the Egyptian state antiquities service that licensed digs), and Mr Weigall of that service. Howard Carter was 'in charge of all operations'.
-      The book does NOT state who paid for the work in the passages read; that Carnarvon paid is a search-summary lead, not read here. Printed by Horace Hart at the Oxford University Press for Henry Frowde (title page, read). Chapter VI was written by F. Ll. Griffith, who says he had help from Gardiner. Control of the finds (division with the Egyptian state) not read: UNRESEARCHED.
+  - id: src-jea3-plates
+    title: "Plates XII and XIII in Journal of Egyptian Archaeology 3 (1916): photographs of the right-hand and left-hand portions of the historical face of Carnarvon Tablet I (photographs made for Gardiner in 1910 by Herr Koch)"
+    url: https://archive.org/details/in.ernet.dli.2015.70975
+    document_class: "photographic reproduction of the object in a journal (material, second-hand). Not the object."
+    derived_from: src-gardiner-1916-jea3
+    read: "viewed 2026-10-16 in the PDF (leaves 129 and 130 of 397, sha256 of the PDF above). Not read: no hieratic sign on either plate was read, and no numeral or word was counted or identified from them."
     authenticity:
       status: authenticated
       strength: moderate
-      provenance: "Gutenberg #48382, produced from Internet Archive images by volunteers (credit line in the file); text of a 1912 Oxford printing, public domain. Holder of the original not recorded."
+      provenance: "Plates printed in the volume; Gardiner says he reproduced 'the large-scale photographs made for me in 1910 by Herr Koch'. Holder of the board when photographed: not stated in the pages read (Gardiner calls the larger fragment of Tablet II 'in the Cairo Museum')."
       tests:
-        - "Gardiner 1916, writing four years later, gives the same find facts (Birabi, ledge near the entrance of a plundered Seventeenth Dynasty tomb, found by Carnarvon in 1908) and cites this book's plates and pages 30-37 (could have failed). Gardiner draws on this book, so he is not an independent witness to the find."
-        - "Chapter V's account of the ledge and Griffith's chapter VI both place the historical text on the 'face' or 'other side' of a board whose Ptahhotpe copy is on the reverse; Gardiner describes the same board layout (could have failed)"
-      tested_by: "Stratah dig session, 2026-10-14 (not an independent review)"
-      gaps: ["Plates XXVII and XXVIII (photographs of Tablet I) are images in the book and were not viewed", "Findspot rests on the excavators alone; no field notes or Service des Antiquites record read"]
-      next_step: "View Plates XXVII-XXVIII in the Internet Archive scan of the 1912 printing; read the Cairo Museum entry for the tablet."
-      checked: 2026-10-14
+        - "The plate captions 'Carnarvon Tablet No. I, Right-hand portion' (XII) and 'Left-hand portion' (XIII) agree with the volume's list of plates (could have failed)"
+        - "Both plates show the same board features as Plates XXVII and XXVIII of the 1912 book, which are separate photographs: closely written lines of hieratic across the board, a long crack through the board, and lost writing surface along it (could have failed)"
+      tested_by: "Stratah dig session (not an independent review)"
+      gaps: ["Signs not read", "Photographs rotated a quarter turn on the page; scale not stated in the pages read", "Not compared with the object"]
+      next_step: "A reader of hieratic reads l. 1 (date) and l. 16 to 17 (booty) on a large reproduction or the board."
+      checked: 2026-10-16
+
+  - id: src-carnarvon-carter-1912
+    title: "Earl of Carnarvon and Howard Carter, Five Years' Explorations at Thebes: a record of work done 1907-1911 (Oxford: Henry Frowde, Oxford University Press, 1912), preface, introduction, chapter V (Carter) and chapter VI (Griffith)"
+    url: https://www.gutenberg.org/ebooks/48382
+    document_class: "excavators' report: testimony by the finders (not the object). Not primary data."
+    read: >
+      yes, directly. Project Gutenberg plain text (sha256 8c06225228735e9f2615e458553b935b2216eb5dbc99ecb934c82cc3fcd2468c, re-downloaded 2026-10-16 from https://www.gutenberg.org/cache/epub/48382/pg48382.txt): preface, the introduction's paragraph on the tablets,
+      chapter V and chapter VI. Extract: sources/extracts/carnarvon-carter-1912-extract.txt.
+    publisher_funding_control: >
+      Open task. The introduction (read) has Carnarvon write 'I began tentative digging among the Kurneh hills ... in the spring of 1907'; the preface thanks Maspero (Director-General of the Service des Antiquites) and Weigall of that service; Carter was 'in charge of all operations'.
+      The book is printed at the Oxford University Press for Henry Frowde (title page). Who paid for the excavation and who controlled the finds (division with the Egyptian state) are not stated in the passages read and are not known here.
+    authenticity:
+      status: authenticated
+      strength: moderate
+      provenance: "Gutenberg #48382, produced from Internet Archive images by volunteers (credit line in the file; whether it matches this record was not checked); text of a 1912 Oxford printing, public domain. Holder of the original not recorded."
+      tests:
+        - "Gardiner 1916, four years later, gives the same find facts (Birabi, ledge near the entrance of a plundered Seventeenth Dynasty tomb, found by Carnarvon in 1908) and cites this book (pl. xxvii and xxviii, pp. 30-7) (could have failed). Gardiner draws on this book, so he is not an independent witness to the find."
+        - "Maspero 1909, a separate account, gives a different place for the find (see src-maspero-1909-rt31); so the accounts do not all agree (could have failed)"
+        - "The Gutenberg text and the Internet Archive scan of the same printing carry the same Griffith chapter (compared on the passages quoted) (could have failed)"
+      tested_by: "Stratah dig session (not an independent review)"
+      gaps: ["Findspot rests on the excavators alone against Maspero's different account; no field notes or Service des Antiquites record read", "Gutenberg credit line not compared with this record"]
+      next_step: "Read the Service des Antiquites annual report for 1908 or Carter's notes for the find of the board."
+      checked: 2026-10-16
+
+  - id: src-carnarvon-carter-1912-ia
+    title: "Internet Archive scan fiveyearsexplora00carnuoft of Five Years' Explorations at Thebes (1912), page images including Plates XXVII (Carnarvon Tablet I, 'Obv.') and XXVIII (Carnarvon Tablet I, 'Rev.')"
+    url: https://archive.org/details/fiveyearsexplora00carnuoft
+    document_class: "photographic reproductions of the board in the excavators' report (material, second-hand). Not the object."
+    derived_from: src-carnarvon-carter-1912
+    read: "viewed 2026-10-16 (PDF sha256 749605917a73accbe515d9c192fb9b6e472be9fe024536f76b8a63cded5cfd0d, 288 leaves; plates at leaves 173 and 175; OCR text sha256 110fe8c8fe0b94d068550ea8cd365ff9b6d390b93d70528dfa1c41655565c32a). No hieratic sign was read."
+    authenticity:
+      status: authenticated
+      strength: moderate
+      provenance: "University of Toronto copy digitised for the Internet Archive; item page lists publisher Frowde, 1912."
+      tests:
+        - "Plate captions 'Carnarvon Tablet I. Obv.' and 'Carnarvon Tablet I. Rev.' match the book's list of illustrations (XXVII obverse, XXVIII reverse) and Gardiner's citation 'pl. xxvii, xxviii' (could have failed)"
+        - "The text of Griffith's chapter VI in this scan matches the Gutenberg text on the passages quoted (could have failed)"
+      tested_by: "Stratah dig session (not an independent review)"
+      gaps: ["Photographs, not the object", "Plate numbers on the leaves not read; identified by order and caption", "Signs not read"]
+      next_step: "As for src-jea3-plates."
+      checked: 2026-10-16
 
   - id: src-griffith-translation
     title: "F. Ll. Griffith's summary translation of Carnarvon Tablet I, in chapter VI of Carnarvon and Carter 1912"
@@ -75,46 +135,161 @@ sources:
     authenticity:
       status: authenticated
       strength: weak
-      provenance: "Printed in the 1912 volume; Griffith says 'the text is singularly difficult' and that he had 'a number of excellent readings suggested by Mr. A. H. Gardiner'. Gardiner 1916 says Griffith 'wrongly reads year 7' and that Newberry followed him."
+      provenance: "Printed in the 1912 volume; Griffith says 'The text is singularly difficult' and that he had 'a number of excellent readings suggested by Mr. A. H. Gardiner'. Gardiner 1916 says Griffith 'wrongly reads year 7' and that Newberry followed him; Weill 1913 says he cannot see where Griffith read 'Teta the son of Pepa in Nefrus'."
       tests:
-        - "Compared with Gardiner 1916: same booty line, same Avaris/Ethiopia line, same Nefrusi episode; differs on the regnal year (7 vs 3), on 'General Kamosi' vs king, and on Kamose's title (could have failed; it did differ, which is recorded as a contested claim)"
-      tested_by: "Stratah dig session, 2026-10-14 (not an independent review)"
+        - "Compared with Gardiner 1916: same Nefrusi episode, 'slaves, cattle ... honey' and Avaris/Ethiopia line; differs on the regnal year (7 vs 3), on 'General Kamosi' (Carter's introduction) vs king, on 'wolves' vs 'lions' and on the title (could have failed; it did differ, which is recorded in claims)"
+      tested_by: "Stratah dig session (not an independent review)"
       gaps: ["Hieratic not read", "Griffith does not give a literal line-by-line translation"]
       next_step: "As for src-gardiner-translation."
-      checked: 2026-10-14
+      checked: 2026-10-16
 
-  - id: src-digital-karnak-victory-stela
-    title: "Digital Karnak (University of California, Santa Cruz), 'Victory Stela of Kamose' object page, and the site's About page"
-    url: https://digitalkarnak.ucsc.edu/victory-stela-of-kamose/
-    document_class: "web object record by a university project; derivative of printed literature (it cites Porter and Moss and Traunecker and Golvin). Not the object."
-    read: "yes, the page as returned by the fetch tool (summarised by the tool, not read raw), 2026-10-14. The page text said, as reported by the tool, 'Current Location: Luxor Museum', 'Found in fragments in the foundation of the 2nd Pylon and the fill of 3rd Pylon', 'Dynasty 17, Second Intermediate Period (1555-1550 BCE)', 'Limestone', 'H: 231.00cm, W: 112.5cm, D: 28.0cm', credits 'C. Zarnoch, E. Sullivan'."
-    publisher_funding_control: >
-      The About page (as reported by the fetch tool): the project was designed and built at UCLA 'under the direction of Dr. Diane Favro (director of the ETC) and Dr. Willeke Wendrich'; in 2021 moved to UC Santa Cruz 'under the direction of Dr. Elaine Sullivan'. No funding source or sponsor is stated on the pages read: UNRESEARCHED (public universities; grants behind the project not looked up).
+  - id: src-maspero-1909-rt31
+    title: "G. Maspero, 'L'ostracon Carnarvon et le papyrus Prisse', Recueil de travaux 31 (1909) 146-153 (note dated Cairo, 23 April 1909)"
+    author: "Gaston Maspero"
+    url: https://archive.org/details/recueildetravaux31masp
+    document_class: "secondary: a scholar's first notice of the board, with a short account of its text and hand (interpretive). Not data."
+    read: "yes, directly, the opening pages (OCR text of the volume, sha256 1ff3a219ffea1f0119bfb3955d9ef2e9c992b73e6d0087bd86d4dc061396dd4a, from https://archive.org/download/recueildetravaux31masp/recueildetravaux31masp_djvu.txt). OCR only; page images not viewed. Extract: sources/extracts/maspero-1909-rt31-extract.txt. The Ptahhotpe text and its commentary on pp. 147-153 were not read."
+    publisher_funding_control: "Open task. Not stated in the pages read."
     authenticity:
-      status: unchecked
-      gaps: ["Page is a digital item with no independent capture (rule A8)", "Does not give a museum accession number or the text", "The page does not say which of Kamose's stelae it is; the content (an intercepted letter from Apophis to Kush) is that of the second stela per other sources not opened"]
-      next_step: "Compare with the Luxor Museum record and Habachi 1972 (the editio princeps)."
-      checked: 2026-10-14
-      capture: "none by an independent party"
+      status: authenticated
+      strength: moderate
+      provenance: "Internet Archive item recueildetravaux31masp, a scan of Recueil de travaux vol. 31 (1909); the article is listed in the volume's table of contents (read in the OCR)."
+      tests:
+        - "Gardiner 1916 p. 96 quotes two phrases of this article ('car l'ecriture de son livre semble se rattacher aux mains cursives de cette epoque', 'le commencement d'un conte a demi historique') and they are found in the OCR of p. 146 (could have failed)"
+        - "Weill 1913 p. 537 cites Maspero, Recueil de travaux XXXI (1909), p. 146 for the first notice (could have failed)"
+      tested_by: "Stratah dig session (not an independent review)"
+      gaps: ["OCR only", "The dynasty number printed after 'Kamosis' reads 'XVIP' in the OCR; Gardiner's quotation reads 'xviiie'; not resolved", "Maspero does not say where he had the findspot from"]
+      next_step: "View the page image of p. 146."
+      checked: 2026-10-16
+
+  - id: src-weill-1913-ja
+    title: "R. Weill, 'Les Hyksos et la restauration nationale', Journal asiatique, 11th series, vol. 1 (Mai-Juin 1913), section B, pp. 536-544"
+    author: "Raymond Weill"
+    url: https://archive.org/details/in.gov.ignca.26276
+    document_class: "secondary: a scholar's reading of the tablet's text from the 1912 photographic plate and an argument about its character (interpretive). Not data."
+    read: >
+      yes, directly: page images of pp. 536 to 544 (PDF leaves 548-556 of in.gov.ignca.26276, sha256 of the PDF 9e93ecf12d78a8c4c278708706bd249fe086983fb28f82eb880f5c7795043962, downloaded 2026-10-16 from https://archive.org/download/in.gov.ignca.26276/26276.pdf;
+      OCR text sha256 734062991adb44c41e673ba7c141456fea1b53c45d5b0425fc12cbd29c03d4ed, very noisy, used only to locate the pages). Extract: sources/extracts/weill-1913-ja-extract.txt. His hieroglyphic lines were not read. Weill's earlier book (Les Hyksos et la restauration nationale, 1910-1911) was not opened.
+    publisher_funding_control: "Open task. Not stated in the pages read. Weill is styled 'capitaine' in Gardiner 1916."
+    authenticity:
+      status: authenticated
+      strength: moderate
+      provenance: "Internet Archive item in.gov.ignca.26276 (scan of Journal asiatique, 11th series, tome 1, 1913, from the Indian Government's IGNCA collection); running heads 'MAI-JUIN 1913' and 'LES HYKSOS ET LA RESTAURATION NATIONALE' read on the page images."
+      tests:
+        - "Gardiner 1916 p. 108 to 109 quotes Weill, Journal asiatique 11th series vol. I (1913) p. 542: 'Mais si les caracteres paleographiques de cet ordre doivent etre pris en consideration ... victoire definitive des Thebains sur les Septentrionaux'; the sentence is on p. 542 of the page image (could have failed)"
+        - "Gardiner's report that Weill 'similarly disputes the historical character' of the tablet agrees with pp. 541 to 544 (could have failed). Gardiner's description of Weill's 'central proposition' (conventional clichés) is close to p. 541 but the sentence 'au point de vue proprement historique ...' on p. 544 is not mentioned by Gardiner."
+      tested_by: "Stratah dig session (not an independent review)"
+      gaps: ["Weill's reading is made from the 1912 photograph (he says so on p. 537), which is the same board and same reproduction Griffith used; not independent of it", "Pages 536 to 544 only"]
+      next_step: "Open Weill's 1910-1911 articles (Journal asiatique, 10th series, vols. 16 and 17) for the Toshkeh inscription Gardiner cites (pp. 150-152 of the book)."
+      checked: 2026-10-16
+
+  - id: src-newberry-1913-psba
+    title: "P. E. Newberry, 'Notes on the Carnarvon Tablet No. I', Proceedings of the Society of Biblical Archaeology 35 (1913) 117-122"
+    url: ""
+    document_class: "scholarly article cited by Gardiner 1916; not opened"
+    read: "no. Known only through Gardiner's account (pp. 96, 97 and 110). Volume 35 was not found among the Internet Archive items searched on 2026-10-16."
+    authenticity: {status: unchecked, next_step: "Open the article through a library; read the year of the date, the reading of 'Teti the son of Piopi' and the remarks on Nefrusi."}
+
+  - id: src-breasted-1906-ar2
+    title: "J. H. Breasted, Ancient Records of Egypt, vol. 2 'The Eighteenth Dynasty' (Chicago: University of Chicago Press, 1906), biography of Ahmose son of Ebana, sections 1-16"
+    author: "James Henry Breasted"
+    url: https://archive.org/details/ancientrecordsof02brea
+    document_class: "interpretive (translation of the tomb inscription of an officer of Ahmose I at El Kab, with notes). Not data. Context only: the inscription does not name Kamose."
+    read: "yes, directly (OCR text, sha256 cfd690f1a1858e162bf9c67969f02f2e963fc6a71271cf3e481d421621e7eb11, from https://archive.org/download/ancientrecordsof02brea/ancientrecordsof02brea_djvu.txt); sections 1 to 16 read. Extract: sources/extracts/breasted-1906-ahmose-extract.txt."
+    publisher_funding_control: "Open task. Not stated in the pages read."
+    authenticity:
+      status: authenticated
+      strength: moderate
+      provenance: "Internet Archive item ancientrecordsof02brea, volume 2 (1906) of Breasted's five-volume work."
+      tests:
+        - "Gardiner 1916 p. 110 quotes the El Kab biography's Nubian campaign ('His Majesty made a great slaughter'), the siege of Avaris and of Sharuhen; found in sections 12 to 14 of Breasted (could have failed)"
+        - "The Rutgers commentary on the same inscription (src-rutgers-admiral-ahmose) agrees on the capture of Avaris by Ahmose I, the count 'one man and three women, total four heads' and the gift of captives as servants (could have failed). Both translate the same inscription, so they are not independent witnesses to it."
+      tested_by: "Stratah dig session (not an independent review)"
+      gaps: ["OCR only", "The inscription itself and Sethe's edition not read"]
+      next_step: "Read Sethe, Urkunden der 18. Dynastie, Heft 1, for the signs of the passages."
+      checked: 2026-10-16
 
   - id: src-rutgers-kamose-2013
-    title: "'The Second Stela of Kamose', Part I (revised August 2013) and Part II (revised July 2013), Middle Egyptian grammar reading texts, Rutgers University (egypt-grammar.rutgers.edu/TextPDF/kamose1.pdf and kamose2.pdf)"
+    title: "G. Toth (Rutgers University-Camden), 'The Second Stela of Kamose', Parts I, II and III (revised August 2013, July 2013 and July 2013): reading texts with transliteration, vocabulary and grammar commentary, from 'Middle Egyptian Grammar through Literature' (egypt-grammar.rutgers.edu)"
+    author: "Gabor Toth (named on the site's index page: 'Dr. Gabor Toth, Rutgers University'; the PDFs' metadata author field reads 'gtoth')"
     url: http://egypt-grammar.rutgers.edu/TextPDF/kamose1.pdf
-    document_class: "typeset hieroglyphic font and transliteration for teaching, with a vocabulary list; no translation in the files read. Derived from an edition not named in the pages seen. Not the object."
-    read: "yes, directly (both PDFs, 3 pages each; Part I read as page images, Part II as extracted text). Local sha256 kamose1.pdf 74a2de03b036fcc7fb607dfd392a292ec0bb948286b2139d2548888fb94032a0; kamose2.pdf 726e75a7b9959f92e14660c8cc41745c149d22010b3dad2614dd07153c42e82a. The signs were NOT checked against the stela."
-    publisher_funding_control: "Authors and funders are not named on the PDFs: UNRESEARCHED. The host is a Rutgers University grammar site."
+    urls_other: [http://egypt-grammar.rutgers.edu/TextPDF/kamose2.pdf, http://egypt-grammar.rutgers.edu/TextPDF/kamose3.pdf, http://egypt-grammar.rutgers.edu/]
+    document_class: "scholarly teaching text: an editor's Egyptological transliteration (hieroglyphs shown as images, not read) with English glosses and grammatical commentary on the second stela, citing Habachi 1972, Smith and Smith 1976 and Allen. Not a full translation. Not the stela."
+    read: >
+      yes, directly, all pages, 2026-10-16 (text extracted with pdftotext; Part I viewed as page images on 2026-10-14). Part I: 16 pages (sha256 74a2de03b036fcc7fb607dfd392a292ec0bb948286b2139d2548888fb94032a0); Part II: 13 pages (sha256 726e75a7b9959f92e14660c8cc41745c149d22010b3dad2614dd07153c42e82a);
+      Part III: 15 pages (sha256 118de307dbad9c87a4c8f9c65f4d0921199fea66380c8af1abb5028e800d94b0); the index page (sha256 0e8fc425eb430fa119d4895c1f3520737eb59ffda1da8999bc80a702269ba5dd). Correction to the first pass, which said '3 pages each', 'no translation in the files read',
+      'edition not named' and took the 1954 findspot from an unopened summary: the files are 16, 13 and 15 pages; they contain English glosses of many clauses (not a continuous translation); the commentary names Habachi, Smith and Smith and Allen; and Part I itself says the stela 'was discovered in 1954 in Karnak. It was used as the base of a statue of Ramesses II.'
+      The signs were not checked against the stela. Which edition the transliteration follows is not stated in the files; the commentary discusses Habachi's and Smith and Smith's readings as alternatives.
+    publisher_funding_control: "Open task. The book this site accompanies is listed on the index page as 'Gabor Toth: Introduction to Middle Egyptian Grammar through Ancient Writings', Linus Learning (6 August 2013). Who funded the site is not stated on the pages read."
+    authenticity:
+      status: authenticated
+      strength: weak
+      provenance: "Hosted on Rutgers University's egypt-grammar site; the index page names Dr Gabor Toth, Rutgers University, and lists these PDFs as texts 7, 8 and 9. In copyright; not stored here."
+      tests:
+        - "The PDFs' metadata author 'gtoth' and creation dates (12 August 2013) agree with the index page's named author and the 'revised 2013' dates on the PDFs (could have failed)"
+        - "The Part I commentary's statement that the stela was found in 1954 and used as the base of a Ramesses II statue differs from Digital Karnak's findspot ('foundation of the 2nd Pylon and the fill of 3rd Pylon'); the two do not agree and may describe different stelae (could have failed; it did not agree, recorded in claim kamose-objects-identification)"
+      tested_by: "Stratah dig session (not an independent review)"
+      gaps: ["Edition not named", "Hieroglyphs not read", "Transliteration not compared with Habachi 1972 or Smith and Smith 1976", "Parts I to III do not cover the whole stela (Part I ends with an ellipsis)"]
+      next_step: "Compare the transliteration line by line with Habachi 1972 and with the stela."
+      checked: 2026-10-16
+
+  - id: src-rutgers-admiral-ahmose
+    title: "G. Toth, 'The Autobiography of Admiral Ahmose', Parts I, II and III (revised August 2013), Rutgers 'Middle Egyptian Grammar through Literature' (admiralahmose1.pdf, admiralahmose2.pdf, admiralahmose3.pdf)"
+    author: "Gabor Toth"
+    url: http://egypt-grammar.rutgers.edu/TextPDF/admiralahmose1.pdf
+    urls_other: [http://egypt-grammar.rutgers.edu/TextPDF/admiralahmose2.pdf, http://egypt-grammar.rutgers.edu/TextPDF/admiralahmose3.pdf]
+    document_class: "scholarly teaching text on the tomb inscription of Ahmose son of Ebana (an officer of Ahmose I): transliteration, vocabulary, commentary. Not a translation. Context only: the inscription does not name Kamose."
+    read: "yes, directly, Parts I and II (the passages on Avaris, Sharuhen and the Nubian campaign); Part III (campaigns of Amenhotep I and Thutmose I) searched, not read in full. sha256 admiralahmose1.pdf e36359fe6c7882d88c97b0d81efcde4b57f1402be9ee6dfd0cd6dab4dfa541e7 (18 pages), admiralahmose2.pdf 54437f1ddb1d872b7c9c16b590794e1607199b05b5b299cb1e7f91234cfc6f6c (8 pages), admiralahmose3.pdf b9f238240056c0b1f4572ecd8ff82633023b8f33ef32d7170439edf449944e40 (14 pages)."
+    publisher_funding_control: "Open task. As for src-rutgers-kamose-2013."
+    authenticity:
+      status: authenticated
+      strength: weak
+      provenance: "As for src-rutgers-kamose-2013 (texts 10 to 12 on the index page)."
+      tests:
+        - "Agrees with Breasted 1906 on the capture of Avaris under Ahmose I, 'one man and three women, total four heads', and captives given as servants (could have failed). Both translate the same inscription."
+      tested_by: "Stratah dig session (not an independent review)"
+      gaps: ["Hieroglyphs not read", "Edition not named"]
+      next_step: "As for src-breasted-1906-ar2."
+      checked: 2026-10-16
+
+  - id: src-rutgers-biblio
+    title: "G. Toth, 'Bibliography and Abbreviations' to 'Introduction to Middle Egyptian Grammar through Ancient Writings' (egypt-grammar.rutgers.edu/Book/Bibliography and Abbreviations.pdf)"
+    url: "http://egypt-grammar.rutgers.edu/Book/Bibliography%20and%20Abbreviations.pdf"
+    document_class: "bibliography; lists the editions of the Kamose stelae (entry 47: Lacau, ASAE 39; Helck; Posener; Habachi; Gardiner 1916; Smith and Smith 1976; Pritchard; Simpson; Vandersleyen) and Habachi 1972 (entry 33)"
+    read: "yes, 7 pages (sha256 fd6b6afd28f645fa6b04fb688c3428719828df64ec3aa8725ca7a533076ee26c); entries 33 and 47 read. The works listed were not opened."
+    authenticity: {status: unchecked, next_step: "Use only to find the editions; open them."}
+
+  - id: src-digital-karnak-victory-stela
+    title: "Digital Karnak (University of California, Santa Cruz), 'Victory Stela of Kamose' object page"
+    url: https://digitalkarnak.ucsc.edu/victory-stela-of-kamose/
+    document_class: "web object record by a university project; derivative of printed literature (it cites Porter and Moss and Traunecker and Golvin). Not the object."
+    read: >
+      yes, the raw page (sha256 c0f7b9830be264fde109cc51f9f5555a7f6f0474e4164b7236ad43ebbcf25e78, downloaded 2026-10-16 and read as text; the first pass had it only as summarised by a fetch tool). It reads: 'This round-topped stela celebrates the triumph of Theban ruler Kamose over the Hyksos king Apophis';
+      'The beginning of the text records a letter intercepted by Kamose's army to the king of Kush from Apophis. The letter was a request for help against Kamose. The remainder of the stela describes Kamose's victory over the Hyksos'; 'Neshy ... Kamose charged him with the responsibility of erecting this stela at Karnak';
+      'Found in fragments in the foundation of the 2nd Pylon and the fill of 3rd Pylon'; 'Dynasty 17, Second Intermediate Period (1555-1550 BCE)'; 'Current Location: Luxor Museum'; 'H: 231.00cm, W: 112.5cm, D: 28.0cm'; authors C. Zarnoch, E. Sullivan; bibliography Porter and Moss (1972) pp. 37, 73 and Traunecker and Golvin (1984) p. 200.
+      The page does not say which of Kamose's stelae it describes, and does not say what the text says Kamose did to people. It places the letter at the beginning of the text; the Rutgers Part II commentary has the letter in the later part of the second stela (they may describe different stelae or arrange the text differently; not resolved).
+    publisher_funding_control: >
+      Read: the About page (src-digital-karnak-about): 'The Digital Karnak Project was funded in part with a grant from the National Endowment of the Humanities (NEH). Financial assistance was also provided by the Steinmetz Family Trust.' and the 2021-22 relaunch 'was partially funded by a UCSC COR grant'. Whether any of this funding bears on this object page is not stated.
     authenticity:
       status: unchecked
-      gaps: ["Edition and editor not named; cannot say whether it follows Habachi, Helck or another", "Typeset, not the stone", "Partial: Part I and II together do not seem to cover the whole stela"]
-      next_step: "Identify the edition (Habachi 1972 or Helck) and compare line by line; view the stela."
-      checked: 2026-10-14
+      gaps: ["Digital page with no independent capture (rule A8)", "No museum accession number or text", "Which stela it describes is not stated"]
+      next_step: "Compare with the Luxor Museum record and Habachi 1972."
+      checked: 2026-10-16
+      capture: "none by an independent party"
+
+  - id: src-digital-karnak-about
+    title: "Digital Karnak, 'About' page"
+    url: https://digitalkarnak.ucsc.edu/about/
+    document_class: "project description"
+    read: "yes, the raw page (sha256 3c1387a530729acc6cca62e5dfb7adae2faed24271ae84a2642b3bf68836a9e8, 2026-10-16): the project was built at UCLA (directed by Diane Favro and Willeke Wendrich), moved to UC Santa Cruz in 2021-22; funding statement as above; licence CC BY-NC 4.0; credits list Elaine Sullivan and Carrie Zarnoch for Egyptology content."
+    authenticity: {status: unchecked, gaps: ["Digital page with no independent capture"], next_step: "None needed beyond the funding record."}
 
   - id: src-bronk-ramsey-2010
     title: "C. Bronk Ramsey, M. W. Dee, J. M. Rowland, T. F. G. Higham, S. A. Harris, F. Brock, A. Quiles, E. M. Wild, E. S. Marcus, A. J. Shortland, 'Radiocarbon-based chronology for dynastic Egypt', Science 328 (18 June 2010) 1554-1557, doi:10.1126/science.1189395 (abstract page)"
     url: https://cris.haifa.ac.il/en/publications/radiocarbon-based-chronology-for-dynastic-egypt-2/
     document_class: "interpretive/synthetic (a Bayesian model over radiocarbon measurements and historical reign lengths). A claim, not data."
-    read: "abstract page only (as returned by the fetch tool): 211 radiocarbon measurements, New Kingdom start 1570-1544 BCE, Djoser 2691-2625 BCE. The paper itself was not opened."
-    publisher_funding_control: "Journal Science (AAAS); funders of the study are not stated on the page read: UNRESEARCHED. The authors' institutions were not looked up."
+    read: "abstract page only (as returned by the fetch tool on 2026-10-14): 211 radiocarbon measurements, New Kingdom start 1570-1544 BCE, Djoser 2691-2625 BCE. The paper itself was not opened (paywalled; not retried 2026-10-16)."
+    publisher_funding_control: "Open task. Journal Science (AAAS); no funding statement on the page read; the authors' institutions were not looked up."
     authenticity:
       status: unchecked
       gaps: ["Paper not opened", "Does not date Kamose; used only as a bound on the start of the next dynasty"]
@@ -125,59 +300,72 @@ sources:
     title: "Minot State University, HIST 105 World Civilizations I source reader, 'The Kamose Texts' page"
     url: https://oer.minotstateu.edu/projects/105SourceReader/the-kamose-texts-3.html
     document_class: "teaching page that links to a copy of a translation; no translation text on the page itself. Not data."
-    read: "yes, the page as returned by the fetch tool. It names no translator, gives reign dates 'around 1555-1550 BCE', says Carnarvon Tablet found 1908 and two stone fragments found in 1932 and 1935, and does not mention Avaris, Nubia, captives or slaves."
-    publisher_funding_control: "Minot State University HIST 105 course; licence CC BY-NC-ND 4.0 (page); the linked SharePoint copy of the translation was not opened; its translator and funders: UNRESEARCHED."
+    read: >
+      yes, the raw page (sha256 0296ce44d4d6c015cc29f090a09b3ddfd57487c116bfe436abc507b23a1bf3e5, 2026-10-16). It says: 'Possibly written by "Neshi," who names himself as the "overseer of the treasury," these inscriptions on two different stone blocks were made during the reign of Kamose';
+      'his rule was based in Thebes around 1555-1550 BCE'; 'These inscriptions celebrate Kamose's military campaigns into both Lower and Upper Egypt'; 'The Carnarvon Tablet ... was discovered in 1908, while two fragments of the original stone inscriptions were discovered in 1932 and 1935.' No author or translator is named.
+      The link to the translation goes to a SharePoint address that returned a Microsoft sign-in page on 2026-10-16 (blocked; not bypassed); the translation was not read.
+    publisher_funding_control: "Open task. Course page; licence CC BY-NC-ND 4.0; translator and funder of the linked copy not known."
     authenticity:
       status: unchecked
-      gaps: ["Translation behind the link not opened", "Fragment find years (1932, 1935) are an unsourced statement on the page"]
+      gaps: ["Translation behind the link blocked", "Fragment find years (1932, 1935) are unsourced on the page"]
       next_step: "Identify the linked translation and its translator."
-      checked: 2026-10-14
+      checked: 2026-10-16
 
   - id: src-dh-claims
-    title: "Dead Hidden YouTube claims files, ids dh-HN0wNVpfunM-18 and dh-qL1VmGF3BF8-16 (~/dead_hidden_claims/, via the handoff)"
+    title: "Dead Hidden YouTube videos, claim ids dh-HN0wNVpfunM-18 (video titled 'Rekhmire') and dh-qL1VmGF3BF8-16 (video titled 'The Aamu of Shu | The Hyksos'), via the handoff file"
     url: ""
-    document_class: "speaker claims (captions of videos). A claim on the same footing as a book, not data. Never an anchor."
-    read: "the two claim lines as quoted in the handoff only; the videos and transcripts were not watched or read here. Who funds or controls the channel: UNRESEARCHED."
-    authenticity:
-      status: unchecked
-      next_step: "Not needed as evidence. Cited so the claims can name their source."
+    document_class: "speaker claims. A claim on the same footing as a book, not data. Never an anchor."
+    read: >
+      the two claim lines as quoted in the handoff only (handoff-only wording). On 2026-10-16 the public oEmbed records of the two video ids were opened (sha256 yt1 34991f0d57f53f8fcc0add5d7bde9bad3430f774f2fdf14c2ea4699d8ce07471, yt2 2bcf680fa1831bb673c45fa0c74815d371c928272cfbf67f8de6f27afb87be9a): they give the titles above and the channel name '@dead_hidden'.
+      A request for the transcripts was refused by YouTube (IP block message) and was not repeated or worked around. The videos were not watched; the wording of the claims is not checked against the videos.
+    publisher_funding_control: "Open task. Who funds or controls the channel is not known here."
+    authenticity: {status: unchecked, next_step: "Not needed as evidence. Obtain the transcripts or watch the videos if the wording must be checked."}
 
   - id: src-tla-kamose
-    title: "Thesaurus Linguae Aegyptiae (BBAW) records for Kamose Stela II (Luxor Museum J.43; text SXQSUAMQH5F2HORTAGXSEWEUGM) and Carnarvon Tablet I rto. (text BMVO6CBMDNBQFMXW3DSIW66WSM; title in a search result gave 'Kairo JE 41790')"
+    title: "Thesaurus Linguae Aegyptiae (BBAW) records for Kamose Stela II (text SXQSUAMQH5F2HORTAGXSEWEUGM) and Carnarvon Tablet I (text BMVO6CBMDNBQFMXW3DSIW66WSM)"
     url: https://thesaurus-linguae-aegyptiae.de/text/SXQSUAMQH5F2HORTAGXSEWEUGM
     document_class: "scholarly database record; not opened"
-    read: "no. BLOCKED: both pages returned a bot-verification notice ('Leider zwingt uns die Zunahme unregulierter Bot-Zugriffe zu erhoehten Schutzmassnahmen'); footer 'Alle Rechte vorbehalten'. Not retried, not bypassed. The museum numbers J.43 and JE 41790 are from search-result titles only."
-    authenticity: {status: unchecked, next_step: "Open in a browser, or use the TLA's crawler data interface if its licence allows."}
+    read: "no. BLOCKED on 2026-10-14: both pages returned a bot-verification notice; footer 'Alle Rechte vorbehalten'. Not retried, not bypassed. The museum numbers J.43 and JE 41790 seen earlier were in search-result titles only and are not used."
+    authenticity: {status: unchecked, next_step: "Open in a browser, or use the TLA's data download if its licence allows."}
 
   - id: src-habachi-1972
     title: "L. Habachi, The Second Stela of Kamose and His Struggle against the Hyksos Ruler and His Capital (Gluckstadt: J. J. Augustin, 1972; Abhandlungen des Deutschen Archaeologischen Instituts Kairo, Aegyptologische Reihe 8)"
     url: ""
     document_class: "editio princeps of the second stela (not located)"
-    read: "no. Not located; in copyright. Bibliographic details from a search summary (not opened) and the Rutgers pages' mention of Habachi."
+    read: "no. In copyright; not located. The bibliographic details are confirmed by the Rutgers bibliography (entry 33), which was read."
     authenticity: {status: unchecked, next_step: "Library copy; read the findspot report, the photographs and the translation of the passages on Avaris, Kush and booty."}
 
   - id: src-smith-smith-1976
     title: "H. S. Smith and A. Smith, 'A Reconsideration of the Kamose Texts', Zeitschrift fuer Aegyptische Sprache 103 (1976) 48-76"
     url: ""
     document_class: "scholarly article with a translation (not opened)"
-    read: "no. Not opened (paywalled journal; not tried beyond a search summary)."
+    read: "no. Not opened (paywalled journal). Its readings are known only as the alternatives the Rutgers commentary reports (for example the 'House of the Braggart' reading of a place name, 'shake' for a verb of movement, a reading of an Amun name as erased in the Amarna period)."
     authenticity: {status: unchecked, next_step: "Open through a library; read the translation of both stelae and the notes on the booty and the Nubian passages."}
 
-  - id: src-maspero-weill-newberry
-    title: "G. Maspero, Recueil de Travaux 31 (1909) 146-153; R. Weill, Les Hyksos et la restauration nationale (1910-11) and Journal Asiatique 11th series vol. 1 (1913) 536-544; P. E. Newberry, Proc. Soc. Bibl. Arch. 35 (1913) 117-122"
+  - id: src-further-editions-not-opened
+    title: "Editions and translations of the Kamose stelae listed in the Rutgers bibliography (entry 47) and not opened: P. Lacau, ASAE 39, 245-249; W. Helck, Historisch-biographische Texte der 2. Zwischenzeit, 82-98; G. Posener, RdE 33 (1981) 138-140; Pritchard, ANET II, 89-93; Simpson, 348-350; Saeve-Soederbergh, in Kush IV, 54; C. Vandersleyen, Lexikon der Aegyptologie III (1978) 306-308"
     url: ""
-    document_class: "scholarly works cited by Gardiner 1916 for their positions on the Carnarvon Tablet; not opened"
-    read: "no. Known only through Gardiner's account of them (page 96 and the Conclusions)."
-    authenticity: {status: unchecked, next_step: "Open each and read the passage on the tablet's date and historical value."}
+    document_class: "scholarly works known only from a bibliography"
+    read: "no. Titles and page numbers only, from src-rutgers-biblio."
+    authenticity: {status: unchecked, next_step: "Open Helck and Lacau (the first stela) and Pritchard (a published translation) at a library."}
+
+  - id: src-earlier-pages-not-reproducible
+    title: "Pages named in the first pass's log without a recorded URL: the Griffith Institute 'Artefacts' biographical page for Gardiner; the Egypt Exploration Society history page; the Egyptology Forum (egyptologyforum.org) guide to Kamose texts"
+    url: ""
+    document_class: "web pages; not reproducible from this record"
+    read: >
+      not reproduced. The first pass opened them (log L-02 and L-03) but recorded no URL. On 2026-10-16 a guess at the EES history address (ees.ac.uk/history) returned 404, a guess at a Griffith Institute address was reset by the server, and egyptologyforum.org/EEFWEB/ returned 404. Nothing in this dig relies on them now.
+      The EEF guide was read to character 100000 of about 199697 in the first pass; that is recorded in L-03 only.
+    authenticity: {status: unchecked, next_step: "Record the URLs and re-open them if anything is to rest on them."}
 
   - id: src-schilvold-ia
     title: "Edmund Schilvold, e-books on the Kamose stelae uploaded to the Internet Archive (identifiers egypt_kamose_king_of_thebes_the_first_kamose_stela_... and ..._the_second_kamose_stela_...), Dec 2024"
     url: https://archive.org/details/egypt_kamose_king_of_thebes_the_second_kamose_stela_victory_war_hyksos_avaris_se
-    document_class: "modern self-published compilation with commentary; its framing treats the Amu/Hyksos as connected to the biblical Israelites. A claim, not data. Not relied on."
-    read: "item metadata only (description, licence CC BY-NC-ND 4.0, uploader contact); the books were not read. It reproduces Habachi and Wilson's translation, so it is also a copy of a copyrighted translation. Who funds or controls it: UNRESEARCHED."
+    document_class: "modern self-published compilation with commentary. A claim, not data. Not relied on."
+    read: "item metadata only (description, licence CC BY-NC-ND 4.0, uploader contact); the books were not read. The item description says it reproduces a translation by Habachi and Wilson, so it would be a copy of a copyrighted translation; this was not checked in the files. Who funds or controls it is not known."
     authenticity: {status: unchecked, next_step: "Not needed. Use Habachi 1972 directly."}
 
 not_accepted_as_anchors:
-  - "Wikipedia: opened once for orientation (Kamose page); nothing from it is used as an anchor. It was the source of the leads: Ryholt's view of a longer reign and coregency, the Nubian inscriptions at Arminna and Toshka, and 'scholars debate whether he attacked Avaris'. Those are leads, named in the claims only as unread."
-  - "Search-engine summaries (including museum numbers J.43 and JE 41790, and the 1954 findspot under a statue base of Ramesses II)"
-  - "The Dead Hidden videos themselves"
+  - "Wikipedia: opened once on 2026-10-14 for orientation (Kamose page); nothing from it is used as an anchor. It was the origin of three leads that are NOT repeated in any claim as findings: a view of a longer reign with a coregency, Nubian inscriptions at two named sites, and 'scholars debate whether he attacked Avaris'."
+  - "Search-engine summaries (including the museum numbers J.43 and JE 41790 and the 1954 findspot as first seen). The 1954 findspot is now taken from the Rutgers Part I text, which was opened."
+  - "The Dead Hidden videos and the handoff file"

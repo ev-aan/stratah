@@ -1,27 +1,42 @@
 # Shared node. Append-only: a change is a new `rev` plus a `history` entry, never an overwrite. See build/SCHEMA.md, Nodes.
 id: kamose-1908-carnarvon-tablet-found
-rev: 1
+rev: 2
 type: event
-label: '1908: Carnarvon and Carter find the writing-board now called Carnarvon Tablet I at the Birabi site, Thebes'
+label: '1908: the writing-board now called Carnarvon Tablet I is found by Lord Carnarvon''s excavation at Thebes (the place is given differently by two printed accounts)'
 time: '1908-01-01'
 precision: year
 date_basis: stated
 kind: document
-status: single
+status: disputed
 what: >-
-  The excavators' report (published 1912) says the Birabi site was examined in 1908, that it produced a Seventeenth Dynasty tomb (No. 9), and that among the pottery and mutilated
-  mummies in its courtyard, on a rock ledge, 'the important historical tablet referring to the expulsion of the Hyksos by the General Kamosi' and a second broken tablet were
-  recovered. Carter's text places the site 'about one hundred and fifty metres north-east of the mouth of the Dêr el Bahari valley', 'between the native house Beit el Meleitên and the
-  village mosque'. The month and day are not given in the passages read. The report's description of the text is the excavator's, not a reading of the board.
+  Two printed accounts of the find were read, and they differ on the place. (1) The excavators' report (Carnarvon and Carter, published 1912, chapter V by Carter) says the Birabi site was examined in 1908, that it produced a Seventeenth Dynasty tomb (No. 9), and that among the
+  pottery and mutilated mummies in its courtyard, on a rock ledge, 'the important historical tablet referring to the expulsion of the Hyksos by the General Kamosi' and a second broken tablet were recovered. Carter's text places the site 'about one hundred and fifty
+  metres north-east of the mouth of the Der el Bahari valley', 'between the native house Beit el Meleitan and the village mosque'. Gardiner (1916) repeats this account and says the board was found on a ledge near the entrance to a plundered tomb in the Birabi.
+  (2) Maspero, in a note dated Cairo, 23 April 1909, says: 'Au mois de fevrier de l'an dernier, le comte de Carnarvon, fouillant a Thebes dans la montagne de Drah abou'l Neggah, y recueillit, parmi les deblais de fouilles anterieures, les deux morceaux d'une tablette a ecrire'
+  (in February of last year, Count Carnarvon, digging at Thebes in the mountain of Drah Abu'l Naga, collected among the spoil of earlier excavations the two pieces of a writing tablet). This gives February 1908 and a find among earlier spoil; it does not name tomb No. 9 or the Birabi.
+  Whether the two names refer to the same spot, and which account is right, is not settled by anything read. The excavators' description of the text is the excavator's, not a reading of the board.
 place:
-  name: 'Birabi site, courtyard of tomb No. 9, near the mouth of the Deir el-Bahari valley, Theban necropolis'
-  note: 'Named by Carter in Carnarvon and Carter 1912, chapter V. No coordinates given; none are guessed here.'
+  name: 'Birabi site, courtyard of tomb No. 9, near the mouth of the Deir el-Bahari valley, Theban necropolis (Carter 1912); Maspero 1909 names Drah Abu el-Naga instead'
+  note: 'Named by Carter in Carnarvon and Carter 1912, chapter V; Maspero 1909 gives a different place name. No coordinates given by either; none are guessed here.'
 sources:
 - title: 'Earl of Carnarvon and Howard Carter, Five Years'' Explorations at Thebes (1912), chapter V, Project Gutenberg #48382, text read'
   url: https://www.gutenberg.org/ebooks/48382
   authenticity: excavators' own report; see the kamose-texts manifest
   origin: carnarvon-carter-1912
   source_type: testimony
+  access: read
+- title: 'A. H. Gardiner, The Defeat of the Hyksos by Kamose, Journal of Egyptian Archaeology 3 (1916) 95-110, p. 95, Internet Archive scan in.ernet.dli.2015.70975, read'
+  url: https://archive.org/details/in.ernet.dli.2015.70975
+  authenticity: edition with named tests; see the kamose-texts manifest; repeats the excavators' account
+  origin: gardiner-1916
+  derives_from: carnarvon-carter-1912
+  source_type: scholarly
+  access: read
+- title: 'G. Maspero, L''ostracon Carnarvon et le papyrus Prisse, Recueil de travaux 31 (1909) 146-153, p. 146, Internet Archive item recueildetravaux31masp, OCR read'
+  url: https://archive.org/details/recueildetravaux31masp
+  authenticity: scholar's first notice; see the kamose-texts manifest; OCR only; does not say where it had the findspot from
+  origin: maspero-1909
+  source_type: scholarly
   access: read
 about:
 - object-carnarvon-tablet-i
@@ -31,3 +46,8 @@ history:
 - rev: 1
   date: '2026-10-14'
   change: Created by the kamose-texts dig from Carter in Carnarvon and Carter 1912, chapter V, and the report's introductory paragraph. One witness (the excavators); no independent record of the find was read.
+- rev: 2
+  date: '2026-10-16'
+  change: >-
+    Added Maspero 1909 (opened in the rebuild after the review of PR #30), whose account of the find names a different place (Drah Abu'l Naga, among spoil of earlier excavations) and gives the month (February 1908). Gardiner's source entry now records that it derives from the excavators' report.
+    Status changed from single to disputed because two accounts differ. The label and `what` were rewritten to say so. rev 1 is kept in history: it said the excavators were the one witness and that the month was not given in the passages read; Maspero gives February.

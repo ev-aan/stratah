@@ -1,0 +1,23 @@
+EXTRACT (public domain). J. H. Breasted, Ancient Records of Egypt, vol. 2 (Chicago: University of Chicago Press, 1906), "Biography of Ahmose, son of Ebana" (tomb of Ahmose, El Kab), sections 1-16, pp. 1-9.
+Read: Internet Archive item ancientrecordsof02brea (OCR text, sha256 cfd690f1a1858e162bf9c67969f02f2e963fc6a71271cf3e481d421621e7eb11). Footnote letters and superscripts of the OCR are omitted. Verbatim apart from OCR repairs; elisions marked [...]. This is the biography of an officer of King Ahmose I (successor of Kamose). It does not name Kamose. It is stored as context for who took Avaris and for the word "slaves" in an Egyptian military text; it confers no weight on any claim about Kamose.
+
+--- section 6 (introductory address, p. 6) ---
+I was presented with gold seven times in the presence of the whole land; male and female slaves likewise. I was endowed with very many fields.
+
+--- section 8 (p. 6) ---
+One besieged the city of Avaris (Ht-w'r't); I showed valor on foot before his majesty; then I was appointed to (the ship) 'Shining-in-Memphis.'
+
+--- section 12 (p. 7) ---
+One captured Avaris; I took captive there one man and three women, total four heads, his majesty gave them to me for slaves.
+
+--- section 13 (p. 8) ---
+One besieged Sharuhen for 6 years, (and) his majesty took it. Then I took captive there two women and one hand. One gave me the gold of bravery, besides giving me the captives for slaves.
+
+--- section 14, campaign against Nubia (p. 8) ---
+Now, after his majesty had slain the Asiatics, he ascended the river to Khenthennofer, to destroy the Nubian Troglodytes; his majesty made a great slaughter among them. Then I took captive there, two living men, and three hands. One presented me with gold in double measure, besides giving to me two female slaves. His majesty sailed down-stream, his heart joyous with the might of victory, (for) he had seized Southerners and Northerners.
+
+--- editor's introduction and notes (pp. 4-8) ---
+[...] the city was finally captured, and the Hyksos, fleeing into Asia, were pursued to the city of Sharuhen (Josh. 19:6). Here they were besieged for six years by Ahmose I, and this stronghold was also captured. [...]
+[Footnote to section 6] Ahmose has recorded elsewhere in his tomb a list of the gifts he received, making a total of 9 men and 10 women [...].
+[Footnote to the Sallier papyrus] it contains a folk-tale narrating the cause of the war between a Hyksos king, Apophis in Avaris, and a Sekenenre, who was ruler in Thebes. Unfortunately, only the beginning is preserved. Most of the current translations and interpretations of this document are largely the products of a vivid imagination.
+[Footnote to section 14] These slaves being women, are not the two captives just taken, as the translations of Renouf and Petrie indicate.

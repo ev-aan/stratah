@@ -1,0 +1,57 @@
+EXTRACT (public domain). A. H. Gardiner, "The Defeat of the Hyksos by Kamose: the Carnarvon Tablet, No. I", Journal of Egyptian Archaeology 3 (1916) 95-110.
+Read: Internet Archive scan in.ernet.dli.2015.70975 (OCR text, sha256 22121d9e67c981a1d5786c52a7aec1b217690ebf54a826b4245be8a3b5123841; PDF sha256 27c3964da7b1b88824dccfcca681dc35753cd1fb112d6f0237130a141f21089a). Pages 98, 99, 105, 106 and 107 were also checked against the page images.
+Verbatim from the print apart from OCR repairs; elisions are marked [...]. The hieroglyphic transcription and the two plates (XII and XIII) are not reproduced here and their signs were not read.
+
+--- p. 95 (first page) ---
+In that work good photographs of both recto and verso are given, and Mr F. Ll. Griffith contributes a valuable description; but the former are on too small a scale, and the latter is too summary, to satisfy the requirements of the philologist and the historian. [...] I have ventured to reproduce the large-scale photographs made for me in 1910 by Herr Koch; scholars will thus have better means of controlling my readings, some of which are by no means as certain as I could have wished.
+
+The Carnarvon Tablet no. I belongs to a pair of hieratic writing-boards found among loose debris of pottery and fragmentary mummies on a ledge near the entrance to a plundered tomb in the Birabi, not far from the mouth of the Deir el Bahari valley. The tomb in question is assigned by Mr Howard Carter to the Seventeenth Dynasty, and we have every reason to believe that this attribution is correct. [...] Tablet no. I bears on the obverse the historical text here to be considered, and on the reverse first a new copy of the beginning of the well-known Proverbs of Ptahhotpe and below this the lines of a draughtsboard in squares 10 x 3.
+
+--- p. 96 ---
+Tablet no. II, of much smaller size but written in the same or a very similar hand, contains a much-damaged literary composition, probably of didactic character; the missing corner was purchased from a dealer by Professor Petrie, and subsequently identified by me, and is still in my hands awaiting to be joined to the larger fragment in the Cairo Museum.
+
+The circumstances of the find would predispose one to attribute these writing-boards to the Seventeenth, or at the very latest, to the beginning of the Eighteenth Dynasty. Sir Gaston Maspero, however, in commenting on the above-mentioned duplicate of the Proverbs of Ptahhotpe, expresses the opinion that the scribe by whom this was written lived towards the time of the Twentieth Dynasty, "car l'ecriture de son livre semble se rattacher aux mains cursives de cette epoque plutot qu'a celles de la xviiie," and he therefore draws the conclusion that the text of the obverse represents "le commencement d'un conte a demi historique, dont l'action se passait dans l'an iii du Pharaon Kamosis de la xviiie dynastie." M. le capitaine R. Weill, in an interesting but wholly unconvincing treatise on the documentary evidence for the Hyksos period, similarly disputes the historical character of the Carnarvon Tablet, though admitting that it may date back as early as the beginning of the Eighteenth Dynasty. Professor Newberry, on the other hand, declares emphatically that this document "is certainly not a tale (as has been suggested) but deals with exact history," [...]
+
+Though it is impossible to agree with Professor Newberry as regards this latter point, he is undoubtedly right in stating that the hieratic writing is that "characteristic of the end of the xviiith Dynasty."
+
+--- p. 97 ---
+It may be considered certain, therefore, that the Carnarvon Tablet no. I is very nearly contemporary with the events it records; in no case can it have been written more than fifty years later. The question as to its value as a historical document is better deferred until we have become acquainted with the contents.
+
+--- p. 97, opening line of the text and its note ---
+Year 3, Horus "Appearing-upon-his-Throne," Two Goddesses "Repeating-Monuments," Horus of Gold "Making-content-the-Two-Lands," King of Upper and Lower Egypt [Wazkheper[re, Son of Re] Kamose, granted life, beloved of Amen-re, lord of Thrones-of-the-Two-Lands (Karnak), like Re for ever and ever.
+[...] Mr Griffith, followed by Professor Newberry, wrongly reads "year 7." -- It is quite unusual to find the date thus immediately preceding the full titulary.
+[The note also says that the way the date is written is not the usual spelling and cites Sethe, Untersuchungen, vol. ii, p. 88, for "two dating from the reign of Amosis I". The signs in that note are garbled in the OCR and were not read.]
+
+--- p. 99 (the king's speech; verified against the page image) ---
+"I should like to know what purpose serves my strength, when one prince is in Avaris and another is in Kush, and I sit united with an 'A'am and a Negro -- each man holding his slice of the Black Land -- who share the land with me. I do not pass him (??) as far as Memphis, the water (?) of Egypt. Behold, he holds (?) Shmun, and no man rests, being wasted (?) through servitude (?) of the Setyu.
+The speech of the king is quite intelligible at first, but later on becomes involved in great obscurity.
+
+--- p. 102 ---
+I will grapple with him, that I may cleave open his belly. My desire is to deliver Egypt, and to smite (?) the 'A'amu."
+The king here expresses his determination to fight against the Asiatics.
+
+--- p. 103 ---
+"Behold, the 'A'amu have [advanced (?)] as far as Cusae, they have pulled out (?) their tongues all together. We are secure in the possession of our black Land. Elephantine is strong, and the middle part (?) is with us as far as Cusae. The finest (?) of their fields are ploughed for us. Our cattle are in the papyrus marshes. [...]
+The reply of the council seeks to represent the political situation in a favourable light. It is true that the Asiatics have now advanced en masse to Cusae, but the rest of Egypt, as far as the stronghold of Elephantine, remains in Kamose's uncontested possession. [...] This being so, a pacific policy is advised: Kamose should wait until the enemy takes the offensive.
+
+--- p. 105 ---
+I sailed down as a champion to overthrow the 'A'amu by the command of Amun, just of counsels, my army being valiant in front of me like a fiery blast; troops of Mazoi on the top (?) of our strongholds (?) to spy out the Setyu and to destroy their places; East and West bringing their fat, and my army abounding in supplies everywhere.
+
+--- p. 106 ---
+I sent forth a strong troop of Mazoi, and spent a while (?) in order to coop up (??) ......Teti the son of Piopi in Nefrusi. I suffered him not to escape. I turned back the Asiatics, I......Egypt......, and he made (?) as one who.........the power of the Asiatics. I spent the night in my ship, my heart being glad.
+This passage teems with difficulties, both palaeographical and lexicographical.
+
+--- p. 107 (translation and notes; verified against the page image) ---
+When day dawned I was on him, as it were a hawk. When the time of perfuming the mouth (??) arrived, I overthrew him, I destroyed his wall, I slew his folk, I caused his wife to go down to the river-bank. My soldiers were like lions with their prey, carrying off slaves, cattle, fat and honey, and dividing up their possessions, their hearts rejoicing. The region of Nef[rusi (??)] came down (??), it was no great thing for us (?) to confine its soul (??). The (?)... of Per-Shaq (?) was lacking (??), when I came to it. Their horses (?) fled inside. The garrison (?)...................
+The discomfiture of Teti, son of Piopi, in the region of Nefrusi, is related.
+[...] The sending down of Teti's wife to the river-bank must signify that she was appropriated by the conqueror. [...] The meaning of the last few sentences is extremely problematical, and my conjectural renderings make very free with both vocabulary and grammar.
+[...] It is the work of a very careless and ignorant copyist, and abounds in smudges, alterations and ambiguities of all sorts.
+
+--- pp. 108-109 (Conclusions) ---
+If, as I believe with Mr Griffith and Professor Newberry, the actual writing dates from within a few years of the time when the events recorded are supposed to have taken place, it is surely incredible that those events should be wholly fictitious. [...] For my part, I am unable to discover any word or phrase which indicates or implies that the writer was aware of the subsequent taking of Avaris and of the ultimate triumph of the Thebans. On the contrary, unless the text in its complete form, against the custom of early times, was as long and circumstantial as the stele of the Ethiopian Piankhi, the detailed description which the Carnarvon tablet gives of the taking of Nefrusi would surely have appeared ridiculously long and out of proportion in the light of the far more important events that followed.
+[...] It is by no means unlikely that the text of the tablet is a direct copy from a stele set up by Kamose in one of the Theban temples. [...] It does not, however, follow that the purpose of the original was the same as that of the copy.
+
+--- p. 110 ---
+No doubt this kind of historical source is not all that could be desired, but since we can neither contradict nor qualify its statements we must make shift with them as best we may. [...] In the romance of the Sallier papyrus Seqnenre is a more or less obedient vassal of the Hyksos ruler Apophis. Kamose was probably the immediate predecessor of Amosis I, since both are associated together in the famous find of jewellery and on an inscription at Toshkeh in Lower Nubia. From the tomb of Ahmose at El Kab we learn that Amosis I drove the Hyksos out of Avaris and subsequently defeated them, after a long siege, at Sharuhen in Judah. [...] The utmost limit of Kamose's ambition seems to have been the re-capture of Memphis (l. 4); whether it was he or Amosis to whom that honour fell is not yet known to us.
+Professor Newberry has discussed the name of the conquered foe and the geography of the tablet [...]. Teti he shows to have been a familiar name in the Seventeenth and early Eighteenth Dynasties, and Piopi to be merely a variant form of Apopi, Apophis. Thus Teti, son of Piopi, may have been the son of one of the Hyksos rulers called Apophis, probably the last of them.
+Not the least interesting point about the Carnarvon Tablet is its allusion to a powerful prince in Kush, who claimed equality with the Theban Pharaoh. This reference is confirmed by the biography of Ahmose of El Kab, whence we learn that the defeat of the Hyksos at Sharuhen was immediately followed by a Nubian campaign, where "His Majesty made a great slaughter" and Ahmose earned for the second time the reward of gold given to doughty warriors.
