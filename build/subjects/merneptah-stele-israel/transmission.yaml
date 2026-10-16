@@ -1,0 +1,35 @@
+# How the speaker claims about the Merneptah Stele appeared. Spread is adoption, never evidence (X1).
+subject: merneptah-stele-israel
+chains:
+  - id: tx-merneptah-dead-hidden
+    about: "merneptah-stele-israel:merneptah-sp-conquered-canaan"
+    title: "Where the 'Israel, no king, conquered Canaan' wording appears in the Dead Hidden videos"
+    confers_weight: false
+    events:
+      - id: tx-dh-01
+        date: "2026-08-25"
+        precision: day
+        step: repetition
+        carrier: "Dead Hidden, 'The Serpent The Judge' (gBGfqlL_FFQ), uploaded date per the claims file"
+        form: "Israel first mentioned as a distinct group in Canaan in 1200 BC; the Hyksos slaves became the people of Israel (dh-gBGfqlL_FFQ-09)."
+        source: src-dh-claims
+        read: no
+        note: "Only the extracted claim line was read, not the video or transcript."
+      - id: tx-dh-02
+        date: "2026-09-06"
+        precision: day
+        step: repetition
+        carrier: "Dead Hidden, 'Aamu, Hyksos, Habiru, Shasu' (K3pw12lBcXM)"
+        form: "Hyksos became Hapiru, then Shasu Yahweh, then Israel, as in the stele of Merneptah; by 1200 BC a nation without a king that had conquered large parts of Canaan (dh-K3pw12lBcXM-29, -30)."
+        source: src-dh-claims
+        read: no
+        note: "Claim lines only. The source the speaker relies on is unknown."
+      - id: tx-dh-03
+        date: "2026-09-14"
+        precision: day
+        step: repetition
+        carrier: "Dead Hidden, 'Rekhmire' (HN0wNVpfunM)"
+        form: "In 1200 BC the stele records Israel as a single nation in Canaan, still without a king, the only well-organized people to have conquered Canaan (dh-HN0wNVpfunM-26)."
+        source: src-dh-claims
+        read: no
+        note: "Claim line only. Dates are upload dates from the claims files, not first-use dates."
