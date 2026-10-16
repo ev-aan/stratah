@@ -1,0 +1,13 @@
+# Proposal for the owner. build/taxonomy.yaml is owner-only and was NOT edited by this dig.
+# To apply: add the line below under `assignments:` in build/taxonomy.yaml (the owner decides; an agent does not merge it).
+# Values are checked against the areas and question types defined in that file as of 2026-10-16.
+proposed_assignment:
+  avaris-tell-el-dab-a:
+    area: archaeology_texts
+    areas: [religion_myth, history]
+    types: [did_it_happen, is_claim_true, what_does_it_mean]
+    popular_claims: true
+as_one_line: "  avaris-tell-el-dab-a:  {area: archaeology_texts, areas: [religion_myth, history], types: [did_it_happen, is_claim_true, what_does_it_mean], popular_claims: true}"
+reason: >
+  The dig asks what was found at an excavated site (a building, tombs, a statue), checks a widely shared claim made in video claim lines (twelve columns, twelve tombs, a pyramid, Joseph), and records
+  what the excavators say the statue shows. Religion and mythology is an extra area because the claims concern Bible figures; history because the strata fall in the Middle Kingdom and Second Intermediate Period.

@@ -1,0 +1,33 @@
+# Shared node. Append-only: a change is a new `rev` plus a `history` entry, never an overwrite. See build/SCHEMA.md, Nodes.
+id: avaris-2017-12-29-bar-ron-joseph-palace-paper
+rev: 2
+type: document
+label: "2017-12-29: Rabbi M. S. Bar-Ron's paper presents the Tell el-Dab'a palace, 12 pillars, 12 tombs and pyramid tomb as Joseph's (following D. Rohl)"
+time: '2017-12-29'
+precision: day
+date_basis: stated
+kind: document
+status: single
+what: >-
+  A paper dated 29 December 2017 by Rabbi Michael S. Bar-Ron (Beth Midrash Ohel Moshe, Beit Shemesh) states that the Tell el-Dab'a Area F palace has
+  'two central rows of 12 stately pillars', that the garden cemetery had '12 prominent tombs', that a 'grand pyramid tomb' held 'the broken remains of a
+  3-meter-high, sitting statue', that the body in that tomb 'had long been removed', and that this fits the biblical Joseph (as the vizier Ankhu in David
+  Rohl's chronology). It cites Rohl's books and a 1996 Bietak text for these points. The paper is a record of what the author claimed on that date; it is not
+  evidence for the claims.
+sources:
+- title: "M. S. Bar-Ron, The Seal of Joseph in His Palace at Tell ed-Daba (29 Dec 2017), PDF on kankanjournal.com, introduction and 'What Identifies the Palace as Joseph's'"
+  url: https://kankanjournal.com/wp-content/uploads/2020/12/The_Seal_of_Joseph_in_His_Palace_at_Tell.pdf
+  authenticity: unchecked; a paper whose author thanks Rohl as mentor and cites Rohl's books (see the avaris-tell-el-dab-a manifest)
+  origin: bar-ron-2017
+  source_type: secondary_report
+  access: read
+manifest: {subject: avaris-tell-el-dab-a, source: src-bar-ron-2017}
+created: '2026-10-14'
+history:
+- rev: 1
+  date: '2026-10-14'
+  change: Created by the avaris-tell-el-dab-a dig. Dated by the paper's own title-page date; the host page posts it under a 2020 upload path, which is not the date of writing.
+- rev: 2
+  date: '2026-10-16'
+  change: >-
+    Wording only: the authenticity note no longer calls the paper an 'advocacy paper'; it now says what the paper itself says (the author thanks Rohl as mentor and cites Rohl's books). The `what` text, date and sources are unchanged.

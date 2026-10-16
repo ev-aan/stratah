@@ -1,0 +1,32 @@
+# Shared node. Append-only: a change is a new `rev` plus a `history` entry, never an overwrite. See build/SCHEMA.md, Nodes.
+id: avaris-1986-1988-statue-fragments-found
+rev: 1
+type: event
+label: "1986-1988: Austrian team finds fragments of a smashed larger-than-life statue of an Asiatic man in cemetery F/I, Tell el-Dab'a (Avaris)"
+time: '1986-01-01'
+end: '1988-12-31'
+precision: year
+date_basis: stated
+kind: document
+status: single
+what: >-
+  Schiestl (2006) says all the pieces of the statue he presents were found between 1986 and 1988 in a southeastern part of cemetery F/I at
+  Tell el-Dab'a by the Austrian Archaeological Institute under Manfred Bietak. The head and part of the right fist came from the upper layer
+  of a robbers' pit in tomb p/19 no. 1; the right shoulder came from the entrance shaft of tomb p/21 no. 1; a left foot from tomb o/20 no. 11.
+  The month and day of each find are not given in the passage read.
+place:
+  name: "Tell el-Dab'a, area F/I (southeastern part of the cemetery)"
+  note: "Named by Schiestl 2006 and the auaris.at F/I page. No coordinates are given in the sources read; none are guessed here."
+sources:
+- title: "R. Schiestl, The Statue of an Asiatic Man from Tell el-Dab'a, Egypt, Agypten und Levante 16 (2006), 173-185, pp. 173-175 (open PDF, text layer read)"
+  url: https://austriaca.at/0xc1aa5576_0x0016f30e.pdf
+  authenticity: authenticated edition, moderate; the excavator-team article (see the avaris-tell-el-dab-a manifest)
+  origin: schiestl-2006
+  source_type: scholarly
+  access: read
+manifest: {subject: avaris-tell-el-dab-a, source: src-schiestl-2006}
+created: '2026-10-14'
+history:
+- rev: 1
+  date: '2026-10-14'
+  change: Created by the avaris-tell-el-dab-a dig from Schiestl 2006, section 1 and 2. The years rest on the article's own statement.
