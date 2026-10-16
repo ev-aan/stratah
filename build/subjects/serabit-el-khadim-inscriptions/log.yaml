@@ -98,3 +98,8 @@ log:
     entry: >
       RIGHTS TRIM. The stored extracts of Gardiner 1916 with Cowley's note (sources/extracts/gardiner-cowley-1916-extract.txt) and of Gardiner and Peet 1917 (sources/extracts/gardiner-peet-1917-extract.txt) were cut down to the lines the claims quote, with elisions marked and the passages that cut against a simple reading kept (Gardiner's "unverifiable hypothesis" and "by no means convinced", Cowley's "very uncertain"), because Gardiner's UK copyright runs to the end of 2033.
       The Petrie 1906 and Egypt Exploration Fund 1906 extracts are unchanged. New extract hashes are recorded in sources/MANIFEST.yaml. The earlier longer versions remain in git history of commit 9b02071; whether to purge them from history is the owner's decision.
+  - id: L-15
+    date: 2026-10-16
+    entry: >
+      EXTRACT FIXES (new entry; earlier entries unchanged, including the harmless typo in L-13). In sources/extracts/gardiner-cowley-1916-extract.txt: (1) the Cowley p. 18 line about Sayce and the goddess Tanith is under No. 347 in the page text, not under the sphinx 345; a marker "No. 347 reads [...]" now precedes it. (2) The sentence "we are bound to accept this writing as being of about 1500 B.C." is Petrie's wording quoted by Gardiner; it now carries "(Petrie, quoted by Gardiner)".
+      The extract hash in sources/MANIFEST.yaml is updated to 32dd169747ba7e531910f4420fd83acbb2f4f5a2bd4eab831b1152c8f5179b16.

@@ -4,7 +4,7 @@
 # Pp. 13, 14, 15, 16 and 18 were transcribed from the page images; the p. 12 line is from the OCR. Hebrew letters omitted. Passages that cut against a simple reading are kept.
 
 p. 12 (OCR): [...] the Egypt Exploration Fund expedition of 1905 under Professor Petrie [...] a series of ten, bearing inscriptions in an unknown script [...]
-p. 13: A short inscription previously published from a squeeze by M. Weill brings the total up to eleven. [...] seven much battered stelae (nos. 349-355), which were carved in the rock near a mine a mile and a half to the west of the temple [...] a sphinx of small size (no. 345) [...] the Egyptian words "beloved of Hathor, [lady of] the turquoise" on the shoulder [...] we are bound to accept this writing as being of about 1500 B.C.
+p. 13: A short inscription previously published from a squeeze by M. Weill brings the total up to eleven. [...] seven much battered stelae (nos. 349-355), which were carved in the rock near a mine a mile and a half to the west of the temple [...] a sphinx of small size (no. 345) [...] the Egyptian words "beloved of Hathor, [lady of] the turquoise" on the shoulder [...] we are bound to accept this writing as being of about 1500 B.C. (Petrie, quoted by Gardiner)
 p. 13: This conclusion may be correct, but I am by no means convinced that the end of the Twelfth Dynasty would not be a more probable date.
 p. 13, note 1: The squeeze is definitely marked as referring to an inscription at Maghârah.
 p. 14: [...] it is to the last degree improbable that the monuments bearing the new script are the work of the indigenous Semitic nomads [...] the monuments are due to strangers from other parts who accompanied the Egyptians on their expeditions [...]
@@ -12,4 +12,4 @@ p. 14: The inscriptions are too fragmentary for any very serious attempts at con
 p. 15: [...] the decipherment of the name Ba'alat must remain, so far as I am concerned, an unverifiable hypothesis.
 p. 16: [...] at all events not later than 1500 B.C., there existed in Sinai [...] a form of writing almost certainly alphabetic in character [...]
 Cowley, p. 17: We are quite aware that some of our suggestions are very uncertain [...]
-Cowley, p. 18: [...] the whole means "the sphinx of the goddess." [...] Prof. Sayce objects that the goddess Tanith appears only in late Punic inscriptions [...]
+Cowley, p. 18: [...] the whole means "the sphinx of the goddess." [...] No. 347 reads [...] Prof. Sayce objects that the goddess Tanith appears only in late Punic inscriptions [...]
