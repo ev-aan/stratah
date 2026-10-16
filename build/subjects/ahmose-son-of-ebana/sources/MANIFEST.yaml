@@ -4,6 +4,7 @@
 # 19th-century drawn copy of it; its signs were looked at but NOT read here. Every claim therefore rests on books, translations or articles (claims, not primary data).
 # Funders and controllers of each work: recorded under `funding_and_control` only where a page that was opened says so; otherwise UNRESEARCHED.
 retrieved: 2026-10-14
+updated: 2026-10-16   # second pass: see log entries L-07 to L-12. Hashes below are of files fetched on 2026-10-16 and kept outside the repository.
 sources:
 
   - id: src-breasted-are2
@@ -57,14 +58,14 @@ sources:
     title: "Ancient Egypt Online, 'Ahmose son of Ebana' (web page reproducing a translation credited to M. Lichtheim, Ancient Egyptian Literature vol. II, 2006)"
     url: https://ancientegyptonline.co.uk/ahmoseebana/
     document_class: "interpretive: a web page (a copy of a translation, not the translation's own publication). Not primary data."
-    read: yes, directly (raw HTML fetched with curl, sha256 7a60f40ba0302d8afdcabff559f2f3f8fb66517ea5f03aa600c96419f1a6f262; the page's translation text read in full)
+    read: "yes, directly (raw HTML fetched with curl, sha256 7a60f40ba0302d8afdcabff559f2f3f8fb66517ea5f03aa600c96419f1a6f262 on 2026-10-14; the page's translation text read in full). SECOND CAPTURE 2026-10-16: sha256 61986db3eb6b06a7be449e412ecdc178c0d510ae68c7eccd605d49ceda28a3c5. The two hashes differ; the first capture was not stored, so what changed on the page is unknown. The translation paragraphs and the page's introduction were re-read in the second capture. It matches Lichtheim's book (src-lichtheim-ael2) in every passage compared, apart from British spelling (favours, valour) and the spelling Sharahen."
     funding_and_control: "Page states 'copyright J Hill 2010' under the translation; no author named for the page; no funding stated (page read). Funding of Lichtheim's book (University of California Press) and of the web page: UNRESEARCHED."
     authenticity:
       status: unchecked
       provenance: "A privately run site. The page credits the translation to 'M Lichtheim (2006) Ancient Egyptian Literature Vol II'. The wording was NOT compared with Lichtheim's book, which was not opened (in copyright), so every statement 'Lichtheim says' in claims.yaml means 'the page says it reproduces Lichtheim'."
-      gaps: ["No independent capture: the Internet Archive availability check on 2026-10-14 returned no snapshot (A8)", "Not compared with Lichtheim 2006 (in copyright)", "Transcription fidelity unknown"]
-      next_step: "Read Lichtheim, Ancient Egyptian Literature II in a library copy and compare."
-      checked: 2026-10-14
+      gaps: ["No independent capture: the Internet Archive availability check on 2026-10-14 returned no snapshot (A8); the two captures of 2026-10-14 and 2026-10-16 have different hashes", "Compared on 2026-10-16 with a third-party upload of Lichtheim's volume (src-lichtheim-ael2), which matched in the passages compared; that upload is not a holder copy and was not compared with a printed copy", "Transcription fidelity beyond the passages compared unknown"]
+      next_step: "Compare a printed copy of Lichtheim, Ancient Egyptian Literature II, with src-lichtheim-ael2 and the page."
+      checked: 2026-10-16
     notes: "Davies cites the 1976 printing (LICHTHEIM 1976: 13). Quote sparingly: the translation is in copyright."
 
   - id: src-davies-2009
@@ -90,6 +91,7 @@ sources:
     url: https://archive.org/details/denkmaler-aus-aegypten-und-aethiopien
     document_class: "facsimile drawing of the object, 19th century (a copy, not the object)"
     read: "VIEWED, NOT READ. The plate image (page 15 of denkmaeler-5.pdf, which is 'Band V, Abtheilung III, Blatt I-XC') was rendered and looked at. It shows the long text in vertical columns beside a standing figure, with three smaller panels, and the caption 'El Kab Grab 5'. The signs were NOT transliterated or read. File denkmaeler-5.pdf sha256 04d9beeeaed07fad7c75740db78aa833485f140c4c9d06c7daeeefe0d54f96bc; not stored here."
+    reopened: "2026-10-16: the same file (sha256 above, matches the first capture) was re-rendered at 300 dpi and plate d was looked at again. At that scale the signs of plate d are too small for the reader (an AI model) to transliterate reliably, so the plate remains VIEWED, NOT READ. The legible hieroglyphic text read this session is Sethe's autograph (src-sethe-urk-iv-heft1)."
     funding_and_control: "The Lepsius work's own title pages say it follows the drawings of the expedition sent by order of the King of Prussia, Friedrich Wilhelm IV, in 1842-1845, edited by Lepsius (read in the Internet Archive OCR of the text volume and of the plate volume's title). So the Prussian crown commissioned it. Who paid for what and what was left out: UNRESEARCHED."
     authenticity:
       status: authenticated
@@ -119,27 +121,100 @@ sources:
     title: "PBS Empires, Virtual Library, 'Ahmose and the Hyksos' (excerpt credited to J. A. Tyldesley, Egypt's Golden Empire, London, 2001)"
     url: https://www.pbs.org/empires/egypt/special/virtual_library/ahmose_hyksos.html
     document_class: "interpretive (a broadcaster's web page quoting a book)"
-    read: "ONLY A SUMMARY from the WebFetch tool's small model (not a verbatim read): it reported that the page credits Tyldesley 2001 and says the king let Ahmose keep four captives from Avaris. Nothing from it is quoted or relied on in claims."
+    read: "yes, directly on 2026-10-16 (raw HTML fetched with curl, 5,710 bytes, sha256 31de89712ba4bf9eb7c989b8034a6562c64ad659212c65ee30a38bcc86dbb45d; the whole excerpt read). On 2026-10-14 only a model summary of it had been received; that is superseded. The page is headed 'Account of the defeat of the Hyksos' and gives a paraphrase: 'I carried off four people there. A man and three women and his majesty let me keep them as slaves.' It is a paraphrase credited to Tyldesley 2001, which was not opened."
     funding_and_control: "PBS and the Tyldesley book: UNRESEARCHED."
-    authenticity: {status: unchecked, next_step: "Open in a browser and read the excerpt itself."}
+    authenticity: {status: unchecked, gaps: ["A broadcaster's excerpt of a book that was not opened", "No independent capture"], next_step: "Open Tyldesley 2001, Egypt's Golden Empire, and compare.", checked: 2026-10-16}
 
   - id: src-urk-iv
-    title: "K. Sethe, Urkunden der 18. Dynastie, Heft 1 (Urk. IV 1-11), Leipzig: Hinrichs (hieroglyphic edition of the autobiography)"
+    title: "K. Sethe, Urkunden der 18. Dynastie (Urk. IV), standard hieroglyphic edition; the Ahmose text is Urk. IV 1-11. See the two entries below for what was opened: src-sethe-urk-iv-heft1 (the hieroglyphic autograph, 1906) and src-sethe-urk-deutsch-1914 (the German translation volume)."
     url: ""
-    read: no. Not located as a scan in this session. Cited by Davies 2009 and by the translators as the standard hieroglyphic edition.
-    authenticity: {status: unchecked, next_step: "Find a scan or library copy; read the Avaris, Sharuhen and Nubia passages."}
+    read: "SUPERSEDED by src-sethe-urk-iv-heft1 and src-sethe-urk-deutsch-1914 (first pass 2026-10-14: not located as a scan; located and opened on 2026-10-16). Not opened: the later Helck continuation volumes or any later reprint."
+    authenticity: {status: unchecked, next_step: "See the two entries below."}
+
+  - id: src-sethe-urk-iv-heft1
+    title: "K. Sethe, Urkunden der 18. Dynastie, Erster Band (Urkunden des aegyptischen Altertums, IV. Abteilung, Heft 1: Historisch-biographische Urkunden aus den Zeiten der Hyksosvertreiber und ihrer ersten Nachfolger), Leipzig: Hinrichs, 1906. Hieroglyphic autograph (hand-drawn) of the autobiography, Urk. IV 1-11"
+    url: https://archive.org/details/urkunden-der-18.-dynastie-erster-band
+    document_class: "edition: a scholar's hand-copied hieroglyphic text of the inscription (a copy of the object, not the object). Evidence class primary_text only for what is legible and was read."
+    read: "PARTLY. PDF fetched 2026-10-16 (6,729,358 bytes, 331 pages, sha256 efc083e423a8e32c55ec2739f74014dd07d4f535518a232ef2e40cac96672845), kept outside the repository. Pages 11 to 14 of the PDF (Urk. IV 2 to 5) were rendered (110 to 350 dpi) and looked at by the reader, an AI model. What was READ: the editor's German page headings ('Lebensgeschichte des Admirals', 'Jugendzeit', 'Vertreibung der Hyksos') and the numeral strokes in the Avaris captive entry and the Sharuhen line. What was NOT read: the Egyptian words themselves (the reader did not transliterate the signs, and no transliteration is printed in this volume). The scan is 200 dpi bitonal and the strokes of the year-group at Urk. IV 4 are small."
+    funding_and_control: "Title page: Leipzig, J. C. Hinrichs'sche Buchhandlung, 1906, edited by Georg Steindorff. No funder stated on the pages opened: UNRESEARCHED."
+    authenticity:
+      status: authenticated
+      strength: moderate
+      provenance: "Internet Archive item urkunden-der-18.-dynastie-erster-band (creator Sethe, Kurt; date 1906). Title page read in the extracted text. Public domain by date (Sethe died 1934); the item page was not checked for a licence mark."
+      tests:
+        - "The section titles on autograph pages Urk. IV 2 and 3 ('Jugendzeit', 'Vertreibung der Hyksos') equal the section titles in the German translation volume (src-sethe-urk-deutsch-1914) (could have failed)"
+        - "The Avaris captive entry on the autograph (Urk. IV 4) shows the numerals 1, 3 and 4 in one run, the figures Breasted, Sethe's own translation and Lichtheim give (one man, three women, four heads) (could have failed)"
+      tested_by: "Stratah second-pass session, 2026-10-16 (not an independent review)"
+      gaps: ["Scan only; not compared with a printed copy", "Hand-copied edition: it shows what Sethe copied, not what the wall shows today", "Signs not transliterated by the reader; only numerals and German headings read", "Not compared with a later reprint"]
+      next_step: "A person who reads hieroglyphs should transliterate Urk. IV 3-5 and 10-11 from this file and check the numerals, the year-group of the Sharuhen line and the slave-name list."
+      checked: 2026-10-16
+
+  - id: src-sethe-urk-deutsch-1914
+    title: "K. Sethe, Urkunden der 18. Dynastie, uebersetzt (Urkunden des aegyptischen Altertums, IV. Abteilung, Band I, Deutsch), Leipzig: Hinrichs, 1914, pp. 1-6 and notes: German translation of Urk. IV 1-11 with notes"
+    url: https://archive.org/details/urkunden-der-18.-dynastie-i
+    document_class: "interpretive (translation with notes by the editor of the hieroglyphic edition; not primary data)"
+    derived_from: src-sethe-urk-iv-heft1
+    read: "yes, directly: PDF fetched 2026-10-16 (4,143,459 bytes, 147 pages, sha256 82dd894116063f8323438968f3b6b7c2b436dfad5feea16e2df51176324b2f91) and its text layer; pages 6, 7 and 10 of the PDF were also looked at as images to check the OCR (Urk. IV 3 to 6, 11 and 12). Sections 1 to 11 of the autobiography (translation pages 1 to 6) and the Vorwort read."
+    funding_and_control: "Vorwort signed by Georg Steindorff, Leipzig, June 1914; imprint Hinrichs, printed by Augustus Fries, Leipzig. No funder stated: UNRESEARCHED."
+    authenticity:
+      status: authenticated
+      strength: moderate
+      provenance: "Title page and imprint read: 'Urkunden des aegyptischen Altertums, in Verbindung mit anderen herausgegeben von Georg Steindorff, Deutsch, IV. Abteilung Band I, bearbeitet und uebersetzt von Kurt Sethe, Leipzig, J. C. Hinrichs'sche Buchhandlung 1914'. Internet Archive item urkunden-der-18.-dynastie-i (creator Sethe, Kurt; date 1914). Public domain by date; licence mark on the item page not checked."
+      tests:
+        - "Sethe's translation of the Avaris entry ('1 Mann und 3 Frauen, zusammen 4 Koepfe') agrees with Breasted 1906 and Lichtheim on the figures (could have failed)"
+        - "The OCR of pages 6, 7 and 10 was checked against the page images for the passages quoted in claims.yaml (could have failed)"
+      tested_by: "Stratah second-pass session, 2026-10-16 (not an independent review)"
+      gaps: ["The OCR is poor on the footnote transliterations, so only German words and numerals are quoted", "Not compared with a printed copy"]
+      next_step: "Compare with a printed copy; read Sethe's notes on the slave list against the autograph at Urk. IV 11."
+      checked: 2026-10-16
+
+  - id: src-lichtheim-ael2
+    title: "M. Lichtheim, Ancient Egyptian Literature, Volume II: The New Kingdom, 'The Autobiography of Ahmose son of Abana' (pp. 12-14, with notes). Copy read: a third-party upload on the Internet Archive (item MiriamLichtheimAncientEgyptianLiteratureVolII), OCR text file"
+    url: https://archive.org/details/MiriamLichtheimAncientEgyptianLiteratureVolII
+    document_class: "interpretive (translation with introduction and notes by a modern scholar; not primary data)"
+    read: "yes, directly: OCR text file fetched 2026-10-16 (sha256 789b38d8cd5a8ce251ce41d1aa5088a13ed47d6f9811f4be96a9e219182ad324); the introduction to Part One section I, the Ahmose autobiography translation and its notes (pp. 11-14) read. Quoted only in short fragments; the book is in copyright and nothing is stored."
+    funding_and_control: "Not read beyond the contents page ('Ancient Egyptian Literature, Volume II: The New Kingdom, Miriam Lichtheim'). Publisher and funding: UNRESEARCHED."
+    authenticity:
+      status: unchecked
+      provenance: "Uploaded by an unnamed account in 2016 (publicdate 2016-01-12) with no licence mark and no stated edition. The text opens 'ANCIENT EGYPTIAN LITERATURE Volume II: The New Kingdom, MIRIAM LICHTHEIM'. It is not a holder copy; the rights position of the upload was not checked."
+      tests:
+        - "The translation text of the page src-aeo-lichtheim-page matches this OCR in every passage compared (the Avaris, Sharuhen, Nubia, Aata and Tetian passages and the opening) apart from spelling (could have failed)"
+      tested_by: "Stratah second-pass session, 2026-10-16 (not an independent review)"
+      gaps: ["Edition and printing not identified from the upload", "OCR errors present (for example 'Minote' for 'smote'); quoted passages were chosen where the OCR is clean", "Not compared with a printed copy"]
+      next_step: "Compare with a printed copy (University of California Press)."
+      checked: 2026-10-16
 
   - id: src-tla
-    title: "Thesaurus Linguae Aegyptiae (Berlin-Brandenburg Academy) search for the autobiography"
+    title: "Thesaurus Linguae Aegyptiae (Berlin-Brandenburg Academy) web search for the autobiography"
     url: "https://thesaurus-linguae-aegyptiae.de/search?q=Urk.+IV+1+Ahmose+Ibana"
-    read: "no. BLOCKED: a bot-verification page ('Verifikation erforderlich') came back; not retried or bypassed."
-    authenticity: {status: unchecked, next_step: "Open in a browser and check whether a text record with transliteration exists."}
+    read: "no. BLOCKED, twice. 2026-10-14 and again 2026-10-16: a bot-verification page ('Verifikation erforderlich'; 14,449 bytes, sha256 eb89d356284711421c9c872c1a26c205969d4fda0c24d11a2ff35ded1cd4991d) came back instead of a record. The root page and robots.txt of the site return the same page. Not bypassed. A person with a browser can open it."
+    authenticity: {status: unchecked, next_step: "Open in a browser and check whether a text record with transliteration of Urk. IV 1-11 exists.", checked: 2026-10-16}
+
+  - id: src-tla-hf-dataset
+    title: "TLA corpus v18 'Earlier Egyptian original' sentences (hieroglyphs, transliteration, German translation), released by the TLA on Hugging Face (train.jsonl, 12,773 sentences)"
+    url: https://huggingface.co/datasets/thesaurus-linguae-aegyptiae/tla-Earlier_Egyptian_original-v18-premium
+    document_class: "database release of the TLA (data about texts; not the texts' own publication). Used only to look for the autobiography."
+    read: "SEARCHED, NOTHING FOUND. File fetched 2026-10-16 (5,916,210 bytes, sha256 13d4f6e17e5348c4a1dcf1c02795c8401367e187eaf903da325a1cf83a998f99, kept outside the repository). The dataset card says it holds only witnesses from before the start of the New Kingdom, so the autobiography (Eighteenth Dynasty) is not expected in it. Searched the transliteration and German columns for Avaris, Sharuhen and Ahmose forms: no sentence of the autobiography (one loose pattern hit, a sentence dated 1837 to 1819 BCE, is unrelated). The Late Egyptian and Demotic datasets of the same account were not opened."
+    authenticity: {status: unchecked, next_step: "Open the TLA's own text record in a browser (src-tla); the New Kingdom Middle Egyptian text may be in a different TLA corpus.", checked: 2026-10-16}
+
+  - id: src-kammerzell-1988
+    title: "F. Kammerzell, 'Texte aus dem Grab des Flottillenadmirals Ahmose', in O. Kaiser (ed.), Texte aus der Umwelt des Alten Testaments II, 4: Religioese Texte, Guetersloh 1988, pp. 522-529 (German translation of the tomb texts; listed in Davies's bibliography, which was read)"
+    url: ""
+    read: "no. NOT FOUND. Davies 2009 lists the work (read: its bibliography and its notes). The Internet Archive items found by a title search for the series (texteausderumwel0001unse, 0002unse, 0003unse) were opened as text: they are other fascicles (the one examined first is Band III, Lieferung 4, Mythen und Epen II; the other two hold no hit for 'Flottillenadmiral'). No scan or open copy of II, 4 was found. Only the TITLE is known; its wording of the rank is not known."
+    authenticity: {status: unchecked, next_step: "Find a library copy of TUAT II, 4 and read pp. 522-529.", checked: 2026-10-16}
 
   - id: src-sohag-translation
     title: "Sohag University staff-site PDF, 'Ahmos son of Abana, Translation'"
     url: "https://staffsites.sohag-univ.edu.eg/uploads/986/1540651708 - Ahmos son of Abana, Translation.pdf"
-    read: "no. NOT REACHED: connection refused (ECONNREFUSED) on one attempt; not retried or worked around."
+    read: "no. NOT REACHED: connection refused (ECONNREFUSED) on 2026-10-14; on 2026-10-16 one more attempt returned a connection reset (curl error 35) and the host's root page did not answer either. Not worked around."
     authenticity: {status: unchecked, next_step: "Retry later or find another copy; a search summary said it carries a translation with bibliography."}
+
+  - id: src-digital-epigraphy-elkab
+    title: "Digital Epigraphy (digital-epigraphy.com), tag page for Elkab, with a reading entry on the tomb of Senwosret at Elkab (Dec 8, 2018)"
+    url: https://digital-epigraphy.com/tag/elkab
+    document_class: "a project web page (about the survey method); not evidence about the autobiography"
+    read: "yes, directly on 2026-10-16 (raw HTML fetched with curl, sha256 79ea1b63c7985ae39bbf918377be645a276d529ec777f08efe7e954bb01f95b5; the page text read). It says a British Museum expedition under W. V. Davies has worked on cleaning and recording the pharaonic tombs of Elkab since 2009. It has a Supported by heading followed by logos with no names in the text; no funder of the Elkab work is stated in the text."
+    authenticity: {status: unchecked, next_step: "Open the page in a browser and read the logos under Supported by; find the Elkab project acknowledgements.", checked: 2026-10-16}
 
   - id: src-nominatim
     title: "OpenStreetMap Nominatim lookup for El Kab, Egypt (gazetteer, orientation only)"

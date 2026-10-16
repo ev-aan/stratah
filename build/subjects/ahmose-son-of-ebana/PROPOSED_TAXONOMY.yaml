@@ -1,0 +1,13 @@
+# PROPOSAL ONLY, for the owner. build/taxonomy.yaml is owner-only and is not edited by this branch.
+# If the owner agrees, add this line under `assignments:` in build/taxonomy.yaml (all values exist in that file's `areas` and `question_types`):
+#
+#   ahmose-son-of-ebana:   {area: archaeology_texts, areas: [history, media_misinformation], types: [what_does_it_mean, is_claim_true], popular_claims: true}
+#
+# Why: the dig reads one inscribed text (Archaeology and Ancient Texts), sits with the history of the Hyksos expulsion (History), and weighs a speaker's version of it against the text
+# (Media and Misinformation; "Is a widely shared claim true?" and "What does it say or mean?"). popular_claims is true because the dig starts from two videos' claims.
+proposed_assignment:
+  subject: ahmose-son-of-ebana
+  area: archaeology_texts
+  areas: [history, media_misinformation]
+  types: [what_does_it_mean, is_claim_true]
+  popular_claims: true

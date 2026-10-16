@@ -40,3 +40,48 @@ log:
       WHERE THE FACTS END. Known only through books and a modern survey report: the existence and place of the tomb (Elkab no. 5), the layout (31 + 8 columns), the narrative as translated. Not established: the exact Egyptian words, the date of the carving beyond 'reign of Thutmose III' on stylistic grounds (Davies), the absolute date of the campaigns,
       who the captives were by origin, whether the 'slaves' were what the later term means (the Egyptian word was not read), and the finding-state of the wall today. What would move claims: a transliteration from the Lepsius plate or Urk. IV compared with the translations, Davies's final record of the tomb, a photograph or squeeze of the wall, a title-lexicon on the naval rank, a chronology with independent data.
       NEXT STEPS in order: (1) transliterate Lepsius Bl. 12 columns 12-19 and 26-28; (2) open the TLA text in a browser; (3) read Lichtheim's book and compare the web page; (4) trace funding of the British Museum Elkab programme and the University of Chicago series.
+  - id: L-07
+    date: 2026-10-16
+    entry: >
+      SECOND PASS OPENED, by a builder agent answering an independent review of the first pass (comment 6182541777 on PR 27, head 336d4f2). The review's verdict was keep with fixes; its blocking findings were the missing gate fields, the unread primary material and a mis-cited passage.
+      Earlier entries L-01 to L-06 are not edited; the corrections below are new entries. Claims.yaml and MANIFEST.yaml were revised in this pass; the claim ids are kept except where a claim was split (ahmose-sp-campaigns-against-hyksos-and-nubians is new) or added
+      (ahmose-urk-autograph-captive-numerals, ahmose-slave-name-list-urk-iv-11). This pass is also not an independent review: a separate reviewer must write review.yaml.
+  - id: L-08
+    date: 2026-10-16
+    entry: >
+      WHAT WAS OPENED AND READ ON THIS PASS (files kept outside the repository; hashes in sources/MANIFEST.yaml). (1) Sethe, Urkunden der 18. Dynastie, Heft 1 (1906), the hieroglyphic autograph of Urk. IV 1-11, Internet Archive item urkunden-der-18.-dynastie-erster-band: pages 11-14 of the PDF (Urk. IV 2-5) were rendered and
+      looked at; only the German page headings and the numeral strokes were read, not the Egyptian words (no transliteration is printed there and the reader did not transliterate). (2) Sethe, Urkunden der 18. Dynastie, uebersetzt (1914), item urkunden-der-18.-dynastie-i: the German translation of Urk. IV 1-11 with notes, read in full, with
+      pages 6, 7 and 10 checked against the images. (3) Lichtheim, Ancient Egyptian Literature II, pp. 11-14: a third-party upload on the Internet Archive (OCR), compared with the Ancient Egypt Online page, which matched in every passage compared apart from spelling. (4) The Lepsius plate (same file, hash equal to the first capture) re-rendered at 300 dpi:
+      still viewed, not read; the signs are too small for the reader to transliterate reliably. (5) PBS Empires excerpt read verbatim (the first pass had only a model summary). (6) Breasted vol. 2 sections 12-16, 38-39 and 79-82 re-read for the correction in L-09. (7) The TLA's open corpus release on Hugging Face (Earlier Egyptian, v18): searched, nothing from this text.
+      (8) A Digital Epigraphy page about the British Museum Elkab expedition (for funding). Search-engine results were used only to find pages and nothing in them is relied on.
+  - id: L-09
+    date: 2026-10-16
+    entry: >
+      CORRECTIONS TO THE FIRST PASS (the review's findings). (a) Claim ahmose-text-nubians-as-targets cited Breasted sections 14, 39, 80 and 81 and said sections 80 and 81 describe the hanging Nubian leader. Re-read: section 81 is the Asiatic campaign to Retenu and Naharin and holds neither the Troglodyte term nor the hanging; both are in section 80. The claim now cites 14, 39 and 80.
+      (b) 'Admiral': the first pass said no reading uses the word and that nobody read says admiral. That was too strong. Davies's bibliography (read) lists Kammerzell 1988, 'Texte aus dem Grab des Flottillenadmirals Ahmose' (the work was not found or read), and Sethe's autograph pages and German volume (read in this pass) use 'Lebensgeschichte des Admirals' as editorial headings. None of the four renderings of the title line says admiral. The claims were reworded to say that.
+      (c) The word Hyksos: the web page's own introduction says Ahmose's father served 'in the early campaigns against the Hyksos'; Lichtheim's introduction and heading, Sethe's headings and a note reading the foes killed before the first Nubian campaign as Hyksos, and Breasted's heading and commentary also use the word. The claim now lists all of them; it stays true that no translated line of the speech has the word.
+      (d) ahmose-composition-by-grandson-and-late-carving said 'not by Ahmose himself' and 'some decades after the campaigns'. The sources read say 'executed by' (Breasted) and 'directed by' (Davies) the grandson, and Davies says Ahmose made the tomb himself and lived to see it completed. Reworded; the sources do not say who composed the narrative.
+      (e) ahmose-title-translations-differ-no-admiral was filed contested while its basis said the renderings may differ in emphasis rather than in fact; it is now proposed with listed alternatives. (f) anchor_checked secondary was generous for claims resting on one source (Fantuzzi; Davies's column 27): now no. For claims where three translations agree it stays secondary, with the note that they worked from the same text.
+  - id: L-10
+    date: 2026-10-16
+    entry: >
+      ADOPTION NOTES WITHDRAWN. The first pass gave adoption weights of 1 to 5 and notes such as 'widely repeated in popular accounts', 'popular accounts give 1550 to 1525', 'stated in every account seen' and 'standard in popular summaries'. Only two popular pages were read (the PBS excerpt and the Ancient Egypt Online page) and no survey or count, so those weights had no read basis.
+      All adoption weights are now empty with the note 'Not measured', with the two pages named where they bear on a claim. The first-pass statement about popular dating (1550 to 1525 BCE) is withdrawn; no popular account of the dates was read.
+  - id: L-11
+    date: 2026-10-16
+    entry: >
+      SPEAKER CLAIMS. (a) ahmose-sp-place-memphis was filed proposed from a place field in the handoff with no wording, and a node verb 'disputes' was attached. It is now a searched gap: the wording was not read, and the node link is removed. (b) ahmose-sp-slaves-were-nubians-and-hyksos bundled two assertions from two videos; it now holds the first (HN0wNVpfunM-07)
+      and the second (K3pw12lBcXM-12, 'campaigns against the Hyksos and Nubians') is the new claim ahmose-sp-campaigns-against-hyksos-and-nubians. (c) ahmose-sp-autobiography-on-tomb-wall was a truncated fragment ('records ...'); it is completed from the claim lines held in transmission.yaml, which come from the handoff file. The speaker's own wording and the videos were not opened in either pass; the claim lines are as recorded by another agent.
+  - id: L-12
+    date: 2026-10-16
+    entry: >
+      AEO PAGE HASH. The first capture (2026-10-14) had sha256 7a60f40b...; a second capture on 2026-10-16 has sha256 61986db3eb6b06a7be449e412ecdc178c0d510ae68c7eccd605d49ceda28a3c5. The reviewer also saw a different hash. The first capture was not stored, so what changed is unknown. The translation text of the second capture was compared with Lichtheim's book (an upload) and matched; the page is still not an independent source.
+      Hashes of other re-fetched files equal the first capture: Breasted vol. 1 (52db64cf...), vol. 2 (656c1837...), Davies (8c462f29...), Fantuzzi (d4c103ec...) and the Lepsius volume (04d9beee...).
+  - id: L-13
+    date: 2026-10-16
+    entry: >
+      FINDINGS OF THE SECOND PASS, coverage facts only. (1) Sethe 1914 and Lichtheim give the Sharuhen siege as three years and Breasted gives six (from the squeeze). On Sethe's 1906 autograph the year-group at the end of that line looked, to the reader at 200 dpi, like two rows of three strokes (six); this is not confirmed and is recorded as an unresolved observation, not a reading.
+      (2) The slave-name list (Urk. IV 11) is translated by Sethe (9 men, 10 women, matching Breasted's note); Lichtheim does not translate it. Sethe glosses one name as 'the Asiatic' and one as 'of the Medjay tribe'; the list does not say Hyksos. (3) The TLA website returned its bot-verification page again (not bypassed); the TLA's open corpus release holds pre-New Kingdom witnesses and has no sentence of this text.
+      (4) Kammerzell 1988 (TUAT II, 4, pp. 522-529) was not found; the Internet Archive items for other TUAT fascicles were opened and are the wrong ones. (5) The Sohag PDF host did not answer (connection reset). (6) A search for funding statements of the British Museum Elkab programme and the Chicago series found none in the pages read; funding stays UNRESEARCHED for every link.
+      (7) Two new claims: ahmose-urk-autograph-captive-numerals (anchor_checked primary, numerals only, a copy, read by an AI model and needing a check by a person who reads hieroglyphs) and ahmose-slave-name-list-urk-iv-11. No claim is established; the headline stays draft.
+      NEXT STEPS in order: (1) a person who reads hieroglyphs transliterates Urk. IV 3-5 and 10-11 from the 1906 autograph and checks the numerals, the Sharuhen year-group and the slave list; (2) open the TLA record in a browser; (3) find Kammerzell 1988 and compare Lichtheim's printed book with the upload; (4) trace funding of the British Museum Elkab programme and the University of Chicago series from their own records.
