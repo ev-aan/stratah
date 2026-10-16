@@ -1,6 +1,6 @@
 # Shared node. Append-only: a change is a new `rev` plus a `history` entry, never an overwrite. See build/SCHEMA.md, Nodes.
 id: amarna-ea-286-287-habiru-passages
-rev: 3
+rev: 4
 type: document
 label: 'Amarna letters EA 286 to EA 290 (Abdi-Heba of Jerusalem to the king): passages naming the Habiru'
 time: '-1377-01-01'
@@ -50,3 +50,8 @@ history:
     Correction of the rev 2 history line above. It ends 'The rev 1 text is kept above.' That is not true of this file: the file holds one current text and
     the history entries, and the rev 1 text (which gave a window of 1420 to 1330 BCE and a time of 1370 BCE) survives only in version control (commit 8038593 on branch
     dig/amarna-habiru). No other field is changed in rev 3.
+- rev: 4
+  date: '2026-10-16'
+  change: >-
+    Correction of a date. The rev 3 history entry above is dated 2026-10-17; the work was done on 2026-10-16, so that date was wrong. The rev 3 entry is not edited; this entry corrects it.
+    No other field is changed in rev 4.
