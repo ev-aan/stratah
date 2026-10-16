@@ -249,38 +249,46 @@ claims:
       violence, so its ban is not a finding about money. Recorded as what each government did and said.
 
   - id: ipm-ihh-designated-only-by-israel
-    state: established
+    state: proposed
     statement_kind: search_result
     statement: >
-      Among the governments checked, only Israel has designated Turkey's IHH (in 2008, as one of 36
-      Union of Good funds). Germany's 2010 ban, upheld in 2012, was of a separate Frankfurt
-      association with a similar name. The US, EU and UK lists checked on 5-7 October 2026 have no
-      IHH entry.
+      In the lists searched, only Israel's list has an entry for Turkey's IHH: the OpenSanctions copy of
+      the Israeli list shows IHH declared an unauthorized association under the 1945 Defence (Emergency)
+      Regulations, order date 26 May 2008. The OFAC, EU and UK lists downloaded on 5-7 October 2026 have
+      no IHH entry. Germany's 2010 ban, upheld in 2012, was of a separate Frankfurt association with a
+      similar name. The Ynet article of 7 July 2008 on Israel's order against 36 Union of Good funds
+      does not name IHH, so this claim does not say IHH was one of the 36.
     evidence_tier: designation
     evidence_class: primary_text
-    confidence: moderate
-    evidential_weight: 3
+    confidence: provisional
+    evidential_weight: 2
     anchor_checked: secondary
     adoption_weight: 2
     adoption_note: "IHH is widely described in Israeli and some US commentary as a Hamas supporter; Turkey treats it as a lawful foundation (official Turkish source not read). Adoption is information, not evidence."
-    would_change_if: "an official list shows another government designating IHH; or Israel's original order shows a different date or entity"
-    absence_anchor: false
+    would_change_if: "an official list shows another government designating IHH; or Israel's original order (the NBCTF file, not read) shows a different date, entity or list"
+    absence_anchor: true
     decisions:
-      - {date: 2008-05-26, decider: "Israel, Defense Minister Ehud Barak (as reported)", what: "declared an unauthorized association (made public about 7 Jul 2008)", evidence_published: "no", in_power: "Israel: Ehud Olmert, Kadima [HoG not sourced]", sources: [src-opensanctions-il-mod, src-ynet-union-of-good-2008]}
+      - {date: 2008-05-26, decider: "Israel, Defense Minister (per the OpenSanctions copy of the Israeli list; minister not named there)", what: "declared an unauthorized association; order date as listed in the copy", evidence_published: "no", in_power: "Israel: Ehud Olmert, Kadima [HoG not sourced]", sources: [src-opensanctions-il-mod]}
       - {date: 2010-06-23, decider: "Germany, Federal Interior Ministry", what: "banned IHH e.V., a separate German association, for donations to Hamas-linked Gaza associations", evidence_published: "tested in court", in_power: "Germany: Angela Merkel, CDU [HoG not sourced]", sources: [src-bverwg-ihh-2012]}
       - {date: 2012-04-18, decider: "German Federal Administrative Court", what: "upheld the ban on IHH e.V.; funding of groups in Pakistan, Yemen, Sudan and Turkey did not meet the threshold", evidence_published: "yes (judgment)", in_power: "Merkel [HoG not sourced]", sources: [src-bverwg-ihh-2012]}
     anchor:
-      type: dataset
+      type: search-record
       description: >
         OFAC SDN and alias files (5 Oct 2026), EU consolidated list (22 Sep 2026) and UK list (7 Oct
         2026) downloaded and searched for IHH, Insani Yardim, Yardim and Hurriyetleri: no IHH entry.
-        The Israeli date rests on the OpenSanctions copy (not compared with the original). The German
-        court's press release was read in full in German.
+        The Israeli entry and its date (26 May 2008) rest on the OpenSanctions copy only (downloaded 16
+        Oct 2026, entry "INSAN HAKLARY VE HURRIYETLERI VAKFI", one sanctions line); the NBCTF site was
+        opened (Hebrew page) but its list file could not be retrieved, so the copy was not compared with
+        the original. Ynet's article of 7 Jul 2008 (src-ynet-union-of-good-2008) was opened and read in
+        full on 16 Oct 2026: it names Defense Minister Barak, a ban on 36 funds, and names Interpal, the
+        Holy Land Foundation and the World Assembly of Muslim Youth as earlier bans; it does not name IHH
+        or Turkey and gives no order date. The German court's press release was read in full in German.
       sources: [src-ofac-sdn-2026, src-eu-consolidated-2026, src-uk-sanctions-list-2026, src-opensanctions-il-mod, src-bverwg-ihh-2012, src-ynet-union-of-good-2008]
       accessible: true
     basis: >
-      The "only Israel" half is a search result against three Western lists; other countries' lists
-      were not searched. Held at secondary because Israel's original record was not read.
+      Search result against three Western lists plus one third-party copy of Israel's list. Lists of other
+      countries were not searched. Held at provisional because it rests on absence of an entry and on a
+      copy of Israel's list that was not compared with the original.
 
   # =======================================================================
   # THE SIX PALESTINIAN NGOS
@@ -602,8 +610,9 @@ claims:
       (selection rule in data/SELECTION_RULE.md), the US voted No on almost all (489 No, 16 Yes, 66
       abstentions); Egypt, Qatar, Türkiye and Iran voted Yes on almost all; the UK, France, Germany,
       Ireland, Norway and Spain mostly voted Yes or abstained. Canada is the one country of the twelve
-      whose pattern reversed twice: mostly Yes until 2003, mostly No from 2009 (no Yes votes at all from
-      2012 to 2018), and more Yes than No again in 2024 and 2025.
+      whose pattern reversed twice: Yes votes outnumbered No votes each year through 2007, the two were
+      equal in 2008 (7 to 7), No votes outnumbered Yes votes each year from 2009 to 2023 (no Yes votes at
+      all from 2012 to 2018), and Yes votes outnumbered No votes again in 2024 (8 to 3) and 2025 (11 to 1).
     evidence_class: synthetic
     confidence: moderate
     evidential_weight: 3
@@ -633,27 +642,43 @@ claims:
     state: established
     statement_kind: reported
     statement: >
-      From 1993 to September 2025 there were 25 Security Council vetoes of draft resolutions on Israel
-      and Palestine: 23 by the United States, including Palestine's UN admission on 18 April 2024, and
-      2 by China and Russia jointly, both of US-drafted texts in October 2023 and March 2024. The US
-      vetoes were cast under each US president in that period, of both parties.
+      From 1993 to September 2025 the UN's veto dataset lists 25 negative votes by permanent members of
+      the Security Council on Israel-Palestine items: 23 by the United States and 2 by China and Russia
+      together. 24 were votes on draft resolutions. One (22 December 2023, US) was a vote on an oral
+      amendment, proposed by Russia, to a draft that was then adopted as resolution 2720. The US votes
+      include the draft on Palestine's admission to the UN (18 April 2024, S/2024/312, 12-1-2); the China
+      and Russia votes (25 October 2023, S/2023/792; 22 March 2024, S/2024/239) were on drafts submitted
+      by the United States. Counting drafts only, the figures are 22 US and 24 in all. The US votes were
+      cast under each US president in that period, of both parties.
     evidence_class: primary_text
-    confidence: moderate
+    confidence: high
     evidential_weight: 4
-    anchor_checked: secondary
+    anchor_checked: primary
     adoption_weight: 3
     adoption_note: "The US veto pattern is widely cited; the China-Russia vetoes less so. Adoption is information, not evidence."
-    would_change_if: "the official meeting records give a different count or tally"
+    would_change_if: "the meeting records or the UN's veto list are corrected; or an item is added to or removed from the Israel-Palestine agenda by a different written rule"
     anchor:
-      type: dataset
+      type: primary_text
       description: >
-        UN DPPA veto dataset downloaded and filtered (data/sc-vetoes-1993-2025.json); tallies read from
-        un-project.org copies of the meeting records S/PV.*. The 4 Jun 2025 tally (14-1-0) is known only
-        from a delegate's speech. Presidents by date are from general knowledge [HoG not sourced]:
-        Clinton (1995, 1997), Bush (2001-2006), Obama (2011), Trump (2017-2018, 2025), Biden (2023-2024).
-      sources: [src-dppa-vetoes, src-unproject-votes]
+        Selection: rows of the UN DPPA veto dataset (downloaded 16 Oct 2026, 273 rows) from 1993 whose
+        agenda text contains "Palestin" or "Occupied" (24 rows), plus the one row with agenda "Admission of
+        new Members" that is the State of Palestine's application (S/2024/312); rule and hashes in
+        data/sc-vetoes-selection-note.md. The earlier file lacked that row; it was added on 16 Oct 2026.
+        All 25 Security Council verbatim records (S/PV.3538 to S/PV.10000) were downloaded from
+        documents.un.org and hashed (data/sc-vetoes-meeting-records.csv). In each, the result sentence
+        ("owing to the negative vote of a permanent member") and the Against list were extracted by
+        script and read; the Against list names the member the dataset names in 25 of 25 cases (meeting
+        4438: the extracted result line is partly garbled but the Against list and the negative-vote
+        wording are present). S/PV.9520, S/PV.9609 and the text of S/2024/312 were read in the voting
+        section by eye. Speeches in the records were not read. Presidents by date are from general
+        knowledge [HoG not sourced]: Clinton (1995, 1997), Bush (2001-2006), Obama (2011), Trump
+        (2017-2018, 2025), Biden (2023-2024).
+      sources: [src-dppa-vetoes, src-un-sc-vetoes-meeting-records]
       accessible: true
-    basis: "Held at secondary until the meeting records are read on the UN's own site."
+    basis: >
+      Corrects the earlier wording, which called all 25 "draft resolutions" and counted 23 US vetoes of
+      drafts. The 22 December 2023 item is a vote on an amendment; without it the counts are 22 US and 24
+      in all. A reader who counts only draft resolutions uses the second set of figures.
 
   - id: ipm-recognition-dates
     state: established
@@ -796,11 +821,16 @@ claims:
     statement_kind: reported
     statement: >
       US Justice Department FARA filings show Israel's government paying US media and content firms
-      through Havas Media Germany (acting for the Israel Government Advertising Agency, LaPam) and
-      directly through its Foreign Ministry. Amounts reported as received: Clock Tower X LLC (Brad
+      through Havas Media Germany GmbH and directly through its Foreign Ministry. The Bridges Partners
+      filings name "LAPAM International" as the client on the Havas order; the Clock Tower X filings name
+      Havas Media Germany GmbH as client and do not mention LaPam. Amounts reported as received: Clock Tower X LLC (Brad
       Parscale) $15,000,000 from Oct 2025 to Mar 2026; Targeted Communications Global (an
       SKDKnickerbocker affiliate) $9,892,335.58 from Oct to Dec 2025; Show Faith by Works $2,313,791.50
-      from Sep 2025 to Mar 2026; SKDKnickerbocker $150,000 from Jun to Jul 2025. Contracted but not yet
+      from Sep 2025 to Mar 2026; SKDKnickerbocker $150,000 from Jun to Jul 2025. Clock Tower X's first
+      amendment (filed 26 Dec 2025) raises the "combined budget pool" from $6,000,000 to $9,000,000; its
+      supplemental statement states receipts of $15,000,000. Both figures are as filed; the filings read
+      here do not reconcile them.
+      Contracted but not yet
       reported as received: Clock Tower X $4,500,000 a month for Apr to Oct 2026 ($31,500,000), and
       Piro, Inc. $1,000,000 ($900,000 dated 30 Apr 2026 including $400,000 for video production with
       director, crew and on-camera talent, plus $100,000 dated 20 Jul 2026).
@@ -932,7 +962,7 @@ claims:
       accessible: true
 
   - id: ipm-fara-payees-not-nonprofits
-    state: established
+    state: proposed
     statement_kind: search_result
     statement: >
       None of the 21 firms and contractors named as payees in the FARA filings read (for example
@@ -945,10 +975,10 @@ claims:
     absence_anchor: true
     adoption_weight: 1
     adoption_note: "Adoption is information, not evidence."
-    would_change_if: "a payee is found registered under a different legal name"
+    would_change_if: "a payee is found registered under a different legal name, or a fiscal sponsor or affiliate is found"
     anchor:
       type: search-record
-      description: "ProPublica Nonprofit Explorer API, exact-name search for each payee and registrant, 7 Oct 2026; results saved. No match except an unrelated Mississippi homeowners' association."
+      description: "ProPublica Nonprofit Explorer API, exact-name search for each payee and registrant, 7 Oct 2026; results saved. No match except an unrelated Mississippi homeowners' association. Not tried: legal-name variants, trade-name or d/b/a variants, fiscal sponsors and affiliated entities, state charity registers. One search method only."
       sources: [src-propublica-nonprofit-search]
       accessible: true
 

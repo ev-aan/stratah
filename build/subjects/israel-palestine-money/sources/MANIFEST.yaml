@@ -138,7 +138,7 @@ sources:
     title: "OpenSanctions mirror of Israel's NBCTF terrorist-organization and unauthorized-association lists (last change 6 Oct 2026)"
     url: https://data.opensanctions.org/datasets/latest/il_mod_terrorists/targets.simple.csv
     document_class: dataset (copy of an official list)
-    read: "full (downloaded and searched); the NBCTF original CSV redirected to a bot wall"
+    read: "full (downloaded and searched; re-downloaded 2026-10-16, 802 rows, sha256 af7993c78912b3fed98fbb186e8b72d8b945c64f90ec5a1d739b34a9955b5980); the NBCTF original CSV URL returned a Hebrew HTML page (opened 2026-10-16, no list file link found in the page text) and the list pages returned a bot wall. IHH entry: name INSAN HAKLARY VE HURRIYETLERI VAKFI, one sanctions line, order date 2008-05-26."
     copy_of: "https://nbctf.mod.gov.il/he/Announcements/Documents/NBCTFIsrael%20-%20Terror%20Organization%20Designation%20List_CSV.csv"
     compared_with_holder_copy: no
     authenticity: {status: authenticated, strength: weak, provenance: "Third-party mirror maintained by OpenSanctions of the Israeli list.", tests: ["Entries for Samidoun and the six NGOs match dates reported by other sources within days [x]"], tested_by: "Strata session, 2026-10-07", gaps: ["Not compared with the NBCTF original; dates for IHH, Interpal, HLF and IRFAN rest on this copy."], next_step: "Download the NBCTF CSV from a browser and compare.", checked: 2026-10-07}
@@ -146,8 +146,8 @@ sources:
     title: "Ynet, Israel versus Hamas' 'Union of Good', 7 Jul 2008"
     url: https://www.ynetnews.com/article/3565068
     document_class: secondary (news)
-    read: tool
-    authenticity: {status: not_applicable, basis: "News report; used for the date the 2008 order was made public."}
+    read: "full (opened 2026-10-16: HTML saved outside the repository, sha256 00220eff65dfb3ceaa7ecd25f56a44631ae26d00c3283e84898692c972f218dd; article text about 3,160 characters, published 2008-07-07 per its page metadata). It names Defense Minister Barak, 36 funds and, as earlier bans, Interpal, the Holy Land Foundation and the World Assembly of Muslim Youth. It does not name IHH or Turkey."
+    authenticity: {status: not_applicable, basis: "News report; used for the date the 2008 order against 36 funds was reported."}
   - id: src-bverwg-ihh-2012
     title: "Bundesverwaltungsgericht, press release 34/2012: ban on Internationale Humanitäre Hilfsorganisation e.V. is lawful (BVerwG 6 A 2.10), 18 Apr 2012"
     url: https://www.bverwg.de/pm/2012/34
@@ -517,8 +517,8 @@ sources:
     title: "UN Department of Political and Peacebuilding Affairs, Security Council vetoes dataset (JSON)"
     url: https://api.psdata.un.org/public/data/DPPA-SCVETOES/json
     document_class: dataset (official)
-    read: "full (downloaded; filtered to Israel-Palestine drafts from 1993 in data/sc-vetoes-1993-2025.json)"
-    authenticity: {status: authenticated, strength: strong, provenance: "UN DPPA open data API, linked from the Dag Hammarskjöld Library veto guide.", tests: ["Draft symbols match meeting records S/PV.* [x]"], tested_by: "Strata session, 2026-10-07", gaps: ["Tallies were read from un-project.org copies of the meeting records; the 4 Jun 2025 tally is from a delegate's speech only."], checked: 2026-10-07}
+    read: "full (downloaded 2026-10-16, 273 rows, sha256 fc3c4c2a1700140dfd79072a278ff75693d0bc9d67baa981aa520a0af8add124; filtered to Israel-Palestine items from 1993 in data/sc-vetoes-1993-2025.json by the rule in data/sc-vetoes-selection-note.md; filtered file sha256 224510329f57f3f369d07f6e947de0f92dd5f990cf41a8ce911091177edd50b9)"
+    authenticity: {status: authenticated, strength: strong, provenance: "UN DPPA open data API, linked from the Dag Hammarskjöld Library veto guide.", tests: ["Draft symbols match meeting records S/PV.* [x]"], tested_by: "Strata session, 2026-10-07", gaps: ["The dataset lists the 22 Dec 2023 item (an oral amendment) as a veto; the first filtered file lacked the 18 Apr 2024 admission row. Both are handled in the claim. Tallies are now read in the Council's own verbatim records (src-un-sc-vetoes-meeting-records)."], checked: 2026-10-16}
   - id: src-un-a-78-846
     title: "UN document A/78/846-S/2024/283, annex listing states recognizing the State of Palestine (compiled by the Arab Group, OIC and Non-Aligned Movement)"
     url: https://www.un.org/unispal/wp-content/uploads/2024/08/n2409767.pdf
@@ -1610,3 +1610,122 @@ sources:
       gaps:
       - NBIM dates are publishing dates, reasons are the general criterion only; KLP gives months or quarters; PFZW and the Irish fund publish no names.
       checked: '2026-10-09'
+
+  # ---------------- Added 2026-10-16: Security Council meeting records ----------------
+  - id: src-un-sc-vetoes-meeting-records
+    title: "UN Security Council verbatim records S/PV.3538, 3747, 3756, 4305, 4438, 4681, 4828, 4842, 4934, 5051, 5488, 5565, 6484, 8139, 8274, 9442, 9453, 9499, 9520, 9552, 9584, 9609, 9790, 9929, 10000, and draft S/2024/312"
+    url: "https://documents.un.org/api/symbol/access?s=S/PV.9609&l=en&t=pdf"
+    document_class: primary_text
+    note: "One URL per record (same pattern with the symbol changed); every URL and file hash is in data/sc-vetoes-meeting-records.csv."
+    read: "full for the voting passage of each record (extracted by script; result sentence and Against list read); S/PV.9520 and S/PV.9609 voting sections and S/2024/312 read by eye; speeches not read"
+    authenticity: {status: authenticated, strength: strong, provenance: "UN Official Document System (documents.un.org), the issuing body's own server.", tests: ["Official-domain test; the vetoing member named in each record's Against list matches the DPPA dataset row in 25 of 25 cases [x]", "Draft symbol and meeting number in each record match the dataset row [x]"], tested_by: "Strata session, 2026-10-16 (not independent of the dig)", gaps: ["Meeting 4438: the extracted result line is partly garbled by the PDF text layer.", "Only the voting passages were read."], next_step: "None for the tally.", checked: 2026-10-16}
+
+  # ---------------- Added 2026-10-16: documented flows pass (data/documented-flows-2026-10-16.csv) ----------------
+  - id: src-plaw-119-4
+    title: "Public Law 119-4, Full-Year Continuing Appropriations and Extensions Act, 2025 (enacted March 2025)"
+    url: "https://www.govinfo.gov/content/pkg/PLAW-119publ4/html/PLAW-119publ4.htm"
+    document_class: primary_text
+    read: "full (downloaded 2026-10-16, searched for Israel, Palestin, West Bank, Gaza, UNRWA, Foreign Military: one hit, the Loan Guarantees to Israel date change)"
+    sha256: fda2d01ea333cbce2209eb2df6042682947a2248843fb3ce81b7338fab4e1cfc
+    authenticity: {status: authenticated, strength: strong, provenance: "GPO govinfo, official text.", tests: ["Official-domain test [x]"], tested_by: "Strata session, 2026-10-16 (not independent of the dig)", gaps: ["Only text searched; division structure not read in full."], checked: 2026-10-16}
+  - id: src-plaw-115-141-tfa
+    title: "Public Law 115-141, Division S, Title X (Taylor Force Act), Sec. 1002 findings"
+    url: "https://www.govinfo.gov/content/pkg/PLAW-115publ141/html/PLAW-115publ141.htm"
+    document_class: primary_text
+    read: "full for Sec. 1002 findings (file downloaded 2026-10-16); the rest of the Title not read"
+    sha256: 12b165f1b76f830aa5e5a0e9fd3cd1d2921314830efa7f7a2af6b0e5ab58d762
+    authenticity: {status: authenticated, strength: strong, provenance: "GPO govinfo, official text.", tests: ["Official-domain test [x]"], tested_by: "Strata session, 2026-10-16 (not independent of the dig)", gaps: ["Operative sections of Title X not read."], checked: 2026-10-16}
+  - id: src-wb-ahlc-2016-09
+    title: "World Bank, Economic Monitoring Report to the Ad Hoc Liaison Committee, September 2016"
+    url: "https://documents.worldbank.org/curated/en/474311473682340785/pdf/108205-V2-WP-PUBLIC-SEPT-14-2PM-September-2016-AHLC-World-Bank-Report.pdf"
+    document_class: primary_text
+    read: "passages on donor financing, deductions and loans located by text search and read in context (PDF text layer); whole report not read"
+    sha256: 48588718d16cd16bb00e7d547d692bef7fb7cca8a7a84e7ec9ac340d0e5c492f
+    authenticity: {status: authenticated, strength: strong, provenance: "World Bank documents repository (documents.worldbank.org), found through the World Bank documents search API.", tests: ["Official-domain test [x]"], tested_by: "Strata session, 2026-10-16 (not independent of the dig)", gaps: ["Statements are the World Bank staff's own figures and projections, as printed; not compared with PA or donor records."], checked: 2026-10-16}
+  - id: src-wb-ahlc-2018-09
+    title: "World Bank, Economic Monitoring Report to the Ad Hoc Liaison Committee, September 2018"
+    url: "https://documents.worldbank.org/curated/en/413851537281565349/pdf/129986-REVISED-World-Bank-Sept-2018-AHLC-Report-final.pdf"
+    document_class: primary_text
+    read: "passages on donor financing, deductions and loans located by text search and read in context (PDF text layer); whole report not read"
+    sha256: 3b7cf979ed2fb097e6dae69b544a047281f9bc1bc9b04ce1986b332d688097fc
+    authenticity: {status: authenticated, strength: strong, provenance: "World Bank documents repository (documents.worldbank.org), found through the World Bank documents search API.", tests: ["Official-domain test [x]"], tested_by: "Strata session, 2026-10-16 (not independent of the dig)", gaps: ["Statements are the World Bank staff's own figures and projections, as printed; not compared with PA or donor records."], checked: 2026-10-16}
+  - id: src-wb-ahlc-2019-09
+    title: "World Bank, Economic Monitoring Report to the Ad Hoc Liaison Committee, September 2019"
+    url: "https://documents.worldbank.org/curated/en/410061568815090051/pdf/Economic-Monitoring-Report-to-the-Ad-Hoc-Liaison-Committee.pdf"
+    document_class: primary_text
+    read: "passages on donor financing, deductions and loans located by text search and read in context (PDF text layer); whole report not read"
+    sha256: 41352a3e845ba2c8abd859ce0e4b577c9791a1dd4d5bafd61699618663c387da
+    authenticity: {status: authenticated, strength: strong, provenance: "World Bank documents repository (documents.worldbank.org), found through the World Bank documents search API.", tests: ["Official-domain test [x]"], tested_by: "Strata session, 2026-10-16 (not independent of the dig)", gaps: ["Statements are the World Bank staff's own figures and projections, as printed; not compared with PA or donor records."], checked: 2026-10-16}
+  - id: src-wb-ahlc-2021-11
+    title: "World Bank, Economic Monitoring Report to the Ad Hoc Liaison Committee, November 2021"
+    url: "https://documents.worldbank.org/curated/en/443631635864878225/pdf/Economic-Monitoring-Report-to-the-Ad-Hoc-Liaison-Committee.pdf"
+    document_class: primary_text
+    read: "passages on donor financing, deductions and loans located by text search and read in context (PDF text layer); whole report not read"
+    sha256: 4aa69f70ddef2d588aa99c890c511726fb248b39f610ff40455090da5f16d16a
+    authenticity: {status: authenticated, strength: strong, provenance: "World Bank documents repository (documents.worldbank.org), found through the World Bank documents search API.", tests: ["Official-domain test [x]"], tested_by: "Strata session, 2026-10-16 (not independent of the dig)", gaps: ["Statements are the World Bank staff's own figures and projections, as printed; not compared with PA or donor records."], checked: 2026-10-16}
+  - id: src-wb-ahlc-2022-09
+    title: "World Bank, Economic Monitoring Report to the Ad Hoc Liaison Committee, September 2022"
+    url: "https://documents.worldbank.org/curated/en/099346409152238344/pdf/IDU0d06191180b10b040a709bde04af014ab10fd.pdf"
+    document_class: primary_text
+    read: "passages on donor financing, deductions and loans located by text search and read in context (PDF text layer); whole report not read"
+    sha256: 2f9331cdb0be49522ecd2a7d1e7b4a0c352124ebbf4014d8a2d6e76a959ba573
+    authenticity: {status: authenticated, strength: strong, provenance: "World Bank documents repository (documents.worldbank.org), found through the World Bank documents search API.", tests: ["Official-domain test [x]"], tested_by: "Strata session, 2026-10-16 (not independent of the dig)", gaps: ["Statements are the World Bank staff's own figures and projections, as printed; not compared with PA or donor records."], checked: 2026-10-16}
+  - id: src-wb-ahlc-2023-09
+    title: "World Bank, Economic Monitoring Report to the Ad Hoc Liaison Committee, September 2023"
+    url: "https://documents.worldbank.org/curated/en/099638209132320721/pdf/IDU0e8b2e87e098b004a7a09dcb07634eb9548f4.pdf"
+    document_class: primary_text
+    read: "passages on donor financing, deductions and loans located by text search and read in context (PDF text layer); whole report not read"
+    sha256: c0646cd42b82f1ad824ef3f5bfc7183bfe3c79cf5a80b6f349bcd3b66e8df96f
+    authenticity: {status: authenticated, strength: strong, provenance: "World Bank documents repository (documents.worldbank.org), found through the World Bank documents search API.", tests: ["Official-domain test [x]"], tested_by: "Strata session, 2026-10-16 (not independent of the dig)", gaps: ["Statements are the World Bank staff's own figures and projections, as printed; not compared with PA or donor records."], checked: 2026-10-16}
+  - id: src-ec-palestine-2025-04-14
+    title: "European Commission (DG MENA), Commission announces multiannual programme for Palestinian recovery and resilience worth up to EUR 1.6 billion, 14 Apr 2025"
+    url: "https://north-africa-middle-east-gulf.ec.europa.eu/news/commission-announces-multiannual-programme-palestinian-recovery-and-resilience-worth-eu16-billion-2025-04-14_en"
+    document_class: primary_text
+    read: "full (page downloaded 2026-10-16, text read)"
+    sha256: e8d989db3a95823a82ce6f743a9fc6f9f6d4721758bccd7482210d1f3e220570
+    authenticity: {status: authenticated, strength: moderate, provenance: "Commission department website.", tests: ["Official-domain test [x]"], tested_by: "Strata session, 2026-10-16 (not independent of the dig)", gaps: ["A proposal announcement; adoption terms and disbursements not read."], checked: 2026-10-16}
+  - id: src-ec-palestine-2025-06-23
+    title: "European Commission (DG MENA), UNRWA and the Palestinian Authority receive EUR 202 million of support, 23 Jun 2025"
+    url: "https://north-africa-middle-east-gulf.ec.europa.eu/news/unrwa-and-palestinian-authority-receive-eu202-million-support-ensure-key-services-ground-2025-06-23_en"
+    document_class: primary_text
+    read: "full (page downloaded 2026-10-16, text read)"
+    sha256: a2b0a9939e68fc64a7e9355e9f5f4955c5ddddf6be1bd03ba14cced312ff35fe
+    authenticity: {status: authenticated, strength: moderate, provenance: "Commission department website.", tests: ["Official-domain test [x]"], tested_by: "Strata session, 2026-10-16 (not independent of the dig)", gaps: ["Announcement; payment records not read."], checked: 2026-10-16}
+  - id: src-oecd-dac2a
+    title: "OECD DAC2A table, Aid (ODA) disbursements to countries and regions, SDMX API extract for recipient PSE"
+    url: "https://sdmx.oecd.org/public/rest/data/OECD.DCD.FSD,DSD_DAC2@DF_DAC2A,/.PSE.....?startPeriod=2016&format=csvfilewithlabels"
+    document_class: dataset (official statistics, self-reported by donors)
+    read: "full (downloaded 2026-10-16, 626 rows kept for measure 240 gross ODA)"
+    sha256: 68a9dfde6e40a40c15e7e6447a3493a6554a04111c03c607aba909129d7fb5b9
+    authenticity: {status: authenticated, strength: strong, provenance: "OECD SDMX public API.", tests: ["Official-domain test [x]"], tested_by: "Strata session, 2026-10-16 (not independent of the dig)", gaps: ["Reporting depends on each donor; recipient label is the DAC label."], checked: 2026-10-16}
+  - id: src-uk-sid-2024
+    title: "FCDO, Data underlying Statistics on International Development 2017-2024 (published 2025-09-26)"
+    url: "https://assets.publishing.service.gov.uk/media/68d677144e830dd22fa1ceb2/Data-underlying-SID-2017-2024.ods"
+    document_class: dataset (official statistics)
+    read: "full for the Data sheet (parsed; recipient and AmountsExtended columns summed)"
+    sha256: 91524225f5370e0532028d5f2913a1ce9eab10991c400b729a2c874be6052c03
+    authenticity: {status: authenticated, strength: strong, provenance: "gov.uk assets, FCDO publication found through the gov.uk search and content APIs.", tests: ["Official-domain test [x]"], tested_by: "Strata session, 2026-10-16 (not independent of the dig)", gaps: ["Sums are over project rows as published; the sector split can mean one project appears in several rows."], checked: 2026-10-16}
+  - id: src-cordis
+    title: "CORDIS open data, organisation.csv from the FP7, Horizon 2020 and Horizon Europe project files (EU Publications Office)"
+    url: "https://cordis.europa.eu/data/cordis-HORIZONprojects-csv.zip"
+    document_class: dataset (official)
+    read: "full (three zip files downloaded 2026-10-16; ecContribution summed by country code). zip sha256: 886ee47973584971259db3ab3de76feb4d95c9b13fbe41241b85e5bfc97113a6 (FP7), 7c00e367edbb22163d78b20fe466c9d910d2824d9ec882fc0a1a9f966335b914 (H2020), b9919057b77e897a884bbbd82005db1e25defd56f7c7be9e97d6ef9495ace6c4 (Horizon Europe)"
+    authenticity: {status: authenticated, strength: strong, provenance: "CORDIS (EU Publications Office).", tests: ["Official-domain test [x]"], tested_by: "Strata session, 2026-10-16 (not independent of the dig)", gaps: ["Research grants only. Country is the participant's registered country code."], checked: 2026-10-16}
+  - id: src-fara-bulk-2026-10-16
+    title: "US DOJ FARA eFile bulk data (foreign principals, registrants, registrant documents), downloaded 16 Oct 2026; latest supplemental statements of active registrations downloaded for 10 country labels"
+    url: "https://efile.fara.gov/bulk/zip/FARA_All_ForeignPrincipals.csv.zip"
+    document_class: dataset (official register) and primary_text (statements)
+    read: "register: full. statements: section 14(a) located by text pattern and the largest dollar figure in it recorded; some statements refer to an appendix that was not read; some have no text layer (marked UNREAD per row). Hashes of the three register zips: fp 6eca1ecd9bf376d636cc480b8b429713754e84549848302b467e08a298209095, docs e43c7518bf2c5ca20889977f44635e807af1b23143ce3aee64a80fb82717d053"
+    authenticity: {status: authenticated, strength: strong, provenance: "Justice Department FARA eFile.", tests: ["Pattern read reproduces known filings: 7649 $15,000,000.00, 7553 $9,892,335.58, 7653 $2,313,791.50 match the figures read by eye in this dig [x]"], tested_by: "Strata session, 2026-10-16 (not independent of the dig)", gaps: ["The figure is the largest dollar figure in section 14(a); for registrants with several principals it is a registrant total. Terminated registrations are not in the active list."], checked: 2026-10-16}
+  - id: src-cc-register-extract-2026
+    title: "Charity Commission for England and Wales, register of charities public extract (charity and annual return history), extract date 2026-10-16"
+    url: "https://ccewuksprdoneregsadata1.blob.core.windows.net/data/json/publicextract.charity.zip"
+    document_class: dataset (official register)
+    read: "full (downloaded 2026-10-16; charity.zip sha256 6fc7e81fc4f431235cd850ce05edaee701ca1357e7f92a8b3f7ffdb18ba9e75b; annual return history zip 976d02f39ab0f552b2eeef36cc05323b1e74bb47c3deb1a4f7cc51dc81371227)"
+    authenticity: {status: authenticated, strength: strong, provenance: "Charity Commission open data.", tests: ["Official-domain test; Interpal (1040094) and Medical Aid for Palestinians (1045315) present with plausible figures [x]"], tested_by: "Strata session, 2026-10-16 (not independent of the dig)", gaps: ["Income and expenditure totals only, not grants or donors; latest-year figures differ in year across charities."], checked: 2026-10-16}
+  - id: src-propublica-sweep-2026-10-16
+    title: "ProPublica Nonprofit Explorer API (search by name keyword, then organisation endpoint; IRS e-file data), run 16 Oct 2026"
+    url: "https://projects.propublica.org/nonprofits/api/v2/search.json"
+    document_class: dataset (IRS data as rendered by ProPublica)
+    read: "API output read; selection and totals in data/us-990-name-keyword-sweep.csv; individual returns not opened"
+    authenticity: {status: authenticated, strength: moderate, provenance: "ProPublica rendering of IRS filings.", tests: ["Totals for organisations already read in full in this dig (for example FIDF) agree with the sweep for the same tax year [x]"], tested_by: "Strata session, 2026-10-16 (not independent of the dig)", gaps: ["Selection by name keyword includes unrelated organisations; only the latest ProPublica filing year; 668 of 1,828 matched names had financial data."], checked: 2026-10-16}
