@@ -2,6 +2,7 @@
 # The renderer cannot draw years before the common era, so the BC dates (the destruction of Ugarit, about 1195-1175 BC; the Sea Peoples' defeat in 1177 BC; the letters
 # of Bay, 1193-1191 BC) are given in the detail text of the events they affect, with their claims (ugarit-destruction-date-estimates).
 # Every dot is a claim about a record, drawn from a book or article about the excavation; none is from an excavation report.
+# Sources that were read only in third-party copies of copyrighted works are cited by their print details (publisher, ISBN) and carry no link here; the copies are listed as access paths in sources/MANIFEST.yaml.
 timeline:
   id: ugarit-unbaked-tablet
   title: "The Ugarit oven story: excavation, first report, revision (1879 to 2021)"
@@ -34,13 +35,13 @@ people:
   - {who: "Alan Millard, Pierre Lombard", detail: "Authors of papers in Ras Shamra-Ougarit XI (1995) that report the revision."}
   - {who: "Eric H. Cline", detail: "Author of 1177 B.C. (2014; revised 2021), where the ship letter is described as first reported found in a kiln."}
 sources:
-  s_saade:  {title: "Saade, Ougarit et son royaume (IFPO 2011): campaign table pp. 26-27; pp. 19-21", url: "https://archive.org/details/ougarit-et-son-royaume-des-origines-a-sa-destruction-gabriel-saade-edite-par-mar", authenticity: "third-party upload of a printed book; unchecked"}
-  s_rso:    {title: "Ras Shamra-Ougarit XI (1995): Millard pp. 119-124; Lombard pp. 227-229; Avant-propos", url: "https://www.ancientportsantiques.com/wp-content/uploads/Documents/PLACES/Levant/Ugarit-Yon1995.pdf", authenticity: "third-party scan of a printed volume; moderate"}
-  s_astour: {title: "Astour, American Journal of Archaeology 69.3 (1965) 253-258", url: "https://scispace.com/pdf/new-evidence-on-the-last-days-of-ugarit-l0u8wwc2hp.pdf", authenticity: "JSTOR scan via a third-party reader; moderate"}
+  s_saade:  {title: "G. Saade, Ougarit et son royaume (Beirut: IFPO, 2011), ISBN 978-2-35159-180-2: campaign table pp. 26-27; pp. 19-21", url: "", authenticity: "print work cited; read in a third-party copy (access path in the dig manifest); unchecked"}
+  s_rso:    {title: "Ras Shamra-Ougarit XI (Paris: Editions Recherche sur les Civilisations, 1995), ISBN 2-86538-253-2: Millard pp. 119-124; Lombard pp. 227-229; Avant-propos", url: "", authenticity: "print work cited; read in a third-party scan (access path in the dig manifest); moderate"}
+  s_astour: {title: "Astour, American Journal of Archaeology 69.3 (1965) 253-258", url: "http://www.jstor.org/stable/502290", authenticity: "JSTOR stable URL of the print article; read in a copy of the JSTOR scan (access path in the dig manifest); moderate"}
   s_boyes:  {title: "Boyes, Script and Society (Oxbow 2021), open access, pp. 124-125", url: "https://archive.org/details/oapen-20.500.12657-52589", authenticity: "OAPEN open-access edition; moderate"}
-  s_cline21: {title: "Cline, 1177 B.C., revised edition (2021): pp. 31-32, 101, 107-108, 140", url: "https://www.ancientportsantiques.com/wp-content/uploads/Documents/AUTHORS/Cline2021-1177BC.pdf", authenticity: "third-party copy of a printed book; unchecked"}
+  s_cline21: {title: "E. H. Cline, 1177 B.C., revised edition (Princeton University Press, 2021), ISBN 9780691208015: pp. 31-32, 101, 107-108, 140", url: "", authenticity: "print work cited; read in a third-party copy (access path in the dig manifest); unchecked"}
   s_cline14: {title: "Cline, 1177 B.C. (2014), Prologue sample", url: "http://assets.press.princeton.edu/chapters/p10185.pdf", authenticity: "publisher's sample; moderate"}
-  s_caubet: {title: "Caubet, 'The Case of Ugarit and Carchemish' (Eisenbrauns 2003), pp. 17-19", url: "https://dokumen.pub/symbiosis-symbolism-and-the-power-of-the-past-canaan-ancient-israel-and-their-neighbors-from-the-late-bronze-age-through-roman-palaestina-9781575065458.html", authenticity: "third-party mirror; unchecked"}
+  s_caubet: {title: "A. Caubet, 'The Case of Ugarit and Carchemish', in Dever and Gitin (eds), Symbiosis, Symbolism, and the Power of the Past (Eisenbrauns 2003), ISBN 9781575065458, pp. 17-19", url: "", authenticity: "print work cited; read in a third-party mirror (access path in the dig manifest); unchecked"}
   s_sayce:  {title: "Sayce, The Hittites, 2nd ed. (1890), chapter I (Project Gutenberg #40243)", url: "https://www.gutenberg.org/cache/epub/40243/pg40243.txt", authenticity: "public domain; transcription checked against the 1890 scan; moderate"}
   s_hal:    {title: "HAL record halshs-01570891 (abstract of Coquinot et al. 2008)", url: "https://api.archives-ouvertes.fr/search/?q=halId_s:halshs-01570891&fl=fileMain_s,title_s,abstract_s", authenticity: "repository record; unchecked"}
 events:
@@ -59,7 +60,7 @@ events:
   - {id: tl5, panel: long, lane: dig, time: "1955-10-14T00:00:00Z", end: "1955-12-07T00:00:00Z", precision: range, kind: official, status: single, sources: [s_saade],
      label: "14 Oct - 7 Dec 1955: 19th campaign",
      detail: "Saade's table (Palais Royal, Palais Sud). Astour attributes the alphabetic letters of the oven lot to the 18th and 19th campaigns."}
-  - {id: tl6, panel: long, lane: dig, node: ugarit-1956-letter-from-the-general-found-house-of-rapanu, rev: 1}
+  - {id: tl6, panel: long, lane: dig, node: ugarit-1956-letter-from-the-general-found-house-of-rapanu, rev: 2}
   - {id: tl7, panel: long, lane: dig, time: "1956-09-29T00:00:00Z", end: "1956-11-01T00:00:00Z", precision: range, kind: official, status: single, sources: [s_saade],
      label: "29 Sep - 1 Nov 1956: 20th campaign, residential quarter; the Rapanu archives",
      detail: "Saade p. 21: this campaign 'livra les Archives de Rapanou'. The Akkadian letters of the 20th campaign, including RS 20.18 and RS 20.238, were published in Ugaritica V (1968). No source read states where RS 20.238 was found."}

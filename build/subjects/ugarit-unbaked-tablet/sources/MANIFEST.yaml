@@ -3,7 +3,8 @@
 # NO photograph, squeeze, hand copy or sign-level edition of any tablet was seen, and the excavation reports (Schaeffer; Ugaritica IV and V; PRU V) were not opened.
 # What WAS read in round 2: one 1965 journal article (Astour), the 1995 colloquium volume Ras Shamra-Ougarit XI (Millard, Lombard, Lebrun and others), a 2011 book by Saade, a 2021 open-access book by Boyes,
 # two editions of Cline's book (the 2014 publisher sample and a copy of the 2021 revised edition), Caubet's 2003 chapter, and a public-domain book of 1890 (Sayce).
-# Third-party copies of printed books (dokumen.pub, ancientportsantiques.com, the Internet Archive) are copies of the printed volumes. They are access paths, not the works. Nothing copyrighted is stored in the repository.
+# Third-party copies of printed books and articles (scispace.com, dokumen.pub, ancientportsantiques.com, the Internet Archive) are copies of the printed works. They are access paths only, not the works; each such entry has a print_citation naming the work (publisher, ISBN or JSTOR stable URL).
+# Some of these copies look like unauthorised copies of copyrighted works; the dig cites the print works and uses only short quotes. Nothing copyrighted is stored in the repository.
 # The only file stored here is a public-domain extract (sources/sayce-1890-ch1-extract.txt).
 # Funding and control: stated per source where a page read states it; otherwise "not stated in the pages read".
 retrieved: 2026-10-16
@@ -12,6 +13,8 @@ sources:
   - id: src-astour-last-days
     title: "M. C. Astour, 'New Evidence on the Last Days of Ugarit', American Journal of Archaeology 69.3 (July 1965), pp. 253-258 (JSTOR stable URL http://www.jstor.org/stable/502290)"
     url: https://scispace.com/pdf/new-evidence-on-the-last-days-of-ugarit-l0u8wwc2hp.pdf
+    url_is: "ACCESS PATH ONLY: the url below is a third-party copy of a copyrighted work, listed so the reader can find what was read; the source is the print work named in print_citation."
+    print_citation: "M. C. Astour, American Journal of Archaeology 69.3 (1965) 253-258; Archaeological Institute of America; JSTOR stable URL http://www.jstor.org/stable/502290 (the copy read carries a JSTOR download watermark)"
     document_class: >-
       secondary: a scholar's article of 1965 (interpretive). Astour read the proofs of Virolleaud's PRU V (1965) and used Nougayrol's CRAI reports; he says so in his note 14. It is the earliest dated version of the
       oven account found in this dig. Journal published by the Archaeological Institute of America. Funding: not stated in the pages read; a footnote says the paper was read at the Mediterranean Studies Colloquium,
@@ -37,6 +40,8 @@ sources:
   - id: src-rso-xi-1995
     title: "M. Yon, M. Sznycer, P. Bordreuil (eds), Le pays d'Ougarit autour de 1200 av. J.-C. (Ras Shamra-Ougarit XI; Paris: Editions Recherche sur les Civilisations, 1995). Read: Avant-propos; R. Lebrun p. 86; M. Liverani p. 115 note 13; A. Millard, 'The last tablets of Ugarit', pp. 119-124; P. Lombard pp. 227-229; O. Callot and M. Yon p. 167; J.-M. de Tarragon p. 206"
     url: https://www.ancientportsantiques.com/wp-content/uploads/Documents/PLACES/Levant/Ugarit-Yon1995.pdf
+    url_is: "ACCESS PATH ONLY: the url below is a third-party copy of a copyrighted work, listed so the reader can find what was read; the source is the print work named in print_citation."
+    print_citation: "M. Yon, M. Sznycer, P. Bordreuil (eds), Le pays d'Ougarit autour de 1200 av. J.-C., Ras Shamra-Ougarit XI (Paris: Editions Recherche sur les Civilisations, 1995), ISBN 2-86538-253-2"
     document_class: >-
       the printed proceedings of an international colloquium (Paris, Collège de France, 28 June - 1 July 1993). Millard's paper is in English; the rest in French. The papers are scholars' accounts (interpretive); several authors are or were members of the Ras Shamra-Ougarit
       mission (Yon directs it; Lombard, Callot, Calvet are named by Lombard as team members). Funding stated in the Avant-propos: the colloquium was funded 'en grande partie' by the CNRS, with help from the French Ministry of Foreign Affairs and the Fondation Hugot of the Collège de France.
@@ -62,6 +67,8 @@ sources:
   - id: src-saade-2011
     title: "G. Saade (ed. M. Yon, with L. Badre), Ougarit et son royaume, des origines à sa destruction (Bibliothèque archéologique et historique 193; Beirut: Institut français du Proche-Orient, 2011). Read: pp. 19-21, 26-27 (table of campaigns), 84 (notes 135-136), 88, 91-92, 199, 331-333"
     url: https://archive.org/details/ougarit-et-son-royaume-des-origines-a-sa-destruction-gabriel-saade-edite-par-mar
+    url_is: "ACCESS PATH ONLY: the url below is a third-party copy of a copyrighted work, listed so the reader can find what was read; the source is the print work named in print_citation."
+    print_citation: "G. Saade, Ougarit et son royaume, des origines a sa destruction, ed. M. Yon (Bibliotheque archeologique et historique 193; Beirut: Institut francais du Proche-Orient, 2011), ISBN 978-2-35159-180-2"
     document_class: >-
       secondary: a French-language synthesis, posthumously edited by Marguerite Yon, with 2008 notes added. It quotes Yon 1997 and summarises Calvet 1990 and Millard 1995. Publisher: Institut français du Proche-Orient (IFPO). Funding statement on the imprint page:
       'Ouvrage publié avec le concours du ministère des Affaires étrangères (DGCID) et du Centre national de la recherche scientifique (UMIFRE 6)'. The book is in copyright (c) 2011 IFPO; only short quotes are used.
@@ -129,6 +136,8 @@ sources:
   - id: src-cline-2021
     title: "E. H. Cline, 1177 B.C.: The Year Civilization Collapsed, Revised and Updated (Princeton University Press, 2021). Read: Prologue pp. 9-10, Chapter Four pp. 101-102, 107-108, Chapter Five p. 140, Notes to Prologue p. 199 (nn. 21-22, 99), Notes to Chapter Four p. 207 (nn. 21-25)"
     url: https://www.ancientportsantiques.com/wp-content/uploads/Documents/AUTHORS/Cline2021-1177BC.pdf
+    url_is: "ACCESS PATH ONLY: the url below is a third-party copy of a copyrighted work, listed so the reader can find what was read; the source is the print work named in print_citation."
+    print_citation: "E. H. Cline, 1177 B.C.: The Year Civilization Collapsed, Revised and Updated (Princeton: Princeton University Press, 2021), ISBN 9780691208015 (paperback), 9780691208022 (ebook)"
     document_class: >-
       secondary: popular-scholarly book (interpretive), second edition of src-cline-2014. Publisher: Princeton University Press. Funding: not read (acknowledgements were not read). A third-party upload of a copyrighted book; only short quotes are used. The 2014 and 2021 editions are kept
       apart: page and note numbers differ (2014 note 25 = 2021 note 22 for the kiln sentence; 2014 note 24 = 2021 note 21 for the letter).
@@ -149,6 +158,8 @@ sources:
   - id: src-caubet-sym
     title: "A. Caubet, 'The Case of Ugarit and Carchemish: A Contrast', pp. 17-21 in W. G. Dever and S. Gitin (eds), Symbiosis, Symbolism, and the Power of the Past: Canaan, Ancient Israel, and Their Neighbors from the Late Bronze Age through Roman Palaestina (Proceedings of the Centennial Symposium of the W. F. Albright Institute of Archaeological Research and the American Schools of Oriental Research, Jerusalem, 29-31 May 2000; Winona Lake, Indiana: Eisenbrauns, 2003; ISBN 9781575065458)"
     url: https://dokumen.pub/symbiosis-symbolism-and-the-power-of-the-past-canaan-ancient-israel-and-their-neighbors-from-the-late-bronze-age-through-roman-palaestina-9781575065458.html
+    url_is: "ACCESS PATH ONLY: the url below is a third-party copy of a copyrighted work, listed so the reader can find what was read; the source is the print work named in print_citation."
+    print_citation: "A. Caubet, 'The Case of Ugarit and Carchemish: A Contrast', pp. 17-21 in W. G. Dever and S. Gitin (eds), Symbiosis, Symbolism, and the Power of the Past (Winona Lake, Indiana: Eisenbrauns, 2003), ISBN 9781575065458"
     document_class: >-
       secondary: scholarly chapter by a Louvre curator (interpretive). The chapter's author line reads 'Annie Caubet, Département des Antiquités Orientales, Musée du Louvre, Paris'; her author's note thanks Marguerite Yon, Yves Calvet and Dennis Pardee. Publisher: Eisenbrauns (2003). Funding of the symposium, from the volume's preface (read):
       'the generous support of ASOR, a grant to the Albright from the United States Information Agency, and the Horace W. Goldsmith, Samuel H. Kress, and Lucius N. Littauer Foundations', plus named private gifts. It does not state the funding of Caubet's own work. The first dig called the volume '2003-era'; the copyright page gives 2003.
@@ -172,7 +183,7 @@ sources:
     title: "A. H. Sayce, The Hittites: The Story of a Forgotten Empire, Second Edition (London: The Religious Tract Society, 1890; preface dated Oct. 1888), Chapter I 'The Hittites of the Bible', printed pp. 11-12; Project Gutenberg #40243 transcription"
     url: https://www.gutenberg.org/cache/epub/40243/pg40243.txt
     document_class: >-
-      primary_text for what the book says (public domain; a book of 1890 by the Deputy Professor of Philology at Oxford, published by a religious publisher; the preface quotes Dr. Wright's wish that the Hittite inscriptions be read 'confirmatory of Divine truth' and the book is written for a general readership).
+      primary_text for what the book says (public domain; a book of 1890 by the Deputy Professor of Philology at Oxford, published by the Religious Tract Society per its title page). No effect of author or publisher on the sentences quoted in the claims is claimed.
       It is not a source for what Ugarit's tablets say: Ugarit was first excavated in 1929 (Saade 2011, p. 19), thirty-nine years after this edition.
     read: >-
       yes, directly: the Gutenberg plain text read (chapter I opening and preface). A verbatim extract is stored at sources/sayce-1890-ch1-extract.txt. sha256 of the Gutenberg file read e0e2b6881ab152e0dadbcd425614e10d0f2e345177de4f38073b4503ecf42df5.

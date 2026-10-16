@@ -4,40 +4,40 @@ question: "Was a cuneiform tablet pleading for help against ships found unbaked 
 dig_status: open
 headline_status: draft           # the headline claim is contested at low confidence and rests on authors read, not on the excavation reports; it cannot be published as a finding yet
 headline_claim: ugarit-court-v-oven-not-a-tablet-oven
-headline: "Since 1990 scholars have rejected the 'tablet-baking oven' reading of Ugarit's palace Court V"
+headline: "Calvet (1990, as quoted) and authors from 1995 reject Ugarit's palace 'tablet-baking oven'"
 search_summary: >
   The story is usually tied to letters from the Bronze Age city of Ugarit (Ras Shamra, Syria) about enemy ships. The 'oven for baking tablets' was Claude Schaeffer's reading of a find in Court V of the royal palace
-  (campaigns of 1954 and 1955). Scholars who worked on the site after him, and others, wrote from 1990 on that it was not a tablet-baking oven. The ship letter usually quoted (RS 20.238) is a different tablet
-  from the Court V lot in the number lists read. Ugarit's destruction is dated about 1195 to 1175 BC by the authors read, not 1150. No excavation report, edition or photograph was opened.
+  (campaigns of 1954 and 1955). Calvet (1990, known only as quoted) and the authors read from 1995 on say it was not a tablet-baking oven. The ship letter usually quoted (RS 20.238) carries a 1956-campaign number and is absent
+  from the Court V oven lists read; Cline's 2021 edition places it in Court V on two pages and in the House of Rapanu on another; no source read states its findspot. Ugarit's destruction is dated about 1195 to 1175 BC by the authors read, not 1150. No excavation report, edition or photograph was opened.
 description: >
   Second round (rebuild after the review of PR #36). Read in full or in the passages named: Astour 1965 (journal article), the 1995 colloquium volume Ras Shamra-Ougarit XI (Millard, Lombard, Lebrun and others), Saade 2011, Boyes 2021 (open access),
   Cline 2014 (publisher sample) and 2021 (a copy of the revised edition), Caubet 2003, and Sayce 1890 (public domain). Not opened: the excavation reports (Schaeffer, Ugaritica IV and V; Virolleaud, PRU V), Yon 1992, Calvet 1990 and Margueron 1995
   (Persee PDFs refused, HTTP 403), the HAL full texts (bot check), Singer, Hawkins. Every statement here about a tablet comes from a book or article about it, not from the signs or the object.
 divergence_note: >
   The speaker says a tablet pleading for help against ships was found unbaked in an oven, showing the attack was so swift the tablet was not even baked, at a destroyed city in 1150 BC.
-  The authors read since 1990 say the Court V 'tablet oven' reading was revised, and none reports the clay of any tablet as unbaked; the word 'unbaked' appears in the sources read only in Astour's 1965 suggestion that two letters may be unbaked originals.
-  The ship letter quoted by Cline is numbered RS 20.238 and comes from the campaign of 1956; the oven lot in the lists read is RS 18.x and 19.x from 1954 and 1955. The authors read date the destruction of Ugarit between about 1195 and about 1175 BC.
+  Calvet (1990, as quoted) and the authors read from 1995 on say the Court V 'tablet oven' reading was revised, and none reports the clay of any tablet as unbaked; the word 'unbaked' appears in the sources read only in Astour's 1965 suggestion that two letters may be unbaked originals.
+  The ship letter quoted by Cline is numbered RS 20.238, a 1956-campaign number, and is absent from the oven-lot lists read (RS 18.x and 19.x, from 1954 and 1955); Cline's 2021 edition places it in Court V on pp. 107 and 140 and in the House of Rapanu on p. 101; no source read states its findspot. The authors read date the destruction of Ugarit between about 1195 and about 1175 BC.
 
 assessment:
   question: "Was a cuneiform tablet pleading for help against ships found unbaked in an oven, showing the attack was too swift to bake it?"
   answer: unsettled
-  headline: "Unsettled. The authors read reject the tablet-baking oven and report no unbaked clay; the tablet's findspot is stated inconsistently, and no excavation report was opened."
+  headline: "Unsettled. The authors read reject the tablet-baking oven and report no unbaked clay; the ship letter's findspot is not stated by any source read, and no excavation report was opened."
   text: >
     The 'oven for baking tablets' was Schaeffer's reading of a find in Court V of the Ugarit palace (campaigns of 1954 and 1955). His own report (Ugaritica IV, 1962) was not read. The authors read who write after the site was re-examined
     (Calvet 1990 as quoted, Millard and Lombard 1995, Saade 2011, Boyes 2021) say the find was not a tablet-baking oven; they differ on what it was (burnt debris, a bread oven, or an oven built by squatters after the palace was abandoned).
     Astour (1965) wrote that two letters may be unbaked originals, and that is the only place the sources read use the word 'unbaked'. No source read reports the baking state of any tablet. The ship letter that Cline quotes is numbered RS 20.238 (Ugaritica V no. 24)
-    in the sources read and belongs to the 1956 campaign; the Court V lot is RS 18.x and 19.x. Cline's 2021 edition places that letter in the House of Rapanu on one page and in Court V on others. The destruction of Ugarit is dated by the authors read
+    in the sources read, a 1956-campaign number, and it is absent from the oven-lot lists read (RS 18.x and 19.x); that absence is provisional because the lists are not complete inventories. Cline's 2021 edition places the letter in the House of Rapanu on p. 101 and in Court V on pp. 107 and 140. No source read states its findspot. The destruction of Ugarit is dated by the authors read
     between about 1195 and about 1175 BC. Whether the letter dates to the last days of the city is itself disputed. Claims about the speaker's wording are held as searched gaps or contested; none is established.
   lean:
     toward: "No, not as the story is told"
     short: "no"
     strength: slight
-    because: "The authors read who discuss the find after 1990 reject the tablet-baking oven (claim ugarit-court-v-oven-not-a-tablet-oven), and no source read reports an unbaked tablet (claim ugarit-no-clay-examination-reported)."
-    caveats: "All of this comes from books and articles about the find. Schaeffer's report, Calvet 1990, Yon 1992 and Margueron 1995 were not read, the authors read share those works as their basis, and the findspot of the ship letter is stated inconsistently. A lean is not a finding."
+    because: "Calvet (1990, as quoted) and the authors read from 1995 on reject the tablet-baking oven (claim ugarit-court-v-oven-not-a-tablet-oven), and no source read reports an unbaked tablet (claim ugarit-no-clay-examination-reported)."
+    caveats: "All of this comes from books and articles about the find. Schaeffer's report, Calvet 1990, Yon 1992 and Margueron 1995 were not read, the authors read share those works as their basis, and no source read states the findspot of the ship letter (Cline 2021 gives two). A lean is not a finding."
   key_points:
-    - "Authors since 1990 (Calvet as quoted, Millard, Lombard, Saade, Boyes) reject the 'tablet-baking oven'; Schaeffer's own report was not read."
+    - "Calvet (1990, as quoted) and the authors read from 1995 (Millard, Lombard, Saade, Boyes) reject the 'tablet-baking oven'; Schaeffer's report was not read."
     - "'Unbaked' appears only in Astour's 1965 'may be'; no source read reports the baking state of any tablet."
-    - "The ship letter is RS 20.238 (1956), not the 1954-55 oven lot; its findspot is given inconsistently; the destruction is dated about 1195-1175 BC."
+    - "RS 20.238 has a 1956-campaign number and is absent from the oven lists read; Cline places it in Court V; the destruction is dated about 1195-1175 BC."
   basis:
     - ugarit-court-v-oven-not-a-tablet-oven
     - ugarit-schaeffer-tablet-oven-interpretation
@@ -130,13 +130,14 @@ claims:
       description: >-
         Astour (1965, p. 254): "the palace employees had no time to take these tablets from the oven to the archives", which he calls "eloquent testimony to the suddenness of the final catastrophe". Cline (2014, p. 10): the excavators and other scholars
         "initially surmised that the enemy ships had returned and sacked the city before the urgent request for assistance could be dispatched"; he says scholars have shown the tablet was not in a kiln and that it "was probably a copy of a letter that had been dispatched to Cyprus after all"
-        (his notes were not in the sample). Yon, as reported by Boyes (2021, p. 265), sees at Ugarit "evidence of surprise and haste" in overturned tripods and equipment; that bears on the city, not on this tablet. Yon 1992, as reported by Millard (1995, p. 119 n. 3), suggested that the
-        Court V deposit was made after the sack of the palace. The inference needs the oven, the unbaked clay and the identity of the tablet, each addressed in its own claim.
+        (his notes were not in the sample). Yon, as reported by Boyes (2021, p. 266), sees at Ugarit "evidence of surprise and haste" in overturned tripods and equipment; that bears on the city, not on this tablet. Yon 1992, as reported by Millard (1995, p. 119 n. 3), suggested that the
+        Court V deposit was made after the sack of the palace. The inference needs the oven, the unbaked clay and the identity of the tablet, each addressed in its own claim. Closer to Astour's destruction-time reading is the account in ugarit-court-v-tablets-came-from-upper-floor, in which the tablets fell during the fire (Calvet and Yon 1997, as given by Saade pp. 199 and 332; Boyes p. 125); that account still removes the oven and the unbaked clay.
       sources: [src-astour-last-days, src-cline-2014, src-boyes-2021, src-rso-xi-1995]
     positions:
       - {label: "The attack was so swift that tablets in the oven were not taken to the archives", holder: "Michael C. Astour (1965, p. 254)", ground: "Inference from his oven reading."}
       - {label: "The letter was probably a copy of one that had been dispatched", holder: "Eric H. Cline (2014, p. 10)", ground: "Stated; his basis is in notes not seen."}
       - {label: "The Court V deposit was made after the sack of the palace", holder: "Marguerite Yon (1992, p. 119), as reported by Millard 1995 p. 119 n. 3", ground: "Yon 1992 was not read."}
+      - {label: "The tablets fell from the upper floor during the destruction and the fire (see ugarit-court-v-tablets-came-from-upper-floor)", holder: "Calvet (1990) and Yon (1997), as given by Saade 2011 pp. 199, 332; Boyes 2021 p. 125", ground: "Neither Calvet nor Yon was read; this reading puts the deposit at the time of the destruction but gives no oven and no unbaked clay."}
     disputed_by:
       - {who: "Eric H. Cline", kind: person, position: "rejects the swift-attack inference for this tablet", source_read: true, via: "Cline 2014 p. 10"}
       - {who: "Marguerite Yon", kind: person, position: "deposit after the sack, as reported", source_read: false, via: "Millard 1995 p. 119 n. 3"}
@@ -262,36 +263,36 @@ claims:
     anchor:
       type: scholarly-positions
       description: >-
-        Four authors read describe Schaeffer's reading, each citing his report: Millard (1995, p. 119: found in 1954 "in the remains of an oven where they had been in the process of being baked"; Schaeffer saw the tablets arranged "in superimposed circles with a large one at the top"), Lombard (1995, p. 228 and note 9, quoting the title of Schaeffer's
+        Four authors read describe Schaeffer's reading; Millard, Lombard and Saade each cite his report directly (Saade also paraphrases and cites Millard, and Cline 2021 note 25 cites Millard, so the descriptions are not fully independent): Millard (1995, p. 119: found in 1954 "in the remains of an oven where they had been in the process of being baked"; Schaeffer saw the tablets arranged "in superimposed circles with a large one at the top"), Lombard (1995, p. 228 and note 9, quoting the title of Schaeffer's
         1962 article "Un four pour la cuisson des tablettes", pp. 31-37), Saade (2011, p. 332: Schaeffer "avait considéré qu'il y avait là un four pour la cuisson des tablettes", after finding two small walls at the south-west corner of the basin), Cline (2014 p. 10; 2021 pp. 10, 107: "kiln"). The counts differ and are not reconciled: Millard writes of over
         one hundred and fifty tablets and fragments (157 on p. 121), Cline of "more than seventy other tablets". Schaeffer's report itself was not read.
       sources: [src-rso-xi-1995, src-saade-2011, src-cline-2014, src-cline-2021, src-ugaritica-iv]
-    basis: "# V: the four describing authors were read; Schaeffer was not. Four independent descriptions of one report agree on what the report says; they are not evidence that the report is right."
+    basis: "# V: the four describing authors were read; Schaeffer was not. Millard, Lombard and Saade (who cites Schaeffer 1962d directly) are the independent descriptions; Saade also paraphrases Millard and Cline cites him. They agree on what the report says; they are not evidence that the report is right."
 
   - id: ugarit-court-v-oven-not-a-tablet-oven
     state: contested
-    statement: "Members of the Ugarit mission and other scholars have written since 1990 that the Court V find was not an oven for baking tablets."
+    statement: "Calvet (1990, as quoted by others) and the authors read from 1995 on hold that the Court V find was not an oven for baking tablets."
     statement_kind: judgment
     evidence_class: interpretive
     confidence: low
     evidential_weight: 3
     anchor_checked: 'no'
-    adoption_weight: 3
-    adoption_note: "Basis read: Saade (2011, p. 332) says 'les archéologues pensent maintenant' there was no tablet oven; Millard (1995, p. 119) says 'archaeologists now affirm' it; Caubet (2003, p. 17) says 'it will take a long time to be recognized by all'. Authors' statements, not a count."
+    adoption_weight: 1
+    adoption_note: "Not measured (1 is the lowest value, not a measurement). No author read says this claim is widely repeated."
     would_change_if: "Schaeffer's report, Calvet 1990, Margueron 1995 and Coquinot et al. 2008 are read and the excavation evidence supports a tablet-baking oven, or fails to support the revisions"
     anchor:
       type: scholarly-positions
       description: >-
         Authors read, each with the page. Millard 1995 p. 119: "archaeologists now affirm that there was no oven, the tablets simply lay in burnt debris", "no evidence for a tablet-baking process at Ugarit"; his note 2 says J. Lagarce and J. Margueron "informed again the Colloquium that the oven did not exist" and quotes Calvet 1990 (Syria 67, p. 40 n. 2): the analysis of the
         zone "rend caduque l'interprétation de ce four comme destiné à cuire des tablettes". Lombard 1995 p. 228: "un four a effectivement existé" at the south-west corner of the basin, "sans doute construit par des squatters peu après l'abandon du palais", so the oven is later than the tablets' deposit. Saade 2011 p. 199: Calvet (1990, 39-40) says the documents fell from the upper floor and the
-        oven was "sans doute d'un fannour pour la cuisson du pain"; p. 332: Yon (1997, 45-46) calls the baking-oven hypothesis "séduisante" but against "difficultés indéniables" and says "l'existence même d'un four en cet endroit ... est mise en doute par certains". Boyes 2021 pp. 124-125: "Even if there was an oven (which is doubtful), the tablets were not placed within it for firing", citing Margueron 1995a and Coquinot et al. 2008. Caubet 2003 p. 17: the picture
+        oven was "sans doute d'un fannour pour la cuisson du pain"; p. 332: Yon (1997, 45-46), as quoted by Saade, calls the baking-oven hypothesis "séduisante" but says it meets "difficultés indéniables" and "ne résiste pas à l'examen" (her own judgment); she adds that "l'existence même d'un four en cet endroit ... est mise en doute par certains" (her report of others' doubt, not her own claim). Boyes 2021 pp. 124-125: "Even if there was an oven (which is doubtful), the tablets were not placed within it for firing", citing Margueron 1995a and Coquinot et al. 2008. Caubet 2003 p. 17: the picture
         "had to be revised". Cline 2021 p. 107: "it was not found in a kiln after all". The Coquinot et al. abstract (HAL) says a new analysis led Margueron "à réfuter la thèse de C. Schaeffer" and that the authors' own study of the objects "nous a conduits à émettre une nouvelle hypothèse" (not stated in the abstract). Not independent: all rest on Calvet 1990, Yon 1992 and 1997, and Margueron 1995, none read in full.
       sources: [src-rso-xi-1995, src-saade-2011, src-boyes-2021, src-caubet-sym, src-cline-2021, src-hal-coquinot-2008, src-persee-syria-67]
     positions:
       - {label: "No oven; the tablets lay in burnt debris", holder: "Alan Millard (1995, p. 119), reporting J. Lagarce, J. Margueron and Calvet", ground: "Colloquium discussion and Calvet 1990 n. 2, as he reports."}
       - {label: "An oven existed, built by squatters after the palace was abandoned; it was not a tablet-baking oven", holder: "Pierre Lombard (1995, pp. 228-229)", ground: "His reading of the context Schaeffer described and of a later collapse of the upper floor; Calvet's field observations (p. 229 n. 10)."}
       - {label: "A bread oven; the documents fell from the upper floor", holder: "Yves Calvet (1990), as summarised by Saade 2011 p. 199", ground: "Calvet 1990 was not read."}
-      - {label: "The existence of any oven there is doubted by some; the tablets fell with the wall and ceiling", holder: "Marguerite Yon (1997, 45-46), as quoted by Saade 2011 p. 332", ground: "Yon 1997 was not read."}
+      - {label: "The baking-oven hypothesis does not withstand examination; the tablets fell with the wall and ceiling (she reports, separately, that some doubt any oven existed)", holder: "Marguerite Yon (1997, 45-46), as quoted by Saade 2011 p. 332", ground: "Yon 1997 was not read."}
       - {label: "An 'over-imaginative interpretation'; most likely an overturned basket of tablets; any oven doubtful", holder: "Philip J. Boyes (2021, pp. 124-125)", ground: "He cites Margueron 1995a and Coquinot et al. 2008."}
     disputed_by:
       - {who: "Claude Schaeffer", kind: person, position: "tablets in an oven for baking them", source_read: false, via: "described by Millard, Lombard, Saade and Cline; Ugaritica IV not read"}
@@ -325,7 +326,7 @@ claims:
 
   - id: ugarit-yon-surprise-and-haste-evidence
     state: proposed
-    statement: 'Boyes (2021, p. 265) reports that Yon discerns, at Ugarit itself, "evidence of surprise and haste: overturned tripods and equipment, even abandoned washing-up".'
+    statement: 'Boyes (2021, p. 266) reports that Yon discerns, at Ugarit itself, "evidence of surprise and haste: overturned tripods and equipment, even abandoned washing-up".'
     statement_kind: reported
     evidence_class: interpretive
     confidence: low
@@ -337,7 +338,7 @@ claims:
     anchor:
       type: scholarly-positions
       description: >-
-        Boyes 2021, p. 265, citing Yon 1992, 117 and Bounni et al. 1998, 53 in the surrounding notes (the footnote for this sentence is "Yon 1992, 119"). He contrasts it with Ras Ibn Hani, where Yon sees a more orderly evacuation. It concerns the city, not the Court V tablets. It is the one passage read that points toward haste, and it is recorded here because it cuts against a reading
+        Boyes 2021, p. 266 (the sentence follows the running head of p. 266 in the OCR text); the notes just before it, on p. 265, cite Yon 1992, 117 and Bounni et al. 1998, 53, and a further note marker follows the sentence (its text is not clear in the OCR). He contrasts it with Ras Ibn Hani, where Yon sees a more orderly evacuation. It concerns the city, not the Court V tablets. It is the one passage read that points toward haste, and it is recorded here because it cuts against a reading
         in which nothing suggests surprise. Yon's own text was not read.
       sources: [src-boyes-2021]
     basis: "# V: Boyes read 2026-10-16; Yon not read."
@@ -373,8 +374,8 @@ claims:
     confidence: low
     evidential_weight: 2
     anchor_checked: 'no'
-    adoption_weight: 4
-    adoption_note: "Basis read: Cline (2014 p. 9) introduces it as a specific example of terror in the final days of the kingdoms; Saade (2011 p. 92) calls it the only document known on an enemy landing at Ugarit. Authors' statements, not a count."
+    adoption_weight: 1
+    adoption_note: "Not measured (1 is the lowest value, not a measurement). No author read says this claim is widely repeated."
     would_change_if: "the edition (Ugaritica V no. 24) or the signs show a different text, sender or recipient, or the letter is shown to be a later composition"
     anchor:
       type: interpretive
@@ -557,8 +558,8 @@ claims:
     confidence: low
     evidential_weight: 2
     anchor_checked: 'no'
-    adoption_weight: 3
-    adoption_note: "Basis read: Boyes (2021, p. 249) places RS 20.238 in 'Ugarit's final years'; Saade (2011, p. 88) discusses it among texts that 'semblent pouvoir être attribués au règne de Ammourapi'; Lebrun (1995, p. 86) lists it among documents on the gravity of the situation. Authors' statements, not a count."
+    adoption_weight: 1
+    adoption_note: "Not measured (1 is the lowest value, not a measurement). No author read says this claim is widely repeated."
     would_change_if: "the letters are dated by a named king, a stratified findspot with a dated destruction layer, or a prosopographical link to datable officials"
     anchor:
       type: scholarly-positions
@@ -587,8 +588,8 @@ claims:
     confidence: low
     evidential_weight: 2
     anchor_checked: 'no'
-    adoption_weight: 3
-    adoption_note: "Basis read: Caubet (2003, p. 17) says the oven account is still repeated in 'seminal works'. An author's statement, not a count."
+    adoption_weight: 1
+    adoption_note: "Not measured (1 is the lowest value, not a measurement). No author read says this claim is widely repeated."
     would_change_if: "Hawley et al. 2008 and Yon 1992 are read and give a dated sequence for the lot"
     anchor:
       type: scholarly-positions
@@ -610,7 +611,7 @@ claims:
 
   - id: ugarit-sayce-1888-hittite-critic-and-reply
     state: established
-    statement: 'Sayce wrote in 1888 that "Nearly forty years ago a distinguished scholar" had called the mention of Hittite kings in Second Kings 7:6 of "unhistorical tone", and that "Recent discoveries have retorted the critic''s objections upon himself."'
+    statement: 'Sayce wrote, in the second edition (1890) of a book whose preface is dated October 1888, that "Nearly forty years ago a distinguished scholar" had called the mention of Hittite kings in Second Kings 7:6 of "unhistorical tone", and that "Recent discoveries have retorted the critic''s objections upon himself."'
     statement_kind: reported
     evidence_class: primary_text
     confidence: high
@@ -623,7 +624,7 @@ claims:
       type: primary_text
       description: >-
         Sayce, The Hittites: The Story of a Forgotten Empire, 2nd ed. (1890; preface dated October 1888), chapter I, printed pp. 11-12; Gutenberg text read and the first two paragraphs compared with the Internet Archive scan of the 1890 edition (src-sayce-1890). A public-domain extract is stored at sources/sayce-1890-ch1-extract.txt.
-        The book is by an Oxford professor of philology and was published by the Religious Tract Society; its preface quotes Dr. Wright's hope that the inscriptions will prove "confirmatory of Divine truth". The critic is not named in the pages read. This is a claim about what Sayce wrote; it says nothing about Ugarit, which was first excavated in 1929.
+        The book is by an Oxford professor of philology; the title page names the Religious Tract Society as publisher. No effect of author or publisher on the quoted sentences is claimed. The critic is not named in the pages read. This is a claim about what Sayce wrote; it says nothing about Ugarit, which was first excavated in 1929.
       sources: [src-sayce-1890]
     basis: "# V: Sayce 1890 read (chapter I opening and the preface), 2026-10-16, with the stored extract."
 
