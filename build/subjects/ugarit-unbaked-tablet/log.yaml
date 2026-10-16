@@ -1,0 +1,96 @@
+subject: ugarit-unbaked-tablet
+log:
+  - id: L-01
+    date: 2026-10-14
+    entry: >
+      START. Handoff (speaker claim dh-oXit2KG1N1s-25) split into six parts, wording unchanged: tablet pleading for help against ships; found unbaked in an oven at a destroyed city; showing the attack was so swift the tablet was not baked;
+      1150 BC; this is why science doubted the Bible's Hittites. The handoff's identification (RS 18.147 / RS 20.18) was treated as a guess. Rules applied: books, translations and videos are claims; no primary data (image, squeeze, plate) was
+      obtained, so no claim is primary or established and all are capped at weight 2.
+  - id: L-02
+    date: 2026-10-14
+    entry: >
+      WHAT WAS READ. (1) Cline, 1177 B.C. (Princeton UP, 2014), Prologue, publisher's sample PDF: text layer read; quotes the letter from the king of Ugarit to the king of Cyprus and says it was first reported found in a kiln with over seventy other tablets
+      but that 'scholars have now shown that the tablet was not found in a kiln'; his notes 24 and 25 are not in the sample. (2) Caubet, 'The Case of Ugarit and Carchemish: A Contrast', in Symbiosis, Symbolism, and the Power of the Past: read on a third-party
+      mirror (dokumen.pub): says the 'oven' in a royal-palace courtyard, with a letter of the 'Sun King' to Ammurapi, 'had to be revised' (citing Calvet 1990, Yon 1992, Millard 1995 n. 2), that the tablets do not date to the very end of the city,
+      and that the 'menacing boats' letters of the House of Rapanu (found 1956) lack names and may belong to the Amarna age on Singer's 1987 view. (3) CDLI P282588 (Ugaritica 5 no. 22, RS 20.0018): a catalogue entry with no museum, findspot or text.
+      (4) The handoff note. (5) Nominatim for coordinates. A magazine feature (Atwood, Archaeology 2021) was seen only as a tool-generated summary; nothing rests on it.
+  - id: L-03
+    date: 2026-10-14
+    entry: >
+      WHAT WAS BLOCKED OR NOT OPENED. Ugaritica V on the Internet Archive (HTTP 401, lending library): not bypassed. Astour, 'New Evidence on the Last Days of Ugarit' (scispace.com, HTTP 403). Halayqa, UF 42 (Birzeit repository, HTTP 403).
+      Met Museum Ugarit essay (HTTP 429, browser verification script). CDLI search for RS 18.147 returned one unrelated text (KTU3 2.46), and searches for RS 20.238 gave nothing readable; the CDLI JSON search API returned an unrelated record. The Ras Shamra Tablet Inventory (OCHRE) front page was opened;
+      its database was not queried. Not located or not opened: Yon 1992, Millard 1995, Calvet 1990, Singer 1987, Nougayrol 1955/1956, Yon 1997, Hawkins 1995. Wikipedia was never opened as a source. Several search-result summaries named RS 18.147, RS 20.238 and RS L.1 as the ship letters and gave a version of the oven story;
+      those are search snippets, not reads, and are NOT used in any claim. No image of any tablet was seen, no sign was read, no licence question for an image arose.
+  - id: L-04
+    date: 2026-10-14
+    entry: >
+      WHO FUNDED AND CONTROLLED THE WORK (tried, mostly not found). Cline: author named in the PDF metadata; his funding UNRESEARCHED. Princeton University Press: publisher named on every page; its ownership and funding UNRESEARCHED (not read). Caubet: byline gives the Musee du Louvre, Departement des Antiquites Orientales;
+      her funding UNRESEARCHED. The volume's editors, publisher and year: not read on the mirror page, UNRESEARCHED. CDLI: UNRESEARCHED. The Ras Shamra excavations (Mission archeologique de Ras Shamra): a search-result summary says Schaeffer's expedition from 1929 was supported by the Academie des Inscriptions et Belles-Lettres, a Ministry of Education,
+      the Louvre and the local government at Latakia, and that Marguerite Yon directed from 1978 to 1999; that page was not opened, so none of it is asserted here and the funding of the mission stays UNRESEARCHED. Caubet (read) says the Urtenu-house texts were found in 1973 by the military digging a blockhouse and excavated after 1986;
+      who paid for that dig is not stated. The speaker, Dead Hidden: UNRESEARCHED.
+  - id: L-05
+    date: 2026-10-14
+    entry: >
+      WHERE THE FACTS END. Not established from anything read: which tablet is meant; its RS number, museum and findspot; whether it was baked; the date of Ugarit's destruction; whether any ship letter is from the very end of the city. Held open as contested: (a) the oven findspot (original excavators' kiln; Cline: not a kiln; Caubet: palace-courtyard oven picture revised), and
+      the swift-attack inference; (b) the date of the 'menacing boats' letters (end of Ugarit under Ammurapi against Singer's Amarna-age reading, which was not read). Cline and Caubet describe different ovens and letters, so the speaker's single 'tablet' may merge more than one tablet. NEXT: Ugaritica V nos. 22-24 and the findspot notes; Yon 1992; Millard 1995 n. 2; Singer 1987;
+      the RSTI database; Louvre/Aleppo/Damascus inventory records and photographs.
+  - id: L-06
+    date: 2026-10-16
+    entry: >
+      REBUILD STARTED after the independent review of PR #36 (head 1afcf26, verdict REDO). L-01 to L-05 are left as written; corrections are in L-09. The review's checklist: keep the verified Cline and Caubet passages and add page locators (done); read Astour 1965 and record the early oven account
+      as his position (done: ugarit-astour-1965-oven-lot, -two-letters-may-be-unbaked-originals, -suddenness-inference); obtain and read primary or near-primary documents (partly: see L-07 and L-08; no excavation report or edition was opened); resolve the RS-number mapping from sources read (done: ugarit-rs-number-mapping);
+      research funding and control (done where pages state it: ugarit-fund-* claims; the rest is ugarit-funding-not-stated); fix findings F4 to F11 (see L-09); add timeline.yaml (done); flag the taxonomy entry for the owner (PROPOSED_TAXONOMY.yaml); do not write review.yaml (not written).
+  - id: L-07
+    date: 2026-10-16
+    entry: >
+      WHAT WAS READ IN ROUND 2 (hashes in sources/MANIFEST.yaml). (1) Astour, AJA 69.3 (1965), 253-258, in full, in a JSTOR scan: the pre-revision oven account, the RS and PRU V numbers, the 'may be unbaked' suggestion. (2) Ras Shamra-Ougarit XI (1995), a scan of the printed volume: Millard 'The last tablets of Ugarit' pp. 119-124 in full
+      (including note 2 quoting Calvet 1990 and note 3 citing Yon 1992), Lombard pp. 227-229, Lebrun p. 86, Liverani p. 115 n. 13, the date statements of Callot and Yon, de Tarragon and the editors, and the Avant-propos on funding. (3) Saade, Ougarit et son royaume (IFPO 2011), the passages on the Court V tablets (pp. 199, 331-333), the Akkadian letters (pp. 91-92), the campaign table (pp. 26-27), the
+      start of the excavation (pp. 19-21). (4) Boyes, Script and Society (Oxbow 2021, open access), pp. 124-125, 237-238, 241, 249, 264-266. (5) Cline, 1177 B.C., the 2014 Prologue sample again and a copy of the 2021 revised edition (Prologue, chapters Four and Five, notes, and the passage on the Hittites at pp. 31-32). (6) Caubet 2003 again, with page locators. (7) Sayce, The Hittites (1890), chapter I, in the Gutenberg text, checked against the Internet Archive scan;
+      a verbatim extract is stored. (8) Abstracts from the HAL API for Coquinot et al. 2008 and Hawley et al. 2008. (9) CDLI P282588 again. Searches for the words oven, kiln, four, Court V, the RS numbers and the destruction dates were run over the texts of (2) to (6). Nothing was bypassed.
+  - id: L-08
+    date: 2026-10-16
+    entry: >
+      BLOCKED OR NOT OPENED IN ROUND 2. Ugaritica V and the Internet Archive item that is presumably Ugaritica IV (Schaeffer's 'Un four pour la cuisson des tablettes', pp. 31-37): HTTP 401, 'access-restricted-item: true' in the item metadata (lending library); not bypassed. Persee: the Syria 67 issue page was read; the PDF of Calvet's 'Bassins du palais royal d'Ougarit' (pp. 31-42)
+      returned HTTP 403 and was not obtained by another route. HAL full texts of Coquinot et al. and Hawley et al.: a 'Making sure you're not a bot' page (Anubis); no attempt was made to pass it. Halayqa (UF 42): HTTP 403. Met Museum essay: HTTP 429. Web-search tool results were used only to find URLs and are not reads. Not located in an open copy: Yon 1992 and 1997, Margueron 1995a (Syria 72), Singer 1987 and 1999, Hawkins 1995, Nougayrol 1955, 1956 and 1968,
+      Virolleaud PRU V (1965), Beckman 1996, Bryce 2005. The Ras Shamra Tablet Inventory database (OCHRE) was not queried. No photograph, hand copy or museum record of any tablet was seen, so no image rights question arose. The speaker's video was not watched.
+  - id: L-09
+    date: 2026-10-16
+    entry: >
+      CORRECTIONS TO ROUND 1 (new entry; L-01 to L-05 are not edited). (a) L-03 and the first manifest listed Astour 1965 as blocked (HTTP 403 on 2026-10-14); the same URL downloaded on 2026-10-16 and the article was read in full. (b) L-01 says the handoff was split into six parts; five speaker lines exist in claims.yaml and they are the five kept. (c) Round 1 said Cline and Caubet 'describe different ovens'; both describe the Court V find; Caubet names a letter of the Hittite king to Ammurapi as part of it
+      (Astour, Millard and Saade number it RS 18.38) and Cline names the Cyprus letter, and the number lists in Astour, Millard and Saade put RS 18.38 in the oven lot and RS 20.238 in the 1956 campaign (ugarit-ship-letter-not-in-listed-oven-lot, ugarit-cline-2021-gives-two-findspots). (d) Round 1 called the 'menacing boats' letters in Caubet 'independent' of Cline's letter; the sources do not show that Cline's letter is among them, and all depend on Nougayrol's edition, so the claim was reworded and anchor_checked set to 'no' (F9). (e) The handoff note was removed from every anchor (F4); it remains in the manifest and the transmission chain as the origin of the speaker's lines.
+      (f) Adoption weights that were 3 to 5 with the note 'not measured' were set to 1 with the note 'Not measured (1 is the lowest value, not a measurement)'; adoption weight 3 or 4 is kept only where an author read says the oven story or the revision is widely repeated, and the note quotes the basis (F5). A position holder named without a source read ('the common popular and textbook placement') was replaced by holders read (F5). (g) ugarit-ship-letters-dating-contested no longer states one side as fact (F6). (h) Round 1 L-04 repeated details of the Schaeffer expedition's support from a
+      search-result summary that was not opened; those details are not used. Funding facts that are stated in pages read are now in the ugarit-fund-* claims, including the correction that Caubet's volume is Eisenbrauns 2003, edited by Dever and Gitin, from the Albright/ASOR Centennial Symposium (F7). (i) The 'recalled, not read' point about the order of Hittite discoveries was removed from the claim's next step (F8) and is a lead only: the speaker's link between the Hittites and the Ugarit tablet was searched for in the passages named in ugarit-sp-modern-science-doubted-biblical-hittites and not found.
+      (j) The divergence note's phrase 'the gap ... is the product' was replaced by a plain statement of the two differences (F11). (k) The date-1150 and Bible/Hittite search records now carry absence_anchor: true. (l) The transmission chain now includes the earliest dated version found (Astour 1965) and no longer dates the speaker's repetition by the handoff note (F10). (m) A search-result summary seen in round 2 matched RS 18.147 with Ugaritica V no. 24; the works read give RS 20.238 as no. 24 and RS 18.147 as PRU V no. 61, so the summary was not used.
+  - id: L-10
+    date: 2026-10-16
+    entry: >
+      LEADS, NOT READ AND NOT USED AS EVIDENCE. (1) Caubet's 'Letter from the General' (found 1956, House of Rapanu) and Astour's note 2 (RS 20.33, 'unpublished', a war report from a Ugaritic commander tied to the Hitto-Egyptian war and Qadesh in 1299) may be the same letter; neither text says so. If they are, that letter would date to the Qadesh war, not to the end of Ugarit; this needs Nougayrol's reports or Izre'el and Singer's edition. A search-result snippet put RS 20.33 at Ugaritica V no. 20; it was not read. (2) Hawkins 1995, p. 58, cited by Caubet for the oven picture in 'seminal works'.
+      (3) Cline's notes 22 and 25 (2021 edition) cite Schaeffer 1962: 31-37, Nougayrol et al. 1968: 87-89, Millard 1995: 119, Singer 1999: 705, van Soldt 1999: 32 and Yon 2006: 44 for the kiln statement; each is a route to the findspot of RS 20.238. (4) Cline's 2014 notes 24 and 25. (5) Caubet writes that Singer places the menacing-boats letters under Amenophis III 'in the 15th century b.c.e.'; the century as printed was not checked. (6) Liverani (RSO XI) writes on how and when Ugarit ended and is cited by Millard's colloquium; not read.
+      (7) The speaker's source for the words 'oven' and 'unbaked' is unknown; Astour 1965 is the earliest dated source found that uses 'unbaked'.
+  - id: L-11
+    date: 2026-10-16
+    entry: >
+      OPEN TASKS ON FUNDING AND CONTROL (nothing here is a finding). Not stated in the pages read: funding of Astour's article, of Cline's two editions (acknowledgements of the 2021 edition were not read), of the Ras Shamra campaigns of 1954 to 1956, of Schaeffer's reports, of CDLI, and of the speaker's channel. To do: read the acknowledgements of Cline 2021; read the mission-funding notes in Schaeffer's campaign reports and in Yon's account of the programme 1978 to 1993 (RSO XI, pp. 16-17, read only for the sentence on the Commission des fouilles and the publishing series); find out who owns the speaker's channel.
+      Funders named in pages read (ERC for Boyes; CNRS and the Ministry of Foreign Affairs for RSO XI and Saade; ASOR, a USIA grant and foundations for the Caubet symposium) are recorded as facts in the ugarit-fund-* claims. No effect of any funder on any statement is claimed.
+  - id: L-12
+    date: 2026-10-16
+    entry: >
+      STATUS. No review.yaml was written and the subject is not added to `publish`. headline_status stays draft: the headline claim (ugarit-court-v-oven-not-a-tablet-oven) is contested at low confidence and rests on authors read, not on the excavation reports. No claim is established except the four that state what one document says (Astour three, Sayce one) and none of them is evidence about the tablets. The taxonomy entry is proposed in
+      build/subjects/ugarit-unbaked-tablet/PROPOSED_TAXONOMY.yaml for the owner (build/taxonomy.yaml is owner-only and was not edited). timeline.yaml was added; the node ugarit-1956-letter-from-the-general-found-house-of-rapanu is referenced by it and was not changed.
+  - id: L-13
+    date: 2026-10-16
+    entry: >
+      FIX ROUND after the independent review of commit 981eb20 (new entry; earlier entries are not edited). B1: the surface lines (search_summary, divergence_note, assessment headline, text and key point 3) no longer say flatly that the ship letter 'comes from the campaign of 1956' or 'is not the oven lot'; they now say RS 20.238 has a 1956-campaign number, is absent from the oven lists read (a provisional absence, the lists are not complete inventories),
+      Cline 2021 places it in Court V on pp. 107 and 140 and in the House of Rapanu on p. 101, and no source read states its findspot. N1: Boyes's 'surprise and haste' sentence is on p. 266 (it follows the running head of p. 266 in the OCR text), not p. 265; corrected in the claim. N2: adoption weight set to 1 'Not measured' on ugarit-court-v-oven-not-a-tablet-oven, ugarit-ship-letters-exist, ugarit-ship-letters-dating-contested and, for the same reason,
+      ugarit-oven-lot-not-the-last-tablets; the weights of 4 on the speaker lines and on ugarit-schaeffer-tablet-oven-interpretation stay because Cline 2014 p. 10, Cline 2021 p. 107 and Caubet p. 17 say the oven story was widely repeated. N3: the Yon 1997 quotation via Saade now includes 'ne résiste pas à l'examen' and separates her own judgment from her report that some doubt any oven existed. N4: the Schaeffer-interpretation claim no longer says 'four independent descriptions'; Millard, Lombard and Saade each cite Schaeffer directly,
+      Saade also paraphrases Millard and Cline 2021 note 25 cites Millard. N5: the Sayce claim says it is the second edition (1890) with a preface dated October 1888, and the publisher and author are stated without Wright's wish; no effect of author or publisher is claimed. N6: the manifest entries for Astour, RSO XI, Saade, Cline 2021 and Caubet now carry a print_citation (publisher, ISBN or JSTOR stable URL) and say the url is an access path only; some of those copies look like unauthorised copies of copyrighted works. The public timeline.yaml no longer links to those copies
+      (print details only; Astour links to the JSTOR stable URL) and timeline.html was regenerated. N7: ugarit-sp-attack-so-swift-tablet-not-baked now cross-refers to ugarit-court-v-tablets-came-from-upper-floor (fell during the fire: Calvet and Yon 1997 via Saade, Boyes p. 125) and lists it as a position. N8: the headline, search summary, oven claim statement and key point 1 now attribute the rejection to Calvet 1990 as quoted and to authors read from 1995; the earliest author actually read is 1995.
+  - id: L-14
+    date: 2026-10-16
+    entry: >
+      Addition to L-13 (N6). The shared node ugarit-1956-letter-from-the-general-found-house-of-rapanu still linked to the dokumen.pub copy and the timeline page showed that link. The node was given a new rev 2 (history entry added; rev 1 text otherwise unchanged): the source link is removed and the print work is cited by publisher and ISBN. timeline.yaml pins rev 2 and timeline.html was regenerated; it contains no link to dokumen.pub, ancientportsantiques.com or scispace.com.
+  - id: L-15
+    date: 2026-10-16
+    entry: >
+      Two small corrections after the re-check of f951286 (new entry; L-13 and L-14 are not edited). (1) Claim ugarit-yon-surprise-and-haste-evidence: the footnotes citing Yon 1992, 117 and Bounni et al. 1998, 53 are among the footnotes of p. 266 in the OCR text, not on p. 265; the p. 265 footnotes concern other subjects. (2) timeline.yaml note: it no longer says the Court V find and the ship letter are different tablets 'in the number lists'; it now says RS 20.238 has a 1956-campaign number and is absent from the oven lists read (provisional),
+      Cline 2021 places it in Court V and in the House of Rapanu, and no source read states its findspot. timeline.html was regenerated.

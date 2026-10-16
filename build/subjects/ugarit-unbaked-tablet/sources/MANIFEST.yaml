@@ -1,0 +1,345 @@
+# Sources for ugarit-unbaked-tablet (rules A1-A10, build/SCHEMA.md).
+# Round 1 retrieved 2026-10-14; round 2 (rebuild after the PR #36 review) retrieved 2026-10-16, both by a Stratah dig agent (not an independent review).
+# NO photograph, squeeze, hand copy or sign-level edition of any tablet was seen, and the excavation reports (Schaeffer; Ugaritica IV and V; PRU V) were not opened.
+# What WAS read in round 2: one 1965 journal article (Astour), the 1995 colloquium volume Ras Shamra-Ougarit XI (Millard, Lombard, Lebrun and others), a 2011 book by Saade, a 2021 open-access book by Boyes,
+# two editions of Cline's book (the 2014 publisher sample and a copy of the 2021 revised edition), Caubet's 2003 chapter, and a public-domain book of 1890 (Sayce).
+# Third-party copies of printed books and articles (scispace.com, dokumen.pub, ancientportsantiques.com, the Internet Archive) are copies of the printed works. They are access paths only, not the works; each such entry has a print_citation naming the work (publisher, ISBN or JSTOR stable URL).
+# Some of these copies look like unauthorised copies of copyrighted works; the dig cites the print works and uses only short quotes. Nothing copyrighted is stored in the repository.
+# The only file stored here is a public-domain extract (sources/sayce-1890-ch1-extract.txt).
+# Funding and control: stated per source where a page read states it; otherwise "not stated in the pages read".
+retrieved: 2026-10-16
+sources:
+
+  - id: src-astour-last-days
+    title: "M. C. Astour, 'New Evidence on the Last Days of Ugarit', American Journal of Archaeology 69.3 (July 1965), pp. 253-258 (JSTOR stable URL http://www.jstor.org/stable/502290)"
+    url: https://scispace.com/pdf/new-evidence-on-the-last-days-of-ugarit-l0u8wwc2hp.pdf
+    url_is: "ACCESS PATH ONLY: the url below is a third-party copy of a copyrighted work, listed so the reader can find what was read; the source is the print work named in print_citation."
+    print_citation: "M. C. Astour, American Journal of Archaeology 69.3 (1965) 253-258; Archaeological Institute of America; JSTOR stable URL http://www.jstor.org/stable/502290 (the copy read carries a JSTOR download watermark)"
+    document_class: >-
+      secondary: a scholar's article of 1965 (interpretive). Astour read the proofs of Virolleaud's PRU V (1965) and used Nougayrol's CRAI reports; he says so in his note 14. It is the earliest dated version of the
+      oven account found in this dig. Journal published by the Archaeological Institute of America. Funding: not stated in the pages read; a footnote says the paper was read at the Mediterranean Studies Colloquium,
+      Brandeis University, in December 1963. Author's affiliation printed at the end: Brandeis University.
+    read: >-
+      yes, directly, in full (7 PDF pages: a JSTOR cover page and the six article pages 253-258), text layer read with pdftotext, 2026-10-16. The first dig recorded this as blocked (HTTP 403 on 2026-10-14); the same URL downloaded on 2026-10-16.
+      sha256 of the file read e729f44c8da226ba70704e077f569cf14d417d21a094f5d34a32ed07c2832353 (not stored). OCR noise in the text layer: transliterated Ugaritic is garbled in places; the English prose and the RS and PRU numbers were read.
+    authenticity:
+      status: authenticated
+      strength: moderate
+      provenance: "A PDF of the JSTOR scan (cover page 'Accessed: 17/04/2013', stable URL, citation American Journal of Archaeology, Vol. 69, No. 3, Jul. 1965, pp. 253-258), served by a third-party reader site (scispace.com). Not compared with a library copy of the journal."
+      copy_of: "American Journal of Archaeology 69.3 (1965) 253-258, as digitised by JSTOR"
+      sha256: e729f44c8da226ba70704e077f569cf14d417d21a094f5d34a32ed07c2832353
+      compared_with_holder_copy: "no"
+      tests:
+        - "Page run 253 to 258 is complete and the running head '[AJA 69' and the title appear on each page, matching the citation on the JSTOR cover (could have failed)"
+        - "The Ugaritica V numbers Astour gives (no. 22 = RS 20.18; no. 23 = RS L.1; no. 24 = RS 20.238) agree with Saade (2011) pp. 91-92 and with CDLI P282588 (no. 22 = RS 20.0018) and Cline (2021) notes 21 and 99, which were read separately (could have failed)"
+      tested_by: "Stratah dig agent, 2026-10-16 (not independent of the claimant)"
+      gaps: ["Not compared with a library copy of the journal", "Astour's quoted translations come from Nougayrol's and Virolleaud's work, not from the signs"]
+      next_step: "Compare against the printed journal and against PRU V 60-65 and Ugaritica V 22-24 when a library copy is available."
+      checked: 2026-10-16
+
+  - id: src-rso-xi-1995
+    title: "M. Yon, M. Sznycer, P. Bordreuil (eds), Le pays d'Ougarit autour de 1200 av. J.-C. (Ras Shamra-Ougarit XI; Paris: Editions Recherche sur les Civilisations, 1995). Read: Avant-propos; R. Lebrun p. 86; M. Liverani p. 115 note 13; A. Millard, 'The last tablets of Ugarit', pp. 119-124; P. Lombard pp. 227-229; O. Callot and M. Yon p. 167; J.-M. de Tarragon p. 206"
+    url: https://www.ancientportsantiques.com/wp-content/uploads/Documents/PLACES/Levant/Ugarit-Yon1995.pdf
+    url_is: "ACCESS PATH ONLY: the url below is a third-party copy of a copyrighted work, listed so the reader can find what was read; the source is the print work named in print_citation."
+    print_citation: "M. Yon, M. Sznycer, P. Bordreuil (eds), Le pays d'Ougarit autour de 1200 av. J.-C., Ras Shamra-Ougarit XI (Paris: Editions Recherche sur les Civilisations, 1995), ISBN 2-86538-253-2"
+    document_class: >-
+      the printed proceedings of an international colloquium (Paris, Collège de France, 28 June - 1 July 1993). Millard's paper is in English; the rest in French. The papers are scholars' accounts (interpretive); several authors are or were members of the Ras Shamra-Ougarit
+      mission (Yon directs it; Lombard, Callot, Calvet are named by Lombard as team members). Funding stated in the Avant-propos: the colloquium was funded 'en grande partie' by the CNRS, with help from the French Ministry of Foreign Affairs and the Fondation Hugot of the Collège de France.
+      The volume appears in a series of the Mission archéologique française de Ras Shamra-Ougarit directed by Yon, published by the Editions Recherche sur les Civilisations.
+    read: >-
+      yes, directly: a 275-page scan with OCR text layer (a third-party upload of a copyrighted volume), text read with pdftotext on 2026-10-16: Avant-propos, Millard in full (pp. 119-124), Lombard pp. 227-229, Lebrun p. 86, Liverani p. 115 note 13, the closing
+      date statements by Callot and Yon (p. 167) and de Tarragon (p. 206). The rest of the volume was searched for 'four', 'oven', 'Cour V' and the RS numbers; it was not read through. sha256 of the file read 835861f464ad367391a65c0d6d76a0c1c8431bb2276d822ed28373040871f2c7 (not stored). Only short quotes are used here.
+    authenticity:
+      status: authenticated
+      strength: moderate
+      provenance: "A scan of the printed volume uploaded to a third-party site (ancientportsantiques.com). The scan carries the publisher's imprint page (Editions Recherche sur les Civilisations 1995, ISBN 2-86538-253-2) and the running heads of the printed pages."
+      copy_of: "Ras Shamra-Ougarit XI (Paris 1995), printed volume"
+      sha256: 835861f464ad367391a65c0d6d76a0c1c8431bb2276d822ed28373040871f2c7
+      compared_with_holder_copy: "no"
+      tests:
+        - "Three papers in the volume cite Millard 'p. 119 note 2' (Liverani p. 115 n. 13; Lombard's note on p. 229) and the note at the foot of Millard's first page in this copy carries the Calvet quotation they describe (could have failed)"
+        - "Cline (2021, note 25) independently cites 'Millard 1995: 119' for the same revision, and Caubet (2003) cites 'Millard 1995: 119 n. 2' (could have failed)"
+      tested_by: "Stratah dig agent, 2026-10-16 (not independent of the claimant)"
+      gaps: ["Not compared with a library copy", "OCR text: diacritics and some letters are damaged; every passage used was read in full", "The table of contents lost its page numbers in OCR; page numbers come from running heads"]
+      next_step: "Read Millard 1995 and Lombard 1995 in a library copy and compare."
+      checked: 2026-10-16
+
+  - id: src-saade-2011
+    title: "G. Saade (ed. M. Yon, with L. Badre), Ougarit et son royaume, des origines à sa destruction (Bibliothèque archéologique et historique 193; Beirut: Institut français du Proche-Orient, 2011). Read: pp. 19-21, 26-27 (table of campaigns), 84 (notes 135-136), 88, 91-92, 199, 331-333"
+    url: https://archive.org/details/ougarit-et-son-royaume-des-origines-a-sa-destruction-gabriel-saade-edite-par-mar
+    url_is: "ACCESS PATH ONLY: the url below is a third-party copy of a copyrighted work, listed so the reader can find what was read; the source is the print work named in print_citation."
+    print_citation: "G. Saade, Ougarit et son royaume, des origines a sa destruction, ed. M. Yon (Bibliotheque archeologique et historique 193; Beirut: Institut francais du Proche-Orient, 2011), ISBN 978-2-35159-180-2"
+    document_class: >-
+      secondary: a French-language synthesis, posthumously edited by Marguerite Yon, with 2008 notes added. It quotes Yon 1997 and summarises Calvet 1990 and Millard 1995. Publisher: Institut français du Proche-Orient (IFPO). Funding statement on the imprint page:
+      'Ouvrage publié avec le concours du ministère des Affaires étrangères (DGCID) et du Centre national de la recherche scientifique (UMIFRE 6)'. The book is in copyright (c) 2011 IFPO; only short quotes are used.
+    read: >-
+      yes, directly: the Internet Archive OCR text of an upload of the book (2.3 MB of text), read on 2026-10-16 at the passages listed and searched for 'four', 'Rapanou', 'RS 20.238' and the destruction dates. sha256 of the OCR text file read d31c14262ec65949c5d88d7b53b169337e0e569748288e665a0fc0adf5c50a44 (not stored).
+      The book was not read through.
+    authenticity:
+      status: unchecked
+      provenance: "An upload of a copyrighted book to the Internet Archive by a third party; its title page and imprint page (c) 2011 IFPO, ISBN 978-2-35159-180-2 are in the OCR text."
+      copy_of: "Saade, Ougarit et son royaume (IFPO 2011), printed book"
+      sha256: d31c14262ec65949c5d88d7b53b169337e0e569748288e665a0fc0adf5c50a44
+      compared_with_holder_copy: "no"
+      tests: []
+      tested_by: "none"
+      gaps: ["Upload not compared with a library copy", "Page numbers are taken from the running heads of the OCR text", "The OCR damages some digits (one date reads '1995' where context shows 1195)", "Its quotations of Yon 1997 and Calvet 1990 were not compared with those works; Calvet 1990 as quoted by Millard and Lombard (src-rso-xi-1995) agrees in substance"]
+      next_step: "Read pp. 19-21, 84, 88, 91-92, 199 and 331-333 in a library copy."
+      checked: 2026-10-16
+
+  - id: src-boyes-2021
+    title: "P. J. Boyes, Script and Society: The Social Context of Writing Practices in Late Bronze Age Ugarit (Contexts of and Relations between Early Writing Systems 3; Oxford and Philadelphia: Oxbow Books, 2021). Read: pp. 124-125, 237-238, 241, 249, 264-266"
+    url: https://archive.org/details/oapen-20.500.12657-52589
+    document_class: >-
+      secondary: a monograph of 2021 (interpretive); open access under Creative Commons Attribution 3.0 (the imprint page says so). Publisher Oxbow Books. Funding stated in the acknowledgements: written 2016-2020 under the CREWS Project (Contexts of and Relations between Early Writing Systems),
+      University of Cambridge, funded by the European Research Council under Horizon 2020 (grant agreement No 677758). It cites Margueron 1995a, Coquinot et al. 2008, Yon 1992 and Singer for the points used here.
+    read: >-
+      yes, directly: the Internet Archive OCR text (OAPEN Library ingest, item oapen-20.500.12657-52589) read at the passages listed and searched for 'oven', 'kiln', 'Rap', 'ships' and the date of the destruction; read on 2026-10-16. sha256 of the OCR text file read
+      d948876036559b5ffa265d3657e977e21b49d873187716d06dad93ab727fbc2f (not stored). Not read through.
+    authenticity:
+      status: authenticated
+      strength: moderate
+      provenance: "The Internet Archive item is an ingest from the OAPEN open-access library (item metadata gives the OAPEN handle 20.500.12657/52589, ingest 2024-05-30); the text carries the Oxbow imprint, the CC BY 3.0 notice and the ERC acknowledgement."
+      copy_of: "Boyes 2021 open-access edition (OAPEN)"
+      sha256: d948876036559b5ffa265d3657e977e21b49d873187716d06dad93ab727fbc2f
+      compared_with_holder_copy: "no"
+      tests:
+        - "Its date of the destruction of Ugarit (about 1195-1185, from the Bay letter RS 86.2230 and Yon 1992: 119-120) was checked against the figures in Cline (2021) p. 107, Saade (2011) note 135 and the 1995 colloquium volume, which were read separately (could have failed; the figures agree within a decade)"
+        - "Its description of Schaeffer's 'oven' as 'subject to considerable re-evaluation' was checked against Millard 1995 and Lombard 1995 as printed in src-rso-xi-1995 (could have failed; they agree in substance, with the differences noted in the claims)"
+      tested_by: "Stratah dig agent, 2026-10-16 (not independent of the claimant)"
+      gaps: ["OCR text, not the PDF layout", "Its references (Margueron 1995a, Coquinot et al. 2008) were not read in full"]
+      next_step: "Read Margueron 1995a (Syria 72) and Coquinot et al. 2008 (RSO XVII)."
+      checked: 2026-10-16
+
+  - id: src-cline-2014
+    title: "E. H. Cline, 1177 B.C.: The Year Civilization Collapsed (Princeton University Press, 2014), Prologue, 'The Collapse of Civilizations: 1177 bc' (publisher's sample PDF)"
+    url: http://assets.press.princeton.edu/chapters/p10185.pdf
+    document_class: >-
+      secondary: popular-scholarly book chapter (interpretive). Publisher: Princeton University Press. Funding of the author or the book: not stated in the sample pages. Notes 24 and 25 (where the translation and the kiln statement are sourced) are NOT in the sample PDF,
+      so Cline's references for these two statements in the 2014 edition were not read. The revised 2021 edition is a separate source (src-cline-2021).
+    read: >-
+      yes, directly: the publisher's PDF downloaded and its text layer read (pdftotext) on 2026-10-14 and again on 2026-10-16 (same sha256). Pages read: the Prologue, printed pp. 1-14 (the letter is on pp. 9-10, the kiln sentences on p. 10).
+      sha256 of the file read 6e072b21e7fe3fc695795fac19b2170cfe8944a90293c76baeea34901e1c7942 (not stored in the repository).
+    authenticity:
+      status: authenticated
+      strength: moderate
+      provenance: "Served from assets.press.princeton.edu (the publisher's own asset host). PDF metadata: Title '1177 B.C.: The Year Civilization Collapsed - Prologue', Author Eric H. Cline, producer Adobe InDesign CS6, created 25 Feb 2014. Every page carries a Princeton University Press copyright notice. Holder of the original manuscript: not recorded."
+      tests:
+        - "PDF metadata (title, author, 2014 creation date) agrees with the printed running text and publisher copyright footer on every page (could have failed)"
+        - "Quoted letter text and the kiln sentence are in the text layer itself, not in a search snippet (could have failed)"
+        - "The same two passages read the same in the 2021 revised edition (src-cline-2021, pp. 9-10), apart from note numbers (could have failed)"
+      tested_by: "Stratah dig agent, 2026-10-14 and 2026-10-16 (not independent of the claimant)"
+      gaps: ["Authenticates the file as the publisher's text, not that its statements are true", "Endnotes 24, 25 not in the sample", "Final printed edition not compared"]
+      next_step: "Read Cline's endnotes 24 and 25 in the printed 2014 book."
+      checked: 2026-10-16
+
+  - id: src-cline-2021
+    title: "E. H. Cline, 1177 B.C.: The Year Civilization Collapsed, Revised and Updated (Princeton University Press, 2021). Read: Prologue pp. 9-10, Chapter Four pp. 101-102, 107-108, Chapter Five p. 140, Notes to Prologue p. 199 (nn. 21-22, 99), Notes to Chapter Four p. 207 (nn. 21-25)"
+    url: https://www.ancientportsantiques.com/wp-content/uploads/Documents/AUTHORS/Cline2021-1177BC.pdf
+    url_is: "ACCESS PATH ONLY: the url below is a third-party copy of a copyrighted work, listed so the reader can find what was read; the source is the print work named in print_citation."
+    print_citation: "E. H. Cline, 1177 B.C.: The Year Civilization Collapsed, Revised and Updated (Princeton: Princeton University Press, 2021), ISBN 9780691208015 (paperback), 9780691208022 (ebook)"
+    document_class: >-
+      secondary: popular-scholarly book (interpretive), second edition of src-cline-2014. Publisher: Princeton University Press. Funding: not read (acknowledgements were not read). A third-party upload of a copyrighted book; only short quotes are used. The 2014 and 2021 editions are kept
+      apart: page and note numbers differ (2014 note 25 = 2021 note 22 for the kiln sentence; 2014 note 24 = 2021 note 21 for the letter).
+    read: >-
+      yes, directly: a 300-page PDF (producer PDFium) with a text layer, read with pdftotext on 2026-10-16 at the passages listed and searched for 'kiln' and 'oven'. sha256 of the file read 60bf2678acbe5cc2c8ebe56e26278318d03fe34a9b9c9d577f1727ce1c63d9e6 (not stored).
+    authenticity:
+      status: unchecked
+      provenance: "A copy of a copyrighted book posted by a third party; the copy carries Princeton's imprint text. Not compared with the print book."
+      copy_of: "Cline, 1177 B.C. (Princeton 2021), printed book"
+      sha256: 60bf2678acbe5cc2c8ebe56e26278318d03fe34a9b9c9d577f1727ce1c63d9e6
+      compared_with_holder_copy: "no"
+      tests: []
+      tested_by: "none"
+      gaps: ["Copy not compared with the print book", "Page numbers taken from the running heads"]
+      next_step: "Read the same pages and notes 21-25 in a library copy of the 2021 edition."
+      checked: 2026-10-16
+
+  - id: src-caubet-sym
+    title: "A. Caubet, 'The Case of Ugarit and Carchemish: A Contrast', pp. 17-21 in W. G. Dever and S. Gitin (eds), Symbiosis, Symbolism, and the Power of the Past: Canaan, Ancient Israel, and Their Neighbors from the Late Bronze Age through Roman Palaestina (Proceedings of the Centennial Symposium of the W. F. Albright Institute of Archaeological Research and the American Schools of Oriental Research, Jerusalem, 29-31 May 2000; Winona Lake, Indiana: Eisenbrauns, 2003; ISBN 9781575065458)"
+    url: https://dokumen.pub/symbiosis-symbolism-and-the-power-of-the-past-canaan-ancient-israel-and-their-neighbors-from-the-late-bronze-age-through-roman-palaestina-9781575065458.html
+    url_is: "ACCESS PATH ONLY: the url below is a third-party copy of a copyrighted work, listed so the reader can find what was read; the source is the print work named in print_citation."
+    print_citation: "A. Caubet, 'The Case of Ugarit and Carchemish: A Contrast', pp. 17-21 in W. G. Dever and S. Gitin (eds), Symbiosis, Symbolism, and the Power of the Past (Winona Lake, Indiana: Eisenbrauns, 2003), ISBN 9781575065458"
+    document_class: >-
+      secondary: scholarly chapter by a Louvre curator (interpretive). The chapter's author line reads 'Annie Caubet, Département des Antiquités Orientales, Musée du Louvre, Paris'; her author's note thanks Marguerite Yon, Yves Calvet and Dennis Pardee. Publisher: Eisenbrauns (2003). Funding of the symposium, from the volume's preface (read):
+      'the generous support of ASOR, a grant to the Albright from the United States Information Agency, and the Horace W. Goldsmith, Samuel H. Kress, and Lucius N. Littauer Foundations', plus named private gifts. It does not state the funding of Caubet's own work. The first dig called the volume '2003-era'; the copyright page gives 2003.
+    read: >-
+      yes, directly, on 2026-10-14 and again on 2026-10-16: the full-text HTML of a third-party scan site (dokumen.pub) saved and the chapter's text read; the preface and copyright page also read. The page is a COPY of a copyrighted book posted by a third party; the hash of the 2026-10-16 capture is
+      3ea2719f49e05376cedbae3e86ce2e910052cc6ed5fde32257c804e1dcef163a (the 2026-10-14 capture hashed e513342652689ce995d48d30b44e3a9db3b219a1b91b618f382735c8bd30b48a); the hashes differ because the page is dynamic, not because the chapter text differs (the passages used read the same in both). Not stored.
+      Page numbers from the running heads in the copy: oven sentence p. 17; 'Letter from the General' paragraph p. 18; Freu 1193 sentence p. 19.
+    authenticity:
+      status: unchecked
+      provenance: "A third-party mirror of the book's text. Not compared with the print book or the publisher's copy. Authorship is taken from the byline inside the mirrored text and the volume's own title and copyright pages."
+      copy_of: "the printed volume (Eisenbrauns 2003)"
+      sha256: 3ea2719f49e05376cedbae3e86ce2e910052cc6ed5fde32257c804e1dcef163a
+      compared_with_holder_copy: "no"
+      tests: []
+      tested_by: "none"
+      gaps: ["Mirror not compared with the print volume", "Bibliography entries (Calvet 1990, Yon 1992, Millard 1995, Singer 1987, Nougayrol 1955/1956/1968) were seen only as citations; Millard 1995 and Calvet 1990 (as quoted) were later read in src-rso-xi-1995"]
+      next_step: "Read the chapter in a library copy of the printed volume."
+      checked: 2026-10-16
+
+  - id: src-sayce-1890
+    title: "A. H. Sayce, The Hittites: The Story of a Forgotten Empire, Second Edition (London: The Religious Tract Society, 1890; preface dated Oct. 1888), Chapter I 'The Hittites of the Bible', printed pp. 11-12; Project Gutenberg #40243 transcription"
+    url: https://www.gutenberg.org/cache/epub/40243/pg40243.txt
+    document_class: >-
+      primary_text for what the book says (public domain; a book of 1890 by the Deputy Professor of Philology at Oxford, published by the Religious Tract Society per its title page). No effect of author or publisher on the sentences quoted in the claims is claimed.
+      It is not a source for what Ugarit's tablets say: Ugarit was first excavated in 1929 (Saade 2011, p. 19), thirty-nine years after this edition.
+    read: >-
+      yes, directly: the Gutenberg plain text read (chapter I opening and preface). A verbatim extract is stored at sources/sayce-1890-ch1-extract.txt. sha256 of the Gutenberg file read e0e2b6881ab152e0dadbcd425614e10d0f2e345177de4f38073b4503ecf42df5.
+    authenticity:
+      status: authenticated
+      strength: moderate
+      provenance: "Project Gutenberg eBook #40243, prepared by the Online Distributed Proofreading Team from a printed copy. The Internet Archive holds a scan of the 1890 edition (item hittitesstoryoff00saycuoft)."
+      derived_from: "Sayce, The Hittites, 2nd ed. (1890), printed book"
+      tests:
+        - "The first two paragraphs of chapter I read the same in the Gutenberg text and in the Internet Archive OCR of the 1890 printed edition (item hittitesstoryoff00saycuoft, printed pp. 11-12, sha256 of the OCR text 4a81db772a338910d26a14dbd019c7720ba8ebbd1ed2fa59a5f65f44c1c395cb), apart from OCR spacing (could have failed)"
+      tested_by: "Stratah dig agent, 2026-10-16 (not independent of the claimant)"
+      gaps: ["Only chapter I's opening and the preface were read", "The critic Sayce refers to is not named in the pages read"]
+      next_step: "Identify the critic from a note in a library copy, if one gives him."
+      checked: 2026-10-16
+
+  - id: src-hal-coquinot-2008
+    title: "HAL open-archive record halshs-01570891: Y. Coquinot, A. Bouquillon, A. Leclaire, V. Matoian, 'Le four aux tablettes du locus 153 (ex-cour V) du Palais royal d'Ougarit: nouvelles données sur le matériel non épigraphique', in V. Matoian (ed.), Le mobilier du Palais royal d'Ougarit, Ras Shamra-Ougarit XVII (Lyon 2008), pp. 307-326 -- ABSTRACT ONLY"
+    url: "https://api.archives-ouvertes.fr/search/?q=halId_s:halshs-01570891&fl=fileMain_s,title_s,abstract_s"
+    document_class: "the authors' abstract as held by the HAL repository (a metadata record, not the article). Funding and control: not stated in the record."
+    read: >-
+      the abstract only, from the HAL search API (JSON), 2026-10-16. sha256 of the JSON file read dd79369251fe377262bbab83f92b099927d8c5083f9fdf70d6b1561c6013705c (not stored). The full-text PDF link (shs.hal.science/halshs-01570891/document) returned a
+      bot-check page ('Making sure you're not a bot') and was not opened; no attempt was made to pass the check.
+    authenticity:
+      status: unchecked
+      provenance: "Public API response from the HAL repository."
+      tests: []
+      tested_by: "none"
+      gaps: ["Abstract only: the new hypothesis the abstract mentions is not stated in the abstract", "Full text blocked by a bot check"]
+      next_step: "Open the article in RSO XVII (2008) or the HAL PDF in a normal browser."
+      checked: 2026-10-16
+
+  - id: src-hal-hawley-2008
+    title: "HAL open-archive record halshs-00437116: R. Hawley, F. Malbran-Labat, C. Roche-Hawley, 'Pour une étude sur les textes de l'ex-four dans l'ex-cour V', in Le mobilier du Palais royal d'Ougarit: recherches en cours (2008) -- ABSTRACT ONLY"
+    url: "https://api.archives-ouvertes.fr/search/?q=halshs-00437116&fl=halId_s,title_s,abstract_s,authFullName_s,conferenceTitle_s,publicationDate_s,uri_s,fileMain_s,licence_s"
+    document_class: "the authors' abstract (French and English) as held by the HAL repository (a metadata record, not the article). Funding and control: not stated in the record."
+    read: >-
+      the abstract only, from the HAL search API (JSON), 2026-10-16. sha256 of the JSON file read ebb378fa9bc1444911d8b9466978ebdc737b2c71a20f9ce5646622624f0776f6 (not stored). The full text on HAL is behind the same bot check and was not opened.
+    authenticity:
+      status: unchecked
+      provenance: "Public API response from the HAL repository."
+      tests: []
+      tested_by: "none"
+      gaps: ["Abstract only: the dating the article reaches is not in the abstract"]
+      next_step: "Read the article."
+      checked: 2026-10-16
+
+  - id: src-persee-syria-67
+    title: "Persee issue page for Syria 67 (1990), fasc. 1, listing Y. Calvet, 'Bassins du palais royal d'Ougarit', Syria 67 (1990), pp. 31-42 -- ISSUE PAGE ONLY; the article PDF was not obtained"
+    url: https://www.persee.fr/issue/syria_0039-7946_1990_num_67_1
+    document_class: "a journal archive's contents page (metadata). Calvet's article is the source of the 'no tablet oven' observation at pp. 39-40 and note 2, as quoted by Millard and Lombard."
+    read: >-
+      the issue page (HTML, 96,490 bytes, sha256 9a3ae9c047c30ff9c8ef149612ba2438ec6cd471eaf567fda20792a767e48a9c) was read for the title and page range, 2026-10-16. The article's own page (persee.fr/doc/syria_0039-7946_1990_num_67_1_7136) holds only metadata; its PDF (docAsPDF) returned HTTP 403 and
+      was not retrieved by any other route.
+    authenticity:
+      status: unchecked
+      provenance: "Persee, the French journal archive."
+      tests: []
+      tested_by: "none"
+      gaps: ["Article text not read"]
+      next_step: "Read Calvet 1990, pp. 33-42, in a library copy of Syria 67."
+      checked: 2026-10-16
+
+  - id: src-cdli-p282588
+    title: "CDLI artifact entry P282588, 'Nougayrol Ugaritica 5, no. 22' (Cuneiform Digital Library Initiative)"
+    url: https://cdli.earth/artifacts/282588
+    document_class: "catalogue record about an object (a database entry, not the object, not an image). Funders and controllers of CDLI: not stated in the page read."
+    read: >-
+      yes, directly: the page HTML saved and read on 2026-10-14 and again on 2026-10-16. sha256 of the 2026-10-14 capture 57bd43146d20e98e31cd25ca94a120044b0c6ae8ada1711f41d13a312f64ed09; of the 2026-10-16 capture 63ac945e388a9aaef52944b49b027c40b3eec44004bcb45dbacb6f62766b6e2a
+      (the hashes differ because the page carries session-dependent content; the record fields read the same). Not stored. No transliteration, photograph or findspot appears on the entry.
+    authenticity:
+      status: unchecked
+      provenance: "Database entry; museum collection, museum number, findspot, stratigraphic level, dimensions and preservation fields are all blank on the page read. Excavation number field reads RS 20.0018. CDLI's own period label is 'Middle Assyrian (ca. 1400-1000 BC)'."
+      capture: "Own capture only (2026-10-14, 2026-10-16). No independent web-archive capture sought."
+      tests: []
+      tested_by: "none"
+      gaps: ["Nothing links the entry to a tablet found in an oven; it is a letter from Ugarit, genre Letter, language Middle Babylonian peripheral, and that is all the page says"]
+      next_step: "Look in Nougayrol, Ugaritica V no. 22 in a library copy and find the Louvre/Aleppo/Damascus inventory record."
+      checked: 2026-10-16
+
+  - id: src-nominatim-ras-shamra
+    title: "OpenStreetMap Nominatim search result 'Ras Shamra Ugarit' (node 572530384)"
+    url: "https://nominatim.openstreetmap.org/search?q=Ras+Shamra+Ugarit&format=json&limit=3"
+    document_class: "gazetteer: orientation for coordinates only, never evidence that anything happened there"
+    read: "yes, directly; JSON saved on 2026-10-14, sha256 d46345991282cbea3b4a48e80ba944b3f276d9d78a11db64fbc670ed0e78e81a (not stored). Data (c) OpenStreetMap contributors, ODbL. Not used by any claim; only by the shared node."
+    authenticity:
+      status: unchecked
+      provenance: "Public API response retrieved 2026-10-14; a locality node named Ras Shamra at 35.6057226, 35.7819723."
+      tests: []
+      tested_by: "none"
+      gaps: ["Locality point only, not a surveyed site datum"]
+      next_step: "Use a published site coordinate from an excavation publication if precision matters."
+      checked: 2026-10-14
+
+  - id: src-handoff-dh-25
+    title: "Stratah handoff note ugarit-unbaked-tablet.yaml, speaker claim dh-oXit2KG1N1s-25 (Dead Hidden, video oXit2KG1N1s)"
+    url: ""
+    document_class: >-
+      speaker claim, extracted by another agent. The video was not opened or watched here. It is listed because it is the origin of the claim and of the transmission chain; it is NOT cited as an anchor by any claim. The note's candidate identification (RS 18.147 / RS 20.18) is an
+      unverified guess: the sources read here assign RS 18.147 to PRU V no. 61 (a letter from the oven lot) and RS 20.18 to Ugaritica V no. 22 (a letter from Eshuwara of Alashia to the king of Ugarit).
+    read: "yes, the handoff note's text; no for the video"
+    authenticity:
+      status: unchecked
+      provenance: "Staging file written by another agent on 2026-10-14; not in a public archive. Wording of the speaker's claim is reproduced as the note gives it."
+      tests: []
+      tested_by: "none"
+      gaps: ["The video was not watched; the claim line may not be a verbatim transcript", "The note is not in the repository"]
+      next_step: "Capture the video and its transcript with an independent web-archive capture and check the wording."
+      checked: 2026-10-14
+
+  - id: src-atwood-2021
+    title: "R. Atwood, 'The Ugarit Archives', Archaeology (Archaeological Institute of America), July/August 2021"
+    url: https://archaeology.org/issues/july-august-2021/features/ugarit-bronze-age-archive/
+    document_class: "secondary: magazine feature. NOT READ as text: only a summary produced by a fetch tool was seen. No claim rests on it."
+    read: "no (tool-generated summary only)"
+    authenticity:
+      status: unchecked
+      provenance: "Page of the magazine's site; the summary names the Archaeological Institute of America as publisher."
+      tests: []
+      tested_by: "none"
+      gaps: ["Raw article text not read"]
+      next_step: "Read the page text directly."
+      checked: 2026-10-14
+
+  # ---- Located but BLOCKED or not opened. Listed so nobody thinks they were read. ----
+  - id: src-ugaritica-v
+    title: "J. Nougayrol et al., Ugaritica V (Paris: Imprimerie nationale / Geuthner, 1968), Internet Archive item ugariticav0005vari"
+    url: https://archive.org/details/ugariticav0005vari
+    document_class: "the editio princeps of the Akkadian letters of the 20th campaign (Ugaritica V nos. 22-24 and others), as cited by Astour, Saade, Cline, Boyes and the 1995 colloquium volume. Would be a book edition (hand copies and transliterations), the closest read to the signs. NOT OPENED."
+    read: >-
+      no (blocked): the Internet Archive full text returned HTTP 401 on 2026-10-14 and again on 2026-10-16; the item's metadata (sha256 of the JSON 50e468a1f0a72983d9ac7b2c12973eb9060b34b77369517201baeb8b9e0cff29) shows 'access-restricted-item: true' (lending library). Not bypassed.
+    authenticity: {status: unchecked, provenance: "Not opened.", tests: [], tested_by: "none", gaps: ["not read"], next_step: "Borrow the digital copy through a lending account or a library and read nos. 22-24 and the findspot notes (Schaeffer's 'Commentaires' in the same volume).", checked: 2026-10-16}
+
+  - id: src-ugaritica-iv
+    title: "C. F.-A. Schaeffer, 'Un four pour la cuisson des tablettes', in Ugaritica IV (Paris 1962), pp. 31-37 (the excavator's own account of the 'tablet oven'; page range as cited by Lombard 1995 note 9 and Cline 2021 note 22)"
+    url: ""
+    document_class: "the excavator's report: the primary account of the oven interpretation. NOT OPENED. An Internet Archive item titled 'ugaritica' (dated 1962, identifier ugaritica0004vari, presumably Ugaritica IV; not confirmed) is access-restricted."
+    read: "no (not located in an open copy; the Internet Archive item returned HTTP 401)"
+    authenticity: {status: unchecked, provenance: "Not opened.", tests: [], tested_by: "none", gaps: ["not read"], next_step: "Read Ugaritica IV pp. 31-37 and fig. 38 in a library copy.", checked: 2026-10-16}
+
+  - id: src-halayqa-uf42
+    title: "Halayqa, 'The Demise of Ugarit in the Light of its Connections with Hatti', Ugarit-Forschungen 42 (Birzeit repository PDF)"
+    url: https://fada.birzeit.edu/bitstream/20.500.11889/4717/1/Halayqa-%20UF-42%20%20the%20Demise%20of%20Ugarit.pdf
+    document_class: "secondary article; NOT OPENED: the repository returned HTTP 403 on 2026-10-14 and again on 2026-10-16. Not bypassed."
+    read: "no (blocked)"
+    authenticity: {status: unchecked, provenance: "Not opened.", tests: [], tested_by: "none", gaps: ["not read"], next_step: "Request the article through the repository or a library.", checked: 2026-10-16}
+
+  - id: src-met-ugarit-essay
+    title: "Metropolitan Museum of Art, Heilbrunn Timeline essay 'Ugarit'"
+    url: https://www.metmuseum.org/essays/ugarit
+    document_class: "museum essay; NOT OPENED: the site returned HTTP 429 on 2026-10-14 and again on 2026-10-16. Not bypassed."
+    read: "no (blocked)"
+    authenticity: {status: unchecked, provenance: "Not opened.", tests: [], tested_by: "none", gaps: ["not read"], next_step: "Open in a normal browser and read the essay's account of the excavation and the last texts.", checked: 2026-10-16}
+
+  - id: src-not-opened-literature
+    title: "Works named by the authors read and not opened: Yon 1992 ('The End of the Kingdom of Ugarit', in Ward and Joukowsky (eds), The Crisis Years, pp. 111-122); Yon 1997; Calvet 1990 (read only as quoted by Millard and Lombard); Margueron 1995a (Syria 72, 55-69); Coquinot et al. and Hawley et al. 2008 (abstracts only); Singer 1987 and 1999; Hawkins 1995; Nougayrol 1955, 1956, 1968; Virolleaud, PRU V (1965); Schaeffer 1962 and 1968; Beckman 1996; Bryce 2005"
+    url: ""
+    document_class: "secondary and primary-edition literature, cited only through the authors read. The revision of the oven account and the findspot of the ship letters rest on these, and they were not read."
+    read: "no (not located in an open copy, or blocked; see the individual entries and the log)"
+    authenticity: {status: unchecked, provenance: "Not opened.", tests: [], tested_by: "none", gaps: ["not read"], next_step: "Locate Yon 1992 and Margueron 1995a first: they are the two most-cited accounts of the revision. The Persee PDFs of Syria were refused (HTTP 403) on 2026-10-16.", checked: 2026-10-16}

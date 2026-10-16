@@ -1,0 +1,726 @@
+subject: ugarit-unbaked-tablet
+title: "The Ugarit 'unbaked tablet in an oven' story: which tablet, which date, and what survives of the oven detail"
+question: "Was a cuneiform tablet pleading for help against ships found unbaked in an oven at a destroyed city in about 1150 BC, and does that show the attack was too swift to bake it?"
+dig_status: open
+headline_status: draft           # the headline claim is contested at low confidence and rests on authors read, not on the excavation reports; it cannot be published as a finding yet
+headline_claim: ugarit-court-v-oven-not-a-tablet-oven
+headline: "Calvet (1990, as quoted) and authors from 1995 reject Ugarit's palace 'tablet-baking oven'"
+search_summary: >
+  The story is usually tied to letters from the Bronze Age city of Ugarit (Ras Shamra, Syria) about enemy ships. The 'oven for baking tablets' was Claude Schaeffer's reading of a find in Court V of the royal palace
+  (campaigns of 1954 and 1955). Calvet (1990, known only as quoted) and the authors read from 1995 on say it was not a tablet-baking oven. The ship letter usually quoted (RS 20.238) carries a 1956-campaign number and is absent
+  from the Court V oven lists read; Cline's 2021 edition places it in Court V on two pages and in the House of Rapanu on another; no source read states its findspot. Ugarit's destruction is dated about 1195 to 1175 BC by the authors read, not 1150. No excavation report, edition or photograph was opened.
+description: >
+  Second round (rebuild after the review of PR #36). Read in full or in the passages named: Astour 1965 (journal article), the 1995 colloquium volume Ras Shamra-Ougarit XI (Millard, Lombard, Lebrun and others), Saade 2011, Boyes 2021 (open access),
+  Cline 2014 (publisher sample) and 2021 (a copy of the revised edition), Caubet 2003, and Sayce 1890 (public domain). Not opened: the excavation reports (Schaeffer, Ugaritica IV and V; Virolleaud, PRU V), Yon 1992, Calvet 1990 and Margueron 1995
+  (Persee PDFs refused, HTTP 403), the HAL full texts (bot check), Singer, Hawkins. Every statement here about a tablet comes from a book or article about it, not from the signs or the object.
+divergence_note: >
+  The speaker says a tablet pleading for help against ships was found unbaked in an oven, showing the attack was so swift the tablet was not even baked, at a destroyed city in 1150 BC.
+  Calvet (1990, as quoted) and the authors read from 1995 on say the Court V 'tablet oven' reading was revised, and none reports the clay of any tablet as unbaked; the word 'unbaked' appears in the sources read only in Astour's 1965 suggestion that two letters may be unbaked originals.
+  The ship letter quoted by Cline is numbered RS 20.238, a 1956-campaign number, and is absent from the oven-lot lists read (RS 18.x and 19.x, from 1954 and 1955); Cline's 2021 edition places it in Court V on pp. 107 and 140 and in the House of Rapanu on p. 101; no source read states its findspot. The authors read date the destruction of Ugarit between about 1195 and about 1175 BC.
+
+assessment:
+  question: "Was a cuneiform tablet pleading for help against ships found unbaked in an oven, showing the attack was too swift to bake it?"
+  answer: unsettled
+  headline: "Unsettled. The authors read reject the tablet-baking oven and report no unbaked clay; the ship letter's findspot is not stated by any source read, and no excavation report was opened."
+  text: >
+    The 'oven for baking tablets' was Schaeffer's reading of a find in Court V of the Ugarit palace (campaigns of 1954 and 1955). His own report (Ugaritica IV, 1962) was not read. The authors read who write after the site was re-examined
+    (Calvet 1990 as quoted, Millard and Lombard 1995, Saade 2011, Boyes 2021) say the find was not a tablet-baking oven; they differ on what it was (burnt debris, a bread oven, or an oven built by squatters after the palace was abandoned).
+    Astour (1965) wrote that two letters may be unbaked originals, and that is the only place the sources read use the word 'unbaked'. No source read reports the baking state of any tablet. The ship letter that Cline quotes is numbered RS 20.238 (Ugaritica V no. 24)
+    in the sources read, a 1956-campaign number, and it is absent from the oven-lot lists read (RS 18.x and 19.x); that absence is provisional because the lists are not complete inventories. Cline's 2021 edition places the letter in the House of Rapanu on p. 101 and in Court V on pp. 107 and 140. No source read states its findspot. The destruction of Ugarit is dated by the authors read
+    between about 1195 and about 1175 BC. Whether the letter dates to the last days of the city is itself disputed. Claims about the speaker's wording are held as searched gaps or contested; none is established.
+  lean:
+    toward: "No, not as the story is told"
+    short: "no"
+    strength: slight
+    because: "Calvet (1990, as quoted) and the authors read from 1995 on reject the tablet-baking oven (claim ugarit-court-v-oven-not-a-tablet-oven), and no source read reports an unbaked tablet (claim ugarit-no-clay-examination-reported)."
+    caveats: "All of this comes from books and articles about the find. Schaeffer's report, Calvet 1990, Yon 1992 and Margueron 1995 were not read, the authors read share those works as their basis, and no source read states the findspot of the ship letter (Cline 2021 gives two). A lean is not a finding."
+  key_points:
+    - "Calvet (1990, as quoted) and the authors read from 1995 (Millard, Lombard, Saade, Boyes) reject the 'tablet-baking oven'; Schaeffer's report was not read."
+    - "'Unbaked' appears only in Astour's 1965 'may be'; no source read reports the baking state of any tablet."
+    - "RS 20.238 has a 1956-campaign number and is absent from the oven lists read; Cline places it in Court V; the destruction is dated about 1195-1175 BC."
+  basis:
+    - ugarit-court-v-oven-not-a-tablet-oven
+    - ugarit-schaeffer-tablet-oven-interpretation
+    - ugarit-astour-1965-two-letters-may-be-unbaked-originals
+    - ugarit-no-clay-examination-reported
+    - ugarit-rs-number-mapping
+    - ugarit-cline-2021-gives-two-findspots
+    - ugarit-ship-letter-not-in-listed-oven-lot
+    - ugarit-destruction-date-estimates
+  rated_claim: ugarit-court-v-oven-not-a-tablet-oven
+  would_settle: "Schaeffer's report (Ugaritica IV, 31-37), Calvet 1990 and Margueron 1995 read in full; Ugaritica V no. 24 with its findspot note; a museum record or photograph of the tablet that shows its clay; and a dated destruction layer for Court V."
+
+claims:
+
+  # ================= The speaker's lines, kept as stated, one assertion each =================
+  # The handoff note is the origin of these lines. It is never cited as an anchor.
+
+  - id: ugarit-sp-tablet-pleading-for-help-against-ships
+    state: searched_gap
+    statement: '"A cuneiform tablet pleading for help against ships" (speaker claim dh-oXit2KG1N1s-25, as stated).'
+    statement_kind: search_result
+    evidence_class: interpretive
+    confidence: provisional
+    evidential_weight: 1
+    anchor_checked: 'no'
+    adoption_weight: 1
+    adoption_note: "Not measured (1 is the lowest value, not a measurement)."
+    would_change_if: "the edition of Ugaritica V no. 24 (RS 20.238), or another letter, is read and has the sender ask for troops, ships or help against enemy ships"
+    next_step: "Read Ugaritica V nos. 22-24 and the Court V letters (PRU V 60-65) in the editions and compare their verbs with the translations."
+    absence_anchor: true
+    anchor:
+      type: search-record
+      description: >-
+        Searched the translations in the texts read for a letter that asks for help against the ships. The ship letter in Cline (2014, pp. 9-10; identified as RS 20.238 in his 2021 note 21), in Astour (1965, p. 255) and in Saade (2011, p. 92) reports enemy ships and ends by asking
+        the king of Alashia to tell the sender of other enemy ships ("send me a report somehow", Cline); it does not ask for troops. Other letters in the passages read ask for things: RS 18.148 for 150 ships to be equipped (Astour p. 256),
+        RS 18.147 for a sea-going ship (Astour p. 255; Saade p. 333), RS 20.212 from the Hittite side for a ship to carry grain (Astour p. 254). None is described there as a plea for help against ships. The three translations of RS 20.238 come from one edition
+        (Nougayrol, Ugaritica V), so they are not independent. The signs were not seen.
+      sources: [src-cline-2014, src-cline-2021, src-astour-last-days, src-saade-2011]
+    basis: "Search record. Absence of a plea in the translations read; capped at provisional."
+
+  - id: ugarit-sp-found-unbaked-in-an-oven
+    state: contested
+    statement: '"found unbaked in an oven at a destroyed city" (speaker claim dh-oXit2KG1N1s-25, as stated).'
+    statement_kind: judgment
+    evidence_class: interpretive
+    confidence: low
+    evidential_weight: 2
+    anchor_checked: 'no'
+    adoption_weight: 4
+    adoption_note: >-
+      Basis read: Cline (2014 p. 10) says the oven story "has since been repeated in textbooks for a generation of students"; Cline (2021 p. 107) says it was "repeated over and over in scholarly and popular accounts from the past several decades"; Caubet (2003 p. 17) says seminal works "still refer to
+      'the tablets from the oven'". These are authors' statements, not a count.
+    would_change_if: "Schaeffer's report (Ugaritica IV), Calvet 1990 or Margueron 1995 is read and states the findspot, or a photograph or museum record shows the clay of the tablet"
+    anchor:
+      type: scholarly-positions
+      description: >-
+        The three parts of the line are examined in their own claims: an oven for baking tablets (ugarit-schaeffer-tablet-oven-interpretation; ugarit-court-v-oven-not-a-tablet-oven), 'unbaked' (ugarit-astour-1965-two-letters-may-be-unbaked-originals;
+        ugarit-no-clay-examination-reported) and which tablet (ugarit-rs-number-mapping; ugarit-ship-letter-not-in-listed-oven-lot; ugarit-cline-2021-gives-two-findspots). Authors read: Astour 1965 p. 254 (oven for baking tablets; some letters may be unbaked originals),
+        Millard 1995 p. 119, Lombard 1995 pp. 228-229, Saade 2011 pp. 199 and 332, Boyes 2021 pp. 124-125, Caubet 2003 p. 17, Cline 2014 pp. 9-10 and 2021 pp. 10, 107-108.
+      sources: [src-astour-last-days, src-rso-xi-1995, src-saade-2011, src-boyes-2021, src-caubet-sym, src-cline-2014, src-cline-2021]
+    positions:
+      - {label: "Tablets lay in an oven where they were being baked", holder: "Claude Schaeffer (Ugaritica IV 1962, pp. 31-37, not read), as reported by Millard p. 119, Lombard p. 228 n. 9 and Saade p. 332", ground: "His excavation report; not seen."}
+      - {label: "Some letters of the lot may be unbaked originals put into the oven", holder: "Michael C. Astour (1965, p. 254)", ground: "His own inference ('may be'); he had read the proofs of PRU V."}
+      - {label: "No tablet-baking oven; the tablets lay in burnt debris", holder: "Alan Millard (1995, p. 119), reporting what archaeologists 'now affirm'", ground: "Calvet 1990 and the 1993 colloquium discussion; not read directly."}
+      - {label: "An oven existed but was built by squatters after the palace was abandoned and was not for baking tablets", holder: "Pierre Lombard (1995, p. 228)", ground: "Schaeffer's own description of the context; his own reading of the stratigraphy."}
+      - {label: "A bread oven (fannour); the tablets fell from the upper floor", holder: "Yves Calvet (1990, pp. 39-40), as summarised by Saade 2011 p. 199", ground: "Calvet's article was not read."}
+    disputed_by:
+      - {who: "Alan Millard", kind: person, position: "no evidence for a tablet-baking process at Ugarit", source_read: true, via: "RSO XI 1995, p. 119"}
+      - {who: "Pierre Lombard", kind: person, position: "the 'last batch of texts' is the product of a later collapse of the upper floor", source_read: true, via: "RSO XI 1995, pp. 228-229"}
+      - {who: "Eric H. Cline", kind: person, position: "the tablet was not found in a kiln", source_read: true, via: "Cline 2014 p. 10; 2021 p. 107"}
+      - {who: "Annie Caubet", kind: person, position: "the oven picture 'had to be revised'", source_read: true, via: "Caubet 2003 p. 17"}
+      - {who: "Yves Calvet", kind: person, position: "the analysis of the zone makes the oven interpretation 'caduque'", source_read: false, via: "quoted by Millard p. 119 n. 2 and Lombard p. 229 n. 10; Syria 67 not read"}
+    basis: >-
+      # V: Astour, Millard, Lombard, Saade, Boyes, Caubet and Cline read directly (see the sources); Calvet, Yon, Margueron and Schaeffer were not. The speaker's wording is kept unchanged. The line is bundled (oven, unbaked, which tablet); each part is a separate claim.
+
+  - id: ugarit-sp-attack-so-swift-tablet-not-baked
+    state: contested
+    statement: '"showing the attack was so swift the tablet was not even baked" (speaker claim dh-oXit2KG1N1s-25, as stated).'
+    statement_kind: judgment
+    evidence_class: interpretive
+    confidence: low
+    evidential_weight: 1
+    anchor_checked: 'no'
+    adoption_weight: 4
+    adoption_note: >-
+      Basis read: Cline (2014 p. 10) says the story of a sack before the letter could be dispatched "has since been repeated in textbooks"; Cline (2021 p. 107) says "repeated over and over". Authors' statements, not a count.
+    would_change_if: "the findspot is re-established from the excavation records as a working kiln with unbaked tablets in a destruction layer dated to the final attack"
+    anchor:
+      type: scholarly-positions
+      description: >-
+        Astour (1965, p. 254): "the palace employees had no time to take these tablets from the oven to the archives", which he calls "eloquent testimony to the suddenness of the final catastrophe". Cline (2014, p. 10): the excavators and other scholars
+        "initially surmised that the enemy ships had returned and sacked the city before the urgent request for assistance could be dispatched"; he says scholars have shown the tablet was not in a kiln and that it "was probably a copy of a letter that had been dispatched to Cyprus after all"
+        (his notes were not in the sample). Yon, as reported by Boyes (2021, p. 266), sees at Ugarit "evidence of surprise and haste" in overturned tripods and equipment; that bears on the city, not on this tablet. Yon 1992, as reported by Millard (1995, p. 119 n. 3), suggested that the
+        Court V deposit was made after the sack of the palace. The inference needs the oven, the unbaked clay and the identity of the tablet, each addressed in its own claim. Closer to Astour's destruction-time reading is the account in ugarit-court-v-tablets-came-from-upper-floor, in which the tablets fell during the fire (Calvet and Yon 1997, as given by Saade pp. 199 and 332; Boyes p. 125); that account still removes the oven and the unbaked clay.
+      sources: [src-astour-last-days, src-cline-2014, src-boyes-2021, src-rso-xi-1995]
+    positions:
+      - {label: "The attack was so swift that tablets in the oven were not taken to the archives", holder: "Michael C. Astour (1965, p. 254)", ground: "Inference from his oven reading."}
+      - {label: "The letter was probably a copy of one that had been dispatched", holder: "Eric H. Cline (2014, p. 10)", ground: "Stated; his basis is in notes not seen."}
+      - {label: "The Court V deposit was made after the sack of the palace", holder: "Marguerite Yon (1992, p. 119), as reported by Millard 1995 p. 119 n. 3", ground: "Yon 1992 was not read."}
+      - {label: "The tablets fell from the upper floor during the destruction and the fire (see ugarit-court-v-tablets-came-from-upper-floor)", holder: "Calvet (1990) and Yon (1997), as given by Saade 2011 pp. 199, 332; Boyes 2021 p. 125", ground: "Neither Calvet nor Yon was read; this reading puts the deposit at the time of the destruction but gives no oven and no unbaked clay."}
+    disputed_by:
+      - {who: "Eric H. Cline", kind: person, position: "rejects the swift-attack inference for this tablet", source_read: true, via: "Cline 2014 p. 10"}
+      - {who: "Marguerite Yon", kind: person, position: "deposit after the sack, as reported", source_read: false, via: "Millard 1995 p. 119 n. 3"}
+    basis: "# V: read 2026-10-16. The inference stands or falls with the oven, the unbaked clay and the identity of the tablet. Astour is the only author read who draws it from the oven; Yon's evidence of haste at the site is recorded in ugarit-yon-surprise-and-haste-evidence."
+
+  - id: ugarit-sp-date-1150-bc
+    state: searched_gap
+    statement: '"1150 BC" (speaker claim time_stated for dh-oXit2KG1N1s-25, as stated).'
+    statement_kind: search_result
+    evidence_class: interpretive
+    confidence: provisional
+    evidential_weight: 1
+    anchor_checked: 'no'
+    adoption_weight: 1
+    adoption_note: "Not measured (1 is the lowest value, not a measurement)."
+    would_change_if: "a dated excavation publication, a radiocarbon study or an inscription dated by a named king gives 1150 BC for the destruction of Ugarit or for the tablet's letter"
+    next_step: "Read Yon 1992 and Yon 1997 for the destruction horizon and its date basis."
+    absence_anchor: true
+    anchor:
+      type: search-record
+      description: >-
+        Searched the passages read for the figure 1150 BC as a date of the destruction of Ugarit or of any tablet. Not found. The figure appears in Caubet (2003, p. 17) only as the start of the Carchemish 'Dark Ages, approximately 1150-1000'. The destruction dates in the passages read are
+        in ugarit-destruction-date-estimates (about 1195 to about 1175 BC). Astour (1965) places the oven texts in the late thirteenth century and gives no year for the fall. Cline (2014, p. 1) dates the defeat of the Sea Peoples by Ramses III to 1177 BC. The search covered the pages
+        listed in the sources, not whole books.
+      sources: [src-caubet-sym, src-astour-last-days, src-cline-2014, src-boyes-2021, src-rso-xi-1995, src-saade-2011, src-cline-2021]
+    basis: "Absence of 1150 as a date for Ugarit in the passages read. Capped at provisional. It is not evidence against 1150 in books not read."
+
+  - id: ugarit-sp-modern-science-doubted-biblical-hittites
+    state: searched_gap
+    statement: '"this is why modern science doubted the Bible''s Hittites until they were dug up" (speaker claim dh-oXit2KG1N1s-25, as stated).'
+    statement_kind: search_result
+    evidence_class: interpretive
+    confidence: provisional
+    evidential_weight: 1
+    anchor_checked: 'no'
+    adoption_weight: 1
+    adoption_note: "Not measured (1 is the lowest value, not a measurement)."
+    would_change_if: "a history of Hittite discovery is read that links the Ugarit letters or the Court V tablets to the doubt about the Hittites"
+    next_step: "Read a scholarly history of the rediscovery of the Hittites (Sayce 1880; Winckler at Bogazkoy 1906) and look for any role of Ugarit."
+    absence_anchor: true
+    anchor:
+      type: search-record
+      description: >-
+        Searched the passages read for a link between the Ugarit ship letter or the Court V tablets and doubt about the Bible's Hittites. None found. Cline (2021, pp. 31-32) tells how early efforts to find the Hittites in the biblical lands "were unsuccessful" and how Sayce announced
+        in 1879 that they were in Anatolia; the passage does not mention Ugarit. Sayce (1890, chapter I) answers a critic of about 1850 with discoveries in the Hittite lands. Ugarit was first excavated in 1929 (Saade 2011, p. 19). Millard (1995, pp. 120-121) writes about
+        Ugarit and the oral-tradition thesis in biblical studies and does not mention the Hittites there. The search covered the passages named, not whole books.
+      sources: [src-cline-2021, src-sayce-1890, src-saade-2011, src-rso-xi-1995]
+    basis: "Absence of a link in the passages read. Capped at provisional. See ugarit-sayce-1888-hittite-critic-and-reply for what Sayce wrote."
+
+  # ================= The earliest dated version found: Astour 1965 =================
+
+  - id: ugarit-astour-1965-oven-lot
+    state: established
+    statement: 'Astour (1965, p. 254) wrote that the Ugaritic letters of the 18th and 19th campaigns most relevant to the last days of Ugarit "belong to the lot found in an oven for baking tablets", and he listed among "the tablets from the oven" PRU V nos. 60 (RS 18.38), 61 (RS 18.147), 62 (RS 18.148), 63 (RS 18.40) and 65 (RS 18.75).'
+    statement_kind: reported
+    evidence_class: primary_text
+    confidence: high
+    evidential_weight: 4
+    anchor_checked: primary
+    adoption_weight: 1
+    adoption_note: "Not measured (1 is the lowest value, not a measurement)."
+    would_change_if: "the printed journal reads differently from the JSTOR scan read, or the pages quoted are found to be misread"
+    anchor:
+      type: primary_text
+      description: >-
+        Astour, American Journal of Archaeology 69.3 (1965) 253-258, read in full in a JSTOR scan (src-astour-last-days). The oven lot is introduced on p. 254 ("the lot found in an oven for baking tablets--the first implement of this kind ever discovered. All the tablets of this lot are incoming letters.").
+        The numbers are given where each letter is discussed: PRU V no. 61 = RS 18.147 (p. 255); no. 62 = RS 18.148, no. 60 = RS 18.38 and no. 65 = RS 18.75 (p. 256); no. 63 = RS 18.40 (pp. 256-257). On p. 258 he says that PRU V no. 14 (RS 19.11) "does not belong to the lot found in the oven". The text layer is OCR: transliterated Ugaritic is garbled, the English prose and numbers were read.
+        This is a claim about what Astour wrote, not that the tablets were in an oven.
+      sources: [src-astour-last-days]
+    basis: "# V: Astour 1965 read in full, 2026-10-16. Astour had read the proofs of PRU V (his note 14), so his account depends on the excavators' reports and Virolleaud's volume, none of which was read here."
+
+  - id: ugarit-astour-1965-two-letters-may-be-unbaked-originals
+    state: established
+    statement: 'Astour (1965, p. 254) wrote that the lot contained "locally made Ugaritic translations" of incoming letters, and that "Two letters written by Ugaritic officers may be the originals, delivered unbaked and put into the oven for better preservation."'
+    statement_kind: reported
+    evidence_class: primary_text
+    confidence: high
+    evidential_weight: 4
+    anchor_checked: primary
+    adoption_weight: 1
+    adoption_note: "Not measured (1 is the lowest value, not a measurement)."
+    would_change_if: "the printed journal reads differently, or an earlier source is found in which 'unbaked' was said of these tablets"
+    anchor:
+      type: primary_text
+      description: >-
+        Astour 1965, p. 254, second column, read in the JSTOR scan (src-astour-last-days). He does not name the two letters. He writes "may be", so the suggestion is his inference, not a finding. The clay of the tablets is not discussed in the article. This is the earliest dated source in this dig that uses
+        the word 'unbaked' of oven-lot tablets; the speaker's source for the word is not known.
+      sources: [src-astour-last-days]
+    basis: "# V: read 2026-10-16. A claim about Astour's wording. It is not evidence that any tablet was unbaked; see ugarit-no-clay-examination-reported."
+
+  - id: ugarit-astour-1965-suddenness-inference
+    state: established
+    statement: 'Astour (1965, p. 254) wrote that "The very fact that the palace employees had no time to take these tablets from the oven to the archives is eloquent testimony to the suddenness of the final catastrophe."'
+    statement_kind: reported
+    evidence_class: primary_text
+    confidence: high
+    evidential_weight: 4
+    anchor_checked: primary
+    adoption_weight: 1
+    adoption_note: "Not measured (1 is the lowest value, not a measurement)."
+    would_change_if: "the printed journal reads differently"
+    anchor:
+      type: primary_text
+      description: >-
+        Astour 1965, p. 254, read in the JSTOR scan (src-astour-last-days). The sentence follows his remark that "The royal chancellery, it is quite clear, continued its routine work, even though the dispatches from the war front were alarming." It depends on his oven reading.
+        A statement about what he wrote, not that the catastrophe was sudden.
+      sources: [src-astour-last-days]
+    basis: "# V: read 2026-10-16."
+
+  # ================= Schaeffer's reading and its revision =================
+
+  - id: ugarit-schaeffer-tablet-oven-interpretation
+    state: proposed
+    statement: "Claude Schaeffer, the excavator, interpreted a find in Court V of the Ugarit royal palace (campaigns of 1954 and 1955) as an oven in which a lot of tablets was being baked."
+    statement_kind: reported
+    evidence_class: interpretive
+    confidence: low
+    evidential_weight: 3
+    anchor_checked: secondary
+    adoption_weight: 4
+    adoption_note: "Basis read: see ugarit-sp-found-unbaked-in-an-oven (authors' statements that the story was widely repeated; no count)."
+    would_change_if: "Schaeffer's report (Ugaritica IV 1962, pp. 31-37 and fig. 38; the title is quoted by Lombard) is read and says something different"
+    anchor:
+      type: scholarly-positions
+      description: >-
+        Four authors read describe Schaeffer's reading; Millard, Lombard and Saade each cite his report directly (Saade also paraphrases and cites Millard, and Cline 2021 note 25 cites Millard, so the descriptions are not fully independent): Millard (1995, p. 119: found in 1954 "in the remains of an oven where they had been in the process of being baked"; Schaeffer saw the tablets arranged "in superimposed circles with a large one at the top"), Lombard (1995, p. 228 and note 9, quoting the title of Schaeffer's
+        1962 article "Un four pour la cuisson des tablettes", pp. 31-37), Saade (2011, p. 332: Schaeffer "avait considéré qu'il y avait là un four pour la cuisson des tablettes", after finding two small walls at the south-west corner of the basin), Cline (2014 p. 10; 2021 pp. 10, 107: "kiln"). The counts differ and are not reconciled: Millard writes of over
+        one hundred and fifty tablets and fragments (157 on p. 121), Cline of "more than seventy other tablets". Schaeffer's report itself was not read.
+      sources: [src-rso-xi-1995, src-saade-2011, src-cline-2014, src-cline-2021, src-ugaritica-iv]
+    basis: "# V: the four describing authors were read; Schaeffer was not. Millard, Lombard and Saade (who cites Schaeffer 1962d directly) are the independent descriptions; Saade also paraphrases Millard and Cline cites him. They agree on what the report says; they are not evidence that the report is right."
+
+  - id: ugarit-court-v-oven-not-a-tablet-oven
+    state: contested
+    statement: "Calvet (1990, as quoted by others) and the authors read from 1995 on hold that the Court V find was not an oven for baking tablets."
+    statement_kind: judgment
+    evidence_class: interpretive
+    confidence: low
+    evidential_weight: 3
+    anchor_checked: 'no'
+    adoption_weight: 1
+    adoption_note: "Not measured (1 is the lowest value, not a measurement). No author read says this claim is widely repeated."
+    would_change_if: "Schaeffer's report, Calvet 1990, Margueron 1995 and Coquinot et al. 2008 are read and the excavation evidence supports a tablet-baking oven, or fails to support the revisions"
+    anchor:
+      type: scholarly-positions
+      description: >-
+        Authors read, each with the page. Millard 1995 p. 119: "archaeologists now affirm that there was no oven, the tablets simply lay in burnt debris", "no evidence for a tablet-baking process at Ugarit"; his note 2 says J. Lagarce and J. Margueron "informed again the Colloquium that the oven did not exist" and quotes Calvet 1990 (Syria 67, p. 40 n. 2): the analysis of the
+        zone "rend caduque l'interprétation de ce four comme destiné à cuire des tablettes". Lombard 1995 p. 228: "un four a effectivement existé" at the south-west corner of the basin, "sans doute construit par des squatters peu après l'abandon du palais", so the oven is later than the tablets' deposit. Saade 2011 p. 199: Calvet (1990, 39-40) says the documents fell from the upper floor and the
+        oven was "sans doute d'un fannour pour la cuisson du pain"; p. 332: Yon (1997, 45-46), as quoted by Saade, calls the baking-oven hypothesis "séduisante" but says it meets "difficultés indéniables" and "ne résiste pas à l'examen" (her own judgment); she adds that "l'existence même d'un four en cet endroit ... est mise en doute par certains" (her report of others' doubt, not her own claim). Boyes 2021 pp. 124-125: "Even if there was an oven (which is doubtful), the tablets were not placed within it for firing", citing Margueron 1995a and Coquinot et al. 2008. Caubet 2003 p. 17: the picture
+        "had to be revised". Cline 2021 p. 107: "it was not found in a kiln after all". The Coquinot et al. abstract (HAL) says a new analysis led Margueron "à réfuter la thèse de C. Schaeffer" and that the authors' own study of the objects "nous a conduits à émettre une nouvelle hypothèse" (not stated in the abstract). Not independent: all rest on Calvet 1990, Yon 1992 and 1997, and Margueron 1995, none read in full.
+      sources: [src-rso-xi-1995, src-saade-2011, src-boyes-2021, src-caubet-sym, src-cline-2021, src-hal-coquinot-2008, src-persee-syria-67]
+    positions:
+      - {label: "No oven; the tablets lay in burnt debris", holder: "Alan Millard (1995, p. 119), reporting J. Lagarce, J. Margueron and Calvet", ground: "Colloquium discussion and Calvet 1990 n. 2, as he reports."}
+      - {label: "An oven existed, built by squatters after the palace was abandoned; it was not a tablet-baking oven", holder: "Pierre Lombard (1995, pp. 228-229)", ground: "His reading of the context Schaeffer described and of a later collapse of the upper floor; Calvet's field observations (p. 229 n. 10)."}
+      - {label: "A bread oven; the documents fell from the upper floor", holder: "Yves Calvet (1990), as summarised by Saade 2011 p. 199", ground: "Calvet 1990 was not read."}
+      - {label: "The baking-oven hypothesis does not withstand examination; the tablets fell with the wall and ceiling (she reports, separately, that some doubt any oven existed)", holder: "Marguerite Yon (1997, 45-46), as quoted by Saade 2011 p. 332", ground: "Yon 1997 was not read."}
+      - {label: "An 'over-imaginative interpretation'; most likely an overturned basket of tablets; any oven doubtful", holder: "Philip J. Boyes (2021, pp. 124-125)", ground: "He cites Margueron 1995a and Coquinot et al. 2008."}
+    disputed_by:
+      - {who: "Claude Schaeffer", kind: person, position: "tablets in an oven for baking them", source_read: false, via: "described by Millard, Lombard, Saade and Cline; Ugaritica IV not read"}
+    basis: >-
+      # V: Millard, Lombard, Saade, Boyes, Caubet and Cline read; the works they rely on were not. The authors differ on what the structure was (no oven, a bread oven, an oven built after abandonment), so 'no tablet oven' is not one position. No author read since 1990 defends the baking-oven reading; Schaeffer's reading is described only by others, and the excavation records are needed to decide between the later accounts.
+
+  - id: ugarit-court-v-tablets-came-from-upper-floor
+    state: contested
+    statement: "The scholars read hold that the tablets attributed to the Court V 'oven' fell from an upper floor; they differ on whether this was during the destruction or after the building was abandoned."
+    statement_kind: judgment
+    evidence_class: interpretive
+    confidence: low
+    evidential_weight: 2
+    anchor_checked: 'no'
+    adoption_weight: 1
+    adoption_note: "Not measured (1 is the lowest value, not a measurement)."
+    would_change_if: "the excavation records for Court V and the stratigraphy above and below the find are read"
+    anchor:
+      type: scholarly-positions
+      description: >-
+        During the destruction: Saade 2011 p. 199 (Calvet: the documents "ont dû tomber de l'étage supérieur ... au moment de la destruction du palais"); p. 332 (Yon 1997: tablets stored upstairs fell "avec le mur et le plafond" in the fire and "certains ont durci au feu de l'incendie"); Boyes 2021 p. 125 (the tablets "fell on top of it during the collapse of the palace").
+        After the sack or abandonment: Millard 1995 p. 119 n. 3 (Yon 1992, p. 119, suggested the deposit was made after the sack of the palace); Lombard 1995 pp. 228-229 (the "last batch" is the product of "l'effondrement postérieur de l'étage"; fragments of one tablet were found several metres away); Cline 2021 p. 107 (a basket "that had fallen from the second floor after the building was abandoned").
+        Scatter: Saade p. 332 (Yon 1997: texts of the same set found over a wide area including the south of Court V, the basin and the stair 69). The authors read cite the same few works (Calvet 1990, Yon 1992 and 1997), so they are not independent.
+      sources: [src-saade-2011, src-boyes-2021, src-rso-xi-1995, src-cline-2021]
+    positions:
+      - {label: "Fell during the destruction and the fire", holder: "Calvet (1990) and Yon (1997), as given by Saade 2011 pp. 199, 332; Boyes 2021 p. 125", ground: "Neither Calvet nor Yon was read."}
+      - {label: "Deposited after the sack or after abandonment", holder: "Yon (1992), as reported by Millard 1995 p. 119 n. 3; Lombard 1995 p. 229; Cline 2021 p. 107", ground: "Yon 1992 was not read."}
+    disputed_by:
+      - {who: "Marguerite Yon", kind: person, position: "two positions are attributed to her works: during the fire (1997, as quoted by Saade) and after the sack (1992, as reported by Millard)", source_read: false, via: "Saade 2011 p. 332; Millard 1995 p. 119 n. 3"}
+    basis: "# V: read 2026-10-16. The timing matters to the 'swift attack' line: tablets that fell during the fire say something different from tablets deposited after the sack. The sources read do not settle which."
+
+  - id: ugarit-yon-surprise-and-haste-evidence
+    state: proposed
+    statement: 'Boyes (2021, p. 266) reports that Yon discerns, at Ugarit itself, "evidence of surprise and haste: overturned tripods and equipment, even abandoned washing-up".'
+    statement_kind: reported
+    evidence_class: interpretive
+    confidence: low
+    evidential_weight: 2
+    anchor_checked: 'no'
+    adoption_weight: 1
+    adoption_note: "Not measured (1 is the lowest value, not a measurement)."
+    would_change_if: "Yon's own publication is read and says something different"
+    anchor:
+      type: scholarly-positions
+      description: >-
+        Boyes 2021, p. 266 (the sentence follows the running head of p. 266 in the OCR text); the footnotes of p. 266 cite Yon 1992, 117 and Bounni et al. 1998, 53 (the footnotes of p. 265 are on other subjects), and a further note marker follows the sentence (its text is not clear in the OCR). He contrasts it with Ras Ibn Hani, where Yon sees a more orderly evacuation. It concerns the city, not the Court V tablets. It is the one passage read that points toward haste, and it is recorded here because it cuts against a reading
+        in which nothing suggests surprise. Yon's own text was not read.
+      sources: [src-boyes-2021]
+    basis: "# V: Boyes read 2026-10-16; Yon not read."
+
+  # ================= Numbers, texts, and which tablet =================
+
+  - id: ugarit-rs-number-mapping
+    state: proposed
+    statement: >-
+      The sources read give these numbers: RS 20.18 (Ugaritica V no. 22) is a letter from Eshuwara of Alashia to the king of Ugarit; RS L.1 (no. 23) is a letter from the king of Alashia to Ammurapi; RS 20.238 (no. 24) is a letter from Ammurapi to the king of Alashia; RS 18.147 (PRU V no. 61) and RS 18.148 (PRU V no. 62) belong to the Court V oven lot.
+    statement_kind: reported
+    evidence_class: interpretive
+    confidence: low
+    evidential_weight: 3
+    anchor_checked: 'no'
+    adoption_weight: 1
+    adoption_note: "Not measured (1 is the lowest value, not a measurement)."
+    would_change_if: "Ugaritica V and PRU V are read and number the letters differently"
+    anchor:
+      type: scholarly-positions
+      description: >-
+        Astour 1965 pp. 255-256 (Ugaritica V nos. 22 = RS 20.18, 23 = RS L.1, 24 = RS 20.238; PRU V 61 = RS 18.147, 62 = RS 18.148). Saade 2011 pp. 91-92 (RS 20.018 = Ugaritica V n. 22; RS L1 = n. 23; RS 20.238 = n. 24) and p. 333 (RS 18.147 and 18.148 among the letters of the oven lot).
+        Cline 2021 notes 21 and 99 (RS 20.238 = Ugaritica 5.24; RS 20.18 = Ugaritica 5.22). CDLI P282588 (Ugaritica 5 no. 22, excavation number RS 20.0018). The numbers agree in the four places. All four take them from Nougayrol's edition (Astour from his proofs and reports), so they are not independent; none shows the signs.
+        This resolves the numbering from sources read: a web-search summary that matched RS 18.147 with Ugaritica V no. 24 was not a read and is contradicted by the three works read that give both numbers.
+      sources: [src-astour-last-days, src-saade-2011, src-cline-2021, src-cdli-p282588]
+    basis: "# V: read 2026-10-16. Agreement of copies of one edition, so anchor_checked stays 'no'."
+
+  - id: ugarit-ship-letters-exist
+    state: proposed
+    statement: "A letter from Ugarit's last decades, RS 20.238, written by the king of Ugarit to the king of Alashia, says that ships of the enemy have come and that his troops and ships are away."
+    statement_kind: reported
+    evidence_class: interpretive
+    confidence: low
+    evidential_weight: 2
+    anchor_checked: 'no'
+    adoption_weight: 1
+    adoption_note: "Not measured (1 is the lowest value, not a measurement). No author read says this claim is widely repeated."
+    would_change_if: "the edition (Ugaritica V no. 24) or the signs show a different text, sender or recipient, or the letter is shown to be a later composition"
+    anchor:
+      type: interpretive
+      description: >-
+        Three translations of one edition. Cline 2014 pp. 9-10 (translation after Beckman 1996 per his 2021 note 21): "My father, now the ships of the enemy have come. They have been setting fire to my cities ... all of my ships are stationed in the land of Lukka". Astour 1965 p. 255 (from Nougayrol's forthcoming edition): "my cities (?) were burned ... all my ships are in the land of Lycia". Saade 2011 p. 92 (French translation): "tous mes bateaux stationnent en pays lycien".
+        Sender and recipient: Astour p. 255 and Saade p. 92. Because all three work from Nougayrol's edition they are not independent; the signs were not seen.
+      sources: [src-cline-2014, src-cline-2021, src-astour-last-days, src-saade-2011]
+    basis: "# V: three translations read 2026-10-16. Other letters of the period that mention enemy ships or threats exist in the passages read (Saade pp. 91-92: RS 20.162, RS 20.18, RS L.1); whether Caubet's 'menacing boats' letters include RS 20.238 is not stated."
+
+  - id: ugarit-rs-20-238-asks-for-a-report
+    state: proposed
+    statement: "In the three translations read of RS 20.238 the closing request is for information about other enemy ships."
+    statement_kind: reported
+    evidence_class: interpretive
+    confidence: low
+    evidential_weight: 2
+    anchor_checked: 'no'
+    adoption_weight: 1
+    adoption_note: "Not measured (1 is the lowest value, not a measurement)."
+    would_change_if: "the edition shows a verb or phrase that asks for troops, ships or other help"
+    anchor:
+      type: interpretive
+      description: >-
+        Cline 2014 p. 10: "if other ships of the enemy turn up, send me a report somehow, so that I will know." Astour 1965 p. 255: "He asks the king of Alashia to inform him if other ships of the enemy were noticed." Saade 2011 p. 92: "informe-m'en de quelque manière et que je le sache". The sender also says his army and ships are away from the country. Three translations of one edition; not independent.
+      sources: [src-cline-2014, src-astour-last-days, src-saade-2011]
+    basis: "# V: read 2026-10-16."
+
+  - id: ugarit-ship-letter-not-in-listed-oven-lot
+    state: searched_gap
+    statement: "RS 20.238 does not appear among the RS numbers that Astour (1965), Millard (1995) and Saade (2011) list as tablets of the Court V oven lot, which are RS 18.x and 19.x numbers from the campaigns of 1954 and 1955."
+    statement_kind: search_result
+    evidence_class: interpretive
+    confidence: provisional
+    evidential_weight: 2
+    anchor_checked: 'no'
+    adoption_weight: 1
+    adoption_note: "Not measured (1 is the lowest value, not a measurement)."
+    would_change_if: "Ugaritica V no. 24, Schaeffer's report or the museum inventory states the findspot of RS 20.238"
+    next_step: "Read the findspot note for Ugaritica V no. 24 and the Ras Shamra Tablet Inventory record for RS 20.238."
+    absence_anchor: true
+    anchor:
+      type: search-record
+      description: >-
+        Lists read. Astour 1965 pp. 254-258: the oven letters are PRU V nos. 60, 61, 62, 63, 65, from the 18th and 19th campaigns; he says the Akkadian letters of the 20th campaign were to be published by Nougayrol in Ugaritica V (p. 254) and treats Ugaritica V nos. 22-24 separately. Millard 1995 p. 119: RS 18.38, 18.31, 18.4, 18.05, 18.147, 18.148. Saade 2011 pp. 332-333: RS 18.38, 18.31, 18.147, 18.148 and others, all RS 18.x. The prefix gives the campaign:
+        Saade's table (pp. 26-27) has the 18th campaign in 1954, the 19th in 1955 and the 20th (29 September to 1 November 1956) in the residential quarter, and p. 21 says the 1956 campaign "livra les Archives de Rapanou". Lebrun 1995 p. 86 gives RS 20.237 as "provenant des archives de Rap'anu". The lists are of the letters the authors discuss, not complete inventories of the lot, so absence from a list is not proof of absence from the lot. No source read states where RS 20.238 was found.
+      sources: [src-astour-last-days, src-rso-xi-1995, src-saade-2011]
+    basis: "Absence from the lists read; capped at provisional. See ugarit-cline-2021-gives-two-findspots for the one author who places this letter in Court V."
+
+  - id: ugarit-cline-2021-gives-two-findspots
+    state: proposed
+    statement: "In the 2021 edition of Cline's book the ship letter (RS 20.238) is placed in the House of Rapanu on p. 101 and in Court V of the palace, in the 'Southern Archive', on pp. 107 and 140."
+    statement_kind: reported
+    evidence_class: interpretive
+    confidence: low
+    evidential_weight: 2
+    anchor_checked: 'no'
+    adoption_weight: 1
+    adoption_note: "Not measured (1 is the lowest value, not a measurement)."
+    would_change_if: "the print edition reads differently, or Cline's notes 22 and 25 and the works they cite state one findspot"
+    anchor:
+      type: scholarly-positions
+      description: >-
+        Cline 2021 (src-cline-2021, a third-party copy, passages read in the text layer). Prologue pp. 9-10: the letter, which was "originally reported to have been found in a kiln, along with more than seventy other tablets"; note 21 names it RS 20.238 (Ugaritica 5.24). Chapter Four p. 101: tablets "found within the so-called House of Rapanu, which was excavated in 1956 and 1958", including letters between the kings of
+        Ugarit and Cyprus; then "Another of the letters in this house has already been mentioned: the one describing the coming of enemy ships to Ugarit, which Schaeffer thought had been found in a kiln". Chapter Four p. 107: "the famous letter from the Southern Archive, found in Court V of the palace at Ugarit"; he says a re-examination "now indicates that it was not found in a kiln after all, but rather was probably stored within a basket that had fallen from the second floor after the building was abandoned"
+        (note 25: Millard 1995: 119; Singer 1999: 705; van Soldt 1999: 32; Yon 2006: 44 and others). Chapter Five p. 140: "found in Court V of the palace in Ugarit (but not within a kiln)". The 2014 edition (sample, Prologue only) has the kiln sentence at p. 10 and was not read for these chapters.
+      sources: [src-cline-2021, src-cline-2014]
+    basis: "# V: read 2026-10-16 in a third-party copy not compared with the print book. The claim records what the book says in two places; it does not decide where the tablet was found."
+
+  - id: ugarit-tablet-identity-unresolved
+    state: searched_gap
+    statement: "Which tablet the speaker means (inventory number, holder, findspot) is not established by the sources read. The sources read tie the text 'the ships of the enemy have come' to RS 20.238; the handoff's guess, RS 18.147 or RS 20.18, is a different tablet in each case."
+    statement_kind: search_result
+    evidence_class: material
+    confidence: provisional
+    evidential_weight: 1
+    anchor_checked: 'no'
+    adoption_weight: 1
+    adoption_note: "Not measured (1 is the lowest value, not a measurement)."
+    would_change_if: "Ugaritica V or the museum inventory (Louvre, Aleppo, Damascus) is read and gives the RS numbers, findspots and holders, or the speaker's source is found"
+    next_step: "Borrow Ugaritica V (Internet Archive lending, item ugariticav0005vari) and read nos. 22-24 and their findspot notes; check the Ras Shamra Tablet Inventory (OCHRE, University of Chicago) for RS 20.238, RS 18.147 and RS 20.18; find the speaker's source."
+    absence_anchor: true
+    anchor:
+      type: search-record
+      description: >-
+        What the sources read say: RS 20.238 (Ugaritica V no. 24) carries the 'ships of the enemy' text (ugarit-rs-number-mapping); RS 18.147 is a letter asking the king to equip a sea-going ship (Astour p. 255; Saade p. 333); RS 20.18 (no. 22) is Eshuwara's letter (Astour p. 255; Saade p. 91; Boyes p. 241). CDLI P282588 (RS 20.0018) has museum, findspot, dimensions and text fields blank. No source read states the museum number or findspot of RS 20.238, and Cline 2021 gives two findspots
+        (ugarit-cline-2021-gives-two-findspots). The speaker's source for 'unbaked' and 'oven' is not known. The Ras Shamra Tablet Inventory database was not queried; Ugaritica V is access-restricted (HTTP 401).
+      sources: [src-cdli-p282588, src-ugaritica-v, src-astour-last-days, src-saade-2011, src-boyes-2021, src-cline-2021]
+    basis: "Absence of an identification with a findspot. Capped at provisional."
+
+  - id: ugarit-cdli-record-for-rs-20-0018
+    state: proposed
+    statement: "A catalogue entry lists a letter tablet from Ugarit with excavation number RS 20.0018 as Ugaritica 5, no. 22, without museum, findspot or text."
+    statement_kind: reported
+    evidence_class: material
+    confidence: low
+    evidential_weight: 1
+    anchor_checked: 'no'
+    adoption_weight: 1
+    adoption_note: "Not measured (1 is the lowest value, not a measurement)."
+    would_change_if: "the entry is corrected, or Ugaritica V no. 22 is read and differs"
+    anchor:
+      type: dataset
+      description: "CDLI P282588 page read 2026-10-14 and 2026-10-16 (sha256 values in the manifest). A database record, not an image or the object. CDLI's own period label is 'Middle Assyrian (ca. 1400-1000 BC)'. Whether this letter concerns ships is not stated by the record; the sources read describe it as Eshuwara's letter (ugarit-rs-number-mapping)."
+      sources: [src-cdli-p282588]
+    basis: "Catalogue metadata only. The CDLI findspot field is empty for this number."
+
+  - id: ugarit-no-clay-examination-reported
+    state: searched_gap
+    statement: "No source read reports the baking state of any tablet from the Court V lot or of RS 20.238."
+    statement_kind: search_result
+    evidence_class: material
+    confidence: provisional
+    evidential_weight: 1
+    anchor_checked: 'no'
+    adoption_weight: 1
+    adoption_note: "Not measured (1 is the lowest value, not a measurement)."
+    would_change_if: "a conservation report, a photograph or a museum record for a tablet of the lot or for RS 20.238 describes its clay as baked, unbaked or fire-hardened"
+    next_step: "Read the Coquinot et al. 2008 study (laboratory analyses at the Centre de Recherche et de Restauration des Musées de France) and the Hawley et al. 2008 article; ask the Damascus museum for the lot's conservation records."
+    absence_anchor: true
+    anchor:
+      type: search-record
+      description: >-
+        Searched the passages read for the clay or baking state of the tablets. Not found. Closest statements: Millard 1995 p. 119: "no pieces of clay walls from an oven appear in the published photographs"; Saade 2011 p. 332 quoting Yon 1997: the tablets fell into the fire and "certains ont durci au feu de l'incendie" (some were hardened by the fire); Astour 1965 p. 254: "may be the originals, delivered unbaked" (an inference). Millard p. 120 notes that Cunchillos observed the clay of foreign letters at Ugarit had not been tested to see whether it differs from regional clays, which is a question about origin, not baking. The Coquinot et al. abstract
+        mentions laboratory analyses of the objects found with the tablets; it does not say what they found. CDLI P282588 has a blank preservation field. The search covered the passages listed, not whole books.
+      sources: [src-rso-xi-1995, src-saade-2011, src-astour-last-days, src-hal-coquinot-2008, src-cdli-p282588]
+    basis: "Absence in the passages read; capped at provisional. Fire can harden clay, so 'baked' is not decided by the presence of fire either way."
+
+  - id: ugarit-campaign-years-for-rs-prefixes
+    state: proposed
+    statement: "The Court V lot was found in the 18th and 19th campaigns (1954 and 1955); the campaign of 1956 was the 20th, in the residential quarter, where the archives of Rapanu were found."
+    statement_kind: reported
+    evidence_class: interpretive
+    confidence: low
+    evidential_weight: 3
+    anchor_checked: secondary
+    adoption_weight: 1
+    adoption_note: "Not measured (1 is the lowest value, not a measurement)."
+    would_change_if: "the excavation reports give other seasons"
+    anchor:
+      type: scholarly-positions
+      description: >-
+        Saade 2011 pp. 26-27 (table: 18th campaign 23 October - 7 December 1954, Palais Royal; 19th, 14 October - 7 December 1955, Palais Royal; 20th, 29 September - 1 November 1956, Quartier résidentiel) and p. 21 ("La campagne de 1956, consacrée au Quartier Résidentiel, livra les Archives de Rapanou"). Millard 1995 p. 119: the tablets were found in 1954 in Court V. Astour 1965 p. 254: the alphabetic texts of the 18th and 19th campaigns are in PRU V and the Akkadian letters
+        of the 20th are for Ugaritica V. Cline 2021 p. 101: the House of Rapanu was excavated in 1956 and 1958. Saade and Astour draw on excavation records; Millard and Cline on later publications.
+      sources: [src-saade-2011, src-rso-xi-1995, src-astour-last-days, src-cline-2021]
+    basis: "# V: read 2026-10-16. Four works agree on the seasons; they are secondary to the excavation reports."
+
+  # ================= Dates =================
+
+  - id: ugarit-destruction-date-estimates
+    state: contested
+    statement: "The authors read date the final destruction of Ugarit to between about 1195 and about 1175 BC; the figures differ by author."
+    statement_kind: judgment
+    evidence_class: interpretive
+    confidence: low
+    evidential_weight: 3
+    anchor_checked: 'no'
+    adoption_weight: 1
+    adoption_note: "Not measured (1 is the lowest value, not a measurement)."
+    would_change_if: "a dated destruction layer, a radiocarbon series or a dated text from the last days of Ugarit is read and falls outside the range"
+    anchor:
+      type: scholarly-positions
+      description: >-
+        Boyes 2021 pp. 237-238: "around 1195-1185", most scholars "towards the later end"; Yon (1992, 119-120) suggests 1195-1185, using the letter RS 86.2230 from the Egyptian vizier Bay, "at the height of his political powers 1197-1192". Cline 2021 p. 107: "usually dated to 1190-1185 BC, though technically it could have been even later" (the letter from Bay predates his execution "in 1191 BC"). Saade 2011 note 135: Courtois (1974) 1180/1175; Yon (1997) c. 1190/1185 (the OCR also prints a figure for Freu that reads '1995', which cannot be a date here; to be checked in print); p. 88 dates RS 86.2230 "vers 1195". RSO XI 1995: Callot and Yon (p. 167) "1190/1180", de Tarragon (p. 206) "1195-1185", the editors' Avant-propos (p. 12) "vers 1180", Millard (p. 122) "early in the twelfth century B.C.". Caubet 2003 p. 19:
+        Freu dates the Bay letter to Siptah's fifth year, 1193. The date of the letter (Freu, 1193; Saade, c. 1195) and the date of Bay's execution (Cline, 1191) are different events and are kept apart here.
+      sources: [src-boyes-2021, src-cline-2021, src-saade-2011, src-rso-xi-1995, src-caubet-sym]
+    positions:
+      - {label: "About 1195-1185 BC", holder: "Marguerite Yon (1992), as given by Boyes pp. 237-238; J.-M. de Tarragon (1995, p. 206)", ground: "The Bay letter RS 86.2230 gives a lower limit; the rest is stratigraphy and judgment."}
+      - {label: "About 1190-1185 BC, possibly later", holder: "Eric H. Cline (2021, p. 107); Yon (1997) c. 1190/1185 as given by Saade", ground: "The Bay letter; Cline adds an eclipse text."}
+      - {label: "About 1190/1180 or 1180", holder: "O. Callot and M. Yon (1995, p. 167); the editors (1995, p. 12)", ground: "Not stated in the passages read."}
+      - {label: "About 1180/1175 BC", holder: "J.-C. Courtois (1974), as given by Saade p. 84 note 135", ground: "Courtois 1974 not read."}
+    disputed_by:
+      - {who: "Jean-Claude Courtois", kind: person, position: "1180/1175", source_read: false, via: "Saade 2011 note 135"}
+    basis: "# V: read 2026-10-16. The spread is about two decades; no author read gives 1150. The figures share the Bay letter and Yon's work as basis and are not independent."
+
+  - id: ugarit-ship-letters-dating-contested
+    state: contested
+    statement: "It is disputed whether the ship letters from the Rapanu archives belong to the last years of Ugarit under Ammurapi or to an earlier period."
+    statement_kind: judgment
+    evidence_class: interpretive
+    confidence: low
+    evidential_weight: 2
+    anchor_checked: 'no'
+    adoption_weight: 1
+    adoption_note: "Not measured (1 is the lowest value, not a measurement). No author read says this claim is widely repeated."
+    would_change_if: "the letters are dated by a named king, a stratified findspot with a dated destruction layer, or a prosopographical link to datable officials"
+    anchor:
+      type: scholarly-positions
+      description: >-
+        For the last years of Ugarit: Astour 1965 pp. 254-255 ("belong to the very last years of Ugarit's existence"; the Alashia letters show "the first stage of the Sea Peoples' invasion"); Boyes 2021 p. 249 (RS 20.238 "from Ugarit's final years"); Saade 2011 pp. 91-92; Lebrun 1995 p. 86. Hedged: Cline 2021 p. 107 ("not clear whether it dates to the final days of Ugarit or to some slightly earlier period"); Caubet 2003 p. 18 (the 1956 "Letter from the General" and
+        "other letters from the same archives mentioning 'menacing boats' ... may not necessarily be dated to the end of the city and the reign of its last king, Ammurapi"); Arnaud (RSO VII p. 11), as given by Saade p. 84 note 136 (the 'oven' tablets and part of the Rapanu archives could date from Ammurapi's reign). Earlier: Singer (1987), as reported by Caubet p. 18: he places the 'menacing boats' letters in the situation of the Amarna letters under Amenophis III, which Caubet writes as the "15th century b.c.e." (the century as printed
+        was not checked against Singer). Singer 1987 and 1999 were not read. Caubet does not number the 'menacing boats' letters; whether RS 20.238 is among them is not stated.
+      sources: [src-astour-last-days, src-boyes-2021, src-saade-2011, src-rso-xi-1995, src-cline-2021, src-caubet-sym]
+      nodes: [{node: ugarit-1956-letter-from-the-general-found-house-of-rapanu, verb: qualifies}]
+    positions:
+      - {label: "The letters belong to the last years of Ugarit under Ammurapi", holder: "Michael C. Astour (1965); Philip J. Boyes (2021) for RS 20.238", ground: "Content of the letters (troops in the Hittite lands, ships in Lycia) read against the end of the kingdom."}
+      - {label: "Not clear whether the letter belongs to the final days or slightly earlier", holder: "Eric H. Cline (2021, p. 107)", ground: "The findspot revision removed his earlier ground for the final days."}
+      - {label: "The 'menacing boats' letters need not belong to the end of the city", holder: "Annie Caubet (2003, p. 18)", ground: "They name no officials or kings."}
+      - {label: "The 'menacing boats' letters belong to the Amarna age", holder: "Itamar Singer (1987), as reported by Caubet", ground: "Singer's argument was not read."}
+    disputed_by:
+      - {who: "Itamar Singer", kind: person, position: "dates the menacing-boats letters to the Amarna age", source_read: false, via: "reported by Caubet 2003 p. 18; not read"}
+      - {who: "Annie Caubet", kind: person, position: "the letters need not date to the end of the city", source_read: true, via: "Caubet 2003 p. 18"}
+      - {who: "Eric H. Cline", kind: person, position: "not clear whether the ship letter dates to the final days", source_read: true, via: "Cline 2021 p. 107"}
+    basis: "# V: read 2026-10-16. The 'menacing boats' letters (Caubet) and RS 20.238 (Cline, Astour) may or may not be the same set; the sources read do not say. Singer's position is attributed to him only as Caubet reports it."
+
+  - id: ugarit-oven-lot-not-the-last-tablets
+    state: contested
+    statement: "It is disputed whether the Court V 'oven' tablets are the last tablets of Ugarit."
+    statement_kind: judgment
+    evidence_class: interpretive
+    confidence: low
+    evidential_weight: 2
+    anchor_checked: 'no'
+    adoption_weight: 1
+    adoption_note: "Not measured (1 is the lowest value, not a measurement). No author read says this claim is widely repeated."
+    would_change_if: "Hawley et al. 2008 and Yon 1992 are read and give a dated sequence for the lot"
+    anchor:
+      type: scholarly-positions
+      description: >-
+        Caubet 2003 p. 17 describes the older picture as an oven "containing the last batch of cuneiform tablets" and says the tablets "do not date to the very end of the city, although they cannot be dated much earlier". Millard 1995 p. 119: the "oven tablets" have "no more claim to be called 'the last tablets of Ugarit' than the many other groups found in the palace or in other buildings". Saade 2011 p. 332: "il n'y a aucune raison de dire que ce sont les dernières tablettes de la Cité [the OCR text reads 'Gite'], car de nombreux autres lots ont été trouvés". Liverani 1995 p. 115 n. 13 records the doubts "sur la datation des tablettes retrouvées à cet endroit". Arnaud (RSO VII p. 11), as given by Saade p. 84 note 136:
+        the 'oven' tablets might date from Ammurapi's reign. The Hawley, Malbran-Labat and Roche-Hawley abstract (HAL, 2008) says the article attempts "une tentative de caractérisation et de datation des textes de ce lot" and gives no result.
+      sources: [src-caubet-sym, src-rso-xi-1995, src-saade-2011, src-hal-hawley-2008]
+    positions:
+      - {label: "The oven lot is the last batch of tablets", holder: "the older picture described by Caubet 2003 p. 17 (holder named by Millard as Schaeffer's reading, p. 119)", ground: "Schaeffer's report; not read."}
+      - {label: "The oven lot has no better claim to be last than other groups", holder: "Alan Millard (1995, p. 119)", ground: "Many other groups were found in the palace and other buildings."}
+      - {label: "The lot does not date to the very end but not much earlier", holder: "Annie Caubet (2003, p. 17)", ground: "Cites Calvet 1990, Yon 1992 and Millard 1995."}
+      - {label: "The lot might date from Ammurapi's reign", holder: "Daniel Arnaud (RSO VII p. 11), as given by Saade p. 84 note 136", ground: "Arnaud's text was not read."}
+    disputed_by:
+      - {who: "Alan Millard", kind: person, position: "no more claim to be the last tablets than other groups", source_read: true, via: "RSO XI 1995 p. 119"}
+      - {who: "Annie Caubet", kind: person, position: "not from the very end of the city", source_read: true, via: "Caubet 2003 p. 17"}
+    basis: "# V: read 2026-10-16."
+
+  # ================= The Hittite line =================
+
+  - id: ugarit-sayce-1888-hittite-critic-and-reply
+    state: established
+    statement: 'Sayce wrote, in the second edition (1890) of a book whose preface is dated October 1888, that "Nearly forty years ago a distinguished scholar" had called the mention of Hittite kings in Second Kings 7:6 of "unhistorical tone", and that "Recent discoveries have retorted the critic''s objections upon himself."'
+    statement_kind: reported
+    evidence_class: primary_text
+    confidence: high
+    evidential_weight: 4
+    anchor_checked: primary
+    adoption_weight: 1
+    adoption_note: "Not measured (1 is the lowest value, not a measurement)."
+    would_change_if: "the printed edition reads differently from the Gutenberg text and the Internet Archive scan read"
+    anchor:
+      type: primary_text
+      description: >-
+        Sayce, The Hittites: The Story of a Forgotten Empire, 2nd ed. (1890; preface dated October 1888), chapter I, printed pp. 11-12; Gutenberg text read and the first two paragraphs compared with the Internet Archive scan of the 1890 edition (src-sayce-1890). A public-domain extract is stored at sources/sayce-1890-ch1-extract.txt.
+        The book is by an Oxford professor of philology; the title page names the Religious Tract Society as publisher. No effect of author or publisher on the quoted sentences is claimed. The critic is not named in the pages read. This is a claim about what Sayce wrote; it says nothing about Ugarit, which was first excavated in 1929.
+      sources: [src-sayce-1890]
+    basis: "# V: Sayce 1890 read (chapter I opening and the preface), 2026-10-16, with the stored extract."
+
+  # ================= Funding, publishers and control (findings from pages read; gaps listed) =================
+
+  - id: ugarit-fund-caubet-volume
+    state: proposed
+    statement: "Caubet's chapter appeared in a volume published by Eisenbrauns (Winona Lake, Indiana, 2003), edited by Dever and Gitin, from the Albright/ASOR Centennial Symposium (Jerusalem, 29-31 May 2000); the volume's preface names the symposium's financial supporters."
+    statement_kind: reported
+    evidence_class: primary_text
+    confidence: low
+    evidential_weight: 2
+    anchor_checked: 'no'
+    adoption_weight: 1
+    adoption_note: "Not applicable."
+    would_change_if: "the print volume reads differently"
+    anchor:
+      type: primary_text
+      description: >-
+        The title page, copyright page and preface of the volume, read in the dokumen.pub copy (src-caubet-sym): "edited by William G. Dever and Seymour Gitin ... Winona Lake, Indiana, Eisenbrauns 2003". The preface thanks, for support of the symposium, "ASOR, a grant to the Albright from the United States Information Agency, and the Horace W. Goldsmith, Samuel H. Kress, and Lucius N. Littauer Foundations",
+        with special gifts from named individuals. It does not state who funded Caubet's own work. Caubet's author line gives the Musée du Louvre, Département des Antiquités Orientales.
+      sources: [src-caubet-sym]
+    basis: "# V: preface read in a third-party copy, 2026-10-16. No influence of any funder on any statement is claimed or implied."
+
+  - id: ugarit-fund-rso-xi-and-saade
+    state: proposed
+    statement: "The 1995 colloquium (Ras Shamra-Ougarit XI) was funded in large part by the CNRS, with help from the French Ministry of Foreign Affairs and the Fondation Hugot of the Collège de France; Saade's book (IFPO 2011) was published with the support of the Ministry of Foreign Affairs (DGCID) and the CNRS."
+    statement_kind: reported
+    evidence_class: primary_text
+    confidence: low
+    evidential_weight: 2
+    anchor_checked: 'no'
+    adoption_weight: 1
+    adoption_note: "Not applicable."
+    would_change_if: "the print volumes read differently"
+    anchor:
+      type: primary_text
+      description: >-
+        RSO XI Avant-propos (src-rso-xi-1995): "Les moyens financiers nous ont été fournis en grande partie par le CNRS ... Nous avons été aidés également par le Ministère français des Affaires Étrangères ... la Fondation Hugot du Collège de France". The series is the publication series of the Mission archéologique française de Ras Shamra-Ougarit directed by Marguerite Yon.
+        Saade 2011 (src-saade-2011), imprint page: "Ouvrage publié avec le concours du ministère des Affaires étrangères (DGCID) et du Centre national de la recherche scientifique". Several authors of papers in RSO XI are members of the mission; Lombard names Yon, Callot and Calvet as team members (p. 229 n. 11).
+      sources: [src-rso-xi-1995, src-saade-2011]
+    basis: >-
+      # V: read in third-party copies, 2026-10-16. Yon (RSO XI, pp. 16-17) also says the mission's results are published in the series of the Editions Recherche sur les Civilisations of the Ministère des Affaires Étrangères, and refers to "les efforts financiers de la Commission des fouilles"; how the mission itself is funded
+      was not read beyond that. No influence of any funder on any statement is claimed or implied.
+
+  - id: ugarit-fund-boyes-2021
+    state: proposed
+    statement: "Boyes's 2021 book was written under the CREWS Project at the University of Cambridge, funded by the European Research Council (Horizon 2020 grant agreement No 677758), and published by Oxbow Books as an open-access work under a Creative Commons Attribution 3.0 licence."
+    statement_kind: reported
+    evidence_class: primary_text
+    confidence: low
+    evidential_weight: 2
+    anchor_checked: 'no'
+    adoption_weight: 1
+    adoption_note: "Not applicable."
+    would_change_if: "the print edition reads differently"
+    anchor:
+      type: primary_text
+      description: "Imprint page and acknowledgements of Boyes 2021, read in the OAPEN text on the Internet Archive (src-boyes-2021): 'written between 2016 and 2020 under the aegis of the CREWS Project ... funded by the European Research Council under the European Union's Horizon 2020 research and innovation programme (grant agreement No 677758)'; 'The online work is licensed under the Creative Commons Attribution 3.0 Unported Licence'."
+      sources: [src-boyes-2021]
+    basis: "# V: read 2026-10-16. No influence of the funder on any statement is claimed."
+
+  - id: ugarit-fund-ras-shamra-mission-1929-1956
+    state: proposed
+    statement: "The French excavation of Ras Shamra began in 1929 under Claude Schaeffer, on the proposal of René Dussaud, who obtained the funds, and by decision of the Académie des Inscriptions et Belles-Lettres; the campaigns of 1954 to 1956 were directed by Schaeffer with Syrian representatives named in the campaign table."
+    statement_kind: reported
+    evidence_class: interpretive
+    confidence: low
+    evidential_weight: 2
+    anchor_checked: 'no'
+    adoption_weight: 1
+    adoption_note: "Not applicable."
+    would_change_if: "Schaeffer's reports or the Académie's records state the funding differently"
+    anchor:
+      type: scholarly-positions
+      description: >-
+        Saade 2011 p. 19: Dussaud, curator in the Louvre's Département des Antiquités Orientales, "fut le principal promoteur des travaux" and "c'est lui qui obtint les fonds nécessaires"; "C'est sur sa proposition que l'Académie des Inscriptions et Belles-Lettres décida d'entreprendre des travaux sur le site"; the mission was directed by Schaeffer.
+        Saade pp. 26-27 (campaign table): 18th to 20th campaigns "Dir.: C. Schaeffer", with named Syrian representatives (A. Bounni, A. Rihaoui, Ch. Imam, R. Hafez; H. Safadi for 1956). Who paid for the 1954-56 campaigns is not stated in the pages read.
+      sources: [src-saade-2011]
+    basis: "# V: read 2026-10-16. Funding of the 1954-56 campaigns, of Schaeffer's reports and of the Louvre/Damascus museum holdings: not stated in the pages read; see ugarit-funding-not-stated."
+
+  - id: ugarit-funding-not-stated
+    state: searched_gap
+    statement: "The pages read do not state the funding or control of the following: Astour's 1965 article, Cline's two editions, the Ras Shamra campaigns of 1954 to 1956, Schaeffer's reports, the speaker's channel, CDLI."
+    statement_kind: search_result
+    evidence_class: interpretive
+    confidence: provisional
+    evidential_weight: 1
+    anchor_checked: 'no'
+    adoption_weight: 1
+    adoption_note: "Not applicable."
+    would_change_if: "a source is read that states any of these"
+    next_step: "Read the acknowledgements of Cline 2021 and the funding notes of the Ras Shamra mission reports (Syria, CRAI); look up the speaker's channel ownership."
+    absence_anchor: true
+    anchor:
+      type: search-record
+      description: "Searched the front matter and the passages read for a statement of funding or control. Not found for the items listed. Astour's footnote says only that the paper was read at a Brandeis colloquium in December 1963. The acknowledgements of Cline 2021 were not read; Cline 2014 is a sample of the Prologue. This is a record of what was not found, not a suggestion that any of it matters to a claim."
+      sources: [src-astour-last-days, src-cline-2014, src-cline-2021, src-saade-2011, src-cdli-p282588]
+    basis: "Absence in the pages read; capped at provisional. Open research task."

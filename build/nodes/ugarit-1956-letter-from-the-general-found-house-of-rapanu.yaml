@@ -1,0 +1,39 @@
+# Shared node. Append-only: a change is a new `rev` plus a `history` entry, never an overwrite. See build/SCHEMA.md, Nodes.
+id: ugarit-1956-letter-from-the-general-found-house-of-rapanu
+rev: 2
+type: event
+label: '1956: the "Letter from the General" is discovered in the "House of Rapanu" at Ugarit (Ras Shamra)'
+time: '1956-06-01T12:00:00Z'
+precision: year
+kind: analysis
+status: single
+what: 'Caubet states that the "Letter from the General" was "discovered in 1956 in the House of Rapanu" at Ugarit (citing Nougayrol
+  1968: 69-79 and Yon 1997), and that it and "other letters from the same archives mentioning menacing boats off the shore of
+  Ugarit lack any names of officials or kings". Month and day are not given; the 1 June in `time` is a placeholder for the
+  year only. Whether this letter is one of the "ships" letters in the speaker''s claim, or the tablet said to have been found
+  in an oven, is NOT established by this source.'
+sources:
+- title: "A. Caubet, The Case of Ugarit and Carchemish (A Contrast), pp. 17-21 in Dever and Gitin (eds), Symbiosis, Symbolism, and the Power of the Past (Winona Lake: Eisenbrauns, 2003), ISBN 9781575065458; read in a third-party copy (access path recorded in the dig's manifest, not linked here)"
+  url: ""
+  authenticity: unchecked (third-party mirror; see the dig's sources manifest)
+  origin: caubet-symbiosis
+  source_type: scholarly
+  access: read
+place:
+  name: Ras Shamra (ancient Ugarit), Syria
+  lat: 35.6057
+  lon: 35.782
+  precision: site
+  source: OpenStreetMap Nominatim lookup, retrieved 2026-10-14 (a gazetteer, orientation only; not a source for the event); OSM node 572530384, a locality point, not the house
+manifest:
+  subject: ugarit-unbaked-tablet
+  source: src-caubet-sym
+created: '2026-10-14'
+history:
+- rev: 1
+  date: '2026-10-14'
+  change: Created by the ugarit-unbaked-tablet dig. The date is Caubet's, not checked against Nougayrol 1968 or the excavation publications.
+- rev: 2
+  date: '2026-10-16'
+  change: Source link to a third-party copy of a copyrighted book removed; the print work is cited by publisher and ISBN (review of commit 981eb20). Claim text unchanged; the page number of the statement is Caubet p. 18 in the copy read.
+date_basis: stated

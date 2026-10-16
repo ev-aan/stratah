@@ -1,0 +1,72 @@
+# How the oven / unbaked-tablet story spread. Spread is adoption, never evidence (X1).
+# Rebuilt 2026-10-16: the earliest dated version found is Astour 1965 (read). The speaker's source for 'unbaked' and 'oven' is not known.
+subject: ugarit-unbaked-tablet
+chains:
+  - id: tx-ugarit-oven-story
+    about: "ugarit-unbaked-tablet:ugarit-sp-found-unbaked-in-an-oven"
+    title: "The Ugarit oven / unbaked-tablet story: first report, Astour 1965, textbook repetition, revision, speaker"
+    confers_weight: false
+    events:
+      - id: tx-ug-01
+        date: "1954"
+        precision: year
+        step: origin
+        carrier: "Claude Schaeffer, excavator (18th and 19th campaigns, 1954-1955); his article 'Un four pour la cuisson des tablettes', Ugaritica IV (1962), pp. 31-37, is cited by Lombard and Cline"
+        form: "Millard: the tablets 'were reported to be lying in the remains of an oven where they had been in the process of being baked when the attendants fled and the palace was sacked.'"
+        source: src-rso-xi-1995
+        read: yes
+        note: "Second-hand: Millard (read) describes the excavator's report; the report itself was not read. Cline gives 'more than seventy other tablets'; Millard gives over one hundred and fifty. Date of the first published report not given in the pages read (the title cited by Lombard carries 1954-1955)."
+      - id: tx-ug-05
+        date: "1965-07"
+        precision: month
+        step: extension
+        carrier: "Michael C. Astour, American Journal of Archaeology 69.3 (July 1965), p. 254"
+        form: "The lot 'found in an oven for baking tablets'; 'Two letters written by Ugaritic officers may be the originals, delivered unbaked and put into the oven'; the employees 'had no time to take these tablets from the oven to the archives'."
+        source: src-astour-last-days
+        read: yes
+        note: "The earliest dated source found in this dig that uses 'unbaked'. He wrote 'may be'. He had read the proofs of PRU V (1965) and Nougayrol's reports."
+      - id: tx-ug-02
+        date: "unknown"
+        precision: unknown
+        step: repetition
+        carrier: "textbooks, per Cline (2014 p. 10); 'seminal works on the end of the Bronze Age' (Hawkins 1995 p. 58), per Caubet (2003 p. 17)"
+        form: "'repeated in textbooks for a generation of students' (Cline 2014); 'still refer to \"the tablets from the oven\"' (Caubet)."
+        source: src-cline-2014
+        read: yes
+        note: "Cline and Caubet are read; the textbooks and Hawkins 1995 are not. Cline 2021 p. 107 says the story 'has been repeated over and over in scholarly and popular accounts from the past several decades'."
+      - id: tx-ug-03
+        date: "1990"
+        precision: year
+        step: revision
+        carrier: "Y. Calvet (Syria 67, 1990, pp. 39-40 and n. 2); Lagarce and Margueron at the 1993 colloquium; Yon 1992; Millard 1995 n. 2; Margueron 1995; Lombard 1995, as cited by the authors read"
+        form: "Calvet, quoted by Millard: the analysis of the zone 'rend caduque l'interprétation de ce four comme destiné à cuire des tablettes'. Caubet: 'This dramatic picture had to be revised.'"
+        source: src-rso-xi-1995
+        read: yes
+        note: "Millard and Lombard (read) quote Calvet; Calvet's article, Yon 1992 and Margueron 1995 were not read."
+      - id: tx-ug-06
+        date: "2008"
+        precision: year
+        step: revision
+        carrier: "Coquinot, Bouquillon, Leclaire and Matoian, RSO XVII (2008); Hawley, Malbran-Labat and Roche-Hawley (2008)"
+        form: "Abstract: a new analysis led Margueron 'à réfuter la thèse de C. Schaeffer'; the authors' own study of the objects 'nous a conduits à émettre une nouvelle hypothèse'."
+        source: src-hal-coquinot-2008
+        read: yes
+        note: "Abstract only; the full texts are behind a bot check and the new hypothesis is not stated in the abstract."
+      - id: tx-ug-07
+        date: "2021"
+        precision: year
+        step: revision
+        carrier: "P. J. Boyes, Script and Society (Oxbow 2021), pp. 124-125; E. H. Cline, 1177 B.C., revised edition (2021), pp. 107-108"
+        form: "Boyes: 'it was a product of over-imaginative interpretation from Schaeffer. Most likely it was nothing more than an overturned basket of tablets.' Cline: 'it was not found in a kiln after all'."
+        source: src-boyes-2021
+        read: yes
+        note: "Cline 2021 places the same ship letter in the House of Rapanu (p. 101) and in Court V (pp. 107, 140); see ugarit-cline-2021-gives-two-findspots."
+      - id: tx-ug-04
+        date: "unknown"
+        precision: unknown
+        step: repetition
+        carrier: "Dead Hidden video oXit2KG1N1s, via the handoff note"
+        form: "The speaker's version, with 'unbaked', 'swift' and '1150 BC' (dh-oXit2KG1N1s-25)."
+        source: src-handoff-dh-25
+        read: no
+        note: "Only the extracted claim line was read. The date of the video is not known; the handoff note that carries the line is dated 2026-10-14, which is the date of the note, not of the video. The speaker's source for the word 'unbaked' is not known."
