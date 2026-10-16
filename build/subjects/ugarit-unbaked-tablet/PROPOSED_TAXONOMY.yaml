@@ -1,0 +1,10 @@
+# PROPOSAL for the owner. build/taxonomy.yaml is owner-only (docs/REVIEW.md, "What only the owner merges"); this file is not read by the validator or the site.
+# If accepted, add the entry below under `assignments:` in build/taxonomy.yaml. All values below already exist in that file.
+assignments:
+  ugarit-unbaked-tablet:
+    area: archaeology_texts
+    areas: [history, media_misinformation]
+    types: [is_claim_true, did_it_happen, origin]
+    popular_claims: true
+# Why: the dig is about a cuneiform tablet and its findspot (archaeology and ancient texts), about the end of a Bronze Age city (history), and about a story repeated in textbooks and videos
+# (media). The questions are whether a widely shared claim is true, whether the event happened as told, and where the 'unbaked in an oven' detail began.

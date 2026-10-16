@@ -1,0 +1,45 @@
+EXTRACT (public domain; verbatim; elisions marked [...])
+Work: A. H. Sayce, The Hittites: The Story of a Forgotten Empire, Second Edition (London: The Religious Tract Society, 1890; preface dated October 1888).
+Chapter I, "The Hittites of the Bible", opening (printed pp. 11-12 of the 1890 edition).
+Text taken from Project Gutenberg eBook #40243 (https://www.gutenberg.org/cache/epub/40243/pg40243.txt, sha256 e0e2b6881ab152e0dadbcd425614e10d0f2e345177de4f38073b4503ecf42df5, read 2026-10-16).
+Checked against the Internet Archive scan of the 1890 edition (item hittitesstoryoff00saycuoft, OCR text, sha256 4a81db772a338910d26a14dbd019c7720ba8ebbd1ed2fa59a5f65f44c1c395cb): the first two paragraphs below read the same there at printed pp. 11-12, apart from OCR spacing.
+
+---
+
+We are told in the Second Book of Kings (vii. 6) that when the Syrians
+were encamped about Samaria and the Lord had sent a panic upon them,
+'they said one to another, Lo, the king of Israel hath hired against us
+the kings of the Hittites, and the kings of the Egyptians, to come upon
+us.' Nearly forty years ago a distinguished scholar selected this
+passage for his criticism. Its 'unhistorical tone,' he declared, 'is too
+manifest to allow of our easy belief in it.' 'No Hittite kings can have
+compared in power with the king of Judah, the real and near ally, who is
+not named at all ... nor is there a single mark of acquaintance with the
+contemporaneous history.'
+
+Recent discoveries have retorted the critic's objections upon himself.
+It is not the Biblical writer but the modern author who is now proved to
+have been unacquainted with the contemporaneous history of the time. The
+Hittites were a very real power. Not very many centuries before the age
+of Elisha they had contested the empire of Western Asia with the
+Egyptians, and though their power had waned in the days of Jehoram they
+were still formidable enemies and useful allies. They were still worthy
+of comparison with the divided kingdom of Egypt, and infinitely more
+powerful than that of Judah.
+
+But we hear no more about them in the subsequent records of the Old
+Testament. The age of Hittite supremacy belongs to an earlier date than
+the rise of the monarchy in Israel; earlier, we may even say, than the
+Israelitish conquest of Canaan. The references to them in the later
+historical books of the Old Testament Canon are rare and scanty.
+
+[...]
+
+From the Preface (dated October 1888), on the sources of the new knowledge:
+
+The foundation stone, which was laid by my paper 'On the Monuments of the
+Hittites' in 1880, has been crowned with a stately edifice in Dr.
+Wright's _Empire of the Hittites_, of which the second edition appeared
+in 1886, and in the fourth volume of the magnificent work of Prof.
+Perrot and M. Chipiez, _L'Histoire de l'Art dans l'Antiquité_,
+published at Paris a year ago.
