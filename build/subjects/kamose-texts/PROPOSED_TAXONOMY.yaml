@@ -1,0 +1,4 @@
+# PROPOSAL ONLY. build/taxonomy.yaml is owner-only and was not edited. If the owner agrees, this line goes under `assignments:` in build/taxonomy.yaml.
+# Area and types use the values already defined there (area archaeology_texts; types is_claim_true and what_does_it_mean, as the question asks what a text says against a widely repeated version).
+assignments:
+  kamose-texts: {area: archaeology_texts, areas: [history, media_misinformation], types: [what_does_it_mean, is_claim_true], popular_claims: true}

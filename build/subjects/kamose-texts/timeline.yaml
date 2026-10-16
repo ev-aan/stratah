@@ -1,0 +1,53 @@
+timeline:
+  id: kamose-texts
+  title: "Kamose's tablet and stelae: the reign, the finds, the readings and the editions (about 1555 BCE to 1976)"
+  as_of: "2026-10-16"
+  note: >
+    Times are UTC. Dates before the common era are written as negative years. Modern dates are the dates printed in the cited work; where a work gives only a year or a month the dot is drawn hollow or as a bar. The reign dates are a window (the page figures have no stated authority and the dig's bound is its own inference), not a result.
+    Every dot is a record of what a source says. Events marked 'single' rest on one source; none rests on the object or on a reading of its signs. Dates of editions not opened (Newberry 1913, Habachi 1972, Smith and Smith 1976) are bibliographic and come from the works that cite them.
+lanes:
+  reign:    {label: "Kamose's reign (window)"}
+  finds:    {label: "Finds of the tablet and stelae"}
+  readings: {label: "Printed readings and editions"}
+sources:
+  s_jea3:     {title: "Gardiner, Journal of Egyptian Archaeology 3 (1916), Internet Archive scan (read; plates viewed)", url: "https://archive.org/details/in.ernet.dli.2015.70975", authenticity: "authenticated, moderate (scholar's reading)"}
+  s_cc1912:   {title: "Carnarvon and Carter, Five Years' Explorations at Thebes (1912), Project Gutenberg #48382 (read)", url: "https://www.gutenberg.org/ebooks/48382", authenticity: "authenticated, moderate (excavators' report)"}
+  s_cc1912ia: {title: "Carnarvon and Carter 1912, Internet Archive scan with Plates XXVII and XXVIII (viewed)", url: "https://archive.org/details/fiveyearsexplora00carnuoft", authenticity: "authenticated, moderate"}
+  s_maspero:  {title: "Maspero, Recueil de travaux 31 (1909) 146-153, Internet Archive item (OCR read)", url: "https://archive.org/details/recueildetravaux31masp", authenticity: "authenticated, moderate; OCR only"}
+  s_weill:    {title: "Weill, Journal asiatique 11th series vol. 1 (Mai-Juin 1913) 536-544, Internet Archive scan (page images read)", url: "https://archive.org/details/in.gov.ignca.26276", authenticity: "authenticated, moderate"}
+  s_rutgers1: {title: "Toth, 'The Second Stela of Kamose' Part I, Rutgers (read in full)", url: "http://egypt-grammar.rutgers.edu/TextPDF/kamose1.pdf", authenticity: "authenticated, weak; a teaching text"}
+  s_rutgersb: {title: "Toth, Bibliography and Abbreviations, Rutgers (entries 33 and 47 read)", url: "http://egypt-grammar.rutgers.edu/Book/Bibliography%20and%20Abbreviations.pdf", authenticity: "unchecked; a bibliography"}
+  s_minot:    {title: "Minot State University HIST 105 reader, The Kamose Texts (read)", url: "https://oer.minotstateu.edu/projects/105SourceReader/the-kamose-texts-3.html", authenticity: "unchecked; an unsourced course page"}
+events:
+  - {id: k1, lane: reign, node: kamose-regnal-year-date-window, rev: 2}
+  - {id: k2, lane: finds, node: kamose-1908-carnarvon-tablet-found, rev: 2}
+  - {id: k3, lane: finds, time: "1932-01-01T00:00:00Z", end: "1935-12-31T00:00:00Z", precision: range, date_basis: stated, kind: document, status: single, sources: [s_minot],
+     label: "1932 and 1935: two stone fragments of Kamose's inscriptions found (per the Minot page)",
+     detail: "The page gives no source for the years or the place; the dig did not check them. It does not say which stela the fragments belong to."}
+  - {id: k4, lane: finds, time: "1954-01-01T00:00:00Z", precision: year, date_basis: stated, kind: document, status: single, sources: [s_rutgers1],
+     label: "1954: the second stela is discovered at Karnak, used as the base of a statue of Ramesses II (per Rutgers Part I)",
+     detail: "Digital Karnak gives a different findspot (fragments in the foundation of the 2nd Pylon and the fill of the 3rd Pylon) and no year; the two may describe different stones (claim kamose-objects-identification)."}
+  - {id: k5, lane: readings, time: "1909-04-23T12:00:00Z", precision: day, date_basis: stated, kind: document, status: single, sources: [s_maspero],
+     label: "23 Apr 1909: Maspero's first notice of the board (date at the end of his note); reads year III; calls the text 'le commencement d'un conte a demi historique'",
+     detail: "He puts the find in February of the previous year, at Drah Abu'l Naga, among the spoil of earlier excavations (claim kamose-tablet-findspot-1908). His remark that the scribe of 'son livre' lived towards the Twentieth Dynasty follows the description of the board and is taken by Gardiner to concern the Ptahhotpe copy (claim kamose-tablet-date-of-writing)."}
+  - {id: k6, lane: readings, time: "1910-01-01T00:00:00Z", precision: year, date_basis: stated, kind: document, status: single, sources: [s_jea3],
+     label: "1910: Herr Koch makes the large-scale photographs of the board that Gardiner later prints",
+     detail: "Gardiner 1916, p. 95: 'the large-scale photographs made for me in 1910 by Herr Koch'."}
+  - {id: k7, lane: readings, time: "1912-01-01T00:00:00Z", precision: year, date_basis: stated, kind: document, status: single, sources: [s_cc1912, s_cc1912ia],
+     label: "1912: Carnarvon and Carter publish the board (Plates XXVII and XXVIII) with Griffith's summary translation (year 7)",
+     detail: "Carter's chapter V gives the find account; Griffith's chapter VI reads the date as the seventh year (claim kamose-tablet-regnal-year)."}
+  - {id: k8, lane: readings, time: "1913-05-01T00:00:00Z", end: "1913-06-30T00:00:00Z", precision: range, date_basis: stated, kind: document, status: single, sources: [s_weill],
+     label: "May to June 1913: Weill's article reads the text from the 1912 plate (year 3; 'hommes'; literary, after the final victory)",
+     detail: "The issue is headed MAI-JUIN 1913; the article spans pp. 536 to 544 of this section."}
+  - {id: k9, lane: readings, time: "1913-01-01T00:00:00Z", precision: year, date_basis: stated, kind: document, status: single, sources: [s_jea3],
+     label: "1913: Newberry's notes on the tablet (Proc. Soc. Bibl. Arch. 35); year 7, 'exact history', Teti a possible son of an Apophis (known only through Gardiner)",
+     detail: "Not opened by the dig. Gardiner cites it as pp. 117 to 122."}
+  - {id: k10, lane: readings, time: "1916-01-01T00:00:00Z", precision: year, date_basis: stated, kind: document, status: single, sources: [s_jea3],
+     label: "1916: Gardiner's article and translation in JEA 3 (year 3; 'slaves'; written within fifty years of the events)",
+     detail: "Plates XII and XIII; the translation on pp. 98 to 108 (claims kamose-tablet-text-booty-slaves and kamose-tablet-date-of-writing)."}
+  - {id: k11, lane: readings, time: "1972-01-01T00:00:00Z", precision: year, date_basis: stated, kind: document, status: single, sources: [s_rutgersb],
+     label: "1972: Habachi's edition of the second stela (bibliographic; not opened)",
+     detail: "Rutgers bibliography entry 33. The editio princeps; this dig has not read it."}
+  - {id: k12, lane: readings, time: "1976-01-01T00:00:00Z", precision: year, date_basis: stated, kind: document, status: single, sources: [s_rutgersb],
+     label: "1976: Smith and Smith, 'A Reconsideration of the Kamose Texts', ZAeS 103 (bibliographic; not opened)",
+     detail: "Rutgers bibliography entry 47. Its alternative readings are known here only as the Rutgers commentary reports them."}

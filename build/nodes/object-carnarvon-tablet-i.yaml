@@ -1,0 +1,57 @@
+# Shared node. Append-only: a change is a new `rev` plus a `history` entry, never an overwrite. See build/SCHEMA.md, Nodes.
+id: object-carnarvon-tablet-i
+rev: 3
+type: object
+label: 'Carnarvon Tablet I: a hieratic writing-board with a text about Kamose on one face (called the obverse by Gardiner 1916 and in the 1912 report''s introduction, and the reverse on the 1912 report''s plate captions)'
+time: '1908-01-01'
+precision: year
+date_basis: stated
+kind: document
+status: single
+what: >-
+  A wooden writing-board covered with stucco, found in 1908 (see the find node for the two differing accounts of the place). Gardiner 1916 describes it as one of a pair of hieratic boards; Tablet I bears the historical text on one face and, on the other, a copy of the beginning of the
+  Proverbs of Ptahhotpe and the lines of a draughtsboard. The faces are named inconsistently in print: Gardiner 1916 calls the historical face the obverse, and so does the introduction of the 1912 report (the historical text 'on its obverse', the Ptah-hetep copy 'on its reverse'); the plates of the same 1912 report are captioned 'Carnarvon Tablet I. Obv.' for the face with the ruled grid and 'Rev.' for the face with the continuous
+  text, and Griffith's chapter in the same book speaks of 'the face of the tablet' for the Ptahhotpe lines and the draught-board and 'the other side' for the historical text. Photographs of both faces were viewed (1912 plates) and of the text face (JEA plates); no sign on them was read.
+  Griffith counts the historical lines as 'no less than seventeen long lines' and says flaking of the stucco has robbed the text of one line and most of two more. The text is written, in Gardiner's reading, in a hand of the end of the Seventeenth Dynasty. Maspero 1909 wrote that the scribe of 'son livre' (the Ptah-hetep text, in the paragraph after his description of the board) lived towards the Twentieth Dynasty because his writing resembled the cursive hands of that period; Gardiner reports this as concerning the Ptahhotpe duplicate. Maspero is not shown to say it of the hand of the historical text.
+  The date of the writing and the regnal year in the text are disputed (see the dig's claims). Gardiner says a missing corner of Tablet II was bought by Petrie and was in his own hands in 1916, with the larger fragment in the Cairo Museum. Where Tablet I is now was not read in a source opened here.
+object:
+  class: hieratic writing-board, stuccoed wood
+  material: wood with stucco (fine plaster) writing surface (Griffith, chapter VI note, in Carnarvon and Carter 1912)
+  museum: 'not established here'
+  accession: 'not established here'
+  held_now:
+    status: not established
+    as_of: '2026-10-16'
+    note: >-
+      Gardiner 1916 says part of Tablet II is in the Cairo Museum. Griffith's footnote in the 1912 report cites 'Jequier, Le Papyrus Prisse et ses variantes (Pap. Brit. Mus. 10371 and 10435, Tablette Carnarvon au Caire), Paris, 1910'; Gardiner's footnote cites the same book as Paris, 1911. The two printed years differ and are not resolved here.
+      Neither says where Tablet I is held now. No museum record was opened.
+sources:
+- title: 'Earl of Carnarvon and Howard Carter, Five Years'' Explorations at Thebes (Oxford: Henry Frowde / OUP, 1912), chapter V (Carter) and chapter VI (Griffith), Project Gutenberg #48382 text and the Internet Archive scan with Plates XXVII and XXVIII, read and viewed'
+  url: https://www.gutenberg.org/ebooks/48382
+  authenticity: excavators' own report; see the kamose-texts manifest
+  origin: carnarvon-carter-1912
+  source_type: testimony
+  access: read
+- title: 'A. H. Gardiner, The Defeat of the Hyksos by Kamose: the Carnarvon Tablet No. I, Journal of Egyptian Archaeology 3 (1916) 95-110, Internet Archive scan in.ernet.dli.2015.70975, read; Plates XII and XIII viewed'
+  url: https://archive.org/details/in.ernet.dli.2015.70975
+  authenticity: edition with named tests (see the kamose-texts manifest); hieratic plates viewed, not read; draws on the 1912 report for the find
+  origin: gardiner-1916
+  derives_from: carnarvon-carter-1912
+  source_type: scholarly
+  access: read
+manifest: {subject: kamose-texts, source: src-carnarvon-carter-1912}
+created: '2026-10-14'
+history:
+- rev: 1
+  date: '2026-10-14'
+  change: Created by the kamose-texts dig as the object that the find event points at. Present holder not established; no coordinates given because no source read gives any.
+- rev: 2
+  date: '2026-10-16'
+  change: >-
+    Corrected after the review of PR #30. (a) The Gardiner source now carries `derives_from: carnarvon-carter-1912`, because Gardiner takes the find facts from that report; rev 1 listed two origins and so declared two independent ones, which the conformance check flagged. (b) rev 1 said 'Jequier 1911' for the footnote
+    that Griffith prints as Paris, 1910; the two printed years (Griffith 1910, Gardiner 1911) are now both reported and left unresolved. (c) rev 1's `museum` and `accession` fields carried a Cairo number from a search-result title; that lead is removed from the node (it stays in the log of the dig). (d) The two faces and the differing obverse/reverse names, the seventeen
+    lines and the lost lines, and the views of the plates were added from pages opened on 2026-10-16. (e) `held_now.as_of` moved to 2026-10-16; status still not established.
+- rev: 3
+  date: '2026-10-16'
+  change: >-
+    Corrected after the second review of PR #30. (a) rev 2 said Maspero 1909 judged the hand to resemble Twentieth Dynasty cursive hands without saying of which text; his sentence is about the scribe of 'son livre' (the Ptah-hetep text), and Gardiner reads it that way; the `what` now says so. (b) The obverse/reverse naming difference is now also inside the 1912 report: its introduction puts the historical text on the obverse, its plate captions on the reverse. rev 2 is kept in history.
