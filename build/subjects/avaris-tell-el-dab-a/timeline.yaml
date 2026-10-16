@@ -34,7 +34,7 @@ events:
   - {id: e2, lane: strata, time: "1979-01-01T00:00:00Z", end: "1990-12-31T00:00:00Z", precision: range, kind: document, status: single, sources: [s_sch09],
      label: "1979-1990: the Austrian Archaeological Institute excavates area F/I under M. Bietak",
      detail: "Schiestl 2009 English Summary: 'excavated by a team of the Austrian Archaeological Institute under the direction of M. Bietak from 1979-1990'. Read."}
-  - {id: e3, lane: strata, time: "1987-06-30T12:00:00Z", end: "1989-12-31T00:00:00Z", precision: range, kind: document, status: single, sources: [s_sch06, s_sch09],
+  - {id: e3, lane: strata, time: "1986-01-01T00:00:00Z", end: "1988-12-31T00:00:00Z", precision: range, kind: document, status: single, sources: [s_sch06, s_sch09],
      label: "1986-1988: fragments of the smashed statue of an Asiatic man are found (tombs p/19 no. 1, p/21 no. 1, o/20 no. 11, p/19 no. 10)",
      detail: "Schiestl 2006: 'All the pieces of the statue presented here were found between 1986 and 1988'. The month and day of each find are not given in the passages read. Node avaris-1986-1988-statue-fragments-found. Read."}
   - {id: e4, lane: excavators, time: "1991-06-30T12:00:00Z", precision: year, kind: document, status: single, sources: [s_sch09],

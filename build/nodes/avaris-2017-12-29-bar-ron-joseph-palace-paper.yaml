@@ -1,6 +1,6 @@
 # Shared node. Append-only: a change is a new `rev` plus a `history` entry, never an overwrite. See build/SCHEMA.md, Nodes.
 id: avaris-2017-12-29-bar-ron-joseph-palace-paper
-rev: 1
+rev: 2
 type: document
 label: "2017-12-29: Rabbi M. S. Bar-Ron's paper presents the Tell el-Dab'a palace, 12 pillars, 12 tombs and pyramid tomb as Joseph's (following D. Rohl)"
 time: '2017-12-29'
@@ -17,7 +17,7 @@ what: >-
 sources:
 - title: "M. S. Bar-Ron, The Seal of Joseph in His Palace at Tell ed-Daba (29 Dec 2017), PDF on kankanjournal.com, introduction and 'What Identifies the Palace as Joseph's'"
   url: https://kankanjournal.com/wp-content/uploads/2020/12/The_Seal_of_Joseph_in_His_Palace_at_Tell.pdf
-  authenticity: unchecked; advocacy paper relying on Rohl (see the avaris-tell-el-dab-a manifest)
+  authenticity: unchecked; a paper whose author thanks Rohl as mentor and cites Rohl's books (see the avaris-tell-el-dab-a manifest)
   origin: bar-ron-2017
   source_type: secondary_report
   access: read
@@ -27,3 +27,7 @@ history:
 - rev: 1
   date: '2026-10-14'
   change: Created by the avaris-tell-el-dab-a dig. Dated by the paper's own title-page date; the host page posts it under a 2020 upload path, which is not the date of writing.
+- rev: 2
+  date: '2026-10-16'
+  change: >-
+    Wording only: the authenticity note no longer calls the paper an 'advocacy paper'; it now says what the paper itself says (the author thanks Rohl as mentor and cites Rohl's books). The `what` text, date and sources are unchanged.
