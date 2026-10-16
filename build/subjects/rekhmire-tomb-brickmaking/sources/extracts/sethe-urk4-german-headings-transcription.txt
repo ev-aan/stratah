@@ -1,0 +1,65 @@
+# Transcription by the dig of the German editorial headings in K. Sethe, Urkunden der 18. Dynastie, vierter Band (Leipzig: Hinrichs, 1909), public domain
+# (Internet Archive item urkunden-de-18.-dynastie.-vierter-band; PDF sha256 b48ab5cd728599ae149626a2a50d62feba92259f9c8ae69b1661c83576faf2bc).
+# Typed by the dig session on 2026-10-16 from the page images (Sethe's autograph handwriting). The hieroglyphic lines are NOT transcribed: the dig could not
+# transliterate them with confidence. Spelling follows the print as far as the typist could tell (the print's sharp s may be written ss here). Page numbers are
+# the printed ones in the page headers (IV 1146 and so on). Page images for pp. 1102, 1146, 1147, 1151, 1152, 1153, 1154 and 1155 are stored beside this file.
+# Pages 1148, 1149 and 1150 were viewed and transcribed here but their images are not stored. Not viewed: pp. 1103-1145 and everything after 1155.
+# Rekhmire's name in these headings is written in hieroglyphs in the print (the vizier sign group); here it is shown as [the vizier].
+
+## p. 1102 (header: Empfang der Fremdvoelkertribute durch [the vizier] 5, b. 6.)
+6. Fünfte Reihe: Gefangene und Geiseln, die der König aus den eroberten Ländern weggeführt und dem Tempelgut des Amon überwiesen hatte.
+Nach Abschrift von Newberry (wie oben bei 2 b).
+
+## p. 1146 (header: [the vizier] beaufsichtigt die Geschäfte des Amonstempels. A. 5.)
+B. Versorgung und Beschäftigung (?) der dem Amonstempel überwiesenen Gefangenen (s. ob. S. 1102); dargestellt unter dem Bilde A.
+Veröffentlicht: Virey, Mém. Miss. franç. 5, pl. 10/11. - Leps. Denkm. Text III 271. - Piehl Insr. I 114 S. Abschriften von
+[continues on p. 1147:] Hay und Bonomi (Brit. Mus. Add. Mss. 29817, u. 29827, 75), mitgeteilt durch Miss Bertha Porter) und von Newberry.
+
+## p. 1147
+1. Inschrift des Veziers: ganz verloren.
+2. Erste Reihe der dargestellten Geschäfte. Die jährlich stattfindende Austeilung neuer Kleider und Salben an die Gefangenen.
+3. Zweite Reihe der dargestellten Geschäfte. Ablieferung der von den Gefangenen gewebten Zeugstoffe.
+
+## p. 1148
+C. Die Arbeiten der Handwerker des Tempels; dargestellt neben dem Bilde A.
+Veröffentlicht: Newberry, Rekhmara pl. 16-18. - Virey, Mém. Miss. franç. 5, pl. 14-16. - Einzelnes auch: Leps. Denkm. III 39a. Text III 270. - Brugsch, Thes. V 1113 (nach Lepsius).
+1. Inschrift des Veziers.
+
+## p. 1149
+2. Erste Reihe der Arbeiten. Herstellung von Schmucksachen und Steingefässen.
+3. Zweite Reihe. Lederarbeiten.
+4. Dritte Reihe. Tischlerarbeiten (Betten, Schreine, Stühle, Kasten, Gestelle, Säulen, Wagenräder, Kopfstützen, Königsstatuen).
+5. Vierte Reihe. Metallarbeiten.
+
+## p. 1151
+D. Die Bau- und Steinmetzarbeiten; dargestellt unter dem Bilde C, neben dem Bilde B.
+Veröffentlicht: Newberry, Rekhmara pl. 19-21. - Virey, Mém. Miss. 5, pl. 17-18. - Leps. Denkm. III 40/41. Text III 270.
+1. Inschrift des Veziers.
+
+## p. 1152
+2. Erste Reihe der dargestellten Arbeiten. Bauarbeiten.
+a. Vor einem Manne, der am Fusse einer aus Ziegeln erbauten Baurampe steht, sich zu dieser herniederbeugend:
+
+## p. 1153
+b. Bei Leuten, die Erde am Fusse der Rampe ausschütten und Ziegel dazu herbeitragen:
+c. Ueber Leuten, die Ziegel an Tragen herbeitragen:
+d. Die Ziegel werden von Ausländern hergestellt:
+3. Zweite Reihe der Arbeiten. Herstellung monumentaler Steindenkmäler (Königsstatuen aus rotem Granit, Sphinx des Königs und Opfertafel aus Alabaster)
+a. Eine stehende Kolossalstatue des Königs wird bearbeitet
+
+## p. 1154
+b. Rede von Aufsehern (?) an Arbeiter, die weggebrochen sind:
+c. Rede des Leiters der Arbeiten an weggebrochene Arbeiter:
+4. Dritte Reihe der Arbeiten. Grosse Steinblöcke (weiss) werden auf Segelschiffen herbeigebracht und von Steinmetzen bearbeitet.
+a. Aufseher berichten, sich verbeugend, dem Vezier:
+
+## p. 1155
+b. Bei einem der Arbeiter, der an einem der Blöcke meisselt:
+5. Vierte Reihe der Arbeiten. Nur Schreiber, vor die einige Kasten gebracht werden, sind erhalten.
+333. Derselbe Vezier [the vizier] besichtigt die Weihgeschenke und Opfergaben, die König Thutmosis III dem Amonstempel und anderen thebanischen Tempeln gestiftet hatte; dargestellt in seinem Grabe zu Schech Abd el Gurna.
+Veröffentlicht: Newberry, Rekhmara pl. 22. - Virey, Mém. Miss. franç. 5, 171.
+
+## From the printed contents list of the volume (OCR text, file Urkunden de 18. Dynastie. Vierter Band_djvu.txt, sha256 3334e6bb0e5c09adff094b2792f83004c51f1adcf0abc0bdc434997e33086b77; the OCR is noisy)
+Versorgung und Beschäftigung der dem Tempel zu Leibeigenen gegebenen Gefangenen . 1146
+Die Arbeiten der Handwerker des Tempels 1148
+Die Bau- und Steinmetzarbeiten . 1151

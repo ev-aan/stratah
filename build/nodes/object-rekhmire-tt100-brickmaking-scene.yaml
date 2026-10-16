@@ -1,6 +1,6 @@
 # Shared node. Append-only: a change is a new `rev` plus a `history` entry, never an overwrite. See build/SCHEMA.md, Nodes.
 id: object-rekhmire-tt100-brickmaking-scene
-rev: 1
+rev: 2
 type: object
 label: 'Tomb of Rekhmire (TT 100), Thebes: painted scene of brickmakers, sculptors and masons at work (Karnak temple works)'
 time: '-1450-01-01'
@@ -16,7 +16,7 @@ what: >-
   bricks are being made to build a storehouse anew at Karnak. The scene carries no regnal year in the translations read.
   The time shown is a single marker (Kitchen's "c. 1450 BC" for Rekhmire); the window is the spread across the dates read
   (Newberry 1471-1448, Kitchen c. 1450, Met catalogue 1479-1425), which are dates of Rekhmire's career, not a date for the painting
-  itself. The wall and its signs were not seen; a copy (Nina de Garis Davies facsimile, Met 30.4.77) and Newberry's outline tracing were viewed.
+  itself. The wall and its signs were not seen; a copy (Nina de Garis Davies facsimile, Met 30.4.77), Newberry's outline tracing and Sethe's hand copy of the labels (Urk. IV pp. 1151-1155, viewed in round 2) were viewed, and no sign was transliterated.
 window:
   earliest: -1479-01-01
   latest: -1425-12-31
@@ -28,7 +28,7 @@ window:
     Met open-access record 544649); Newberry 1900 gives circa 1471 for the same period.
   end_note: >-
     Latest end 1425 BCE is the end of the Met range; Newberry gives 1448 and Kitchen c. 1450. Absolute dates of the reigns of
-    Thutmose III and Amenhotep II were not read from a chronology authority here, so the boundaries are those of the three works read.
+    Thutmose III and Amenhotep II were not read from a chronology volume; Aston 2013 reports several schemes (claim rekhmire-reign-dates-schemes), and the window remains the spread of the three works read.
 object:
   class: "painted wall scene in a rock-cut tomb-chapel (TT 100)"
   material: "painted plaster (Newberry 1900, p. 38: \"the painted plaster of the middle of the second row has fallen away\")"
@@ -51,3 +51,6 @@ history:
 - rev: 1
   date: '2026-10-14'
   change: Created by the rekhmire-tomb-brickmaking dig. Window and marker rest on three works read; no chronology authority was read; the scene itself has no date read.
+- rev: 2
+  date: '2026-10-16'
+  change: 'Round 2 of the dig: text of `what` and `end_note` updated to say that Sethe (Urk. IV) was viewed and that Aston 2013 reports competing chronologies. The marker, the window and the sources are unchanged; the dates are still those of the three works read.'

@@ -1,5 +1,6 @@
 # How the Rekhmire brickmaking scene came to be described as "Nubian and Levantine slaves". Spread is adoption, never evidence (X1).
-# Only the first three steps were read; the speaker's step is the claim line only. The order is by date of the works read; it is not a claim that each depends on the one before.
+# Steps tx-rk-01, -02, -03, -05 and -06 were read. The speaker's step (tx-rk-04) is the claim line only, and its date comes from another dig's file (see the event). The order is by date of the works read; it is not a claim that each depends on the one before.
+# Revised 2026-10-16: tx-rk-02 corrected (the Hebrews remark is in the body text of section 756, not a heading note); tx-rk-04 marked unverified; tx-rk-05 and tx-rk-06 added (Newberry's own 'slaves' gloss, Davies 1930).
 subject: rekhmire-tomb-brickmaking
 chains:
   - id: tx-rekhmire-brickmakers
@@ -15,7 +16,16 @@ chains:
         form: "'captives brought by his Majesty (i.e. Thothmes III.) for the works of the temple of Amen'; 'many of whom are certainly foreigners'; a separate line printed 'slaves (?)'."
         source: src-newberry-1900
         read: yes
-        note: "Tracing and summary of the tomb; Newberry says full translations are 'tentative'."
+        note: "Tracing and summary of the tomb; Newberry says full translations are 'tentative'. The captive label and the 'slaves (?)' line are on p. 38."
+      - id: tx-rk-05
+        date: "1900"
+        precision: year
+        step: gloss
+        carrier: "Newberry, The Life of Rekhmara (Constable, London), p. 19, in the introduction"
+        form: "prisoners of Thothmes III's wars 'sent as slaves to work for the god at Thebes', lodged in the State prison, with a mutilated scene of Rekhmara inspecting them; the commoner prisoners 'forced to labour in the fields'."
+        source: src-newberry-1900
+        read: yes
+        note: "Newberry's own gloss on the tomb's prison scene, not a label translation and not about bricks. Added in round 2; round 1 had missed it. It is the earliest use of 'slaves' for the temple's captives found in the works read, in the same book as the 'captives' translation."
       - id: tx-rk-02
         date: "1906"
         precision: year
@@ -24,22 +34,31 @@ chains:
         form: "'Of particular interest are the Semitic foreigners, who appear among the brickmakers, of the \"captivity which his majesty brought for the works of the temple of Amon.\" This is, of course, precisely what was afterward exacted of the Hebrews.'"
         source: src-breasted-are2
         read: yes
-        note: "The comparison to the Hebrews is Breasted's own gloss, in a heading note, not a label. It is the earliest link between the scene and the Hebrews found in the works read."
+        note: "The comparison to the Hebrews is Breasted's own gloss, in the body text of section 756 (round 1 called it a heading note, which was wrong), not a label. It is the earliest link between the scene and the Hebrews found in the works read."
+      - id: tx-rk-06
+        date: "1930"
+        precision: year
+        step: commentary
+        carrier: "N. de G. Davies, Bulletin of the Metropolitan Museum of Art, December 1930, Part II, printed pp. 33 and 38"
+        form: "'The large Syrian slave population in Egypt'; of a row in Rekhmire's tomb, 'In a row of captives of all lands there occur Syrian and Negro slave women'."
+        source: src-met-bulletin-1930-12
+        read: yes
+        note: "Davies uses 'slave' for Syrians in Egypt in general and for women of a different row of the tomb, not for the brickmakers. A general essay on the reliability of pictures of foreigners."
       - id: tx-rk-03
         date: "1976"
         precision: year
         step: commentary
         carrier: "Kitchen, 'From the Brickfields of Egypt', Tyndale Bulletin 27(1)"
-        form: "'it is the presence of foreigners from the Levant (like the Hebrews) that has so often attracted attention'; a mixed group 'Syrians, Nubians, Egyptians'. Year from a search summary, not from the PDF text."
+        form: "'it is the presence of foreigners from the Levant (like the Hebrews) that has so often attracted attention'; a mixed group 'Syrians, Nubians, Egyptians'. The year is from the publisher's landing page metadata (1976-05-01), read 2026-10-16."
         source: src-kitchen-1976
         read: yes
-        note: "Notes that the setting is Thebes, not the Delta. Written from the Exodus-background angle."
+        note: "Notes that the setting is Thebes, not the Delta. The article's own text opens with Exodus 1:11-14 and 5:5ff. and treats the scene as a comparison for the Exodus account."
       - id: tx-rk-04
         date: "2026-09-14"
         precision: day
         step: repetition
-        carrier: "Dead Hidden, 'Rekhmire' (HN0wNVpfunM); date is the upload date recorded in the Merneptah dig's transmission file, not a first-use date"
+        carrier: "Dead Hidden, 'Rekhmire' (HN0wNVpfunM)"
         form: "'A scene on the wall of his tomb shows Nubian slaves and Levantine slaves making brick blocks in Egypt.' (dh-HN0wNVpfunM-02), with 1550 BC enslavement (-06) and Hyksos (-19)."
         source: src-dh-claims
         read: no
-        note: "Only the extracted claim lines were read. The speaker's source is unknown; it cannot be assumed to be Breasted, Kitchen or any other work above."
+        note: "UNVERIFIED. The date is the upload date recorded in the Merneptah dig's transmission file, taken from that file and not checked here; it is not a first-use date. The wording is from the extracted claim lines of the handoff only; the video was not watched. The speaker's source is unknown; it cannot be assumed to be Breasted, Kitchen or any other work above."

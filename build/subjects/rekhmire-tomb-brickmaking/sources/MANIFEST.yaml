@@ -1,18 +1,23 @@
 # Sources for the rekhmire-tomb-brickmaking dig, with authenticity entries (rules A1-A10, build/SCHEMA.md).
-# Nothing is stored as a copy in the repository; sources are cited by URL and sha256 of the copy read. Tests were run in this session
-# (2026-10-14), which is not an independent review.
-# IMPORTANT: every text source here is a book, translation or commentary, i.e. a CLAIM about the scene, not primary data.
-# The wall itself was not seen. The only images viewed are (a) Newberry's outline tracing (one cropped plate page, plate XXI area) and
-# (b) a modern facsimile painting by Nina de Garis Davies on the Met site. No hieroglyphic sign was read from any image.
-# Funding and control of each author, publisher and sponsor is recorded where a source read states it, otherwise UNRESEARCHED.
+# Revised 2026-10-16 (round 2, after the independent review of PR #33; the changes are listed in log.yaml L-07 onward).
+# Nothing copyrighted is stored. Stored in this repository (sources/extracts/): verbatim public-domain extracts of Newberry 1900 and Breasted 1906 (OCR text), eight page images of
+# Sethe 1909 (public domain) and a typed transcription of Sethe's German editorial headings. Everything else is cited by URL and sha256 of the copy read.
+# Tests were run in these sessions (2026-10-14 and 2026-10-16), which are not independent reviews.
+# IMPORTANT: every source here is a book, edition, translation, article or museum record, i.e. a CLAIM about the scene or a copy of it, not the wall. The wall itself was not seen.
+# What was read from signs: Sethe's hand-copied hieroglyphs (Urk. IV, pp. 1102, 1146-1155) were opened and viewed page by page; the dig could not transliterate them with confidence,
+# so no sign-level reading is claimed anywhere in this dig. Newberry's outline tracings (plates XIX-XXI) were viewed; they carry no colour.
+# Funding and control of each author, publisher and sponsor is recorded only where a source read states it; the rest is listed as a research task in the gaps.
 retrieved: 2026-10-14
+revised: 2026-10-16
 sources:
 
   - id: src-newberry-1900
     title: "P. E. Newberry, The Life of Rekhmara, Vezir of Upper Egypt under Thothmes III and Amenhetep II (circa B.C. 1471-1448), with twenty-two plates (Westminster: Archibald Constable, 1900). Printed by Butler and Tanner, Frome and London"
     url: https://archive.org/details/TheLifeOfRekhmara
     document_class: "interpretive: author's summary and description of the tomb scenes, with outline tracings of the wall. A claim about the wall, not the wall. The preface says full translations are not given because they 'must of necessity be tentative'."
-    read: "yes, directly (Internet Archive OCR text, file The_Life_of_Rekhmara_djvu.txt, sha256 1d0fc09f98bf834083fb8d7a66608f48ba5f165c16213abccacf0d5ceaa6f817; title page, preface, contents, pp. 13-14, 20, 37-38). Plate page (IA PDF page 107, PDF sha256 a59a5f39afde5e4a0a3ed49c68bdbee1e6622716c699141032a05442ceeeee3d) viewed as an image."
+    read: "yes, directly (Internet Archive OCR text, file The_Life_of_Rekhmara_djvu.txt, sha256 1d0fc09f98bf834083fb8d7a66608f48ba5f165c16213abccacf0d5ceaa6f817; title page, preface, contents, pp. 13-14, 19, 20, 37-38 (round 2 added p. 19 and re-read pp. 37-38 with the page break located). IA PDF sha256 a59a5f39afde5e4a0a3ed49c68bdbee1e6622716c699141032a05442ceeeee3d: plate pages for plates XIX, XX and XXI (PDF pages 102-108) viewed as images on 2026-10-16 (thumbnails of all; PDF page 104, plate XX, and page 108, the right part of plate XXI, at 100 dpi): outline tracings in red line, signs not transliterated by the dig. The IA copy carries a later reader's pencil notes on the plates citing 'Sethe: Urkunden XVIII Dyn pp 1152-1153 D.2.a' and 'Wreszinski: Atlas', whose author is unknown; they are not used as evidence."
+    stored_extracts:
+      - {path: "extracts/newberry-1900-extracts.txt", sha256: 4361c22aa8d4c66e03553c2ddb7ac6fe9a0d014b4aa9ea1961c341c91dbecf41, what: "verbatim OCR extracts, p. 19 and pp. 37-38"}
     authenticity:
       status: authenticated
       strength: moderate
@@ -20,59 +25,62 @@ sources:
       tests:
         - "Title page year 1900 and publisher read in the OCR agree with the Internet Archive metadata date 1900 (could have failed)"
         - "Newberry's label translation 'captives brought by his Majesty ... for the works of the temple of Amen' agrees in substance with Breasted 1906 section 759 and with the quotation in Kitchen 1976 n. 19, which are separate works (could have failed)"
-        - "Newberry's placing of Rekhmara in the second half of Thutmose III's reign (vizier from year 32) is consistent with Breasted 1906 section 663 ('during the latter half of the reign of Thutmose III'); the two are not independent, since Breasted cites Newberry's plates (could have failed)"
-      tested_by: "Stratah dig session, 2026-10-14 (not an independent review)"
+        - "Newberry's plates XIX-XXI are the plates that Sethe 1909 (Urk. IV, p. 1151) lists for the brickmaking and building scene ('Newberry, Rekhmara pl. 19-21'); the numbers agree (could have failed; added 2026-10-16)"
+      tested_by: "Stratah dig sessions, 2026-10-14 and 2026-10-16 (not an independent review)"
       gaps:
-        - "OCR only, apart from one plate page viewed. The plate page is cropped by the fold-out and the tracing is in outline, so skin colour, hair and dress that other authors use to identify peoples are not shown."
-        - "No hieroglyphic sign was read from the plates."
-        - "The tracing was made by Newberry, copied from the wall; it was not compared with the wall or with Virey 1889."
-        - "Who funded Newberry's copying work at Thebes: UNRESEARCHED. The preface passages read name no funder (it thanks Spiegelberg for help and for checking his copy at Thebes in 1896)."
-        - "Publisher Archibald Constable and Co: ownership and funding UNRESEARCHED."
-      next_step: "Open the Heidelberg scan (blocked, see src-newberry-heidelberg) or the IA PDF at full resolution and read the label signs on plates XIX-XXI against Sethe, Urkunden IV."
-      checked: 2026-10-14
+        - "OCR for the text; plates viewed as images. The tracing is in outline, so skin colour, hair and dress that other authors use to identify peoples are not shown."
+        - "No hieroglyphic sign was transliterated by the dig from the plates."
+        - "The tracing was made by Newberry, copied from the wall; it was not compared with the wall, with Virey 1889 or with Lepsius."
+        - "Who funded Newberry's copying work at Thebes: the preface passages read name no funder (it thanks Spiegelberg for help and for checking his copy at Thebes in 1896; the dedication thanks his wife as his companion at Thebes for three years). Not stated in any page read; a research task, not a finding."
+        - "Publisher Archibald Constable and Co: ownership and funding not read."
+      next_step: "Compare Newberry's tracing with Davies 1943 pls. 58-60 and Sethe's autograph for the label signs, with a reader of hieroglyphs."
+      checked: 2026-10-16
     notes: "Newberry uses the spelling Thothmes/Amen. Quoted verbatim in the claims with that spelling."
 
   - id: src-breasted-are2
     title: "J. H. Breasted, Ancient Records of Egypt, vol. 2, The Eighteenth Dynasty (Chicago: University of Chicago Press, 1906), sections 663-664 (the tomb) and 756-759 (inspection of sculptors and builders); series 'Ancient Records' under the general editorship of William Rainey Harper"
     url: https://archive.org/details/ancientrecordsof02brea
-    document_class: "interpretive: translation with commentary and footnotes. A claim about the wall, not the wall. Breasted's note on section 663 calls Virey's 1889 publication 'unusable'. Breasted's remark in section 756 comparing the scene to what 'was afterward exacted of the Hebrews' is his own gloss."
-    read: "yes, directly (Internet Archive OCR text, file ancientrecordsof02brea_djvu.txt, sha256 cfd690f1a1858e162bf9c67969f02f2e963fc6a71271cf3e481d421621e7eb11; title page, sections 663-664, 755-759 with footnotes)"
+    document_class: "interpretive: translation with commentary and footnotes. A claim about the wall, not the wall. Breasted's note on section 663 calls Virey's 1889 publication 'unusable'. Breasted's remark in section 756 comparing the scene to what 'was afterward exacted of the Hebrews' is his own gloss, in the body text of section 756 (not a heading note, which transmission.yaml first called it; corrected in round 2)."
+    read: "yes, directly (Internet Archive OCR text, file ancientrecordsof02brea_djvu.txt, sha256 cfd690f1a1858e162bf9c67969f02f2e963fc6a71271cf3e481d421621e7eb11; title page, sections 663-664, 755-759 with footnotes; re-read 756-759 on 2026-10-16)"
+    stored_extracts:
+      - {path: "extracts/breasted-are2-sections-756-759-extract.txt", sha256: ef59aff351a3f4ac263ca5ac71c44eca422d79a6f7823aa48483aded83f93777, what: "verbatim OCR extract, sections 756-759 with footnotes"}
     authenticity:
       status: authenticated
       strength: moderate
       provenance: "Internet Archive scan contributed by the Brigham Young University Harold B. Lee Library (the scan carries a memorial plate 'In memory of Steven F. Christensen'). Title page read: University of Chicago Press, Chicago, published March 1906, copyright The University of Chicago, London: Luzac, Leipzig: Harrassowitz. Item licence field not recorded here."
       tests:
         - "Title page publisher, year (1906) and volume title read in the OCR agree with the Internet Archive metadata (could have failed)"
-        - "Section 759 label translation agrees in substance with Newberry 1900 p. 37 and with Kitchen 1976 n. 19 (separate works; could have failed)"
+        - "Section 759 label translation agrees in substance with Newberry 1900 p. 38 and with Kitchen 1976 n. 19 (separate works; could have failed)"
         - "Footnote to section 756 says some words 'are in Virey's copy (Memoires de la mission francaise au Caire, V, Pl. XV), but had been lost before Newberry's was made', which matches Newberry's own statement that his copy was made later than Virey's (could have failed)"
-      tested_by: "Stratah dig session, 2026-10-14 (not an independent review)"
+      tested_by: "Stratah dig sessions, 2026-10-14 and 2026-10-16 (not an independent review)"
       gaps:
-        - "OCR only; page images not compared"
+        - "OCR only; page images not compared. The footnote letters in the OCR do not line up with the text, so which word a footnote belongs to is not established (the 'conquered' footnote and the 'Semitic' footnote)."
         - "No hieroglyphs read"
         - "Breasted worked from Newberry's plates (his note cites Newberry's Pls. XX and XXI) and Virey, so his reading is not independent of Newberry's tracing"
-        - "Series sponsorship: the title page names William Rainey Harper as general editor and the University of Chicago Press as publisher. Who funded the series and Breasted's work, and how far the University or any donor controlled content: UNRESEARCHED."
-      next_step: "Compare the OCR with the page images for sections 756-759 and read the signs on Newberry's plates XX and XXI."
-      checked: 2026-10-14
+        - "Series sponsorship: the title page names William Rainey Harper as general editor and the University of Chicago Press as publisher; the front matter read states no funder. Who funded the series and Breasted's work: not read; a research task."
+      next_step: "Compare the OCR with the page images for sections 756-759."
+      checked: 2026-10-16
 
   - id: src-kitchen-1976
     title: "K. A. Kitchen, 'From the Brickfields of Egypt', Tyndale Bulletin 27(1), pp. 137-147, DOI 10.53751/001c.30629"
     url: https://tyndalebulletin.org/article/30629.pdf
     document_class: "interpretive: article on brick-making in Egyptian texts as background to the Exodus account. A claim about the scene, not the scene. Kitchen's note 17 cites Davies 1943 and Davies 1935 as the definitive publication and Porter and Moss for tomb 100."
-    read: "yes, directly (PDF text, 11 pages, 1.5 MB, sha256 9f46ce814d9323a45571449a81a48c3a8602a2aaea1e6d4341ed7e9674362c96; pp. 137-147 read in full text layer). The year 1976 and volume 27(1) come from a web-search result summary, not from the extracted PDF text, which prints no year."
+    read: "yes, directly (PDF text, 11 pages, 1.5 MB, sha256 9f46ce814d9323a45571449a81a48c3a8602a2aaea1e6d4341ed7e9674362c96; pp. 137-147 read in the text layer; the Rekhmire passage is p. 140 with notes 17-19, p. 143 mentions the scene again, and pp. 146-147 Ra'amses). The PDF itself prints no year. The year and volume were taken on 2026-10-16 from the publisher's landing page https://tyndalebulletin.org/article/30629 (HTML sha256 0b1489c503c532bb1352b5b5e9de2cdfa98289ada205c5ede5eeaf8ec00fd2aa), whose metadata gives volume 27, issue 1, publication date 1976-05-01."
     authenticity:
       status: authenticated
-      strength: weak
-      provenance: "Copy from tyndalebulletin.org (the PDF footer prints that site and the DOI). PDF metadata: scanned with a ScanSnap on 2021-12-01 and modified 2022-06-14, i.e. a modern digitisation of the printed article. Search results give Tyndale Bulletin 27(1), 1976."
+      strength: moderate
+      provenance: "Copy from tyndalebulletin.org (the PDF footer prints that site and the DOI). PDF metadata: scanned with a ScanSnap on 2021-12-01 and modified 2022-06-14, i.e. a modern digitisation of the printed article. The publisher's landing page gives Tyndale Bulletin 27(1), 1976-05-01 (read 2026-10-16)."
       tests:
         - "Page headers 'TYNDALE BULLETIN' and page numbers 138-147 run in order through the PDF, and the first page opens the same article as the DOI title (could have failed)"
+        - "The publisher's landing page title 'From the Brickfields of Egypt' and author 'K. A. Kitchen' match the PDF's first page (could have failed; added 2026-10-16)"
         - "Kitchen's quotation of the label 'Spoils (=captives) brought by His Majesty ... for the work of the temple of his father [Amun]' agrees in substance with Newberry 1900 and Breasted 1906 (could have failed)"
-      tested_by: "Stratah dig session, 2026-10-14 (not an independent review)"
+      tested_by: "Stratah dig sessions, 2026-10-14 and 2026-10-16 (not an independent review)"
       gaps:
-        - "Year and volume not read in the file itself"
-        - "Kitchen's identification of the workers as 'Syrians, Nubians, Egyptians' is stated without a source for the identification other than the note 17 citations (Davies 1943 pp. 54-56, pls. 58-60; Davies 1935 pls. 16-17), which were not opened"
-        - "The article is written from the Exodus-background angle (it opens on Exodus 1:11-14 and 5:5ff.). Kitchen's institutional affiliation and who funds or controls the journal and its publisher: UNRESEARCHED (nothing about this was read in the article). The bibliography notes show only that Tyndale Press and IVF published other works Kitchen cites."
+        - "Kitchen's identification of the workers as 'Syrians, Nubians, Egyptians' is stated without a source other than the note 17 citations (Davies 1943 pp. 54-56, pls. 58-60; Davies 1935 pls. 16-17), which were not opened."
+        - "Publisher and affiliation, as read on 2026-10-16: the publisher's page describes Tyndale Bulletin as 'the journal of Tyndale House, Cambridge, a UK-based research institute and residential library dedicated to biblical scholarship'; Tyndale House's own page (2026) gives its charitable purpose as 'to advance the evangelical Christian religion through promoting evangelical biblical scholarship and research'. Those are present-day statements. Who published and funded the journal in 1976, and what funded Tyndale House then, were not read. The article's own bibliography notes cite Tyndale Press and IVF titles. Research task: find the 1976 masthead or an account of the Bulletin's publisher then."
+        - "Kitchen's own affiliation in 1976 is not printed in the pages read."
       next_step: "Open Davies 1943 pp. 54-56 and plates 58-60 and see what basis, if any, is given for the identification of the peoples."
-      checked: 2026-10-14
+      checked: 2026-10-16
 
   - id: src-met-facsimile-30-4-77
     title: "Metropolitan Museum of Art, record for 'Brickmakers, Tomb of Rekhmire', facsimile by Nina de Garis Davies, accession 30.4.77 (Open Access API object 544649) and its web image DT10882.jpg"
@@ -82,7 +90,7 @@ sources:
     authenticity:
       status: authenticated
       strength: moderate
-      provenance: "Held by the Metropolitan Museum of Art, New York; credit line 'Rogers Fund, 1930'; accession year 1930. The facsimile is by Nina de Garis Davies (1881-1965, per the record). What the Rogers Fund is and who controlled the Met's Egyptian Expedition that produced facsimiles of this tomb: UNRESEARCHED."
+      provenance: "Held by the Metropolitan Museum of Art, New York; credit line 'Rogers Fund, 1930'; accession year 1930. The facsimile is by Nina de Garis Davies (1881-1965, per the record). Funding: the credit line names the Rogers Fund; what the Rogers Fund is and who funded the Met's Egyptian Expedition that produced facsimiles of this tomb were not found in any page read (the Met Bulletin issues of 1929-1937 that were searched give the credit line only). A research task."
       tests:
         - "The accession number printed on the image, bottom right (30.4.77), was compared with the accession number in the API record and agrees (could have failed)"
         - "The image shows brick-making labour at a wall under construction, matching Newberry's description of the top row of the scene (could have failed)"
@@ -98,6 +106,79 @@ sources:
       copy_of: "https://images.metmuseum.org/CRDImages/eg/web-large/DT10882.jpg (the Met's own web-size file; the original on the wall was not seen)"
       compared_with_holder_copy: "no"
 
+  - id: src-urk-iv
+    title: "K. Sethe, Urkunden der 18. Dynastie, vierter Band (Heft 13-16), Historisch-biographische Urkunden (Leipzig: J. C. Hinrichs'sche Buchhandlung, 1909); series Urkunden des aegyptischen Altertums, IV. Abteilung Band IV, ed. G. Steindorff; the Rekhmire texts are on pp. 1071-1175 (Urk. IV)"
+    url: https://archive.org/details/urkunden-de-18.-dynastie.-vierter-band
+    document_class: "hieroglyphic edition: Sethe's hand-copied hieroglyphic text of the inscriptions, with his German headings and notes. A copy of the wall made from earlier copies (Sethe's own listing for the brickmaking scene: Newberry pls. 19-21, Virey pls. 17-18, Lepsius Denkmaeler III 40/41; some parts 'Nach Abschrift von Newberry'). A claim about the wall, not the wall; the headings are Sethe's reading."
+    read: "yes, directly (updated 2026-10-16; the first dig recorded this source as not located). Internet Archive PDF (6.6 MB, 297 pages, scanned images with no text layer; sha256 b48ab5cd728599ae149626a2a50d62feba92259f9c8ae69b1661c83576faf2bc) opened; printed pages IV 1096-1108 (headers only), 1101, 1102, 1146-1155 viewed page by page as images, and the German headings typed out. The hieroglyphic lines were looked at and not transliterated. The OCR text (sha256 3334e6bb0e5c09adff094b2792f83004c51f1adcf0abc0bdc434997e33086b77) is noisy and was used only for the printed contents list. Not viewed: pp. 1103-1145 and 1156 onward, so the vizier's duties text, the tribute scenes other than p. 1101-1102, and Sethe's notes elsewhere were not read."
+    stored_extracts:
+      - {path: "extracts/sethe-urk4-german-headings-transcription.txt", sha256: e3ca828fdc62e2dbcf906c87a7a34b3f2219b58d880e2fee51613076526f243c, what: "typed German headings, pp. 1102, 1146-1155"}
+      - {path: "extracts/sethe-urk4-p1102.png", sha256: a7c79c5d9de784b61bf1d540edb3ec1828dd73f148b3a417a547e9510a106795, what: "page image, printed p. 1102 (PDF page 172), 100 dpi"}
+      - {path: "extracts/sethe-urk4-p1146.png", sha256: 11344514375326b6f5d6c89884308791ecbf9525dd8ce319c2d5ba115acfc2af, what: "p. 1146 (PDF page 216)"}
+      - {path: "extracts/sethe-urk4-p1147.png", sha256: bf957c7947bd4901a83e365dc5c4c76bbdf5002a9a1098d9a6c62c612bb8e549, what: "p. 1147 (PDF page 217)"}
+      - {path: "extracts/sethe-urk4-p1151.png", sha256: c79e006daf756d0947e215ac5748aedad278cf8567078254f2e4ea95d3cf7894, what: "p. 1151 (PDF page 221)"}
+      - {path: "extracts/sethe-urk4-p1152.png", sha256: 77eaae9373b21a62f034e68e5411e9d313f4b70e3d3a17bda7db695c5a8ceb5f, what: "p. 1152 (PDF page 222)"}
+      - {path: "extracts/sethe-urk4-p1153.png", sha256: 5be3e5cc69c12a7a8fcc1e9df28cbe618b297d6d07965e79a10dcc8a8ff0978c, what: "p. 1153 (PDF page 223)"}
+      - {path: "extracts/sethe-urk4-p1154.png", sha256: 0553e7029fe97ab61cbf479199ea734797486da8e47229fc1a9d3074fa2d0bd4, what: "p. 1154 (PDF page 224)"}
+      - {path: "extracts/sethe-urk4-p1155.png", sha256: 430e5d0d492514be3f04baa7bf269f558261720dc37053cccf45f207d316ad96, what: "p. 1155 (PDF page 225)"}
+    authenticity:
+      status: authenticated
+      strength: moderate
+      provenance: "Internet Archive scan (item urkunden-de-18.-dynastie.-vierter-band; a second item, urkunden-de-18.-dynastie.-vierter-band_202411, carries the same PDF size 6640362). The scan's own source library was not read. Title page (OCR) names Kurt Sethe, J. C. Hinrichs'sche Buchhandlung, Leipzig, 1909, and the series Urkunden des aegyptischen Altertums IV. Abteilung Band IV, edited by Georg Steindorff. Item licence field not recorded."
+      tests:
+        - "The printed page numbers in the headers run in order IV 1144 to IV 1156 across PDF pages 214-226 (could have failed)"
+        - "Sethe's list of earlier publications for the brickmaking section D (Newberry pls. 19-21) matches the plate numbers on which Newberry 1900 prints the scene (XIX-XXI, viewed in the IA scan of Newberry) (could have failed)"
+        - "A later reader's pencil note on Newberry's plate XX in a different scan (Internet Archive TheLifeOfRekhmara) cites Sethe pp. 1152-1153 'D.2.a', and label D.2.a is on p. 1152 of this volume under that letter and number (could have failed; the annotator is unknown, so this is a consistency check only)"
+        - "The vizier's heading on p. 1155 (section 333, offerings given by Thutmose III to the Amun temple) matches Newberry's section 10 'Rekhmara Inspects the Provisions of the Divine Offerings', plate XXII, which Sethe also cites (could have failed)"
+      tested_by: "Stratah dig session, 2026-10-16 (not an independent review)"
+      gaps:
+        - "The hieroglyphic lines were not transliterated by the dig. Everything claimed from this source is Sethe's German heading or his stated sources; no word of any label has been read from the signs here."
+        - "Sethe copied earlier copies; he did not collate against the wall in the pages read (his footnotes cite Lepsius, Hay, Virey and Newberry for variants), so this is not an independent view of the wall."
+        - "Pages 1103-1145 and 1156 onward were not viewed."
+        - "Funding of the Urkunden des aegyptischen Altertums series and of Sethe's edition: the title page names the editor and publisher only. Not read; a research task."
+      next_step: "Ask a reader of hieroglyphs to transcribe Urk. IV 1152,9-1153,13 (labels a to d of the brickmaking scene) and compare with Newberry p. 38 and Breasted sections 758-759."
+      checked: 2026-10-16
+
+  - id: src-aston-2013
+    title: "D. A. Aston, 'Radiocarbon, Wine Jars and New Kingdom Chronology', pp. 289-315 (page headers read), (c) 2013 Oesterreichische Akademie der Wissenschaften, Wien; PDF from austriaca.at"
+    url: "https://austriaca.at/0xc1aa5572%200x00308d5a.pdf"
+    document_class: "interpretive: a scholar's paper that tabulates several authors' chronologies of the 18th Dynasty and argues for his own. It reports other authors' schemes (Krauss 2007, Krauss and Warburton 2009, Schneider 2010, Bronk Ramsey and others 2010, Quiles and others 2013, Huber 2011); the originals were not opened."
+    read: "yes, directly (PDF text, 28 pages, 237 KB, sha256 9a7825d28ab96f305a8cecc4adc11092fc6a28170172c8cf1947a6eed251635e; pp. 290-292 and 296-297 read closely for the tables below, the rest searched for dates). The journal title, volume and year of the printed issue are not in the pages read, only the page headers and the (c) 2013 line."
+    authenticity:
+      status: authenticated
+      strength: moderate
+      provenance: "PDF served by austriaca.at, the Austrian Academy of Sciences publisher site; its running header reads 'David Aston' and 'Radiocarbon, Wine Jars and New Kingdom Chronology' with page numbers 290 to 315 and a '(c) 2013 by Oesterreichische Akademie der Wissenschaften, Wien' line. PDF creation date 2014-05-08."
+      tests:
+        - "Page numbers in the running headers run in order 290 to 315 (could have failed)"
+        - "Internal consistency of Aston's reproduction of Krauss 2007: each king's end year equals the next king's start year in the table (Thutmose III 1479-1425, Amenophis II 1425-1400, Tuthmosis IV 1400-1390) (could have failed)"
+      tested_by: "Stratah dig session, 2026-10-16 (not an independent review)"
+      gaps:
+        - "Reports the schemes of others; none of the original tables (Krauss 2007, Krauss and Warburton 2009, Schneider 2010, Bronk Ramsey and others 2010, Hornung, Krauss and Warburton 2006) was opened. One author's account of them: not independent corroboration of their figures."
+        - "Aston argues his own position (wine-jar dockets); his wording about other authors ('has been summarily dismissed', 'such a low chronology has not found much favour') is his view."
+        - "Funding: not stated in the pages read."
+      next_step: "Open Hornung, Krauss and Warburton (eds.), Ancient Egyptian Chronology (Leiden: Brill, 2006) and Bronk Ramsey and others, Science 328 (2010), and compare the tables."
+      checked: 2026-10-16
+
+  - id: src-met-bulletin-1930-12
+    title: "N. de G. Davies (signed N. DE G. DAVIES at the end), essay on the graphic branch of the Egyptian Expedition, in 'The Egyptian Expedition 1929-1930', Bulletin of the Metropolitan Museum of Art, vol. 25 no. 12 (December 1930), Part II (the essay runs over roughly printed pp. 28-39; the exact range and its title line were not read from the images; printed pages 32, 33 and 38 were read closely)"
+    url: https://archive.org/details/sim_metropolitan-museum-of-art-new-york-bulletin_1930-12_25_12
+    document_class: "interpretive: a general essay by the man who copied and later published the Rekhmire tomb paintings, on how far Egyptian pictures of foreign peoples can be trusted. It does not discuss the brickmaking scene by name; it names the tribute row of Rekhmire's tomb. A claim about Egyptian art in general."
+    read: "yes, directly (Internet Archive 'Serials in Microfilm' scan, PDF 71 pages, sha256 cb6b59dbed7eaabaea9b960f97aa588d532d013f1b89e532c055290f503f5357; OCR/text layer file sim_metropolitan-museum-of-art-new-york-bulletin_1930-12_25_12_djvu.txt sha256 e83f7beeb9ff30006a8a4ada7b4a54e09b20e86bf89f7dee25ef27b4c77bd502; PDF pages 60, 61 and 66 viewed as images, printed pages 32, 33 and 38). Quoted only in short fragments that were checked against the images. Not stored."
+    authenticity:
+      status: authenticated
+      strength: moderate
+      provenance: "Internet Archive scan of the Bulletin of the Metropolitan Museum of Art, Dec 1930, digitised from the Serials in Microfilm collection (item description read). Published by the Metropolitan Museum of Art. Rights: first published in 1930, which on the usual United States rule entered the public domain on 1 January 2026; not checked against the Met's own rights statement, so only short fragments are quoted and nothing is stored."
+      tests:
+        - "The printed page number 38 and the running head 'Bulletin of the Metropolitan Museum of Art' appear on the page image where the OCR places the Rekhmire sentence (could have failed)"
+        - "The essay ends with the signature 'N. DE G. DAVIES' in the OCR text (could have failed; read in the OCR only)"
+      tested_by: "Stratah dig session, 2026-10-16 (not an independent review)"
+      gaps:
+        - "The essay's title and start page were not read from the image; the signature was read in the OCR only."
+        - "It is a general essay about foreign peoples in Theban tomb art, not a discussion of the brickmakers."
+        - "Funding of the Egyptian Expedition and of Davies's work: the Bulletin pages read do not state it in the passages seen; a research task."
+      next_step: "Read Davies 1943, pp. 54-56, for his own statement on the brickmakers, and the Bulletin of Dec 1928 section II p. 39 that this essay cites."
+      checked: 2026-10-16
+
   - id: src-dh-claims
     title: "Dead Hidden YouTube claims files, ids dh-HN0wNVpfunM-01, -02, -03, -06, -19, -20 (via the handoff file rekhmire-tomb-brickmaking.yaml)"
     url: ""
@@ -111,29 +192,29 @@ sources:
     title: "N. de G. Davies, The Tomb of Rekh-mi-Re at Thebes, 2 vols (New York: Metropolitan Museum of Art Egyptian Expedition, Publications vol. 11, Plantin Press, 1943), esp. pp. 54-56, plates 58-60"
     url: ""
     document_class: "interpretive: the definitive publication according to Kitchen 1976 n. 17 (that is Kitchen's characterisation)"
-    read: "no. Not located as an open scan. Search results gave library catalogue records only. Whether it is in copyright was not established."
-    authenticity: {status: unchecked, next_step: "Library copy: read pp. 54-56 and plates 58-60, and see how Davies names and identifies the workers."}
+    read: "no. Not located as an open scan. Round 2 (2026-10-16): Open Library records list the 1943 and 1935 Davies titles with no ebook; the Met Publications page for the volume returned a Vercel security checkpoint (HTTP 429), and HathiTrust returned a Cloudflare check page (HTTP 403); neither was bypassed. Rights not established."
+    authenticity: {status: unchecked, next_step: "Library copy: read pp. 54-56 and plates 58-60, and see how Davies names and identifies the workers. Or open the Met Publications page in a browser, where the owner may be able to read it."}
 
   - id: src-davies-1935
     title: "N. de G. Davies, Paintings from the Tomb of Rekh-mi-Re at Thebes (New York: Metropolitan Museum of Art Egyptian Expedition, Publications vol. 10, 1935), plates 16-17"
     url: ""
     document_class: "facsimile plates (copies of the wall by the Davies team)"
-    read: "no. Not located as an open scan."
+    read: "no. Not located as an open scan (see src-davies-1943 for the blocked and empty lookups on 2026-10-16). The Bulletin of the Metropolitan Museum of Art, March 1935, carries a publication notice for it (printed in an issue searched by OCR; the notice's wording was not read closely)."
     authenticity: {status: unchecked, next_step: "Find a scan or library copy; plates 16-17 show the brickmaking scene per Kitchen n. 17."}
 
   - id: src-virey-1889
     title: "Ph. Virey, Le tombeau de Rekhmara, Memoires de la mission archeologique francaise au Caire, V (Paris, 1889)"
     url: ""
-    document_class: "early publication of the whole tomb; judged 'unusable' by Breasted 1906 (section 663 note) and by Newberry as needing a better copy (preface)"
-    read: "no. Not located on the Internet Archive search made."
-    authenticity: {status: unchecked, next_step: "Search Gallica or HathiTrust for the volume and read plate XV and the text on the brickmakers."}
+    document_class: "early publication of the whole tomb; judged 'unusable' by Breasted 1906 (section 663 note) and by Newberry as needing a better copy (preface). Sethe lists it for the brickmaking section as 'Virey, Mem. Miss. 5, pl. 17-18'."
+    read: "no. The Internet Archive holds other volumes of the Memoires (for example volumes 3, 4, 10, 11, 17, 19) but a search on 2026-10-16 found no volume 5. Gallica returned an HTTP 403 check page and was not retried."
+    authenticity: {status: unchecked, next_step: "Open Gallica or HathiTrust in a browser for Memoires V and read plates XIV-XVIII."}
 
-  - id: src-urk-iv
-    title: "K. Sethe, Urkunden der 18. Dynastie (Urk. IV), the Rekhmire texts (hieroglyphic edition; the plates in Newberry carry the heading 'Sethe, Urkunden')"
-    url: ""
-    document_class: "hieroglyphic edition (a copy of the signs, still a claim about the wall)"
-    read: "no. Not located; not opened."
-    authenticity: {status: unchecked, next_step: "Locate the volume and transcribe the labels over the brickmakers (captive label and the 'new storehouse' label)."}
+  - id: src-lepsius-denkmaeler
+    title: "R. Lepsius, Denkmaeler aus Aegypten und Aethiopien (Berlin, 1849-1859), Abth. III Bl. 40-41 (brickmaking scene per Sethe) and Text III p. 270; Internet Archive item denkmaelerausaeg34leps (volumes 3-4, 508 pages)"
+    url: https://archive.org/details/denkmaelerausaeg34leps
+    document_class: "copies of the wall made in 1844-45 by the Prussian expedition (the earliest scene copy that Newberry names); the 270 text page is Lepsius's own description"
+    read: "no. The PDF (30 MB, sha256 6c2b73ef9b1d90108b634d3892970aff727bbca905ce2c338afd9daf8559c85e) was downloaded and its pages 40-103 and some later headers were looked at as thumbnails, and they were text pages about Karnak and West Thebes in Lepsius's handwriting. The pages for Abth. III Bl. 40-41 and Text III p. 270 were not located in this volume and nothing from it is used. The OCR is too poor to search."
+    authenticity: {status: unchecked, next_step: "Find Abth. III Bl. 40-41 in the plate volumes (item denkmaelerausaeg05leps or the Halle digital copy) and Text III p. 270."}
 
   - id: src-newberry-heidelberg
     title: "Heidelberg University Library digital copy of Newberry 1900 (digi.ub.uni-heidelberg.de/diglit/newberry1900)"
@@ -144,8 +225,14 @@ sources:
   - id: src-met-web-page
     title: "Metropolitan Museum web page for object 544649 (www.metmuseum.org/art/collection/search/544649)"
     url: https://www.metmuseum.org/art/collection/search/544649
-    read: "no. BLOCKED, HTTP 429 Too Many Requests on the page fetch. Not retried. (The Open Access API record was read separately: src-met-facsimile-30-4-77.)"
+    read: "no. BLOCKED, HTTP 429 Too Many Requests on the page fetch on 2026-10-14. Not retried. (The Open Access API record was read separately: src-met-facsimile-30-4-77.) On 2026-10-16 the Met Publications page returned a Vercel security checkpoint (HTTP 429); not retried."
     authenticity: {status: unchecked, next_step: "Open in a browser to read the museum's description text and the image rights statement."}
+
+  - id: src-blocked-2026-10-16
+    title: "Hosts that blocked or refused on 2026-10-16 (a list, not a source): HathiTrust catalog (HTTP 403, Cloudflare 'Just a moment'), Gallica search (HTTP 403), Brill open-access title page (HTTP 403), OAPEN library API ('You address is not allowed to access this API'), Google Books API (HTTP 429, daily quota), Met Publications (HTTP 429, Vercel checkpoint)"
+    url: ""
+    read: "no. Each was asked once, not retried and not bypassed."
+    authenticity: {status: not_applicable, next_step: "Owner or another reader opens these in a browser if the books are wanted: Davies 1943, Virey 1889, Hornung, Krauss and Warburton 2006."}
 
   - id: src-ia-rekhmiretomb
     title: "Internet Archive item 'rekhmire tomb' (identifier RekhmireTomb), uploaded 2009 by an individual; metadata language Arabic"
@@ -154,7 +241,7 @@ sources:
     authenticity: {status: unchecked, next_step: "Open the PDF; do not use it unless it can be identified as a copy of a published work and its rights are clear."}
 
   - id: src-search-snippets
-    title: "Web-search result snippets seen but not opened: egypt-museum.com 'Nubian and Asiatic captives at work'; Biblical Archaeology Review library page; egyptianimports.com blog"
+    title: "Web-search result snippets seen but not opened: egypt-museum.com 'Nubian and Asiatic captives at work'; Biblical Archaeology Review library page; egyptianimports.com blog; and (2026-10-16) search-result summaries of chronology papers (Bronk Ramsey and others 2010, Aston, Quiles and others)"
     url: ""
-    read: "no. Search-engine summaries only (they gave an alternative wording 'The captives that His Majesty has bought back to work in the temple of Amun'); the pages were not opened. Not used as anchors."
+    read: "no. Search-engine summaries only (they gave an alternative wording 'The captives that His Majesty has bought back to work in the temple of Amun'); the pages were not opened, apart from Aston's paper which is src-aston-2013. Not used as anchors."
     authenticity: {status: unchecked, next_step: "Open only to see what they cite; they are not evidence."}

@@ -1,0 +1,79 @@
+timeline:
+  id: rekhmire-tomb-brickmaking
+  title: "The Rekhmire brickmaking scene: the competing reign dates, and who copied and published it (1500 BCE to 2013 CE)"
+  as_of: "2026-10-16"
+  note: >
+    Dates before the common era are negative years. The reign dates of Thutmose III differ between published schemes; each scheme is its own dot, all from one source that reports them (Aston 2013), none from an original table,
+    so every ancient dot is drawn single-source or disputed. No date for the painting itself was found in any text read; the dot for the tomb is the spread of the three career dates read (shared node). Modern dates are title-page, preface or publisher-metadata dates
+    of the works read; where a date is approximate the label says so. The Dead Hidden video's upload date is not drawn: it was taken from another dig's file and not checked (see transmission.yaml tx-rk-04).
+panels:
+  - id: ancient
+    title: "Panel A: 1520 to 1400 BCE, the reign-date schemes (one tick per ten years)"
+    start: "-1520-01-01T00:00:00Z"
+    end:   "-1400-01-01T00:00:00Z"
+    tick_years: 10
+    lanes: [ancient]
+  - id: modern
+    title: "Panel B: 1820 to 2020, copies, editions and writing about the scene (one tick per twenty years)"
+    start: "1820-01-01T00:00:00Z"
+    end:   "2020-01-01T00:00:00Z"
+    tick_years: 20
+    lanes: [modern]
+lanes:
+  ancient: {label: "Reigns and the tomb (dates differ by scheme)"}
+  modern:  {label: "Copies, editions and writing about the scene"}
+sources:
+  s_aston:    {title: "D. A. Aston, Radiocarbon, Wine Jars and New Kingdom Chronology (c) 2013, pp. 289-315; reports the schemes of Krauss, Krauss and Warburton, Bronk Ramsey and others, Huber", url: "https://austriaca.at/0xc1aa5572%200x00308d5a.pdf", authenticity: "PDF read; reports others' tables, originals not opened (manifest src-aston-2013)"}
+  s_newberry: {title: "P. E. Newberry, The Life of Rekhmara (Constable, 1900), Internet Archive scan; pp. 12-13 (history of the copies), preface", url: "https://archive.org/details/TheLifeOfRekhmara", authenticity: "authenticated edition, moderate (manifest src-newberry-1900)"}
+  s_breasted: {title: "J. H. Breasted, Ancient Records of Egypt II (University of Chicago Press, March 1906), title page", url: "https://archive.org/details/ancientrecordsof02brea", authenticity: "authenticated edition, moderate (manifest src-breasted-are2)"}
+  s_sethe:    {title: "K. Sethe, Urkunden der 18. Dynastie IV (Hinrichs, Leipzig, 1909), title page; pp. 1151-1155", url: "https://archive.org/details/urkunden-de-18.-dynastie.-vierter-band", authenticity: "authenticated edition, moderate (manifest src-urk-iv)"}
+  s_davies30: {title: "N. de G. Davies, essay in The Egyptian Expedition 1929-1930, Bulletin of the Metropolitan Museum of Art, Dec. 1930", url: "https://archive.org/details/sim_metropolitan-museum-of-art-new-york-bulletin_1930-12_25_12", authenticity: "authenticated, moderate (manifest src-met-bulletin-1930-12)"}
+  s_kitchen:  {title: "K. A. Kitchen, From the Brickfields of Egypt, Tyndale Bulletin 27(1), 1976; note 17 lists Davies 1935 and 1943", url: "https://tyndalebulletin.org/article/30629", authenticity: "authenticated, moderate; year from the publisher's landing page metadata (manifest src-kitchen-1976)"}
+events:
+  - {id: a1, panel: ancient, lane: ancient, time: "-1479-01-01T00:00:00Z", end: "-1425-01-01T00:00:00Z", precision: year, kind: analysis, status: disputed, sources: [s_aston],
+     label: "1479-1425 BCE: reign of Thutmose III, conventional low chronology (Krauss 2007, as tabulated by Aston)",
+     detail: "Aston calls this the conventional low chronology. Rekhmire held office from about year 32 of Thutmose III to early in the reign of Amenhotep II (Newberry p. 14, relative dates only)."}
+  - {id: a2, panel: ancient, lane: ancient, time: "-1468-01-01T00:00:00Z", end: "-1415-01-01T00:00:00Z", precision: year, kind: analysis, status: disputed, sources: [s_aston],
+     label: "1468-1415 BCE: reign of Thutmose III, Krauss and Warburton 2009 (as reported by Aston)",
+     detail: "Aston adds that in October 2012 Krauss told him he no longer believes in this chronology, and that it has not found much favour among Egyptologists (his words)."}
+  - {id: a3, panel: ancient, lane: ancient, time: "-1494-01-01T00:00:00Z", end: "-1483-01-01T00:00:00Z", precision: range, kind: analysis, status: disputed, sources: [s_aston],
+     label: "1494-1483 BCE: accession of Thutmose III, 2010 radiocarbon model (68% interval, as reported by Aston)",
+     detail: "Bronk Ramsey and others, Science 328 (2010); the 95% interval is 1498-1474 BCE. Aston reports that Huber dismissed it."}
+  - {id: a4, panel: ancient, lane: ancient, time: "-1504-01-01T00:00:00Z", precision: year, kind: analysis, status: disputed, sources: [s_aston],
+     label: "1504 BCE: accession of Thutmose III in Huber's astronomical chronology (as reported by Aston)",
+     detail: "Aston writes that he places no faith in Huber's chronology (note 12)."}
+  - {id: a5, panel: ancient, lane: ancient, node: object-rekhmire-tt100-brickmaking-scene, rev: 2, note: "Marker is Kitchen's c. 1450 BC for Rekhmire; the window is the spread of the three career dates read (Newberry 1471-1448, Kitchen c. 1450, Met 1479-1425). No date for the painting itself was found."}
+  - {id: m1, panel: modern, lane: modern, time: "1832-07-01T00:00:00Z", precision: year, kind: document, status: single, sources: [s_newberry],
+     label: "1832: Bonomi and Hay's staff copy about half the tomb's paintings (British Museum, Hay MSS)",
+     detail: "Newberry p. 12: coloured drawings by Bonomi, outline tracings by Hay and copies of the inscriptions. Which scenes were copied was not read here."}
+  - {id: m2, panel: modern, lane: modern, time: "1842-07-01T00:00:00Z", precision: approx, kind: document, status: single, sources: [s_newberry],
+     label: "About 1842: Lepsius's expedition copies the brickmakers' and sculptors' scenes (Denkmaeler III 40-41)",
+     detail: "Newberry p. 13 says 'ten years after Hoskins' visit' (Hoskins was there in winter 1832), so the year is approximate; the Lepsius plates were not opened."}
+  - {id: m3, panel: modern, lane: modern, time: "1889-01-01T00:00:00Z", precision: year, kind: document, status: single, sources: [s_newberry],
+     label: "1888-1889: Virey commissioned to facsimile the tomb; published 1889 (Mission francaise, vol. 5)",
+     detail: "Newberry p. 13; Breasted calls Virey's publication 'unusable' (section 663 note). Virey was not opened."}
+  - {id: m4, panel: modern, lane: modern, time: "1896-01-01T00:00:00Z", precision: year, kind: document, status: single, sources: [s_newberry],
+     label: "1896: Spiegelberg checks Newberry's copy of the vizier's duties text against the original at Thebes",
+     detail: "Newberry's preface. About the long duties inscription, not the brickmaking scene."}
+  - {id: m5, panel: modern, lane: modern, time: "1900-01-01T00:00:00Z", precision: year, kind: document, status: single, sources: [s_newberry],
+     label: "1900: Newberry, The Life of Rekhmara, with outline tracings (plates XIX-XXI for the brickmakers)",
+     detail: "Prints the 'captives brought by his Majesty' translation and the 'slaves (?)' line (p. 38), and calls the temple's prisoners slaves in his introduction (p. 19)."}
+  - {id: m6, panel: modern, lane: modern, time: "1906-03-01T00:00:00Z", precision: month, kind: document, status: single, sources: [s_breasted],
+     label: "March 1906: Breasted, Ancient Records of Egypt II, sections 756-759 translate the labels",
+     detail: "Title page 'published March 1906'. Adds the 'Semitic foreigners' and the Hebrews remark."}
+  - {id: m7, panel: modern, lane: modern, time: "1909-01-01T00:00:00Z", precision: year, kind: document, status: single, sources: [s_sethe],
+     label: "1909: Sethe, Urkunden der 18. Dynastie IV, prints the labels in hieroglyphs (pp. 1151-1155)",
+     detail: "Lists Newberry, Virey and Lepsius as his earlier publications of the scene. Heads one label 'Die Ziegel werden von Ausländern hergestellt'."}
+  - {id: m8, panel: modern, lane: modern, node: rekhmire-1930-met-accessions-brickmakers-facsimile, rev: 1, note: "Nina de Garis Davies facsimile of the brickmakers accessioned by the Met in 1930."}
+  - {id: m9, panel: modern, lane: modern, time: "1930-12-01T00:00:00Z", precision: month, kind: document, status: single, sources: [s_davies30],
+     label: "December 1930: Davies's essay on the reliability of Egyptian pictures of foreigners (Met Bulletin)",
+     detail: "Mentions the tomb of Rekhmire's foreigners' row and uses 'slave' of Syrians in Egypt; does not discuss the brickmakers."}
+  - {id: m10, panel: modern, lane: modern, time: "1943-01-01T00:00:00Z", precision: year, kind: document, status: single, sources: [s_kitchen],
+     label: "1935 and 1943: Davies, Paintings from the Tomb (1935) and The Tomb of Rekh-mi-Re (1943); not opened",
+     detail: "Dates and titles from Kitchen's note 17, drawn at 1943; the 1935 volume is plates 16-17 and the 1943 text pp. 54-56 and plates 58-60 of the scene. Neither volume was opened."}
+  - {id: m11, panel: modern, lane: modern, time: "1976-05-01T00:00:00Z", precision: month, kind: document, status: single, sources: [s_kitchen],
+     label: "May 1976: Kitchen, From the Brickfields of Egypt, names Syrians, Nubians and Egyptians among the workers",
+     detail: "Date from the publisher's landing-page metadata, read 2026-10-16."}
+  - {id: m12, panel: modern, lane: modern, time: "2013-01-01T00:00:00Z", precision: year, kind: analysis, status: single, sources: [s_aston],
+     label: "2013: Aston tabulates the competing chronologies of the 18th Dynasty",
+     detail: "The source for the four ancient reign-date dots above."}
