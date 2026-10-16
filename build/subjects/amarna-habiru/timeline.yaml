@@ -6,7 +6,7 @@ timeline:
     Dates before the common era are written as negative years. Panel A shows the ranges the sources read give for the Hyksos period, the conquest of Avaris and the
     Jerusalem letters; where sources give different figures the event is marked disputed and the detail lists them. None of these is measured here: they are
     what the papers and the 1915 edition state. Panel B shows when the find was reported and when the editions and reports read were made. The two shared nodes
-    (the find, and the letters) are pinned at rev 2.
+    (the find, and the letters) are pinned at their current revs (rev 3 of each node).
 panels:
   - id: bronze
     title: "Panel A: 1650 to 1330 BCE (one tick per 20 years)"
@@ -53,9 +53,9 @@ events:
   - {id: a4, panel: bronze, lane: egypt, time: "-1550-01-01T00:00:00Z", precision: approx, kind: analysis, status: reported, sources: [s_stantis],
      label: "After around 1550 BCE: Tell el-Dab'a (Avaris) largely abandoned, as Stantis et al. write",
      detail: "'The city was later largely abandoned after around 1550 BCE, following the campaigns of the southern Theban Kingdom'."}
-  - {id: a5, panel: bronze, lane: letters, node: amarna-ea-286-287-habiru-passages, rev: 2,
+  - {id: a5, panel: bronze, lane: letters, node: amarna-ea-286-287-habiru-passages, rev: 3,
      note: "The window is Knudtzon's own range for Amenophis IV (about 1385-1368 BCE), reached through a chain with an 'if' in it; Lehmann's and Lieblein's figures, as he reports them, differ; no modern chronology for these reigns was read."}
-  - {id: b1, panel: modern, lane: find, node: amarna-1887-letters-found-at-el-amarna, rev: 2,
+  - {id: b1, panel: modern, lane: find, node: amarna-1887-letters-found-at-el-amarna, rev: 3,
      note: "Budge: 'became known' towards the end of summer 1887; Winckler: found at the beginning of winter 1887/88. The month is not fixed."}
   - {id: b2, panel: modern, lane: find, time: "1888-02-18T12:00:00Z", precision: day, kind: document, status: single, sources: [s_budge],
      label: "18 February 1888: Sayce announces in the Academy that 200 cuneiform tablets have been offered for sale in Cairo",

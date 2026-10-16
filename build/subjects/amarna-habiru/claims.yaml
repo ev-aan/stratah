@@ -9,8 +9,8 @@ headline_claim: amarna-286-knudtzon-habiru-plunder
 headline_status: draft
 search_summary: The Amarna letters are cuneiform letters sent to the Egyptian court by Asiatic rulers, found at el-Amarna in 1887/88. In Knudtzon's 1915
   edition, read on page images, five letters from Abdi-Heba of Jerusalem (286 to 290) say the Habiru plunder the king's lands, take his cities, and were
-  given land by named rivals. No passage read has Canaanite cities capturing them or links them to the Hyksos, and the letters are not Egyptian records.
-  The tablets, their photographs and any modern edition were not read; the date of the letters and the Habiru's identity are open.
+  given land by rulers named by the writer. No passage read has Canaanite cities capturing them or links them to the Hyksos, and the letters are not Egyptian
+  records. The tablets, their photographs and any modern edition were not read; the date of the letters and the Habiru's identity are open.
 description: 'Second round of the dig on the Amarna Habiru passages, after the review on PR 28. READ DIRECTLY (page images opened and read): Knudtzon 1915
   vol. 1 (the preface, introduction pp. 4-5, 27, 38, 45-53 and the letters 286-290 on pp. 861-877); Winckler 1889 (preface and inventory, plus the hand-copy
   plates 102 and 103 as images, from which no sign could be read); Budge, PSBA 10 (1888) p. 540; Sayce, PSBA 10 p. 496; Petrie, Tell el Amarna (1894) section
@@ -36,15 +36,15 @@ assessment:
     of the book. They say the Habiru plunder all the king''s lands (286, 56), are the ones to whom named rulers (Milkilu, the sons of Labaya, Labaya with
     the land of Shechem) gave the king''s land (287, 289), take the king''s cities (288) and that the land falls away to them if no troops come (290). In
     none of the passages read is a city the one that captures them; in letter 287 the lands of Gezer, Ashkelon and Lachish are said to have given ''them''
-    food, and the printed lines do not name the receivers. These are statements by one writer who says he is slandered, and the edition''s commentary says
-    accusations of this kind must be read critically. The letters are written to the king by a ruler of Jerusalem, so they are not ''Egyptian records''.
-    The speaker''s date is not excluded: on Knudtzon''s 1915 estimate the letters fall about 1385 to 1368 BCE, and modern chronologies of Ahmose''s conquest
-    of Avaris range from about 1562 to 1506, but no modern date for the letters was read, so the 150 years could not be tested. Whether the Habiru were
-    a people, the Hebrews, a Kassite group, Bedouin or a common noun (''allies'') is a live dispute among the 1888-1915 scholars read here; none of them
-    equates the Habiru with the Hyksos. The tablets (Berlin VA Th. 1642 and 1644) and any photograph of them were not opened: CDLI returned HTTP 500 and
-    no museum photograph was reached. The 1889 hand-copy plates were opened but no sign could be read from them. Moran''s 1992 edition, a current chronology
-    and any modern study of the habiru were not read, so every position after 1915 is missing. The claims about the letters are therefore about what one
-    1915 edition prints, not about what the tablets show.'
+    food, and the printed lines do not name the receivers. These are statements by one writer who says he is slandered, and the vol. 2 commentary says,
+    of the writer''s sentence about the Rabis and the regents (286, 16ff.), that denunciations of this kind must be viewed very critically. The letters
+    are written to the king by a ruler of Jerusalem, so they are not ''Egyptian records''. The speaker''s date is not excluded: on Knudtzon''s 1915 estimate
+    the letters fall about 1385 to 1368 BCE, and modern chronologies of Ahmose''s conquest of Avaris range from about 1562 to 1506, but no modern date for
+    the letters was read, so the 150 years could not be tested. Whether the Habiru were a people, the Hebrews, a Kassite group, Bedouin or a common noun
+    (''allies'') is a live dispute among the 1888-1915 scholars read here; none of them equates the Habiru with the Hyksos. The tablets (Berlin VA Th. 1642
+    and 1644) and any photograph of them were not opened: CDLI returned HTTP 500 and no museum photograph was reached. The 1889 hand-copy plates were opened
+    but no sign could be read from them. Moran''s 1992 edition, a current chronology and any modern study of the habiru were not read, so every position
+    after 1915 is missing. The claims about the letters are therefore about what one 1915 edition prints, not about what the tablets show.'
   key_points:
   - Knudtzon's edition has the Habiru plunder (286), take cities (288) and be given land by named rulers (287, 289); no passage read has cities capturing
     them.
@@ -121,8 +121,8 @@ claims:
     - *id001
     accessible: true
   basis: '# V: page image read 2026-10-16. The sentence is the writer''s own report of what he will say, in a letter in which he says he is slandered; the
-    vol. 2 commentary (OCR, see amarna-knudtzon-v2-notes-on-habiru) adds that accusations of this kind in the Amarna letters must be viewed critically.
-    This claim records the wording only.'
+    vol. 2 commentary (OCR, see amarna-knudtzon-v2-notes-on-habiru), on this very sentence about the Rabis and the regents (286, 16ff.), says denunciations
+    of this kind in the Amarna letters must be viewed very critically (''sehr kritisch angesehen werden müssen''). This claim records the wording only.'
   adoption_weight: null
   adoption_note: 'Not measured: no count or survey of who holds this was read.'
 - id: amarna-287-knudtzon-cities-gave-land-to-habiru
@@ -130,7 +130,7 @@ claims:
   statement: 'In Knudtzon''s 1915 edition of letter 287 (Abdi-Heba to the king; headed ''B 1644, WA 103, W 180''), the translation at lines 29-31 reads:
     ''Siehe, diese Tat ist die Tat Milkilis und die Tat der Söhne Labajas, welche gegeben haben das Land des Königs den Ḫabiru'' (the deed of Milkilu and
     of the sons of Labaya, who have given the land of the king to the Habiru); the transliteration at lines 29-31 reads ip-ši ¹mil-ki-ili ù ip-ši mârē la-ab-a-ja
-    ša na-ad-nu mât šarri amêlûtuḫa-bi-ri. The givers named are two rulers, not cities.'
+    ša na-ad-nu mât šarri amêlûtuḫa-bi-ri. The writer says two rulers, Milkilu and the sons of Labaya, gave the land; he names no city as the giver.'
   statement_kind: reported
   evidence_class: interpretive
   confidence: moderate
@@ -147,8 +147,8 @@ claims:
     nodes:
     - *id001
     accessible: true
-  basis: '# V: page images read 2026-10-16. Here the Habiru are the receivers of land from named rivals of the writer; the statement is the writer''s accusation
-    in his own letter.'
+  basis: '# V: page images read 2026-10-16. Here the Habiru are the receivers of land from two rulers named by the writer (Milkilu and the sons of Labaya);
+    the statement is the writer''s own, in his own letter.'
   adoption_weight: null
   adoption_note: 'Not measured: no count or survey of who holds this was read.'
 - id: amarna-287-knudtzon-gezer-ashkelon-lachish-provisions
@@ -166,17 +166,15 @@ claims:
   anchor:
     type: primary_text
     description: 'Opened the page images of printed pp. 864-865 and read lines 5-19 of the transliteration and translation (lines 5-10 are broken). Lines
-      17-19 go on: ''So sorge der König für Feldtruppen! Er sende Feldtruppen gegen die Leute, die Frevel gegen den König, meinen Herrn, verüben!''. The
-      commentary in vol. 2 (OCR) summarises lines 14-16 as ''Die Länder von Gazri, Askalon, Lakis hätten (den Habiru) Lebensmittel gegeben'', with the Habiru
-      in brackets as the commentator''s reading.'
+      17-19 go on: ''So sorge der König für Feldtruppen! Er sende Feldtruppen gegen die Leute, die Frevel gegen den König, meinen Herrn, verüben!''. '
     sources:
     - src-knudtzon-1915-v1
-    - src-knudtzon-1915-v2-weber-ebeling
     nodes:
     - *id001
     accessible: true
-  basis: '# V: vol. 1 page images read 2026-10-16; vol. 2 note read in OCR only. This is the one passage read in which cities of Canaan and the Habiru are
-    named near each other, and the printed text does not name the receivers.'
+  basis: '# V: vol. 1 page images read 2026-10-16. The vol. 2 commentary''s reading of ''ihnen'' as the Habiru (OCR only) is recorded in the commentary
+    claim, not here. This is the one passage read in which cities of Canaan and the Habiru are named near each other, and the printed text does not name
+    the receivers.'
   adoption_weight: null
   adoption_note: 'Not measured: no count or survey of who holds this was read.'
 - id: amarna-288-knudtzon-habiru-take-cities
@@ -253,9 +251,9 @@ claims:
   adoption_note: 'Not measured: no count or survey of who holds this was read.'
 - id: amarna-knudtzon-habiru-only-in-abdi-heba-letters
   state: established
-  statement: 'Knudtzon''s 1915 introduction says the Habiru are named in seven to eight places, all in letters from Jerusalem (pp. 46 and 52, and the note
-    on p. 51: the name occurs ''nur in den Briefen des Abdihiba von Jerusalem''), and that the (SA.)GAZ people, whom he thinks ''sachlich identisch'' with
-    them, are mentioned ''überaus häufig'' (p. 49) in letters from many writers.'
+  statement: 'Knudtzon''s 1915 introduction says the Habiru are named in seven to eight places, all in letters from Jerusalem (pp. 46 and 52, and in the
+    main text of p. 51, a rhetorical question: why would the right name occur ''nur in den Briefen des Abdihiba von Jerusalem''?), and that the (SA.)GAZ
+    people, whom he thinks ''sachlich identisch'' with them, are mentioned ''überaus häufig'' (p. 49); the page does not say in whose letters.'
   statement_kind: reported
   evidence_class: interpretive
   confidence: moderate
@@ -278,9 +276,9 @@ claims:
 - id: amarna-letters-are-from-asiatic-rulers-to-egypt
   state: established
   statement: Winckler's 1889 preface describes the Berlin tablets as 'Briefe asiatischer Fürsten und Statthalter an den ägyptischen Hof des XV. Jahrhunderts'
-    (letters of Asiatic princes and governors to the Egyptian court of the 15th century), found at el-Amarna. His inventory lists 102 (VA Th. 1642) and
-    103 (VA Th. 1644) as 'Ardu-hi-ba an den König', and Knudtzon's headings read 'Abdihiba von Jerusalem an den König'. The 1889 preface says 15th century;
-    Knudtzon (1915) puts the letters of this writer about 1385-1368 BCE, which is the 14th.
+    (letters of Asiatic princes and governors to the Egyptian court of the 15th century), found at el-Amarna. His inventory lists 102 (VA Th. 1642) as 'Ardu(-Abd?-)hi-ba
+    an den König' and 103 (VA Th. 1644) as 'Ardu-hi-ba an den König', and Knudtzon's headings read 'Abdihiba von Jerusalem an den König'. The 1889 preface
+    says 15th century; Knudtzon (1915) puts the letters of this writer about 1385-1368 BCE, which is the 14th.
   statement_kind: reported
   evidence_class: interpretive
   confidence: moderate
@@ -386,8 +384,8 @@ claims:
   adoption_note: 'Not measured: no count or survey of who holds this was read.'
 - id: amarna-petrie-1891-92-costs
   state: proposed
-  statement: Petrie's 1894 report (in its section on the site) says that Mr. Haworth and Mr. Kennard joined with him in the cost of the excavations at Tell
-    el Amarna and that a part of the site was worked by Mr. Carter on behalf of Lord Amherst of Hackney.
+  statement: Petrie's 1894 report (in its preface) says that Mr. Haworth and Mr. Kennard joined with him in the cost of the excavations at Tell el Amarna
+    and that a part of the site was worked by Mr. Carter on behalf of Lord Amherst of Hackney.
   statement_kind: reported
   evidence_class: primary_text
   confidence: low
@@ -396,8 +394,8 @@ claims:
   would_change_if: a page image of the passage reads differently, or a funder's record is read
   anchor:
     type: primary_text
-    description: Read in the Internet Archive OCR text of Petrie 1894 (the section 'The site'); the page image was not opened. The passage is Petrie's own
-      account of who shared the cost.
+    description: Read in the Internet Archive OCR text of Petrie 1894 (the preface); the page image was not opened. The passage is Petrie's own account
+      of who shared the cost.
     sources:
     - src-petrie-1894
     accessible: true
@@ -450,8 +448,9 @@ claims:
     sources:
     - src-knudtzon-1915-v2-weber-ebeling
     accessible: true
-  basis: '# V: OCR read 2026-10-16. The commentators are different authors from Knudtzon (vol. 1) and write in the same 1915 publication. The sentence that
-    denunciations in these letters must be read critically is part of the note and cuts against taking the writer''s statements at face value.'
+  basis: '# V: OCR read 2026-10-16. The commentators are different authors from Knudtzon (vol. 1) and write in the same 1915 publication. The commentary''s
+    sentence ''in den EA-Briefen Denunziationen dieser Art sehr kritisch angesehen werden müssen'' follows its remark on 286, 16ff. (the Rabis who loves
+    the Habiru and hates the regents, as the writer says); it is quoted here with that scope and is not extended to the other statements in the letters.'
   adoption_weight: null
   adoption_note: 'Not measured: no count or survey of who holds this was read.'
 - id: amarna-abdi-heba-letters-date-knudtzon
@@ -556,10 +555,11 @@ claims:
   adoption_note: 'Not measured: no count or survey of who holds this was read.'
 - id: amarna-habiru-identity-positions-1888-1915
   state: contested
-  statement: 'In the sources read from 1888 to 1915, the Habiru of the Jerusalem letters are taken as: a people or group of tribes who had entered the land
-    (Knudtzon, who thinks they may be the Hebrews); the Hebrews, with the Habiru name ''sachlich identisch'' with the SA.GAZ people (Knudtzon, the vol.
-    2 commentary, Winckler; Jensen doubts the Hebrew link); a Kassite-origin group (Halévy, Scheil, Hilprecht, Peiser, as Knudtzon reports them; Knudtzon
-    rejects this); the Shasu Bedouin of Seti I (Breasted); or a common noun, ''confederates'' or ''allies'' (Sayce, W. Max Müller, formerly Winckler).'
+  statement: 'In the sources read from 1888 to 1915, the Habiru of the Jerusalem letters are taken as: the Hebrews, a people or tribes that had entered
+    the land, with the Habiru ''sachlich identisch'' with the SA.GAZ people (Knudtzon: ''Ich möchte also, was auch Winckler jetzt tut, ḫabir(u) für עברים
+    halten''; Winckler; the vol. 2 commentary; Jensen doubts the Hebrew link); a Kassite-origin group (Halévy, Scheil, Hilprecht, Peiser, as Knudtzon reports
+    them; Knudtzon rejects this); the Shasu Bedouin of Seti I (Breasted); or a common noun, ''confederates'' or ''allies'' (Sayce, W. Max Müller, formerly
+    Winckler).'
   statement_kind: judgment
   evidence_class: interpretive
   confidence: low
@@ -568,14 +568,14 @@ claims:
   would_change_if: the cited works and a modern edition with its introduction (Moran 1992 or an open equivalent) are read and the occurrences of the name
     are counted by context and date
   positions:
-  - label: A people or tribes that had entered the land; possibly the Hebrews
+  - label: A people or tribes that had entered the land, to be taken as the Hebrews
     holder: J. A. Knudtzon, 1915 (read on the page images, pp. 46-48, 51-53)
     ground: A place-determinative follows the Habiru name at 289,24, so the name is a people's, not a common noun; the Habiru are set against the native
-      population. He finds little to object to in Conder's and Zimmern's equation with the Hebrews on historical or linguistic grounds, says 'Hebrews' may
-      have covered more than in the Old Testament, and calls a Habiru immigration considerably older than the Israelites' 'ziemlich bedenklich' because
-      1 Kings 6:1 puts the Israelite entry several years before the time he gives for the Habiru; with the 480 years of that verse reduced by 20-30 the
-      two entries could be one, 'was wohl zu erwägen ist'; he says we do not know where they came from, and that they had not been long in the land at the
-      time of these letters.
+      population. He writes 'Dagegen läßt sich kaum etwas einwenden' against Conder's and Zimmern's equation with the Hebrews, on historical or linguistic
+      grounds, and 'Ich möchte also, was auch Winckler jetzt tut, ḫabir(u) für עברים halten' (p. 48); he says 'Hebrews' may have covered more than in the
+      Old Testament, and calls a Habiru immigration considerably older than the Israelites' 'ziemlich bedenklich' because 1 Kings 6:1 puts the Israelite
+      entry several years before the time he gives for the Habiru; with the 480 years of that verse reduced by 20-30 the two entries could be one, 'was
+      wohl zu erwägen ist'; he says we do not know where they came from, and that they had not been long in the land at the time of these letters.
   - label: The Habiru name reads for the logogram SA.GAZ; identity with the Hebrews settled
     holder: Winckler (via the vol. 2 commentary, OCR) and the commentators of vol. 2 (Weber and Ebeling), 1915
     ground: 'Boghazköy treaties: ''ilâni ḫa-bi-ri'' in one and ''ilâni SA.GAZ'' in two others in parallel places. The commentary adds that Jensen disputes
@@ -598,7 +598,8 @@ claims:
   disputed_by:
   - who: Knudtzon (1915) against the Kassite and common-noun readings
     kind: work
-    position: a people or tribes, possibly the Hebrews; not Kassites; not only a common noun
+    position: a people or tribes that had entered the land, the Hebrews ('Ich möchte also ... ḫabir(u) für עברים halten', p. 48); not Kassites; not only
+      a common noun
     source_read: yes (page images)
     via: Knudtzon pp. 46-48
   - who: Jensen (1909) against the Habiru-Hebrew identity
@@ -739,10 +740,11 @@ claims:
   absence_anchor: true
   anchor:
     type: search-record
-    description: 'Read in Breasted''s 1906 translations: the biography of Ahmose son of Ebana (sections 8-15, page image of p. 7), Seti I''s Karnak inscription
-      (sections 98-103, page images of pp. 50 and 52) and the OCR of volumes 2-4 searched for ''Apiru'', ''Aperu'', ''Khabiri'' and ''Habiru'': the only
-      hit is Breasted''s own comment in section 99 (see amarna-habiru-identity-positions-1888-1915). The letters read (286-290) are letters to Egypt from
-      the ruler of Jerusalem, not records made by Egyptians. Egyptian texts that name the Apiru are known to this author only from memory and were not read.'
+    description: 'Read in Breasted''s 1906 translations: the biography of Ahmose son of Ebana (sections 9-12 on p. 7 viewed as a page image; sections 8
+      and 13-15 on pp. 6 and 8 read in OCR only), Seti I''s Karnak inscription (sections 98-103, page images of pp. 50 and 52) and the OCR of volumes 2-4
+      searched for ''Apiru'', ''Aperu'', ''Khabiri'' and ''Habiru'': the only hit is Breasted''s own comment in section 99 (see amarna-habiru-identity-positions-1888-1915).
+      The letters read (286-290) are letters to Egypt from the ruler of Jerusalem, not records made by Egyptians. Egyptian texts that name the Apiru are
+      known to this author only from memory and were not read.'
     sources:
     - src-breasted-are2
     - src-breasted-are3
@@ -769,14 +771,18 @@ claims:
     description: 'Searched: every place Knudtzon lists for the Habiru name (286,19; 286,56; 287,31; 288,38; 289,24; 290,13 and 24, plus the query at 288,44)
       was read on the page images. The verbs are: plunder (286), are given the king''s land by named rulers (287, 289), take the king''s cities (288), the
       land falls away to them (290). In none is a city or its ruler the one that captures the Habiru. Letters in which the SA.GAZ people appear were not
-      read.'
+      read. Knudtzon himself (p. 52) says a testimony of the Habiru''s appearance near Lachish may perhaps be found at 288, 43f. ("vielleicht findet sich
+      auch ein Zeugnis von ihrem Auftreten in der Nähe von Lakis"). On the page image of p. 871 the translation of lines 43-45 reads ''Siehe, Zimrida von
+      Lakis, ihn haben Diener geopfert, welche sich angeschlossen haben den Iaptiḫ-Adda'', with the Habiru name only as a bracketed restoration at the end
+      of line 45 (and in the transliteration, p. 870); this is Knudtzon''s tentative reading and is recorded here as his, not as a text in which a city
+      captures the Habiru.'
     sources:
     - src-knudtzon-1915-v1
     nodes:
     - *id001
     accessible: true
-  basis: '# V: absence in the letters read; the writer is one party in each letter (see amarna-knudtzon-v2-notes-on-habiru for the caution on his accusations).
-    Not called refuted: the evidence is an editor''s printed text, not the tablets.'
+  basis: '# V: absence in the letters read; the writer is one party in each letter (see amarna-knudtzon-v2-notes-on-habiru for the commentary''s caution
+    on the 286, 16ff. sentence). Not called refuted: the evidence is an editor''s printed text, not the tablets.'
   adoption_weight: null
   adoption_note: 'Not measured: no count or survey of who holds this was read.'
 - id: amarna-sp-khapiru-captured-canaanite-cities
@@ -794,8 +800,9 @@ claims:
     type: interpretive
     description: In Knudtzon's 1915 edition (page images read) letter 288, line 38 has 'Jetzt aber nehmen die Ḫabiru die Städte des Königs', letter 286
       line 56 'Die Ḫabiru plündern alle Länder des Königs', and letter 290 'Abgefallen ist das Land des Königs zu den Ḫabiru'. These are statements by one
-      party, Abdi-Heba, who says he is slandered; the vol. 2 commentary (OCR) says accusations of this kind must be viewed critically. No second source
-      for the events was read.
+      party, Abdi-Heba, who says he is slandered; the vol. 2 commentary (OCR) says, of the writer's complaint about the Rabis and the regents at 286, 16ff.,
+      that denunciations of this kind must be viewed very critically; it does not say this of the Habiru statements. No second source for the events was
+      read.
     sources:
     - src-knudtzon-1915-v1
     - src-knudtzon-1915-v2-weber-ebeling
@@ -898,7 +905,8 @@ claims:
     type: interpretive
     description: 'Read in Bruins and van der Plicht (2025) Table 2 the six conquest dates; Stantis et al. (2020) say Avaris was ''largely abandoned after
       around 1550 BCE'' after the Theban campaigns. 1550 lies inside the span of the six dates. ''Exile'' is the speaker''s word: Ahmose son of Ebana''s
-      biography in Breasted''s translation (sections 12 and 13) says Avaris was captured and Sharuhen besieged six years and does not use the word.'
+      biography in Breasted''s translation (section 12 viewed as an image, section 13 in OCR) says Avaris was captured and Sharuhen besieged six years and
+      does not use the word.'
     sources:
     - src-bruins-vanderplicht-2025
     - src-stantis-2020
@@ -923,10 +931,11 @@ claims:
   absence_anchor: true
   anchor:
     type: search-record
-    description: 'Searched Breasted''s 1906 translation of the biography of Ahmose son of Ebana (sections 8-15, page image of p. 7 read): it says ''One
-      captured Avaris; I took captive there one man and three women'' (section 12) and, of Sharuhen, ''I took captive there two women and one hand'' (section
-      13), the captives being Ahmose''s own spoil; it does not say the Hyksos or their people were taken captive or went into exile. The Hyksos are named
-      in Breasted''s headings, not in the words translated. Stantis et al. (2020) say the Theban kingdom pursued the Hyksos rulers.'
+    description: 'Searched Breasted''s 1906 translation of the biography of Ahmose son of Ebana (sections 9-12 on p. 7 viewed as a page image; sections
+      13-15, including the six-year siege of Sharuhen, on p. 8 read in OCR only): it says ''One captured Avaris; I took captive there one man and three
+      women'' (section 12) and, of Sharuhen, ''I took captive there two women and one hand'' (section 13), the captives being Ahmose''s own spoil; it does
+      not say the Hyksos or their people were taken captive or went into exile. The Hyksos are named in Breasted''s headings, not in the words translated.
+      Stantis et al. (2020) say the Theban kingdom pursued the Hyksos rulers.'
     sources:
     - src-breasted-are2
     - src-stantis-2020

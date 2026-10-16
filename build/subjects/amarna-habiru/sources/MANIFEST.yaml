@@ -116,7 +116,7 @@ sources:
     title: "W. M. Flinders Petrie, Tell el Amarna, with chapters by A. H. Sayce and F. Ll. Griffith (London: Methuen, 1894)"
     url: https://archive.org/details/tellelamarna00petr
     document_class: "primary_text: the excavator's own report (testimony about his 1891-92 season), not a document of the 14th century BCE."
-    read: yes, directly. Page image of printed p. 23 (scan page 33) opened and read (section 48); the dated-sherd passages (about regnal year 17 and a later 'year 2') and the site-cost paragraph were read in OCR.
+    read: yes, directly. Page image of printed p. 23 (scan page 33) opened and read (section 48); the dated-sherd passages (about regnal year 17 and a later 'year 2') and the preface cost paragraph were read in OCR.
     files:
       - {what: "PDF from archive.org", sha256: ef0cd7e155f12336b1d82a95684bd48f79cdbcf355470dfe7d7c98c34aa66c60, bytes: 7922182, downloaded: 2026-10-16}
       - {what: "Internet Archive OCR text (_djvu.txt)", sha256: 9ac8639c4f66d5b28acf426d2e86c8522214766ac51cff456d3b664b7c1176b9, downloaded: 2026-10-16}
@@ -124,7 +124,7 @@ sources:
     authenticity:
       status: authenticated
       strength: moderate
-      provenance: "1894 printing (title page read in OCR). In the section on the site (OCR) Petrie writes that Mr. Haworth and Mr. Kennard joined with him in the cost of the excavations and that a part of the site was worked by Mr. Carter on behalf of Lord Amherst of Hackney. Rights: item is a 1894 printing; the Internet Archive metadata was not checked for a rights field."
+      provenance: "1894 printing (title page read in OCR). In the preface (OCR) Petrie writes that Mr. Haworth and Mr. Kennard joined with him in the cost of the excavations and that a part of the site was worked by Mr. Carter on behalf of Lord Amherst of Hackney. Rights: item is a 1894 printing; the Internet Archive metadata was not checked for a rights field."
       tests:
         - "Knudtzon 1915 (p. 5 notes and p. 27) refers to Petrie's Tell el Amarna for the find-spot story and for 49 years for the two reigns; section 48 on the page image describes the find-spot (could have failed)"
       tested_by: "Stratah dig session, 2026-10-16 (not an independent review)"
@@ -136,7 +136,7 @@ sources:
     title: "J. H. Breasted, Ancient Records of Egypt: Historical Documents, vol. 2, The Eighteenth Dynasty (Chicago: University of Chicago Press, 1906)"
     url: https://archive.org/details/ancientrecordsof02brea_0
     document_class: "interpretive: an English translation with notes of Egyptian inscriptions (here the tomb biography of Ahmose son of Ebana, sections 1-16). Not the Egyptian text."
-    read: partly. Page image of printed p. 7 (scan page 39) opened and read; sections 8-15 read in OCR.
+    read: partly. Page image of printed p. 7 (scan page 39, sections 9-12) opened and read; sections 8 and 13-15 (pp. 6 and 8) read in OCR only.
     files:
       - {what: "PDF from archive.org", sha256: 63f9c079a8b064a1ebccbdcb100515e6cfc3c1ac2afb139c5112d248ae5d46bd, bytes: 32682330, downloaded: 2026-10-16}
       - {what: "Internet Archive OCR text (_djvu.txt)", sha256: 17d7872fbb81d734758720838fb336dbdc21ab1e019240571c8ae11c3967c9f4, downloaded: 2026-10-16}
@@ -146,7 +146,7 @@ sources:
       strength: moderate
       provenance: "1906 printing, series Ancient Records edited by W. R. Harper; item ancientrecordsof02brea_0. Funding of the series not researched. The extract file is made from a whitespace-squeezed copy of the OCR (the raw OCR file hash is given above)."
       tests:
-        - "Section 12 (capture of Avaris) and section 13 (siege of Sharuhen, 6 years) read on the page image and in OCR agree with Breasted's heading list in the contents (could have failed)"
+        - "Section 12 (capture of Avaris) and section 13 (siege of Sharuhen, 6 years) read (section 12 on the page image, section 13 in OCR) agree with Breasted's heading list in the contents (could have failed)"
       tested_by: "Stratah dig session, 2026-10-16 (not an independent review)"
       gaps: ["Breasted's translation of one tomb text; the hieroglyphs not read", "The Hyksos are named in Breasted's headings, not in the translated words I read"]
       next_step: "Read a modern translation of the Ahmose son of Ebana biography."
