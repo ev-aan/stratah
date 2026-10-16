@@ -3,7 +3,7 @@ title: "The Aamu procession in the tomb of Khnumhotep II at Beni Hasan: what the
 question: "What does the Aamu scene in tomb BH 3 record, and does it say what the speaker says?"
 dig_status: open
 headline_status: draft
-headline: "A year 6 caption at Beni Hasan counts 37 Aamu; read scholars differ on why they came"
+headline: "A year 6 caption at Beni Hasan counts 37 Aamu; scholars offer several reasons for their visit"
 headline_claim: khn-caption-aamu-of-shu-37
 search_summary: >-
   The north wall of tomb BH 3 at Beni Hasan shows a group of Aamu (Asiatics) led by a man whose title is rendered 'ruler of a foreign land' or 'ruler of the hill-lands', under a caption dated year 6 of Senusret II.
@@ -22,7 +22,7 @@ divergence_note: >-
 assessment:
   question: "Does the Aamu scene in tomb BH 3 say what the speaker says?"
   answer: partly
-  headline: "A caption counts 37 Aamu with eye-paint in year 6 of Senusret II; the other parts of the speaker's story are not in what was read."
+  headline: "A caption counts 37 Aamu with eye-paint in year 6 of Senusret II; no source read gives a land grant, Goshen, 40 in all or a peaceful throne."
   key_points:
     - "Newberry (1893) and Kamrin (2009) read 37 Aamu of Shu with eye-paint in year 6 of Senusret II. It is one reading, from one facsimile; the signs were not read here."
     - "The title is the word behind 'Hyksos'. Kamrin says it was in use by the Sixth Dynasty; the Ministry calls this the oldest example; ABR sees no link to later Hyksos."
@@ -30,24 +30,24 @@ assessment:
   text: >-
     The count and date rest on a reading of the roll that Newberry made and that Kamrin reproduced from his facsimile; other scholars' renderings (Goedicke, Kessler, Vernus, Staubli, Rabehl) are reported by Kamrin and were not opened. All give 37. The grammar of who brought whom is disputed (khn-caption-who-brought).
     Whether the title makes the leader 'a Hyksos' in the later dynastic sense is kept open with each holder's position stated. The absence statements (land, Goshen, 40, throne) are limited to the sources read and are capped at provisional.
-  basis: [khn-caption-aamu-of-shu-37, khn-sp-02d-leader-a-hyksos, khn-sp-03a-first-mention-hyksos, khn-sp-02e-purpose-trade-antimony-animals, khn-sp-03b-best-lands-goshen-avaris, khn-sp-09c-peaceful-ascent-no-wars]
+  basis: [khn-caption-aamu-of-shu-37, khn-sp-02d-leader-a-hyksos, khn-sp-03a-first-mention-hyksos, khn-sp-02e-purpose-trade-antimony-animals, khn-sp-03b-best-lands-goshen-avaris, khn-sp-08b-forty-in-all-three-already-there, khn-sp-09c-peaceful-ascent-no-wars]
   would_settle: "Reading the caption signs on a photograph or a full-size copy against a modern edition; reading Goedicke 1984 and Bietak 2001 (the sources of Kamrin's statements on the name and on earlier use of the title); the Second Intermediate Period texts and Tell el-Dab'a reports for the later claims."
 
 claims:
   - id: "khn-object-bh3-khnumhotep"
     state: "proposed"
-    statement: "The Aamu scene is on the north wall of the main chamber of tomb No. 3 (BH 3) at Beni Hasan, the tomb of the official Khnumhotep (II), in the third register from the top, and it is the scene the speaker means."
+    statement: "The Aamu scene is on the north wall of the main chamber of tomb No. 3 (BH 3) at Beni Hasan, the tomb of the official Khnumhotep (II), in the third register."
     statement_kind: "reported"
     evidence_class: "interpretive"
     confidence: "low"
     evidential_weight: 2
-    anchor_checked: "secondary"
+    anchor_checked: "no"
     adoption_weight: 1
     adoption_note: "Not measured. Tomb and wall are named alike by Newberry 1893, Kamrin 2009, the Egyptian Ministry page and the Met record locale; none of these is the wall."
     would_change_if: "the wall or a photograph of it is read and the scene is in another tomb, or the owner's name is read differently by a specialist"
     anchor:
       type: "interpretive"
-      description: "Newberry 1893 p. 69 heads the description 'North Wall' of Tomb No. 3, names the owner 'Nehera's son Chnemhotep' and places the foreigners in 'Row 3'. Kamrin 2009 p. 22-23: 'the tomb of Khnumhotep II at Beni Hassan (Tomb 3, henceforth BH 3)'; the procession 'occupies the third register of the north wall'. Met API locale 'Tomb of Khnumhotep (Tomb 3)'. Ministry page: 'on the north wall, to the left of the entrance'. These are independent descriptions by a survey memoir, a peer-reviewed article, a museum and a ministry, each reporting the wall. Numbering differs by source and is kept distinct: Lepsius's plate (Abt. II Bl. 133) is labelled 'Grab 2, Nordseite'; the ABR article calls the owner of Tomb Three 'Khnum-Hotep III' ('a modern designation'), where Kamrin makes Khnumhotep III the owner's son."
+      description: "Newberry 1893 p. 69 heads the description 'North Wall' of Tomb No. 3, names the owner 'Nehera's son Chnemhotep' and places the foreigners in 'Row 3'. Kamrin 2009 p. 22-23: 'the tomb of Khnumhotep II at Beni Hassan (Tomb 3, henceforth BH 3)'; the procession 'occupies the third register of the north wall'. Met API locale 'Tomb of Khnumhotep (Tomb 3)'. Ministry page: 'on the north wall, to the left of the entrance'. Independence is not shown: Kamrin cites Newberry (note 3 for BH 3, 'Newberry 1893, 39-72'), and the origin of the Ministry text and of the Met's locale field is not stated. Marked 'no' for that reason. Numbering differs by source and is kept distinct: Lepsius's plate (Abt. II Bl. 133) is labelled 'Grab 2, Nordseite'; the ABR article calls the owner of Tomb Three 'Khnum-Hotep III' ('a modern designation'), where Kamrin makes Khnumhotep III the owner's son."
       sources:
         - "src-newberry-1893"
         - "src-kamrin-2009-fulltext"
@@ -58,7 +58,26 @@ claims:
       nodes:
         - node: "khnumhotep-bh3-year6-senusret-ii-aamu-caption"
           verb: "supports"
-    basis: "Four independent descriptions agree on the tomb number (Newberry's), the wall and the register; none is the wall. Which Khnumhotep the speaker means was taken from the tomb number, not checked."
+    basis: "Four descriptions agree on the tomb number (Newberry's), the wall and the register ('Row 3' in Newberry, 'third register' in Kamrin); none is the wall, and their independence is not shown."
+
+  - id: "khn-sp-scene-identification"
+    state: "proposed"
+    statement: "The speaker's 'a wall in Khnumhotep's tomb' (dh-K3pw12lBcXM-02) is the Aamu scene on the north wall of tomb BH 3 at Beni Hasan."
+    statement_kind: "judgment"
+    evidence_class: "interpretive"
+    confidence: "low"
+    evidential_weight: 1
+    anchor_checked: "no"
+    adoption_weight: 1
+    adoption_note: "Not measured."
+    would_change_if: "the speaker's source is found and names another wall, tomb or Khnumhotep"
+    anchor:
+      type: "interpretive"
+      description: "The claim lines name only 'Khnumhotep's tomb' (and, in the other videos, 'Khnumhotep II's tomb inscription'); the handoff file, not the speaker, supplied 'Beni Hasan tomb 3'. The match rests on the content: 37 Aamu, a foreign ruler, eye-paint, which Newberry and Kamrin describe for this scene. Other Khnumhotep tombs and walls were not searched."
+      sources:
+        - "src-newberry-1893"
+        - "src-kamrin-2009-fulltext"
+    basis: "A match of content by this dig; no source read states that the speaker means this scene."
 
   - id: "khn-caption-aamu-of-shu-37"
     state: "proposed"
@@ -549,7 +568,7 @@ claims:
 
   - id: "khn-sp-03b-best-lands-goshen-avaris"
     state: "searched_gap"
-    statement: "they received the best lands in Egypt, Goshen, in particular the city of Avaris. (dh-K3pw12lBcXM-03)"
+    statement: "they received the best lands in Egypt, Goshen, in particular the city of Avaris. (dh-K3pw12lBcXM-03) [Part 1: they received the best lands in Egypt.]"
     statement_kind: "search_result"
     evidence_class: "interpretive"
     confidence: "low"
@@ -562,7 +581,7 @@ claims:
     next_step: "Read the Tell el-Dab'a excavation reports (Bietak) for the earliest Asiatic settlement at Avaris and check whether any text ties it to the Beni Hasan group; read Goedicke 1984 for his 'migrant workers' reading."
     anchor:
       type: "search-record"
-      description: "Searched, 2026-10-16, for land, Goshen, Avaris and settlement: Kamrin 2009 (all 15 pages and notes), Newberry 1893 p. 69, Newberry Part II pp. 91-92, the Ministry page, the ABR article, and Josephus Against Apion I.14. No source read mentions Goshen. Avaris appears only in the Manetho quotation in Josephus, as a city that a Hyksos king Salatis rebuilt and garrisoned, and as the place where the Hyksos were later shut up; it is not tied to Beni Hasan and no land grant is stated. What cuts against a flat 'nothing says they settled': Goedicke, as Kamrin reports, reads the Aamu as migrant workers brought 'to work and perhaps settle' and taken to a 'temporary home' in the Oryx nome (p. 28), and Kamrin writes that because the group comes with families this 'implying perhaps that they are interested in settling here (as many of their compatriots did during this era)' (p. 31). Neither says the group was given land. The searches cover about 15 pages of one article, one page of Newberry and one section of Josephus, not the wall or the Second Intermediate Period record."
+      description: "Searched, 2026-10-16, for land, a grant, Goshen, Avaris and settlement: Kamrin 2009 (all 15 pages and notes), Newberry 1893 p. 69, Newberry Part II pp. 91-92, the Ministry page, the ABR article, and Josephus Against Apion book I section 14 and the passages on Avaris in sections 26-28 (the lines naming Avaris in the Gutenberg text; the rest of the work was not read). No source read says the group was given land. What cuts against a flat 'nothing says they settled': Goedicke, as Kamrin reports, reads the Aamu as migrant workers brought 'to work and perhaps settle' and taken to a 'temporary home' in the Oryx nome (p. 28), and Kamrin writes that because the group comes with families this is 'implying perhaps that they are interested in settling here (as many of their compatriots did during this era)' (p. 31). Neither says the group was given land. The searches cover about 15 pages of one article, one page of Newberry and parts of Josephus, not the wall or the Second Intermediate Period record."
       sources:
         - "src-kamrin-2009-fulltext"
         - "src-newberry-1893"
@@ -570,7 +589,57 @@ claims:
         - "src-egymonuments"
         - "src-abr-byers-2009"
         - "src-josephus-apion-whiston"
-    basis: "Absence in the sources read, capped at provisional. Settlement as a possibility is raised by Kamrin and by Goedicke (through Kamrin); a land grant is raised by no source read."
+    basis: "Absence of a land grant in the sources read, capped at provisional. Settlement as a possibility is raised by Kamrin and by Goedicke (through Kamrin); a land grant to this group is raised by no source read."
+
+  - id: "khn-sp-03b-goshen"
+    state: "searched_gap"
+    statement: "they received the best lands in Egypt, Goshen, in particular the city of Avaris. (dh-K3pw12lBcXM-03) [Part 2: the lands were Goshen.]"
+    statement_kind: "search_result"
+    evidence_class: "interpretive"
+    confidence: "low"
+    evidential_weight: 1
+    anchor_checked: "no"
+    adoption_weight: 1
+    adoption_note: "Not measured; the speaker cites nothing."
+    would_change_if: "a source is read that places this group, or the Hyksos, in Goshen"
+    absence_anchor: true
+    next_step: "Read Genesis and Exodus passages on Goshen and the Tell el-Dab'a reports; no Egyptian source read names Goshen."
+    anchor:
+      type: "search-record"
+      description: "Searched, 2026-10-16, for the word Goshen in the same sources as khn-sp-03b-best-lands-goshen-avaris (Kamrin all pages and notes, Newberry p. 69 and Part II pp. 91-92, the Ministry page, the ABR article, Josephus Against Apion I section 14 and the Avaris passages of sections 26-28). No hit. The Biblical text was not opened."
+      sources:
+        - "src-kamrin-2009-fulltext"
+        - "src-newberry-1893"
+        - "src-newberry-part2"
+        - "src-egymonuments"
+        - "src-abr-byers-2009"
+        - "src-josephus-apion-whiston"
+    basis: "Absence in the sources read, capped at provisional."
+
+  - id: "khn-sp-03b-avaris"
+    state: "searched_gap"
+    statement: "they received the best lands in Egypt, Goshen, in particular the city of Avaris. (dh-K3pw12lBcXM-03) [Part 3: in particular the city of Avaris.]"
+    statement_kind: "search_result"
+    evidence_class: "interpretive"
+    confidence: "low"
+    evidential_weight: 1
+    anchor_checked: "no"
+    adoption_weight: 1
+    adoption_note: "Not measured; the speaker cites nothing."
+    would_change_if: "a source is read that ties the Beni Hasan group to a grant of, or residence at, Avaris"
+    absence_anchor: true
+    next_step: "Read the Tell el-Dab'a excavation reports (Bietak) and check whether any text ties the Beni Hasan group to Avaris."
+    anchor:
+      type: "search-record"
+      description: "Searched, 2026-10-16, for Avaris. Kamrin 2009 does not connect Avaris to the scene or its group: it appears in a Bietak article title in note 62, and Tell el-Dab'a (Avaris) is named in notes 62, 67 and 75 for a statue, donkey burials and an axe, as comparanda. Newberry, the Ministry page and the ABR article: no hit. Josephus Against Apion, as Whiston translates it: section 14, Manetho says a Hyksos king Salatis rebuilt Avaris and garrisoned it and that the Hyksos were later shut up there; sections 26-28, Manetho says a king granted Avaris, left desolate of the shepherds, to 'the lepers and ... other impure people' who then chose a priest as ruler and made war on the king. That grant is to a different group in a different story and is not tied to Beni Hasan. The Josephus reading is of the lines naming Avaris and the text around them, not the whole work."
+      sources:
+        - "src-kamrin-2009-fulltext"
+        - "src-newberry-1893"
+        - "src-newberry-part2"
+        - "src-egymonuments"
+        - "src-abr-byers-2009"
+        - "src-josephus-apion-whiston"
+    basis: "Avaris is in Manetho's story as quoted by Josephus, with a grant to a different group; nothing read ties it to the Aamu of Shu."
 
   - id: "khn-sp-07a-aamu-of-shu"
     state: "contested"
@@ -744,20 +813,44 @@ claims:
 
   - id: "khn-sp-08b-forty-in-all-three-already-there"
     state: "searched_gap"
-    statement: "there were 40 in all, but three were already there when the 37 arrived (dh-qL1VmGF3BF8-08)"
+    statement: "there were 40 in all, but three were already there when the 37 arrived (dh-qL1VmGF3BF8-08) [Part 1: there were 40 in all.]"
     statement_kind: "search_result"
     evidence_class: "interpretive"
     confidence: "low"
     evidential_weight: 1
     anchor_checked: "no"
     adoption_weight: 1
-    adoption_note: "Not measured; no source for the 40 or the three."
-    would_change_if: "a source is read that gives 40, or three earlier residents, for this group"
+    adoption_note: "Not measured; no source for the 40."
+    would_change_if: "a source is read that gives 40 for this group"
     absence_anchor: true
     next_step: "Read the full caption and roll on a copy at sign level (Lepsius, Hay, Newberry Plates XXVIII and XXXVIII) for any other number; ask the speaker for the source."
     anchor:
       type: "search-record"
-      description: "Searched, 2026-10-16, for 40, 'three' or earlier residents: Kamrin 2009 (all pages and notes), Newberry p. 69, the Ministry page and the ABR article. The only count of Aamu in the roll in any of them is 37. Kamrin counts fifteen figures and reports Goedicke's view that the full group may have been four or five times as large (note 23). The searches are of text; the signs were not read."
+      description: "Searched, 2026-10-16, for 40: Kamrin 2009 (all pages and notes), Newberry p. 69, the Ministry page and the ABR article. The only count of Aamu in the roll in any of them is 37. Kamrin counts fifteen figures and reports Goedicke's view that the full group may have been four or five times as large (note 23). The searches are of text; the signs were not read."
+      sources:
+        - "src-kamrin-2009-fulltext"
+        - "src-newberry-1893"
+        - "src-newberry-translation"
+        - "src-egymonuments"
+        - "src-abr-byers-2009"
+    basis: "Absence in four sources, none of which is the signs."
+
+  - id: "khn-sp-08b-three-already-there"
+    state: "searched_gap"
+    statement: "there were 40 in all, but three were already there when the 37 arrived (dh-qL1VmGF3BF8-08) [Part 2: three were already there when the 37 arrived.]"
+    statement_kind: "search_result"
+    evidence_class: "interpretive"
+    confidence: "low"
+    evidential_weight: 1
+    anchor_checked: "no"
+    adoption_weight: 1
+    adoption_note: "Not measured; no source for the three."
+    would_change_if: "a source is read that names three earlier residents for this group"
+    absence_anchor: true
+    next_step: "Read the caption and roll at sign level; ask the speaker for the source."
+    anchor:
+      type: "search-record"
+      description: "Searched, 2026-10-16, for earlier residents or a group of three: Kamrin 2009 (all pages and notes), Newberry p. 69, the Ministry page and the ABR article. None. The searches are of text; the signs were not read."
       sources:
         - "src-kamrin-2009-fulltext"
         - "src-newberry-1893"
@@ -768,7 +861,7 @@ claims:
 
   - id: "khn-sp-09a-best-lands-settled"
     state: "searched_gap"
-    statement: "These people were given the best lands in Egypt, settled, (dh-qL1VmGF3BF8-09)"
+    statement: "These people were given the best lands in Egypt, settled, (dh-qL1VmGF3BF8-09) [Part 1: these people were given the best lands in Egypt.]"
     statement_kind: "search_result"
     evidence_class: "interpretive"
     confidence: "low"
@@ -776,23 +869,47 @@ claims:
     anchor_checked: "no"
     adoption_weight: 1
     adoption_note: "Not measured; 'tomb inscription (implied)' per the handoff."
-    would_change_if: "a source is read that says these people were granted land or settled"
+    would_change_if: "a source is read that says these people were granted land"
     absence_anchor: true
     next_step: "As khn-sp-03b-best-lands-goshen-avaris."
     anchor:
       type: "search-record"
-      description: "Same search as khn-sp-03b-best-lands-goshen-avaris (2026-10-16). Nothing read says the group was given land or stayed in Egypt. Kamrin raises settlement as a possibility (p. 31, 'implying perhaps that they are interested in settling here') and reports Goedicke's reading of the group as migrant workers who 'perhaps settle' (p. 28); Franke as reported by her has the Aamu accompany an expedition (p. 28). The scene shows a presentation to the tomb owner under escort of Egyptian officials."
+      description: "Same search as khn-sp-03b-best-lands-goshen-avaris (2026-10-16). Nothing read says the group was given land. The scene shows a presentation to the tomb owner under escort of Egyptian officials."
       sources:
         - "src-kamrin-2009-fulltext"
         - "src-newberry-1893"
         - "src-newberry-translation"
         - "src-egymonuments"
         - "src-abr-byers-2009"
-    basis: "Absence of a land grant in the sources read; settlement as an interpretation is in Kamrin."
+    basis: "Absence of a land grant in the sources read."
+
+  - id: "khn-sp-09a-settled"
+    state: "searched_gap"
+    statement: "These people were given the best lands in Egypt, settled, (dh-qL1VmGF3BF8-09) [Part 2: they settled.]"
+    statement_kind: "search_result"
+    evidence_class: "interpretive"
+    confidence: "low"
+    evidential_weight: 1
+    anchor_checked: "no"
+    adoption_weight: 1
+    adoption_note: "Not measured."
+    would_change_if: "a source is read that says these people stayed and settled in Egypt"
+    absence_anchor: true
+    next_step: "As khn-sp-03b-best-lands-goshen-avaris; read Goedicke 1984."
+    anchor:
+      type: "search-record"
+      description: "Same search (2026-10-16). Nothing read says the group stayed in Egypt. What cuts against a flat 'nothing says they settled': Goedicke, as Kamrin reports, reads the Aamu as migrant workers brought 'to work and perhaps settle' and taken to a 'temporary home' in the Oryx nome (p. 28), and Kamrin writes that because the group comes with families this is 'implying perhaps that they are interested in settling here (as many of their compatriots did during this era)' (p. 31). Neither says the group was given land. Franke, as reported by Kamrin, has the Aamu accompany an expedition (p. 28). Settlement is raised as a possibility by Kamrin and, as she reports, by Goedicke; it is not stated by any source read."
+      sources:
+        - "src-kamrin-2009-fulltext"
+        - "src-newberry-1893"
+        - "src-newberry-translation"
+        - "src-egymonuments"
+        - "src-abr-byers-2009"
+    basis: "Settlement is an interpretation in Kamrin, not a statement in a source read."
 
   - id: "khn-sp-09b-multiplied-strong-wealthy"
     state: "searched_gap"
-    statement: "multiplied, became strong and wealthy, (dh-qL1VmGF3BF8-09)"
+    statement: "multiplied, became strong and wealthy, (dh-qL1VmGF3BF8-09) [Part 1: they multiplied.]"
     statement_kind: "search_result"
     evidence_class: "interpretive"
     confidence: "low"
@@ -800,15 +917,66 @@ claims:
     anchor_checked: "no"
     adoption_weight: 1
     adoption_note: "Not measured; no source given."
-    would_change_if: "a read source documents the growth in numbers and wealth of a named group"
+    would_change_if: "a read source documents the growth in numbers of a named group"
     absence_anchor: true
     next_step: "Ask whether the speaker is describing Genesis or Exodus wording or the Hyksos in Manetho; the Manetho quotation in Josephus was read in this round and does not mention Beni Hasan."
     anchor:
       type: "search-record"
-      description: "Searched, 2026-10-16: Kamrin 2009 (all pages), Newberry p. 69, the Ministry page, the ABR article and Josephus Against Apion I.14 for anything on the later history of the Aamu of Shu. None says what became of them; no wording like 'multiplied' appears about this group. Manetho as quoted by Josephus describes the Hyksos rulers in power for 511 years in the text read, with no tie to this group."
+      description: "Searched, 2026-10-16: Kamrin 2009 (all pages), Newberry p. 69, the Ministry page, the ABR article and Josephus Against Apion I section 14 for anything on the later history of the Aamu of Shu. None says what became of them; no wording like 'multiplied' appears about this group."
       sources:
         - "src-kamrin-2009-fulltext"
         - "src-newberry-1893"
+        - "src-newberry-translation"
+        - "src-egymonuments"
+        - "src-abr-byers-2009"
+        - "src-josephus-apion-whiston"
+    basis: "Not tied to the tomb inscription in anything read."
+
+  - id: "khn-sp-09b-strong"
+    state: "searched_gap"
+    statement: "multiplied, became strong and wealthy, (dh-qL1VmGF3BF8-09) [Part 2: they became strong.]"
+    statement_kind: "search_result"
+    evidence_class: "interpretive"
+    confidence: "low"
+    evidential_weight: 1
+    anchor_checked: "no"
+    adoption_weight: 1
+    adoption_note: "Not measured; no source given."
+    would_change_if: "a read source documents the growing strength of a named group"
+    absence_anchor: true
+    next_step: "As khn-sp-09b-multiplied-strong-wealthy."
+    anchor:
+      type: "search-record"
+      description: "Same search as khn-sp-09b-multiplied-strong-wealthy (2026-10-16). Nothing read says the Aamu of Shu became strong. Manetho as quoted by Josephus describes Hyksos rulers in power for 511 years, with no tie to this group."
+      sources:
+        - "src-kamrin-2009-fulltext"
+        - "src-newberry-1893"
+        - "src-newberry-translation"
+        - "src-egymonuments"
+        - "src-abr-byers-2009"
+        - "src-josephus-apion-whiston"
+    basis: "Not tied to the tomb inscription in anything read."
+
+  - id: "khn-sp-09b-wealthy"
+    state: "searched_gap"
+    statement: "multiplied, became strong and wealthy, (dh-qL1VmGF3BF8-09) [Part 3: they became wealthy.]"
+    statement_kind: "search_result"
+    evidence_class: "interpretive"
+    confidence: "low"
+    evidential_weight: 1
+    anchor_checked: "no"
+    adoption_weight: 1
+    adoption_note: "Not measured; no source given."
+    would_change_if: "a read source documents the growing wealth of a named group"
+    absence_anchor: true
+    next_step: "As khn-sp-09b-multiplied-strong-wealthy."
+    anchor:
+      type: "search-record"
+      description: "Same search as khn-sp-09b-multiplied-strong-wealthy (2026-10-16). Nothing read says the Aamu of Shu became wealthy."
+      sources:
+        - "src-kamrin-2009-fulltext"
+        - "src-newberry-1893"
+        - "src-newberry-translation"
         - "src-egymonuments"
         - "src-abr-byers-2009"
         - "src-josephus-apion-whiston"
@@ -816,7 +984,7 @@ claims:
 
   - id: "khn-sp-09c-peaceful-ascent-no-wars"
     state: "contested"
-    statement: "and peacefully ascended to the throne with no rebellions or wars. (dh-qL1VmGF3BF8-09)"
+    statement: "and peacefully ascended to the throne with no rebellions or wars. (dh-qL1VmGF3BF8-09) [Part 1: they peacefully ascended to the throne.]"
     statement_kind: "judgment"
     evidence_class: "interpretive"
     confidence: "low"
@@ -853,6 +1021,44 @@ claims:
         - "src-abr-byers-2009"
         - "src-josephus-apion-whiston"
     basis: "Outside the tomb text. The read sources describe the takeover as a conquest (Kamrin, ABR) or as a bloodless first conquest followed by violence and a long war (Manetho through Josephus)."
+
+  - id: "khn-sp-09c-no-rebellions-or-wars"
+    state: "contested"
+    statement: "and peacefully ascended to the throne with no rebellions or wars. (dh-qL1VmGF3BF8-09) [Part 2: with no rebellions or wars.]"
+    statement_kind: "judgment"
+    evidence_class: "interpretive"
+    confidence: "low"
+    evidential_weight: 1
+    anchor_checked: "no"
+    adoption_weight: 1
+    adoption_note: "Not measured."
+    would_change_if: "primary texts of the Second Intermediate Period (the Kamose stelae) and specialist accounts are read, with the Tell el-Dab'a evidence"
+    absence_anchor: true
+    disputed_by:
+      - who: "Dead Hidden speaker"
+        kind: "person"
+        position: "no rebellions or wars"
+        source_read: "no"
+        via: "handoff file"
+      - who: "Manetho as quoted by Josephus (Against Apion I section 14, Whiston's translation)"
+        kind: "work"
+        position: "the first conquest met no battle ('without our hazarding a battle with them'), but cities were burnt and people killed or enslaved; later the kings of Thebais 'made an insurrection' and 'a terrible and long war was made'"
+        source_read: "yes (translation of a quotation)"
+        via: "Gutenberg text"
+      - who: "Janice Kamrin 2009 and ABR"
+        kind: "person"
+        position: "Kamrin: the Hyksos 'conquered Egypt'; ABR: Asiatics who 'invaded and ruled' Lower Egypt several centuries later"
+        source_read: "yes"
+        via: "full text PDF p. 25; raw HTML"
+    next_step: "Open the Kamose stelae and a specialist account of the Hyksos takeover (Ryholt, Bietak); record each position in its own words."
+    anchor:
+      type: "search-record"
+      description: "Same reading as khn-sp-09c-peaceful-ascent-no-wars. Josephus quoting Manetho places a long war between Theban kings and the rulers; Kamrin and ABR use 'conquered' and 'invaded'. The Kamose stelae and specialist accounts were not opened."
+      sources:
+        - "src-kamrin-2009-fulltext"
+        - "src-abr-byers-2009"
+        - "src-josephus-apion-whiston"
+    basis: "Outside the tomb text; the read sources describe violence and a long war after the takeover."
 
   - id: "khn-scene-context-inw-symbolic"
     state: "proposed"

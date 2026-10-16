@@ -152,7 +152,7 @@ sources:
       provenance: "Wording copied from the handoff file /Users/evan/ancient_writings_db/handoff/khnumhotep-ii-aamu.yaml. The speaker's own sources are not known."
 
   - id: src-newberry-part2-lepsius-hay
-    title: "Not opened: Beni Hasan Part II p. 21 (index 'Aamu, people of'); Lepsius, Denkmaeler Abt. II Bl. 133; Hay MSS (British Library Add. MS 29813, 29847); Kamrin full text; Kitchen/Kamrin/Bietak/Ryholt/Mourad on heqa khasut and the Hyksos"
+    title: "Still not opened after round 2: Beni Hasan Part II index entry 'Aamu, people of'; Hay MSS (British Library Add. MS 29813, 29847); Goedicke 1984, Bietak 2001, Franke 1991, Kessler 1987, Ryholt, Mourad on heqa khasut and the Hyksos; the Kamose stelae; Tell el-Dab'a reports (Kamrin full text, Lepsius Bl. 133 and Newberry Part II pp. 91-92 were opened in round 2: see their own entries)"
     url: ""
     document_class: leads
     read: "no. Named in sources read or surfaced by web search; none opened. Round 2 (2026-10-16) opened Kamrin in full, Newberry Part II pp. 91-92, Lepsius Abt. II Bl. 133 (as a plate) and Josephus's quotation of Manetho. Still unopened: Hay MSS, Goedicke 1984, Bietak, Ryholt, Mourad, Kessler 1987, Franke 1991, the Kamose stelae, Tell el-Dab'a reports, and the Thesaurus Linguae Aegyptiae record of the title (its site returned a script-driven page with no readable record to a plain request)."
@@ -192,7 +192,7 @@ sources:
     title: "Flavius Josephus, Against Apion, Book I section 14, in William Whiston's English translation (Project Gutenberg eBook 2849), quoting Manetho on the Hyksos"
     url: https://www.gutenberg.org/cache/epub/2849/pg2849.txt
     document_class: "interpretive: an 18th-century translation of a 1st-century CE Greek text that quotes Manetho. A quotation of a work not read here, reported by a writer with his own argument. Not Second Intermediate Period evidence in itself."
-    read: "yes, directly, 2026-10-16: text file downloaded outside the repo (sha256 b6791c018b1033eaf74e49303b071c53f674f392c51b97bc60ec9f7ab68f91d8); section 14 read, including the quotation of Manetho on 'men of ignoble birth out of the eastern parts', the king Salatis, Avaris, the name 'Hycsos' and the later war. Public domain."
+    read: "yes, directly, 2026-10-16: text file downloaded outside the repo (sha256 b6791c018b1033eaf74e49303b071c53f674f392c51b97bc60ec9f7ab68f91d8); section 14 read, and on a second pass the passages naming Avaris in sections 26-28 (Manetho on the lepers and impure people, to whom a king gives Avaris); the rest of the work was not read. Section 14 includes the quotation of Manetho on 'men of ignoble birth out of the eastern parts', the king Salatis, Avaris, the name 'Hycsos' and the later war. Public domain."
     authenticity:
       status: unchecked
       next_step: "Compare with a critical edition of Josephus and the Manetho fragments."
