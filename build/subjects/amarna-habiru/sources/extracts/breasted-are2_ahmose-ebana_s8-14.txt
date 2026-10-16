@@ -1,0 +1,130 @@
+# J. H. Breasted, Ancient Records of Egypt vol. 2 (Chicago, 1906), sections 8-15 (biography of Ahmose son of Ebana). Public domain. Breasted's translation, not the Egyptian text.
+# Page image of printed p. 7 (scan page 39) was opened and read; the OCR text file used here is a whitespace-squeezed copy of the Internet Archive OCR (item ancientrecordsof02brea_0).
+# Verbatim text from the stated file (Internet Archive OCR or born-digital XML text), line ranges given; elisions between ranges are marked [...]. OCR errors are left as they are.
+
+## b2.txt lines 2091-2215 (sha256 of whole file 3ba256735b8d02d14d16220c00aeefd8c8ff3120ff7112961bbc1fb6ff7a7151)
+Campaign against the Hyksos; Siege oj Avaris 
+
+8. One besieged the city of Avaris (Ht-wcr' /); I showed valor on 
+footf before his majesty; then I was appointed 9to (the ship) 'Shining- 
+in-Memphis.,g 
+
+
+aAhmose has recorded elsewhere in his tomb (Lepsius, Denkmdler, III, 12, c) 
+a list of the gifts he received, making a total of 9 men and 10 women; the total of 
+land is lost. This docs not agree with his narrative, which does not summarize, 
+but in different gifts mentions in all 9 men and 7 women received from the king, 
+and 8 men and 7 women captured. 
+
+bThis last statement is probably a proverbial phrase; see Spiegelberg, Recueil, 
+XXVI, 41, 42. 
+
+CE1 Kab. dSee Miiller, Liebespoesie, 3. 
+
+eThis is, of course, some garment worn by a youth; cf. the girdle of Uni's 
+youth (I, 294, I. 1). 
+
+fLit., "on my two feet;" this is emphasized as land service, Ahmose being a 
+naval officer. 
+
+sReward after the first battle at Avaris. 
+
+
+§12] 
+
+
+BIOGRAPHY OF AHMOSE, SON OF EBANA 
+
+
+7 
+
+
+Second Battle of Avaris 
+
+9. One fought on the water in the canal: Pezedku (P^-ddkw) of 
+Avaris. Then I fought hand to hand, IOI brought away a hand.a It 
+was reported to the royal herald. One gave to me the gold of valor. b 
+
+Third Battle oj Avaris 
+
+10. Then there was again fighting in this place; I again fought 
+hand to hand "there; I brought away a hand. One gave to me the 
+gold of braverv in the second place.0 
+
+First Rebellion, Interrupting Siege oj Avaris 
+
+11. One fought in this Egypt, d south of this city; "then I brought 
+away a living captive, a man; I descended into the water; behold, he 
+was brought e as a seizure upon the road of this I3city,e ^although1) I 
+crossed with him over the water. It was announced to the royal herald. 
+Then one presentedf me with gold in double measure.8 
+
+Capture oj Avaris 
+
+12. One I4captured Avaris; I took captive there one man and three 
+women, total four heads, his majesty gave them to me for slaves.11 
+
+
+aCut off as a trophy, from a slain enemy. 
+
+bReward after the second battle. cReward after the third battle. 
+
+dThere can be no doubt that the word (km't) means here, as always elsewhere, 
+"Egypt;" "this city" is then El Kab, for the word "south" is an adjective femi- 
+nine agreeing with "Egypt" The phrase can only be translated into a language 
+like Greek or German, thus: "in diesem sudlich von dieser Stadt befindlichen 
+Aegypten." The siege of Avaris is therefore interrupted by a rebellion in upper 
+Egypt, similar to the two later ones (§§ 15, 16), and for this reason the narrative 
+particularly specifies "this Egypt, south, etc." See also § 13, 1. 15. 
+
+eCdntrast with this the two men "captured as a seizure upon the ship of the 
+enemy" (1. 21). There is no ground for the fanciful rendering, indicating that he 
+lost his way! Ahmose means that, although obliged to descend to and cross over 
+the water (of some canal) with his prisoner, he brought him away as safely as one 
+seized upon the road of the city. 
+
+fRead hr for myk (confusion from hieratic ?), as in 1. 28. 
+
+g Re ward after the fourth battle. 
+
+hReward after the fifth battle; apparently Avaris was captured on the fourth 
+assault; but these brief references to fighting may each one indicate a whole season 
+of the siege, which would then have lasted four years, as that of Sharuhen lasted 
+six. See § 13. 
+
+
+8 EIGHTEENTH DYNASTY: AHMOSE I [§ i3 
+
+
+Siege of Sharnhen 
+
+13. I5One besieged Sharuhena (S °-r ^-h °-n 3) for 6 years,b (and) 
+his majesty took it. Then I took captive there two women and one 
+hand. l6One gave me the gold of bravery, •'besides1 giving me the 
+captives for slaves. 
+
+Campaign against Nubia 
+
+14. Now, after his majesty had slain the Asiatics (Mntyw Stt), ^he 
+ascended the river to Khenthennofer (Hnt-hn-nfr), to destroy the 
+Nubian Troglodytes;0 his majesty made a great slaughter among them. 
+l8Then I took captive there, two living men, and three hands. One 
+presented me with gold in double measure, rbesides1 giving to me two 
+female slaves. d I9His majesty sailed down-stream, his heart joyous 
+with the might of victory, (for) he had seized Southerners and North- 
+erners. 
+
+Second Rebellion 
+
+15. 2°There came an enemy of the South; his fate, his destruction 
+approached; the gods of the South seized him, and his majesty found 
+him in Tintto-emu (Tynt-t°-c mw).e His majesty carried him off 2Ia 
+living prisoner, and all his people carried captive. I carried away two 
+
+
+aCf. Josh. 19:6. 
+
+bLepsius, Denkmdler, has "5," which has been generally accepted; Cham- 
+pollion's text and Brugsch's translation have "6." I repeatedly examined the 
+squeeze for this point with especial care; it has a clear "6." The correctness of 
+the rendering "for 6 years" rather than "in the year 6" has been clearly demon- 

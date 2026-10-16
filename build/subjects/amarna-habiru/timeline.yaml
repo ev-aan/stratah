@@ -1,0 +1,80 @@
+timeline:
+  id: amarna-habiru
+  title: "The Amarna letters and the Habiru: the dates the sources give, and when the sources were made (1640 BCE to 1915 CE)"
+  as_of: "2026-10-16"
+  note: >
+    Dates before the common era are written as negative years. Panel A shows the ranges the sources read give for the Hyksos period, the conquest of Avaris and the
+    Jerusalem letters; where sources give different figures the event is marked disputed and the detail lists them. None of these is measured here: they are
+    what the papers and the 1915 edition state. Panel B shows when the find was reported and when the editions and reports read were made. The two shared nodes
+    (the find, and the letters) are pinned at rev 2.
+panels:
+  - id: bronze
+    title: "Panel A: 1650 to 1330 BCE (one tick per 20 years)"
+    start: "-1650-01-01T00:00:00Z"
+    end: "-1330-01-01T00:00:00Z"
+    tick_years: 20
+    lanes: [egypt, letters]
+  - id: modern
+    title: "Panel B: 1887 to 1916 CE (one tick per 2 years)"
+    start: "1887-01-01T00:00:00Z"
+    end: "1916-01-01T00:00:00Z"
+    tick_years: 2
+    lanes: [find, books]
+lanes:
+  egypt: {label: "Egypt: Hyksos period and Ahmose (dates as the papers give them)"}
+  letters: {label: "The Jerusalem letters (Abdi-Heba)"}
+  find: {label: "The find and the first reports"}
+  books: {label: "Editions and reports read in this dig"}
+people:
+  - {who: "Abdi-Heba", detail: "Writer of the letters 286-290, from Jerusalem, to the king (Knudtzon's headings; the 1889 inventory has the name as Ardu-hi-ba)."}
+  - {who: "J. A. Knudtzon", detail: "Norwegian editor of the 1915 edition, preface dated Kristiania, June 1907."}
+  - {who: "Hugo Winckler and Ludwig Abel", detail: "Editor and copyist of the 1889 Berlin hand copies."}
+  - {who: "E. A. Wallis Budge", detail: "British Museum; wrote the 1888 report that is the source for the summer 1887 date."}
+  - {who: "A. H. Sayce", detail: "Oxford; first copies and notes on tablets held in Cairo (1888)."}
+  - {who: "W. M. Flinders Petrie", detail: "Excavator at Tell el Amarna; 1894 report."}
+sources:
+  s_knudtzon1: {title: "J. A. Knudtzon, Die El-Amarna-Tafeln vol. 1 (Leipzig: Hinrichs, 1915); page images read", url: "https://archive.org/details/dieelamarnatafel01knud", authenticity: "authenticated edition, moderate; a transliteration and translation, not the tablet"}
+  s_winckler: {title: "H. Winckler and L. Abel, Der Thontafelfund von El Amarna, Heft I (Berlin: Spemann, 1889); preface and plates read", url: "https://archive.org/details/derthontafelfund01wincuoft", authenticity: "authenticated, moderate; hand copies"}
+  s_budge: {title: "E. A. W. Budge, Proceedings of the Society of Biblical Archaeology vol. 10 (1888), p. 540; page image read", url: "https://archive.org/details/ProceedingsOfTheSocietyOfBiblicalArchaeologyVol101888", authenticity: "authenticated, moderate"}
+  s_petrie: {title: "W. M. F. Petrie, Tell el Amarna (London: Methuen, 1894); p. 23 page image read", url: "https://archive.org/details/tellelamarna00petr", authenticity: "authenticated, moderate; excavator's report"}
+  s_breasted: {title: "J. H. Breasted, Ancient Records of Egypt (Chicago, 1906), vols. 2 and 3; pages read", url: "https://archive.org/details/cu31924082479241", authenticity: "authenticated, moderate; translations"}
+  s_stantis: {title: "Stantis et al., Who were the Hyksos? PLoS One 2020 (CC BY 4.0)", url: "https://europepmc.org/article/PMC/PMC7363063", authenticity: "authenticated, moderate; peer-reviewed article"}
+  s_bruins: {title: "Bruins and van der Plicht, PLoS One 2025, Table 2 (CC BY 4.0)", url: "https://europepmc.org/article/PMC/PMC12422448", authenticity: "authenticated, moderate; peer-reviewed article that collates six published chronologies"}
+events:
+  - {id: a1, panel: bronze, lane: egypt, time: "-1640-01-01T00:00:00Z", end: "-1530-01-01T00:00:00Z", precision: range, kind: analysis, status: reported, sources: [s_stantis],
+     label: "c. 1640-1530 BCE: the Hyksos (15th Dynasty) period, as Stantis et al. give it",
+     detail: "The same paper gives c. 1638-1530 in its abstract and c. 1640-1530 in its text. Ryholt's chronology of the 17th Dynasty in Bruins and van der Plicht's Table 2 is a different series."}
+  - {id: a2, panel: bronze, lane: egypt, time: "-1580-01-01T00:00:00Z", end: "-1524-01-01T00:00:00Z", precision: range, kind: analysis, status: disputed, sources: [s_bruins],
+     label: "1580-1524 BCE: accession of Ahmose (II), the options in six published chronologies",
+     detail: "Breasted 1909: 1580; Wente and Van Siclen: 1570; Shaw: 1550; Schneider: 1548; Hornung et al.: 1539; Krauss and Warburton: 1524 (Bruins and van der Plicht 2025, Table 2). The chronologies were not opened at their sources."}
+  - {id: a3, panel: bronze, lane: egypt, time: "-1562-01-01T00:00:00Z", end: "-1506-01-01T00:00:00Z", precision: range, kind: analysis, status: disputed, sources: [s_bruins],
+     label: "ca 1562-1506 BCE: conquest of Avaris (ca year 18 of Ahmose), the six published dates",
+     detail: "ca 1562, 1552, 1532, 1530, 1521 and 1506 BCE for the six chronologies of the same table. The Ahmose son of Ebana biography (Breasted's translation, section 12) says Avaris was captured; it gives no year in the words read."}
+  - {id: a4, panel: bronze, lane: egypt, time: "-1550-01-01T00:00:00Z", precision: approx, kind: analysis, status: reported, sources: [s_stantis],
+     label: "After around 1550 BCE: Tell el-Dab'a (Avaris) largely abandoned, as Stantis et al. write",
+     detail: "'The city was later largely abandoned after around 1550 BCE, following the campaigns of the southern Theban Kingdom'."}
+  - {id: a5, panel: bronze, lane: letters, node: amarna-ea-286-287-habiru-passages, rev: 2,
+     note: "The window is Knudtzon's own range for Amenophis IV (about 1385-1368 BCE), reached through a chain with an 'if' in it; Lehmann's and Lieblein's figures, as he reports them, differ; no modern chronology for these reigns was read."}
+  - {id: b1, panel: modern, lane: find, node: amarna-1887-letters-found-at-el-amarna, rev: 2,
+     note: "Budge: 'became known' towards the end of summer 1887; Winckler: found at the beginning of winter 1887/88. The month is not fixed."}
+  - {id: b2, panel: modern, lane: find, time: "1888-02-18T12:00:00Z", precision: day, kind: document, status: single, sources: [s_budge],
+     label: "18 February 1888: Sayce announces in the Academy that 200 cuneiform tablets have been offered for sale in Cairo",
+     detail: "As quoted by Budge (PSBA 10 p. 540). Budge also quotes Sayce's letter of 7 April 1888, which first took the tablets for despatches of Nebuchadnezzar's time."}
+  - {id: b3, panel: modern, lane: books, time: "1888-06-05T12:00:00Z", precision: day, kind: document, status: single, sources: [s_budge],
+     label: "5 June 1888 (the meeting date printed above Budge's paper): Budge's report on the British Museum tablets in PSBA 10",
+     detail: "The page header reads 'June 5' and the volume year 1888; the volume is cited by Winckler as 'vol. X, 1889'."}
+  - {id: b4, panel: modern, lane: books, time: "1889-05-15T12:00:00Z", precision: month, kind: document, status: single, sources: [s_winckler],
+     label: "May 1889: Winckler's preface to the Berlin hand copies (Heft I), with plates 102 and 103 (VA Th. 1642 and 1644)",
+     detail: "The preface is dated 'Berlin, im Mai 1889'. The plates are drawings by L. Abel; no sign was read from them in this dig."}
+  - {id: b5, panel: modern, lane: books, time: "1894-07-01T12:00:00Z", precision: year, kind: document, status: single, sources: [s_petrie],
+     label: "1894: Petrie's Tell el Amarna, with the find-spot account in section 48",
+     detail: "Title page year read in the OCR. The excavation season is not dated here."}
+  - {id: b6, panel: modern, lane: books, time: "1906-07-01T12:00:00Z", precision: year, kind: document, status: single, sources: [s_breasted],
+     label: "1906: Breasted's Ancient Records of Egypt, vols. 2 and 3 (translations read for Ahmose son of Ebana and Seti I)",
+     detail: "Section 99 of vol. 3 is Breasted's comment equating Seti I's Shasu with the Khabiri of the Amarna letters."}
+  - {id: b7, panel: modern, lane: books, time: "1907-06-15T12:00:00Z", precision: month, kind: document, status: single, sources: [s_knudtzon1],
+     label: "June 1907: Knudtzon's preface (Kristiania) to the 1915 edition",
+     detail: "The preface is dated June 1907; the volume is dated 1915."}
+  - {id: b8, panel: modern, lane: books, time: "1915-07-01T12:00:00Z", precision: year, kind: document, status: single, sources: [s_knudtzon1],
+     label: "1915: Knudtzon, Die El-Amarna-Tafeln, vol. 1 (and vol. 2 with the notes by Weber and Ebeling)",
+     detail: "The edition read on page images for letters 286-290."}

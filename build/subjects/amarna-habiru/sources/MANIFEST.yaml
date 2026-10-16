@@ -1,81 +1,247 @@
-# Sources for the amarna-habiru dig, with authenticity entries (rules A1-A10, build/SCHEMA.md).
-# Nothing is stored as a copy; sources are cited by URL. Tests were run in this session (2026-10-14); this is not an independent review.
-# PRIMARY DATA for this subject is the cuneiform tablets (Berlin VA Th. 1642 and 1644 for letters 286 and 287) or their photographs and squeezes.
-# None of that was read. Every book below (Knudtzon, Winckler and Abel) is a CLAIM about the tablets: a transliteration, translation and
-# commentary, or a hand copy. Winckler and Abel's autograph plates are drawings of the signs by one copyist, not the object.
-# Funding and control of each author, publisher and sponsor: what was read is recorded in provenance; the rest is marked UNRESEARCHED.
-retrieved: 2026-10-14
+# Sources for the amarna-habiru dig, with authenticity entries (rules A1-A10, build/SCHEMA.md). Rebuilt 2026-10-16 (round 2 after the review on PR #28).
+# Files were downloaded outside the repository on 2026-10-16 and hashed (sha256). Short verbatim extracts of the public-domain books and the two CC BY papers
+# are stored in sources/extracts/ (elisions marked, OCR errors left as they are). Nothing in copyright is stored.
+# PRIMARY DATA for this subject is the cuneiform tablets (Berlin VA Th. 1642 and 1644 for letters 286 and 287) or their photographs or squeezes.
+# None of that was read: CDLI returned HTTP 500 again on 2026-10-16 and no museum photograph was reached. What WAS opened is the printed documents:
+# the page images of the 1915 edition (Knudtzon), the 1889 hand-copy plates and preface (Winckler and Abel), and the pages of the other books listed below.
+# A hand copy is a drawing of the tablet by one copyist; no cuneiform sign was read from any plate.
+# Wikipedia is not used. Funding and control of each author, publisher and sponsor: what a read source says is in `provenance`; the rest stays an open task (see log L-10).
+retrieved: 2026-10-16
 sources:
 
   - id: src-knudtzon-1915-v1
     title: "J. A. Knudtzon, Die El-Amarna-Tafeln, mit Einleitung und Erlaeuterungen, vol. 1 (Leipzig: J. C. Hinrichs, 1915; Vorderasiatische Bibliothek 2); preface dated Kristiania, June 1907"
     url: https://archive.org/details/dieelamarnatafel01knud
-    document_class: "interpretive: transliteration, German translation and introduction. Not primary data. Author funding: UNRESEARCHED. Publisher J. C. Hinrichs'sche Buchhandlung, Leipzig (title page, read): ownership and funding UNRESEARCHED. The series editors (VAB) are thanked in the preface for allowing departures from series rules; who funded the series was not found."
-    read: yes, directly (Internet Archive OCR text, sha256 aec993037828af99046207ba468a56b2b27cfd2819a8a8688ead9e771821a3f0; letters 285-288 translation and transliteration, introduction pp. 27-52 in part)
+    document_class: "interpretive: an editor's transliteration (no cuneiform is printed), German translation and introduction. A claim about what this book prints is a claim about the book; what the tablet shows is a separate question."
+    read: yes, directly. Page images opened and read (printed pp. 4, 5, 27, 38, 45-52 and the letters 286-290 on pp. 861-865, 870-871, 875, 877); the rest of the book only in OCR.
+    files:
+      - {what: "PDF from archive.org", sha256: 43ea5c781d769870c27c1db1338dbff9777691851c589734bea2f5360c273090, bytes: 50194758, downloaded: 2026-10-16}
+      - {what: "Internet Archive OCR text (_djvu.txt)", sha256: aec993037828af99046207ba468a56b2b27cfd2819a8a8688ead9e771821a3f0, downloaded: 2026-10-16}
+    extracts: [extracts/knudtzon1915-v1_pp4-5_discovery.txt, extracts/knudtzon1915-v1_p27_p38_p53_chronology.txt, extracts/knudtzon1915-v1_pp45-52_habiru.txt]
     authenticity:
       status: authenticated
       strength: moderate
-      provenance: "Item dieelamarnatafel01knud on the Internet Archive, 1915 Hinrichs printing per the item metadata, title page and preface read in the OCR. Rights status field is empty in the item metadata (not stated). Holder of the scanned copy not recorded here."
+      provenance: "Item dieelamarnatafel01knud on the Internet Archive, 1915 Hinrichs printing (title page and preface read). Publisher J. C. Hinrichs'sche Buchhandlung, Leipzig, in the series Vorderasiatische Bibliothek. The preface (read) thanks the series editors and the publisher for allowing departures from the series rules and thanks museums and private owners; it states no funder. The preface says Knudtzon again visited the museums in London and especially Berlin to examine some tablets more closely, that unclear signs of the originals are numbered 'Autogr.' 1-184 in the notes, and that he admits shortcomings in the translation and an error he now believes he made at the opening of the letters (his p. 989f; not read). Scanned copy holder not recorded here."
       tests:
-        - "Letter 286 is headed 'B 1642, WA 102, W 179' and Winckler and Abel 1889 plate 102 is captioned 'Berlin, VA. Th. 1642' (caption read in OCR; plate image not reached): the Berlin number agrees across the two books (could have failed)"
-        - "Letter 287 headed 'B 1644, WA 103' and the 1889 inventory list says 'Berlin VA. Th. 1644. Ardu-hi-ba an den Koenig': agrees (could have failed)"
-        - "The Habiru passage in letter 286 appears in both Knudtzon's cuneiform transliteration (amelutuha-bi-ru ha-bat gab-bi matat sarri) and his German translation (could have failed)"
-      tested_by: "Stratah dig session, 2026-10-14 (not an independent review)"
-      gaps: ["OCR only; page images not compared; OCR is noisy (signs, brackets and numbering damaged)", "Knudtzon prints transliteration, not cuneiform (his preface says so), so the signs of the tablet are not in this book", "His readings rest on the tablets and on Winckler and Abel's hand copies, which were not checked against the tablets here"]
-      next_step: "Compare the OCR of letters 286 and 287 with page images, then with the Berlin tablets' photographs (Vorderasiatisches Museum) or CDLI images."
-      checked: 2026-10-14
-    notes: "Knudtzon's own frame is biblical: he equates the Habiru with the Hebrews and times their entry from 1 Kings 6:1 (introduction, read). That is his reading, not a datum of the tablets."
+        - "The line numbers where he says the Habiru name occurs (p. 45 note 1: 286,19; 286,56; 287,31; 288,38; 288,44(?); 289,24; 290,13 and 24) were looked for in the printed letters on the page images. Found: 286,19 and 56; 287,31; 288,38; 289,24; 290,13 and 24. At 288,44 the name appears only in a bracketed restoration, consistent with his question mark (could have failed)"
+        - "Letter 286 is headed 'B 1642, WA 102, W 179' and letter 287 'B 1644, WA 103, W 180'; the 1889 plates 102 and 103 are captioned 'Berlin, VA. Th. 1642' and 'Berlin, VA. Th. 1644' on the plate images (could have failed)"
+        - "He cites Budge PSBA 10 p. 540 for the date the find became known; Budge p. 540 was opened and has those words (could have failed)"
+      tested_by: "Stratah dig session, 2026-10-16 (not an independent review)"
+      gaps: ["Printed transliteration, not the signs: not compared with the tablets, a photograph or a squeeze", "Most pages seen only in OCR, which is noisy", "His own stated errors (p. 989f) not read"]
+      next_step: "Compare letters 286 and 287 with a photograph of VAT 1642 and 1644 (CDLI or the Berlin museum) and with a modern edition."
+      checked: 2026-10-16
+    notes: "Knudtzon argues for the Habiru as a people and as the Hebrews, dating their arrival by 1 Kings 6:1 (pp. 47-49, read). That is his reading in the introduction, not a datum of the tablets."
+
+  - id: src-knudtzon-1915-v2-weber-ebeling
+    title: "J. A. Knudtzon (ed.), Die El-Amarna-Tafeln vol. 2: Anmerkungen und Register, by Otto Weber and Erich Ebeling (Leipzig: J. C. Hinrichs, 1915)"
+    url: https://archive.org/details/dieelamarnatafel02knud
+    document_class: "interpretive: commentary by Weber and Ebeling (the passages read do not say which of them wrote them), reporting positions of Winckler, Dhorme, Jensen and others. Different authors from vol. 1."
+    read: partly. OCR text only; the notes to letters 286-287 (printed pp. 1336-1337) and the note on SA.GAZ at letter 67 (pp. 1146-1147) were read; page images not opened.
+    files:
+      - {what: "Internet Archive OCR text (_djvu.txt)", sha256: db31085cca5e80723643f36c63bd9521c23bb4b2d8276687e9b2b8187c5a6a59, downloaded: 2026-10-16}
+    extracts: [extracts/knudtzon1915-v2_weber_ebeling_notes_habiru.txt]
+    authenticity:
+      status: authenticated
+      strength: moderate
+      provenance: "Item dieelamarnatafel02knud on the Internet Archive; title page read in the OCR: 'Anmerkungen und Register bearbeitet von Otto Weber und Erich Ebeling', Hinrichs, Leipzig, 1915. Funding not stated in the passages read."
+      tests:
+        - "The vol. 2 summary of letter 286 (OCR) says the writer will keep telling the Rabis that he loves the Habiru and hates the rulers, and that the Habiru plunder all lands: agrees with the page images of vol. 1 (could have failed)"
+      tested_by: "Stratah dig session, 2026-10-16 (not an independent review)"
+      gaps: ["OCR only", "The works the commentary cites (Winckler, Dhorme 1909, Jensen 1909, Boehl) were not opened: their positions are known only as reported here"]
+      next_step: "Open Dhorme, Revue biblique 1909, pp. 68ff. and Jensen, Theologische Literaturzeitung 1909, col. 532."
+      checked: 2026-10-16
 
   - id: src-winckler-abel-1889
-    title: "H. Winckler (ed.), nach den Originalen autographirt von L. Abel, Der Thontafelfund von El Amarna, Heft I (Koenigliche Museen zu Berlin: Mittheilungen aus den Orientalischen Sammlungen; Berlin: W. Spemann, 1889)"
+    title: "H. Winckler (ed.), nach den Originalen autographirt von L. Abel, Der Thontafelfund von El Amarna, Heft I (Koenigliche Museen zu Berlin: Mittheilungen aus den Orientalischen Sammlungen; Berlin: W. Spemann, 1889), preface dated Berlin, May 1889"
     url: https://archive.org/details/derthontafelfund01wincuoft
-    document_class: "interpretive/hand copy: autograph drawings of the Berlin tablets by L. Abel, with an inventory. A copyist's drawing, not the object. Authors and funders: see provenance."
-    read: partly. Preface and inventory read in the Internet Archive OCR (sha256 40f07ee1f9ea496b7d8f2b3dcea1b21d53c2ad30063e14a05d009d5cea4b4c7c). Plate pages 100, 101 and 176-181 were looked at as images; the plate for tablet 102 (letter 286) was NOT reached and no sign was read.
+    document_class: "interpretive/hand copy: autograph drawings of the Berlin tablets by L. Abel, with an inventory and a preface. A copyist's drawing, not the object."
+    read: preface and inventory page read as page images and text; plates 102 (both sides) and 103 (obverse) opened as images. NO sign was read from any plate (the reader cannot read cuneiform).
+    files:
+      - {what: "PDF from archive.org (462 pages)", sha256: 6ab7c91421eb09cb8ff8571341a0f115799fb39b667d0bf7550bb613e0b2eb4f, bytes: 13593641, downloaded: 2026-10-16}
+      - {what: "Internet Archive OCR text (_djvu.txt)", sha256: 40f07ee1f9ea496b7d8f2b3dcea1b21d53c2ad30063e14a05d009d5cea4b4c7c, downloaded: 2026-10-16}
+    extracts: [extracts/winckler-abel1889_preface_inventory.txt]
     authenticity:
       status: authenticated
       strength: moderate
-      provenance: "Preface (read): the tablets were found at the start of winter 1887/88 at el-Amarna; most were acquired for the Royal Museums in Berlin through the unselfish efforts of Theodor Graf of Vienna; the acquisition was made possible above all by the generosity of Kommerzienrat J. Simon of Berlin, who gave the larger part of the collections Graf brought to Berlin to the museums as a gift. Copies of the Bulaq tablets were made possible by the Academy of Sciences and the Royal Prussian government (preface, read). Copies of the Berlin tablets: Berlin Royal Museums. So the Berlin text was obtained by purchase from a dealer and a private donor, and the 1889 publication was a state museum's. Who paid for Graf's dealings and what Simon or the museums stood to gain: UNRESEARCHED. Internet Archive item derthontafelfund01wincuoft carries possible-copyright-status NOT_IN_COPYRIGHT in its metadata."
+      provenance: "Preface (read): the tablets were found at the beginning of winter 1887/88 at el-Amarna; most were acquired for the Royal Museums in Berlin through the unselfish efforts of Theodor Graf of Vienna; the acquisition was made possible above all by the generosity of Kommerzienrat J. Simon of Berlin, who gave the larger part of the collections Graf brought to Berlin to the museums as a gift. Copies of the Bulaq tablets were made possible by the support of the Academy of Sciences and the Royal Prussian government. The preface names Budge (PSBA 10, 1889, pp. 540-569) for the British Museum part and Sayce (PSBA 10, pp. 488-525) for private pieces. The copies of the Berlin tablets are by Ludwig Abel after the originals, with a facsimile of the script as faithful as possible (preface). Internet Archive item derthontafelfund01wincuoft carries possible-copyright-status NOT_IN_COPYRIGHT."
       tests:
-        - "Preface acquisition account compared with Knudtzon 1915's account (Sayce quoted): both say winter 1887/88 and Berlin, London, Bulaq holdings; differ on month (could have failed)"
-        - "Inventory line 'Berlin VA. Th. 1642. Ardu-hi-ba an den Koenig' read in the OCR and agrees with Knudtzon's B 1642 for letter 286 (could have failed)"
-      tested_by: "Stratah dig session, 2026-10-14 (not an independent review)"
-      gaps: ["Plate 102 not viewed", "Hand copy not compared with the tablet or a photograph", "Not compared with a second printing"]
-      next_step: "Open plate 102 (two pages after printed page 103 in the scan) and the VAT 1642 photograph, and read lines 56-57 of letter 286."
-      checked: 2026-10-14
+        - "Inventory lines 102 and 103 (scan page 279) read 'Berlin VA. Th. 1642 ... an den Koenig, 0,15 x 0,09 m' and 'Berlin VA. Th. 1644 ... 0,19 x 0,09 m': these agree with Knudtzon's headings B 1642 and B 1644 (could have failed)"
+        - "The plate captions on scan pages 308, 309 and 312 read 'Berlin, VA. Th. 1642' (front and back) and 'Berlin, VA. Th. 1644' (front): agree with the inventory (could have failed)"
+        - "The preface cites Budge PSBA 10 pp. 540-569; PSBA 10 p. 540 opens Budge's paper on the British Museum tablets (could have failed)"
+      tested_by: "Stratah dig session, 2026-10-16 (not an independent review)"
+      gaps: ["Hand copy not compared with the tablet or a photograph", "No sign read: whether the plate lines 19 and 56 of plate 102 show the signs Knudtzon transliterates is not tested", "Not compared with a second printing"]
+      next_step: "Have a person who reads cuneiform read plate 102 lines 19 and 56 and plate 103 lines 29-31 against Knudtzon's transliteration, then compare with a photograph of the tablets."
+      checked: 2026-10-16
 
-  - id: src-sayce-via-knudtzon
-    title: "A. H. Sayce, on the discovery of the Amarna tablets (Proc. Soc. Biblical Archaeology vol. 10, 1888-89; History of Egypt, 1902), as quoted by Knudtzon 1915"
-    url: https://archive.org/details/dieelamarnatafel01knud
-    document_class: "interpretive: cited second hand. Funding of Sayce's work: UNRESEARCHED."
-    read: no. Quoted passages read only inside Knudtzon (cited_only).
-    authenticity: {status: unchecked, next_step: "Open Proc. SBA vol. 10, pp. 488-525 on the Internet Archive."}
+  - id: src-budge-psba10-1888
+    title: "E. A. Wallis Budge, 'On Cuneiform Despatches from Tushratta ... and on the Cuneiform Tablets from Tell el-Amarna', Proceedings of the Society of Biblical Archaeology vol. 10 (1888), pp. 539-569; p. 540 read"
+    url: https://archive.org/details/ProceedingsOfTheSocietyOfBiblicalArchaeologyVol101888
+    document_class: "primary_text for what Budge reported in 1888 (an eyewitness account of seeing the tablets, with hearsay on the find). Not an account of the tablets' content."
+    read: yes, directly. Page image of p. 540 (scan page 760) opened and read; the next pages only in OCR.
+    files:
+      - {what: "PDF of PSBA vol. 10 from archive.org", sha256: 4903aaad70d5a2c7e2ae8e1d8f383270d987f48d7c2a7be5be126e9e044061e8, bytes: 39602302, downloaded: 2026-10-16}
+      - {what: "Internet Archive OCR text (_djvu.txt)", sha256: a8a1bc1c24268c712336ef951ab90cb7ab9ff3f829e7eaf8d03ab864b3680139, downloaded: 2026-10-16}
+    extracts: [extracts/budge1888_psba10_p539-540.txt]
+    authenticity:
+      status: authenticated
+      strength: moderate
+      provenance: "Volume 10 (1887-88) of the Society's Proceedings, item ProceedingsOfTheSocietyOfBiblicalArchaeologyVol101888 on the Internet Archive. Budge says he had to leave for Mesopotamia 'on a mission for the Trustees of the British Museum' (p. 540, read), so the notes he took in December 1887 were not used then. Funding of the Society and of Budge's work not researched."
+      tests:
+        - "Winckler's 1889 preface names Budge, PSBA 10, p. 540 for the British Museum part, and Knudtzon 1915 p. 4 cites Budge PSBA 10 p. 540 for 'towards the end of the summer of 1887' and 'about the middle of December'; p. 540 on the page image has those words (could have failed)"
+      tested_by: "Stratah dig session, 2026-10-16 (not an independent review)"
+      gaps: ["Budge's own source for the find's date is not stated on p. 540 beyond rumour and what he saw", "Pages 541-569 (his readings of the tablets) not opened as images"]
+      next_step: "Read Budge's History of Egypt vol. 4 (1902) p. 185-186, which Knudtzon cites for the 'gentleman in Egypt' report."
+      checked: 2026-10-16
+
+  - id: src-sayce-psba10-1888
+    title: "A. H. Sayce, 'Babylonian Tablets from Tel el-Amarna, Upper Egypt', Proceedings of the Society of Biblical Archaeology vol. 10 (1888), pp. 488-525; note 24 on p. 496 read"
+    url: https://archive.org/details/ProceedingsOfTheSocietyOfBiblicalArchaeologyVol101888
+    document_class: "interpretive: Sayce's first copies and translations of tablets then in M. Bouriant's possession, with tentative notes. Not of the Berlin tablets."
+    read: p. 496 as a page image (scan page 714); p. 488 opening and Budge's quotations of Sayce in OCR; the rest not opened.
+    files:
+      - {what: "same PSBA vol. 10 PDF and OCR as src-budge-psba10-1888", sha256: 4903aaad70d5a2c7e2ae8e1d8f383270d987f48d7c2a7be5be126e9e044061e8, downloaded: 2026-10-16}
+    extracts: [extracts/sayce1888_psba10_p496_and_p488.txt]
+    authenticity:
+      status: authenticated
+      strength: moderate
+      provenance: "Same volume as the Budge paper. Sayce says he copied the tablets of M. Bouriant, the Director of the French Archaeological School in Cairo, with his permission (p. 488, OCR). Budge p. 540 quotes Sayce's earlier Academy letters of 18 February, 24 March and 7 April 1888, in which Sayce first took the tablets to be Neo-Babylonian despatches from the time of Nebuchadnezzar (Budge, read)."
+      tests:
+        - "Knudtzon 1915 p. 47 note 1 cites 'Sayce, PSBA fuer 1887/8 S. 496' for the reading of the name as 'allies'; p. 496 has 'Can these khabiri, or confederates, be the people of Hebron?' (could have failed; the English words differ from Knudtzon's German 'Verbuendete')"
+      tested_by: "Stratah dig session, 2026-10-16 (not an independent review)"
+      gaps: ["The tablet Sayce comments on (his No. III, line 24) is not one of the Berlin letters 286-290", "Rest of the paper not read"]
+      next_step: "Read Sayce's later note (PSBA 1888/9 p. 347) that Knudtzon cites."
+      checked: 2026-10-16
+
+  - id: src-petrie-1894
+    title: "W. M. Flinders Petrie, Tell el Amarna, with chapters by A. H. Sayce and F. Ll. Griffith (London: Methuen, 1894)"
+    url: https://archive.org/details/tellelamarna00petr
+    document_class: "primary_text: the excavator's own report (testimony about his 1891-92 season), not a document of the 14th century BCE."
+    read: yes, directly. Page image of printed p. 23 (scan page 33) opened and read (section 48); the dated-sherd passages (about regnal year 17 and a later 'year 2') and the site-cost paragraph were read in OCR.
+    files:
+      - {what: "PDF from archive.org", sha256: ef0cd7e155f12336b1d82a95684bd48f79cdbcf355470dfe7d7c98c34aa66c60, bytes: 7922182, downloaded: 2026-10-16}
+      - {what: "Internet Archive OCR text (_djvu.txt)", sha256: 9ac8639c4f66d5b28acf426d2e86c8522214766ac51cff456d3b664b7c1176b9, downloaded: 2026-10-16}
+    extracts: [extracts/petrie1894_tell-el-amarna_s48.txt]
+    authenticity:
+      status: authenticated
+      strength: moderate
+      provenance: "1894 printing (title page read in OCR). In the section on the site (OCR) Petrie writes that Mr. Haworth and Mr. Kennard joined with him in the cost of the excavations and that a part of the site was worked by Mr. Carter on behalf of Lord Amherst of Hackney. Rights: item is a 1894 printing; the Internet Archive metadata was not checked for a rights field."
+      tests:
+        - "Knudtzon 1915 (p. 5 notes and p. 27) refers to Petrie's Tell el Amarna for the find-spot story and for 49 years for the two reigns; section 48 on the page image describes the find-spot (could have failed)"
+      tested_by: "Stratah dig session, 2026-10-16 (not an independent review)"
+      gaps: ["Petrie's site plan (Pls. XXXV, XLII) not opened", "The find-spot rests on what natives showed Sayce and Petrie and on a piece and rubbish pits Petrie found; he writes 'I believe' the tablets were in the south-west room"]
+      next_step: "Open Pls. XXXV and XLII of the scan."
+      checked: 2026-10-16
+
+  - id: src-breasted-are2
+    title: "J. H. Breasted, Ancient Records of Egypt: Historical Documents, vol. 2, The Eighteenth Dynasty (Chicago: University of Chicago Press, 1906)"
+    url: https://archive.org/details/ancientrecordsof02brea_0
+    document_class: "interpretive: an English translation with notes of Egyptian inscriptions (here the tomb biography of Ahmose son of Ebana, sections 1-16). Not the Egyptian text."
+    read: partly. Page image of printed p. 7 (scan page 39) opened and read; sections 8-15 read in OCR.
+    files:
+      - {what: "PDF from archive.org", sha256: 63f9c079a8b064a1ebccbdcb100515e6cfc3c1ac2afb139c5112d248ae5d46bd, bytes: 32682330, downloaded: 2026-10-16}
+      - {what: "Internet Archive OCR text (_djvu.txt)", sha256: 17d7872fbb81d734758720838fb336dbdc21ab1e019240571c8ae11c3967c9f4, downloaded: 2026-10-16}
+    extracts: [extracts/breasted-are2_ahmose-ebana_s8-14.txt]
+    authenticity:
+      status: authenticated
+      strength: moderate
+      provenance: "1906 printing, series Ancient Records edited by W. R. Harper; item ancientrecordsof02brea_0. Funding of the series not researched. The extract file is made from a whitespace-squeezed copy of the OCR (the raw OCR file hash is given above)."
+      tests:
+        - "Section 12 (capture of Avaris) and section 13 (siege of Sharuhen, 6 years) read on the page image and in OCR agree with Breasted's heading list in the contents (could have failed)"
+      tested_by: "Stratah dig session, 2026-10-16 (not an independent review)"
+      gaps: ["Breasted's translation of one tomb text; the hieroglyphs not read", "The Hyksos are named in Breasted's headings, not in the translated words I read"]
+      next_step: "Read a modern translation of the Ahmose son of Ebana biography."
+      checked: 2026-10-16
+
+  - id: src-breasted-are3
+    title: "J. H. Breasted, Ancient Records of Egypt: Historical Documents, vol. 3, The Nineteenth Dynasty (Chicago: University of Chicago Press, 1906)"
+    url: https://archive.org/details/cu31924082479241
+    document_class: "interpretive: an English translation with Breasted's own comments of Egyptian inscriptions (here sections 98-103, Seti I's Karnak war reliefs). Not the Egyptian text."
+    read: partly. Page images of printed pp. 50 and 52 (scan pages 82 and 84) opened and read.
+    files:
+      - {what: "PDF from archive.org (Cornell copy)", sha256: f5442fc49713f34c38cf4083146d8f91b3db7a39d22cadac1944b9d4a727e981, bytes: 8042337, downloaded: 2026-10-16}
+      - {what: "Internet Archive OCR text (_djvu.txt)", sha256: 4fd049a4eed9ffb77978b30681da6773780ca640d5e3a66e86d18b61f8f28ae2, downloaded: 2026-10-16}
+    extracts: [extracts/breasted-are3_seti-I_s99-102.txt]
+    authenticity:
+      status: authenticated
+      strength: moderate
+      provenance: "1906 printing, item cu31924082479241 (Cornell University Library copy). Funding of the series not researched."
+      tests:
+        - "The translated words of section 101 (the vanquished Shasu plan rebellion) on the page image agree with the OCR (could have failed)"
+      tested_by: "Stratah dig session, 2026-10-16 (not an independent review)"
+      gaps: ["Breasted's translation and gloss only; the Egyptian text not read", "Section 99 is Breasted's comment, not the inscription"]
+      next_step: "Read a current translation of the Seti I Karnak inscription and the Beth-shan stelae."
+      checked: 2026-10-16
+
+  - id: src-bruins-vanderplicht-2025
+    title: "H. J. Bruins and J. van der Plicht, 'The Minoan Thera eruption predates Pharaoh Ahmose: Radiocarbon dating of Egyptian 17th to early 18th Dynasty museum objects', PLoS One 2025, doi 10.1371/journal.pone.0330702 (PMC12422448)"
+    url: https://europepmc.org/article/PMC/PMC12422448
+    document_class: "interpretive: a research article whose Table 2 collects six published chronologies of the 17th and early 18th Dynasty (Breasted 1909; Wente and Van Siclen; Shaw; Schneider; Hornung et al.; Krauss and Warburton). Licence CC BY 4.0."
+    read: yes, directly (the full-text XML; Table 2 and the passages on accession years).
+    files:
+      - {what: "Europe PMC full-text XML", sha256: 58d1533fd601e796c7eedccbc1709ec7881f0337c9d12fe91bd721009aa7c819, downloaded: 2026-10-16}
+    extracts: [extracts/bruins-vanderplicht2025_table2_and_sentences.txt]
+    authenticity:
+      status: authenticated
+      strength: moderate
+      provenance: "Peer-reviewed article in PLoS One (editor Stefanos Gimatzidis, per the XML). The chronologies in Table 2 are the authors' collation of published works, which were not opened here. Funding statement not read."
+      tests:
+        - "The text says Ahmose's accession year ranges from 1580 BCE (Breasted) to 1524 BCE (Krauss and Warburton): the Table 2 row 'Accession Year' reads 1580 ... 1524 (could have failed)"
+      tested_by: "Stratah dig session, 2026-10-16 (not an independent review)"
+      gaps: ["Table 2 stops at Amenhotep II, so it gives no date for Amenhotep III or IV", "The six chronologies it collates were not opened"]
+      next_step: "Open Hornung, Krauss and Warburton (eds.), Ancient Egyptian Chronology (Brill, 2006) through a library."
+      checked: 2026-10-16
+
+  - id: src-stantis-2020
+    title: "C. Stantis, A. Kharobi, N. Maaranen, G. M. Nowell, M. Bietak, S. Prell, H. Schutkowski and P. F. Biehl, 'Who were the Hyksos? Challenging traditional narratives using strontium isotope (87Sr/86Sr) analysis of human remains from ancient Egypt', PLoS One 2020, doi 10.1371/journal.pone.0235414 (PMC7363063)"
+    url: https://europepmc.org/article/PMC/PMC7363063
+    document_class: "material and interpretive: tooth-enamel strontium isotope measurements on 75 individuals from Tell el-Dab'a (Avaris) and the authors' reading of them. Licence CC BY 4.0."
+    read: yes, directly (the full-text XML, introduction, results and discussion).
+    files:
+      - {what: "Europe PMC full-text XML", sha256: 87e89cdbfabddcf1eb22db29da315d2bbc9a45447a2479d703ebfb2c0c22eba8, downloaded: 2026-10-16}
+    extracts: [extracts/stantis2020_hyksos_sentences.txt]
+    authenticity:
+      status: authenticated
+      strength: moderate
+      provenance: "Peer-reviewed article in PLoS One. One author, Manfred Bietak, is the long-time excavator of Tell el-Dab'a (listed as an author in the XML). The measurements themselves were not re-run or inspected."
+      tests:
+        - "The abstract gives the Hyksos dates as c. 1638-1530 BCE and the first sentence of the main text as c. 1640-1530 BCE: the same paper uses two figures (noted, could have failed)"
+      tested_by: "Stratah dig session, 2026-10-16 (not an independent review)"
+      gaps: ["Data tables and supporting files not opened", "Habiru are not mentioned in the passages read"]
+      next_step: "Read the article's data tables and the Tell el-Dab'a chronology it cites."
+      checked: 2026-10-16
 
   - id: src-cdli-ea286
-    title: "CDLI record for the Berlin tablet VAT 1642 (Amarna letter EA 286), cdli.mpiwg-berlin.mpg.de"
+    title: "CDLI record for the Berlin tablet VAT 1642 (Amarna letter EA 286), cdli.mpiwg-berlin.mpg.de / cdli.earth"
     url: https://cdli.mpiwg-berlin.mpg.de/search?simple-value=VAT+1642
-    read: no. The URL redirected to cdli.earth, which returned HTTP 500 (two attempts); not otherwise retried.
-    authenticity: {status: unchecked, next_step: "Open in a browser, find the P-number, check image licence."}
+    read: no. The URL redirected to cdli.earth, which returned HTTP 500 on 2026-10-14 (two attempts) and again on 2026-10-16 (two attempts); a guessed artifact URL returned 404. Not bypassed.
+    authenticity: {status: unchecked, next_step: "Open in a browser, find the P-number, check the image licence."}
 
   - id: src-smb-vam
     title: "Vorderasiatisches Museum, Staatliche Museen zu Berlin, record for VAT 1642 and VAT 1644"
-    url: ""
-    read: no. A search returned no museum page; not located.
-    authenticity: {status: unchecked, next_step: "Search recherche.smb.museum for the inventory numbers; check image licence before any use."}
+    url: https://recherche.smb.museum/
+    read: no. The search page returned an application shell (HTTP 200) with no record content in the response; no object page was located.
+    authenticity: {status: unchecked, next_step: "Search recherche.smb.museum in a browser for the inventory numbers; check the image licence before any use."}
 
   - id: src-moran-1992
     title: "W. L. Moran, The Amarna Letters (Baltimore: Johns Hopkins University Press, 1992)"
     url: ""
-    read: no. In copyright; not located. Named in the handoff as a candidate.
-    authenticity: {status: unchecked, next_step: "Library copy: read the notes to EA 286-290 and the modern view of habiru."}
+    read: no. In copyright; no open copy reached.
+    authenticity: {status: unchecked, next_step: "Library copy: read the notes to EA 286-290 and the introduction on the habiru."}
+
+  - id: src-hornung-2006
+    title: "E. Hornung, R. Krauss and D. A. Warburton (eds.), Ancient Egyptian Chronology (Leiden: Brill, 2006)"
+    url: ""
+    read: no. A search found only the publisher's paid page and an unauthorised upload, which was not used.
+    authenticity: {status: unchecked, next_step: "Library copy: read the New Kingdom chapter for the reigns of Amenhotep III and Akhenaten."}
 
   - id: src-dh-claims
-    title: "Dead Hidden YouTube claims files, ids dh-gBGfqlL_FFQ-08, dh-APUenSDE2oM-08, dh-HN0wNVpfunM-30 (~/dead_hidden_claims/)"
-    url: ""
-    document_class: speaker claims (extracted captions). Never an anchor.
-    read: the claim lines only (statement, quote, speaker_cites); the videos and transcripts were not watched or read here
-    authenticity: {status: unchecked, next_step: "Not needed as evidence. Cited only so the transmission record can say where the claims were made."}
+    title: "Dead Hidden YouTube videos APUenSDE2oM ('The Habiru'), gBGfqlL_FFQ ('The Serpent The Judge') and HN0wNVpfunM ('Rekhmire'), channel @dead_hidden; claim ids dh-APUenSDE2oM-08, dh-gBGfqlL_FFQ-08, dh-HN0wNVpfunM-30"
+    url: https://www.youtube.com/@dead_hidden
+    document_class: speaker claims. Never an anchor.
+    read: "The three video titles and the channel were confirmed on 2026-10-16 from YouTube's oEmbed responses (title, channel). The videos, their transcripts and their upload dates were NOT opened (the watch pages returned HTTP 429). The claim wording and ids come from a claims file that an earlier agent used; that file is outside this repository and was not available to this session, so the wording cannot be checked here."
+    authenticity: {status: unchecked, next_step: "Not needed as evidence. To check the wording, open the video transcripts at the stated claim positions."}
 
 not_accepted_as_anchors:
   - "Wikipedia (including its pages on EA 286 and the Amarna letters): orientation only, not used as support"
-  - "Search-engine summaries and a Hebrew-language discussion list post on the reading of Abdi-Heba's name: leads, not reads"
-  - "The Dead Hidden videos themselves"
+  - "Search-engine summaries, encyclopedia mirrors and discussion-list posts: leads, not reads"
+  - "The Dead Hidden videos themselves, and the handoff that listed them"

@@ -1,0 +1,34 @@
+# Sayce, A. H., in Proceedings of the Society of Biblical Archaeology vol. 10 (1888), p. 488 (opening) and note 24 on p. 496. Public domain.
+# Page image of p. 496 (scan page 714) was opened and read; the p. 488 opening is OCR only.
+# Verbatim text from the stated file (Internet Archive OCR or born-digital XML text), line ranges given; elisions between ranges are marked [...]. OCR errors are left as they are.
+
+## psba10_djvu.txt lines 49683-49703 (sha256 of whole file a8a1bc1c24268c712336ef951ab90cb7ab9ff3f829e7eaf8d03ab864b3680139)
+
+BABYLONIAN TABLETS FROM TEL EL-AMARNA, 
+UPPER EGYPT. 
+
+By Prof. A. H. Sayce, M.A. 
+
+Egypt is the land of archaeological surprises. The last discovery 
+has been that of a number of Babylonian cuneiform tablets. During 
+the winter of 1877-8 about 200 of these tablets have been offered 
+for sale at Cairo and Ekhmim by native dealers who had procured 
+them in Upper Egypt. A considerable number have been obtained 
+by the Boulaq Museum, 160 by the Museum of Vienna, and a still 
+larger number by Danninos Pasha ; and a few have been purchased 
+by M. Urbain Bouriant, the Director of the French Archaeological 
+School in Cairo. Through his kindness I am able to give an 
+account of the tablets as well as translations of them. He has 
+permitted me to take copies of all those which were in his posses- 
+sion up to the time of my departure from Cairo, and to publish 
+them in the Proceedings of this Society. It will be seen that 
+they turn out for the most part to be despatches sent to the king 
+by his officers stationed abroad. 
+
+[...]
+
+## psba10_djvu.txt lines 50304-50307 (sha256 of whole file a8a1bc1c24268c712336ef951ab90cb7ab9ff3f829e7eaf8d03ab864b3680139)
+M (ipva-s is found on coins of Gaza as a title of Zeus. 
+
+24. Can these khabiri , or “confederates,” be the people of 
+Hebron? In ordinary Assyrian the initial kheth of is lost. 

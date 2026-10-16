@@ -1,0 +1,14 @@
+# Stantis, C., Kharobi, A., Maaranen, N., Nowell, G. M., Bietak, M., Prell, S., Schutkowski, H., Biehl, P. F. (2020), "Who were the Hyksos? Challenging traditional narratives using strontium isotope (87Sr/86Sr) analysis of human remains from ancient Egypt", PLoS One, doi 10.1371/journal.pone.0235414, PMC7363063.
+# Licence: CC BY 4.0 (stated in the article XML). Sentences copied verbatim from the Europe PMC full-text XML (sha256 of file 87e89cdbfabddcf1eb22db29da315d2bbc9a45447a2479d703ebfb2c0c22eba8).
+
+- A foreign dynasty, known as the Hyksos, ruled parts of Egypt between c.
+- An influx of non-locals can be observed in the pre-Hyksos period (12th and 13th Dynasties, c.
+- This is consistent with the supposition that, while the ruling class had Near Eastern origins, the Hyksos’ rise to power was not the result of an invasion, as popularly theorized, but an internal dominance and takeover of foreign elite.
+- 1640–1530 BCE), known as that of the Hyksos, rose to rule is apocryphal.
+- To date, no tomb known to belong to a Hyksos ruler has been excavated, but this wealth of new material and insights allows direct comparison with the Levant and the wider Near East in a significant step forward towards explaining cultural trends and geographic provenance of people associated with the Hyksos and the background of their migration into the northeastern Nile Delta.
+- The city was later largely abandoned after around 1550 BCE, following the campaigns of the southern Theban Kingdom (the 17th Dynasty) in its pursuit to defeat the Hyksos rulers and forge the New Kingdom [15, 26, 27], although a palace complex in the nearby site of ʿEzbet Helmi dating to the early 18th dynasty shows a certain continuity within this area [28].
+- In order to address the question of chronological patterns of movement, we collapse the detailed timescale to a simple ‘Pre-Hyksos’ time period for the site encapsulating the 12th and 13th Dynasties (1991–1649 BCE) and the Hyksos reign.
+- The wide range of values in the Tell el-Dabca assemblage suggests that non-locals, either before or during Hyksos rule, did not come from one unified homeland, but an extensive variety of origins.
+- Although the Levantine origin of these rulers is not in question due to their rulers’ names, architecture, and material culture, these results challenge the classic narrative of the Hyksos as an invading force.
+- A foreign dynasty, known as the Hyksos, ruled parts of Egypt between c. 1638–1530 BCE. Their origins are thought to be r
+- (context) (n = 75) from Tell el-Dabca, focusing on comparing pre- and during Hyksos rule and sex-based differences. An influx of non-locals can be observed in the pre-Hyksos period (12th and 13th Dynasties, c. 1991–1649 BCE) during the constitution of this important harbor town, while the number of individuals already born in the Delta is larger during the Hyksos period. This is consistent with the supposit

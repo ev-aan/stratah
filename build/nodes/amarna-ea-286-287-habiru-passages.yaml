@@ -1,26 +1,30 @@
 # Shared node. Append-only: a change is a new `rev` plus a `history` entry, never an overwrite. See build/SCHEMA.md, Nodes.
 id: amarna-ea-286-287-habiru-passages
-rev: 1
+rev: 2
 type: document
-label: 'Amarna letters EA 286 and EA 287 (Abdi-Heba of Jerusalem to the king): passages naming the Habiru'
-time: '-1370-01-01'
+label: 'Amarna letters EA 286 to EA 290 (Abdi-Heba of Jerusalem to the king): passages naming the Habiru'
+time: '-1377-01-01'
 precision: range
-date_basis: inferred
+date_basis: derived
 kind: document
 status: single
 what: >-
-  In Knudtzon's 1915 edition, letter 286 (Berlin tablet, VA Th. 1642) and letter 287 (VA Th. 1644), both sent from Jerusalem by Abdi-Heba,
-  name the Habiru. Knudtzon's German for 286 l.56: "Die Habiru plündern alle Länder des Königs". For 287 l.29-31: "diese Tat ist die Tat
-  Milkilis und die Tat der Söhne Labajas, welche gegeben haben das Land des Königs den Habiru." The letters give no year; the window is
-  built from Knudtzon's 1915 statement that the two reigns together (about 53 years; Amenophis III 36 years attested, IV 17) fall roughly one third or a little more before 1400 BCE
-  and the rest after, widened to 1330 to take in the lower chronology he cites from Lehmann. Later chronologies were not read.
+  In Knudtzon's 1915 edition the letters 286 (Berlin tablet VA Th. 1642), 287 (VA Th. 1644), 288, 289 and 290, all sent from Jerusalem by Abdi-Heba,
+  name the Habiru. Page images of the printed letters were read. Knudtzon's German: 286, 56 "Die Habiru plündern alle Länder des Königs"; 286, 19
+  (the writer says he will ask the king's officer) "Warum liebt ihr die Habiru, und die Regenten haßt ihr?"; 287, 29-31 "diese Tat ist die Tat
+  Milkilis und die Tat der Söhne Labajas, welche gegeben haben das Land des Königs den Habiru"; 288, 36-38 "Jetzt aber nehmen die Habiru die
+  Städte des Königs"; 289, 22-24 Labaja "und das Land Šakmi (alles) gegeben haben den Habiru"; 290, 13-14 "Abgefallen ist das Land des Königs
+  zu den Habiru". The letters give no year. The date window is Knudtzon's own estimate for the time of Amenophis IV (about 1385 to 1368 BCE,
+  pp. 38 and 53), which he reaches from the reigns of Assyrian and Babylonian kings and from a chain of contemporaries of Labaja and Abdi-Heba.
+  The node's single date is the middle of that range and is not a date any source gives. Other scholars he cites put the two reigns elsewhere
+  (Lehmann 1427-1392 and 1392-1376; Lieblein, with Amenophis III to 1318; both as reported by Knudtzon, p. 27); modern chronologies were not read.
 window:
-  earliest: '-1420-01-01'
-  latest: '-1330-12-31'
-  begin_note: 'Knudtzon 1915, p. 27: about one third or somewhat more of the two reigns (about 53 years together) falls before 1400 BCE; the window starts at 1420 as a round placeholder for about 53 years ending after 1400, not his exact start.'
-  end_note: 'Knudtzon 1915 cites Lehmann, who puts Amenophis III to 1318 BCE; the window stops at 1330 as a placeholder for the lower chronology. Modern absolute chronologies (not read) are outside what this node shows.'
+  earliest: '-1385-01-01'
+  latest: '-1368-12-31'
+  begin_note: 'Knudtzon 1915 p. 38 and p. 53: he would put the reign of Amenophis IV at about 1385 to 1368 and thinks the letters of Abdi-Heba belong to it. 1385 is the start of that reign in his reckoning (his reasoning allows up to about 1395 at the earliest, p. 38).'
+  end_note: 'Knudtzon 1915 p. 38 and p. 53: the end of the same reign, 1368 BCE. This is one editor''s 1915 estimate; Lehmann''s figures as he reports them (1392-1376) fall partly outside it, and a modern absolute chronology was not read.'
 sources:
-- title: 'J. A. Knudtzon, Die El-Amarna-Tafeln, vol. 1 (Leipzig: Hinrichs, 1915), letters 286 and 287 with introduction pp. 27-52, Internet Archive OCR read'
+- title: 'J. A. Knudtzon, Die El-Amarna-Tafeln, vol. 1 (Leipzig: Hinrichs, 1915), letters 286-290 (pp. 860-879) and introduction pp. 27, 38, 45-53; page images read'
   url: https://archive.org/details/dieelamarnatafel01knud
   authenticity: authenticated edition, moderate; a transliteration and translation, not the tablet (see the amarna-habiru manifest)
   origin: knudtzon-1915
@@ -32,3 +36,11 @@ history:
 - rev: 1
   date: '2026-10-14'
   change: Created by the amarna-habiru dig from Knudtzon 1915 OCR. The date window is our reading of Knudtzon's own chronology and is a placeholder, not an established date.
+- rev: 2
+  date: '2026-10-16'
+  change: >-
+    Placeholders removed. Rev 1 gave a window of 1420 to 1330 BCE and a time of 1370 BCE with a note that both were placeholders; the 1420 start had no source
+    figure. Rev 2 sets the window to the range Knudtzon himself gives for the reign of Amenophis IV (about 1385 to 1368 BCE, pp. 38 and 53, page images read), says the
+    single date is the middle of that range, and drops the 1330 end taken from a lower chronology, which rev 1 attributed to Lehmann. That attribution was wrong: the
+    1386 and 1318 figures are Lieblein's as Knudtzon reports them (p. 27, page image read), and Lehmann's figures are 1427-1392 and 1392-1376. The letters 288, 289 and 290 were read and added;
+    rev 1 covered 286 and 287 only. The rev 1 text is kept above.
