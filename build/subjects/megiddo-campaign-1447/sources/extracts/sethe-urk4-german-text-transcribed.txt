@@ -1,0 +1,50 @@
+# Transcription of the German handwriting (not the hieroglyphs) on pages of K. Sethe, Urkunden der 18. Dynastie (Urk. IV), Heft 9/10, Leipzig 1907, pp. 644-647, 655, 657.
+# Made by the builder on 2026-10-16 from the page images of the Internet Archive item urkundenderdyna00helcgoog (PDF sha256 in sources/MANIFEST.yaml).
+# Sethe died in 1934 and the book is from 1907, so the text is public domain. Line breaks are the page's. [?] marks a word read with doubt. The page images are not stored here.
+# The hieroglyphic lines on these pages were looked at and are NOT transcribed here.
+
+--- p. 645, lines 7-17 (the heading of the Annals piece) ---
+203. Die Annaleninschriften Thutmosis' III.
+Stück I,
+umfassend Jahr 22-24 und Jahr 40 seiner Regierung;
+an der Nordwand des östlichen Annalensaales
+bei a unter den Darstellungen der Weihgeschenke und des
+sie weihenden Königs (Z. 1-67), bei c unter der Darstel-
+lung der Haremsfrauen (Z. 68-82) und links daneben,
+hier die ganze Höhe der Wandfläche einnehmend (Z. 83ff.)
+(Schrift nach rechts gewandt).
+Veröffentlicht: Z. 1-67. 72-110: Leps. Denkm. III 31 b - 32. —
+Brugsch, Thes. V 1153-1168 (durchaus von Leps. abhängig). — Maspe-
+
+--- p. 646, lines 1-18 ---
+ro, Rec. de trav. II 48ff. 139ff. (nach Lepsius mit Ergänzungen).
+Z. 72-110: Griffith, ÄZ. 33, 125/6 (alte Abschrift von Burton).
+Stücke aus Z. 6. 12-14. 18. 20. 22. 31/2. 34/5. 56/7. 63. 83-85. 87-90.
+94-101. 103-106: Champ. Not. descr. II 154-159.
+Kollationiert und vervollständigt nach dem Original (1905)
+und nach Berlin Abdr. 468. 469, die vielfach noch mehr erken-
+nen lassen, als jetzt erhalten ist.
+Die von Maspero, Brugsch und Breasted (Ancient Records
+of Egypt II § 407 ff.) angenommenen Ergänzungen berück-
+sichtigen die Größe der Lücken nicht genau und erweisen
+sich deshalb in sehr vielen Fällen als unrichtig. Im
+Folgenden ist (wie ja auch sonst bei dieser Urkundensamm-
+lung überall nach Möglichkeit geschieht) für alle Ergän-
+zungen die Größe der Lücke auf das Genaueste berücksich-
+tigt. Es ist für jedes Zeichen und jede Zeichengruppe genau
+der Raum angesetzt worden, den sie an anderen Stellen der In-
+schrift einnehmen. Die "Gruppe" (das [Zeichen]) hat in den Annalen-
+inschriften durchschnittlich eine Höhe von etwa 8 cm.
+
+--- p. 647, footnotes (bottom of the page) ---
+a) vgl. S. 684.
+b) Nach der eben zitierten Parallelstelle ein Relativsatz. Die Inschrift steht auf einer Wand, die Thutm. III vor eine ältere Mauer vorgelegt hat.
+f) Datum nach Champ.; jetzt das Ende zerstört.
+[Footnotes c-e of this page are also on the page; they discuss Brugsch's and Lepsius's copies and a restoration by the editor. They were read only in part and are not transcribed.]
+
+--- p. 655, lines 10-11 (section heading) ---
+h. Der König bezieht ein Lager im Süden
+von Megiddo. Vorbereitungen für den Kampftag.
+
+--- p. 657, line 1 (section heading above the date line) ---
+i. Die Schlacht bei Megiddo.

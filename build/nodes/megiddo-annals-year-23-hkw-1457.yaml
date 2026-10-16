@@ -1,0 +1,27 @@
+# Shared node. Append-only: a change is a new `rev` plus a `history` entry, never an overwrite. See build/SCHEMA.md, Nodes.
+id: megiddo-annals-year-23-hkw-1457
+rev: 1
+type: event
+label: 'Year 23 of Thutmose III reckoned as 1457 BCE on the chronology of Hornung, Krauss and Warburton (2006), where year 1 is 1479 BCE (variant of the Breasted 1479 date)'
+time: '-1457-01-01'
+precision: year
+date_basis: derived
+kind: document
+status: single
+derived_from: megiddo-annals-year-23-battle-of-megiddo
+variant_reason: 'A different absolute year for the same regnal date (year 23, I Shemu day 21). The 2006 chronology takes year 1 of Thutmose III as 1479 BCE, so year 23 is 1457 BCE by subtracting 22; Breasted 1906 took year 1 as 1501 BCE, so year 23 is 1479 BCE. The year here is derived by that subtraction, not stated in the book.'
+what: >-
+  Krauss, in Hornung, Krauss and Warburton (eds.), Ancient Egyptian Chronology (Brill, 2006), chapter III.8, finds two astronomically workable solutions for the lunar date of the Megiddo battle (year 1 of Thutmose III = 1479 BCE with the battle on I Shemu 21, or = 1504 BCE with the battle on I Shemu 20) and excludes 1504 BCE because it cannot be reconciled with year 1 of Ramesses II = 1279 BCE and year 9 of Amenhotep I = 1506 BCE. The book says it agrees with Beckerath and Kitchen on 1479 BCE for the accession (Kitchen and Beckerath not read). The same chapter says whether the recorded date ought to be emended is moot. The 1457 figure is our subtraction from the book's year 1.
+sources:
+- title: 'E. Hornung, R. Krauss, D. A. Warburton (eds.), Ancient Egyptian Chronology (Handbook of Oriental Studies I.83, Brill, 2006), chapter III.8 pp. 420-422 and summary pp. 478-479. Internet Archive OCR read (access path only).'
+  url: https://archive.org/details/AncientEgyptianChronology_201303
+  authenticity: 'a 2006 reference work (copyright Brill); read in an Internet Archive upload; see the megiddo-campaign-1447 manifest'
+  origin: hkw-2006
+  source_type: scholarly
+  access: read
+manifest: {subject: megiddo-campaign-1447, source: src-hkw-chronology}
+created: '2026-10-16'
+history:
+- rev: 1
+  date: '2026-10-16'
+  change: Created as a variant (N4) of the Breasted-based node by the megiddo-campaign-1447 dig, round 2. Both stay; neither is the object.
