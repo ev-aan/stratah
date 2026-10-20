@@ -317,3 +317,23 @@ log:
       Cleanup after c2c006e. L-24 and L-25 are not edited. The clause about a reviewer's count of 84 keyword matches was removed from
       data/ROUND2_SELECTION_RULES.md; the note keeps the 71 / 1 / 15 selection counts and the result that 86 of the 87 committees match
       a keyword, with Vote Uncommitted MN the one that matches none.
+  - id: L-27
+    date: 2026-10-20
+    entry: >
+      Anchor-label fix for the 18 claims that were established with anchor_checked secondary (L-25, item 5). Earlier entries are not
+      edited. Wording of claims about the world is unchanged; only state, confidence, anchor_checked, exception lines and anchor
+      descriptions changed, plus the coverage paragraph of the assessment. (1) Six claims whose primary document was not opened are
+      now state proposed, confidence provisional, anchor_checked secondary: ipm-unga-voting-patterns, ipm-settlement-property-expos,
+      ipm-canada-charities-revoked, ipm-israel-state-settlement-spending, ipm-us-aid-israel-1993-2015 and ipm-gulf-turkey-iran-channels.
+      (2) Nine claims were set to anchor_checked primary because the agency's own downloaded file was opened and parsed in full by
+      script, with the file named in the anchor description: ipm-campaign-lobbying-money (FEC bulk files and lda.gov API output),
+      ipm-donor-tables-west-bank-gaza-2016-2025 (OCHA FTS and OECD DAC2A), ipm-uk-aid-west-bank-gaza-2017-2024 (FCDO SID ods),
+      ipm-cordis-ec-contribution-by-country, ipm-qatar-channels-2016-2025, ipm-turkiye-channels-2016-2025,
+      ipm-uk-charity-register-selection (Charity Commission extract), ipm-fec-committee-summaries-2022-2026 and
+      ipm-fec-schedule-e-and-contributions-2022-2026. L-25 item 2 had set ipm-campaign-lobbying-money to secondary; the anchor now
+      says which files were read, and the earlier entry stands as the record of that step. Raw downloads are stored outside the
+      repository; extracted rows and hashes are in data/. (3) Three claims stay established with anchor_checked secondary and an
+      exception line: ipm-votes-beside-money (a tabulation joining the FEC files to a secondary member list, with labels assigned by
+      the authors) and ipm-company-documents-lead-list-found and ipm-company-documents-other-names-found (they state what searches
+      returned; contract documents behind the awards not opened). The validator does not read the exception line, so these three still
+      show the warning. The assessment paragraph on anchor labels was rewritten to match.

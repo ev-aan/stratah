@@ -65,7 +65,7 @@ assessment:
     documents of Qatar, Türkiye, Iran, Egypt, Saudi Arabia and the Palestinian Ministry of Finance; UNRWA financial statements;
     ForeignAssistance.gov; Israeli and Hebrew-language registries; Dutch and German registers; FEC individual-donor receipts; defense.gov
     contract announcements (HTTP 403); 5 Foreign Military Sales notices (full lists in ipm-flows-unread-and-coverage and
-    ipm-round2-unread-and-coverage). Claims marked established at a secondary anchor are of two kinds. Primary document not opened on 16 October 2026: ipm-unga-voting-patterns (UN voting records not retrievable), ipm-settlement-property-expos (news reports; the sales are private), ipm-canada-charities-revoked (Federal Court of Appeal document returned 403), ipm-israel-state-settlement-spending (Ministry of Finance returned 403), ipm-us-aid-israel-1993-2015 (official CRS host returned 403 or 404) and ipm-gulf-turkey-iran-channels (UAE figure read in a newspaper copy; other parts by extraction). Totals recomputed by script from downloaded files, labelled dataset: ipm-donor-tables-west-bank-gaza-2016-2025, ipm-uk-aid-west-bank-gaza-2017-2024, ipm-cordis-ec-contribution-by-country, ipm-qatar-channels-2016-2025, ipm-turkiye-channels-2016-2025, ipm-uk-charity-register-selection, ipm-fec-committee-summaries-2022-2026, ipm-fec-schedule-e-and-contributions-2022-2026, ipm-votes-beside-money and the four company-document claims (contract documents behind the awards not opened). Re-anchored to documents opened directly on that date: ipm-crypto-seizures (Justice Department releases through its API), ipm-civil-terror-finance-cases (Second Circuit opinions) and ipm-votes-official-rollcall-tallies (official House and Senate roll-call files).
+    ipm-round2-unread-and-coverage). Anchor labels were corrected on 20 October 2026 (log L-27). Six claims whose primary document was not opened are held at state proposed with anchor_checked secondary: ipm-unga-voting-patterns (UN voting records not retrievable; Voeten and un-project compilations read), ipm-settlement-property-expos (news reports; the sales are private), ipm-canada-charities-revoked (Federal Court of Appeal document returned 403), ipm-israel-state-settlement-spending (Ministry of Finance returned 403; a civic mirror read), ipm-us-aid-israel-1993-2015 (official CRS host returned 403 or 404; a third-party mirror read) and ipm-gulf-turkey-iran-channels (UAE figure read in a newspaper copy; other parts by extraction). Nine claims whose figures were computed by script from an agency's own downloaded file, opened and parsed in full, carry anchor_checked primary, with the file named in the anchor: ipm-campaign-lobbying-money, ipm-donor-tables-west-bank-gaza-2016-2025, ipm-uk-aid-west-bank-gaza-2017-2024, ipm-cordis-ec-contribution-by-country, ipm-qatar-channels-2016-2025, ipm-turkiye-channels-2016-2025, ipm-uk-charity-register-selection, ipm-fec-committee-summaries-2022-2026 and ipm-fec-schedule-e-and-contributions-2022-2026. Three claims stay established at a secondary anchor with an exception line stating why: ipm-votes-beside-money and the two company-document claims (ipm-company-documents-lead-list-found, ipm-company-documents-other-names-found; contract documents behind the awards not opened). Re-anchored to documents opened directly on 16 October 2026: ipm-crypto-seizures (Justice Department releases through its API), ipm-civil-terror-finance-cases (Second Circuit opinions) and ipm-votes-official-rollcall-tallies (official House and Senate roll-call files).
   key_points:
     - "Dated documents recorded: court rulings, government designations and sanctions, funding decisions, UN votes and filed money flows by channel."
     - "For most designations the evidence behind the decision was not published; where it was tested in public, the findings are recorded with their limits."
@@ -634,7 +634,7 @@ claims:
   # UN VOTES, VETOES AND RECOGNITION
   # =======================================================================
   - id: ipm-unga-voting-patterns
-    state: established
+    state: proposed
     statement_kind: reported
     statement: >
       On 572 General Assembly roll calls about Palestine and the Middle East from 1993 to 2023
@@ -645,7 +645,7 @@ claims:
       equal in 2008 (7 to 7), No votes outnumbered Yes votes each year from 2009 to 2023 (no Yes votes at
       all from 2012 to 2018), and Yes votes outnumbered No votes again in 2024 (8 to 3) and 2025 (11 to 1).
     evidence_class: synthetic
-    confidence: moderate
+    confidence: provisional
     evidential_weight: 3
     anchor_checked: secondary
     adoption_weight: 2
@@ -975,7 +975,7 @@ claims:
       accessible: true
 
   - id: ipm-settlement-property-expos
-    state: established
+    state: proposed
     statement_kind: reported
     statement: >
       Israeli real-estate firms held sales events in North America and the UK in 2024 and 2025, including
@@ -987,7 +987,7 @@ claims:
       Charity Commission issued guidance to the Edgware synagogue's trustees, closed the case, then
       opened a formal decision review.
     evidence_class: interpretive
-    confidence: moderate
+    confidence: provisional
     evidential_weight: 3
     anchor_checked: secondary
     adoption_weight: 3
@@ -1042,7 +1042,7 @@ claims:
       institution; it is located in the settlement of Ariel.
 
   - id: ipm-canada-charities-revoked
-    state: established
+    state: proposed
     statement_kind: reported
     statement: >
       Canada's revenue agency revoked the charity status of several charities that sent money to Israel,
@@ -1054,7 +1054,7 @@ claims:
       LIBI) fund. The settlement group Regavim, sanctioned by Canada in June 2026, received CAD 8,460 from
       the Mizrachi Organization of Canada in 2023, before the listing.
     evidence_class: primary_text
-    confidence: moderate
+    confidence: provisional
     evidential_weight: 4
     anchor_checked: secondary
     adoption_weight: 2
@@ -1070,7 +1070,7 @@ claims:
       accessible: true
 
   - id: ipm-israel-state-settlement-spending
-    state: established
+    state: proposed
     statement_kind: reported
     statement: >
       Israel's open budget data show the Settlement and National Missions Ministry spending NIS 337.1
@@ -1081,7 +1081,7 @@ claims:
       so these are not West-Bank-only totals. Peace Now, an advocacy group, puts total state funding for
       settlements at NIS 19.33 billion (March 2026); that figure was not checked against primary records.
     evidence_class: primary_text
-    confidence: moderate
+    confidence: provisional
     evidential_weight: 4
     anchor_checked: secondary
     adoption_weight: 2
@@ -1130,7 +1130,7 @@ claims:
       million a month was about half met (IMF).
 
   - id: ipm-us-aid-israel-1993-2015
-    state: established
+    state: proposed
     statement_kind: reported
     statement: >
       US aid appropriations to Israel ran at about $2.4 billion to $3.1 billion a year from 1993 to 2015
@@ -1141,7 +1141,7 @@ claims:
       million net for settlement spending, and $9 billion from 2003, reduced for settlement and barrier
       spending.
     evidence_class: primary_text
-    confidence: moderate
+    confidence: provisional
     evidential_weight: 4
     anchor_checked: secondary
     adoption_weight: 3
@@ -1378,18 +1378,18 @@ claims:
     evidence_class: primary_text
     confidence: high
     evidential_weight: 4
-    anchor_checked: secondary
+    anchor_checked: primary
     adoption_weight: 3
     adoption_note: "Adoption is information, not evidence."
     would_change_if: "amended FEC reports change totals"
     anchor:
       type: dataset
-      description: "Dataset, totals recomputed by script. FEC bulk files downloaded and parsed (the FEC API was rate-limited); lda.gov lobbying API queried. All rows in data/campaign-lobbying-gulf-turkey-iran.csv. Independent-expenditure figures use 24/48-hour reports, which can differ slightly from final reports."
+      description: "Dataset, totals recomputed by script. FEC bulk files downloaded and parsed (the FEC API was rate-limited); lda.gov lobbying API queried. All rows in data/campaign-lobbying-gulf-turkey-iran.csv. Independent-expenditure figures use 24/48-hour reports, which can differ slightly from final reports. Files read: the FEC bulk committee-summary files (webk20 to webk26) and the 24/48-hour independent-expenditure files, and the lda.gov API output, each opened and parsed in full by script. Raw downloads are stored outside the repository; the extracted rows are in data/campaign-lobbying-gulf-turkey-iran.csv, and file hashes for the 2022 to 2026 downloads are in data/ROUND2_SELECTION_RULES.md."
       sources: [src-fec-bulk, src-lda-lobbying]
       accessible: true
 
   - id: ipm-gulf-turkey-iran-channels
-    state: established
+    state: proposed
     statement_kind: reported
     statement: >
       Official records of other states' money: Saudi Arabia's aid agency lists $548.1 million across 159
@@ -1401,7 +1401,7 @@ claims:
       registration ended on 30 Sep 2018. US Treasury releases on Iran-linked financing of Hamas and PIJ from
       2015 to 2026 mostly give no dollar figure.
     evidence_class: primary_text
-    confidence: moderate
+    confidence: provisional
     evidential_weight: 3
     anchor_checked: secondary
     adoption_weight: 2
@@ -1482,6 +1482,7 @@ claims:
     confidence: moderate
     evidential_weight: 3
     anchor_checked: secondary
+    exception: "The claim states what a script tabulation of two files contains (the FEC bulk files and the Voteview member list, joined by member; group labels assigned by the authors). The FEC files were opened and read in full, but the member list is a secondary compilation, and individual filings were not opened."
     adoption_weight: 3
     adoption_note: "Claims that money buys votes, and that it does not, are both widely made; this records who received what. Adoption is information, not evidence."
     would_change_if: "amended FEC filings change a committee's amounts; or a document shows a specific link between a payment and a vote (rule P9 decisive tier)"
@@ -1772,7 +1773,7 @@ claims:
     evidence_class: synthetic
     confidence: moderate
     evidential_weight: 3
-    anchor_checked: secondary
+    anchor_checked: primary
     adoption_weight: 2
     adoption_note: "Not measured. Adoption is information, not evidence."
     would_change_if: "FTS or DAC2A values are revised; or the selection of FTS flows (incoming boundary, paid and committed) is changed by a written rule"
@@ -1784,6 +1785,7 @@ claims:
         payer label. OECD: DAC2A SDMX extract for recipient PSE downloaded 16 Oct 2026 (hash in data/PARTB_SELECTION_RULES.md),
         measure 240 gross ODA, current US dollars, filtered into data/oecd-dac2a-gross-oda-to-west-bank-gaza-2016-2024.csv. Both
         are self-reported by payers. 2026 FTS figures are part-year and not quoted here.
+        Files read: the OCHA FTS flows file (data/ocha-fts/fts_flows.csv.gz, hashes in data/ocha-fts/raw_sha256.txt) and the OECD DAC2A extract, each opened in full and aggregated by script; the aggregates are in the two csv files named above.
       sources: [src-ocha-fts, src-oecd-dac2a]
       accessible: true
 
@@ -1823,7 +1825,7 @@ claims:
     evidence_class: synthetic
     confidence: moderate
     evidential_weight: 3
-    anchor_checked: secondary
+    anchor_checked: primary
     adoption_weight: 1
     adoption_note: "Not measured. Adoption is information, not evidence."
     would_change_if: "FCDO's published tables give different recipient totals; or the sector split repeats a project in several rows"
@@ -1834,6 +1836,7 @@ claims:
         and the AmountsExtended(GBP thousands) column summed by year for the recipient label "West Bank & Gaza
         Strip" (data/uk-oda-bilateral-by-recipient-2017-2024.csv, which also holds the other labels searched).
         The FCDO summary tables were not compared.
+        File read: the FCDO file Data-underlying-SID-2017-2024.ods, opened and its Data sheet parsed in full by script (sha256 in the source manifest); the extracted rows are in the csv file named above and the ods file itself is stored outside the repository.
       sources: [src-uk-sid-2024]
       accessible: true
 
@@ -1875,7 +1878,7 @@ claims:
     evidence_class: synthetic
     confidence: moderate
     evidential_weight: 3
-    anchor_checked: secondary
+    anchor_checked: primary
     adoption_weight: 1
     adoption_note: "Not measured. Adoption is information, not evidence."
     would_change_if: "CORDIS records are revised; or the country-code rule is changed by a written rule"
@@ -1886,6 +1889,7 @@ claims:
         2026 and the ecContribution column summed by country code (data/eu-cordis-ec-contribution-by-country.csv). CORDIS covers research
         grants only; the Horizon Europe file is for a programme still running at download. Split from ipm-eu-funding-records-2024-2025 on
         16 Oct 2026.
+        Files read: the three CORDIS zip files (FP7, Horizon 2020, Horizon Europe), opened and organisation.csv summed by script (zip hashes in the source manifest); the zip files are stored outside the repository and the country totals are in the csv file named above.
       sources: [src-cordis]
       accessible: true
 
@@ -1950,7 +1954,7 @@ claims:
     evidence_class: synthetic
     confidence: moderate
     evidential_weight: 3
-    anchor_checked: secondary
+    anchor_checked: primary
     adoption_weight: 2
     adoption_note: "Not measured. Adoption is information, not evidence."
     would_change_if: "Qatar Fund for Development disbursement records are read and differ; or FTS or DAC2A are revised"
@@ -1961,6 +1965,7 @@ claims:
         data/oecd-dac2a-gross-oda-to-west-bank-gaza-2016-2024.csv (as described in ipm-donor-tables-west-bank-gaza-2016-2025).
         The World Bank September 2019 passage and footnote 9 were read in context in the report itself (primary). FARA figures
         are not part of this claim's anchor. Qatar Fund for Development annual reports were not searched.
+        Files read: the FTS payer table and the OECD DAC2A extract named above, opened in full and filtered by script to the Qatari payer labels; the World Bank passages were opened in the report's text layer (the whole report was not read).
       sources: [src-ocha-fts, src-oecd-dac2a, src-wb-ahlc-2019-09]
       accessible: true
 
@@ -1981,7 +1986,7 @@ claims:
     evidence_class: synthetic
     confidence: moderate
     evidential_weight: 3
-    anchor_checked: secondary
+    anchor_checked: primary
     adoption_weight: 2
     adoption_note: "Not measured. Adoption is information, not evidence."
     would_change_if: "Turkish official reports are read and give different amounts"
@@ -1991,6 +1996,7 @@ claims:
         Dataset, totals recomputed by script: rows for Türkiye in the FTS payer table and DAC2A file (see
         ipm-donor-tables-west-bank-gaza-2016-2025). A tika.gov.tr page was tried and returned 404. FARA figures are not part of
         this claim's anchor.
+        Files read: the FTS payer table and the OECD DAC2A extract named above, opened in full and filtered by script to the Türkiye rows; stored in data/ocha-fts and data/.
       sources: [src-ocha-fts, src-oecd-dac2a]
       accessible: true
 
@@ -2064,7 +2070,7 @@ claims:
     evidence_class: synthetic
     confidence: moderate
     evidential_weight: 3
-    anchor_checked: secondary
+    anchor_checked: primary
     adoption_weight: 1
     adoption_note: "Not measured. Adoption is information, not evidence."
     would_change_if: "the register's own pages for a charity differ from the extract; or charities outside the name rule are added by a written rule"
@@ -2076,6 +2082,7 @@ claims:
         data/PARTB_SELECTION_RULES.md into data/uk-charity-register-selection.csv. Names that match the keywords
         include unrelated bodies (for example congregations and a hospital group); the purpose of each charity was
         not read.
+        Files read: the Charity Commission public extract (charity and annual return history zip files), opened and parsed in full by script; the zip files are stored outside the repository (hashes in the source manifest) and the selected rows are in the csv file named above.
       sources: [src-cc-register-extract-2026]
       accessible: true
 
@@ -2228,7 +2235,7 @@ claims:
     evidence_class: synthetic
     confidence: moderate
     evidential_weight: 3
-    anchor_checked: secondary
+    anchor_checked: primary
     adoption_weight: 2
     adoption_note: "Not measured. Adoption is information, not evidence."
     would_change_if: "amended reports change a committee's totals; or committees outside the keyword rule are added by a written rule"
@@ -2241,6 +2248,7 @@ claims:
         images and OpenFEC were not used. A comparison of this pull's candidate-level independent expenditures with figures
         stated on an unnamed owner-supplied lead is in data/fec-pull-vs-lead-site-independent-expenditures.csv (comparison only,
         not an anchor; limited to the candidates that lead lists).
+        Files read: cm22, cm24, cm26 and webk22, webk24, webk26, opened and parsed in full by script; the raw files are stored outside the repository (hashes in data/ROUND2_SELECTION_RULES.md) and the selected rows are in data/fec-committee-summaries-webk-2022-2026.csv and data/fec-selected-committees-2022-2026.csv.
       sources: [src-fec-bulk-2022-2026]
       accessible: true
     basis: >
@@ -2294,7 +2302,7 @@ claims:
     evidence_class: synthetic
     confidence: moderate
     evidential_weight: 3
-    anchor_checked: secondary
+    anchor_checked: primary
     adoption_weight: 2
     adoption_note: "Not measured. Adoption is information, not evidence."
     would_change_if: "amended Schedule E or Schedule B filings change amounts; or the filing images differ from the bulk files"
@@ -2307,6 +2315,7 @@ claims:
         independent-expenditure items counted once from Schedule E). Totals computed by script from the 19,287 transaction rows.
         Schedule E 24/48-hour reports can differ from final reports. Filing images were not opened. Candidate-level support and
         opposition per row are in the transaction file (payee column).
+        Files read: the Schedule E, pas2 and oth files for the three cycles, opened and parsed in full by script; the raw files are stored outside the repository (hashes in data/ROUND2_SELECTION_RULES.md) and the extracted rows are in data/fec-transactions-2022-2026.csv.gz.
       sources: [src-fec-bulk-2022-2026]
       accessible: true
     basis: "Spending beside a vote or a primary shows timing and amount only, not cause (rule P5)."
@@ -2386,6 +2395,7 @@ claims:
     confidence: moderate
     evidential_weight: 3
     anchor_checked: secondary
+    exception: "The claim states what the searches returned and what the opened notices and annual reports contain. The 38 notices and the annual-report sentences were opened and read, but the USAspending award counts and amounts are as the API returned them and the contract documents behind them were not opened."
     adoption_weight: 2
     adoption_note: "Not measured. Adoption is information, not evidence."
     would_change_if: "the contract documents behind the awards, or the five unreadable notices, are read and say something different"
@@ -2461,6 +2471,7 @@ claims:
     confidence: moderate
     evidential_weight: 3
     anchor_checked: secondary
+    exception: "The claim states what the same searches returned. Notices and annual-report sentences were opened and read, but the USAspending award counts and amounts are as the API returned them and the contract documents behind them were not opened."
     adoption_weight: 1
     adoption_note: "Not measured. Adoption is information, not evidence."
     would_change_if: "the contract documents behind the awards, or the five unreadable notices, are read and say something different"
