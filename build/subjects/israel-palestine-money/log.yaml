@@ -337,3 +337,15 @@ log:
       the authors) and ipm-company-documents-lead-list-found and ipm-company-documents-other-names-found (they state what searches
       returned; contract documents behind the awards not opened). The validator does not read the exception line, so these three still
       show the warning. The assessment paragraph on anchor labels was rewritten to match.
+  - id: L-28
+    date: 2026-10-20
+    entry: >
+      Follow-up to L-27 after independent review of 574a2e4. Earlier entries are not edited. Wording of claims about the world is
+      unchanged. (1) ipm-qatar-channels-2016-2025 and ipm-turkiye-channels-2016-2025: each anchor now says that anchor_checked primary
+      covers the FTS and DAC2A figures (and, for Qatar, the World Bank passages) and does not cover the FARA examples or, for Qatar, the
+      UK register name search; the sentence in the assessment about the nine claims was corrected to say the same. (2)
+      ipm-campaign-lobbying-money: the anchor now says that hashes for webk22, webk24, webk26 and the 2022 to 2026 independent-expenditure
+      files are in data/ROUND2_SELECTION_RULES.md (checked against stored copies), and that no hash was recorded for the webk20 file or
+      the lda.gov API output, which are not available to hash. (3) The assessment text marks ipm-unga-voting-patterns, and the coverage
+      claim marks ipm-israel-state-settlement-spending and ipm-canada-charities-revoked, as proposed with a secondary anchor; the six
+      claims lowered in L-27 are removed from the assessment basis list.
