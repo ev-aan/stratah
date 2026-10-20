@@ -68,7 +68,7 @@ claims:
     evidential_weight: 2
     anchor_checked: secondary
     adoption_weight: 5
-    adoption_note: "The Israel reading is the standard one and is repeated everywhere; the weight here comes from the two printed translations, not from that."
+    adoption_note: "The Israel reading is the standard one and is common in the summaries seen (not counted); the weight here comes from the two printed translations, not from that."
     would_change_if: >
       the hieroglyphic text (Plate XIV, Lacau's text, Kitchen's edition, the TLA record or the object) is transliterated and shows a different sign group, or a reading other than Israel is
       argued from the signs by a specialist (see merneptah-reading-israel-disputed), or the two translations turn out to rest on one faulty copy
@@ -95,11 +95,11 @@ claims:
     evidential_weight: 1
     anchor_checked: 'no'
     adoption_weight: 5
-    adoption_note: "Universally stated as settled in the popular and scholarly summaries seen; not checked here against the signs."
+    adoption_note: "Stated as settled in the popular and scholarly summaries seen (not counted); not checked here against the signs."
     would_change_if: "Line 27 is transliterated from Plate XIV, Lacau's text, Kitchen's Ramesside Inscriptions IV or the TLA record, or the object, and the sign group and its determinative are compared with the readings in the translations"
     next_step: >
       Transliterate line 27 (and the date line, line 1) from the two copies already opened (Petrie Plate XIV, PDF page 71 of the scan; Lacau 1909, printed pages 54 and 58) with a sign list, or ask an Egyptologist to;
-      then compare with Kitchen RI IV or the TLA record once either can be opened.
+      then compare with Kitchen RI IV or the TLA record once either can be opened. Settle the determinative: JAEI 2010 note 16 says "hill-country determinative", Hjelm 2016 says a people determinative.
     anchor:
       type: search-record
       description: >
@@ -107,6 +107,8 @@ claims:
         to 28; line 27 begins at the marker "27" on page 58 and ends at "28"), and Plate XIX (photograph). An independent author team (JAEI 2010, note 16) cites Lacau pages 52-59, "esp. 58", for the names of this strophe,
         which matches the page where line 27 was found. The signs were not transliterated: no sign list or hieroglyphic edition was used and the author is not an Egyptologist.
         Breasted prints the name with a transliteration whose characters are damaged in the OCR (only "-s-r-" and "-r" survive) and no sign group.
+        OPEN POINT (found on re-reading JAEI 2010 note 16, 2026-10-20): besides the Lacau page numbers, note 16 gives its own transliteration of the name on CG 34025 and the Karnak duplicate and says it carries a "hill-country determinative"; Hjelm 2016 (page 3) says the determinative is that of a people rather than a land.
+        The two statements differ. Neither was checked against the signs here, the note's transliteration characters are garbled in the text layer, and no sign was transliterated by this author; which is right is not known here.
         Searched and not opened: the TLA record (bot-verification page), UCL Digital Egypt (HTTP 403), Kitchen RI IV (not located), a web page said by a search result to argue that Lacau's line 27 was altered (HTTP 403).
         Searched with no hit: the TLA open data set of 3,606 intact Late Egyptian sentences (Hugging Face, v19), which has no sentence from this stele.
       sources: [src-petrie-pl-xiv, src-lacau-1909-text, src-lacau-1909-plates, src-breasted-are3, src-jaei-2010, src-tla-open-data, src-tla, src-ucl-digital-egypt, src-kri-iv, src-davidovits]
@@ -115,8 +117,8 @@ claims:
   - id: merneptah-reading-israel-disputed
     state: contested
     statement: >
-      A 2016 scholarly chapter (Hjelm) says that scholars have disagreed about how the hieroglyphs of the name should be read and names other proposed readings (Sharon, Jizreel, Jeshurun, 'Asher); it reads the entry as a people of the land of Hurru
-      listed with Gezer, Ashkelon and Yeno'am, and calls the determinative of a people rather than a land "exceptional in Egyptian epigraphy". The two translations read here print "Israel".
+      A 2016 scholarly chapter (Hjelm) says that scholars have disagreed about how the hieroglyphs of the name should be read and names other proposed readings (Sharon, Jizreel, Jeshurun, 'Asher); under the heading "From a historical Israel perspective" (one of three perspectives she sets out: historical, biblical and ancient Israel) it reads the entry as a people of the land of Hurru
+      listed with Gezer, Ashkelon and Yeno'am; elsewhere in the chapter she calls the determinative of a people rather than a land "exceptional in Egyptian epigraphy". The two translations read here print "Israel".
     statement_kind: reported
     evidence_class: interpretive
     confidence: low
@@ -129,7 +131,7 @@ claims:
     disputed_by:
       - who: "Ingrid Hjelm (with Thomas L. Thompson, 2002)"
         kind: person
-        position: "Says there are several possible readings of the hieroglyphs of the name; reads the entry as a people of the land of Hurru, in a list with Gezer, Ashkelon and Yeno'am."
+        position: "Says there are several possible readings of the hieroglyphs of the name; from what she calls a historical Israel perspective (the chapter also sets out a biblical and an ancient Israel perspective), reads the entry as a people of the land of Hurru, in a list with Gezer, Ashkelon and Yeno'am."
         source_read: src-hjelm-2016
         via: "Pages 1 to 3 of the author's copy of the 2016 chapter, read directly. The 2002 article it cites for the proposed readings was not opened."
     anchor:
@@ -137,6 +139,8 @@ claims:
       description: >
         Read directly: Hjelm 2016, pages 1 to 3 of the author's copy (extract in sources/extracts/hjelm-2016-extract.txt). She cites Hjelm and Thompson 2002, pp. 13-14, for the readings; that article was not opened,
         so what each proposal rests on in the signs is not known here. Translations: Petrie 1897 and Breasted 1906.
+        OPEN POINT (JAEI 2010 note 16, re-read 2026-10-20): that note gives its own transliteration of the name on CG 34025 and the Karnak duplicate with a "hill-country determinative", while Hjelm says the determinative is that of a people rather than a land.
+        The discrepancy is not resolved here: no sign was transliterated by this author and the note's characters are garbled in the text layer.
       sources: [src-hjelm-2016, src-petrie-1897, src-breasted-are3]
     basis: "A report of what one later author says. It does not show the signs allow another reading."
 
@@ -157,7 +161,7 @@ claims:
       description: "Petrie 1897 section 48, II c; Breasted 1906 section 617 with note b ('Lit., the Canaan') and note on 'widow' (section 617, notes). Read in OCR as translations, 2026-10-14 and 2026-10-15."
       sources: [src-petrie-1897, src-spiegelberg-tr-in-petrie, src-breasted-are3]
     basis: >
-      # V: read 2026-10-14 and 2026-10-15. Breasted section 605: "Israel ... was defeated and plundered by Merneptah"; section 608 reads the stele together with Merneptah's title "Binder of Gezer".
+      # V: read 2026-10-14 and 2026-10-15. Breasted section 605: "Israel ... was defeated and plundered by Merneptah"; section 606 (pp. 258-259) reads the stele together with Merneptah's title "Binder of Gezer" ("as indicated also in our Hymn of Victory (l. 27)"; the running page head on p. 259 reads "§ 608"). Section 608 is the "Great Deliverance" text.
       Passive verbs throughout; the hymn is an Egyptian victory poem. It does not name who held Canaan.
 
   - id: merneptah-text-silent-on-nation-king-hyksos
@@ -177,7 +181,7 @@ claims:
       type: search-record
       description: >
         Searched the full English text of the hymn in both translations for: Hyksos, Shasu, Hapiru, Habiru, Apiru, nation, king (other than Egyptian kings and the general 'kings are overthrown'), conquer. No hit about Israel.
-        Only Breasted's footnote uses 'nation', about a title ('a specific town, or even nation') and not about Israel. The Karnak duplicate was viewed as Duemichen's plate (fragment c, 19 lines) but not transliterated,
+        Only Breasted's main text (section 606, p. 259) uses 'nation', about a title ('a specific town, or even nation, in such an epithet') and not about Israel. The Karnak duplicate was viewed as Duemichen's plate (fragment c, 19 lines) but not transliterated,
         and by Petrie's own concordance its last line ends about a third of the way along line 27, so it was not searched for these words.
       sources: [src-petrie-1897, src-spiegelberg-tr-in-petrie, src-breasted-are3, src-duemichen-1867]
     basis: >
@@ -189,7 +193,8 @@ claims:
     state: proposed
     statement: >
       Petrie found the stele in 1896 in the south-west corner of the first court of Merneptah's temple at Thebes, where it had stood against the south wall and fallen forwards. Merneptah's hymn is cut on the rough back of a stele of Amenhotep III, which had been moved from Amenhotep III's temple and set back outward.
-      Lacau's 1909 Cairo catalogue gives the find place as "Thebes, temple funeraire de Meneptah", says Merneptah had carried the stele of "Amenophis" to his funerary temple and used its back, and adds that the recto was almost entirely hammered out by Amenophis IV and re-engraved by Seti I.
+      Lacau's 1909 Cairo catalogue gives the find place as "Thèbes, temple funéraire de Meneptaḥ", says Merneptah had carried the stele of "Amenophis" to his funerary temple and used its back, and adds that the recto was almost entirely hammered out by Amenophis IV and re-engraved by Seti I.
+      Lacau (p. 47) names the king of the recto as Amenophis III: "Le roi Amenophis III fait l'offrande du vin au dieu Amon".
     statement_kind: reported
     evidence_class: interpretive
     confidence: low
@@ -236,7 +241,7 @@ claims:
   - id: merneptah-cairo-accession-jE31408
     state: established
     statement: >
-      Lacau's 1909 catalogue of the Cairo Museum lists the stele as Catalogue general no. 34025 (recto: a stele of "Amenophis", Amenhotep III per Petrie; verso: Merneptah) and gives its Journal d'entree number as 31408: grey granite, 3 m 18 high, 1 m 63 wide, 0 m 31 thick,
+      Lacau's 1909 catalogue of the Cairo Museum lists the stele as Catalogue general no. 34025 (recto: a stele of "Amenophis", which Lacau's p. 47 describes as showing "Le roi Amenophis III fait l'offrande du vin au dieu Amon"; verso: Merneptah) and gives its Journal d'entree number as 31408: grey granite, 3 m 18 high, 1 m 63 wide, 0 m 31 thick,
       from Thebes, the funerary temple of Merneptah. The two numbers are two different registers of the same object in that record. Where the stele is now, and under which number, was not checked.
     statement_kind: reported
     evidence_class: primary_text
@@ -249,7 +254,7 @@ claims:
     anchor:
       type: primary_text
       description: >
-        Lacau 1909, printed page 47 (head of entry "34025 (recto)": material, height, width, thickness, find place) and printed page 52 (bibliography line "Journal d'entree du Musee, n° 31408"; start of entry "34025 (verso)"),
+        Lacau 1909, printed page 47 (head of entry "34025 (recto)": material, height, width, thickness, find place; and the caption "Scène de droite. Le roi Amenophis III fait l'offrande du vin au dieu Amon") and printed page 52 (bibliography line "Journal d'entrée du Musée, n° 31408"; start of entry "34025 (verso)"),
         read as page images on 2026-10-15 (PDF pages 49 and 54; extract transcribed in sources/extracts/lacau-1909-extract.txt). The plate captions ("34.025 (recto)" Pl. XVI; "34.025 (verso)" Pl. XVII-XIX) agree with the text.
         Cross-check, not an anchor: an independent author team (JAEI 2010, note 16) cites the same catalogue for the stele as "CG 34025", pages 52-59 and Plates XVII-XIX.
       sources: [src-lacau-1909]
@@ -323,7 +328,7 @@ claims:
       type: interpretive
       description: "Petrie 1897 section 48, I (Protocol: year V, third day of the third month); Breasted 1906 section 607 ('Year 5, third month of the third season (eleventh month), third day'). Read in OCR as translations, 2026-10-14 and 2026-10-15. The date line of Petrie's Plate XIV and Lacau's text was looked at but not transliterated."
       sources: [src-petrie-1897, src-spiegelberg-tr-in-petrie, src-breasted-are3]
-    basis: "# V: both translations read. Year 5 and day 3 agree. Breasted's translations of the Karnak and Athribis texts also give year 5 (merneptah-libyan-war-year-5-parallels)."
+    basis: "# V: both translations read. Year 5 and day 3 agree. Breasted's Athribis text (section 598) and Cairo column (section 595) print year 5, and his summary (sections 570-571) puts the Libyan battle in Merneptah's fifth year; his Great Karnak Inscription (section 583) prints the day and month but not the year (merneptah-libyan-war-year-5-parallels)."
 
   - id: merneptah-date-season-discrepancy
     state: searched_gap
@@ -348,7 +353,8 @@ claims:
   - id: merneptah-libyan-war-year-5-parallels
     state: proposed
     statement: >
-      Breasted's 1906 translations of the Great Karnak Inscription (section 583) and the Athribis stela (section 598) put the Libyan battle in year 5 of Merneptah, on day 3 of the third month of the third season (eleventh month).
+      Breasted's 1906 translation of the Athribis stela (section 598) is headed "Year 5, third month of third season (eleventh month), third day", and his summary (sections 570-571) puts the Libyan battle in Merneptah's fifth year; his Cairo column (section 595) is dated year 5, second month of the third season (tenth month).
+      His translation of the Great Karnak Inscription (section 583) prints the third day of the third month of the third season (eleventh month) but not the year in that section.
       His translation of the Israel hymn (section 607) gives the same year, season and day, and he describes the hymn as celebrating that victory (section 602).
     statement_kind: reported
     evidence_class: interpretive
@@ -361,7 +367,7 @@ claims:
     anchor:
       type: interpretive
       description: >
-        Breasted 1906, sections 570-571 (summary), 583 (Great Karnak Inscription), 598 (Athribis stela), 602 and 607, read in OCR text on 2026-10-15 (extract in sources/extracts/breasted-1906-extract.txt).
+        Breasted 1906, sections 570-571 (summary; "Merneptah's fifth year"), 583 (Great Karnak Inscription; day and month, no year printed there), 595 (Cairo column; year 5), 598 (Athribis stela; year 5), 602 and 607, read in OCR text on 2026-10-15 (extract in sources/extracts/breasted-1906-extract.txt).
         These are one translator's renderings of three texts, so they are not three independent dates. The Karnak and Athribis originals were not read.
       sources: [src-breasted-are3]
     basis: "Records what Breasted printed. The Israel stele's own date line is not checked against this; Petrie/Spiegelberg's season differs (merneptah-date-season-discrepancy)."

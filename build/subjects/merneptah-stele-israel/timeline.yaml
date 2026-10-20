@@ -6,7 +6,7 @@ timeline:
     Times are UTC. Every dot on this page is a modern date (a find, a publication, a catalogue): each is known to the year or month only, so dots are drawn as approximate, and each says how its date was arrived at
     (stated, derived or inferred). The dates inside the ancient texts are regnal dates (year 5 of Merneptah, day 3 of the third month of a season). They are NOT converted to a BCE year here: no chronology of the Nineteenth Dynasty
     was read, and the round figures seen (1200 BC, about 1209 BCE) are statements, not a computed range (claim merneptah-absolute-date-bce). They are listed in the YAML under `undated_events` and are not drawn.
-    A dot is a record of what a source says, not proof of the event. Dates for the Duemichen fragment, Spiegelberg's article and Petrie's 1896 notice come from other books' statements or item metadata, not from the works themselves.
+    A dot is a record of what a source says, not proof of the event. Dates for Spiegelberg's article and Petrie's 1896 notice come from other books' statements or item metadata, not from the works themselves.
 panels:
   - id: modern-a
     title: "Panel A: 1860 to 1912, the Karnak fragment, the find, the first publications and the Cairo catalogue (one tick per five years)"
@@ -43,7 +43,7 @@ events:
   # ---------------- Panel A ----------------
   - {id: m01, panel: modern-a, lane: text, time: "1867-07-01T12:00:00Z", precision: year, date_basis: stated, kind: document, status: single, sources: [src-duemichen-1867],
      label: "1867: Duemichen publishes the Karnak fragment of a duplicate of the inscription",
-     detail: "Year from the Internet Archive item record (publisher Hinrichs); the printed year was not read on the title page. Taf. I, fragment c, has 19 numbered lines (viewed 2026-10-15). By Petrie's concordance it ends about a third of the way along line 27 of the Thebes text."}
+     detail: "Year printed on the title page of the volume (imprint: Leipzig, J. C. Hinrichs'sche Buchhandlung, 1867; read in the page image on 2026-10-20, the OCR text layer garbles it) and given in the Internet Archive item record. The title page also gives the field years 1863-1865. Taf. I, fragment c, has 19 numbered lines (viewed 2026-10-15). By Petrie's concordance it ends about a third of the way along line 27 of the Thebes text."}
   - {id: m02, panel: modern-a, lane: object, time: "1896-01-01T00:00:00Z", precision: year, date_basis: stated, kind: document, status: single, sources: [src-petrie-1897],
      label: "1896: Petrie finds the stele in the first court of Merneptah's temple, Thebes (the excavator's report)",
      detail: "Year from the report's title ('Six Temples at Thebes, 1896') and its statement that this was the greatest discovery of the temple. The month and day are not in the passages read. Same event as shared node merneptah-1896-petrie-finds-israel-stele (rev 1)."}
@@ -78,7 +78,7 @@ undated_events:
     detail: "As printed in two translations: Petrie/Spiegelberg 'third month of the period of inundation'; Breasted 'third month of the third season (eleventh month)'. The signs of the date line were not transliterated (claims merneptah-regnal-date-year-5 and merneptah-date-season-discrepancy)."
     sources: [src-petrie-1897, src-breasted-are3]
   - id: u02
-    label: "Libyan battle in Merneptah's year 5, day 3 of the third month of the third season (eleventh month), per Breasted's translations of the Athribis stela (section 598) and the Great Karnak Inscription (section 583)"
+    label: "Libyan battle in Merneptah's year 5, day 3 of the third month of the third season (eleventh month), per Breasted's translations of the Athribis stela (section 598, which prints year 5) and the Great Karnak Inscription (section 583, which prints the day and month but not the year; year 5 is from his sections 570-571 and 595)"
     date_basis: stated
     detail: "One translator's renderings of two texts whose originals were not read (claim merneptah-libyan-war-year-5-parallels). Breasted also gives the report of the invasion reaching the king in the tenth month of that year (sections 570 and 595)."
     sources: [src-breasted-are3]

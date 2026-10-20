@@ -1,22 +1,25 @@
 # Short excerpts from P. Lacau, Catalogue general des antiquites egyptiennes du Musee du Caire, Steles du Nouvel Empire, vol. 1 fasc. 1 (Cairo, 1909).
 # Internet Archive item LacauSteles1Fasc1 (PDF sha256 f0e8d51d466c5d58cf570e25c0f2243c13fd7ce5898152a755bd0e2bd83ea378).
 # These lines were TRANSCRIBED BY THE AUTHOR FROM THE PAGE IMAGES (printed pages 47, 52, 58; PDF pages 49, 54, 60) because the OCR of the French and of the
-# hieroglyph blocks is unreliable. Accents are kept as printed. The hieroglyphic text and the plates are images and are not stored.
+# hieroglyph blocks is unreliable. Accents are kept as printed (restored 2026-10-20 from the page images; the first version of this file had them stripped). The hieroglyphic text and the plates are images and are not stored.
 
 ## p. 47 (PDF p. 49), head of the entry for the Amenhotep III side
-34025 (RECTO). Steles cintree du roi [two cartouches]. Le verso a ete utilise par le roi [two cartouches]. - Granit gris. - Haut. 3 m. 18 c., larg. 1 m. 63 cent., epaiss. 0 m. 31 cent. - Thebes, temple funeraire de Meneptah (pl. XV et XVI).
-Cette stele a ete presque entierement martelee par Amenophis IV puis regravee par Seti Ier.
+34025 (RECTO). Stèle cintrée du roi [two cartouches]. Le verso a été utilisé par le roi [two cartouches]. — Granit gris. — Haut. 3 m. 18 c., larg. 1 m. 63 cent., épaiss. 0 m. 31 cent. — Thèbes, temple funéraire de Meneptaḥ (pl. XV et XVI).
+Cette stèle a été presque entièrement martelée par Amenophis IV puis regravée par Seti Ier.
+
+## p. 47 (PDF p. 49), first register, scene on the right (added 2026-10-20)
+Scène de droite. Le roi Amenophis III fait l'offrande du vin au dieu Amon.
 
 ## p. 52 (PDF p. 54), bibliography line at the end of the recto text block
-BIBL. : Journal d'entree du Musee, n° 31408; Contemporary Review, May 1896, 619; Century Magazine, August 1896, 501 (une reproduction); FL. PETRIE, Six temples at Thebes, 1897, p. 10-11, pl. XI-XII; SPIEGELBERG, dans Six temples at Thebes, p. 23-26; SPIEGELBERG, Recueil de travaux, XX, p. 37-54 (une planche en phototypie); Orientalistische Litteratur Zeitung, 1898, n° 5, 156-157; BREASTED, Ancient Records of Egypt, II, §878-890.
+BIBL. : Journal d'entrée du Musée, n° 31408; Contemporary Review, May 1896, 619; Century Magazine, August 1896, 501 (une reproduction); FL. PETRIE, Six temples at Thebes, 1897, p. 10-11, pl. XI-XII; SPIEGELBERG, dans Six temples at Thebes, p. 23-26; SPIEGELBERG, Recueil de travaux, XX, p. 37-54 (une planche en phototypie); Orientalistische Litteratur Zeitung, 1898, n° 5, 156-157; BREASTED, Ancient Records of Egypt, II, §878-890.
 
 ## p. 52 (PDF p. 54), start of the entry for the Merneptah side
-34025 (VERSO). Steles cintree du roi [two cartouches] (pl. XVII-XIX).
-Meneptah avait transporte la stele d'Amenophis dans son temple funeraire et il en a utilise le revers de la facon suivante :
+34025 (VERSO). Stèle cintrée du roi [two cartouches] (pl. XVII-XIX).
+Meneptaḥ avait transporté la stèle d'Amenophis dans son temple funéraire et il en a utilisé le revers de la façon suivante :
 
 ## p. 58 (PDF p. 60), after the hieroglyphic text of the verso (lines numbered in the text up to 28)
-TECHNIQUE. Les personnages sont en relief cerne d'un creux. Ils sont peints en jaune, avec les bracelets et les colliers en bleu. Les hieroglyphes graves en creux etaient peints en jaune. La gravure est tres negligee. La surface de la stele a ete tres mal planee, pas de poli.
-CONSERVATION. Un eclat manque a l'angle inferieur gauche; dans la moitie inferieure les couleurs ont disparu.
+TECHNIQUE. Les personnages sont en relief cerné d'un creux. Ils sont peints en jaune, avec les bracelets et les colliers en bleu. Les hiéroglyphes gravés en creux étaient peints en jaune. La gravure est très négligée. La surface de la stèle a été très mal planée, pas de poli.
+CONSERVATION. Un éclat manque à l'angle inférieur gauche; dans la moitié inférieure les couleurs ont disparu.
 BIBL. : SPIEGELBERG, Aeg. Zeits., XXXIV (1896), p. 1-25 et pl. I; PETRIE, Six temples at Thebes (1897), p. 13, 30, pl. XIII et XIV; SPIEGELBERG, dans Six temples at Thebes, p. 26-28; PETRIE, Contemporary Review, mai 1896; PETRIE, Century Magazine, August, 1896; SPIEGELBERG, Sitzungsberichte der Akad. der Wissens. zu Berlin (1896), XXV, p. 593; [further titles omitted] ...
 
 ## Plates (images, not transcribed)

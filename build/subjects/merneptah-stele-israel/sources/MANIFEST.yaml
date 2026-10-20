@@ -87,7 +87,7 @@ sources:
       tests:
         - "Footnote d to section 602 gives the same findspot facts as Petrie (found by Petrie 1896 in the ruins of Merneptah's temple, text on the back of Amenhotep III's stela), but Breasted says he also had Brugsch's photographs and collated the Karnak duplicate (could have failed)"
         - "Section 607 date (year 5, day 3) agrees with Petrie's translation on year and day; the season differs (see claim merneptah-date-season-discrepancy)"
-        - "Section 598 (Athribis stela) and section 583 (Karnak) give the same year, season and day as section 607 (see claim merneptah-libyan-war-year-5-parallels)"
+        - "Section 598 (Athribis stela) gives the same year, season and day as section 607, and section 583 (Karnak) the same season and day but no year in that section (year 5 for the Karnak text is from Breasted's summary, sections 570-571; see claim merneptah-libyan-war-year-5-parallels)"
       tested_by: "Stratah dig author session (not an independent review)"
       gaps: ["OCR only: page images not compared except as noted in log L-10", "Hieroglyphs of the Israel line not read by Breasted in the text layer: his transliteration of the name is damaged in the OCR", "Breasted's findspot note draws on Petrie and Spiegelberg, so it is not an independent witness to the find", "The Athribis and Karnak texts were read only as Breasted's translations"]
       next_step: "Compare the OCR with the page images for sections 603-617 and 583-598."
@@ -156,7 +156,7 @@ sources:
     authenticity:
       status: authenticated
       strength: weak
-      provenance: "Item bub_gb_54xCAAAAcAAJ, a Google Books digitisation, Hinrichs 1867 per the item metadata (title page read: 'In den Jahren 1863-1865 an Ort und Stelle gesammelt')."
+      provenance: "Item bub_gb_54xCAAAAcAAJ, a Google Books digitisation, Hinrichs 1867 per the item metadata. Title page read as an image on 2026-10-20: 'In den Jahren 1863-1865 an Ort und Stelle gesammelt' (the field years) and, in the imprint, 'Leipzig, J. C. Hinrichs'sche Buchhandlung, 1867' (the OCR text layer garbles the title page and has no 1867)."
       tests: ["Taf. I shows fragment c with 19 numbered lines, which agrees with Petrie's statement that Duemichen's last line is '19' (could have failed; Petrie 1897, note after section 51)"]
       tested_by: "Stratah dig author session (not an independent review)"
       gaps: ["Signs not read; the fragment was not matched to the Thebes text", "That the Karnak copy names Amen where the Thebes copy names Ptah was not checked", "Only Taf. I was viewed"]

@@ -1,6 +1,6 @@
 # Shared node. Append-only: a change is a new `rev` plus a `history` entry, never an overwrite. See build/SCHEMA.md, Nodes.
 id: merneptah-1896-petrie-finds-israel-stele
-rev: 1
+rev: 2
 type: event
 label: '1896: Petrie finds the Merneptah (Israel) stele in the first court of Merneptah''s temple, Thebes'
 time: '1896-01-01'
@@ -11,8 +11,8 @@ status: single
 what: >-
   Petrie's excavation report (published 1897) says the black granite stele of Merneptah, engraved on the back of a stele of
   Amenhotep III, lay in the south-west corner of the first court of Merneptah's temple at Thebes, apparently overthrown forwards
-  against the south wall, resting on a column base. The report is titled "1896" and the stele is called "the greatest prize of the
-  year". The month and day of the find are not given in the passages read.
+  against the south wall, resting on a column base. The report is titled "1896" and section 29 calls the find of the stele "the greatest discovery in the
+  temple". ("The greatest prize of the year" is said in the same section of the upper part of a colossal seated statue of Merenptah, "next to the Israel inscription".) The month and day of the find are not given in the passages read.
 place:
   name: 'Temple of Merneptah, first court (south-west corner), Thebes'
   note: 'Named by Petrie 1897, section 29. No coordinates given; none are guessed here.'
@@ -29,3 +29,9 @@ history:
 - rev: 1
   date: '2026-10-14'
   change: Created by the merneptah-stele-israel dig from Petrie 1897, sections 29 and 48. The find year rests on the book's title and its "greatest prize of the year"; the month is not read.
+- rev: 2
+  date: '2026-10-20'
+  change: >-
+    Correction after independent review, checked against the Internet Archive OCR of Petrie 1897, section 29 (item sixtemplesattheb00petruoft).
+    rev 1 paraphrased Petrie as calling the stele "the greatest prize of the year". Section 29 says "The greatest discovery in the temple was that of the black granite stele of Merenptah";
+    "the greatest prize of the year" is said of the upper part of a colossal seated statue of Merenptah, "next to the Israel inscription". The `what` text now says so. Nothing else in the node changed; the find year (from the report's title) is unaffected. The rev 1 wording stays in the repository history and in this entry.
