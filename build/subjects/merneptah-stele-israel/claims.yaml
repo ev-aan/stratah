@@ -16,7 +16,7 @@ assessment:
   headline: "The two printed translations read here name Israel once, in a closing list of defeated places and peoples; the signs were looked at but not transliterated, and the BCE date is not established."
   text: >
     What was read. The text of the stele rests here on two printed English translations: Spiegelberg's, in Petrie's excavation report of 1897, and Breasted's of 1906.
-    Both put Israel in the closing strophe of a hymn about Merneptah's victory, in a list with Canaan, Askelon, Gezer and Yenoam. Breasted translates "Israel is desolated, his seed is not"; Spiegelberg
+    Both put Israel in the closing strophe of a hymn about Merneptah's victory, in a list with Canaan, Askelon, Gezer and Yenoam. Breasted translates "Israel is desolated, [...] his seed is not"; Spiegelberg
     "The people of Israel is laid waste,—their crops are not". Both say Canaan was seized or plundered on Merneptah's side. Neither says Israel conquered Canaan, was a nation or a united people, lacked a king,
     or came from the Hyksos, Hapiru or Shasu; that is an absence from two translations, so it is held at provisional confidence.
     What was looked at but not read. Two copies of the signs were opened as images: Petrie's facsimile (Plate XIV) and the typeset hieroglyphic text in the Cairo Museum catalogue of 1909 (Lacau),
@@ -61,7 +61,7 @@ claims:
     state: proposed
     statement: >
       In the concluding strophe of the hymn on the stele, two printed translations (Spiegelberg in Petrie 1897; Breasted 1906) name Israel in a list of places and
-      peoples that Merneptah says he has defeated. Petrie/Spiegelberg: "The people of Israel is laid waste,—their crops are not". Breasted: "Israel is desolated, his seed is not".
+      peoples that Merneptah says he has defeated. Petrie/Spiegelberg: "The people of Israel is laid waste,—their crops are not". Breasted: "Israel is desolated, [...] his seed is not".
     statement_kind: reported
     evidence_class: interpretive
     confidence: low
@@ -118,7 +118,7 @@ claims:
     state: contested
     statement: >
       A 2016 scholarly chapter (Hjelm) says that scholars have disagreed about how the hieroglyphs of the name should be read and names other proposed readings (Sharon, Jizreel, Jeshurun, 'Asher); under the heading "From a historical Israel perspective" (one of three perspectives she sets out: historical, biblical and ancient Israel) it reads the entry as a people of the land of Hurru
-      listed with Gezer, Ashkelon and Yeno'am; elsewhere in the chapter she calls the determinative of a people rather than a land "exceptional in Egyptian epigraphy". The two translations read here print "Israel".
+      located in an area comprising Gezer and the city states Gaza, Ashkelon and Yeno'am; elsewhere in the chapter she calls the determinative of a people rather than a land "exceptional in Egyptian epigraphy". The two translations read here print "Israel".
     statement_kind: reported
     evidence_class: interpretive
     confidence: low
@@ -131,7 +131,7 @@ claims:
     disputed_by:
       - who: "Ingrid Hjelm (with Thomas L. Thompson, 2002)"
         kind: person
-        position: "Says there are several possible readings of the hieroglyphs of the name; from what she calls a historical Israel perspective (the chapter also sets out a biblical and an ancient Israel perspective), reads the entry as a people of the land of Hurru, in a list with Gezer, Ashkelon and Yeno'am."
+        position: "Says there are several possible readings of the hieroglyphs of the name; from what she calls a historical Israel perspective (the chapter also sets out a biblical and an ancient Israel perspective), reads the entry as a people of the land of Hurru located in an area comprising Gezer and the city states Gaza, Ashkelon and Yeno'am."
         source_read: src-hjelm-2016
         via: "Pages 1 to 3 of the author's copy of the 2016 chapter, read directly. The 2002 article it cites for the proposed readings was not opened."
     anchor:
@@ -141,13 +141,13 @@ claims:
         so what each proposal rests on in the signs is not known here. Translations: Petrie 1897 and Breasted 1906.
         OPEN POINT (JAEI 2010 note 16, re-read 2026-10-20): that note gives its own transliteration of the name on CG 34025 and the Karnak duplicate with a "hill-country determinative", while Hjelm says the determinative is that of a people rather than a land.
         The discrepancy is not resolved here: no sign was transliterated by this author and the note's characters are garbled in the text layer.
-      sources: [src-hjelm-2016, src-petrie-1897, src-breasted-are3]
+      sources: [src-hjelm-2016, src-petrie-1897, src-breasted-are3, src-jaei-2010]
     basis: "A report of what one later author says. It does not show the signs allow another reading."
 
   - id: merneptah-text-canaan-seized-by-egypt
     state: proposed
     statement: >
-      In the same strophe the two translations say that Canaan was taken by Merneptah's side: Petrie/Spiegelberg "Seized is the Kanaan with every evil", Breasted "Plundered is Pekanan, with every evil". Askelon, Gezer and Yenoam are listed as taken or brought to nought beside it. The hymn presents Israel as one of those defeated, and Palestine "as a widow for Egypt".
+      In the same strophe the two translations say that Canaan was taken by Merneptah's side: Petrie/Spiegelberg "Seized is the Kanaan with every evil", Breasted "Plundered is Pekanan [...], with every evil". Askelon, Gezer and Yenoam are listed as taken or brought to nought beside it. The hymn presents Israel as one of those defeated, and Palestine "as a widow for Egypt".
     statement_kind: reported
     evidence_class: interpretive
     confidence: low
